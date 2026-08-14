@@ -31,7 +31,7 @@ CARDS = {
     "radar-og-es": {
         "masthead": "LISTENING NOTES",
         "title": ["RADAR"],
-        "tagline": "Música por la que vale la pena moverse.",
+        "tagline": "Música por la que vale la pena viajar.",
         "territory": "Tokio · Washington · Baltimore · Filadelfia · Newark · Nueva York",
     },
 }
