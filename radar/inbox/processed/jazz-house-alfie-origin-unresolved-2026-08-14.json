@@ -1,0 +1,75 @@
+{
+  "batch_version": 1,
+  "batch_id": "jazz-house-alfie-origin-2026-08-14",
+  "kind": "curated_event_candidates",
+  "created_on": "2026-08-14",
+  "notes": "Confirmed archival record for the attended Jazz House ALFIE night that forms part of RADAR's origin story. Personal photo remains private and is not committed as a public asset.",
+  "events": [
+    {
+      "id": "jazz-house-alfie-2026-06-23",
+      "artist": "Honami",
+      "subtitle": "with Naoto Suzuki, Akiyoshi Shimizu & Yuto Maseki",
+      "dates": {
+        "start": "2026-06-23",
+        "end": null
+      },
+      "venue": {
+        "id": "jazz-house-alfie-roppongi",
+        "name": "Jazz House ALFIE",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "attended",
+      "priority": null,
+      "category": "Historical archive",
+      "genres": ["Jazz"],
+      "musical_axes": ["Japan / Tokyo"],
+      "lineup": [
+        "Honami — vocals",
+        "Naoto Suzuki — guitar",
+        "Akiyoshi Shimizu — bass",
+        "Yuto Maseki — drums"
+      ],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Yamamoto wasn’t there. The search started that night anyway.",
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Yamamoto no estaba. La búsqueda sí empezó esa noche.",
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "user_confirmed",
+            "recorded_on": "2026-08-14",
+            "note": "User directly confirmed attending this ALFIE concert."
+          },
+          {
+            "type": "personal_photo",
+            "recorded_on": "2026-08-14",
+            "note": "User has a personal photo from inside ALFIE; no private path or image is published."
+          }
+        ],
+        "notes": "Origin of RADAR: the concert that made a return to ALFIE and the Yamamoto search feel real.",
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "user-confirmed",
+        "note": "Attendance is authoritative; lineup and date were supplied directly by the user."
+      }
+    }
+  ]
+}

@@ -7,6 +7,7 @@ about whether the show was attended.
 ## Evidence types
 
 - `user_confirmed`
+- `personal_photo`
 - `ticket_purchase`
 - `logistics_email`
 - `calendar_or_planning`

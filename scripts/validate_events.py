@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 PRIORITIES = {"S+", "S", "A+", "A"}
 STATUSES = {"considering", "going", "attended", "passed"}
 DOMAINS = {"tokyo_kanto", "us_corridor", "north_america", "rest_of_world"}
-ATTENDANCE_EVIDENCE = {"user_confirmed", "ticket_purchase", "logistics_email", "calendar_or_planning", "third_party_ticket", "archival_reference", "post_event_reference", "unknown"}
+ATTENDANCE_EVIDENCE = {"user_confirmed", "personal_photo", "ticket_purchase", "logistics_email", "calendar_or_planning", "third_party_ticket", "archival_reference", "post_event_reference", "unknown"}
 # A stable event ID ends in its year or, when a historical/show record needs
 # disambiguation, its full ISO date. Existing year-only IDs remain valid.
 ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}(?:-\d{2}-\d{2})?$")

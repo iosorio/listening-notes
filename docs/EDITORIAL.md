@@ -9,16 +9,26 @@ than a dashboard. Photography earns its place through editorial value.
 
 ## The origin of RADAR
 
-RADAR began with an unfinished search. During a Tokyo trip, a visit to Jazz
-House ALFIE in Roppongi and a search begun with a cousin nearly led to seeing
-Tsuyoshi Yamamoto live. Missing that show left a loose thread: a reason to
-return to Tokyo, return to ALFIE, and keep looking for music.
+RADAR began accidentally on a Tokyo trip for a niece’s quinceañera. It was a
+family, anime, and Japan trip before it was a music trip. A cousin, Toño, was
+looking for Tsuyoshi Yamamoto records for his father and proposed a jazz night.
+After an unsuccessful same-day attempt at Blue Note Tokyo, they found Jazz
+House ALFIE in Roppongi. A mistaken reading of ALFIE’s schedule briefly made a
+Yamamoto appearance seem possible; it had actually happened weeks earlier.
 
-Yamamoto is the current guide, not the destination or the project’s supreme
-musical authority. The search now reaches jazz, virtuosos, improvisers, bass
-players and instrumental innovators, Latin music, progressive and heavy music,
-rock, orchestral music, and anything else that makes us stop and listen. Seeing
-Yamamoto is a goal; after it happens, the listening continues wherever it leads.
+They went to ALFIE anyway, on 23 June 2026, for Honami with Naoto Suzuki,
+Akiyoshi Shimizu, and Yuto Maseki. The intimate room, the concert, and hearing
+“Osorio-san” at the door made it a lived part of the archive. ALFIE staff said
+Yamamoto plays there roughly every three months, turning “we have to come back”
+into a real idea.
+
+Yamamoto is the current thread being pulled, not the destination or the
+project’s supreme musical authority. The search now reaches jazz, virtuosos,
+improvisers, bass players and instrumental innovators, Latin music, progressive
+and heavy music, rock, orchestral music, and anything else that makes us stop
+and listen. Seeing Yamamoto is a goal; after it happens, the listening
+continues wherever it leads. RADAR records where curiosity is heading; ARCHIVE
+records the nights that were actually lived.
 
 ## Selection rule
 

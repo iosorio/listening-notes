@@ -18,7 +18,7 @@ CANONICAL = ROOT / "radar/events.json"
 CURATED = ROOT / "radar/inbox/curated"
 PROCESSED = ROOT / "radar/inbox/processed"
 VALIDATOR = ROOT / "scripts/validate_events.py"
-EVIDENCE_TYPES = {"user_confirmed", "ticket_purchase", "logistics_email", "calendar_or_planning", "third_party_ticket", "archival_reference", "post_event_reference", "unknown"}
+EVIDENCE_TYPES = {"user_confirmed", "personal_photo", "ticket_purchase", "logistics_email", "calendar_or_planning", "third_party_ticket", "archival_reference", "post_event_reference", "unknown"}
 
 
 def fail(message: str) -> None:
