@@ -30,6 +30,10 @@ and listen. Seeing Yamamoto is a goal; after it happens, the listening
 continues wherever it leads. RADAR records where curiosity is heading; ARCHIVE
 records the nights that were actually lived.
 
+The ALFIE Notes essay is the canonical public telling of this origin story.
+Keep RADAR’s public introduction short and link to the essay instead of
+duplicating the long form there.
+
 ## Selection rule
 
 An event appears because a specific artist, setting, repertoire, lineup,
