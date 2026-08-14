@@ -1,18 +1,1090 @@
-[
-  {"id":"stanley-clarke-barkan-2026","artist":"Stanley Clarke & Friends","subtitle":"Todd Barkan's 80th Birthday","start":"2026-08-13","end":"2026-08-15","city":"Baltimore","venue":"Keystone Korner","priority":"S","category":"Living masters","genres":["Jazz","Fusion"],"status":"attended","trip":"Short trip","why":"Stanley Clarke and Lenny White reunite in an intimate club to celebrate Todd Barkan; a living link to Return to Forever and the history of Keystone Korner.","listen":"Return to Forever — Romantic Warrior; Stanley Clarke — School Days"},
-  {"id":"monty-alexander-2026","artist":"Monty Alexander Trio","start":"2026-08-16","city":"Baltimore","venue":"Keystone Korner","priority":"A+","category":"Living masters","genres":["Jazz","Caribbean"],"status":"considering","trip":"Short trip","why":"A master pianist whose swing, blues language and Jamaican rhythmic sensibility make this one of the warmest, most immediately enjoyable dates on the list.","listen":"Live at Montreux; Harlem-Kingston Express"},
-  {"id":"simon-phillips-2026","artist":"Simon Phillips & Protocol 6","start":"2026-08-19","end":"2026-08-20","city":"Baltimore","venue":"Keystone Korner","priority":"A","category":"Fusion / progressive","genres":["Fusion","Progressive"],"status":"considering","trip":"Short trip","why":"High-level contemporary jazz-rock led by one of the defining drummers of fusion and progressive music.","listen":"Protocol 6"},
-  {"id":"joshua-redman-2026","artist":"Joshua Redman Quartet","start":"2026-08-28","city":"Baltimore","venue":"Keystone Korner","priority":"A+","category":"Modern jazz","genres":["Jazz","Acoustic"],"status":"considering","trip":"Short trip","why":"Redman in a small club with Micah Thomas: modern acoustic jazz with a strong melodic center and serious improvisational depth.","listen":"MoodSwing; Where Are We"},
-  {"id":"trio-da-paz-2026","artist":"Trio da Paz","start":"2026-09-10","city":"Washington, DC","venue":"Blues Alley","priority":"A+","category":"Brazil / Latin","genres":["Jazz","Brazilian"],"status":"considering","trip":"Local","why":"Brazilian jazz at the scale it deserves: an intimate listening room, deep rhythmic language and decades of ensemble chemistry.","listen":"Partido Out"},
-  {"id":"kenny-garrett-2026","artist":"Kenny Garrett","subtitle":"Sounds From the Ancestors","start":"2026-09-11","end":"2026-09-12","city":"Baltimore","venue":"Keystone Korner","priority":"A+","category":"Living masters","genres":["Jazz","Soul","Afro-diasporic"],"status":"considering","trip":"Short trip","why":"A major living saxophonist connecting post-bop intensity with groove, gospel and African and Caribbean rhythmic ideas.","listen":"Sounds from the Ancestors"},
-  {"id":"brazilian-guitars-2026","artist":"Romero Lubambo + Chico Pinheiro + Diego Figueiredo","start":"2026-09-12","city":"Washington, DC","venue":"Blues Alley","priority":"A+","category":"Brazil / Latin","genres":["Jazz","Brazilian","Guitar"],"status":"considering","trip":"Local","why":"Three distinctive Brazilian guitar voices in one of the smallest major jazz rooms in the region — virtuosity with melody and rhythmic elegance.","listen":"Romero Lubambo — Softly; Chico Pinheiro — City of Dreams"},
-  {"id":"wooten-brothers-2026","artist":"The Wooten Brothers","start":"2026-09-13","city":"Washington, DC","venue":"The Hamilton Live","priority":"A","category":"Fusion / progressive","genres":["Funk","Fusion","Jazz"],"status":"considering","trip":"Local","why":"Victor, Regi, Roy and Joseph Wooten together: groove-heavy virtuosity crossing funk, jazz and fusion.","listen":"Victor Wooten — A Show of Hands"},
-  {"id":"claudia-acuna-2026","artist":"Claudia Acuña","start":"2026-09-18","end":"2026-09-19","city":"Washington, DC","venue":"Blues Alley","priority":"A","category":"Brazil / Latin","genres":["Jazz","Latin","Vocal"],"status":"considering","trip":"Local","why":"A Chilean voice with a sophisticated jazz language and a natural Latin American sensibility; especially strong in an intimate room.","listen":"Duo"},
-  {"id":"camila-meza-2026","artist":"Camila Meza","start":"2026-09-20","city":"Washington, DC","venue":"Blues Alley","priority":"A","category":"Brazil / Latin","genres":["Jazz","Latin","Vocal","Guitar"],"status":"considering","trip":"Local","why":"Modern Chilean jazz built around voice, guitar and songwriting rather than conventional standards.","listen":"Ámbar"},
-  {"id":"domi-jd-beck-2026","artist":"DOMi & JD BECK","start":"2026-09-22","city":"Washington, DC","venue":"Howard Theatre","priority":"A+","category":"Fusion / progressive","genres":["Fusion","Experimental","Jazz"],"status":"considering","trip":"Local","why":"One of the most technically startling young rhythm-and-keys partnerships in contemporary jazz, with strong fusion and experimental DNA.","listen":"NOT TiGHT"},
-  {"id":"minyo-crusaders-2026","artist":"Minyo Crusaders","start":"2026-09-24","city":"Washington, DC","venue":"The Hamilton Live","priority":"A+","category":"Japan","genres":["Japanese","Minyo","Cumbia","Afrobeat"],"status":"considering","trip":"Local","why":"A rare Japanese appearance that reframes traditional min’yō through cumbia, salsa, reggae and Afrobeat — culturally singular rather than simply virtuosic.","listen":"Echoes of Japan"},
-  {"id":"chelsea-wolfe-2026","artist":"Chelsea Wolfe","start":"2026-10-10","city":"Washington, DC","venue":"Sixth & I","priority":"A","category":"Experimental / rock / metal","genres":["Experimental","Doom","Rock"],"status":"considering","trip":"Local","why":"Dark folk, doom, industrial texture and a venue whose intimate acoustics should suit the ritual atmosphere of the music.","listen":"She Reaches Out to She Reaches Out to She"},
-  {"id":"chucho-valdes-2026","artist":"Chucho Valdés","subtitle":"85th Birthday Celebration","start":"2026-10-18","city":"North Bethesda","venue":"The Music Center at Strathmore","priority":"S","category":"Living masters","genres":["Jazz","Afro-Cuban","Latin"],"status":"considering","trip":"Local","why":"An 85th-birthday celebration for one of the architects of modern Afro-Cuban jazz — historical weight without leaving the DC area.","listen":"Jazz Batá 2; Live at the Village Vanguard"},
-  {"id":"beat-2026","artist":"BEAT","subtitle":"Adrian Belew · Tony Levin · Steve Vai · Terry Bozzio","start":"2026-11-10","city":"National Harbor","venue":"The Theater at MGM National Harbor","priority":"S","category":"Fusion / progressive","genres":["Progressive","Rock","Experimental"],"status":"considering","trip":"Local","why":"King Crimson’s 1980s language revisited by Belew and Levin with Steve Vai and Terry Bozzio — a concentration of progressive-rock history and virtuosity.","listen":"King Crimson — Discipline; Beat; Three of a Perfect Pair"},
-  {"id":"bad-plus-farewell-2026","artist":"The Bad Plus","subtitle":"Farewell Tour","start":"2026-11-15","city":"Baltimore","venue":"Keystone Korner","priority":"A+","category":"Modern jazz","genres":["Jazz","Experimental","Rock"],"status":"considering","trip":"Short trip","why":"A final chance to hear one of the defining boundary-crossing jazz groups of the last quarter century in a small club.","listen":"The Bad Plus; Activate Infinity"}
-]
+{
+  "schema_version": 2,
+  "events": [
+    {
+      "id": "stanley-clarke-barkan-2026",
+      "artist": "Stanley Clarke & Friends",
+      "subtitle": "Todd Barkan's 80th Birthday",
+      "dates": {
+        "start": "2026-08-13",
+        "end": "2026-08-15"
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Keystone Korner",
+        "city": "Baltimore",
+        "state": "MD"
+      },
+      "geography": "Short trip",
+      "priority": "S",
+      "category": "Living masters",
+      "genres": [
+        "Jazz",
+        "Fusion"
+      ],
+      "status": "attended",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Stanley Clarke and Lenny White reunite in an intimate club to celebrate Todd Barkan; a living link to Return to Forever and the history of Keystone Korner.",
+          "trip_verdict": null,
+          "listen_before": "Return to Forever — Romantic Warrior; Stanley Clarke — School Days"
+        },
+        "es": {
+          "why_it_matters": "Stanley Clarke y Lenny White vuelven a compartir escenario en un club íntimo para celebrar a Todd Barkan: un vínculo vivo con Return to Forever y con la historia de Keystone Korner.",
+          "trip_verdict": null,
+          "listen_before": "Return to Forever — Romantic Warrior; Stanley Clarke — School Days"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "monty-alexander-2026",
+      "artist": "Monty Alexander Trio",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-08-16",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Keystone Korner",
+        "city": "Baltimore",
+        "state": "MD"
+      },
+      "geography": "Short trip",
+      "priority": "A+",
+      "category": "Living masters",
+      "genres": [
+        "Jazz",
+        "Caribbean"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "A master pianist whose swing, blues language and Jamaican rhythmic sensibility make this one of the warmest, most immediately enjoyable dates on the list.",
+          "trip_verdict": null,
+          "listen_before": "Live at Montreux; Harlem-Kingston Express"
+        },
+        "es": {
+          "why_it_matters": "Un maestro del piano en una de sus facetas más irresistibles: swing, blues y el pulso jamaicano que atraviesa toda su música.",
+          "trip_verdict": null,
+          "listen_before": "Live at Montreux; Harlem-Kingston Express"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "simon-phillips-2026",
+      "artist": "Simon Phillips & Protocol 6",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-08-19",
+        "end": "2026-08-20"
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Keystone Korner",
+        "city": "Baltimore",
+        "state": "MD"
+      },
+      "geography": "Short trip",
+      "priority": "A",
+      "category": "Fusion / progressive",
+      "genres": [
+        "Fusion",
+        "Progressive"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "High-level contemporary jazz-rock led by one of the defining drummers of fusion and progressive music.",
+          "trip_verdict": null,
+          "listen_before": "Protocol 6"
+        },
+        "es": {
+          "why_it_matters": "Jazz-rock contemporáneo de primer nivel, encabezado por uno de los bateristas fundamentales de la fusión y el rock progresivo.",
+          "trip_verdict": null,
+          "listen_before": "Protocol 6"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "joshua-redman-2026",
+      "artist": "Joshua Redman Quartet",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-08-28",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Keystone Korner",
+        "city": "Baltimore",
+        "state": "MD"
+      },
+      "geography": "Short trip",
+      "priority": "A+",
+      "category": "Modern jazz",
+      "genres": [
+        "Jazz",
+        "Acoustic"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Redman in a small club with Micah Thomas: modern acoustic jazz with a strong melodic center and serious improvisational depth.",
+          "trip_verdict": null,
+          "listen_before": "MoodSwing; Where Are We"
+        },
+        "es": {
+          "why_it_matters": "Redman en formato de club con Micah Thomas: jazz acústico contemporáneo, melódico y con enorme profundidad improvisatoria.",
+          "trip_verdict": null,
+          "listen_before": "MoodSwing; Where Are We"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "trio-da-paz-2026",
+      "artist": "Trio da Paz",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-10",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC"
+      },
+      "geography": "Local",
+      "priority": "A+",
+      "category": "Brazil / Latin",
+      "genres": [
+        "Jazz",
+        "Brazilian"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Brazilian jazz at the scale it deserves: an intimate listening room, deep rhythmic language and decades of ensemble chemistry.",
+          "trip_verdict": null,
+          "listen_before": "Partido Out"
+        },
+        "es": {
+          "why_it_matters": "Jazz brasileño en su hábitat ideal: una sala íntima, un lenguaje rítmico profundo y décadas de complicidad musical.",
+          "trip_verdict": null,
+          "listen_before": "Partido Out"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "kenny-garrett-2026",
+      "artist": "Kenny Garrett",
+      "subtitle": "Sounds From the Ancestors",
+      "dates": {
+        "start": "2026-09-11",
+        "end": "2026-09-12"
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Keystone Korner",
+        "city": "Baltimore",
+        "state": "MD"
+      },
+      "geography": "Short trip",
+      "priority": "A+",
+      "category": "Living masters",
+      "genres": [
+        "Jazz",
+        "Soul",
+        "Afro-diasporic"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "A major living saxophonist connecting post-bop intensity with groove, gospel and African and Caribbean rhythmic ideas.",
+          "trip_verdict": null,
+          "listen_before": "Sounds from the Ancestors"
+        },
+        "es": {
+          "why_it_matters": "Uno de los grandes saxofonistas vivos conecta la intensidad del post-bop con groove, gospel y raíces africanas y caribeñas.",
+          "trip_verdict": null,
+          "listen_before": "Sounds from the Ancestors"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "brazilian-guitars-2026",
+      "artist": "Romero Lubambo + Chico Pinheiro + Diego Figueiredo",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-12",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC"
+      },
+      "geography": "Local",
+      "priority": "A+",
+      "category": "Brazil / Latin",
+      "genres": [
+        "Jazz",
+        "Brazilian",
+        "Guitar"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Three distinctive Brazilian guitar voices in one of the smallest major jazz rooms in the region — virtuosity with melody and rhythmic elegance.",
+          "trip_verdict": null,
+          "listen_before": "Romero Lubambo — Softly; Chico Pinheiro — City of Dreams"
+        },
+        "es": {
+          "why_it_matters": "Tres voces singulares de la guitarra brasileña reunidas en una de las salas esenciales de Washington: virtuosismo al servicio de la melodía y el ritmo.",
+          "trip_verdict": null,
+          "listen_before": "Romero Lubambo — Softly; Chico Pinheiro — City of Dreams"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "wooten-brothers-2026",
+      "artist": "The Wooten Brothers",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-13",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC"
+      },
+      "geography": "Local",
+      "priority": "A",
+      "category": "Fusion / progressive",
+      "genres": [
+        "Funk",
+        "Fusion",
+        "Jazz"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Victor, Regi, Roy and Joseph Wooten together: groove-heavy virtuosity crossing funk, jazz and fusion.",
+          "trip_verdict": null,
+          "listen_before": "Victor Wooten — A Show of Hands"
+        },
+        "es": {
+          "why_it_matters": "Victor, Regi, Roy y Joseph Wooten juntos: groove y virtuosismo en la frontera entre funk, jazz y fusión.",
+          "trip_verdict": null,
+          "listen_before": "Victor Wooten — A Show of Hands"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "claudia-acuna-2026",
+      "artist": "Claudia Acuña",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-18",
+        "end": "2026-09-19"
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC"
+      },
+      "geography": "Local",
+      "priority": "A",
+      "category": "Brazil / Latin",
+      "genres": [
+        "Jazz",
+        "Latin",
+        "Vocal"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "A Chilean voice with a sophisticated jazz language and a natural Latin American sensibility; especially strong in an intimate room.",
+          "trip_verdict": null,
+          "listen_before": "Duo"
+        },
+        "es": {
+          "why_it_matters": "La cantante chilena lleva una sensibilidad latinoamericana muy personal a un lenguaje de jazz sofisticado; Blues Alley es el formato perfecto para escucharla de cerca.",
+          "trip_verdict": null,
+          "listen_before": "Duo"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "camila-meza-2026",
+      "artist": "Camila Meza",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-20",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC"
+      },
+      "geography": "Local",
+      "priority": "A",
+      "category": "Brazil / Latin",
+      "genres": [
+        "Jazz",
+        "Latin",
+        "Vocal",
+        "Guitar"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Modern Chilean jazz built around voice, guitar and songwriting rather than conventional standards.",
+          "trip_verdict": null,
+          "listen_before": "Ámbar"
+        },
+        "es": {
+          "why_it_matters": "Jazz chileno contemporáneo construido desde la voz, la guitarra y la canción, lejos de una lectura convencional de los estándares.",
+          "trip_verdict": null,
+          "listen_before": "Ámbar"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "domi-jd-beck-2026",
+      "artist": "DOMi & JD BECK",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-22",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Howard Theatre",
+        "city": "Washington, DC",
+        "state": "DC"
+      },
+      "geography": "Local",
+      "priority": "A+",
+      "category": "Fusion / progressive",
+      "genres": [
+        "Fusion",
+        "Experimental",
+        "Jazz"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "One of the most technically startling young rhythm-and-keys partnerships in contemporary jazz, with strong fusion and experimental DNA.",
+          "trip_verdict": null,
+          "listen_before": "NOT TiGHT"
+        },
+        "es": {
+          "why_it_matters": "Una de las duplas jóvenes más sorprendentes del jazz actual: teclados y batería llevados al límite, con fuerte ADN de fusión y experimentación.",
+          "trip_verdict": null,
+          "listen_before": "NOT TiGHT"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "minyo-crusaders-2026",
+      "artist": "Minyo Crusaders",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-24",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC"
+      },
+      "geography": "Local",
+      "priority": "A+",
+      "category": "Japan",
+      "genres": [
+        "Japanese",
+        "Minyo",
+        "Cumbia",
+        "Afrobeat"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "A rare Japanese appearance that reframes traditional min’yō through cumbia, salsa, reggae and Afrobeat — culturally singular rather than simply virtuosic.",
+          "trip_verdict": null,
+          "listen_before": "Echoes of Japan"
+        },
+        "es": {
+          "why_it_matters": "Una rara visita japonesa que reimagina el min’yō tradicional a través de cumbia, salsa, reggae y afrobeat. Una anomalía cultural que merece escucharse en vivo.",
+          "trip_verdict": null,
+          "listen_before": "Echoes of Japan"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "chelsea-wolfe-2026",
+      "artist": "Chelsea Wolfe",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-10",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Sixth & I",
+        "city": "Washington, DC",
+        "state": "DC"
+      },
+      "geography": "Local",
+      "priority": "A",
+      "category": "Experimental / rock / metal",
+      "genres": [
+        "Experimental",
+        "Doom",
+        "Rock"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Dark folk, doom, industrial texture and a venue whose intimate acoustics should suit the ritual atmosphere of the music.",
+          "trip_verdict": null,
+          "listen_before": "She Reaches Out to She Reaches Out to She"
+        },
+        "es": {
+          "why_it_matters": "Dark folk, doom y texturas industriales en un recinto íntimo cuya acústica debería potenciar el carácter ritual de su música.",
+          "trip_verdict": null,
+          "listen_before": "She Reaches Out to She Reaches Out to She"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "chucho-valdes-2026",
+      "artist": "Chucho Valdés",
+      "subtitle": "85th Birthday Celebration",
+      "dates": {
+        "start": "2026-10-18",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "The Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD"
+      },
+      "geography": "Local",
+      "priority": "S",
+      "category": "Living masters",
+      "genres": [
+        "Jazz",
+        "Afro-Cuban",
+        "Latin"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "An 85th-birthday celebration for one of the architects of modern Afro-Cuban jazz — historical weight without leaving the DC area.",
+          "trip_verdict": null,
+          "listen_before": "Jazz Batá 2; Live at the Village Vanguard"
+        },
+        "es": {
+          "why_it_matters": "Los 85 años de uno de los arquitectos del jazz afrocubano moderno. Una celebración con peso histórico, sin salir del área de Washington.",
+          "trip_verdict": null,
+          "listen_before": "Jazz Batá 2; Live at the Village Vanguard"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "beat-2026",
+      "artist": "BEAT",
+      "subtitle": "Adrian Belew · Tony Levin · Steve Vai · Terry Bozzio",
+      "dates": {
+        "start": "2026-11-10",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "The Theater at MGM National Harbor",
+        "city": "National Harbor",
+        "state": "MD"
+      },
+      "geography": "Local",
+      "priority": "S",
+      "category": "Fusion / progressive",
+      "genres": [
+        "Progressive",
+        "Rock",
+        "Experimental"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "King Crimson’s 1980s language revisited by Belew and Levin with Steve Vai and Terry Bozzio — a concentration of progressive-rock history and virtuosity.",
+          "trip_verdict": null,
+          "listen_before": "King Crimson — Discipline; Beat; Three of a Perfect Pair"
+        },
+        "es": {
+          "why_it_matters": "El King Crimson de los ochenta revisitado por Belew y Levin junto a Steve Vai y Terry Bozzio: una concentración extraordinaria de historia y virtuosismo progresivo.",
+          "trip_verdict": null,
+          "listen_before": "King Crimson — Discipline; Beat; Three of a Perfect Pair"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "bad-plus-farewell-2026",
+      "artist": "The Bad Plus",
+      "subtitle": "Farewell Tour",
+      "dates": {
+        "start": "2026-11-15",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "name": "Keystone Korner",
+        "city": "Baltimore",
+        "state": "MD"
+      },
+      "geography": "Short trip",
+      "priority": "A+",
+      "category": "Modern jazz",
+      "genres": [
+        "Jazz",
+        "Experimental",
+        "Rock"
+      ],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "A final chance to hear one of the defining boundary-crossing jazz groups of the last quarter century in a small club.",
+          "trip_verdict": null,
+          "listen_before": "The Bad Plus; Activate Infinity"
+        },
+        "es": {
+          "why_it_matters": "Una última oportunidad de escuchar en un club pequeño a uno de los grupos que mejor borraron las fronteras entre jazz, rock e improvisación en el último cuarto de siglo.",
+          "trip_verdict": null,
+          "listen_before": "The Bad Plus; Activate Infinity"
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [],
+      "provenance": {
+        "status": "legacy-unverified",
+        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
+      },
+      "recommended_listening": [],
+      "attendance": {
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    }
+  ]
+}
