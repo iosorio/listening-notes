@@ -7,3 +7,5 @@ its sources and verification dates.
 ## Unreleased
 
 - Established durable project, editorial, priority, and event-data guidance.
+- Added separate software and editorial-content licenses with third-party
+  materials explicitly excluded.
