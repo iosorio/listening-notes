@@ -3,7 +3,9 @@
 Listening Notes is a personal, bilingual music publication and knowledge base.
 Its Live Music Radar is a deliberately selective record of performances worth
 protecting time, attention, or travel for—not a comprehensive event calendar.
-Tsuyoshi Yamamoto and the Tokyo jazz world around him are its north star.
+Tsuyoshi Yamamoto and the Tokyo jazz world around him are its current narrative
+guide: an unfinished search that gives RADAR direction without defining its
+destination.
 
 ## Product shape
 

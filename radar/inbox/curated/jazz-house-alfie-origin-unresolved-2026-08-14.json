@@ -1,0 +1,45 @@
+{
+  "batch_version": 1,
+  "batch_id": "jazz-house-alfie-origin-unresolved-2026-08-14",
+  "kind": "curated_event_candidates",
+  "created_on": "2026-08-14",
+  "notes": "Unresolved archival candidate for the attended Jazz House ALFIE night that forms part of RADAR's origin story. Do not merge into canonical events.json until the artist and exact date are reliably established.",
+  "events": [
+    {
+      "id": "jazz-house-alfie-tokyo-unresolved",
+      "artist": "Unknown performer",
+      "dates": {
+        "start": null,
+        "end": null
+      },
+      "venue": {
+        "id": "jazz-house-alfie-roppongi",
+        "name": "Jazz House ALFIE",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "user_confirmed",
+            "recorded_on": "2026-08-14",
+            "note": "User confirmed attending a night at Jazz House ALFIE during the Tokyo trip; performer and exact date remain unresolved."
+          }
+        ],
+        "notes": "Origin-story attendance record. Do not infer performer, date, or programme.",
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "user-confirmed-needs-metadata",
+        "note": "Attendance is authoritative; event metadata must be verified before canonical ingestion."
+      }
+    }
+  ]
+}

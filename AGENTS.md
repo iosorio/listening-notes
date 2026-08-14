@@ -24,8 +24,10 @@ in the repository so a future human or tool can continue the work independently.
 - Listening Notes has two native geographic domains: Greater Tokyo / Kantō and
   the Washington–Baltimore–Philadelphia–Newark–New York corridor. Do not frame
   Tokyo as a distant exception to a US-only radar.
-- Tsuyoshi Yamamoto is the project’s north star. Any North American appearance
-  is S+; any Japan appearance belongs in the Tokyo radar when verified.
+- Tsuyoshi Yamamoto is the current narrative guide, not the project’s ultimate
+  destination or musical authority. His unfinished Tokyo search gives RADAR a
+  direction; editorial judgment still determines inclusion. Preserve the
+  documented priority treatment for a verified Yamamoto appearance.
 - Attendance classification and attendance evidence are separate. A direct user
   confirmation is sufficient for `attended`; a purchase email alone is not.
 

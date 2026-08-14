@@ -10,11 +10,12 @@ performances belong here when musically justified. The central question is
 usually whether a performance is worth building the evening around—not whether
 it merits a flight to Japan.
 
-Tsuyoshi Yamamoto is the north star. Any verified Japan appearance belongs in
-this radar; a North American appearance is automatically S+. Jazz House ALFIE
-in Roppongi is a priority venue for future research. Jazz in Japan is an
-important curated discovery source; link to and attribute it, but never mirror
-its articles.
+Tsuyoshi Yamamoto is the current narrative guide. His unfinished Tokyo search
+makes verified appearances especially important to research, while editorial
+judgment still determines inclusion; a selected North American appearance keeps
+its documented S+ treatment. Jazz House ALFIE in Roppongi is a priority venue
+for future research. Jazz in Japan is an important curated discovery source;
+link to and attribute it, but never mirror its articles.
 
 ## US corridor (`us_corridor`)
 
