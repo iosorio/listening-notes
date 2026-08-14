@@ -6,6 +6,7 @@ import re
 import sys
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
 
 PRIORITIES = {"S+", "S", "A+", "A"}
 STATUSES = {"considering", "going", "attended", "passed"}
@@ -80,6 +81,19 @@ def main(path: Path) -> None:
                     fail(f"{event_id}.tickets.{market}.{key} must be a number or null")
         if not isinstance(event.get("sources"), list):
             fail(f"{event_id}.sources must be an array")
+        recommendations = event.get("recommended_listening")
+        if not isinstance(recommendations, list):
+            fail(f"{event_id}.recommended_listening must be an array")
+        for recommendation in recommendations:
+            if not isinstance(recommendation, dict) or not isinstance(recommendation.get("title"), str):
+                fail(f"{event_id}.recommended_listening entries require a title")
+            apple_music_url = recommendation.get("apple_music_url")
+            if apple_music_url is not None:
+                if not isinstance(apple_music_url, str):
+                    fail(f"{event_id}.recommended_listening.apple_music_url must be a URL or null")
+                parsed = urlparse(apple_music_url)
+                if parsed.scheme != "https" or parsed.netloc != "music.apple.com" or not re.search(r"/(album|song|playlist)/", parsed.path):
+                    fail(f"{event_id}.recommended_listening.apple_music_url must be an exact Apple Music album, song, or playlist URL")
         attendance = event.get("attendance")
         if not isinstance(attendance, dict) or attendance.get("status") not in {None, "attended", "unknown_attendance"}:
             fail(f"{event_id}.attendance requires a supported status")

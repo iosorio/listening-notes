@@ -3,7 +3,7 @@ const COPY = {
     allCities: 'All cities', allVenues: 'All venues', allPriorities: 'All priorities',
     viewUpcoming: 'Upcoming', viewArchive: 'Archive', upcoming: 'On the radar', archive: 'Nights we heard',
     selected: 'selected', onRadar: 'on radar', signal: 'The Signal', why: 'Why it matters',
-    listen: 'Listen before', official: 'Official tickets', details: 'Details',
+    listen: 'Listen before', appleMusic: 'Listen on Apple Music', official: 'Official tickets', details: 'Details', detailsAndTickets: 'Details & Tickets',
     rule: 'The criterion', ruleText: 'The radar is intentionally incomplete. <b>If it is here, there is a reason.</b>',
     archiveText: 'Dates that became part of the listening life.',
     empty: 'Nothing in this selection. The filter is part of the curation.',
@@ -15,7 +15,7 @@ const COPY = {
     allCities: 'Todas las ciudades', allVenues: 'Todos los recintos', allPriorities: 'Todas las prioridades',
     viewUpcoming: 'Próximos', viewArchive: 'Archivo', upcoming: 'En el radar', archive: 'Noches que escuchamos',
     selected: 'seleccionados', onRadar: 'en el radar', signal: 'La señal', why: 'Por qué importa',
-    listen: 'Para escuchar antes', official: 'Boletos oficiales', details: 'Detalles',
+    listen: 'Para escuchar antes', appleMusic: 'Escuchar en Apple Music', official: 'Boletos oficiales', details: 'Información', detailsAndTickets: 'Información y boletos',
     rule: 'El criterio', ruleText: 'El radar es deliberadamente selectivo. <b>Si está aquí, hay una razón.</b>',
     archiveText: 'Fechas que ya forman parte de la memoria de escucha.',
     empty: 'Nada en esta selección. El filtro también es parte de la curaduría.',
@@ -89,6 +89,47 @@ function link(text, href, className = 'text-link') {
   return element;
 }
 
+function sameDestination(left, right) {
+  if (!left || !right) return false;
+  try {
+    const normalize = value => {
+      const url = new URL(value);
+      url.hash = '';
+      url.pathname = url.pathname.replace(/\/$/, '') || '/';
+      return url.toString();
+    };
+    return normalize(left) === normalize(right);
+  } catch {
+    return left === right;
+  }
+}
+
+function verifiedAppleMusicUrl(event) {
+  const recommendation = (event.recommended_listening || []).find(item => {
+    if (!item || typeof item.apple_music_url !== 'string') return false;
+    try {
+      const url = new URL(item.apple_music_url);
+      return url.protocol === 'https:' && url.hostname === 'music.apple.com' && /\/(album|song|playlist)\//.test(url.pathname);
+    } catch {
+      return false;
+    }
+  });
+  return recommendation?.apple_music_url || null;
+}
+
+function eventActions(event, className = 'event-actions') {
+  const actions = document.createElement('div');
+  actions.className = className;
+  const details = event.links.official_event;
+  const tickets = event.links.official_tickets;
+  if (sameDestination(details, tickets)) actions.append(link(t.detailsAndTickets, details));
+  else {
+    if (details) actions.append(link(t.details, details));
+    if (tickets) actions.append(link(t.official, tickets));
+  }
+  return actions.children.length ? actions : null;
+}
+
 function meta(event) {
   const element = document.createElement('div');
   element.className = 'event-meta';
@@ -97,12 +138,18 @@ function meta(event) {
 }
 
 function listening(event) {
-  const value = editorial(event).listen_before;
+  const recommendations = event.recommended_listening || [];
+  const value = editorial(event).listen_before || recommendations
+    .map(item => [item.artist, item.title].filter(Boolean).join(' — '))
+    .filter(Boolean)
+    .join('; ');
   if (!value) return null;
   const element = document.createElement('div');
   element.className = 'listening';
   element.innerHTML = `<strong>${t.listen}</strong><span></span>`;
   element.querySelector('span').textContent = value;
+  const appleMusicUrl = verifiedAppleMusicUrl(event);
+  if (appleMusicUrl) element.append(link(t.appleMusic, appleMusicUrl));
   return element;
 }
 
@@ -120,10 +167,8 @@ function eventCard(event) {
   if (why.textContent) article.append(why);
   const listen = listening(event); if (listen) article.append(listen);
   if (!isArchive(event)) {
-    const actions = document.createElement('div'); actions.className = 'event-actions';
-    if (event.links.official_tickets) actions.append(link(t.official, event.links.official_tickets));
-    if (event.links.official_event) actions.append(link(t.details, event.links.official_event));
-    if (actions.children.length) article.append(actions);
+    const actions = eventActions(event);
+    if (actions) article.append(actions);
   }
   return article;
 }
@@ -150,10 +195,8 @@ function renderSignal(event) {
   feature.append(label, priority, title, subtitle, facts);
   if (why.textContent) { const heading = document.createElement('strong'); heading.className = 'signal-heading'; heading.textContent = t.why; feature.append(heading, why); }
   const listen = listening(event); if (listen) feature.append(listen);
-  const actions = document.createElement('div'); actions.className = 'signal-actions';
-  if (event.links.official_tickets) actions.append(link(t.official, event.links.official_tickets));
-  if (event.links.official_event) actions.append(link(t.details, event.links.official_event));
-  if (actions.children.length) feature.append(actions);
+  const actions = eventActions(event, 'signal-actions');
+  if (actions) feature.append(actions);
   root.append(feature);
 }
 
