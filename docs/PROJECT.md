@@ -3,6 +3,7 @@
 Listening Notes is a personal, bilingual music publication and knowledge base.
 Its Live Music Radar is a deliberately selective record of performances worth
 protecting time, attention, or travel for—not a comprehensive event calendar.
+Tsuyoshi Yamamoto and the Tokyo jazz world around him are its north star.
 
 ## Product shape
 
@@ -13,6 +14,9 @@ protecting time, attention, or travel for—not a comprehensive event calendar.
 
 The site is intentionally static so it can remain publishable through GitHub
 Pages and usable without a framework, service, or AI platform.
+
+The two native domains are Greater Tokyo/Kantō and the US corridor. Automated
+discovery is external; it may suggest leads but never publishes them directly.
 
 ## Durable operating model
 

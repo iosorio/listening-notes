@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "events": [
     {
       "id": "stanley-clarke-barkan-2026",
@@ -13,7 +13,9 @@
       "venue": {
         "name": "Keystone Korner",
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "id": "keystone-korner-baltimore",
+        "country": "US"
       },
       "geography": "Short trip",
       "priority": "S",
@@ -65,8 +67,18 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "unknown",
+            "recorded_on": "2026-08-14",
+            "note": "Migrated event carried an attended status before attendance provenance was modeled."
+          }
+        ]
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "monty-alexander-2026",
@@ -80,7 +92,9 @@
       "venue": {
         "name": "Keystone Korner",
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "id": "keystone-korner-baltimore",
+        "country": "US"
       },
       "geography": "Short trip",
       "priority": "A+",
@@ -132,8 +146,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "simon-phillips-2026",
@@ -147,7 +165,9 @@
       "venue": {
         "name": "Keystone Korner",
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "id": "keystone-korner-baltimore",
+        "country": "US"
       },
       "geography": "Short trip",
       "priority": "A",
@@ -199,8 +219,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "joshua-redman-2026",
@@ -214,7 +238,9 @@
       "venue": {
         "name": "Keystone Korner",
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "id": "keystone-korner-baltimore",
+        "country": "US"
       },
       "geography": "Short trip",
       "priority": "A+",
@@ -266,8 +292,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "trio-da-paz-2026",
@@ -281,7 +311,9 @@
       "venue": {
         "name": "Blues Alley",
         "city": "Washington, DC",
-        "state": "DC"
+        "state": "DC",
+        "id": "blues-alley-washington-dc",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "A+",
@@ -333,8 +365,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "kenny-garrett-2026",
@@ -348,7 +384,9 @@
       "venue": {
         "name": "Keystone Korner",
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "id": "keystone-korner-baltimore",
+        "country": "US"
       },
       "geography": "Short trip",
       "priority": "A+",
@@ -401,8 +439,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "brazilian-guitars-2026",
@@ -416,7 +458,9 @@
       "venue": {
         "name": "Blues Alley",
         "city": "Washington, DC",
-        "state": "DC"
+        "state": "DC",
+        "id": "blues-alley-washington-dc",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "A+",
@@ -469,8 +513,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "wooten-brothers-2026",
@@ -484,7 +532,9 @@
       "venue": {
         "name": "The Hamilton Live",
         "city": "Washington, DC",
-        "state": "DC"
+        "state": "DC",
+        "id": "the-hamilton-live-washington-dc",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "A",
@@ -537,8 +587,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "claudia-acuna-2026",
@@ -552,7 +606,9 @@
       "venue": {
         "name": "Blues Alley",
         "city": "Washington, DC",
-        "state": "DC"
+        "state": "DC",
+        "id": "blues-alley-washington-dc",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "A",
@@ -605,8 +661,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "camila-meza-2026",
@@ -620,7 +680,9 @@
       "venue": {
         "name": "Blues Alley",
         "city": "Washington, DC",
-        "state": "DC"
+        "state": "DC",
+        "id": "blues-alley-washington-dc",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "A",
@@ -674,8 +736,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "domi-jd-beck-2026",
@@ -689,7 +755,9 @@
       "venue": {
         "name": "Howard Theatre",
         "city": "Washington, DC",
-        "state": "DC"
+        "state": "DC",
+        "id": "howard-theatre-washington-dc",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "A+",
@@ -742,8 +810,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "minyo-crusaders-2026",
@@ -757,7 +829,9 @@
       "venue": {
         "name": "The Hamilton Live",
         "city": "Washington, DC",
-        "state": "DC"
+        "state": "DC",
+        "id": "the-hamilton-live-washington-dc",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "A+",
@@ -811,8 +885,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "chelsea-wolfe-2026",
@@ -826,7 +904,9 @@
       "venue": {
         "name": "Sixth & I",
         "city": "Washington, DC",
-        "state": "DC"
+        "state": "DC",
+        "id": "sixth-and-i-washington-dc",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "A",
@@ -879,8 +959,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "chucho-valdes-2026",
@@ -894,7 +978,9 @@
       "venue": {
         "name": "The Music Center at Strathmore",
         "city": "North Bethesda",
-        "state": "MD"
+        "state": "MD",
+        "id": "strathmore-north-bethesda",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "S",
@@ -947,8 +1033,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "beat-2026",
@@ -962,7 +1052,9 @@
       "venue": {
         "name": "The Theater at MGM National Harbor",
         "city": "National Harbor",
-        "state": "MD"
+        "state": "MD",
+        "id": "mgm-national-harbor",
+        "country": "US"
       },
       "geography": "Local",
       "priority": "S",
@@ -1015,8 +1107,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     },
     {
       "id": "bad-plus-farewell-2026",
@@ -1030,7 +1126,9 @@
       "venue": {
         "name": "Keystone Korner",
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "id": "keystone-korner-baltimore",
+        "country": "US"
       },
       "geography": "Short trip",
       "priority": "A+",
@@ -1083,8 +1181,12 @@
       "attendance": {
         "notes": null,
         "setlist": null,
-        "photo_paths": []
-      }
+        "photo_paths": [],
+        "status": null,
+        "evidence": []
+      },
+      "geographic_domain": "us_corridor",
+      "musical_axes": []
     }
   ]
 }

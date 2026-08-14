@@ -21,6 +21,13 @@ in the repository so a future human or tool can continue the work independently.
   Use `null` rather than guessing.
 - English and Spanish are first-class languages. Write each editorial field for
   its audience; do not rely on literal translation.
+- Listening Notes has two native geographic domains: Greater Tokyo / Kantō and
+  the Washington–Baltimore–Philadelphia–Newark–New York corridor. Do not frame
+  Tokyo as a distant exception to a US-only radar.
+- Tsuyoshi Yamamoto is the project’s north star. Any North American appearance
+  is S+; any Japan appearance belongs in the Tokyo radar when verified.
+- Attendance classification and attendance evidence are separate. A direct user
+  confirmation is sufficient for `attended`; a purchase email alone is not.
 
 ## Technical rules
 
@@ -34,4 +41,5 @@ in the repository so a future human or tool can continue the work independently.
   authorization.
 
 See `docs/PROJECT.md`, `docs/EDITORIAL.md`, `docs/PRIORITIES.md`, and
-`docs/DATA_MODEL.md` before changing the site or adding events.
+`docs/DATA_MODEL.md` before changing the site or adding events. Also read
+`docs/DOMAINS.md` and `docs/ATTENDANCE.md` for geographic or archive work.

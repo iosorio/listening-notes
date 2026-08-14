@@ -4,7 +4,7 @@ Priority is editorial judgment, not a claim of universal artistic rank.
 
 | Tier | Meaning |
 | --- | --- |
-| S+ | Tsuyoshi Yamamoto performing in North America: immediate alert and exceptional travel priority. |
+| S+ | Tsuyoshi Yamamoto in North America; in Greater Tokyo/Kantō, any verified Yamamoto performance. Immediate alert / exceptional priority. |
 | S | Historically significant performance, major living jazz master, or rare circumstance unlikely to recur. |
 | A+ | Exceptional Japanese jazz artist, major contemporary jazz performance, unusually strong lineup, or intimate appearance. |
 | A | Strong recommendation in jazz, fusion, progressive, experimental, rock, or metal. |
@@ -20,6 +20,11 @@ Priority is editorial judgment, not a claim of universal artistic rank.
 
 `trip_verdict` explains the recommendation for the individual event; it is not
 derived mechanically from city or priority.
+
+Tokyo uses the separate `tokyo_kanto` domain. There, S includes Yamamoto-circle,
+Three Blind Mice, rare-reunion, and exceptional Japanese-master appearances;
+A+ means a performance worth organizing a Tokyo evening around. See
+`docs/DOMAINS.md`.
 
 ## Musical axes
 

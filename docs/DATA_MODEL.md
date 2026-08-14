@@ -7,7 +7,7 @@ object per event where practical, and is designed to stay readable in Git.
 
 ```json
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "events": []
 }
 ```
@@ -21,11 +21,13 @@ object per event where practical, and is designed to stay readable in Git.
   "subtitle": null,
   "dates": {"start": "YYYY-MM-DD", "end": null},
   "showtimes": [],
-  "venue": {"name": "Venue", "city": "City", "state": "State"},
+  "venue": {"id": "venue-city", "name": "Venue", "city": "City", "state": "State", "country": "US"},
+  "geographic_domain": "us_corridor",
   "geography": "Local",
   "priority": "A+",
   "category": "Masters",
   "genres": ["Jazz"],
+  "musical_axes": [],
   "status": "considering",
   "lineup": [],
   "factual_description": null,
@@ -41,7 +43,7 @@ object per event where practical, and is designed to stay readable in Git.
   },
   "sources": [],
   "recommended_listening": [],
-  "attendance": {"notes": null, "setlist": null, "photo_paths": []}
+  "attendance": {"status": null, "evidence": [], "notes": null, "setlist": null, "photo_paths": []}
 }
 ```
 
@@ -53,6 +55,9 @@ object per event where practical, and is designed to stay readable in Git.
 - `showtimes` is an array because multi-night engagements can have distinct
   times. Use ISO-like local time strings such as `19:30` only when verified.
 - `status` is one of `considering`, `going`, `attended`, or `passed`.
+- `geographic_domain` is `tokyo_kanto`, `us_corridor`, `north_america`, or
+  `rest_of_world`. `venue.id` is stable and prepares a future venue knowledge
+  layer without making one necessary now.
 - `factual_description` is source-backed; set it to `null` when not verified.
 - `editorial` has native English and Spanish copy. Do not put display-language
   lookup tables in application JavaScript.
@@ -62,7 +67,8 @@ object per event where practical, and is designed to stay readable in Git.
 - `recommended_listening` contains objects with `artist`, `title`, `kind`
   (`album` or `track`), and optional `apple_music_url`.
 - `attendance` preserves personal material after a show; photo paths refer to
-  committed local assets only.
+  committed local assets only. Its `status` and evidence records follow
+  `docs/ATTENDANCE.md`; they do not infer attendance from a ticket email.
 
 ## Migration policy
 

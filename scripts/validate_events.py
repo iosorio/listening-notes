@@ -9,6 +9,8 @@ from pathlib import Path
 
 PRIORITIES = {"S+", "S", "A+", "A"}
 STATUSES = {"considering", "going", "attended", "passed"}
+DOMAINS = {"tokyo_kanto", "us_corridor", "north_america", "rest_of_world"}
+ATTENDANCE_EVIDENCE = {"user_confirmed", "ticket_purchase", "logistics_email", "calendar_or_planning", "third_party_ticket", "archival_reference", "post_event_reference", "unknown"}
 ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}$")
 
 
@@ -33,8 +35,8 @@ def main(path: Path) -> None:
         data = json.loads(path.read_text())
     except (OSError, json.JSONDecodeError) as error:
         fail(str(error))
-    if not isinstance(data, dict) or data.get("schema_version") != 2:
-        fail("root must be an object with schema_version 2")
+    if not isinstance(data, dict) or data.get("schema_version") != 3:
+        fail("root must be an object with schema_version 3")
     events = data.get("events")
     if not isinstance(events, list):
         fail("events must be an array")
@@ -56,8 +58,10 @@ def main(path: Path) -> None:
             fail(f"{event_id} requires dates and venue objects")
         valid_date(dates.get("start"), f"{event_id}.dates.start")
         valid_date(dates.get("end"), f"{event_id}.dates.end")
-        if not dates.get("start") or not all(isinstance(venue.get(k), str) for k in ("name", "city", "state")):
+        if not dates.get("start") or not all(isinstance(venue.get(k), str) for k in ("id", "name", "city", "state", "country")):
             fail(f"{event_id} requires a start date and named venue location")
+        if event.get("geographic_domain") not in DOMAINS or not isinstance(event.get("musical_axes"), list):
+            fail(f"{event_id} requires a known geographic domain and musical_axes array")
         editorial = event.get("editorial")
         if not isinstance(editorial, dict) or not all(isinstance(editorial.get(lang), dict) for lang in ("en", "es")):
             fail(f"{event_id} requires English and Spanish editorial objects")
@@ -73,6 +77,12 @@ def main(path: Path) -> None:
                     fail(f"{event_id}.tickets.{market}.{key} must be a number or null")
         if not isinstance(event.get("sources"), list):
             fail(f"{event_id}.sources must be an array")
+        attendance = event.get("attendance")
+        if not isinstance(attendance, dict) or attendance.get("status") not in {None, "attended", "unknown_attendance"}:
+            fail(f"{event_id}.attendance requires a supported status")
+        evidence = attendance.get("evidence")
+        if not isinstance(evidence, list) or any(not isinstance(item, dict) or item.get("type") not in ATTENDANCE_EVIDENCE for item in evidence):
+            fail(f"{event_id}.attendance.evidence has an unsupported type")
     print(f"Validated {len(events)} events in {path}")
 
 
