@@ -49,12 +49,16 @@ object per event where practical, and is designed to stay readable in Git.
 
 ## Field rules
 
-- `id` is stable and never reused. Correct a record in place; do not make a new
-  ID solely because copy, pricing, or a URL changed.
+- `id` is stable and never reused. It normally ends in a year and may end in a
+  full ISO date when that is needed to distinguish a historical/show record.
+  Correct a record in place; do not make a new ID solely because copy, pricing,
+  or a URL changed.
 - `dates.start` is required; `dates.end` is optional and inclusive.
 - `showtimes` is an array because multi-night engagements can have distinct
   times. Use ISO-like local time strings such as `19:30` only when verified.
-- `status` is one of `considering`, `going`, `attended`, or `passed`.
+- `status` is one of `considering`, `going`, `attended`, or `passed`. Priority
+  may be `null` only for a normalized historical attendance record whose
+  original archival evidence does not support an editorial rating.
 - `geographic_domain` is `tokyo_kanto`, `us_corridor`, `north_america`, or
   `rest_of_world`. `venue.id` is stable and prepares a future venue knowledge
   layer without making one necessary now.
