@@ -11,7 +11,9 @@ PRIORITIES = {"S+", "S", "A+", "A"}
 STATUSES = {"considering", "going", "attended", "passed"}
 DOMAINS = {"tokyo_kanto", "us_corridor", "north_america", "rest_of_world"}
 ATTENDANCE_EVIDENCE = {"user_confirmed", "ticket_purchase", "logistics_email", "calendar_or_planning", "third_party_ticket", "archival_reference", "post_event_reference", "unknown"}
-ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}$")
+# A stable event ID ends in its year or, when a historical/show record needs
+# disambiguation, its full ISO date. Existing year-only IDs remain valid.
+ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}(?:-\d{2}-\d{2})?$")
 
 
 def fail(message: str) -> None:
@@ -50,7 +52,8 @@ def main(path: Path) -> None:
         if not isinstance(event_id, str) or not ID.fullmatch(event_id) or event_id in ids:
             fail(f"{prefix}.id must be unique and stable")
         ids.add(event_id)
-        if event.get("priority") not in PRIORITIES or event.get("status") not in STATUSES:
+        priority = event.get("priority")
+        if (priority not in PRIORITIES and not (priority is None and event.get("status") == "attended")) or event.get("status") not in STATUSES:
             fail(f"{event_id} has an unsupported priority or status")
         dates = event.get("dates")
         venue = event.get("venue")

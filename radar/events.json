@@ -2,6 +2,886 @@
   "schema_version": 3,
   "events": [
     {
+      "id": "machiko-ozawa-blues-alley-2015-03-24",
+      "artist": "Machiko Ozawa",
+      "dates": {
+        "start": "2015-03-24",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats order for 6 tickets plus mobile-ticket email for Machiko Ozawa at Blues Alley, 2015-03-24 8:00 PM."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from InstantSeats confirmation in connected Gmail; no private mailbox URL committed."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "arturo-sandoval-blues-alley-2015-04-16",
+      "artist": "Arturo Sandoval",
+      "dates": {
+        "start": "2015-04-16",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats order for 2 tickets."
+          },
+          {
+            "type": "logistics_email",
+            "recorded_on": "2026-08-14",
+            "note": "Same-week personal email confirms Thursday plan for the Blues Alley order."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from connected Gmail."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "roy-hargrove-blues-alley-2015-10-06",
+      "artist": "Roy Hargrove",
+      "dates": {
+        "start": "2015-10-06",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats tickets in Gmail."
+          },
+          {
+            "type": "logistics_email",
+            "recorded_on": "2026-08-14",
+            "note": "User forwarded tickets the day of the concert and wrote that he would be at Blues Alley for Roy Hargrove at 8:00 PM."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Strong attendance evidence from connected Gmail."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "roy-hargrove-blues-alley-2016-10-30",
+      "artist": "Roy Hargrove",
+      "dates": {
+        "start": "2016-10-30",
+        "end": null
+      },
+      "showtimes": [
+        "22:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats order for 2 tickets."
+          },
+          {
+            "type": "logistics_email",
+            "recorded_on": "2026-08-14",
+            "note": "User requested move to Sunday Oct 30 at 10:00 PM; InstantSeats confirmed and re-issued tickets."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from connected Gmail."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "sfjazz-collective-blues-alley-2017-04-07",
+      "artist": "SFJazz Collective",
+      "subtitle": "The Music of Miles Davis & Original Compositions",
+      "dates": {
+        "start": "2017-04-07",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats order for 4 tickets and issued Blues Alley tickets in Gmail."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from connected Gmail."
+      },
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "mccoy-tyner-quartet-blues-alley-2018-04-19",
+      "artist": "McCoy Tyner Quartet",
+      "dates": {
+        "start": "2018-04-19",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats order for 2 tickets plus issued tickets in Gmail."
+          },
+          {
+            "type": "logistics_email",
+            "recorded_on": "2026-08-14",
+            "note": "Prior research identified day-of logistics and plans to arrive early."
+          }
+        ],
+        "notes": "Historically significant personal archive entry: McCoy Tyner in an intimate club setting.",
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from connected Gmail and prior archive research."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "monty-alexander-blues-alley-2022-03-10",
+      "artist": "Monty Alexander",
+      "dates": {
+        "start": "2022-03-10",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "third_party_ticket",
+            "recorded_on": "2026-08-14",
+            "note": "Three tickets were purchased by a companion and forwarded to the user."
+          },
+          {
+            "type": "logistics_email",
+            "recorded_on": "2026-08-14",
+            "note": "Email thread confirms plans to meet on March 10 and settle the ticket share."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Important example showing that absence of a purchase receipt from the user does not imply non-attendance."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "alison-crockett-blues-alley-2023-03-07",
+      "artist": "Alison Crockett",
+      "subtitle": "Recording Release",
+      "dates": {
+        "start": "2023-03-07",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats order and mobile ticket in Gmail for the 7:00 PM show."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from connected Gmail."
+      },
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "fran-vielma-jazz-orchestra-blues-alley-2023-09-27",
+      "artist": "Fran Vielma Jazz Orchestra",
+      "dates": {
+        "start": "2023-09-27",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "archival_reference",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats mobile tickets in Gmail for the 7:00 PM show, addressed to the user."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from connected Gmail."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "leni-stern-mimi-fox-dennis-chambers-lincoln-goines-blues-alley-2025-04-03",
+      "artist": "Leni Stern, Mimi Fox, Dennis Chambers & Lincoln Goines",
+      "dates": {
+        "start": "2025-04-03",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats order for 2 tickets plus reminder for the 7:00 PM show."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from connected Gmail."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
+      "id": "magos-herrera-blues-alley-2025-10-01",
+      "artist": "Magos Herrera",
+      "dates": {
+        "start": "2025-10-01",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "ticket_purchase",
+            "recorded_on": "2026-08-14",
+            "note": "InstantSeats order for 2 tickets for the 7:00 PM show."
+          },
+          {
+            "type": "logistics_email",
+            "recorded_on": "2026-08-14",
+            "note": "Prior research found confirmed planning around the event."
+          }
+        ],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "gmail-recovered",
+        "note": "Recovered from connected Gmail and prior archive research."
+      },
+      "subtitle": null,
+      "priority": null,
+      "category": "Historical archive",
+      "genres": [],
+      "musical_axes": [],
+      "lineup": [],
+      "factual_description": null,
+      "recommended_listening": [],
+      "editorial": {
+        "en": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": null,
+          "trip_verdict": null,
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      }
+    },
+    {
       "id": "stanley-clarke-barkan-2026",
       "artist": "Stanley Clarke & Friends",
       "subtitle": "Todd Barkan's 80th Birthday",
@@ -225,6 +1105,188 @@
       },
       "geographic_domain": "us_corridor",
       "musical_axes": []
+    },
+    {
+      "id": "hiromi-piano-quintet-publiquartet-blue-note-nyc-2026",
+      "artist": "Hiromi",
+      "subtitle": "The Piano Quintet feat. PUBLIQuartet",
+      "dates": {
+        "start": "2026-08-20",
+        "end": "2026-08-23"
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Japan",
+      "genres": [
+        "Jazz",
+        "Contemporary",
+        "Classical crossover"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Modern jazz"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Hiromi",
+        "PUBLIQuartet"
+      ],
+      "factual_description": "Blue Note New York lists Hiromi: The Piano Quintet feat. PUBLIQuartet for Aug 20–23, 2026, with 8:00 PM and 10:30 PM sets each night.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "One of the defining Japanese jazz artists of her generation in a chamber-jazz format that puts composition, virtuosity and acoustic detail ahead of spectacle.",
+          "trip_verdict": "Worth the New York trip if the piano-quintet format is the draw; this is more distinctive than a routine tour stop.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Una de las figuras esenciales del jazz japonés de su generación en un formato de cámara que privilegia composición, virtuosismo y detalle acústico por encima del espectáculo.",
+          "trip_verdict": "Sí puede justificar Nueva York si atrae el formato de quinteto con cuerdas: es bastante más singular que una parada convencional de gira.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/shows/?search=Hiromi",
+        "official_tickets": "https://www.bluenotejazz.com/nyc/shows/?search=Hiromi"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.bluenotejazz.com/nyc/shows/?search=Hiromi",
+          "checked_on": "2026-08-14"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/shows/?search=Hiromi",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-08-14",
+          "note": "Official schedule and showtimes."
+        }
+      ],
+      "recommended_listening": [],
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "provenance": {
+        "status": "curated-inbox",
+        "note": "Merged from a reviewed curated inbox batch."
+      }
+    },
+    {
+      "id": "makoto-ozone-trio-birdland-2026",
+      "artist": "Makoto Ozone Trio",
+      "subtitle": "Remembering Kiyoshi Kitagawa feat. Yasushi Nakamura & Clarence Penn",
+      "dates": {
+        "start": "2026-08-25",
+        "end": "2026-08-29"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30",
+        "20:30",
+        "22:30"
+      ],
+      "venue": {
+        "id": "birdland-jazz-club-new-york",
+        "name": "Birdland Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Japan",
+      "genres": [
+        "Jazz",
+        "Piano trio"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Makoto Ozone — piano",
+        "Yasushi Nakamura — bass",
+        "Clarence Penn — drums"
+      ],
+      "factual_description": "Birdland lists Makoto Ozone Trio ‘Remembering Kiyoshi Kitagawa’ featuring Yasushi Nakamura and Clarence Penn from Aug 25–29, 2026. Tue–Thu sets are 7:00 and 9:30 PM; Fri–Sat sets are 8:30 and 10:30 PM.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "A major Japanese pianist in an intimate New York club, using the trio format to remember bassist Kiyoshi Kitagawa. The context and personnel make this more than a generic Ozone engagement.",
+          "trip_verdict": "Strong New York trip candidate, especially for the Japanese-jazz thread of Listening Notes.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Uno de los grandes pianistas japoneses en un club íntimo de Nueva York, con un trío concebido para recordar al bajista Kiyoshi Kitagawa. El contexto y la formación lo vuelven mucho más que una fecha rutinaria de Ozone.",
+          "trip_verdict": "Candidato fuerte para justificar Nueva York, sobre todo dentro del hilo japonés de Listening Notes.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/makoto-ozone-trio-remembering-kiyoshi-kitagawa/",
+        "official_tickets": "https://www.birdlandjazz.com/tm-event/makoto-ozone-trio-remembering-kiyoshi-kitagawa/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 45.76,
+          "maximum": 56.06,
+          "source_url": "https://www.birdlandjazz.com/tm-event/makoto-ozone-trio-remembering-kiyoshi-kitagawa/",
+          "checked_on": "2026-08-14"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.birdlandjazz.com/tm-event/makoto-ozone-trio-remembering-kiyoshi-kitagawa/",
+          "publisher": "Birdland Jazz Club",
+          "checked_on": "2026-08-14",
+          "note": "Official lineup, showtimes and published ticket range."
+        }
+      ],
+      "recommended_listening": [],
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "provenance": {
+        "status": "curated-inbox",
+        "note": "Merged from a reviewed curated inbox batch."
+      }
     },
     {
       "id": "joshua-redman-2026",
@@ -1187,6 +2249,97 @@
       },
       "geographic_domain": "us_corridor",
       "musical_axes": []
+    },
+    {
+      "id": "charles-lloyd-quartet-njpac-2026",
+      "artist": "Charles Lloyd Quartet",
+      "subtitle": "featuring Bill Frisell, Larry Grenadier & Kweku Sumbry",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null
+      },
+      "showtimes": [
+        "15:00"
+      ],
+      "venue": {
+        "id": "victoria-theater-njpac-newark",
+        "name": "Victoria Theater at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "S",
+      "category": "Living masters",
+      "genres": [
+        "Jazz",
+        "Experimental",
+        "Spiritual jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Charles Lloyd — saxophone/flute",
+        "Bill Frisell — guitar",
+        "Larry Grenadier — bass",
+        "Kweku Sumbry — drums"
+      ],
+      "factual_description": "NJPAC lists the Charles Lloyd Quartet at the Victoria Theater on Saturday, Nov 21, 2026 at 3:00 PM, featuring Bill Frisell, Larry Grenadier and Kweku Sumbry.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "An 88-year-old living master with Bill Frisell in a compact theater: historical weight, a rare lineup and a setting small enough for the music’s nuance to matter.",
+          "trip_verdict": "Yes. This is exactly the kind of performance that justifies the train to Newark.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Un maestro vivo de 88 años junto a Bill Frisell en un teatro compacto: peso histórico, una formación poco común y una sala suficientemente íntima para que importen todos los matices.",
+          "trip_verdict": "Sí. Es exactamente el tipo de concierto que justifica subirse al tren a Newark.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://www.njpac.org/event/charles-lloyd-quartet/",
+        "official_tickets": "https://www.njpac.org/event/charles-lloyd-quartet/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.njpac.org/event/charles-lloyd-quartet/",
+          "checked_on": "2026-08-14"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/charles-lloyd-quartet/",
+          "publisher": "NJPAC",
+          "checked_on": "2026-08-14",
+          "note": "Official date, time, venue and lineup."
+        }
+      ],
+      "recommended_listening": [],
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "provenance": {
+        "status": "curated-inbox",
+        "note": "Merged from a reviewed curated inbox batch."
+      }
     }
   ]
 }

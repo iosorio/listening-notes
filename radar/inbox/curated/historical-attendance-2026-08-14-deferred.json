@@ -1,0 +1,51 @@
+{
+  "batch_version": 1,
+  "batch_id": "historical-attendance-2026-08-14-deferred",
+  "kind": "curated_event_candidates",
+  "created_on": "2026-08-14",
+  "notes": "Historical concert records recovered from Gmail/InstantSeats research and direct user confirmation. These are intended for merge into radar/events.json after schema validation. Do not publish private Gmail URLs or personal email addresses. Deferred records remain unprocessed until canonical metadata is complete.",
+  "events": [
+    {
+      "id": "eddie-palmieri-2019-user-confirmed",
+      "artist": "Eddie Palmieri",
+      "dates": {
+        "start": null,
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "user_confirmed",
+            "recorded_on": "2026-08-14",
+            "note": "User explicitly confirmed attending Eddie Palmieri in 2019; ticket may have been purchased by someone else."
+          },
+          {
+            "type": "third_party_ticket",
+            "recorded_on": "2026-08-14",
+            "note": "Possible explanation for absence of a purchase receipt in the user's Gmail; unverified."
+          }
+        ],
+        "notes": "Exact date/show/venue still requires reliable verification before canonical merge.",
+        "setlist": null,
+        "photo_paths": []
+      },
+      "sources": [],
+      "provenance": {
+        "status": "user-confirmed-needs-date",
+        "note": "Attendance is authoritative; event metadata remains incomplete."
+      }
+    }
+  ]
+}
