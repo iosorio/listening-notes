@@ -50,12 +50,33 @@
         "official_event": "https://tsunokenband.jp/index.php?date=2026-10-24&main_page=schedule",
         "official_tickets": null
       },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio, TSUYOSHI YAMAMOTO",
+          "title": "A Shade of Blue",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The official Kenichi Tsunoda Big Band event listing says the Volontaire 50th-anniversary performance is sold out and provides no purchase destination, so no ticket URL is invented."
+      },
       "sources": [
         {
           "type": "official_artist",
           "name": "Kenichi Tsunoda Big Band — official schedule",
           "url": "https://tsunokenband.jp/index.php?date=2026-10-24&main_page=schedule",
           "checked_on": "2026-08-15"
+        },
+        {
+          "url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-15",
+          "note": "Exact album page for the recommended Tsuyoshi Yamamoto listening."
         }
       ],
       "provenance": {
@@ -66,12 +87,12 @@
         "en": {
           "why_it_matters": "This is not a routine Yamamoto club date. It folds his trio into the 50th-anniversary celebration of Volontaire, a long-running Tokyo jazz bar, alongside veteran tenor saxophonist Seiichi Nakamura, Sari and Kenichi Tsunoda's full big band. The value is the living ecosystem around the music: club history, veteran players and a large-ensemble celebration converging for one night.",
           "trip_verdict": "S+ under the current Yamamoto/Kanto rule and culturally worth crossing Tokyo for if access appears. But the official source says it is sold out, so do not build travel around admission unless a legitimate opening emerges.",
-          "listen_before": null
+          "listen_before": "A Shade of Blue"
         },
         "es": {
           "why_it_matters": "No es otra fecha rutinaria de Yamamoto en un club. Su trío entra en la celebración de los 50 años de Volontaire, un bar de jazz de larga historia en Tokio, junto al veterano tenor Seiichi Nakamura, Sari y la big band completa de Kenichi Tsunoda. Lo importante es el ecosistema vivo alrededor de la música: historia de club, músicos veteranos y una celebración de gran formato que convergen una sola noche.",
           "trip_verdict": "S+ bajo la regla actual de Yamamoto/Kanto y culturalmente vale cruzar Tokio si aparece acceso legítimo. Pero la fuente oficial indica que está agotado, así que no conviene construir el viaje alrededor de la entrada salvo que se abra una oportunidad real.",
-          "listen_before": null
+          "listen_before": "A Shade of Blue"
         }
       }
     }
