@@ -2,7 +2,7 @@
   "batch_version": 1,
   "kind": "curated_event_candidates",
   "batch_id": "yamamoto-upcoming-catchup-2026-08-15",
-  "notes": "Catch-up of verified or authoritative upcoming Tsuyoshi Yamamoto dates found missing from the canonical RADAR on 2026-08-15. These are NEW TO RADAR, not necessarily newly announced on this date.",
+  "notes": "Catch-up of verified or authoritative upcoming Tsuyoshi Yamamoto dates found missing from the canonical RADAR on 2026-08-15. These are NEW TO RADAR, not necessarily newly announced on this date. Link and Apple Music enrichment is explicitly declared per the ingestion contract; unknown URLs are never fabricated.",
   "events": [
     {
       "id": "tsuyoshi-yamamoto-trio-sometime-2026-08-17",
@@ -30,6 +30,15 @@
         {"type": "authoritative_schedule", "name": "ジャズ資料館 — Tsuyoshi Yamamoto", "url": "https://www.jazzshiryokan.net/jazzDB/performer_detail.php?recordID=M1936", "checked_on": "2026-08-15"}
       ],
       "provenance": {"status": "verified-primary-source", "note": "Venue schedule and Japanese jazz schedule cross-check."},
+      "links": {
+        "official_event": "https://www.sometime.co.jp/sometime/live.html",
+        "official_tickets": null
+      },
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_tickets", "apple_music"],
+        "note": "The official SOMETIME schedule verifies the event. No exact ticket-purchase URL or confidently verified Apple Music recommendation was established in this discovery pass."
+      },
       "editorial": {
         "en": {"why_it_matters": "An intimate Tokyo club date with Yamamoto and longtime bassist Hiroshi Kagawa, with Rina Toshimitsu on drums, keeps the Yamamoto thread close to the small-room setting that makes this project interesting.", "trip_verdict": "Build the night around it if already in Tokyo; not a transpacific trip by itself.", "listen_before": null},
         "es": {"why_it_matters": "Una fecha íntima en Tokio con Yamamoto y su bajista de larga trayectoria Hiroshi Kagawa, junto a Rina Toshimitsu en batería, mantiene el hilo de Yamamoto en el tipo de club pequeño que hace interesante este proyecto.", "trip_verdict": "Construir la noche alrededor de esto si ya estás en Tokio; no justifica por sí sola el viaje transpacífico.", "listen_before": null}
@@ -61,6 +70,11 @@
         {"type": "authoritative_schedule", "name": "ジャズ資料館 — Yoshio Otomo", "url": "https://www.jazzshiryokan.net/jazzDB/performer_detail.php?recordID=M3237", "checked_on": "2026-08-15"}
       ],
       "provenance": {"status": "verified-authoritative-source", "note": "Cross-checked in independent performer schedules at ジャズ資料館; no exact venue event page was located, so no showtime or ticket URL is asserted."},
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_event", "official_tickets", "apple_music"],
+        "note": "The date and lineup are cross-checked in authoritative Japanese jazz schedules, but an exact official A-TRAIN event/ticket page and verified Apple Music recommendation were not established in this discovery pass."
+      },
       "editorial": {
         "en": {"why_it_matters": "Veteran alto saxophonist Yoshio Otomo with Yamamoto and Kagawa is a compact, musician-first small-club date rather than a routine headline booking.", "trip_verdict": "Worth building a Tokyo evening around; not a standalone reason to cross the Pacific.", "listen_before": null},
         "es": {"why_it_matters": "El veterano saxofonista alto Yoshio Otomo con Yamamoto y Kagawa ofrece una fecha de club pequeño centrada en los músicos, no una cartelera rutinaria.", "trip_verdict": "Vale construir una noche en Tokio alrededor de esto; no es por sí sola razón para cruzar el Pacífico.", "listen_before": null}
@@ -92,6 +106,11 @@
         {"type": "official_venue", "name": "YOKOHAMA JAZZ FIRST", "url": "https://jazz-first.com/", "checked_on": "2026-08-15"}
       ],
       "provenance": {"status": "verified-authoritative-source", "note": "Date, lineup and start time from current Yamamoto schedule aggregator; venue identity cross-checked against the official club site."},
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_event", "official_tickets", "apple_music"],
+        "note": "The event is verified through the current Yamamoto schedule listing and official venue identity, but no exact official event/ticket URL or confidently verified Apple Music recommendation was established in this discovery pass."
+      },
       "editorial": {
         "en": {"why_it_matters": "This is the core Yamamoto/Kagawa/Osumi trio in an intimate Yokohama room: the most direct version of the sound the current RADAR thread is following.", "trip_verdict": "Build the evening around it if in Greater Tokyo; by itself it remains A+ rather than a transpacific destination.", "listen_before": null},
         "es": {"why_it_matters": "Es el núcleo Yamamoto/Kagawa/Osumi en un espacio íntimo de Yokohama: la versión más directa del sonido que sigue el hilo actual del RADAR.", "trip_verdict": "Construir la noche alrededor de esto si estás en Greater Tokyo; por sí sola sigue siendo A+ y no un destino transpacífico.", "listen_before": null}
@@ -123,6 +142,11 @@
         {"type": "official_venue", "name": "YOKOHAMA JAZZ FIRST", "url": "https://jazz-first.com/", "checked_on": "2026-08-15"}
       ],
       "provenance": {"status": "verified-authoritative-source", "note": "Date, lineup and start time from current Yamamoto schedule aggregator; venue identity cross-checked against the official club site."},
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_event", "official_tickets", "apple_music"],
+        "note": "The event is verified through the current Yamamoto schedule listing and official venue identity, but no exact official event/ticket URL or confidently verified Apple Music recommendation was established in this discovery pass."
+      },
       "editorial": {
         "en": {"why_it_matters": "The classic trio is already a strong Yamamoto date; its placement immediately before the September 26 BODY&SOUL Final Groove performance creates a rare two-night Yamamoto arc across Yokohama and Tokyo.", "trip_verdict": "A+ by itself, but an ideal first night if traveling for the September 26 BODY&SOUL S date.", "listen_before": null},
         "es": {"why_it_matters": "El trío clásico ya es una gran fecha de Yamamoto; al ocurrir justo antes del Final Groove de BODY&SOUL del 26 de septiembre crea un arco excepcional de dos noches entre Yokohama y Tokio.", "trip_verdict": "A+ por sí sola, pero es la primera noche ideal si viajas por la fecha S de BODY&SOUL del 26 de septiembre.", "listen_before": null}
