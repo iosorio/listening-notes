@@ -3292,6 +3292,126 @@
       "musical_axes": []
     },
     {
+      "id": "tmo-project-sadao-watanabe-muza-kawasaki-2026-11-14",
+      "artist": "The TMO Project featuring Sadao Watanabe",
+      "subtitle": "Kawasaki Jazz 2026",
+      "dates": {
+        "start": "2026-11-14",
+        "end": null
+      },
+      "showtimes": [
+        "17:00"
+      ],
+      "venue": {
+        "id": "muza-kawasaki-symphony-hall-kawasaki",
+        "name": "Muza Kawasaki Symphony Hall",
+        "city": "Kawasaki",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Japan / Living masters",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "World jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Japan",
+        "Improvised",
+        "Groove"
+      ],
+      "lineup": [
+        "Christian Tamburr (vibraphone)",
+        "Takana Miyamoto (piano)",
+        "Keita Ogawa (percussion)",
+        "Sadao Watanabe (saxophone)"
+      ],
+      "factual_description": "Kawasaki Jazz 2026 presents The TMO Project—Christian Tamburr, Takana Miyamoto and Keita Ogawa—at Muza Kawasaki Symphony Hall with Sadao Watanabe as guest saxophonist. The official festival and venue pages list doors at 16:15 and a 17:00 start on November 14, 2026, and describe it as TMO's first appearance at Muza and a one-time special live performance.",
+      "links": {
+        "official_event": "https://www.kawasakijazz.jp/program/detail2026/20261114.php",
+        "official_tickets": "https://t.pia.jp/pia/event/event.do?eventCd=2619856"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Christian Tamburr, Takana Miyamoto & Keita Ogawa",
+          "title": "People Talk",
+          "apple_music_url": "https://music.apple.com/gb/album/people-talk/1041059969"
+        },
+        {
+          "artist": "Sadao Watanabe",
+          "title": "But Beautiful",
+          "apple_music_url": "https://music.apple.com/jp/album/but-beautiful/1895612193?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_festival",
+          "name": "Kawasaki Jazz 2026",
+          "url": "https://www.kawasakijazz.jp/program/detail2026/20261114.php",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_venue",
+          "name": "Muza Kawasaki Symphony Hall",
+          "url": "https://www.kawasaki-sym-hall.jp/events/calendar/detail.php?id=4854",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Ticket Pia",
+          "url": "https://t.pia.jp/pia/event/event.do?eventCd=2619856",
+          "checked_on": "2026-08-15"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, doors/start time, venue, lineup, first-Muza/one-off context and authorized ticketing verified against Kawasaki Jazz, Muza Kawasaki Symphony Hall and Ticket Pia. Apple Music links verified as exact album pages."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Sadao Watanabe is the historical anchor, but the real reason this rises to S is the context: his phrasing enters an unusually transparent TMO texture of vibraphone, piano and world percussion, with Keita Ogawa's rhythmic language giving the meeting a contemporary pulse. A one-off guest appearance at Muza makes this a specific musical proposition, not a generic salute to a legend.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Build the evening around Kawasaki: a living Japanese master meeting this particular trio in a one-off hall context is worth crossing the metropolitan area for, though it does not by itself demand a transpacific trip.",
+          "listen_before": "People Talk; But Beautiful"
+        },
+        "es": {
+          "why_it_matters": "Sadao Watanabe es el ancla histórica, pero lo que realmente eleva esta fecha a S es el contexto: su fraseo entra en la textura inusualmente transparente de TMO —vibráfono, piano y percusión de raíz global— y el lenguaje rítmico de Keita Ogawa le da al encuentro un pulso contemporáneo. La aparición especial en Muza convierte esto en una propuesta musical concreta, no en un homenaje genérico a una leyenda.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale construir la noche alrededor de Kawasaki: un maestro vivo del jazz japonés encontrándose con este trío específico en un contexto irrepetible de sala justifica cruzar el área metropolitana, aunque por sí solo no exige un viaje transpacífico.",
+          "listen_before": "People Talk; But Beautiful"
+        }
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
       "id": "bad-plus-farewell-2026",
       "artist": "The Bad Plus",
       "subtitle": "Farewell Tour",
