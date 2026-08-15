@@ -49,6 +49,8 @@ def validate_batch(batch: dict, path: Path) -> list[dict]:
         ids.add(event["id"])
         if not isinstance(event.get("artist"), str) or not isinstance(event.get("dates"), dict):
             fail(f"{path}: {event['id']} requires artist and dates")
+        if path.parent == CURATED and event.get("status") in {"considering", "going"} and "enrichment" not in event:
+            fail(f"{path}: {event['id']} is upcoming and requires an enrichment declaration")
         attendance = event.get("attendance", {})
         evidence = attendance.get("evidence", [])
         if not isinstance(evidence, list) or any(not isinstance(item, dict) or item.get("type") not in EVIDENCE_TYPES for item in evidence):

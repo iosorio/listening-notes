@@ -11,25 +11,20 @@ destination.
 
 - `index.html` is an editorial listening feature.
 - `radar/` is the bilingual live-music radar.
-- `radar/events.json` is the single underlying event dataset and canonical source of truth.
-- `radar/inbox/curated/` is the trusted ingestion queue for verified discoveries.
+- `radar/events.json` is the single underlying event dataset.
 - `assets/` holds local editorial images.
 
 The site is intentionally static so it can remain publishable through GitHub
 Pages and usable without a framework, service, or AI platform.
 
 The two native domains are Greater Tokyo/Kantō and the US corridor. Automated
-discovery may publish verified qualifying discoveries into the curated inbox;
-it never edits the canonical dataset directly.
+discovery is external; it may suggest leads but never publishes them directly.
 
 ## Durable operating model
 
 GitHub stores the project history and reviewed knowledge. Research may begin in
-a chat or scheduled RADAR scan, but an event is durable only after it enters the
-repository. Verified automated discoveries are written as curated inbox batches.
-The `RADAR ingest` GitHub Action runs `scripts/merge_inbox.py`, rejects duplicate
-or incomplete candidates, validates the resulting schema, merges accepted events
-into `radar/events.json`, and preserves the processed handoff for provenance.
+a chat, but source URLs, factual corrections, decisions, and editorial copy
+must be recorded in this repository before they are treated as durable.
 
 Events remain in the dataset after their date. The radar will gradually become
 a personal history of live listening: upcoming plans, attended shows, notes,
@@ -37,15 +32,24 @@ setlists, photos, and reflections can accumulate on the same stable event ID.
 
 ## Change sequence
 
-1. Discover a candidate event.
-2. Verify factual event information from primary or authoritative sources.
-3. Check the canonical dataset for duplicates or material updates.
-4. Record the verified candidate in `radar/inbox/curated/` with sources and bilingual editorial judgment.
-5. Let the RADAR ingest workflow validate and merge it into `radar/events.json`.
-6. GitHub Pages publishes the updated static RADAR.
+1. Discover a candidate event and verify it from primary or authoritative sources.
+2. Check the canonical dataset for duplicates or material updates.
+3. Record the candidate in `radar/inbox/curated/` with sources, bilingual editorial judgment, exact official event/ticket URLs, and editorial Apple Music links where available.
+4. Let the RADAR ingest workflow validate and merge it into `radar/events.json`.
+5. GitHub Pages publishes the updated static RADAR.
 
-Ticket prices are recorded only when explicitly verified. Automated discovery
-must not invent prices, showtimes, lineups, source URLs, or attendance status.
+Ticket prices are recorded only when explicitly verified. Discovery must not
+invent prices, showtimes, lineups, source URLs, attendance status, or links.
+
+## RADAR enrichment
+
+Discovery research supplies verified enrichment in each curated inbox candidate;
+the merge validates it before canonical ingestion. Upcoming candidates declare
+`enrichment.status` as `complete`, `pending`, or `unavailable`. A complete
+record has exact official event and ticket URLs plus at least one exact Apple
+Music recommendation. Pending or unavailable records explicitly list missing
+fields and explain why. URLs are never invented to satisfy validation.
+`radar/events.json` remains the only canonical dataset.
 
 ## Current boundaries
 

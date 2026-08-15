@@ -15,6 +15,40 @@ ATTENDANCE_EVIDENCE = {"user_confirmed", "personal_photo", "ticket_purchase", "l
 # A stable event ID ends in its year or, when a historical/show record needs
 # disambiguation, its full ISO date. Existing year-only IDs remain valid.
 ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}(?:-\d{2}-\d{2})?$")
+ENRICHMENT_STATUSES = {"complete", "pending", "unavailable"}
+ENRICHMENT_FIELDS = {"official_event", "official_tickets", "apple_music"}
+
+
+def valid_public_url(value: object) -> bool:
+    if not isinstance(value, str):
+        return False
+    parsed = urlparse(value)
+    return parsed.scheme == "https" and bool(parsed.netloc) and parsed.path not in {"", "/"} and "/search" not in parsed.path
+
+
+def validate_enrichment(event: dict, event_id: str) -> None:
+    enrichment = event.get("enrichment")
+    if enrichment is None:
+        return
+    if not isinstance(enrichment, dict) or enrichment.get("status") not in ENRICHMENT_STATUSES:
+        fail(f"{event_id}.enrichment requires status complete, pending, or unavailable")
+    links = event.get("links", {})
+    if not isinstance(links, dict):
+        fail(f"{event_id}.links must be an object")
+    for field in ("official_event", "official_tickets"):
+        value = links.get(field)
+        if value is not None and not valid_public_url(value):
+            fail(f"{event_id}.links.{field} must be an exact HTTPS event URL, not a search or homepage")
+    apple_urls = [item.get("apple_music_url") for item in event.get("recommended_listening", []) if isinstance(item, dict) and item.get("apple_music_url")]
+    missing = enrichment.get("missing", [])
+    if not isinstance(missing, list) or any(field not in ENRICHMENT_FIELDS for field in missing) or len(set(missing)) != len(missing):
+        fail(f"{event_id}.enrichment.missing must be a unique list of known enrichment fields")
+    if enrichment["status"] == "complete":
+        if missing or not links.get("official_event") or not links.get("official_tickets") or not apple_urls:
+            fail(f"{event_id} claims complete enrichment but required links or Apple Music are missing")
+    else:
+        if not missing or not isinstance(enrichment.get("note"), str) or not enrichment["note"].strip():
+            fail(f"{event_id} pending/unavailable enrichment requires missing fields and an explanatory note")
 
 
 def fail(message: str) -> None:
@@ -94,6 +128,7 @@ def main(path: Path) -> None:
                 parsed = urlparse(apple_music_url)
                 if parsed.scheme != "https" or parsed.netloc != "music.apple.com" or not re.search(r"/(album|song|playlist)/", parsed.path):
                     fail(f"{event_id}.recommended_listening.apple_music_url must be an exact Apple Music album, song, or playlist URL")
+        validate_enrichment(event, event_id)
         attendance = event.get("attendance")
         if not isinstance(attendance, dict) or attendance.get("status") not in {None, "attended", "unknown_attendance"}:
             fail(f"{event_id}.attendance requires a supported status")
