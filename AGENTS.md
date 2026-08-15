@@ -1,5 +1,19 @@
 # Listening Notes — Agent Guide
 
+## Machine topology and session ritual
+
+- MacBook control checkout: `/Users/israel/Code/ior-listening-notes`.
+- Mac Pro execution checkout: `/Users/Israel/Code/ior-listening-notes`, reached
+  from the MacBook with `ssh MacPro`.
+- GitHub `main` is the cross-machine authority. At mission start, inspect status
+  and recent commits in both worktrees before changing code or data.
+- The MacBook may be used for control, inspection, and light editing. Run tests,
+  validators, builds, and final pre-publication checks on MacPro with
+  `scripts/remote_run_macpro.sh` or an equivalent explicit SSH command.
+- After publishing, fast-forward the MacPro checkout, rerun relevant validation,
+  and leave both worktrees clean. Never silently fall back to MacBook-only
+  execution if MacPro is unavailable.
+
 ## Source of truth
 
 This repository is the permanent, portable system of record for Listening Notes.
