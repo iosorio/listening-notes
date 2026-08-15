@@ -1,0 +1,49 @@
+name: RADAR ingest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'radar/inbox/curated/*.json'
+      - 'scripts/merge_inbox.py'
+      - 'scripts/validate_events.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-ingest
+  cancel-in-progress: false
+
+jobs:
+  merge-curated-inbox:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Merge curated RADAR inbox
+        run: python scripts/merge_inbox.py --all
+
+      - name: Validate canonical RADAR dataset
+        run: python scripts/validate_events.py radar/events.json
+
+      - name: Commit canonical RADAR update
+        run: |
+          if git diff --quiet; then
+            echo 'No RADAR changes to commit.'
+            exit 0
+          fi
+          git config user.name 'listening-notes-radar-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add radar/events.json radar/inbox/curated radar/inbox/processed
+          git commit -m 'Merge verified RADAR discoveries'
+          git push
