@@ -1,0 +1,80 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "charles-lloyd-blue-note-new-york-2026-11-18-discovery",
+  "notes": "Verified high-priority New York discovery. Charles Lloyd, an NEA Jazz Master and active living master, appears for four intimate Blue Note sets immediately before the already-recorded NJPAC date, creating a distinctive Northeast corridor arc rather than a routine tour listing.",
+  "events": [
+    {
+      "id": "charles-lloyd-quartet-blue-note-new-york-2026-11-18",
+      "artist": "Charles Lloyd Quartet",
+      "subtitle": "featuring Larry Grenadier & Kweku Sumbry; fourth member TBA",
+      "dates": {"start": "2026-11-18", "end": "2026-11-19"},
+      "showtimes": ["20:00", "22:30"],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters",
+      "genres": ["Jazz", "Post-bop", "Improvised"],
+      "musical_axes": ["Masters", "Acoustic Jazz"],
+      "lineup": [
+        "Charles Lloyd (saxophone/flute)",
+        "Larry Grenadier (bass)",
+        "Kweku Sumbry (drums)"
+      ],
+      "factual_description": "Blue Note New York lists the Charles Lloyd Quartet for four sets on November 18-19, 2026: 8:00 PM and 10:30 PM each night. The club bills Larry Grenadier and Kweku Sumbry with Lloyd and leaves the fourth quartet member TBA. Charles Lloyd's official calendar independently lists the November 18-19 Blue Note engagement in New York.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/charles-lloyd-quartet-featuring-tba-larry-grenadier-kweku-sumbry-3/",
+        "official_tickets": "https://www.bluenotejazz.com/nyc/tm-event/charles-lloyd-quartet-featuring-tba-larry-grenadier-kweku-sumbry-3/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Charles Lloyd",
+          "title": "The Sky Will Still Be There Tomorrow",
+          "apple_music_url": "https://music.apple.com/us/album/the-sky-will-still-be-there-tomorrow/1724096581"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Blue Note New York",
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/charles-lloyd-quartet-featuring-tba-larry-grenadier-kweku-sumbry-3/",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_artist",
+          "name": "Charles Lloyd official calendar",
+          "url": "https://charleslloyd.com/calendar/",
+          "checked_on": "2026-08-15"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, venue, four set times and named personnel verified on Blue Note New York; the engagement is independently listed on Charles Lloyd's official calendar. Blue Note states that tickets bought through its site or TicketWeb are authorized. Apple Music recommendation verified as an exact album page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Lloyd remains one of the rare living masters for whom an intimate club changes the proposition. Hearing his spacious, searching tenor language with Larry Grenadier and Kweku Sumbry at the Blue Note is materially different from a large-hall date, and the engagement lands only two days before his Bill Frisell quartet appearance at NJPAC. Together they form an unusually strong Northeast snapshot of Lloyd in late career, but these Blue Note sets stand on their own as S-level listening.",
+          "trip_verdict": "Yes. Worth the New York trip for the small-room context alone; even stronger if paired with the November 21 NJPAC date as a two-city Charles Lloyd arc.",
+          "listen_before": "The Sky Will Still Be There Tomorrow"
+        },
+        "es": {
+          "why_it_matters": "Lloyd sigue siendo uno de esos pocos maestros vivos para quienes un club íntimo cambia por completo la propuesta. Escuchar su lenguaje espacioso y exploratorio junto a Larry Grenadier y Kweku Sumbry en el Blue Note es otra cosa que verlo en una sala grande, y la residencia ocurre apenas dos días antes de su cuarteto con Bill Frisell en NJPAC. Juntas forman una fotografía extraordinaria del Lloyd tardío en el corredor noreste, pero estas noches del Blue Note sostienen por sí mismas una prioridad S.",
+          "trip_verdict": "Sí. Justifica el viaje a Nueva York por el contexto de club pequeño; todavía mejor si se combina con NJPAC el 21 de noviembre como un arco Charles Lloyd de dos ciudades.",
+          "listen_before": "The Sky Will Still Be There Tomorrow"
+        }
+      }
+    }
+  ]
+}
