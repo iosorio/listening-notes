@@ -1,0 +1,215 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yamamoto-ginza-swing-blue-note-groove-2026-08-15",
+  "created_on": "2026-08-15",
+  "notes": "Current RADAR discovery pass: one newly verified Tsuyoshi Yamamoto Tokyo date and one unusually strong New York cross-genre trio. Yamamoto is included regardless of grade; the Blue Note engagement is included at S because the exact Chris Dave/Meshell Ndegeocello/Eric Gales configuration is a rare concentration of rhythmic, bass and electric-guitar identity in an intimate club setting.",
+  "events": [
+    {
+      "id": "dyna-miki-tsuyoshi-yamamoto-ginza-swing-2026-10-10",
+      "artist": "Dyna Miki + Tsuyoshi Yamamoto",
+      "subtitle": "with Daiki Yasukagawa & Chikko Soma",
+      "dates": {
+        "start": "2026-10-10",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "ginza-swing-tokyo",
+        "name": "Ginza Swing",
+        "city": "Chuo-ku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan",
+      "genres": [
+        "Jazz",
+        "Vocal jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Japan",
+        "Improvised"
+      ],
+      "lineup": [
+        "Dyna Miki (voice)",
+        "Tsuyoshi Yamamoto (piano)",
+        "Daiki Yasukagawa (bass)",
+        "Chikko Soma (drums)"
+      ],
+      "factual_description": "Ginza Swing's official October schedule lists vocalist Dyna Miki with Tsuyoshi Yamamoto on piano, Daiki Yasukagawa on bass and Chikko Soma on drums for Saturday, October 10, 2026. The venue lists an 18:00 door time and says general ticket sales begin September 15 at 12:00; exact performance start times were not independently verified in this pass.",
+      "links": {
+        "official_event": "https://ginzaswing.jp/20261010-2/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio, TSUYOSHI YAMAMOTO",
+          "title": "A Shade of Blue",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Ginza Swing's official schedule says general sales begin September 15 at 12:00. No exact authorized ticket destination for this performance was yet published or verifiable in this pass, so no ticket URL is invented."
+      },
+      "sources": [
+        {
+          "url": "https://ginzaswing.jp/schedules/?month=2026-10",
+          "publisher": "Ginza Swing",
+          "checked_on": "2026-08-15",
+          "note": "Official October 2026 schedule verifies date, billing, lineup, 18:00 doors and the September 15 general-sale date."
+        },
+        {
+          "url": "https://ginzaswing.jp/20261010-2/",
+          "publisher": "Ginza Swing",
+          "checked_on": "2026-08-15",
+          "note": "Exact official event destination linked from the venue's October schedule."
+        },
+        {
+          "url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-15",
+          "note": "Exact album page for the recommended Tsuyoshi Yamamoto listening."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date and lineup verified against Ginza Swing's official October 2026 schedule. Exact event destination comes from the official venue link. Ticket sales are announced for September 15 but an exact ticket URL was not yet verifiable."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "A vocalist-led Yamamoto date with Daiki Yasukagawa and Chikko Soma is useful precisely because it is not another Kagawa/Osumi trio night: it places his touch and time inside a different working Tokyo rhythm section and gives the current Yamamoto thread another angle on how he functions as an accompanist as well as a trio leader.",
+          "trip_verdict": "A+. Build a Tokyo evening around it if the Yamamoto thread is the draw; intimate and musically revealing, but not by itself a reason for a transpacific trip.",
+          "listen_before": "A Shade of Blue"
+        },
+        "es": {
+          "why_it_matters": "Una fecha de Yamamoto encabezada por una cantante, con Daiki Yasukagawa y Chikko Soma, importa precisamente porque no es otra noche del trío Kagawa/Osumi: coloca su toque y su tiempo dentro de otra sección rítmica activa de Tokio y deja escuchar otra faceta del hilo Yamamoto, la del acompañante además del líder de trío.",
+          "trip_verdict": "A+. Vale construir una noche en Tokio alrededor de ella si el hilo Yamamoto es el motivo; íntima y musicalmente reveladora, pero no justifica por sí sola un viaje transpacífico.",
+          "listen_before": "A Shade of Blue"
+        }
+      }
+    },
+    {
+      "id": "chris-dave-meshell-ndegeocello-eric-gales-blue-note-nyc-2026-09-18",
+      "artist": "Chris Dave x Meshell Ndegeocello x Eric Gales Trio",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-18",
+        "end": "2026-09-20"
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Fusion / progressive",
+      "genres": [
+        "Jazz",
+        "R&B",
+        "Soul",
+        "Blues-rock",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Improvised",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Chris Dave (drums)",
+        "Meshell Ndegeocello (bass, voice)",
+        "Eric Gales (guitar, voice)"
+      ],
+      "factual_description": "Blue Note New York lists Chris Dave x Meshell Ndegeocello x Eric Gales Trio for September 18-20, 2026, with 8:00 PM and 10:30 PM sets on all three nights. The club states that tickets bought through its official site or TicketWeb are the only authorized sources.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/chris-dave-x-meshell-ndegeocello-x-eric-gales-trio/",
+        "official_tickets": "https://www.bluenotejazz.com/nyc/tm-event/chris-dave-x-meshell-ndegeocello-x-eric-gales-trio/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Meshell Ndegeocello",
+          "title": "No More Water: The Gospel Of James Baldwin",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/no-more-water-the-gospel-of-james-baldwin/1747673197"
+        },
+        {
+          "artist": "Chris Dave and the Drumhedz",
+          "title": "Chris Dave and the Drumhedz",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/chris-dave-and-the-drumhedz/1440881381"
+        },
+        {
+          "artist": "Eric Gales",
+          "title": "Crown",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/crown/1591397917"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/chris-dave-x-meshell-ndegeocello-x-eric-gales-trio/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-08-15",
+          "note": "Exact official event page verifies Sep 18-20 dates, both nightly set times, venue, billing and authorized TicketWeb sales."
+        },
+        {
+          "url": "https://music.apple.com/us/album/no-more-water-the-gospel-of-james-baldwin/1747673197",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-15",
+          "note": "Exact album page for the Meshell Ndegeocello recommendation."
+        },
+        {
+          "url": "https://music.apple.com/us/album/chris-dave-and-the-drumhedz/1440881381",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-15",
+          "note": "Exact album page for the Chris Dave recommendation."
+        },
+        {
+          "url": "https://music.apple.com/us/album/crown/1591397917",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-15",
+          "note": "Exact album page for the Eric Gales recommendation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, billing, venue and authorized ticketing verified directly against Blue Note New York's exact event page. Apple Music recommendations were verified as exact album destinations."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a rare three-way collision rather than a routine tour stop: Chris Dave's elastic rhythmic language, Meshell Ndegeocello's bass-centered groove and genre-defying compositional world, and Eric Gales' highly physical electric-guitar voice meet in the close quarters of the Blue Note. The instrumentation alone makes improvisational risk and rhythmic interaction the point of the night.",
+          "trip_verdict": "S. Yes, worth the New York trip if groove, instrumental identity and improvisation are the draw; the intimate Blue Note setting is part of what makes this exact configuration unusually compelling.",
+          "listen_before": "No More Water: The Gospel Of James Baldwin; Chris Dave and the Drumhedz; Crown"
+        },
+        "es": {
+          "why_it_matters": "Esto es un cruce de tres mundos poco repetible, no una parada rutinaria de gira: el lenguaje rítmico elástico de Chris Dave, el groove centrado en el bajo y el universo compositivo sin género fijo de Meshell Ndegeocello, y la voz eléctrica y física de la guitarra de Eric Gales se encuentran en la cercanía del Blue Note. La propia instrumentación hace que el riesgo improvisatorio y la interacción rítmica sean el centro de la noche.",
+          "trip_verdict": "S. Sí justifica Nueva York si el imán es el groove, la identidad instrumental y la improvisación; la intimidad del Blue Note es parte esencial de lo excepcional de esta formación concreta.",
+          "listen_before": "No More Water: The Gospel Of James Baldwin; Chris Dave and the Drumhedz; Crown"
+        }
+      }
+    }
+  ]
+}
