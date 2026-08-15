@@ -13,4 +13,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/validate_events.py radar/events.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate canonical RADAR data
+        run: python scripts/validate_events.py radar/events.json
+      - name: Validate unreviewed enrichment research
+        shell: bash
+        run: |
+          for batch in radar/inbox/research/*.json; do
+            [ -e "$batch" ] || continue
+            python scripts/validate_research_enrichment.py "$batch"
+          done
+      - name: Dry-run reviewed enrichment patches
+        run: python scripts/merge_enrichment_patches.py --all --dry-run
+      - name: Dry-run new-event candidates
+        run: python scripts/merge_inbox.py --all --dry-run
+      - name: Run repository tests
+        run: python -m unittest discover -s tests -v

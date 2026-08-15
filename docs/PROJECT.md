@@ -34,9 +34,10 @@ setlists, photos, and reflections can accumulate on the same stable event ID.
 
 1. Discover a candidate event and verify it from primary or authoritative sources.
 2. Check the canonical dataset for duplicates or material updates.
-3. Record the candidate in `radar/inbox/curated/` with sources, bilingual editorial judgment, exact official event/ticket URLs, and editorial Apple Music links where available.
-4. Let the RADAR ingest workflow validate and merge it into `radar/events.json`.
-5. GitHub Pages publishes the updated static RADAR.
+3. Record a new candidate in `radar/inbox/curated/` with sources, bilingual editorial judgment, exact official event/ticket URLs, and editorial Apple Music links where available.
+4. For an existing event, record unreviewed link research in `radar/inbox/research/`, validate it, and explicitly promote the approved batch to `radar/inbox/curated/enrichment/`.
+5. Let the RADAR ingest workflow route creation batches and enrichment patches to their separate deterministic mergers.
+6. Validate the resulting `radar/events.json`; GitHub Pages then publishes the updated static RADAR.
 
 Ticket prices are recorded only when explicitly verified. Discovery must not
 invent prices, showtimes, lineups, source URLs, attendance status, or links.
@@ -50,6 +51,12 @@ record has exact official event and ticket URLs plus at least one exact Apple
 Music recommendation. Pending or unavailable records explicitly list missing
 fields and explain why. URLs are never invented to satisfy validation.
 `radar/events.json` remains the only canonical dataset.
+
+Existing-event backfill never runs directly from unreviewed research. The
+research validator produces a structural diff, a human or interactive Codex
+review explicitly approves promotion, and the curated patch merger modifies
+only enrichment fields. GitHub Actions performs no AI or editorial reasoning.
+See `docs/RADAR_ENRICHMENT.md` for the contracts and commands.
 
 ## Current boundaries
 

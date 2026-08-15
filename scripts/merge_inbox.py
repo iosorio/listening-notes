@@ -122,8 +122,6 @@ def batch_paths(args: argparse.Namespace) -> list[Path]:
             fail("batch must be an unprocessed file directly inside radar/inbox/curated")
         return [path]
     paths = sorted(CURATED.glob("*.json"))
-    if not paths:
-        fail("no unprocessed curated batches found")
     return paths
 
 

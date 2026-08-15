@@ -129,6 +129,16 @@ def main(path: Path) -> None:
                 if parsed.scheme != "https" or parsed.netloc != "music.apple.com" or not re.search(r"/(album|song|playlist)/", parsed.path):
                     fail(f"{event_id}.recommended_listening.apple_music_url must be an exact Apple Music album, song, or playlist URL")
         validate_enrichment(event, event_id)
+        provenance = event.get("provenance")
+        if not isinstance(provenance, dict):
+            fail(f"{event_id}.provenance must be an object")
+        enrichment_history = provenance.get("enrichment_history", [])
+        if not isinstance(enrichment_history, list):
+            fail(f"{event_id}.provenance.enrichment_history must be an array")
+        for record in enrichment_history:
+            if not isinstance(record, dict) or not all(isinstance(record.get(key), str) and record[key].strip() for key in ("status", "note")):
+                fail(f"{event_id}.provenance.enrichment_history entries require status and note")
+            valid_date(record.get("recorded_on"), f"{event_id}.provenance.enrichment_history.recorded_on")
         attendance = event.get("attendance")
         if not isinstance(attendance, dict) or attendance.get("status") not in {None, "attended", "unknown_attendance"}:
             fail(f"{event_id}.attendance requires a supported status")

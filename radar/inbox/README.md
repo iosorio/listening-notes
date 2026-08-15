@@ -4,8 +4,13 @@ This directory is a handoff layer between research/editorial agents and the cano
 
 ## Directories
 
-- `curated/`: batches already approved for canonical merge after schema validation.
-- Future: `discovered/` may hold unreviewed candidates, but nothing from it should be published automatically.
+- `research/`: untrusted enrichment research for existing canonical IDs. It is
+  validated and reviewed but never merged directly.
+- `curated/`: reviewed new-event candidates handled by `merge_inbox.py`.
+- `curated/enrichment/`: explicitly reviewed patches for existing IDs, handled
+  only by `merge_enrichment_patches.py`.
+- `processed/` and `processed/enrichment/`: immutable Git history of successfully
+  ingested creation and enrichment batches.
 
 ## Rules
 
@@ -38,3 +43,36 @@ preserves the handoff artifact in Git while preventing accidental re-ingestion.
 If a batch has both mergeable and incomplete candidates, the original batch is
 archived and a new `-deferred` batch containing only the blocked records stays
 in `curated/` until its metadata is completed.
+
+## Existing-event enrichment workflow
+
+Research is structurally validated without writing canonical data:
+
+```sh
+python3 scripts/validate_research_enrichment.py radar/inbox/research/example.json
+```
+
+After an explicit human or interactive Codex review, promote that exact batch:
+
+```sh
+python3 scripts/promote_research_enrichment.py \
+  radar/inbox/research/example.json \
+  --approved-by "Reviewer name" \
+  --dry-run
+python3 scripts/promote_research_enrichment.py \
+  radar/inbox/research/example.json \
+  --approved-by "Reviewer name"
+```
+
+The generated curated batch records the source path, batch ID, SHA-256, reviewer,
+and review date. The original research file remains unchanged. Review the
+generated diff, then test the deterministic merge locally if desired:
+
+```sh
+python3 scripts/merge_enrichment_patches.py --all --dry-run
+```
+
+Once the curated batch is committed to `main`, the ingest workflow applies it,
+validates the entire canonical dataset, runs the tests, archives the batch, and
+commits only the expected RADAR files. Exact contracts and replacement rules
+are documented in `docs/RADAR_ENRICHMENT.md`.

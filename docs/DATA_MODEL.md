@@ -66,10 +66,19 @@ object per event where practical, and is designed to stay readable in Git.
 - `editorial` has native English and Spanish copy. Do not put display-language
   lookup tables in application JavaScript.
 - `sources` records provenance as `{ "url", "publisher", "checked_on", "note" }`.
+  Legacy source objects remain preserved; new enrichment patches use this
+  documented shape.
 - All ticket prices are numeric face values or resale values in `currency`.
   Unknown prices are `null`; never infer them from a resale listing.
 - `recommended_listening` contains objects with `artist`, `title`, `kind`
-  (`album` or `track`), and optional `apple_music_url`.
+  (`album`, `track`, or `playlist`), and optional `apple_music_url`.
+- `enrichment` declares `complete`, `pending`, or `unavailable`. `complete`
+  requires exact official event and ticket destinations plus at least one exact
+  Apple Music album, song, or playlist URL. The other states list every missing
+  component and include an explanatory note.
+- `provenance` remains an object. Enrichment patches preserve its existing
+  `status` and `note`; optional backfill records are appended idempotently under
+  `provenance.enrichment_history`.
 - `attendance` preserves personal material after a show; photo paths refer to
   committed local assets only. Its `status` and evidence records follow
   `docs/ATTENDANCE.md`; they do not infer attendance from a ticket email.
