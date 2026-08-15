@@ -3575,6 +3575,114 @@
       }
     },
     {
+      "id": "aziza-blue-note-tokyo-2026-11-04",
+      "artist": "AZIZA featuring Dave Holland, Chris Potter, Lionel Loueke & Eric Harland",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-11-04",
+        "end": "2026-11-06"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Contemporary jazz",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Groove"
+      ],
+      "lineup": [
+        "Dave Holland (bass)",
+        "Chris Potter (saxophone)",
+        "Lionel Loueke (guitar)",
+        "Eric Harland (drums)"
+      ],
+      "factual_description": "Blue Note Tokyo presents AZIZA featuring Dave Holland, Chris Potter, Lionel Loueke and Eric Harland on November 4-6, 2026, with 6:00 PM and 8:30 PM sets each night. The venue describes the engagement as Holland's return to Blue Note Tokyo after roughly 20 years with the four-member AZIZA supergroup.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/dave-holland/",
+        "official_tickets": "https://www.bluenote.co.jp/jp/artists/dave-holland/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Aziza",
+          "title": "AZIZA (feat. Dave Holland, Chris Potter, Lionel Loueke, Eric Harland)",
+          "apple_music_url": "https://music.apple.com/us/album/aziza-feat-dave-holland-chris-potter-lionel-loueke/1142336474"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Blue Note Tokyo",
+          "url": "https://www.bluenote.co.jp/jp/artists/dave-holland/",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Blue Note Tokyo reservation schedule",
+          "url": "https://reserve.bluenote.co.jp/reserve/mb_schedule/move/202611/",
+          "checked_on": "2026-08-15"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times, lineup, venue, approximately 20-year Blue Note Tokyo return context and web-reservation status verified against Blue Note Tokyo's exact event page and official reservation schedule. Apple Music link verified as the exact 2016 AZIZA album page featuring the announced quartet."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Dave Holland is a living master, but this rises to S because the context is unusually specific: the original AZIZA quartet reunites Holland with Chris Potter, Lionel Loueke and Eric Harland, four major improvisers with radically different rhythmic languages, for Holland's first Blue Note Tokyo appearance in roughly two decades. The 2016 AZIZA record makes clear that the band's identity is the interaction itself, not a star-plus-sidemen format.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Build a Tokyo night around it: a rare return by Holland with this exact supergroup is substantially more distinctive than a routine club residency, though it does not by itself require a transpacific trip.",
+          "listen_before": "AZIZA (feat. Dave Holland, Chris Potter, Lionel Loueke, Eric Harland)"
+        },
+        "es": {
+          "why_it_matters": "Dave Holland es un maestro vivo, pero la fecha sube a S por un contexto muy específico: el cuarteto original de AZIZA reúne a Holland con Chris Potter, Lionel Loueke y Eric Harland, cuatro improvisadores mayores con lenguajes rítmicos muy distintos, en la primera aparición de Holland en Blue Note Tokyo en aproximadamente dos décadas. El disco AZIZA de 2016 deja claro que la identidad del grupo está en la interacción, no en un formato de estrella con acompañantes.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale construir una noche de Tokio alrededor de esto: el regreso poco frecuente de Holland con exactamente este supergrupo es mucho más singular que una residencia rutinaria de club, aunque por sí solo no exige cruzar el Pacífico.",
+          "listen_before": "AZIZA (feat. Dave Holland, Chris Potter, Lionel Loueke, Eric Harland)"
+        }
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
       "id": "beat-2026",
       "artist": "BEAT",
       "subtitle": "Adrian Belew · Tony Levin · Steve Vai · Terry Bozzio",
