@@ -1124,6 +1124,123 @@
       "musical_axes": []
     },
     {
+      "id": "foo-fighters-nationals-park-2026-08-17",
+      "artist": "Foo Fighters",
+      "subtitle": "Take Cover Tour 2026 with Queens of the Stone Age + Mannequin Pussy",
+      "dates": {
+        "start": "2026-08-17",
+        "end": null
+      },
+      "showtimes": [
+        "17:30"
+      ],
+      "venue": {
+        "id": "nationals-park-washington-dc",
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Culturally significant rock / DMV",
+      "genres": [
+        "Rock",
+        "Alternative rock"
+      ],
+      "musical_axes": [
+        "Rock",
+        "DMV",
+        "Live power"
+      ],
+      "lineup": [
+        "Foo Fighters",
+        "Queens of the Stone Age",
+        "Mannequin Pussy"
+      ],
+      "factual_description": "Foo Fighters' Take Cover Tour 2026 at Nationals Park in Washington, DC, with Queens of the Stone Age and Mannequin Pussy. The official venue lists a 5:30 PM show time on August 17, 2026.",
+      "links": {
+        "official_event": "https://www.mlb.com/nationals/tickets/concerts/foo-fighters",
+        "official_tickets": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-washington-district-of-columbia-08-17-2026/event/15006350F5A2A8F5"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Foo Fighters",
+          "title": "Your Favorite Toy",
+          "apple_music_url": "https://music.apple.com/us/album/your-favorite-toy/1877913489"
+        },
+        {
+          "artist": "Foo Fighters",
+          "title": "The Colour And The Shape",
+          "apple_music_url": "https://music.apple.com/us/album/the-colour-and-the-shape/362133451"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Washington Nationals / Nationals Park",
+          "url": "https://www.mlb.com/nationals/tickets/concerts/foo-fighters",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_promoter",
+          "name": "Live Nation",
+          "url": "https://www.livenation.com/event/1A4Zku8GkdgInNg/foo-fighters-take-cover-tour-2026",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-washington-district-of-columbia-08-17-2026/event/15006350F5A2A8F5",
+          "checked_on": "2026-08-15"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, venue, show time and bill verified against Nationals Park, Live Nation and Ticketmaster. Apple Music links verified as exact album pages."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just another stadium stop. Dave Grohl's deep DC-area lineage gives a Washington Foo Fighters show local cultural weight, and Queens of the Stone Age turns the bill into a serious rock night rather than nostalgia logistics.",
+          "trip_verdict": "Local S. Make room for it: the DMV connection and the bill are strong enough that this is exactly the kind of major rock date RADAR should protect.",
+          "listen_before": "Your Favorite Toy; The Colour And The Shape"
+        },
+        "es": {
+          "why_it_matters": "No es simplemente otra parada de estadio. La historia de Dave Grohl con el área de DC le da a una fecha de Foo Fighters en Washington un peso cultural local real, y Queens of the Stone Age convierte el cartel en una noche de rock seria, no en simple logística de nostalgia.",
+          "trip_verdict": "S local. Hay que hacerle espacio: la conexión con el DMV y el cartel son suficientemente fuertes para que ésta sea exactamente la clase de gran fecha de rock que RADAR debe proteger.",
+          "listen_before": "Your Favorite Toy; The Colour And The Shape"
+        }
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
       "id": "tsuyoshi-yamamoto-trio-sometime-2026-08-17",
       "artist": "Tsuyoshi Yamamoto Trio",
       "dates": {
