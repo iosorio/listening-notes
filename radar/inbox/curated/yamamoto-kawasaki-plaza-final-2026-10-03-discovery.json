@@ -1,0 +1,90 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yamamoto-kawasaki-plaza-final-2026-10-03-discovery",
+  "notes": "Verified Tsuyoshi Yamamoto / Greater Tokyo catch-up discovery. The finale of the roughly five-year Plaza Afternoon Jazz series combines Masahiko Satoh's trio with Keisuke Ohta and a Yamamoto/Kagawa/Osumi trio augmented by Takuya Osumi; the special two-part context raises it above a routine Yamamoto club date.",
+  "events": [
+    {
+      "id": "masahiko-satoh-tsuyoshi-yamamoto-kawasaki-shimin-plaza-2026-10-03",
+      "artist": "Masahiko Satoh Trio feat. Keisuke Ohta + Tsuyoshi Yamamoto Trio",
+      "subtitle": "Plaza Afternoon Jazz Vol.21 FINAL",
+      "dates": {"start": "2026-10-03", "end": null},
+      "showtimes": ["14:00"],
+      "venue": {
+        "id": "kawasaki-shimin-plaza-furusato-theater-kawasaki",
+        "name": "Kawasaki Shimin Plaza — Furusato Theater",
+        "city": "Kawasaki",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Japan / Greater Tokyo jazz",
+      "genres": ["Jazz", "Improvisation", "Piano trio"],
+      "musical_axes": ["Masters", "Japan", "Improvised", "Groove"],
+      "lineup": [
+        "Masahiko Satoh (piano)",
+        "Hideaki Kanazawa (bass)",
+        "Shun Ishiwaka (drums)",
+        "Keisuke Ohta (violin)",
+        "Tsuyoshi Yamamoto (piano)",
+        "Hiroshi Kagawa (bass)",
+        "Toshio Osumi (drums)",
+        "Takuya Osumi (alto saxophone)"
+      ],
+      "factual_description": "The final performance of Kawasaki Shimin Plaza's roughly five-year Plaza Afternoon Jazz series is a two-part bill: Masahiko Satoh Trio featuring violinist Keisuke Ohta, followed by Tsuyoshi Yamamoto Trio with Hiroshi Kagawa and Toshio Osumi plus alto saxophonist Takuya Osumi. The official venue lists doors at 13:30 and a 14:00 start on October 3, 2026.",
+      "links": {
+        "official_event": "https://www.kawasaki-shiminplaza.jp/event/detail?id=15726",
+        "official_tickets": "https://ticket.pia.jp/pia/event.ds?eventCd=2621171"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Satoh Masahiko Trio",
+          "title": "Palladium",
+          "apple_music_url": "https://music.apple.com/us/album/palladium/720359088"
+        },
+        {
+          "artist": "Tsuyoshi Yamamoto Trio, TSUYOSHI YAMAMOTO",
+          "title": "A Shade of Blue",
+          "apple_music_url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Kawasaki Shimin Plaza",
+          "url": "https://www.kawasaki-shiminplaza.jp/event/detail?id=15726",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Ticket Pia",
+          "url": "https://ticket.pia.jp/pia/event.ds?eventCd=2621171",
+          "checked_on": "2026-08-15"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, start time, venue, series-finale context, full lineup and authorized ticket seller verified against the official Kawasaki Shimin Plaza event page. Apple Music links verified as exact album pages."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is considerably more than another Yamamoto club date: Masahiko Satoh, Keisuke Ohta, Hideaki Kanazawa and Shun Ishiwaka open the afternoon before Yamamoto's core trio with Kagawa and Toshio Osumi closes a five-year concert series, augmented by Takuya Osumi. The finale context and the intergenerational Japanese-jazz bill make the event unusually dense with instrumental identity and improvisational history.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Build the afternoon around the Kawasaki trip: the stacked two-part finale is worth crossing the metro area for, though it is not by itself a transpacific destination.",
+          "listen_before": "Palladium; A Shade of Blue"
+        },
+        "es": {
+          "why_it_matters": "Esto es bastante más que otra fecha de club de Yamamoto: Masahiko Satoh, Keisuke Ohta, Hideaki Kanazawa y Shun Ishiwaka abren la tarde antes de que el núcleo Yamamoto-Kagawa-Toshio Osumi cierre una serie de conciertos de cinco años, aumentado por Takuya Osumi. El contexto de final y el cruce generacional del jazz japonés concentran una cantidad poco común de identidad instrumental e historia de improvisación.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale construir la tarde alrededor de la escapada a Kawasaki: el final en dos partes justifica cruzar el área metropolitana, aunque por sí solo no es destino transpacífico.",
+          "listen_before": "Palladium; A Shade of Blue"
+        }
+      }
+    }
+  ]
+}
