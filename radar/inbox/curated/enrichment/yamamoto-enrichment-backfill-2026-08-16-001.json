@@ -1,0 +1,94 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_enrichment_patches",
+  "batch_id": "yamamoto-enrichment-backfill-2026-08-16-001",
+  "review": {
+    "research_path": "radar/inbox/research/yamamoto-enrichment-backfill-2026-08-16-001.json",
+    "research_batch_id": "yamamoto-enrichment-backfill-2026-08-16-001",
+    "research_sha256": "bfaa0b40986ef861f0a585d675b1b721783afcad82415b727e057baf386e4ece",
+    "approved_by": "Codex interactive review, authorized by Isra Osorio",
+    "approved_on": "2026-08-16"
+  },
+  "patches": [
+    {
+      "id": "tsuyoshi-yamamoto-trio-sometime-2026-08-17",
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto",
+          "title": "ライブ・アット・ボディ&ソウル",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/live-at-body-soul/1789255171"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The official SOMETIME schedule is already recorded as the event destination. Research verified this exact Apple Music album, but did not establish a separate authorized ticket-purchase page."
+      },
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/jp/album/live-at-body-soul/1789255171",
+          "checked_on": "2026-08-16",
+          "note": "Exact album page for Tsuyoshi Yamamoto's Live at Body & Soul."
+        }
+      ]
+    },
+    {
+      "id": "tsuyoshi-yamamoto-trio-yokohama-jazz-first-2026-08-28",
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto",
+          "title": "ライブ・アット・ボディ&ソウル",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/live-at-body-soul/1789255171"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Research verified this exact Apple Music album but did not establish exact authorized event or ticket destinations for the August 28 YOKOHAMA JAZZ FIRST performance."
+      },
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/jp/album/live-at-body-soul/1789255171",
+          "checked_on": "2026-08-16",
+          "note": "Exact album page for Tsuyoshi Yamamoto's Live at Body & Soul."
+        }
+      ]
+    },
+    {
+      "id": "tsuyoshi-yamamoto-trio-yokohama-jazz-first-2026-09-25",
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto",
+          "title": "ライブ・アット・ボディ&ソウル",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/live-at-body-soul/1789255171"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Research verified this exact Apple Music album but did not establish exact authorized event or ticket destinations for the September 25 YOKOHAMA JAZZ FIRST performance."
+      },
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/jp/album/live-at-body-soul/1789255171",
+          "checked_on": "2026-08-16",
+          "note": "Exact album page for Tsuyoshi Yamamoto's Live at Body & Soul."
+        }
+      ]
+    }
+  ]
+}
