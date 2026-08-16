@@ -1,0 +1,86 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "gary-bartz-ntu-blue-note-tokyo-2026-11-30-discovery",
+  "notes": "Verified S-priority discovery found during Yamamoto-first monitoring. ALFIE, BODY&SOUL and current Yamamoto schedules were checked first; no unrecorded Yamamoto date was found in this pass.",
+  "events": [
+    {
+      "id": "gary-bartz-ntu-blue-note-tokyo-2026-11-30",
+      "artist": "Gary Bartz & NTU",
+      "subtitle": "The Eternal Tenure of Sound: Damage Control",
+      "dates": {
+        "start": "2026-11-30",
+        "end": "2026-12-02"
+      },
+      "showtimes": ["18:00", "20:30"],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Jazz-funk / Contemporary jazz",
+      "genres": ["Jazz", "Jazz-funk", "Contemporary jazz", "Soul jazz"],
+      "musical_axes": ["Masters", "Improvised", "Groove", "Instrumental identity", "Cross-genre"],
+      "lineup": [
+        "Gary Bartz (saxophone)",
+        "Barney McAll (keyboards, piano)",
+        "Rita Satch (voice)",
+        "Matt Pavolka (bass)",
+        "Paul Bollenback (guitar)",
+        "Ele Howell (drums)"
+      ],
+      "factual_description": "Blue Note Tokyo presents Gary Bartz & NTU on November 30 through December 2, 2026, with 6:00 PM and 8:30 PM sets each night. The venue identifies Bartz as an NEA Jazz Master and frames the engagement around The Eternal Tenure of Sound: Damage Control, his 2025 studio album after a twelve-year gap, with album participant Rita Satch and longtime collaborator Barney McAll among the announced band.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/gary-bartz/",
+        "official_tickets": "https://www.bluenote.co.jp/jp/artists/gary-bartz/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gary Bartz NTU Troop",
+          "title": "The Eternal Tenure of Sound: Damage Control",
+          "apple_music_url": "https://music.apple.com/us/album/the-eternal-tenure-of-sound-damage-control/1838516251"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Blue Note Tokyo",
+          "url": "https://www.bluenote.co.jp/jp/artists/gary-bartz/",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/the-eternal-tenure-of-sound-damage-control/1838516251",
+          "checked_on": "2026-08-16"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times, lineup, NEA Jazz Master framing, Damage Control program context and web-reservation path were verified against Blue Note Tokyo's exact event page. The recommended listening link is the exact Apple Music album page for the current NTU project."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Bartz is a genuine living-master case, but the reason to protect this engagement is not biography alone. NTU was one of the early places where his alto language, Black consciousness, funk and post-bop vocabulary became inseparable, and this current band carries that idea into new material rather than treating it as repertory. In Blue Note Tokyo's small room, his unmistakable sound and the groove architecture around it become the event.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Build a Tokyo night around one of these sets: an active NEA Jazz Master leading NTU around a current record in an intimate room is substantially more compelling than a generic legacy appearance, though it does not by itself demand a transpacific trip.",
+          "listen_before": "The Eternal Tenure of Sound: Damage Control"
+        },
+        "es": {
+          "why_it_matters": "Bartz es un caso genuino de maestro vivo, pero la razón para proteger esta residencia no es sólo la biografía. NTU fue uno de los primeros espacios donde su lenguaje de alto, la conciencia negra, el funk y el vocabulario post-bop se volvieron inseparables, y esta banda actual lleva esa idea a material nuevo en vez de convertirla en repertorio de museo. En una sala pequeña como Blue Note Tokyo, su sonido inconfundible y la arquitectura de groove que lo rodea se vuelven el verdadero acontecimiento.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale construir una noche de Tokio alrededor de uno de estos sets: un NEA Jazz Master todavía activo liderando NTU alrededor de un disco actual en una sala íntima es bastante más importante que una aparición genérica de legado, aunque por sí sola no exige cruzar el Pacífico.",
+          "listen_before": "The Eternal Tenure of Sound: Damage Control"
+        }
+      }
+    }
+  ]
+}
