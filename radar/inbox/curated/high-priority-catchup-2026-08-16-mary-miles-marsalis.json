@@ -1,0 +1,259 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "high-priority-catchup-2026-08-16-mary-miles-marsalis",
+  "notes": "Verified S-priority catch-up discoveries found during Yamamoto-first monitoring. No newly announced Tsuyoshi Yamamoto date was found in this pass; the current canonical Yamamoto dates were checked before publication.",
+  "events": [
+    {
+      "id": "mary-halvorson-amaryllis-sextet-blue-note-tokyo-2026-08-30",
+      "artist": "Mary Halvorson's Amaryllis Sextet",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-08-30",
+        "end": "2026-08-31"
+      },
+      "showtimes": ["16:30", "19:30", "18:00", "20:30"],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Contemporary jazz / Experimental",
+      "genres": ["Jazz", "Avant-garde jazz", "Contemporary jazz"],
+      "musical_axes": ["Improvised", "Experimental", "Instrumental identity"],
+      "lineup": [
+        "Mary Halvorson (guitar)",
+        "Adam O'Farrill (trumpet)",
+        "Jacob Garchik (trombone)",
+        "Yvonne Rogers (piano, synthesizer)",
+        "Nick Dunston (bass)",
+        "Tomas Fujiwara (drums)"
+      ],
+      "factual_description": "Blue Note Tokyo presents Mary Halvorson's Amaryllis Sextet on August 30-31, 2026. The August 30 sets begin at 4:30 PM and 7:30 PM; the August 31 sets begin at 6:00 PM and 8:30 PM. Blue Note Tokyo describes this as Halvorson's first leader appearance at the club and identifies Amaryllis as one of her representative projects.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/mary-halvorson/",
+        "official_tickets": "https://www.bluenote.co.jp/jp/artists/mary-halvorson/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Mary Halvorson",
+          "title": "About Ghosts",
+          "apple_music_url": "https://music.apple.com/us/album/about-ghosts/1802841226"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Blue Note Tokyo",
+          "url": "https://www.bluenote.co.jp/jp/artists/mary-halvorson/",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "official_venue_feature",
+          "name": "Blue Note Tokyo special interview",
+          "url": "https://www.bluenote.co.jp/jp/news/pickup/15910/",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/about-ghosts/1802841226",
+          "checked_on": "2026-08-16"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, differentiated set times, lineup, venue, leader-debut context and web reservation status were verified against Blue Note Tokyo's exact event page. The recommended-listening URL is the exact Apple Music album page for About Ghosts."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Halvorson has one of the most unmistakable guitar languages in contemporary improvised music: bent harmony, unstable timbre and compositions that can feel chamber-like without losing risk. This is especially strong for Listening Notes because the Amaryllis Sextet brings that identity into a six-voice ensemble rather than a conventional guitar-led club set, and Blue Note Tokyo frames it as her first leader appearance there.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect one of the four sets if you are in Tokyo; the instrumental identity and first-leader-appearance context make it a serious destination night, though not a transpacific trip by itself.",
+          "listen_before": "About Ghosts"
+        },
+        "es": {
+          "why_it_matters": "Halvorson tiene uno de los lenguajes de guitarra más inconfundibles de la improvisación contemporánea: armonía torcida, timbre inestable y composiciones que pueden sonar camerísticas sin perder riesgo. Para Listening Notes pesa especialmente porque Amaryllis lleva esa identidad a un sexteto de seis voces en vez de un set convencional liderado por guitarra, y Blue Note Tokyo lo presenta como su primera actuación allí como líder.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Hay que proteger uno de los cuatro sets si estás en Tokio; la identidad instrumental y el contexto de primera aparición como líder lo convierten en una noche-destino seria, aunque por sí sola no justifica cruzar el Pacífico.",
+          "listen_before": "About Ghosts"
+        }
+      }
+    },
+    {
+      "id": "miles-davis-centennial-miles-electric-band-blue-note-tokyo-2026-09-21",
+      "artist": "The Miles Electric Band",
+      "subtitle": "The Miles Davis Centennial Celebration",
+      "dates": {
+        "start": "2026-09-21",
+        "end": "2026-09-23"
+      },
+      "showtimes": ["16:30", "19:30"],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living lineage / Fusion",
+      "genres": ["Jazz fusion", "Electric jazz", "Funk"],
+      "musical_axes": ["Masters", "Fusion/Prog", "Groove", "Instrumental identity", "Cross-genre"],
+      "lineup": [
+        "Darryl Jones (bass)",
+        "Munyungo Jackson (percussion)",
+        "Jean-Paul Bourelly (guitar)",
+        "Robert Irving III (piano, keyboards)",
+        "Keyon Harrold (trumpet)",
+        "Antoine Roney (saxophone)",
+        "Vince Wilburn Jr. (drums)",
+        "DJ Logic (turntables)",
+        "Greg Spero (keyboards)"
+      ],
+      "factual_description": "Blue Note Tokyo presents The Miles Davis Centennial Celebration with The Miles Electric Band on September 21-23, 2026, with 4:30 PM and 7:30 PM sets each day. The venue describes the group as a Miles-lineage all-star project founded in 2010 by drummer/producer Vince Wilburn Jr., Miles Davis's nephew, honoring the electric-period innovations while continuing to push the music outward.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/miles-electric-band/",
+        "official_tickets": "https://www.bluenote.co.jp/jp/artists/miles-electric-band/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "M.E.B. & Miles Davis",
+          "title": "That You Not Dare To Forget - EP",
+          "apple_music_url": "https://music.apple.com/us/album/that-you-not-dare-to-forget-ep/1670210383"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Blue Note Tokyo",
+          "url": "https://www.bluenote.co.jp/jp/artists/miles-electric-band/",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/that-you-not-dare-to-forget-ep/1670210383",
+          "checked_on": "2026-08-16"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times, lineup, Miles-centennial framing, direct-lineage context and web reservation status were verified against Blue Note Tokyo's exact event page. The recommended-listening URL is the exact Apple Music EP page by M.E.B. and Miles Davis."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a generic Miles tribute. The centennial context is carried by musicians with direct or close lineage to Davis's electric world, including Darryl Jones, Robert Irving III and Vince Wilburn Jr., then widened by Keyon Harrold and DJ Logic. For Listening Notes it hits the sweet spot between historical lineage and a living language of bass, electric texture, turntables, funk and improvisation.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect a set if you are in Tokyo; the centennial plus direct electric-Miles lineage makes it a strong trip anchor, especially paired with another Tokyo date, but it does not by itself demand a transpacific flight.",
+          "listen_before": "That You Not Dare To Forget - EP"
+        },
+        "es": {
+          "why_it_matters": "Esto no es un tributo genérico a Miles. El contexto del centenario está cargado por músicos con linaje directo o muy cercano al mundo eléctrico de Davis, entre ellos Darryl Jones, Robert Irving III y Vince Wilburn Jr., y luego se expande con Keyon Harrold y DJ Logic. Para Listening Notes cae justo en el cruce entre genealogía histórica y un lenguaje vivo de bajo, textura eléctrica, tornamesas, funk e improvisación.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Hay que proteger un set si estás en Tokio; el centenario más el linaje directo del Miles eléctrico lo vuelven un ancla fuerte para un viaje, especialmente combinado con otra fecha de Tokio, aunque por sí solo no exige un vuelo transpacífico.",
+          "listen_before": "That You Not Dare To Forget - EP"
+        }
+      }
+    },
+    {
+      "id": "wynton-marsalis-swinging-cities-jazz-at-lincoln-center-2026-11-06",
+      "artist": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+      "subtitle": "Marsalis' Swinging Cities",
+      "dates": {
+        "start": "2026-11-06",
+        "end": "2026-11-07"
+      },
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york",
+        "name": "Rose Theater at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Jazz orchestra",
+      "genres": ["Jazz", "Orchestral jazz"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Cultural context"],
+      "lineup": [
+        "Wynton Marsalis (trumpet)",
+        "Jazz at Lincoln Center Orchestra"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Marsalis' Swinging Cities on November 6-7, 2026 at 7:30 PM in Rose Theater. The program features Marsalis's Vitoria Suite, Shanghai Suite and Marciac Suite. Jazz at Lincoln Center's official 2026-27 season announcement identifies this season as Marsalis's last as Artistic Director after nearly 40 years as the organization's founder and driving force.",
+      "links": {
+        "official_event": "https://jazz.org/concert/marsalis-swinging-cities-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+        "official_tickets": "https://ticketing.jazz.org/20624/20626"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jazz at Lincoln Center Orchestra & Wynton Marsalis",
+          "title": "Vitoria Suite (feat. Paco de Lucía)",
+          "apple_music_url": "https://music.apple.com/us/album/vitoria-suite-feat-paco-de-luc%C3%ADa/1443547407"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_presenter",
+          "name": "Jazz at Lincoln Center",
+          "url": "https://jazz.org/concert/marsalis-swinging-cities-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Jazz at Lincoln Center ticketing",
+          "url": "https://ticketing.jazz.org/20624/20626",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "official_press",
+          "name": "Jazz at Lincoln Center Press Center",
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/vitoria-suite-feat-paco-de-luc%C3%ADa/1443547407",
+          "checked_on": "2026-08-16"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, time, Rose Theater, program and authorized ticketing were verified against Jazz at Lincoln Center's exact event and ticket pages. The final-season context was verified against Jazz at Lincoln Center's official 2026-27 season announcement. The recommended-listening URL is the exact Apple Music Vitoria Suite album page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The program is unusually well matched to the historical moment: three city suites that map Marsalis's global life on the road, performed by the orchestra he built, during his final season as Jazz at Lincoln Center's Artistic Director after nearly four decades. That turns a normal JLCO date into an institutional and musical document of a closing chapter.",
+          "trip_verdict": "S regional. It justifies a dedicated New York night and becomes especially compelling as part of a Jazz at Lincoln Center weekend; the final-season context is what pushes it above a routine JLCO appearance.",
+          "listen_before": "Vitoria Suite (feat. Paco de Lucía)"
+        },
+        "es": {
+          "why_it_matters": "El programa encaja de manera poco común con el momento histórico: tres suites de ciudades que trazan la vida global de Marsalis en la carretera, interpretadas por la orquesta que construyó, durante su última temporada como Director Artístico de Jazz at Lincoln Center después de casi cuatro décadas. Eso convierte una fecha normal de JLCO en un documento institucional y musical de cierre de ciclo.",
+          "trip_verdict": "S regional. Sí justifica una noche dedicada en Nueva York y se vuelve especialmente atractiva como parte de un fin de semana en Jazz at Lincoln Center; el contexto de última temporada es lo que la eleva por encima de una aparición rutinaria de JLCO.",
+          "listen_before": "Vitoria Suite (feat. Paco de Lucía)"
+        }
+      }
+    }
+  ]
+}
