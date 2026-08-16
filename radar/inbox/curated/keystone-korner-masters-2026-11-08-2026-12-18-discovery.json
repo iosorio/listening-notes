@@ -1,0 +1,165 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "keystone-korner-masters-2026-11-08-2026-12-18-discovery",
+  "notes": "Verified high-priority Baltimore jazz discoveries missing from canonical RADAR on 2026-08-15. Both are living-master dates with unusually strong instrumental or project identity in an intimate regional club. Event and ticket details were verified against Keystone Korner Baltimore and its authorized InstantSeats pages; Apple Music links are exact album pages.",
+  "events": [
+    {
+      "id": "hubert-laws-keystone-korner-baltimore-2026-11-08",
+      "artist": "Hubert Laws",
+      "dates": {"start": "2026-11-08", "end": null},
+      "showtimes": ["17:00", "20:00"],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters",
+      "genres": ["Jazz", "Crossover jazz"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity"],
+      "lineup": ["Hubert Laws"],
+      "factual_description": "Keystone Korner Baltimore presents NEA Jazz Master Hubert Laws for two sets on Sunday, November 8, 2026, at 5:00 PM and 8:00 PM. The venue's authorized InstantSeats page confirms both performances and identifies Laws as a jazz flutist whose work also spans classical, R&B and pop contexts.",
+      "links": {
+        "official_event": "https://www.instantseats.com/?VenueID=514&artistid=21211&fuseaction=home.artist",
+        "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=21211&fuseaction=home.artist"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Hubert Laws",
+          "title": "Land of Passion (Bonus Track Version)",
+          "apple_music_url": "https://music.apple.com/us/album/land-of-passion-bonus-track-version/931510546"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Keystone Korner Baltimore",
+          "url": "https://www.keystonekornerbaltimore.com/",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "InstantSeats / Keystone Korner Baltimore",
+          "url": "https://www.instantseats.com/?VenueID=514&artistid=21211&fuseaction=home.artist",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_music",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/land-of-passion-bonus-track-version/931510546",
+          "checked_on": "2026-08-15"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date and showtimes verified on Keystone Korner Baltimore's current calendar and authorized InstantSeats event page. Apple Music recommendation verified as an exact album page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Hubert Laws is a rare case where the instrument itself is part of the reason to go: a living master who made flute a serious lead voice across jazz, classical repertoire and groove-oriented music. Hearing that sound in Keystone Korner's small room is much more distinctive than a routine legacy booking.",
+          "trip_verdict": "S regional. Worth the Baltimore drive on its own if instrumental identity and living-master jazz are the draw.",
+          "listen_before": "Land of Passion"
+        },
+        "es": {
+          "why_it_matters": "Hubert Laws es uno de esos casos raros en los que el instrumento mismo es parte de la razón para ir: un maestro vivo que convirtió la flauta en una voz principal seria entre jazz, repertorio clásico y música con groove. Escuchar ese sonido en la escala íntima de Keystone Korner es mucho más singular que una fecha rutinaria de legado.",
+          "trip_verdict": "S regional. Sí vale el viaje a Baltimore por sí solo si el atractivo es la identidad instrumental y escuchar a un maestro vivo.",
+          "listen_before": "Land of Passion"
+        }
+      }
+    },
+    {
+      "id": "terri-lyne-carrington-social-science-keystone-korner-baltimore-2026-12-18",
+      "artist": "Terri Lyne Carrington + Social Science",
+      "dates": {"start": "2026-12-18", "end": "2026-12-19"},
+      "showtimes": ["18:00", "20:30"],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / contemporary jazz",
+      "genres": ["Jazz", "Contemporary jazz", "Hip-hop", "R&B", "Experimental"],
+      "musical_axes": ["Masters", "Improvised", "Groove", "Cross-genre"],
+      "lineup": ["Terri Lyne Carrington", "Social Science"],
+      "factual_description": "Terri Lyne Carrington + Social Science play Keystone Korner Baltimore on Friday and Saturday, December 18-19, 2026, with 6:00 PM and 8:30 PM sets each night. The authorized ticket page presents the engagement in connection with the Social Science album Trip The Night Fantastic and describes the project's mix of jazz, R&B, indie rock, contemporary improvisation and hip-hop.",
+      "links": {
+        "official_event": "https://www.instantseats.com/?VenueID=514&artistid=26124&fuseaction=home.artist",
+        "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=26124&fuseaction=home.artist"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Terri Lyne Carrington & Social Science",
+          "title": "Trip the Night Fantastic",
+          "apple_music_url": "https://music.apple.com/us/album/trip-the-night-fantastic/1896037291"
+        },
+        {
+          "artist": "Terri Lyne Carrington & Social Science",
+          "title": "Waiting Game",
+          "apple_music_url": "https://music.apple.com/us/album/waiting-game/1474267421"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Keystone Korner Baltimore",
+          "url": "https://www.keystonekornerbaltimore.com/",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "InstantSeats / Keystone Korner Baltimore",
+          "url": "https://www.instantseats.com/?VenueID=514&artistid=26124&fuseaction=home.artist",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_music",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/trip-the-night-fantastic/1896037291",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "type": "official_music",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/waiting-game/1474267421",
+          "checked_on": "2026-08-15"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, showtimes and project context verified on Keystone Korner Baltimore and its authorized InstantSeats page. Apple Music recommendations verified as exact album pages."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Carrington is not being booked here merely as a decorated drummer. Social Science is the point: rhythm, improvisation, politics and contemporary Black music are treated as one language, and the new-project context makes this a live proposition rather than a retrospective master-class date.",
+          "trip_verdict": "S regional. Protect one of the four sets; the combination of a living master, an active band concept and a small room makes Baltimore worth the drive.",
+          "listen_before": "Trip the Night Fantastic; Waiting Game"
+        },
+        "es": {
+          "why_it_matters": "Carrington no aparece aquí simplemente como una baterista condecorada. El punto es Social Science: ritmo, improvisación, política y música negra contemporánea tratados como un solo lenguaje, y el contexto del proyecto nuevo hace que sea una propuesta viva, no una clase magistral retrospectiva.",
+          "trip_verdict": "S regional. Hay que proteger uno de los cuatro sets; la combinación de una maestra viva, un concepto de banda activo y un club pequeño hace que Baltimore valga el viaje.",
+          "listen_before": "Trip the Night Fantastic; Waiting Game"
+        }
+      }
+    }
+  ]
+}
