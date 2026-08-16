@@ -16,6 +16,7 @@ from scripts.enrichment_common import (
     validate_research_batch,
 )
 from scripts.merge_enrichment_patches import merge
+from scripts.validate_research_enrichment import validate_unprocessed_research
 
 
 def event(event_id="test-artist-2026"):
@@ -186,6 +187,71 @@ class EnrichmentContractTest(unittest.TestCase):
         self.assertEqual(len(original["recommended_listening"]), 1)
         self.assertEqual(len(original["provenance"]["enrichment_history"]), 1)
         self.assertEqual(original["provenance"]["status"], "legacy")
+
+
+class ResearchQueueValidationTest(unittest.TestCase):
+    def fixture(self, directory: Path, include_processed=True):
+        root = directory
+        research_dir = root / "radar/inbox/research"
+        processed_dir = root / "radar/inbox/processed/enrichment"
+        research_dir.mkdir(parents=True)
+        processed_dir.mkdir(parents=True)
+
+        current_event = event()
+        apply_patch(current_event, complete_patch())
+        canonical_path = root / "radar/events.json"
+        canonical_path.write_text(json.dumps({"schema_version": 3, "events": [current_event]}, indent=2) + "\n")
+
+        stale_patch = {
+            "id": current_event["id"],
+            "links": {"official_event": current_event["links"]["official_event"]},
+            "enrichment": {
+                "status": "pending",
+                "missing": ["official_tickets", "apple_music"],
+                "note": "This was accurate before later enrichment completed the record.",
+            },
+        }
+        research = research_batch(stale_patch)
+        research_path = research_dir / "test.json"
+        research_path.write_text(json.dumps(research, indent=2) + "\n")
+
+        processed_path = processed_dir / "test.json"
+        if include_processed:
+            processed = {
+                "batch_version": 1,
+                "kind": CURATED_KIND,
+                "batch_id": research["batch_id"],
+                "review": {
+                    "research_path": "radar/inbox/research/test.json",
+                    "research_batch_id": research["batch_id"],
+                    "research_sha256": hashlib.sha256(research_path.read_bytes()).hexdigest(),
+                },
+                "patches": research["events"],
+            }
+            processed_path.write_text(json.dumps(processed, indent=2) + "\n")
+        return root, canonical_path, research_path, processed_dir
+
+    def test_exact_processed_research_is_not_reapplied_to_later_canonical_state(self):
+        with TemporaryDirectory() as directory:
+            root, canonical, research, processed = self.fixture(Path(directory))
+            report = validate_unprocessed_research([research], canonical, processed, root)
+            self.assertEqual(report["validated"], [])
+            self.assertEqual(report["already_processed"][0]["batch_id"], "test-batch-001")
+
+    def test_altered_processed_research_fails_provenance_check(self):
+        with TemporaryDirectory() as directory:
+            root, canonical, research, processed = self.fixture(Path(directory))
+            payload = json.loads(research.read_text())
+            payload["events"][0]["enrichment"]["note"] = "Changed after review."
+            research.write_text(json.dumps(payload, indent=2) + "\n")
+            with self.assertRaisesRegex(EnrichmentError, "processed provenance mismatch.*research_sha256"):
+                validate_unprocessed_research([research], canonical, processed, root)
+
+    def test_unprocessed_research_still_validates_against_current_state(self):
+        with TemporaryDirectory() as directory:
+            root, canonical, research, processed = self.fixture(Path(directory), include_processed=False)
+            with self.assertRaisesRegex(EnrichmentError, "missing must exactly describe"):
+                validate_unprocessed_research([research], canonical, processed, root)
 
 
 class EnrichmentMergeTest(unittest.TestCase):

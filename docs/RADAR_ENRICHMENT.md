@@ -114,6 +114,14 @@ evidence of current ticket availability.
 
 ## Explicit promotion
 
+Research artifacts remain unchanged after successful processing so their
+provenance stays auditable. Repository-wide validation uses
+`validate_research_enrichment.py --all-unprocessed`: it skips an artifact only
+when a processed batch matches its path, batch ID, SHA-256, and complete patch
+content. New or altered research is still validated strictly against the
+current canonical dataset; provenance mismatches fail rather than being
+silently ignored.
+
 Run the read-only validator, inspect its reported changes and conflicts, and
 then promote the exact approved file:
 

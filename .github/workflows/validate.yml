@@ -19,12 +19,7 @@ jobs:
       - name: Validate canonical RADAR data
         run: python scripts/validate_events.py radar/events.json
       - name: Validate unreviewed enrichment research
-        shell: bash
-        run: |
-          for batch in radar/inbox/research/*.json; do
-            [ -e "$batch" ] || continue
-            python scripts/validate_research_enrichment.py "$batch"
-          done
+        run: python scripts/validate_research_enrichment.py --all-unprocessed
       - name: Dry-run reviewed enrichment patches
         run: python scripts/merge_enrichment_patches.py --all --dry-run
       - name: Dry-run new-event candidates

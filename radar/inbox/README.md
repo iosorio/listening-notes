@@ -50,7 +50,15 @@ Research is structurally validated without writing canonical data:
 
 ```sh
 python3 scripts/validate_research_enrichment.py radar/inbox/research/example.json
+python3 scripts/validate_research_enrichment.py --all-unprocessed
 ```
+
+The all-unprocessed check skips a preserved research artifact only when a
+processed enrichment batch references the same path and batch ID and records
+the exact SHA-256 and patch content. Any new, altered, or ambiguously archived
+research remains subject to the full current validation contract. This lets Git
+retain original research provenance without incorrectly treating an old,
+already-applied patch as a proposal against the later canonical state.
 
 After an explicit human or interactive Codex review, promote that exact batch:
 
