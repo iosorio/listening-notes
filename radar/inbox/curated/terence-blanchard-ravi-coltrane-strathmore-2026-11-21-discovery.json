@@ -1,0 +1,103 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "terence-blanchard-ravi-coltrane-strathmore-2026-11-21-discovery",
+  "notes": "Verified S-tier DMV discovery: Terence Blanchard and Ravi Coltrane join for a Miles Davis / John Coltrane centennial program explicitly framed by Strathmore and Washington Performing Arts as a forward-looking reimagining rather than a nostalgic recreation.",
+  "events": [
+    {
+      "id": "terence-blanchard-ravi-coltrane-strathmore-2026-11-21",
+      "artist": "Terence Blanchard + Ravi Coltrane",
+      "subtitle": "Miles Davis & John Coltrane Centennial",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda",
+        "name": "The Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / centennial reimagining",
+      "genres": [
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Terence Blanchard",
+        "Ravi Coltrane"
+      ],
+      "factual_description": "Strathmore and Washington Performing Arts present Terence Blanchard and Ravi Coltrane on Saturday, November 21, 2026 at 8:00 PM in The Music Center at Strathmore for a Miles Davis and John Coltrane centennial program. The presenters explicitly describe the concert as a bold reimagining rooted in the legacy of Davis and Coltrane rather than a nostalgic reenactment.",
+      "links": {
+        "official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/terence-blanchard-plus-ravi-coltrane/",
+        "official_tickets": "https://www.strathmore.org/events-tickets/in-the-music-center/terence-blanchard-plus-ravi-coltrane/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Terence Blanchard",
+          "title": "Absence",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/absence/1575807410"
+        },
+        {
+          "artist": "Ravi Coltrane",
+          "title": "Spirit Fiction",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/spirit-fiction/715557245"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/events-tickets/in-the-music-center/terence-blanchard-plus-ravi-coltrane/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-08-15",
+          "note": "Official event page confirming date, 8:00 PM time, venue, presenters, centennial concept and ticket availability."
+        },
+        {
+          "url": "https://music.apple.com/us/album/absence/1575807410",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-15",
+          "note": "Exact album page for Terence Blanchard's Absence, useful as a reference for his modern approach to reinterpreting a major jazz legacy."
+        },
+        {
+          "url": "https://music.apple.com/us/album/spirit-fiction/715557245",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-15",
+          "note": "Exact album page for Ravi Coltrane's Spirit Fiction, a strong reference for his own compositional and improvisational identity."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, time, venue, joint billing, Miles Davis / John Coltrane centennial framing and ticket availability verified from Strathmore's exact event page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is stronger than a tribute-night premise. Blanchard and Ravi Coltrane are both major contemporary bandleaders with direct but very different relationships to the Davis/Coltrane lineage, and the presenters explicitly frame the program as a living reimagining rather than repertory nostalgia. The tension between inheritance and individual voice is the event.",
+          "trip_verdict": "Yes for the DMV. This is an S-tier local date: culturally specific, musically open-ended and rare enough to protect the evening around it. It would also be worth a regional trip for someone following living jazz masters rather than tribute repertory.",
+          "listen_before": "Absence; Spirit Fiction"
+        },
+        "es": {
+          "why_it_matters": "Esto es bastante más fuerte que una simple noche de homenaje. Blanchard y Ravi Coltrane son dos líderes contemporáneos mayores con relaciones directas pero muy distintas con el linaje Davis/Coltrane, y los propios presentadores plantean el programa como una reimaginación viva, no como nostalgia de repertorio. La tensión entre herencia y voz propia es el verdadero evento.",
+          "trip_verdict": "Sí para el DMV. Es una fecha local de nivel S: culturalmente específica, musicalmente abierta y suficientemente rara para proteger la noche alrededor de ella. También justifica un viaje regional para quien siga a los grandes maestros vivos más que a los conciertos-homenaje.",
+          "listen_before": "Absence; Spirit Fiction"
+        }
+      }
+    }
+  ]
+}
