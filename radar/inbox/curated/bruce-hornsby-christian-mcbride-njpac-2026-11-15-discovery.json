@@ -1,0 +1,95 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "bruce-hornsby-christian-mcbride-njpac-2026-11-15-discovery",
+  "notes": "Verified S-priority US-corridor catch-up found during Yamamoto-first monitoring. ALFIE, BODY&SOUL and current Yamamoto schedule sources were checked first; no unrecorded Yamamoto date was found in this pass.",
+  "events": [
+    {
+      "id": "bruce-hornsby-christian-mcbride-njpac-2026-11-15",
+      "artist": "Bruce Hornsby with Christian McBride",
+      "subtitle": "One on One",
+      "dates": {
+        "start": "2026-11-15",
+        "end": null
+      },
+      "showtimes": ["15:00"],
+      "venue": {
+        "id": "victoria-theater-njpac-newark",
+        "name": "Victoria Theater at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Cross-genre masters / Piano and bass",
+      "genres": ["Jazz", "Singer-songwriter", "Improvisation", "Cross-genre"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Groove", "Cross-genre"],
+      "lineup": [
+        "Bruce Hornsby (piano, voice)",
+        "Christian McBride (bass)"
+      ],
+      "factual_description": "NJPAC presents Bruce Hornsby with Christian McBride: One on One on Sunday, November 15, 2026 at 3:00 PM in the intimate Victoria Theater as part of the TD James Moody Jazz Festival. The presenter describes the format as Hornsby and McBride jamming and talking together, in connection with Hornsby's 2026 album Indigo Park, rather than a standard full-band tour stop.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/bruce-hornsby/",
+        "official_tickets": "https://www.njpac.org/event/bruce-hornsby/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Bruce Hornsby",
+          "title": "Indigo Park",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/indigo-park/1871310455"
+        },
+        {
+          "artist": "Christian McBride & Edgar Meyer",
+          "title": "But Who's Gonna Play the Melody?",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/but-whos-gonna-play-the-melody/1850045040"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "NJPAC",
+          "url": "https://www.njpac.org/event/bruce-hornsby/",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/indigo-park/1871310455",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/but-whos-gonna-play-the-melody/1850045040",
+          "checked_on": "2026-08-16"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, 3:00 PM time, Victoria Theater, TD James Moody Jazz Festival context, two-person billing, jam-and-talk format and active authorized Buy Tickets path were verified against NJPAC's exact event page. Listening recommendations are exact Apple Music album pages."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason this rises above a routine Hornsby or McBride date is the format: two musicians with unusually broad harmonic and rhythmic vocabularies alone together, in a small theater, with no full band to predetermine where the music has to go. Hornsby's piano language has long moved freely between songcraft, jazz harmony and improvisation; McBride can answer that language from deep swing, funk and chamber-like bass playing. The conversation and musical uncertainty are the event.",
+          "trip_verdict": "S for Newark. Worth a dedicated regional trip if instrumental interaction and cross-genre improvisation are the draw: the one-on-one format in the Victoria Theater is much rarer and more revealing than either artist's normal touring configuration.",
+          "listen_before": "Indigo Park; But Who's Gonna Play the Melody?"
+        },
+        "es": {
+          "why_it_matters": "Lo que eleva esta fecha por encima de un concierto rutinario de Hornsby o McBride es el formato: dos músicos con vocabularios armónicos y rítmicos extraordinariamente amplios, solos en una sala pequeña, sin una banda completa que determine de antemano hacia dónde tiene que ir la música. El lenguaje pianístico de Hornsby se mueve desde hace décadas entre canción, armonía jazzística e improvisación; McBride puede responder desde el swing profundo, el funk y una concepción casi camerística del bajo. La conversación y la incertidumbre musical son el verdadero evento.",
+          "trip_verdict": "S para Newark. Sí vale un viaje regional dedicado si el eje es la interacción instrumental y la improvisación entre géneros: el formato uno-a-uno en el Victoria Theater es mucho más raro y revelador que las configuraciones normales de gira de cualquiera de los dos.",
+          "listen_before": "Indigo Park; But Who's Gonna Play the Melody?"
+        }
+      }
+    }
+  ]
+}
