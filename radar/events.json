@@ -1107,12 +1107,26 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/rass/873098008",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Monty Alexander's Rass!."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Monty Alexander",
+          "title": "Rass!",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/rass/873098008"
+        }
+      ],
       "attendance": {
         "notes": null,
         "setlist": null,
@@ -1121,7 +1135,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "An exact Keystone Korner event or authorized ticket URL was not verifiable in this pass; no venue calendar or resale link is substituted."
+      }
     },
     {
       "id": "foo-fighters-nationals-park-2026-08-17",
@@ -1410,12 +1432,26 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/protocol-6/1888221200",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Simon Phillips's Protocol 6."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Simon Phillips",
+          "title": "Protocol 6",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/protocol-6/1888221200"
+        }
+      ],
       "attendance": {
         "notes": null,
         "setlist": null,
@@ -1424,7 +1460,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "No exact official event page or authorized ticket URL matching this canonical record was verified in this pass; a conflicting venue listing is not used to alter canonical facts."
+      }
     },
     {
       "id": "hiromi-piano-quintet-publiquartet-blue-note-nyc-2026",
@@ -1477,8 +1521,8 @@
         }
       },
       "links": {
-        "official_event": "https://www.bluenotejazz.com/nyc/shows/?search=Hiromi",
-        "official_tickets": "https://www.bluenotejazz.com/nyc/shows/?search=Hiromi"
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/hiromi-the-piano-quintet-feat-publiquartet-3/",
+        "official_tickets": "https://www.bluenotejazz.com/nyc/tm-event/hiromi-the-piano-quintet-feat-publiquartet-3/"
       },
       "tickets": {
         "currency": "USD",
@@ -1501,9 +1545,28 @@
           "publisher": "Blue Note New York",
           "checked_on": "2026-08-14",
           "note": "Official schedule and showtimes."
+        },
+        {
+          "publisher": "Blue Note New York",
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/hiromi-the-piano-quintet-feat-publiquartet-3/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official show page with authorized Buy Tickets controls for all listed August 20–23 performances."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/de/album/silver-lining-suite/1577444014",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Hiromi's Silver Lining Suite, written for piano and string quartet."
         }
       ],
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Hiromi",
+          "title": "Silver Lining Suite",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/de/album/silver-lining-suite/1577444014"
+        }
+      ],
       "attendance": {
         "status": null,
         "evidence": [],
@@ -1514,6 +1577,10 @@
       "provenance": {
         "status": "curated-inbox",
         "note": "Merged from a reviewed curated inbox batch."
+      },
+      "enrichment": {
+        "status": "complete",
+        "missing": []
       }
     },
     {
@@ -1695,6 +1762,12 @@
           "publisher": "Birdland Jazz Club",
           "checked_on": "2026-08-14",
           "note": "Official lineup, showtimes and published ticket range."
+        },
+        {
+          "publisher": "Birdland Jazz Club",
+          "url": "https://www.birdlandjazz.com/tm-event/makoto-ozone-trio-remembering-kiyoshi-kitagawa/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Makoto Ozone Trio: Remembering Kiyoshi Kitagawa."
         }
       ],
       "recommended_listening": [],
@@ -1708,6 +1781,13 @@
       "provenance": {
         "status": "curated-inbox",
         "note": "Merged from a reviewed curated inbox batch."
+      },
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Birdland's exact event and ticket destination is verified, but an exact Apple Music album, song, or playlist URL was not verified in this pass."
       }
     },
     {
@@ -1781,7 +1861,16 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "This pass did not establish an exact official Keystone Korner event page, authorized purchase page, or exact Apple Music recommendation; generic venue and artist pages are deliberately omitted."
+      }
     },
     {
       "id": "tsuyoshi-yamamoto-trio-yokohama-jazz-first-2026-08-28",
@@ -2176,7 +2265,16 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "This pass did not establish an exact official Blues Alley event page, authorized purchase page, or exact Apple Music recommendation; generic venue and artist pages are deliberately omitted."
+      }
     },
     {
       "id": "kenny-garrett-2026",
@@ -2236,7 +2334,14 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/sounds-from-the-ancestors/1850052761",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Kenny Garrett's Sounds from the Ancestors."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -2257,7 +2362,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Keystone Korner's official calendar verifies the September 11–12 engagement, but no stable exact event-detail or authorized ticket URL was established in this pass."
+      }
     },
     {
       "id": "brazilian-guitars-2026",
@@ -2317,7 +2430,14 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/softly/1073678612",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Romero Lubambo's Softly."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -2338,7 +2458,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "No exact official Blues Alley event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."
+      }
     },
     {
       "id": "wooten-brothers-2026",
@@ -2398,7 +2526,14 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/a-show-of-hands-15/1076733785",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Victor Wooten's A Show of Hands 15."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -2419,7 +2554,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "The Hamilton's official calendar identifies the September 13 performance, but no exact event-detail or authorized ticket URL was verified in this pass."
+      }
     },
     {
       "id": "christian-mcbride-ursa-major-blue-note-tokyo-2026-09-16",
@@ -2833,12 +2976,26 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/duo/1650672391",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Claudia Acuña's Duo."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Claudia Acuña",
+          "title": "Duo",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/duo/1650672391"
+        }
+      ],
       "attendance": {
         "notes": null,
         "setlist": null,
@@ -2847,7 +3004,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Apple Music confirms the September 18 Blues Alley appearance, but no exact official Blues Alley event page or authorized purchase URL was established in this pass."
+      }
     },
     {
       "id": "camila-meza-2026",
@@ -2908,7 +3073,14 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/ambar/1453589406",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Camila Meza's Ambar."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -2929,7 +3101,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "No exact official Blues Alley event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."
+      }
     },
     {
       "id": "domi-jd-beck-2026",
@@ -2989,7 +3169,14 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/not-tight/1629562125",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for DOMi & JD BECK's NOT TiGHT."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -3010,7 +3197,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "No exact official Howard Theatre event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."
+      }
     },
     {
       "id": "minyo-crusaders-2026",
@@ -3071,7 +3266,14 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/echoes-of-japan-%E3%82%A8%E3%82%B3%E3%83%BC%E3%82%BA-%E3%82%AA%E3%83%96-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3/1677836789",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Minyo Crusaders' Echoes of Japan."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -3092,7 +3294,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "The Hamilton's official calendar verifies the September 24 date and its ticket control, but no exact event-detail or authorized purchase URL was established in this pass."
+      }
     },
     {
       "id": "tsuyoshi-yamamoto-trio-yokohama-jazz-first-2026-09-25",
@@ -3729,12 +3939,26 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/she-reaches-out-to-she-reaches-out-to-she/1711265605",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Chelsea Wolfe's She Reaches Out To She Reaches Out To She."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Chelsea Wolfe",
+          "title": "She Reaches Out To She Reaches Out To She",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/she-reaches-out-to-she-reaches-out-to-she/1711265605"
+        }
+      ],
       "attendance": {
         "notes": null,
         "setlist": null,
@@ -3743,7 +3967,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "No exact official Sixth & I event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."
+      }
     },
     {
       "id": "dyna-miki-tsuyoshi-yamamoto-ginza-swing-2026-10-10",
@@ -4155,7 +4387,7 @@
         }
       },
       "links": {
-        "official_event": null,
+        "official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
         "official_tickets": null
       },
       "tickets": {
@@ -4173,7 +4405,20 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Strathmore",
+          "url": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for the October 18, 2026 85th Birthday Celebration; it states that the show is not yet on sale."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/jazz-bat%C3%A1-2/1850044271",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Chucho Valdés's Jazz Batá 2."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -4194,7 +4439,14 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Strathmore's exact event page is verified, but it states that the show is not yet on sale; no separate authorized purchase destination is verifiable."
+      }
     },
     {
       "id": "chucho-valdes-85th-birthday-strathmore-2026-10-18",
@@ -5308,7 +5560,20 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "DPAC",
+          "url": "https://www.dpacnc.com/events/detail/beat2026",
+          "checked_on": "2026-08-16",
+          "note": "Official venue page for the 2026 BEAT tour, identifying Belew, Vai, Levin and Bozzio and the three King Crimson albums performed."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/song/1477535580",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music song page for King Crimson's Discipline."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -5329,7 +5594,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "The official BEAT tour announcement verifies the touring production and repertoire, but no exact MGM National Harbor event-detail or authorized purchase URL was verifiable."
+      }
     },
     {
       "id": "beat-belew-vai-levin-bozzio-mgm-national-harbor-2026-11-10",
@@ -5911,7 +6184,14 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/activate-infinity/1476089436",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for The Bad Plus' Activate Infinity."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -5932,7 +6212,15 @@
         "evidence": []
       },
       "geographic_domain": "us_corridor",
-      "musical_axes": []
+      "musical_axes": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "No exact official Keystone Korner event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."
+      }
     },
     {
       "id": "bruce-hornsby-christian-mcbride-njpac-2026-11-15",
@@ -6360,9 +6648,28 @@
           "publisher": "NJPAC",
           "checked_on": "2026-08-14",
           "note": "Official date, time, venue and lineup."
+        },
+        {
+          "publisher": "NJPAC",
+          "url": "https://www.njpac.org/event/charles-lloyd-quartet/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page, with its authorized Buy Tickets control, for the November 21 Charles Lloyd Quartet performance."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/gb/song/1724097108",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music song page for The Sky Will Still Be There Tomorrow by Charles Lloyd."
         }
       ],
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Charles Lloyd",
+          "title": "The Sky Will Still Be There Tomorrow",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/gb/song/1724097108"
+        }
+      ],
       "attendance": {
         "status": null,
         "evidence": [],
@@ -6373,6 +6680,10 @@
       "provenance": {
         "status": "curated-inbox",
         "note": "Merged from a reviewed curated inbox batch."
+      },
+      "enrichment": {
+        "status": "complete",
+        "missing": []
       }
     },
     {
