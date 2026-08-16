@@ -35,7 +35,7 @@ def read_json(path: Path) -> dict:
     return value
 
 
-def validate_batch(batch: dict, path: Path) -> list[dict]:
+def validate_batch(batch: dict, path: Path, curated_dir: Path = CURATED) -> list[dict]:
     if batch.get("batch_version") != 1 or batch.get("kind") != "curated_event_candidates":
         fail(f"{path}: unsupported batch envelope")
     if not isinstance(batch.get("batch_id"), str) or not isinstance(batch.get("events"), list):
@@ -49,7 +49,7 @@ def validate_batch(batch: dict, path: Path) -> list[dict]:
         ids.add(event["id"])
         if not isinstance(event.get("artist"), str) or not isinstance(event.get("dates"), dict):
             fail(f"{path}: {event['id']} requires artist and dates")
-        if path.parent == CURATED and event.get("status") in {"considering", "going"} and "enrichment" not in event:
+        if path.parent.resolve() == curated_dir.resolve() and event.get("status") in {"considering", "going"} and "enrichment" not in event:
             fail(f"{path}: {event['id']} is upcoming and requires an enrichment declaration")
         attendance = event.get("attendance", {})
         evidence = attendance.get("evidence", [])
@@ -125,8 +125,14 @@ def batch_paths(args: argparse.Namespace) -> list[Path]:
     return paths
 
 
-def merge(paths: list[Path], dry_run: bool) -> dict:
-    canonical = read_json(CANONICAL)
+def merge(
+    paths: list[Path],
+    dry_run: bool,
+    canonical_path: Path = CANONICAL,
+    curated_dir: Path = CURATED,
+    processed_dir: Path = PROCESSED,
+) -> dict:
+    canonical = read_json(canonical_path)
     if canonical.get("schema_version") != 3:
         fail("canonical events.json must use schema_version 3")
     validate_canonical(canonical)
@@ -142,7 +148,7 @@ def merge(paths: list[Path], dry_run: bool) -> dict:
         payloads[path] = batch
         added_by_path[path] = []
         blocked_by_path[path] = []
-        for candidate in validate_batch(batch, path):
+        for candidate in validate_batch(batch, path, curated_dir):
             event_id = candidate["id"]
             if event_id in seen:
                 report["conflicts"].append({"id": event_id, "batch": batch["batch_id"], "reason": "canonical or earlier batch already has this id"})
@@ -160,18 +166,22 @@ def merge(paths: list[Path], dry_run: bool) -> dict:
             if changes:
                 report["normalization"].append({"id": event_id, "changes": changes})
         if added_by_path[path]:
-            report["processed"].append({"batch": batch["batch_id"], "path": str(path.relative_to(ROOT))})
+            try:
+                display_path = str(path.relative_to(ROOT))
+            except ValueError:
+                display_path = str(path)
+            report["processed"].append({"batch": batch["batch_id"], "path": display_path})
     if report["conflicts"]:
         return report
     merged = {"schema_version": 3, "events": sorted(canonical["events"] + additions, key=lambda event: (event["dates"]["start"], event["id"]))}
     validate_canonical(merged)
     if not dry_run:
-        CANONICAL.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n")
-        PROCESSED.mkdir(parents=True, exist_ok=True)
+        canonical_path.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n")
+        processed_dir.mkdir(parents=True, exist_ok=True)
         for path in paths:
             if not added_by_path[path]:
                 continue
-            destination = PROCESSED / path.name
+            destination = processed_dir / path.name
             if destination.exists():
                 fail(f"processed destination already exists: {destination}")
             if blocked_by_path[path]:
@@ -179,7 +189,7 @@ def merge(paths: list[Path], dry_run: bool) -> dict:
                 residual["batch_id"] = f"{residual['batch_id']}-deferred"
                 residual["events"] = blocked_by_path[path]
                 residual["notes"] = f"{residual.get('notes', '')} Deferred records remain unprocessed until canonical metadata is complete.".strip()
-                deferred = CURATED / f"{path.stem}-deferred.json"
+                deferred = curated_dir / f"{path.stem}-deferred.json"
                 if deferred.exists():
                     fail(f"deferred destination already exists: {deferred}")
                 deferred.write_text(json.dumps(residual, ensure_ascii=False, indent=2) + "\n")

@@ -1,0 +1,122 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "test-mixed-curated-batch",
+  "events": [
+    {
+      "id": "fixture-valid-event-2099",
+      "artist": "Fixture Artist",
+      "subtitle": null,
+      "dates": {
+        "start": "2099-01-01",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "fixture-venue-test-city",
+        "name": "Fixture Venue",
+        "city": "Test City",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "priority": "A",
+      "category": "Test fixture",
+      "genres": [
+        "Jazz"
+      ],
+      "musical_axes": [],
+      "status": "considering",
+      "lineup": [],
+      "factual_description": null,
+      "editorial": {
+        "en": {
+          "why_it_matters": "Synthetic event used only to test deterministic ingestion.",
+          "trip_verdict": "Test fixture.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Evento sintético usado únicamente para probar la ingestión determinista.",
+          "trip_verdict": "Fixture de prueba.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://example.com/events/fixture-valid-event",
+        "official_tickets": "https://example.com/tickets/fixture-valid-event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://example.com/events/fixture-valid-event",
+          "publisher": "Example fixture",
+          "checked_on": "2026-08-16",
+          "note": "Synthetic source used only by tests."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "No Apple Music URL is required for this synthetic pending fixture."
+      },
+      "provenance": {
+        "status": "test-fixture",
+        "note": "Never published; used only in an isolated temporary repository."
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "eddie-palmieri-2019-user-confirmed",
+      "artist": "Eddie Palmieri",
+      "dates": {
+        "start": null,
+        "end": null
+      },
+      "venue": {
+        "id": "unresolved-venue",
+        "name": "Unresolved venue",
+        "city": "Unresolved",
+        "state": "Unresolved",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "priority": null,
+      "status": "attended",
+      "attendance": {
+        "status": "attended",
+        "evidence": [
+          {
+            "type": "user_confirmed",
+            "recorded_on": "2026-08-14",
+            "note": "Synthetic copy of the unresolved-record condition used by this test."
+          }
+        ]
+      }
+    }
+  ]
+}
