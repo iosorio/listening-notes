@@ -2233,8 +2233,8 @@
         }
       },
       "links": {
-        "official_event": null,
-        "official_tickets": null
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=F11B1D12-B9D2-7EA2-7E76B34383ECA09E",
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=F11B1D12-B9D2-7EA2-7E76B34383ECA09E"
       },
       "tickets": {
         "currency": "USD",
@@ -2251,7 +2251,20 @@
           "checked_on": null
         }
       },
-      "sources": [],
+      "sources": [
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=F11B1D12-B9D2-7EA2-7E76B34383ECA09E",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Trio da Paz on September 10, 2026 at 7:00 PM; InstantSeats also lists a second performance at 9:30 PM."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=F11B1D12-B9D2-7EA2-7E76B34383ECA09E",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 10 Trio da Paz performance."
+        }
+      ],
       "provenance": {
         "status": "legacy-unverified",
         "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
@@ -2269,11 +2282,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_event",
-          "official_tickets",
           "apple_music"
         ],
-        "note": "This pass did not establish an exact official Blues Alley event page, authorized purchase page, or exact Apple Music recommendation; generic venue and artist pages are deliberately omitted."
+        "note": "Exact official InstantSeats event and purchase destinations are verified for the first September 10 Trio da Paz performance; an exact Apple Music recommendation remains pending."
       }
     },
     {
@@ -2412,8 +2423,8 @@
         }
       },
       "links": {
-        "official_event": null,
-        "official_tickets": null
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443"
       },
       "tickets": {
         "currency": "USD",
@@ -2436,6 +2447,18 @@
           "url": "https://music.apple.com/us/album/softly/1073678612",
           "checked_on": "2026-08-16",
           "note": "Exact Apple Music album page for Romero Lubambo's Softly."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Great Brazilian Guitars on September 12, 2026 at 7:00 PM; InstantSeats also lists a second performance at 9:30 PM."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 12 Great Brazilian Guitars performance."
         }
       ],
       "provenance": {
@@ -2460,12 +2483,8 @@
       "geographic_domain": "us_corridor",
       "musical_axes": [],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_event",
-          "official_tickets"
-        ],
-        "note": "No exact official Blues Alley event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."
+        "status": "complete",
+        "missing": []
       }
     },
     {
@@ -2958,8 +2977,8 @@
         }
       },
       "links": {
-        "official_event": null,
-        "official_tickets": null
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=82E296A5-F9BD-801D-972225EA01488771",
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=82E296A5-F9BD-801D-972225EA01488771"
       },
       "tickets": {
         "currency": "USD",
@@ -2982,6 +3001,18 @@
           "url": "https://music.apple.com/us/album/duo/1650672391",
           "checked_on": "2026-08-16",
           "note": "Exact Apple Music album page for Claudia Acuña's Duo."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=82E296A5-F9BD-801D-972225EA01488771",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Claudia Acuna on September 18, 2026 at 7:00 PM; InstantSeats lists four performances across September 18 and 19."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=82E296A5-F9BD-801D-972225EA01488771",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 18 Claudia Acuna performance."
         }
       ],
       "provenance": {
@@ -3006,12 +3037,8 @@
       "geographic_domain": "us_corridor",
       "musical_axes": [],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_event",
-          "official_tickets"
-        ],
-        "note": "Apple Music confirms the September 18 Blues Alley appearance, but no exact official Blues Alley event page or authorized purchase URL was established in this pass."
+        "status": "complete",
+        "missing": []
       }
     },
     {
@@ -3055,8 +3082,8 @@
         }
       },
       "links": {
-        "official_event": null,
-        "official_tickets": null
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=EC5C9F1F-9358-254D-EE858212BA47AF72",
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=EC5C9F1F-9358-254D-EE858212BA47AF72"
       },
       "tickets": {
         "currency": "USD",
@@ -3079,6 +3106,18 @@
           "url": "https://music.apple.com/us/album/ambar/1453589406",
           "checked_on": "2026-08-16",
           "note": "Exact Apple Music album page for Camila Meza's Ambar."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=EC5C9F1F-9358-254D-EE858212BA47AF72",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Camila Meza on September 20, 2026 at 5:30 PM; InstantSeats also lists a second performance at 8:00 PM."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=EC5C9F1F-9358-254D-EE858212BA47AF72",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 20 Camila Meza performance."
         }
       ],
       "provenance": {
@@ -3103,12 +3142,8 @@
       "geographic_domain": "us_corridor",
       "musical_axes": [],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_event",
-          "official_tickets"
-        ],
-        "note": "No exact official Blues Alley event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."
+        "status": "complete",
+        "missing": []
       }
     },
     {
@@ -4388,7 +4423,7 @@
       },
       "links": {
         "official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
-        "official_tickets": null
+        "official_tickets": "https://www.strathmore.org/smartseat/?itemNumber=24054#/"
       },
       "tickets": {
         "currency": "USD",
@@ -4417,6 +4452,12 @@
           "url": "https://music.apple.com/us/album/jazz-bat%C3%A1-2/1850044271",
           "checked_on": "2026-08-16",
           "note": "Exact Apple Music album page for Chucho Valdés's Jazz Batá 2."
+        },
+        {
+          "publisher": "Strathmore",
+          "url": "https://www.strathmore.org/smartseat/?itemNumber=24054#/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official SmartSeat purchase flow for Chucho Valdes 85th Birthday Celebration, item 24054, on October 18, 2026 at 7:30 PM."
         }
       ],
       "provenance": {
@@ -4441,11 +4482,8 @@
       "geographic_domain": "us_corridor",
       "musical_axes": [],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets"
-        ],
-        "note": "Strathmore's exact event page is verified, but it states that the show is not yet on sale; no separate authorized purchase destination is verifiable."
+        "status": "complete",
+        "missing": []
       }
     },
     {
@@ -4490,7 +4528,7 @@
       "factual_description": "Strathmore presents Chucho Valdés on Sunday, October 18, 2026 at 7:30 PM in The Music Center at Strathmore for an 85th Birthday Celebration with special guests Joe Lovano and Etienne Charles. The official presentation frames the concert as a retrospective across a career that shaped Afro-Cuban jazz, from Irakere's fusion of Afro-Cuban ritual music, jazz, rock and classical elements through Valdés's recent work.",
       "links": {
         "official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
-        "official_tickets": null
+        "official_tickets": "https://www.strathmore.org/smartseat/?itemNumber=24054#/"
       },
       "tickets": {
         "currency": "USD",
@@ -4522,11 +4560,8 @@
         }
       ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets"
-        ],
-        "note": "The exact Strathmore event page is verified and publishes the price range, but the page still states that the show is not yet on general sale; no separate authorized ticket destination is recorded until it is verifiable."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -4546,6 +4581,12 @@
           "publisher": "Apple Music",
           "checked_on": "2026-08-16",
           "note": "Exact album page for Jazz Batá 2, a defining modern reference for Valdés's Afro-Cuban small-group language."
+        },
+        {
+          "publisher": "Strathmore",
+          "url": "https://www.strathmore.org/smartseat/?itemNumber=24054#/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official SmartSeat purchase flow for Chucho Valdes 85th Birthday Celebration, item 24054, on October 18, 2026 at 7:30 PM."
         }
       ],
       "provenance": {
