@@ -1,0 +1,117 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_enrichment_patches",
+  "batch_id": "blues-alley-instantseats-enrichment-2026-08-16-001",
+  "review": {
+    "research_path": "radar/inbox/research/blues-alley-instantseats-enrichment-2026-08-16-001.json",
+    "research_batch_id": "blues-alley-instantseats-enrichment-2026-08-16-001",
+    "research_sha256": "2e634dd50f8ab346792de3ac32cadd66515ede209008f96581a2d078aab4b482",
+    "approved_by": "Codex interactive review, source supplied by Isra Osorio",
+    "approved_on": "2026-08-16"
+  },
+  "patches": [
+    {
+      "id": "trio-da-paz-2026",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=F11B1D12-B9D2-7EA2-7E76B34383ECA09E",
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=F11B1D12-B9D2-7EA2-7E76B34383ECA09E"
+      },
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact official InstantSeats event and purchase destinations are verified for the first September 10 Trio da Paz performance; an exact Apple Music recommendation remains pending."
+      },
+      "sources": [
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=F11B1D12-B9D2-7EA2-7E76B34383ECA09E",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Trio da Paz on September 10, 2026 at 7:00 PM; InstantSeats also lists a second performance at 9:30 PM."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=F11B1D12-B9D2-7EA2-7E76B34383ECA09E",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 10 Trio da Paz performance."
+        }
+      ]
+    },
+    {
+      "id": "brazilian-guitars-2026",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443"
+      },
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Great Brazilian Guitars on September 12, 2026 at 7:00 PM; InstantSeats also lists a second performance at 9:30 PM."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 12 Great Brazilian Guitars performance."
+        }
+      ]
+    },
+    {
+      "id": "claudia-acuna-2026",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=82E296A5-F9BD-801D-972225EA01488771",
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=82E296A5-F9BD-801D-972225EA01488771"
+      },
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=82E296A5-F9BD-801D-972225EA01488771",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Claudia Acuna on September 18, 2026 at 7:00 PM; InstantSeats lists four performances across September 18 and 19."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=82E296A5-F9BD-801D-972225EA01488771",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 18 Claudia Acuna performance."
+        }
+      ]
+    },
+    {
+      "id": "camila-meza-2026",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=EC5C9F1F-9358-254D-EE858212BA47AF72",
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=EC5C9F1F-9358-254D-EE858212BA47AF72"
+      },
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=EC5C9F1F-9358-254D-EE858212BA47AF72",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Camila Meza on September 20, 2026 at 5:30 PM; InstantSeats also lists a second performance at 8:00 PM."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=EC5C9F1F-9358-254D-EE858212BA47AF72",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 20 Camila Meza performance."
+        }
+      ]
+    }
+  ]
+}

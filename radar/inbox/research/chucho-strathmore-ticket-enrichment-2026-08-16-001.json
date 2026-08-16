@@ -1,0 +1,45 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "chucho-strathmore-ticket-enrichment-2026-08-16-001",
+  "created_on": "2026-08-16",
+  "notes": "Corrects the prior incomplete Strathmore review by following the live Buy Tickets control through its shared-session redirect to the exact official SmartSeat flow for item 24054.",
+  "events": [
+    {
+      "id": "chucho-valdes-2026",
+      "links": {
+        "official_tickets": "https://www.strathmore.org/smartseat/?itemNumber=24054#/"
+      },
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Strathmore",
+          "url": "https://www.strathmore.org/smartseat/?itemNumber=24054#/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official SmartSeat purchase flow for Chucho Valdes 85th Birthday Celebration, item 24054, on October 18, 2026 at 7:30 PM."
+        }
+      ]
+    },
+    {
+      "id": "chucho-valdes-85th-birthday-strathmore-2026-10-18",
+      "links": {
+        "official_tickets": "https://www.strathmore.org/smartseat/?itemNumber=24054#/"
+      },
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Strathmore",
+          "url": "https://www.strathmore.org/smartseat/?itemNumber=24054#/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official SmartSeat purchase flow for Chucho Valdes 85th Birthday Celebration, item 24054, on October 18, 2026 at 7:30 PM."
+        }
+      ]
+    }
+  ]
+}
