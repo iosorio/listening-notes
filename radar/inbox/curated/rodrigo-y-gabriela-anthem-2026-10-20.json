@@ -1,0 +1,89 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "rodrigo-y-gabriela-anthem-2026-10-20",
+  "notes": "Verified S-tier Washington, DC discovery selected for exceptional instrumental identity, cross-genre guitar language, and a new-album tour whose current project was self-produced in Tokyo.",
+  "events": [
+    {
+      "id": "rodrigo-y-gabriela-the-anthem-2026-10-20",
+      "artist": "Rodrigo y Gabriela",
+      "subtitle": "OurHome Tour",
+      "dates": {
+        "start": "2026-10-20",
+        "end": null
+      },
+      "showtimes": ["20:00"],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Virtuosic guitar / Cross-genre",
+      "genres": ["Instrumental", "Flamenco", "Rock", "Metal"],
+      "musical_axes": ["Instrumental identity", "Cross-genre", "Groove", "Fusion / Prog"],
+      "lineup": [
+        "Rodrigo Sánchez (guitar)",
+        "Gabriela Quintero (guitar)"
+      ],
+      "factual_description": "I.M.P. presents Rodrigo y Gabriela's OurHome Tour at The Anthem in Washington, DC on Tuesday, October 20, 2026 at 8:00 PM. The promoter describes the new OurHome album as self-produced in Tokyo and frames the duo's current music around their highly physical instrumental guitar language, with flamenco, rock and heavy-music roots remaining central to the live identity.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/rodrigo-y-gabriela-ourhome-tour/",
+        "official_tickets": "https://www.ticketmaster.com/rodrigo-y-gabriela-ourhome-tour-washington-10-20-2026/event/150064C3B16BE34A"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Rodrigo y Gabriela",
+          "title": "OurHome",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/ourhome/6769249140"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/rodrigo-y-gabriela-ourhome-tour/",
+          "publisher": "I.M.P. / The Anthem",
+          "checked_on": "2026-08-16",
+          "note": "Exact official promoter event page; date, 8:00 PM showtime, venue, tour title and Tokyo-produced OurHome context verified."
+        },
+        {
+          "url": "https://www.ticketmaster.com/rodrigo-y-gabriela-ourhome-tour-washington-10-20-2026/event/150064C3B16BE34A",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized ticket page for the October 20 Washington, DC performance."
+        },
+        {
+          "url": "https://music.apple.com/us/album/ourhome/6769249140",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music pre-release album page for OurHome, scheduled for September 18, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Event facts verified against I.M.P.'s exact The Anthem event page; authorized ticketing verified via Ticketmaster; listening recommendation verified against Apple Music."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Rodrigo y Gabriela are an unusually pure Listening Notes fit: two acoustic guitars carrying the rhythmic force of a full band, with flamenco-derived attack, metal DNA and a percussive groove language that is instantly identifiable. The OurHome cycle adds a specific Japan thread because the new record was self-produced in Tokyo rather than this being a generic legacy-tour stop.",
+          "trip_verdict": "S local. Protect the Washington night: the duo's instrumental identity and physical live interplay make this substantially more than a routine acoustic-guitar booking. Worth a regional trip into the DMV, though not a stand-alone transcontinental journey.",
+          "listen_before": "OurHome"
+        },
+        "es": {
+          "why_it_matters": "Rodrigo y Gabriela encajan de manera casi perfecta con Listening Notes: dos guitarras acústicas capaces de cargar la fuerza rítmica de una banda completa, con ataque derivado del flamenco, ADN metalero y un lenguaje de groove percusivo inmediatamente reconocible. El ciclo de OurHome añade además un hilo japonés concreto porque el nuevo disco fue autoproducido en Tokio, no es simplemente otra parada de gira de legado.",
+          "trip_verdict": "S local. Hay que proteger esa noche en Washington: la identidad instrumental del dúo y su interacción física en vivo la vuelven mucho más que una fecha rutinaria de guitarra acústica. Sí justifica viaje regional al DMV, aunque no por sí sola un cruce transcontinental.",
+          "listen_before": "OurHome"
+        }
+      }
+    }
+  ]
+}
