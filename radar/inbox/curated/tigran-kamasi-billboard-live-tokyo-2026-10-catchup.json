@@ -1,0 +1,152 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tigran-kamasi-billboard-live-tokyo-2026-10-catchup",
+  "notes": "Verified high-priority Greater Tokyo/Kanto catch-up discoveries. Both events are absent from the canonical RADAR and fit Listening Notes through exceptional improvisational identity, contemporary jazz significance, and unusually strong instrumental language.",
+  "events": [
+    {
+      "id": "tigran-hamasyan-billboard-live-tokyo-2026-10-18",
+      "artist": "Tigran Hamasyan",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-18",
+        "end": null
+      },
+      "showtimes": ["16:00", "19:00"],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Contemporary jazz / Progressive",
+      "genres": ["Jazz", "Contemporary jazz", "Progressive"],
+      "musical_axes": ["Improvised", "Fusion / Prog", "Instrumental identity", "Cross-genre"],
+      "lineup": ["Tigran Hamasyan (piano)"],
+      "factual_description": "Billboard Live Tokyo presents Tigran Hamasyan on October 18, 2026 for two sets at 4:00 PM and 7:00 PM. The venue identifies the performance as his first Billboard Live Tokyo appearance and a one-night engagement; additional members were not yet announced when checked.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488",
+        "official_tickets": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tigran Hamasyan",
+          "title": "Manifeste",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/manifeste/1841668692"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page; date, two set times, venue, one-night/first-appearance context and currently announced member verified. The same page exposes official ticket purchase." 
+        },
+        {
+          "url": "https://music.apple.com/us/album/manifeste/1841668692",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-16",
+          "note": "Exact 2026 album page for Manifeste."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Event facts verified against Billboard Live Tokyo's exact show page. Apple Music recommendation verified against the exact album page. No unannounced band members were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Hamasyan is almost a perfect Listening Notes case: a pianist whose language fuses improvisation, Armenian modal traditions, progressive-rock architecture and a highly percussive instrumental identity. A one-night first appearance at Billboard Live Tokyo concentrates that language into a club-scale setting rather than a routine multi-city stop.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect the night if in Tokyo; this is worth crossing the metro area for and could anchor a short Tokyo music itinerary, though it does not alone justify a transpacific trip.",
+          "listen_before": "Manifeste"
+        },
+        "es": {
+          "why_it_matters": "Hamasyan es casi un caso perfecto para Listening Notes: un pianista cuyo lenguaje mezcla improvisación, modos armenios, arquitectura de rock progresivo y una identidad instrumental muy percusiva. Que sea su primera aparición en Billboard Live Tokyo, en una sola noche y a escala de club, vuelve la fecha mucho más específica que una parada rutinaria de gira.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Hay que proteger la noche si estás en Tokio; vale cruzar el área metropolitana y puede anclar un pequeño itinerario musical, aunque por sí sola no justifica cruzar el Pacífico.",
+          "listen_before": "Manifeste"
+        }
+      }
+    },
+    {
+      "id": "kamasi-washington-billboard-live-tokyo-2026-10-19",
+      "artist": "Kamasi Washington",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-20"
+      },
+      "showtimes": ["17:30", "20:30"],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Contemporary jazz / Spiritual jazz",
+      "genres": ["Jazz", "Contemporary jazz", "Spiritual jazz"],
+      "musical_axes": ["Improvised", "Groove", "Instrumental identity", "Cross-genre"],
+      "lineup": ["Kamasi Washington (tenor saxophone)"],
+      "factual_description": "Billboard Live Tokyo presents Kamasi Washington on October 19-20, 2026 with 5:30 PM and 8:30 PM sets each night. The venue lists Washington on tenor saxophone; other members were not yet announced when checked.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397",
+        "official_tickets": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kamasi Washington",
+          "title": "Fearless Movement",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/fearless-movement/1729582490"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page; dates, both set times, venue and currently announced member verified. The same page exposes official ticket purchase."
+        },
+        {
+          "url": "https://music.apple.com/us/album/fearless-movement/1729582490",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-16",
+          "note": "Exact album page for Fearless Movement."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Event facts verified against Billboard Live Tokyo's exact show page. Apple Music recommendation verified against the exact album page. No unannounced band members were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Washington's scale is unusual for this room: a saxophonist and composer associated with large, spiritual, groove-heavy contemporary jazz statements playing two nights in the much more compressed Billboard Live setting. His work also sits directly at the jazz/hip-hop/cross-genre seam that Listening Notes tracks, making the engagement more than a generic international jazz booking.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Worth building a Tokyo night around, especially for the contrast between Washington's expansive music and a club-scale room; strong regional priority, not a stand-alone transpacific trip.",
+          "listen_before": "Fearless Movement"
+        },
+        "es": {
+          "why_it_matters": "La escala musical de Washington es inusual para esta sala: un saxofonista y compositor asociado con declaraciones grandes, espirituales y cargadas de groove tocando dos noches en el formato mucho más comprimido de Billboard Live. Además, su obra vive exactamente en la frontera jazz/hip-hop/cross-genre que sigue Listening Notes, así que no es una contratación internacional genérica.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale construir una noche de Tokio alrededor de esto, sobre todo por el contraste entre la música expansiva de Washington y una sala de escala club; prioridad regional fuerte, no viaje transpacífico por sí solo.",
+          "listen_before": "Fearless Movement"
+        }
+      }
+    }
+  ]
+}
