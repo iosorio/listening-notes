@@ -78,6 +78,40 @@ verifiable. `unavailable` means research reasonably established that it does
 not exist or does not apply. Pending and unavailable patches list every missing
 component and explain it in `note`; URLs are never invented for completeness.
 
+## Venue-specific source rules
+
+These rules refine, but do not replace, the requirement to use exact authorized
+destinations. Inspect the live event page and follow its current purchase
+controls. Search-engine snippets and cached summaries are discovery aids, not
+evidence of current ticket availability.
+
+### Strathmore
+
+- Treat the exact Strathmore event page as the primary event authority.
+- If that live page exposes an active **Buy Tickets** control, follow it through
+  any session redirect and record the stable, event-specific Strathmore
+  SmartSeat destination as `links.official_tickets`.
+- Do not store the transient `secure.strathmore.org/components/sharedsession`
+  redirect URL. Do not preserve a stale “not yet on sale” conclusion from a
+  search snippet when the live event page has active purchase controls.
+
+### Blues Alley
+
+- InstantSeats venue `3` is Blues Alley's authorized primary ticket source; it
+  is not resale in this context.
+- Use the venue listing to match the exact artist and date, then record that
+  performance's `home.event&eventID=...` destination as `official_event` and
+  its **Get Tickets** `buy.event&eventID=...` destination as
+  `official_tickets`.
+- The generic InstantSeats venue page is a research index, not a substitute for
+  an event-specific canonical link. Do not use aggregators or inferred event
+  IDs.
+- InstantSeats assigns a different event ID to each performance. When one
+  canonical RADAR record spans multiple performances but supports only one URL,
+  use the first verified applicable performance and document the additional
+  dates or times in the source note. Never imply that one event ID purchases
+  every performance.
+
 ## Explicit promotion
 
 Run the read-only validator, inspect its reported changes and conflicts, and
