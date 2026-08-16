@@ -1,0 +1,37 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "backfill-aplus-2026-08-16-003",
+  "created_on": "2026-08-16",
+  "notes": "A+ research batch, earliest dates first. Exact destinations are recorded only where verified.",
+  "events": [
+    {
+      "id": "monty-alexander-2026",
+      "recommended_listening": [{"artist": "Monty Alexander", "title": "Rass!", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/rass/873098008"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "An exact Keystone Korner event or authorized ticket URL was not verifiable in this pass; no venue calendar or resale link is substituted."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/rass/873098008", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Monty Alexander's Rass!."}]
+    },
+    {
+      "id": "hiromi-piano-quintet-publiquartet-blue-note-nyc-2026",
+      "links": {"official_event": "https://www.bluenotejazz.com/nyc/tm-event/hiromi-the-piano-quintet-feat-publiquartet-3/", "official_tickets": "https://www.bluenotejazz.com/nyc/tm-event/hiromi-the-piano-quintet-feat-publiquartet-3/"},
+      "replacement_reason": "Replace the canonical Blue Note search-results URLs with the verified exact show-detail page, which contains the authorized Buy Tickets controls for the listed performances.",
+      "recommended_listening": [{"artist": "Hiromi", "title": "Silver Lining Suite", "kind": "album", "apple_music_url": "https://music.apple.com/de/album/silver-lining-suite/1577444014"}],
+      "enrichment": {"status": "complete", "missing": []},
+      "sources": [{"publisher": "Blue Note New York", "url": "https://www.bluenotejazz.com/nyc/tm-event/hiromi-the-piano-quintet-feat-publiquartet-3/", "checked_on": "2026-08-16", "note": "Exact official show page with authorized Buy Tickets controls for all listed August 20–23 performances."}, {"publisher": "Apple Music", "url": "https://music.apple.com/de/album/silver-lining-suite/1577444014", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Hiromi's Silver Lining Suite, written for piano and string quartet."}]
+    },
+    {
+      "id": "makoto-ozone-trio-birdland-2026",
+      "links": {"official_event": "https://www.birdlandjazz.com/tm-event/makoto-ozone-trio-remembering-kiyoshi-kitagawa/", "official_tickets": "https://www.birdlandjazz.com/tm-event/makoto-ozone-trio-remembering-kiyoshi-kitagawa/"},
+      "enrichment": {"status": "pending", "missing": ["apple_music"], "note": "Birdland's exact event and ticket destination is verified, but an exact Apple Music album, song, or playlist URL was not verified in this pass."},
+      "sources": [{"publisher": "Birdland Jazz Club", "url": "https://www.birdlandjazz.com/tm-event/makoto-ozone-trio-remembering-kiyoshi-kitagawa/", "checked_on": "2026-08-16", "note": "Exact official event page for Makoto Ozone Trio: Remembering Kiyoshi Kitagawa."}]
+    },
+    {
+      "id": "joshua-redman-2026",
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets", "apple_music"], "note": "This pass did not establish an exact official Keystone Korner event page, authorized purchase page, or exact Apple Music recommendation; generic venue and artist pages are deliberately omitted."}
+    },
+    {
+      "id": "trio-da-paz-2026",
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets", "apple_music"], "note": "This pass did not establish an exact official Blues Alley event page, authorized purchase page, or exact Apple Music recommendation; generic venue and artist pages are deliberately omitted."}
+    }
+  ]
+}

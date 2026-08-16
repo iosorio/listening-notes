@@ -1,0 +1,39 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "backfill-a-2026-08-16-005",
+  "created_on": "2026-08-16",
+  "notes": "A-priority research batch, earliest dates first. Only exact Apple Music pages are added; no generic event pages are used.",
+  "events": [
+    {
+      "id": "simon-phillips-2026",
+      "recommended_listening": [{"artist": "Simon Phillips", "title": "Protocol 6", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/protocol-6/1888221200"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "No exact official event page or authorized ticket URL matching this canonical record was verified in this pass; a conflicting venue listing is not used to alter canonical facts."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/protocol-6/1888221200", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Simon Phillips's Protocol 6."}]
+    },
+    {
+      "id": "wooten-brothers-2026",
+      "recommended_listening": [{"artist": "Victor Wooten", "title": "A Show of Hands 15", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/a-show-of-hands-15/1076733785"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "The Hamilton's official calendar identifies the September 13 performance, but no exact event-detail or authorized ticket URL was verified in this pass."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/a-show-of-hands-15/1076733785", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Victor Wooten's A Show of Hands 15."}]
+    },
+    {
+      "id": "claudia-acuna-2026",
+      "recommended_listening": [{"artist": "Claudia Acuña", "title": "Duo", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/duo/1650672391"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "Apple Music confirms the September 18 Blues Alley appearance, but no exact official Blues Alley event page or authorized purchase URL was established in this pass."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/duo/1650672391", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Claudia Acuña's Duo."}]
+    },
+    {
+      "id": "camila-meza-2026",
+      "recommended_listening": [{"artist": "Camila Meza", "title": "Ambar", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/ambar/1453589406"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "No exact official Blues Alley event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/ambar/1453589406", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Camila Meza's Ambar."}]
+    },
+    {
+      "id": "chelsea-wolfe-2026",
+      "recommended_listening": [{"artist": "Chelsea Wolfe", "title": "She Reaches Out To She Reaches Out To She", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/she-reaches-out-to-she-reaches-out-to-she/1711265605"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "No exact official Sixth & I event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/she-reaches-out-to-she-reaches-out-to-she/1711265605", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Chelsea Wolfe's She Reaches Out To She Reaches Out To She."}]
+    }
+  ]
+}

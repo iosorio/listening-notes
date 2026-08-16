@@ -1,0 +1,105 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "backfill-s-2026-08-16-002",
+  "created_on": "2026-08-16",
+  "notes": "First post-pilot S-priority research batch; researched in date order.",
+  "events": [
+    {
+      "id": "chucho-valdes-2026",
+      "links": {
+        "official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chucho Valdés",
+          "title": "Jazz Batá 2",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/jazz-bat%C3%A1-2/1850044271"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_tickets"],
+        "note": "Strathmore's exact event page is verified, but it states that the show is not yet on sale; no separate authorized purchase destination is verifiable."
+      },
+      "sources": [
+        {
+          "publisher": "Strathmore",
+          "url": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for the October 18, 2026 85th Birthday Celebration; it states that the show is not yet on sale."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/jazz-bat%C3%A1-2/1850044271",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Chucho Valdés's Jazz Batá 2."
+        }
+      ]
+    },
+    {
+      "id": "beat-2026",
+      "recommended_listening": [
+        {
+          "artist": "King Crimson",
+          "title": "Discipline",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/song/1477535580"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_event", "official_tickets"],
+        "note": "The official BEAT tour announcement verifies the touring production and repertoire, but no exact MGM National Harbor event-detail or authorized purchase URL was verifiable."
+      },
+      "sources": [
+        {
+          "publisher": "DPAC",
+          "url": "https://www.dpacnc.com/events/detail/beat2026",
+          "checked_on": "2026-08-16",
+          "note": "Official venue page for the 2026 BEAT tour, identifying Belew, Vai, Levin and Bozzio and the three King Crimson albums performed."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/song/1477535580",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music song page for King Crimson's Discipline."
+        }
+      ]
+    },
+    {
+      "id": "charles-lloyd-quartet-njpac-2026",
+      "links": {
+        "official_event": "https://www.njpac.org/event/charles-lloyd-quartet/",
+        "official_tickets": "https://www.njpac.org/event/charles-lloyd-quartet/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Charles Lloyd",
+          "title": "The Sky Will Still Be There Tomorrow",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/gb/song/1724097108"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "NJPAC",
+          "url": "https://www.njpac.org/event/charles-lloyd-quartet/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page, with its authorized Buy Tickets control, for the November 21 Charles Lloyd Quartet performance."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/gb/song/1724097108",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music song page for The Sky Will Still Be There Tomorrow by Charles Lloyd."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "backfill-aplus-2026-08-16-004",
+  "created_on": "2026-08-16",
+  "notes": "A+ research batch, earliest dates first. Venue calendars were not substituted for exact event pages.",
+  "events": [
+    {
+      "id": "kenny-garrett-2026",
+      "recommended_listening": [{"artist": "Kenny Garrett", "title": "Sounds from the Ancestors", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/sounds-from-the-ancestors/1850052761"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "Keystone Korner's official calendar verifies the September 11–12 engagement, but no stable exact event-detail or authorized ticket URL was established in this pass."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/sounds-from-the-ancestors/1850052761", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Kenny Garrett's Sounds from the Ancestors."}]
+    },
+    {
+      "id": "brazilian-guitars-2026",
+      "recommended_listening": [{"artist": "Romero Lubambo", "title": "Softly", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/softly/1073678612"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "No exact official Blues Alley event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/softly/1073678612", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Romero Lubambo's Softly."}]
+    },
+    {
+      "id": "domi-jd-beck-2026",
+      "recommended_listening": [{"artist": "DOMi & JD BECK", "title": "NOT TiGHT", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/not-tight/1629562125"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "No exact official Howard Theatre event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/not-tight/1629562125", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for DOMi & JD BECK's NOT TiGHT."}]
+    },
+    {
+      "id": "minyo-crusaders-2026",
+      "recommended_listening": [{"artist": "Minyo Crusaders", "title": "Echoes of Japan", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/echoes-of-japan-%E3%82%A8%E3%82%B3%E3%83%BC%E3%82%BA-%E3%82%AA%E3%83%96-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3/1677836789"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "The Hamilton's official calendar verifies the September 24 date and its ticket control, but no exact event-detail or authorized purchase URL was established in this pass."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/echoes-of-japan-%E3%82%A8%E3%82%B3%E3%83%BC%E3%82%BA-%E3%82%AA%E3%83%96-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3/1677836789", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for Minyo Crusaders' Echoes of Japan."}]
+    },
+    {
+      "id": "bad-plus-farewell-2026",
+      "recommended_listening": [{"artist": "The Bad Plus", "title": "Activate Infinity", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/activate-infinity/1476089436"}],
+      "enrichment": {"status": "pending", "missing": ["official_event", "official_tickets"], "note": "No exact official Keystone Korner event page or authorized ticket destination was verifiable in this pass; no generic calendar or third-party listing is substituted."},
+      "sources": [{"publisher": "Apple Music", "url": "https://music.apple.com/us/album/activate-infinity/1476089436", "checked_on": "2026-08-16", "note": "Exact Apple Music album page for The Bad Plus' Activate Infinity."}]
+    }
+  ]
+}
