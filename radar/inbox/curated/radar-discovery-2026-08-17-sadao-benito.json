@@ -1,0 +1,167 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "radar-discovery-2026-08-17-sadao-benito",
+  "notes": "Two verified S-priority discoveries from the Yamamoto-first monitoring pass: Sadao Watanabe's debut-75th-anniversary quartet concert in Musashino and an unusually concentrated living-master trio engagement at Blues Alley with Benito Gonzalez, Buster Williams and Lenny White.",
+  "events": [
+    {
+      "id": "sadao-watanabe-quartet-75th-anniversary-musashino-2026-11-07",
+      "artist": "Sadao Watanabe Quartet",
+      "subtitle": "75th Anniversary — INTO TOMORROW",
+      "dates": {
+        "start": "2026-11-07",
+        "end": null
+      },
+      "showtimes": ["15:30"],
+      "venue": {
+        "id": "musashino-civic-cultural-hall-musashino-tokyo",
+        "name": "Musashino Civic Cultural Hall",
+        "city": "Musashino",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Japan / Living masters",
+      "genres": ["Jazz", "Fusion", "Brazilian jazz"],
+      "musical_axes": ["Masters", "Japan", "Improvised", "Groove"],
+      "lineup": [
+        "Sadao Watanabe (alto saxophone)",
+        "Akira Onozuka (piano)",
+        "Daiki Mishima (bass)",
+        "Issei Takemura (drums)"
+      ],
+      "factual_description": "Musashino Civic Cultural Hall presents Sadao Watanabe Quartet 2026 — INTO TOMORROW on November 7, 2026 at 3:30 PM. The official venue identifies the concert as Watanabe's 75th-anniversary-of-debut performance and lists Akira Onozuka, Daiki Mishima and Issei Takemura in the quartet; the venue describes the group's language as spanning jazz, Brazilian music and funk.",
+      "links": {
+        "official_event": "https://www.musashino.or.jp/bunka/1002092/1009651.html",
+        "official_tickets": "https://eplus.jp/sf/detail/3370760002"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sadao Watanabe",
+          "title": "But Beautiful",
+          "apple_music_url": "https://music.apple.com/jp/album/but-beautiful/1895612193?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Musashino Civic Cultural Hall",
+          "url": "https://www.musashino.or.jp/bunka/1002092/1009651.html",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_promoter",
+          "name": "MAS Entertainment",
+          "url": "https://www.mas-e.com/products/detail.php?product_id=959",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "eplus",
+          "url": "https://eplus.jp/sf/detail/3370760002",
+          "checked_on": "2026-08-17"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, 15:30 start, venue, quartet lineup and debut-75th-anniversary context verified against Musashino Civic Cultural Hall; promoter listing independently confirms the same details, and eplus provides the exact authorized event ticket page. Apple Music recommendation reuses an already verified exact Sadao Watanabe album destination in RADAR."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a routine Sadao Watanabe date: the concert is explicitly framed as the 75th anniversary of his debut, with the living Japanese master leading his quartet through the jazz/Brazilian/funk vocabulary that has defined his long instrumental identity. The anniversary context makes the performance a specific marker in Japanese jazz history rather than another tour stop.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect the afternoon and cross the metropolitan area for it; the debut-75th-anniversary framing gives this concert more historical weight than a standard quartet engagement, though it does not by itself require a transpacific trip.",
+          "listen_before": "But Beautiful"
+        },
+        "es": {
+          "why_it_matters": "No es una fecha rutinaria de Sadao Watanabe: el concierto está presentado explícitamente como el 75 aniversario de su debut, con el maestro vivo del jazz japonés al frente de su cuarteto y el vocabulario de jazz, música brasileña y funk que ha definido su identidad instrumental. El contexto aniversario convierte la actuación en un marcador concreto de la historia del jazz japonés, no en otra parada de gira.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale proteger la tarde y cruzar el área metropolitana; el marco del 75 aniversario de su debut le da mucho más peso histórico que a una actuación habitual del cuarteto, aunque por sí sola no exige un viaje transpacífico.",
+          "listen_before": "But Beautiful"
+        }
+      }
+    },
+    {
+      "id": "benito-gonzalez-buster-williams-lenny-white-blues-alley-2026-10-01",
+      "artist": "Benito Gonzalez / Buster Williams / Lenny White",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-01",
+        "end": "2026-10-02"
+      },
+      "showtimes": ["19:00", "21:30"],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Acoustic jazz",
+      "genres": ["Jazz"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Groove"],
+      "lineup": [
+        "Benito Gonzalez (piano)",
+        "Buster Williams (bass)",
+        "Lenny White (drums)"
+      ],
+      "factual_description": "Blues Alley's authorized InstantSeats listing presents Benito Gonzalez with Buster Williams and Lenny White for four sets on October 1-2, 2026, at 7:00 PM and 9:30 PM each night. The exact event page describes the trio as performing original music alongside possible McCoy Tyner classics or a John Coltrane favorite, placing Gonzalez with bassist Buster Williams and drummer Lenny White in an explicitly post-bop lineage setting.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=5495B32C-9F5F-FDE4-801446129E887543&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=5495B32C-9F5F-FDE4-801446129E887543&fuseaction=buy.event"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Buster Williams, George Colligan, Lenny White & Steve Wilson",
+          "title": "Hancock Island: The Music of Herbie Hancock",
+          "apple_music_url": "https://music.apple.com/us/album/hancock-island-the-music-of-herbie-hancock/1787340020"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_ticketing",
+          "name": "InstantSeats / Blues Alley — first performance event page",
+          "url": "https://www.instantseats.com/index.cfm?eventID=5495B32C-9F5F-FDE4-801446129E887543&fuseaction=home.event",
+          "checked_on": "2026-08-17",
+          "note": "Exact Thursday October 1, 7:00 PM event page. The canonical RADAR record spans all four verified performances; InstantSeats assigns a different event ID to each performance, so the first verified applicable performance is used as the single canonical event/ticket link in accordance with the Blues Alley source rule."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "InstantSeats / Blues Alley venue schedule",
+          "url": "https://www.instantseats.com/index.cfm?VenueID=3&fuseaction=home.venue",
+          "checked_on": "2026-08-17",
+          "note": "Authorized Blues Alley schedule verifies October 1 at 7:00 and 9:30 PM and October 2 at 7:00 and 9:30 PM."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Billing, dates, all four set times, venue and trio context verified against Blues Alley's authorized InstantSeats pages. The official_event and official_tickets destinations were followed from the first October 1 performance's Event Info and Get Tickets controls rather than inferred from a generic venue page. Apple Music recommendation is an exact album page featuring both Buster Williams and Lenny White together."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is the concentration of lineage in a tiny room: Buster Williams brings the Mwandishi/Sphere bass tradition, Lenny White brings Bitches Brew and Return to Forever history, and Benito Gonzalez places that rhythm section inside a piano language explicitly connected here to McCoy Tyner and Coltrane. Two major living masters behind a forceful improvising pianist at Blues Alley is materially rarer than a routine local club date.",
+          "trip_verdict": "S local. This is a protect-the-night DC date: no travel justification is needed from the DMV, and the combination of Williams and White in Blues Alley's intimate room makes it worth prioritizing over a normal club booking.",
+          "listen_before": "Hancock Island: The Music of Herbie Hancock"
+        },
+        "es": {
+          "why_it_matters": "El valor está en la concentración de linaje dentro de una sala mínima: Buster Williams trae la tradición de bajo de Mwandishi y Sphere, Lenny White carga la historia de Bitches Brew y Return to Forever, y Benito Gonzalez coloca esa sección rítmica dentro de un lenguaje pianístico que el propio anuncio conecta con McCoy Tyner y Coltrane. Dos maestros vivos mayores detrás de un pianista improvisador tan físico en Blues Alley es bastante más raro que una fecha rutinaria de club local.",
+          "trip_verdict": "S local. Es una noche para proteger en DC: desde el DMV no necesita justificar viaje, y la combinación de Williams y White dentro de la escala íntima de Blues Alley la vuelve prioridad frente a una contratación habitual del club.",
+          "listen_before": "Hancock Island: The Music of Herbie Hancock"
+        }
+      }
+    }
+  ]
+}
