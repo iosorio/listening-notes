@@ -1,0 +1,98 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "patti-smith-dodge-poetry-festival-njpac-2026-10-16-discovery",
+  "notes": "Verified S-priority East Coast discovery found after the Yamamoto-first monitoring pass. Current Yamamoto checks did not surface an unrecorded date; Patti Smith's Dodge Poetry Festival appearance qualifies because the songs-and-stories format and poetry-festival context make this materially more than a routine rock tour stop.",
+  "events": [
+    {
+      "id": "patti-smith-dodge-poetry-festival-njpac-2026-10-16",
+      "artist": "Patti Smith",
+      "subtitle": "Songs and Stories — Dodge Poetry Festival",
+      "dates": {
+        "start": "2026-10-16",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark",
+        "name": "Prudential Hall at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "Culturally significant rock / Poetry / Cross-genre",
+      "genres": [
+        "Rock",
+        "Punk",
+        "Spoken word"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Rock",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Patti Smith"
+      ],
+      "factual_description": "NJPAC presents Patti Smith in Prudential Hall on Friday, October 16, 2026 at 8:00 PM as a special ticketed event of the 2026 Dodge Poetry Festival. NJPAC bills the New Jersey return as a night of songs and stories and identifies Smith as the 'punk poet laureate'; the festival is built around poetry as performance and social expression.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/patti-smith/",
+        "official_tickets": "https://www.ticketmaster.com/event/000064C8CD9760D1"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Patti Smith",
+          "title": "Horses",
+          "apple_music_url": "https://music.apple.com/us/album/horses/1038568061"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "NJPAC",
+          "url": "https://www.njpac.org/event/patti-smith/",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/000064C8CD9760D1",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/horses/1038568061",
+          "checked_on": "2026-08-17"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, 8:00 PM show time, Prudential Hall venue, Dodge Poetry Festival context and songs-and-stories billing were verified against NJPAC's exact event page; Ticketmaster confirms the same date/time and authorized sale. The recommended listening link is the exact Apple Music album page for Horses."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The point is not simply that Patti Smith is important. This is Smith in the setting where the two halves of her artistic identity actually meet: a major poetry festival, in New Jersey, with a songs-and-stories format rather than a routine rock set. Her fusion of poetry, punk, literature and political-cultural presence is the program itself, which gives this date a specificity a standard tour stop would not have.",
+          "trip_verdict": "S regional. Worth building a Newark/NYC trip around if the poetry-rock intersection matters to you: the Dodge context and songs-and-stories format make it substantially more singular than a normal Patti Smith concert. Not S+ because it is special context rather than a farewell, unique ensemble or demonstrably unrepeatable performance.",
+          "listen_before": "Horses"
+        },
+        "es": {
+          "why_it_matters": "La razón no es simplemente que Patti Smith sea importante. Aquí aparece justamente en el contexto donde se encuentran las dos mitades de su identidad artística: un gran festival de poesía, en Nueva Jersey, con un formato de canciones e historias en vez de un set rutinario de rock. Su mezcla de poesía, punk, literatura y presencia político-cultural es el propio programa, y eso le da a esta fecha una especificidad que una parada normal de gira no tendría.",
+          "trip_verdict": "S regional. Sí vale construir una salida a Newark/NYC alrededor de esta fecha si te interesa el cruce entre poesía y rock: el contexto Dodge y el formato de canciones e historias la vuelven mucho más singular que un concierto normal de Patti Smith. No llega a S+ porque el valor excepcional viene del contexto, no de una despedida, una formación única o una actuación demostrablemente irrepetible.",
+          "listen_before": "Horses"
+        }
+      }
+    }
+  ]
+}
