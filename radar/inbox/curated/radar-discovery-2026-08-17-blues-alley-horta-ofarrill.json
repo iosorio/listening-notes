@@ -1,0 +1,181 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "radar-discovery-2026-08-17-blues-alley-horta-ofarrill",
+  "notes": "Two verified S-priority Blues Alley discoveries from the Yamamoto-first monitoring pass: Nanny Assis' Afro-Jobim project now billed with living Brazilian guitar master Toninho Horta, and Arturo O'Farrill's intimate two-night quintet engagement.",
+  "events": [
+    {
+      "id": "nanny-assis-afro-jobim-toninho-horta-blues-alley-2026-09-08",
+      "artist": "Nanny Assis ‘Afro-Jobim’ feat. Toninho Horta",
+      "subtitle": "Brazilian Jazz Series",
+      "dates": {
+        "start": "2026-09-08",
+        "end": null
+      },
+      "showtimes": ["19:00", "21:30"],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Brazilian jazz / Living masters",
+      "genres": ["Brazilian jazz", "Bossa nova", "Afro-Brazilian music"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Groove", "Cross-genre", "Cultural context"],
+      "lineup": [
+        "Nanny Assis",
+        "Toninho Horta (featured guest)"
+      ],
+      "factual_description": "Blues Alley's live authorized InstantSeats schedule currently bills Nanny Assis ‘Afro-Jobim’ featuring Toninho Horta for two sets on September 8, 2026, at 7:00 PM and 9:30 PM as part of the Brazilian Jazz Series. The billing places Horta, one of Brazil's major living guitar-composer voices, inside Assis' Jobim-centered project in Blues Alley's intimate room.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=89BF9875-D826-13C1-A1F375C35EB18F85&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=89BF9875-D826-13C1-A1F375C35EB18F85&fuseaction=buy.event"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Toninho Horta & Orquestra Fantasma",
+          "title": "Terra Dos Pássaros",
+          "apple_music_url": "https://music.apple.com/us/album/terra-dos-p%C3%A1ssaros/283462081"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_ticketing",
+          "name": "InstantSeats / Blues Alley venue schedule",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+          "checked_on": "2026-08-17",
+          "note": "Live authorized Blues Alley schedule currently bills Nanny Assis ‘Afro-Jobim’ feat. Toninho Horta and verifies September 8 performances at 7:00 PM and 9:30 PM."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "InstantSeats / Blues Alley — first performance event page",
+          "url": "https://www.instantseats.com/index.cfm?eventID=89BF9875-D826-13C1-A1F375C35EB18F85&fuseaction=home.event",
+          "checked_on": "2026-08-17",
+          "note": "Exact first-performance Event Info destination resolved from the live Blues Alley schedule; InstantSeats assigns distinct event IDs to individual performances."
+        },
+        {
+          "type": "editorial_reference",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/terra-dos-p%C3%A1ssaros/283462081",
+          "checked_on": "2026-08-17",
+          "note": "Exact Apple Music album page for Toninho Horta & Orquestra Fantasma's Terra Dos Pássaros."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Current billing, date, both showtimes, venue and authorized ticket path verified from Blues Alley's live InstantSeats venue schedule. The canonical event and ticket links use the first performance's exact Event Info/Get Tickets destination rather than the generic venue page. The current venue schedule is treated as authoritative where older cached event-page text lags the live billing."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The important change is Toninho Horta inside Afro-Jobim, not simply another Brazilian-series night. Horta's harmonic guitar language is one of the defining instrumental voices to emerge from Minas Gerais, and placing that voice inside a Jobim-centered Afro-Brazilian project in a room as small as Blues Alley creates the kind of lineage-plus-context encounter Listening Notes is built to catch.",
+          "trip_verdict": "S local. Protect the night in DC. For the DMV this needs no travel argument: a living Brazilian guitar master appearing as a featured guest in a focused Afro-Jobim project at Blues Alley is substantially more special than a routine club booking.",
+          "listen_before": "Terra Dos Pássaros"
+        },
+        "es": {
+          "why_it_matters": "El cambio importante es Toninho Horta dentro de Afro-Jobim, no simplemente otra noche de la serie brasileña. El lenguaje armónico de Horta en la guitarra es una de las voces instrumentales definitorias surgidas de Minas Gerais, y colocarlo dentro de un proyecto afrobrasileño centrado en Jobim, en una sala tan pequeña como Blues Alley, produce exactamente el tipo de encuentro entre linaje y contexto que Listening Notes quiere detectar.",
+          "trip_verdict": "S local. Hay que proteger la noche en DC. Desde el DMV no necesita argumento de viaje: un maestro vivo de la guitarra brasileña como invitado destacado dentro de un proyecto Afro-Jobim en Blues Alley es bastante más especial que una contratación rutinaria de club.",
+          "listen_before": "Terra Dos Pássaros"
+        }
+      }
+    },
+    {
+      "id": "arturo-ofarrill-quintet-blues-alley-2026-10-03",
+      "artist": "Arturo O'Farrill Quintet",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-03",
+        "end": "2026-10-04"
+      },
+      "showtimes": ["17:30", "19:00", "20:00", "21:30"],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Afro-Latin jazz",
+      "genres": ["Jazz", "Latin jazz", "Afro-Cuban jazz", "Contemporary jazz"],
+      "musical_axes": ["Masters", "Improvised", "Latin / Afro-Cuban", "Instrumental identity", "Cultural context"],
+      "lineup": [
+        "Arturo O'Farrill (piano / bandleader)",
+        "Quintet personnel not yet published on the official event page"
+      ],
+      "factual_description": "Blues Alley's authorized InstantSeats schedule presents the Arturo O'Farrill Quintet for four sets on October 3-4, 2026: 7:00 PM and 9:30 PM Saturday, followed by 5:30 PM and 8:00 PM Sunday. The exact event page identifies O'Farrill as a Mexican American composer, pianist and bandleader working across Latin rhythms, modern jazz and contemporary composition, and notes that the engagement is co-presented with the Embassy of Cuba. O'Farrill's own official schedule independently lists both Blues Alley dates and the same showtimes.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=9E8CE9EA-D4F2-B909-C907DE518F23DE10&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=9E8CE9EA-D4F2-B909-C907DE518F23DE10&fuseaction=buy.event"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Arturo O'Farrill",
+          "title": "…dreaming in lions… (feat. The Afro Latin Jazz Ensemble)",
+          "apple_music_url": "https://music.apple.com/us/album/dreaming-in-lions-feat-the-afro-latin-jazz-ensemble/1577846867"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_ticketing",
+          "name": "InstantSeats / Blues Alley — first performance event page",
+          "url": "https://www.instantseats.com/index.cfm?eventID=9E8CE9EA-D4F2-B909-C907DE518F23DE10&fuseaction=home.event",
+          "checked_on": "2026-08-17",
+          "note": "Exact October 3, 7:00 PM event page verifies billing, venue, O'Farrill context and Embassy of Cuba co-presentation."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "InstantSeats / Blues Alley venue schedule",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+          "checked_on": "2026-08-17",
+          "note": "Authorized venue schedule verifies all four performances: October 3 at 7:00 and 9:30 PM; October 4 at 5:30 and 8:00 PM."
+        },
+        {
+          "type": "official_artist",
+          "name": "Arturo O'Farrill official schedule",
+          "url": "https://www.arturoofarrill.com/schedule",
+          "checked_on": "2026-08-17",
+          "note": "Official artist calendar independently lists Blues Alley on October 3 and 4 with the same showtimes."
+        },
+        {
+          "type": "editorial_reference",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/dreaming-in-lions-feat-the-afro-latin-jazz-ensemble/1577846867",
+          "checked_on": "2026-08-17",
+          "note": "Exact Apple Music album page for an O'Farrill small-ensemble project."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Billing, dates, all four set times and venue verified against Blues Alley's authorized InstantSeats schedule and independently against Arturo O'Farrill's official calendar. Exact first-performance Event Info/Get Tickets destinations are used for the canonical links. Individual quintet personnel beyond O'Farrill are intentionally not invented because the official event page does not publish them."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "O'Farrill is not appearing here with a large institutional orchestra but with a quintet, which puts his piano, rhythmic architecture and improvising voice closer to the surface. Add Blues Alley's scale and the Embassy of Cuba co-presentation, and this becomes a concentrated Afro-Latin jazz date with real musical and cultural context rather than a generic tour stop.",
+          "trip_verdict": "S local/regional. Protect one of the four sets from the DMV; the intimate quintet format is the reason to prioritize it. It does not require a New York-style destination trip, but it is strong enough to build a DC night around.",
+          "listen_before": "…dreaming in lions…"
+        },
+        "es": {
+          "why_it_matters": "O'Farrill no llega aquí con una gran orquesta institucional sino con un quinteto, formato que deja mucho más expuestos su piano, su arquitectura rítmica y su voz improvisadora. Súmale la escala de Blues Alley y la copresentación de la Embajada de Cuba: queda una fecha de jazz afrolatino concentrada, con contexto musical y cultural real, no una parada genérica de gira.",
+          "trip_verdict": "S local/regional. Vale proteger uno de los cuatro sets desde el DMV; el formato íntimo de quinteto es precisamente la razón para priorizarlo. No exige un viaje de destino tipo Nueva York, pero sí alcanza para construir una noche en DC alrededor del concierto.",
+          "listen_before": "…dreaming in lions…"
+        }
+      }
+    }
+  ]
+}
