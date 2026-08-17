@@ -1,0 +1,101 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "niladri-kumaar-space-between-notes-njpac-2026-11-06-discovery",
+  "notes": "Verified S-tier Newark discovery. Niladri Kumaar brings The Space Between the Notes, a project honoring his late friend, mentor and frequent collaborator Zakir Hussain, to the TD James Moody Jazz Festival at NJPAC.",
+  "events": [
+    {
+      "id": "niladri-kumaar-space-between-notes-njpac-2026-11-06",
+      "artist": "Niladri Kumaar",
+      "subtitle": "The Space Between the Notes — Honoring Zakir Hussain",
+      "dates": {
+        "start": "2026-11-06",
+        "end": null
+      },
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "victoria-theater-njpac-newark",
+        "name": "Victoria Theater at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Indian classical / Cross-genre tribute",
+      "genres": ["Indian classical", "Jazz", "World music"],
+      "musical_axes": ["Improvised", "Instrumental identity", "Cross-genre", "Cultural context"],
+      "lineup": [
+        "Niladri Kumaar — sitar",
+        "Satyajit Talwalkar — tabla",
+        "Agnelo Fernandes — keys",
+        "Sambit Chatterjee"
+      ],
+      "factual_description": "NJPAC presents Niladri Kumaar in The Space Between the Notes on Friday, November 6, 2026 at 7:30 PM in the Victoria Theater as part of the TD James Moody Jazz Festival. The concert honors the late tabla maestro Zakir Hussain, Kumaar's friend, mentor and frequent collaborator. NJPAC says Kumaar will perform original compositions and revisit favorite collaborations with Hussain, joined by Satyajit Talwalkar, Agnelo Fernandes and Sambit Chatterjee.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/niladri-kumaar/",
+        "official_tickets": "https://www.ticketmaster.com/event/000064B3815E50DA?brand=njpac&camefrom=cfc_njpac_NJPACWebsite"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Niladri Kumar",
+          "title": "Zitar",
+          "apple_music_url": "https://music.apple.com/us/album/zitar/1434631584"
+        },
+        {
+          "artist": "Niladri Kumar",
+          "title": "If",
+          "apple_music_url": "https://music.apple.com/us/album/if/1744641792"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "NJPAC",
+          "url": "https://www.njpac.org/event/niladri-kumaar/",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/000064B3815E50DA?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_music",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/zitar/1434631584",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_music",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/if/1744641792",
+          "checked_on": "2026-08-17"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, time, Victoria Theater venue, TD James Moody Jazz Festival context, Zakir Hussain tribute framing, lineup and ticket availability were verified from NJPAC's exact event page. The Ticketmaster destination is the authorized link exposed by that page. Exact Apple Music album pages had already been verified for this same touring project in the canonical RADAR entry for its Philadelphia performance. No prices or unannounced personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to go is not simply that Niladri Kumaar is a virtuoso sitarist. This project is built around his musical relationship with Zakir Hussain: a friend, mentor and frequent collaborator whose rhythmic imagination helped redefine how Indian classical music could converse with improvisational and cross-genre settings. Kumaar revisiting that shared language with Satyajit Talwalkar on tabla gives the evening a specific musical and memorial purpose rather than the feel of a routine tour stop.",
+          "trip_verdict": "S. Worth building a Newark evening around, especially for listeners drawn to instrumental identity, rhythmic dialogue and Indian-classical improvisation. The same project also appears in Philadelphia five days earlier, so this Newark date is not singular enough for S+, but it is a genuinely high-priority regional performance.",
+          "listen_before": "Zitar; If"
+        },
+        "es": {
+          "why_it_matters": "La razón para ir no es simplemente que Niladri Kumaar sea un virtuoso del sitar. El proyecto está construido alrededor de su relación musical con Zakir Hussain: amigo, mentor y colaborador frecuente cuya imaginación rítmica ayudó a redefinir la manera en que la música clásica india podía conversar con la improvisación y los cruces de género. Que Kumaar vuelva a ese lenguaje compartido con Satyajit Talwalkar en tabla le da a la noche un propósito musical y memorial específico, no el aire de una parada rutinaria de gira.",
+          "trip_verdict": "S. Sí vale construir una noche en Newark alrededor de este concierto, especialmente si interesan la identidad instrumental, el diálogo rítmico y la improvisación clásica india. El mismo proyecto aparece en Filadelfia cinco días antes, así que esta fecha de Newark no es lo bastante singular para S+, pero sí es una actuación regional genuinamente prioritaria.",
+          "listen_before": "Zitar; If"
+        }
+      }
+    }
+  ]
+}
