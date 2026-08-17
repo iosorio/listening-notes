@@ -1,0 +1,93 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ami-taf-ra-kamasi-washington-city-winery-philadelphia-2026-11-05-discovery",
+  "notes": "Verified S-tier Philadelphia discovery. Ami Taf Ra and Kamasi Washington bring their ongoing The Prophet and The Madman collaboration to an intimate City Winery setting, foregrounding a specific cross-cultural project rather than a routine Kamasi Washington tour date.",
+  "events": [
+    {
+      "id": "ami-taf-ra-kamasi-washington-city-winery-philadelphia-2026-11-05",
+      "artist": "Ami Taf Ra & Kamasi Washington",
+      "subtitle": "The Prophet & The Madman",
+      "dates": {
+        "start": "2026-11-05",
+        "end": null
+      },
+      "showtimes": ["18:00", "21:30"],
+      "venue": {
+        "id": "city-winery-philadelphia",
+        "name": "City Winery Philadelphia",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Contemporary jazz / Cross-cultural collaboration",
+      "genres": ["Jazz", "Spiritual jazz", "Gnawa", "Soul"],
+      "musical_axes": ["Improvised", "Instrumental identity", "Groove", "Cross-genre", "Cultural context"],
+      "lineup": [
+        "Ami Taf Ra (vocals, composer)",
+        "Kamasi Washington (saxophone, composer, producer)"
+      ],
+      "factual_description": "City Winery Philadelphia presents Ami Taf Ra and Kamasi Washington on November 5, 2026 for two performances at 6:00 PM and 9:30 PM built around The Prophet and The Madman, Taf Ra's debut album produced by Washington. The venue describes the project as a meeting of Moroccan Gnawa and Arabic musical traditions with gospel, soul and spiritual jazz, with Washington's collaboration central to the album and live presentation.",
+      "links": {
+        "official_event": "https://tickets.citywinery.com/event/kamasi-washington-ami-taf-ra-presenting-the-prof-9c6gbk",
+        "official_tickets": "https://tickets.citywinery.com/event/kamasi-washington-ami-taf-ra-presenting-the-prof-9c6gbk"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ami Taf Ra",
+          "title": "The Prophet and The Madman",
+          "apple_music_url": "https://music.apple.com/us/album/the-prophet-and-the-madman/1816167839"
+        },
+        {
+          "artist": "Ami Taf Ra & Kamasi Washington",
+          "title": "How I Became a Madman",
+          "apple_music_url": "https://music.apple.com/us/song/1816167846"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "City Winery Philadelphia",
+          "url": "https://tickets.citywinery.com/event/kamasi-washington-ami-taf-ra-presenting-the-prof-9c6gbk",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_venue",
+          "name": "City Winery tour page",
+          "url": "https://citywinery.com/pages/kamasi-washington-ami-taf-ra-tour",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_music",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/the-prophet-and-the-madman/1816167839",
+          "checked_on": "2026-08-17"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, two showtimes, venue, project framing and authorized ticket destination were verified from City Winery Philadelphia's exact event page and City Winery's official tour page. The exact Apple Music album and collaboration track were verified separately. No unannounced backing musicians, prices or other details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a generic Kamasi Washington date. The live concept is built around Ami Taf Ra's The Prophet and The Madman, a project Washington produced that deliberately joins Moroccan Gnawa and Arabic traditions to gospel, soul and spiritual jazz. In the small City Winery room, Washington's saxophone language is placed inside Taf Ra's cross-cultural compositional world rather than simply leading his own band, which makes the collaboration itself the reason to go.",
+          "trip_verdict": "S. Worth a dedicated regional trip to Philadelphia from the DC corridor: the intimate room and project-specific Taf Ra/Washington collaboration make this substantially rarer than a routine tour stop. Not S+ because the project is touring multiple cities in November.",
+          "listen_before": "The Prophet and The Madman; How I Became a Madman"
+        },
+        "es": {
+          "why_it_matters": "Esta no es una fecha genérica de Kamasi Washington. El concepto en vivo gira alrededor de The Prophet and The Madman de Ami Taf Ra, un proyecto producido por Washington que une deliberadamente tradiciones marroquíes gnawa y árabes con gospel, soul y spiritual jazz. En una sala pequeña como City Winery, el lenguaje del saxofón de Washington entra al mundo compositivo intercultural de Taf Ra en vez de limitarse a liderar su propia banda; la colaboración misma es la razón para ir.",
+          "trip_verdict": "S. Sí vale un viaje regional dedicado a Filadelfia desde el corredor de DC: la sala íntima y la colaboración específica Taf Ra/Washington la hacen mucho más rara que una parada rutinaria de gira. No llega a S+ porque el proyecto recorrerá varias ciudades en noviembre.",
+          "listen_before": "The Prophet and The Madman; How I Became a Madman"
+        }
+      }
+    }
+  ]
+}
