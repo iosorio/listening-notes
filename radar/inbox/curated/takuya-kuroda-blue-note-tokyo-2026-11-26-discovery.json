@@ -1,0 +1,84 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "takuya-kuroda-blue-note-tokyo-2026-11-26-discovery",
+  "notes": "Verified S-priority discovery found during Yamamoto-first monitoring. ALFIE, BODY&SOUL and current Yamamoto schedules were checked first; no unrecorded Yamamoto date was found in this pass.",
+  "events": [
+    {
+      "id": "takuya-kuroda-blue-note-tokyo-2026-11-26",
+      "artist": "Takuya Kuroda",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-11-26",
+        "end": "2026-11-27"
+      },
+      "showtimes": ["18:00", "20:30"],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Contemporary Japanese jazz / Groove / Cross-genre",
+      "genres": ["Jazz", "Fusion", "Soul jazz", "Hip-hop", "R&B", "Afrobeat"],
+      "musical_axes": ["Improvised", "Groove", "Instrumental identity", "Japan/Tokyo", "Cross-genre"],
+      "lineup": [
+        "Takuya Kuroda (trumpet)",
+        "Craig Hill (saxophone)",
+        "Takahiro Izumikawa (piano, keyboards)",
+        "Reuben Cainer (bass)"
+      ],
+      "factual_description": "Blue Note Tokyo presents Takuya Kuroda on November 26-27, 2026, with 6:00 PM and 8:30 PM sets on both nights. The venue describes the Brooklyn-based Japanese trumpeter and producer as combining jazz with hip-hop, R&B and Afrobeat, and notes that his latest album EVERYDAY was nominated for Best Jazz Album at Music Awards Japan 2026. Craig Hill, Takahiro Izumikawa and Reuben Cainer are announced in the band, with an additional member still TBA.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/takuya-kuroda/",
+        "official_tickets": "https://www.bluenote.co.jp/jp/artists/takuya-kuroda/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Takuya Kuroda",
+          "title": "EVERYDAY",
+          "apple_music_url": "https://music.apple.com/us/album/everyday/1789874695"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Blue Note Tokyo",
+          "url": "https://www.bluenote.co.jp/jp/artists/takuya-kuroda/",
+          "checked_on": "2026-08-16"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/everyday/1789874695",
+          "checked_on": "2026-08-16"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times, announced lineup, current-album context and web reservation path were verified against Blue Note Tokyo's exact event page. The recommended listening link is the exact Apple Music album page for EVERYDAY."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Kuroda has one of the clearest contemporary Japanese answers to the artificial boundary between jazz language and groove music: trumpet at the center, but with hip-hop production instinct, R&B weight and Afrobeat motion built into the band sound. This Blue Note Tokyo return is tied to his current work rather than nostalgia, which makes the room and the moment matter as much as the name on the bill.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect a night if you are in Tokyo: a Japanese trumpeter with a genuinely personal cross-genre language returning from the Brooklyn scene to Blue Note Tokyo around current material is exactly the kind of contemporary Japan signal Listening Notes should track. It does not by itself justify a transpacific trip.",
+          "listen_before": "EVERYDAY"
+        },
+        "es": {
+          "why_it_matters": "Kuroda ofrece una de las respuestas japonesas contemporáneas más claras a la frontera artificial entre el lenguaje del jazz y la música de groove: la trompeta al centro, pero con instinto de producción hip-hop, peso de R&B y movimiento afrobeat integrados al sonido de la banda. Este regreso a Blue Note Tokyo está ligado a su trabajo actual y no a la nostalgia, así que importan tanto la sala y el momento como el nombre del cartel.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale proteger una noche si estás en Tokio: un trompetista japonés con un lenguaje cross-genre realmente propio, regresando desde la escena de Brooklyn a Blue Note Tokyo alrededor de material actual, es exactamente el tipo de señal contemporánea de Japón que Listening Notes debe seguir. Por sí solo no justifica cruzar el Pacífico.",
+          "listen_before": "EVERYDAY"
+        }
+      }
+    }
+  ]
+}
