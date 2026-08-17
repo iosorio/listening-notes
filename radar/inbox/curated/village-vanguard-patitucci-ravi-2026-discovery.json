@@ -1,0 +1,134 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "village-vanguard-patitucci-ravi-2026-discovery",
+  "notes": "Verified S-priority New York discoveries from Yamamoto-first Listening Notes monitoring. Current Yamamoto sources, ALFIE and BODY&SOUL were checked first; no unrecorded Yamamoto performance was found in this pass.",
+  "events": [
+    {
+      "id": "john-patitucci-trio-chris-potter-brian-blade-village-vanguard-2026-09-01",
+      "artist": "John Patitucci Trio Featuring Chris Potter & Brian Blade",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-01",
+        "end": "2026-09-06"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "village-vanguard-new-york",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Improvised music / Piano-less trio",
+      "genres": ["Jazz", "Post-bop", "Improvised music"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Groove"],
+      "lineup": [
+        "John Patitucci (bass)",
+        "Chris Potter (saxophones)",
+        "Brian Blade (drums)"
+      ],
+      "factual_description": "Village Vanguard presents John Patitucci with Chris Potter and Brian Blade from September 1 through September 6, 2026. The venue's live schedule and authorized SquadUp ticket page both verify the exact three-musician billing and six-night engagement. Individual set times were not recorded because they were not exposed in the primary-source text checked in this pass.",
+      "links": {
+        "official_event": "https://vv.squadup.com/artists/john-patitucci-trio",
+        "official_tickets": "https://vv.squadup.com/artists/john-patitucci-trio"
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Village Vanguard",
+          "url": "https://villagevanguard.com/",
+          "checked_on": "2026-08-17",
+          "note": "Current Village Vanguard schedule verifies September 1-6 and the Patitucci/Potter/Blade lineup."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "Village Vanguard / SquadUp",
+          "url": "https://vv.squadup.com/artists/john-patitucci-trio",
+          "checked_on": "2026-08-17",
+          "note": "Exact authorized Village Vanguard ticket destination for this engagement."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, venue, exact trio billing and active authorized ticket destination verified against Village Vanguard and its own SquadUp ticketing path. No unverified showtimes or prices were added."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is unusually concentrated even by Vanguard standards: Patitucci, Potter and Blade are three major instrumental voices with a deep shared vocabulary, but the piano-less trio format leaves harmony, pulse and melodic direction unusually exposed. Potter's saxophone has to negotiate directly with Patitucci's bass architecture and Blade's elastic time, making interaction rather than repertoire the central attraction.",
+          "trip_verdict": "S. Worth a dedicated New York trip from the DMV for a listener drawn to master-level improvisation and rhythm-section chemistry; six nights keep it below S+, but the exact trio and the Vanguard room make it much more than a routine leader date.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Incluso para el Vanguard, ésta es una concentración poco común: Patitucci, Potter y Blade son tres voces instrumentales mayores con un vocabulario compartido muy profundo, pero el formato de trío sin piano deja especialmente expuestas la armonía, el pulso y la dirección melódica. El saxofón de Potter tiene que negociar directamente con la arquitectura del bajo de Patitucci y el tiempo elástico de Blade; la interacción, más que el repertorio, es el verdadero programa.",
+          "trip_verdict": "S. Sí vale un viaje dedicado a Nueva York desde el DMV para quien busca improvisación de altísimo nivel y química de sección rítmica; las seis noches lo mantienen por debajo de S+, pero el trío exacto y la sala del Vanguard lo vuelven mucho más que una fecha rutinaria de líder.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "ravi-coltrane-quartet-centennial-village-vanguard-2026-10-13",
+      "artist": "Ravi Coltrane Quartet",
+      "subtitle": "Centennial Celebration",
+      "dates": {
+        "start": "2026-10-13",
+        "end": "2026-10-18"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "village-vanguard-new-york",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living lineage / John Coltrane centennial / Improvised music",
+      "genres": ["Jazz", "Post-bop", "Improvised music"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Cultural context"],
+      "lineup": [
+        "Ravi Coltrane (saxophones)"
+      ],
+      "factual_description": "Village Vanguard's current schedule announces Ravi Coltrane Quartet: Centennial Celebration for October 13 through October 18, 2026. The venue has not yet published quartet personnel or set times in the schedule text checked in this pass, so no additional lineup members or times are asserted here.",
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Village Vanguard",
+          "url": "https://villagevanguard.com/",
+          "checked_on": "2026-08-17",
+          "note": "Current official schedule lists Ravi Coltrane Quartet: Centennial Celebration for October 13-18."
+        },
+        {
+          "type": "official_artist",
+          "name": "Ravi Coltrane",
+          "url": "https://ravicoltrane.com/?id=biography",
+          "checked_on": "2026-08-17",
+          "note": "Official artist biography verifies Ravi Coltrane as saxophonist, bandleader and son of John and Alice Coltrane; no unannounced quartet personnel were inferred from other tour dates."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date range, venue, quartet billing and Centennial Celebration title verified directly from Village Vanguard's current schedule. Personnel beyond Ravi Coltrane and showtimes remain deliberately unspecified until the venue publishes them."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The centennial framing is what changes the grade. Ravi Coltrane bringing a quartet into the Village Vanguard during the 100th anniversary year of John Coltrane's birth places a living, independent improviser inside one of jazz's most historically charged rooms while confronting a lineage that is personally his and musically much larger than him. The point is not reenactment; it is what that inheritance sounds like in a current quartet.",
+          "trip_verdict": "S. Worth a dedicated New York trip from the DMV for the historical and improvisational context. It stops short of S+ because this is a six-night centennial engagement and the full quartet personnel are not yet announced, but the combination of Ravi, the centennial and the Vanguard is unusually meaningful.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El marco del centenario es lo que cambia la calificación. Que Ravi Coltrane lleve un cuarteto al Village Vanguard durante el año del centenario del nacimiento de John Coltrane coloca a un improvisador vivo y con voz propia dentro de una de las salas más cargadas de historia del jazz, enfrentándose a un linaje que es personalmente suyo y musicalmente mucho mayor que él. El punto no es recrear el pasado, sino escuchar qué significa esa herencia en un cuarteto actual.",
+          "trip_verdict": "S. Sí vale un viaje dedicado a Nueva York desde el DMV por el contexto histórico e improvisatorio. No llega a S+ porque es una residencia de seis noches y todavía no está anunciada la formación completa, pero la combinación de Ravi, el centenario y el Vanguard tiene un peso especial.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
