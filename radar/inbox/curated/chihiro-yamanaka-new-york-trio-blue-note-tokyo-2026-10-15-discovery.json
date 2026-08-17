@@ -1,0 +1,83 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "chihiro-yamanaka-new-york-trio-blue-note-tokyo-2026-10-15-discovery",
+  "notes": "Verified S-priority discovery found during Yamamoto-first monitoring. Current Tsuyoshi Yamamoto sources, including ALFIE, BODY&SOUL, Yamamoto schedule references and credible Japanese jazz listings, were checked first; newly surfaced Yamamoto dates in this pass were already present in canonical RADAR.",
+  "events": [
+    {
+      "id": "chihiro-yamanaka-new-york-trio-blue-note-tokyo-2026-10-15",
+      "artist": "Chihiro Yamanaka New York Trio",
+      "subtitle": "Celebrating the 25th Anniversary of Chihiro Yamanaka's Debut",
+      "dates": {
+        "start": "2026-10-15",
+        "end": "2026-10-16"
+      },
+      "showtimes": ["18:00", "20:30"],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Exceptional Japanese jazz / Anniversary / Piano trio",
+      "genres": ["Jazz", "Contemporary jazz"],
+      "musical_axes": ["Improvised", "Instrumental identity", "Japan/Tokyo"],
+      "lineup": [
+        "Chihiro Yamanaka (piano)",
+        "Yoshi Waki (bass)",
+        "John Davis (drums)"
+      ],
+      "factual_description": "Blue Note Tokyo presents Chihiro Yamanaka's New York Trio on October 15 and 16, 2026, with 6:00 PM and 8:30 PM sets each night. The engagement marks the 25th anniversary of Yamanaka's 2001 debut and reunites her with her regular New York trio of Yoshi Waki and John Davis. Blue Note Tokyo states that the concerts will also preview the world of a new album scheduled for release in September 2026.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/chihiro-yamanaka/",
+        "official_tickets": "https://www.bluenote.co.jp/jp/artists/chihiro-yamanaka/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chihiro Yamanaka",
+          "title": "Ooh-La-La",
+          "apple_music_url": "https://music.apple.com/us/album/ooh-la-la/1842334000"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Blue Note Tokyo",
+          "url": "https://www.bluenote.co.jp/jp/artists/chihiro-yamanaka/",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/ooh-la-la/1842334000",
+          "checked_on": "2026-08-17"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times, 25th-anniversary framing, trio personnel, September new-album preview context and reservation availability were verified on Blue Note Tokyo's exact current artist/event page. The listening recommendation is an exact Apple Music album page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears the S bar because the date has a specific musical reason to exist: Yamanaka is marking 25 years from her debut with the New York trio that functions as one of her core working units, while using the engagement to reveal music from a new album. The combination of anniversary, current repertoire and a settled trio relationship makes this more than another strong Tokyo club date; it is a compact statement of where one of Japan's most technically distinctive jazz pianists is now.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect a night and cross Tokyo for one of these sets, especially if the trip is built around exceptional Japanese pianists. The anniversary and new-material context make it a meaningful anchor, though not by itself a reason to cross the Pacific.",
+          "listen_before": "Ooh-La-La"
+        },
+        "es": {
+          "why_it_matters": "Cruza el umbral S porque la fecha tiene una razón musical concreta para existir: Yamanaka celebra 25 años desde su debut con el New York Trio, una de sus formaciones de trabajo centrales, y además utilizará la residencia para adelantar el mundo de un nuevo álbum. La combinación de aniversario, repertorio actual y una relación de trío ya madura vuelve esto mucho más que otra buena fecha de club en Tokio; es una fotografía compacta del presente de una de las pianistas japonesas de jazz con mayor identidad técnica e instrumental.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale proteger una noche y cruzar Tokio por uno de estos sets, especialmente si el viaje está construido alrededor de pianistas japoneses excepcionales. El aniversario y el material nuevo la convierten en un ancla importante, aunque por sí sola no justifica cruzar el Pacífico.",
+          "listen_before": "Ooh-La-La"
+        }
+      }
+    }
+  ]
+}
