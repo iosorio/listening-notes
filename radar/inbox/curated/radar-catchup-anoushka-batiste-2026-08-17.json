@@ -2,84 +2,8 @@
   "batch_version": 1,
   "kind": "curated_event_candidates",
   "batch_id": "radar-catchup-anoushka-batiste-2026-08-17",
-  "notes": "Verified S-priority catch-up from Yamamoto-first monitoring. ALFIE, BODY&SOUL and current Yamamoto sources were checked first; no unrecorded Yamamoto date was found in this pass.",
+  "notes": "Verified S-priority DMV catch-up from Yamamoto-first monitoring. ALFIE, BODY&SOUL and current Yamamoto sources were checked first; no unrecorded Yamamoto date was found in this pass. Anoushka Shankar was removed after the ingest correctly detected that event was already canonical.",
   "events": [
-    {
-      "id": "anoushka-shankar-blue-note-tokyo-2026-10-09",
-      "artist": "Anoushka Shankar",
-      "subtitle": null,
-      "dates": {
-        "start": "2026-10-09",
-        "end": "2026-10-11"
-      },
-      "showtimes": ["16:30", "18:00", "19:30", "20:30"],
-      "venue": {
-        "id": "blue-note-tokyo-minamiaoyama",
-        "name": "Blue Note Tokyo",
-        "city": "Minato, Tokyo",
-        "state": "Tokyo",
-        "country": "JP"
-      },
-      "geographic_domain": "tokyo_kanto",
-      "geography": "Tokyo",
-      "status": "considering",
-      "priority": "S",
-      "category": "Indian classical / Cross-genre / Jazz-club debut",
-      "genres": ["Indian classical", "World", "Jazz", "Fusion"],
-      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Cross-genre", "Cultural context"],
-      "lineup": [
-        "Anoushka Shankar (sitar)",
-        "Sarathy Korwar (drums)",
-        "Tom Farmer (bass)",
-        "Arun Ghosh (clarinet)"
-      ],
-      "factual_description": "Blue Note Tokyo presents Anoushka Shankar for her first appearance at the club on October 9-11, 2026. The October 9 performances start at 6:00 PM and 8:30 PM; the October 10-11 performances start at 4:30 PM and 7:30 PM. The announced quartet is Shankar on sitar, Sarathy Korwar on drums, Tom Farmer on bass and Arun Ghosh on clarinet. Blue Note Tokyo frames the engagement around Shankar's fusion of Indian classical tradition with contemporary and cross-genre practice and highlights Chapter III: We Return to Light as her current project context.",
-      "links": {
-        "official_event": "https://www.bluenote.co.jp/jp/artists/anoushka-shankar/",
-        "official_tickets": "https://www.bluenote.co.jp/jp/artists/anoushka-shankar/"
-      },
-      "recommended_listening": [
-        {
-          "artist": "Anoushka Shankar",
-          "title": "Chapter III: We Return to Light (feat. Alam Khan & Sarathy Korwar) - EP",
-          "apple_music_url": "https://music.apple.com/us/album/chapter-iii-we-return-to-light-feat-alam-khan-sarathy/1785722291"
-        }
-      ],
-      "enrichment": {
-        "status": "complete",
-        "missing": []
-      },
-      "sources": [
-        {
-          "type": "official_venue",
-          "name": "Blue Note Tokyo",
-          "url": "https://www.bluenote.co.jp/jp/artists/anoushka-shankar/",
-          "checked_on": "2026-08-17"
-        },
-        {
-          "type": "streaming",
-          "name": "Apple Music",
-          "url": "https://music.apple.com/us/album/chapter-iii-we-return-to-light-feat-alam-khan-sarathy/1785722291",
-          "checked_on": "2026-08-17"
-        }
-      ],
-      "provenance": {
-        "status": "verified-primary-source",
-        "note": "Dates, date-specific set times, first-Blue-Note-Tokyo context, announced quartet and reservation path were verified on Blue Note Tokyo's exact event page. Recommended listening is an exact Apple Music release page."
-      },
-      "editorial": {
-        "en": {
-          "why_it_matters": "This is a rare fit between artist, band and room rather than a routine tour stop: Shankar brings the sitar into Blue Note Tokyo for the first time with Sarathy Korwar, Tom Farmer and Arun Ghosh, a compact ensemble built for rhythmic and improvisational exchange. Her language sits precisely at the border Listening Notes cares about, where deep instrumental identity and Indian classical lineage remain intact while jazz, electronics and contemporary composition reshape the frame.",
-          "trip_verdict": "S within Greater Tokyo/Kanto. Protect a set if you are in Tokyo and cross the city for it; the first Blue Note Tokyo appearance and quartet context make the night substantially more interesting than a generic tour date. Strong trip anchor, but not by itself a reason to cross the Pacific.",
-          "listen_before": "Chapter III: We Return to Light"
-        },
-        "es": {
-          "why_it_matters": "Aquí importa la combinación específica de artista, banda y sala, no una parada rutinaria de gira: Shankar lleva el sitar por primera vez a Blue Note Tokyo con Sarathy Korwar, Tom Farmer y Arun Ghosh, un ensamble compacto hecho para el intercambio rítmico e improvisatorio. Su lenguaje vive justo en la frontera que le interesa a Listening Notes, donde la identidad instrumental y el linaje de la música clásica india permanecen intactos mientras el jazz, la electrónica y la composición contemporánea cambian el marco.",
-          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Hay que proteger un set si estás en Tokio y cruzar la ciudad por él; el debut en Blue Note Tokyo y el formato de cuarteto hacen esta fecha bastante más interesante que una parada genérica de gira. Es un ancla fuerte para un viaje, aunque por sí sola no justifica cruzar el Pacífico.",
-          "listen_before": "Chapter III: We Return to Light"
-        }
-      }
-    },
     {
       "id": "jon-batiste-national-symphony-orchestra-wolf-trap-2026-08-21",
       "artist": "Jon Batiste + National Symphony Orchestra",
