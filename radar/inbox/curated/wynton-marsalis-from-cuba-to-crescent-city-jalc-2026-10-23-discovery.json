@@ -1,0 +1,97 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wynton-marsalis-from-cuba-to-crescent-city-jalc-2026-10-23-discovery",
+  "notes": "Verified S-priority catch-up discovery found during Yamamoto-first monitoring. Current Tsuyoshi Yamamoto sources, including Jazz House ALFIE, BODY&SOUL, Yamamoto schedule references, Space M&A, and credible Japanese jazz listings, were checked first; no newly verified Yamamoto date absent from canonical RADAR surfaced in this pass.",
+  "events": [
+    {
+      "id": "wynton-marsalis-from-cuba-to-crescent-city-jalc-2026-10-23",
+      "artist": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+      "subtitle": "From Cuba to the Crescent City",
+      "dates": {
+        "start": "2026-10-23",
+        "end": "2026-10-24"
+      },
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york",
+        "name": "Rose Theater at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "Masters / Afro-diasporic jazz / Large ensemble",
+      "genres": ["Jazz", "Afro-Cuban jazz", "Latin jazz"],
+      "musical_axes": ["Masters", "Improvised", "Latin / Afro-Cuban", "Groove", "Cultural context"],
+      "lineup": [
+        "Wynton Marsalis (trumpet)",
+        "Jazz at Lincoln Center Orchestra",
+        "Pedrito Martinez (drums, percussion, vocals; special guest)",
+        "Weedie Braimah (drums, percussion, vocals; special guest)",
+        "Shenel Johns (vocals; special guest)"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents From Cuba to the Crescent City on October 23 and 24, 2026 at 7:30 PM in Rose Theater. Wynton Marsalis and the Jazz at Lincoln Center Orchestra draw from three Marsalis suites—Ochas, Afro!, and Congo Square—to trace musical connections among Yoruba-inspired Afro-Cuban traditions, Ghanaian rhythmic languages, and the communal roots of jazz in nineteenth-century New Orleans. Special guests Pedrito Martinez and Weedie Braimah join on drums, percussion and vocals, with vocalist Shenel Johns. The engagement falls within Marsalis's final season as Artistic Director of Jazz at Lincoln Center after nearly four decades leading the institution.",
+      "links": {
+        "official_event": "https://jazz.org/concert/from-cuba-to-the-crescent-city-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+        "official_tickets": "https://ticketing.jazz.org/20618"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jazz at Lincoln Center Orchestra, Odadaa!, Wynton Marsalis & Yacub Addy",
+          "title": "Congo Square",
+          "apple_music_url": "https://music.apple.com/us/album/congo-square/376424734"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Jazz at Lincoln Center",
+          "url": "https://jazz.org/concert/from-cuba-to-the-crescent-city-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Jazz at Lincoln Center",
+          "url": "https://ticketing.jazz.org/20618",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "official_institution",
+          "name": "Jazz at Lincoln Center Press Center",
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "checked_on": "2026-08-17"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/congo-square/376424734",
+          "checked_on": "2026-08-17"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, 7:30 PM time, Rose Theater, program concept, special guests and authorized ticketing were verified against Jazz at Lincoln Center's exact event and ticket pages. Marsalis's final-season context was verified against Jazz at Lincoln Center's official 2026-27 season announcement. Recommended listening is an exact Apple Music album page for Congo Square, one of the three suites represented in the concert."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears S because the program is not a generic JLCO date: Marsalis is placing three of his major Afro-diasporic suites in direct conversation, with Pedrito Martinez and Weedie Braimah bringing distinct Cuban and West African rhythmic languages into the orchestra during Marsalis's final season leading Jazz at Lincoln Center. The result is both musically specific and institutionally consequential—a concentrated statement about how New Orleans jazz, Afro-Cuban practice and West African rhythm speak to one another in Marsalis's work.",
+          "trip_verdict": "S regional. Worth a dedicated New York trip from the DMV for listeners drawn to Afro-Cuban rhythm, percussion and large-ensemble writing; the two-night run keeps it below S+, but the repertoire, guests and final-season context make it substantially more consequential than a routine JLCO appearance.",
+          "listen_before": "Congo Square"
+        },
+        "es": {
+          "why_it_matters": "Cruza el umbral S porque no es una fecha genérica de la JLCO: Marsalis pone en diálogo tres de sus grandes suites sobre la diáspora africana, mientras Pedrito Martinez y Weedie Braimah llevan lenguajes rítmicos cubanos y de África occidental directamente al corazón de la orquesta, todo durante la última temporada de Marsalis al frente de Jazz at Lincoln Center. El resultado es musicalmente específico e institucionalmente importante: una declaración concentrada sobre cómo dialogan Nueva Orleans, la práctica afrocubana y los ritmos de África occidental dentro de su obra.",
+          "trip_verdict": "S regional. Sí vale un viaje dedicado del DMV a Nueva York para quien siga el ritmo afrocubano, la percusión y la escritura para gran ensamble; las dos noches lo mantienen por debajo de S+, pero el repertorio, los invitados y el contexto de la última temporada lo vuelven mucho más importante que una fecha rutinaria de la JLCO.",
+          "listen_before": "Congo Square"
+        }
+      }
+    }
+  ]
+}
