@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "steve-miller-jalc-2026-10-09-discovery",
+  "notes": "Verified S New York catch-up: Steve Miller marks his 10th year on the Rose Theater stage with a large jazz/blues crossover ensemble at Jazz at Lincoln Center.",
+  "events": [
+    {
+      "id": "steve-miller-jalc-2026-10-09",
+      "artist": "Steve Miller",
+      "subtitle": "10th year on the Rose Theater stage",
+      "dates": {
+        "start": "2026-10-09",
+        "end": "2026-10-10"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-frederick-p-rose-hall-new-york",
+        "name": "Rose Theater at Frederick P. Rose Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Culturally significant rock / blues-jazz crossover / milestone performance",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Steve Miller — guitar, vocals",
+        "Gerald Johnson — bass",
+        "Kenny Lee Lewis — guitar",
+        "Joseph Wooten — keyboards",
+        "Shelly Berg — piano",
+        "Herlin Riley — drums",
+        "Michael Rodriguez — trumpet",
+        "Patrick Bartley — alto saxophone",
+        "Craig Handy — tenor saxophone",
+        "Lauren Sevian — baritone saxophone"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Steve Miller on October 9–10, 2026 at 7:30 PM in Rose Theater. JALC frames the engagement as a milestone marking Miller's 10th year on the Rose Theater stage. The announced ensemble combines Steve Miller Band members Gerald Johnson, Kenny Lee Lewis and Joseph Wooten with jazz musicians Shelly Berg, Herlin Riley, Michael Rodriguez, Patrick Bartley, Craig Handy and Lauren Sevian.",
+      "links": {
+        "official_event": "https://jazz.org/concert/steve-miller/",
+        "official_tickets": "https://ticketing.jazz.org/20611"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Steve Miller",
+          "title": "Born 2 B Blue",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/born-2-b-blue/1443152455"
+        },
+        {
+          "artist": "Steve Miller Band",
+          "title": "Fly Like an Eagle",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/fly-like-an-eagle/1440832463"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/steve-miller/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-17",
+          "note": "Official event page confirming October 9–10, 7:30 PM performances in Rose Theater and the 10th-year milestone framing."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20611",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-17",
+          "note": "Official ticketing page confirming both performances and the announced Steve Miller Band plus jazz-ensemble lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/born-2-b-blue/1443152455",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-17",
+          "note": "Exact Apple Music album page for Born 2 B Blue."
+        },
+        {
+          "url": "https://music.apple.com/us/album/fly-like-an-eagle/1440832463",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-17",
+          "note": "Exact Apple Music album page for Fly Like an Eagle."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, time, venue, milestone framing, lineup and ticket availability verified from Jazz at Lincoln Center official event and ticketing pages."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a routine classic-rock tour stop. Jazz at Lincoln Center is marking Miller's 10th year on the Rose Theater stage and surrounds the core Steve Miller Band players with a serious jazz bench: Herlin Riley, Shelly Berg, Michael Rodriguez, Patrick Bartley, Craig Handy and Lauren Sevian. That setting puts Miller's Texas-blues roots, psychedelic vocabulary and deep sense of groove into a deliberately jazz-facing context, which is exactly what makes this date more interesting than an ordinary hits show.",
+          "trip_verdict": "S for New York. Worth building a New York night around, especially for the blues-to-jazz lineage and the unusual ensemble. It is a strong trip anchor paired with another NYC jazz date, but not an S+ destination event on its own.",
+          "listen_before": "Born 2 B Blue; Fly Like an Eagle"
+        },
+        "es": {
+          "why_it_matters": "No es una parada rutinaria de rock clásico. Jazz at Lincoln Center está marcando el décimo año de Miller sobre el escenario del Rose Theater y rodea al núcleo de Steve Miller Band con una banca de jazz muy seria: Herlin Riley, Shelly Berg, Michael Rodriguez, Patrick Bartley, Craig Handy y Lauren Sevian. Ese contexto pone sus raíces de blues texano, su vocabulario psicodélico y su sentido del groove frente a un ensamble deliberadamente jazzístico; eso es lo que vuelve esta fecha mucho más interesante que un show normal de éxitos.",
+          "trip_verdict": "S para Nueva York. Sí vale construir una noche neoyorquina alrededor de este concierto, sobre todo por el arco blues-jazz y la formación poco común. Funciona muy bien como ancla de viaje combinada con otra fecha de jazz en NYC, pero no llega a S+ como destino único.",
+          "listen_before": "Born 2 B Blue; Fly Like an Eagle"
+        }
+      }
+    }
+  ]
+}
