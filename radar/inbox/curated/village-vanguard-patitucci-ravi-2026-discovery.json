@@ -25,8 +25,17 @@
       "status": "considering",
       "priority": "S",
       "category": "Living masters / Improvised music / Piano-less trio",
-      "genres": ["Jazz", "Post-bop", "Improvised music"],
-      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Groove"],
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Groove"
+      ],
       "lineup": [
         "John Patitucci (bass)",
         "Chris Potter (saxophones)",
@@ -36,6 +45,13 @@
       "links": {
         "official_event": "https://vv.squadup.com/artists/john-patitucci-trio",
         "official_tickets": "https://vv.squadup.com/artists/john-patitucci-trio"
+      },
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact official event and authorized ticket destination are verified; an exact Apple Music album, song, or playlist URL was not verified in this discovery pass."
       },
       "sources": [
         {
@@ -91,12 +107,34 @@
       "status": "considering",
       "priority": "S",
       "category": "Living lineage / John Coltrane centennial / Improvised music",
-      "genres": ["Jazz", "Post-bop", "Improvised music"],
-      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Cultural context"],
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
       "lineup": [
         "Ravi Coltrane (saxophones)"
       ],
       "factual_description": "Village Vanguard's current schedule announces Ravi Coltrane Quartet: Centennial Celebration for October 13 through October 18, 2026. The venue has not yet published quartet personnel or set times in the schedule text checked in this pass, so no additional lineup members or times are asserted here.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The official Village Vanguard schedule verifies the engagement, but an exact event-detail URL, an authorized event-specific ticket destination, and an exact Apple Music recommendation were not verified in this discovery pass."
+      },
       "sources": [
         {
           "type": "official_venue",
