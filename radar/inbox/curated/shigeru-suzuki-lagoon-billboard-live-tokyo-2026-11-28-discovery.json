@@ -1,0 +1,106 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "shigeru-suzuki-lagoon-billboard-live-tokyo-2026-11-28-discovery",
+  "notes": "Verified S-priority Greater Tokyo discovery from Yamamoto-first Listening Notes monitoring on 2026-08-17. Current Yamamoto/ALFIE/BODY&SOUL and credible Japanese jazz sources were checked first; no unrecorded Yamamoto date was verified in this pass.",
+  "events": [
+    {
+      "id": "shigeru-suzuki-lagoon-billboard-live-tokyo-2026-11-28",
+      "artist": "Shigeru Suzuki",
+      "subtitle": "LAGOON 50th Anniversary Live",
+      "dates": {
+        "start": "2026-11-28",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Japanese rock master / Album anniversary / Instrumental identity",
+      "genres": [
+        "Japanese rock",
+        "City pop",
+        "Rock",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Shigeru Suzuki — guitar, vocals",
+        "Jun Sato — piano, Rhodes",
+        "Tetsu Hasebe — drums",
+        "Gaku Miyata — bass",
+        "Ginga Tozaki — synthesizer"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Shigeru Suzuki on November 28, 2026 for two sets at 4:00 PM and 7:00 PM, commemorating the 50th anniversary of his 1976 second solo album LAGOON. Billboard identifies Suzuki as a guitarist central to Japanese rock history through Happy End, Tin Pan Alley, Shigeru Suzuki & Hackleback and his solo work. The announced band is Jun Sato on piano/Rhodes, Tetsu Hasebe on drums, Gaku Miyata on bass and Ginga Tozaki on synthesizer. Billboard notes that LAGOON was recorded in Hawaii and featured lyrics by Takashi Matsumoto, with Haruomi Hosono, Ritsuo Hayashi and other Tin Pan musicians participating on most tracks.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21563",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Shigeru Suzuki",
+          "title": "LAGOON (Remastered 2017)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/lagoon-%E3%83%AA%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC2017/1481206307"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Billboard Live Tokyo event page and exact Apple Music album are verified. The live event page exposes a Buy Tickets control, but a stable event-specific authorized purchase URL was not exposed in the source text checked in this pass, so no ticket URL is inferred."
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21563",
+          "checked_on": "2026-08-17",
+          "note": "Exact official event page confirming November 28, both set times, 50th-anniversary LAGOON framing, venue, full announced lineup and the album's historical context."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/lagoon-%E3%83%AA%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC2017/1481206307",
+          "checked_on": "2026-08-17",
+          "note": "Exact Apple Music album page for LAGOON (Remastered 2017)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, showtimes, venue, anniversary concept, historical framing and lineup were verified directly from Billboard Live Tokyo's exact event page. The listening recommendation is an exact Apple Music album page. No ticket URL, price, or unannounced personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears S because the anniversary context is inseparable from Suzuki's place in Japanese music history. He is not simply revisiting a solo catalog: the guitarist who helped define Happy End and Tin Pan Alley is returning to LAGOON at its 50-year mark, an album built with Takashi Matsumoto's lyrics and much of the Tin Pan circle. In Billboard Live Tokyo's small room, the focus is Suzuki's guitar language, Rhodes-rich arrangement world and the groove that links 1970s Japanese rock to what later listeners hear as city pop and fusion. It is a historically specific night, not a generic legacy tour stop.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect a set and cross Tokyo for it; for a listener following the genealogy of Japanese rock, groove and instrumental identity, it is a strong anchor inside a Japan music trip. It stops short of S+ because the anniversary program also appears in Osaka and follows Suzuki's recent BAND WAGON 50th-anniversary cycle, so it is special rather than singularly unrepeatable.",
+          "listen_before": "LAGOON (Remastered 2017)"
+        },
+        "es": {
+          "why_it_matters": "Cruza a S porque el contexto del aniversario es inseparable del lugar de Suzuki en la historia musical japonesa. No se trata simplemente de repasar un catálogo solista: el guitarrista que ayudó a definir a Happy End y Tin Pan Alley vuelve a LAGOON justo al cumplir 50 años, un disco construido con letras de Takashi Matsumoto y gran parte del círculo de Tin Pan. En la escala íntima de Billboard Live Tokyo quedan al frente su lenguaje de guitarra, el mundo de arreglos cargado de Rhodes y ese groove que conecta el rock japonés de los setenta con lo que después se escucharía como city pop y fusión. Es una noche históricamente específica, no una parada genérica de legado.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Sí protegería un set y cruzaría Tokio por esta fecha; para quien siga la genealogía del rock japonés, el groove y la identidad instrumental, es una ancla fuerte dentro de un viaje musical a Japón. No llega a S+ porque el programa de aniversario también aparece en Osaka y sigue al ciclo reciente por los 50 años de BAND WAGON: es especial, pero no absolutamente irrepetible.",
+          "listen_before": "LAGOON (Remastered 2017)"
+        }
+      }
+    }
+  ]
+}
