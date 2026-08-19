@@ -1,0 +1,103 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "joshua-redman-quartet-keystone-korner-baltimore-2026-08-28-discovery",
+  "notes": "Verified S-tier Baltimore discovery absent from the canonical RADAR on 2026-08-19. Selected for major living-master status, a current working-band rhythm section, strong instrumental identity, and unusually intimate room value.",
+  "events": [
+    {
+      "id": "joshua-redman-quartet-keystone-korner-baltimore-2026-08-28",
+      "artist": "Joshua Redman Quartet",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-08-28",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Saxophone / Contemporary quartet",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Modern jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Groove"
+      ],
+      "lineup": [
+        "Joshua Redman (saxophone)",
+        "Micah Thomas (piano)",
+        "Philip Norris (bass)",
+        "Nazir Ebo (drums)"
+      ],
+      "factual_description": "Keystone Korner Baltimore presents the Joshua Redman Quartet on Friday, August 28, 2026, with 6:00 PM and 9:00 PM sets. The authorized InstantSeats event listing names Redman on saxophone with Micah Thomas on piano, Philip Norris on bass and Nazir Ebo on drums. Norris and Ebo are also the bassist and drummer in the quartet heard on Redman's current Blue Note album Words Fall Short.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=20CAD591-01C2-8FF7-33D8039E9BE47DC5&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?b=1&eventID=20CAD591-01C2-8FF7-33D8039E9BE47DC5&fuseaction=buy.event"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Joshua Redman",
+          "title": "Words Fall Short",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/words-fall-short/1806729005"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=20CAD591-01C2-8FF7-33D8039E9BE47DC5&fuseaction=home.event",
+          "publisher": "InstantSeats / Keystone Korner Baltimore",
+          "checked_on": "2026-08-19",
+          "note": "Authorized exact event page verifies the August 28 engagement, 6:00 PM set, venue and full quartet lineup; the live listing on the same page exposes the second 9:00 PM set and its purchase path."
+        },
+        {
+          "url": "https://www.joshuaredman.com/album-worlds-fall-short",
+          "publisher": "Joshua Redman",
+          "checked_on": "2026-08-19",
+          "note": "Official artist album page verifies Words Fall Short as a current quartet project and identifies Philip Norris and Nazir Ebo as its bass-and-drums rhythm section."
+        },
+        {
+          "url": "https://music.apple.com/us/album/words-fall-short/1806729005",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for Words Fall Short."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set times, venue and live lineup verified against Keystone Korner Baltimore's authorized InstantSeats listing; current-band context verified against Joshua Redman's official site; listening recommendation verified on Apple Music."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Redman is a major living saxophone voice, but the small-room value is what pushes this beyond a routine tour stop: Norris and Ebo bring the flexible bass-and-drums core of Words Fall Short, while Micah Thomas changes the piano chemistry for this Baltimore date. In Keystone Korner's intimate room, the appeal is collective improvisation and the physical detail of Redman's tenor sound rather than spectacle.",
+          "trip_verdict": "S regional/local. Protect one of the two sets and make the DMV-to-Baltimore drive if modern quartet interplay and a major living saxophonist in a small room are the draw; it is not a destination trip by itself.",
+          "listen_before": "Words Fall Short"
+        },
+        "es": {
+          "why_it_matters": "Redman es una de las grandes voces vivas del saxofón, pero lo que eleva esta fecha por encima de una parada rutinaria es la escala de la sala: Norris y Ebo traen el núcleo flexible de bajo y batería de Words Fall Short, mientras Micah Thomas cambia la química del piano para esta noche en Baltimore. En Keystone Korner, el atractivo está en la improvisación colectiva y en el detalle físico del sonido tenor de Redman, no en el espectáculo.",
+          "trip_verdict": "S regional/local. Hay que proteger uno de los dos sets y vale manejar del DMV a Baltimore si el atractivo es la interacción de un cuarteto moderno y un gran saxofonista vivo en una sala pequeña; no es por sí solo un viaje destino.",
+          "listen_before": "Words Fall Short"
+        }
+      }
+    }
+  ]
+}
