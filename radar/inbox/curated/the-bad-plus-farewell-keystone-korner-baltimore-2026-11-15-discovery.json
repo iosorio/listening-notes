@@ -1,0 +1,137 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-bad-plus-farewell-keystone-korner-baltimore-2026-11-15-discovery",
+  "notes": "Verified S-tier Baltimore discovery absent from the canonical RADAR on 2026-08-19. Selected because The Bad Plus have formally announced 2026 as their final year, making this intimate Keystone Korner stop part of the band's farewell chapter rather than a routine club date.",
+  "events": [
+    {
+      "id": "the-bad-plus-farewell-keystone-korner-baltimore-2026-11-15",
+      "artist": "The Bad Plus",
+      "subtitle": "Farewell Tour",
+      "dates": {
+        "start": "2026-11-15",
+        "end": null
+      },
+      "showtimes": [
+        "17:00",
+        "19:30"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Farewell / contemporary jazz / experimental crossover",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Experimental jazz",
+        "Jazz-rock"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Fusion/Prog",
+        "Experimental",
+        "Heavy",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Reid Anderson (bass)",
+        "Dave King (drums)",
+        "Ben Monder (guitar)",
+        "Chris Speed (tenor saxophone)"
+      ],
+      "factual_description": "Keystone Korner Baltimore presents The Bad Plus: Farewell Tour on Sunday, November 15, 2026, with sets at 5:00 PM and 7:30 PM. The authorized InstantSeats event page confirms Reid Anderson on bass, Dave King on drums, Ben Monder on guitar and Chris Speed on tenor saxophone. The band's official website states that after 26 years, 2026 will be the final year of The Bad Plus and that the group will perform final shows throughout the year.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=0879E1B6-B095-DF51-8EFD56906DC76FC0&fuseaction=home.event",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 40,
+          "maximum": 50,
+          "source_url": "https://www.instantseats.com/index.cfm?eventID=0879E1B6-B095-DF51-8EFD56906DC76FC0&fuseaction=home.event",
+          "checked_on": "2026-08-19"
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Bad Plus",
+          "title": "The Bad Plus",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-bad-plus/1622196477"
+        },
+        {
+          "artist": "The Bad Plus",
+          "title": "French Horns",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/1850059803"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact authorized InstantSeats event page is verified and exposes active Get Tickets controls for both sets, but a separate stable event-specific direct purchase URL was not independently resolved in this pass; no guessed buy URL is committed."
+      },
+      "sources": [
+        {
+          "url": "https://www.keystonekornerbaltimore.com/",
+          "publisher": "Keystone Korner Baltimore",
+          "checked_on": "2026-08-19",
+          "note": "Official venue calendar confirms The Bad Plus Farewell Tour with Reid Anderson, Dave King, Ben Monder and Chris Speed on November 15, 2026 at 5:00 PM and 7:30 PM."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=0879E1B6-B095-DF51-8EFD56906DC76FC0&fuseaction=home.event",
+          "publisher": "InstantSeats / Keystone Korner Baltimore",
+          "checked_on": "2026-08-19",
+          "note": "Exact authorized event page confirms date, first-set time, venue, four-person lineup, active ticket availability and Farewell Tour billing; the venue calendar independently confirms both 5:00 PM and 7:30 PM sets."
+        },
+        {
+          "url": "https://www.thebadplus.com/",
+          "publisher": "The Bad Plus",
+          "checked_on": "2026-08-19",
+          "note": "Official band statement says 2026 is the final year of The Bad Plus after 26 years and that the group will perform its final shows throughout the year."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-bad-plus/1622196477",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact album page for the 2022 self-titled recording that introduced the Anderson/King/Monder/Speed quartet configuration."
+        },
+        {
+          "url": "https://music.apple.com/us/song/1850059803",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact song page for French Horns from Complex Emotions, representative of the current quartet's final-era sound."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, both showtimes, venue, lineup and active ticket availability were verified against Keystone Korner Baltimore and its authorized InstantSeats event page; the farewell/final-year context was verified from The Bad Plus official website. Repository search found only the already-processed Blue Note Tokyo farewell date and no Baltimore duplicate before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears S because it is no longer a routine Bad Plus club date. Reid Anderson and Dave King have explicitly said 2026 is the band's final year after 26 years, and the current piano-less quartet with Ben Monder and Chris Speed is the last incarnation carrying that name. In Keystone Korner's small room, the band's mix of angular composition, rock weight, odd-meter propulsion and collective improvisation should feel especially exposed and physical. The farewell context gives the Baltimore stop genuine final-chapter weight without pretending it is the single last concert.",
+          "trip_verdict": "S regional/local. Protect one of the two sets and make the DMV-to-Baltimore drive if The Bad Plus matters to you: this is one of the remaining chances to hear the Anderson/King/Monder/Speed quartet before the band closes the chapter. Not S+ because it is one stop within a year-long farewell tour rather than the unique final performance.",
+          "listen_before": "The Bad Plus (2022); French Horns from Complex Emotions"
+        },
+        "es": {
+          "why_it_matters": "Esto llega a S porque ya no es una fecha rutinaria de club de The Bad Plus. Reid Anderson y Dave King anunciaron explícitamente que 2026 será el último año de la banda después de 26 años, y el cuarteto actual sin piano —con Ben Monder y Chris Speed— es la última encarnación que llevará ese nombre. En la sala pequeña de Keystone Korner, la mezcla de composición angular, peso de rock, pulsos irregulares e improvisación colectiva debería sentirse especialmente expuesta y física. El contexto de despedida le da a Baltimore un peso real de capítulo final sin fingir que ésta será la última función absoluta.",
+          "trip_verdict": "S regional/local. Hay que proteger uno de los dos sets y vale manejar del DMV a Baltimore si The Bad Plus importa: es una de las oportunidades restantes para escuchar al cuarteto Anderson/King/Monder/Speed antes de que la banda cierre el capítulo. No S+ porque es una parada dentro de una gira de despedida de todo el año, no la última actuación única.",
+          "listen_before": "The Bad Plus (2022); French Horns de Complex Emotions"
+        }
+      }
+    }
+  ]
+}
