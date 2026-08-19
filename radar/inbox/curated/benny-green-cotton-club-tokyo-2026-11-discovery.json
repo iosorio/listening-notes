@@ -1,0 +1,176 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "benny-green-cotton-club-tokyo-2026-11-discovery",
+  "notes": "Verified S-priority Greater Tokyo discoveries from Yamamoto-first Listening Notes monitoring on 2026-08-19. Jazz House ALFIE, BODY&SOUL, Yamamoto schedule sources, and credible Japanese jazz listings were checked first; no unrecorded Tsuyoshi Yamamoto date was verified in this pass. COTTON CLUB's newly announced Benny Green solo and trio engagements were then verified on exact official event pages and deduplicated against the repository.",
+  "events": [
+    {
+      "id": "benny-green-piano-solo-cotton-club-tokyo-2026-11-12",
+      "artist": "Benny Green",
+      "subtitle": "Piano Solo",
+      "dates": {
+        "start": "2026-11-12",
+        "end": null
+      },
+      "showtimes": ["18:00", "20:30"],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Piano / Acoustic jazz",
+      "genres": ["Jazz", "Acoustic jazz", "Solo piano"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Cultural context"],
+      "lineup": ["Benny Green — piano"],
+      "factual_description": "COTTON CLUB presents Benny Green in a one-day solo-piano engagement on November 12, 2026, with 6:00 PM and 8:30 PM sets. The venue frames the date around Green's forthcoming album Renovation and describes it as his latest solo stage after decades in the hard-bop and post-bop lineage, including Art Blakey's Jazz Messengers, Freddie Hubbard and Ray Brown. The official event page links an event-specific reservation path and states that web reservations opened August 19, 2026 at noon Japan time.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/benny-green-261112/",
+        "official_tickets": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5740/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Benny Green",
+          "title": "Solo",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/solo/1680988545"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact COTTON CLUB event page, event-specific authorized reservation destination, and exact Apple Music album page were verified in this pass."
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "COTTON CLUB",
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/benny-green-261112/",
+          "checked_on": "2026-08-19",
+          "note": "Exact official event page confirming November 12, two set times, solo-piano billing, current Renovation framing, and reservation opening date."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "COTTON CLUB reservation system",
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5740/",
+          "checked_on": "2026-08-19",
+          "note": "Event-specific authorized reservation destination linked directly from the official COTTON CLUB event page."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/solo/1680988545",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for Solo."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, showtimes, venue, solo format, program framing and reservation status were verified on COTTON CLUB's exact event page. No prices or unannounced repertoire were added."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears S because the instrument is completely exposed. Green is a direct carrier of the hard-bop piano lineage through Art Blakey, Ray Brown and Oscar Peterson, but this is not a nostalgia package: COTTON CLUB is giving him one night alone at the piano while his current Renovation project is arriving. Without bass or drums, touch, time, voicing and melodic architecture become the whole event.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect one of the two sets and cross Tokyo for it if acoustic piano language matters to the trip. It is not a stand-alone transpacific trigger, but the one-night solo format makes it materially more special than a routine trio booking.",
+          "listen_before": "Solo"
+        },
+        "es": {
+          "why_it_matters": "Cruza a S porque el instrumento queda completamente expuesto. Green carga de forma directa el linaje del piano hard-bop por Art Blakey, Ray Brown y Oscar Peterson, pero esto no es un paquete de nostalgia: COTTON CLUB le da una sola noche completamente solo al piano mientras llega su proyecto actual Renovation. Sin bajo ni batería, el toque, el tiempo, las voces armónicas y la arquitectura melódica se vuelven todo el acontecimiento.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Protegería uno de los dos sets y cruzaría Tokio si el lenguaje del piano acústico forma parte del viaje. No dispara por sí solo un cruce del Pacífico, pero el formato solista de una sola noche lo vuelve claramente más especial que una fecha rutinaria de trío.",
+          "listen_before": "Solo"
+        }
+      }
+    },
+    {
+      "id": "benny-green-trio-cotton-club-tokyo-2026-11-13",
+      "artist": "Benny Green Trio",
+      "subtitle": "Benny Green / Essiet Okon Essiet / Carl Allen",
+      "dates": {
+        "start": "2026-11-13",
+        "end": "2026-11-15"
+      },
+      "showtimes": ["18:00", "20:30", "16:30", "19:30"],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Piano trio / Hard-bop lineage",
+      "genres": ["Jazz", "Hard bop", "Acoustic jazz", "Piano trio"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Groove", "Cultural context"],
+      "lineup": [
+        "Benny Green — piano",
+        "Essiet Okon Essiet — bass",
+        "Carl Allen — drums"
+      ],
+      "factual_description": "COTTON CLUB presents the Benny Green Trio on November 13-15, 2026. November 13 has 6:00 PM and 8:30 PM sets; November 14-15 have 4:30 PM and 7:30 PM sets. The venue calls this Green's first trio engagement at COTTON CLUB in eight years and announces Essiet Okon Essiet on bass and Carl Allen on drums. Its official description notes Green's own Jazz Messengers history and identifies Essiet as the final bassist of Art Blakey's Jazz Messengers, placing the trio inside a particularly concentrated hard-bop lineage.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/benny-green-trio-261113/",
+        "official_tickets": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5741/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Benny Green",
+          "title": "Testifyin'! - Benny Green Trio Live at the Village Vanguard",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/testifyin-benny-green-triolive-at-the-village-vanguard/724079802"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact COTTON CLUB event page, event-specific authorized reservation destination, and exact Apple Music live-trio album page were verified in this pass."
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "COTTON CLUB",
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/benny-green-trio-261113/",
+          "checked_on": "2026-08-19",
+          "note": "Exact official event page confirming November 13-15, all set times, Green/Essiet/Allen lineup, eight-year return framing, and Jazz Messengers context."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "COTTON CLUB reservation system",
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5741/",
+          "checked_on": "2026-08-19",
+          "note": "Event-specific authorized reservation destination linked directly from the official COTTON CLUB event page."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/testifyin-benny-green-triolive-at-the-village-vanguard/724079802",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for Testifyin'! - Benny Green Trio Live at the Village Vanguard."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, showtimes, venue, full lineup, eight-year COTTON CLUB return and Essiet's final-Jazz-Messengers-bassist context were verified on the exact venue page. No additional personnel or repertoire were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more than a straight-ahead piano-trio booking because the lineage is unusually concentrated. Green came through Art Blakey's Jazz Messengers; Essiet Okon Essiet was the band's final bassist; Carl Allen supplies a veteran rhythmic language that can make Green's swing breathe rather than merely preserve repertory. Green's first COTTON CLUB trio run in eight years puts that history into a small room without turning it into a formal tribute.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Worth crossing Tokyo for one set, especially if the trip is following living hard-bop lineage and acoustic rhythm sections. The three-night run keeps it below destination-level S+, but the personnel make it substantially stronger than a generic club date.",
+          "listen_before": "Testifyin'! - Benny Green Trio Live at the Village Vanguard"
+        },
+        "es": {
+          "why_it_matters": "Esto es más que otra contratación de trío de piano straight-ahead porque el linaje está inusualmente concentrado. Green pasó por los Jazz Messengers de Art Blakey; Essiet Okon Essiet fue el último bajista de la banda; Carl Allen aporta un lenguaje rítmico veterano que puede hacer respirar el swing de Green en vez de simplemente conservar repertorio. El primer ciclo de trío de Green en COTTON CLUB en ocho años mete toda esa historia en una sala pequeña sin convertirla en un tributo formal.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale cruzar Tokio por uno de los sets, sobre todo si el viaje sigue linajes vivos de hard bop y secciones rítmicas acústicas. Las tres noches la mantienen debajo de S+, pero el personal la vuelve bastante más fuerte que una fecha genérica de club.",
+          "listen_before": "Testifyin'! - Benny Green Trio Live at the Village Vanguard"
+        }
+      }
+    }
+  ]
+}
