@@ -1,0 +1,109 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "joe-lovano-nonet-birdland-2026-12-01-discovery",
+  "notes": "Verified S-priority New York discovery found during Yamamoto-first monitoring on 2026-08-19. ALFIE, BODY&SOUL, Yamamoto schedules and credible Japanese jazz sources were checked first; no unrecorded Tsuyoshi Yamamoto date was found. Joe Lovano's Birdland Nonet / Tenor Legacy residency is selected because it places Lovano with George Garzone and Jerry Bergonzi, plus Billy Hart, in a lineage-focused small-club context rather than a generic leader date.",
+  "events": [
+    {
+      "id": "joe-lovano-nonet-birdland-2026-12-01",
+      "artist": "Joe Lovano Nonet",
+      "subtitle": "Tenor Legacy residency with George Garzone, Jerry Bergonzi & Billy Hart",
+      "dates": {
+        "start": "2026-12-01",
+        "end": "2026-12-05"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30",
+        "20:30",
+        "22:30"
+      ],
+      "venue": {
+        "id": "birdland-jazz-club-new-york",
+        "name": "Birdland Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Tenor lineage / Small-group jazz",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Joe Lovano",
+        "George Garzone (saxophone)",
+        "Jerry Bergonzi (saxophone)",
+        "Leo Genovese (piano)",
+        "Gerald Cannon (bass)",
+        "Billy Hart (drums)"
+      ],
+      "factual_description": "Birdland Jazz Club presents the Joe Lovano Nonet from December 1 through December 5, 2026. The official event page lists two sets nightly: 7:00 PM and 9:30 PM Tuesday through Thursday, then 8:30 PM and 10:30 PM Friday and Saturday. Birdland frames the engagement through Lovano's Tenor Legacy concept, created to celebrate major tenor voices of the present while honoring the lineage of the past, and specifically identifies George Garzone and Jerry Bergonzi alongside Leo Genovese, Gerald Cannon and Billy Hart.",
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/joe-lovano-tenor-legacy-3/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Joe Lovano Nonet",
+          "title": "On This Day At the Vanguard",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/on-this-day-at-the-vanguard/1443185567"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.birdlandjazz.com/tm-event/joe-lovano-tenor-legacy-3/",
+          "publisher": "Birdland Jazz Club",
+          "checked_on": "2026-08-19",
+          "note": "Exact official event page confirming the December 1-5 residency, all set times, venue, Tenor Legacy framing and the currently named personnel."
+        },
+        {
+          "url": "https://www.ticketweb.com/event/joe-lovano-nonet-birdland-jazz-club-tickets/15006653?REFID=clientsitewp",
+          "publisher": "Birdland Jazz Club / TicketWeb",
+          "checked_on": "2026-08-19",
+          "note": "Exact authorized TicketWeb destination reached from Birdland's December 1 7:00 PM Buy Tickets control. It is retained as provenance for active authorized ticketing, but is not committed as the residency-wide official_tickets value because Birdland exposes separate purchase destinations by set."
+        },
+        {
+          "url": "https://music.apple.com/us/album/on-this-day-at-the-vanguard/1443185567",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for Joe Lovano Nonet's On This Day At the Vanguard."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Dates, venue, set schedule, Tenor Legacy context and named personnel were verified from Birdland's exact event page. Birdland links each set to authorized TicketWeb ticketing; because the residency has separate set-specific purchase URLs and no single stable residency-wide purchase destination was verified, links.official_tickets is left pending rather than misrepresenting one set link as covering all ten performances. The canonical RADAR and current curated inbox were checked before publication and no Joe Lovano Nonet Birdland December 2026 event was present."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears S because the lineage is in the room, not merely in the program notes. Lovano, George Garzone and Jerry Bergonzi put three deeply individual tenor languages into direct conversation, while Billy Hart adds another living line of jazz history from the drum chair. Birdland's Tenor Legacy framing makes the point explicit: this is about how a tradition is carried, challenged and renewed by musicians with voices strong enough to remain unmistakably themselves.",
+          "trip_verdict": "S. Worth a dedicated DMV-to-New York trip if the dates work, especially for listeners interested in tenor language, improvisational identity and living lineage in a small club. It stays below S+ because this is a five-night residency with ten sets and an active recurring concept rather than a singular one-off, farewell or historically unique reunion.",
+          "listen_before": "Joe Lovano Nonet — On This Day At the Vanguard"
+        },
+        "es": {
+          "why_it_matters": "Esto llega a S porque el linaje está dentro de la sala y no sólo en las notas del programa. Lovano, George Garzone y Jerry Bergonzi ponen tres lenguajes de tenor profundamente individuales en conversación directa, mientras Billy Hart añade otra línea viva de la historia del jazz desde la batería. El marco Tenor Legacy de Birdland hace explícita la idea: se trata de cómo una tradición se carga, se desafía y se renueva por músicos con voces suficientemente fuertes como para seguir siendo inconfundiblemente ellos mismos.",
+          "trip_verdict": "S. Sí vale un viaje dedicado DMV→Nueva York si las fechas cuadran, sobre todo para quien siga lenguaje de tenor, identidad improvisatoria y linaje vivo en una sala pequeña. Se queda debajo de S+ porque es una residencia de cinco noches y diez sets dentro de un concepto activo y recurrente, no un one-off, despedida o reunión históricamente única.",
+          "listen_before": "Joe Lovano Nonet — On This Day At the Vanguard"
+        }
+      }
+    }
+  ]
+}
