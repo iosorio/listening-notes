@@ -1,0 +1,105 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-bad-plus-farewell-lpr-new-york-2026-11-12-discovery",
+  "notes": "Verified S-priority New York farewell-tour discovery found during Yamamoto-first monitoring on 2026-08-19. Jazz House ALFIE, BODY&SOUL, Yamamoto schedule sources and current Japanese jazz listings were checked first; no unrecorded Tsuyoshi Yamamoto date was found. This Le Poisson Rouge date qualifies because The Bad Plus have officially announced that 2026 is their final year after 26 years as a band, and LPR presents the current Reid Anderson / Dave King / Ben Monder / Chris Speed quartet in an in-the-round Main Space setting.",
+  "events": [
+    {
+      "id": "the-bad-plus-farewell-lpr-new-york-2026-11-12",
+      "artist": "The Bad Plus",
+      "subtitle": "Farewell Tour — In The Round",
+      "dates": {
+        "start": "2026-11-12",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "le-poisson-rouge-new-york",
+        "name": "Le Poisson Rouge",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "Farewell tour / Avant-garde jazz / Post-genre",
+      "genres": [
+        "Jazz",
+        "Avant-garde jazz",
+        "Post-rock",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Experimental",
+        "Heavy",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Reid Anderson (bass)",
+        "Dave King (drums)",
+        "Ben Monder (guitar)",
+        "Chris Speed (tenor saxophone)"
+      ],
+      "factual_description": "Le Poisson Rouge presents The Bad Plus Farewell Tour on Thursday, November 12, 2026 at 7:30 PM in its Main Space, billed In The Round. The venue identifies the current quartet as Reid Anderson, Dave King, Ben Monder and Chris Speed. The Bad Plus have separately announced on their official site that 2026 will be the band's final year after 26 years.",
+      "links": {
+        "official_event": "https://lpr.com/lpr_events/badplus26nyc/",
+        "official_tickets": "https://lpr.com/lpr_events/badplus26nyc/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Bad Plus",
+          "title": "The Bad Plus",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-bad-plus/1622196477"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://lpr.com/lpr_events/badplus26nyc/",
+          "publisher": "Le Poisson Rouge",
+          "checked_on": "2026-08-19",
+          "note": "Exact official event and ticket page verifying November 12, 2026, 7:30 PM, Main Space, In The Round billing, current quartet context and active ticket sale."
+        },
+        {
+          "url": "https://www.thebadplus.com/",
+          "publisher": "The Bad Plus",
+          "checked_on": "2026-08-19",
+          "note": "Official band statement says 2026 will be the final year of The Bad Plus after 26 years and describes the coming performances as their final shows."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-bad-plus/1622196477",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for the self-titled 2022 recording by the current Anderson / King / Monder / Speed quartet."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, presentation and current quartet were verified on Le Poisson Rouge's exact event page; final-year context was verified from The Bad Plus official statement. The canonical RADAR and current curated inbox were checked before publication and no Le Poisson Rouge farewell event was present."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not merely another date by a long-running band. The Bad Plus have explicitly decided to end the group after 26 years, and the final incarnation remains musically aggressive and unusually exposed: Anderson and King retain the band's rhythmic DNA while Monder and Speed push it toward a darker, more textural, post-genre language. LPR's in-the-round setup makes the New York farewell stop especially attractive because the physical interaction of this quartet is part of the music rather than stage decoration.",
+          "trip_verdict": "S. Worth a dedicated DMV-to-New York trip if this band matters to you, particularly because 2026 is the final opportunity to hear The Bad Plus as an active group and this stop places the current quartet in an intimate in-the-round room. It stays below S+ because the farewell is a multi-city final-year tour rather than a single last-ever performance.",
+          "listen_before": "The Bad Plus — The Bad Plus (2022)"
+        },
+        "es": {
+          "why_it_matters": "Esto no es simplemente otra fecha de una banda longeva. The Bad Plus decidió explícitamente cerrar el grupo después de 26 años, y su encarnación final sigue siendo musicalmente agresiva y muy expuesta: Anderson y King conservan el ADN rítmico de la banda mientras Monder y Speed la empujan hacia un lenguaje más oscuro, textural y post-género. El formato in-the-round de LPR vuelve especialmente atractiva esta parada neoyorquina de despedida porque la interacción física del cuarteto forma parte de la música, no de la escenografía.",
+          "trip_verdict": "S. Sí vale un viaje dedicado DMV→Nueva York si esta banda importa, especialmente porque 2026 es la última oportunidad de escuchar a The Bad Plus como grupo activo y esta fecha pone al cuarteto actual en una sala íntima y en redondo. Se queda debajo de S+ porque la despedida forma parte de una gira de último año por varias ciudades y no es una única última actuación definitiva.",
+          "listen_before": "The Bad Plus — The Bad Plus (2022)"
+        }
+      }
+    }
+  ]
+}
