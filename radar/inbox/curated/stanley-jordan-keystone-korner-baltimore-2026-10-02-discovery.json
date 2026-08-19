@@ -1,0 +1,102 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "stanley-jordan-keystone-korner-baltimore-2026-10-02-discovery",
+  "notes": "Verified S-tier Baltimore discovery absent from canonical RADAR and curated repo search on 2026-08-19. Selected for exceptional guitar identity, virtuosity, improvisational breadth and intimate-room value; no unverified sidemen are inferred.",
+  "events": [
+    {
+      "id": "stanley-jordan-keystone-korner-baltimore-2026-10-02",
+      "artist": "Stanley Jordan",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-02",
+        "end": "2026-10-03"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Guitar / Improvisation",
+      "genres": [
+        "Jazz",
+        "Jazz fusion",
+        "Improvisation",
+        "Cross-genre"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Fusion/Prog",
+        "Cross-genre"
+      ],
+      "lineup": [],
+      "factual_description": "Keystone Korner Baltimore presents four-time GRAMMY-nominated guitarist Stanley Jordan on Friday and Saturday, October 2-3, 2026, with 6:00 PM and 8:30 PM sets each night. Keystone's official schedule and its authorized InstantSeats listing confirm the two-night engagement and four in-person sets. The venue emphasizes Jordan's guitar virtuosity, straight-ahead jazz, advanced improvisation and cross-genre work. No accompanying musicians are listed in the current authorized event material, so no sidemen are inferred here.",
+      "links": {
+        "official_event": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Stanley Jordan",
+          "title": "Magic Touch",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/magic-touch/715648094"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.keystonekornerbaltimore.com/",
+          "publisher": "Keystone Korner Baltimore",
+          "checked_on": "2026-08-19",
+          "note": "Official venue schedule verifies Stanley Jordan on October 2-3, 2026, with 6:00 PM and 8:30 PM sets both nights."
+        },
+        {
+          "url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+          "publisher": "InstantSeats / Keystone Korner Baltimore",
+          "checked_on": "2026-08-19",
+          "note": "Authorized artist-at-venue listing verifies all four in-person sets and exposes separate Get Tickets controls for each set; because each purchase destination is set-specific, no single exact official_tickets URL is stored for the two-night engagement."
+        },
+        {
+          "url": "https://music.apple.com/us/album/magic-touch/715648094",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for Magic Touch."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times and venue verified against Keystone Korner Baltimore and its authorized InstantSeats listing. The current source does not identify accompanying musicians, so lineup remains empty. Exact Apple Music listening link verified separately."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Jordan is not merely a famous guitarist: his two-handed touch approach makes harmony, bass motion and lead lines emerge from one instrument at once, giving him one of the most immediately identifiable instrumental languages in jazz. In Keystone Korner's small room, the point is the physical detail of that technique and the way he moves between straight-ahead jazz, pop/rock reinvention and open improvisation without reducing any of them to novelty.",
+          "trip_verdict": "S regional/local. Protect one of the four sets and make the DMV-to-Baltimore drive if singular guitar language and virtuoso improvisation are the draw. It is not a destination trip by itself, but the small-room access to this particular instrumental voice is strong enough to justify a dedicated night.",
+          "listen_before": "Magic Touch"
+        },
+        "es": {
+          "why_it_matters": "Jordan no es sólo un guitarrista famoso: su técnica de touch a dos manos hace que armonía, movimiento de bajo y líneas solistas salgan de un solo instrumento al mismo tiempo, y le da uno de los lenguajes instrumentales más reconocibles del jazz. En una sala pequeña como Keystone Korner, lo importante es escuchar el detalle físico de esa técnica y cómo pasa del jazz directo a la reinvención de rock/pop y a la improvisación abierta sin volver ninguna de esas cosas un truco.",
+          "trip_verdict": "S regional/local. Hay que proteger uno de los cuatro sets y vale manejar del DMV a Baltimore si el atractivo es un lenguaje de guitarra singular y la improvisación virtuosa. No es por sí solo un viaje destino, pero el acceso en sala pequeña a esta voz instrumental sí justifica una noche dedicada.",
+          "listen_before": "Magic Touch"
+        }
+      }
+    }
+  ]
+}
