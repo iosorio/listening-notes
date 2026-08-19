@@ -1,0 +1,102 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kenny-barron-trio-cotton-club-tokyo-2026-11-20-discovery",
+  "created_on": "2026-08-19",
+  "notes": "Verified Greater Tokyo/Kanto catch-up. This is a distinct Cotton Club engagement immediately preceding the already-recorded Blue Note Tokyo run by the same Kenny Barron Trio; it is retained as its own venue/date event rather than folded into or duplicated against the Blue Note record.",
+  "events": [
+    {
+      "id": "kenny-barron-trio-cotton-club-tokyo-2026-11-20",
+      "artist": "Kenny Barron Trio",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-11-20",
+        "end": "2026-11-22"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo-marunouchi",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Acoustic jazz",
+      "genres": [
+        "Jazz",
+        "Acoustic jazz",
+        "Piano trio"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Kenny Barron (piano)",
+        "Kanoa Mendenhall (bass)",
+        "Johnathan Blake (drums)"
+      ],
+      "factual_description": "COTTON CLUB presents the Kenny Barron Trio on November 20-22, 2026. November 20 has 6:00 PM and 8:30 PM sets; November 21-22 have 4:30 PM and 7:30 PM sets. The announced trio is Kenny Barron on piano, Kanoa Mendenhall on bass and Johnathan Blake on drums. The venue notes Barron's 2026 Jazz Journalists Association lifetime-achievement recognition and identifies this as a new trio. The same trio continues at Blue Note Tokyo on November 23-25.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kenny-barron-trio-261120/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kenny Barron",
+          "title": "Beyond This Place",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/beyond-this-place/1736242518"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact official event page shows reservations open and links into COTTON CLUB's reservation system, but the reservation destination is session-dependent and did not resolve as a stable event-specific URL in this check. No ticket URL is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kenny-barron-trio-261120/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-19",
+          "note": "Exact official event page verifies dates, set times, lineup, venue, reservation availability, the new-trio context and the subsequent Blue Note Tokyo dates."
+        },
+        {
+          "url": "https://music.apple.com/us/album/beyond-this-place/1736242518",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact album page for the recommended Kenny Barron listening."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date range, set times, lineup and venue context verified directly against COTTON CLUB's exact event page. Repository search found the following Blue Note Tokyo engagement but no Cotton Club event for November 20-22, so this is published as a distinct event rather than a duplicate."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Barron remains a living-master case where touch, harmonic clarity and time are the event. This new trio puts the elasticity of Johnathan Blake behind him and the younger Kanoa Mendenhall on bass, and COTTON CLUB is intimate enough for those details to register physically. The three-night Marunouchi run also gives a different room and three additional chances immediately before the same trio moves to Blue Note Tokyo.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect one set if you are in Tokyo; this is worth crossing the metro area for and materially improves the odds of catching Barron during the November run, though it does not by itself justify a transpacific trip.",
+          "listen_before": "Beyond This Place"
+        },
+        "es": {
+          "why_it_matters": "Barron sigue siendo un caso de maestro vivo en el que el toque, la claridad armónica y el tiempo son el acontecimiento. Este trío nuevo coloca detrás de él la elasticidad de Johnathan Blake y al joven Kanoa Mendenhall en el bajo, y COTTON CLUB es suficientemente íntimo para que esos detalles se sientan físicamente. La residencia de tres noches en Marunouchi además ofrece otra sala y tres oportunidades adicionales justo antes de que el mismo trío pase a Blue Note Tokyo.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale proteger uno de los sets si estás en Tokio; sí justifica cruzar el área metropolitana y mejora de forma material las probabilidades de ver a Barron durante su paso de noviembre, aunque no justifica por sí sola cruzar el Pacífico.",
+          "listen_before": "Beyond This Place"
+        }
+      }
+    }
+  ]
+}
