@@ -1,0 +1,106 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "walter-smith-iii-cma-premiere-smoke-2026-09-23-discovery",
+  "notes": "Verified S-priority New York discovery found during Yamamoto-first monitoring on 2026-08-19. Jazz House ALFIE, BODY&SOUL, Yamamoto's current schedule sources, and credible Japanese jazz listings were checked first; no unrecorded Tsuyoshi Yamamoto date was found. Walter Smith III's Smoke residency qualifies because it premieres a major new work commissioned through Chamber Music America's New Jazz Works program with a one-off ensemble of Jason Moran, Matthew Stevens, Matt Brewer, and Bill Stewart.",
+  "events": [
+    {
+      "id": "walter-smith-iii-cma-premiere-smoke-2026-09-23",
+      "artist": "Walter Smith III CMA Premiere Ensemble",
+      "subtitle": "feat. Jason Moran, Matthew Stevens, Matt Brewer & Bill Stewart",
+      "dates": {
+        "start": "2026-09-23",
+        "end": "2026-09-27"
+      },
+      "showtimes": [
+        "18:30",
+        "20:30",
+        "22:00"
+      ],
+      "venue": {
+        "id": "smoke-jazz-club-new-york",
+        "name": "Smoke Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "New Jazz Works premiere / Contemporary jazz ensemble",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Post-bop"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Experimental",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Walter Smith III (tenor saxophone)",
+        "Matthew Stevens (guitar)",
+        "Jason Moran (piano)",
+        "Matt Brewer (bass)",
+        "Bill Stewart (drums)"
+      ],
+      "factual_description": "Smoke Jazz Club presents Walter Smith III from September 23 through September 27, 2026 with Matthew Stevens, Jason Moran, Matt Brewer, and Bill Stewart. Smoke states that Smith will premiere a major new work commissioned through Chamber Music America's New Jazz Works program, supported by the Doris Duke Foundation. The club lists 6:30 PM and 8:30 PM dinner shows throughout the residency, with additional 10:00 PM sets on Friday September 25 and Saturday September 26.",
+      "links": {
+        "official_event": "https://tickets.smokejazz.com/r/walter-smith-iii-cma-premiere-ensemble-feat-jason-moran-matt-stevens-matt-brewer-and-bill-stewart",
+        "official_tickets": "https://tickets.smokejazz.com/r/walter-smith-iii-cma-premiere-ensemble-feat-jason-moran-matt-stevens-matt-brewer-and-bill-stewart"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Walter Smith III",
+          "title": "Twio Vol. 2",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/twio-vol-2/1866779538"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://tickets.smokejazz.com/r/walter-smith-iii-cma-premiere-ensemble-feat-jason-moran-matt-stevens-matt-brewer-and-bill-stewart",
+          "publisher": "Smoke Jazz Club",
+          "checked_on": "2026-08-19",
+          "note": "Exact official residency and ticket page confirming September 23-27 dates, lineup, showtime pattern, and that Smith will premiere a major new work commissioned through Chamber Music America's New Jazz Works program."
+        },
+        {
+          "url": "https://chambermusicamerica.org/grants/new-jazz-works/",
+          "publisher": "Chamber Music America",
+          "checked_on": "2026-08-19",
+          "note": "Official program page confirming that New Jazz Works supports the creation, public performance, and recording of new jazz works with improvisation integral to the composition and performance."
+        },
+        {
+          "url": "https://music.apple.com/us/album/twio-vol-2/1866779538",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for Walter Smith III's 2026 release Twio Vol. 2."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Dates, venue, lineup, showtime pattern, ticketing, and premiere framing were verified on Smoke Jazz Club's exact official residency page. Chamber Music America's official New Jazz Works page verifies the commission program's purpose and requirements. The canonical repository and current inboxes were searched before publication; no Walter Smith III CMA Premiere Ensemble event or batch was present."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears S because the music itself is new and the ensemble is unusually strong rather than merely star-studded. Smith is premiering a substantial commissioned work with Jason Moran, Matthew Stevens, Matt Brewer, and Bill Stewart: five musicians with highly individual rhythmic and harmonic languages, assembled around composition designed to leave improvisation structurally central. The residency is a chance to hear a new piece enter the repertoire in real time, not a repertory night or routine tour stop.",
+          "trip_verdict": "S. Worth a dedicated DMV-to-New York trip for one of the sets, especially for listeners interested in contemporary composition, tenor identity, and high-level collective improvisation. It stays below S+ because the premiere is spread across a five-night residency rather than being a singular one-night historical event.",
+          "listen_before": "Walter Smith III — Twio Vol. 2"
+        },
+        "es": {
+          "why_it_matters": "Esto cruza a S porque la música es nueva y el ensamble es extraordinario por razones musicales, no sólo por acumulación de nombres. Smith estrenará una obra comisionada de gran escala con Jason Moran, Matthew Stevens, Matt Brewer y Bill Stewart: cinco músicos con lenguajes rítmicos y armónicos muy personales, reunidos alrededor de una composición donde la improvisación forma parte estructural de la obra. Es la oportunidad de escuchar cómo una pieza nueva entra al repertorio en tiempo real, no una noche de catálogo ni una parada rutinaria de gira.",
+          "trip_verdict": "S. Sí vale un viaje dedicado DMV→Nueva York para uno de los sets, especialmente si te interesan la composición contemporánea, la identidad del tenor y la improvisación colectiva de altísimo nivel. Se queda debajo de S+ porque el estreno se reparte en una residencia de cinco noches y no en un único acontecimiento histórico de una sola función.",
+          "listen_before": "Walter Smith III — Twio Vol. 2"
+        }
+      }
+    }
+  ]
+}
