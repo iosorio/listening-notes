@@ -1,0 +1,99 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "trombone-shorty-mavis-staples-njpac-2026-10-23-discovery",
+  "notes": "Verified S-tier Newark catch-up discovery. Trombone Shorty & Orleans Avenue share the NJPAC bill with living soul/gospel master Mavis Staples, linking contemporary New Orleans brass-funk language with one of the major surviving voices of American gospel, soul and civil-rights-era popular music.",
+  "events": [
+    {
+      "id": "trombone-shorty-mavis-staples-njpac-2026-10-23",
+      "artist": "Trombone Shorty & Orleans Avenue with Mavis Staples",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-23",
+        "end": null
+      },
+      "showtimes": ["20:00"],
+      "venue": {
+        "id": "prudential-hall-njpac-newark",
+        "name": "Prudential Hall at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "New Orleans / Living masters / Cross-genre",
+      "genres": ["Jazz", "Funk", "Soul", "Gospel", "New Orleans brass"],
+      "musical_axes": ["Masters", "Groove", "Improvised", "Instrumental identity", "Cross-genre", "Cultural context"],
+      "lineup": [
+        "Trombone Shorty & Orleans Avenue",
+        "Mavis Staples"
+      ],
+      "factual_description": "NJPAC presents Trombone Shorty & Orleans Avenue with Mavis Staples on Friday, October 23, 2026 at 8:00 PM in Prudential Hall. NJPAC describes Trombone Shorty's music as a New Orleans-rooted blend of brass-band tradition, funk, rock, blues, jazz improvisation and hip-hop, and presents Staples as an R&B and gospel powerhouse whose 2025 album Sad and Beautiful World received two additional GRAMMY Awards in 2026. Ticketmaster independently confirms the date, time, venue and both billed artists.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/trombone-shorty/",
+        "official_tickets": "https://www.ticketmaster.com/trombone-shorty-mavis-staples-newark-new-jersey-10-23-2026/event/000064A8A8A5DCF0"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Trombone Shorty & New Breed Brass Band",
+          "title": "Second Line Sunday",
+          "apple_music_url": "https://music.apple.com/us/album/second-line-sunday/1833326650"
+        },
+        {
+          "artist": "Mavis Staples",
+          "title": "Sad and Beautiful World",
+          "apple_music_url": "https://music.apple.com/us/album/sad-and-beautiful-world/1830973672"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "NJPAC",
+          "url": "https://www.njpac.org/event/trombone-shorty/",
+          "checked_on": "2026-08-19"
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/trombone-shorty-mavis-staples-newark-new-jersey-10-23-2026/event/000064A8A8A5DCF0",
+          "checked_on": "2026-08-19"
+        },
+        {
+          "type": "official_music",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/second-line-sunday/1833326650",
+          "checked_on": "2026-08-19"
+        },
+        {
+          "type": "official_music",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/sad-and-beautiful-world/1830973672",
+          "checked_on": "2026-08-19"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, 8:00 PM showtime, Prudential Hall venue, shared billing and current artist context were verified from NJPAC's exact event page. The exact Ticketmaster event is the authorized purchase destination and independently confirms the billing. Exact Apple Music album pages were verified for both artists. No prices, unannounced personnel or onstage collaboration beyond the shared bill were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears S because the bill connects two living American musical lineages rather than simply pairing two touring names. Trombone Shorty keeps New Orleans brass-band language moving through funk, rock and improvisation, while Mavis Staples carries a direct line from gospel and the Staple Singers' civil-rights-era repertoire into a still-active late-career body of work. Their shared stage puts groove, brass, soul and cultural memory in the same room, and Staples' continuing creative relevance keeps the night from reading as nostalgia.",
+          "trip_verdict": "S regional. Worth building a Newark/NYC trip around if groove, New Orleans language and living American musical lineage are priorities. It is not S+ because Shorty and Staples have shared stages before and this is not billed as a farewell, premiere or one-off historical reunion, but the combination is substantially more meaningful than a routine tour stop.",
+          "listen_before": "Second Line Sunday; Sad and Beautiful World"
+        },
+        "es": {
+          "why_it_matters": "Esto cruza a S porque el cartel conecta dos linajes vivos de la música estadounidense en lugar de simplemente juntar dos nombres de gira. Trombone Shorty mantiene en movimiento el lenguaje de las brass bands de Nueva Orleans a través del funk, el rock y la improvisación, mientras Mavis Staples lleva una línea directa desde el gospel y el repertorio de la era de los derechos civiles de The Staple Singers hasta una obra tardía que sigue activa creativamente. Compartir la noche pone groove, metales, soul y memoria cultural en la misma sala, y la vigencia artística de Staples evita que el concierto se vuelva nostalgia.",
+          "trip_verdict": "S regional. Sí vale construir una salida Newark/NYC alrededor de esta fecha si importan el groove, el lenguaje de Nueva Orleans y los linajes vivos de la música estadounidense. No es S+ porque Shorty y Staples ya han compartido escenarios y la función no está anunciada como despedida, estreno o reunión histórica única, pero la combinación tiene mucho más peso que una parada rutinaria de gira.",
+          "listen_before": "Second Line Sunday; Sad and Beautiful World"
+        }
+      }
+    }
+  ]
+}
