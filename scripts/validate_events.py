@@ -23,7 +23,12 @@ def valid_public_url(value: object) -> bool:
     if not isinstance(value, str):
         return False
     parsed = urlparse(value)
-    return parsed.scheme == "https" and bool(parsed.netloc) and parsed.path not in {"", "/"} and "/search" not in parsed.path
+    if parsed.scheme != "https" or not parsed.netloc or "/search" in parsed.path:
+        return False
+    # Some authorized ticketing providers use the root endpoint with an
+    # event-specific query (for example, SmartSeat's itemNumber).  That is an
+    # exact destination, unlike a bare homepage or a provider search URL.
+    return parsed.path not in {"", "/"} or bool(parsed.query)
 
 
 def validate_enrichment(event: dict, event_id: str) -> None:
@@ -88,7 +93,7 @@ def main(path: Path) -> None:
             fail(f"{prefix}.id must be unique and stable")
         ids.add(event_id)
         priority = event.get("priority")
-        if (priority not in PRIORITIES and not (priority is None and event.get("status") == "attended")) or event.get("status") not in STATUSES:
+        if (priority not in PRIORITIES and not (priority is None and event.get("status") in {"attended", "passed"})) or event.get("status") not in STATUSES:
             fail(f"{event_id} has an unsupported priority or status")
         dates = event.get("dates")
         venue = event.get("venue")

@@ -1,11 +1,11 @@
 const COPY = {
   en: {
     allCities: 'All cities', allVenues: 'All venues', allPriorities: 'All priorities',
-    viewUpcoming: 'Upcoming', viewArchive: 'Archive', upcoming: 'On the radar', archive: 'Nights we heard',
+    viewUpcoming: 'Upcoming', viewArchive: 'Archive', upcoming: 'On the radar', archive: 'RADAR archive',
     selected: 'selected', onRadar: 'on radar', signal: 'The Signal', why: 'Why it matters',
     listen: 'Listen before', appleMusic: 'Listen on Apple Music', official: 'Official tickets', details: 'Details', detailsAndTickets: 'Details & Tickets',
     rule: 'The criterion', ruleText: 'The radar is intentionally selective. Its choices are editorial, not comprehensive.',
-    archiveText: 'Dates that became part of the listening life.',
+    archiveText: 'Attended nights and finished dates retained in the RADAR record.',
     empty: 'Nothing in this selection. The filter is part of the curation.',
     status: { considering: 'on the radar', going: 'going', attended: 'heard', passed: 'passed' },
     travel: { Local: 'Local', 'Short trip': 'Short trip', Trip: 'Worth the train', Tokyo: 'Build the night around it' },
@@ -13,11 +13,11 @@ const COPY = {
   },
   es: {
     allCities: 'Todas las ciudades', allVenues: 'Todos los recintos', allPriorities: 'Todas las prioridades',
-    viewUpcoming: 'Próximos', viewArchive: 'Archivo', upcoming: 'En el radar', archive: 'Noches que escuchamos',
+    viewUpcoming: 'Próximos', viewArchive: 'Archivo', upcoming: 'En el radar', archive: 'Archivo RADAR',
     selected: 'seleccionados', onRadar: 'en el radar', signal: 'La señal', why: 'Por qué importa',
     listen: 'Para escuchar antes', appleMusic: 'Escuchar en Apple Music', official: 'Boletos oficiales', details: 'Información', detailsAndTickets: 'Información y boletos',
     rule: 'El criterio', ruleText: 'El radar es deliberadamente selectivo. Sus elecciones son editoriales, no exhaustivas.',
-    archiveText: 'Fechas que ya forman parte de la memoria de escucha.',
+    archiveText: 'Noches asistidas y fechas terminadas que se conservan en el registro de RADAR.',
     empty: 'Nada en esta selección. El filtro también es parte de la curaduría.',
     status: { considering: 'en el radar', going: 'voy', attended: 'escuchamos', passed: 'pasó' },
     travel: { Local: 'Local', 'Short trip': 'Escapada corta', Trip: 'Vale el tren', Tokyo: 'Vale construir la noche alrededor' },
@@ -27,14 +27,21 @@ const COPY = {
 
 const lang = document.documentElement.lang.startsWith('es') ? 'es' : 'en';
 const t = COPY[lang];
-const state = { city: '', venue: '', priority: '', view: 'upcoming' };
+const requestedView = new URLSearchParams(window.location.search).get('view');
+const state = { city: '', venue: '', priority: '', view: requestedView === 'archive' ? 'archive' : 'upcoming' };
 const priorityRank = { 'S+': 0, S: 1, 'A+': 2, A: 3 };
 
 const formatDate = value => new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', { month: 'short', day: 'numeric' }).format(new Date(`${value}T12:00:00`));
 const range = event => event.dates.end && event.dates.end !== event.dates.start ? `${formatDate(event.dates.start)}–${formatDate(event.dates.end)}` : formatDate(event.dates.start);
 const unique = (events, value) => [...new Set(events.map(value).filter(Boolean))].sort();
 const editorial = event => event.editorial[lang] || {};
-const isArchive = event => event.status === 'attended' || event.status === 'passed';
+const localDate = () => {
+  const now = new Date();
+  const offset = now.getTimezoneOffset() * 60_000;
+  return new Date(now - offset).toISOString().slice(0, 10);
+};
+const finalDate = event => event.dates.end || event.dates.start;
+const isArchive = event => event.status === 'attended' || event.status === 'passed' || finalDate(event) < localDate();
 const travel = event => t.travel[event.geography] || event.geography;
 
 function matches(event) {
@@ -57,7 +64,14 @@ function viewButton(text, value) {
   element.className = `view ${state.view === value ? 'active' : ''}`;
   element.type = 'button';
   element.textContent = text;
-  element.onclick = () => { state.view = value; buildViews(); render(); };
+  element.onclick = () => {
+    state.view = value;
+    const url = new URL(window.location.href);
+    if (value === 'archive') url.searchParams.set('view', 'archive');
+    else url.searchParams.delete('view');
+    window.history.replaceState({}, '', url);
+    buildViews(); render();
+  };
   return element;
 }
 

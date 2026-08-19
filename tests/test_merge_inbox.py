@@ -41,6 +41,23 @@ class MergeInboxTest(unittest.TestCase):
         result = self.validate_modified_event(mutate)
         self.assertEqual(result.returncode, 0, result.stderr)
 
+    def test_root_ticket_endpoint_with_meaningful_query_is_valid(self):
+        def mutate(event):
+            event["enrichment"] = {"status": "complete", "missing": []}
+            event["links"] = {"official_event": "https://example.com/events/test", "official_tickets": "https://tickets.example.com/?itemNumber=24054"}
+            event["recommended_listening"] = [{"title": "Test", "apple_music_url": "https://music.apple.com/us/album/test/123"}]
+        result = self.validate_modified_event(mutate)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_naked_homepage_and_search_url_are_invalid(self):
+        for url in ("https://tickets.example.com/", "https://tickets.example.com/?", "https://tickets.example.com/search?query=test"):
+            def mutate(event, url=url):
+                event["enrichment"] = {"status": "complete", "missing": []}
+                event["links"] = {"official_event": "https://example.com/events/test", "official_tickets": url}
+                event["recommended_listening"] = [{"title": "Test", "apple_music_url": "https://music.apple.com/us/album/test/123"}]
+            result = self.validate_modified_event(mutate)
+            self.assertNotEqual(result.returncode, 0, url)
+
     def test_rejects_non_exact_apple_music_urls(self):
         for url in ("https://music.apple.com/us/search?term=test", "https://example.com/album/test", "not-a-url"):
             def mutate(event, url=url):
@@ -93,6 +110,60 @@ class MergeInboxTest(unittest.TestCase):
             deferred = read_json(curated / "mixed-curated-batch-deferred.json")
             self.assertEqual(deferred["batch_id"], "test-mixed-curated-batch-deferred")
             self.assertEqual([event["id"] for event in deferred["events"]], ["eddie-palmieri-2019-user-confirmed"])
+
+    def test_id_duplicate_is_reported_without_merging(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            canonical, curated, processed = self._paths(root)
+            canonical.write_text(json.dumps({"schema_version": 3, "events": [self._event("same-id-2099")]}))
+            batch = curated / "duplicate.json"
+            batch.write_text(json.dumps(self._batch(self._event("same-id-2099"))))
+            report = merge([batch], True, canonical, curated, processed)
+            self.assertEqual(report["added"], [])
+            self.assertEqual(report["conflicts"][0]["id"], "same-id-2099")
+
+    def test_semantic_duplicate_is_reported_without_merging(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            canonical, curated, processed = self._paths(root)
+            canonical.write_text(json.dumps({"schema_version": 3, "events": [self._event("beat-2099", artist="BEAT")]}))
+            batch = curated / "semantic.json"
+            batch.write_text(json.dumps(self._batch(self._event("beat-expanded-2099", artist="BEAT: Belew/Vai/Levin/Bozzio"))))
+            report = merge([batch], True, canonical, curated, processed)
+            self.assertEqual(report["added"], [])
+            self.assertEqual(report["semantic_conflicts"][0]["conflict_with"], "beat-2099")
+
+    def test_same_venue_and_date_with_different_artist_is_not_a_duplicate(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            canonical, curated, processed = self._paths(root)
+            canonical.write_text(json.dumps({"schema_version": 3, "events": [self._event("first-artist-2099", artist="First Artist")]}))
+            batch = curated / "different-artist.json"
+            batch.write_text(json.dumps(self._batch(self._event("second-artist-2099", artist="Second Artist"))))
+            report = merge([batch], True, canonical, curated, processed)
+            self.assertEqual(report["added"], ["second-artist-2099"])
+            self.assertEqual(report["semantic_conflicts"], [])
+
+    @staticmethod
+    def _paths(root):
+        curated = root / "radar/inbox/curated"
+        curated.mkdir(parents=True)
+        return root / "radar/events.json", curated, root / "radar/inbox/processed"
+
+    @staticmethod
+    def _event(event_id, artist="Test Artist"):
+        return {
+            "id": event_id, "artist": artist, "subtitle": None, "dates": {"start": "2099-01-01", "end": None}, "showtimes": [],
+            "venue": {"id": "test-venue", "name": "Test Venue", "city": "Test City", "state": "TS", "country": "US"},
+            "geographic_domain": "us_corridor", "geography": "Local", "priority": "A", "category": "Test", "genres": [], "musical_axes": [], "status": "passed", "lineup": [], "factual_description": None,
+            "editorial": {"en": {}, "es": {}}, "links": {"official_event": None, "official_tickets": None},
+            "tickets": {"currency": "USD", "official": {"minimum": None, "maximum": None, "source_url": None, "checked_on": None}, "resale": {"minimum": None, "maximum": None, "url": None, "checked_on": None}},
+            "sources": [], "recommended_listening": [], "provenance": {"status": "test", "note": "Test fixture."}, "attendance": {"status": None, "evidence": [], "notes": None, "setlist": None, "photo_paths": []},
+        }
+
+    @staticmethod
+    def _batch(event):
+        return {"batch_version": 1, "kind": "curated_event_candidates", "batch_id": "test-batch", "events": [event]}
 
 
 if __name__ == "__main__":

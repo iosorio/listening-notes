@@ -20,9 +20,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -96,9 +96,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -179,9 +179,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -262,9 +262,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -344,9 +344,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -419,9 +419,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -500,9 +500,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "third_party_ticket",
@@ -584,9 +584,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -661,9 +661,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "archival_reference",
@@ -739,9 +739,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -817,9 +817,9 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "attended",
+      "status": "passed",
       "attendance": {
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "ticket_purchase",
@@ -994,7 +994,7 @@
         "Jazz",
         "Fusion"
       ],
-      "status": "attended",
+      "status": "passed",
       "lineup": [],
       "factual_description": null,
       "editorial": {
@@ -1038,7 +1038,7 @@
         "notes": null,
         "setlist": null,
         "photo_paths": [],
-        "status": "attended",
+        "status": "unknown_attendance",
         "evidence": [
           {
             "type": "unknown",
@@ -1073,7 +1073,7 @@
         "Jazz",
         "Caribbean"
       ],
-      "status": "considering",
+      "status": "passed",
       "lineup": [],
       "factual_description": null,
       "editorial": {
@@ -1166,7 +1166,7 @@
       },
       "geographic_domain": "tokyo_kanto",
       "geography": "Tokyo",
-      "status": "considering",
+      "status": "passed",
       "priority": "S",
       "category": "Living masters / Fusion big band",
       "genres": [
@@ -1302,7 +1302,7 @@
       },
       "geographic_domain": "us_corridor",
       "geography": "Local",
-      "status": "considering",
+      "status": "passed",
       "priority": "S",
       "category": "Culturally significant rock / DMV",
       "genres": [
@@ -1416,7 +1416,7 @@
       },
       "geographic_domain": "tokyo_kanto",
       "geography": "Tokyo",
-      "status": "considering",
+      "status": "passed",
       "priority": "S+",
       "category": "Japan",
       "genres": [
@@ -1520,101 +1520,6 @@
         "start": "2026-08-19",
         "end": "2026-08-20"
       },
-      "showtimes": [],
-      "venue": {
-        "name": "Keystone Korner",
-        "city": "Baltimore",
-        "state": "MD",
-        "id": "keystone-korner-baltimore",
-        "country": "US"
-      },
-      "geography": "Short trip",
-      "priority": "A",
-      "category": "Fusion / progressive",
-      "genres": [
-        "Fusion",
-        "Progressive"
-      ],
-      "status": "considering",
-      "lineup": [],
-      "factual_description": null,
-      "editorial": {
-        "en": {
-          "why_it_matters": "High-level contemporary jazz-rock led by one of the defining drummers of fusion and progressive music.",
-          "trip_verdict": null,
-          "listen_before": "Protocol 6"
-        },
-        "es": {
-          "why_it_matters": "Jazz-rock contemporáneo de primer nivel, encabezado por uno de los bateristas fundamentales de la fusión y el rock progresivo.",
-          "trip_verdict": null,
-          "listen_before": "Protocol 6"
-        }
-      },
-      "links": {
-        "official_event": null,
-        "official_tickets": null
-      },
-      "tickets": {
-        "currency": "USD",
-        "official": {
-          "minimum": null,
-          "maximum": null,
-          "source_url": null,
-          "checked_on": null
-        },
-        "resale": {
-          "minimum": null,
-          "maximum": null,
-          "url": null,
-          "checked_on": null
-        }
-      },
-      "sources": [
-        {
-          "publisher": "Apple Music",
-          "url": "https://music.apple.com/us/album/protocol-6/1888221200",
-          "checked_on": "2026-08-16",
-          "note": "Exact Apple Music album page for Simon Phillips's Protocol 6."
-        }
-      ],
-      "provenance": {
-        "status": "legacy-unverified",
-        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
-      },
-      "recommended_listening": [
-        {
-          "artist": "Simon Phillips",
-          "title": "Protocol 6",
-          "kind": "album",
-          "apple_music_url": "https://music.apple.com/us/album/protocol-6/1888221200"
-        }
-      ],
-      "attendance": {
-        "notes": null,
-        "setlist": null,
-        "photo_paths": [],
-        "status": null,
-        "evidence": []
-      },
-      "geographic_domain": "us_corridor",
-      "musical_axes": [],
-      "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_event",
-          "official_tickets"
-        ],
-        "note": "No exact official event page or authorized ticket URL matching this canonical record was verified in this pass; a conflicting venue listing is not used to alter canonical facts."
-      }
-    },
-    {
-      "id": "simon-phillips-protocol-6-keystone-korner-baltimore-2026-08-19",
-      "artist": "Simon Phillips & Protocol 6",
-      "subtitle": null,
-      "dates": {
-        "start": "2026-08-19",
-        "end": "2026-08-20"
-      },
       "showtimes": [
         "19:00"
       ],
@@ -1692,11 +1597,18 @@
           "publisher": "Apple Music",
           "checked_on": "2026-08-18",
           "note": "Exact album page for Protocol 6, released June 5, 2026."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/protocol-6/1888221200",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Simon Phillips's Protocol 6."
         }
       ],
       "provenance": {
         "status": "verified-primary-source",
-        "note": "Dates and showtime verified against Keystone Korner Baltimore and authorized InstantSeats; lineup and event concept verified from the exact authorized event page and corroborated by Simon Phillips's official tour schedule."
+        "note": "Dates and showtime verified against Keystone Korner Baltimore and authorized InstantSeats; lineup and event concept verified from the exact authorized event page and corroborated by Simon Phillips's official tour schedule.",
+        "consolidated_from": "simon-phillips-protocol-6-keystone-korner-baltimore-2026-08-19"
       },
       "editorial": {
         "en": {
@@ -4028,110 +3940,6 @@
     },
     {
       "id": "brazilian-guitars-2026",
-      "artist": "Romero Lubambo + Chico Pinheiro + Diego Figueiredo",
-      "subtitle": null,
-      "dates": {
-        "start": "2026-09-12",
-        "end": null
-      },
-      "showtimes": [],
-      "venue": {
-        "name": "Blues Alley",
-        "city": "Washington, DC",
-        "state": "DC",
-        "id": "blues-alley-washington-dc",
-        "country": "US"
-      },
-      "geography": "Local",
-      "priority": "A+",
-      "category": "Brazil / Latin",
-      "genres": [
-        "Jazz",
-        "Brazilian",
-        "Guitar"
-      ],
-      "status": "considering",
-      "lineup": [],
-      "factual_description": null,
-      "editorial": {
-        "en": {
-          "why_it_matters": "Three distinctive Brazilian guitar voices in one of the smallest major jazz rooms in the region — virtuosity with melody and rhythmic elegance.",
-          "trip_verdict": null,
-          "listen_before": "Romero Lubambo — Softly; Chico Pinheiro — City of Dreams"
-        },
-        "es": {
-          "why_it_matters": "Tres voces singulares de la guitarra brasileña reunidas en una de las salas esenciales de Washington: virtuosismo al servicio de la melodía y el ritmo.",
-          "trip_verdict": null,
-          "listen_before": "Romero Lubambo — Softly; Chico Pinheiro — City of Dreams"
-        }
-      },
-      "links": {
-        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
-        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443"
-      },
-      "tickets": {
-        "currency": "USD",
-        "official": {
-          "minimum": null,
-          "maximum": null,
-          "source_url": null,
-          "checked_on": null
-        },
-        "resale": {
-          "minimum": null,
-          "maximum": null,
-          "url": null,
-          "checked_on": null
-        }
-      },
-      "sources": [
-        {
-          "publisher": "Apple Music",
-          "url": "https://music.apple.com/us/album/softly/1073678612",
-          "checked_on": "2026-08-16",
-          "note": "Exact Apple Music album page for Romero Lubambo's Softly."
-        },
-        {
-          "publisher": "Blues Alley / InstantSeats",
-          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
-          "checked_on": "2026-08-16",
-          "note": "Exact official event page for Great Brazilian Guitars on September 12, 2026 at 7:00 PM; InstantSeats also lists a second performance at 9:30 PM."
-        },
-        {
-          "publisher": "Blues Alley / InstantSeats",
-          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
-          "checked_on": "2026-08-16",
-          "note": "Exact authorized primary purchase page for the first September 12 Great Brazilian Guitars performance."
-        }
-      ],
-      "provenance": {
-        "status": "legacy-unverified",
-        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
-      },
-      "recommended_listening": [
-        {
-          "artist": "Romero Lubambo",
-          "title": "Softly",
-          "kind": "album",
-          "apple_music_url": "https://music.apple.com/us/album/softly/1073678612"
-        }
-      ],
-      "attendance": {
-        "notes": null,
-        "setlist": null,
-        "photo_paths": [],
-        "status": null,
-        "evidence": []
-      },
-      "geographic_domain": "us_corridor",
-      "musical_axes": [],
-      "enrichment": {
-        "status": "complete",
-        "missing": []
-      }
-    },
-    {
-      "id": "great-brazilian-guitars-blues-alley-2026-09-12",
       "artist": "Great Brazilian Guitars — Romero Lubambo, Chico Pinheiro & Diego Figueiredo",
       "subtitle": "Brazilian Jazz Series",
       "dates": {
@@ -4176,7 +3984,7 @@
       "factual_description": "Blues Alley's authorized InstantSeats schedule presents Great Brazilian Guitars with Romero Lubambo, Chico Pinheiro and Diego Figueiredo for two sets on September 12, 2026, at 7:00 PM and 9:30 PM. The exact event page bills the three guitarists together as part of the Brazilian Jazz Series and notes that the engagement is co-presented with the Embassy of Brazil.",
       "links": {
         "official_event": "https://www.instantseats.com/index.cfm?eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443&fuseaction=home.event",
-        "official_tickets": null
+        "official_tickets": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443"
       },
       "recommended_listening": [
         {
@@ -4196,6 +4004,12 @@
           "title": "Violão Caipira",
           "kind": "album",
           "apple_music_url": "https://music.apple.com/us/album/viol%C3%A3o-caipira/1831647622"
+        },
+        {
+          "artist": "Romero Lubambo",
+          "title": "Softly",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/softly/1073678612"
         }
       ],
       "enrichment": {
@@ -4240,11 +4054,30 @@
           "url": "https://music.apple.com/us/album/viol%C3%A3o-caipira/1831647622",
           "checked_on": "2026-08-18",
           "note": "Exact Apple Music album page for Diego Figueiredo's Violão Caipira."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/softly/1073678612",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Romero Lubambo's Softly."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for Great Brazilian Guitars on September 12, 2026 at 7:00 PM; InstantSeats also lists a second performance at 9:30 PM."
+        },
+        {
+          "publisher": "Blues Alley / InstantSeats",
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=buy.event&eventID=52B3E1AC-D815-BE86-6BF49FB68B2B9443",
+          "checked_on": "2026-08-16",
+          "note": "Exact authorized primary purchase page for the first September 12 Great Brazilian Guitars performance."
         }
       ],
       "provenance": {
         "status": "verified-primary-source",
-        "note": "Billing, date, both set times, venue, three-guitar lineup and Embassy of Brazil co-presentation were verified from Blues Alley's authorized InstantSeats pages. The exact buy.event URL was not independently verified and is therefore not invented."
+        "note": "Billing, date, both set times, venue, three-guitar lineup and Embassy of Brazil co-presentation were verified from Blues Alley's authorized InstantSeats pages. The exact buy.event URL was not independently verified and is therefore not invented.",
+        "consolidated_from": "great-brazilian-guitars-blues-alley-2026-09-12"
       },
       "editorial": {
         "en": {
@@ -9216,110 +9049,6 @@
     {
       "id": "chucho-valdes-2026",
       "artist": "Chucho Valdés",
-      "subtitle": "85th Birthday Celebration",
-      "dates": {
-        "start": "2026-10-18",
-        "end": null
-      },
-      "showtimes": [],
-      "venue": {
-        "name": "The Music Center at Strathmore",
-        "city": "North Bethesda",
-        "state": "MD",
-        "id": "strathmore-north-bethesda",
-        "country": "US"
-      },
-      "geography": "Local",
-      "priority": "S",
-      "category": "Living masters",
-      "genres": [
-        "Jazz",
-        "Afro-Cuban",
-        "Latin"
-      ],
-      "status": "considering",
-      "lineup": [],
-      "factual_description": null,
-      "editorial": {
-        "en": {
-          "why_it_matters": "An 85th-birthday celebration for one of the architects of modern Afro-Cuban jazz — historical weight without leaving the DC area.",
-          "trip_verdict": null,
-          "listen_before": "Jazz Batá 2; Live at the Village Vanguard"
-        },
-        "es": {
-          "why_it_matters": "Los 85 años de uno de los arquitectos del jazz afrocubano moderno. Una celebración con peso histórico, sin salir del área de Washington.",
-          "trip_verdict": null,
-          "listen_before": "Jazz Batá 2; Live at the Village Vanguard"
-        }
-      },
-      "links": {
-        "official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
-        "official_tickets": "https://www.strathmore.org/smartseat/?itemNumber=24054#/"
-      },
-      "tickets": {
-        "currency": "USD",
-        "official": {
-          "minimum": null,
-          "maximum": null,
-          "source_url": null,
-          "checked_on": null
-        },
-        "resale": {
-          "minimum": null,
-          "maximum": null,
-          "url": null,
-          "checked_on": null
-        }
-      },
-      "sources": [
-        {
-          "publisher": "Strathmore",
-          "url": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
-          "checked_on": "2026-08-16",
-          "note": "Exact official event page for the October 18, 2026 85th Birthday Celebration; it states that the show is not yet on sale."
-        },
-        {
-          "publisher": "Apple Music",
-          "url": "https://music.apple.com/us/album/jazz-bat%C3%A1-2/1850044271",
-          "checked_on": "2026-08-16",
-          "note": "Exact Apple Music album page for Chucho Valdés's Jazz Batá 2."
-        },
-        {
-          "publisher": "Strathmore",
-          "url": "https://www.strathmore.org/smartseat/?itemNumber=24054#/",
-          "checked_on": "2026-08-16",
-          "note": "Exact official SmartSeat purchase flow for Chucho Valdes 85th Birthday Celebration, item 24054, on October 18, 2026 at 7:30 PM."
-        }
-      ],
-      "provenance": {
-        "status": "legacy-unverified",
-        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
-      },
-      "recommended_listening": [
-        {
-          "artist": "Chucho Valdés",
-          "title": "Jazz Batá 2",
-          "kind": "album",
-          "apple_music_url": "https://music.apple.com/us/album/jazz-bat%C3%A1-2/1850044271"
-        }
-      ],
-      "attendance": {
-        "notes": null,
-        "setlist": null,
-        "photo_paths": [],
-        "status": null,
-        "evidence": []
-      },
-      "geographic_domain": "us_corridor",
-      "musical_axes": [],
-      "enrichment": {
-        "status": "complete",
-        "missing": []
-      }
-    },
-    {
-      "id": "chucho-valdes-85th-birthday-strathmore-2026-10-18",
-      "artist": "Chucho Valdés",
       "subtitle": "85th Birthday Celebration with special guests Joe Lovano and Etienne Charles",
       "dates": {
         "start": "2026-10-18",
@@ -9418,11 +9147,24 @@
           "url": "https://www.strathmore.org/smartseat/?itemNumber=24054#/",
           "checked_on": "2026-08-16",
           "note": "Exact official SmartSeat purchase flow for Chucho Valdes 85th Birthday Celebration, item 24054, on October 18, 2026 at 7:30 PM."
+        },
+        {
+          "publisher": "Strathmore",
+          "url": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
+          "checked_on": "2026-08-16",
+          "note": "Exact official event page for the October 18, 2026 85th Birthday Celebration; it states that the show is not yet on sale."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/jazz-bat%C3%A1-2/1850044271",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music album page for Chucho Valdés's Jazz Batá 2."
         }
       ],
       "provenance": {
         "status": "verified-primary-source",
-        "note": "Date, time, venue, birthday context, special guests and price range verified from Strathmore's exact event page."
+        "note": "Date, time, venue, birthday context, special guests and price range verified from Strathmore's exact event page.",
+        "consolidated_from": "chucho-valdes-85th-birthday-strathmore-2026-10-18"
       },
       "editorial": {
         "en": {
@@ -10535,120 +10277,6 @@
     },
     {
       "id": "tsuyoshi-yamamoto-trio-volontaire-50-cotton-club-2026-10-24",
-      "artist": "Tsuyoshi Yamamoto Trio + Seiichi Nakamura + Sari + Kenichi Tsunoda Big Band",
-      "subtitle": "Volontaire 50th Anniversary — ‘Masaka no 50-nen’",
-      "dates": {
-        "start": "2026-10-24",
-        "end": null
-      },
-      "showtimes": [
-        "17:00"
-      ],
-      "venue": {
-        "id": "cotton-club-marunouchi-tokyo",
-        "name": "COTTON CLUB",
-        "city": "Tokyo",
-        "state": "Tokyo",
-        "country": "JP"
-      },
-      "geographic_domain": "tokyo_kanto",
-      "geography": "Tokyo",
-      "status": "considering",
-      "priority": "S+",
-      "category": "Japan / Tokyo jazz history",
-      "genres": [
-        "Jazz",
-        "Big band"
-      ],
-      "musical_axes": [
-        "Masters",
-        "Japan / Tokyo",
-        "Acoustic Jazz"
-      ],
-      "lineup": [
-        "Tsuyoshi Yamamoto (piano)",
-        "Hiroshi Kagawa (bass)",
-        "Chikko Soma (drums)",
-        "Seiichi Nakamura (tenor saxophone)",
-        "Sari (voice)",
-        "Kenichi Tsunoda (conductor, arranger, trombone)",
-        "Kenichi Tsunoda Big Band"
-      ],
-      "factual_description": "Kenichi Tsunoda Big Band's official schedule lists a Saturday, October 24, 2026 celebration of jazz bar Volontaire's 50th anniversary at COTTON CLUB in Marunouchi, running from 17:00 to 20:00. The program combines the Tsuyoshi Yamamoto Trio — Yamamoto, Hiroshi Kagawa and Chikko Soma — with tenor saxophonist Seiichi Nakamura, vocalist Sari and the Kenichi Tsunoda Big Band. The source states that tickets are sold out.",
-      "links": {
-        "official_event": "https://tsunokenband.jp/index.php?date=2026-10-24&main_page=schedule",
-        "official_tickets": null
-      },
-      "recommended_listening": [
-        {
-          "artist": "Tsuyoshi Yamamoto Trio, TSUYOSHI YAMAMOTO",
-          "title": "A Shade of Blue",
-          "kind": "album",
-          "apple_music_url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859"
-        }
-      ],
-      "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets"
-        ],
-        "note": "The official Kenichi Tsunoda Big Band event listing says the Volontaire 50th-anniversary performance is sold out and provides no purchase destination, so no ticket URL is invented."
-      },
-      "sources": [
-        {
-          "type": "official_artist",
-          "name": "Kenichi Tsunoda Big Band — official schedule",
-          "url": "https://tsunokenband.jp/index.php?date=2026-10-24&main_page=schedule",
-          "checked_on": "2026-08-15"
-        },
-        {
-          "url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859",
-          "publisher": "Apple Music",
-          "checked_on": "2026-08-15",
-          "note": "Exact album page for the recommended Tsuyoshi Yamamoto listening."
-        }
-      ],
-      "provenance": {
-        "status": "verified-primary-source",
-        "note": "Date, 17:00 start, COTTON CLUB venue, Volontaire 50th-anniversary context, sold-out status and named lineup verified against the official Kenichi Tsunoda Big Band schedule. No ticket URL is asserted because the official source states the event is sold out and does not provide a purchase link."
-      },
-      "editorial": {
-        "en": {
-          "why_it_matters": "This is not a routine Yamamoto club date. It folds his trio into the 50th-anniversary celebration of Volontaire, a long-running Tokyo jazz bar, alongside veteran tenor saxophonist Seiichi Nakamura, Sari and Kenichi Tsunoda's full big band. The value is the living ecosystem around the music: club history, veteran players and a large-ensemble celebration converging for one night.",
-          "trip_verdict": "S+ under the current Yamamoto/Kanto rule and culturally worth crossing Tokyo for if access appears. But the official source says it is sold out, so do not build travel around admission unless a legitimate opening emerges.",
-          "listen_before": "A Shade of Blue"
-        },
-        "es": {
-          "why_it_matters": "No es otra fecha rutinaria de Yamamoto en un club. Su trío entra en la celebración de los 50 años de Volontaire, un bar de jazz de larga historia en Tokio, junto al veterano tenor Seiichi Nakamura, Sari y la big band completa de Kenichi Tsunoda. Lo importante es el ecosistema vivo alrededor de la música: historia de club, músicos veteranos y una celebración de gran formato que convergen una sola noche.",
-          "trip_verdict": "S+ bajo la regla actual de Yamamoto/Kanto y culturalmente vale cruzar Tokio si aparece acceso legítimo. Pero la fuente oficial indica que está agotado, así que no conviene construir el viaje alrededor de la entrada salvo que se abra una oportunidad real.",
-          "listen_before": "A Shade of Blue"
-        }
-      },
-      "tickets": {
-        "currency": "USD",
-        "official": {
-          "minimum": null,
-          "maximum": null,
-          "source_url": null,
-          "checked_on": null
-        },
-        "resale": {
-          "minimum": null,
-          "maximum": null,
-          "url": null,
-          "checked_on": null
-        }
-      },
-      "attendance": {
-        "status": null,
-        "evidence": [],
-        "notes": null,
-        "setlist": null,
-        "photo_paths": []
-      }
-    },
-    {
-      "id": "tsuyoshi-yamamoto-volontaire-50-cotton-club-2026-10-24",
       "artist": "Tsuyoshi Yamamoto Trio + Kenichi Tsunoda Big Band",
       "subtitle": "Volontaire 50th Anniversary Celebration",
       "dates": {
@@ -10707,6 +10335,12 @@
           "title": "Misty - Live at Jazz is",
           "kind": "album",
           "apple_music_url": "https://music.apple.com/us/album/misty-live-at-jazz-is/1741477108"
+        },
+        {
+          "artist": "Tsuyoshi Yamamoto Trio, TSUYOSHI YAMAMOTO",
+          "title": "A Shade of Blue",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859"
         }
       ],
       "enrichment": {
@@ -10744,11 +10378,24 @@
           "url": "https://music.apple.com/us/album/misty-live-at-jazz-is/1741477108",
           "checked_on": "2026-08-18",
           "note": "Exact Apple Music album page for Tsuyoshi Yamamoto Trio's Misty - Live at Jazz is."
+        },
+        {
+          "type": "official_artist",
+          "name": "Kenichi Tsunoda Big Band — official schedule",
+          "url": "https://tsunokenband.jp/index.php?date=2026-10-24&main_page=schedule",
+          "checked_on": "2026-08-15"
+        },
+        {
+          "url": "https://music.apple.com/us/album/a-shade-of-blue/1708557859",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-15",
+          "note": "Exact album page for the recommended Tsuyoshi Yamamoto listening."
         }
       ],
       "provenance": {
         "status": "verified-authoritative-source",
-        "note": "Date, time window, COTTON CLUB venue, Yamamoto Trio personnel, named guests, Kenichi Tsunoda Big Band participation, and sold-out status were verified on the exact official Kenichi Tsunoda Big Band event page. Volontaire's own site corroborates the 50th-anniversary context. No ticket URL or additional personnel were inferred."
+        "note": "Date, time window, COTTON CLUB venue, Yamamoto Trio personnel, named guests, Kenichi Tsunoda Big Band participation, and sold-out status were verified on the exact official Kenichi Tsunoda Big Band event page. Volontaire's own site corroborates the 50th-anniversary context. No ticket URL or additional personnel were inferred.",
+        "consolidated_from": "tsuyoshi-yamamoto-volontaire-50-cotton-club-2026-10-24"
       },
       "editorial": {
         "en": {
@@ -12001,108 +11648,6 @@
     },
     {
       "id": "beat-2026",
-      "artist": "BEAT",
-      "subtitle": "Adrian Belew · Tony Levin · Steve Vai · Terry Bozzio",
-      "dates": {
-        "start": "2026-11-10",
-        "end": null
-      },
-      "showtimes": [],
-      "venue": {
-        "name": "The Theater at MGM National Harbor",
-        "city": "National Harbor",
-        "state": "MD",
-        "id": "mgm-national-harbor",
-        "country": "US"
-      },
-      "geography": "Local",
-      "priority": "S",
-      "category": "Fusion / progressive",
-      "genres": [
-        "Progressive",
-        "Rock",
-        "Experimental"
-      ],
-      "status": "considering",
-      "lineup": [],
-      "factual_description": null,
-      "editorial": {
-        "en": {
-          "why_it_matters": "King Crimson’s 1980s language revisited by Belew and Levin with Steve Vai and Terry Bozzio — a concentration of progressive-rock history and virtuosity.",
-          "trip_verdict": null,
-          "listen_before": "King Crimson — Discipline; Beat; Three of a Perfect Pair"
-        },
-        "es": {
-          "why_it_matters": "El King Crimson de los ochenta revisitado por Belew y Levin junto a Steve Vai y Terry Bozzio: una concentración extraordinaria de historia y virtuosismo progresivo.",
-          "trip_verdict": null,
-          "listen_before": "King Crimson — Discipline; Beat; Three of a Perfect Pair"
-        }
-      },
-      "links": {
-        "official_event": null,
-        "official_tickets": null
-      },
-      "tickets": {
-        "currency": "USD",
-        "official": {
-          "minimum": null,
-          "maximum": null,
-          "source_url": null,
-          "checked_on": null
-        },
-        "resale": {
-          "minimum": null,
-          "maximum": null,
-          "url": null,
-          "checked_on": null
-        }
-      },
-      "sources": [
-        {
-          "publisher": "DPAC",
-          "url": "https://www.dpacnc.com/events/detail/beat2026",
-          "checked_on": "2026-08-16",
-          "note": "Official venue page for the 2026 BEAT tour, identifying Belew, Vai, Levin and Bozzio and the three King Crimson albums performed."
-        },
-        {
-          "publisher": "Apple Music",
-          "url": "https://music.apple.com/us/song/1477535580",
-          "checked_on": "2026-08-16",
-          "note": "Exact Apple Music song page for King Crimson's Discipline."
-        }
-      ],
-      "provenance": {
-        "status": "legacy-unverified",
-        "note": "Migrated from the initial radar; source backfill is required before factual changes or ticket claims."
-      },
-      "recommended_listening": [
-        {
-          "artist": "King Crimson",
-          "title": "Discipline",
-          "kind": "track",
-          "apple_music_url": "https://music.apple.com/us/song/1477535580"
-        }
-      ],
-      "attendance": {
-        "notes": null,
-        "setlist": null,
-        "photo_paths": [],
-        "status": null,
-        "evidence": []
-      },
-      "geographic_domain": "us_corridor",
-      "musical_axes": [],
-      "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_event",
-          "official_tickets"
-        ],
-        "note": "The official BEAT tour announcement verifies the touring production and repertoire, but no exact MGM National Harbor event-detail or authorized purchase URL was verifiable."
-      }
-    },
-    {
-      "id": "beat-belew-vai-levin-bozzio-mgm-national-harbor-2026-11-10",
       "artist": "BEAT: Belew/Vai/Levin/Bozzio",
       "subtitle": "Performing the Music of KING CRIMSON",
       "dates": {
@@ -12162,6 +11707,12 @@
           "title": "Three of a Perfect Pair (Expanded Edition)",
           "kind": "album",
           "apple_music_url": "https://music.apple.com/us/album/three-of-a-perfect-pair-expanded-edition/1090449276"
+        },
+        {
+          "artist": "King Crimson",
+          "title": "Discipline",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/song/1477535580"
         }
       ],
       "enrichment": {
@@ -12202,11 +11753,24 @@
           "publisher": "Apple Music",
           "checked_on": "2026-08-15",
           "note": "Exact album page for Three of a Perfect Pair, one of the three core 1980s King Crimson records explicitly central to BEAT."
+        },
+        {
+          "publisher": "DPAC",
+          "url": "https://www.dpacnc.com/events/detail/beat2026",
+          "checked_on": "2026-08-16",
+          "note": "Official venue page for the 2026 BEAT tour, identifying Belew, Vai, Levin and Bozzio and the three King Crimson albums performed."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/song/1477535580",
+          "checked_on": "2026-08-16",
+          "note": "Exact Apple Music song page for King Crimson's Discipline."
         }
       ],
       "provenance": {
         "status": "verified-primary-source",
-        "note": "Current 2026 tour lineup, repertoire framing and November 10 MGM National Harbor date verified from the official DPAC publication of the BEAT U.S. tour announcement; venue identity cross-checked with MGM National Harbor."
+        "note": "Current 2026 tour lineup, repertoire framing and November 10 MGM National Harbor date verified from the official DPAC publication of the BEAT U.S. tour announcement; venue identity cross-checked with MGM National Harbor.",
+        "consolidated_from": "beat-belew-vai-levin-bozzio-mgm-national-harbor-2026-11-10"
       },
       "editorial": {
         "en": {

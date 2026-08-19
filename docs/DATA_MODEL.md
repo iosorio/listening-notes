@@ -57,8 +57,8 @@ object per event where practical, and is designed to stay readable in Git.
 - `showtimes` is an array because multi-night engagements can have distinct
   times. Use ISO-like local time strings such as `19:30` only when verified.
 - `status` is one of `considering`, `going`, `attended`, or `passed`. Priority
-  may be `null` only for a normalized historical attendance record whose
-  original archival evidence does not support an editorial rating.
+  may be `null` only for a normalized historical archive record whose original
+  evidence does not support an editorial rating.
 - `geographic_domain` is `tokyo_kanto`, `us_corridor`, `north_america`, or
   `rest_of_world`. `venue.id` is stable and prepares a future venue knowledge
   layer without making one necessary now.

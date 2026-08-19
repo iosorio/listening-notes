@@ -5,9 +5,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import shutil
 import subprocess
 import sys
+import unicodedata
 from copy import deepcopy
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -65,6 +67,34 @@ def complete_metadata(candidate: dict) -> tuple[bool, str | None]:
     if not all(isinstance(venue.get(key), str) and venue[key] for key in ("id", "name", "city", "state", "country")):
         return False, "missing complete venue identity"
     return True, None
+
+
+def normalized_artist_identity(event: dict) -> frozenset[str]:
+    """Return a deliberately conservative artist/project token identity."""
+    text = " ".join(str(event.get(field) or "") for field in ("artist", "subtitle"))
+    folded = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii").lower()
+    return frozenset(token for token in re.findall(r"[a-z0-9]+", folded) if len(token) > 1)
+
+
+def dates_overlap(left: dict, right: dict) -> bool:
+    left_start = left["dates"]["start"]
+    left_end = left["dates"].get("end") or left_start
+    right_start = right["dates"]["start"]
+    right_end = right["dates"].get("end") or right_start
+    return left_start <= right_end and right_start <= left_end
+
+
+def semantic_duplicate(candidate: dict, existing: dict) -> bool:
+    if candidate["venue"]["id"] != existing["venue"]["id"] or not dates_overlap(candidate, existing):
+        return False
+    candidate_identity = normalized_artist_identity(candidate)
+    existing_identity = normalized_artist_identity(existing)
+    # Subset matching catches expanded billings such as "BEAT" and "BEAT:
+    # Belew/Vai/Levin/Bozzio" without guessing. It is still conservative
+    # because it also requires the same stable venue and overlapping dates.
+    return bool(candidate_identity and existing_identity) and (
+        candidate_identity <= existing_identity or existing_identity <= candidate_identity
+    )
 
 
 def normalize(candidate: dict) -> tuple[dict, list[str]]:
@@ -137,12 +167,13 @@ def merge(
         fail("canonical events.json must use schema_version 3")
     validate_canonical(canonical)
     existing = {event["id"] for event in canonical["events"]}
-    report = {"dry_run": dry_run, "added": [], "conflicts": [], "blocked": [], "normalization": [], "processed": []}
+    report = {"dry_run": dry_run, "added": [], "conflicts": [], "semantic_conflicts": [], "blocked": [], "normalization": [], "processed": []}
     additions: list[dict] = []
     payloads: dict[Path, dict] = {}
     added_by_path: dict[Path, list[str]] = {}
     blocked_by_path: dict[Path, list[dict]] = {}
     seen = set(existing)
+    candidates_to_compare = list(canonical["events"])
     for path in paths:
         batch = read_json(path)
         payloads[path] = batch
@@ -159,7 +190,17 @@ def merge(
                 blocked_by_path[path].append(candidate)
                 continue
             normalized, changes = normalize(candidate)
+            duplicate = next((event for event in candidates_to_compare if semantic_duplicate(normalized, event)), None)
+            if duplicate:
+                report["semantic_conflicts"].append({
+                    "id": event_id,
+                    "conflict_with": duplicate["id"],
+                    "batch": batch["batch_id"],
+                    "reason": "same venue, overlapping dates, and normalized artist/project identity",
+                })
+                continue
             additions.append(normalized)
+            candidates_to_compare.append(normalized)
             seen.add(event_id)
             report["added"].append(event_id)
             added_by_path[path].append(event_id)
@@ -171,7 +212,7 @@ def merge(
             except ValueError:
                 display_path = str(path)
             report["processed"].append({"batch": batch["batch_id"], "path": display_path})
-    if report["conflicts"]:
+    if report["conflicts"] or report["semantic_conflicts"]:
         return report
     merged = {"schema_version": 3, "events": sorted(canonical["events"] + additions, key=lambda event: (event["dates"]["start"], event["id"]))}
     validate_canonical(merged)
@@ -210,7 +251,10 @@ def main() -> None:
     except ValueError as error:
         parser.exit(2, f"merge inbox: {error}\n")
     print(json.dumps(report, ensure_ascii=False, indent=2))
-    if report["conflicts"]:
+    # A dry run is deliberately reviewable: semantic conflicts are reported
+    # without making the workflow fail, while an actual merge still refuses
+    # to proceed. Exact ID conflicts retain their established hard failure.
+    if report["conflicts"] or (report["semantic_conflicts"] and not args.dry_run):
         raise SystemExit(1)
 
 
