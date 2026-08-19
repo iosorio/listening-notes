@@ -1,0 +1,117 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "catherine-russell-friends-jalc-2026-10-02-discovery",
+  "notes": "Verified S New York discovery: Catherine Russell marks her 70th birthday with two Rose Theater concerts; the October 3 performance now lists Cyndi Lauper as special guest.",
+  "events": [
+    {
+      "id": "catherine-russell-friends-jalc-2026-10-02",
+      "artist": "Catherine Russell and Friends",
+      "subtitle": "70th Birthday Celebration; Oct. 3 with special guest Cyndi Lauper",
+      "dates": {
+        "start": "2026-10-02",
+        "end": "2026-10-03"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-frederick-p-rose-hall-new-york",
+        "name": "Rose Theater at Frederick P. Rose Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / vocal jazz / milestone celebration",
+      "genres": [
+        "Jazz",
+        "Vocal Jazz",
+        "Blues"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Catherine Russell — vocals",
+        "Cyndi Lauper — special guest (October 3 only)"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Catherine Russell and Friends on October 2–3, 2026 at 7:30 PM in Rose Theater at Frederick P. Rose Hall. The concerts celebrate Russell's 70th birthday and her musical lineage; the official ticketing page for October 3 lists Cyndi Lauper as special guest. Additional friends and collaborators are not yet named on the main event page.",
+      "links": {
+        "official_event": "https://jazz.org/concert/catherine-russell-and-friends/",
+        "official_tickets": "https://ticketing.jazz.org/20600"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Catherine Russell",
+          "title": "Live At Jazz At Lincoln Center (Live)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/live-at-jazz-at-lincoln-center-live/1870632995"
+        },
+        {
+          "artist": "Catherine Russell",
+          "title": "Harlem On My Mind (Bonus Track Version)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/harlem-on-my-mind-bonus-track-version/1130273491"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/catherine-russell-and-friends/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-19",
+          "note": "Official event page confirming October 2–3, 2026 at 7:30 PM in Rose Theater and the 70th-birthday framing."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20600",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-19",
+          "note": "Official ticketing umbrella page confirming both performances and current ticket availability information."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20600/20602",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-19",
+          "note": "Official ticketing page for Saturday, October 3 confirming Cyndi Lauper as special guest."
+        },
+        {
+          "url": "https://music.apple.com/us/album/live-at-jazz-at-lincoln-center-live/1870632995",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for Live At Jazz At Lincoln Center (Live), released in 2026."
+        },
+        {
+          "url": "https://music.apple.com/us/album/harlem-on-my-mind-bonus-track-version/1130273491",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for Harlem On My Mind (Bonus Track Version)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, venue, birthday context, ticketing and the October 3 Cyndi Lauper guest appearance were verified from Jazz at Lincoln Center official pages."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Russell's 70th birthday is unusually well matched to Jazz at Lincoln Center: her own career carries a direct family line into early big-band and Armstrong history, while her singing keeps blues, swing and American song alive without turning them into repertory museum pieces. The October 3 addition of Cyndi Lauper gives one night a genuinely cross-genre dimension rather than simply adding another jazz guest.",
+          "trip_verdict": "S for New York. Worth building a regional NYC night around, with October 3 the stronger target because of Cyndi Lauper. Not S+ because this is a two-night birthday celebration rather than a singular farewell or one-off historic reunion.",
+          "listen_before": "Live At Jazz At Lincoln Center (Live); Harlem On My Mind (Bonus Track Version)"
+        },
+        "es": {
+          "why_it_matters": "El cumpleaños 70 de Russell cae en el contexto perfecto: su propia historia familiar conecta directamente con la era de las grandes bandas y Louis Armstrong, mientras su manera de cantar mantiene vivos el blues, el swing y la canción estadounidense sin convertirlos en museo. La incorporación de Cyndi Lauper el 3 de octubre le da además a esa noche una dimensión cross-genre real, no sólo otro invitado de jazz.",
+          "trip_verdict": "S para Nueva York. Sí vale construir una noche regional alrededor del concierto; el 3 de octubre es el objetivo más fuerte por Cyndi Lauper. No S+ porque son dos noches de celebración de cumpleaños y no una despedida o reunión histórica irrepetible.",
+          "listen_before": "Live At Jazz At Lincoln Center (Live); Harlem On My Mind (Bonus Track Version)"
+        }
+      }
+    }
+  ]
+}
