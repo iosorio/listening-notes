@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "bill-frisell-four-village-vanguard-2026-08-18-discovery",
+  "notes": "Verified S-priority New York discovery found during Yamamoto-first monitoring on 2026-08-18. ALFIE, BODY&SOUL, Yamamoto schedules and credible Japanese jazz sources were checked first; no unrecorded Tsuyoshi Yamamoto date was found. Bill Frisell Four is selected because the exact Four quartet—Frisell, Greg Tardy, Gerald Clayton and Johnathan Blake—is playing a six-night Village Vanguard residency, making the working-band interaction and room central to the event rather than generic name recognition.",
+  "events": [
+    {
+      "id": "bill-frisell-four-village-vanguard-2026-08-18",
+      "artist": "Bill Frisell Four",
+      "subtitle": "with Greg Tardy, Gerald Clayton & Johnathan Blake",
+      "dates": {
+        "start": "2026-08-18",
+        "end": "2026-08-23"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "village-vanguard-new-york",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living masters / Contemporary jazz / Working quartet",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Bill Frisell (guitar)",
+        "Greg Tardy (saxophone)",
+        "Gerald Clayton (piano)",
+        "Johnathan Blake (drums)"
+      ],
+      "factual_description": "Village Vanguard presents Bill Frisell Four from August 18 through August 23, 2026 with Bill Frisell on guitar, Greg Tardy on saxophone, Gerald Clayton on piano and Johnathan Blake on drums. The exact lineup is the quartet documented on Frisell's Blue Note album Four, whose music was conceived to leave substantial space for spontaneous response and interaction.",
+      "links": {
+        "official_event": "https://villagevanguard.com/event/bill-frisell-4",
+        "official_tickets": "https://vv.squadup.com/artists/bill-frisell-four"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Bill Frisell",
+          "title": "Four",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/four/1647065596"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://villagevanguard.com/event/bill-frisell-4",
+          "publisher": "Village Vanguard",
+          "checked_on": "2026-08-18",
+          "note": "Exact official event page confirming the August 18-23 residency, venue and four-person lineup."
+        },
+        {
+          "url": "https://vv.squadup.com/artists/bill-frisell-four",
+          "publisher": "Village Vanguard / Squadup",
+          "checked_on": "2026-08-18",
+          "note": "Exact authorized Village Vanguard ticket destination for Bill Frisell Four."
+        },
+        {
+          "url": "https://www.billfrisell.com/four",
+          "publisher": "Bill Frisell",
+          "checked_on": "2026-08-18",
+          "note": "Official artist page for Four confirming the same quartet lineup and release context."
+        },
+        {
+          "url": "https://www.bluenote.com/bill-frisell-to-release-new-album-four/",
+          "publisher": "Blue Note Records",
+          "checked_on": "2026-08-18",
+          "note": "Official label page confirming Four and the Greg Tardy / Gerald Clayton / Johnathan Blake lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/four/1647065596",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-18",
+          "note": "Exact Apple Music album page for Four by Bill Frisell."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Dates, venue and lineup were verified from Village Vanguard's exact event page; authorized ticketing was verified through the venue-linked Squadup page. The quartet identity was independently corroborated by Bill Frisell's official Four page and Blue Note Records. The canonical RADAR and processed/curated inboxes were checked before publication and no Bill Frisell Four event was present. No event-specific set times or prices are committed because they were not independently exposed on the exact event listing in this pass."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears S because the quartet itself is the event. Frisell's spacious, oblique guitar language is placed beside Greg Tardy's reeds, Gerald Clayton's harmonic imagination and Johnathan Blake's deeply elastic drumming, with no bassist and no conventional leader-plus-sidemen hierarchy. Four was built around unfinished musical information and spontaneous response; hearing that exact chemistry in the Village Vanguard turns the room into part of the proposition rather than just a tour stop.",
+          "trip_verdict": "S. Worth a dedicated DMV-to-New York trip if the dates work, especially for the exact Four lineup in the Vanguard's small room. It stays below S+ because this is a six-night residency by an active quartet rather than a singular one-off, farewell or historically unique appearance.",
+          "listen_before": "Bill Frisell — Four"
+        },
+        "es": {
+          "why_it_matters": "Esto llega a S porque el cuarteto mismo es el acontecimiento. El lenguaje espacioso y oblicuo de la guitarra de Frisell queda frente a los metales y maderas de Greg Tardy, la imaginación armónica de Gerald Clayton y la batería profundamente elástica de Johnathan Blake, sin bajista y sin una jerarquía convencional de líder con acompañantes. Four fue construido dejando información musical deliberadamente abierta para provocar respuesta espontánea; escuchar exactamente esa química en el Village Vanguard convierte a la sala en parte de la propuesta y no en una simple parada de gira.",
+          "trip_verdict": "S. Sí vale un viaje dedicado DMV→Nueva York si las fechas cuadran, especialmente por la formación exacta de Four en la intimidad del Vanguard. No llega a S+ porque es una residencia de seis noches de un cuarteto activo, no un one-off, despedida o aparición históricamente única.",
+          "listen_before": "Bill Frisell — Four"
+        }
+      }
+    }
+  ]
+}
