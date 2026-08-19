@@ -1,0 +1,150 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "john-coltrane-centennial-dizzys-club-2026-09-22-discovery",
+  "notes": "Verified S New York catch-up: Jazz at Lincoln Center stages a six-night John Coltrane Centennial Celebration at Dizzy's Club, spanning Coltrane's exact 100th birthday and distinct programs built around major periods and recordings.",
+  "events": [
+    {
+      "id": "john-coltrane-centennial-dizzys-club-2026-09-22",
+      "artist": "John Coltrane Centennial Celebration",
+      "subtitle": "Curated by Geoffrey Keezer — six nights at Dizzy's Club",
+      "dates": {
+        "start": "2026-09-22",
+        "end": "2026-09-27"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "17:00",
+        "19:30"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Jazz centennial / curated multi-night residency / Coltrane legacy",
+      "genres": [
+        "Jazz",
+        "Post-Bop",
+        "Modal Jazz",
+        "Avant-Garde Jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Experimental",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Geoffrey Keezer — piano / curator",
+        "Roxy Coss — tenor & soprano saxophones (Sep 22)",
+        "James Cammack — bass (Sep 22)",
+        "Rudy Royston — drums (Sep 22-23)",
+        "José James — vocals (Sep 23)",
+        "Ron Blake — tenor & soprano saxophones (Sep 23-24)",
+        "Noriko Ueda — bass (Sep 23-24, Sep 27)",
+        "Rudresh Mahanthappa — alto saxophone (Sep 24)",
+        "Brandee Younger — harp (Sep 24)",
+        "Ryan Sands — drums (Sep 24)",
+        "Camille Thurman — tenor saxophone (Sep 25-26)",
+        "Jeremy Pelt — trumpet (Sep 25-26)",
+        "Steve Davis — trombone (Sep 25-26)",
+        "Peter Washington — bass (Sep 25-26)",
+        "Kenny Washington — drums (Sep 25-26)",
+        "Wayne Escoffery — tenor & soprano saxophones (Sep 27)",
+        "Jeff \"Tain\" Watts — drums (Sep 27)"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents the John Coltrane Centennial Celebration at Dizzy's Club from September 22-27, 2026, curated by Geoffrey Keezer. The six-night run uses different ensembles and programs to revisit the Classic Quartet language, John Coltrane and Johnny Hartman with José James, an 'Expressions of Infinity' program with Rudresh Mahanthappa and Brandee Younger, Blue Train with Camille Thurman, Jeremy Pelt and Steve Davis, and a closing Classic Quartet program with Wayne Escoffery and Jeff 'Tain' Watts. Tuesday through Saturday sets are at 7:00 PM and 9:00 PM; Sunday sets are at 5:00 PM and 7:30 PM. September 23 falls on the exact centennial of Coltrane's birth on September 23, 1926.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21325/",
+        "official_tickets": "https://ticketing.jazz.org/21325/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "John Coltrane Quartet",
+          "title": "Crescent",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/crescent/1440856835"
+        },
+        {
+          "artist": "John Coltrane",
+          "title": "Blue Train",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/blue-train/1468202477"
+        },
+        {
+          "artist": "John Coltrane",
+          "title": "Expression",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/expression/1443723133"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21325/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-18",
+          "note": "Exact official ticketing/event page confirming September 22-27, 2026, Dizzy's Club purchase inventory, set times, six-night centennial framing, curator Geoffrey Keezer and the full night-by-night lineups/programs."
+        },
+        {
+          "url": "https://jazz.org/dizzys/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-18",
+          "note": "Official Dizzy's Club page lists John Coltrane Centennial Celebration for September 22-27 and links to ticketing."
+        },
+        {
+          "url": "https://sova.si.edu/record/nmah.ac.0903",
+          "publisher": "Smithsonian Institution",
+          "checked_on": "2026-08-18",
+          "note": "Smithsonian John Coltrane archive record confirms Coltrane was born September 23, 1926, establishing September 23, 2026 as the exact centennial date."
+        },
+        {
+          "url": "https://music.apple.com/us/album/crescent/1440856835",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-18",
+          "note": "Exact Apple Music album page for Crescent."
+        },
+        {
+          "url": "https://music.apple.com/us/album/blue-train/1468202477",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-18",
+          "note": "Exact Apple Music album page for Blue Train."
+        },
+        {
+          "url": "https://music.apple.com/us/album/expression/1443723133",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-18",
+          "note": "Exact Apple Music album page for Expression."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times, venue, program concept, curator, night-by-night personnel and active ticketing were verified directly from Jazz at Lincoln Center; the exact centennial date was independently checked against the Smithsonian Institution."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a generic Coltrane tribute. Jazz at Lincoln Center turns the centennial week into six distinct small-room investigations of his language, with Geoffrey Keezer curating different ensembles around the Classic Quartet, John Coltrane and Johnny Hartman, Blue Train and the late Expression world. The run passes directly through September 23, Coltrane's exact 100th birthday, and puts players such as Rudresh Mahanthappa, Brandee Younger, Camille Thurman, Jeremy Pelt, Wayne Escoffery and Jeff 'Tain' Watts into materially different parts of the Coltrane vocabulary. The changing instrumentation and repertoire make the residency itself the event.",
+          "trip_verdict": "S for New York. Worth a dedicated DMV-to-NYC trip, especially if you can choose the exact program that matters most: José James on the centennial birthday, the Mahanthappa/Younger 'Expressions of Infinity' night, the Blue Train sextet, or the Escoffery/Tain closing quartet. It stays below S+ because this is a six-night curated celebration rather than a one-off reunion or singular surviving-lineage event.",
+          "listen_before": "Crescent; Blue Train; Expression"
+        },
+        "es": {
+          "why_it_matters": "Esto no es un tributo genérico a Coltrane. Jazz at Lincoln Center convierte la semana del centenario en seis investigaciones distintas, en sala pequeña, de su lenguaje: Geoffrey Keezer arma ensambles diferentes alrededor del vocabulario del Classic Quartet, John Coltrane and Johnny Hartman, Blue Train y el universo tardío de Expression. La residencia atraviesa directamente el 23 de septiembre, el cumpleaños número 100 exacto de Coltrane, y pone a músicos como Rudresh Mahanthappa, Brandee Younger, Camille Thurman, Jeremy Pelt, Wayne Escoffery y Jeff 'Tain' Watts dentro de zonas realmente distintas de ese vocabulario. El cambio de instrumentación y repertorio hace que la residencia completa sea el acontecimiento.",
+          "trip_verdict": "S para Nueva York. Sí justifica un viaje dedicado DMV→NYC, especialmente si eliges el programa preciso que más te interese: José James el día exacto del centenario, la noche 'Expressions of Infinity' con Mahanthappa/Younger, el sexteto de Blue Train o el cuarteto final con Escoffery/Tain. Se queda debajo de S+ porque es una celebración curada de seis noches, no una reunión irrepetible o un acontecimiento único de linaje sobreviviente.",
+          "listen_before": "Crescent; Blue Train; Expression"
+        }
+      }
+    }
+  ]
+}
