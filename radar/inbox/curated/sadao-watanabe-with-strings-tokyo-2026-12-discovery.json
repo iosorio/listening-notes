@@ -1,0 +1,230 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sadao-watanabe-with-strings-tokyo-2026-12-discovery",
+  "notes": "Verified Greater Tokyo/Kanto S-priority discovery found during Yamamoto-first monitoring on 2026-08-20. Jazz House ALFIE, BODY&SOUL, current Yamamoto schedules and credible Japanese jazz sources were checked first; no unrecorded Tsuyoshi Yamamoto performance was verified in this pass. These two Sadao Watanabe dates qualify because they are explicitly part of his 75th-anniversary year and pair his working rhythm section with a 20-member string ensemble, a materially rarer context than a routine quartet stop.",
+  "events": [
+    {
+      "id": "sadao-watanabe-with-strings-meguro-persimmon-hall-2026-12-01",
+      "artist": "Sadao Watanabe with Strings",
+      "subtitle": "NOW’S THE TIME — 75th Anniversary",
+      "dates": {
+        "start": "2026-12-01",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "meguro-persimmon-hall-tokyo",
+        "name": "Meguro Persimmon Hall — Main Hall",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-20",
+        "rationale": "Watanabe is a major living Japanese jazz master, and this 75th-anniversary concert places his working rhythm section inside a 20-member string setting rather than a routine quartet stop. The rare orchestral color and anniversary frame warrant S; the related December 3 Suntory Hall performance keeps the concept below S+ as a singular one-off."
+      },
+      "category": "Japan / Living masters / 75th anniversary",
+      "genres": [
+        "Jazz",
+        "Orchestral jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Japan",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Sadao Watanabe (alto saxophone)",
+        "Russell Ferrante (piano)",
+        "Ben Williams (bass)",
+        "Issei Takemura (drums)",
+        "Takayuki Oshigane Strings (20-member string ensemble)"
+      ],
+      "factual_description": "Tokyo Onkyo lists Sadao Watanabe with Strings — NOW’S THE TIME at Meguro Persimmon Hall Main Hall in Tokyo on December 1, 2026, starting at 18:30. The producer frames the concert within Watanabe’s 75th year of musical activity and announces Watanabe with Russell Ferrante, Ben Williams and Issei Takemura plus Takayuki Oshigane’s 20-member string ensemble.",
+      "links": {
+        "official_event": "https://www.t-onkyo.co.jp/ticket/watanabe-sadao_75thmeguro",
+        "official_tickets": "https://t-onkyo-web.pia.jp/ticketInformation.do?lotRlsCd=19231"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sadao Watanabe",
+          "title": "Night With Strings (Remastered)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/%E3%83%8A%E3%82%A4%E3%83%88-%E3%82%A6%E3%82%A3%E3%82%BA-%E3%82%B9%E3%83%88%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B9/304238281"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_promoter",
+          "name": "Tokyo Onkyo",
+          "url": "https://www.t-onkyo.co.jp/ticket/watanabe-sadao_75thmeguro",
+          "checked_on": "2026-08-20",
+          "note": "Exact event page confirms December 1, 2026, 18:30 start, Meguro Persimmon Hall Main Hall, the 75th-anniversary framing, personnel and 20-member string ensemble."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Tokyo Onkyo Online Ticket / Pia",
+          "url": "https://t-onkyo-web.pia.jp/ticketInformation.do?lotRlsCd=19231",
+          "checked_on": "2026-08-20",
+          "note": "Exact authorized advance-sale destination linked by Tokyo Onkyo for this performance."
+        },
+        {
+          "type": "official_artist",
+          "name": "Sadao Watanabe Official Web Site",
+          "url": "https://www.sadao.com/live/",
+          "checked_on": "2026-08-20",
+          "note": "Current official live schedule independently lists the December 1 Meguro performance."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/%E3%83%8A%E3%82%A4%E3%83%88-%E3%82%A6%E3%82%A3%E3%82%BA-%E3%82%B9%E3%83%88%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B9/304238281",
+          "checked_on": "2026-08-20",
+          "note": "Exact album page for the recommended listening selection Night With Strings (Remastered)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, start time, venue, anniversary context, core rhythm section and 20-member string ensemble were verified against the exact Tokyo Onkyo event page and Sadao Watanabe’s current official live schedule. The repository canonical dataset, current curated inbox and processed batches were checked before publication and no December 1 Watanabe-with-strings event was found. No prices or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is materially different from a routine Sadao Watanabe quartet date. In the year marking 75 years of his musical activity, Watanabe puts his alto voice and working rhythm section inside a 20-member string ensemble, changing the scale, color and harmonic space around a still-active Japanese master. The anniversary frame and orchestral setting make the night a concentrated statement about the breadth of his language rather than a ceremonial cameo.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect the night and cross Tokyo for it. The 75th-anniversary frame and 20-member strings make it rare enough to prioritize; the related December 3 Suntory Hall performance keeps it below S+ as a stand-alone reason to cross the Pacific.",
+          "listen_before": "Sadao Watanabe — Night With Strings (Remastered)"
+        },
+        "es": {
+          "why_it_matters": "Esto es materialmente distinto de una fecha rutinaria del cuarteto de Sadao Watanabe. En el año que marca 75 años de actividad musical, Watanabe mete su voz de saxo alto y su sección rítmica de trabajo dentro de un ensamble de 20 cuerdas, cambiando la escala, el color y el espacio armónico alrededor de un maestro japonés que sigue plenamente activo. El aniversario y el marco orquestal vuelven la noche una declaración concentrada sobre la amplitud de su lenguaje, no una aparición ceremonial.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Hay que proteger la noche y cruzar Tokio por esto. El aniversario 75 y las 20 cuerdas la vuelven suficientemente rara para priorizarla; la fecha relacionada del 3 de diciembre en Suntory Hall la mantiene debajo de S+ como motivo único para cruzar el Pacífico.",
+          "listen_before": "Sadao Watanabe — Night With Strings (Remastered)"
+        }
+      }
+    },
+    {
+      "id": "sadao-watanabe-with-strings-suntory-hall-2026-12-03",
+      "artist": "Sadao Watanabe with Strings",
+      "subtitle": "NOW’S THE TIME — 75th Anniversary / Christmas Gift vol.33",
+      "dates": {
+        "start": "2026-12-03",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "suntory-hall-tokyo",
+        "name": "Suntory Hall — Main Hall",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-20",
+        "rationale": "Watanabe’s 75th-anniversary year, his working rhythm section, a 20-member string ensemble and Suntory Hall together create a rare living-master context that merits S. The same core concept also appears in Tokyo on December 1, so this is not singular enough for S+."
+      },
+      "category": "Japan / Living masters / 75th anniversary",
+      "genres": [
+        "Jazz",
+        "Orchestral jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Japan",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Sadao Watanabe (alto saxophone)",
+        "Russell Ferrante (piano)",
+        "Ben Williams (bass)",
+        "Issei Takemura (drums)",
+        "Takayuki Oshigane Strings (20-member string ensemble)"
+      ],
+      "factual_description": "Tokyo Onkyo lists SHISEIDO presents Christmas Gift vol.33 — Sadao Watanabe with Strings: NOW’S THE TIME at Suntory Hall Main Hall in Tokyo on December 3, 2026, starting at 18:30. The producer places the concert in Watanabe’s 75th year of musical activity and announces Watanabe with Russell Ferrante, Ben Williams and Issei Takemura plus Takayuki Oshigane’s 20-member string ensemble.",
+      "links": {
+        "official_event": "https://www.t-onkyo.co.jp/ticket/watanabesadao-xmasgift-vol33",
+        "official_tickets": "https://t-onkyo-web.pia.jp/ticketInformation.do?lotRlsCd=19389"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sadao Watanabe",
+          "title": "Night With Strings (Remastered)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/%E3%83%8A%E3%82%A4%E3%83%88-%E3%82%A6%E3%82%A3%E3%82%BA-%E3%82%B9%E3%83%88%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B9/304238281"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_promoter",
+          "name": "Tokyo Onkyo",
+          "url": "https://www.t-onkyo.co.jp/ticket/watanabesadao-xmasgift-vol33",
+          "checked_on": "2026-08-20",
+          "note": "Exact event page confirms December 3, 2026, 18:30 start, Suntory Hall Main Hall, the 75th-anniversary framing, personnel and 20-member string ensemble."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Tokyo Onkyo Online Ticket / Pia",
+          "url": "https://t-onkyo-web.pia.jp/ticketInformation.do?lotRlsCd=19389",
+          "checked_on": "2026-08-20",
+          "note": "Exact authorized advance-sale destination linked by Tokyo Onkyo for this performance."
+        },
+        {
+          "type": "official_artist",
+          "name": "Sadao Watanabe Official Web Site",
+          "url": "https://www.sadao.com/live/",
+          "checked_on": "2026-08-20",
+          "note": "Current official live schedule independently lists the December 3 Suntory Hall performance."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/%E3%83%8A%E3%82%A4%E3%83%88-%E3%82%A6%E3%82%A3%E3%82%BA-%E3%82%B9%E3%83%88%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B9/304238281",
+          "checked_on": "2026-08-20",
+          "note": "Exact album page for the recommended listening selection Night With Strings (Remastered)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, start time, venue, anniversary context, core rhythm section and 20-member string ensemble were verified against the exact Tokyo Onkyo event page and Sadao Watanabe’s current official live schedule. The repository canonical dataset, current curated inbox and processed batches were checked before publication and no December 3 Watanabe-with-strings event was found. No prices or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The strongest version of this two-date Tokyo concept puts Sadao Watanabe’s still-distinctive alto voice, Russell Ferrante, Ben Williams and Issei Takemura inside a 20-member string ensemble at Suntory Hall during his 75th-anniversary year. That combination gives the music unusual acoustic scale and ceremonial weight without reducing the evening to retrospective pageantry.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect the night. If choosing only one of the two Tokyo string dates, this is the one: Suntory Hall gives the concept the stronger acoustic and ceremonial setting. It stays below S+ because the same core program is also presented on December 1.",
+          "listen_before": "Sadao Watanabe — Night With Strings (Remastered)"
+        },
+        "es": {
+          "why_it_matters": "La versión más fuerte de este concepto de dos fechas en Tokio pone la voz todavía inconfundible del saxo alto de Sadao Watanabe, junto con Russell Ferrante, Ben Williams e Issei Takemura, dentro de un ensamble de 20 cuerdas en Suntory Hall durante su año de 75 aniversario. Esa combinación le da a la música una escala acústica y un peso ceremonial poco comunes sin convertir la noche en pura retrospectiva.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Hay que proteger la noche. Si hubiera que escoger sólo una de las dos fechas con cuerdas en Tokio, ésta es la que escogería: Suntory Hall le da al concepto el marco acústico y ceremonial más fuerte. Se queda debajo de S+ porque el mismo programa central también se presenta el 1 de diciembre.",
+          "listen_before": "Sadao Watanabe — Night With Strings (Remastered)"
+        }
+      }
+    }
+  ]
+}
