@@ -4,7 +4,7 @@ Priority is editorial judgment, not a claim of universal artistic rank.
 
 | Tier | Meaning |
 | --- | --- |
-| S+ | Alter plans. A singular or historically exceptional performance; a verified Tsuyoshi Yamamoto appearance retains its documented S+ treatment. |
+| S+ | Alter plans. A singular or historically exceptional performance; a qualifying verified Tsuyoshi Yamamoto appearance may retain its documented S+ treatment. |
 | S | Protect the night. A performance whose absence would bring genuine regret: a major living master in a rare context, farewell, or other moment unlikely to recur. |
 | A+ | Excellent and actively worth prioritizing. An unusually strong artist, lineup, setting, or cultural connection that merits making room for it. |
 | A | Worthy of RADAR and worth knowing about or attending if convenient. RADAR admission is itself the quality threshold. |
