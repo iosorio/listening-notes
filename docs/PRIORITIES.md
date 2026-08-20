@@ -4,10 +4,14 @@ Priority is editorial judgment, not a claim of universal artistic rank.
 
 | Tier | Meaning |
 | --- | --- |
-| S+ | Tsuyoshi Yamamoto in North America; in Greater Tokyo/Kantō, any verified Yamamoto performance. Immediate alert / exceptional priority. |
-| S | Historically significant performance, major living jazz master, or rare circumstance unlikely to recur. |
-| A+ | Exceptional Japanese jazz artist, major contemporary jazz performance, unusually strong lineup, or intimate appearance. |
-| A | Strong recommendation in jazz, fusion, progressive, experimental, rock, or metal. |
+| S+ | Alter plans. A singular or historically exceptional performance; a verified Tsuyoshi Yamamoto appearance retains its documented S+ treatment. |
+| S | Protect the night. A performance whose absence would bring genuine regret: a major living master in a rare context, farewell, or other moment unlikely to recur. |
+| A+ | Excellent and actively worth prioritizing. An unusually strong artist, lineup, setting, or cultural connection that merits making room for it. |
+| A | Worthy of RADAR and worth knowing about or attending if convenient. RADAR admission is itself the quality threshold. |
+
+Use these meanings rather than a formula or a quota. The desired shape is a
+sanity check: A should be the broad base, A+ narrower, S rarer, and S+ truly
+exceptional. A grade is not a claim of universal artistic rank.
 
 ## Geography
 
@@ -21,9 +25,9 @@ Priority is editorial judgment, not a claim of universal artistic rank.
 `trip_verdict` explains the recommendation for the individual event; it is not
 derived mechanically from city or priority.
 
-Tokyo uses the separate `tokyo_kanto` domain. There, S includes Yamamoto-circle,
-Three Blind Mice, rare-reunion, and exceptional Japanese-master appearances;
-A+ means a performance worth organizing a Tokyo evening around. See
+Tokyo uses the separate `tokyo_kanto` domain. Apply the same hierarchy there;
+the Yamamoto connection, Three Blind Mice, rare reunions, and exceptional
+Japanese-master appearances are editorial signals, not automatic grades. See
 `docs/DOMAINS.md`.
 
 ## Musical axes
