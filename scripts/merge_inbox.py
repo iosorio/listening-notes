@@ -11,6 +11,7 @@ import subprocess
 import sys
 import unicodedata
 from copy import deepcopy
+from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -21,6 +22,7 @@ CURATED = ROOT / "radar/inbox/curated"
 PROCESSED = ROOT / "radar/inbox/processed"
 VALIDATOR = ROOT / "scripts/validate_events.py"
 EVIDENCE_TYPES = {"user_confirmed", "personal_photo", "ticket_purchase", "logistics_email", "calendar_or_planning", "third_party_ticket", "archival_reference", "post_event_reference", "unknown"}
+TOP_PRIORITIES = {"S": "protect_the_night", "S+": "alter_plans"}
 
 
 def fail(message: str) -> None:
@@ -37,6 +39,25 @@ def read_json(path: Path) -> dict:
     return value
 
 
+def validate_priority_review(event: dict, path: Path) -> None:
+    """Require a human editorial decision for the two scarcity tiers."""
+    priority = event.get("priority")
+    if priority not in TOP_PRIORITIES:
+        return
+    review = event.get("priority_review")
+    event_id = event["id"]
+    if not isinstance(review, dict):
+        fail(f"{path}: {event_id} at {priority} requires a priority_review")
+    if review.get("decision") != TOP_PRIORITIES[priority]:
+        fail(f"{path}: {event_id} at {priority} requires priority_review.decision={TOP_PRIORITIES[priority]}")
+    if not all(isinstance(review.get(field), str) and review[field].strip() for field in ("reviewed_by", "reviewed_on", "rationale")):
+        fail(f"{path}: {event_id} priority_review requires reviewed_by, reviewed_on, and rationale")
+    try:
+        date.fromisoformat(review["reviewed_on"])
+    except ValueError:
+        fail(f"{path}: {event_id} priority_review.reviewed_on must be an ISO date")
+
+
 def validate_batch(batch: dict, path: Path, curated_dir: Path = CURATED) -> list[dict]:
     if batch.get("batch_version") != 1 or batch.get("kind") != "curated_event_candidates":
         fail(f"{path}: unsupported batch envelope")
@@ -51,6 +72,7 @@ def validate_batch(batch: dict, path: Path, curated_dir: Path = CURATED) -> list
         ids.add(event["id"])
         if not isinstance(event.get("artist"), str) or not isinstance(event.get("dates"), dict):
             fail(f"{path}: {event['id']} requires artist and dates")
+        validate_priority_review(event, path)
         if path.parent.resolve() == curated_dir.resolve() and event.get("status") in {"considering", "going"} and "enrichment" not in event:
             fail(f"{path}: {event['id']} is upcoming and requires an enrichment declaration")
         attendance = event.get("attendance", {})
@@ -100,6 +122,7 @@ def semantic_duplicate(candidate: dict, existing: dict) -> bool:
 def normalize(candidate: dict) -> tuple[dict, list[str]]:
     event = deepcopy(candidate)
     changes: list[str] = []
+    priority_review = event.pop("priority_review", None)
     defaults = {
         "subtitle": None, "showtimes": [], "priority": None,
         "category": "Historical archive", "genres": [], "musical_axes": [],
@@ -127,6 +150,8 @@ def normalize(candidate: dict) -> tuple[dict, list[str]]:
             event["tickets"][market].setdefault(field, None)
     event.setdefault("sources", [])
     event.setdefault("provenance", {"status": "curated-inbox", "note": "Merged from a reviewed curated inbox batch."})
+    if priority_review is not None:
+        event["provenance"]["priority_review"] = priority_review
     attendance = event.setdefault("attendance", {})
     attendance.setdefault("status", "attended" if event.get("status") == "attended" else None)
     attendance.setdefault("evidence", [])
@@ -167,6 +192,9 @@ def merge(
         fail("canonical events.json must use schema_version 3")
     validate_canonical(canonical)
     existing = {event["id"] for event in canonical["events"]}
+    def priority_counts(events: list[dict]) -> dict[str, int]:
+        return {priority: sum(event.get("priority") == priority for event in events) for priority in ("A", "A+", "S", "S+")}
+
     report = {"dry_run": dry_run, "added": [], "conflicts": [], "semantic_conflicts": [], "blocked": [], "normalization": [], "processed": []}
     additions: list[dict] = []
     payloads: dict[Path, dict] = {}
@@ -216,6 +244,11 @@ def merge(
         return report
     merged = {"schema_version": 3, "events": sorted(canonical["events"] + additions, key=lambda event: (event["dates"]["start"], event["id"]))}
     validate_canonical(merged)
+    report["priority_distribution"] = {
+        "before": priority_counts(canonical["events"]),
+        "added": priority_counts(additions),
+        "after": priority_counts(merged["events"]),
+    }
     if not dry_run:
         canonical_path.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n")
         processed_dir.mkdir(parents=True, exist_ok=True)

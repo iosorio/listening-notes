@@ -21,6 +21,28 @@ This directory is a handoff layer between research/editorial agents and the cano
 5. Official ticket prices and resale prices remain distinct. Unknown values stay `null`.
 6. After a successful merge, move or copy the batch to a `processed/` archive (or record equivalent processing metadata) so the same batch cannot be applied twice.
 7. The merge must be deterministic and leave `events.json` valid, formatted, and reviewable in Git.
+8. S and S+ are scarcity tiers, not a synonym for a strong event. A curated
+   candidate at either tier must carry a completed `priority_review`; the merge
+   refuses it without one. This is a review gate, not a numerical quota.
+
+## Priority-review gate
+
+Every S or S+ candidate must include this review declaration in the curated
+batch. `rationale` should explain the specific context that earns the tier;
+it is not a score or a generic statement that the artist is excellent.
+
+```json
+"priority_review": {
+  "decision": "protect_the_night",
+  "reviewed_by": "Editorial reviewer",
+  "reviewed_on": "YYYY-MM-DD",
+  "rationale": "Why this is a genuine-regret-if-missed event."
+}
+```
+
+Use `"alter_plans"` for S+. The merge records the review in the event
+provenance and reports the grade distribution before, within, and after the
+batch so an editor can assess the shape without mechanically assigning grades.
 
 ## Merge workflow
 
@@ -32,7 +54,8 @@ python3 scripts/merge_inbox.py --all --dry-run
 ```
 
 The report lists additions, duplicate-ID conflicts, records blocked for missing
-canonical metadata, and defaults applied during normalization. A blocked record
+canonical metadata, defaults applied during normalization, and the priority
+distribution before, within, and after the proposed merge. A blocked record
 stays in `curated/`; it is not fabricated into the production dataset.
 
 After a clean review, run the same command without `--dry-run`. The tool
