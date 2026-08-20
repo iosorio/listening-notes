@@ -65,8 +65,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "links.official_tickets"
-        ]
+          "official_tickets"
+        ],
+        "note": "Birdland uses separate authorized purchase URLs for each set, so no single residency-wide ticket destination is asserted."
       },
       "sources": [
         {
