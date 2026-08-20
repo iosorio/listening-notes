@@ -1,0 +1,164 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "three-visitors-tokyo-2026-12-discovery",
+  "notes": "Verified S-priority Tokyo discovery found during Yamamoto-first monitoring. Jazz House ALFIE, BODY&SOUL, current Yamamoto schedules and credible Japanese jazz sources were checked first; no unrecorded Yamamoto date was verified in this pass.",
+  "events": [
+    {
+      "id": "three-visitors-cotton-club-tokyo-2026-12-13",
+      "artist": "Three Visitors",
+      "subtitle": "featuring Edward Simon, Scott Colley & Brian Blade",
+      "dates": {
+        "start": "2026-12-13",
+        "end": "2026-12-14"
+      },
+      "showtimes": ["16:30", "19:30", "18:00", "20:30"],
+      "venue": {
+        "id": "cotton-club-tokyo-marunouchi",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Contemporary jazz / Improvised trio",
+      "genres": ["Jazz", "Contemporary Jazz"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Japan/Tokyo"],
+      "lineup": [
+        "Edward Simon (piano)",
+        "Scott Colley (bass)",
+        "Brian Blade (drums)"
+      ],
+      "factual_description": "COTTON CLUB presents Three Visitors featuring Edward Simon, Scott Colley and Brian Blade on December 13-14, 2026. December 13 has 4:30 PM and 7:30 PM sets; December 14 has 6:00 PM and 8:30 PM sets. The venue describes the trio as a project formed by three important figures in contemporary jazz and centers the engagement on their 2024 GroundUP Music album Three Visitors. Web reservations are scheduled to open September 8 for JAM SESSION members and September 14 for general booking.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/three-visitors-261213/",
+        "official_tickets": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5748/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Scott Colley, Edward Simon & Brian Blade",
+          "title": "Three Visitors",
+          "apple_music_url": "https://music.apple.com/us/album/three-visitors/1758824309"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "COTTON CLUB",
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/three-visitors-261213/",
+          "checked_on": "2026-08-20"
+        },
+        {
+          "type": "official_ticketing",
+          "name": "COTTON CLUB reservation system",
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5748/",
+          "checked_on": "2026-08-20"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/three-visitors/1758824309",
+          "checked_on": "2026-08-20"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, date-specific set times, exact trio lineup, project context, reservation opening dates and the authorized reservation destination were verified on COTTON CLUB's exact event page. The recommended listening URL is the exact Apple Music album page for Three Visitors."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Three Visitors is the interaction itself: Edward Simon's compositional piano language, Scott Colley's unusually structural bass playing and Brian Blade's instantly recognizable sense of pulse and dynamics. In a small Tokyo room, there is no concept or tribute framing to hide behind; the reason to go is to hear three elite improvisers who have worked together in multiple settings turn a working trio into a conversation with its own identity.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect one of the four COTTON CLUB sets and cross Tokyo specifically for it if the trip overlaps December 13-14. Together with the Blue Note Tokyo date the following night, this becomes a very strong music-trip anchor, but the three-date Tokyo run keeps it below S+ and it does not by itself justify a transpacific trip.",
+          "listen_before": "Three Visitors"
+        },
+        "es": {
+          "why_it_matters": "Three Visitors es la interacción misma: el lenguaje compositivo al piano de Edward Simon, el bajo extraordinariamente estructural de Scott Colley y el sentido de pulso y dinámica inmediatamente reconocible de Brian Blade. En una sala pequeña de Tokio no hay concepto ni homenaje detrás del cual esconderse; la razón para ir es escuchar a tres improvisadores de primer nivel, con una larga historia de cruces entre ellos, convertir un trío de trabajo en una conversación con identidad propia.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale proteger uno de los cuatro sets de COTTON CLUB y cruzar Tokio específicamente por él si el viaje coincide con el 13-14 de diciembre. Sumado a Blue Note Tokyo la noche siguiente, forma un ancla muy fuerte para un viaje musical, pero las tres fechas en Tokio lo mantienen debajo de S+ y por sí solo no justifica cruzar el Pacífico.",
+          "listen_before": "Three Visitors"
+        }
+      }
+    },
+    {
+      "id": "three-visitors-blue-note-tokyo-2026-12-15",
+      "artist": "Three Visitors",
+      "subtitle": "featuring Edward Simon, Scott Colley & Brian Blade",
+      "dates": {
+        "start": "2026-12-15",
+        "end": null
+      },
+      "showtimes": ["18:00", "20:30"],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Contemporary jazz / Improvised trio",
+      "genres": ["Jazz", "Contemporary Jazz"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Japan/Tokyo"],
+      "lineup": [
+        "Edward Simon (piano)",
+        "Scott Colley (bass)",
+        "Brian Blade (drums)"
+      ],
+      "factual_description": "Blue Note Tokyo presents Three Visitors featuring Edward Simon, Scott Colley and Brian Blade on December 15, 2026, with 6:00 PM and 8:30 PM sets. The venue describes the trio as a project formed by three important figures in contemporary jazz and centers the engagement on their 2024 GroundUP Music album Three Visitors. Web reservations are scheduled to open September 8 for JAM SESSION members and September 14 for general booking.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/three-visitors/",
+        "official_tickets": "https://www.bluenote.co.jp/jp/artists/three-visitors/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Scott Colley, Edward Simon & Brian Blade",
+          "title": "Three Visitors",
+          "apple_music_url": "https://music.apple.com/us/album/three-visitors/1758824309"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Blue Note Tokyo",
+          "url": "https://www.bluenote.co.jp/jp/artists/three-visitors/",
+          "checked_on": "2026-08-20"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/three-visitors/1758824309",
+          "checked_on": "2026-08-20"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, both set times, exact trio lineup, project context and published reservation-opening schedule were verified on Blue Note Tokyo's exact event page. Blue Note Tokyo's exact event page is also the venue's authorized web-reservation path for this engagement. The recommended listening URL is the exact Apple Music album page for Three Visitors."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Three Visitors puts three unusually individual improvisational voices into a format where interaction is the whole point: Edward Simon's compositional piano, Scott Colley's structural and highly responsive bass language, and Brian Blade's singular control of pulse, color and dynamics. Blue Note Tokyo is a room where the trio's small changes of time, density and space should matter more than spectacle.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect one of the two Blue Note Tokyo sets if you are in the city; paired with the two preceding COTTON CLUB nights, it is a particularly strong three-night Tokyo jazz run. It remains below S+ because this is a multi-date working-trio visit rather than a singular farewell, premiere or one-off historical event.",
+          "listen_before": "Three Visitors"
+        },
+        "es": {
+          "why_it_matters": "Three Visitors pone tres voces de improvisación extraordinariamente individuales en un formato donde la interacción es todo: el piano compositivo de Edward Simon, el lenguaje estructural y reactivo del bajo de Scott Colley y el control singular de pulso, color y dinámica de Brian Blade. Blue Note Tokyo es una sala donde los pequeños cambios de tiempo, densidad y espacio del trío pueden importar más que el espectáculo.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale proteger uno de los dos sets de Blue Note Tokyo si estás en la ciudad; junto con las dos noches previas en COTTON CLUB, forma una corrida de tres noches particularmente fuerte para un viaje jazzístico en Tokio. Se queda debajo de S+ porque es una visita de varias fechas de un trío activo, no una despedida, estreno o acontecimiento histórico único.",
+          "listen_before": "Three Visitors"
+        }
+      }
+    }
+  ]
+}
