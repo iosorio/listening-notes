@@ -72,7 +72,10 @@ def validate_batch(batch: dict, path: Path, curated_dir: Path = CURATED) -> list
         ids.add(event["id"])
         if not isinstance(event.get("artist"), str) or not isinstance(event.get("dates"), dict):
             fail(f"{path}: {event['id']} requires artist and dates")
-        validate_priority_review(event, path)
+        # Priority review is a gate for new intake, not a retroactive
+        # requirement for immutable processed handoff history.
+        if path.parent.resolve() == curated_dir.resolve():
+            validate_priority_review(event, path)
         if path.parent.resolve() == curated_dir.resolve() and event.get("status") in {"considering", "going"} and "enrichment" not in event:
             fail(f"{path}: {event['id']} is upcoming and requires an enrichment declaration")
         attendance = event.get("attendance", {})
