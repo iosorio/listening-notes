@@ -1,0 +1,48 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "minyo-crusaders-material-update-2026-08-19-001",
+  "created_on": "2026-08-19",
+  "notes": "Material update for the existing Minyo Crusaders Washington RADAR event: exact official North American tour announcement, exact authorized ticket destination, and the current 2026 album were verified. This is an enrichment research batch for explicit review/promotion; canonical events.json is not edited directly.",
+  "events": [
+    {
+      "id": "minyo-crusaders-2026",
+      "links": {
+        "official_event": "https://www.universal-music.co.jp/minyo-crusaders/news/2026-06-03/",
+        "official_tickets": "https://www.eventim.com/event/minyo-crusaders-the-hamilton-live-21715961/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Minyo Crusaders",
+          "title": "From Japan With Love",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/from-japan-with-love/1892928459"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Universal Music Japan",
+          "url": "https://www.universal-music.co.jp/minyo-crusaders/news/2026-06-03/",
+          "checked_on": "2026-08-19",
+          "note": "Exact official artist/label announcement confirming Minyo Crusaders' first North American tour, seven cities, including The Hamilton in Washington, DC on September 24, 2026."
+        },
+        {
+          "publisher": "EVENTIM",
+          "url": "https://www.eventim.com/event/minyo-crusaders-the-hamilton-live-21715961/",
+          "checked_on": "2026-08-19",
+          "note": "Exact authorized event purchase page for Minyo Crusaders at The Hamilton Live on September 24, 2026; doors 6:30 PM and show 8:00 PM."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/from-japan-with-love/1892928459",
+          "checked_on": "2026-08-19",
+          "note": "Exact Apple Music album page for From Japan With Love, released June 26, 2026 on Blue Note Records in North America."
+        }
+      ]
+    }
+  ]
+}
