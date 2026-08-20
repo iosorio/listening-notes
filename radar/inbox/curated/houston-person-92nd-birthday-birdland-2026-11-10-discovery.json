@@ -1,0 +1,128 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "houston-person-92nd-birthday-birdland-2026-11-10-discovery",
+  "notes": "Verified S-priority New York discovery found during Yamamoto-first monitoring on 2026-08-20. Jazz House ALFIE, BODY&SOUL, current Yamamoto schedules and credible Japanese jazz sources were checked first; no unrecorded Tsuyoshi Yamamoto performance was verified in this pass. Houston Person's Birdland date qualifies because it is explicitly billed as his 92nd Birthday Celebration and falls on his documented November 10 birthday, making the context materially rarer than a routine club engagement.",
+  "events": [
+    {
+      "id": "houston-person-92nd-birthday-birdland-2026-11-10",
+      "artist": "Houston Person Quintet",
+      "subtitle": "92nd Birthday Celebration",
+      "dates": {
+        "start": "2026-11-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "birdland-jazz-club-new-york",
+        "name": "Birdland Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-20",
+        "rationale": "Houston Person is a major living tenor voice, and Birdland is explicitly presenting this one-night engagement as his 92nd Birthday Celebration on his actual November 10 birthday. The combination of advanced age, a milestone-centered club context and a single New York night makes this a genuine-regret-if-missed event rather than a routine leader date."
+      },
+      "category": "Living masters / Birthday milestone / Soul-jazz tenor",
+      "genres": [
+        "Jazz",
+        "Soul jazz",
+        "Hard bop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Houston Person (tenor saxophone)"
+      ],
+      "factual_description": "Authoritative ticket listings present Houston Person Quintet: 92nd Birthday Celebration at Birdland Jazz Club in New York on November 10, 2026, with 7:00 PM and 9:30 PM sets. Apple Music documents Houston Person's birth date as November 10, 1934, so the announced celebration falls on his 92nd birthday. Additional quintet personnel were not published in the authoritative listings verified in this pass and are therefore not inferred.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Houston Person",
+          "title": "Reminiscing at Rudy's",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/reminiscing-at-rudys/1648150204"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "The event title, date and both set times are verified through authoritative Live Nation/Ticketmaster listings. Birdland states that TicketWeb is its only authorized ticket seller, but an exact stable TicketWeb event URL was not resolved in this pass, so no generic or mismatched ticket URL is committed."
+      },
+      "sources": [
+        {
+          "type": "authoritative_ticket_listing",
+          "name": "Live Nation",
+          "url": "https://www.livenation.com/event/rZ7HnEZ1A4Z6Fd/houston-person-quintet-92nd-birthday-celebration",
+          "checked_on": "2026-08-20",
+          "note": "Exact event listing confirms Houston Person Quintet: 92nd Birthday Celebration at Birdland on November 10, 2026 and an active 9:30 PM performance."
+        },
+        {
+          "type": "authoritative_ticket_listing",
+          "name": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/Houston-Person-tickets/artist/737637",
+          "checked_on": "2026-08-20",
+          "note": "Artist ticket listing confirms the Birdland event and both 7:00 PM and 9:30 PM performances on November 10, 2026."
+        },
+        {
+          "type": "official_venue",
+          "name": "Birdland Jazz Club",
+          "url": "https://www.birdlandjazz.com/calendar/",
+          "checked_on": "2026-08-20",
+          "note": "Official venue calendar page confirms Birdland's venue identity and states that TicketWeb is its only authorized ticket seller; the static page parse did not expose an exact event-detail URL for this engagement."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/artist/houston-person/15404793",
+          "checked_on": "2026-08-20",
+          "note": "Official Apple Music artist page documents Houston Person's November 10, 1934 birth date."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/reminiscing-at-rudys/1648150204",
+          "checked_on": "2026-08-20",
+          "note": "Exact Apple Music album page for the recommended listening selection Reminiscing at Rudy's."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "The event title, November 10 date, Birdland venue and two set times were verified through current authoritative ticket listings. The milestone context is independently supported by Apple Music's documented November 10, 1934 birth date. The repository was searched for Houston Person and for a November 10 Birdland event before publication and no existing record was found. No unannounced quintet personnel, prices or unresolved TicketWeb URL were invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Houston Person is one of the last great keepers of the big, warm tenor sound where hard bop, blues and soul-jazz live in the same breath. The reason this reaches S is not simply longevity: Birdland is giving him a one-night 92nd Birthday Celebration on his actual birthday. Hearing that sound, at that age, in a small New York jazz room turns an ordinary club booking into a living-lineage event whose circumstances cannot be assumed to recur.",
+          "trip_verdict": "S. Protect the night. This is worth a dedicated DMV-to-New York trip for a listener who cares about living jazz lineage and tenor identity. It remains below S+ because the verified context is a milestone birthday club engagement rather than a farewell, premiere or uniquely assembled historical reunion.",
+          "listen_before": "Houston Person — Reminiscing at Rudy's"
+        },
+        "es": {
+          "why_it_matters": "Houston Person es una de las últimas grandes voces que mantienen vivo ese sonido enorme y cálido del tenor donde hard bop, blues y soul-jazz respiran juntos. Lo que empuja esta fecha a S no es sólo la longevidad: Birdland le dedica una sola noche como celebración de sus 92 años, exactamente el día de su cumpleaños. Escuchar ese sonido, a esa edad y en una sala pequeña de jazz en Nueva York convierte una fecha de club en un momento de linaje vivo cuyas circunstancias no se pueden dar por repetibles.",
+          "trip_verdict": "S. Hay que proteger la noche. Sí vale un viaje dedicado DMV→Nueva York para quien siga el linaje vivo del jazz y la identidad del saxo tenor. Se queda debajo de S+ porque el contexto verificado es una celebración de cumpleaños en club, no una despedida, estreno o reunión histórica única.",
+          "listen_before": "Houston Person — Reminiscing at Rudy's"
+        }
+      }
+    }
+  ]
+}
