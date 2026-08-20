@@ -64,6 +64,49 @@ class MergeInboxTest(unittest.TestCase):
                 event["recommended_listening"] = [{"title": "Test", "apple_music_url": url}]
             result = self.validate_modified_event(mutate)
             self.assertNotEqual(result.returncode, 0, url)
+
+    def test_editorial_tier_claim_must_match_priority(self):
+        for language, field, text in (
+            ("en", "why_it_matters", "This clears S because the setting is unusual."),
+            ("es", "trip_verdict", "S regional. Hay que proteger la noche."),
+        ):
+            def mutate(event, language=language, field=field, text=text):
+                event["priority"] = "A+"
+                event["editorial"][language][field] = text
+            result = self.validate_modified_event(mutate)
+            self.assertNotEqual(result.returncode, 0, (language, field))
+
+    def test_lower_tiers_reject_higher_tier_action_language(self):
+        for priority, language, text in (
+            ("A+", "en", "Protect the night."),
+            ("A", "es", "Vale priorizar la noche."),
+        ):
+            def mutate(event, priority=priority, language=language, text=text):
+                event["priority"] = priority
+                event["editorial"][language]["trip_verdict"] = text
+            result = self.validate_modified_event(mutate)
+            self.assertNotEqual(result.returncode, 0, (priority, language))
+
+    def test_aligned_editorial_priority_language_is_valid(self):
+        def mutate(event):
+            event["priority"] = "A+"
+            event["editorial"] = {
+                "en": {"why_it_matters": "This earns A+ because the setting is unusually strong.", "trip_verdict": "A+ regional. Prioritize it if the date fits."},
+                "es": {"why_it_matters": "Merece A+ por la fuerza particular del contexto.", "trip_verdict": "A+ regional. Vale priorizarla si la fecha cuadra."},
+            }
+        result = self.validate_modified_event(mutate)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_negated_higher_tier_comparison_is_valid(self):
+        def mutate(event):
+            event["priority"] = "S"
+            event["editorial"] = {
+                "en": {"why_it_matters": "A rare working-band context.", "trip_verdict": "S. It remains below S+ because this is a multi-night run."},
+                "es": {"why_it_matters": "Un contexto poco común de banda estable.", "trip_verdict": "S. No llega a S+ porque es una residencia de varias noches."},
+            }
+        result = self.validate_modified_event(mutate)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_historical_batch_normalizes_without_losing_evidence(self):
         path = PROCESSED / "historical-attendance-2026-08-14.json"
         candidates = validate_batch(read_json(path), path)

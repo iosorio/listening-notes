@@ -13,6 +13,13 @@ Use these meanings rather than a formula or a quota. The desired shape is a
 sanity check: A should be the broad base, A+ narrower, S rarer, and S+ truly
 exceptional. A grade is not a claim of universal artistic rank.
 
+Editorial copy must agree with the recorded grade in both languages. Do not
+leave a higher-tier declaration behind after recalibration: A copy may invite
+consideration, A+ may recommend active prioritization, S may say to protect the
+night, and S+ may say to alter plans. Comparisons explaining why an S event
+does not reach S+ are allowed, but the event must never affirmatively claim a
+different tier.
+
 ## Geography
 
 | Classification | Scope |

@@ -17,6 +17,32 @@ ATTENDANCE_EVIDENCE = {"user_confirmed", "personal_photo", "ticket_purchase", "l
 ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}(?:-\d{2}-\d{2})?$")
 ENRICHMENT_STATUSES = {"complete", "pending", "unavailable"}
 ENRICHMENT_FIELDS = {"official_event", "official_tickets", "apple_music"}
+NEGATED_TIER_COMPARISON = re.compile(
+    r"\b(?:stays?\s+below|remains?\s+below|stops?\s+short\s+of|does\s+not\s+(?:reach|rise\s+to)|not|"
+    r"no\s+(?:llega|alcanza)\s+a|no\s+es|(?:por\s+)?debajo\s+de)\s+(?:S\+|A\+|S)(?![\w+])",
+    re.IGNORECASE,
+)
+TIER_CLAIM_PATTERNS = (
+    re.compile(r"(?:^|[.!?]\s+)(S\+|A\+|S)(?=\s|[.:-])"),
+    re.compile(r"(?:^|[.!?]\s+)(A)(?=\.|:|-tier|\s+(?:within|dentro|local|regional|for|para))"),
+    re.compile(r"(?<!\w)(S\+|A\+|S|A)-tier(?!\w)", re.IGNORECASE),
+    re.compile(
+        r"\b(?:tier|priority|prioridad|nivel|rango|categoría|calificación)\s+"
+        r"(S\+|A\+|S|A)(?![\w+])",
+        re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(?:clears?|reaches?|earns?|crosses?|meets?)\s+(?:the\s+)?"
+        r"(S\+|A\+|S)(?![\w+])(?:\s+(?:bar|threshold|tier))?",
+        re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(?:llega|cruza|alcanza)\s+(?:a\s+|el\s+umbral\s+)?"
+        r"(S\+|A\+|S)(?![\w+])",
+        re.IGNORECASE,
+    ),
+    re.compile(r"\bmerece\s+(S\+|A\+|S)(?![\w+])", re.IGNORECASE),
+)
 
 
 def valid_public_url(value: object) -> bool:
@@ -54,6 +80,44 @@ def validate_enrichment(event: dict, event_id: str) -> None:
     else:
         if not missing or not isinstance(enrichment.get("note"), str) or not enrichment["note"].strip():
             fail(f"{event_id} pending/unavailable enrichment requires missing fields and an explanatory note")
+
+
+def validate_editorial_priority(event: dict, event_id: str) -> None:
+    priority = event.get("priority")
+    if priority not in PRIORITIES:
+        return
+    editorial = event["editorial"]
+    for language in ("en", "es"):
+        for field in ("why_it_matters", "trip_verdict"):
+            text = editorial[language].get(field)
+            if not isinstance(text, str):
+                continue
+            claim_text = NEGATED_TIER_COMPARISON.sub("", text)
+            claims = {
+                match.group(1).upper()
+                for pattern in TIER_CLAIM_PATTERNS
+                for match in pattern.finditer(claim_text)
+            }
+            mismatches = sorted(claim for claim in claims if claim != priority)
+            if mismatches:
+                fail(
+                    f"{event_id}.editorial.{language}.{field} claims "
+                    f"{', '.join(mismatches)} but priority is {priority}"
+                )
+            if priority in {"A", "A+"} and re.search(r"\b(?:protect\w*|proteg\w*)\b", text, re.IGNORECASE):
+                fail(f"{event_id}.editorial.{language}.{field} uses protect-the-night language below S")
+            if priority == "A" and re.search(
+                r"\b(?:prioriti(?:ze|zes|zed|zing|se|ses|sed|sing)|prioriz\w*)\b",
+                text,
+                re.IGNORECASE,
+            ):
+                fail(f"{event_id}.editorial.{language}.{field} uses A+ action language at A")
+            if priority != "S+" and re.search(
+                r"\b(?:alter plans|cambiar (?:los )?planes|mover (?:los )?planes)\b",
+                text,
+                re.IGNORECASE,
+            ):
+                fail(f"{event_id}.editorial.{language}.{field} uses alter-plans language below S+")
 
 
 def fail(message: str) -> None:
@@ -108,6 +172,7 @@ def main(path: Path) -> None:
         editorial = event.get("editorial")
         if not isinstance(editorial, dict) or not all(isinstance(editorial.get(lang), dict) for lang in ("en", "es")):
             fail(f"{event_id} requires English and Spanish editorial objects")
+        validate_editorial_priority(event, event_id)
         tickets = event.get("tickets", {})
         if tickets.get("currency") != "USD":
             fail(f"{event_id} requires an explicit ticket currency")
