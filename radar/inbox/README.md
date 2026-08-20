@@ -22,8 +22,8 @@ This directory is a handoff layer between research/editorial agents and the cano
 6. After a successful merge, move or copy the batch to a `processed/` archive (or record equivalent processing metadata) so the same batch cannot be applied twice.
 7. The merge must be deterministic and leave `events.json` valid, formatted, and reviewable in Git.
 8. S and S+ are scarcity tiers, not a synonym for a strong event. A curated
-   candidate at either tier must carry a completed `priority_review`; the merge
-   refuses it without one. This is a review gate, not a numerical quota.
+candidate at either tier must carry a completed `priority_review`; the merge
+refuses it without one. This is a review gate, not a numerical quota.
 
 ## Priority-review gate
 
@@ -34,7 +34,7 @@ it is not a score or a generic statement that the artist is excellent.
 ```json
 "priority_review": {
   "decision": "protect_the_night",
-  "reviewed_by": "Editorial reviewer",
+  "reviewed_by": "Codex editorial review",
   "reviewed_on": "YYYY-MM-DD",
   "rationale": "Why this is a genuine-regret-if-missed event."
 }
@@ -43,6 +43,8 @@ it is not a score or a generic statement that the artist is excellent.
 Use `"alter_plans"` for S+. The merge records the review in the event
 provenance and reports the grade distribution before, within, and after the
 batch so an editor can assess the shape without mechanically assigning grades.
+Codex normally supplies this review; a human may revise the priority or its
+rationale at any time.
 
 ## Merge workflow
 

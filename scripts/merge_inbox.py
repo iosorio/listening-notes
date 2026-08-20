@@ -40,7 +40,7 @@ def read_json(path: Path) -> dict:
 
 
 def validate_priority_review(event: dict, path: Path) -> None:
-    """Require a human editorial decision for the two scarcity tiers."""
+    """Require an explicit editorial decision for the two scarcity tiers."""
     priority = event.get("priority")
     if priority not in TOP_PRIORITIES:
         return
