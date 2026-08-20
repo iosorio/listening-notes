@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "mastodon-deafheaven-alcest-anthem-2026-09-25-discovery",
+  "notes": "Verified S-tier DMV heavy/experimental discovery. The Anthem's exact event page confirms Mastodon with Deafheaven and Alcest on September 25, 2026, with a 7:00 PM show and authorized Ticketmaster ticketing.",
+  "events": [
+    {
+      "id": "mastodon-deafheaven-alcest-anthem-washington-dc-2026-09-25",
+      "artist": "Mastodon with Deafheaven & Alcest",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-09-25",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Heavy / progressive / experimental rock",
+      "genres": [
+        "Progressive metal",
+        "Experimental metal",
+        "Blackgaze",
+        "Post-metal"
+      ],
+      "musical_axes": [
+        "Heavy",
+        "Fusion / Prog",
+        "Experimental",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Mastodon",
+        "Deafheaven",
+        "Alcest"
+      ],
+      "factual_description": "The Anthem presents Mastodon with Deafheaven and Alcest on September 25, 2026. Doors are at 5:30 PM and the show is at 7:00 PM. The exact venue page and its authorized Ticketmaster destination confirm the billing, date, time and Washington, DC venue.",
+      "links": {
+        "official_event": "https://theanthemdc.com/event/mastodon/",
+        "official_tickets": "https://www.ticketmaster.com/mastodon-washington-district-of-columbia-09-25-2026/event/150064BCD4EBF492"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Mastodon",
+          "title": "Leviathan",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/leviathan/65923490"
+        },
+        {
+          "artist": "Deafheaven",
+          "title": "Sunbather",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/sunbather/652038965"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact official event and authorized ticket URLs are verified, and exact Apple Music album pages are included for two central artistic reference points."
+      },
+      "sources": [
+        {
+          "url": "https://theanthemdc.com/event/mastodon/",
+          "publisher": "The Anthem",
+          "checked_on": "2026-08-20",
+          "note": "Exact official venue page confirming Mastodon with Deafheaven and Alcest, September 25, 2026, doors 5:30 PM and show 7:00 PM at The Anthem in Washington, DC."
+        },
+        {
+          "url": "https://www.ticketmaster.com/mastodon-washington-district-of-columbia-09-25-2026/event/150064BCD4EBF492",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-20",
+          "note": "Authorized ticket destination linked directly from The Anthem; confirms the September 25, 2026 7:00 PM event at The Anthem."
+        },
+        {
+          "url": "https://music.apple.com/us/album/leviathan/65923490",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-20",
+          "note": "Exact Apple Music album page for Mastodon's Leviathan."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sunbather/652038965",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-20",
+          "note": "Exact Apple Music album page for Deafheaven's Sunbather."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Billing, date, showtime and venue were verified on The Anthem's exact event page, with authorized ticketing cross-checked through the linked Ticketmaster event page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is much stronger than a routine metal package. Mastodon brings dense progressive architecture and an unusually physical rhythmic language; Deafheaven remains one of the defining bands at the black-metal/shoegaze boundary; Alcest is a foundational bridge between extreme metal and luminous post-rock texture. The value is the three-way concentration of heavy music that treats timbre, dynamics and instrumental identity as compositional material rather than mere volume.",
+          "trip_verdict": "Protect the night in the DMV. This is S-tier locally: a rare bill with three distinct but overlapping experimental-heavy languages, strong enough to justify a dedicated regional drive to Washington. It is not S+ because this is a touring package rather than a one-off, farewell or singular historical event.",
+          "listen_before": "Leviathan; Sunbather"
+        },
+        "es": {
+          "why_it_matters": "Esto es bastante más fuerte que un paquete rutinario de metal. Mastodon aporta arquitectura progresiva densa y un lenguaje rítmico muy físico; Deafheaven sigue siendo una de las bandas definitorias en la frontera entre black metal y shoegaze; Alcest es un puente fundacional entre metal extremo y texturas luminosas de post-rock. El valor está en concentrar tres lenguajes pesados distintos pero emparentados, donde timbre, dinámica e identidad instrumental funcionan como material compositivo y no sólo como volumen.",
+          "trip_verdict": "Hay que proteger la noche en el DMV. Es S local: un cartel raro con tres lenguajes heavy/experimentales distintos y suficientemente fuerte para justificar manejar regionalmente hasta Washington. No es S+ porque forma parte de una gira y no es un one-off, despedida ni acontecimiento histórico singular.",
+          "listen_before": "Leviathan; Sunbather"
+        }
+      }
+    }
+  ]
+}
