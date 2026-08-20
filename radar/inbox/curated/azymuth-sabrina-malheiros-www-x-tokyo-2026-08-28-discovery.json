@@ -1,0 +1,100 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "azymuth-sabrina-malheiros-www-x-tokyo-2026-08-28-discovery",
+  "notes": "Verified S-priority discovery found during Yamamoto-first monitoring. Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto's current web presence and credible Japanese jazz sources were checked first; no unrecorded Yamamoto date was found in this pass.",
+  "events": [
+    {
+      "id": "azymuth-sabrina-malheiros-www-x-tokyo-2026-08-28",
+      "artist": "Azymuth & Sabrina Malheiros",
+      "subtitle": "TSUBAKI fm presents Azymuth & Sabrina Malheiros Live in Tokyo",
+      "dates": {
+        "start": "2026-08-28",
+        "end": "2026-08-28"
+      },
+      "showtimes": ["20:30"],
+      "venue": {
+        "id": "www-x-shibuya-tokyo",
+        "name": "WWW X",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Brazilian jazz-funk / Samba / Groove / Cross-genre",
+      "genres": ["Brazilian jazz", "Jazz-funk", "Samba", "Fusion", "MPB"],
+      "musical_axes": ["Masters", "Improvised", "Groove", "Instrumental identity", "Cross-genre", "Cultural context", "Japan/Tokyo"],
+      "lineup": [
+        "Azymuth",
+        "Sabrina Malheiros",
+        "Masaki Tamura (DJ)"
+      ],
+      "factual_description": "WWW X presents Azymuth & Sabrina Malheiros in Shibuya on August 28, 2026, with doors at 7:30 PM and the live performance starting at 8:30 PM. The venue describes the show as the long-awaited Japan performance after the prior year's cancellation, built around Azymuth's current album Marca Passo and a special parent-child collaboration with Sabrina Malheiros, daughter of Azymuth bassist Alex Malheiros. The event is presented by TSUBAKI fm, with Masaki Tamura as DJ.",
+      "links": {
+        "official_event": "https://www-shibuya.jp/schedule/019764.php",
+        "official_tickets": "https://tsubakifm.zaiko.io/e/azymuth-sabrina-2026"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Azymuth",
+          "title": "Marca Passo",
+          "apple_music_url": "https://music.apple.com/us/album/marca-passo/1802942504"
+        },
+        {
+          "artist": "Sabrina Malheiros",
+          "title": "Equilibria",
+          "apple_music_url": "https://music.apple.com/us/album/equilibria/1044396593"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "WWW X",
+          "url": "https://www-shibuya.jp/schedule/019764.php",
+          "checked_on": "2026-08-20"
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "Zaiko / TSUBAKI fm",
+          "url": "https://tsubakifm.zaiko.io/e/azymuth-sabrina-2026",
+          "checked_on": "2026-08-20"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — Azymuth: Marca Passo",
+          "url": "https://music.apple.com/us/album/marca-passo/1802942504",
+          "checked_on": "2026-08-20"
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — Sabrina Malheiros: Equilibria",
+          "url": "https://music.apple.com/us/album/equilibria/1044396593",
+          "checked_on": "2026-08-20"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, venue, doors/start time, billing, DJ, current-album context, the prior-year cancellation context, the Sabrina/Alex Malheiros family connection, and authorized ticketing were verified from WWW X and the TSUBAKI fm Zaiko event page. No individual Azymuth touring members were inferred beyond the billing because the event page does not publish them."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Azymuth is not arriving as a museum piece. More than fifty years into the band's history, this Tokyo date is tied to Marca Passo and to the group's still-evolving samba-doido language, where electric jazz, funk, samba and studio-era futurism move as one groove system. Adding Sabrina Malheiros makes the night more specific: the musical lineage of Alex Malheiros is literally carried into a cross-generational Brazilian set, in a standing-room Shibuya club rather than a formal legacy presentation.",
+          "trip_verdict": "S within Greater Tokyo/Kanto. Protect the night and cross Tokyo for it: a rare Japan appearance by a foundational Brazilian jazz-funk group, after the previous year's cancellation, with Sabrina Malheiros and current material is stronger than a routine legacy-tour stop. It does not by itself justify a transpacific trip, but it is a serious anchor if a Tokyo music trip overlaps August 28.",
+          "listen_before": "Marca Passo; Equilibria"
+        },
+        "es": {
+          "why_it_matters": "Azymuth no llega como pieza de museo. Más de cincuenta años después de su formación, esta fecha en Tokio gira alrededor de Marca Passo y de un lenguaje samba-doido que sigue vivo, donde jazz eléctrico, funk, samba y futurismo de estudio funcionan como un solo sistema de groove. La presencia de Sabrina Malheiros vuelve la noche más específica: el linaje musical de Alex Malheiros aparece literalmente en un encuentro brasileño entre generaciones, además en un club de pie en Shibuya y no en una presentación formal de legado.",
+          "trip_verdict": "S dentro de Greater Tokyo/Kanto. Vale proteger la noche y cruzar Tokio por esto: una aparición japonesa poco común de un grupo fundacional del jazz-funk brasileño, después de la cancelación del año anterior, con Sabrina Malheiros y material actual, pesa bastante más que una parada rutinaria de una banda histórica. Por sí sola no justifica cruzar el Pacífico, pero sí es una ancla seria si un viaje musical a Tokio coincide con el 28 de agosto.",
+          "listen_before": "Marca Passo; Equilibria"
+        }
+      }
+    }
+  ]
+}
