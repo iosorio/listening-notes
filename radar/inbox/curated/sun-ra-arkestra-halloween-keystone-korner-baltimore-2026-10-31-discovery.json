@@ -1,0 +1,114 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sun-ra-arkestra-halloween-keystone-korner-baltimore-2026-10-31-discovery",
+  "notes": "Verified S-priority Baltimore discovery from Listening Notes monitoring on 2026-08-20. Yamamoto/ALFIE/BODY&SOUL and current Japanese jazz sources were checked first; no unrecorded Yamamoto date was verified in this pass. The Sun Ra Arkestra Halloween Spectacular qualifies because the venue explicitly frames the night around Sun Ra compositions, big-band swing, outer-space jazz, chanting, dancing and Afro-pageantry in an unusually apt Halloween context. The exact date-specific personnel are not published, so no individual performer is inferred for this event.",
+  "events": [
+    {
+      "id": "sun-ra-arkestra-halloween-keystone-korner-baltimore-2026-10-31",
+      "artist": "The Sun Ra Arkestra",
+      "subtitle": "Halloween Spectacular",
+      "dates": {
+        "start": "2026-10-31",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living jazz lineage / Afrofuturism / Halloween performance context",
+      "genres": [
+        "Jazz",
+        "Avant-garde jazz",
+        "Big band",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Experimental",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [],
+      "factual_description": "Keystone Korner Baltimore's authorized InstantSeats schedule lists The Sun Ra Arkestra Halloween Spectacular on Saturday, October 31, 2026 with 6:00 PM and 9:00 PM ticketed sets. The exact event page describes a program mixing classic Sun Ra compositions and arrangements with music rooted in his spirit, and characterizes the live presentation as combining big-band swing, outer-space jazz, dancing, singing, chanting and Afro-pageantry. The Sun Ra Arkestra's official site currently identifies Marshall Allen as the ensemble's leader and a current member, but Keystone has not published a date-specific personnel list for October 31, so no individual live lineup is asserted here.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=E1886DC8-A0C3-D7D9-7603A24BEFAACFC0&fuseaction=home.event",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sun Ra Arkestra",
+          "title": "Lights on a Satellite",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/lights-on-a-satellite/1773806227"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "InstantSeats is the authorized Keystone Korner ticketing source and the exact event page exposes active Get Tickets controls. Because the two ticketed sets may resolve to separate purchase destinations and an exact stable buy.event URL was not independently exposed in this pass, no purchase URL is fabricated; the event-specific authorized page is preserved as official_event."
+      },
+      "sources": [
+        {
+          "type": "authorized_venue_ticketing",
+          "name": "InstantSeats / Keystone Korner Baltimore — venue schedule",
+          "url": "https://www.instantseats.com/index.cfm?VenueID=514&fuseaction=home.venue",
+          "checked_on": "2026-08-20",
+          "note": "Authorized Keystone Korner Baltimore schedule verifies the October 31, 2026 date, Halloween Spectacular billing, two ticketed sets at 6:00 PM and 9:00 PM, and active sales."
+        },
+        {
+          "type": "authorized_event_page",
+          "name": "InstantSeats / Keystone Korner Baltimore — Sun Ra Arkestra Halloween Spectacular",
+          "url": "https://www.instantseats.com/index.cfm?eventID=E1886DC8-A0C3-D7D9-7603A24BEFAACFC0&fuseaction=home.event",
+          "checked_on": "2026-08-20",
+          "note": "Exact authorized event page verifies the Halloween Spectacular concept and describes the program as classic Sun Ra compositions and arrangements plus big-band swing, outer-space jazz, dancing, singing, chanting and Afro-pageantry. The page shown in search indexing is the 6:00 PM set."
+        },
+        {
+          "type": "official_artist",
+          "name": "Sun Ra Arkestra official website",
+          "url": "https://www.sunraarkestra.com/1-left.html",
+          "checked_on": "2026-08-20",
+          "note": "Official ensemble site currently lists Marshall Allen as leader/current member. Used only for present-day ensemble context; it is not treated as a date-specific lineup confirmation."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/lights-on-a-satellite/1773806227",
+          "checked_on": "2026-08-20",
+          "note": "Exact Apple Music album page for the current-era Sun Ra Arkestra recording Lights on a Satellite."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, both showtimes, venue, billing, performance concept and active ticketing were verified against Keystone Korner Baltimore's authorized InstantSeats listings. Present-day ensemble leadership was checked against the Sun Ra Arkestra's official site. No date-specific individual lineup or exact multi-set purchase URL was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is one of those contexts where the calendar date is part of the music. Sun Ra's language has always collapsed big-band swing, free improvisation, ritual, theater, science fiction and Afro-diasporic pageantry into a single live world; putting the Arkestra in an intimate Baltimore room for an explicitly billed Halloween Spectacular makes that world the point rather than decoration. The current ensemble also carries an unusually direct living line back to Sun Ra's original project. The date-specific personnel are not yet published, which keeps the rating at S rather than pushing it higher.",
+          "trip_verdict": "S regional/local. Protect the night and make the DMV-to-Baltimore drive if experimental jazz, Afrofuturism and a genuinely theatrical live context matter to you. Halloween is unusually native terrain for the Arkestra's cosmic language; it is not quite a destination-trip S+ without a date-specific lineup or a more singular one-off milestone.",
+          "listen_before": "Lights on a Satellite"
+        },
+        "es": {
+          "why_it_matters": "Éste es uno de esos casos donde la fecha del calendario forma parte de la música. El lenguaje de Sun Ra siempre mezcló big band swing, improvisación libre, ritual, teatro, ciencia ficción y una teatralidad afrodiaspórica dentro de un solo mundo en vivo; poner a la Arkestra en una sala íntima de Baltimore para un Halloween Spectacular anunciado explícitamente hace que ese universo sea el centro y no un adorno. El ensamble actual además conserva una línea viva extraordinariamente directa con el proyecto original de Sun Ra. Como todavía no se publica el personal específico de esa noche, se queda en S y no sube más.",
+          "trip_verdict": "S regional/local. Hay que proteger la noche y sí vale manejar del DMV a Baltimore si importan el jazz experimental, el afrofuturismo y un contexto escénico verdaderamente teatral. Halloween le queda de manera excepcional al lenguaje cósmico de la Arkestra; todavía no es S+ de viaje-destino sin un lineup específico para la fecha o un hito único adicional.",
+          "listen_before": "Lights on a Satellite"
+        }
+      }
+    }
+  ]
+}
