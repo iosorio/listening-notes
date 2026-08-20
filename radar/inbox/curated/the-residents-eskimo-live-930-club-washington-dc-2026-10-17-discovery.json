@@ -1,0 +1,49 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-residents-eskimo-live-930-club-washington-dc-2026-10-17-discovery",
+  "notes": "Verified S-priority DMV catch-up discovery found during Yamamoto-first monitoring on 2026-08-20. Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule sources and credible Japanese jazz sources were checked first; no unrecorded Tsuyoshi Yamamoto date was found. This 9:30 Club date qualifies because The Residents are presenting ESKIMO LIVE, an album-specific realization of their landmark 1979 conceptual work, in an iconic and relatively intimate Washington, DC club rather than as a generic legacy-act stop.",
+  "events": [
+    {
+      "id": "the-residents-eskimo-live-930-club-washington-dc-2026-10-17",
+      "artist": "The Residents",
+      "subtitle": "ESKIMO LIVE",
+      "dates": {"start": "2026-10-17", "end": null},
+      "showtimes": ["22:00"],
+      "venue": {"id": "930-club-washington-dc", "name": "9:30 Club", "city": "Washington", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Experimental / Avant-garde / Multimedia",
+      "genres": ["Experimental rock", "Avant-garde", "Art rock"],
+      "musical_axes": ["Experimental", "Cross-genre", "Cultural context"],
+      "lineup": ["The Residents"],
+      "factual_description": "9:30 Club lists THE RESIDENTS - ESKIMO LIVE for Saturday, October 17, 2026, with doors at 10:00 PM. Ticketmaster's exact authorized event page independently confirms The Residents, the October 17 date, 10:00 PM time and 9:30 Club in Washington, DC. The event is billed specifically as ESKIMO LIVE, centered on The Residents' landmark 1979 conceptual work rather than as a generic catalog performance.",
+      "links": {
+        "official_event": "https://www.930.com/?topic=8984.0",
+        "official_tickets": "https://www.ticketmaster.com/the-residents-eskimo-live-washington-district-of-columbia-10-17-2026/event/150064E9AC607411"
+      },
+      "recommended_listening": [{"artist": "The Residents", "title": "Eskimo", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/eskimo/561154795"}],
+      "enrichment": {"status": "complete", "missing": []},
+      "sources": [
+        {"url": "https://www.930.com/?topic=8984.0", "publisher": "9:30 Club", "checked_on": "2026-08-20", "note": "Official 9:30 Club listing confirms THE RESIDENTS - ESKIMO LIVE on Saturday, October 17 and shows 10:00 PM doors."},
+        {"url": "https://www.ticketmaster.com/the-residents-eskimo-live-washington-district-of-columbia-10-17-2026/event/150064E9AC607411", "publisher": "Ticketmaster", "checked_on": "2026-08-20", "note": "Exact authorized ticket destination confirms The Residents, 9:30 Club, Washington, DC, October 17, 2026 and 10:00 PM."},
+        {"url": "https://music.apple.com/us/album/eskimo/561154795", "publisher": "Apple Music", "checked_on": "2026-08-20", "note": "Exact Apple Music album page for The Residents' Eskimo."}
+      ],
+      "provenance": {"status": "verified-authoritative-sources", "note": "Date, venue, billing and 10:00 PM time were verified against 9:30 Club's official listing and Ticketmaster's exact authorized event page. Repository search found only the separate Blue Note Tokyo ESKIMO engagement. No additional performers, prices, staging details or set content beyond the ESKIMO LIVE billing are inferred."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a routine legacy-act booking. The Residents are bringing ESKIMO LIVE to the 9:30 Club, putting one of their defining late-1970s conceptual works into an iconic Washington club rather than a theater-scale retrospective. The reason to care is the album-specific frame and the group's half-century experimental/multimedia lineage: the live context is materially different from simply seeing The Residents play a catalog set.",
+          "trip_verdict": "S. Protect the night if you are in the DMV. The ESKIMO-specific presentation at 9:30 Club is distinctive enough to organize a Washington evening around and worth a regional drive, but it stays below S+ because this is one stop on a broader ESKIMO LIVE tour rather than a unique farewell, premiere or one-off reunion.",
+          "listen_before": "The Residents — Eskimo"
+        },
+        "es": {
+          "why_it_matters": "No es una fecha rutinaria de una banda histórica. The Residents lleva ESKIMO LIVE al 9:30 Club, poniendo una de sus obras conceptuales definitorias de finales de los setenta dentro de un club icónico de Washington en vez de una retrospectiva de teatro. La razón para poner atención es el marco específico de Eskimo y el linaje experimental/multimedia de medio siglo del grupo: el contexto en vivo es materialmente distinto a ver a The Residents tocar un set genérico de catálogo.",
+          "trip_verdict": "S. Hay que proteger la noche si estás en el DMV. La presentación específica de ESKIMO en el 9:30 Club alcanza para organizar una noche de Washington alrededor del concierto y justifica manejar una distancia regional, pero se queda debajo de S+ porque es una parada de una gira ESKIMO LIVE más amplia y no una despedida, estreno o reunión única.",
+          "listen_before": "The Residents — Eskimo"
+        }
+      }
+    }
+  ]
+}
