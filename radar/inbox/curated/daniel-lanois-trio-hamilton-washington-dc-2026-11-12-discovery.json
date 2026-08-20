@@ -1,0 +1,100 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "daniel-lanois-trio-hamilton-washington-dc-2026-11-12-discovery",
+  "notes": "Verified S-priority DMV discovery found during Yamamoto-first monitoring on 2026-08-20. Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule sources and credible Japanese jazz sources were checked first; no unrecorded Tsuyoshi Yamamoto date was found in this pass. Daniel Lanois Trio qualifies because The Hamilton Live is currently presenting the project in an intimate room while Lanois remains actively engaged in his own experimental/ambient work, including the 2026 album Belladonna Nocturne.",
+  "events": [
+    {
+      "id": "daniel-lanois-trio-hamilton-washington-dc-2026-11-12",
+      "artist": "Daniel Lanois",
+      "subtitle": "Daniel Lanois Trio",
+      "dates": {
+        "start": "2026-11-12",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "category": "Experimental / Ambient / Cross-genre",
+      "genres": [
+        "Ambient",
+        "Experimental",
+        "Rock"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Experimental",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Daniel Lanois"
+      ],
+      "factual_description": "The Hamilton Live lists Daniel Lanois Trio for Thursday, November 12, 2026 at 8:00 PM. The venue's authorized ticket page confirms doors at 6:30 PM, show at 8:00 PM, and active ticket sales. The current listing does not identify the other trio personnel, so no additional lineup members are inferred. Apple Music lists Lanois's current 2026 album Belladonna Nocturne, released June 19, as an ambient album.",
+      "links": {
+        "official_event": "https://wl.seetickets.us/event/daniel-lanois-trio/701127?afflky=TheHamiltonDC",
+        "official_tickets": "https://wl.seetickets.us/event/daniel-lanois-trio/701127?afflky=TheHamiltonDC"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Daniel Lanois",
+          "title": "Belladonna Nocturne",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/belladonna-nocturne/1896052511"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/calendar/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-08-20",
+          "note": "Official venue calendar lists Daniel Lanois Trio on Thursday, November 12, 2026 at 8:00 PM with tickets available."
+        },
+        {
+          "url": "https://wl.seetickets.us/event/daniel-lanois-trio/701127?afflky=TheHamiltonDC",
+          "publisher": "The Hamilton Live authorized ticketing",
+          "checked_on": "2026-08-20",
+          "note": "Exact authorized purchase destination confirms The Hamilton Live, Thursday November 12, doors 6:30 PM and show 8:00 PM."
+        },
+        {
+          "url": "https://music.apple.com/us/album/belladonna-nocturne/1896052511",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-20",
+          "note": "Exact Apple Music album page for Daniel Lanois's 2026 ambient album Belladonna Nocturne."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date, venue, billing, doors/show times and sale status were verified against The Hamilton Live's current calendar and its exact authorized ticket destination. Repository search found no existing Daniel Lanois Trio event. The current venue listing does not name the other trio members, so they are deliberately omitted. Recommended listening uses the exact Apple Music page for Lanois's 2026 album."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Lanois is not interesting here merely as the producer behind famous records. He has one of the most recognizable sonic languages in modern rock and ambient music, where composition, texture, space and sound design are inseparable. A live trio in The Hamilton's intimate room puts that language back in the foreground at a moment when he is still releasing exploratory work of his own, including 2026's Belladonna Nocturne. The draw is the chance to hear a living sonic architect operate as an active musician rather than as a legacy production credit.",
+          "trip_verdict": "S. Protect the night in DC. This is worth a dedicated DMV evening and a reasonable regional drive for the combination of Lanois's singular sound world and an intimate trio format. It stays below S+ because the current sources do not establish a one-off premiere, farewell, reunion or other singular historical circumstance.",
+          "listen_before": "Daniel Lanois — Belladonna Nocturne"
+        },
+        "es": {
+          "why_it_matters": "Lanois no interesa aquí sólo por ser el productor detrás de discos famosos. Tiene uno de los lenguajes sonoros más reconocibles del rock y el ambient modernos, donde composición, textura, espacio y diseño de sonido son inseparables. Un trío en una sala íntima como The Hamilton vuelve a poner ese lenguaje al frente justo cuando sigue publicando obra exploratoria propia, incluido Belladonna Nocturne de 2026. El atractivo es escuchar a un arquitecto sonoro vivo operar como músico activo y no como un crédito histórico de producción.",
+          "trip_verdict": "S. Hay que proteger la noche en DC. Justifica una salida dedicada dentro del DMV y un manejo regional razonable por la combinación del mundo sonoro singular de Lanois y el formato íntimo de trío. Se queda debajo de S+ porque las fuentes actuales no establecen un estreno único, despedida, reunión u otra circunstancia históricamente singular.",
+          "listen_before": "Daniel Lanois — Belladonna Nocturne"
+        }
+      }
+    }
+  ]
+}
