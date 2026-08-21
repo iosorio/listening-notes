@@ -1,0 +1,111 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "charlie-hunter-trio-billboard-live-tokyo-2027-01-13-discovery",
+  "notes": "Yamamoto-first discovery pass under the corrected durable editorial rubric. Current PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. Charlie Hunter Trio clears RADAR admission through a specific instrumental identity, intimate club context and a roughly seven-year return to Billboard Live; A+ captures the recommendation without inflating it into a scarcity tier.",
+  "events": [
+    {
+      "id": "charlie-hunter-trio-billboard-live-tokyo-2027-01-13",
+      "artist": "Charlie Hunter Trio",
+      "subtitle": "First Billboard Live return in roughly seven years",
+      "dates": {
+        "start": "2027-01-13",
+        "end": "2027-01-14"
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Jazz-funk / Instrumental identity",
+      "genres": [
+        "Jazz",
+        "Funk",
+        "Blues",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Improvised",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Charlie Hunter — guitar"
+      ],
+      "factual_description": "Billboard Live Tokyo presents the Charlie Hunter Trio on January 13-14, 2027, with two sets each night at 5:30 PM and 8:30 PM. The venue frames the engagement as Hunter's return to Billboard Live after roughly seven years and highlights the distinctive technique that lets him articulate bass lines, melody and chords simultaneously while moving across jazz, funk, blues and rock. The current event page names Charlie Hunter on guitar; the other trio members are not yet announced there.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21617",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Charlie Hunter, Corey Fonville, Andrew Randazzo & DJ Harrison",
+          "title": "Space Bomb",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/space-bomb/1862297219"
+        },
+        {
+          "artist": "Charlie Hunter Trio",
+          "title": "Charlie Hunter Trio",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/charlie-hunter-trio/1585901954"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page and two exact Apple Music album pages are verified. The event page exposes a Buy Tickets control but no stable event-specific authorized purchase URL was resolved in the source text checked in this pass, so no ticket URL is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21617",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Exact official event page confirms January 13-14, two daily set times, Charlie Hunter on guitar, the roughly seven-year return to Billboard Live and the venue's instrumental-context framing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/space-bomb/1862297219",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for Space Bomb, released June 5, 2026, documenting Hunter's current groove-centered language."
+        },
+        {
+          "url": "https://music.apple.com/us/album/charlie-hunter-trio/1585901954",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for the 1993 Charlie Hunter Trio album, useful for the trio lineage behind the billing."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, showtimes, venue, return context and Hunter's announced instrument were verified directly from Billboard Live Tokyo. Exact listening pages were verified on Apple Music. Repository search found no existing Charlie Hunter or Charlie Hunter Trio record. No unannounced trio members or ticket destination were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Hunter belongs on RADAR because the instrument itself changes the grammar of the trio. His custom guitar lets bass movement, chords and melody happen from one player, so groove and harmony are physically intertwined rather than divided between conventional guitar and bass roles. A two-night return to Billboard Live after roughly seven years is a strong setting for hearing that language at club scale without pretending the engagement is a once-only historical event.",
+          "trip_verdict": "Actively make room for one set if your Tokyo dates overlap. The long Billboard Live gap and the small-room focus make it a strong city-night anchor, but two nights by an active touring musician do not call for rebuilding a Japan itinerary around it.",
+          "listen_before": "Charlie Hunter et al. — Space Bomb; Charlie Hunter Trio — Charlie Hunter Trio"
+        },
+        "es": {
+          "why_it_matters": "Hunter entra al RADAR porque el instrumento mismo cambia la gramática del trío. Su guitarra personalizada le permite llevar bajo, acordes y melodía desde un solo músico, de modo que groove y armonía quedan físicamente entrelazados en vez de repartirse entre guitarra y bajo convencionales. Volver a Billboard Live después de unos siete años, en una residencia de dos noches y a escala de club, es un contexto fuerte para escuchar ese lenguaje sin fingir que se trata de un acontecimiento histórico de una sola vez.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets si coincide con tus días en Tokio. La larga ausencia de Billboard Live y la escala íntima hacen una noche muy buena dentro de la ciudad, pero dos noches de un músico activo en gira no justifican rehacer un itinerario por Japón alrededor de esta fecha.",
+          "listen_before": "Charlie Hunter et al. — Space Bomb; Charlie Hunter Trio — Charlie Hunter Trio"
+        }
+      }
+    }
+  ]
+}
