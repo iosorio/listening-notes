@@ -1,0 +1,396 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tokyo-blue-note-catchup-a-a-plus-2026-08-21",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. The current PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. This catch-up batch restores four Blue Note Tokyo dates that clear RADAR admission but were easy to miss under the former S/S+-only discovery filter. None is promoted to S: three are A+ events worth actively making room for, and Andrea Motis is A, a strong RADAR-worthy date to catch if convenient.",
+  "events": [
+    {
+      "id": "bill-laurance-trio-blue-note-tokyo-2026-09-05",
+      "artist": "Bill Laurance Trio",
+      "subtitle": "Lumen-era trio",
+      "dates": {
+        "start": "2026-09-05",
+        "end": "2026-09-06"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Contemporary jazz / Piano trio",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Groove"
+      ],
+      "lineup": [
+        "Bill Laurance — piano, keyboards",
+        "Menelik Claffey — bass",
+        "Oscar Ogden — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Bill Laurance Trio on September 5-6, 2026, with 4:30 PM and 7:30 PM sets each day. The venue identifies Laurance as an original Snarky Puppy member and presents this trio with bassist Menelik Claffey and drummer Oscar Ogden in the wake of Laurance's ACT album Lumen.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/bill-laurance/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Bill Laurance",
+          "title": "Lumen",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/lumen/1822724853"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Blue Note Tokyo event page and exact Apple Music album page are verified. Blue Note Tokyo shows web reservations as active, but no stable event-specific reservation URL was independently resolved in this pass, so no generic or inferred ticket destination is stored."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/bill-laurance/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Official event page confirms September 5-6, both set times, the full trio lineup and the Lumen-era framing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/lumen/1822724853",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for Bill Laurance's Lumen."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, lineup and current-project context were verified against Blue Note Tokyo; the listening link was verified on Apple Music. Repository search found no existing Bill Laurance Trio Blue Note Tokyo 2026 record before publication. No purchase URL was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Laurance belongs on RADAR because the trio puts the part of his language that can disappear inside a large ensemble in the foreground: piano touch, layered harmony, pulse and the border between acoustic jazz and electronic/fusion thinking. The current Lumen chapter gives the engagement a concrete present-tense reason beyond the Snarky Puppy connection.",
+          "trip_verdict": "Actively make room for one set if your Tokyo dates overlap, especially if piano, groove and modern fusion are part of the trip's listening thread. Two nights of an active trio project do not call for rebuilding the larger itinerary around it.",
+          "listen_before": "Bill Laurance — Lumen"
+        },
+        "es": {
+          "why_it_matters": "Laurance entra al RADAR porque el trío pone al frente la parte de su lenguaje que a veces se diluye dentro de un ensamble grande: toque de piano, armonía por capas, pulso y esa frontera entre jazz acústico y pensamiento electrónico/fusión. La etapa actual de Lumen le da a la fecha una razón presente y concreta más allá de la conexión con Snarky Puppy.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets si coincide con tus días en Tokio, sobre todo si piano, groove y fusión moderna forman parte del hilo del viaje. Son dos noches de un proyecto activo, así que no reorganizaría el itinerario completo alrededor de esta residencia.",
+          "listen_before": "Bill Laurance — Lumen"
+        }
+      }
+    },
+    {
+      "id": "septeto-santiaguero-blue-note-tokyo-2026-09-24",
+      "artist": "Septeto Santiaguero",
+      "subtitle": "¡Vívela! Salsa Tour 2026 featuring Mayito Rivera",
+      "dates": {
+        "start": "2026-09-24",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Cuban son / Latin",
+      "genres": [
+        "Son cubano",
+        "Salsa",
+        "Bolero",
+        "Latin"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Latin",
+        "Groove",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Fernando Dewar Webster — director, tres, vocals",
+        "Deyvis Yirat Hechavaria — guitar, vocals",
+        "Inocencio Heredia Castillo — vocals, maracas",
+        "Giraldo Bravo Ramirez — vocals, guiro",
+        "Pedro Dariel Dominico Roble — baby bass",
+        "Alain Antonio Dragoni Cotorruelo — trumpet, backing vocals",
+        "Yoilan Zamora Guibert — conga",
+        "Carlos Rafael Danger Plana — bongo, cowbell",
+        "Mayito Rivera — guest vocals"
+      ],
+      "factual_description": "Blue Note Tokyo presents Septeto Santiaguero on September 24, 2026, with 6:00 PM and 8:30 PM sets. The two-time Latin Grammy-winning Cuban son ensemble appears with guest vocalist Mayito Rivera, formerly a frontman of Los Van Van. The venue notes the group's 31st anniversary and lists support from the Embassy of Cuba in Japan plus cooperation from NPO Tiempo Iberoamericano and a Latin American music cultural-exchange fund.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/septeto-santiaguero/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Septeto Santiaguero",
+          "title": "Vamos Pa' la Fiesta",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/vamos-pa-la-fiesta/1131211073"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Blue Note Tokyo event page and exact Apple Music album page are verified. Web reservations are advertised as active, but no stable event-specific reservation destination was independently verified in this pass, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/septeto-santiaguero/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Official event page confirms September 24, both set times, full ensemble, Mayito Rivera as guest, 31st-anniversary framing and Cuban cultural-support context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/vamos-pa-la-fiesta/1131211073",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for Vamos Pa' la Fiesta."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, lineup, guest vocalist and cultural context were verified against Blue Note Tokyo; the listening link was verified on Apple Music. Repository search found no existing Septeto Santiaguero RADAR record before publication. No reservation URL was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a strong Tokyo catch because the band is not a revival proxy for Cuban son: Septeto Santiaguero is a working ensemble carrying the Santiago tradition forward, and Mayito Rivera adds a direct Los Van Van lineage on top. Tres, baby bass, trumpet and hand percussion make the instrumental architecture as important as the songs, while the Cuban cultural-exchange framing gives the Tokyo date a specific context.",
+          "trip_verdict": "Actively make room for one of the two sets if your Tokyo dates overlap, especially if Latin music, percussion and living Cuban lineage are part of the listening thread. It is a strong city-night anchor, not a reason by itself to reshape the whole Japan trip.",
+          "listen_before": "Septeto Santiaguero — Vamos Pa' la Fiesta"
+        },
+        "es": {
+          "why_it_matters": "Esta fecha está muy bien para Tokio porque la banda no es un sustituto nostálgico del son cubano: Septeto Santiaguero es un ensamble de trabajo que sigue cargando la tradición de Santiago, y Mayito Rivera añade una línea directa hacia Los Van Van. Tres, baby bass, trompeta y percusión de mano hacen que la arquitectura instrumental pese tanto como las canciones, mientras el marco de intercambio cultural cubano le da a la fecha un contexto específico en Japón.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si coincide con tus días en Tokio, sobre todo si música latina, percusión y linaje cubano vivo forman parte del viaje. Es una noche fuerte dentro de la ciudad, no una razón por sí sola para rehacer todo el itinerario de Japón.",
+          "listen_before": "Septeto Santiaguero — Vamos Pa' la Fiesta"
+        }
+      }
+    },
+    {
+      "id": "andrea-motis-guitar-trio-blue-note-tokyo-2026-09-27",
+      "artist": "Andrea Motis Guitar Trio",
+      "subtitle": "Intimate",
+      "dates": {
+        "start": "2026-09-27",
+        "end": "2026-09-28"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30",
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Acoustic jazz / Guitar trio",
+      "genres": [
+        "Jazz",
+        "Brazilian music",
+        "Folk",
+        "Chanson"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Andrea Motis — vocals, trumpet",
+        "Jurandir da Silva — guitar",
+        "Josep Traver — guitar"
+      ],
+      "factual_description": "Blue Note Tokyo presents Andrea Motis Guitar Trio 'Intimate' on September 27-28, 2026. September 27 has 4:30 PM and 7:30 PM sets; September 28 has 6:00 PM and 8:30 PM sets. Motis appears with longtime collaborator Josep Traver and Brazilian guitarist Jurandir da Silva around her 2026 album Intimate, with repertoire drawing from Brazilian music, jazz standards, folk, chanson and songs associated with Amy Winehouse.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/andrea-motis/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Andrea Motis",
+          "title": "Intimate",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/intimate/1880081823"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Blue Note Tokyo event page and exact Apple Music album page are verified. Reservations are open, but a stable event-specific purchase destination was not independently resolved in this pass, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/andrea-motis/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Official event page confirms September 27-28, day-specific set times, the full acoustic trio lineup and the Intimate repertoire framing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/intimate/1880081823",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for Andrea Motis's 2026 album Intimate."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, trio lineup and album/repertoire context were verified against Blue Note Tokyo; the exact listening page was verified on Apple Music. Repository search found no existing Andrea Motis Guitar Trio 2026 RADAR record before publication. No reservation URL was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to keep this date is the stripped-down instrumentation. Motis has both trumpet and voice available, but with two guitars and no conventional rhythm section the music has to live on touch, phrasing, harmonic color and space. The Brazilian strand in Intimate also gives the engagement a more specific identity than a generic vocal-jazz club date.",
+          "trip_verdict": "Worth keeping in view if September 27 or 28 is open in Tokyo, particularly for a quieter acoustic night between larger anchors. If it conflicts with a rarer master, one-off or stronger trip priority, I would take the other show.",
+          "listen_before": "Andrea Motis — Intimate"
+        },
+        "es": {
+          "why_it_matters": "La razón para conservar esta fecha es la instrumentación desnuda. Motis tiene disponibles trompeta y voz, pero con dos guitarras y sin sección rítmica convencional la música tiene que sostenerse en toque, fraseo, color armónico y espacio. El hilo brasileño de Intimate también le da una identidad más precisa que la de una fecha genérica de jazz vocal en club.",
+          "trip_verdict": "Vale tenerla presente si el 27 o 28 de septiembre está libre en Tokio, sobre todo como una noche acústica más tranquila entre conciertos-ancla. Si se cruza con un maestro más raro, un one-off o una prioridad de viaje más fuerte, escogería el otro show.",
+          "listen_before": "Andrea Motis — Intimate"
+        }
+      }
+    },
+    {
+      "id": "jharis-yokley-bigyuki-blue-note-tokyo-2026-09-29",
+      "artist": "Jharis Yokley + BIGYUKI",
+      "subtitle": "Drums + keyboards/synth duo",
+      "dates": {
+        "start": "2026-09-29",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Contemporary jazz / Electronic duo",
+      "genres": [
+        "Jazz",
+        "Hip-hop",
+        "Electronic",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Jharis Yokley — drums",
+        "BIGYUKI — keyboards, synthesizer"
+      ],
+      "factual_description": "Blue Note Tokyo presents Jharis Yokley + BIGYUKI on September 29, 2026, with 6:00 PM and 8:30 PM sets. The venue frames the one-night engagement as a drums-and-keyboards/synth duo built from their New York jazz, hip-hop and electronic vocabularies, noting Yokley's 2024 album Sometimes, Late At Night and BIGYUKI's 2026 EP John Connor, and says unreleased material may be performed.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/jharis-yokley/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jharis Yokley",
+          "title": "Sometimes, Late At Night",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/sometimes-late-at-night/1791814281"
+        },
+        {
+          "artist": "BIGYUKI",
+          "title": "John Connor - EP",
+          "kind": "ep",
+          "apple_music_url": "https://music.apple.com/jp/album/john-connor-ep/1891032816?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Blue Note Tokyo event page and exact Apple Music pages for both artists' current projects are verified. Web reservations are open, but no stable event-specific reservation destination was independently resolved in this pass, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/jharis-yokley/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Official event page confirms September 29, both set times, the two-person lineup, the New York jazz/hip-hop/electronic framing and the possibility of unreleased material."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sometimes-late-at-night/1791814281",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for Jharis Yokley's Sometimes, Late At Night."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/john-connor-ep/1891032816?l=en-US",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for BIGYUKI's 2026 John Connor EP."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, duo instrumentation and current-project context were verified against Blue Note Tokyo; listening links were verified on Apple Music. Repository search found no existing Jharis Yokley + BIGYUKI 2026 RADAR record before publication. No reservation URL was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears RADAR because the instrumentation is the concept: drums opposite keyboards and synth, with no bass player, guitar or horn section to stabilize the conversation. Yokley's elastic electronic-jazz drumming and BIGYUKI's keyboard sound design can treat groove, harmony and texture as a two-person system, which is much more specific than simply putting two strong New York players on the same bill.",
+          "trip_verdict": "Actively make room for one of the two sets if your Tokyo dates overlap. The one-night duo format is distinctive enough to anchor an evening inside the city, but it is not a singular historical event that should reorder the larger trip.",
+          "listen_before": "Jharis Yokley — Sometimes, Late At Night; BIGYUKI — John Connor - EP"
+        },
+        "es": {
+          "why_it_matters": "Esto entra al RADAR porque la instrumentación es el concepto: batería frente a teclados y sintetizador, sin bajo, guitarra ni metales que estabilicen la conversación. La batería elástica y electrónica de Yokley y el diseño sonoro de BIGYUKI pueden tratar groove, armonía y textura como un sistema de dos personas; eso es mucho más específico que simplemente juntar a dos músicos fuertes de Nueva York.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si coincide con tus días en Tokio. El formato de dúo y una sola noche alcanza para construir una salida alrededor del show dentro de la ciudad, pero no para reordenar el viaje completo.",
+          "listen_before": "Jharis Yokley — Sometimes, Late At Night; BIGYUKI — John Connor - EP"
+        }
+      }
+    }
+  ]
+}
