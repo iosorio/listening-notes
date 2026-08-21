@@ -1,0 +1,201 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wooten-brothers-aaron-parks-2026-08-21-catchup",
+  "notes": "Yamamoto-first pass found no new unrecorded Tsuyoshi Yamamoto performance. This catch-up intentionally applies the current two-stage editorial rubric and recovers two strong A+ events that would have been excluded by the former S/S+-only publication filter. Neither event is a scarcity-tier S: both clearly merit RADAR admission and active prioritization, while their broader touring/residency contexts make A+ the better fit.",
+  "events": [
+    {
+      "id": "the-wooten-brothers-hamilton-washington-dc-2026-09-13",
+      "artist": "The Wooten Brothers",
+      "subtitle": "Victor Wooten and The Wooten Brothers",
+      "dates": {
+        "start": "2026-09-13",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Fusion / Funk / Family band",
+      "genres": [
+        "Jazz fusion",
+        "Funk",
+        "Soul",
+        "Rock"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Victor Wooten — bass, vocals",
+        "Joseph Wooten — keyboards, vocals",
+        "Roy Wooten — percussion, vocals",
+        "Regi Wooten — guitar, vocals"
+      ],
+      "factual_description": "The Hamilton Live lists The Wooten Brothers for Sunday, September 13, 2026 at 8:00 PM in Washington, DC. The exact authorized ticket page confirms doors at 6:30 PM and the 8:00 PM show, and identifies the performing brothers as Victor, Regi, Roy and Joseph Wooten. The billing emphasizes the family's long-running crossover language spanning R&B, jazz, jazz fusion, funk, soul, country and rock.",
+      "links": {
+        "official_event": "https://www.eventim.us/event/the-wooten-brothers/696220",
+        "official_tickets": "https://www.eventim.us/event/the-wooten-brothers/696220"
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Wooten Brothers",
+          "title": "Sweat (Version a) - Single",
+          "kind": "single",
+          "apple_music_url": "https://music.apple.com/us/album/sweat-version-a-single/1706175497"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/calendar/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-08-21",
+          "note": "Official venue calendar confirms The Wooten Brothers on September 13, 2026 at 8:00 PM with tickets on sale."
+        },
+        {
+          "url": "https://www.eventim.us/event/the-wooten-brothers/696220",
+          "publisher": "See Tickets / EVENTIM",
+          "checked_on": "2026-08-21",
+          "note": "Exact authorized event and purchase page confirms The Hamilton Live, September 13, doors 6:30 PM, show 8:00 PM, and the Victor/Regi/Roy/Joseph Wooten family-band context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sweat-version-a-single/1706175497",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for The Wooten Brothers' Sweat (Version a) single."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date, venue and showtime were verified against The Hamilton Live; doors, billing and the exact purchase destination against its authorized ticketing path; current listening against Apple Music. Repository search found no existing Wooten Brothers Hamilton 2026 RADAR event before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not simply Victor Wooten's reputation on bass. The family band puts four distinct instrumental personalities back inside the musical system that formed them together: Regi's guitar, Joseph's keyboards, Roy's percussion and Victor's bass all pulling from funk, fusion, soul and rock with the reflexes of siblings who have played together since childhood. In a room the size of The Hamilton, the chemistry and rhythmic conversation are the reason to care.",
+          "trip_verdict": "Actively make room for this if the DMV date is free, especially if bass, groove or fusion are central to the current listening thread. It is a strong local night and worth a reasonable regional drive, but I would not reorganize a larger trip solely around this tour stop.",
+          "listen_before": "The Wooten Brothers — Sweat (Version a)"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente la fama de Victor Wooten como bajista. La banda familiar vuelve a poner cuatro identidades instrumentales dentro del sistema musical que las formó juntas: la guitarra de Regi, los teclados de Joseph, la percusión de Roy y el bajo de Victor, todos jalando de funk, fusión, soul y rock con los reflejos de hermanos que llevan tocando juntos desde niños. En una sala del tamaño de The Hamilton, la química y la conversación rítmica son la razón para entrarle.",
+          "trip_verdict": "Sí le haría espacio activamente si la fecha está libre en el DMV, sobre todo si bajo, groove o fusión están al centro de lo que andamos escuchando. Es una noche local fuerte y vale un manejo regional razonable, pero no reorganizaría un viaje mayor sólo alrededor de esta parada de gira.",
+          "listen_before": "The Wooten Brothers — Sweat (Version a)"
+        }
+      }
+    },
+    {
+      "id": "aaron-parks-trio-village-vanguard-2026-10-27",
+      "artist": "Aaron Parks Trio",
+      "subtitle": "Aaron Parks with Ben Street & Billy Hart",
+      "dates": {
+        "start": "2026-10-27",
+        "end": "2026-11-01"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "village-vanguard-new-york",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Modern jazz / Piano trio",
+      "genres": [
+        "Jazz",
+        "Modern jazz",
+        "Post-bop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Aaron Parks — piano",
+        "Ben Street — bass",
+        "Billy Hart — drums"
+      ],
+      "factual_description": "Village Vanguard lists Aaron Parks Trio with Ben Street and Billy Hart from October 27 through November 1, 2026. The official venue page links directly to the trio's ticket destination. This is the same piano-bass-drums lineup documented on the 2017 ECM album Find the Way, where Parks, Street and Hart developed a spacious, highly interactive trio language.",
+      "links": {
+        "official_event": "https://villagevanguard.com/event/coming-soon",
+        "official_tickets": "https://vv.squadup.com/artists/aaron-parks-trio"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Aaron Parks, Ben Street & Billy Hart",
+          "title": "Find the Way",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/find-the-way/1440834211"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://villagevanguard.com/event/coming-soon",
+          "publisher": "Village Vanguard",
+          "checked_on": "2026-08-21",
+          "note": "Official venue page confirms October 27-November 1, 2026 and the exact Aaron Parks / Ben Street / Billy Hart trio."
+        },
+        {
+          "url": "https://vv.squadup.com/artists/aaron-parks-trio",
+          "publisher": "Village Vanguard authorized ticketing",
+          "checked_on": "2026-08-21",
+          "note": "Exact ticket destination exposed by the official Village Vanguard event page for Aaron Parks Trio."
+        },
+        {
+          "url": "https://music.apple.com/us/album/find-the-way/1440834211",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for Find the Way by Aaron Parks, Ben Street and Billy Hart."
+        },
+        {
+          "url": "https://ecmrecords.com/product/find-the-way-aaron-parks-ben-street-billy-hart/",
+          "publisher": "ECM Records",
+          "checked_on": "2026-08-21",
+          "note": "Label page confirms the same trio lineup and describes the interaction between Parks, Street and Hart on Find the Way."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates and lineup were verified against Village Vanguard; the official venue page exposes the exact ticket destination; the trio's recorded context was verified against ECM and Apple Music. Repository search found no existing Aaron Parks Trio Village Vanguard 2026 RADAR record before publication. Showtimes were not stated on the current official listing and are therefore left empty rather than inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason this clears RADAR is the trio itself, not simply Aaron Parks at the Vanguard. Ben Street and Billy Hart are the rhythm section from Find the Way, and their balance of weight, elasticity and space gives Parks room to make a piano trio feel orchestral without crowding it. Hearing that exact long-standing conversation in the Vanguard is the kind of setting-lineup match that deserves active attention even without a premiere or anniversary attached.",
+          "trip_verdict": "Build a New York night around one of the sets if the trip overlaps this residency. The exact trio and the Vanguard setting make it worth prioritizing, but with six nights and no singular one-off context I would not make a standalone regional trip solely for this engagement.",
+          "listen_before": "Aaron Parks, Ben Street & Billy Hart — Find the Way"
+        },
+        "es": {
+          "why_it_matters": "La razón para meterlo al RADAR es el trío mismo, no simplemente Aaron Parks en el Vanguard. Ben Street y Billy Hart son la sección rítmica de Find the Way, y su mezcla de peso, elasticidad y espacio le permite a Parks hacer que un piano trío suene casi orquestal sin saturarlo. Escuchar esa conversación de años en el Vanguard es justo el tipo de encuentro entre formación y sala que merece atención activa aunque no venga acompañado de estreno o aniversario.",
+          "trip_verdict": "Si el viaje a Nueva York coincide con esta residencia, sí construiría una noche alrededor de uno de los sets. El trío exacto y el Vanguard hacen que valga priorizarlo, pero con seis noches y sin un contexto singular de una sola función no haría un viaje regional exclusivamente por esta residencia.",
+          "listen_before": "Aaron Parks, Ben Street & Billy Hart — Find the Way"
+        }
+      }
+    }
+  ]
+}
