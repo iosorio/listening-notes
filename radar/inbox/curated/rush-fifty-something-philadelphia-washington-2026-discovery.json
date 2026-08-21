@@ -1,0 +1,153 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "rush-fifty-something-philadelphia-washington-2026-discovery",
+  "notes": "Verified S-priority progressive-rock discovery from Yamamoto-first Listening Notes monitoring on 2026-08-21. Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedules and credible Japanese jazz sources were checked first; no unrecorded Yamamoto performance was verified in this pass. Rush's Fifty Something tour qualifies because Geddy Lee and Alex Lifeson are touring together for the first time in eleven years, explicitly honoring Neil Peart while opening a new rhythmic chapter with Anika Nilles.",
+  "events": [
+    {
+      "id": "rush-fifty-something-philadelphia-2026-08-21",
+      "artist": "Rush",
+      "subtitle": "Fifty Something",
+      "dates": {"start": "2026-08-21", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {"id": "xfinity-mobile-arena-philadelphia", "name": "Xfinity Mobile Arena", "city": "Philadelphia", "state": "PA", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "Listening Notes editorial review",
+        "reviewed_on": "2026-08-21",
+        "rationale": "Geddy Lee and Alex Lifeson's first tour together in eleven years, explicitly honoring Neil Peart and introducing Anika Nilles on drums, is a rare living-history context. The broad multi-city tour keeps the individual stop at S rather than S+."
+      },
+      "category": "Progressive rock / Historic return / Neil Peart tribute",
+      "genres": ["Progressive rock", "Hard rock", "Rock"],
+      "musical_axes": ["Masters", "Fusion/Prog", "Heavy", "Instrumental identity", "Cultural context"],
+      "lineup": ["Geddy Lee — bass, keyboards, vocals", "Alex Lifeson — guitar, vocals", "Anika Nilles — drums"],
+      "factual_description": "Rush's official Fifty Something tour page lists Philadelphia on August 21, 2026 at Xfinity Mobile Arena. The tour announcement describes the run as Geddy Lee and Alex Lifeson's first tour together in eleven years since the R40 finale in 2015, celebrating more than fifty years of Rush music while honoring Neil Peart. Anika Nilles is announced on drums. Ticketmaster's venue listing confirms the 7:30 PM show time.",
+      "links": {"official_event": "https://www.rush.com/show/fifty-something-2026-08-21/", "official_tickets": null},
+      "recommended_listening": [
+        {"artist": "Rush", "title": "R40 Live", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/r40-live/1440800207"},
+        {"artist": "Rush", "title": "Moving Pictures (Remastered)", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/moving-pictures-remastered/1440798539"}
+      ],
+      "enrichment": {"status": "pending", "missing": ["official_tickets"], "note": "The exact Rush show page verifies the date and venue, and Ticketmaster's venue listing confirms the show time and active event listing. A stable exact authorized purchase URL for the August 21 performance was not independently resolved in this pass, so official_tickets remains pending rather than fabricated."},
+      "sources": [
+        {"type": "official_artist", "name": "Rush", "url": "https://www.rush.com/rush-fifty-something-tour/", "checked_on": "2026-08-21", "note": "Official tour announcement confirming the first Lee/Lifeson tour together in eleven years, the Neil Peart tribute framing, and Anika Nilles on drums."},
+        {"type": "official_artist", "name": "Rush", "url": "https://www.rush.com/show/fifty-something-2026-08-21/", "checked_on": "2026-08-21", "note": "Exact official show page confirming August 21, 2026 at Xfinity Mobile Arena in Philadelphia."},
+        {"type": "authorized_ticketing", "name": "Ticketmaster", "url": "https://www.ticketmaster.com/xfinity-mobile-arena-tickets-philadelphia/venue/16609", "checked_on": "2026-08-21", "note": "Authorized venue listing confirming the Rush Fifty Something Philadelphia event and 7:30 PM show time."},
+        {"type": "streaming", "name": "Apple Music", "url": "https://music.apple.com/us/album/r40-live/1440800207", "checked_on": "2026-08-21", "note": "Exact Apple Music page for R40 Live."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Tour context, date and venue were verified from Rush's official site; show time and ticketing presence were corroborated by Ticketmaster. Repository search found no Rush/Fifty Something event before publication. No unverified personnel, prices or purchase URL were inferred."},
+      "editorial": {
+        "en": {"why_it_matters": "This is not a routine legacy-tour booking. Lee and Lifeson are returning to the road together for the first time since 2015, and the tour explicitly treats Neil Peart as irreplaceable rather than pretending the old trio can simply be recreated. Bringing Anika Nilles into the drum chair creates a genuinely new rhythmic problem for music whose identity depends heavily on meter, precision and ensemble architecture. The historical return and the musical risk are both real.", "trip_verdict": "S. Protect the night. This is worth a dedicated DMV-to-Philadelphia trip if Rush's progressive language matters to you. The eleven-year return and post-Peart context are rare; the fact that Fifty Something is a broad tour rather than a one-off keeps the individual date below S+.", "listen_before": "Rush — R40 Live; Moving Pictures (Remastered)"},
+        "es": {"why_it_matters": "Esto no es una fecha rutinaria de una banda de legado. Lee y Lifeson vuelven a la carretera juntos por primera vez desde 2015, y la gira trata explícitamente a Neil Peart como irreemplazable en vez de fingir que el viejo trío puede reconstruirse sin más. Poner a Anika Nilles en la batería crea un problema rítmico realmente nuevo para una música cuya identidad depende muchísimo de la métrica, la precisión y la arquitectura del ensamble. El regreso histórico y el riesgo musical son reales.", "trip_verdict": "S. Hay que proteger la noche. Sí vale un viaje dedicado DMV→Philadelphia si importa el lenguaje progresivo de Rush. El regreso después de once años y el contexto post-Peart son raros; que Fifty Something sea una gira amplia y no un acontecimiento único mantiene esta fecha por debajo de S+.", "listen_before": "Rush — R40 Live; Moving Pictures (Remastered)"}
+      }
+    },
+    {
+      "id": "rush-fifty-something-philadelphia-2026-08-23",
+      "artist": "Rush",
+      "subtitle": "Fifty Something",
+      "dates": {"start": "2026-08-23", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {"id": "xfinity-mobile-arena-philadelphia", "name": "Xfinity Mobile Arena", "city": "Philadelphia", "state": "PA", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {"decision": "protect_the_night", "reviewed_by": "Listening Notes editorial review", "reviewed_on": "2026-08-21", "rationale": "Geddy Lee and Alex Lifeson's first tour together in eleven years, explicitly honoring Neil Peart and introducing Anika Nilles on drums, is a rare living-history context. The broad multi-city tour keeps the individual stop at S rather than S+."},
+      "category": "Progressive rock / Historic return / Neil Peart tribute",
+      "genres": ["Progressive rock", "Hard rock", "Rock"],
+      "musical_axes": ["Masters", "Fusion/Prog", "Heavy", "Instrumental identity", "Cultural context"],
+      "lineup": ["Geddy Lee — bass, keyboards, vocals", "Alex Lifeson — guitar, vocals", "Anika Nilles — drums"],
+      "factual_description": "Rush's official Fifty Something tour page lists a second Philadelphia performance on August 23, 2026 at Xfinity Mobile Arena. The official tour announcement describes the run as Geddy Lee and Alex Lifeson's first tour together in eleven years, celebrating more than fifty years of Rush music while honoring Neil Peart, with Anika Nilles on drums. Ticketmaster confirms the August 23 performance at 7:30 PM and active authorized ticketing.",
+      "links": {"official_event": "https://www.rush.com/show/fifty-something-2026-08-23/", "official_tickets": "https://www.ticketmaster.com/event/30006351938F2E90"},
+      "recommended_listening": [
+        {"artist": "Rush", "title": "R40 Live", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/r40-live/1440800207"},
+        {"artist": "Rush", "title": "Moving Pictures (Remastered)", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/moving-pictures-remastered/1440798539"}
+      ],
+      "enrichment": {"status": "complete", "missing": []},
+      "sources": [
+        {"type": "official_artist", "name": "Rush", "url": "https://www.rush.com/rush-fifty-something-tour/", "checked_on": "2026-08-21", "note": "Official tour announcement confirming historical return, Neil Peart tribute framing and Anika Nilles."},
+        {"type": "official_artist", "name": "Rush", "url": "https://www.rush.com/show/fifty-something-2026-08-23/", "checked_on": "2026-08-21", "note": "Exact official show page confirming August 23, 2026 in Philadelphia."},
+        {"type": "authorized_ticketing", "name": "Ticketmaster", "url": "https://www.ticketmaster.com/event/30006351938F2E90", "checked_on": "2026-08-21", "note": "Exact authorized Ticketmaster destination confirming Xfinity Mobile Arena and 7:30 PM."},
+        {"type": "streaming", "name": "Apple Music", "url": "https://music.apple.com/us/album/r40-live/1440800207", "checked_on": "2026-08-21", "note": "Exact Apple Music page for R40 Live."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Tour context/date/venue were verified from Rush; exact ticketing and time were verified from Ticketmaster. Repository search found no Rush/Fifty Something event before publication."},
+      "editorial": {
+        "en": {"why_it_matters": "This is not a routine legacy-tour booking. Lee and Lifeson are returning to the road together for the first time since 2015, while the tour explicitly acknowledges Peart's absence and puts Anika Nilles into one of rock's most compositionally demanding drum roles. The point is not replacement; it is hearing how Rush's architecture survives and changes when its rhythmic center necessarily changes.", "trip_verdict": "S. Protect the night. Worth a dedicated DMV-to-Philadelphia trip. The context is historically rare, even though the multi-city tour keeps this individual stop below S+.", "listen_before": "Rush — R40 Live; Moving Pictures (Remastered)"},
+        "es": {"why_it_matters": "Esto no es una gira rutinaria de legado. Lee y Lifeson vuelven juntos a los escenarios itinerantes por primera vez desde 2015, mientras la gira reconoce explícitamente la ausencia de Peart y coloca a Anika Nilles en uno de los puestos de batería compositivamente más exigentes del rock. El punto no es reemplazarlo; es escuchar cómo sobrevive y cambia la arquitectura de Rush cuando necesariamente cambia su centro rítmico.", "trip_verdict": "S. Hay que proteger la noche. Sí vale un viaje dedicado DMV→Philadelphia. El contexto es históricamente raro, aunque la gira de múltiples ciudades mantiene esta fecha individual por debajo de S+.", "listen_before": "Rush — R40 Live; Moving Pictures (Remastered)"}
+      }
+    },
+    {
+      "id": "rush-fifty-something-washington-dc-2026-10-25",
+      "artist": "Rush",
+      "subtitle": "Fifty Something",
+      "dates": {"start": "2026-10-25", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {"id": "capital-one-arena-washington-dc", "name": "Capital One Arena", "city": "Washington, DC", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {"decision": "protect_the_night", "reviewed_by": "Listening Notes editorial review", "reviewed_on": "2026-08-21", "rationale": "Geddy Lee and Alex Lifeson's first tour together in eleven years, explicitly honoring Neil Peart and introducing Anika Nilles on drums, is a rare living-history context. Two Washington dates and the broad tour keep each individual stop at S rather than S+."},
+      "category": "Progressive rock / Historic return / Neil Peart tribute",
+      "genres": ["Progressive rock", "Hard rock", "Rock"],
+      "musical_axes": ["Masters", "Fusion/Prog", "Heavy", "Instrumental identity", "Cultural context"],
+      "lineup": ["Geddy Lee — bass, keyboards, vocals", "Alex Lifeson — guitar, vocals", "Anika Nilles — drums"],
+      "factual_description": "Rush's official Fifty Something show page lists Washington, DC on October 25, 2026 at Capital One Arena. Rush describes Fifty Something as Geddy Lee and Alex Lifeson's first tour together in eleven years since R40, celebrating more than fifty years of Rush music while honoring Neil Peart, with Anika Nilles on drums. Ticketmaster confirms the exact performance and a 7:30 PM show time.",
+      "links": {"official_event": "https://www.rush.com/show/fifty-something-2026-10-25/", "official_tickets": "https://www.ticketmaster.com/rush-fifty-something-washington-district-of-columbia-10-25-2026/event/15006350B9E88887"},
+      "recommended_listening": [
+        {"artist": "Rush", "title": "R40 Live", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/r40-live/1440800207"},
+        {"artist": "Rush", "title": "Moving Pictures (Remastered)", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/moving-pictures-remastered/1440798539"}
+      ],
+      "enrichment": {"status": "complete", "missing": []},
+      "sources": [
+        {"type": "official_artist", "name": "Rush", "url": "https://www.rush.com/rush-fifty-something-tour/", "checked_on": "2026-08-21", "note": "Official tour announcement confirming the first Lee/Lifeson tour together in eleven years, Neil Peart tribute framing and Anika Nilles."},
+        {"type": "official_artist", "name": "Rush", "url": "https://www.rush.com/show/fifty-something-2026-10-25/", "checked_on": "2026-08-21", "note": "Exact official show page confirming October 25, 2026 at Capital One Arena."},
+        {"type": "authorized_ticketing", "name": "Ticketmaster", "url": "https://www.ticketmaster.com/rush-fifty-something-washington-district-of-columbia-10-25-2026/event/15006350B9E88887", "checked_on": "2026-08-21", "note": "Exact authorized Ticketmaster destination confirming the Washington performance and 7:30 PM time."},
+        {"type": "streaming", "name": "Apple Music", "url": "https://music.apple.com/us/album/r40-live/1440800207", "checked_on": "2026-08-21", "note": "Exact Apple Music page for R40 Live."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Tour context/date/venue were verified from Rush; exact ticketing and time were verified from Ticketmaster. Repository search found no Rush/Fifty Something event before publication."},
+      "editorial": {
+        "en": {"why_it_matters": "Rush's return is historically meaningful because Lee and Lifeson are not pretending the old trio can simply be reconstructed after Peart. The tour names the loss, then puts Anika Nilles into a catalogue whose rhythmic writing is part of its identity. That makes this a chance to hear a canonical progressive-rock language being actively reconfigured rather than merely reproduced.", "trip_verdict": "S. Protect one of the two Washington nights. This is a major local event for progressive rock, instrumental identity and living rock history. The existence of two DC dates and a broad tour keeps it below S+.", "listen_before": "Rush — R40 Live; Moving Pictures (Remastered)"},
+        "es": {"why_it_matters": "El regreso de Rush importa históricamente porque Lee y Lifeson no están fingiendo que el viejo trío puede reconstruirse sin Peart. La gira nombra esa pérdida y después pone a Anika Nilles dentro de un catálogo cuya escritura rítmica forma parte de su identidad. Eso vuelve la fecha una oportunidad de escuchar un lenguaje canónico del rock progresivo siendo reconfigurado activamente, no simplemente reproducido.", "trip_verdict": "S. Hay que proteger una de las dos noches de Washington. Es un acontecimiento local mayor para el rock progresivo, la identidad instrumental y la historia viva del rock. La existencia de dos fechas en DC y una gira amplia la mantiene por debajo de S+.", "listen_before": "Rush — R40 Live; Moving Pictures (Remastered)"}
+      }
+    },
+    {
+      "id": "rush-fifty-something-washington-dc-2026-10-27",
+      "artist": "Rush",
+      "subtitle": "Fifty Something",
+      "dates": {"start": "2026-10-27", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {"id": "capital-one-arena-washington-dc", "name": "Capital One Arena", "city": "Washington, DC", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {"decision": "protect_the_night", "reviewed_by": "Listening Notes editorial review", "reviewed_on": "2026-08-21", "rationale": "Geddy Lee and Alex Lifeson's first tour together in eleven years, explicitly honoring Neil Peart and introducing Anika Nilles on drums, is a rare living-history context. Two Washington dates and the broad tour keep each individual stop at S rather than S+."},
+      "category": "Progressive rock / Historic return / Neil Peart tribute",
+      "genres": ["Progressive rock", "Hard rock", "Rock"],
+      "musical_axes": ["Masters", "Fusion/Prog", "Heavy", "Instrumental identity", "Cultural context"],
+      "lineup": ["Geddy Lee — bass, keyboards, vocals", "Alex Lifeson — guitar, vocals", "Anika Nilles — drums"],
+      "factual_description": "Rush's official Fifty Something show page lists Washington, DC on October 27, 2026 at Capital One Arena. Rush describes Fifty Something as Geddy Lee and Alex Lifeson's first tour together in eleven years since R40, celebrating more than fifty years of Rush music while honoring Neil Peart, with Anika Nilles on drums. Ticketmaster confirms the exact performance and a 7:30 PM show time.",
+      "links": {"official_event": "https://www.rush.com/show/fifty-something-2026-10-27/", "official_tickets": "https://www.ticketmaster.com/rush-fifty-something-washington-district-of-columbia-10-27-2026/event/150063551C7BC232"},
+      "recommended_listening": [
+        {"artist": "Rush", "title": "R40 Live", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/r40-live/1440800207"},
+        {"artist": "Rush", "title": "Moving Pictures (Remastered)", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/moving-pictures-remastered/1440798539"}
+      ],
+      "enrichment": {"status": "complete", "missing": []},
+      "sources": [
+        {"type": "official_artist", "name": "Rush", "url": "https://www.rush.com/rush-fifty-something-tour/", "checked_on": "2026-08-21", "note": "Official tour announcement confirming the first Lee/Lifeson tour together in eleven years, Neil Peart tribute framing and Anika Nilles."},
+        {"type": "official_artist", "name": "Rush", "url": "https://www.rush.com/show/fifty-something-2026-10-27/", "checked_on": "2026-08-21", "note": "Exact official show page confirming October 27, 2026 at Capital One Arena."},
+        {"type": "authorized_ticketing", "name": "Ticketmaster", "url": "https://www.ticketmaster.com/rush-fifty-something-washington-district-of-columbia-10-27-2026/event/150063551C7BC232", "checked_on": "2026-08-21", "note": "Exact authorized Ticketmaster destination confirming the Washington performance and 7:30 PM time."},
+        {"type": "streaming", "name": "Apple Music", "url": "https://music.apple.com/us/album/r40-live/1440800207", "checked_on": "2026-08-21", "note": "Exact Apple Music page for R40 Live."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Tour context/date/venue were verified from Rush; exact ticketing and time were verified from Ticketmaster. Repository search found no Rush/Fifty Something event before publication."},
+      "editorial": {
+        "en": {"why_it_matters": "Rush's return is historically meaningful because Lee and Lifeson are not pretending the old trio can simply be reconstructed after Peart. The tour names the loss, then puts Anika Nilles into a catalogue whose rhythmic writing is part of its identity. That makes this a chance to hear a canonical progressive-rock language being actively reconfigured rather than merely reproduced.", "trip_verdict": "S. Protect one of the two Washington nights. This is a major local event for progressive rock, instrumental identity and living rock history. The existence of two DC dates and a broad tour keeps it below S+.", "listen_before": "Rush — R40 Live; Moving Pictures (Remastered)"},
+        "es": {"why_it_matters": "El regreso de Rush importa históricamente porque Lee y Lifeson no están fingiendo que el viejo trío puede reconstruirse sin Peart. La gira nombra esa pérdida y después pone a Anika Nilles dentro de un catálogo cuya escritura rítmica forma parte de su identidad. Eso vuelve la fecha una oportunidad de escuchar un lenguaje canónico del rock progresivo siendo reconfigurado activamente, no simplemente reproducido.", "trip_verdict": "S. Hay que proteger una de las dos noches de Washington. Es un acontecimiento local mayor para el rock progresivo, la identidad instrumental y la historia viva del rock. La existencia de dos fechas en DC y una gira amplia la mantiene por debajo de S+.", "listen_before": "Rush — R40 Live; Moving Pictures (Remastered)"}
+      }
+    }
+  ]
+}
