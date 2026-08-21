@@ -1,0 +1,115 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "platina-jazz-cotton-club-tokyo-2026-11-29-discovery",
+  "notes": "Yamamoto-first discovery pass under the corrected durable editorial rubric. Current PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. Platina Jazz clears RADAR admission through a specific Japan-facing cross-genre concept and a large live ensemble, but the four-night return engagement is graded A rather than inflated into a scarcity tier.",
+  "events": [
+    {
+      "id": "platina-jazz-cotton-club-tokyo-2026-11-29",
+      "artist": "Platina Jazz",
+      "subtitle": "Rasmus Faber presents anime standards as a live jazz ensemble",
+      "dates": {
+        "start": "2026-11-29",
+        "end": "2026-12-02"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30",
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo-marunouchi",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Anime jazz / Cross-genre",
+      "genres": [
+        "Jazz",
+        "Anime soundtrack",
+        "Vocal jazz",
+        "Crossover"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Cross-genre",
+        "Groove"
+      ],
+      "lineup": [
+        "Niklas Gabrielsson — vocals",
+        "Emily McEwan — vocals",
+        "Martin Landström — piano",
+        "Ola Bothzén — drums",
+        "Martin Höper — bass",
+        "Nils Janson — trumpet",
+        "Karl Frid — trombone",
+        "Andreas Gidlund — tenor saxophone",
+        "Kristian Harborg — baritone saxophone",
+        "Thomas Eby — percussion, vocals",
+        "Rasmus Faber — vibraphone, keyboards"
+      ],
+      "factual_description": "COTTON CLUB presents Platina Jazz from November 29 through December 2, 2026. November 29 has 4:30 PM and 7:30 PM sets; November 30 through December 2 have 6:00 PM and 8:30 PM sets. The official event page lists an 11-person ensemble led by Rasmus Faber, with Niklas Gabrielsson and Emily McEwan on vocals, performing the project's jazz arrangements of Japanese anime songs.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/platina-jazz-261129/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Platina Jazz",
+          "title": "Anime Standards, Vol.3",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/anime-standards-vol-3/501615148"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact COTTON CLUB event page, dates, set times, lineup and Apple Music album page are verified. The official page exposes web reservation controls, but a stable event-specific purchase destination was not independently resolved in this pass, so no generic or session-dependent URL is substituted."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/platina-jazz-261129/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-21",
+          "note": "Official event page confirms November 29-December 2, day-specific set times, the 11-person lineup, Emily McEwan's return alongside Niklas Gabrielsson, and the anime-song jazz concept."
+        },
+        {
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/202611/",
+          "publisher": "COTTON CLUB reservation schedule",
+          "checked_on": "2026-08-21",
+          "note": "Official reservation schedule independently confirms the November 29-December 2 engagement and showtimes."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/anime-standards-vol-3/501615148",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for Anime Standards, Vol.3."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, showtimes, lineup and concept were verified against COTTON CLUB and its reservation schedule; exact listening was verified on Apple Music. Repository search found no existing Platina Jazz 2026 COTTON CLUB record. No ticket destination, unannounced personnel or program details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason this belongs is not simply that anime themes are being played as jazz. Rasmus Faber has spent years treating that repertoire as material for real arranging, horn writing, vocal interpretation and swing; this Tokyo return brings the project back as an 11-person ensemble with dual vocals. It is a useful piece of the Japan thread because it shows Japanese popular-memory repertoire being reworked through a Scandinavian jazz vocabulary rather than presented as novelty crossover.",
+          "trip_verdict": "Worth knowing about and catching if one of the four nights falls open in Tokyo, especially if the anime-to-jazz crossover itself is part of the listening thread. I would not displace a rarer master, one-off lineup or historically specific date for it.",
+          "listen_before": "Platina Jazz — Anime Standards, Vol.3"
+        },
+        "es": {
+          "why_it_matters": "Entra no simplemente porque convierta temas de anime en jazz. Rasmus Faber lleva años tratando ese repertorio como material real de arreglo, escritura para metales, interpretación vocal y swing; este regreso a Tokio vuelve a presentar el proyecto como un ensamble de once músicos con dos voces. Dentro del hilo Japón sirve porque muestra memoria popular japonesa releída desde un vocabulario jazzístico escandinavo y no como simple novedad crossover.",
+          "trip_verdict": "Vale tenerlo presente y entrarle si una de las cuatro noches queda libre en Tokio, sobre todo si el cruce anime-jazz forma parte de lo que quieres escuchar. No movería por esto una fecha más rara de un maestro, una formación de una sola noche o un contexto histórico más específico.",
+          "listen_before": "Platina Jazz — Anime Standards, Vol.3"
+        }
+      }
+    }
+  ]
+}
