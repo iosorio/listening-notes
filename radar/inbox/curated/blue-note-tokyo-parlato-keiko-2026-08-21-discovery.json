@@ -1,0 +1,193 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "blue-note-tokyo-parlato-keiko-2026-08-21-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md and radar/inbox/README.md were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. Two newly announced Blue Note Tokyo engagements clear RADAR admission without scarcity-tier inflation: Gretchen Parlato is A+; Keiko Lee Band is A.",
+  "events": [
+    {
+      "id": "gretchen-parlato-wise-ones-blue-note-tokyo-2027-01-31",
+      "artist": "Gretchen Parlato",
+      "subtitle": "The Wise Ones",
+      "dates": {
+        "start": "2027-01-31",
+        "end": "2027-02-02"
+      },
+      "showtimes": [
+        "16:30",
+        "18:00",
+        "19:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz / Vocal improvisation / New album",
+      "genres": [
+        "Jazz",
+        "Crossover Jazz",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Groove"
+      ],
+      "lineup": [
+        "Gretchen Parlato — vocals",
+        "Taylor Eigsti — piano, keyboards",
+        "Alan Hampton — bass, guitar",
+        "Mark Guiliana — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Gretchen Parlato's 'The Wise Ones' from January 31 through February 2, 2027. January 31 has 4:30 PM and 7:30 PM sets; February 1-2 have 6:00 PM and 8:30 PM sets. The announced quartet is Parlato with Taylor Eigsti, Alan Hampton and Mark Guiliana. Blue Note Tokyo frames the engagement around Parlato's new album The Wise Ones and notes that Hampton co-produced the record. Member presale begins August 22, 2026 and general web reservations begin August 29, 2026.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/gretchen-parlato/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gretchen Parlato",
+          "title": "The Wise Ones",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-wise-ones/1887341757"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact official event and Apple Music album page are verified. Blue Note Tokyo lists future member/general reservation opening dates, but no stable event-specific purchase destination was verified in this pass, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/gretchen-parlato/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Official event page confirms January 31-February 2, 2027, set times, quartet lineup, The Wise Ones program context and reservation-opening dates."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-wise-ones/1887341757",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for The Wise Ones."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, showtimes, venue, lineup and current-project context were verified against Blue Note Tokyo; the listening recommendation was verified against the exact Apple Music album page. Repository search found no existing Gretchen Parlato The Wise Ones Blue Note Tokyo record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The specific quartet is the reason to care. Parlato brings one of the most rhythmically distinctive voices in contemporary jazz, while Taylor Eigsti, Alan Hampton and Mark Guiliana give the music a band language built on pulse, space and elastic phrasing rather than conventional singer-plus-accompanists framing. With the engagement centered on The Wise Ones, this is a strong snapshot of her current music rather than a retrospective set.",
+          "trip_verdict": "Actively make room for one of the sets if your Tokyo dates overlap. The three-night run gives enough flexibility that it should not displace a rarer one-off, but the lineup is strong enough to build an evening around.",
+          "listen_before": "Gretchen Parlato — The Wise Ones"
+        },
+        "es": {
+          "why_it_matters": "La razón para entrarle es el cuarteto concreto. Parlato tiene una de las voces rítmicamente más particulares del jazz contemporáneo, y Taylor Eigsti, Alan Hampton y Mark Guiliana hacen que la música funcione como lenguaje de banda —pulso, espacio y fraseo elástico— más que como cantante con acompañamiento convencional. Al girar alrededor de The Wise Ones, la residencia muestra su música actual en lugar de funcionar como retrospectiva.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets si coincide con tus días en Tokio. Las tres noches dan suficiente flexibilidad para no desplazar un one-off más raro, pero la formación sí alcanza para construir una noche alrededor de ella.",
+          "listen_before": "Gretchen Parlato — The Wise Ones"
+        }
+      }
+    },
+    {
+      "id": "keiko-lee-band-blue-note-tokyo-2026-11-09",
+      "artist": "Keiko Lee Band",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-11-09",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese jazz / Vocal jazz / Veteran quartet",
+      "genres": [
+        "Jazz",
+        "Vocal Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Keiko Lee — vocals",
+        "Soichi Noriki — piano, keyboards",
+        "Akira Okazawa — bass",
+        "Yuichi Togashiki — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Keiko Lee Band on November 9, 2026, with 6:00 PM and 8:30 PM sets. Lee is joined by Soichi Noriki on piano and keyboards, Akira Okazawa on bass and Yuichi Togashiki on drums. The venue describes them as trusted veteran collaborators and connects the program to Lee's ongoing post-30th-anniversary period and the album Keiko Lee Sings Super Standards 3. Member presale begins August 27 and general web reservations begin September 3, 2026.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/keiko-lee/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Keiko Lee",
+          "title": "KEIKO LEE sings Super Standards 3",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/keiko-lee-sings-super-standards-3/1846615447"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact official event and Apple Music album page are verified. Blue Note Tokyo lists future reservation-opening dates, but no stable event-specific purchase destination was verified in this pass, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/keiko-lee/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Official event page confirms November 9, 2026, both set times, the four-person lineup and reservation-opening dates."
+        },
+        {
+          "url": "https://music.apple.com/us/album/keiko-lee-sings-super-standards-3/1846615447",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for KEIKO LEE sings Super Standards 3."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, showtimes, venue and lineup were verified against Blue Note Tokyo; the listening recommendation was verified against the exact Apple Music album page. Repository search found no existing Keiko Lee Band November 9, 2026 Blue Note Tokyo record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Lee's dark, low-register phrasing is the anchor, but the real RADAR case is the veteran quartet around her: Soichi Noriki, Akira Okazawa and Yuichi Togashiki are not anonymous support, and the one-night club setting gives that long-developed chemistry room to matter. It is a useful window into an established Japanese jazz language still being played by the musicians who shaped it.",
+          "trip_verdict": "Worth knowing about and attending if the night is open in Tokyo. I would keep it on the shortlist without moving a rarer master, premiere or unusually scarce lineup to make room for it.",
+          "listen_before": "Keiko Lee — KEIKO LEE sings Super Standards 3"
+        },
+        "es": {
+          "why_it_matters": "El centro es el fraseo oscuro y grave de Lee, pero la verdadera razón para meterlo al RADAR está en el cuarteto veterano que la rodea: Soichi Noriki, Akira Okazawa y Yuichi Togashiki no son acompañantes anónimos, y una sola noche de club deja que pese esa química desarrollada durante años. Es una buena ventana a un lenguaje del jazz japonés establecido que todavía tocan los músicos que ayudaron a formarlo.",
+          "trip_verdict": "Vale tenerlo en el radar e ir si esa noche está libre en Tokio. Lo mantendría en la lista sin desplazar un maestro más raro, un estreno o una alineación mucho más escasa para hacerle espacio.",
+          "listen_before": "Keiko Lee — KEIKO LEE sings Super Standards 3"
+        }
+      }
+    }
+  ]
+}
