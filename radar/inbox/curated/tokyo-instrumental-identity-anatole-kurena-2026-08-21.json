@@ -1,0 +1,213 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tokyo-instrumental-identity-anatole-kurena-2026-08-21",
+  "notes": "Yamamoto-first pass found no new unrecorded Tsuyoshi Yamamoto performance. This batch applies the current two-stage editorial rubric: both events clear RADAR admission because of specific instrumental identity and current-project context, then grade below the scarcity tiers. Anatole Muster is A+ for an unusually distinctive accordion/custom-synth trio and first COTTON CLUB appearance; Kurena Ishikawa is A for a strong current Japanese bassist-vocalist release-tour date with a notable full-band lineup. Recent corrected-rubric additions remain centered on A/A+ rather than defaulting strong events to S.",
+  "events": [
+    {
+      "id": "anatole-muster-cotton-club-tokyo-2026-11-06",
+      "artist": "Anatole Muster",
+      "subtitle": "COTTON CLUB debut — accordion / voice / custom synth trio",
+      "dates": {
+        "start": "2026-11-06",
+        "end": "2026-11-07"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Contemporary jazz-fusion / Instrumental identity",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Electronic",
+        "Pop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Anatole Muster — accordion, vocals, breathalyzer",
+        "Hugo Piper — bass",
+        "Ananda Brandão — drums"
+      ],
+      "factual_description": "COTTON CLUB presents Anatole Muster on November 6-7, 2026 for his first appearance at the club. November 6 has 6:00 PM and 8:30 PM sets; November 7 has 4:30 PM and 7:30 PM sets. The announced trio is Muster on accordion, vocals and the custom MIDI-controlled 'breathalyzer' instrument, Hugo Piper on bass and Ananda Brandão on drums. The venue frames the engagement around Muster's contemporary jazz-fusion language and the 2025 album hopecore, following collaborations with Kiefer, Louis Cole and Tennyson.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/anatole-muster-261106/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Anatole Muster",
+          "title": "hopecore",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/hopecore/1808177005"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact COTTON CLUB event page and Apple Music album are verified. COTTON CLUB shows web/phone reservations as open, but no stable event-specific purchase URL was independently resolved, so no generic or session-dependent reservation URL is substituted."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/anatole-muster-261106/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-21",
+          "note": "Official event page confirms November 6-7 dates, day-specific set times, first COTTON CLUB appearance, trio lineup, custom breathalyzer instrument and current-project context."
+        },
+        {
+          "url": "https://anatolemuster.com/",
+          "publisher": "Anatole Muster",
+          "checked_on": "2026-08-21",
+          "note": "Official artist site confirms current hopecore-era activity and touring."
+        },
+        {
+          "url": "https://music.apple.com/us/album/hopecore/1808177005",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for hopecore."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, set times, lineup, debut-at-venue context and instrumentation were verified against COTTON CLUB; current artist activity against Anatole Muster's official site; listening against Apple Music. Repository search found no existing Anatole Muster RADAR record. No stable event-specific reservation destination was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The accordion is not a novelty prop here. Muster uses it alongside voice and a custom electronic instrument to push a contemporary fusion language that can move between jazz harmony, beat-driven production and bright pop textures without losing instrumental personality. In a small room, with bass and drums rather than a larger production around him, that unusual sound-making setup is the reason to pay attention.",
+          "trip_verdict": "Actively make room for one of the four sets if your Tokyo dates overlap, especially if contemporary fusion and unusual instrumental voices are part of the trip. It is a strong night to build around in the city, not a reason by itself to reorganize the Japan itinerary.",
+          "listen_before": "Anatole Muster — hopecore"
+        },
+        "es": {
+          "why_it_matters": "Aquí el acordeón no funciona como curiosidad. Muster lo cruza con voz y un instrumento electrónico diseñado a su medida para armar un lenguaje de fusión contemporánea que pasa por armonía jazzística, producción rítmica y texturas pop sin perder identidad instrumental. En una sala pequeña, con bajo y batería en vez de una producción grande alrededor, esa forma poco común de construir sonido es justo lo que vuelve interesante la fecha.",
+          "trip_verdict": "Sí le haría espacio a uno de los cuatro sets si coincide con tus días en Tokio, sobre todo si el viaje trae un eje de fusión contemporánea e instrumentos con voz propia. Es una noche fuerte para construir dentro de la ciudad, pero no reorganizaría todo el itinerario por Japón sólo alrededor de ella.",
+          "listen_before": "Anatole Muster — hopecore"
+        }
+      }
+    },
+    {
+      "id": "kurena-ishikawa-garden-cotton-club-tokyo-2026-10-06",
+      "artist": "Kurena Ishikawa",
+      "subtitle": "Garden Release Tour — full-band Tokyo date",
+      "dates": {
+        "start": "2026-10-06",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Bass-led contemporary jazz / Album release",
+      "genres": [
+        "Jazz",
+        "Soul",
+        "Brazilian"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Kurena Ishikawa — bass, vocals",
+        "Taka Nawashiro — guitar",
+        "Kan — percussion",
+        "Gene Jackson — drums",
+        "Takeshi Ohbayashi — piano"
+      ],
+      "factual_description": "Kurena Ishikawa brings the Garden Release Tour to COTTON CLUB on October 6, 2026, with 6:00 PM and 8:30 PM sets. Ishikawa's official live schedule and Universal Music Japan confirm the Tokyo lineup: Ishikawa on bass/vocals, Taka Nawashiro on guitar, Kan on percussion, Gene Jackson on drums and Takeshi Ohbayashi on piano. Universal Music Japan describes the September 16 album Garden as drawing on 1970s soul and Brazilian flavors, with several of the same musicians appearing on the record.",
+      "links": {
+        "official_event": "https://swan-crane-ppmc.squarespace.com/live",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kurena Ishikawa",
+          "title": "Kurena",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kurena/1669142577"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The artist's official live schedule, COTTON CLUB schedule, Universal Music Japan release/tour information and exact Apple Music album page are verified. COTTON CLUB lists reservations as open, but a stable event-specific purchase destination was not independently resolved, so no generic booking URL is substituted."
+      },
+      "sources": [
+        {
+          "url": "https://swan-crane-ppmc.squarespace.com/live",
+          "publisher": "Kurena Ishikawa",
+          "checked_on": "2026-08-21",
+          "note": "Official artist live schedule confirms October 6 at COTTON CLUB, two set times and the five-member Tokyo lineup."
+        },
+        {
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/202610/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-21",
+          "note": "Official venue schedule confirms the October 6 Garden Release Tour date, 6:00 PM and 8:30 PM sets, and active reservation period."
+        },
+        {
+          "url": "https://www.universal-music.co.jp/kurena-ishikawa/news/2026-07-28/",
+          "publisher": "Universal Music Japan",
+          "checked_on": "2026-08-21",
+          "note": "Official label announcement confirms Garden's September 16 release, 1970s soul/Brazilian framing, tour dates and the full COTTON CLUB lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/kurena/1669142577",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for Kurena."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, set times and lineup were verified against Ishikawa's official schedule and COTTON CLUB; current album/tour context against Universal Music Japan; listening against Apple Music. Repository search found no existing Kurena Ishikawa RADAR record. No stable event-specific purchase destination was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a useful snapshot of the younger Japanese jazz scene rather than a prestige booking. Ishikawa puts bass and voice at the center, and the Tokyo date expands the release-tour group with Gene Jackson and Takeshi Ohbayashi, giving the new soul/Brazilian-leaning material a fuller rhythmic and harmonic frame. The interest is hearing an emerging instrumental identity develop in real time.",
+          "trip_verdict": "Worth considering if you are already in Tokyo and the date is open, particularly if bass-led contemporary Japanese jazz is part of what you want to hear. I would not move another major anchor or cross the city under time pressure for it.",
+          "listen_before": "Kurena Ishikawa — Kurena"
+        },
+        "es": {
+          "why_it_matters": "Esta fecha funciona como una buena fotografía de una generación más joven del jazz japonés, no como una reservación de prestigio por sí misma. Ishikawa pone bajo y voz en el centro, y la parada de Tokio amplía la banda de la gira con Gene Jackson y Takeshi Ohbayashi, dándole más peso rítmico y armónico al material nuevo con inclinaciones de soul y música brasileña. Lo interesante es escuchar cómo se va formando una identidad instrumental en tiempo real.",
+          "trip_verdict": "Vale considerarlo si ya estás en Tokio y tienes libre la fecha, especialmente si quieres seguir el jazz japonés contemporáneo con el bajo al frente. No movería otro concierto-ancla ni cruzaría la ciudad con el tiempo apretado sólo por esta función.",
+          "listen_before": "Kurena Ishikawa — Kurena"
+        }
+      }
+    }
+  ]
+}
