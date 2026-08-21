@@ -1,0 +1,117 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "linda-may-han-oh-melissa-aldana-the-stone-2026-08-21-discovery",
+  "notes": "Verified S-priority New York catch-up found during Yamamoto-first monitoring on 2026-08-21. Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto's available schedule, and credible Japanese jazz sources were checked first; no unrecorded Yamamoto performance was verified in this pass. Linda May Han Oh and Melissa Aldana perform their duo album Beneath Lifted Skies at The Stone at The New School on the album's release date. No showtime or advance ticket destination is committed because neither was verified from a stable primary/authorized event source in this pass.",
+  "events": [
+    {
+      "id": "linda-may-han-oh-melissa-aldana-the-stone-2026-08-21",
+      "artist": "Linda May Han Oh + Melissa Aldana",
+      "subtitle": "Beneath Lifted Skies — album release duo",
+      "dates": {
+        "start": "2026-08-21",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-stone-at-the-new-school-new-york",
+        "name": "The Stone at The New School",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-21",
+        "rationale": "This is a one-night release-date performance by the exact bass-and-tenor duo documented on Beneath Lifted Skies, in an artist-centric room built for concentrated listening. The exposed instrumentation, release-day context and two strongly individual contemporary improvisers make the interaction itself the event. It remains S rather than S+ because the duo is an active project with additional performances rather than a farewell, singular premiere, or one-time historical reunion."
+      },
+      "category": "Jazz / Duo / Album release / Contemporary improvisation",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Linda May Han Oh — bass",
+        "Melissa Aldana — tenor saxophone"
+      ],
+      "factual_description": "Linda May Han Oh's official performance schedule lists an August 21, 2026 New York appearance at The Stone at The New School as a duo with Melissa Aldana and explicitly identifies it as an album-release performance. Melissa Aldana's official site independently lists the same August 21 New York event as Linda Oh & Melissa Aldana — Beneath Lifted Skies. The artist-controlled Bandcamp release page confirms that Beneath Lifted Skies is released on August 21, 2026 and is performed by Linda May Han Oh on bass and Melissa Aldana on tenor saxophone. No showtime or unannounced personnel are inferred here.",
+      "links": {
+        "official_event": "https://www.bandsintown.com/e/108698109?affil_code=umg_us&app_id=umg_cmg_melissaaldana&came_from=267&utm_campaign=event&utm_medium=api&utm_source=public_api",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Linda May Han Oh feat. Melissa Aldana",
+          "title": "Beneath Lifted Skies",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/beneath-lifted-skies-feat-melissa-aldana/6780953401"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Both artists' official schedules verify the performance and Melissa Aldana's official site links to the exact Bandsintown event landing page. A stable advance-purchase or venue-authorized ticket destination was not independently verified; no generic or inferred ticket URL is substituted."
+      },
+      "sources": [
+        {
+          "type": "official_artist",
+          "name": "Linda May Han Oh",
+          "url": "https://www.lindamayhanoh.com/",
+          "checked_on": "2026-08-21",
+          "note": "Official artist schedule lists August 21, 2026 in New York at The Stone @ The New School, duo with Melissa Aldana, and identifies it as an album-release performance."
+        },
+        {
+          "type": "official_artist",
+          "name": "Melissa Aldana",
+          "url": "https://www.melissaaldana.net/",
+          "checked_on": "2026-08-21",
+          "note": "Official artist site independently lists August 21 Linda Oh & Melissa Aldana — Beneath Lifted Skies in New York and links to the exact event landing page."
+        },
+        {
+          "type": "artist_release",
+          "name": "Linda May Han Oh Bandcamp",
+          "url": "https://lindamayhanoh.bandcamp.com/album/beneath-lifted-skies",
+          "checked_on": "2026-08-21",
+          "note": "Artist-controlled release page confirms the August 21, 2026 release date and personnel: Linda May Han Oh on bass and Melissa Aldana on tenor saxophone."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/beneath-lifted-skies-feat-melissa-aldana/6780953401",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for Beneath Lifted Skies featuring Melissa Aldana."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, city, venue identity, duo billing and album-release context were verified independently through both artists' official schedules. The artist-controlled release page verifies the album release date and exact duo personnel, and Apple Music verifies the exact listening destination. The repository canonical dataset and current curated queue were searched before publication and no Linda May Han Oh / Melissa Aldana record was found. No showtime, price or ticket URL was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the rare case where radical economy is the point: bass and tenor saxophone, no harmonic cushion, celebrating the release of a record built entirely around their conversation. Han Oh and Aldana are both unmistakable instrumental voices, and at The Stone the exposed format should make time, breath, register and mutual reaction the whole architecture of the performance. The fact that it happens on the album's release date turns an already unusual duo into a specific live moment rather than a routine club stop.",
+          "trip_verdict": "S. Protect the night. Worth a dedicated New York trip if contemporary improvisation and instrumental identity are central to the draw. It remains below S+ because Beneath Lifted Skies is an active duo project with other performances rather than a one-night-only historical event.",
+          "listen_before": "Linda May Han Oh feat. Melissa Aldana — Beneath Lifted Skies"
+        },
+        "es": {
+          "why_it_matters": "Aquí la economía radical es justamente el punto: bajo y sax tenor, sin colchón armónico, celebrando la salida de un disco construido enteramente alrededor de su conversación. Han Oh y Aldana tienen voces instrumentales inconfundibles, y en The Stone el formato desnudo debería hacer del tiempo, la respiración, el registro y la reacción mutua toda la arquitectura de la función. Que ocurra el mismo día del lanzamiento convierte un dúo ya inusual en un momento en vivo específico, no en otra fecha rutinaria de club.",
+          "trip_verdict": "S. Hay que proteger la noche. Sí vale un viaje dedicado a Nueva York si la improvisación contemporánea y la identidad instrumental son el centro del interés. Se queda debajo de S+ porque Beneath Lifted Skies es un proyecto de dúo activo con otras presentaciones, no un acontecimiento histórico de una sola noche.",
+          "listen_before": "Linda May Han Oh feat. Melissa Aldana — Beneath Lifted Skies"
+        }
+      }
+    }
+  ]
+}
