@@ -1,0 +1,127 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "willie-nelson-neil-young-highmark-mann-2026-09-24-discovery",
+  "notes": "Verified S-priority Philadelphia discovery found during Yamamoto-first monitoring on 2026-08-21. Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedules and credible Japanese jazz sources were checked first; no unrecorded Yamamoto performance was verified in this pass. Willie Nelson & Family / Neil Young & The Chrome Hearts qualifies because it is a newly added co-headlining show by two living American music masters, one of only two current East Coast co-headline dates listed before their Farm Aid appearance.",
+  "events": [
+    {
+      "id": "willie-nelson-neil-young-highmark-mann-2026-09-24",
+      "artist": "Willie Nelson & Family / Neil Young & The Chrome Hearts",
+      "subtitle": "Co-headlining show with special guest Ty Myers",
+      "dates": {
+        "start": "2026-09-24",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "td-pavilion-highmark-mann-philadelphia",
+        "name": "TD Pavilion at Highmark Mann",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-21",
+        "rationale": "The appeal is not simply name recognition. Willie Nelson, now in his nineties, and Neil Young are sharing a full co-headlining bill in Philadelphia in a very small run of East Coast dates immediately before Farm Aid. The combination of advanced-career masters, a rare joint bill and limited repetition makes this a genuine-regret-if-missed regional event, while the existence of another co-headline date and the Farm Aid appearance keep it below S+."
+      },
+      "category": "Living masters / Rare co-headline / American roots and rock",
+      "genres": [
+        "Rock",
+        "Country",
+        "Folk rock",
+        "Americana"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Willie Nelson & Family",
+        "Neil Young & The Chrome Hearts",
+        "Ty Myers (special guest)"
+      ],
+      "factual_description": "Highmark Mann and Live Nation present Willie Nelson & Family / Neil Young & The Chrome Hearts at TD Pavilion in Philadelphia on Thursday, September 24, 2026 at 7:00 PM, with doors at 5:30 PM and Ty Myers as special guest. The venue marks the show as newly added. Current authoritative ticket listings also show a second co-headlining date in Bridgeport on September 22 before Nelson and Young both appear at Farm Aid in Virginia Beach on September 26.",
+      "links": {
+        "official_event": "https://highmarkmann.org/nelson-young",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Willie Nelson",
+          "title": "Dream Chaser",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/dream-chaser/1884219677"
+        },
+        {
+          "artist": "Neil Young & The Chrome Hearts",
+          "title": "As Time Explodes - The Live Album",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/as-time-explodes-the-live-album/1881785625"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The official Highmark Mann event page confirms active ticket sales and links outward to the authorized seller, but an exact stable event-specific purchase URL was not independently resolved in this pass, so no generic or guessed ticket URL is committed."
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Highmark Mann",
+          "url": "https://highmarkmann.org/nelson-young",
+          "checked_on": "2026-08-21",
+          "note": "Exact official event page; confirms Willie Nelson & Family / Neil Young & The Chrome Hearts, Ty Myers, TD Pavilion, September 24, 2026, 7:00 PM showtime, 5:30 PM doors, and that the show was newly added."
+        },
+        {
+          "type": "authoritative_ticket_listing",
+          "name": "Ticketmaster",
+          "url": "https://www.ticketmaster.ca/willie-nelson-tickets/artist/732878",
+          "checked_on": "2026-08-21",
+          "note": "Current authoritative artist ticket listing corroborates the September 24 Philadelphia date, billing and 7:00 PM time, and shows the other current co-headline date in Bridgeport on September 22 plus Farm Aid on September 26."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/dream-chaser/1884219677",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for Willie Nelson's 2026 album Dream Chaser."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/as-time-explodes-the-live-album/1881785625",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for Neil Young & The Chrome Hearts' 2026 live album As Time Explodes."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Event facts were verified against Highmark Mann's exact event page and corroborated by a current Ticketmaster listing. The repository was searched for the artist pairing and stable event ID before publication and no existing record was found. No unverified individual band personnel, ticket URL or pricing was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not simply two famous names sharing a bill. Willie Nelson and Neil Young are two living architects of American roots music whose phrasing, songwriting and guitar languages remain immediately identifiable, and the Philadelphia show is part of a very small co-headlining run immediately before Farm Aid. At this stage of both careers, the chance to hear full sets from both on one night carries real historical weight without needing a farewell label to manufacture urgency.",
+          "trip_verdict": "S. Protect the night. This is worth a dedicated DMV-to-Philadelphia trip because the joint billing is rare, the run is limited and the two artists carry unusually deep living lineage. It stays below S+ because there is another co-headline date two days earlier and both artists are also scheduled for Farm Aid two days later.",
+          "listen_before": "Willie Nelson — Dream Chaser; Neil Young & The Chrome Hearts — As Time Explodes - The Live Album"
+        },
+        "es": {
+          "why_it_matters": "Esto no es simplemente juntar dos nombres famosos. Willie Nelson y Neil Young son dos arquitectos vivos de la música de raíz estadounidense, con fraseo, escritura y lenguajes de guitarra inmediatamente reconocibles, y la fecha de Filadelfia forma parte de una corrida muy pequeña de shows co-headline justo antes de Farm Aid. A estas alturas de sus carreras, escuchar sets completos de ambos en una sola noche tiene peso histórico real sin necesidad de inventar una narrativa de despedida.",
+          "trip_verdict": "S. Hay que proteger la noche. Sí vale un viaje dedicado DMV→Filadelfia porque el billing conjunto es raro, la corrida es limitada y ambos artistas cargan un linaje vivo enorme. Se queda debajo de S+ porque hay otra fecha co-headline dos días antes y ambos también están anunciados para Farm Aid dos días después.",
+          "listen_before": "Willie Nelson — Dream Chaser; Neil Young & The Chrome Hearts — As Time Explodes - The Live Album"
+        }
+      }
+    }
+  ]
+}
