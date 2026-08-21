@@ -1,0 +1,298 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tokyo-roots-coshunie-nikaido-2026-08-21-catchup",
+  "notes": "Yamamoto-first discovery pass under the corrected durable editorial rubric. Current PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. This catch-up restores three Greater Tokyo events that clear RADAR admission without inflating scarcity tiers: The Roots and Kazumi Nikaido are A+; Cö shu Nie is A.",
+  "events": [
+    {
+      "id": "the-roots-billboard-live-tokyo-2026-09-03",
+      "artist": "The Roots",
+      "subtitle": "Japan Tour 2026 — Billboard Live Tokyo club dates",
+      "dates": {
+        "start": "2026-09-03",
+        "end": "2026-09-04"
+      },
+      "showtimes": [
+        "17:30",
+        "21:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Live hip-hop band / Groove",
+      "genres": [
+        "Hip-hop",
+        "Jazz",
+        "Soul",
+        "Funk",
+        "Rock"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Black Thought — MC",
+        "Questlove — drums, musical director",
+        "Kamal Gray — keyboards",
+        "Raymond Angry — keyboards",
+        "Captain Kirk Douglas — guitar",
+        "Thaddaeus Tribbett — bass",
+        "Stro Elliot — percussion",
+        "Dave Guy — trumpet",
+        "Michael Buckley — saxophone",
+        "Tuba Gooding Jr. — sousaphone"
+      ],
+      "factual_description": "Billboard JAPAN presents The Roots at Billboard Live Tokyo on September 3 and 4, 2026, with two sets each night at 5:30 PM and 9:00 PM. The official Japan Tour page lists the ten-member live lineup led by Black Thought and Questlove. The two club nights follow a Zepp Namba date on August 31 and Zepp Haneda on September 1. The official tour ticket page on eplus lists both Billboard Live Tokyo dates and set times; its allotment is currently shown as sold out/ended for those sets.",
+      "links": {
+        "official_event": "https://www.billboard-japan.com/therootsjapantour2026/",
+        "official_tickets": "https://eplus.jp/the-roots/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Roots",
+          "title": "Things Fall Apart",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/things-fall-apart/1479929235"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact official Japan Tour page, exact authorized tour ticket page and exact Apple Music album page are verified. The eplus page currently shows the Billboard Live Tokyo allotment as ended/sold out; the link is retained as the authorized exact tour-ticket source rather than implying current inventory."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-japan.com/therootsjapantour2026/",
+          "publisher": "Billboard JAPAN",
+          "checked_on": "2026-08-21",
+          "note": "Official Japan Tour page confirms September 3-4 at Billboard Live Tokyo, both set times, the full ten-member lineup and the surrounding four-date Japan routing."
+        },
+        {
+          "url": "https://eplus.jp/the-roots/",
+          "publisher": "eplus",
+          "checked_on": "2026-08-21",
+          "note": "Authorized tour-ticket page confirms both Billboard Live Tokyo dates and set times and currently marks its allotment for those four sets as ended/sold out."
+        },
+        {
+          "url": "https://music.apple.com/us/album/things-fall-apart/1479929235",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for Things Fall Apart."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, venue, full announced lineup and Japan Tour routing were verified on Billboard JAPAN's official tour page; authorized ticket status was checked on eplus; listening is an exact Apple Music album page. Repository search found no existing The Roots Japan Tour / Billboard Live Tokyo RADAR record. No extra personnel or current ticket inventory were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The concrete draw is the room as much as the name. The Roots remain one of the clearest cases where hip-hop is a live-band language: Questlove's time, Black Thought's phrasing, a two-keyboard setup, guitar, bass, percussion and a three-horn low-end/brass layer all matter physically. Hearing that ten-piece machinery at Billboard Live Tokyo is a more concentrated proposition than the larger Zepp stop two days earlier.",
+          "trip_verdict": "Actively make room for one of the four club sets if your Tokyo dates overlap. The intimate setting is the reason to prefer these nights within the Japan run, but multiple sets across two nights mean there is no need to rebuild a trip around a single performance.",
+          "listen_before": "The Roots — Things Fall Apart"
+        },
+        "es": {
+          "why_it_matters": "La razón concreta es tanto la sala como el nombre. The Roots sigue siendo uno de los casos más claros donde el hip-hop funciona como lenguaje de banda en vivo: el tiempo de Questlove, el fraseo de Black Thought, dos teclados, guitarra, bajo, percusión y una capa de metales y graves forman parte física del sonido. Escuchar esa maquinaria de diez músicos en Billboard Live Tokyo concentra mucho más la experiencia que la parada grande de Zepp dos días antes.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets si coincide con tus días en Tokio. La escala íntima es precisamente lo que vuelve especiales estas fechas dentro de la gira japonesa, pero al haber varias oportunidades en dos noches no hace falta reconstruir el viaje alrededor de una sola función.",
+          "listen_before": "The Roots — Things Fall Apart"
+        }
+      }
+    },
+    {
+      "id": "co-shu-nie-billboard-live-tokyo-2026-11-03",
+      "artist": "Cö shu Nie",
+      "subtitle": "A cöshutic Nie Vol.6 — acoustic Billboard Live set",
+      "dates": {
+        "start": "2026-11-03",
+        "end": null
+      },
+      "showtimes": [
+        "15:00",
+        "18:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Progressive rock / Acoustic reinterpretation",
+      "genres": [
+        "Progressive rock",
+        "Experimental rock",
+        "Alternative rock",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Experimental / Metal",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Miku Nakamura — vocals, instruments",
+        "Shunsuke Matsumoto — bass"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Cö shu Nie on November 3, 2026 for two sets at 3:00 PM and 6:00 PM as part of the annual A cöshutic Nie Billboard Live tour. Billboard describes the performance as an acoustic arrangement of the progressive-rock band's repertoire, emphasizing Miku Nakamura's writing and vocal/instrumental range and Shunsuke Matsumoto's bass groove. The Tokyo performance precedes a November 7 Billboard Live Osaka date. Cö shu Nie released Saturated (In Monochrome) on July 22, 2026.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21599",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Cö shu Nie",
+          "title": "Saturated (In Monochrome)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/saturated-in-monochrome/6789055846?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page and exact Apple Music album page are verified. The official event page exposes a Buy Tickets control, but a stable event-specific purchase destination was not resolved in the accessible source, so no generic or session-dependent URL is substituted."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21599",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Exact official event page confirms November 3, both set times, the annual acoustic Billboard concept, the Tokyo/Osaka routing and the band's writing/bass-groove framing."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/saturated-in-monochrome/6789055846?l=en-US",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for Saturated (In Monochrome), released July 22, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, venue and acoustic-tour concept were verified directly from Billboard Live Tokyo; current listening was verified on Apple Music. Repository search found no existing Cö shu Nie Billboard Live Tokyo record. No additional touring personnel or ticket destination were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The admission case is the rearrangement, not merely the band's popularity. Cö shu Nie builds dense, rhythmically unstable progressive rock around Nakamura's writing and Matsumoto's bass; taking that material into an acoustic Billboard format exposes the composition, pulse and low-end architecture from a different angle. It is a recurring series, which makes it valuable RADAR context rather than a scarcity event.",
+          "trip_verdict": "Worth keeping on the board if November 3 is open in Tokyo, especially if the progressive and experimental thread is running through the trip. I would not displace a rarer master, premiere or one-off for it.",
+          "listen_before": "Cö shu Nie — Saturated (In Monochrome)"
+        },
+        "es": {
+          "why_it_matters": "La razón para admitirlo es el arreglo, no simplemente la popularidad de la banda. Cö shu Nie construye rock progresivo denso e inestable rítmicamente alrededor de la escritura de Nakamura y el bajo de Matsumoto; llevar ese material a un formato acústico de Billboard deja expuestas desde otro ángulo la composición, el pulso y la arquitectura de graves. Es una serie recurrente, así que funciona muy bien como contexto de RADAR sin convertirla artificialmente en una fecha escasa.",
+          "trip_verdict": "Vale tenerlo en el tablero si el 3 de noviembre está libre en Tokio, sobre todo si el hilo progresivo y experimental viene formando parte del viaje. No desplazaría por esto a un maestro más raro, un estreno o una fecha de una sola oportunidad.",
+          "listen_before": "Cö shu Nie — Saturated (In Monochrome)"
+        }
+      }
+    },
+    {
+      "id": "nikaido-kazumi-billboard-live-tokyo-2026-11-29",
+      "artist": "Kazumi Nikaido",
+      "subtitle": "Shioseki album-release solo live",
+      "dates": {
+        "start": "2026-11-29",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Singer-songwriter / Album return",
+      "genres": [
+        "J-Pop",
+        "Singer-songwriter",
+        "Folk",
+        "Jazz-influenced pop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Kazumi Nikaido — vocals",
+        "Midori Kurose — piano",
+        "Keigo Iwami — contrabass",
+        "Masanao Matsushita — drums"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Kazumi Nikaido on November 29, 2026 for two sets at 4:00 PM and 7:00 PM. The engagement celebrates Shioseki, released January 21, 2026 as her first new album in fourteen years. Billboard notes that this is her first Billboard Live Tokyo appearance in ten years and announces a quartet with Midori Kurose on piano, Keigo Iwami on contrabass and Masanao Matsushita on drums. The Tokyo date follows a November 15 Billboard Live Osaka performance.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21592",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kazumi Nikaido",
+          "title": "潮汐",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/%E6%BD%AE%E6%B1%90/1860162337"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page and exact Apple Music album page are verified. The official page exposes ticket purchase controls, but a stable event-specific purchase URL was not resolved from the accessible source, so no generic destination is substituted."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21592",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-21",
+          "note": "Exact official event page confirms November 29, both set times, the full quartet, fourteen-year new-album gap and ten-year return to Billboard Live Tokyo."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/%E6%BD%AE%E6%B1%90/1860162337",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music page for 潮汐 (Shioseki), released January 21, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, venue, quartet lineup, album-release framing, fourteen-year recording gap and ten-year Billboard Live Tokyo return were verified directly from the official event page; the album is verified on Apple Music. Repository search found no existing Kazumi Nikaido Billboard Live Tokyo record. No ticket URL or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a return with actual context behind it: Nikaido arrives with her first new album in fourteen years and her first Billboard Live Tokyo appearance in a decade, backed by a compact piano-contrabass-drums quartet that should leave the grain and flexibility of her voice exposed. The value is the moment in her own arc, not a generic singer-songwriter booking.",
+          "trip_verdict": "Actively make room for a set if late November overlaps with Tokyo. The long gap between albums and the decade-long return to this room give the night real weight, while the Osaka stop earlier in the month keeps it from being a singular travel anchor.",
+          "listen_before": "Kazumi Nikaido — 潮汐"
+        },
+        "es": {
+          "why_it_matters": "Aquí sí hay un regreso con contexto propio: Nikaido llega con su primer disco nuevo en catorce años y vuelve a Billboard Live Tokyo después de una década, acompañada por un cuarteto compacto de piano, contrabajo y batería que debería dejar muy expuestos el grano y la elasticidad de su voz. El valor está en este momento de su trayectoria, no en una contratación genérica de cantautora.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets si finales de noviembre coincide con Tokio. La distancia entre discos y el regreso a esta sala después de diez años le dan peso real, mientras que la parada de Osaka unas semanas antes evita convertirlo en una única ancla de viaje.",
+          "listen_before": "Kazumi Nikaido — 潮汐"
+        }
+      }
+    }
+  ]
+}
