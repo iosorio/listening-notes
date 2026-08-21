@@ -1,0 +1,126 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "voice-of-miles-symphonic-marcus-garvey-park-2026-08-21-discovery",
+  "notes": "Verified S-priority New York catch-up found during Yamamoto-first monitoring on 2026-08-21. Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto's currently discoverable schedules, and credible Japanese jazz sources were checked first; no unrecorded Yamamoto performance was verified in this pass. The Voice of Miles is a Miles Davis centennial concert experience presented with the Miles Davis Estate, pairing Davis's original isolated trumpet recordings and film material with a live orchestra in a one-night Harlem presentation.",
+  "events": [
+    {
+      "id": "voice-of-miles-symphonic-marcus-garvey-park-2026-08-21",
+      "artist": "The Voice of Miles: A Symphonic Celebration",
+      "subtitle": "Miles Davis Centennial — archival trumpet + live orchestra",
+      "dates": {
+        "start": "2026-08-21",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "richard-rodgers-amphitheater-marcus-garvey-park-new-york",
+        "name": "Richard Rodgers Amphitheater at Marcus Garvey Park",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-21",
+        "rationale": "This is not a routine tribute-band program. The Miles Davis Estate is a presenting partner in a one-night Harlem centennial presentation that places Davis's own isolated trumpet recordings at the center of newly commissioned orchestral writing and documentary material. The concept is historically specific, sonically unusual and tied directly to Miles100. It remains S rather than S+ because the symphonic project premiered earlier in 2026 and is an ongoing centennial production rather than a singular once-ever performance."
+      },
+      "category": "Miles Davis centennial / Symphonic jazz / Archival-live hybrid",
+      "genres": [
+        "Jazz",
+        "Orchestral jazz",
+        "Modal jazz",
+        "Cool jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Summer Camargo — trumpet",
+        "Live orchestra — additional personnel not announced on the primary event page"
+      ],
+      "factual_description": "City Parks Foundation presents The Voice of Miles: A Symphonic Celebration on Friday, August 21, 2026 from 7:00 PM to 9:30 PM at Marcus Garvey Park in Harlem, in partnership with Jazzmobile SUMMERFEST, Park Avenue Artists and the Miles Davis Estate. The production pairs Miles Davis's original isolated trumpet recordings with a live orchestra and material from the documentary Miles Davis: Birth of the Cool. Jazzmobile's official Eventbrite listing identifies the venue as the Richard Rodgers Amphitheater in Marcus Garvey Park and frames the performance as a one-night-only Miles100 celebration. Trumpeter Summer Camargo's official schedule independently confirms that she performs in the August 21 presentation.",
+      "links": {
+        "official_event": "https://cityparksfoundation.org/?eventDisplay=past&post_type=tribe_events&shortcode=a4d21c69&tribe_events=the-voice-of-miles-davis",
+        "official_tickets": "https://www.eventbrite.com/e/a-free-miles-davis-concert-the-voice-of-miles-a-symphonic-celebration-tickets-1998206956798"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Miles Davis",
+          "title": "Birth of the Cool",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/birth-of-the-cool/1440951879"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact official event, official Jazzmobile registration destination and Apple Music listening page are verified. The primary event page confirms the live-orchestra concept; only Summer Camargo is named here because her official artist schedule independently confirms her participation and additional orchestra personnel were not verified from a stable primary source in this pass."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "City Parks Foundation / SummerStage",
+          "url": "https://cityparksfoundation.org/?eventDisplay=past&post_type=tribe_events&shortcode=a4d21c69&tribe_events=the-voice-of-miles-davis",
+          "checked_on": "2026-08-21",
+          "note": "Official presenter page confirms August 21, 2026, 7:00-9:30 PM, Marcus Garvey Park, free admission, presenting partners, and the archival-trumpet-plus-live-orchestra concept."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Jazzmobile Eventbrite",
+          "url": "https://www.eventbrite.com/e/a-free-miles-davis-concert-the-voice-of-miles-a-symphonic-celebration-tickets-1998206956798",
+          "checked_on": "2026-08-21",
+          "note": "Registration listing organized by Jazzmobile confirms Friday, August 21, 7:00-9:30 PM at Richard Rodgers Amphitheater in Marcus Garvey Park and describes the event as a one-night-only Miles100 celebration."
+        },
+        {
+          "type": "official_artist",
+          "name": "Summer Camargo",
+          "url": "https://www.summercamargo.com/events",
+          "checked_on": "2026-08-21",
+          "note": "Official artist schedule independently confirms Summer Camargo's participation in The Voice of Miles on August 21 at Marcus Garvey Park."
+        },
+        {
+          "type": "official_artist_estate",
+          "name": "Miles Davis Estate",
+          "url": "https://www.milesdavis.com/news/miles-davis-estate-unveils-miles-davis-100-logo-ahead-of-historic-centennial-celebration/",
+          "checked_on": "2026-08-21",
+          "note": "Official Miles Davis site identifies The Voice of Miles as a centennial collaboration with Park Avenue Artists pairing documentary material and seminal Davis performances with newly commissioned orchestral arrangements."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/birth-of-the-cool/1440951879",
+          "checked_on": "2026-08-21",
+          "note": "Exact Apple Music album page for Miles Davis's Birth of the Cool."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, park, presenting partners and production concept were verified against City Parks Foundation; the exact amphitheater and official registration destination were verified through Jazzmobile's organizer listing; Summer Camargo's official schedule independently confirms her participation; the Miles Davis Estate verifies the production's centennial framework and commissioned-orchestration concept. The repository canonical dataset and current inbox were searched before publication and no August 21 Voice of Miles / Marcus Garvey Park record was found. No unannounced orchestra personnel, prices or additional program details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a strange and compelling way to handle a centennial: Miles is not represented by a substitute trumpet soloist, but by his own isolated recorded horn placed inside new orchestral space, with documentary images and narration surrounding it. That makes the performance less like a repertory tribute and more like a live re-orchestration of historical presence. In Harlem, with the Miles Davis Estate directly involved and the event framed as a one-night Miles100 celebration, the cultural context is unusually specific.",
+          "trip_verdict": "S. Protect the night if you are in New York; for a Miles-focused listener it can justify a dedicated regional trip, especially because the Harlem presentation is free and one-night-only. It stays below S+ because The Voice of Miles is an ongoing centennial production that premiered earlier in 2026 rather than a unique first or final performance.",
+          "listen_before": "Miles Davis — Birth of the Cool"
+        },
+        "es": {
+          "why_it_matters": "Es una forma muy rara y bastante poderosa de abordar un centenario: Miles no aparece sustituido por otro trompetista, sino mediante su propia trompeta aislada de grabaciones originales, colocada dentro de un nuevo espacio orquestal y rodeada por material documental. Eso vuelve la función menos un tributo de repertorio y más una reorquestación en vivo de una presencia histórica. En Harlem, con el Miles Davis Estate directamente involucrado y la noche planteada como celebración Miles100 de una sola fecha, el contexto cultural es especialmente preciso.",
+          "trip_verdict": "S. Hay que proteger la noche si estás en Nueva York; para alguien muy metido en Miles sí puede justificar un viaje regional dedicado, sobre todo porque la presentación de Harlem es gratuita y de una sola noche. Se queda debajo de S+ porque The Voice of Miles es una producción de centenario activa que ya se estrenó antes en 2026, no una primera o última función irrepetible.",
+          "listen_before": "Miles Davis — Birth of the Cool"
+        }
+      }
+    }
+  ]
+}
