@@ -1,0 +1,315 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "carnegie-reich-glass-childs-milestones-2026-08-22-discovery",
+  "notes": "Yamamoto-first discovery pass under the corrected durable editorial rubric. Current PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified in ALFIE/BODY&SOUL/Space M&A/current Japanese-source checks. This batch adds three Carnegie Hall milestone programs with a deliberately mixed distribution: S / S / A+. The two S grades are separately scarcity-challenged and rest on 90th-birthday programs with premieres and unusually specific collaborators, not on composer fame; Billy Childs remains A+ because his 70th-birthday Carnegie headlining debut is highly compelling but not singular, with another 70th-birthday celebration already announced at SFJAZZ.",
+  "events": [
+    {
+      "id": "steve-reich-at-90-carnegie-hall-2026-10-22",
+      "artist": "Steve Reich at 90",
+      "subtitle": "90th-birthday program with two U.S. premieres",
+      "dates": {
+        "start": "2026-10-22",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "stern-auditorium-perelman-stage-carnegie-hall-new-york",
+        "name": "Stern Auditorium / Perelman Stage at Carnegie Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-22",
+        "rationale": "A+ understates this specific night: Carnegie Hall is marking Reich's 90th birthday with a one-night program spanning five decades and two U.S. premieres, including a Carnegie co-commission, performed by Bang on a Can All-Stars and Ensemble Signal with longtime/new-generation collaborators. The milestone and premiere concentration make missing this New York performance genuinely regrettable, while the broader international Reich-at-90 season keeps it below alter-plans singularity."
+      },
+      "category": "Contemporary classical / 90th birthday / U.S. premieres",
+      "genres": [
+        "Contemporary classical",
+        "Minimalism",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Bang on a Can All-Stars",
+        "Ensemble Signal",
+        "Brad Lubman — conductor",
+        "Lisa Kaplan — piano",
+        "Nico Muhly — piano",
+        "Bryce Dessner — guitar"
+      ],
+      "factual_description": "Carnegie Hall marks Steve Reich's 90th birthday on October 22, 2026 in Stern Auditorium / Perelman Stage with an all-Reich program spanning five decades. Bang on a Can All-Stars and Ensemble Signal join under Brad Lubman. Lisa Kaplan and Nico Muhly perform the U.S. premiere of Two Pianos; the combined ensembles perform the U.S. premiere of In All Your Ways, co-commissioned by Carnegie Hall, alongside Double Sextet and Jacob's Ladder; Bryce Dessner performs Electric Counterpoint. Bang on a Can's official event page lists the concert at 8:00 PM.",
+      "links": {
+        "official_event": "https://www.carnegiehall.org/calendar/2026/10/22/steve-reich-at-90-0800pm",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ensemble Signal",
+          "title": "Steve Reich: Music for 18 Musicians",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/steve-reich-music-for-18-musicians/984732844"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Carnegie Hall event URL is corroborated through the official Bang on a Can event listing, although Carnegie Hall's page is currently protected by an anti-bot redirect in this research environment. Exact Apple Music album is verified. No separate stable authorized purchase destination was resolved, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.carnegiehall.org/-/media/CarnegieHall/Files/PDFs/About/Press-Resources/2026-2027-Season/01-20262027-Season-Release.pdf?la=en",
+          "publisher": "Carnegie Hall",
+          "checked_on": "2026-08-22",
+          "note": "Official 2026–27 season announcement confirms the October 22 Stern/Perelman 90th-birthday program, Bang on a Can All-Stars, Ensemble Signal, Brad Lubman, Lisa Kaplan, Nico Muhly, Bryce Dessner, and the U.S. premieres of In All Your Ways and Two Pianos."
+        },
+        {
+          "url": "https://bangonacan.org/events/steve-reich-at-90/",
+          "publisher": "Bang on a Can",
+          "checked_on": "2026-08-22",
+          "note": "Official collaborator event page confirms October 22, 2026 at 8:00 PM, Carnegie Hall, the one-night 90th-birthday framing, repertoire and personnel; it links to the exact Carnegie Hall event URL."
+        },
+        {
+          "url": "https://music.apple.com/us/album/steve-reich-music-for-18-musicians/984732844",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Ensemble Signal's Music for 18 Musicians, directly relevant to one of the ensembles performing the Carnegie program."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, venue, milestone, repertoire, premieres and personnel were verified from Carnegie Hall's official season announcement and Bang on a Can's official event page. The exact Carnegie URL is corroborated by the collaborator's official listing; the ticket destination was not invented. Repository search found no existing Steve Reich RADAR record."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a retrospective that happens to land near a birthday. Carnegie is using Reich's 90th to put new work beside the rhythmic architecture that changed contemporary music: two U.S. premieres in the same room, one of them a Carnegie co-commission, with Bang on a Can All-Stars and Ensemble Signal sharing the stage. The point is hearing the vocabulary continue to move, not watching it get embalmed.",
+          "trip_verdict": "Protect this night if a New York trip can be shaped around it. The birthday, premiere concentration and interpreters make a dedicated regional trip defensible; the wider international Reich-at-90 season means there are other ways to encounter the anniversary without blowing up every other plan.",
+          "listen_before": "Ensemble Signal — Steve Reich: Music for 18 Musicians"
+        },
+        "es": {
+          "why_it_matters": "No es una retrospectiva que por casualidad cae cerca de un cumpleaños. Carnegie está usando los 90 años de Reich para poner música nueva junto a la arquitectura rítmica que cambió la música contemporánea: dos estrenos en Estados Unidos en la misma sala, uno de ellos cocomisionado por Carnegie, con Bang on a Can All-Stars y Ensemble Signal compartiendo escenario. La gracia es escuchar cómo ese lenguaje todavía se mueve, no verlo convertido en museo.",
+          "trip_verdict": "Protegería esa noche si se puede armar un viaje a Nueva York alrededor de ella. El aniversario, la concentración de estrenos y los intérpretes sí justifican un viaje regional dedicado; como hay un ciclo internacional amplio por los 90 años de Reich, tampoco hace falta volar todo lo demás del calendario para vivir ese aniversario.",
+          "listen_before": "Ensemble Signal — Steve Reich: Music for 18 Musicians"
+        }
+      }
+    },
+    {
+      "id": "philip-glass-90th-birthday-carnegie-hall-2027-01-31",
+      "artist": "Philip Glass: The 90th Birthday Concert",
+      "subtitle": "Actual 90th birthday + New York premiere of Symphony No. 15 “Lincoln”",
+      "dates": {
+        "start": "2027-01-31",
+        "end": null
+      },
+      "showtimes": [
+        "14:00"
+      ],
+      "venue": {
+        "id": "stern-auditorium-perelman-stage-carnegie-hall-new-york",
+        "name": "Stern Auditorium / Perelman Stage at Carnegie Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-22",
+        "rationale": "A+ understates the specificity: Carnegie presents Glass on his actual 90th birthday with close collaborators and the New York premiere of Symphony No. 15 'Lincoln', alongside Robert McDuffie in Violin Concerto No. 1. The exact birthday plus a major new symphonic work makes this a genuine-regret-if-missed New York event, while multiple worldwide Glass-at-90 celebrations keep it short of alter-plans singularity."
+      },
+      "category": "Contemporary classical / 90th birthday / New York premiere",
+      "genres": [
+        "Contemporary classical",
+        "Minimalism",
+        "Orchestral"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Orchestra of St. Luke’s",
+        "Dennis Russell Davies — conductor",
+        "Robert McDuffie — violin",
+        "Zachary James — baritone"
+      ],
+      "factual_description": "Carnegie Hall presents Philip Glass's 90th-birthday concert on January 31, 2027, the composer's actual 90th birthday, in Stern Auditorium / Perelman Stage. Dennis Russell Davies conducts Orchestra of St. Luke's in 'Mechanical Ballet' from The Voyage, Violin Concerto No. 1 with Robert McDuffie, and the New York premiere of Symphony No. 15 'Lincoln' with baritone Zachary James. Philip Glass's official site announced on August 10 that single tickets are on sale and links to the exact Carnegie Hall event page for a 2:00 PM performance.",
+      "links": {
+        "official_event": "https://www.carnegiehall.org/Calendar/2027/01/31/Philip-Glass-The-90th-Birthday-Concert-0200PM",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Philip Glass",
+          "title": "Philip Glass: Twelve Concertos",
+          "kind": "playlist",
+          "apple_music_url": "https://music.apple.com/us/playlist/philip-glass-twelve-concertos/pl.5268159ee6474590b31a8c14d70de82d"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Carnegie Hall event URL and 2:00 PM time are corroborated by Philip Glass's official site; Carnegie's page is protected by an anti-bot layer in this research environment. Exact Apple Music concerto playlist is verified. A separate stable authorized purchase destination was not resolved, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.carnegiehall.org/-/media/CarnegieHall/Files/PDFs/About/Press-Resources/2026-2027-Season/01-20262027-Season-Release.pdf?la=en",
+          "publisher": "Carnegie Hall",
+          "checked_on": "2026-08-22",
+          "note": "Official season announcement confirms the actual-90th-birthday program, January 31 in Stern/Perelman, Orchestra of St. Luke's, Dennis Russell Davies, Robert McDuffie, Zachary James and the New York premiere of Symphony No. 15 'Lincoln'."
+        },
+        {
+          "url": "https://philipglass.com/news/",
+          "publisher": "Philip Glass",
+          "checked_on": "2026-08-22",
+          "note": "Official composer site announced August 10 that single tickets are on sale for the January 31, 2027 Carnegie concert, gives the exact 2:00 PM Carnegie Hall event URL and confirms the New York premiere of Symphony No. 15."
+        },
+        {
+          "url": "https://oslmusic.org/press/orchestra-of-st-lukes-announces-six-carnegie-hall-performances-in-2026-27/",
+          "publisher": "Orchestra of St. Luke’s",
+          "checked_on": "2026-08-22",
+          "note": "Official orchestra release independently confirms the January 31 program and the close-collaborator context with Dennis Russell Davies, Robert McDuffie and Zachary James."
+        },
+        {
+          "url": "https://music.apple.com/us/playlist/philip-glass-twelve-concertos/pl.5268159ee6474590b31a8c14d70de82d",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music playlist devoted to Glass's concertos, including Violin Concerto No. 1 and featuring Robert McDuffie among the performers."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, actual-birthday framing, venue, program, New York premiere and personnel were verified from Carnegie Hall, Philip Glass's official site and Orchestra of St. Luke's. The exact Carnegie event URL and time come from the composer's official news item. No separate ticket URL was inferred. Repository search found no existing Philip Glass RADAR record."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The date is doing real musical work here. Glass turns 90 that day, and Carnegie pairs the milestone with a New York premiere rather than treating the evening as a greatest-hits tribute. Dennis Russell Davies, Robert McDuffie and Orchestra of St. Luke's are not decorative names around the composer; they are interpreters with deep ties to his orchestral language. The night looks backward and forward at the same time.",
+          "trip_verdict": "Protect the afternoon if a New York trip can be built around it. The exact birthday, the Lincoln symphony's New York premiere and the collaborator lineage justify a dedicated regional trip; Glass is being celebrated worldwide at 90, so this remains one major node in a larger anniversary rather than the only possible encounter.",
+          "listen_before": "Philip Glass — Philip Glass: Twelve Concertos"
+        },
+        "es": {
+          "why_it_matters": "Aquí la fecha sí hace trabajo musical. Glass cumple 90 años ese mismo día y Carnegie liga el aniversario a un estreno neoyorquino en vez de convertir la tarde en un repaso de grandes éxitos. Dennis Russell Davies, Robert McDuffie y la Orchestra of St. Luke’s no son nombres decorativos alrededor del compositor: tienen una relación profunda con su lenguaje orquestal. La función mira hacia atrás y hacia adelante al mismo tiempo.",
+          "trip_verdict": "Protegería la tarde si se puede construir un viaje a Nueva York alrededor de ella. El cumpleaños exacto, el estreno neoyorquino de la sinfonía Lincoln y el linaje de colaboradores justifican un viaje regional dedicado; como los 90 años de Glass se celebran en muchos lugares, ésta es una fecha central dentro de un aniversario más amplio, no la única oportunidad posible.",
+          "listen_before": "Philip Glass — Philip Glass: Twelve Concertos"
+        }
+      }
+    },
+    {
+      "id": "billy-childs-70th-birthday-carnegie-hall-2027-03-05",
+      "artist": "Billy Childs: A 70th Birthday Celebration",
+      "subtitle": "70th birthday + Carnegie Hall headlining debut",
+      "dates": {
+        "start": "2027-03-05",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "zankel-hall-carnegie-hall-new-york",
+        "name": "Zankel Hall at Carnegie Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz / 70th birthday / Carnegie headlining debut",
+      "genres": [
+        "Jazz",
+        "Chamber jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Billy Childs — piano"
+      ],
+      "factual_description": "Carnegie Hall presents Billy Childs in Zankel Hall on March 5, 2027, leading a quintet for his 70th-birthday celebration and his Carnegie Hall headlining debut. Carnegie's season announcement places the date 50 years after Childs first made his name with J. J. Johnson and Freddie Hubbard. The official season release does not name the other Carnegie quintet members or a showtime, so those details are left unfilled. SFJAZZ independently announces a separate Childs 70th-birthday concert on February 25, confirming that the birthday celebration is a broader 2027 thread rather than a one-off concept.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Billy Childs",
+          "title": "Triumvirate",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/triumvirate/1873432476"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Carnegie Hall's official season PDF verifies the date, Zankel Hall, 70th-birthday framing, quintet format and headlining debut, but a stable exact public Carnegie event URL and separate authorized purchase destination were not resolved in this pass. Exact Apple Music page for Triumvirate is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.carnegiehall.org/-/media/CarnegieHall/Files/PDFs/About/Press-Resources/2026-2027-Season/01-20262027-Season-Release.pdf?la=en",
+          "publisher": "Carnegie Hall",
+          "checked_on": "2026-08-22",
+          "note": "Official 2026–27 season announcement confirms March 5 in Zankel Hall, a world-class quintet, Childs's 70th-birthday celebration and his Carnegie Hall headlining debut."
+        },
+        {
+          "url": "https://www.sfjazz.org/tickets/productions/26-27/billy-childs-quartet/",
+          "publisher": "SFJAZZ",
+          "checked_on": "2026-08-22",
+          "note": "Official SFJAZZ page confirms a separate February 25, 2027 70th-birthday concert, useful editorial evidence that the milestone is being marked in more than one city."
+        },
+        {
+          "url": "https://music.apple.com/us/album/triumvirate/1873432476",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Childs's 2026 Triumvirate, his current piano-trio release."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, venue, milestone, quintet format and Carnegie headlining-debut context were verified from Carnegie Hall's official season announcement. SFJAZZ supplies authoritative context on another 70th-birthday engagement. Exact Carnegie personnel beyond Childs and a stable event/ticket URL were not inferred. Repository search found no existing Billy Childs RADAR record."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The strongest fact is not the round-number birthday by itself; it is that Childs reaches 70 by finally headlining Carnegie Hall under his own name, five decades after the J. J. Johnson and Freddie Hubbard years that launched him. His writing has always lived in the seam between jazz improvisation and chamber-scale composition, and Zankel is a particularly good room for that language. This is a milestone with musical shape, not just cake around a famous pianist.",
+          "trip_verdict": "Actively make room for it if a New York trip overlaps. The headlining debut and birthday make Zankel a strong anchor for the night, but another 70th-birthday program is already announced at SFJAZZ and Carnegie has not yet published a unique premiere or final-performance context that would justify rebuilding the whole trip around this date.",
+          "listen_before": "Billy Childs — Triumvirate"
+        },
+        "es": {
+          "why_it_matters": "El dato fuerte no es el número redondo del cumpleaños por sí solo: Childs llega a los 70 encabezando por fin Carnegie Hall bajo su propio nombre, cinco décadas después de los años con J. J. Johnson y Freddie Hubbard que lo lanzaron. Su escritura siempre ha vivido entre la improvisación jazzística y una escala casi camerística, y Zankel le queda especialmente bien a ese lenguaje. Es un hito con forma musical, no sólo pastel alrededor de un pianista famoso.",
+          "trip_verdict": "Sí le haría espacio activamente si coincide con un viaje a Nueva York. El debut como headliner y el cumpleaños hacen de Zankel una ancla fuerte para la noche, pero ya existe otra celebración de sus 70 años anunciada en SFJAZZ y Carnegie todavía no ha publicado un estreno único o contexto de última función que justifique rehacer todo el viaje alrededor de esta fecha.",
+          "listen_before": "Billy Childs — Triumvirate"
+        }
+      }
+    }
+  ]
+}
