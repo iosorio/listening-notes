@@ -1,0 +1,199 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "senri-oe-elio-villafranca-2026-08-22-catchup",
+  "notes": "Discovery pass under the current durable editorial hierarchy. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. The Yamamoto-first search checked ALFIE, BODY&SOUL, current Yamamoto listings and Japanese jazz sources; no new unrecorded future Tsuyoshi Yamamoto performance was verified. Two non-scarcity-tier events cleared RADAR admission: Senri Oe Trio at Blue Note Tokyo as A, and Elio Villafranca's new large-ensemble/choir suite Florentina at Jazz at Lincoln Center as A+. Neither event warrants S/S+ under the current scarcity rubric.",
+  "events": [
+    {
+      "id": "senri-oe-trio-blue-note-tokyo-2027-01-27",
+      "artist": "Senri Oe Trio",
+      "subtitle": "HOMEWORK",
+      "dates": {
+        "start": "2027-01-27",
+        "end": "2027-01-29"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese jazz / Piano trio / New album",
+      "genres": [
+        "Jazz",
+        "Piano trio",
+        "Japanese jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Senri Oe — piano",
+        "Matt Clohesy — bass",
+        "Ross Pederson — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Senri Oe Trio on January 27-29, 2027, with 6:00 PM and 8:30 PM sets each night. The announced trio is Oe on piano with Matt Clohesy on bass and Ross Pederson on drums. The venue frames the engagement around Oe's new album HOMEWORK and says the program will include music from that record alongside jazz arrangements of songs he originally released in the 1980s and 1990s. Blue Note Tokyo lists JAM SESSION member reservations from August 19, 2026 and general web reservations from August 26, 2026.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/sp/artists/senri-oe/index.html",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Senri Oe",
+          "title": "HOMEWORK",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/homework/6776530115"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Blue Note Tokyo event page, dates, showtimes, lineup and HOMEWORK release are verified. Blue Note says general web reservations open August 26, 2026; no stable event-specific purchase destination was resolved in this pass, so official_tickets remains pending rather than storing a generic or session-dependent reservation URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/sp/artists/senri-oe/index.html",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms January 27-29, 2027, two sets nightly at 6:00 PM and 8:30 PM, Senri Oe/Matt Clohesy/Ross Pederson, HOMEWORK as the current project, and the reservation-opening schedule."
+        },
+        {
+          "url": "https://music.apple.com/us/artist/senri-oe/505582175",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Official Apple Music artist page lists HOMEWORK as Senri Oe's 2026 album/pre-release; its HOMEWORK link resolves to the exact album destination recorded in recommended_listening."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Event facts were verified against Blue Note Tokyo and the HOMEWORK recommendation against Apple Music. Repository searches found no existing Senri Oe Trio / Blue Note Tokyo January 27, 2027 record before publication. No ticket destination, additional personnel, or unannounced repertoire was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Oe's late-career move from Japanese pop star to working jazz pianist is the reason this belongs, not nostalgia for the earlier catalog. HOMEWORK gives the trio a current body of material, while the promise of reworking songs from his 1980s and 1990s writing lets the set show how his harmonic language has changed after years of living inside jazz. Clohesy and Pederson make this a real piano-trio proposition rather than a singer-songwriter retrospective.",
+          "trip_verdict": "Worth knowing about and considering if a Tokyo night is open. The new-album frame and the pop-to-jazz arc give the engagement a clear reason to exist now, but three nights at a venue Oe has played repeatedly leave enough flexibility that it should not displace a rarer one-off or master-level scarcity event.",
+          "listen_before": "Senri Oe — HOMEWORK"
+        },
+        "es": {
+          "why_it_matters": "La razón para meterlo no es la nostalgia por su etapa de estrella pop japonesa, sino la segunda vida que Oe construyó como pianista de jazz. HOMEWORK le da al trío material actual, mientras que volver a canciones de los ochenta y noventa con arreglos de jazz permite escuchar cómo cambió su lenguaje armónico después de años metido de lleno en este idioma. Clohesy y Pederson hacen que sea una propuesta real de piano trío y no una retrospectiva de cantautor.",
+          "trip_verdict": "Vale tenerlo presente y considerarlo si queda una noche libre en Tokio. El disco nuevo y el arco pop-a-jazz le dan una razón clara para existir ahora, pero son tres noches y Oe ha regresado varias veces al Blue Note, así que no desplazaría por esto una fecha más rara o verdaderamente escasa.",
+          "listen_before": "Senri Oe — HOMEWORK"
+        }
+      }
+    },
+    {
+      "id": "elio-villafranca-florentina-jalc-2027-01-29",
+      "artist": "Elio Villafranca",
+      "subtitle": "Florentina",
+      "dates": {
+        "start": "2027-01-29",
+        "end": "2027-01-30"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "16:30"
+      ],
+      "venue": {
+        "id": "the-appel-room-jazz-at-lincoln-center-new-york",
+        "name": "The Appel Room at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Afro-Cuban jazz / New suite / Large ensemble and choir",
+      "genres": [
+        "Jazz",
+        "Afro-Cuban jazz",
+        "Contemporary composition"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Elio Villafranca — piano, composer",
+        "VeritasAme — Cuban choir",
+        "10-piece ensemble — additional personnel not yet specified on the official concert page"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Elio Villafranca's Florentina in The Appel Room on January 29-30, 2027. Performances are January 29 at 7:00 PM and 9:00 PM and January 30 at 4:30 PM and 7:00 PM. Jazz at Lincoln Center describes Florentina as a new suite inspired by the life of Florentina Zulueta, born Tolo-No, a woman taken from West Africa and enslaved in Cuba whose name and identity were repeatedly erased. The work is written for a 10-piece ensemble and choir; Jazz at Lincoln Center's season announcement identifies the choir as the Cuban ensemble VeritasAme and describes the project as a major milestone following Standing by the Crossroads and the Grammy-nominated CINQUE.",
+      "links": {
+        "official_event": "https://jazz.org/concert/elio-villafranca-florentina/",
+        "official_tickets": "https://ticketing.jazz.org/20703/20704"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Elio Villafranca",
+          "title": "Standing By The Crossroads",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/standing-by-the-crossroads/1709662448"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact JALC concert page, four performance times, Appel Room venue, new-suite concept, ensemble scale, Cuban choir identity, authorized JALC ticketing destination, and exact Apple Music album page are verified. Individual instrumental personnel beyond Villafranca and the named choir are not yet published and were not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/elio-villafranca-florentina/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-22",
+          "note": "Official concert page confirms January 29-30, 2027, four sets, The Appel Room, and Florentina as a new suite for 10-piece ensemble and choir inspired by Florentina Zulueta."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-22",
+          "note": "Official season announcement identifies VeritasAme as the Cuban choir and frames Florentina as a major new-suite milestone following Standing by the Crossroads and CINQUE."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20703/20704",
+          "publisher": "Jazz at Lincoln Center Ticketing",
+          "checked_on": "2026-08-22",
+          "note": "Authorized JALC ticketing page confirms the engagement and provides selectable purchase entries for the four performances."
+        },
+        {
+          "url": "https://music.apple.com/us/album/standing-by-the-crossroads/1709662448",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Standing By The Crossroads."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue, suite concept, ensemble format and ticketing were verified through Jazz at Lincoln Center; the official season announcement supplies the VeritasAme choir identity. Apple Music verifies the recommended album. Repository searches found no existing Florentina / Elio Villafranca / January 29, 2027 RADAR record before publication. No unannounced instrumental personnel or premiere claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Villafranca is building a large-form work around a specific Afro-Cuban historical life rather than using Afro-Cuban language as surface color. A 10-piece ensemble plus Cuban choir gives him room to connect composition, percussion, voice and improvisation at a scale that is unusual for a club-oriented jazz calendar, while the subject of Florentina Zulueta extends the historical work he has already pursued in CINQUE and Standing by the Crossroads. This is new music with a clear cultural and compositional reason to exist.",
+          "trip_verdict": "Actively make room for one of the Appel Room sets if a New York trip can absorb it. The new suite, choir and large ensemble make the engagement substantially more distinctive than a routine leader date, but four performances across two days provide enough access that it does not need a scarcity-tier recommendation.",
+          "listen_before": "Elio Villafranca — Standing By The Crossroads"
+        },
+        "es": {
+          "why_it_matters": "Villafranca está construyendo una obra de gran formato alrededor de una vida histórica afrocubana concreta, no usando lo afrocubano como simple color de superficie. Diez músicos más un coro cubano le dan espacio para cruzar composición, percusión, voz e improvisación en una escala poco común dentro de una agenda de jazz de club, y la historia de Florentina Zulueta continúa el trabajo histórico que ya venía desarrollando en CINQUE y Standing by the Crossroads. Es música nueva con una razón cultural y compositiva muy clara para existir.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets del Appel Room si un viaje a Nueva York puede absorberlo. La suite nueva, el coro y el ensamble grande la vuelven bastante más singular que una fecha rutinaria de líder, pero cuatro funciones en dos días dan suficiente acceso como para no convertirla en una recomendación de escasez.",
+          "listen_before": "Elio Villafranca — Standing By The Crossroads"
+        }
+      }
+    }
+  ]
+}
