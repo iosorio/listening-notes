@@ -17,6 +17,23 @@ ATTENDANCE_EVIDENCE = {"user_confirmed", "personal_photo", "ticket_purchase", "l
 ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}(?:-\d{2}-\d{2})?$")
 ENRICHMENT_STATUSES = {"complete", "pending", "unavailable"}
 ENRICHMENT_FIELDS = {"official_event", "official_tickets", "apple_music"}
+CANONICAL_VENUES = {
+    "billboard-live-tokyo-roppongi": ("Billboard Live Tokyo", "Minato, Tokyo", "Tokyo", "JP"),
+    "blue-note-tokyo-minamiaoyama": ("Blue Note Tokyo", "Minato, Tokyo", "Tokyo", "JP"),
+    "carnegie-hall-stern-auditorium-new-york": ("Carnegie Hall — Stern Auditorium / Perelman Stage", "New York", "NY", "US"),
+    "cotton-club-marunouchi-tokyo": ("COTTON CLUB", "Chiyoda, Tokyo", "Tokyo", "JP"),
+    "keystone-korner-baltimore": ("Keystone Korner Baltimore", "Baltimore", "MD", "US"),
+    "rose-theater-jazz-at-lincoln-center-new-york": ("Rose Theater at Jazz at Lincoln Center", "New York", "NY", "US"),
+    "the-barns-wolf-trap-vienna-va": ("The Barns at Wolf Trap", "Vienna", "VA", "US"),
+}
+RETIRED_VENUE_IDS = {
+    "blue-note-tokyo-minami-aoyama",
+    "carnegie-hall-new-york",
+    "cotton-club-tokyo-marunouchi",
+    "rose-theater-frederick-p-rose-hall-new-york",
+    "stern-auditorium-perelman-stage-carnegie-hall-new-york",
+    "the-barns-at-wolf-trap-vienna-va",
+}
 NEGATED_TIER_COMPARISON = re.compile(
     r"\b(?:stays?\s+below|remains?\s+below|stops?\s+short\s+of|does\s+not\s+(?:reach|rise\s+to)|not|"
     r"no\s+(?:llega|alcanza)\s+a|no\s+es|(?:por\s+)?debajo\s+de)\s+(?:S\+|A\+|S)(?![\w+])",
@@ -148,6 +165,8 @@ def main(path: Path) -> None:
         fail("events must be an array")
 
     ids = set()
+    venue_identity_by_id = {}
+    venue_id_by_location = {}
     for index, event in enumerate(events):
         prefix = f"events[{index}]"
         if not isinstance(event, dict):
@@ -167,6 +186,21 @@ def main(path: Path) -> None:
         valid_date(dates.get("end"), f"{event_id}.dates.end")
         if not dates.get("start") or not all(isinstance(venue.get(k), str) for k in ("id", "name", "city", "state", "country")):
             fail(f"{event_id} requires a start date and named venue location")
+        venue_id = venue["id"]
+        venue_identity = tuple(venue[key] for key in ("name", "city", "state", "country"))
+        if venue_id in RETIRED_VENUE_IDS:
+            fail(f"{event_id}.venue.id uses retired alias {venue_id}")
+        expected_venue = CANONICAL_VENUES.get(venue_id)
+        if expected_venue is not None and venue_identity != expected_venue:
+            fail(f"{event_id}.venue must use the canonical identity for {venue_id}")
+        if venue["country"] == "US" and venue["state"] == "DC" and venue["city"] != "Washington, DC":
+            fail(f"{event_id}.venue.city must use Washington, DC for District of Columbia venues")
+        previous_identity = venue_identity_by_id.setdefault(venue_id, venue_identity)
+        if previous_identity != venue_identity:
+            fail(f"{event_id}.venue.id {venue_id} maps to more than one venue identity")
+        previous_id = venue_id_by_location.setdefault(venue_identity, venue_id)
+        if previous_id != venue_id:
+            fail(f"{event_id}.venue duplicates {previous_id} under alternate id {venue_id}")
         if event.get("geographic_domain") not in DOMAINS or not isinstance(event.get("musical_axes"), list):
             fail(f"{event_id} requires a known geographic domain and musical_axes array")
         editorial = event.get("editorial")

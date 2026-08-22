@@ -107,6 +107,36 @@ class MergeInboxTest(unittest.TestCase):
         result = self.validate_modified_event(mutate)
         self.assertEqual(result.returncode, 0, result.stderr)
 
+    def test_canonical_venue_rejects_alternate_name(self):
+        def mutate(event):
+            event["venue"] = {
+                "id": "keystone-korner-baltimore",
+                "name": "Keystone Korner",
+                "city": "Baltimore",
+                "state": "MD",
+                "country": "US",
+            }
+        result = self.validate_modified_event(mutate)
+        self.assertNotEqual(result.returncode, 0)
+
+    def test_retired_venue_alias_is_rejected(self):
+        def mutate(event):
+            event["venue"]["id"] = "blue-note-tokyo-minami-aoyama"
+        result = self.validate_modified_event(mutate)
+        self.assertNotEqual(result.returncode, 0)
+
+    def test_dc_city_spelling_is_canonical(self):
+        def mutate(event):
+            event["venue"] = {
+                "id": "test-dc-venue",
+                "name": "Test DC Venue",
+                "city": "Washington",
+                "state": "DC",
+                "country": "US",
+            }
+        result = self.validate_modified_event(mutate)
+        self.assertNotEqual(result.returncode, 0)
+
     def test_historical_batch_normalizes_without_losing_evidence(self):
         path = PROCESSED / "historical-attendance-2026-08-14.json"
         candidates = validate_batch(read_json(path), path)

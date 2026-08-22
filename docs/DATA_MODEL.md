@@ -61,7 +61,10 @@ object per event where practical, and is designed to stay readable in Git.
   evidence does not support an editorial rating.
 - `geographic_domain` is `tokyo_kanto`, `us_corridor`, `north_america`, or
   `rest_of_world`. `venue.id` is stable and prepares a future venue knowledge
-  layer without making one necessary now.
+  layer without making one necessary now. A venue ID maps to exactly one
+  canonical name and location, and the same venue must never be reintroduced
+  under an alternate ID, display name, or city spelling. District of Columbia
+  venues use `Washington, DC`.
 - `factual_description` is source-backed; set it to `null` when not verified.
 - `editorial` has native English and Spanish copy. Do not put display-language
   lookup tables in application JavaScript.

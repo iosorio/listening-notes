@@ -42,6 +42,7 @@ const localDate = () => {
 };
 const finalDate = event => event.dates.end || event.dates.start;
 const isArchive = event => event.status === 'attended' || event.status === 'passed' || finalDate(event) < localDate();
+const eventsInView = () => window.eventsData.filter(event => state.view === 'archive' ? isArchive(event) : !isArchive(event));
 const travel = event => t.travel[event.geography] || event.geography;
 
 function matches(event) {
@@ -66,11 +67,14 @@ function viewButton(text, value) {
   element.textContent = text;
   element.onclick = () => {
     state.view = value;
+    state.city = '';
+    state.venue = '';
+    state.priority = '';
     const url = new URL(window.location.href);
     if (value === 'archive') url.searchParams.set('view', 'archive');
     else url.searchParams.delete('view');
     window.history.replaceState({}, '', url);
-    buildViews(); render();
+    buildViews(); buildFilters(); render();
   };
   return element;
 }
@@ -82,7 +86,7 @@ function buildViews() {
 
 function buildFilters() {
   const root = document.querySelector('#filters');
-  const events = window.eventsData;
+  const events = eventsInView();
   root.replaceChildren(
     filterButton(t.allCities, 'city', ''),
     ...unique(events, event => event.venue.city).map(value => filterButton(value, 'city', value)),
