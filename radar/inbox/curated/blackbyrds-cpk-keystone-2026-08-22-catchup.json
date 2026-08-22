@@ -1,0 +1,217 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "blackbyrds-cpk-keystone-2026-08-22-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial hierarchy after re-reading PRIORITIES, EDITORIAL, DOMAINS, and inbox guidance. No new unrecorded verified Tsuyoshi Yamamoto performance was found. The Blackbyrds and Coffin/Perlson/Krauss with Bob Lanzetti both clear RADAR admission as A+: musically specific Baltimore short-trip dates worth actively making room for, without the scarcity required for S.",
+  "events": [
+    {
+      "id": "blackbyrds-keystone-korner-baltimore-2026-10-17",
+      "artist": "The Blackbyrds",
+      "subtitle": "Howard University jazz-funk lineage",
+      "dates": {
+        "start": "2026-10-17",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz-funk / Howard University lineage / DMV music history",
+      "genres": [
+        "Jazz-Funk",
+        "Funk",
+        "R&B",
+        "Soul"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Keith Killgo — drums, vocals",
+        "Joe Hall — bass",
+        "Roberto Villeda — keyboards",
+        "Paul Spires — vocals",
+        "Thad Wilson — trumpet",
+        "Tom O’Grady — keyboards, trombone",
+        "Marshall Keys — saxophone",
+        "Sean Anthony — percussion",
+        "Charles Wright — guitar"
+      ],
+      "factual_description": "Keystone Korner Baltimore presents The Blackbyrds on Saturday, October 17, 2026, with sets at 6:00 PM and 9:00 PM. The authorized InstantSeats listing confirms a nine-piece lineup including original members Keith Killgo and Joe Hall. The band's official history traces the group to Donald Byrd's 1973 project with Howard University students, where jazz, funk, R&B and gospel were deliberately combined into the language that became The Blackbyrds.",
+      "links": {
+        "official_event": "https://www.blackbyrdsmusic.com/tour",
+        "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=25867&fuseaction=home.artist"
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Blackbyrds",
+          "title": "City Life (Deluxe Edition / Remastered 2025)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/city-life-deluxe-edition-remastered-2025/1813296197"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The band's official tour page, authorized InstantSeats artist/engagement page covering both Baltimore sets, full announced lineup, and exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.blackbyrdsmusic.com/tour",
+          "publisher": "The Blackbyrds",
+          "checked_on": "2026-08-22",
+          "note": "Official band tour page confirms the October 17, 2026 Keystone Korner Baltimore engagement."
+        },
+        {
+          "url": "https://www.instantseats.com/?VenueID=514&artistid=25867&fuseaction=home.artist",
+          "publisher": "Keystone Korner Baltimore / InstantSeats",
+          "checked_on": "2026-08-22",
+          "note": "Authorized engagement page confirms both 6:00 PM and 9:00 PM sets and the full current lineup, including original members Keith Killgo and Joe Hall."
+        },
+        {
+          "url": "https://www.blackbyrdsmusic.com/about",
+          "publisher": "The Blackbyrds",
+          "checked_on": "2026-08-22",
+          "note": "Official band history documents the group's 1973 origin as Donald Byrd's Howard University project and its jazz/funk/R&B/gospel foundation."
+        },
+        {
+          "url": "https://music.apple.com/us/album/city-life-deluxe-edition-remastered-2025/1813296197",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for City Life (Deluxe Edition / Remastered 2025)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, both showtimes and lineup were verified against the band's official tour page and Keystone Korner Baltimore's authorized InstantSeats listing; historical context was verified from the band's official site and listening from Apple Music. Repository-wide search found no existing Blackbyrds RADAR event before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is one of the cleanest DMV genealogy dates on the calendar. Donald Byrd's Howard University experiment became one of the defining jazz-funk groups, and the current band still carries original members Keith Killgo and Joe Hall. In Baltimore, the point is less nostalgia than hearing the pocket, horn architecture and DC-rooted groove up close—the same musical DNA that later traveled far beyond jazz into hip-hop sampling and production culture.",
+          "trip_verdict": "Actively make room for one of the two Baltimore sets, especially if groove and DMV music history are part of the thread. The band is actively touring and there are two chances that night, so the date is strong without needing rare-event scarcity.",
+          "listen_before": "The Blackbyrds — City Life (Deluxe Edition / Remastered 2025)"
+        },
+        "es": {
+          "why_it_matters": "Ésta trae una genealogía del DMV bien directa: el experimento de Donald Byrd con alumnos de Howard terminó convertido en una de las bandas clave del jazz-funk, y la formación actual todavía conserva a Keith Killgo y Joe Hall. En Baltimore interesa menos la nostalgia que escuchar de cerca el pocket, la arquitectura de metales y un groove nacido en DC que después terminó filtrándose mucho más allá del jazz, hasta el lenguaje del hip-hop.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets en Baltimore, sobre todo si el hilo es groove e historia musical del DMV. La banda sigue girando y hay dos funciones esa noche, así que la fecha es fuerte sin necesidad de convertirla en una rareza.",
+          "listen_before": "The Blackbyrds — City Life (Deluxe Edition / Remastered 2025)"
+        }
+      }
+    },
+    {
+      "id": "coffin-perlson-krauss-bob-lanzetti-keystone-korner-baltimore-2026-10-18",
+      "artist": "Coffin / Perlson / Krauss",
+      "subtitle": "with special guest Bob Lanzetti",
+      "dates": {
+        "start": "2026-10-18",
+        "end": null
+      },
+      "showtimes": [
+        "17:00",
+        "19:30"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz fusion / Working trio + guest guitarist",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Funk",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Jeff Coffin — saxophone",
+        "Bob Lanzetti — guitar",
+        "Viktor Krauss — bass",
+        "Jordan Perlson — drums"
+      ],
+      "factual_description": "Keystone Korner Baltimore presents Coffin / Perlson / Krauss with special guest Bob Lanzetti on Sunday, October 18, 2026, with sets at 5:00 PM and 7:30 PM. The authorized InstantSeats event listing confirms Jeff Coffin on saxophone, Bob Lanzetti on guitar, Viktor Krauss on bass and Jordan Perlson on drums, and describes the CPK trio as a working improvisational unit built around stylistic fusion, complex arrangements and groove rather than a one-off pickup band.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=6447E658-F881-5BD6-3EA51D4409F65FA4&fuseaction=home.event",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jeff Coffin, Jordan Perlson & Viktor Krauss",
+          "title": "Coffin/Perlson/Krauss",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/coffin-perlson-krauss/1701872042"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact authorized InstantSeats event page verifies the 5:00 PM set and full quartet; Keystone's authorized venue schedule independently confirms the 7:30 PM set. InstantSeats exposes separate purchase flows for the two sets, so no single set-specific buy URL is stored as if it represented the full engagement."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=6447E658-F881-5BD6-3EA51D4409F65FA4&fuseaction=home.event",
+          "publisher": "Keystone Korner Baltimore / InstantSeats",
+          "checked_on": "2026-08-22",
+          "note": "Authorized event page confirms October 18, 2026, the 5:00 PM set, and the full Coffin/Lanzetti/Krauss/Perlson lineup."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?VenueID=514&fuseaction=home.venue",
+          "publisher": "Keystone Korner Baltimore / InstantSeats",
+          "checked_on": "2026-08-22",
+          "note": "Authorized venue schedule confirms both 5:00 PM and 7:30 PM performances on October 18."
+        },
+        {
+          "url": "https://music.apple.com/us/album/coffin-perlson-krauss/1701872042",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for the working Coffin/Perlson/Krauss trio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date, venue, both showtimes and full lineup were verified against Keystone Korner Baltimore's authorized InstantSeats event and venue pages; the working-trio listening context was verified on Apple Music. Repository-wide search found no existing Jeff Coffin / Coffin-Perlson-Krauss RADAR event before publication. No event-level purchase URL was inferred from a single-set ticket destination."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "CPK is more interesting than a one-night all-star pickup: Coffin, Perlson and Krauss already have a recorded trio language, with no piano and a lot of harmonic responsibility pushed onto bass, reeds and rhythm. Lanzetti adds a guitarist whose Snarky Puppy vocabulary can thicken the groove without turning the room into generic fusion. At Keystone the attraction is the interaction, not the résumés.",
+          "trip_verdict": "Actively make room for one of the two Baltimore sets if saxophone, bass-led harmony and modern fusion are in the thread. The same four musicians are touring together through other cities that week, so this is a strong short-trip date rather than a scarce event that should reorganize larger plans.",
+          "listen_before": "Jeff Coffin, Jordan Perlson & Viktor Krauss — Coffin/Perlson/Krauss"
+        },
+        "es": {
+          "why_it_matters": "Aquí no estamos frente a un rejunte de nombres para una sola noche: Coffin, Perlson y Krauss ya tienen un lenguaje de trío grabado, sin piano y con mucha responsabilidad armónica repartida entre bajo, sax y ritmo. Lanzetti mete una guitarra formada dentro del vocabulario de Snarky Puppy que puede engordar el groove sin volverlo fusión genérica. En Keystone lo importante va a ser la interacción, no los currículums.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets de Baltimore si el hilo va por sax, armonía guiada desde el bajo y fusión contemporánea. Los mismos cuatro músicos están girando juntos por otras ciudades esa semana, así que es una fecha fuerte de short trip, no una rareza que obligue a reconstruir planes mayores.",
+          "listen_before": "Jeff Coffin, Jordan Perlson & Viktor Krauss — Coffin/Perlson/Krauss"
+        }
+      }
+    }
+  ]
+}
