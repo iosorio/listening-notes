@@ -1,0 +1,242 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wolf-trap-ign-buena-vista-2027-08-22-discovery",
+  "notes": "Fresh Wolf Trap 2026-27 season discoveries under the corrected durable editorial hierarchy. Current PRIORITIES, EDITORIAL, DOMAINS, and inbox guidance were read before grading. The Yamamoto-first pass checked ALFIE, BODY&SOUL, Yamamoto schedule sources, Space M&A-oriented search, and current Japanese jazz sources; no new unrecorded Tsuyoshi Yamamoto performance was verified. International Guitar Night is graded A+ because the specific 2027 quartet puts four sharply different guitar languages into an intimate local room; The Buena Vista Orchestra is graded A because its Cuban lineage and instrumental character clearly clear RADAR admission, while the touring repertory format and still-unspecified Wolf Trap personnel beyond Rolando Morejon Reyes do not justify a stronger priority yet.",
+  "events": [
+    {
+      "id": "international-guitar-night-wolf-trap-2027-03-03",
+      "artist": "International Guitar Night",
+      "subtitle": "27th Anniversary North American Tour",
+      "dates": {
+        "start": "2027-03-03",
+        "end": "2027-03-04"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Acoustic guitar / Cross-cultural instrumental showcase",
+      "genres": [
+        "Acoustic guitar",
+        "Classical",
+        "Blues",
+        "Hawaiian slack key",
+        "Fingerstyle"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jim 'Kimo' West — Hawaiian slack-key guitar",
+        "Minnie Marks — blues slide guitar, vocals",
+        "Roxane Elfasci — classical guitar",
+        "Luca Stricagnoli — fingerstyle acoustic guitar"
+      ],
+      "factual_description": "Wolf Trap presents International Guitar Night at The Barns on Wednesday and Thursday, March 3-4, 2027 at 8:00 PM, with doors at 6:30 PM. The 27th Anniversary North American Tour features Jim 'Kimo' West, Minnie Marks, Roxane Elfasci, and Luca Stricagnoli. Wolf Trap identifies West with Hawaiian slack-key guitar, Stricagnoli with Italian fingerstyle, Marks with Australian blues slide guitar, and Elfasci with French classical guitar. International Guitar Night's official tour page independently confirms the same four-person 2027 U.S. lineup and describes the format as solos, duets, and quartets designed to put different acoustic-guitar traditions in direct conversation.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/030327/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Roxane Elfasci",
+          "title": "Hommage á Debussy",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/hommage-%C3%A1-debussy/1586177637"
+        },
+        {
+          "artist": "Jim 'Kimo' West",
+          "title": "Moku Maluhia: Peaceful Island",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/moku-maluhia-peaceful-island/1331833381"
+        },
+        {
+          "artist": "Minnie Marks",
+          "title": "Trouble with the Troubadour",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/trouble-with-the-troubadour/1450738000"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Wolf Trap event page, both 8:00 PM showtimes, full four-guitarist lineup, official International Guitar Night tour page, and three exact Apple Music album pages are verified. Wolf Trap exposes a different authorized Tickets.com purchase destination for each date (pid 9775827 and pid 9775828), so the single official_tickets field remains pending rather than misrepresenting one date's ticket URL as covering the full two-night engagement."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/030327/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-22",
+          "note": "Official venue page confirms March 3-4, 2027 at 8:00 PM in The Barns, 6:30 PM doors, the full four-artist lineup, each guitarist's stylistic identity, and separate authorized Tickets.com controls for the two dates."
+        },
+        {
+          "url": "https://internationalguitarnight.com/north-america-tour/",
+          "publisher": "International Guitar Night",
+          "checked_on": "2026-08-22",
+          "note": "Official tour page confirms the 27th Anniversary 2027 North American lineup of Roxane Elfasci, Jim Kimo West, Minnie Marks, and Luca Stricagnoli and the program's cross-style guitar-showcase format."
+        },
+        {
+          "url": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&orgid=44689&pid=9775827",
+          "publisher": "Wolf Trap / Tickets.com",
+          "checked_on": "2026-08-22",
+          "note": "Exact authorized purchase destination linked by Wolf Trap for the March 3 performance."
+        },
+        {
+          "url": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&orgid=44689&pid=9775828",
+          "publisher": "Wolf Trap / Tickets.com",
+          "checked_on": "2026-08-22",
+          "note": "Exact authorized purchase destination linked by Wolf Trap for the March 4 performance."
+        },
+        {
+          "url": "https://music.apple.com/us/album/hommage-%C3%A1-debussy/1586177637",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for Roxane Elfasci's Hommage á Debussy."
+        },
+        {
+          "url": "https://music.apple.com/us/album/moku-maluhia-peaceful-island/1331833381",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for Jim Kimo West's Moku Maluhia: Peaceful Island."
+        },
+        {
+          "url": "https://music.apple.com/us/album/trouble-with-the-troubadour/1450738000",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for Minnie Marks's Trouble with the Troubadour."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, lineup, stylistic framing, and the two date-specific authorized purchase paths were verified against Wolf Trap; International Guitar Night independently corroborates the same 2027 touring quartet and concept. Exact Apple Music pages were verified for three contrasting members. Repository search found no existing International Guitar Night / Wolf Trap 2027 record. No prices or unannounced program details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The attraction is the contrast, not a generic guitar-virtuoso label. Slack key, blues slide, classical transcription, and highly engineered modern fingerstyle all solve completely different musical problems on the same instrument. International Guitar Night is built to let those languages collide through solo, duo, and quartet playing, and The Barns is small enough that touch, tuning, attack, resonance, and physical technique should remain part of the experience rather than disappearing into a large hall.",
+          "trip_verdict": "Actively make room for one of the two nights if the local calendar is open. This is exactly the kind of instrumental-identity program that benefits from The Barns' scale; the two-date stop and long touring history provide enough flexibility that it does not need scarcity-tier treatment.",
+          "listen_before": "Roxane Elfasci — Hommage á Debussy; Jim 'Kimo' West — Moku Maluhia: Peaceful Island; Minnie Marks — Trouble with the Troubadour"
+        },
+        "es": {
+          "why_it_matters": "Lo atractivo es el contraste, no la etiqueta genérica de 'virtuosos de la guitarra'. Slack key hawaiano, slide bluesero, transcripción clásica y fingerstyle moderno hiperconstruido resuelven problemas musicales completamente distintos sobre el mismo instrumento. International Guitar Night está pensado para hacer chocar esos lenguajes en solos, dúos y cuartetos, y la escala de The Barns debería dejar audibles el toque, la afinación, el ataque, la resonancia y la técnica física en vez de perderlos en una sala enorme.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos noches si el calendario local está libre. Es exactamente el tipo de programa de identidad instrumental que gana mucho en la escala de The Barns; las dos fechas y la naturaleza itinerante del proyecto dan suficiente margen sin necesidad de tratarlo como una rareza de máxima prioridad.",
+          "listen_before": "Roxane Elfasci — Hommage á Debussy; Jim 'Kimo' West — Moku Maluhia: Peaceful Island; Minnie Marks — Trouble with the Troubadour"
+        }
+      }
+    },
+    {
+      "id": "buena-vista-orchestra-wolf-trap-2027-02-23",
+      "artist": "The Buena Vista Orchestra",
+      "subtitle": "Led by Rolando Morejón Reyes",
+      "dates": {
+        "start": "2027-02-23",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Cuban repertory / Living lineage",
+      "genres": [
+        "Cuban son",
+        "Afro-Cuban",
+        "Latin jazz",
+        "Traditional Cuban music"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Groove",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Rolando Morejón Reyes — violin, leader",
+        "Additional Buena Vista Orchestra personnel — not specified on the Wolf Trap event page"
+      ],
+      "factual_description": "Wolf Trap presents The Buena Vista Orchestra at The Barns on Tuesday, February 23, 2027 at 8:00 PM, with doors at 6:30 PM. Wolf Trap identifies Cuban violinist Rolando Morejón Reyes as leader and describes the ensemble as drawing musicians from original Buena Vista Social Club performances and from the bands of Omara Portuondo, Celia Cruz, and Afro-Cuban All Stars. The orchestra's official site describes the project as a revolving Cuban repertory ensemble led by Morejón Reyes, with musicians whose credits extend through Buena Vista-related groups and major Cuban artists. Wolf Trap does not yet publish the exact full personnel for the February 23 date.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/022327/",
+        "official_tickets": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&orgid=44689&pid=9775826"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Buena Vista Social Club",
+          "title": "Buena Vista Social Club",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/buena-vista-social-club/1716598034"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Wolf Trap event page, 8:00 PM showtime, named leader, authorized Tickets.com destination, official orchestra background page, and exact Apple Music lineage album are verified. The full February 23 ensemble personnel are intentionally not inferred because Wolf Trap has not published them."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/022327/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-22",
+          "note": "Official venue page confirms February 23, 2027 at 8:00 PM in The Barns, 6:30 PM doors, Rolando Morejón Reyes as leader, Buena Vista/Celia Cruz/Omara Portuondo/Afro-Cuban All Stars lineage, and the authorized ticket path."
+        },
+        {
+          "url": "https://thebuenavistaorchestra.com/about",
+          "publisher": "The Buena Vista Orchestra",
+          "checked_on": "2026-08-22",
+          "note": "Official ensemble page describes the revolving Cuban repertory project, Morejón Reyes's leadership, and the broader lineage through Buena Vista Social Club, Afro-Cuban All Stars, Omara Portuondo, Celia Cruz, Chucho Valdés and other major Cuban musicians."
+        },
+        {
+          "url": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&orgid=44689&pid=9775826",
+          "publisher": "Wolf Trap / Tickets.com",
+          "checked_on": "2026-08-22",
+          "note": "Exact authorized purchase destination linked from the Wolf Trap event page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/buena-vista-social-club/1716598034",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for the 1997 Buena Vista Social Club album, included as lineage context rather than as a claim that the 2027 touring orchestra duplicates the original personnel."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, leader, event framing, and authorized ticket path were verified against Wolf Trap; the ensemble's own site independently verifies its revolving-personnel model and Cuban lineage. Apple Music verifies the original Buena Vista Social Club album used for listening context. Repository search found no existing Buena Vista Orchestra / Wolf Trap 2027 record. No full 2027 lineup, prices, or unsupported original-member claims were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This earns a RADAR place because the attraction is still carried by living Cuban instrumental lineage rather than a generic nostalgia package: Morejón Reyes puts violin at the front of a repertory usually remembered through voices, piano, trumpet, and percussion, while the ensemble is built from musicians connected to several overlapping Cuban band traditions. The Barns should make the rhythmic and ensemble detail unusually legible. The caution is equally important: the project tours extensively and the exact Wolf Trap personnel beyond Morejón Reyes are not yet published, so the lineage is the reason to notice it, not a claim that the original Buena Vista Social Club has somehow reassembled.",
+          "trip_verdict": "Worth knowing about and catching if the local calendar is open, especially for the Cuban-music and Latin-groove thread. I would wait for the full Wolf Trap personnel before treating it as something to prioritize over a rarer master, premiere, or one-off.",
+          "listen_before": "Buena Vista Social Club — Buena Vista Social Club"
+        },
+        "es": {
+          "why_it_matters": "Entra al RADAR porque todavía hay linaje instrumental cubano vivo detrás del proyecto y no sólo un paquete de nostalgia: Morejón Reyes pone el violín al frente de un repertorio que solemos recordar por las voces, el piano, la trompeta y la percusión, mientras la orquesta reúne músicos conectados con varias tradiciones de banda cubana que se cruzan entre sí. La escala de The Barns debería dejar muy claros el ritmo y el detalle del ensamble. La cautela también importa: el proyecto gira mucho y Wolf Trap todavía no publica el personal completo más allá de Morejón Reyes, así que el linaje es la razón para poner atención, no una afirmación de que el Buena Vista Social Club original se haya reunido.",
+          "trip_verdict": "Vale tenerlo presente y entrarle si el calendario local está libre, especialmente por el hilo cubano y el groove latino. Esperaría a ver el personal completo de Wolf Trap antes de ponerlo por encima de un maestro más raro, un estreno o un one-off.",
+          "listen_before": "Buena Vista Social Club — Buena Vista Social Club"
+        }
+      }
+    }
+  ]
+}
