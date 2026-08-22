@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ben-vereen-80th-birthday-njpac-2026-11-21-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Current ALFIE-oriented search, BODY&SOUL, Yamamoto schedule sources, Space M&A, and Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Ben Vereen's 80th Birthday Concert clears RADAR admission because it is a one-night career milestone with a specific all-star vocal lineup and the Andy Farber Orchestra inside the TD James Moody Jazz Festival. A+ is deliberate: the milestone and lineup merit active prioritization, but Broadway/theatrical song is peripheral rather than central to the RADAR's strongest instrumental threads, and the evidence does not make this a protect-the-night S event for the project.",
+  "events": [
+    {
+      "id": "ben-vereen-80th-birthday-njpac-2026-11-21",
+      "artist": "Ben Vereen",
+      "subtitle": "80th Birthday Concert",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark",
+        "name": "Prudential Hall at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / Broadway-jazz lineage / Career milestone",
+      "genres": [
+        "Jazz",
+        "Broadway",
+        "R&B/Soul",
+        "American songbook"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ben Vereen — vocals",
+        "Karrin Allyson — vocals",
+        "Shoshana Bean — vocals",
+        "Melba Moore — vocals",
+        "Stephanie Pope — vocals",
+        "Lillias White — vocals",
+        "Andy Farber Orchestra",
+        "Additional guests — TBA"
+      ],
+      "factual_description": "NJPAC presents Ben Vereen's 80th Birthday Concert on Saturday, November 21, 2026 at 8:00 PM in Prudential Hall as part of the TD James Moody Jazz Festival. The official NJPAC event page bills Karrin Allyson, Shoshana Bean, Melba Moore, Stephanie Pope, Lillias White and the Andy Farber Orchestra alongside Vereen, with additional guests still to be announced. The program is framed around songs from Vereen's Broadway, film and television career. Ticketmaster independently confirms the date, 8:00 PM start, Newark venue and active general sale.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/ben-vereens-80th-birthday-concert/",
+        "official_tickets": "https://www.ticketmaster.com/event/000064B3B8B1EB3E?brand=njpac&camefrom=cfc_njpac_NJPACWebsite"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ben Vereen & Pippin Original Broadway Cast",
+          "title": "Magic To Do",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/1440856774"
+        },
+        {
+          "artist": "Ben Vereen & John Rubinstein",
+          "title": "On The Right Track",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/1440857060"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact NJPAC event and authorized Ticketmaster purchase destination are verified. The current NJPAC page names the announced guest vocalists and Andy Farber Orchestra while explicitly leaving additional guests TBA. Exact Apple Music song pages from Vereen's Pippin repertoire are included as listening context."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/ben-vereens-80th-birthday-concert/",
+          "publisher": "NJPAC",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms November 21, 2026 at 8:00 PM in Prudential Hall, TD James Moody Jazz Festival context, the current guest lineup, Andy Farber Orchestra, additional guests TBA, and career-spanning program framing."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/000064B3B8B1EB3E?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-22",
+          "note": "Authorized ticketing destination linked by NJPAC confirms Saturday, November 21, 2026 at 8:00 PM in Newark and active general sale."
+        },
+        {
+          "url": "https://music.apple.com/us/song/1440856774",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for Magic To Do from Pippin, one of Vereen's defining Broadway recordings."
+        },
+        {
+          "url": "https://music.apple.com/us/song/1440857060",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for On The Right Track from Pippin, useful context for the career-spanning birthday program."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, time, Prudential Hall, festival context, announced guest vocalists, Andy Farber Orchestra and career-spanning program were verified directly from NJPAC. The exact Ticketmaster destination linked by NJPAC independently verifies the performance and active sale. Repository search for Vereen and the event title found no existing canonical, curated or processed RADAR record. No unannounced guests, prices, set list or collaboration details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This earns a place because the birthday is doing real editorial work: Vereen turns 80 inside a one-night retrospective built around the Broadway, film and television repertoire through which he helped shape American musical theater, and NJPAC is surrounding him with several generations of major stage voices plus the Andy Farber Orchestra. The lineup makes the evening less a solo nostalgia show than a live handoff among performers connected to the same theater-song lineage. It is a strong cultural-history catch inside a jazz festival without pretending that Broadway is suddenly the center of RADAR.",
+          "trip_verdict": "Actively make room for it if a Newark or New York trip intersects November 21, especially if the broader trip includes the James Moody Jazz Festival. The one-night milestone and all-star lineup are enough to build an evening around, but I would not reorganize a separate regional trip around this date alone.",
+          "listen_before": "Ben Vereen & Pippin Original Broadway Cast — Magic To Do; Ben Vereen & John Rubinstein — On The Right Track"
+        },
+        "es": {
+          "why_it_matters": "Entra porque el cumpleaños sí cambia el contexto: Vereen llega a los 80 en una retrospectiva de una sola noche construida alrededor del repertorio de Broadway, cine y televisión con el que ayudó a marcar la historia del teatro musical estadounidense, y NJPAC lo rodea de varias generaciones de grandes voces escénicas junto a la Andy Farber Orchestra. La alineación vuelve la noche menos un ejercicio de nostalgia solista y más un relevo en vivo entre intérpretes conectados con el mismo linaje de canción teatral. Es una captura fuerte de historia cultural dentro de un festival de jazz sin fingir que Broadway de pronto es el centro del RADAR.",
+          "trip_verdict": "Sí le haría espacio activamente si un viaje a Newark o Nueva York coincide con el 21 de noviembre, especialmente si el recorrido ya incluye el James Moody Jazz Festival. El hito de una sola noche y la alineación alcanzan para construir la velada alrededor del concierto, aunque no reorganizaría por esta fecha sola un viaje regional que estuviera pensado para otra cosa.",
+          "listen_before": "Ben Vereen & Pippin Original Broadway Cast — Magic To Do; Ben Vereen & John Rubinstein — On The Right Track"
+        }
+      }
+    }
+  ]
+}
