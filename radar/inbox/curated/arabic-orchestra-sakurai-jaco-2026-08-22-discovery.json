@@ -1,0 +1,218 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "arabic-orchestra-sakurai-jaco-2026-08-22-discovery",
+  "notes": "Yamamoto-first pass checked the current durable editorial guidance before grading and found no new unrecorded Tsuyoshi Yamamoto performance. Space M&A continues to confirm the already-recorded recurring trio dates through November; BODY&SOUL confirms the known September dates. This batch adds two A+ events and no scarcity-tier events. New York Arabic Orchestra clears RADAR admission because a one-night Barns presentation places Firas Zreik's kanun and contemporary Arabic composition inside a cross-cultural orchestral context co-produced by Middle East Institute and Abu Dhabi Festival. Tetsuo Sakurai's annual Jaco Pastorius tribute clears RADAR admission because the bassist-centered, fusion-specific lineup reconvenes on the exact anniversary of Pastorius's death with evolving arrangements; its recurring 17-year format makes A+ more accurate than S.",
+  "events": [
+    {
+      "id": "new-york-arabic-orchestra-wolf-trap-2026-12-04",
+      "artist": "New York Arabic Orchestra",
+      "subtitle": "with Firas Zreik — one-night Arabic orchestral program",
+      "dates": {
+        "start": "2026-12-04",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Arabic music / Kanun / Cross-cultural orchestra",
+      "genres": [
+        "Arabic music",
+        "Maqam",
+        "Contemporary Arabic music",
+        "Global jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "New York Arabic Orchestra",
+        "Firas Zreik — kanun, composer, musical director for the program",
+        "Additional orchestra personnel — not specified on the Wolf Trap event page"
+      ],
+      "factual_description": "Wolf Trap presents the New York Arabic Orchestra at The Barns on Friday, December 4, 2026 at 8:00 PM, with doors at 6:30 PM. The one-night performance is co-produced by the Middle East Institute Arts & Culture Center and Abu Dhabi Festival. Wolf Trap and the Middle East Institute identify composer and kanunist Firas Zreik as musical director for the program and describe a program combining Arabic classics with original compositions. The New York Arabic Orchestra independently lists the Wolf Trap date in its current news and describes its mission as preserving and advancing Arabic musical culture through both traditional and contemporary performance.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/120426/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Firas Zreik",
+          "title": "Tarabesque",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/tarabesque/6769902644"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Wolf Trap event page, date, showtime, co-presenters, Firas Zreik program role, NYAO corroboration, and exact Apple Music page for Tarabesque are verified. Wolf Trap currently exposes a members-sale control but no stable event-specific purchase destination was independently resolved in this pass, so official_tickets remains pending rather than storing a generic or invented URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/120426/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-22",
+          "note": "Official venue page confirms December 4, 2026 at 8:00 PM in The Barns, 6:30 PM doors, one-night framing, Middle East Institute and Abu Dhabi Festival co-production, and Firas Zreik as composer, kanunist and musical director for the program."
+        },
+        {
+          "url": "https://mei.edu/ar/events/new-york-arabic-orchestra-at-wolf-trap/",
+          "publisher": "Middle East Institute",
+          "checked_on": "2026-08-22",
+          "note": "Official co-presenter listing independently confirms December 4, 8:00-9:30 PM at The Barns, the same co-production credits, Firas Zreik, and the mix of Arabic classics and original compositions."
+        },
+        {
+          "url": "https://nyarabicorchestra.org/",
+          "publisher": "New York Arabic Orchestra",
+          "checked_on": "2026-08-22",
+          "note": "Official ensemble site lists the December 4 Wolf Trap performance and documents the orchestra's mission of preserving and promoting Arabic music while fostering cross-cultural understanding."
+        },
+        {
+          "url": "https://www.firaszreik.com/",
+          "publisher": "Firas Zreik",
+          "checked_on": "2026-08-22",
+          "note": "Official artist site documents the July 31, 2026 release of Tarabesque and Zreik's current work placing kanun and maqam language in contemporary jazz/global settings."
+        },
+        {
+          "url": "https://music.apple.com/us/album/tarabesque/6769902644",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Firas Zreik's 2026 Tarabesque."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, co-presenters, one-night framing and Firas Zreik's role were verified against Wolf Trap and Middle East Institute; NYAO independently confirms the event and ensemble mission; Firas Zreik and Apple Music verify the current listening recommendation. Repository search found no existing New York Arabic Orchestra / Wolf Trap December 4 record. No unannounced orchestra personnel or ticket URL was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to keep this on RADAR is the instrument and the cultural architecture around it. Firas Zreik treats the kanun as more than a heritage color: his current work pushes maqam language into modal jazz and contemporary composition, and here that voice sits inside an orchestra whose mission is explicitly about keeping Arabic repertoire alive while creating new work. The Barns is small enough that the microtonal detail and physical attack of the kanun should remain audible inside the larger ensemble rather than flattening into orchestral color.",
+          "trip_verdict": "Actively make room for this one-night local date if the calendar is open, especially if the listening thread includes instrumental identity, maqam, or cross-cultural composition. I would build the evening around it in the DMV, while treating it as a strong local priority rather than a reason to reorganize a larger trip.",
+          "listen_before": "Firas Zreik — Tarabesque"
+        },
+        "es": {
+          "why_it_matters": "La razón para meterlo al RADAR está en el instrumento y en la arquitectura cultural que lo rodea. Firas Zreik no usa el kanun como simple color de tradición: su trabajo actual empuja el lenguaje del maqam hacia el jazz modal y la composición contemporánea, y aquí esa voz entra en una orquesta cuya misión explícita es mantener vivo el repertorio árabe y al mismo tiempo crear música nueva. La escala de The Barns debería dejar audibles el detalle microtonal y el ataque físico del kanun dentro del ensamble, en vez de volverlo sólo un color orquestal.",
+          "trip_verdict": "Sí le haría espacio activamente a esta única noche local si el calendario está libre, sobre todo si el hilo de escucha trae identidad instrumental, maqam o composición intercultural. Construiría la noche del DMV alrededor del concierto, sin tratarlo como una razón para reorganizar un viaje mayor.",
+          "listen_before": "Firas Zreik — Tarabesque"
+        }
+      }
+    },
+    {
+      "id": "tetsuo-sakurai-jaco-tribute-cotton-club-2026-09-21",
+      "artist": "Tetsuo Sakurai",
+      "subtitle": "Jaco Pastorius Tribute Session — 17th annual edition",
+      "dates": {
+        "start": "2026-09-21",
+        "end": null
+      },
+      "showtimes": [
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Fusion bass / Jaco Pastorius tribute",
+      "genres": [
+        "Jazz fusion",
+        "Electric jazz",
+        "Funk",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Groove"
+      ],
+      "lineup": [
+        "Tetsuo Sakurai — bass",
+        "Toshiyuki Honda — saxophone",
+        "Kenichiro Shinzawa — keyboards",
+        "May Inoue — guitar",
+        "Carlos Kanno — percussion",
+        "Senri Kawaguchi — drums"
+      ],
+      "factual_description": "COTTON CLUB presents Tetsuo Sakurai's Jaco Pastorius Tribute Session on Monday, September 21, 2026, with 4:30 PM and 7:30 PM sets. The venue identifies 2026 as the 17th edition of a series Sakurai began in 2009 and notes that it is again held on the anniversary of Jaco Pastorius's death. The announced band is Tetsuo Sakurai, Toshiyuki Honda, Kenichiro Shinzawa, May Inoue, Carlos Kanno, and Senri Kawaguchi. COTTON CLUB says the program combines newly added repertoire with evolved arrangements of Pastorius-associated material; Sakurai's official schedule independently confirms the same date, venue and personnel.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/tetsuo-sakurai-260921/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jaco Pastorius",
+          "title": "Jaco Pastorius",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/jaco-pastorius/324707082?l=en"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact COTTON CLUB event page, both set times, full lineup, annual-series context, Sakurai's independent official schedule confirmation, and exact Apple Music page for Jaco Pastorius are verified. COTTON CLUB's reservation flow is session-dependent and no stable event-specific booking URL was resolved independently, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/tetsuo-sakurai-260921/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms September 21, 2026, 4:30 PM and 7:30 PM sets, the full six-musician lineup, the 17th-edition framing, the anniversary-of-Jaco date, and the promise of new repertoire plus evolved arrangements."
+        },
+        {
+          "url": "https://tetsuosakurai.com/shows",
+          "publisher": "Tetsuo Sakurai",
+          "checked_on": "2026-08-22",
+          "note": "Official artist schedule independently confirms the September 21 COTTON CLUB tribute and the same personnel."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/jaco-pastorius/324707082?l=en",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for Jaco Pastorius's self-titled album, included as direct listening context for the tribute."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, lineup, series history and current program framing were verified against COTTON CLUB; Sakurai's official schedule independently corroborates the same Tokyo event and personnel. Apple Music verifies the listening recommendation. Repository search found no existing Tetsuo Sakurai Jaco Tribute 2026 RADAR record. No session-dependent reservation URL or unannounced repertoire was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a generic Jaco repertory night. Sakurai has made the tribute an annual working laboratory for electric bass and Japanese fusion players, and the 2026 band is especially strong around the rhythm section: Senri Kawaguchi on drums, Carlos Kanno on percussion, May Inoue on guitar, with Sakurai's bass carrying the center of gravity. Holding it on the exact anniversary keeps the lineage explicit, while the venue's promise of new repertoire and reworked arrangements gives the session a reason to exist beyond faithful reconstruction.",
+          "trip_verdict": "Actively make room for one of the two sets if your Tokyo dates overlap, especially if bass, fusion, or Japanese instrumental lineages are part of the trip. The annual format gives enough recurrence that I would not displace a genuinely singular master appearance for it, but it is a very strong Tokyo night to build around.",
+          "listen_before": "Jaco Pastorius — Jaco Pastorius"
+        },
+        "es": {
+          "why_it_matters": "Esto no es una noche genérica de repertorio de Jaco. Sakurai ha convertido el tributo en un laboratorio anual para el bajo eléctrico y la fusión japonesa, y la banda de 2026 está especialmente cabrona alrededor de la sección rítmica: Senri Kawaguchi en batería, Carlos Kanno en percusión y May Inoue en guitarra, con el bajo de Sakurai como centro de gravedad. Hacerlo exactamente en el aniversario mantiene explícito el linaje, mientras la promesa del venue de meter repertorio nuevo y arreglos evolucionados le da una razón musical para existir más allá de reconstruir el pasado.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si coincide con tus días en Tokio, sobre todo si el viaje trae bajo, fusión o linajes instrumentales japoneses como hilo. El formato anual da suficiente recurrencia para no desplazar por esto una aparición realmente singular de un maestro, pero sí es una noche de Tokio muy fuerte para construir alrededor.",
+          "listen_before": "Jaco Pastorius — Jaco Pastorius"
+        }
+      }
+    }
+  ]
+}
