@@ -1,0 +1,104 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "aaron-rimbui-trio-keystone-korner-baltimore-2026-11-18-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. Aaron Rimbui Trio clears RADAR admission because the one-night Baltimore set centers a distinct East African jazz-piano language in a small trio format; it is graded A rather than inflated to A+ or S because the verified context does not establish a rare lineup, premiere, farewell or similarly scarce event.",
+  "events": [
+    {
+      "id": "aaron-rimbui-trio-keystone-korner-baltimore-2026-11-18",
+      "artist": "Aaron Rimbui Trio",
+      "subtitle": "East African jazz piano trio",
+      "dates": {
+        "start": "2026-11-18",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "East African jazz / Piano trio",
+      "genres": [
+        "Jazz",
+        "African jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Aaron Rimbui — piano",
+        "Timothy Norton — bass",
+        "Temitope Idowu — drums"
+      ],
+      "factual_description": "Keystone Korner Baltimore presents the Aaron Rimbui Trio on Wednesday, November 18, 2026 at 7:00 PM. InstantSeats lists Aaron Rimbui on piano, Timothy Norton on bass and Temitope Idowu on drums. The venue describes Rimbui's music as a fusion of jazz piano and East African rhythm; Jazz Congress identifies the Kenyan-born pianist and composer as a major figure in East African jazz whose work has focused on bringing African jazz traditions into international jazz settings.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=DF60692A-F5A4-9E38-7DDBE4A18814857A&fuseaction=home.event",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Aaron Rimbui, Ayanda Sikade & Herbie Tsoaeli",
+          "title": "Kwetu",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kwetu/1640394462"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact InstantSeats event page and exact Apple Music album page are verified. InstantSeats is Keystone Korner Baltimore's authorized ticketing platform and shows active ticket purchase controls, but an event-specific buy destination separate from the event page was not independently resolved, so official_tickets remains pending rather than storing a generic or inferred URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=DF60692A-F5A4-9E38-7DDBE4A18814857A&fuseaction=home.event",
+          "publisher": "Keystone Korner Baltimore / InstantSeats",
+          "checked_on": "2026-08-22",
+          "note": "Authorized event page confirms November 18, 2026, 7:00 PM, Keystone Korner Baltimore, the full trio lineup, active ticket sales and the East African rhythm/jazz-piano framing."
+        },
+        {
+          "url": "https://jazzcongress.org/panelist-bios",
+          "publisher": "Jazz Congress",
+          "checked_on": "2026-08-22",
+          "note": "Authoritative artist biography identifies Aaron Rimbui as a Kenyan-born pianist, composer and bandleader whose distinctive work blends jazz piano with African rhythms and has helped advance East African jazz internationally."
+        },
+        {
+          "url": "https://music.apple.com/us/album/kwetu/1640394462",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for Kwetu, the 2017 trio album by Aaron Rimbui, Ayanda Sikade and Herbie Tsoaeli."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date, time, venue, lineup and current event framing were verified against Keystone Korner Baltimore's authorized InstantSeats listing; broader artistic context was checked against Jazz Congress; the listening link was verified on Apple Music. Repository search found no existing Aaron Rimbui RADAR event before publication. No ticket-buy URL, additional personnel or unannounced program details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Rimbui earns a RADAR slot because the piano language itself is the reason to listen: modern jazz harmony and trio interplay are pulled toward East African rhythmic ideas rather than treated as a generic world-music overlay. In a small room, with only bass and drums around him, that relationship between pulse, touch and phrasing should stay exposed.",
+          "trip_verdict": "Worth knowing about and catching if the Baltimore date fits cleanly into the calendar, especially if the East African jazz thread or contemporary piano language is interesting. I would not displace a rarer master, premiere or one-off for this set.",
+          "listen_before": "Aaron Rimbui, Ayanda Sikade & Herbie Tsoaeli — Kwetu"
+        },
+        "es": {
+          "why_it_matters": "Rimbui entra al RADAR porque aquí el lenguaje del piano es la razón para escuchar: armonía de jazz moderno e interacción de trío jaladas hacia ideas rítmicas de África oriental, no una capa genérica de world music puesta encima. En una sala pequeña, con sólo bajo y batería alrededor, esa relación entre pulso, toque y fraseo debería quedar muy expuesta.",
+          "trip_verdict": "Vale tenerlo presente y entrarle si la fecha de Baltimore cae limpia en el calendario, sobre todo si interesa el hilo de jazz de África oriental o el lenguaje contemporáneo del piano. No desplazaría por este set a un maestro más raro, un estreno o un one-off.",
+          "listen_before": "Aaron Rimbui, Ayanda Sikade & Herbie Tsoaeli — Kwetu"
+        }
+      }
+    }
+  ]
+}
