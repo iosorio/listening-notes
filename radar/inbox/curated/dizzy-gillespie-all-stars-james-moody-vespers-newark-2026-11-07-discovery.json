@@ -1,0 +1,106 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dizzy-gillespie-all-stars-james-moody-vespers-newark-2026-11-07-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. The Dizzy Gillespie All-Stars Jazz Vespers clears RADAR admission because a Gillespie-lineage ensemble led by Dizzy's longtime bassist John Lee is performing a James Moody tribute in Newark's Bethany Baptist Church as part of the TD James Moody Jazz Festival. It is graded A+ rather than S because the ensemble is an active legacy project and the verified context does not establish a singular reunion, premiere, farewell or similarly scarce event.",
+  "events": [
+    {
+      "id": "dizzy-gillespie-all-stars-james-moody-vespers-newark-2026-11-07",
+      "artist": "The Dizzy Gillespie All-Stars",
+      "subtitle": "Bethany Baptist Church Jazz Vespers — A Tribute to James Moody",
+      "dates": {
+        "start": "2026-11-07",
+        "end": null
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "bethany-baptist-church-newark-nj",
+        "name": "Bethany Baptist Church",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Bebop lineage / James Moody tribute / Jazz Vespers",
+      "genres": [
+        "Jazz",
+        "Bebop",
+        "Straight-ahead jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "John Lee — bass / leader",
+        "Diego Urcola — trumpet",
+        "Don Braden — saxophone",
+        "Alex Collins — piano",
+        "Karl Latham — drums"
+      ],
+      "factual_description": "NJPAC presents The Dizzy Gillespie All-Stars at Bethany Baptist Church in Newark on Saturday, November 7, 2026 at 6:00 PM as a free Jazz Vespers concert within the TD James Moody Jazz Festival. The program is a tribute to Newark jazz legend James Moody. NJPAC identifies the ensemble as led by Dizzy Gillespie's longtime bassist John Lee, with Diego Urcola on trumpet, Don Braden on saxophone, Alex Collins on piano and Karl Latham on drums. The concert is co-sponsored with Bethany Baptist Church Jazz Vespers.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/the-dizzy-gillespie-all-stars-bethany-baptist-church-jazz-vespers/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "James Moody",
+          "title": "Moody's Mood for Love",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/moodys-mood-for-love/1444081698"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact NJPAC event page and exact Apple Music album page are verified. NJPAC explicitly identifies the concert as free, but no separate stable registration or ticket destination was exposed on the event page, so official_tickets remains pending rather than inventing a purchase or registration URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/the-dizzy-gillespie-all-stars-bethany-baptist-church-jazz-vespers/",
+          "publisher": "New Jersey Performing Arts Center",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms November 7, 2026 at 6:00 PM, Bethany Baptist Church in Newark, free admission, the James Moody tribute context, the full announced lineup and co-sponsorship with Bethany Baptist Church Jazz Vespers."
+        },
+        {
+          "url": "https://www.njpac.org/series/james-moody-jazz-festival/",
+          "publisher": "New Jersey Performing Arts Center",
+          "checked_on": "2026-08-22",
+          "note": "Official TD James Moody Jazz Festival page lists the November 7 Dizzy Gillespie All-Stars Jazz Vespers within the 2026 festival."
+        },
+        {
+          "url": "https://music.apple.com/us/album/moodys-mood-for-love/1444081698",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for James Moody's Moody's Mood for Love."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, free-admission status, James Moody tribute framing and full announced lineup were verified against NJPAC's exact event page; the festival context was independently confirmed on NJPAC's TD James Moody Jazz Festival page; the listening link was verified on Apple Music. Repository search found no existing Dizzy Gillespie All-Stars Bethany Baptist Church November 7, 2026 RADAR record before publication. No additional personnel, worship program details or registration URL were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is lineage rather than costume. John Lee spent years inside Dizzy Gillespie's music, and the All-Stars put that vocabulary in service of James Moody — another musician whose bebop language was inseparable from both Dizzy and Newark. Moving the tribute into Bethany Baptist's Jazz Vespers gives the music a community and spiritual setting instead of turning it into a repertory exercise on a concert-hall stage.",
+          "trip_verdict": "Actively make room for it if the Newark/NYC corridor is already in play, especially if bebop lineage and living transmission matter more than star billing. The church setting and direct Gillespie connection make it unusually meaningful, but I would not build a separate long-distance trip around this one concert alone.",
+          "listen_before": "James Moody — Moody's Mood for Love"
+        },
+        "es": {
+          "why_it_matters": "Aquí hay linaje, no disfraz. John Lee pasó años dentro de la música de Dizzy Gillespie, y los All-Stars ponen ese vocabulario al servicio de James Moody —otro músico cuyo lenguaje bebop estuvo íntimamente ligado tanto a Dizzy como a Newark. Llevar el homenaje al Jazz Vespers de Bethany Baptist le da a la música un contexto comunitario y espiritual en vez de volverla un simple ejercicio de repertorio en una sala de conciertos.",
+          "trip_verdict": "Sí le haría espacio activamente si Newark/NYC ya está dentro del recorrido, sobre todo si importa más el linaje bebop y su transmisión viva que el puro cartel de estrellas. La iglesia y la conexión directa con Gillespie hacen la fecha especialmente significativa, pero no armaría un viaje largo exclusivamente alrededor de este concierto.",
+          "listen_before": "James Moody — Moody's Mood for Love"
+        }
+      }
+    }
+  ]
+}
