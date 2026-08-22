@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "junko-yagami-birdland-2026-11-15-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Current ALFIE-oriented search, BODY&SOUL, Space M&A, Yamamoto schedule sources, and Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Junko Yagami's Birdland Theater engagement clears RADAR admission because it is a one-day, newly arranged Japan/New York city-pop-to-jazz experiment built around Yagami's catalog, American Route 66 standards, and drummer/bandmaster Ross Pederson. A+ is deliberate: the concept, intimate room and cross-cultural arranging merit active prioritization, but the available evidence does not establish the kind of singular historical scarcity required for S.",
+  "events": [
+    {
+      "id": "junko-yagami-pop-meets-jazz-birdland-2026-11-15",
+      "artist": "Junko Yagami",
+      "subtitle": "Pop Meets Jazz on Route 66",
+      "dates": {
+        "start": "2026-11-15",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "birdland-theater-new-york",
+        "name": "Birdland Theater",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / City pop-jazz experiment / Cross-cultural arranging",
+      "genres": [
+        "City pop",
+        "Jazz",
+        "Pop",
+        "Soul"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Junko Yagami — vocals",
+        "Ross Pederson — bandmaster, drums",
+        "Additional musicians — not yet named on the official event page"
+      ],
+      "factual_description": "Birdland Theater presents Junko Yagami: Pop Meets Jazz on Route 66 on Sunday, November 15, 2026, with sets at 7:00 PM and 9:30 PM. Birdland describes the engagement as a four-musician live experiment that newly arranges and reimagines Yagami's Japanese compositions alongside American standards associated with the Route 66 mythology. Ross Pederson is the only instrumentalist currently named by the venue, serving as bandmaster and drummer; the other musicians are not yet identified on the official event page.",
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/junko-yagami-pop-meets-jazz-on-route-66/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "JUNKO YAGAMI & Tsugutoshi Goto",
+          "title": "The Night Flight (feat. Masaki Matsubara, Jun Sato & Shuichi Ponta Murakami)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-night-flight-feat-masaki-matsubara-jun-sato/1536784042"
+        },
+        {
+          "artist": "JUNKO YAGAMI",
+          "title": "Tasogare No Bay City (Original Cover Art) - Single",
+          "kind": "single",
+          "apple_music_url": "https://music.apple.com/us/album/%E9%BB%84%E6%98%8F%E3%81%AEbay-city-original-cover-art-single/260770643"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Birdland event page, both set times, the announced concept, Junko Yagami and Ross Pederson are verified. Birdland exposes a separate authorized TicketWeb purchase destination for each set, so no single set-specific purchase URL is stored as if it represented the whole two-set engagement. Two exact Apple Music pages are provided for listening context."
+      },
+      "sources": [
+        {
+          "url": "https://www.birdlandjazz.com/tm-event/junko-yagami-pop-meets-jazz-on-route-66/",
+          "publisher": "Birdland Jazz Club & Theater",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms November 15, 2026, 7:00 PM and 9:30 PM sets, Birdland Theater, Junko Yagami, Ross Pederson as bandmaster/drummer, a four-musician format, and newly arranged Yagami compositions plus Route 66-associated American standards. The page links separately to authorized TicketWeb purchase pages for each set."
+        },
+        {
+          "url": "https://www.ticketweb.com/event/junko-yagami-pop-meets-jazz-birdland-theater-tickets/14214954",
+          "publisher": "TicketWeb",
+          "checked_on": "2026-08-22",
+          "note": "Authorized Birdland ticket page confirms the 9:30 PM November 15 performance at Birdland Theater. Because the 7:00 PM set has a separate TicketWeb destination, this URL is retained as source evidence rather than used as the event-level official_tickets link."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-night-flight-feat-masaki-matsubara-jun-sato/1536784042",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for The Night Flight, useful context for Yagami's catalog in a live-band setting."
+        },
+        {
+          "url": "https://music.apple.com/us/album/%E9%BB%84%E6%98%8F%E3%81%AEbay-city-original-cover-art-single/260770643",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music single page for Tasogare No Bay City, one of the Yagami songs specifically referenced by Birdland's event framing."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set times, venue, concept, Yagami billing and Ross Pederson's role were verified directly from Birdland; authorized TicketWeb verifies the later set. Repository search found no existing Junko Yagami / Birdland 2026 RADAR record. The official event page says four musicians but does not yet name the other players, so no additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This earns a place because the arrangement concept is the event, not a city-pop nostalgia package. Yagami's Japanese catalog is being put into direct conversation with American standards associated with Route 66, and Birdland is advertising newly built arrangements rather than a fixed tribute program. Ross Pederson gives the project a serious rhythmic center, while the small Theater room keeps the experiment close enough for the changes in groove, phrasing and reharmonization to matter physically. It is a particularly good Japan-to-New-York thread for RADAR.",
+          "trip_verdict": "Actively make room for one of the two sets if a New York trip intersects November 15, especially if the trip is following Japanese music, arranging and groove across genres. The one-day Birdland setting is strong enough to build the evening around, but I would not reorganize an otherwise separate regional trip around this date alone.",
+          "listen_before": "JUNKO YAGAMI & Tsugutoshi Goto — The Night Flight; JUNKO YAGAMI — Tasogare No Bay City"
+        },
+        "es": {
+          "why_it_matters": "Entra porque aquí el acontecimiento está en el concepto de los arreglos, no en una noche de nostalgia de city pop. El repertorio japonés de Yagami se pone directamente a conversar con standards estadounidenses asociados a la Ruta 66, y Birdland anuncia arreglos nuevos en vez de un tributo cerrado. Ross Pederson le da al proyecto un centro rítmico serio, mientras la escala pequeña del Theater permite escuchar de cerca cómo cambian el groove, el fraseo y la armonía. Para el RADAR es además un hilo Japón–Nueva York particularmente bueno.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si un viaje a Nueva York coincide con el 15 de noviembre, sobre todo si el viaje viene siguiendo música japonesa, arreglos y groove entre géneros. La fecha única en Birdland da para construir la noche alrededor del concierto, aunque no reorganizaría por sí sola un viaje regional que no estuviera ya encaminado a Nueva York.",
+          "listen_before": "JUNKO YAGAMI & Tsugutoshi Goto — The Night Flight; JUNKO YAGAMI — Tasogare No Bay City"
+        }
+      }
+    }
+  ]
+}
