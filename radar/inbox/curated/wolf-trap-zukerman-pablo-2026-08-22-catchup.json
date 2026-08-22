@@ -1,0 +1,203 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wolf-trap-zukerman-pablo-2026-08-22-catchup",
+  "notes": "Catch-up discovery under the current durable editorial hierarchy after reading PRIORITIES, EDITORIAL, DOMAINS, and inbox guidance. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. Both Wolf Trap chamber-music events clear RADAR admission as A+: excellent, instrumentally focused local performances worth actively making room for, without the scarcity required for S.",
+  "events": [
+    {
+      "id": "pablo-sainz-villegas-wolf-trap-2027-02-05",
+      "artist": "Pablo Sainz-Villegas",
+      "subtitle": "Chamber Music at The Barns",
+      "dates": {
+        "start": "2027-02-05",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Classical guitar / Solo recital / Instrumental identity",
+      "genres": [
+        "Classical",
+        "Classical Guitar",
+        "Spanish Guitar"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Pablo Sainz-Villegas — classical guitar"
+      ],
+      "factual_description": "Wolf Trap presents Spanish classical guitarist Pablo Sainz-Villegas at The Barns on February 5, 2027 at 7:30 PM, with doors at 6:00 PM. The solo program includes Villa-Lobos's Five Preludes, Sainz-Villegas's own arrangement of Bach's Chaconne from Partita No. 2, Albéniz's Asturias, Barrios-Mangoré's Un sueño en la Floresta, and Domeniconi's Koyunbaba. Sainz-Villegas's official calendar independently lists the February 5 Wolf Trap recital, and Wolf Trap links the event to an authorized Tickets.com purchase destination.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/020527/",
+        "official_tickets": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&orgid=44689&pid=9743558"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Pablo Sainz-Villegas",
+          "title": "Soul of Spanish Guitar",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/soul-of-spanish-guitar/1534557506"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Wolf Trap event page, authorized Tickets.com destination, official artist calendar confirmation, and exact Apple Music album page are verified. The recommended album includes Albéniz's Asturias, which is also on the Wolf Trap program."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/020527/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms February 5, 2027, 7:30 PM, The Barns, doors at 6:00 PM, solo-guitar billing, full program, and the authorized purchase path."
+        },
+        {
+          "url": "https://www.pablosainzvillegas.com/en/calendar",
+          "publisher": "Pablo Sainz-Villegas",
+          "checked_on": "2026-08-22",
+          "note": "Official artist calendar independently lists February 5, 2027 at Wolf Trap as a Chamber Music at The Barns engagement."
+        },
+        {
+          "url": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&orgid=44689&pid=9743558",
+          "publisher": "Wolf Trap / Tickets.com",
+          "checked_on": "2026-08-22",
+          "note": "Exact authorized ticket destination linked from the Wolf Trap event page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/soul-of-spanish-guitar/1534557506",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Soul of Spanish Guitar."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, doors, repertoire, and authorized ticketing were verified against Wolf Trap; the artist's own calendar independently confirms the Wolf Trap engagement; Apple Music recommendation is exact. Repository search found no existing Pablo Sainz-Villegas Wolf Trap record."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a good match between instrument, room, and repertoire. Sainz-Villegas is not arriving with an orchestra or crossover production: the guitar has to carry the entire architecture of Bach's Chaconne, the color of Villa-Lobos and Albéniz, and the very different physical demands of Barrios and Domeniconi. In The Barns, that puts touch, resonance, voicing, and control at the center of the night rather than spectacle.",
+          "trip_verdict": "Actively make room for it in the DMV if solo guitar and instrumental craft are part of the listening thread. The intimate room and concentrated program make this stronger than a routine recital, while his broader 2027 touring schedule means there is no need to rebuild larger travel plans around this date alone.",
+          "listen_before": "Pablo Sainz-Villegas — Soul of Spanish Guitar"
+        },
+        "es": {
+          "why_it_matters": "Aquí el instrumento, la sala y el repertorio embonan muy bien. Sainz-Villegas no llega con orquesta ni con una producción crossover: la guitarra tiene que cargar sola la arquitectura de la Chacona de Bach, el color de Villa-Lobos y Albéniz y las exigencias físicas muy distintas de Barrios y Domeniconi. En The Barns, el centro de la noche queda en el toque, la resonancia, las voces internas y el control, no en el espectáculo.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV si la guitarra solista y el oficio instrumental están en el hilo de escucha. La sala íntima y el programa concentrado la vuelven más atractiva que un recital rutinario, aunque su agenda amplia de 2027 no justifica reconstruir un viaje mayor alrededor de esta sola fecha.",
+          "listen_before": "Pablo Sainz-Villegas — Soul of Spanish Guitar"
+        }
+      }
+    },
+    {
+      "id": "zukerman-trio-beethoven-wolf-trap-2027-03-12",
+      "artist": "Zukerman Trio",
+      "subtitle": "Plays Beethoven",
+      "dates": {
+        "start": "2027-03-12",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living masters / Chamber music / Beethoven",
+      "genres": [
+        "Classical",
+        "Chamber Music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Pinchas Zukerman — violin",
+        "Amanda Forsyth — cello",
+        "Shai Wosner — piano"
+      ],
+      "factual_description": "Wolf Trap presents the Zukerman Trio at The Barns on March 12, 2027 at 7:30 PM, with doors at 6:00 PM. Pinchas Zukerman, Amanda Forsyth, and Shai Wosner perform an all-Beethoven program: Violin Sonata No. 4 in A minor, Op. 23; Cello Sonata No. 3 in A major, Op. 69; and Piano Trio in D major, Op. 70, No. 1 'Ghost.' Pinchas Zukerman's official current schedule independently lists the March 12 Wolf Trap date, and Wolf Trap links the event to an authorized Tickets.com destination.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/031227/",
+        "official_tickets": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&eventid=8094&orgid=44689"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Daniel Barenboim, Jacqueline du Pré & Pinchas Zukerman",
+          "title": "Beethoven: Piano Trios",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/beethoven-piano-trios/1628632720"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Wolf Trap event page, authorized Tickets.com destination, independent current Zukerman schedule confirmation, and exact Apple Music Beethoven album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/031227/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms March 12, 2027, 7:30 PM, The Barns, doors at 6:00 PM, all three musicians, the complete Beethoven program, and authorized purchase path."
+        },
+        {
+          "url": "https://linktr.ee/pinkyzukerman",
+          "publisher": "Pinchas Zukerman",
+          "checked_on": "2026-08-22",
+          "note": "Current official artist link page lists March 12, 2027 — Zukerman Trio at Wolf Trap, Vienna, Virginia."
+        },
+        {
+          "url": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&eventid=8094&orgid=44689",
+          "publisher": "Wolf Trap / Tickets.com",
+          "checked_on": "2026-08-22",
+          "note": "Exact authorized ticket destination linked from the Wolf Trap event page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/beethoven-piano-trios/1628632720",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Beethoven piano trios featuring Pinchas Zukerman, including his longstanding recorded Beethoven chamber-music language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, doors, trio lineup, complete program, and authorized ticketing were verified against Wolf Trap; Pinchas Zukerman's current official schedule independently confirms the engagement. Repository search found no existing Zukerman Trio Wolf Trap record."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the kind of chamber date that fits RADAR because the attraction is interaction, not prestige. Zukerman, Forsyth, and Wosner have enough shared language that an all-Beethoven program can live in the friction between three very different instrumental voices, and The Barns is small enough for bow weight, articulation, breathing, and changes of balance to matter physically. The 'Ghost' Trio is the natural center, but hearing it alongside separate violin and cello sonatas lets the evening expose each player's voice before the trio converges.",
+          "trip_verdict": "Actively make room for it in the local calendar if chamber music and instrumental identity are in play. The room and personnel make this a particularly strong Beethoven night, but the trio performs similar repertoire elsewhere in 2027, so it does not need scarcity-tier treatment.",
+          "listen_before": "Daniel Barenboim, Jacqueline du Pré & Pinchas Zukerman — Beethoven: Piano Trios"
+        },
+        "es": {
+          "why_it_matters": "Esta fecha entra al RADAR porque lo atractivo es la interacción, no el prestigio del nombre. Zukerman, Forsyth y Wosner tienen suficiente lenguaje compartido para que un programa entero de Beethoven viva en la fricción entre tres voces instrumentales muy distintas, y The Barns es lo bastante pequeño para que el peso del arco, la articulación, la respiración y los cambios de balance se sientan físicamente. El Trío 'Ghost' es el centro natural, pero escuchar antes sonatas separadas de violín y cello deja que cada voz aparezca por sí sola antes de que el trío converja.",
+          "trip_verdict": "Sí le haría espacio activamente en el calendario local si la música de cámara y la identidad instrumental están en juego. La sala y los músicos hacen de ésta una noche de Beethoven especialmente fuerte, pero el trío toca repertorio similar en otras fechas de 2027, así que no necesita tratamiento de escasez.",
+          "listen_before": "Daniel Barenboim, Jacqueline du Pré & Pinchas Zukerman — Beethoven: Piano Trios"
+        }
+      }
+    }
+  ]
+}
