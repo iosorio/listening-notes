@@ -1,0 +1,226 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tokyo-murata-pjo-2026-08-22-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This catch-up restores two Tokyo large-ensemble dates that clear RADAR admission without scarcity inflation: Yoichi Murata Big Band is A+ because its fusion/funk writing, 17-piece personnel and first COTTON CLUB appearance merit active prioritization; Pacific Jazz Orchestra is A because the 17-piece Tokyo configuration is musically worthwhile but the personnel beyond Chris Walden remain TBA and the engagement is a three-night return rather than a scarce event.",
+  "events": [
+    {
+      "id": "yoichi-murata-big-band-cotton-club-tokyo-2026-08-26",
+      "artist": "Yoichi Murata Big Band",
+      "subtitle": "COTTON CLUB debut",
+      "dates": {
+        "start": "2026-08-26",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo-marunouchi",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Big-band fusion-funk / Arranging",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Funk",
+        "Big band"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Yoichi Murata — leader, arranger, composer, trombone",
+        "Tatsuhiko Yoshizawa — trumpet",
+        "Yusuke Nakano — trumpet",
+        "Ryusuke Kanke — trumpet",
+        "Yusuke Sase — trumpet",
+        "Kei Suzuki — alto saxophone",
+        "Ryoichi Yamaki — alto saxophone",
+        "Osamu Koike — tenor saxophone",
+        "Masakuni Takeno — tenor saxophone",
+        "Naoya Takemura — baritone saxophone",
+        "Kan Shikauchi — trombone",
+        "Azusa Tojo — trombone",
+        "Junko Yamashiro — trombone",
+        "Yudai Sato — keyboards",
+        "Takashi Yofu — guitar",
+        "Kenji Takamizu — bass",
+        "Yuichi Togashiki — drums"
+      ],
+      "factual_description": "COTTON CLUB presents Yoichi Murata Big Band on Wednesday, August 26, 2026, with sets at 6:00 PM and 8:30 PM. The venue identifies this as Murata's big band's first COTTON CLUB appearance and announces a 17-piece lineup led by Murata on trombone, composition and arranging. COTTON CLUB describes the band's sound as distinct from a conventional swing big band, emphasizing fusion and funk; the announced rhythm section is Yudai Sato on keyboards, Takashi Yofu on guitar, Kenji Takamizu on bass and Yuichi Togashiki on drums, surrounded by four trumpets, five saxophones and four trombones including Murata.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yoichi-murata-260826/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yoichi Murata",
+          "title": "Cross Town Traffic",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/my/song/318927991"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact COTTON CLUB event page, both set times and the complete announced 17-person lineup are verified. The venue's reservation control redirects into a session-dependent booking route that returns a session error when followed outside an active reservation session, so no unstable purchase URL is stored. An exact Apple Music song page associated with Murata's brass/funk work is provided for listening context."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yoichi-murata-260826/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms August 26, 2026, 6:00 PM and 8:30 PM sets, first COTTON CLUB appearance, complete 17-person lineup, and the fusion/funk-centered big-band concept."
+        },
+        {
+          "url": "https://music.apple.com/my/song/318927991",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music song page for Yoichi Murata's Cross Town Traffic, from Solid Brass II."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, venue, first-appearance context, musical framing and all announced personnel were verified directly from COTTON CLUB. The reservation control was tested and found to be session-dependent, so official_tickets remains pending rather than storing an unstable URL. Repository search found no existing Yoichi Murata Big Band / COTTON CLUB 2026 RADAR record. No unannounced guests or repertoire were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This earns a place because the arranging and rhythm language are the event. Murata's big band is not trying to recreate a standard swing book: the brass and reeds sit on a fusion/funk engine, with a veteran Japanese session vocabulary shaped by work across Sadao Watanabe, Orquesta de la Luz, JAGATARA and a long career as an arranger. Seventeen players in COTTON CLUB makes the physical scale of that writing part of the attraction, and the first appearance there gives the night a concrete frame beyond a routine club date.",
+          "trip_verdict": "Actively make room for one of the two sets if the Tokyo calendar is still open on August 26, especially if the trip is tracing Japanese fusion, brass writing and groove. It is strong enough to build the evening around without displacing a truly rare master, premiere or one-off elsewhere in the city.",
+          "listen_before": "Yoichi Murata — Cross Town Traffic"
+        },
+        "es": {
+          "why_it_matters": "Entra porque aquí el acontecimiento está en los arreglos y en el lenguaje rítmico. La big band de Murata no intenta reconstruir un libro convencional de swing: metales y maderas se montan sobre una máquina de fusión y funk, con una genealogía japonesa de sesión que pasa por Sadao Watanabe, Orquesta de la Luz, JAGATARA y una carrera larguísima como arreglista. Diecisiete músicos dentro de COTTON CLUB hacen que la escala física de esa escritura sea parte del atractivo, y el debut de la banda en esa sala le da un marco concreto más allá de otra fecha de club.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el 26 de agosto sigue libre en Tokio, sobre todo si el viaje viene siguiendo fusión japonesa, escritura para metales y groove. Da para construir la noche alrededor del concierto sin desplazar a un maestro realmente raro, un estreno o una fecha irrepetible en otra sala.",
+          "listen_before": "Yoichi Murata — Cross Town Traffic"
+        }
+      }
+    },
+    {
+      "id": "pacific-jazz-orchestra-blue-note-tokyo-2026-11-20",
+      "artist": "Pacific Jazz Orchestra directed by Chris Walden",
+      "subtitle": "17-piece big-band configuration",
+      "dates": {
+        "start": "2026-11-20",
+        "end": "2026-11-22"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-aoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Large-ensemble jazz / Orchestral arranging",
+      "genres": [
+        "Jazz",
+        "Big band",
+        "Orchestral jazz",
+        "Crossover"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Chris Walden — director, conductor",
+        "Additional 17-piece big-band personnel — TBA"
+      ],
+      "factual_description": "Blue Note Tokyo presents Pacific Jazz Orchestra directed by Chris Walden from November 20 through November 22, 2026. The November 20 sets begin at 6:00 PM and 8:30 PM; the November 21 and 22 sets begin at 4:30 PM and 7:30 PM. Blue Note identifies the Tokyo engagement as a 17-piece big-band configuration of the Los Angeles-based ensemble, which was founded as a 40-piece orchestra, with a program spanning jazz standards and original material. Chris Walden is the only named member on the current event page; the remaining personnel are still TBA.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/pacific-jazz-orchestra/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Rufus Wainwright & Pacific Jazz Orchestra",
+          "title": "I'm a Stranger Here Myself - Wainwright Does Weill",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/im-a-stranger-here-myself-wainwright-does-weill/1837788132"
+        },
+        {
+          "artist": "Chris Walden Big Band",
+          "title": "Full-On!",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/full-on/911298447"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Blue Note Tokyo event page, date-specific set times, 17-piece configuration and Chris Walden's role are verified; the remaining personnel are explicitly TBA. Blue Note's reservation system is active, but a stable event-specific purchase destination separate from the event page was not resolved, so no generic reservation URL is substituted. Exact Apple Music album pages for Pacific Jazz Orchestra and Walden's big-band writing are included."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/pacific-jazz-orchestra/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms November 20-22, date-specific set times, Chris Walden as director/conductor, the 17-piece Tokyo format, standards/originals framing, and that other members remain TBA."
+        },
+        {
+          "url": "https://www.pacificjazz.org/home",
+          "publisher": "Pacific Jazz Orchestra",
+          "checked_on": "2026-08-22",
+          "note": "Official ensemble site confirms Chris Walden as artistic director and conductor and describes the orchestra's performance/education mission."
+        },
+        {
+          "url": "https://music.apple.com/us/album/im-a-stranger-here-myself-wainwright-does-weill/1837788132",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Rufus Wainwright & Pacific Jazz Orchestra's 2025 recording I'm a Stranger Here Myself - Wainwright Does Weill."
+        },
+        {
+          "url": "https://music.apple.com/us/album/full-on/911298447",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Chris Walden Big Band's Full-On!, useful for Walden's large-ensemble arranging language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, venue, 17-piece configuration, repertory framing and announced conductor were verified directly from Blue Note Tokyo; Pacific Jazz Orchestra's official site verifies Walden's role and ensemble mission. Repository search found no existing Pacific Jazz Orchestra / Blue Note Tokyo 2026 RADAR record. Remaining personnel, guests and exact repertoire were not inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs on the board because a 17-piece modern jazz orchestra inside Blue Note Tokyo is a different live proposition from a routine quartet date. Walden's value is in arrangement and orchestral color: he can move a large ensemble between straight-ahead jazz, pop vocabulary and cinematic writing without treating the big band as a museum object. The current listing is still intentionally modest editorially because the Tokyo personnel beyond Walden have not been announced and the engagement runs for three nights.",
+          "trip_verdict": "Worth knowing about if the November Tokyo calendar has an opening, particularly for a night centered on arranging and large-ensemble sound. I would consider one of the six sets if convenient, but would keep a scarcer master, reunion, premiere or small-room one-off ahead of it.",
+          "listen_before": "Rufus Wainwright & Pacific Jazz Orchestra — I'm a Stranger Here Myself - Wainwright Does Weill; Chris Walden Big Band — Full-On!"
+        },
+        "es": {
+          "why_it_matters": "Vale estar en el tablero porque una orquesta moderna de jazz de 17 músicos dentro de Blue Note Tokyo es una experiencia distinta a otra fecha rutinaria de cuarteto. El valor de Walden está en el arreglo y el color orquestal: puede mover un ensamble grande entre jazz, vocabulario pop y escritura cinematográfica sin tratar la big band como pieza de museo. La nota se mantiene deliberadamente moderada porque el personal de Tokio, aparte de Walden, todavía no está anunciado y la residencia dura tres noches.",
+          "trip_verdict": "Vale saber que existe si queda un hueco en el calendario de Tokio de noviembre, sobre todo para una noche centrada en arreglos y sonido de gran ensamble. Consideraría uno de los seis sets si acomoda, pero mantendría por delante a un maestro más escaso, una reunión, un estreno o una fecha íntima realmente irrepetible.",
+          "listen_before": "Rufus Wainwright & Pacific Jazz Orchestra — I'm a Stranger Here Myself - Wainwright Does Weill; Chris Walden Big Band — Full-On!"
+        }
+      }
+    }
+  ]
+}
