@@ -1,0 +1,118 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "juju-jazz-live-blue-note-tokyo-2026-11-12-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Space M&A, Yamamoto schedule traces, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. JUJU's six-day 2026 Blue Note Tokyo jazz run clears RADAR admission because it is a long-running Tokyo jazz practice with a stable working band and a specific club-scale identity distinct from her arena/pop work. Priority A is deliberate: Sony identifies 2026 as the 16th year of an annual Blue Note Tokyo jazz series begun in 2011, and twelve sets across six days make this a strong recurring RADAR event rather than a scarce performance that requires higher-tier language.",
+  "events": [
+    {
+      "id": "juju-jazz-live-blue-note-tokyo-2026-11-12",
+      "artist": "JUJU",
+      "subtitle": "JUJU JAZZ LIVE 2026 — EVERYTHING IS DELICIOUS IN AUTUMN!!",
+      "dates": {
+        "start": "2026-11-12",
+        "end": "2026-11-18"
+      },
+      "showtimes": [
+        "17:30",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-aoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Vocal jazz / Annual Blue Note Tokyo series",
+      "genres": [
+        "Jazz",
+        "Vocal jazz",
+        "Jazz standards",
+        "J-Pop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "JUJU — vocals",
+        "Masato Ishinari — guitar",
+        "Shinichi Kusama — piano",
+        "SOKUSAI — bass",
+        "Masanori Amakura — drums",
+        "Shunichi Oshima — keyboards, saxophone (November 12-13 only)",
+        "Masato Honma — keyboards, saxophone (November 14, 16-18 only)"
+      ],
+      "factual_description": "Blue Note Tokyo presents JUJU JAZZ LIVE 2026: EVERYTHING IS DELICIOUS IN AUTUMN!! on November 12, 13, 14, 16, 17 and 18, 2026. November 12, 13, 16, 17 and 18 have sets beginning at 5:30 PM and 8:30 PM; November 14 has sets at 4:30 PM and 7:30 PM. The announced band is JUJU on vocals, Masato Ishinari on guitar, Shinichi Kusama on piano, SOKUSAI on bass, Masanori Amakura on drums, plus Shunichi Oshima on keyboards/saxophone November 12-13 and Masato Honma on keyboards/saxophone November 14 and 16-18. Sony Music's official announcement states that JUJU has held this Blue Note Tokyo jazz live series every year since 2011 and that 2026 is its 16th year. Blue Note Tokyo lists a music charge of ¥11,000 and a general/Jam Session lottery application window of September 25-28, 2026.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/juju/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "JUJU",
+          "title": "DELICIOUS",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/delicious/1535523890"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Blue Note Tokyo event page, six performance dates, set times, full announced band, annual-series context and exact Apple Music DELICIOUS album page are verified. Blue Note Tokyo has published the exact lottery/reservation schedule, but the general/Jam Session application window does not open until September 25, 2026; no not-yet-active destination is stored as official_tickets."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/juju/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms the six November 2026 dates, all set times, complete announced band, Blue Note Tokyo venue, ¥11,000 music charge and the framing of the series as an intimate recurring JUJU jazz engagement."
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/JUJU/info/584219",
+          "publisher": "Sony Music Japan / JUJU",
+          "checked_on": "2026-08-23",
+          "note": "Official artist-label announcement independently confirms dates, set times, lineup and ticket windows, and states that the Blue Note Tokyo jazz live series has been held annually since 2011 and reaches its 16th year in 2026."
+        },
+        {
+          "url": "https://reserve.bluenote.co.jp/reserve/lottery/index/2026juju",
+          "publisher": "Blue Note Tokyo Reservations",
+          "checked_on": "2026-08-23",
+          "note": "Exact official lottery/reservation page confirms the engagement and that reservations use a lottery process; the general/Jam Session application window begins September 25, so no current purchase/application link is stored in official_tickets."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/delicious/1535523890",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music page for JUJU's 2011 jazz album DELICIOUS, the recording that established the jazz-series vocabulary associated with these Blue Note Tokyo performances."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, venue and lineup were verified directly from Blue Note Tokyo and independently from Sony Music's official JUJU announcement; Sony also verifies the annual-series history. The exact DELICIOUS album page was verified on Apple Music. Repository search found no existing JUJU / Blue Note Tokyo November 2026 RADAR record. No repertoire, current ticket availability, or unannounced personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs on RADAR because it is a real Tokyo live-music practice, not a pop singer making a novelty jazz stop. JUJU has returned to Blue Note Tokyo for a jazz series every year since 2011, and the club-scale format puts a singer with deep New York roots in front of a compact working band rather than the production architecture of a hall or arena tour. The value is continuity: standards, jazz phrasing and band interaction have become a parallel strand of her career that lives specifically in this room-sized setting.",
+          "trip_verdict": "Keep it on the board if November in Tokyo overlaps the six-night run, especially if the itinerary has room for vocal jazz or for a distinctly Japanese bridge between mainstream pop and club jazz. Twelve sets create plenty of flexibility, so I would fit one around scarcer masters, premieres or one-night encounters rather than moving those to make room.",
+          "listen_before": "JUJU — DELICIOUS"
+        },
+        "es": {
+          "why_it_matters": "Entra al RADAR porque esto ya es una práctica real de la vida musical de Tokio, no una cantante pop haciendo una excursión de jazz por novedad. JUJU vuelve a Blue Note Tokyo con una serie jazzística todos los años desde 2011, y la escala de club pone a una cantante con raíces musicales profundas en Nueva York frente a una banda compacta de trabajo, lejos de la arquitectura de producción de una gira de arena o de hall. El valor está en la continuidad: standards, fraseo jazzístico e interacción de banda se volvieron una línea paralela de su carrera que vive especialmente bien a esta escala.",
+          "trip_verdict": "La tendría en el tablero si noviembre en Tokio coincide con estas seis noches, sobre todo si el itinerario tiene espacio para jazz vocal o para ese puente muy japonés entre pop masivo y jazz de club. Doce sets dan muchísimo margen, así que acomodaría uno alrededor de maestros más escasos, estrenos o encuentros de una sola noche en vez de desplazar éstos.",
+          "listen_before": "JUJU — DELICIOUS"
+        }
+      }
+    }
+  ]
+}
