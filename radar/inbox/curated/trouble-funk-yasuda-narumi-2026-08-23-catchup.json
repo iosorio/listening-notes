@@ -12,9 +12,7 @@
         "start": "2026-09-03",
         "end": null
       },
-      "showtimes": [
-        "20:00"
-      ],
+      "showtimes": [],
       "venue": {
         "id": "930-club-washington-dc",
         "name": "9:30 Club",
@@ -43,7 +41,7 @@
         "The Kim Michelle Experience — special guest",
         "DJ Big John — music"
       ],
-      "factual_description": "9:30 Club presents the 50th Anniversary of Go-Go Celebration on Thursday, September 3, 2026. Doors are at 8:00 PM. The official venue page bills Big Tony & Trouble Funk, special guest The Kim Michelle Experience, and DJ Big John, and frames the night explicitly as a Pre-Labor Day celebration marking 50 years of go-go. Ticketmaster confirms the September 3, 2026, 8:00 PM event at 9:30 Club and is the venue's authorized ticketing destination.",
+      "factual_description": "9:30 Club presents the 50th Anniversary of Go-Go Celebration on Thursday, September 3, 2026. The official venue page lists doors at 8:00 PM and bills Big Tony & Trouble Funk, special guest The Kim Michelle Experience, and DJ Big John, framing the night explicitly as a Pre-Labor Day celebration marking 50 years of go-go. Ticketmaster confirms the September 3, 2026 event at 9:30 Club and is the venue's authorized ticketing destination. A separate performance start time is not currently verified, so no showtime is recorded.",
       "links": {
         "official_event": "https://www.930.com/e/50th-anniversary-of-go-go-celebration/",
         "official_tickets": "https://www.ticketmaster.com/50th-anniversary-of-gogo-celebration-washington-district-of-columbia-09-03-2026/event/150064EA81E53793"
@@ -59,7 +57,7 @@
       "enrichment": {
         "status": "complete",
         "missing": [],
-        "note": "Exact 9:30 Club event page, authorized Ticketmaster event page, billing, date/time, venue and exact Apple Music album page are verified."
+        "note": "Exact 9:30 Club event page, authorized Ticketmaster event page, billing, date/venue and exact Apple Music album page are verified. The official venue currently publishes doors at 8:00 PM rather than a separate performance start time, so showtimes remains empty rather than converting a door time into a showtime."
       },
       "sources": [
         {
@@ -72,7 +70,7 @@
           "url": "https://www.ticketmaster.com/50th-anniversary-of-gogo-celebration-washington-district-of-columbia-09-03-2026/event/150064EA81E53793",
           "publisher": "Ticketmaster",
           "checked_on": "2026-08-23",
-          "note": "Authorized ticketing page confirms September 3, 2026 at 8:00 PM at 9:30 Club in Washington, DC."
+          "note": "Authorized ticketing page confirms the September 3, 2026 event at 9:30 Club in Washington, DC."
         },
         {
           "url": "https://music.apple.com/us/album/drop-the-bomb/1641991192",
@@ -83,7 +81,7 @@
       ],
       "provenance": {
         "status": "verified-primary-source",
-        "note": "Event facts were verified directly with 9:30 Club and its authorized Ticketmaster destination; listening is an exact Apple Music page. Repository search found no existing matching Trouble Funk / Go-Go 50 / 9:30 Club event or stable ID. No unannounced personnel, prices or set times were inferred."
+        "note": "Event facts were verified directly with 9:30 Club and its authorized Ticketmaster destination; listening is an exact Apple Music page. Repository search found no existing matching Trouble Funk / Go-Go 50 / 9:30 Club event or stable ID. No unannounced personnel, prices or performance start time were inferred."
       },
       "editorial": {
         "en": {
@@ -136,14 +134,14 @@
         "Cultural context"
       ],
       "lineup": [
-        "Yasuda Narumi — vocals",
-        "Josei [SOIL&\u201cPIMP\u201dSESSIONS] — piano",
-        "Akita Goldman [SOIL&\u201cPIMP\u201dSESSIONS] — bass",
-        "Kajiuchi Kora — drums",
-        "Kurihara Ken — saxophone",
-        "Yoshida Satoshi — guitar"
+        "安田成美 — vocals",
+        "丈青 [SOIL&\u201cPIMP\u201dSESSIONS] — piano",
+        "秋田ゴールドマン [SOIL&\u201cPIMP\u201dSESSIONS] — bass",
+        "梶内胡良 — drums",
+        "栗原健 — saxophone",
+        "吉田サトシ — guitar"
       ],
-      "factual_description": "COTTON CLUB presents Yasuda Narumi 60th on November 27 and 28, 2026, marking her first appearance at the club around her 60th birthday on November 28. The announced program includes Nausicaa of the Valley of the Wind, material from the album Ginger, and the newer song Watashi wa Watashi. The venue highlights Yasuda's 2024 Haruomi Hosono-produced version of Nausicaa and announces a six-piece band including Josei and Akita Goldman of SOIL&\u201cPIMP\u201dSESSIONS. November 27 sets begin at 6:00 PM and 8:30 PM; November 28 sets begin at 4:30 PM and 7:30 PM.",
+      "factual_description": "COTTON CLUB presents Yasuda Narumi 60th on November 27 and 28, 2026, marking her first appearance at the club around her 60th birthday on November 28. The announced program includes Nausicaa of the Valley of the Wind, material from the album Ginger, and the newer song Watashi wa Watashi. The venue highlights Yasuda's 2024 Haruomi Hosono-produced version of Nausicaa and announces a six-piece band including 丈青 and 秋田ゴールドマン of SOIL&\u201cPIMP\u201dSESSIONS. November 27 sets begin at 6:00 PM and 8:30 PM; November 28 sets begin at 4:30 PM and 7:30 PM.",
       "links": {
         "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yasuda-narumi-261127/",
         "official_tickets": null
