@@ -1,0 +1,302 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "camille-beck-gregory-2026-08-23-catchup",
+  "notes": "Yamamoto-first discovery pass on 2026-08-23 under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were re-read before grading. Current ALFIE, BODY&SOUL, Yamamoto, Space M&A, and Japanese-jazz searches produced no new verified unrecorded Tsuyoshi Yamamoto date. Three catch-ups clear RADAR admission after the corrected separation between admission and priority: Camille Bertault at COTTON CLUB and Beck at The Anthem are A+ because their specific current live contexts merit active prioritization without scarcity-tier treatment; Gregory Porter's DC Jazz Festival trustee benefit at The Anthem is A because it is a strong locally relevant RADAR date without a rare lineup, premiere, or other scarcity signal. Batch distribution: A+ 2, A 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "camille-bertault-cotton-club-tokyo-2026-10-12",
+      "artist": "Camille Bertault",
+      "subtitle": "COTTON CLUB debut — quintet",
+      "dates": {
+        "start": "2026-10-12",
+        "end": null
+      },
+      "showtimes": [
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Vocal jazz / Improvisation",
+      "genres": [
+        "Jazz",
+        "Vocal jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Camille Bertault — vocals",
+        "Julien Alour — trumpet",
+        "Minino Garay — drums, percussion",
+        "Fady Farah — piano",
+        "Sylvain Romano — bass"
+      ],
+      "factual_description": "COTTON CLUB presents Camille Bertault on Monday, October 12, 2026, for two sets at 4:30 PM and 7:30 PM. The venue identifies this as Bertault's first appearance at COTTON CLUB and emphasizes the scat and improvisational vocal language that brought her international attention. The announced quintet is Bertault with Julien Alour on trumpet, Minino Garay on drums/percussion, Fady Farah on piano, and Sylvain Romano on bass. The exact authorized eplus listing independently confirms both set times, the same five-person lineup, and active general sale through October 8.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/camille-bertault-261012/",
+        "official_tickets": "https://eplus.jp/sf/detail/4584580001"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Camille Bertault",
+          "title": "Pas de géant (Version deluxe)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/pas-de-g%C3%A9ant-version-deluxe/1404992356"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact COTTON CLUB event page, authorized eplus event listing covering both sets, and exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/camille-bertault-261012/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-23",
+          "note": "Exact official event page confirms October 12, both set times, first COTTON CLUB appearance, and the five-person lineup."
+        },
+        {
+          "url": "https://eplus.jp/sf/detail/4584580001",
+          "publisher": "eplus",
+          "checked_on": "2026-08-23",
+          "note": "Authorized ticket listing confirms both October 12 performances, the announced personnel, and active general sale."
+        },
+        {
+          "url": "https://music.apple.com/us/album/pas-de-g%C3%A9ant-version-deluxe/1404992356",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music page for Pas de géant (Version deluxe), a useful document of Bertault's scat and improvisational vocabulary."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, venue, debut context, and lineup were verified directly from COTTON CLUB; authorized ticketing was independently confirmed through eplus; the listening recommendation is an exact Apple Music page. Repository search found no existing Camille Bertault RADAR record or current/processed batch before publication. No additional personnel or program details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Bertault belongs here because the voice is functioning as an improvising instrument, not simply as the melody on top of a jazz rhythm section. The COTTON CLUB debut puts her scat language in a compact quintet with trumpet, piano, bass, and drums/percussion, which should leave plenty of room for phrasing, rhythmic displacement, and actual ensemble reaction rather than a singer-with-band format.",
+          "trip_verdict": "Actively make room for one of the two sets if October 12 is open in Tokyo, especially if vocal improvisation and unusual instrumental identities are part of the Japan thread. It is a strong city-night anchor, but a first club appearance by an active touring artist does not require rebuilding a larger Japan itinerary around it.",
+          "listen_before": "Camille Bertault — Pas de géant (Version deluxe)"
+        },
+        "es": {
+          "why_it_matters": "Bertault entra porque aquí la voz funciona como instrumento improvisador, no simplemente como melodía encima de una sección rítmica de jazz. Su debut en COTTON CLUB la pone en un quinteto compacto con trompeta, piano, bajo y batería/percusión, un formato que debería dejar mucho espacio para fraseo, desplazamiento rítmico y reacción real de ensamble en vez de la fórmula cantante-con-banda.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el 12 de octubre está libre en Tokio, sobre todo si la improvisación vocal y las identidades instrumentales raras forman parte del hilo japonés. Es una noche fuerte dentro de la ciudad, pero el debut de club de una artista que sigue girando no obliga a reconstruir un itinerario mayor de Japón alrededor de esta sola fecha.",
+          "listen_before": "Camille Bertault — Pas de géant (Version deluxe)"
+        }
+      }
+    },
+    {
+      "id": "beck-ride-lonesome-anthem-washington-dc-2026-10-25",
+      "artist": "Beck",
+      "subtitle": "RIDE LONESOME TOUR — with Ioanna Gika",
+      "dates": {
+        "start": "2026-10-25",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Alternative rock / Current album tour / Songcraft",
+      "genres": [
+        "Alternative rock",
+        "Folk rock",
+        "Art rock",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Beck — artist/bandleader",
+        "Ioanna Gika — special guest"
+      ],
+      "factual_description": "The Anthem presents Beck's RIDE LONESOME TOUR on Sunday, October 25, 2026, with doors at 6:00 PM and show at 7:30 PM; the current live venue page lists Ioanna Gika as special guest. Ticketmaster independently confirms the October 25 7:30 PM event at The Anthem. Live Nation's April 21 tour announcement identifies Washington as one stop on a 25-date North American run and frames the tour around the then-new Ride Lonesome material, produced by Beck with the title track mixed by Nigel Godrich and drawing on the spacious sonic territory associated with Morning Phase and Sea Change. Apple Music lists the full Ride Lonesome album for September 18, 2026.",
+      "links": {
+        "official_event": "https://theanthemdc.com/event/beck-ride-lonesome-tour/",
+        "official_tickets": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Beck",
+          "title": "Ride Lonesome",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/ride-lonesome/6788956584"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact The Anthem event, exact authorized Ticketmaster destination, current tour context, and exact Apple Music pre-release album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://theanthemdc.com/event/beck-ride-lonesome-tour/",
+          "publisher": "The Anthem",
+          "checked_on": "2026-08-23",
+          "note": "Exact venue event page confirms October 25, doors 18:00, show 19:30, Beck billing, and current special guest Ioanna Gika."
+        },
+        {
+          "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-23",
+          "note": "Authorized event-specific ticket page independently confirms October 25, 2026 at 7:30 PM at The Anthem."
+        },
+        {
+          "url": "https://news.livenationentertainment.com/news/beck-ride-lonesome-single-tour",
+          "publisher": "Live Nation Entertainment",
+          "checked_on": "2026-08-23",
+          "note": "Official tour announcement identifies the 25-date North American tour, the Washington stop, and the current Ride Lonesome sonic/project context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/ride-lonesome/6788956584",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music page for the September 18, 2026 Ride Lonesome album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, doors, showtime, venue, and current special guest were verified from The Anthem; the exact authorized Ticketmaster page independently confirms the event; Live Nation verifies the tour's scale and current-project framing; Apple Music verifies the album page. Repository search found no Beck RIDE LONESOME Washington RADAR record or batch before publication. A stale Beck-site cache that listed a different support artist was not used over the live exact venue page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The concrete reason is not simply that Beck has a deep catalog. This tour is tied to a current record that deliberately returns to the spacious, melancholy side of his language while still leaving room for the stylistic pivots that make his live sets unpredictable. At The Anthem, that gives the night more shape than a greatest-hits stop: older acoustic and art-rock material can sit beside a new album built from the same sonic family.",
+          "trip_verdict": "Actively make room for the Washington date if Beck's shape-shifting songcraft is part of the local listening thread. The 25-date North American itinerary provides plenty of other chances nationally, so this is a strong DMV night rather than a performance that should displace a rarer premiere, farewell, or one-off.",
+          "listen_before": "Beck — Ride Lonesome"
+        },
+        "es": {
+          "why_it_matters": "La razón concreta no es simplemente que Beck tenga un catálogo enorme. Esta gira está amarrada a un disco actual que vuelve deliberadamente al costado espacioso y melancólico de su lenguaje, sin perder los cambios de registro que hacen impredecibles sus conciertos. En The Anthem eso le da más forma a la noche que una parada de greatest hits: material acústico y art-rock de otras etapas puede convivir con un disco nuevo que vuelve a esa misma familia sonora.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de Washington si el songwriting cambiante de Beck forma parte del hilo local. La gira norteamericana de 25 fechas ofrece muchas otras oportunidades a escala nacional, así que ésta es una noche fuerte del DMV, no una función que deba desplazar un estreno, despedida o one-off mucho más raro.",
+          "listen_before": "Beck — Ride Lonesome"
+        }
+      }
+    },
+    {
+      "id": "gregory-porter-dc-jazz-festival-benefit-anthem-2026-11-16",
+      "artist": "Gregory Porter",
+      "subtitle": "DC Jazz Festival Benefit Concert — A Night of Stars",
+      "dates": {
+        "start": "2026-11-16",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Jazz vocal / DC Jazz Festival benefit",
+      "genres": [
+        "Jazz",
+        "Soul",
+        "Vocal jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Gregory Porter — vocals"
+      ],
+      "factual_description": "DC Jazz Festival presents Gregory Porter at The Anthem on Monday, November 16, 2026, as its Annual Trustee Benefit Concert, A Night of Stars. The live exact Anthem page and authorized Ticketmaster event both list a 7:30 PM show; the DC Jazz Festival landing page currently displays 7:00 PM, so the canonical showtime follows the two event-specific venue/ticketing sources that agree. No additional musicians or opening acts are currently announced on the exact Anthem page, so only Porter is recorded in the lineup.",
+      "links": {
+        "official_event": "https://theanthemdc.com/event/gregory-porter-dc-jazz-festival-benefit-concert-a-night-of-stars/",
+        "official_tickets": "https://www.ticketmaster.com/gregory-porter-dc-jazz-festival-benefit-washington-district-of-columbia-11-16-2026/event/150064C2DBC79CD2"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gregory Porter",
+          "title": "Liquid Spirit",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/liquid-spirit/1440861183"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact The Anthem event, exact authorized Ticketmaster destination, DC Jazz Festival benefit context, and exact Apple Music album page are verified. A 30-minute published-time discrepancy is documented; 19:30 is used because the exact venue and ticketing pages agree."
+      },
+      "sources": [
+        {
+          "url": "https://theanthemdc.com/event/gregory-porter-dc-jazz-festival-benefit-concert-a-night-of-stars/",
+          "publisher": "The Anthem",
+          "checked_on": "2026-08-23",
+          "note": "Exact live venue page confirms November 16, Gregory Porter, DC Jazz Festival presentation, and a 19:30 show."
+        },
+        {
+          "url": "https://www.ticketmaster.com/gregory-porter-dc-jazz-festival-benefit-washington-district-of-columbia-11-16-2026/event/150064C2DBC79CD2",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-23",
+          "note": "Authorized event-specific ticket page independently confirms November 16, 2026 at 19:30 at The Anthem."
+        },
+        {
+          "url": "https://www.dcjazzfest.org/night-of-stars",
+          "publisher": "DC Jazz Festival",
+          "checked_on": "2026-08-23",
+          "note": "Official festival page identifies the event as the Annual Trustee Benefit Concert featuring Gregory Porter at The Anthem; it currently displays 19:00, differing from the exact venue and ticketing pages."
+        },
+        {
+          "url": "https://music.apple.com/us/album/liquid-spirit/1440861183",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music page for Liquid Spirit."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, artist billing, and 19:30 showtime were verified from the exact Anthem and Ticketmaster event pages; DC Jazz Festival verifies the trustee-benefit context. The festival landing page's 19:00 display is preserved as a documented discrepancy rather than silently blended into the record. Repository search found no existing Gregory Porter RADAR record or batch before publication. No unannounced band personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Porter is a natural RADAR fit because his voice sits squarely between modern jazz phrasing, soul weight, and songcraft, and the DC Jazz Festival benefit gives the date a real local institutional connection. What it does not yet have is a rare announced lineup, premiere, unusual small-room format, or other circumstance that makes this specific performance substantially harder to reproduce than another strong Porter date.",
+          "trip_verdict": "Worth keeping on the local board if November 16 is open and vocal jazz or the DC Jazz Festival community matters that week. I would attend if the calendar lines up, while giving priority to scarcer masters, unusual ensembles, premieres, or one-night contexts if there is a conflict.",
+          "listen_before": "Gregory Porter — Liquid Spirit"
+        },
+        "es": {
+          "why_it_matters": "Porter entra naturalmente al RADAR porque su voz vive justo entre fraseo de jazz moderno, peso de soul y songwriting, y el beneficio del DC Jazz Festival le da a la fecha una conexión institucional local real. Lo que todavía no tiene es una alineación rara anunciada, un estreno, un formato pequeño poco común u otra circunstancia que vuelva esta función sustancialmente más difícil de repetir que otra gran fecha de Porter.",
+          "trip_verdict": "Vale tenerla en el tablero local si el 16 de noviembre está libre y esa semana pesan el jazz vocal o la comunidad del DC Jazz Festival. Iría si el calendario embona, pero ante un choque le daría prioridad a un maestro más escaso, una formación inusual, un estreno o un contexto realmente de una sola noche.",
+          "listen_before": "Gregory Porter — Liquid Spirit"
+        }
+      }
+    }
+  ]
+}
