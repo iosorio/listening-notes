@@ -1,0 +1,87 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "boogie-ren-billboard-live-tokyo-2026-11-16-discovery",
+  "notes": "Fresh Billboard Live Tokyo announcement verified on 2026-08-22 after the Yamamoto-first pass. No new unrecorded Tsuyoshi Yamamoto date was verified in this pass. Boogie Ren clears RADAR admission because Hiroto Komoto and Kantaro Uchida reduce Japanese blues to voice/harmonica and guitar in an improvisational two-person format; the first Billboard Live tour gives the Tokyo date a concrete setting without making it scarce enough for S.",
+  "events": [
+    {
+      "id": "boogie-ren-billboard-live-tokyo-2026-11-16",
+      "artist": "ブギ連 (Boogie Ren)",
+      "subtitle": "ブギる心〜外伝 / first Billboard Live tour",
+      "dates": {
+        "start": "2026-11-16",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese blues duo / Billboard Live debut",
+      "genres": [
+        "Blues",
+        "Rock",
+        "Japanese blues"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "甲本ヒロト (Hiroto Komoto) — vocals, harmonica",
+        "内田勘太郎 (Kantaro Uchida) — guitar"
+      ],
+      "factual_description": "Billboard Live Tokyo presents ブギ連 (Boogie Ren) on Monday, November 16, 2026, with stages at 5:30 PM and 8:30 PM. The duo is Hiroto Komoto on vocals and harmonica and Kantaro Uchida on guitar. Billboard identifies this as Boogie Ren's first appearance on the Billboard Live circuit and part of a three-city Tokyo/Osaka/Yokohama tour titled ブギる心〜外伝. The official page says member sales begin September 2 and guest sales September 9, so a stable event-specific purchase destination is not yet recorded here.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets",
+          "recommended_listening"
+        ],
+        "note": "The exact Billboard Live Tokyo event page is verified. Ticket sales have not opened yet, so no stable event-specific purchase destination is stored. The project has a current live album, ブギる心, but no exact Apple Music album/song/playlist URL was independently verified in this pass; no generic search or artist page was substituted."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms November 16, 2026; two stages at 17:30 and 20:30; Hiroto Komoto on vocals/harmonica and Kantaro Uchida on guitar; first Billboard Live appearance; three-city tour; and announced ticket-sale dates."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "The event details and lineup were verified from the exact Billboard Live Tokyo event page. The repository was searched for Boogie Ren / ブギ連 before publication and no existing event or batch was found. Ticket and Apple Music destinations remain pending rather than inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is Japanese blues stripped to its physical essentials: Komoto's voice and harmonica against Uchida's guitar, with no rhythm section or arrangement machinery to hide behind. Their live identity depends on pressure, timing, call-and-response and improvisational friction, and Billboard's small-room format should make that interaction unusually visible. The first Billboard Live run gives the setting a real reason to pay attention without pretending the Tokyo date is a once-only event.",
+          "trip_verdict": "Actively make room for one of the two Tokyo sets if Japanese blues, guitar language or live interplay is part of the trip. The same duo also plays Osaka and Yokohama on this run, so there is useful flexibility rather than a need to rebuild the itinerary around one night.",
+          "listen_before": "ブギ連 — ブギる心"
+        },
+        "es": {
+          "why_it_matters": "Esto es blues japonés reducido a lo más físico: la voz y armónica de Komoto frente a la guitarra de Uchida, sin sección rítmica ni aparato de arreglos donde esconderse. Su identidad en vivo depende de presión, tiempo, llamada y respuesta, y fricción improvisada; en una sala como Billboard esa conversación debería quedar especialmente expuesta. Que sea su primera corrida por Billboard Live le da una razón concreta a la fecha sin fingir que Tokio es una oportunidad irrepetible.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el blues japonés, la guitarra o la interacción en vivo forman parte del viaje. El mismo dúo toca también Osaka y Yokohama en esta corrida, así que hay flexibilidad real sin necesidad de rehacer todo el itinerario alrededor de una sola noche.",
+          "listen_before": "ブギ連 — ブギる心"
+        }
+      }
+    }
+  ]
+}
