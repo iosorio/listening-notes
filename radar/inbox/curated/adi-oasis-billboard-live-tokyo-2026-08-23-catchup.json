@@ -1,0 +1,105 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "adi-oasis-billboard-live-tokyo-2026-08-23-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Adi Oasis clears RADAR admission because her first-ever Japan performance puts a bass-led contemporary soul/funk language into a small Roppongi room. The grade is A+, not S: the first-Japan context merits active prioritization, while a second Billboard Live date in Osaka the following day removes the scarcity required for S.",
+  "events": [
+    {
+      "id": "adi-oasis-billboard-live-tokyo-2026-10-21",
+      "artist": "Adi Oasis",
+      "subtitle": "First-ever Japan performance",
+      "dates": {
+        "start": "2026-10-21",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Bass-led soul-funk / First Japan performance",
+      "genres": [
+        "Soul",
+        "Funk",
+        "R&B",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Adi Oasis — vocals, bass",
+        "Additional touring personnel — not announced on the official Tokyo event page"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Adi Oasis on Wednesday, October 21, 2026, with sets at 5:30 PM and 8:30 PM. The venue identifies the engagement as Oasis's long-awaited first-ever performance in Japan and describes her as a singer and bassist whose music moves across soul, funk, jazz and R&B. Billboard lists a second Japan date at Billboard Live Osaka on October 22. The current Tokyo event page does not publish the rest of the live lineup, so no additional personnel are inferred.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/tokyo/show?date=2026-10-21&direct=true&event_id=ev-21622",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Adi Oasis",
+          "title": "Lotus Glow",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/lotus-glow/1660061448"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page, date, both set times, first-Japan context and Adi Oasis's singer/bassist role are verified. The page exposes a Buy Tickets control, but a distinct stable event-specific purchase destination was not resolved in this pass, so official_tickets remains pending rather than storing a generic or unstable booking URL. The exact Apple Music album page for Lotus Glow is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/en/tokyo/show?date=2026-10-21&direct=true&event_id=ev-21622",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms October 21, 2026, 5:30 PM and 8:30 PM sets, first-ever Japan performance framing, singer/bassist role, and the October 22 Osaka continuation."
+        },
+        {
+          "url": "https://www.adioasis.com/about",
+          "publisher": "Adi Oasis",
+          "checked_on": "2026-08-23",
+          "note": "Official artist biography confirms Oasis's French-Caribbean identity, bass-led funk/soul language, Lotus Glow context, and extensive live-performance history."
+        },
+        {
+          "url": "https://music.apple.com/us/album/lotus-glow/1660061448",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for Lotus Glow."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set times, venue, first-Japan context and announced role were verified directly from Billboard Live Tokyo; artist context was checked against Adi Oasis's official site; listening is an exact Apple Music album page. Repository search found no existing Adi Oasis / Billboard Live Tokyo 2026 RADAR record or matching stable event ID. No unannounced band personnel or purchase URL were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is not simply that a contemporary soul artist is visiting Tokyo. Oasis carries the low end herself: bass tone, pocket and vocal phrasing are part of the same musical identity, and her writing moves naturally between funk, soul, R&B and jazz rather than treating the bass as accompaniment. A first Japan appearance in Billboard Live's small Roppongi room puts that physical groove unusually close to the listener.",
+          "trip_verdict": "Actively make room for one of the two Tokyo sets if October 21 is open, especially if the Japan thread includes bass players, groove and contemporary cross-genre musicians. The Osaka date the following night gives enough flexibility that this should complement, rather than displace, a genuinely scarce master, premiere or one-off elsewhere in the trip.",
+          "listen_before": "Adi Oasis — Lotus Glow"
+        },
+        "es": {
+          "why_it_matters": "La razón para ponerla en el tablero no es simplemente que una artista contemporánea de soul visite Tokio. Oasis carga ella misma con el grave: tono de bajo, pocket y fraseo vocal forman parte de una sola identidad musical, y su escritura pasa de funk a soul, R&B y jazz sin tratar el bajo como mero acompañamiento. Que su primera visita a Japón ocurra en la escala pequeña de Billboard Live Roppongi pone ese groove físicamente muy cerca.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets de Tokio si el 21 de octubre está libre, sobre todo si el hilo japonés del viaje viene siguiendo bajistas, groove y cruces contemporáneos. La fecha de Osaka al día siguiente da suficiente flexibilidad para que esta noche complemente, y no desplace, a un maestro realmente escaso, un estreno o una función irrepetible en otro punto del viaje.",
+          "listen_before": "Adi Oasis — Lotus Glow"
+        }
+      }
+    }
+  ]
+}
