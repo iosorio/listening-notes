@@ -1,0 +1,309 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "one-park-sirup-rodgab-2026-08-23-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-23 under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were re-read before grading. Current ALFIE/BODY&SOUL/Space M&A/Yamamoto searches produced no new unrecorded verified Tsuyoshi Yamamoto date. Three non-Yamamoto events clear RADAR admission. All three are deliberately A+: each has a concrete musical/contextual reason to make room for it, while A+ remains sufficient under the scarcity challenge and no S/S+ priority_review is warranted.",
+  "events": [
+    {
+      "id": "one-park-special-band-billboard-live-tokyo-2026-08-24",
+      "artist": "ONE PARK Special Band",
+      "subtitle": "Billboard Live Exclusive Session",
+      "dates": {
+        "start": "2026-08-24",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / All-star groove session / Festival project",
+      "genres": [
+        "Jazz-funk",
+        "Soul",
+        "Hip-hop",
+        "Rock",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Kazuki Isogai (SANABAGUN.) — guitar, band master",
+        "TAIHEI (Suchmos / Sai / N.S.DANCEMBLE) — keyboards",
+        "Shota Takagi (BREIMEN) — bass",
+        "Chisho Matsuura (Sai / N.S.DANCEMBLE) — drums",
+        "Reiya Terakubo — trumpet",
+        "Ken Kurihara — saxophone",
+        "Tabu Zombie (SOIL&\"PIMP\"SESSIONS) — trumpet",
+        "Shacho (SOIL&\"PIMP\"SESSIONS) — agitator",
+        "FNCY — special guest",
+        "Michael Kaneko — special guest",
+        "Ryosuke Nagaoka — special guest",
+        "sauce81 — special guest"
+      ],
+      "factual_description": "Billboard Live Tokyo presents ONE PARK Special Band on Monday, August 24, 2026, with sets at 6:00 PM and 9:00 PM. The official venue page calls it a one-night-only Billboard Live Exclusive Session built from the ONE PARK FESTIVAL special-band concept and confirms an eight-person core ensemble led by Kazuki Isogai, with TAIHEI, Shota Takagi, Chisho Matsuura, Reiya Terakubo, Ken Kurihara, Tabu Zombie, and Shacho, plus special guests FNCY, Michael Kaneko, Ryosuke Nagaoka, and sauce81. ONE PARK FESTIVAL's official announcement independently confirms the Tokyo standalone performance and both showtimes.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21554",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets",
+          "recommended_listening"
+        ],
+        "note": "The exact Billboard Live Tokyo event page, showtimes, core lineup, and special guests are verified. Authorized eplus pages exist for individual sets but the accessible sales windows shown in those pages have ended, while the live Billboard page exposes a purchase control without a stable event-specific destination in the checked source text; no ticket URL is inferred. No exact Apple Music release for the ONE PARK Special Band project was independently verified, so no generic artist substitute is stored."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21554",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-23",
+          "note": "Exact official event page confirms August 24, 2026, sets at 18:00 and 21:00, one-night-only Exclusive Session framing, eight-person core band, and FNCY, Michael Kaneko, Ryosuke Nagaoka, and sauce81 as special guests."
+        },
+        {
+          "url": "https://oneparkfestival.jp/news/2328/",
+          "publisher": "ONE PARK FESTIVAL",
+          "checked_on": "2026-08-23",
+          "note": "Official festival announcement confirms the standalone Billboard Live Tokyo performance, both showtimes, and the special-session concept outside the Fukui festival setting."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, times, venue, project framing, core lineup, and special guests were verified directly from Billboard Live Tokyo and ONE PARK FESTIVAL. Repository search found no existing ONE PARK Special Band RADAR event or batch. No unstable ticket destination or invented listening link was stored."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the kind of Tokyo session RADAR should catch even without a legacy-master headline. The rhythm section and horns pull directly from Suchmos, BREIMEN, SANABAGUN., Sai, and SOIL&\"PIMP\"SESSIONS, then the guest layer adds FNCY, Michael Kaneko, Ryosuke Nagaoka, and sauce81. The point is not celebrity stacking; it is a one-night small-room version of a festival band built around groove, arrangement, and live recombination across jazz-funk, soul, hip-hop, and Japanese alternative music.",
+          "trip_verdict": "Actively make room for one of the two sets if August 24 is open in Tokyo. The exact session is a one-night configuration and tomorrow's timing makes it especially actionable, but the ONE PARK special-band idea is a recurring festival practice, so it does not require rebuilding a larger Japan itinerary around this date alone.",
+          "listen_before": "No single recording adequately represents this exact special-band lineup; go in through the constituent bands rather than a fabricated ONE PARK release."
+        },
+        "es": {
+          "why_it_matters": "Éste es justo el tipo de sesión tokiota que el RADAR debería agarrar aunque no venga encabezada por una leyenda histórica. La sección rítmica y los metales salen directamente de Suchmos, BREIMEN, SANABAGUN., Sai y SOIL&\"PIMP\"SESSIONS, y encima entran FNCY, Michael Kaneko, Ryosuke Nagaoka y sauce81. Lo interesante no es apilar nombres, sino escuchar en una sala pequeña una banda de festival construida alrededor de groove, arreglo y recombinación en vivo entre jazz-funk, soul, hip-hop y música alternativa japonesa.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el 24 de agosto está libre en Tokio. La configuración exacta ocurre una sola noche y además es mañana, así que es especialmente accionable; aun así, la idea de ONE PARK Special Band es una práctica recurrente del festival y no obliga a rehacer un itinerario mayor de Japón alrededor de esta sola fecha.",
+          "listen_before": "No hay una sola grabación que represente correctamente esta formación especial; conviene entrar por las bandas de origen antes que inventar un release de ONE PARK."
+        }
+      }
+    },
+    {
+      "id": "sirup-aaamyyy-grooving-night-billboard-live-tokyo-2026-11-15",
+      "artist": "SIRUP × AAAMYYY",
+      "subtitle": "Grooving Night Premium — first two-man live + one-night special session",
+      "dates": {
+        "start": "2026-11-15",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / R&B-electronic dialogue / Live-and-talk session",
+      "genres": [
+        "R&B",
+        "Alternative",
+        "Electronic",
+        "J-pop",
+        "Soul"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "SIRUP — vocals",
+        "AAAMYYY — vocals",
+        "Atsushi Inoue — keyboards",
+        "HISA — guitar"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Grooving Night Premium on Sunday, November 15, 2026, with sets at 4:00 PM and 7:30 PM. The official event page identifies this as the first two-man live performance by SIRUP and AAAMYYY and the first Grooving Night held at Billboard Live Tokyo. Each artist will perform separately, the format includes an onstage conversation, and the venue announces a one-night-only special session by the two. Atsushi Inoue is listed on keyboards and HISA on guitar. Billboard states that an official lottery presale began August 21, 2026.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "SIRUP",
+          "title": "OWARI DIARY",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/owari-diary/1833823920"
+        },
+        {
+          "artist": "AAAMYYY",
+          "title": "Annihilation",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/annihilation/1621992562"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page, showtimes, four-person announced lineup, first-two-man-live framing, and one-night special-session context are verified, along with exact Apple Music album pages for both principal artists. The event page confirms an active official lottery presale but does not expose a stable event-specific purchase destination in the checked source text; no generic or inferred ticket URL is stored."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-23",
+          "note": "Exact official event page confirms November 15, 2026, both set times, first two-man live framing, first Grooving Night at Billboard Live Tokyo, one-night-only special session, and the announced SIRUP/AAAMYYY/Atsushi Inoue/HISA lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/owari-diary/1833823920",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for SIRUP's OWARI DIARY."
+        },
+        {
+          "url": "https://music.apple.com/us/album/annihilation/1621992562",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for AAAMYYY's Annihilation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, venue, event format, first two-man live context, one-night session, and lineup were verified from the exact Billboard Live Tokyo page; both listening links are exact Apple Music album pages. Repository search found no existing SIRUP or AAAMYYY RADAR record. No ticket destination was inferred from social snippets or generic sales pages."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the collision of two current Japanese languages rather than a standard co-bill. SIRUP's elastic R&B/gospel-informed phrasing and AAAMYYY's colder electronic/alternative vocabulary are being placed inside their first two-man live, with a dedicated shared session rather than only separate sets. The talk format matters too: Grooving Night is designed around how artists think about songs and everyday life, so the evening makes process and musical personality part of the performance instead of treating them as promo copy around it.",
+          "trip_verdict": "Actively make room for one of the two sets if contemporary Japanese R&B, electronic production, and cross-genre songwriting are part of the Tokyo thread. The first pairing and shared session make this stronger than a routine club date, while two performances and the continuing Grooving Night series provide enough flexibility that larger travel plans do not need to revolve around it.",
+          "listen_before": "SIRUP — OWARI DIARY; AAAMYYY — Annihilation"
+        },
+        "es": {
+          "why_it_matters": "Lo que importa es el choque de dos lenguajes japoneses actuales, no un simple doble cartel. El fraseo elástico de SIRUP, muy metido en R&B y gospel, se pone frente al vocabulario más frío, electrónico y alternativo de AAAMYYY en su primer two-man live, además con una sesión compartida preparada específicamente para la noche. El formato de conversación también cuenta: Grooving Night mete dentro del espectáculo cómo piensan las canciones y la vida cotidiana, en vez de dejar ese proceso como pura promoción alrededor del concierto.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el hilo de Tokio incluye R&B japonés contemporáneo, producción electrónica y composición cross-genre. La primera combinación y la sesión conjunta la vuelven bastante más fuerte que una fecha rutinaria de club; las dos funciones y la continuidad de Grooving Night dejan suficiente flexibilidad para no reconstruir planes mayores alrededor de esta sola noche.",
+          "listen_before": "SIRUP — OWARI DIARY; AAAMYYY — Annihilation"
+        }
+      }
+    },
+    {
+      "id": "rodrigo-y-gabriela-ourhome-anthem-washington-dc-2026-10-20",
+      "artist": "Rodrigo y Gabriela",
+      "subtitle": "OurHome Tour",
+      "dates": {
+        "start": "2026-10-20",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Instrumental guitar duo / New album tour / Mexico-Japan connection",
+      "genres": [
+        "Instrumental rock",
+        "Acoustic guitar",
+        "Latin",
+        "Flamenco-influenced",
+        "Progressive rock"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Latin",
+        "Fusion / Prog",
+        "Cross-genre",
+        "Japan/Tokyo",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Rodrigo Sánchez — guitar",
+        "Gabriela Quintero — guitar"
+      ],
+      "factual_description": "I.M.P. presents Rodrigo y Gabriela's OurHome Tour at The Anthem in Washington, DC on Tuesday, October 20, 2026, with doors at 7:00 PM and show at 8:00 PM. The official I.M.P. page describes OurHome as the duo's new self-produced album, made in Tokyo and framed as both a love letter to Japan and a meditation on home, delivered through their instrumental acoustic-guitar language. The exact authorized Ticketmaster event confirms the October 20 date, 8:00 PM showtime, and The Anthem. Apple Music lists OurHome for release September 18, 2026.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/rodrigo-y-gabriela-ourhome-tour/",
+        "official_tickets": "https://www.ticketmaster.com/rodrigo-y-gabriela-ourhome-tour-washington-10-20-2026/event/150064C3B16BE34A"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Rodrigo y Gabriela",
+          "title": "OurHome",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/ourhome/6769249140"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact I.M.P. event page, exact authorized Ticketmaster event, showtime, duo billing, Tokyo-made OurHome context, and exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/rodrigo-y-gabriela-ourhome-tour/",
+          "publisher": "I.M.P. / The Anthem",
+          "checked_on": "2026-08-23",
+          "note": "Exact official event page confirms October 20, 2026, doors 19:00, show 20:00, The Anthem, OurHome Tour billing, and the album's self-produced-in-Tokyo / love-letter-to-Japan framing."
+        },
+        {
+          "url": "https://www.ticketmaster.com/rodrigo-y-gabriela-ourhome-tour-washington-10-20-2026/event/150064C3B16BE34A",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-23",
+          "note": "Exact authorized ticket destination confirms Rodrigo y Gabriela — OurHome Tour on October 20, 2026 at 8:00 PM at The Anthem."
+        },
+        {
+          "url": "https://music.apple.com/us/album/ourhome/6769249140",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music pre-release album page for OurHome, dated September 18, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, doors, showtime, venue, authorized ticketing, duo billing, and the Tokyo-made new-album context were verified against I.M.P./The Anthem, Ticketmaster, and Apple Music. Repository search found no existing Rodrigo y Gabriela / OurHome / The Anthem record. No additional touring personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Rodrigo y Gabriela already clear the instrumental-identity test on technique alone, but this tour has a more specific Listening Notes hook: the new record was self-produced in Tokyo and explicitly written as a love letter to Japan. That puts the duo's Mexican acoustic-guitar language — flamenco-adjacent attack, metal vocabulary, percussion played directly on the instruments — into direct conversation with the Tokyo thread RADAR has been following rather than making this just another local tour stop.",
+          "trip_verdict": "Actively make room for the Anthem date in the DMV if guitar and the Mexico-Japan thread matter. The new-record context makes this a particularly good local stop, but the OurHome tour is extensive and reaches multiple nearby markets, so larger travel plans do not need to be rebuilt around Washington alone.",
+          "listen_before": "Rodrigo y Gabriela — OurHome"
+        },
+        "es": {
+          "why_it_matters": "Rodrigo y Gabriela ya pasan por puro lenguaje instrumental, pero esta gira tiene un gancho mucho más específico para Listening Notes: el disco nuevo fue autoproducido en Tokio y está planteado explícitamente como una carta de amor a Japón. Eso pone su lenguaje mexicano de dos guitarras —ataque cercano al flamenco, vocabulario metalero y percusión tocada directamente sobre los instrumentos— en conversación directa con el hilo de Tokio que viene siguiendo el RADAR, en vez de dejar esta fecha como otra parada local de gira.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de The Anthem dentro del DMV si la guitarra y el hilo México-Japón importan. El contexto del disco nuevo vuelve especialmente buena esta parada local, pero la gira OurHome es extensa y pasa por varios mercados cercanos, así que no hace falta rehacer planes mayores alrededor de Washington solamente.",
+          "listen_before": "Rodrigo y Gabriela — OurHome"
+        }
+      }
+    }
+  ]
+}
