@@ -1,0 +1,224 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wolf-trap-tedeschi-jerry-garcia-2026-08-23-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified in ALFIE/BODY&SOUL/Space M&A/current Japanese-source checks. This batch restores two upcoming Wolf Trap performances that clear RADAR admission as A+: Tedeschi Trucks Band with Lukas Nelson for the 12-piece band's current Future Soul tour, and the Jerry Garcia Symphonic Celebration with the National Symphony Orchestra and musicians carrying direct Jerry Garcia/Grateful Dead lineage. Both merit active local prioritization, while their broader multi-city tours remove the scarcity required for S.",
+  "events": [
+    {
+      "id": "tedeschi-trucks-band-lukas-nelson-wolf-trap-2026-08-28",
+      "artist": "Tedeschi Trucks Band / Lukas Nelson",
+      "subtitle": "Future Soul 2026 Tour",
+      "dates": {
+        "start": "2026-08-28",
+        "end": "2026-08-29"
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "filene-center-wolf-trap-vienna-va",
+        "name": "Filene Center at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Roots / Soul / Blues-rock / Large-ensemble groove",
+      "genres": [
+        "Blues rock",
+        "Soul",
+        "Roots rock",
+        "Jam",
+        "Americana"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Susan Tedeschi — guitar, vocals",
+        "Derek Trucks — guitar",
+        "Mike Mattison — guitar, vocals",
+        "Gabe Dixon — keyboards, vocals",
+        "Brandon Boone — bass",
+        "Tyler Greenwell — drums, percussion",
+        "Isaac Eady — drums, percussion",
+        "Mark Rivers — vocals",
+        "Alecia Chakour — vocals",
+        "Kebbi Williams — saxophone",
+        "Emmanuel Echem — trumpet",
+        "Elizabeth Lea — trombone",
+        "Lukas Nelson — opening artist"
+      ],
+      "factual_description": "Wolf Trap presents Tedeschi Trucks Band's Future Soul 2026 Tour with Lukas Nelson at the Filene Center on Friday and Saturday, August 28-29, 2026, with both shows at 7:00 PM and gates at 5:30 PM. Wolf Trap identifies Tedeschi Trucks Band as a 12-member ensemble led by Susan Tedeschi and Derek Trucks and frames its live language around soul, blues, roots and rock; Lukas Nelson opens with material including his album American Romance. The tour announcement from Live Nation identifies the complete 12-person Tedeschi Trucks Band lineup and confirms both Wolf Trap dates as part of the broad 2026 Future Soul tour. Wolf Trap currently shows August 28 on sale and August 29 sold out.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/26filene/082826/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tedeschi Trucks Band",
+          "title": "Future Soul",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/future-soul/1862965836"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Wolf Trap event page, both dates and showtime, current availability status, full Tedeschi Trucks Band lineup from the official tour announcement, and exact Apple Music page for Future Soul are verified. Wolf Trap uses separate authorized Tickets.com destinations for the two dates and August 29 is currently sold out; the single canonical official_tickets field is therefore left pending rather than making one date-specific purchase URL represent the full two-night event."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/26filene/082826/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-23",
+          "note": "Official venue page confirms August 28-29, 2026, 7:00 PM both nights, 5:30 PM gates, Tedeschi Trucks Band / Lukas Nelson billing, 12-member band framing, and current availability: August 28 on sale and August 29 sold out."
+        },
+        {
+          "url": "https://news.livenationentertainment.com/news/tedeschi-trucks-band-announces-future-soul-2026-tour",
+          "publisher": "Live Nation",
+          "checked_on": "2026-08-23",
+          "note": "Official tour announcement confirms Future Soul, the 35-date headlining tour, both August 28-29 Wolf Trap dates, Lukas Nelson on select dates, and the full current 12-person Tedeschi Trucks Band lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/future-soul/1862965836",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for Tedeschi Trucks Band's 2026 album Future Soul."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, billing and availability were verified directly from Wolf Trap; current tour scope and the 12-person band lineup were independently corroborated by Live Nation's official tour announcement; listening is an exact Apple Music album page. Repository searches found no existing Tedeschi Trucks Band / Wolf Trap 2026 record. A date-specific ticket URL was not stored as if it covered both nights."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is the band architecture as much as the two names at the front. Tedeschi and Trucks put two very different guitar voices inside a 12-piece ensemble with twin drums, horns, keyboards and layered vocals, so blues and roots-rock can open into soul, gospel color and long-form improvisation without losing the song. Future Soul is also current material rather than a catalog victory lap, and Lukas Nelson gives the evening another live roots vocabulary without breaking the musical through-line.",
+          "trip_verdict": "Actively make room for one of the Wolf Trap nights if the DMV calendar allows it; August 28 is the practical target because August 29 is currently sold out. The long national tour and two-night local run give enough flexibility that this should not displace a genuinely rare premiere, farewell or one-off.",
+          "listen_before": "Tedeschi Trucks Band — Future Soul"
+        },
+        "es": {
+          "why_it_matters": "Aquí el atractivo está tanto en la arquitectura de la banda como en los dos nombres al frente. Tedeschi y Trucks meten dos voces de guitarra muy distintas dentro de un ensamble de 12 músicos con doble batería, metales, teclados y varias voces; por eso el blues y el roots rock pueden abrirse hacia soul, color gospel e improvisación larga sin perder la canción. Future Soul además es material actual, no una vuelta de catálogo, y Lukas Nelson suma otro vocabulario de raíces sin romper el hilo musical de la noche.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las noches de Wolf Trap si el calendario del DMV lo permite; el 28 de agosto es el objetivo práctico porque el 29 aparece agotado. La gira nacional extensa y las dos fechas locales dan margen suficiente para no desplazar por esto un estreno, despedida o one-off verdaderamente raro.",
+          "listen_before": "Tedeschi Trucks Band — Future Soul"
+        }
+      }
+    },
+    {
+      "id": "jerry-garcia-symphonic-celebration-wolf-trap-2026-09-04",
+      "artist": "Jerry Garcia Symphonic Celebration / National Symphony Orchestra",
+      "subtitle": "Featuring Melvin Seals, Jacklyn LaBranch, Tom Hamilton, Grahame Lesh, John Morgan Kimock & Kanika Moore",
+      "dates": {
+        "start": "2026-09-04",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "filene-center-wolf-trap-vienna-va",
+        "name": "Filene Center at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Grateful Dead / Jerry Garcia lineage / Symphonic crossover",
+      "genres": [
+        "Rock",
+        "Jam",
+        "Psychedelic rock",
+        "Orchestral crossover"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "National Symphony Orchestra",
+        "Christopher Dragon — conductor",
+        "Melvin Seals — keyboards",
+        "Jacklyn LaBranch — vocals",
+        "Tom Hamilton — guitar",
+        "Grahame Lesh — guitar",
+        "John Morgan Kimock — drums",
+        "Kanika Moore — vocals"
+      ],
+      "factual_description": "Wolf Trap presents the Jerry Garcia Symphonic Celebration with the National Symphony Orchestra on Friday, September 4, 2026 at 8:00 PM, with gates at 6:30 PM and Christopher Dragon conducting. The featured musicians are Melvin Seals, Jacklyn LaBranch, Tom Hamilton, Grahame Lesh, John Morgan Kimock and Kanika Moore. Wolf Trap frames the program around 60 years of Grateful Dead music, with the NSO bringing orchestral scale to material including 'Dark Star' and 'Ripple.' Jerry Garcia's official site independently confirms the Wolf Trap date, the same featured lineup and the wider multi-city symphonic run with different orchestras.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/26filene/090426/",
+        "official_tickets": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&eventid=8016&orgid=44689"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jerry Garcia Band",
+          "title": "Jerry Garcia Band (Live)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/jerry-garcia-band-live/1139017531"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Wolf Trap event page, 8:00 PM showtime, 6:30 PM gates, complete announced featured lineup, exact authorized Tickets.com destination and exact Apple Music live-album page are verified. Jerry Garcia's official site independently confirms the Wolf Trap date and demonstrates that the symphonic celebration is a multi-city touring production."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/26filene/090426/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-23",
+          "note": "Official venue page confirms September 4, 2026, 8:00 PM, 6:30 PM gates, National Symphony Orchestra, Christopher Dragon, the six featured musicians and the Grateful Dead / Jerry Garcia symphonic program."
+        },
+        {
+          "url": "https://jerrygarcia.com/Events/",
+          "publisher": "JerryGarcia.com",
+          "checked_on": "2026-08-23",
+          "note": "Official Jerry Garcia site confirms the September 4 Wolf Trap performance with the National Symphony Orchestra and same featured lineup; its surrounding listings document the multi-city symphonic run."
+        },
+        {
+          "url": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&eventid=8016&orgid=44689",
+          "publisher": "Wolf Trap / Tickets.com",
+          "checked_on": "2026-08-23",
+          "note": "Exact authorized purchase destination linked directly from the Wolf Trap event page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/jerry-garcia-band-live/1139017531",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music page for Jerry Garcia Band (Live), a useful entry into the live Garcia-band vocabulary associated with the lineage represented by Melvin Seals and Jacklyn LaBranch."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, conductor, featured lineup, program framing and authorized ticket destination were verified directly from Wolf Trap; JerryGarcia.com independently corroborates the Wolf Trap date and touring context; listening is an exact Apple Music album page. Repository searches found no existing Jerry Garcia Symphonic Celebration / Wolf Trap 2026 record. No additional orchestra personnel or unannounced repertoire were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is stronger than a generic symphonic-tribute package because several people onstage carry the music through direct living relationships: Melvin Seals and Jacklyn LaBranch come from the Jerry Garcia Band world, while Grahame Lesh and Tom Hamilton connect the material to later branches of the Dead family and improvisational scene. Putting that lineage in front of the National Symphony Orchestra changes the scale without replacing the groove-based core that made Garcia's live language work.",
+          "trip_verdict": "Actively make room for the Wolf Trap night if the Dead/Garcia thread matters. The NSO and the lineage-heavy featured band make this a particularly good DMV edition of the project, while the same symphonic concept is touring several cities with other orchestras, so there is no need to treat this stop as a singular once-only event.",
+          "listen_before": "Jerry Garcia Band — Jerry Garcia Band (Live)"
+        },
+        "es": {
+          "why_it_matters": "Esto tiene bastante más sustancia que un paquete sinfónico de homenaje genérico porque varios músicos en el escenario cargan la música mediante relaciones directas y vivas: Melvin Seals y Jacklyn LaBranch vienen del mundo de Jerry Garcia Band, mientras Grahame Lesh y Tom Hamilton conectan el repertorio con ramas posteriores de la familia Dead y de la escena improvisatoria. Poner ese linaje frente a la National Symphony Orchestra cambia la escala sin borrar el núcleo de groove que hacía funcionar el lenguaje en vivo de Garcia.",
+          "trip_verdict": "Sí le haría espacio activamente a la noche de Wolf Trap si el hilo Dead/Garcia importa. La NSO y la banda invitada con ese linaje vuelven esta parada particularmente buena dentro del DMV; al mismo tiempo, el concepto sinfónico está recorriendo varias ciudades con otras orquestas, así que no hace falta tratar esta función como una oportunidad única e irrepetible.",
+          "listen_before": "Jerry Garcia Band — Jerry Garcia Band (Live)"
+        }
+      }
+    }
+  ]
+}
