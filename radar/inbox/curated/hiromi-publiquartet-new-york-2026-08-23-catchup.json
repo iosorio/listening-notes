@@ -1,0 +1,203 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "hiromi-publiquartet-new-york-2026-08-23-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Current ALFIE/BODY&SOUL/Space M&A/Yamamoto-source checks produced no new unrecorded Tsuyoshi Yamamoto performance. Two New York catch-ups clear RADAR admission under the corrected A/A+ policy: Hiromi's Piano Quintet with PUBLIQuartet at Blue Note New York, still actionable on its final night August 23, and PUBLIQuartet's Rhythm Nation program at Merkin Hall on October 17. Both grade A+, not S: each merits active prioritization for a specific musical reason, while repeated/ongoing project contexts remove the scarcity required for protect-the-night status.",
+  "events": [
+    {
+      "id": "hiromi-piano-quintet-publiquartet-blue-note-new-york-2026-08-20",
+      "artist": "Hiromi: The Piano Quintet feat. PUBLIQuartet",
+      "subtitle": "Piano + improvising string quartet at Blue Note New York",
+      "dates": {
+        "start": "2026-08-20",
+        "end": "2026-08-23"
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan connection / Piano quintet / Improvised chamber jazz",
+      "genres": [
+        "Jazz",
+        "Contemporary classical",
+        "Chamber jazz",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Hiromi — piano",
+        "PUBLIQuartet — improvising string quartet; specific personnel are not enumerated on the Blue Note event page"
+      ],
+      "factual_description": "Blue Note New York presents Hiromi: The Piano Quintet feat. PUBLIQuartet from August 20 through August 23, 2026, with sets at 8:00 PM and 10:30 PM each night. Blue Note frames the engagement around Hiromi's Silver Lining Suite language, where her jazz/classical/pop compositional vocabulary is expanded through piano and string quartet. PUBLIQuartet's official calendar independently confirms the August 20-23 Blue Note residency and both daily set times. On August 23, the final two sets remain listed by the venue.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/jazz-festival-nyc/tm-event/hiromi-the-piano-quintet-feat-publiquartet-2/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Hiromi",
+          "title": "Silver Lining Suite",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/silver-lining-suite/1577444014"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Blue Note event page, August 20-23 residency, both daily set times, PUBLIQuartet billing and exact Apple Music album page are verified. Blue Note states Ticketweb is its only authorized seller, but each set has a distinct Ticketweb purchase URL, so official_tickets remains pending rather than making one set's URL stand in for the entire residency."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/jazz-festival-nyc/tm-event/hiromi-the-piano-quintet-feat-publiquartet-2/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms Blue Note Jazz Club, August 20-23, 2026, two sets nightly at 8:00 PM and 10:30 PM, PUBLIQuartet billing, and Ticketweb as the only authorized ticket seller."
+        },
+        {
+          "url": "https://www.publiquartet.com/events",
+          "publisher": "PUBLIQuartet",
+          "checked_on": "2026-08-23",
+          "note": "Official ensemble calendar independently confirms Hiromi with PUBLIQuartet at Blue Note Jazz Club August 20-23 with 8:00 PM and 10:30 PM sets each night."
+        },
+        {
+          "url": "https://music.apple.com/us/album/silver-lining-suite/1577444014",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for Hiromi's Silver Lining Suite."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date range, times, venue and billing were verified directly with Blue Note New York and independently with PUBLIQuartet's official calendar. The repository was searched for Hiromi/PUBLIQuartet and no matching RADAR event or stable ID was found. No string-quartet personnel were inferred for this specific engagement beyond the billed ensemble name, and no single-set Ticketweb URL was misrepresented as ticketing for the full residency."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The interesting part is the architecture, not simply Hiromi's virtuosity. Her piano has to negotiate written string color, chamber-scale detail and an ensemble whose own identity includes open-form improvisation; the result puts rhythmic attack, counterpoint and spontaneous reaction in the same frame. In a room as small as Blue Note New York, that piano-plus-strings tension is much closer to the listener than in a concert-hall version of the project.",
+          "trip_verdict": "Actively make room for one of the remaining August 23 sets if New York is already reachable tonight. The four-night, eight-set residency provides enough opportunity that it should not displace a genuinely scarce one-off elsewhere in the corridor, but this is a strong late catch-up for the Japan/instrumental thread.",
+          "listen_before": "Hiromi — Silver Lining Suite"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante aquí es la arquitectura, no simplemente el virtuosismo de Hiromi. Su piano tiene que negociar color escrito para cuerdas, detalle de música de cámara y un ensamble cuya propia identidad incluye improvisación abierta; ataque rítmico, contrapunto y reacción espontánea quedan dentro del mismo cuadro. En una sala tan pequeña como Blue Note New York, esa tensión piano-cuerdas se escucha mucho más cerca que en una versión de sala de conciertos.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets que quedan el 23 de agosto si Nueva York ya es alcanzable esta noche. La residencia de cuatro noches y ocho sets da suficiente margen para que no desplace un one-off realmente escaso en otro punto del corredor, pero es un catch-up fuerte para el hilo Japón/instrumental.",
+          "listen_before": "Hiromi — Silver Lining Suite"
+        }
+      }
+    },
+    {
+      "id": "publiquartet-rhythm-nation-merkin-hall-2026-10-17",
+      "artist": "PUBLIQuartet",
+      "subtitle": "Rhythm Nation at Merkin Hall",
+      "dates": {
+        "start": "2026-10-17",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "merkin-hall-kaufman-music-center-new-york",
+        "name": "Merkin Hall at Kaufman Music Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Improvising string quartet / Contemporary chamber music / Rhythm",
+      "genres": [
+        "Contemporary classical",
+        "Jazz",
+        "Afro-Cuban",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Experimental / Metal",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Curtis Stewart — violin",
+        "Jannina Norpoth — violin",
+        "Nick Revel — viola",
+        "Hamilton Berry — cello"
+      ],
+      "factual_description": "Kaufman Music Center and the John J. Cali School of Music co-present PUBLIQuartet at Merkin Hall on Saturday, October 17, 2026 at 7:30 PM. The program, Rhythm Nation, culminates a weeklong residency and draws together Daniel Bernard Roumain's String Quartet No. 1: X, Sun Ra's Interstellar Low Ways, Duke Ellington's Come Sunday and movements from Fodé Lassana Diabaté's Sunjata's Time. Kaufman lists the quartet as Curtis Stewart and Jannina Norpoth on violin, Nick Revel on viola and Hamilton Berry on cello, with $30 tickets currently on sale through Kaufman's own ticketing system.",
+      "links": {
+        "official_event": "https://www.kaufmanmusiccenter.org/mch/event/publiquartet/",
+        "official_tickets": "https://tickets.kaufmanmusiccenter.org/6421/6423"
+      },
+      "recommended_listening": [
+        {
+          "artist": "PUBLIQuartet",
+          "title": "Rhythm Nation",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/rhythm-nation/6781675085"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Kaufman Music Center event page, one-performance schedule, full quartet personnel, exact authorized Kaufman ticket destination and exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.kaufmanmusiccenter.org/mch/event/publiquartet/",
+          "publisher": "Kaufman Music Center",
+          "checked_on": "2026-08-23",
+          "note": "Official presenter page confirms October 17, 2026 at 7:30 PM, Merkin Hall, the Rhythm Nation program, full quartet personnel, $30 ticket price and authorized Kaufman ticketing."
+        },
+        {
+          "url": "https://www.publiquartet.com/events/2026/10/12/immersive-residency-at-the-john-j-cali-school-of-music-at-montclair-state-university-bt4dt",
+          "publisher": "PUBLIQuartet",
+          "checked_on": "2026-08-23",
+          "note": "Official ensemble event page confirms October 17 at Merkin Hall as the culmination of the weeklong residency and describes the Rhythm Nation repertoire and concept."
+        },
+        {
+          "url": "https://music.apple.com/us/album/rhythm-nation/6781675085",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music page for PUBLIQuartet's 2026 album Rhythm Nation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, time, venue, program, lineup and ticketing were verified directly with Kaufman Music Center and cross-checked with PUBLIQuartet's official site; listening is an exact Apple Music album URL. Repository search found no existing PUBLIQuartet / Rhythm Nation Merkin Hall RADAR record or matching stable event ID."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is exactly the kind of string quartet that belongs in RADAR because the strings are not being used to soften the edges of jazz or popular repertory. Rhythm is the compositional engine: Roumain, Sun Ra, Ellington, Diabaté, Afro-Cuban material and open-form improvisation are being treated as parts of one contemporary chamber language. The fact that Merkin Hall closes a weeklong residency gives the program a process-and-performance context rather than making it a generic touring recital.",
+          "trip_verdict": "Actively make room for the October 17 performance if New York is already part of the corridor plan, especially if the listening thread is moving toward rhythm, strings and improvised chamber music. Rhythm Nation is an active project that has other performances and a current album, so it should complement rather than displace a truly scarce master or one-off.",
+          "listen_before": "PUBLIQuartet — Rhythm Nation"
+        },
+        "es": {
+          "why_it_matters": "Éste es exactamente el tipo de cuarteto de cuerdas que sí pertenece al RADAR porque las cuerdas no están ahí para suavizar jazz o repertorio popular. El ritmo es el motor compositivo: Roumain, Sun Ra, Ellington, Diabaté, material afrocubano e improvisación abierta se tratan como partes de un mismo lenguaje de cámara contemporáneo. Que Merkin Hall cierre una residencia de una semana le da además contexto de proceso y performance, no de recital genérico de gira.",
+          "trip_verdict": "Sí le haría espacio activamente al 17 de octubre si Nueva York ya está dentro del recorrido, sobre todo si el hilo de escucha se está moviendo hacia ritmo, cuerdas y música de cámara improvisada. Rhythm Nation es un proyecto activo con otras presentaciones y un disco vigente, así que lo acomodaría junto a —no en lugar de— un maestro realmente escaso o un one-off.",
+          "listen_before": "PUBLIQuartet — Rhythm Nation"
+        }
+      }
+    }
+  ]
+}
