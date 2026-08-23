@@ -1,0 +1,198 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "trouble-funk-yasuda-narumi-2026-08-23-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Current Yamamoto sources produced no new unrecorded future performance in this pass. Two catch-ups clear RADAR admission without invoking scarcity tiers: the 50th Anniversary of Go-Go Celebration at 9:30 Club because it puts a foundational DC sound and Trouble Funk inside an explicit 50-year local milestone at an iconic DC room; and Yasuda Narumi 60th at COTTON CLUB because her birthday/first-club appearance ties Nausicaa-era Japanese pop history, Haruomi Hosono's 2024 production thread, new material, and a SOIL&\u201cPIMP\u201dSESSIONS-connected band into a specific Tokyo context. Both are A+: actively worth making room for, but neither is scarce enough for S.",
+  "events": [
+    {
+      "id": "trouble-funk-go-go-50-930-club-2026-09-03",
+      "artist": "50th Anniversary of Go-Go Celebration feat. Big Tony & Trouble Funk",
+      "subtitle": "Go-Go at 50 — with The Kim Michelle Experience and DJ Big John",
+      "dates": {
+        "start": "2026-09-03",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "DC go-go / 50th anniversary / Local music history",
+      "genres": [
+        "Go-go",
+        "Funk",
+        "R&B"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Big Tony & Trouble Funk",
+        "The Kim Michelle Experience — special guest",
+        "DJ Big John — music"
+      ],
+      "factual_description": "9:30 Club presents the 50th Anniversary of Go-Go Celebration on Thursday, September 3, 2026. Doors are at 8:00 PM. The official venue page bills Big Tony & Trouble Funk, special guest The Kim Michelle Experience, and DJ Big John, and frames the night explicitly as a Pre-Labor Day celebration marking 50 years of go-go. Ticketmaster confirms the September 3, 2026, 8:00 PM event at 9:30 Club and is the venue's authorized ticketing destination.",
+      "links": {
+        "official_event": "https://www.930.com/e/50th-anniversary-of-go-go-celebration/",
+        "official_tickets": "https://www.ticketmaster.com/50th-anniversary-of-gogo-celebration-washington-district-of-columbia-09-03-2026/event/150064EA81E53793"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Trouble Funk",
+          "title": "Drop the Bomb",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/drop-the-bomb/1641991192"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact 9:30 Club event page, authorized Ticketmaster event page, billing, date/time, venue and exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.930.com/e/50th-anniversary-of-go-go-celebration/",
+          "publisher": "9:30 Club",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms September 3, doors at 8:00 PM, Big Tony & Trouble Funk, The Kim Michelle Experience, DJ Big John and the explicit 50th-anniversary-of-go-go framing."
+        },
+        {
+          "url": "https://www.ticketmaster.com/50th-anniversary-of-gogo-celebration-washington-district-of-columbia-09-03-2026/event/150064EA81E53793",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-23",
+          "note": "Authorized ticketing page confirms September 3, 2026 at 8:00 PM at 9:30 Club in Washington, DC."
+        },
+        {
+          "url": "https://music.apple.com/us/album/drop-the-bomb/1641991192",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for Trouble Funk's Drop the Bomb."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Event facts were verified directly with 9:30 Club and its authorized Ticketmaster destination; listening is an exact Apple Music page. Repository search found no existing matching Trouble Funk / Go-Go 50 / 9:30 Club event or stable ID. No unannounced personnel, prices or set times were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is one of those cases where geography is part of the music. Go-go is not merely a style being imported into a club; it is a DC language built around pocket, percussion, call-and-response and live continuity, and Trouble Funk is one of the bands that made that language legible far beyond the city. Putting Big Tony back inside 9:30 Club for an explicitly 50-year celebration turns the local-history connection into the reason for the night, rather than decoration around it.",
+          "trip_verdict": "Actively make room for this one in the DMV, especially if the local DC thread matters as much as virtuosity or lineage. The city is also marking go-go's anniversary in other forms this season, so this should be treated as a particularly strong local celebration rather than a singular once-only event that displaces everything else.",
+          "listen_before": "Trouble Funk — Drop the Bomb"
+        },
+        "es": {
+          "why_it_matters": "Aquí la geografía forma parte de la música. El go-go no llega al 9:30 Club como un estilo importado: es un lenguaje de DC construido sobre pocket, percusión, llamada y respuesta y continuidad en vivo, y Trouble Funk es una de las bandas que volvió ese lenguaje reconocible mucho más allá de la ciudad. Poner a Big Tony de nuevo dentro del 9:30 Club en una celebración explícita de cincuenta años hace que la conexión con la historia local sea la razón de la noche, no un adorno alrededor del concierto.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV, sobre todo si el hilo local de Washington pesa tanto como el virtuosismo o el linaje musical. La ciudad está celebrando el aniversario del go-go de varias maneras esta temporada, así que esta fecha funciona mejor como una celebración local especialmente fuerte que como un one-off que deba desplazar todo lo demás.",
+          "listen_before": "Trouble Funk — Drop the Bomb"
+        }
+      }
+    },
+    {
+      "id": "yasuda-narumi-cotton-club-tokyo-2026-11-27",
+      "artist": "Yasuda Narumi",
+      "subtitle": "60th birthday live — first COTTON CLUB appearance",
+      "dates": {
+        "start": "2026-11-27",
+        "end": "2026-11-28"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo-marunouchi",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Birthday milestone / Nausicaa-pop lineage",
+      "genres": [
+        "J-Pop",
+        "City pop",
+        "Jazz-pop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Yasuda Narumi — vocals",
+        "Josei [SOIL&\u201cPIMP\u201dSESSIONS] — piano",
+        "Akita Goldman [SOIL&\u201cPIMP\u201dSESSIONS] — bass",
+        "Kajiuchi Kora — drums",
+        "Kurihara Ken — saxophone",
+        "Yoshida Satoshi — guitar"
+      ],
+      "factual_description": "COTTON CLUB presents Yasuda Narumi 60th on November 27 and 28, 2026, marking her first appearance at the club around her 60th birthday on November 28. The announced program includes Nausicaa of the Valley of the Wind, material from the album Ginger, and the newer song Watashi wa Watashi. The venue highlights Yasuda's 2024 Haruomi Hosono-produced version of Nausicaa and announces a six-piece band including Josei and Akita Goldman of SOIL&\u201cPIMP\u201dSESSIONS. November 27 sets begin at 6:00 PM and 8:30 PM; November 28 sets begin at 4:30 PM and 7:30 PM.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yasuda-narumi-261127/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "YASUDA NARUMI",
+          "title": "Nausicaa of the Valley of the Wind (2024 Ver.) - Single",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/nausica%C3%A4-of-the-valley-of-the-wind-2024-ver-single/1726120662"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact COTTON CLUB event page, dates, all four set times, first-club/60th-birthday context, announced lineup and exact Apple Music listening page are verified. The venue exposes active reservations, but a distinct stable event-specific purchase destination was not resolved in this pass, so official_tickets remains pending rather than storing a generic or session-dependent booking URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yasuda-narumi-261127/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms November 27-28, four set times, first COTTON CLUB appearance, 60th-birthday framing, planned repertoire, Haruomi Hosono-produced 2024 Nausicaa context and the full announced band."
+        },
+        {
+          "url": "https://music.apple.com/us/album/nausica%C3%A4-of-the-valley-of-the-wind-2024-ver-single/1726120662",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music page for Nausicaa of the Valley of the Wind (2024 Ver.) - Single; Apple Music also lists Yasuda's birth date as November 28, 1966."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times, venue, birthday/first-club framing, repertoire context and lineup were verified directly from COTTON CLUB; the listening page and birth-date context were checked on Apple Music. Repository search found no existing Yasuda Narumi / COTTON CLUB 2026 RADAR record or matching stable event ID. No unannounced personnel or purchase URL were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a very Tokyo kind of connection point: Yasuda's musical history runs through the Nausicaa image song and an album with songs by Taeko Onuki, then loops back through Haruomi Hosono's 2024 production and into a birthday set backed partly by musicians from SOIL&\u201cPIMP\u201dSESSIONS. The interest is not celebrity nostalgia; it is hearing several strands of Japanese pop history reassembled in a club-scale band on her 60th birthday weekend, with both old material and a newer song in the program.",
+          "trip_verdict": "Actively make room for one of the four sets if late November in Tokyo is already part of the plan, particularly if the Japan thread is widening from jazz into the pop, film and studio lineages around it. Two nights and four performances give enough flexibility that this should sit below genuinely scarce one-off master dates.",
+          "listen_before": "YASUDA NARUMI — Nausicaa of the Valley of the Wind (2024 Ver.)"
+        },
+        "es": {
+          "why_it_matters": "Éste es un cruce muy Tokio: la historia musical de Yasuda pasa por la canción imagen de Nausicaa y por un disco con temas de Taeko Onuki, luego vuelve a cruzarse con Haruomi Hosono en la versión de 2024 y llega a un cumpleaños respaldado en parte por músicos de SOIL&\u201cPIMP\u201dSESSIONS. El interés no es la nostalgia de una celebridad, sino escuchar varias líneas de la historia del pop japonés rearmadas en una banda de escala de club durante el fin de semana de sus 60 años, mezclando repertorio antiguo con material nuevo.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets si finales de noviembre ya forman parte del viaje a Tokio, especialmente si el hilo japonés se está abriendo del jazz hacia las genealogías de pop, cine y estudio que lo rodean. Dos noches y cuatro funciones dan suficiente flexibilidad para mantenerla por debajo de un maestro realmente escaso o un one-off irrepetible.",
+          "listen_before": "YASUDA NARUMI — Nausicaa of the Valley of the Wind (2024 Ver.)"
+        }
+      }
+    }
+  ]
+}
