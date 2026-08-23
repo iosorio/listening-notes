@@ -1,0 +1,115 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tropical-jazz-big-band-blue-note-tokyo-2026-12-16-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Yamamoto's current web diary/schedule traces, Space M&A, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This catch-up restores Tropical Jazz Big Band's newly announced 2026 year-end Blue Note Tokyo engagement at A: it clears RADAR admission through its long-running Japanese Latin-jazz identity, percussion-heavy large-ensemble language and specific Tokyo year-end tradition, while the recurring annual format and two-night/four-set availability argue against scarcity inflation.",
+  "events": [
+    {
+      "id": "tropical-jazz-big-band-blue-note-tokyo-2026-12-16",
+      "artist": "Tropical Jazz Big Band",
+      "subtitle": "THE 忘年会LIVE 2026",
+      "dates": {
+        "start": "2026-12-16",
+        "end": "2026-12-17"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-aoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Latin jazz big band / Year-end tradition",
+      "genres": [
+        "Jazz",
+        "Latin jazz",
+        "Big band",
+        "Salsa"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Latin",
+        "Groove",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Carlos Kanno — percussion",
+        "Kei Hatakeyama — piano",
+        "Yuji Yajima — bass",
+        "Shoji Hirakawa — drums",
+        "Yoshihiko 'MIZALITO' Miza — timbales",
+        "Kenta Okamoto — bongos",
+        "Takuya Arakawa — congas",
+        "Shiro Sasaki — trumpet",
+        "Yoshiro Okazaki — trumpet",
+        "Keiji Matsushima — trumpet",
+        "Hideaki Nakaji — trombone",
+        "Taisei Aoki — trombone",
+        "Kan Nishida — bass trombone",
+        "Masaki Kayo — alto saxophone",
+        "Andy Wulf — alto saxophone",
+        "Kazuhiro Murase — tenor saxophone",
+        "Nobuhiko Yasukawa — baritone saxophone",
+        "Additional member — TBA"
+      ],
+      "factual_description": "Blue Note Tokyo presents Tropical Jazz Big Band's THE 忘年会LIVE 2026 on December 16 and 17, 2026, with sets at 6:00 PM and 8:30 PM on both nights. The venue describes the engagement as the band's annual year-end live tradition and announces a large ensemble led by percussionist Carlos Kanno, with piano, bass, drums, timbales, bongos, congas, trumpet, trombone and saxophone sections. Blue Note notes that the group was formed in 1995 around Kanno, formerly of Orquesta de la Luz, and continues after its 30th-anniversary year. One additional member remains TBA on the current event page.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/nettai-jazz-gakudan/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Nettai Tropical Jazz Big Band",
+          "title": "Nettai Tropical Jazz Big Band XVIII ~25th Anniversary~",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/%E7%86%B1%E5%B8%AFjazz%E6%A5%BD%E5%9B%A3xviii-25th-anniversary/1645661146"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Blue Note Tokyo event page, both dates, set times and the announced ensemble personnel are verified. Jam Session member reservations open August 28 and general reservations open September 4, 2026; no stable event-specific purchase destination is available yet, so official_tickets remains pending rather than storing a generic reservation page. An exact Apple Music album page is included."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/nettai-jazz-gakudan/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms December 16-17, 2026, 6:00 PM and 8:30 PM sets, the year-end live framing, announced personnel, reservation-opening dates, and the band's 1995/30th-anniversary context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/%E7%86%B1%E5%B8%AFjazz%E6%A5%BD%E5%9B%A3xviii-25th-anniversary/1645661146",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music page for Nettai Tropical Jazz Big Band XVIII ~25th Anniversary~, a useful entry into the band's brass, percussion and Latin-jazz language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, venue, year-end concept, ensemble personnel and reservation timing were verified directly from Blue Note Tokyo; the exact listening page was verified on Apple Music. Repository search found no existing Tropical Jazz Big Band / Blue Note Tokyo December 2026 RADAR record. The one explicitly TBA additional member was not inferred, and no purchase URL was fabricated before the official reservation window exposes a stable event-specific destination."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs because the sound is built around a genuinely Japanese Latin-jazz lineage rather than a generic big-band format. Carlos Kanno came out of Orquesta de la Luz, and Tropical Jazz Big Band turns that percussion vocabulary into a large brass-and-reeds machine: congas, bongos and timbales are structural voices, not decoration. The year-end Blue Note tradition gives the engagement a specific Tokyo identity while the band's longevity makes it a useful living thread between Japan's Latin boom and its current large-ensemble scene.",
+          "trip_verdict": "Worth keeping on the December Tokyo board, especially if the trip has room for a high-energy brass-and-percussion night. With four sets across two nights and a recurring year-end tradition, it is easy to fit around scarcer masters, premieres or one-off encounters rather than reorganizing the itinerary around it.",
+          "listen_before": "Nettai Tropical Jazz Big Band — Nettai Tropical Jazz Big Band XVIII ~25th Anniversary~"
+        },
+        "es": {
+          "why_it_matters": "Entra porque el sonido nace de una genealogía japonesa de jazz latino bastante concreta, no de una big band genérica. Carlos Kanno viene de Orquesta de la Luz y Tropical Jazz Big Band convierte ese vocabulario de percusión en una maquinaria grande de metales y maderas: congas, bongós y timbales son voces estructurales, no adorno. La tradición de fin de año en Blue Note le da una identidad muy de Tokio, y la longevidad de la banda conecta el boom latino japonés con la escena actual de grandes ensambles.",
+          "trip_verdict": "Vale tenerla en el tablero de diciembre en Tokio, sobre todo si queda espacio para una noche de metales y percusión con mucho empuje. Como hay cuatro sets en dos noches y es una tradición recurrente de fin de año, se puede acomodar alrededor de maestros más escasos, estrenos o encuentros verdaderamente irrepetibles sin rehacer el itinerario.",
+          "listen_before": "Nettai Tropical Jazz Big Band — Nettai Tropical Jazz Big Band XVIII ~25th Anniversary~"
+        }
+      }
+    }
+  ]
+}
