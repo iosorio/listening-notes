@@ -1,0 +1,129 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ginji-ito-sugi-epo-billboard-live-tokyo-2026-08-26-catchup",
+  "notes": "Verified A+-priority Greater Tokyo catch-up under the current two-stage RADAR rubric. Current repository priority/editorial/domain/inbox guidance was read before grading. Yamamoto-first sources were checked before the broader pass and did not yield a new unrecorded Tsuyoshi Yamamoto date. Ginji Ito qualifies on a specific cultural and musical context: a pre-55th-anniversary Billboard Live program with Masamichi Sugi and EPO that explicitly reconnects Ito's Niagara-era lineage, his long collaboration with Sugi, and his authorship connection to EPO's debut song DOWN TOWN. The same anniversary concept also appears in Osaka two days earlier, so A+ captures the recommendation better than a scarcity tier.",
+  "events": [
+    {
+      "id": "ginji-ito-sugi-epo-billboard-live-tokyo-2026-08-26",
+      "artist": "Ginji Ito with Masamichi Sugi & EPO",
+      "subtitle": "THANKS from Ginji — pre-55th-anniversary live",
+      "dates": {
+        "start": "2026-08-26",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese pop lineage / Songwriting / Anniversary context",
+      "genres": [
+        "Japanese pop",
+        "City pop",
+        "Rock",
+        "Soul"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Masters",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ginji Ito — vocals, guitar",
+        "Masamichi Sugi — vocals, guitar",
+        "EPO — vocals",
+        "Tatsuya Ono — drums",
+        "Fukuju Matsushita — keyboards",
+        "Naohiro Goya — guitar",
+        "Yumika Mori — bass"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Ginji Ito on Wednesday, August 26, 2026 for two sets at 5:30 PM and 8:30 PM in a pre-55th-anniversary program with Masamichi Sugi and EPO. Billboard describes Ito as an artist, producer and arranger whose work has shaped Japanese pop, notes that he and Sugi met through Eiichi Ohtaki and the Niagara label and have collaborated repeatedly, and highlights Ito's long connection with EPO beginning with her debut song DOWN TOWN, for which Ito wrote lyrics. The announced seven-person band is Ginji Ito, Masamichi Sugi, EPO, Tatsuya Ono, Fukuju Matsushita, Naohiro Goya and Yumika Mori. Billboard also lists a related Osaka performance on August 24.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21453",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ginji Ito",
+          "title": "Deadly Drive (40th Anniversary Edition)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/deadly-drive-40th-anniversary-edition/1237718922"
+        },
+        {
+          "artist": "Niagara Triangle / Tatsuro Yamashita / Ginji Ito / Eiichi Ohtaki",
+          "title": "NIAGARA TRIANGLE Vol.1",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/niagara-triangle-vol-1/1537522218"
+        },
+        {
+          "artist": "EPO",
+          "title": "DOWN TOWN",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/down-town/1529003675"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Billboard Live Tokyo event page, full announced lineup and three exact Apple Music listening destinations are verified. Billboard exposes active Buy Tickets controls, but a stable event-specific authorized purchase URL was not exposed in the source text checked in this pass, so no ticket URL is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21453",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-23",
+          "note": "Exact official event page confirms August 26, both set times, the pre-55th-anniversary framing, Ginji Ito with Masamichi Sugi and EPO, the full seven-person band, the Niagara/Eiichi Ohtaki connection, Ito's DOWN TOWN connection to EPO, and the related Osaka date."
+        },
+        {
+          "url": "https://music.apple.com/us/album/deadly-drive-40th-anniversary-edition/1237718922",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album destination for Ginji Ito's Deadly Drive (40th Anniversary Edition)."
+        },
+        {
+          "url": "https://music.apple.com/us/album/niagara-triangle-vol-1/1537522218",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album destination for NIAGARA TRIANGLE Vol.1, documenting Ito inside the Niagara lineage with Tatsuro Yamashita and Eiichi Ohtaki."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/down-town/1529003675",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album destination for EPO's 1980 debut album DOWN TOWN."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, venue, showtimes, full lineup, anniversary framing and the Ito/Sugi/EPO historical connections were verified directly from Billboard Live Tokyo's exact event page. Listening recommendations use exact Apple Music destinations. Repository searches for Ginji Ito / 伊藤銀次 plus the August 26 Billboard date found no existing canonical or inbox record before publication. No ticket destination, price beyond the source context, unannounced personnel or repertoire were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is not a generic city-pop nostalgia bill. Ito, Sugi and EPO sit inside overlapping strands of Japanese pop songwriting that run through Eiichi Ohtaki, Niagara and the late-1970s/1980s studio culture that later listeners rediscovered under broader city-pop labels. Putting the three together just before Ito's 55th anniversary turns those connections into the subject of the night: songwriter history, shared repertoire memory and vocal/guitar interplay rather than a museum-style retrospective.",
+          "trip_verdict": "Actively make room for one of the two sets if Tokyo dates line up and the history of Japanese pop songwriting is part of the listening thread. The same anniversary concept also appears in Osaka two days earlier, so there is useful flexibility rather than true one-night scarcity.",
+          "listen_before": "Ginji Ito — Deadly Drive; NIAGARA TRIANGLE Vol.1; EPO — DOWN TOWN"
+        },
+        "es": {
+          "why_it_matters": "El atractivo no es un cartel genérico de nostalgia city pop. Ito, Sugi y EPO viven dentro de varias líneas que se cruzan en la historia de la composición pop japonesa: Eiichi Ohtaki, Niagara y esa cultura de estudio de finales de los setenta y los ochenta que décadas después muchos oyentes redescubrieron bajo etiquetas más amplias de city pop. Juntarlos justo antes de los 55 años de carrera de Ito convierte esas conexiones en el tema de la noche: historia de canciones, memoria compartida de repertorio y diálogo de voces y guitarras, no una retrospectiva de museo.",
+          "trip_verdict": "Sí vale hacerle espacio activamente a uno de los dos sets si las fechas en Tokio cuadran y la historia de la composición pop japonesa forma parte del hilo de escucha. El mismo concepto de aniversario pasa por Osaka dos días antes, así que existe flexibilidad útil y no una escasez real de una sola noche.",
+          "listen_before": "Ginji Ito — Deadly Drive; NIAGARA TRIANGLE Vol.1; EPO — DOWN TOWN"
+        }
+      }
+    }
+  ]
+}
