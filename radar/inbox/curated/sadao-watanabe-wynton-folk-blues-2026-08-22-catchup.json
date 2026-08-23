@@ -1,0 +1,197 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sadao-watanabe-wynton-folk-blues-2026-08-22-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented searches, BODY&SOUL, Space M&A, Yamamoto schedule searches and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This batch adds two events that clear RADAR admission at A+ without scarcity inflation: Sadao Watanabe's January 2027 Machida quartet date, billed by authorized ticketing as part of his 75th-anniversary cycle, and Jazz at Lincoln Center Orchestra with Wynton Marsalis revisiting the 12-part Big Train suite within Marsalis's final season as Artistic Director. The current intake has returned toward an A/A+ base, and neither event requires an S claim.",
+  "events": [
+    {
+      "id": "sadao-watanabe-quartet-machida-2027-01-24",
+      "artist": "Sadao Watanabe Quartet",
+      "subtitle": "SADAO WATANABE QUARTET 2027",
+      "dates": {
+        "start": "2027-01-24",
+        "end": null
+      },
+      "showtimes": [
+        "16:00"
+      ],
+      "venue": {
+        "id": "machida-civic-hall-tokyo",
+        "name": "Machida Civic Hall",
+        "city": "Machida",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Living masters / Acoustic quartet",
+      "genres": [
+        "Jazz",
+        "Brazilian jazz",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Sadao Watanabe — alto saxophone",
+        "Akira Onozuka — piano",
+        "Daiki Mishima — bass",
+        "Ittetsu Takemura — drums"
+      ],
+      "factual_description": "Sadao Watanabe's official site presents SADAO WATANABE QUARTET 2027 at Machida Civic Hall in Tokyo on Sunday, January 24, 2027, with doors at 3:30 PM and a 4:00 PM start. The announced quartet is Watanabe on alto saxophone, Akira Onozuka on piano, Daiki Mishima on bass and Ittetsu Takemura on drums. Authorized eplus ticketing lists the same performance and bills it within Watanabe's 75th-anniversary concert cycle. General ticket sales are scheduled to open October 23, 2026 at 10:00 AM.",
+      "links": {
+        "official_event": "https://www.sadao.com/en/live/sadao-watanabe-quartet-2027-4/",
+        "official_tickets": "https://eplus.jp/sf/detail/3370760001"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sadao Watanabe",
+          "title": "But Beautiful",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/but-beautiful/1895612193?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact official artist event page, exact authorized eplus event page and an exact Apple Music album destination are resolved. Ticket sales have not started yet, but the stable event-specific eplus destination is already published and verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.sadao.com/en/live/sadao-watanabe-quartet-2027-4/",
+          "publisher": "Sadao Watanabe Official Web Site",
+          "checked_on": "2026-08-22",
+          "note": "Official artist page confirms January 24, 2027, Machida Civic Hall, 3:30 PM doors, 4:00 PM start, all four announced musicians, price information and the October 23 general-sale date."
+        },
+        {
+          "url": "https://eplus.jp/sf/detail/3370760001",
+          "publisher": "eplus",
+          "checked_on": "2026-08-22",
+          "note": "Authorized ticket page independently confirms January 24, 2027, 4:00 PM at Machida Civic Hall, the same quartet and the 75th-anniversary billing; sales are scheduled to begin October 23."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/but-beautiful/1895612193?l=en-US",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page already verified elsewhere in RADAR for Sadao Watanabe listening context."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Date, time, venue and quartet personnel were verified directly from Sadao Watanabe's official site and independently against eplus. The authorized ticket page supplies the 75th-anniversary billing and future sale window. Repository searches found no existing January 24, 2027 Machida Watanabe record before publication. No unannounced guests or repertoire were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Watanabe remains one of the clearest living instrumental links in Japanese jazz, and this date keeps his current quartet language in view beyond the larger anniversary productions already on the RADAR. The value is not a one-off gimmick: it is the alto sound itself, the compact interaction with Onozuka, Mishima and Takemura, and the chance to hear that vocabulary in a straightforward quartet setting while the 75th-anniversary cycle is still framing his long arc.",
+          "trip_verdict": "Actively make room if a January Tokyo/Kanto trip overlaps. Machida is a real cross-city commitment, but this is strong enough to build the afternoon around without displacing a genuinely singular premiere, farewell or rare collaboration elsewhere in the region.",
+          "listen_before": "Sadao Watanabe — But Beautiful"
+        },
+        "es": {
+          "why_it_matters": "Watanabe sigue siendo uno de los vínculos instrumentales vivos más claros del jazz japonés, y esta fecha permite seguir su lenguaje actual de cuarteto más allá de las producciones grandes de aniversario que ya están en el RADAR. El valor no está en un truco de una sola noche: está en ese sonido de alto, en la interacción compacta con Onozuka, Mishima y Takemura y en escuchar ese vocabulario en formato directo de cuarteto mientras el ciclo de 75 años todavía enmarca su trayectoria.",
+          "trip_verdict": "Sí le haría espacio activamente si un viaje de enero por Tokio/Kanto coincide. Machida implica cruzar buena parte de la ciudad, pero da para construir la tarde alrededor del concierto sin desplazar un estreno realmente singular, una despedida o una colaboración rara en otra parte de la región.",
+          "listen_before": "Sadao Watanabe — But Beautiful"
+        }
+      }
+    },
+    {
+      "id": "wynt​on-marsalis-folk-blues-spirituals-jalc-2027-01-21",
+      "artist": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+      "subtitle": "Folk, Blues, and Spirituals — featuring Big Train",
+      "dates": {
+        "start": "2027-01-21",
+        "end": "2027-01-23"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york",
+        "name": "Rose Theater at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living masters / Large-ensemble jazz / Final-season repertory",
+      "genres": [
+        "Jazz",
+        "Big band",
+        "Blues",
+        "American vernacular"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Wynton Marsalis — trumpet, bandleader",
+        "Jazz at Lincoln Center Orchestra — ensemble; concert-specific chair roster not enumerated on the current exact event page"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Folk, Blues, and Spirituals with the Jazz at Lincoln Center Orchestra and Wynton Marsalis on January 21-23, 2027 at 7:30 PM in Rose Theater. The centerpiece is Big Train, Marsalis's 12-part suite commissioned by Jazz at Lincoln Center in the late 1990s, alongside arrangements that draw on fiddle reels, folk songs, blues and spirituals. The engagement is part of the 2026-27 Come Home season, Marsalis's final season as Artistic Director of Jazz at Lincoln Center after nearly four decades.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/20695",
+        "official_tickets": "https://ticketing.jazz.org/20695"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Wynton Marsalis",
+          "title": "Big Train",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/gb/album/big-train/262758209"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Jazz at Lincoln Center event/ticket page, dates, times and program framing are verified, along with the final-season context from JALC's official season announcement. An exact Apple Music album page for Big Train is included."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/20695",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-22",
+          "note": "Exact official event and ticketing page confirms January 21-23, 2027 at 7:30 PM and identifies Big Train plus Marsalis arrangements of fiddle reels, folk songs, blues and spirituals as the program."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-22",
+          "note": "Official season announcement confirms the Folk, Blues, and Spirituals program, Big Train as centerpiece, and that 2026-27 is Marsalis's final season as Artistic Director."
+        },
+        {
+          "url": "https://music.apple.com/gb/album/big-train/262758209",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Wynton Marsalis's Big Train."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, times, venue and program were verified through Jazz at Lincoln Center's exact event/ticket page; the institutional final-season context was verified from JALC's official season announcement. Repository searches found no existing Folk, Blues, and Spirituals / Big Train January 2027 RADAR record before publication. No concert-specific chair personnel beyond Marsalis were inferred from the current event page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is one of the more coherent ways to hear Marsalis's large-form writing during his final JALC season. Big Train is not just a repertory medley: its twelve linked sections use the sound and social mythology of the railroad as an Ellington-informed compositional frame, and the surrounding folk, blues, fiddle and spiritual material places that suite inside the wider American vernacular argument that has run through Marsalis's work for decades.",
+          "trip_verdict": "Actively make room for one of the three nights if a New York trip overlaps, especially if long-form composition and the JLCO itself are part of the listening thread. The three-performance run and season-wide Marsalis retrospective give enough flexibility that this is a strong regional-trip anchor rather than a night that should override every other plan.",
+          "listen_before": "Wynton Marsalis — Big Train"
+        },
+        "es": {
+          "why_it_matters": "Es una de las formas más coherentes de escuchar la escritura de gran formato de Marsalis durante su última temporada en JALC. Big Train no es un popurrí de repertorio: sus doce secciones enlazadas usan el sonido y la mitología social del ferrocarril como marco compositivo atravesado por Ellington, y el material de folk, blues, fiddle y spirituals coloca la suite dentro de la discusión más amplia sobre músicas vernáculas estadounidenses que recorre desde hace décadas la obra de Marsalis.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las tres noches si coincide con un viaje a Nueva York, sobre todo si la composición de largo aliento y la propia JLCO forman parte del hilo de escucha. Las tres funciones y toda una temporada retrospectiva de Marsalis dan suficiente flexibilidad para que sea un ancla fuerte de viaje regional sin convertirse en una fecha que deba desplazar cualquier otro plan.",
+          "listen_before": "Wynton Marsalis — Big Train"
+        }
+      }
+    }
+  ]
+}
