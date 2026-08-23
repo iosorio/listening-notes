@@ -1,0 +1,101 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "joshua-bell-beethoven-njpac-2027-03-13-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Joshua Bell Leads Beethoven clears RADAR admission because Bell is both solo violinist and conductor in a Beethoven bicentennial program centered on the Violin Concerto and Seventh Symphony. The grade is A+, not S: the 200th-anniversary context and Bell's dual instrumental/conducting role merit active prioritization, while the same program is performed four times across New Jersey, including two Newark dates, so the scarcity required for S is not present.",
+  "events": [
+    {
+      "id": "joshua-bell-beethoven-njpac-2027-03-13",
+      "artist": "Joshua Bell with New Jersey Symphony",
+      "subtitle": "Joshua Bell Leads Beethoven — 200th anniversary of Beethoven's passing",
+      "dates": {
+        "start": "2027-03-13",
+        "end": "2027-03-14"
+      },
+      "showtimes": [
+        "19:30",
+        "14:00"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark",
+        "name": "Prudential Hall at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Classical / Violin-led Beethoven bicentennial",
+      "genres": [
+        "Classical"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Joshua Bell — conductor, violin",
+        "New Jersey Symphony"
+      ],
+      "factual_description": "NJPAC presents New Jersey Symphony: Joshua Bell Leads Beethoven at Prudential Hall in Newark on Saturday, March 13, 2027 at 7:30 PM and Sunday, March 14, 2027 at 2:00 PM. Bell conducts and performs as violin soloist in a program marking the 200th anniversary of Ludwig van Beethoven's death: the Coriolan Overture, Violin Concerto and Symphony No. 7. New Jersey Symphony confirms that the same program also appears in New Brunswick on March 11 and Princeton on March 12 before the two Newark performances.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/new-jersey-symphony-joshua-bell-leads-beethoven/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Joshua Bell",
+          "title": "The Essential Joshua Bell",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-essential-joshua-bell/220076030"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact NJPAC event page, both Newark dates and times, Bell's conductor/violin role, Beethoven bicentennial framing, full program, and an exact Apple Music album page are verified. NJPAC exposes separate authorized Ticketmaster destinations for the March 13 and March 14 performances; because no single stable purchase URL represents the two-date event, official_tickets remains pending rather than storing one performance's ticket page as if it covered the full engagement."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/new-jersey-symphony-joshua-bell-leads-beethoven/",
+          "publisher": "NJPAC",
+          "checked_on": "2026-08-23",
+          "note": "Official venue page confirms March 13 at 7:30 PM and March 14 at 2:00 PM in Prudential Hall, Joshua Bell as conductor and violinist, Beethoven bicentennial framing, and the Coriolan Overture, Violin Concerto and Symphony No. 7 program."
+        },
+        {
+          "url": "https://www.njsymphony.org/events/detail/joshua-bell-leads-beethoven",
+          "publisher": "New Jersey Symphony",
+          "checked_on": "2026-08-23",
+          "note": "Official orchestra page independently confirms the program, Bell's dual role and the four-performance New Jersey run on March 11-14, including the two Newark dates."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-essential-joshua-bell/220076030",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for The Essential Joshua Bell."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue, repertoire and Bell's dual conductor/violin role were verified directly from NJPAC and independently corroborated by New Jersey Symphony. Repository search found no existing Joshua Bell / Beethoven / NJPAC 2027 RADAR record or matching stable event ID. Separate Ticketmaster pages exist for each Newark performance, so no single purchase destination was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The specific reason to care is Bell doing both jobs at once: shaping the orchestra from the podium while taking the violin part in Beethoven's only violin concerto, then turning to the Seventh Symphony in a program explicitly built around the bicentennial of Beethoven's death. That puts instrumental identity, interpretation and historical context in the same frame rather than treating the anniversary as decoration.",
+          "trip_verdict": "Actively make room for one of the Newark performances if a New York/New Jersey trip lines up with March 13-14, especially if the classical thread is following major living instrumentalists rather than repertoire alone. The New Brunswick and Princeton performances earlier that week provide enough flexibility that this should complement, not displace, a genuinely scarce one-off elsewhere in the corridor.",
+          "listen_before": "Joshua Bell — The Essential Joshua Bell"
+        },
+        "es": {
+          "why_it_matters": "La razón concreta para ponerlo en el RADAR es ver a Bell haciendo las dos cosas a la vez: moldear a la orquesta desde la dirección y asumir la parte solista en el único concierto para violín de Beethoven, antes de pasar a la Séptima Sinfonía dentro de un programa armado explícitamente por los 200 años de la muerte del compositor. Así, identidad instrumental, interpretación y contexto histórico quedan dentro del mismo marco en vez de usar el aniversario como simple decoración.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos funciones de Newark si un viaje por Nueva York/Nueva Jersey coincide con el 13 o 14 de marzo, sobre todo si el hilo clásico viene siguiendo grandes instrumentistas vivos y no sólo repertorio. Las funciones previas en New Brunswick y Princeton dan suficiente flexibilidad para que esta fecha complemente, y no desplace, a un one-off realmente escaso en otro punto del corredor.",
+          "listen_before": "Joshua Bell — The Essential Joshua Bell"
+        }
+      }
+    }
+  ]
+}
