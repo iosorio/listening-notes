@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "hanaregumi-billboard-live-tokyo-2026-11-27-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A/Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Hanaregumi clears RADAR admission because the Tokyo Billboard Live date places his long-running faraway so close acoustic language with Masayuki Ishii in a small Roppongi room on two personally and musically specific anniversaries: Nagazumi's birthday and the November 27 release anniversary of his debut album On Time. The grade is A+, not S: the date is unusually meaningful and worth actively prioritizing, while the same acoustic tour runs across multiple Japanese cities and continues to Billboard Live Osaka on December 13, so the scarcity required for S is not present.",
+  "events": [
+    {
+      "id": "hanaregumi-billboard-live-tokyo-2026-11-27",
+      "artist": "Hanaregumi",
+      "subtitle": "faraway so close 2026 — with sweet thing♡ fall in Autumn",
+      "dates": {
+        "start": "2026-11-27",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Acoustic songcraft / Anniversary-context club date",
+      "genres": [
+        "J-Pop",
+        "Soul",
+        "Folk",
+        "Singer-songwriter"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Hanaregumi — vocals",
+        "Masayuki Ishii — guitar"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Hanaregumi's faraway so close 2026 — with sweet thing♡ fall in Autumn on Friday, November 27, 2026, with sets at 6:00 PM and 9:00 PM. The announced members are Hanaregumi on vocals and Masayuki Ishii on guitar. Billboard notes that the Tokyo performance falls on Nagazumi's birthday and on the release anniversary of Hanaregumi's debut album On Time. Hanaregumi's official site independently lists the November 27 Tokyo date within the 2026 faraway so close acoustic tour, which also visits other Japanese cities and concludes at Billboard Live Osaka on December 13.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21635",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Hanaregumi",
+          "title": "On Time",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/on-time/1292146681"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page, both set times, announced duo, birthday/debut-album-anniversary context, official artist tour listing and exact Apple Music album page are verified. Billboard exposes ticketing controls and Hanaregumi's official tour news links to eplus, but a stable event-specific current purchase destination for the Billboard Tokyo engagement was not independently resolved in this pass, so official_tickets remains pending rather than storing a generic or stale presale URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21635",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms November 27, 2026, 6:00 PM and 9:00 PM sets, Hanaregumi and Masayuki Ishii, and the birthday plus On Time release-anniversary context."
+        },
+        {
+          "url": "https://www.hanaregumi.jp/news/9931",
+          "publisher": "Hanaregumi",
+          "checked_on": "2026-08-23",
+          "note": "Official artist announcement confirms the 2026 faraway so close acoustic tour across North Kanto, Chugoku/Sanin, Tokyo and Osaka and identifies Masayuki Ishii as the tour guitarist."
+        },
+        {
+          "url": "https://www.hanaregumi.jp/live",
+          "publisher": "Hanaregumi",
+          "checked_on": "2026-08-23",
+          "note": "Official live calendar independently lists the November 27 Billboard Live Tokyo engagement and the December 13 Billboard Live Osaka continuation."
+        },
+        {
+          "url": "https://music.apple.com/us/album/on-time/1292146681",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for On Time, dated November 27, 2002."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set times, venue, lineup and anniversary context were verified directly from Billboard Live Tokyo; tour continuity was checked against Hanaregumi's official site; listening is an exact Apple Music album page. Repository searches found no existing Hanaregumi / faraway so close / November 27 Billboard Live Tokyo RADAR record. No unannounced guests or unstable purchase URL were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The specific date is the reason this rises above a routine acoustic-tour stop. Hanaregumi's warm, rhythmically loose vocal phrasing and Masayuki Ishii's guitar are already built for close listening; putting that duo into Billboard Live on Nagazumi's birthday and the anniversary of the debut album gives the night a real sense of return rather than generic nostalgia. It is a compact way into a distinctly Japanese line of soul, folk-pop and groove where the songcraft matters as much as virtuosity.",
+          "trip_verdict": "Actively make room for one of the two sets if November 27 overlaps a Tokyo stay, especially if the Japan thread is following intimate rooms, songcraft and musicians whose groove lives in phrasing rather than volume. The wider faraway so close tour gives enough flexibility that this should sit below a genuinely scarce master, premiere or one-off when dates collide.",
+          "listen_before": "Hanaregumi — On Time"
+        },
+        "es": {
+          "why_it_matters": "La fecha concreta es lo que la vuelve más interesante que una parada rutinaria de gira acústica. El fraseo cálido y muy suelto rítmicamente de Hanaregumi, junto con la guitarra de Masayuki Ishii, ya pide escucharse de cerca; poner ese dúo en Billboard Live justo en el cumpleaños de Nagazumi y en el aniversario del disco debut le da a la noche una sensación real de regreso, no de nostalgia genérica. Es una puerta compacta a una línea muy japonesa de soul, folk-pop y groove donde la canción pesa tanto como el virtuosismo.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el 27 de noviembre coincide con una estancia en Tokio, sobre todo si el hilo japonés viene siguiendo salas íntimas, canción y músicos cuyo groove vive en el fraseo más que en el volumen. La amplitud de la gira faraway so close da suficiente flexibilidad para que esta noche quede por debajo de un maestro realmente escaso, un estreno o una función irrepetible si las fechas se cruzan.",
+          "listen_before": "Hanaregumi — On Time"
+        }
+      }
+    }
+  ]
+}
