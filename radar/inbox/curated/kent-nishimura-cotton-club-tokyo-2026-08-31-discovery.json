@@ -1,0 +1,104 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kent-nishimura-cotton-club-tokyo-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Kent Nishimura's August 31 solo-guitar appearance at COTTON CLUB clears RADAR admission on instrumental identity and intimate solo format, but the evidence does not support scarcity inflation; priority A is deliberate.",
+  "events": [
+    {
+      "id": "kent-nishimura-cotton-club-tokyo-2026-08-31",
+      "artist": "Kent Nishimura",
+      "subtitle": "Solo fingerstyle guitar — COTTON CLUB debut",
+      "dates": {
+        "start": "2026-08-31",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Solo fingerstyle guitar / Instrumental identity",
+      "genres": [
+        "Fingerstyle guitar",
+        "Instrumental",
+        "Acoustic",
+        "Jazz-adjacent",
+        "Pop arrangement"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Kent Nishimura — guitar"
+      ],
+      "factual_description": "COTTON CLUB presents Kent Nishimura on Monday, August 31, 2026, with sets at 6:00 PM and 8:30 PM. The official venue page identifies Nishimura as the sole announced performer on guitar and marks the engagement as his first appearance at COTTON CLUB. The venue and Nishimura's official biography describe his work as solo fingerstyle guitar built around technically demanding arrangements; his official biography notes that he began focusing on solo guitar at age six, released his debut album at twelve, and won the 2017 Fingerpicking Day national competition as its youngest-ever grand champion.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kent-nishimura-260831/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kent Nishimura",
+          "title": "Fingerstyle Solo Guitar Songs",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/fingerstyle-solo-guitar-songs/1592041741"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact COTTON CLUB event page, both showtimes, solo-guitar billing, and exact Apple Music album page are verified. COTTON CLUB exposes an active reservation control, but the accessible destination resolves through a session-dependent reservation system and currently redirects to a session error outside an active booking session, so no unstable or generic URL is stored as official_tickets."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kent-nishimura-260831/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-22",
+          "note": "Official event page confirms August 31, 2026, both set times, Kent Nishimura as the sole announced guitarist, COTTON CLUB debut context, and active reservations."
+        },
+        {
+          "url": "https://www.kentnishimura.online/bio",
+          "publisher": "Kent Nishimura",
+          "checked_on": "2026-08-22",
+          "note": "Official artist biography documents Nishimura's solo-fingerstyle focus, early recording history, 2017 Fingerpicking Day national championship, and continuing international activity."
+        },
+        {
+          "url": "https://music.apple.com/us/album/fingerstyle-solo-guitar-songs/1592041741",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-22",
+          "note": "Exact Apple Music album page for Kent Nishimura's Fingerstyle Solo Guitar Songs."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, venue, solo lineup and first-COTTON-CLUB framing were verified directly from COTTON CLUB; background was checked against Nishimura's official site; listening is an exact Apple Music album page. Repository search found no existing Kent Nishimura / COTTON CLUB 2026 RADAR record. No backing musicians, repertoire, or stable ticket destination were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs on RADAR because the instrument is the event. Nishimura's fingerstyle language compresses bass line, harmony, percussion and melody into one acoustic guitar, and a COTTON CLUB debut with no announced backing band leaves that arrangement craft completely exposed. The appeal is not that a young guitarist has accumulated a large online audience; it is the chance to hear a technically extreme solo vocabulary at club distance, where touch, voicing and rhythmic independence are easy to judge in real time.",
+          "trip_verdict": "Keep it on the board if August 31 is open in Tokyo, especially if the trip is already following guitar and instrumental identity. I would take a set if the night is free, but I would not move a rarer master, premiere, reunion or one-off to make room for it.",
+          "listen_before": "Kent Nishimura — Fingerstyle Solo Guitar Songs"
+        },
+        "es": {
+          "why_it_matters": "Ésta entra al RADAR porque el instrumento es el acontecimiento. El fingerstyle de Nishimura comprime línea de bajo, armonía, percusión y melodía dentro de una sola guitarra acústica, y su debut en COTTON CLUB sin banda anunciada deja completamente expuesto ese trabajo de arreglo. Lo interesante no es que un guitarrista joven haya acumulado muchísimas reproducciones en línea, sino escuchar de cerca un vocabulario solista técnicamente extremo, donde el toque, las voces internas y la independencia rítmica se pueden juzgar en tiempo real.",
+          "trip_verdict": "La tendría en el tablero si el 31 de agosto está libre en Tokio, especialmente si el viaje ya viene siguiendo guitarra e identidad instrumental. Iría a uno de los sets si la noche está despejada, pero no desplazaría por esto a un maestro más raro, un estreno, una reunión o una fecha verdaderamente irrepetible.",
+          "listen_before": "Kent Nishimura — Fingerstyle Solo Guitar Songs"
+        }
+      }
+    }
+  ]
+}
