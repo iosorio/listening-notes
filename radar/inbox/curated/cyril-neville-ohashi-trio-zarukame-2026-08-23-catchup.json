@@ -1,0 +1,334 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "cyril-neville-ohashi-trio-zarukame-2026-08-23-catchup",
+  "notes": "Yamamoto-first discovery pass on 2026-08-23. No new unrecorded Tsuyoshi Yamamoto date was verified after checking current BODY&SOUL results, ALFIE-oriented search, Space M&A-oriented search, Yamamoto schedule queries, and credible Japanese jazz sources. Three previously unrecorded events clear RADAR admission under the current A/A+/S/S+ rubric: Cyril Neville's New Orleans/Grateful Dead crossover at The Hamilton (A+), Ohashi Trio's jazz-based sextet Billboard Live run (A+), and ZARUKAME's first Billboard Live appearance with a special band (A). None is scarce enough for S.",
+  "events": [
+    {
+      "id": "cyril-neville-plays-dead-hamilton-washington-dc-2026-09-19",
+      "artist": "Cyril Neville Plays the Dead",
+      "subtitle": "New Orleans funk lineage meets Grateful Dead repertoire",
+      "dates": {
+        "start": "2026-09-19",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "New Orleans funk / Grateful Dead reinterpretation",
+      "genres": [
+        "Funk",
+        "Soul",
+        "Rock",
+        "New Orleans R&B"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Cyril Neville — vocals, percussion; additional live personnel not verified from the current Hamilton listing"
+      ],
+      "factual_description": "The Hamilton Live lists Cyril Neville Plays the Dead for Saturday, September 19, 2026 at 8:00 PM in Washington, DC. The authorized EVENTIM listing confirms 6:30 PM doors, an 8:00 PM show and active ticket sales. Neville is a vocalist and percussionist from the Neville Brothers/Meters lineage; the same named project appears on a multi-city September 2026 run, including Brooklyn, Charlottesville, Charlotte, Jackson and New Orleans. Apple Music lists his current album Don't Wait Til I'm Gone, released May 29, 2026.",
+      "links": {
+        "official_event": null,
+        "official_tickets": "https://www.eventim.com/eventseries/cyril-neville-plays-the-dead-4185413/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Cyril Neville",
+          "title": "Don't Wait Til I'm Gone",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/dont-wait-til-im-gone/1895164136"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_event"
+        ],
+        "note": "The Hamilton's live calendar/listing and its authorized EVENTIM ticketing confirm the show. A stable exact Hamilton event-detail URL was not resolved in this pass, so official_event remains pending rather than substituting a generic calendar page."
+      },
+      "sources": [
+        {
+          "type": "official_venue_listing",
+          "name": "The Hamilton Live",
+          "url": "https://live.thehamiltondc.com/page/2/",
+          "checked_on": "2026-08-23",
+          "note": "Official venue listing confirms Cyril Neville Plays the Dead on September 19, 2026 at 8:00 PM and shows active ticket status."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "EVENTIM / The Hamilton Live",
+          "url": "https://www.eventim.com/eventseries/cyril-neville-plays-the-dead-4185413/",
+          "checked_on": "2026-08-23",
+          "note": "Authorized ticketing confirms September 19, Washington, DC, The Hamilton Live, doors 6:30 PM and show 8:00 PM."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/dont-wait-til-im-gone/1895164136",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for Cyril Neville's 2026 album Don't Wait Til I'm Gone."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date/time/venue were verified from The Hamilton and authorized EVENTIM ticketing. The multi-city nature of the project was independently visible in current artist/ticketing listings and is used only to calibrate scarcity. The repository was searched for Cyril Neville Plays the Dead before publication and no existing event or batch was found. No unannounced sidemen were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not a generic Dead tribute. Cyril Neville brings a direct New Orleans lineage through the Neville Brothers and the Meters into a repertoire built around a very different American improvisational tradition. That puts percussion, pocket, second-line feel and funk phrasing against songs whose live identity depends on elasticity and collective response. The collision is specific enough to deserve the RADAR on musical terms, not nostalgia alone.",
+          "trip_verdict": "Actively make room for this in the DMV if New Orleans groove, the Dead or cross-genre improvisation is part of the listening thread. The project is playing several cities in September, so Washington is a strong local opportunity rather than a one-night event around which to rebuild larger travel plans.",
+          "listen_before": "Cyril Neville — Don't Wait Til I'm Gone"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es un tributo genérico a Grateful Dead. Cyril Neville lleva una línea directa de Nueva Orleans —Neville Brothers y The Meters— hacia un repertorio nacido en otra tradición estadounidense de improvisación. Eso pone percusión, pocket, second-line y fraseo funk frente a canciones cuya identidad en vivo depende de elasticidad y respuesta colectiva. El choque tiene una razón musical concreta para entrar al RADAR, no sólo nostalgia.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV si el groove de Nueva Orleans, Grateful Dead o los cruces improvisados forman parte del hilo de escucha. El proyecto pasa por varias ciudades en septiembre, así que Washington es una oportunidad local fuerte sin necesidad de rehacer planes de viaje mayores alrededor de una sola noche.",
+          "listen_before": "Cyril Neville — Don't Wait Til I'm Gone"
+        }
+      }
+    },
+    {
+      "id": "zarukame-billboard-live-tokyo-2026-11-05",
+      "artist": "ZARUKAME",
+      "subtitle": "Billboard Live with special band “Echoes”",
+      "dates": {
+        "start": "2026-11-05",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese string duo / instrumental crossover",
+      "genres": [
+        "Instrumental",
+        "Alternative",
+        "Contemporary classical",
+        "J-Pop"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Yuri Kamei — violin",
+        "Sonoko Muraoka — cello",
+        "Akinori Handa — piano",
+        "Tetsuro Toyama — guitar",
+        "Akira Kudo — drums"
+      ],
+      "factual_description": "Billboard Live Tokyo presents ZARUKAME on Thursday, November 5, 2026, with sets at 5:30 PM and 8:30 PM. The violin/cello duo of Yuri Kamei and Sonoko Muraoka expands to a five-piece band with Akinori Handa on piano, Tetsuro Toyama on guitar and Akira Kudo on drums. Billboard identifies this as ZARUKAME's first Billboard Live appearance and describes the project as pursuing an instrumental language that combines classical/academic string textures with pop accessibility. The duo has released new material in 2026, including NEW WORLD and Konomichinosakini.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21621",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "ZARUKAME",
+          "title": "NEW WORLD",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/jp/song/1868287588"
+        },
+        {
+          "artist": "ZARUKAME",
+          "title": "Sail On",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/sail-on-ep/1695702330"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page and exact Apple Music listening pages are verified. Billboard has announced ticket sales and a prior eplus lottery, but a stable event-specific purchase destination was not independently resolved in this pass."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21621",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms November 5, 2026; 17:30 and 20:30 sets; full five-person lineup; first Billboard Live appearance; and the instrumental concept."
+        },
+        {
+          "type": "official_artist_label",
+          "name": "FRIENDSHIP.",
+          "url": "https://friendship.mu/en/artist/zarukame/",
+          "checked_on": "2026-08-23",
+          "note": "Artist/label page documents the violin-cello duo's focus on pursuing a new string-instrument language and its 2026 releases."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — NEW WORLD",
+          "url": "https://music.apple.com/jp/song/1868287588",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music song page for ZARUKAME's 2026 single NEW WORLD."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — Sail On",
+          "url": "https://music.apple.com/jp/album/sail-on-ep/1695702330",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music EP page for Sail On."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Event details and lineup were verified from Billboard Live Tokyo; artist identity and 2026 context were corroborated by FRIENDSHIP. Exact Apple Music pages are verified. The repository was searched for ZARUKAME before publication and no existing event or batch was found."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Violin and cello are not ornamental here; they are the front line. ZARUKAME has built its identity around making those two strings carry melody, attack, harmony and dramatic weight normally assigned to a singer or horn section. Expanding the duo with piano, guitar and drums at its first Billboard Live appearance should expose how that string language behaves when it has a real rhythm section underneath it.",
+          "trip_verdict": "Worth keeping on the Tokyo board and attending if the night is open, especially if string sound and instrumental crossover are part of the trip. It is a strong club date rather than something that should displace a rarer master, premiere or one-off encounter.",
+          "listen_before": "ZARUKAME — NEW WORLD; Sail On"
+        },
+        "es": {
+          "why_it_matters": "Aquí el violín y el cello no son decoración: son la primera línea. ZARUKAME ha construido su identidad haciendo que esas dos cuerdas carguen melodía, ataque, armonía y peso dramático que normalmente ocuparía una voz o una sección de metales. Expandir el dúo con piano, guitarra y batería en su primera aparición en Billboard Live permite escuchar cómo responde ese lenguaje cuando tiene una sección rítmica real debajo.",
+          "trip_verdict": "La tendría en el tablero de Tokio y entraría si la noche está libre, especialmente si el sonido de cuerdas y los cruces instrumentales forman parte del viaje. Es una muy buena fecha de club, pero no desplazaría por ella a un maestro más raro, un estreno o un encuentro de una sola noche.",
+          "listen_before": "ZARUKAME — NEW WORLD; Sail On"
+        }
+      }
+    },
+    {
+      "id": "ohashi-trio-billboard-live-tokyo-2026-11-06",
+      "artist": "Ohashi Trio",
+      "subtitle": "TRIO Sextet Billboard Live Tour 2026",
+      "dates": {
+        "start": "2026-11-06",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese singer-multi-instrumentalist / jazz sextet",
+      "genres": [
+        "Jazz-pop",
+        "Soul",
+        "Rock",
+        "Bossa nova",
+        "Funk"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Ohashi Trio — vocals, guitar, piano, other instruments",
+        "Takumadrops — piano, keyboards, backing vocals",
+        "Daisuke Abe — guitar, backing vocals",
+        "Marty Holoubek — bass",
+        "Naoki Takahashi — drums",
+        "Takayuki Sato — saxophone, other instruments"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Ohashi Trio's TRIO Sextet Billboard Live Tour 2026 on Friday, November 6, 2026, with sets at 6:00 PM and 9:00 PM. The six-piece lineup is Ohashi Trio, Takumadrops, Daisuke Abe, Marty Holoubek, Naoki Takahashi and Takayuki Sato. Billboard and Ohashi Trio's official site describe the run as a jazz-based sextet treatment distinct from his 2026 hall tour, with dates in Tokyo, Yokohama and Osaka. Ohashi Trio released A BAND on March 18, 2026; his official discography describes it as a rock-centered album that folds in bossa nova and funk elements.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21629",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ohashi Trio",
+          "title": "A BAND",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/a-band/1879704602"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page, official artist tour page and exact Apple Music album page are verified. A stable event-specific purchase destination was not independently resolved, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21629",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms November 6, 2026; 18:00 and 21:00 sets; the six-person lineup; and the jazz-arranged Billboard Live concept."
+        },
+        {
+          "type": "official_artist",
+          "name": "Ohashi Trio",
+          "url": "https://ohashi-trio.com/live/tour.php?id=1003054",
+          "checked_on": "2026-08-23",
+          "note": "Official tour page independently confirms Tokyo on November 6, Yokohama on November 20, Osaka on November 28, showtimes, lineup and the six-piece jazz-based format."
+        },
+        {
+          "type": "official_artist_discography",
+          "name": "Ohashi Trio",
+          "url": "https://ohashi-trio.com/discography/",
+          "checked_on": "2026-08-23",
+          "note": "Official discography documents A BAND as the March 18, 2026 release and describes its rock core with bossa nova and funk elements."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/a-band/1879704602",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for A BAND."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, lineup and concept were verified from Billboard Live Tokyo and Ohashi Trio's official tour page; current album context is verified from his official discography and Apple Music. The repository was searched for Ohashi Trio before publication and no existing event or batch was found."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Ohashi Trio is useful to the RADAR precisely because the project refuses a clean border between singer-songwriter craft and instrumental arrangement. This Billboard run puts that writing into a jazz-based sextet with Marty Holoubek on bass, two keyboard/guitar voices and saxophone around Ohashi's own multi-instrumental center. In a small room, the value is hearing how pop songs are reharmonized and made to groove as an ensemble rather than simply reproduced from the record.",
+          "trip_verdict": "Actively make room for one of the Tokyo sets if contemporary Japanese arranging, groove and multi-instrumental songwriting are part of the trip. The same sextet format also plays Yokohama and Osaka, so this is a strong night to prioritize rather than a scarce date that should dictate the entire itinerary.",
+          "listen_before": "Ohashi Trio — A BAND"
+        },
+        "es": {
+          "why_it_matters": "Ohashi Trio entra al RADAR precisamente porque el proyecto nunca se deja encerrar entre canción de autor y arreglo instrumental. Esta corrida lleva ese lenguaje a un sexteto con base jazzística, Marty Holoubek en el bajo, teclados y guitarras alrededor del centro multiinstrumental de Ohashi, y saxofón. En una sala pequeña, el valor está en escuchar cómo las canciones se reharmonizan y agarran groove como ensamble, no simplemente en reproducir el disco.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets de Tokio si el arreglo japonés contemporáneo, el groove y la escritura multiinstrumental forman parte del viaje. El mismo sexteto toca también Yokohama y Osaka, así que es una noche fuerte para priorizar sin convertirla en una fecha que dicte todo el itinerario.",
+          "listen_before": "Ohashi Trio — A BAND"
+        }
+      }
+    }
+  ]
+}
