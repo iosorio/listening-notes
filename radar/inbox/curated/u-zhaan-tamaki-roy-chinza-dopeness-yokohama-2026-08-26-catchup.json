@@ -1,0 +1,111 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "u-zhaan-tamaki-roy-chinza-dopeness-yokohama-2026-08-26-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This Yokohama catch-up clears RADAR admission because the long-running U-zhaan / Tamaki ROY / Chinza DOPENESS collaboration puts tabla, rap, odd-meter rhythmic language, and live interaction at the center of the performance. The grade is A+, not S: the first Billboard Live tour and the trio's distinctive instrumental/rhythmic identity merit active prioritization, while a second date in Osaka on August 31 removes the scarcity required for S.",
+  "events": [
+    {
+      "id": "u-zhaan-tamaki-roy-chinza-dopeness-billboard-live-yokohama-2026-08-26",
+      "artist": "U-zhaan × 環ROY × 鎮座DOPENESS",
+      "subtitle": "First Billboard Live Tour",
+      "dates": {
+        "start": "2026-08-26",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama-kitanaka",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Tabla-rap / Cross-genre",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Experimental",
+        "Indian classical"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "U-zhaan — tabla",
+        "環ROY (Tamaki ROY) — rap",
+        "鎮座DOPENESS (Chinza DOPENESS) — rap"
+      ],
+      "factual_description": "Billboard Live Yokohama presents U-zhaan × Tamaki ROY × Chinza DOPENESS on Wednesday, August 26, 2026, with sets at 6:00 PM and 9:00 PM. Billboard identifies this Yokohama-and-Osaka run as the trio's first Billboard Live tour and describes the performance as a live interaction between tabla rhythm, rap, and responsive improvisational exchange that changes with the room. The same tour continues at Billboard Live Osaka on August 31. Apple Music documents their long-running collaboration on the 2021 album Tanoshimi, including odd-meter rhythmic material and tabla/rap interplay.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/yokohama/show?date=2026-08-26&event_id=ev-21574",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "U-zhaan × 環ROY × 鎮座DOPENESS",
+          "title": "たのしみ",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/%E3%81%9F%E3%81%AE%E3%81%97%E3%81%BF/1560876223"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Billboard Live Yokohama event page, date, both set times, lineup, first-Billboard-tour context, and the exact Apple Music page for Tanoshimi are verified. Billboard exposes a Buy Tickets control, but a distinct stable event-specific purchase destination was not resolved in this pass; eplus shows its own general-sale allotment ended, so official_tickets remains pending rather than storing a generic or potentially stale purchase URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/yokohama/show?date=2026-08-26&event_id=ev-21574",
+          "publisher": "Billboard Live Yokohama",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms August 26, 2026, 6:00 PM and 9:00 PM sets, the three performers, the first Billboard Live tour framing, and the Yokohama/Osaka two-city run."
+        },
+        {
+          "url": "https://www.billboard-live.com/page/44207",
+          "publisher": "Billboard Live",
+          "checked_on": "2026-08-23",
+          "note": "Official tour page independently confirms the Yokohama August 26 and Osaka August 31 dates and both set times."
+        },
+        {
+          "url": "https://u-zhaan.com/discography/",
+          "publisher": "U-zhaan",
+          "checked_on": "2026-08-23",
+          "note": "Official artist discography confirms the trio's 2021 album Tanoshimi and the long-running U-zhaan / Tamaki ROY / Chinza DOPENESS collaboration."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/%E3%81%9F%E3%81%AE%E3%81%97%E3%81%BF/1560876223",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for Tanoshimi; Apple Music describes the project as a tabla-and-rap collaboration that works with odd meters and rhythmic experimentation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set times, venue, lineup, and tour context were verified directly from Billboard Live; collaboration history was checked against U-zhaan's official discography; listening is an exact Apple Music album page. Repository search found no existing U-zhaan / Tamaki ROY / Chinza DOPENESS RADAR record or matching event ID before publication. No unannounced supporting personnel or purchase destination were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The attraction is the rhythmic architecture, not a novelty collision of rap and Indian percussion. U-zhaan's tabla can carry pulse, subdivision and sudden metric turns while Tamaki ROY and Chinza DOPENESS treat language itself as another rhythmic instrument. They have been developing this chemistry for years, so the first Billboard Live tour puts a mature, very Japanese cross-genre language into a room small enough to hear the timing and reaction between all three.",
+          "trip_verdict": "Actively make room for one of the two Yokohama sets if the Kanto calendar is open, especially if the Japan thread includes rhythm, tabla, hip-hop and musicians who resist clean genre boundaries. The Osaka continuation five days later gives enough flexibility that this should complement, rather than displace, a truly scarce master, premiere or one-off elsewhere in the trip.",
+          "listen_before": "U-zhaan × Tamaki ROY × Chinza DOPENESS — Tanoshimi"
+        },
+        "es": {
+          "why_it_matters": "Lo atractivo es la arquitectura rítmica, no la curiosidad de juntar rap con percusión india. La tabla de U-zhaan puede cargar pulso, subdivisión y cambios métricos mientras Tamaki ROY y Chinza DOPENESS convierten el propio lenguaje en otro instrumento rítmico. Llevan años desarrollando esa química, así que su primera gira por Billboard Live pone un lenguaje japonés muy propio y difícil de encasillar en una sala donde se puede escuchar de cerca el timing y la reacción entre los tres.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets de Yokohama si el calendario de Kanto está abierto, sobre todo si el hilo japonés viene siguiendo ritmo, tabla, hip-hop y músicos que no caben limpiamente en un género. La continuación en Osaka cinco días después da suficiente flexibilidad para que esta fecha complemente, y no desplace, a un maestro realmente escaso, un estreno o una función irrepetible en otro punto del viaje.",
+          "listen_before": "U-zhaan × Tamaki ROY × Chinza DOPENESS — Tanoshimi"
+        }
+      }
+    }
+  ]
+}
