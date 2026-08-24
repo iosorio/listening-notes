@@ -1,0 +1,105 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "del-mccoury-band-wolf-trap-2027-01-28-catchup",
+  "notes": "Verified A+-priority local catch-up under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass checked current Japanese sources and found no new unrecorded verified Tsuyoshi Yamamoto date. The Del McCoury Band clears RADAR admission because Wolf Trap is presenting a five-night themed residency in the 382-seat Barns, centered on a living link to Bill Monroe's Blue Grass Boys and a remarkably stable family/string-band language. A+ captures the recommendation: this is an unusually strong living-master residency worth actively making room for, but five separate nights and its recurring Barns tradition mean it does not require the scarcity tier S.",
+  "events": [
+    {
+      "id": "del-mccoury-band-wolf-trap-2027-01-28",
+      "artist": "The Del McCoury Band",
+      "subtitle": "Five themed performances at The Barns",
+      "dates": {
+        "start": "2027-01-28",
+        "end": "2027-02-03"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Bluegrass / Living master / Themed residency",
+      "genres": [
+        "Bluegrass",
+        "Americana"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Del McCoury — guitar, vocals",
+        "Ronnie McCoury — mandolin, vocals",
+        "Rob McCoury — banjo",
+        "Alan Bartram — bass, vocals",
+        "Christian Ward — fiddle"
+      ],
+      "factual_description": "Wolf Trap presents The Del McCoury Band for five themed performances at The Barns on January 28, January 30, January 31, February 2 and February 3, 2027, all at 7:30 PM with doors at 6:00 PM. Wolf Trap describes the run as a winter tradition built from five different themed performances and highlights Del McCoury's more than 60 years in the music, his sons Ronnie and Rob, and the band's current album Songs of Love and Life. The band's official biography identifies Del as a direct living link to Bill Monroe's Blue Grass Boys and documents the current instrumental roles of Del, Ronnie, Rob, Alan Bartram and Christian Ward.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/012827/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Del McCoury Band",
+          "title": "Songs of Love and Life",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/songs-of-love-and-life/1747795925"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Wolf Trap event page, all five dates and showtimes, current Del McCoury Band personnel, and the exact Apple Music album page are verified. Wolf Trap exposes a separate authorized Tickets.com destination for each performance, so no single-show purchase URL is misrepresented as ticketing for the full five-night residency."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/012827/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-23",
+          "note": "Official event page confirms the five performance dates, 7:30 PM start time for each show, 6:00 PM doors, The Barns venue, themed-residency framing, Del McCoury's more than 60 years in the industry, Ronnie and Rob McCoury, and active date-specific authorized ticket links."
+        },
+        {
+          "url": "https://www.delmccouryband.com/about-1",
+          "publisher": "The Del McCoury Band",
+          "checked_on": "2026-08-23",
+          "note": "Official band bios verify Del McCoury on guitar, Ronnie McCoury on mandolin, Rob McCoury on banjo, Alan Bartram on bass, and Christian Ward on fiddle; the biography also documents Del's direct 1963 connection to Bill Monroe's Blue Grass Boys."
+        },
+        {
+          "url": "https://music.apple.com/us/album/songs-of-love-and-life/1747795925",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for Songs of Love and Life by The Del McCoury Band."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue, doors and residency concept were verified against Wolf Trap; current band instrumentation and lineage were verified against The Del McCoury Band's official biographies; the listening recommendation is an exact Apple Music page. Repository search found no existing Del McCoury Wolf Trap RADAR record; the only current repo hit was an unrelated event whose editorial copy mentions Jason Carter's longstanding connection to the Del McCoury Band. No single-show ticket URL was substituted for the multi-date residency."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Del McCoury is not simply an elder statesman visiting a roots-music room. He is a direct living link to Bill Monroe's Blue Grass Boys, and the current band turns that lineage into an unusually stable family language: Ronnie's mandolin, Rob's banjo, Alan Bartram's bass and Christian Ward's fiddle have spent years learning how to move around Del's voice and guitar without sanding off the music's attack. Five themed nights in a 382-seat room put repertoire, requests, instrumental timing and storytelling much closer than a festival set ever could.",
+          "trip_verdict": "Actively make room for one of the five nights in the DMV if bluegrass lineage, string-band interplay or living masters are in the listening thread. The Barns is an unusually good scale for this band, and multiple themed nights give useful flexibility rather than forcing a single date to carry the whole trip.",
+          "listen_before": "The Del McCoury Band — Songs of Love and Life"
+        },
+        "es": {
+          "why_it_matters": "Del McCoury no es simplemente una figura histórica pasando por una sala de roots music. Es un vínculo vivo y directo con los Blue Grass Boys de Bill Monroe, y la banda actual convierte ese linaje en un lenguaje familiar de una estabilidad rarísima: la mandolina de Ronnie, el banjo de Rob, el bajo de Alan Bartram y el fiddle de Christian Ward llevan años aprendiendo a moverse alrededor de la voz y la guitarra de Del sin quitarle filo a la música. Cinco noches temáticas en una sala de 382 lugares ponen el repertorio, las peticiones del público, el timing instrumental y las historias mucho más cerca que cualquier set de festival.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las cinco noches dentro del DMV si el bluegrass, la interacción de cuerdas o los maestros vivos están en el hilo de escucha. The Barns tiene una escala especialmente buena para esta banda, y las varias noches temáticas dan flexibilidad real en lugar de obligar a que una sola fecha cargue todo el viaje.",
+          "listen_before": "The Del McCoury Band — Songs of Love and Life"
+        }
+      }
+    }
+  ]
+}
