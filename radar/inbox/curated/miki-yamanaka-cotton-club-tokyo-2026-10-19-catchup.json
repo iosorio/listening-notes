@@ -1,0 +1,106 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "miki-yamanaka-cotton-club-tokyo-2026-10-19-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Miki Yamanaka's October 19 COTTON CLUB release-tour date clears RADAR admission because it presents her regular New York trio around the newly released Breathe in a Tokyo club context; priority A is deliberate because the evidence supports a strong current trio date, not scarcity, premiere, farewell, or another protect-the-night circumstance.",
+  "events": [
+    {
+      "id": "miki-yamanaka-cotton-club-tokyo-2026-10-19",
+      "artist": "Miki Yamanaka Piano Trio",
+      "subtitle": "Japan Tour 2026 — Breathe release tour",
+      "dates": {
+        "start": "2026-10-19",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Contemporary acoustic jazz / Piano trio",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Post-bop",
+        "Acoustic jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Miki Yamanaka — piano",
+        "Tyrone Allen — bass",
+        "Jimmy Macbride — drums"
+      ],
+      "factual_description": "COTTON CLUB presents the Miki Yamanaka Piano Trio on Monday, October 19, 2026, with sets at 6:00 PM and 8:30 PM. The official event page identifies Miki Yamanaka on piano, Tyrone Allen on bass, and Jimmy Macbride on drums, describes Allen and Macbride as Yamanaka's regular trio partners, and frames the Tokyo engagement as part of the Japan tour for her new album Breathe. Breathe was released on August 14, 2026; the recording includes Yamanaka, Allen and Macbride, with Nicole Glover added on saxophones and spoken word.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/miki-yamanaka-261019/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Miki Yamanaka",
+          "title": "Breathe",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/breathe/6771830668"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact COTTON CLUB event page, showtimes, trio lineup and exact Apple Music album page are verified. COTTON CLUB exposes an active reservation control, but its booking route is session-dependent; no unstable reservation URL is stored as official_tickets."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/miki-yamanaka-261019/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms October 19, 2026, both set times, Miki Yamanaka / Tyrone Allen / Jimmy Macbride lineup, Japan Tour 2026 framing, and the Breathe release-tour context."
+        },
+        {
+          "url": "https://mikiyamanakamusic.bandcamp.com/album/breathe",
+          "publisher": "Miki Yamanaka",
+          "checked_on": "2026-08-24",
+          "note": "Artist-controlled release page confirms Breathe was released August 14, 2026 and lists Miki Yamanaka, Tyrone Allen II, Jimmy Macbride and Nicole Glover on the recording."
+        },
+        {
+          "url": "https://music.apple.com/us/album/breathe/6771830668",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Miki Yamanaka's Breathe, released August 14, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, venue, trio lineup and release-tour framing were verified directly from COTTON CLUB; album release context was cross-checked against Yamanaka's artist-controlled Bandcamp page and the exact Apple Music album page. Repository search found no existing Miki Yamanaka / COTTON CLUB October 19, 2026 RADAR record. No guest musicians, repertoire, prices beyond the venue listing, or stable ticket destination were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs on RADAR because it catches a Japanese pianist whose working language was built in New York bringing her regular trio back into a Tokyo club around music that has just been released. Allen and Macbride are not anonymous support: they are the rhythm section Yamanaka describes as a tightly integrated regular trio, and Breathe gives the date a current compositional center rather than a generic standards-night rationale. The appeal is the piano-trio conversation itself — touch, time, harmonic movement and how a band that works together in New York changes when that language lands in Tokyo.",
+          "trip_verdict": "Keep it on the board if October 19 is open in Tokyo. It is a strong night for contemporary acoustic jazz and a useful bridge between the New York and Japan threads, but I would fit it around rarer masters, premieres, reunions or one-off contexts rather than move one of those to make room.",
+          "listen_before": "Miki Yamanaka — Breathe"
+        },
+        "es": {
+          "why_it_matters": "Ésta entra al RADAR porque captura a una pianista japonesa cuyo lenguaje de trabajo se formó en Nueva York regresando a un club de Tokio con su trío habitual y música recién publicada. Allen y Macbride no son acompañantes intercambiables: forman la sección rítmica estable con la que Yamanaka ha construido una conversación muy cerrada, y Breathe le da a la fecha un centro compositivo actual en vez de convertirla en otra noche genérica de standards. Lo interesante es justamente escuchar el trío —toque, tiempo, movimiento armónico y cómo cambia en Tokio una banda que se ha hecho trabajando en Nueva York.",
+          "trip_verdict": "La tendría en el tablero si el 19 de octubre está libre en Tokio. Es una buena noche de jazz acústico contemporáneo y un puente natural entre los hilos Nueva York y Japón, pero la acomodaría alrededor de maestros más raros, estrenos, reuniones o contextos de una sola fecha en vez de desplazar uno de esos conciertos para hacerle espacio.",
+          "listen_before": "Miki Yamanaka — Breathe"
+        }
+      }
+    }
+  ]
+}
