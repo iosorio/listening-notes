@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "bird-lives-smoke-2026-08-24-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This catch-up restores an imminent Smoke Jazz Club residency that clears RADAR admission as A+: Vincent Herring and Eric Alexander reunite for a Charlie Parker birthday program in the same club where their long-running two-saxophone collaboration has been documented on multiple live recordings.",
+  "events": [
+    {
+      "id": "bird-lives-herring-alexander-smoke-2026-08-26",
+      "artist": "Vincent Herring & Eric Alexander Quintet",
+      "subtitle": "Bird Lives! A Charlie Parker Birthday Celebration",
+      "dates": {
+        "start": "2026-08-26",
+        "end": "2026-08-30"
+      },
+      "showtimes": [
+        "18:30",
+        "20:30",
+        "22:00"
+      ],
+      "venue": {
+        "id": "smoke-jazz-club-new-york",
+        "name": "Smoke Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Charlie Parker lineage / Two-saxophone quintet / Smoke residency",
+      "genres": [
+        "Jazz",
+        "Hard bop",
+        "Post-bop",
+        "Bebop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Vincent Herring — alto saxophone",
+        "Eric Alexander — tenor saxophone",
+        "Mike LeDonne — piano",
+        "John Webber — bass"
+      ],
+      "factual_description": "Smoke Jazz Club presents Bird Lives! A Charlie Parker Birthday Celebration from Wednesday, August 26 through Sunday, August 30, 2026. The residency is led by Vincent Herring on alto saxophone and Eric Alexander on tenor saxophone, with Mike LeDonne on piano and John Webber on bass. Smoke lists 6:30 PM and 8:30 PM shows throughout the run, with additional 10:00 PM shows on Friday August 28 and Saturday August 29. The venue frames the engagement around Herring and Alexander's long-running two-saxophone collaboration, which includes The Battle: Live at Smoke and the more recent Split Decision. Smoke's currently accessible primary pages conflict on the drummer assignment, listing Lewis Nash on the residency hub and Carl Allen on current show-list/individual pages, so no drummer is asserted in the canonical candidate until the venue resolves that inconsistency.",
+      "links": {
+        "official_event": "https://tickets.smokejazz.com/r/bird-lives-a-charlie-parker-birthday-celebration-feat-the-vincent-herring-eric-alexander-quintet",
+        "official_tickets": "https://tickets.smokejazz.com/r/bird-lives-a-charlie-parker-birthday-celebration-feat-the-vincent-herring-eric-alexander-quintet"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Eric Alexander & Vincent Herring",
+          "title": "Split Decision",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/split-decision/1819104687"
+        },
+        {
+          "artist": "Eric Alexander & Vincent Herring",
+          "title": "The Battle (Recorded Live at Smoke, 2005)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-battle-recorded-live-at-smoke-2005/1438333714"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Smoke residency/ticket hub, full date range, date-specific showtime pattern, four consistently verified personnel, and two exact Apple Music album pages are verified. Smoke's own current pages disagree on the drummer (Lewis Nash versus Carl Allen); the disputed drummer field is intentionally omitted rather than guessed."
+      },
+      "sources": [
+        {
+          "url": "https://tickets.smokejazz.com/r/bird-lives-a-charlie-parker-birthday-celebration-feat-the-vincent-herring-eric-alexander-quintet",
+          "publisher": "Smoke Jazz Club",
+          "checked_on": "2026-08-24",
+          "note": "Exact authorized residency and ticket hub confirms August 26-30, the 6:30/8:30 PM shows throughout plus 10:00 PM on Friday/Saturday, Herring/Alexander/LeDonne/Webber, the Charlie Parker birthday framing, and the pair's long-running Smoke collaboration."
+        },
+        {
+          "url": "https://music.apple.com/us/album/split-decision/1819104687",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Split Decision by Eric Alexander and Vincent Herring."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-battle-recorded-live-at-smoke-2005/1438333714",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for The Battle, recorded live at Smoke in 2005."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source-with-documented-lineup-conflict",
+        "note": "Dates, showtimes, venue, Herring/Alexander/LeDonne/Webber, concept, and ticketing were verified on Smoke's exact authorized residency hub. Current Smoke primary pages disagree on the drummer assignment: the residency hub names Lewis Nash while current show-list/individual pages name Carl Allen. The candidate therefore omits the disputed drummer rather than fabricating certainty. Exact Apple Music pages verify Split Decision and The Battle. Repository search found no existing Bird Lives / Herring-Alexander Smoke 2026 record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs on RADAR because the Charlie Parker frame lands on a collaboration with its own real history rather than a pickup tribute band. Herring and Alexander have been testing alto against tenor at Smoke for more than two decades, and their recordings from the room show how much of the music comes from friction, shared vocabulary, and instant response. Putting that relationship inside a Parker birthday week makes the lineage audible without turning it into museum repertory.",
+          "trip_verdict": "Actively make room for one of the remaining sets if New York is already in play, especially if saxophone identity and hard-bop lineage are part of the trip. Five nights provide enough flexibility that I would not displace a genuinely singular premiere, farewell, or one-off to make it happen.",
+          "listen_before": "Eric Alexander & Vincent Herring — Split Decision; The Battle (Recorded Live at Smoke, 2005)"
+        },
+        "es": {
+          "why_it_matters": "Ésta merece RADAR porque el marco de Charlie Parker cae sobre una colaboración con historia propia, no sobre una banda armada para hacer un tributo. Herring y Alexander llevan más de dos décadas poniendo alto y tenor frente a frente en Smoke, y sus grabaciones de esa misma sala dejan claro que buena parte de la música nace de la fricción, el vocabulario compartido y la reacción instantánea. Meter esa relación dentro de una semana dedicada a Parker vuelve audible el linaje sin convertirlo en repertorio de museo.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets si Nueva York ya está en juego, sobre todo si el viaje viene siguiendo identidad de saxofón y linaje hard-bop. Cinco noches dan suficiente flexibilidad para no desplazar por esto un estreno, despedida o one-off verdaderamente singular.",
+          "listen_before": "Eric Alexander & Vincent Herring — Split Decision; The Battle (Recorded Live at Smoke, 2005)"
+        }
+      }
+    }
+  ]
+}
