@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-damned-final-damnation-50-930-club-2026-10-21-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. No new unrecorded Yamamoto date was verified in this pass. The Damned's Final Damnation 50 date at 9:30 Club clears RADAR admission because it places one of the foundational UK punk bands in a historically resonant 50th-anniversary context at a small, culturally important DC club, with Flamin' Groovies and The Courettes on the same bill. It grades A+ rather than S because Final Damnation 50 is a broad international anniversary tour with many North American dates rather than a singular farewell or one-off performance.",
+  "events": [
+    {
+      "id": "the-damned-final-damnation-50-930-club-2026-10-21",
+      "artist": "The Damned — Final Damnation 50",
+      "subtitle": "with Flamin' Groovies and The Courettes",
+      "dates": {
+        "start": "2026-10-21",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "50th anniversary punk / rock",
+      "genres": [
+        "Punk rock",
+        "Gothic rock",
+        "Garage rock",
+        "Psychedelic rock"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "The Damned",
+        "Flamin' Groovies",
+        "The Courettes"
+      ],
+      "factual_description": "I.M.P. lists The Damned — Final Damnation 50 at 9:30 Club in Washington, DC on Wednesday, October 21, 2026, with Flamin' Groovies and The Courettes. The venue page states doors at 7:00 PM; because it does not separately verify the performance start time, no showtime is stored. The official ticket destination is Ticketmaster. The Damned formed in 1976 and the Final Damnation 50 tour is the band's 50th-anniversary campaign; current authorized tour listings show the same anniversary run continuing through multiple North American cities in October and November 2026.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/the-damned-final-damnation-50/",
+        "official_tickets": "https://www.ticketmaster.com/the-damned-final-damnation-50-washington-district-of-columbia-10-21-2026/event/1500648FEDADE2A4"
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Damned",
+          "title": "Damned Damned Damned (2017 Remaster)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/damned-damned-damned-2017-remaster/1439422959"
+        },
+        {
+          "artist": "The Damned",
+          "title": "Machine Gun Etiquette",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/machine-gun-etiquette/1621373741"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact I.M.P. event page verifies date, venue, doors and the three billed acts. Its ticket control resolves to the exact authorized Ticketmaster event page. Exact Apple Music album pages are verified. No performance start time is inferred from the 7:00 PM doors listing."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/the-damned-final-damnation-50/",
+          "publisher": "I.M.P. / 9:30 Club",
+          "checked_on": "2026-08-24",
+          "note": "Exact official event page confirming October 21, 2026, 9:30 Club, Washington, DC, doors at 7:00 PM, and support from Flamin' Groovies and The Courettes."
+        },
+        {
+          "url": "https://www.ticketmaster.com/the-damned-final-damnation-50-washington-district-of-columbia-10-21-2026/event/1500648FEDADE2A4",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-24",
+          "note": "Exact authorized ticket page for The Damned — Final Damnation 50 at 9:30 Club on October 21, 2026."
+        },
+        {
+          "url": "https://www.livenation.com/artist/K8vZ9171BZ7/the-damned-events",
+          "publisher": "Live Nation",
+          "checked_on": "2026-08-24",
+          "note": "Authorized current tour listing confirming that Final Damnation 50 is a multi-city international campaign with numerous North American dates, which informs the scarcity judgment."
+        },
+        {
+          "url": "https://music.apple.com/us/album/damned-damned-damned-2017-remaster/1439422959",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Damned Damned Damned (2017 Remaster)."
+        },
+        {
+          "url": "https://music.apple.com/us/album/machine-gun-etiquette/1621373741",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Machine Gun Etiquette."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-sources",
+        "note": "The exact I.M.P. event page and its authorized Ticketmaster destination verify the Washington date, venue and billing. Live Nation's current artist schedule confirms that Final Damnation 50 is a broad anniversary tour rather than a one-off. Repository search found no existing The Damned / Final Damnation 50 record or batch before publication. The 7:00 PM value on the venue page is stored only as doors context, not as a showtime."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The historical weight is unusually concentrated for a club date: one of the bands that helped define UK punk in 1976 arrives fifty years later with a catalog that also helped feed goth, garage and psychedelic rock, while Flamin' Groovies add another surviving line back to pre-punk guitar culture. At 9:30 Club, that history should feel physical rather than museum-like.",
+          "trip_verdict": "Actively make room for the Washington date if punk, post-punk or the genealogy of alternative rock matters to the listening thread. The anniversary framing and the 9:30 Club scale make this stronger than a routine legacy stop, while the broad international tour gives enough alternative opportunities that it should not displace a genuinely singular local event.",
+          "listen_before": "The Damned — Damned Damned Damned; Machine Gun Etiquette"
+        },
+        "es": {
+          "why_it_matters": "Hay una concentración histórica poco común para una fecha de club: una de las bandas que ayudó a definir el punk británico en 1976 llega cincuenta años después con un catálogo que también alimentó al goth, al garage y a la psicodelia, mientras Flamin' Groovies añade otra línea viva hacia la cultura guitarrera anterior al punk. En el 9:30 Club, esa genealogía debería sentirse física y no museográfica.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de Washington si el punk, el post-punk o la genealogía del rock alternativo forman parte del hilo de escucha. El aniversario y la escala del 9:30 Club la vuelven bastante más interesante que una parada rutinaria de legado, pero la gira internacional es amplia y deja suficientes oportunidades como para no desplazar un evento local realmente singular.",
+          "listen_before": "The Damned — Damned Damned Damned; Machine Gun Etiquette"
+        }
+      }
+    }
+  ]
+}
