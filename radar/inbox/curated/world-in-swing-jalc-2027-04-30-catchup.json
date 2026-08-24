@@ -1,0 +1,129 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "world-in-swing-jalc-2027-04-30-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Searches of current ALFIE/BODY&SOUL/Yamamoto/Space M&A and Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This catch-up adds one A+ event that the prior S/S+-only intake logic could have missed: Jazz at Lincoln Center's The World in Swing, which places Iraqi oud master Naseer Shamma, Brazilian bandolim master Hamilton de Holanda, and flamenco-jazz pianist Chano Domínguez inside the JLCO with Wynton Marsalis during Marsalis's final season as Artistic Director. The specific instrumental and cross-cultural architecture clearly passes RADAR admission and merits active prioritization, while two performances and the broader season context make A+ more accurate than a scarcity-tier S.",
+  "events": [
+    {
+      "id": "world-in-swing-jalc-new-york-2027-04-30",
+      "artist": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+      "subtitle": "The World in Swing — with Naseer Shamma, Hamilton de Holanda & Chano Domínguez",
+      "dates": {
+        "start": "2027-04-30",
+        "end": "2027-05-01"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york",
+        "name": "Rose Theater at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living masters / Cross-cultural large-ensemble jazz",
+      "genres": [
+        "Jazz",
+        "Arabic classical / oud",
+        "Brazilian instrumental / choro",
+        "Flamenco jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+        "Naseer Shamma — oud",
+        "Hamilton de Holanda — bandolim",
+        "Chano Domínguez — piano"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents The World in Swing on Friday, April 30 and Saturday, May 1, 2027 at 7:30 PM in Rose Theater. The Jazz at Lincoln Center Orchestra with Wynton Marsalis is joined by Iraqi oud virtuoso Naseer Shamma, Brazilian bandolim master Hamilton de Holanda, and Spanish flamenco-jazz pianist Chano Domínguez. JALC frames the program as a cross-cultural dialogue among jazz, Arab classical traditions, Brazilian music and flamenco, using traditional and original melodies as material for large-ensemble collaboration and improvisation. The engagement is part of JALC's 2026-27 Come Home season, Marsalis's final season as Artistic Director.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/20750",
+        "official_tickets": "https://ticketing.jazz.org/20750"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Naseer Shamma",
+          "title": "Abwab",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/abwab/1735508828"
+        },
+        {
+          "artist": "Hamilton de Holanda",
+          "title": "NOVA (feat. Salomão Soares & Thiago 'Big' Rabello)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/nova-feat-salom%C3%A3o-soares-thiago-big-rabello/6770577563"
+        },
+        {
+          "artist": "Chano Dominguez & Emaginario",
+          "title": "The Blues Around Us",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-blues-around-us/1835774920"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Jazz at Lincoln Center event/ticketing page, both dates, 7:30 PM time, all three featured guest instrumentalists, final-season context and three exact Apple Music album destinations are verified. No additional concert-specific JLCO chair personnel or repertoire details were inferred beyond JALC's current announcement."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/20750",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-24",
+          "note": "Exact official event and ticketing page confirms April 30-May 1, 2027 at 7:30 PM, the Jazz at Lincoln Center Orchestra with Wynton Marsalis, featured guests Naseer Shamma, Hamilton de Holanda and Chano Domínguez, and the cross-cultural program framing."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-24",
+          "note": "Official season announcement independently confirms The World in Swing, the three guest masters, and that 2026-27 is Wynton Marsalis's final season as Artistic Director of Jazz at Lincoln Center."
+        },
+        {
+          "url": "https://music.apple.com/us/album/abwab/1735508828",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Naseer Shamma's Abwab."
+        },
+        {
+          "url": "https://music.apple.com/us/album/nova-feat-salom%C3%A3o-soares-thiago-big-rabello/6770577563",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Hamilton de Holanda's 2026 album NOVA."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-blues-around-us/1835774920",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Chano Dominguez & Emaginario's The Blues Around Us."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, time, venue, featured guests, authorized ticketing and program concept were verified against Jazz at Lincoln Center's exact event page and official season announcement. Repository searches for The World in Swing and Naseer Shamma found no existing canonical/inbox match before publication. Exact listening links were verified on Apple Music. No unannounced orchestra chairs, set list, prices or additional guests were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The appeal is the collision of three highly specific instrumental languages with the JLCO rather than a generic world-jazz theme. Shamma brings the oud and an Arab classical vocabulary, de Holanda has stretched the Brazilian bandolim into a virtuosic improvising voice, and Domínguez has spent decades making flamenco rhythm and harmony converse with jazz piano. Putting all three inside Marsalis's large-ensemble language, during his final JALC season, creates a serious test of whether the orchestra can make those traditions speak to one another without sanding off their differences.",
+          "trip_verdict": "Actively make room for one of the two nights if a New York trip overlaps, especially if instrumental identity and cross-cultural improvisation are central to the listening thread. Two performances provide some flexibility, so this is a strong regional-trip anchor rather than a date that should automatically override every other plan.",
+          "listen_before": "Naseer Shamma — Abwab; Hamilton de Holanda — NOVA; Chano Dominguez & Emaginario — The Blues Around Us"
+        },
+        "es": {
+          "why_it_matters": "Lo atractivo es el choque de tres lenguajes instrumentales muy definidos con la JLCO, no una etiqueta genérica de world jazz. Shamma trae el oud y un vocabulario de tradición árabe; de Holanda ha llevado el bandolim brasileño a una voz improvisadora de virtuosismo brutal; y Domínguez lleva décadas haciendo conversar el ritmo y la armonía del flamenco con el piano de jazz. Meter a los tres dentro del lenguaje de gran ensamble de Marsalis, además en su última temporada al frente de JALC, pone a prueba si la orquesta puede hacer dialogar esas tradiciones sin borrar sus diferencias.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos noches si coincide con un viaje a Nueva York, sobre todo si la identidad instrumental y la improvisación entre tradiciones están en el centro del hilo de escucha. Tener dos funciones da algo de flexibilidad, así que funciona como ancla fuerte de viaje regional sin convertirse automáticamente en una fecha que deba desplazar cualquier otro plan.",
+          "listen_before": "Naseer Shamma — Abwab; Hamilton de Holanda — NOVA; Chano Dominguez & Emaginario — The Blues Around Us"
+        }
+      }
+    }
+  ]
+}
