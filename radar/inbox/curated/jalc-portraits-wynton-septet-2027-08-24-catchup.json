@@ -1,0 +1,243 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jalc-portraits-wynton-septet-2027-08-24-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. A stale BODY&SOUL schedule_old result that appeared to list a December Yamamoto trio was rejected because the live BODY&SOUL site frames September 26, 2026 as its Final Groove/closing period. Two Jazz at Lincoln Center catch-ups clear RADAR admission. Portraits of Bards, Titans, and Legends is A+ because it combines existing Marsalis portrait works with a new text-based composition in his final JALC artistic-director season, but two performances and a season full of milestone programs leave enough flexibility that S would overstate scarcity. The Wynton Marsalis Septet is S after a second scarcity challenge: JALC is reassembling musicians from multiple eras of one of Marsalis's defining small groups at the end of his final season as Artistic Director; this is not a routine touring configuration, and A+ understates the likely regret if missed. Recent corrected RADAR batches are predominantly A/A+, so this single S is a deliberate scarcity exception rather than a return to S inflation.",
+  "events": [
+    {
+      "id": "wynton-marsalis-portraits-bards-titans-legends-jalc-2027-02-05",
+      "artist": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+      "subtitle": "Portraits of Bards, Titans, and Legends",
+      "dates": {
+        "start": "2027-02-05",
+        "end": "2027-02-06"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-frederick-p-rose-hall-new-york",
+        "name": "Rose Theater at Frederick P. Rose Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz at Lincoln Center / New work / American cultural portraits",
+      "genres": [
+        "Jazz",
+        "Big Band",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jazz at Lincoln Center Orchestra with Wynton Marsalis"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Portraits of Bards, Titans, and Legends on February 5-6, 2027 at 7:30 PM in Rose Theater. The program places Marsalis's musical portraits of Jack Johnson, Buddy Bolden and Art Blakey alongside his concerto associated with baritone saxophonist Joe Temperley, and introduces a new work setting words by Benjamin Franklin, Walt Whitman and Mark Twain, with passages selected by historian Geoffrey C. Ward. The performances take place during Marsalis's final season as Artistic Director of Jazz at Lincoln Center.",
+      "links": {
+        "official_event": "https://jazz.org/concert/portraits-of-bards-titans-and-legends-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+        "official_tickets": "https://ticketing.jazz.org/20700"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Wynton Marsalis",
+          "title": "Unforgivable Blackness - The Rise and Fall of Jack Johnson",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/unforgivable-blackness-the-rise-and-fall-of-jack-johnson/1700276643"
+        },
+        {
+          "artist": "Wynton Marsalis",
+          "title": "Bolden (Original Soundtrack)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/bolden-original-soundtrack/1454311277"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact JALC event and authorized ticketing pages are verified, along with both dates, 7:30 PM showtime, program concept and two exact Apple Music album pages."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/portraits-of-bards-titans-and-legends-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms the program: portraits of Jack Johnson, Buddy Bolden and Art Blakey, the Joe Temperley concerto, and a new work using words by Benjamin Franklin, Walt Whitman and Mark Twain."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20700",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-24",
+          "note": "Official ticketing page confirms February 5-6, 2027 at 7:30 PM in Frederick P. Rose Hall and active seat selection/purchase."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-24",
+          "note": "Official season announcement confirms 2026-27 is Marsalis's final season as Artistic Director and independently describes the February 5-6 program."
+        },
+        {
+          "url": "https://music.apple.com/us/album/unforgivable-blackness-the-rise-and-fall-of-jack-johnson/1700276643",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Unforgivable Blackness."
+        },
+        {
+          "url": "https://music.apple.com/us/album/bolden-original-soundtrack/1454311277",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Bolden (Original Soundtrack)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, program and ticketing were verified from Jazz at Lincoln Center primary pages; final-season context was verified from JALC's official season announcement. Repository search found no existing Portraits of Bards, Titans, and Legends 2027 RADAR record or matching event ID."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This program is more interesting than another retrospective night in Marsalis's final JALC season because it places several of his long-running historical portraits next to a genuinely new piece. Jack Johnson, Buddy Bolden and Art Blakey become one side of the argument; Franklin, Whitman and Twain become another. The through-line is Marsalis using large-ensemble jazz to turn American biography, myth and language into composition rather than treating history as repertory wallpaper.",
+          "trip_verdict": "Actively make room for one of the two Rose Theater performances if a New York trip lines up with early February. The new work and final-season context give the program real weight, while two performances and a season already rich in Marsalis retrospectives mean it should complement, not displace, a rarer one-off elsewhere in the corridor.",
+          "listen_before": "Wynton Marsalis — Unforgivable Blackness; Bolden (Original Soundtrack)"
+        },
+        "es": {
+          "why_it_matters": "Esto está más interesante que otra noche retrospectiva dentro de la última temporada de Marsalis en JALC porque pone varios retratos históricos que lleva años trabajando junto a una obra realmente nueva. Jack Johnson, Buddy Bolden y Art Blakey forman un lado del argumento; Franklin, Whitman y Twain, otro. El hilo es Marsalis usando el jazz de gran formato para convertir biografía, mito y lenguaje estadounidenses en composición, no para usar la historia como papel tapiz de repertorio.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos funciones en Rose Theater si un viaje a Nueva York coincide con principios de febrero. La obra nueva y el contexto de última temporada le dan peso real, pero las dos funciones y una temporada ya cargada de retrospectivas de Marsalis permiten acomodarla sin desplazar un one-off todavía más raro en el corredor.",
+          "listen_before": "Wynton Marsalis — Unforgivable Blackness; Bolden (Original Soundtrack)"
+        }
+      }
+    },
+    {
+      "id": "wynton-marsalis-septet-jalc-2027-06-17",
+      "artist": "Wynton Marsalis Septet",
+      "subtitle": "Multi-era Septet reunion in Marsalis's final JALC season",
+      "dates": {
+        "start": "2027-06-17",
+        "end": "2027-06-19"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-frederick-p-rose-hall-new-york",
+        "name": "Rose Theater at Frederick P. Rose Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-24",
+        "rationale": "The scarcity is the specific reassembly, not Marsalis's stature alone. Jazz at Lincoln Center is bringing together musicians from multiple eras of the defining 1990s Septet for June 17-19, 2027 at the end of Marsalis's final season as Artistic Director. This is not a routine touring band: the engagement deliberately revisits the Septet's own long-form repertoire and lineage with alumni spanning different incarnations. A+ would capture 'excellent and worth prioritizing' but undersell the genuine regret likely if this rare, tenure-closing reunion were missed. Three performances keep it below S+."
+      },
+      "category": "Living masters / Septet reunion / final-season milestone",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "New Orleans Jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Wynton Marsalis",
+        "Herlin Riley",
+        "Reginald Veal",
+        "Wycliffe Gordon",
+        "Dan Nimmer",
+        "Chris Crenshaw",
+        "Alexa Tarantino",
+        "Chris Lewis",
+        "Abdias Armenteros"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents the Wynton Marsalis Septet on June 17-19, 2027 at 7:30 PM in Rose Theater. JALC describes the engagement as a panoramic return to Marsalis's defining Septet language, spanning repertoire associated with Citi Movement, In This House, On This Morning and Live at the Village Vanguard. The published personnel draws musicians from multiple eras of the Septet, including Herlin Riley, Reginald Veal, Wycliffe Gordon, Dan Nimmer, Chris Crenshaw, Alexa Tarantino, Chris Lewis and Abdias Armenteros. JALC's 2026-27 season is Marsalis's final season as Artistic Director and runs through June 19, 2027. The event page does not specify a night-by-night seven-player configuration, so no rotation is inferred.",
+      "links": {
+        "official_event": "https://jazz.org/concert/wynton-marsalis-septet/",
+        "official_tickets": "https://ticketing.jazz.org/20780"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Wynton Marsalis Septet",
+          "title": "In the Sweet Embrace of Life",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/song/191019310"
+        },
+        {
+          "artist": "Wynton Marsalis Septet",
+          "title": "Cherokee",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/song/191011734"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact JALC event and authorized ticketing pages are verified, along with dates, 7:30 PM showtime, published multi-era personnel and exact Apple Music tracks from Live at the Village Vanguard. JALC does not specify a fixed night-by-night seven-person subset from the broader published personnel, so no rotation is invented."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/wynton-marsalis-septet/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms the multi-era Septet concept, associated repertoire and participating musicians from multiple eras of the ensemble."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20780",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-24",
+          "note": "Official ticketing page confirms June 17-19, 2027 at 7:30 PM in Frederick P. Rose Hall and active ticketing."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-24",
+          "note": "Official season announcement confirms 2026-27 is Marsalis's final season as Artistic Director, that the season runs through June 19, 2027, and the June 17-19 Septet engagement."
+        },
+        {
+          "url": "https://music.apple.com/us/song/191019310",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music track page for In the Sweet Embrace of Life from Live at the Village Vanguard."
+        },
+        {
+          "url": "https://music.apple.com/us/song/191011734",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music track page for Cherokee from Live at the Village Vanguard."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, time, venue, ticketing, Septet framing and published participating musicians were verified from Jazz at Lincoln Center primary pages; final-season context was verified from JALC's official season announcement. Repository search found no existing Wynton Marsalis Septet June 2027 RADAR record or matching event ID. The broader personnel list is preserved without inventing a fixed seven-player lineup for each night."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the rare Marsalis retrospective where the band itself is the historical document. The Septet was the laboratory for a huge part of his 1990s language: New Orleans rhythm, four-horn writing, long-form suites and hard collective swing. Bringing musicians from different eras of that group back into the same Rose Theater engagement at the end of his final season as JALC Artistic Director turns the concert into a live map of how that vocabulary changed across decades rather than a repertory tribute from the outside.",
+          "trip_verdict": "Protect one of the three nights if a New York trip is remotely feasible. The three-performance run gives some scheduling flexibility, but the multi-era reunion and its placement at the end of Marsalis's final JALC season make this a stronger trip anchor than the routine parts of the season.",
+          "listen_before": "Wynton Marsalis Septet — In the Sweet Embrace of Life; Cherokee (Live at the Village Vanguard)"
+        },
+        "es": {
+          "why_it_matters": "Ésta es de esas retrospectivas de Marsalis donde la propia banda funciona como documento histórico. El Septet fue el laboratorio de buena parte de su lenguaje de los noventa: ritmo de Nueva Orleans, escritura para cuatro metales, suites largas y swing colectivo durísimo. Volver a juntar en Rose Theater músicos de distintas etapas del grupo, al final de su última temporada como director artístico de JALC, convierte la función en un mapa vivo de cómo ese vocabulario cambió durante décadas, no en un tributo de repertorio hecho desde afuera.",
+          "trip_verdict": "Protegería una de las tres noches si un viaje a Nueva York es remotamente viable. Las tres funciones dan algo de flexibilidad logística, pero la reunión multigeneracional del Septet y su lugar al final de la última temporada de Marsalis en JALC la vuelven una ancla de viaje mucho más fuerte que las partes rutinarias de la temporada.",
+          "listen_before": "Wynton Marsalis Septet — In the Sweet Embrace of Life; Cherokee (Live at the Village Vanguard)"
+        }
+      }
+    }
+  ]
+}
