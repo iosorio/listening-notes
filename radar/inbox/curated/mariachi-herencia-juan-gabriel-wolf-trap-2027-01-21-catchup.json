@@ -1,0 +1,114 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "mariachi-herencia-juan-gabriel-wolf-trap-2027-01-21-catchup",
+  "notes": "Verified A+-priority local catch-up under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. Mariachi Herencia de México clears RADAR admission because a 14-member, two-time Latin GRAMMY-nominated bicultural U.S. mariachi ensemble is devoting a full program to Juan Gabriel in the intimate Barns at Wolf Trap. A+ captures the recommendation: the ensemble, repertoire and setting merit actively making room for one of the two performances, while the same Juan Gabriel program is touring broadly enough that the Wolf Trap engagement does not have the scarcity required for S.",
+  "events": [
+    {
+      "id": "mariachi-herencia-juan-gabriel-wolf-trap-2027-01-21",
+      "artist": "Mariachi Herencia de México",
+      "subtitle": "Honoring Juan Gabriel",
+      "dates": {
+        "start": "2027-01-21",
+        "end": "2027-01-22"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Mariachi / Juan Gabriel tribute / Mexican music",
+      "genres": [
+        "Mariachi",
+        "Música Mexicana",
+        "Ranchera",
+        "Latin"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Mariachi Herencia de México — 14-member ensemble; individual personnel for this engagement not announced on the primary event page"
+      ],
+      "factual_description": "Wolf Trap presents Mariachi Herencia de México: Honoring Juan Gabriel at The Barns on Thursday and Friday, January 21–22, 2027 at 8:00 PM, with doors at 6:30 PM. The event page identifies the two-time Latin GRAMMY-nominated ensemble and a program devoted to Juan Gabriel songs including 'No Tengo Dinero' and 'Amor Eterno.' The band's official site describes Mariachi Herencia de México as a 14-member ensemble representing a new bicultural generation in the United States and documents six chart-topping albums. The same Honoring Juan Gabriel program is touring other North American venues in 2026–27.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/012127/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Mariachi Herencia de México",
+          "title": "Popurrí Juan Gabriel",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/1233451018"
+        },
+        {
+          "artist": "Mariachi Herencia de México",
+          "title": "Viva La Música",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/mx/album/viva-la-m%C3%BAsica/1814558776"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Wolf Trap event page, current artist profile, dates/times and two exact Apple Music listening destinations are verified. Wolf Trap exposes separate authorized Tickets.com destinations for the January 21 and January 22 performances rather than one stable ticket URL covering the engagement, so official_tickets remains pending instead of treating one night's purchase link as canonical for both dates."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/012127/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms January 21 and 22, 2027, 8:00 PM, The Barns, 6:30 PM doors, the Honoring Juan Gabriel program, example repertoire, and separate authorized Tickets.com purchase controls for each night."
+        },
+        {
+          "url": "https://mariachiherenciademexico.com/",
+          "publisher": "Mariachi Herencia de México",
+          "checked_on": "2026-08-24",
+          "note": "Official artist site identifies the group as a two-time Latin GRAMMY-nominated 14-member ensemble representing a new bicultural generation in the U.S. and documents its current discography and North American touring activity."
+        },
+        {
+          "url": "https://music.apple.com/us/song/1233451018",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music page for Mariachi Herencia de México's 'Popurrí Juan Gabriel,' a directly relevant listening entry for the Wolf Trap program."
+        },
+        {
+          "url": "https://music.apple.com/mx/album/viva-la-m%C3%BAsica/1814558776",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Viva La Música, documenting the ensemble's more recent sound."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, time, venue, doors and Juan Gabriel program were verified against Wolf Trap. Current ensemble size, bicultural framing and discography were verified against the band's official site. The exact Apple Music pages are verified. Repository-wide searches for 'Mariachi Herencia de México' and 'Juan Gabriel' returned no existing RADAR record before publication. Individual personnel for the January engagement were not inferred. The two-night engagement has separate official purchase destinations, so no single-night ticket URL was misrepresented as canonical for both performances."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more interesting than a generic tribute because the arranging language is the point: a 14-piece mariachi ensemble from a younger bicultural U.S. generation is taking on a songwriter whose melodies can carry enormous emotional weight even before the brass, violins, guitarrón and vocal phrasing reshape them. The band's own catalog already includes a Juan Gabriel medley, so the program grows from repertoire they have lived with rather than from a one-off booking concept. The Barns should put the attack of the trumpets, bowing of the violins and low-end pulse of the guitarrón unusually close to the room.",
+          "trip_verdict": "Actively make room for one of the two nights if mariachi, arrangement craft and Mexican song are in the listening thread. The Barns is a particularly strong local setting for an ensemble this large, but the Juan Gabriel program is touring across North America, so there is no need to rebuild larger travel plans around this engagement alone.",
+          "listen_before": "Mariachi Herencia de México — Popurrí Juan Gabriel; Viva La Música"
+        },
+        "es": {
+          "why_it_matters": "Esto tiene bastante más interés que un tributo genérico porque el arreglo es parte central del asunto: un mariachi de 14 músicos, formado por una generación bicultural más joven en Estados Unidos, se mete con un compositor cuyas melodías ya cargan un peso emocional enorme antes de que metales, violines, guitarrón y fraseo vocal las transformen. El propio catálogo del grupo ya incluye un popurrí de Juan Gabriel, así que el programa nace de repertorio que la banda ha trabajado y no de una ocurrencia aislada de booking. En The Barns, el ataque de las trompetas, el arco de los violines y el pulso grave del guitarrón deberían sentirse especialmente cerca.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos noches si el mariachi, el trabajo de arreglos y la canción mexicana están en el hilo de escucha. The Barns es una escala local particularmente buena para un ensamble de este tamaño, pero el programa de Juan Gabriel está girando por Norteamérica, así que no hace falta reconstruir planes de viaje mayores alrededor de esta sola residencia.",
+          "listen_before": "Mariachi Herencia de México — Popurrí Juan Gabriel; Viva La Música"
+        }
+      }
+    }
+  ]
+}
