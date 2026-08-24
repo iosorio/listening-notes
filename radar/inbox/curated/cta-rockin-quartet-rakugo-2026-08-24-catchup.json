@@ -1,0 +1,317 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "cta-rockin-quartet-rakugo-2026-08-24-catchup",
+  "notes": "Yamamoto-first pass completed on 2026-08-24. No new unrecorded Tsuyoshi Yamamoto date was verified from the current ALFIE, BODY&SOUL, Space M&A, Yamamoto-schedule and Japanese-jazz sources checked. This catch-up adds three Tokyo performances that clear RADAR admission under the current editorial rubric without using scarcity tiers: Danny Seraphine's California Transit Authority playing Chicago material, ROCKIN' QUARTET Chapter 8 with ROY of THE BAWDIES and NAOTO QUARTET, and COTTON CLUB's fifth Marunouchi Vaudeville Show joining rakugo and jazz.",
+  "events": [
+    {
+      "id": "danny-seraphine-cta-billboard-live-tokyo-2026-09-07",
+      "artist": "CTA — Danny Seraphine California Transit Authority plays Chicago",
+      "subtitle": "Danny Seraphine-led Chicago repertoire with horn section",
+      "dates": {
+        "start": "2026-09-07",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz-rock / Chicago lineage club performance",
+      "genres": [
+        "Jazz-rock",
+        "Rock",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Groove"
+      ],
+      "lineup": [
+        "Danny Seraphine — drums",
+        "Sara Anne Niemietz — vocals",
+        "Marc Bonilla — guitar, vocals",
+        "Travis Davis — bass",
+        "Ed Roth — keyboards",
+        "Horn section — personnel not individually announced on the official event page"
+      ],
+      "factual_description": "Billboard Live Tokyo presents CTA — Danny Seraphine California Transit Authority plays Chicago on Monday, September 7, 2026, with stages at 5:30 PM and 8:30 PM. Billboard identifies Seraphine as a founding member and original drummer of Chicago, describes this as CTA's first Japan appearance in eight years, and announces Sara Anne Niemietz, Marc Bonilla, Travis Davis, Ed Roth and a horn section. The program centers on the Chicago sound and repertoire through CTA's jazz-rock-pop approach.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/tokyo/show?date=2026-09-07&event_id=ev-21521",
+        "official_tickets": "https://eplus.jp/sf/detail/2533090002-P0030003P021001?P6=001"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chicago",
+          "title": "The Chicago Transit Authority (Remastered)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-chicago-transit-authority-remastered/1109409662"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Billboard Live Tokyo event page, authorized eplus ticket destination and exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/en/tokyo/show?date=2026-09-07&event_id=ev-21521",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms September 7, 2026; stages at 17:30 and 20:30; Seraphine, Niemietz, Bonilla, Davis, Roth and horn section; CTA's first Japan appearance in eight years; and the Chicago-centered repertoire framing."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "eplus",
+          "url": "https://eplus.jp/sf/detail/2533090002-P0030003P021001?P6=001",
+          "checked_on": "2026-08-24",
+          "note": "Authorized event-specific eplus destination for the September 7 Billboard Live Tokyo engagement."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/the-chicago-transit-authority-remastered/1109409662",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Chicago's The Chicago Transit Authority (Remastered)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, lineup and historical framing were verified against Billboard Live Tokyo; authorized ticketing and the exact listening destination were independently resolved. The repository was searched for Danny Seraphine / California Transit Authority / September 7 before publication and no existing event or batch was found."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The point is not a generic Chicago tribute. Danny Seraphine is the original drummer who helped define the band's early rhythmic identity, and CTA rebuilds that horn-heavy jazz-rock language from inside the lineage rather than from outside it. Billboard's club scale should make the drum-horn architecture far more visible than it would be in an arena nostalgia package, and the first Japan appearance in eight years gives the Tokyo date a concrete reason to matter.",
+          "trip_verdict": "Actively make room for one of the two Roppongi sets if early Chicago, drumming, horn arranging or the jazz-rock lineage is part of the Tokyo thread. It is strong enough to build the evening around without forcing the rest of a Kanto itinerary to bend around a touring project.",
+          "listen_before": "Chicago — The Chicago Transit Authority (Remastered)"
+        },
+        "es": {
+          "why_it_matters": "La gracia no es un tributo genérico a Chicago. Danny Seraphine es el baterista original que ayudó a definir la identidad rítmica de la primera etapa de la banda, y CTA reconstruye desde adentro ese lenguaje de metales, jazz y rock. En la escala de Billboard Live, la arquitectura batería-metales debería quedar mucho más expuesta que en un paquete nostálgico de arena; además, es la primera visita de CTA a Japón en ocho años.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets en Roppongi si el primer Chicago, la batería, los arreglos de metales o el hilo jazz-rock forman parte del viaje. Da para construir la noche alrededor del concierto sin obligar a doblar todo el itinerario de Kanto por un proyecto que sigue de gira.",
+          "listen_before": "Chicago — The Chicago Transit Authority (Remastered)"
+        }
+      }
+    },
+    {
+      "id": "rockin-quartet-roy-naoto-billboard-live-tokyo-2026-09-16",
+      "artist": "ROCKIN' QUARTET Chapter 8 — ROY (THE BAWDIES) & NAOTO QUARTET",
+      "subtitle": "ROY's soul-rock voice reworked for string quartet and piano",
+      "dates": {
+        "start": "2026-09-16",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Rock / chamber crossover series",
+      "genres": [
+        "Rock",
+        "Soul",
+        "Chamber crossover"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "ROY (THE BAWDIES) — vocals",
+        "NAOTO — first violin",
+        "Mai Otani — second violin",
+        "Yuko Kajitani — viola",
+        "Wataru Mukai — cello",
+        "Kureha Ryuichi — piano"
+      ],
+      "factual_description": "Billboard Live Tokyo presents ROCKIN' QUARTET Chapter 8 on Wednesday, September 16, 2026, with stages at 5:30 PM and 8:30 PM. ROY of THE BAWDIES performs with the NAOTO-led quartet of Mai Otani, Yuko Kajitani and Wataru Mukai plus pianist Kureha Ryuichi. Billboard frames the project as a one-night Tokyo crossover in which ROY's groove and husky soul-rock voice are recast through string-quartet arrangements; the same Chapter 8 project also plays Billboard Live Osaka on September 7.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21484",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "THE BAWDIES",
+          "title": "THIS IS THE PARTY",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/this-is-the-party/1877554840"
+        },
+        {
+          "artist": "NAOTO",
+          "title": "BEST (for Digital)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/best-for-digital/1539156509"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets"
+        ],
+        "note": "The exact Billboard Live Tokyo event page and Apple Music listening pages are verified. Billboard shows active purchase controls, but an independently verifiable stable event-specific ticket destination was not resolved in this pass, so official_tickets remains pending rather than storing an unstable or generic route."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21484",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms September 16, 2026; stages at 17:30 and 20:30; ROY, NAOTO Quartet and pianist Kureha Ryuichi; the string-quartet crossover concept; and the related September 7 Osaka date."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/this-is-the-party/1877554840",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music page for THE BAWDIES' 2026 album THIS IS THE PARTY."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/best-for-digital/1539156509",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music page for NAOTO's BEST (for Digital)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, complete announced lineup, project concept and Osaka companion date were verified against Billboard Live Tokyo; exact listening destinations were verified on Apple Music. The repository was searched for ROCKIN' QUARTET / ROY / NAOTO / September 16 before publication and no existing event or batch was found. No unstable ticket destination was stored."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This works because the arrangement changes the physical center of THE BAWDIES' music. ROY's voice normally rides a hard rhythm-and-blues engine; here the weight shifts to bow attack, voicing, counterline and piano under a singer whose phrasing still depends on groove. NAOTO's quartet is not decorative backing but the mechanism that has made ROCKIN' QUARTET a recurring reinterpretation series, and this chapter gives it a vocalist with enough rhythmic personality to make the collision meaningful.",
+          "trip_verdict": "Actively make room for one of the two Tokyo sets if Japanese rock, strings or arrangement-as-reinterpretation is part of the trip. It is a strong evening-building option in Roppongi, while the Osaka date provides enough flexibility that the broader itinerary does not need to revolve around this one performance.",
+          "listen_before": "THE BAWDIES — THIS IS THE PARTY; NAOTO — BEST (for Digital)"
+        },
+        "es": {
+          "why_it_matters": "Aquí el arreglo cambia el centro físico de la música de THE BAWDIES. La voz de ROY normalmente va montada sobre un motor duro de rhythm & blues; esta vez el peso pasa al ataque del arco, los voicings, las contralíneas y el piano debajo de un cantante cuyo fraseo sigue dependiendo del groove. El cuarteto de NAOTO no funciona como acompañamiento decorativo, sino como la maquinaria de reinterpretación de toda la serie ROCKIN' QUARTET.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets en Tokio si el rock japonés, las cuerdas o el arreglo como reinterpretación forman parte del viaje. Da para construir una buena noche en Roppongi; la fecha de Osaka deja suficiente flexibilidad para no convertir esta función en el eje obligatorio de todo el itinerario.",
+          "listen_before": "THE BAWDIES — THIS IS THE PARTY; NAOTO — BEST (for Digital)"
+        }
+      }
+    },
+    {
+      "id": "marunouchi-vaudeville-rakugo-jazz-cotton-club-2026-08-25",
+      "artist": "丸の内寄席 vol.5 落語×JAZZ — Marunouchi Vaudeville Show",
+      "subtitle": "Rakugo storytellers with a live jazz quintet",
+      "dates": {
+        "start": "2026-08-25",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Rakugo / jazz cultural crossover",
+      "genres": [
+        "Jazz",
+        "Rakugo",
+        "Spoken word"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ryutei Kochiraku — rakugo",
+        "Takigawa Koi-Hachi — rakugo",
+        "Shunputei Shosaku — rakugo",
+        "Taka Nawashiro — guitar",
+        "Yutaro Suzuki — trumpet",
+        "Kota Kaihori — piano",
+        "Junichi Sato — bass",
+        "Hiro Kimura — drums"
+      ],
+      "factual_description": "COTTON CLUB presents the fifth Marunouchi Vaudeville Show, Rakugo × JAZZ, on Tuesday, August 25, 2026, with shows at 6:00 PM and 8:30 PM. Rakugo performers Ryutei Kochiraku, Takigawa Koi-Hachi and Shunputei Shosaku share the program with a jazz quintet of Taka Nawashiro, Yutaro Suzuki, Kota Kaihori, Junichi Sato and Hiro Kimura. The venue describes the project as the fifth installment of an ongoing collaboration between Japanese storytelling and live jazz, returning after roughly six months.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marunouchi-vaudeville-show-260825/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Taka Nawashiro",
+          "title": "Lifescape",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/lifescape/1759129638"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets"
+        ],
+        "note": "The exact COTTON CLUB event page and exact Apple Music listening page are verified. COTTON CLUB shows reservations open, but its purchase path is session-dependent and no stable event-specific reservation destination was resolved in this pass, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "COTTON CLUB",
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marunouchi-vaudeville-show-260825/",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms August 25, 2026; shows at 18:00 and 20:30; the complete announced rakugo and jazz lineup; the fifth-installment framing; and active reservations."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/lifescape/1759129638",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for guitarist Taka Nawashiro's Lifescape."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, complete lineup, recurring-series context and active reservation status were verified against COTTON CLUB; the listening destination was verified on Apple Music. The repository was searched for Marunouchi Vaudeville Show / rakugo jazz / August 25 before publication and no existing event or batch was found. No session-dependent reservation URL was stored."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The admission case is the cultural form itself: rakugo is built from timing, voice, silence, repetition and audience response, which gives a live jazz group something real to converse with rather than merely decorate. The fifth installment also means this is an established Tokyo experiment, not a novelty pairing invented for one night. It belongs on RADAR as a small, distinctly local cross-genre signal without pretending that recurrence makes it scarce.",
+          "trip_verdict": "Keep it on the board if August 25 is open in Tokyo, especially if the trip is already moving between jazz and Japanese performance traditions. It fits well around rarer anchor concerts rather than displacing them.",
+          "listen_before": "Taka Nawashiro — Lifescape"
+        },
+        "es": {
+          "why_it_matters": "La razón para meterlo al RADAR es la forma cultural misma: el rakugo vive del timing, la voz, el silencio, la repetición y la respuesta del público, así que un grupo de jazz tiene algo real con qué conversar y no sólo algo que acompañar. Que ya vaya en su quinta edición también importa: es un experimento tokiota establecido, no una ocurrencia de crossover de una sola noche. Entra como una señal local muy propia sin fingir que por eso sea escasa.",
+          "trip_verdict": "La tendría en el tablero si el 25 de agosto está libre en Tokio, sobre todo si el viaje ya está cruzando jazz y formas escénicas japonesas. Se acomoda muy bien alrededor de conciertos-ancla más raros en vez de desplazarlos.",
+          "listen_before": "Taka Nawashiro — Lifescape"
+        }
+      }
+    }
+  ]
+}
