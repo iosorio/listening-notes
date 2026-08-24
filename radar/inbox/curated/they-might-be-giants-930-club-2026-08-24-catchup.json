@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "they-might-be-giants-930-club-2026-08-24-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. They Might Be Giants clears RADAR admission because its four-night 9:30 Club stand uses an eight-piece, three-horn touring band, a different album spotlight in the opening set each night, two unique second sets, and current 2026 material in the 40th-anniversary year of the band's self-titled debut. A+ is deliberate: this is an unusually rich local engagement worth actively prioritizing, but four nights and a broader multi-night tour provide enough access that the scarcity standard for S is not met. Proposed batch distribution: A+ only; no S/S+ priority_review required.",
+  "events": [
+    {
+      "id": "they-might-be-giants-930-club-washington-dc-2026-11-19",
+      "artist": "They Might Be Giants",
+      "subtitle": "Four Nights With... — multi-night album spotlights",
+      "dates": {
+        "start": "2026-11-19",
+        "end": "2026-11-22"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Alternative rock / 40th-anniversary multi-night residency",
+      "genres": [
+        "Alternative rock",
+        "Art pop",
+        "Experimental pop"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "They Might Be Giants — eight-piece touring band including a three-piece horn section; individual touring personnel are not listed on the official tour page"
+      ],
+      "factual_description": "They Might Be Giants plays four consecutive nights at 9:30 Club in Washington, DC from November 19 through November 22, 2026. Live Nation and Ticketmaster list the four-night engagement and passes, while I.M.P./9:30 Club publishes the individual dates. The band's official tour page describes the current format as an eight-piece band with three horns, two full sets and no opener: the opening set spotlights a different album each night, while two unique second sets draw across the catalog and include songs from the 2026 album The World Is to Dig. Apple Music dates the band's self-titled debut to November 4, 1986, making the 2026 engagement part of its 40th-anniversary year. The official 9:30 Club pages publish 7:00 PM doors; the artist says the tour is usually on stage at 8:00 PM sharp, but because that language is not event-specific, no exact showtime is stored here.",
+      "links": {
+        "official_event": "https://www.livenation.com/event/1AvfZ_aGkMLEoao/they-might-be-giants-four-night-pass",
+        "official_tickets": "https://www.ticketmaster.com/they-might-be-giants-four-night-washington-district-of-columbia-11-19-2026/event/1500649DDF9D1251"
+      },
+      "recommended_listening": [
+        {
+          "artist": "They Might Be Giants",
+          "title": "They Might Be Giants",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/they-might-be-giants/635917123"
+        },
+        {
+          "artist": "They Might Be Giants",
+          "title": "The World Is to Dig",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-world-is-to-dig/1878235632"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact four-night Live Nation event page, exact authorized Ticketmaster four-night pass destination, official artist tour-format page and two exact Apple Music album pages are verified. Exact stage times are deliberately omitted because the official venue pages label 7:00 PM as doors and the artist's 8:00 PM statement is general to the tour rather than event-specific."
+      },
+      "sources": [
+        {
+          "url": "https://www.theymightbegiants.com/shows",
+          "publisher": "They Might Be Giants",
+          "checked_on": "2026-08-24",
+          "note": "Official artist tour page documents the current live format: two sets, three horns, eight-piece band, no opener, a different album spotlight in each opening set, two unique second sets, and songs from The World Is to Dig."
+        },
+        {
+          "url": "https://www.livenation.com/event/1AvfZ_aGkMLEoao/they-might-be-giants-four-night-pass",
+          "publisher": "Live Nation / 9:30 Club",
+          "checked_on": "2026-08-24",
+          "note": "Exact authorized event page confirms the four-night Washington, DC engagement at 9:30 Club from November 19 through November 22, 2026."
+        },
+        {
+          "url": "https://www.ticketmaster.com/they-might-be-giants-four-night-washington-district-of-columbia-11-19-2026/event/1500649DDF9D1251",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-24",
+          "note": "Exact authorized four-night-pass destination confirms 9:30 Club and the November 19-22, 2026 date span. The four-night pass itself may not have inventory even when individual nights do."
+        },
+        {
+          "url": "https://impconcerts.com/event/they-might-be-giants-3/",
+          "publisher": "I.M.P. / 9:30 Club",
+          "checked_on": "2026-08-24",
+          "note": "Official venue/promoter page for one night of the four-night stand confirms 7:00 PM doors and describes the eight-piece, three-horn, different-album-per-night live concept."
+        },
+        {
+          "url": "https://music.apple.com/us/album/they-might-be-giants/635917123",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music page for the 1986 self-titled debut, released November 4, 1986."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-world-is-to-dig/1878235632",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music page for the 2026 album The World Is to Dig, released April 14, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "The four-night date span and venue were verified through Live Nation/Ticketmaster and I.M.P.; the live format was verified through the official They Might Be Giants tour page and I.M.P.; the 1986 and 2026 album context was verified on Apple Music. Repository search found no pre-existing They Might Be Giants RADAR record before publication. No unannounced touring personnel, album assignment by night, exact stage time or individual-night ticket availability was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Four nights at 9:30 Club turns a catalog-heavy rock show into something closer to a small residency. The current eight-piece setup adds three horns, each opening set centers a different album, and the second halves are built to vary while pulling from four decades of deliberately odd pop craft and new 2026 material. In the 40th-anniversary year of the self-titled debut, the value is not nostalgia alone: it is hearing a band that still treats arrangement, timbre, humor and structural left turns as part of the live language.",
+          "trip_verdict": "Actively make room for one night in the DMV, and consider two if the album spotlights make the programs meaningfully different for you. Four consecutive shows create enough access that there is no need to treat the engagement as scarce, but 9:30 Club is a particularly good scale for the horn-heavy version of this band.",
+          "listen_before": "They Might Be Giants — They Might Be Giants; The World Is to Dig"
+        },
+        "es": {
+          "why_it_matters": "Cuatro noches en el 9:30 Club convierten un concierto de catálogo en algo mucho más parecido a una pequeña residencia. La formación actual crece a ocho músicos con tres metales, cada primer set gira alrededor de un disco distinto y las segundas mitades cambian mientras recorren cuatro décadas de pop deliberadamente raro junto con material nuevo de 2026. En el año 40 del debut homónimo, la gracia no es sólo la nostalgia: es escuchar a una banda que todavía usa el arreglo, el timbre, el humor y los cambios de dirección como parte central de su lenguaje en vivo.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las noches en el DMV, y consideraría dos si los discos elegidos vuelven realmente distintos los programas. Cuatro funciones consecutivas dan suficiente acceso para no tratar la residencia como escasa, pero la escala del 9:30 Club le queda especialmente bien a esta versión de la banda con metales.",
+          "listen_before": "They Might Be Giants — They Might Be Giants; The World Is to Dig"
+        }
+      }
+    }
+  ]
+}
