@@ -1,0 +1,205 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "glasper-swervedriver-dmv-2026-08-24-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. No new unrecorded Tsuyoshi Yamamoto date was verified in ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule searches, or current Japanese jazz sources. This batch recovers two immediate DMV dates that clear RADAR admission but grade differently after the admission/priority split: Robert Glasper at the Birchmere is A because the one-night local club date is musically strong but no rare lineup, premiere, anniversary, or other scarcity context is published; Swervedriver's Raise at 35 at The Atlantis is A+ because the album-specific 35th-anniversary frame and small-room setting merit actively making room, while the multi-city tour removes an S-level scarcity claim. Batch distribution: A=1, A+=1, S=0, S+=0.",
+  "events": [
+    {
+      "id": "robert-glasper-birchmere-alexandria-2026-08-25",
+      "artist": "Robert Glasper",
+      "subtitle": "One-night Birchmere date",
+      "dates": {
+        "start": "2026-08-25",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "birchmere-alexandria-va",
+        "name": "The Birchmere",
+        "city": "Alexandria",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Jazz / hip-hop / R&B crossover",
+      "genres": [
+        "Jazz",
+        "R&B",
+        "Hip-Hop",
+        "Neo-soul"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Robert Glasper — piano/keyboards",
+        "Additional personnel — not announced on the current authorized event listings"
+      ],
+      "factual_description": "AXS and Ticketmaster list Robert Glasper at The Birchmere in Alexandria, Virginia, on Tuesday, August 25, 2026 at 7:30 PM. The authorized listings name Glasper but do not publish additional personnel for this date. No special guest, album-performance concept, premiere, anniversary, or other event-specific program is stated in the verified listings.",
+      "links": {
+        "official_event": "https://www.axs.com/events/1481602/robert-glasper-tickets",
+        "official_tickets": "https://www.axs.com/events/1481602/robert-glasper-tickets"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Robert Glasper Experiment",
+          "title": "Black Radio",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/black-radio/716753527"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact authorized AXS event destination verifies the date, time, artist and venue; Ticketmaster independently confirms the same event. The Apple Music album page is exact. Additional live personnel are not announced and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.axs.com/events/1481602/robert-glasper-tickets",
+          "publisher": "AXS",
+          "checked_on": "2026-08-24",
+          "note": "Authorized event destination for Robert Glasper at The Birchmere on August 25, 2026 at 7:30 PM."
+        },
+        {
+          "url": "https://www.ticketmaster.com/birchmere-tickets-alexandria/venue/172043",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-24",
+          "note": "Authorized Birchmere listing independently confirms Robert Glasper on August 25, 2026 at 7:30 PM in Alexandria."
+        },
+        {
+          "url": "https://music.apple.com/us/album/black-radio/716753527",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Robert Glasper Experiment's Black Radio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authorized-sources",
+        "note": "The event was verified independently through AXS and Ticketmaster. A repository search for Robert Glasper / Birchmere / Alexandria found no existing matching canonical event or inbox batch. No live personnel beyond Robert Glasper and no special program are inferred from artist reputation."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Glasper belongs on the RADAR because his keyboard language dissolves the old border between jazz improvisation, hip-hop production, R&B harmony and groove, and the Birchmere puts that vocabulary into a relatively small local room. What is not published matters too: there is no rare lineup, premiere or special program attached to this date, so the event does not need a scarcity story to justify admission.",
+          "trip_verdict": "Worth keeping on the local board for tomorrow night if the calendar is open. The small-room setting makes the date attractive, but I would not displace a rarer one-off or a more specifically programmed event for a routine tour stop whose additional personnel are still unannounced.",
+          "listen_before": "Robert Glasper Experiment — Black Radio"
+        },
+        "es": {
+          "why_it_matters": "Glasper merece estar en el RADAR porque su lenguaje de teclados borra de manera natural la frontera entre improvisación jazzística, producción de hip-hop, armonía de R&B y groove, y el Birchmere pone todo eso en una sala local relativamente pequeña. También importa lo que no está anunciado: no hay una alineación rara, estreno ni programa especial asociado a esta fecha, así que no hace falta inventarle escasez para justificar su entrada.",
+          "trip_verdict": "La tendría en el tablero local para mañana por la noche si el calendario está libre. La escala del Birchmere vuelve atractiva la fecha, pero no desplazaría por una parada rutinaria de gira —con personal adicional todavía sin anunciar— un one-off más raro o un concierto con un programa mucho más específico.",
+          "listen_before": "Robert Glasper Experiment — Black Radio"
+        }
+      }
+    },
+    {
+      "id": "swervedriver-raise-at-35-atlantis-washington-dc-2026-08-26",
+      "artist": "Swervedriver",
+      "subtitle": "Raise at 35",
+      "dates": {
+        "start": "2026-08-26",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Shoegaze / alternative rock / album anniversary",
+      "genres": [
+        "Shoegaze",
+        "Alternative rock",
+        "Noise pop"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Swervedriver",
+        "Slow Fiction — support"
+      ],
+      "factual_description": "The Atlantis and Live Nation list Brooklyn Vegan Presents: Swervedriver — Raise at 35 for Wednesday, August 26, 2026 in Washington, DC, with Slow Fiction supporting. The Atlantis publishes doors at 6:30 PM; the sources verified in this pass do not separately publish a performance start time, so no showtime is inferred. Live Nation's current Swervedriver tour page shows Raise at 35 dates across multiple North American cities, placing the Washington show within the album-anniversary tour rather than a one-off performance.",
+      "links": {
+        "official_event": "https://www.livenation.com/event/17A8v0G61xGS4Fy/brooklyn-vegan-presents-swervedriver-raise-at-35",
+        "official_tickets": "https://www.ticketmaster.com/brooklyn-vegan-presents-swervedriver-raise-at-washington-district-of-columbia-08-26-2026/event/150064A88CCD5239"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Swervedriver",
+          "title": "Raise",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/raise/1443814794"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Live Nation event page verifies Swervedriver, Slow Fiction, date and venue; the exact Ticketmaster destination is the authorized ticketing page; Apple Music verifies the Raise album page. The Atlantis publishes 6:30 PM as doors, so no separate showtime is invented."
+      },
+      "sources": [
+        {
+          "url": "https://theatlantis.com/",
+          "publisher": "The Atlantis",
+          "checked_on": "2026-08-24",
+          "note": "Official venue schedule lists Swervedriver — Raise at 35 with Slow Fiction on August 26, 2026 and identifies 6:30 PM as doors."
+        },
+        {
+          "url": "https://www.livenation.com/event/17A8v0G61xGS4Fy/brooklyn-vegan-presents-swervedriver-raise-at-35",
+          "publisher": "Live Nation",
+          "checked_on": "2026-08-24",
+          "note": "Exact authorized event page confirming Swervedriver, Slow Fiction, August 26, 2026 and The Atlantis."
+        },
+        {
+          "url": "https://www.ticketmaster.com/brooklyn-vegan-presents-swervedriver-raise-at-washington-district-of-columbia-08-26-2026/event/150064A88CCD5239",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-24",
+          "note": "Exact authorized ticketing destination for the Washington date."
+        },
+        {
+          "url": "https://www.livenation.com/artist/K8vZ9171KzV/swervedriver-events",
+          "publisher": "Live Nation",
+          "checked_on": "2026-08-24",
+          "note": "Current artist tour page shows Raise at 35 dates in multiple North American cities, confirming that the anniversary concept is touring rather than unique to Washington."
+        },
+        {
+          "url": "https://music.apple.com/us/album/raise/1443814794",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music page for Swervedriver's 1991 album Raise."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "The event was verified through The Atlantis, Live Nation and Ticketmaster. Repository searches for Swervedriver and Raise at 35 found no existing matching RADAR event or inbox batch. The anniversary concept is explicit in the authorized billing; the multi-city tour was used to avoid inflating the date into a scarcity tier. The 6:30 PM venue time is recorded only as doors in the factual description, not as a showtime."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Raise is one of the records that made shoegaze feel less like suspended atmosphere and more like forward motion: dense guitars, punk pressure and songs built around speed and open-road imagery rather than dream-state drift. Hearing Swervedriver put that first-album language back at the center in a room as small as The Atlantis gives the anniversary real physical value instead of turning it into generic nostalgia.",
+          "trip_verdict": "Actively make room for Wednesday if loud guitars, shoegaze and early-'90s alternative language matter. The Atlantis is a particularly good scale for this music, while the same Raise at 35 concept is moving through several North American cities, so there is no need to treat Washington as a once-only event.",
+          "listen_before": "Swervedriver — Raise"
+        },
+        "es": {
+          "why_it_matters": "Raise es uno de esos discos que hicieron que el shoegaze se sintiera menos como atmósfera suspendida y más como movimiento: guitarras densas, presión punk y canciones construidas alrededor de velocidad y carretera, no sólo de ensueño. Escuchar a Swervedriver volver a poner ese lenguaje del primer disco en el centro, en una sala tan chica como The Atlantis, le da al aniversario un valor físico real y evita que se vuelva pura nostalgia.",
+          "trip_verdict": "Sí le haría espacio activamente al miércoles si las guitarras fuertes, el shoegaze y el lenguaje alternativo de principios de los noventa están en el hilo de escucha. The Atlantis tiene una escala especialmente buena para esta música; como Raise at 35 está pasando por varias ciudades norteamericanas, no hace falta tratar Washington como una oportunidad única.",
+          "listen_before": "Swervedriver — Raise"
+        }
+      }
+    }
+  ]
+}
