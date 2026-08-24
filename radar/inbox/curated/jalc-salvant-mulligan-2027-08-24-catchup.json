@@ -1,0 +1,197 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jalc-salvant-mulligan-2027-08-24-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Searches of current ALFIE/BODY&SOUL/Yamamoto/Space M&A and credible Japanese jazz sources produced no new unrecorded future Tsuyoshi Yamamoto performance. This catch-up adds two A+ Jazz at Lincoln Center engagements that clear RADAR admission without requiring scarcity-tier inflation: Cécile McLorin Salvant's quartet with Sullivan Fortner in Rose Theater, and Gerry Mulligan Centennial: Mulligan and Me in The Appel Room, music directed by Mulligan collaborator and protégé Ted Nash. Both merit active prioritization; multiple performances and non-singular touring/season contexts make A+ more accurate than S.",
+  "events": [
+    {
+      "id": "cecile-mclorin-salvant-jalc-new-york-2027-05-13",
+      "artist": "Cécile McLorin Salvant",
+      "subtitle": "Quartet featuring Sullivan Fortner",
+      "dates": {
+        "start": "2027-05-13",
+        "end": "2027-05-15"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york",
+        "name": "Rose Theater at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / Vocal jazz / Quartet",
+      "genres": [
+        "Jazz",
+        "Vocal jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Cécile McLorin Salvant — voice",
+        "Sullivan Fortner — piano",
+        "Quartet — additional personnel not yet specified by Jazz at Lincoln Center"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Cécile McLorin Salvant in Rose Theater on May 13-15, 2027 at 7:30 PM. JALC describes the engagement as an intimate quartet setting featuring her frequent collaborator Sullivan Fortner on piano, with a repertoire spanning reworked standards, original compositions, centuries-old songs and rarely performed material from the Great American Songbook. The three performances are part of Jazz at Lincoln Center's 2026-27 season.",
+      "links": {
+        "official_event": "https://jazz.org/concert/cecile-mclorin-salvant/",
+        "official_tickets": "https://jazz.org/concert/cecile-mclorin-salvant/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Cécile McLorin Salvant",
+          "title": "The Window",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-window/1850042115"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact JALC event page verifies May 13-15, 2027, 7:30 PM, Rose Theater, quartet format, Sullivan Fortner and active Buy Now controls. The exact Apple Music page for The Window is verified. Bass/drums or other quartet personnel are not yet specified by JALC and were not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/cecile-mclorin-salvant/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-24",
+          "note": "Official concert page confirms May 13-15, 2027 at 7:30 PM in Rose Theater, quartet format, Sullivan Fortner on piano, program framing and active Buy Now controls for all three performances."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-24",
+          "note": "Official season announcement independently confirms Salvant's May 13-15 Rose Theater engagement and quartet configuration with Sullivan Fortner."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-window/1850042115",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for The Window."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue, format, Sullivan Fortner and authorized purchase controls were verified against Jazz at Lincoln Center's exact event page and season announcement. Repository searches for Cécile McLorin Salvant and the proposed ID found no existing canonical/inbox match before publication. No unannounced quartet personnel or set list was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Salvant's voice works less like a fixed jazz-vocal style than an instrument for taking songs apart and rebuilding their emotional logic. Pairing her again with Sullivan Fortner puts the focus on phrasing, harmonic reaction and the strange repertoire choices that make her sets feel composed in real time rather than delivered from a standards book.",
+          "trip_verdict": "Actively make room for one of the three Rose Theater nights if a New York trip overlaps. The Salvant-Fortner partnership is a strong reason to build an evening around the concert, while three performances provide enough flexibility that it should not automatically displace a rarer one-off.",
+          "listen_before": "Cécile McLorin Salvant — The Window"
+        },
+        "es": {
+          "why_it_matters": "La voz de Salvant funciona menos como un estilo fijo de jazz vocal que como un instrumento para desarmar canciones y reconstruir su lógica emocional. Volver a ponerla junto a Sullivan Fortner deja al frente el fraseo, la reacción armónica y esas elecciones raras de repertorio que hacen que sus sets parezcan componerse en tiempo real, no salir de un cancionero.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las tres noches en Rose Theater si coincide con un viaje a Nueva York. La sociedad Salvant-Fortner es razón suficiente para construir una noche alrededor del concierto, mientras que tres funciones dan margen para no desplazar automáticamente un one-off más raro.",
+          "listen_before": "Cécile McLorin Salvant — The Window"
+        }
+      }
+    },
+    {
+      "id": "gerry-mulligan-centennial-jalc-new-york-2027-06-04",
+      "artist": "Gerry Mulligan Centennial",
+      "subtitle": "Mulligan and Me — music directed by Ted Nash",
+      "dates": {
+        "start": "2027-06-04",
+        "end": "2027-06-05"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "16:30"
+      ],
+      "venue": {
+        "id": "the-appel-room-jazz-at-lincoln-center-new-york",
+        "name": "The Appel Room at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Centennial / Baritone saxophone / Jazz-theater hybrid",
+      "genres": [
+        "Jazz",
+        "Cool jazz",
+        "Theatrical jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ted Nash — music director; longtime Gerry Mulligan collaborator and protégé",
+        "Paul Nedzela — baritone saxophone",
+        "Additional performers/cast not yet specified by Jazz at Lincoln Center"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Gerry Mulligan Centennial: Mulligan and Me in The Appel Room on June 4-5, 2027, with Friday sets at 7:00 PM and 9:00 PM and Saturday sets at 4:30 PM and 7:00 PM. The work is conceived by writer Iris Dart and directed by Rachel Dart as a play with music about Mulligan's creative partnership with actress and singer Judy Holliday in the 1960s. Ted Nash, a longtime Mulligan collaborator and protégé, serves as music director, and current JLCO baritone saxophonist Paul Nedzela is featured.",
+      "links": {
+        "official_event": "https://jazz.org/concert/gerry-mulligan-centennial-mulligan-and-me/",
+        "official_tickets": "https://jazz.org/concert/gerry-mulligan-centennial-mulligan-and-me/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gerry Mulligan Sextet",
+          "title": "Night Lights (Expanded Edition)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/night-lights-expanded-edition/1446912991"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact JALC event page verifies the two dates, four set times, Appel Room, Ted Nash's role and connection to Mulligan, Paul Nedzela, the Iris Dart/Rachel Dart theatrical concept and active Buy Now controls. The exact Apple Music page for Night Lights is verified. Additional cast and ensemble personnel remain unannounced and were not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/gerry-mulligan-centennial-mulligan-and-me/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-24",
+          "note": "Official concert page confirms June 4-5, 2027, four performances in The Appel Room, Ted Nash as music director and Mulligan collaborator/protégé, Paul Nedzela, the play-with-music concept and active Buy Now controls."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-24",
+          "note": "Official season announcement independently confirms the centennial context, Ted Nash's direct Mulligan lineage, Paul Nedzela and the Judy Holliday theatrical narrative."
+        },
+        {
+          "url": "https://music.apple.com/us/album/night-lights-expanded-edition/1446912991",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Gerry Mulligan Sextet's Night Lights (Expanded Edition)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, set times, venue, creative concept, Ted Nash's direct connection to Mulligan, Paul Nedzela and authorized purchase controls were verified against Jazz at Lincoln Center. Repository searches for Gerry Mulligan Centennial, Mulligan and Me, Ted Nash and the proposed ID found no existing canonical/inbox match before publication. No unannounced cast, musicians, repertoire or premiere claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The direct lineage is what makes this more than another centennial repertory night. Ted Nash worked with Mulligan and carries that language from inside the band, while Paul Nedzela puts a contemporary baritone voice next to it. Building the concert around Mulligan's creative relationship with Judy Holliday also opens a less familiar side of his history and turns the evening into a hybrid of live jazz, memory and theater rather than a museum-style tribute.",
+          "trip_verdict": "Actively make room for one of the four Appel Room sets if a New York trip overlaps, especially if baritone saxophone and living musical lineage are central to the listening thread. Four performances across two days provide enough access that it works as a strong trip anchor without demanding that every other plan move around it.",
+          "listen_before": "Gerry Mulligan Sextet — Night Lights (Expanded Edition)"
+        },
+        "es": {
+          "why_it_matters": "El linaje directo es lo que vuelve esto algo más que otra noche de repertorio por centenario. Ted Nash trabajó con Mulligan y carga ese lenguaje desde dentro de la banda, mientras Paul Nedzela pone una voz contemporánea de saxo barítono frente a esa memoria. Construir el concierto alrededor de la relación creativa entre Mulligan y Judy Holliday abre además una zona menos conocida de su historia y convierte la noche en un híbrido de jazz en vivo, memoria y teatro, no en un tributo de museo.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets en The Appel Room si coincide con un viaje a Nueva York, sobre todo si el saxo barítono y el linaje musical vivo están en el centro del hilo de escucha. Cuatro funciones en dos días dan suficiente acceso para que sea una ancla fuerte del viaje sin obligar a mover todos los demás planes.",
+          "listen_before": "Gerry Mulligan Sextet — Night Lights (Expanded Edition)"
+        }
+      }
+    }
+  ]
+}
