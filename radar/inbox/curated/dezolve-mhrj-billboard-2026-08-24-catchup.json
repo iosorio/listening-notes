@@ -1,0 +1,207 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dezolve-mhrj-billboard-2026-08-24-catchup",
+  "notes": "Yamamoto-first pass completed on 2026-08-24. No new unrecorded Tsuyoshi Yamamoto date was verified from the current ALFIE, BODY&SOUL, Space M&A, Yamamoto-schedule and Japanese-jazz sources checked. This catch-up adds two Tokyo/Kanto performances that clear RADAR admission under the current editorial rubric without using S scarcity tiers: DEZOLVE's Biblion release live with Masato Honda in Yokohama, and MHRJ's fifth-anniversary groove trio with Senri Kawaguchi at Billboard Live Tokyo.",
+  "events": [
+    {
+      "id": "dezolve-masato-honda-billboard-live-yokohama-2026-09-16",
+      "artist": "DEZOLVE with Masato Honda",
+      "subtitle": "New Album “Biblion” Release Live 2026",
+      "dates": {
+        "start": "2026-09-16",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "J-fusion / album-release special collaboration",
+      "genres": [
+        "Jazz fusion",
+        "J-fusion",
+        "Instrumental jazz"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Groove"
+      ],
+      "lineup": [
+        "Shoya Kitagawa — guitar",
+        "Jun Tomoda — keyboards",
+        "Takuma Kaneko — bass",
+        "Mao-ki Yamamoto — drums",
+        "Masato Honda — saxophone"
+      ],
+      "factual_description": "Billboard Live Yokohama presents DEZOLVE on Wednesday, September 16, 2026, with stages at 5:30 PM and 8:30 PM. The performance is built around DEZOLVE's 2026 album Biblion and adds Masato Honda on saxophone to the band's Shoya Kitagawa, Jun Tomoda, Takuma Kaneko and Mao-ki Yamamoto lineup. Billboard states that the program will center on Biblion material with special arrangements and live interplay for this performance. Authorized eplus ticketing is active for the September 16 engagement.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/yokohama/show?event_id=ev-21579",
+        "official_tickets": "https://eplus.jp/sf/detail/2506020002-P0030006P021001?P6=001"
+      },
+      "recommended_listening": [
+        {
+          "artist": "DEZOLVE",
+          "title": "Biblion",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/biblion/1882580345?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Billboard Live Yokohama event page, authorized eplus ticket page and exact Apple Music album page for Biblion are verified."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Yokohama",
+          "url": "https://www.billboard-live.com/yokohama/show?event_id=ev-21579",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms September 16, 2026; two stages at 17:30 and 20:30; the full DEZOLVE lineup plus Masato Honda; the Biblion release-live framing; and special arrangements/interplay for the engagement."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "eplus",
+          "url": "https://eplus.jp/sf/detail/2506020002-P0030006P021001?P6=001",
+          "checked_on": "2026-08-24",
+          "note": "Authorized ticket page confirms the September 16 Billboard Live Yokohama engagement, show timing, lineup and active general sale."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/biblion/1882580345?l=en-US",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music page for DEZOLVE's 2026 album Biblion."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, lineup, album-release context and special-collaboration framing were verified against Billboard Live Yokohama; ticketing was verified through eplus; the exact listening destination was verified on Apple Music. The repository was searched for DEZOLVE / Biblion / Masato Honda before publication and no existing event or batch was found."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "DEZOLVE is one of the sharper current carriers of Japanese fusion: guitar, keys, bass and drums built around precision, dense ensemble writing and real rhythmic lift rather than retro styling. Adding Masato Honda puts a very different generation of J-fusion language directly into that machinery, and Billboard is explicitly promising Biblion material reworked for the encounter rather than a routine guest spot. The point is the friction between DEZOLVE's current sound and Honda's hyper-articulate saxophone voice.",
+          "trip_verdict": "Actively make room for one of the two Yokohama sets if modern Japanese fusion, saxophone language or rhythm-section interplay is part of the Kanto thread. It is strong enough to build the evening around, while still leaving room in the itinerary for rarer one-off or master-level dates.",
+          "listen_before": "DEZOLVE — Biblion"
+        },
+        "es": {
+          "why_it_matters": "DEZOLVE es de las bandas que mejor están cargando hoy el lenguaje de la fusión japonesa: guitarra, teclados, bajo y batería con precisión, escritura de ensamble y un empuje rítmico real, no como ejercicio retro. Meter a Masato Honda pone otra generación completa del J-fusion directamente dentro de esa maquinaria, y Billboard anuncia arreglos especiales sobre material de Biblion en vez de una aparición rutinaria de invitado. Lo interesante es la fricción entre el sonido actual de DEZOLVE y la voz hiperarticulada del sax de Honda.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets en Yokohama si la fusión japonesa contemporánea, el saxofón o la interacción de la sección rítmica forman parte del hilo de Kanto. Da para construir la noche alrededor del concierto sin desplazar por fuerza una fecha todavía más rara o irrepetible.",
+          "listen_before": "DEZOLVE — Biblion"
+        }
+      }
+    },
+    {
+      "id": "mhrj-senri-kawaguchi-billboard-live-tokyo-2026-09-19",
+      "artist": "MHRJ",
+      "subtitle": "5th Anniversary Billboard Live Tour — 人間 vs 機械最終決戦",
+      "dates": {
+        "start": "2026-09-19",
+        "end": null
+      },
+      "showtimes": [
+        "15:30",
+        "18:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese funk-pop trio / anniversary club show",
+      "genres": [
+        "Funk",
+        "Soul",
+        "J-pop",
+        "Disco"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "MHRJ — vocals, guitar, synthesizer",
+        "Senri Kawaguchi — drums",
+        "Koki Takahashi — bass"
+      ],
+      "factual_description": "Billboard Live Tokyo presents MHRJ on Saturday, September 19, 2026, with stages at 3:30 PM and 6:30 PM. The show is billed as MHRJ's 5th Anniversary Billboard Live Tour, 人間 vs 機械最終決戦 ('Humans vs Machines: The Final Battle'), and features MHRJ on vocals/guitar/synth, Senri Kawaguchi on drums and Koki Takahashi on bass. Billboard describes it as MHRJ's first return to its Tokyo/Osaka Billboard run in three years and frames the performance around the virtuosity of the drum-bass trio format. Authorized eplus ticketing is active for the September 19 Tokyo engagement.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21531",
+        "official_tickets": "https://eplus.jp/sf/detail/3608710002-P0030034P021002?P6=001"
+      },
+      "recommended_listening": [
+        {
+          "artist": "MHRJ",
+          "title": "BEST OF MAHARAJAN",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/%E3%83%99%E3%82%B9%E3%83%88-%E3%82%AA%E3%83%96-%E3%83%9E%E3%83%8F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%B3/1768207042"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Billboard Live Tokyo event page, authorized eplus ticket page and exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21531",
+          "checked_on": "2026-08-24",
+          "note": "Official event page confirms September 19, 2026; stages at 15:30 and 18:30; MHRJ, Senri Kawaguchi and Koki Takahashi; the fifth-anniversary framing; and the Humans vs Machines concept."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "eplus",
+          "url": "https://eplus.jp/sf/detail/3608710002-P0030034P021002?P6=001",
+          "checked_on": "2026-08-24",
+          "note": "Authorized eplus page confirms the September 19 Billboard Live Tokyo engagement and active general sale."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/%E3%83%99%E3%82%B9%E3%83%88-%E3%82%AA%E3%83%96-%E3%83%9E%E3%83%8F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%B3/1768207042",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for BEST OF MAHARAJAN."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, lineup and anniversary/concept framing were verified against Billboard Live Tokyo; ticketing was verified through eplus; the listening destination was verified on Apple Music. The repository was searched for MHRJ / Maharajan / Senri Kawaguchi before publication and no existing event or batch was found."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook here is not MHRJ's pop profile by itself; it is the stripped-down engine underneath it. Senri Kawaguchi on drums and Koki Takahashi on bass turn the anniversary concept into a rhythm-section event, with MHRJ's funk, soul and disco writing sitting on top of two players the venue itself frames as pushing toward machine-like precision. That makes the deliberately goofy 'humans vs machines' theme musically legible rather than just branding.",
+          "trip_verdict": "Actively make room for one of the two Tokyo sets if groove, virtuoso drumming or the contemporary Japanese funk-pop thread is part of the trip. The Billboard setting should make the drum-bass interaction unusually visible without requiring the rest of the itinerary to bend around this one date.",
+          "listen_before": "MHRJ — BEST OF MAHARAJAN"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente que MHRJ sea una figura del pop japonés; es el motor reducido que trae debajo. Senri Kawaguchi en batería y Koki Takahashi en bajo convierten el concepto de aniversario en un evento de sección rítmica, con el funk, soul y disco de MHRJ montados sobre dos músicos que el propio venue presenta casi como precisión de máquina. Por eso el juego medio mamón de 'humanos contra máquinas' sí tiene una traducción musical real y no se queda en puro branding.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el groove, la batería virtuosa o el hilo del funk-pop japonés contemporáneo forman parte del viaje. Billboard debería dejar muy expuesta la conversación bajo-batería sin obligar a doblar todo el itinerario alrededor de una sola fecha.",
+          "listen_before": "MHRJ — BEST OF MAHARAJAN"
+        }
+      }
+    }
+  ]
+}
