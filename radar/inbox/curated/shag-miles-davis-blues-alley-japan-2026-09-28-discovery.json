@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "shag-miles-davis-blues-alley-japan-2026-09-28-discovery",
+  "notes": "Verified A+-priority Greater Tokyo/Kanto discovery under the current two-stage RADAR rubric. Current repository priority, editorial, domain and inbox guidance was read before grading. Yamamoto-first sources were checked first and did not yield a new unrecorded Tsuyoshi Yamamoto date. SHAG's September 28 Blues Alley Japan performance clears RADAR admission because the Miles Davis centennial is tied to a specific venue and date: Blues Alley Japan presents itself as a venue Miles Davis played for its opening, September 28 is the 35th anniversary of his death, and SHAG is explicitly approaching the music through its own psychedelic jazz-rock/dub/funk/ambient jam language rather than repertory reconstruction. A+ captures the recommendation better than S: the context is unusually strong, but this remains a tribute project by an active band rather than a premiere, farewell, surviving Miles-lineage reunion or other genuine-regret scarcity event.",
+  "events": [
+    {
+      "id": "shag-tribute-miles-davis-blues-alley-japan-tokyo-2026-09-28",
+      "artist": "SHAG",
+      "subtitle": "A Tribute to Miles Davis — Miles 100 / 35th death anniversary",
+      "dates": {
+        "start": "2026-09-28",
+        "end": null
+      },
+      "showtimes": [
+        "17:00",
+        "20:00"
+      ],
+      "venue": {
+        "id": "blues-alley-japan-meguro-tokyo",
+        "name": "BLUES ALLEY JAPAN",
+        "city": "Meguro, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Miles Davis centennial / Psychedelic jazz-rock / Japanese jam",
+      "genres": [
+        "Jazz-rock",
+        "Psychedelic",
+        "Funk",
+        "Dub",
+        "Ambient"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "SUGIZO — guitar, violin",
+        "KenKen — bass",
+        "Shinpei Ruike — trumpet",
+        "Kazuhiro Bessho — keyboards",
+        "Chihiro Matsuura — drums",
+        "Kenji Yoshiura — percussion"
+      ],
+      "factual_description": "SHAG presents A Tribute to Miles Davis at BLUES ALLEY JAPAN in Meguro, Tokyo on Monday, September 28, 2026, with separate 5:00 PM and 8:00 PM sets. The lineup is SUGIZO on guitar/violin, KenKen on bass, Shinpei Ruike on trumpet, Kazuhiro Bessho on keyboards, Chihiro Matsuura on drums and Kenji Yoshiura on percussion. SUGIZO's official schedule and BLUES ALLEY JAPAN frame the performance within Miles Davis's 2026 centennial and on the 35th anniversary of his September 28, 1991 death. The venue states that Miles himself performed there for its opening, and the event is explicitly conceived not as repertory reconstruction but as SHAG's response to Miles's exploratory spirit through the band's current blend of jazz, rock, dub, funk, ambient and noise.",
+      "links": {
+        "official_event": "https://sugizo.com/schedules/109591?r=tm1300",
+        "official_tickets": "https://eplus.jp/sf/detail/4541510001-P0030001"
+      },
+      "recommended_listening": [
+        {
+          "artist": "SHAG",
+          "title": "THE PROTEST JAM",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-protest-jam/1631276962"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact official artist event page, BLUES ALLEY JAPAN event listing, authorized eplus event-level ticket destination and exact Apple Music album page are verified. The venue currently shows its own web reservations and limited remaining inventory for parts of the first set; ticket availability is time-sensitive and is not encoded as a durable event field."
+      },
+      "sources": [
+        {
+          "url": "https://sugizo.com/schedules/109591?r=tm1300",
+          "publisher": "SUGIZO Official Site / SOUL'S MATE",
+          "checked_on": "2026-08-23",
+          "note": "Official artist schedule confirms September 28, 2026 at BLUES ALLEY JAPAN, 5:00 PM and 8:00 PM sets, exact six-member lineup, Miles Davis centennial / 35th death-anniversary framing, and authorized ticket links including eplus and TicketPay for both sets."
+        },
+        {
+          "url": "https://www.bluesalley.co.jp/schedule/syousai.html?c_code=Schedule-20260401222025&disp_date=202609&status=ok&type=s",
+          "publisher": "BLUES ALLEY JAPAN",
+          "checked_on": "2026-08-23",
+          "note": "Official venue page confirms the first set at 5:00 PM, exact lineup, active venue reservations and the event's framing: Miles Davis centennial, the venue's opening-performance connection to Miles, and SHAG's non-reconstructive response to his exploratory musical spirit."
+        },
+        {
+          "url": "https://eplus.jp/sf/detail/4541510001-P0030001",
+          "publisher": "eplus",
+          "checked_on": "2026-08-23",
+          "note": "Authorized event-level ticket page linked from SUGIZO's official schedule; covers the September 28 SHAG tribute at BLUES ALLEY JAPAN."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-protest-jam/1631276962",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-23",
+          "note": "Exact Apple Music album page for SHAG's THE PROTEST JAM, released July 1, 2022."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, two set times, lineup, venue and conceptual framing were verified against SUGIZO's official schedule and BLUES ALLEY JAPAN; the eplus destination is linked by the artist as an authorized ticket source; Apple Music verifies the exact listening recommendation. Repository search found no pre-existing SHAG / Miles Davis / September 28 BLUES ALLEY JAPAN RADAR record before publication. No unannounced personnel or additional program details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not another Miles repertory night. SHAG already works in a language of psychedelic jam, jazz-rock, dub, funk, ambient space and noise, so the idea is to answer Miles's appetite for reinvention with the band's own vocabulary. The setting sharpens that argument: BLUES ALLEY JAPAN ties its history directly to a Miles opening performance, and this lands on September 28 during his centennial year, exactly 35 years after his death. SUGIZO's guitar/violin, KenKen's bass and Shinpei Ruike's trumpet give the project enough instrumental personality that the tribute can plausibly become transformation rather than imitation.",
+          "trip_verdict": "Actively make room for one of the two sets if your Tokyo dates overlap, especially if the Miles centennial, Japanese fusion and psychedelic improvisation are part of the listening thread. The exact-date and venue history make this more compelling than a routine tribute, but I would still place a truly singular master, premiere or farewell above it if the calendar forces a choice.",
+          "listen_before": "SHAG — THE PROTEST JAM"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es otra noche de repertorio de Miles. SHAG ya trabaja desde una mezcla de jam psicodélico, jazz-rock, dub, funk, espacio ambient y ruido, así que la idea es responder al impulso de reinvención de Miles con un vocabulario propio. El lugar vuelve el argumento más preciso: BLUES ALLEY JAPAN liga su historia directamente con una actuación de Miles en su apertura, y la fecha cae el 28 de septiembre, en pleno centenario, exactamente 35 años después de su muerte. La guitarra/violín de SUGIZO, el bajo de KenKen y la trompeta de Shinpei Ruike le dan suficiente identidad instrumental para que el tributo pueda convertirse en transformación y no en imitación.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si coincide con tus días en Tokio, sobre todo si el centenario de Miles, la fusión japonesa y la improvisación psicodélica forman parte del hilo. La fecha exacta y la historia del venue la vuelven mucho más interesante que un tributo rutinario, aunque si el calendario obliga a escoger pondría por delante a un maestro realmente escaso, un estreno o una despedida.",
+          "listen_before": "SHAG — THE PROTEST JAM"
+        }
+      }
+    }
+  ]
+}
