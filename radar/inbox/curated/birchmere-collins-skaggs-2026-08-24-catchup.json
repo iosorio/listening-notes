@@ -1,0 +1,223 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "birchmere-collins-skaggs-2026-08-24-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Two Birchmere catch-ups clear RADAR admission at A+: Judy Collins on her Sweet Judy Blue Eyes farewell road tour, and Ricky Skaggs & Kentucky Thunder in an intimate two-night Alexandria engagement. Neither is inflated to S because both offer multiple local performances and broader touring context reduces scarcity.",
+  "events": [
+    {
+      "id": "judy-collins-farewell-birchmere-2026-11-17",
+      "artist": "Judy Collins",
+      "subtitle": "Sweet Judy Blue Eyes: Farewell Tour",
+      "dates": {
+        "start": "2026-11-17",
+        "end": "2026-11-18"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "birchmere-alexandria-va",
+        "name": "Birchmere",
+        "city": "Alexandria",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Masters / Farewell tour / Folk-song interpretation",
+      "genres": [
+        "Folk",
+        "Singer-songwriter",
+        "Folk rock",
+        "Traditional folk"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Judy Collins — performer; additional personnel not announced on the verified Birchmere event pages"
+      ],
+      "factual_description": "Live Nation and Ticketmaster list Judy Collins at the Birchmere in Alexandria, Virginia, on Tuesday, November 17 and Wednesday, November 18, 2026, both at 7:30 PM, under the billing Sweet Judy Blue Eyes: Farewell Tour. Current tour materials from authorized presenters describe the 2026-27 run as Collins's farewell from road touring. The Alexandria engagement is two performances within that broader farewell itinerary, not the final concert of the tour.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Judy Collins",
+          "title": "Wildflowers",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/wildflowers/256609835"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Both Birchmere performances are verified through exact Live Nation and Ticketmaster pages, but each night has its own event and ticket destination. No single stable engagement-level URL represents the full two-night record, so neither one-night URL is stored as if it covered the complete engagement."
+      },
+      "sources": [
+        {
+          "url": "https://www.livenation.com/event/1A4Zk3fGkewHbZP/judy-collins-sweet-judy-blue-eyes-farewell-tour",
+          "publisher": "Live Nation",
+          "checked_on": "2026-08-24",
+          "note": "Authorized event page for the November 17, 2026 Birchmere performance confirms the Sweet Judy Blue Eyes: Farewell Tour billing and 7:30 PM show."
+        },
+        {
+          "url": "https://www.livenation.com/event/1A4Zk3fGkeSNzdq/judy-collins-sweet-judy-blue-eyes-farewell-tour",
+          "publisher": "Live Nation",
+          "checked_on": "2026-08-24",
+          "note": "Authorized event page for the November 18, 2026 Birchmere performance confirms the Sweet Judy Blue Eyes: Farewell Tour billing and 7:30 PM show."
+        },
+        {
+          "url": "https://www.ticketmaster.com/judy-collins-sweet-judy-blue-eyes-alexandria-virginia-11-17-2026/event/15006494B2F18025",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-24",
+          "note": "Authorized ticketing page for the November 17 Birchmere performance."
+        },
+        {
+          "url": "https://www.ticketmaster.com/judy-collins-sweet-judy-blue-eyes-alexandria-virginia-11-18-2026/event/15006494B38F80DD",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-24",
+          "note": "Authorized ticketing page for the November 18 Birchmere performance."
+        },
+        {
+          "url": "https://www.metropolitanpresents.com/events/judycollins2027-03-20",
+          "publisher": "Metropolitan Entertainment & Convention Authority / Metropolitan Presents",
+          "checked_on": "2026-08-24",
+          "note": "Authorized presenter material describes Collins's 2026-27 Sweet Judy Blue Eyes run as her farewell from road touring, providing context without implying that the Birchmere dates are the final concerts."
+        },
+        {
+          "url": "https://music.apple.com/us/album/wildflowers/256609835",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music album page for Judy Collins's Wildflowers."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Both Alexandria dates and showtimes were verified through exact Live Nation and Ticketmaster pages, with farewell-tour context checked against an authorized presenter. Repository search found no existing Judy Collins / Sweet Judy Blue Eyes / Birchmere RADAR record. No backing personnel, setlist, prices, or final-tour-stop claims were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The farewell framing matters because Collins is not simply a surviving name from the folk revival: her interpretive voice helped carry traditional song, contemporary songwriters and orchestral pop across generations. Hearing that voice at Birchmere scale during a final road run gives these Alexandria dates more weight than an ordinary legacy booking without pretending either night is the last concert of her career.",
+          "trip_verdict": "Actively make room for one of the two Alexandria nights if this lineage of American song matters to you. The small room strengthens the case, while two local chances and a long farewell itinerary mean there is no need to treat the engagement as a singular destination event.",
+          "listen_before": "Judy Collins — Wildflowers"
+        },
+        "es": {
+          "why_it_matters": "El contexto de despedida sí importa porque Collins no es simplemente un nombre sobreviviente del folk revival: su manera de interpretar ayudó a tender puentes entre canción tradicional, compositores contemporáneos y pop orquestal durante varias generaciones. Escuchar esa voz a la escala del Birchmere en su última etapa de giras le da a estas fechas de Alexandria más peso que una contratación rutinaria de legado, sin fingir que alguna de las dos noches sea su último concierto.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos noches en Alexandria si ese linaje de la canción estadounidense te interesa. La sala pequeña fortalece mucho la fecha; las dos oportunidades locales y una gira de despedida extensa evitan convertirla artificialmente en un evento destino único.",
+          "listen_before": "Judy Collins — Wildflowers"
+        }
+      }
+    },
+    {
+      "id": "ricky-skaggs-kentucky-thunder-birchmere-2027-01-08",
+      "artist": "Ricky Skaggs & Kentucky Thunder",
+      "subtitle": "Bluegrass mandolin and ensemble — two nights at Birchmere",
+      "dates": {
+        "start": "2027-01-08",
+        "end": "2027-01-09"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "birchmere-alexandria-va",
+        "name": "Birchmere",
+        "city": "Alexandria",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Masters / Bluegrass / Instrumental identity",
+      "genres": [
+        "Bluegrass",
+        "Country",
+        "Acoustic roots"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ricky Skaggs",
+        "Kentucky Thunder — exact individual personnel not re-confirmed on the Birchmere event pages"
+      ],
+      "factual_description": "Ticketmaster lists Ricky Skaggs & Kentucky Thunder at the Birchmere in Alexandria, Virginia, on Friday, January 8 and Saturday, January 9, 2027, both at 7:30 PM. Skaggs's official biography documents a bluegrass career extending back to childhood performances with Bill Monroe and his teenage years with Ralph Stanley, as well as his long-running Kentucky Thunder band. The exact Birchmere event pages confirm the billing but do not publish individual Kentucky Thunder personnel for these January performances.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ricky Skaggs & Kentucky Thunder",
+          "title": "Get Up John",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/711547030"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Both Birchmere dates and 7:30 PM showtimes are verified through exact Ticketmaster pages. Each performance has its own authorized ticket destination, so no single-night URL is stored as the canonical link for the two-night engagement."
+      },
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.com/ricky-skaggs-kentucky-thunder-alexandria-virginia-01-08-2027/event/150064FBDC6DC1CE",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-24",
+          "note": "Authorized ticketing page confirms Ricky Skaggs & Kentucky Thunder at Birchmere on January 8, 2027 at 7:30 PM."
+        },
+        {
+          "url": "https://www.ticketmaster.com/ricky-skaggs-kentucky-thunder-alexandria-virginia-01-09-2027/event/150064FBDC8EC1F9",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-24",
+          "note": "Authorized ticketing page confirms Ricky Skaggs & Kentucky Thunder at Birchmere on January 9, 2027 at 7:30 PM."
+        },
+        {
+          "url": "https://rickyskaggs.com/about/",
+          "publisher": "Ricky Skaggs",
+          "checked_on": "2026-08-24",
+          "note": "Official artist biography documents Skaggs's Bill Monroe and Ralph Stanley lineage, mandolin/fiddle identity, Hall of Fame career, and Kentucky Thunder as his active bluegrass band."
+        },
+        {
+          "url": "https://music.apple.com/us/song/711547030",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-24",
+          "note": "Exact Apple Music song page for Get Up John, a concise entry point to the Kentucky Thunder mandolin-centered bluegrass language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Both Alexandria dates, billing and showtimes were verified against exact Ticketmaster pages; Skaggs's musical lineage and Kentucky Thunder context were checked against his official biography. Repository search found no existing Ricky Skaggs / Kentucky Thunder / Birchmere RADAR record. Individual band personnel were not inferred from the current general roster because the Birchmere pages do not confirm who will appear in January 2027."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is lineage you can still hear in the instrument. Skaggs carries a direct musical line through Bill Monroe and Ralph Stanley, but the reason to care now is the precision and propulsion of Kentucky Thunder around his mandolin language: attack, crosspicking, fiddle-derived phrasing and ensemble timing rather than museum bluegrass. Birchmere scale should make those details unusually easy to hear.",
+          "trip_verdict": "Actively make room for one of the two nights if mandolin, bluegrass ensemble playing or American roots vocabulary are part of the listening thread. The intimate room makes this stronger than a routine theater stop, while two performances by an active touring band keep it comfortably below scarcity-tier territory.",
+          "listen_before": "Ricky Skaggs & Kentucky Thunder — Get Up John"
+        },
+        "es": {
+          "why_it_matters": "Aquí todavía se puede escuchar el linaje directamente en el instrumento. Skaggs carga una línea musical que pasa por Bill Monroe y Ralph Stanley, pero lo importante hoy es la precisión y el empuje de Kentucky Thunder alrededor de su lenguaje de mandolina: ataque, crosspicking, fraseo heredado del fiddle y timing de ensamble, no bluegrass de museo. A la escala del Birchmere esos detalles deberían escucharse especialmente bien.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos noches si la mandolina, el bluegrass de ensamble o las raíces estadounidenses forman parte del hilo de escucha. La sala íntima vuelve la fecha más atractiva que una parada rutinaria de teatro; dos funciones de una banda activa de gira mantienen correctamente la recomendación fuera de los niveles de escasez.",
+          "listen_before": "Ricky Skaggs & Kentucky Thunder — Get Up John"
+        }
+      }
+    }
+  ]
+}
