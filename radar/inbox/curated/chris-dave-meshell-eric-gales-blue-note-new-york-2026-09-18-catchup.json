@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "chris-dave-meshell-eric-gales-blue-note-new-york-2026-09-18-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Chris Dave x Meshell Ndegeocello x Eric Gales Trio clears RADAR admission because the three-person billing puts three unusually strong rhythmic/instrumental identities into a small-club format. The three-night, six-set run provides enough access that A+ better fits the current hierarchy than S.",
+  "events": [
+    {
+      "id": "chris-dave-meshell-ndegeocello-eric-gales-blue-note-new-york-2026-09-18",
+      "artist": "Chris Dave x Meshell Ndegeocello x Eric Gales Trio",
+      "subtitle": "Three-night Blue Note New York trio engagement",
+      "dates": {
+        "start": "2026-09-18",
+        "end": "2026-09-20"
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Rare trio / groove / jazz-R&B-blues crossover",
+      "genres": [
+        "Jazz",
+        "R&B",
+        "Soul",
+        "Blues-rock"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Chris Dave — drums",
+        "Meshell Ndegeocello — bass / vocals",
+        "Eric Gales — guitar / vocals"
+      ],
+      "factual_description": "Blue Note New York presents Chris Dave x Meshell Ndegeocello x Eric Gales Trio from September 18 through September 20, 2026. The official event page lists two sets nightly at 8:00 PM and 10:30 PM. Blue Note identifies Dave as a percussionist, bandleader and producer with deep jazz/R&B credits, Ndegeocello as a bass player, songwriter and vocalist whose work crosses soul, R&B, jazz, hip-hop and rock, and Gales as a blues guitarist and songwriter known for stylistic reinvention. Blue Note states that tickets purchased through its official site or TicketWeb are the authorized sources.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/chris-dave-x-meshell-ndegeocello-x-eric-gales-trio/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chris Dave and the Drumhedz",
+          "title": "Chris Dave and the Drumhedz",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/chris-dave-and-the-drumhedz/1440881381"
+        },
+        {
+          "artist": "Meshell Ndegeocello",
+          "title": "The Omnichord Real Book",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-omnichord-real-book/1677237163"
+        },
+        {
+          "artist": "Eric Gales",
+          "title": "Crown",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/crown/1591397917"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Blue Note's exact event page verifies the full engagement, all six set times and the three-person billing. Blue Note/TicketWeb exposes a separate purchase destination for each set, so no single residency-wide ticket URL is asserted. Exact Apple Music album pages are verified for all three recommended listening entries."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/chris-dave-x-meshell-ndegeocello-x-eric-gales-trio/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-08-25",
+          "note": "Official event page confirms September 18-20, 2026, 8:00 PM and 10:30 PM sets nightly, the three-person billing, venue and authorized TicketWeb sales policy."
+        },
+        {
+          "url": "https://music.apple.com/us/album/chris-dave-and-the-drumhedz/1440881381",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Chris Dave and the Drumhedz."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-omnichord-real-book/1677237163",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Meshell Ndegeocello's The Omnichord Real Book."
+        },
+        {
+          "url": "https://music.apple.com/us/album/crown/1591397917",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Eric Gales's Crown."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, set times, venue, exact trio billing and instrument/artist descriptions were verified from Blue Note New York; listening links are exact Apple Music album pages. Repository search found no existing Chris Dave / Meshell Ndegeocello / Eric Gales Trio RADAR record. No additional personnel, repertoire, prices or single residency-wide ticket URL were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The interesting part is not that three recognizable names share a bill; it is that the whole setup collapses harmony, groove and distortion into three people. Dave's elastic drum language can move between hip-hop pocket and jazz displacement, Ndegeocello can make bass function as both harmonic center and melodic voice, and Gales brings a blues vocabulary heavy enough to push the trio toward something more physical than a standard jazz-club supergroup. In the Blue Note room, the friction between those three roles should be the event itself.",
+          "trip_verdict": "Actively make room for one of the six sets if New York is already part of the corridor plan, especially if bass, drums and electric guitar are a central listening thread. Three nights provide enough flexibility that I would not displace a truly scarce premiere, farewell or one-off solely for this engagement.",
+          "listen_before": "Chris Dave and the Drumhedz — Chris Dave and the Drumhedz; Meshell Ndegeocello — The Omnichord Real Book; Eric Gales — Crown"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante no es que tres nombres reconocibles compartan cartel; es que todo el peso de armonía, groove y distorsión queda reducido a tres personas. Dave puede moverse entre pocket de hip-hop y desplazamiento jazzístico, Ndegeocello puede hacer que el bajo funcione al mismo tiempo como centro armónico y voz melódica, y Gales trae un lenguaje de blues suficientemente pesado para empujar al trío hacia algo más físico que un supergrupo de club convencional. En Blue Note, la fricción entre esas tres funciones debería ser el acontecimiento mismo.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los seis sets si Nueva York ya está dentro del recorrido, sobre todo si bajo, batería y guitarra eléctrica forman parte central del hilo de escucha. Las tres noches dan suficiente flexibilidad para no desplazar por esto un estreno, despedida o one-off verdaderamente escaso.",
+          "listen_before": "Chris Dave and the Drumhedz — Chris Dave and the Drumhedz; Meshell Ndegeocello — The Omnichord Real Book; Eric Gales — Crown"
+        }
+      }
+    }
+  ]
+}
