@@ -1,0 +1,115 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ali-jungle-love-billboard-live-tokyo-2026-08-25-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. ALI clears RADAR admission because its first Billboard Live Tokyo appearance is a one-night special-band presentation with strings inside a funk/soul/jazz/Latin/hip-hop language whose ensemble groove is central to the performance. The grade is A+: the special arrangement and first-venue context merit active prioritization, while ALI is an active touring band and the concept is not a farewell, premiere, reunion, or historically singular event requiring S scarcity.",
+  "events": [
+    {
+      "id": "ali-jungle-love-billboard-live-tokyo-2026-08-25",
+      "artist": "ALI",
+      "subtitle": "JUNGLE LOVE 2026 — special band with strings",
+      "dates": {
+        "start": "2026-08-25",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Groove / Cross-genre special ensemble",
+      "genres": [
+        "Funk",
+        "Soul",
+        "Jazz",
+        "Latin",
+        "Hip-hop",
+        "Rock"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "LEO — vocals",
+        "Shuhei Ito — cello",
+        "Shino Miwa — violin",
+        "Yoshio — trombone",
+        "Sarah — saxophone",
+        "Ryozo — bass",
+        "Tadashi Iwamaru — drums",
+        "Momonady — backing vocals",
+        "Jin Inoue — keyboards",
+        "Aiichiro Cesar — guitar"
+      ],
+      "factual_description": "Billboard Live Tokyo presents ALI's JUNGLE LOVE 2026 on Tuesday, August 25, 2026, with sets at 6:00 PM and 9:00 PM. Billboard identifies the engagement as ALI's first appearance at Billboard Live Tokyo and lists a ten-piece lineup including violin, cello, trombone and saxophone around vocals, guitar, keyboards, bass and drums. ALI's official schedule describes the Tokyo date as an added performance created after strong demand and specifically says it uses a one-night special band arrangement including strings. The band's music combines funk, soul, jazz and Latin roots with hip-hop, rock and ska.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21524",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "ALI",
+          "title": "LOST IN PARADISE - EP",
+          "kind": "ep",
+          "apple_music_url": "https://music.apple.com/us/album/lost-in-paradise-ep/1538910929"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page, date, both set times, full announced lineup and first-Billboard-Tokyo framing are verified. ALI's official schedule independently verifies the date and states that the added Tokyo performance uses a one-night special band arrangement including strings. Billboard exposes Buy Tickets controls, but a separate stable event-specific purchase destination was not resolved in this pass, so official_tickets remains pending. The exact Apple Music page for LOST IN PARADISE - EP is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21524",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-25",
+          "note": "Official event page confirms August 25, 2026, 6:00 PM and 9:00 PM sets, first Billboard Live Tokyo appearance, full ten-piece lineup and the band's funk/soul/jazz/Latin/hip-hop framing."
+        },
+        {
+          "url": "https://alienlibertyinternational.com/live/ali%E3%80%8Cjungle-love-2026%E3%80%8D-at-billboard-live-tokyo",
+          "publisher": "ALI",
+          "checked_on": "2026-08-25",
+          "note": "Official artist schedule independently confirms the Tokyo date and set times and describes it as an added performance with a one-night special band arrangement including strings."
+        },
+        {
+          "url": "https://music.apple.com/us/album/lost-in-paradise-ep/1538910929",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for LOST IN PARADISE - EP."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set times, venue, first-Billboard-Tokyo framing and full announced lineup were verified directly from Billboard Live Tokyo; the one-night special-band-with-strings description was independently verified on ALI's official schedule; listening is an exact Apple Music release page. Repository search found no existing ALI / Billboard Live Tokyo August 25, 2026 RADAR record or matching stable event ID. No ticket purchase destination beyond the event page was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "ALI is interesting here as a band, not as a crossover label. The rhythm section has to hold together funk and hip-hop pocket while saxophone, trombone, guitar, keyboards and backing vocals already make the arrangement dense; adding violin and cello gives the Tokyo date another layer of color without removing the physical groove at the center. A first Billboard Live Tokyo appearance in a one-night special arrangement puts that ensemble language into a room small enough for the individual parts to register.",
+          "trip_verdict": "Actively make room for one of the two sets if August 25 is open in Tokyo, especially if the trip is following groove, modern Japanese bands and cross-genre arranging. It is a strong same-day anchor in Roppongi, but it should complement rather than displace a genuinely scarce master, premiere or one-off elsewhere in Kanto.",
+          "listen_before": "ALI — LOST IN PARADISE - EP"
+        },
+        "es": {
+          "why_it_matters": "Aquí ALI interesa como banda, no como etiqueta de crossover. La sección rítmica tiene que sostener pocket de funk y hip-hop mientras sax, trombón, guitarra, teclados y coros ya vuelven denso el arreglo; sumar violín y cello le da a esta fecha de Tokio otra capa de color sin quitarle el groove físico que está al centro. Que sea su primera aparición en Billboard Live Tokyo y además con un arreglo especial de una sola noche pone ese lenguaje de ensamble en una sala suficientemente pequeña para escuchar cómo encajan las piezas.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el 25 de agosto está libre en Tokio, sobre todo si el viaje viene siguiendo groove, bandas japonesas contemporáneas y arreglos cross-genre. Funciona como una ancla fuerte para esa noche en Roppongi, pero la acomodaría alrededor de un maestro realmente escaso, un estreno o una función irrepetible en otro punto de Kanto.",
+          "listen_before": "ALI — LOST IN PARADISE - EP"
+        }
+      }
+    }
+  ]
+}
