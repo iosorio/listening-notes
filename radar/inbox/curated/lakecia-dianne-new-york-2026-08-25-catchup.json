@@ -1,0 +1,191 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "lakecia-dianne-new-york-2026-08-25-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified. Two New York events clear RADAR admission for specific live-context reasons. Lakecia Benjamin is A+ for a one-night Zankel Hall debut centered on her current instrumental language; Dianne Reeves is A because the 15th annual Jazz at Lincoln Center Valentine tradition is worthy of RADAR but recurring and accessible enough not to require active trip prioritization. No S or S+ is proposed in this batch.",
+  "events": [
+    {
+      "id": "lakecia-benjamin-carnegie-hall-2026-10-23",
+      "artist": "Lakecia Benjamin",
+      "subtitle": "Zankel Hall debut",
+      "dates": {
+        "start": "2026-10-23",
+        "end": null
+      },
+      "showtimes": [
+        "21:00"
+      ],
+      "venue": {
+        "id": "zankel-hall-carnegie-hall-new-york",
+        "name": "Zankel Hall at Carnegie Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz / Saxophone / Cross-genre",
+      "genres": [
+        "Jazz",
+        "R&B",
+        "Funk",
+        "Latin",
+        "Hip-hop"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Lakecia Benjamin — saxophone, vocals"
+      ],
+      "factual_description": "Lakecia Benjamin performs at Zankel Hall at Carnegie Hall on October 23, 2026 at 9:00 PM. Carnegie Hall identifies the concert as Benjamin's Zankel Hall debut and says she will lead an ensemble; the currently published primary sources do not name the additional personnel, so no sidemen are inferred. Benjamin's official tour calendar independently confirms the Carnegie Hall date and time and routes its Buy Tickets control to the exact Carnegie Hall event page.",
+      "links": {
+        "official_event": "https://www.carnegiehall.org/Calendar/2026/10/23/Lakecia-Benjamin-Saxophone-0900PM",
+        "official_tickets": "https://www.carnegiehall.org/Calendar/2026/10/23/Lakecia-Benjamin-Saxophone-0900PM"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Lakecia Benjamin",
+          "title": "We Dream",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/we-dream/1883698541"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Carnegie Hall event/purchase destination, official artist tour confirmation, and exact Apple Music album page are verified. Carnegie Hall describes a larger ensemble but has not published personnel in the primary materials used here, so the candidate records only Benjamin and does not infer sidemen."
+      },
+      "sources": [
+        {
+          "url": "https://www.carnegiehall.org/-/media/CarnegieHall/Files/PDFs/About/Press-Resources/2026-2027-Season/01-20262027-Season-Release.pdf?la=en",
+          "publisher": "Carnegie Hall",
+          "checked_on": "2026-08-25",
+          "note": "Official 2026-27 season announcement confirms October 23 in Zankel Hall, Benjamin's Zankel Hall debut, and the ensemble framing."
+        },
+        {
+          "url": "https://lakeciabenjamin.com/tour/",
+          "publisher": "Lakecia Benjamin",
+          "checked_on": "2026-08-25",
+          "note": "Official artist tour page confirms October 23, 2026 at 9:00 PM at Carnegie Hall and links its Buy Tickets control to the exact Carnegie Hall event page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/we-dream/1883698541",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for We Dream, released June 5, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, Zankel Hall debut context and ensemble framing were verified against Carnegie Hall; time and the exact Carnegie ticket destination were independently confirmed through Benjamin's official tour page; current listening was verified on Apple Music. Repository search found no Lakecia Benjamin record before publication. No unannounced ensemble members were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Benjamin's alto sound is the reason to keep this on RADAR: hard attack, funk pocket and a vocabulary that can move through jazz, R&B, hip-hop and Latin language without turning the horn into decoration. Her Zankel Hall debut catches that voice in Carnegie's smaller room just a few months after We Dream, so the instrument and the current band language should matter more than the prestige of the address.",
+          "trip_verdict": "Actively make room for this if New York is already in the regional plan; a one-night Zankel Hall debut is a strong anchor for the evening. I would not build the entire DMV-to-New York trip around this date alone because the same active project is touring broadly, including Philadelphia the night before.",
+          "listen_before": "Lakecia Benjamin — We Dream"
+        },
+        "es": {
+          "why_it_matters": "La razón para tenerla en el RADAR es el sonido del alto de Benjamin: ataque duro, pocket funk y un vocabulario que puede pasar por jazz, R&B, hip-hop y lenguaje latino sin convertir el sax en adorno. Su debut en Zankel Hall llega pocos meses después de We Dream y en la sala pequeña de Carnegie; ahí deberían pesar más el instrumento y el lenguaje actual de la banda que el prestigio de la dirección.",
+          "trip_verdict": "Sí le haría espacio activamente si Nueva York ya está dentro del recorrido regional; un debut de una sola noche en Zankel Hall puede anclar muy bien la noche. No armaría todo el viaje DMV–Nueva York únicamente alrededor de esta fecha porque el proyecto está girando ampliamente, incluida Filadelfia la noche anterior.",
+          "listen_before": "Lakecia Benjamin — We Dream"
+        }
+      }
+    },
+    {
+      "id": "dianne-reeves-jalc-valentines-2027-02-12",
+      "artist": "Dianne Reeves",
+      "subtitle": "Jazz at Lincoln Center Valentine's tradition — 15th year",
+      "dates": {
+        "start": "2027-02-12",
+        "end": "2027-02-13"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york",
+        "name": "Rose Theater at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Vocal jazz / Jazz at Lincoln Center tradition",
+      "genres": [
+        "Jazz",
+        "Vocal jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Dianne Reeves — vocals"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Dianne Reeves at Rose Theater on February 12 and 13, 2027 at 7:30 PM. JALC identifies the engagement as the 15th year of its annual Valentine's Day tradition with Reeves and calls Rose Theater her home away from home. The current official event materials do not name accompanying musicians, so no sidemen are inferred.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/20713",
+        "official_tickets": "https://ticketing.jazz.org/20713"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Dianne Reeves",
+          "title": "Star Child",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/star-child/1855873669"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Jazz at Lincoln Center event/ticketing page and exact Apple Music album page are verified. Accompanying personnel are not published on the current JALC page and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/20713",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-25",
+          "note": "Official event and ticketing page confirms February 12-13, 2027 at 7:30 PM, the 15th year of the Valentine's tradition, and Rose Theater."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-25",
+          "note": "Official season announcement independently confirms the dates, 7:30 PM times, Rose Theater and the annual Valentine program."
+        },
+        {
+          "url": "https://music.apple.com/us/album/star-child/1855873669",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Reeves' 2026 release Star Child."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue and 15th-year tradition were verified through Jazz at Lincoln Center's live ticketing page and season announcement; current listening was verified on Apple Music. Repository search found no February 2027 Dianne Reeves Rose Theater record before publication. No unannounced accompanists were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Reeves belongs here because the Valentine engagement is a real JALC tradition rather than a generic tour stop: fifteen years in the same room have made Rose Theater a recurring home for one of jazz's great vocal improvisers and storytellers. That continuity is worth preserving on RADAR even without pretending the date is scarce.",
+          "trip_verdict": "Worth keeping on the board if a February New York trip is already taking shape, especially for vocal jazz. The two-night annual tradition is not a reason by itself to build a regional trip from the DMV, and a rarer one-off or premiere would take precedence if the dates conflict.",
+          "listen_before": "Dianne Reeves — Star Child"
+        },
+        "es": {
+          "why_it_matters": "Reeves entra porque la fecha de San Valentín sí es una tradición real de JALC y no una parada genérica de gira: quince años en la misma sala han vuelto Rose Theater una especie de casa recurrente para una de las grandes improvisadoras y narradoras vocales del jazz. Esa continuidad merece quedar en el RADAR sin fingir que la fecha es escasa.",
+          "trip_verdict": "Vale tenerla en el tablero si ya se está armando un viaje a Nueva York en febrero, sobre todo si el jazz vocal está en el hilo. No construiría por sí sola un viaje regional desde el DMV alrededor de esta tradición anual de dos noches, y priorizaría un one-off o estreno más raro si se cruzan las fechas.",
+          "listen_before": "Dianne Reeves — Star Child"
+        }
+      }
+    }
+  ]
+}
