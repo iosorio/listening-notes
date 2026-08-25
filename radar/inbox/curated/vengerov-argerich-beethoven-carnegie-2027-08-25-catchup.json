@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "vengerov-argerich-beethoven-carnegie-2027-08-25-catchup",
+  "notes": "Yamamoto-first discovery pass on 2026-08-25 under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were re-read before grading. Current ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule searches, and credible Japanese jazz sources produced no new unrecorded verified Tsuyoshi Yamamoto performance. One Carnegie Hall catch-up clears RADAR admission. Maxim Vengerov and Martha Argerich receive S after a second scarcity challenge: Carnegie Hall is presenting Beethoven's complete violin sonatas across three consecutive nights in Vengerov's Perspectives series, with Argerich returning to Carnegie Hall for the first time in 10 years. A+ would undersell the likely regret if this specific Carnegie cycle were missed. The same duo has undertaken the Beethoven cycle in Hamburg and is scheduled to do so in Paris, and New York has three performances, so the event does not require S+ / alter-plans treatment. Recent corrected RADAR batches are predominantly A/A+, making this S a deliberate scarcity exception rather than a return to S inflation.",
+  "events": [
+    {
+      "id": "maxim-vengerov-martha-argerich-beethoven-carnegie-hall-2027-04-23",
+      "artist": "Maxim Vengerov & Martha Argerich",
+      "subtitle": "Beethoven: Complete Violin Sonatas — three-night Carnegie Hall cycle",
+      "dates": {
+        "start": "2027-04-23",
+        "end": "2027-04-25"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "stern-auditorium-perelman-stage-carnegie-hall-new-york",
+        "name": "Stern Auditorium / Perelman Stage at Carnegie Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-25",
+        "rationale": "The scarcity is the specific Carnegie Hall cycle, not classical-star fame by itself. Carnegie Hall is pairing Maxim Vengerov and Martha Argerich for all 10 Beethoven violin sonatas across three consecutive nights as part of Vengerov's Perspectives series, while Argerich returns to Carnegie Hall for the first time in a decade. That combination of complete-cycle scale, two living masters and a long-delayed Carnegie return makes A+ feel too casual for the likely regret if missed. The duo has performed the cycle in Hamburg and is scheduled to present it in Paris, and New York offers three nights, so S rather than S+ is the appropriate scarcity tier."
+      },
+      "category": "Living masters / Complete chamber cycle / Beethoven",
+      "genres": [
+        "Classical",
+        "Chamber Music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Maxim Vengerov — violin",
+        "Martha Argerich — piano"
+      ],
+      "factual_description": "Carnegie Hall's 2026-27 season presents Maxim Vengerov and Martha Argerich on April 23, 24 and 25, 2027 in Stern Auditorium / Perelman Stage for Beethoven's complete sonatas for violin and piano. The three-concert cycle is part of Vengerov's artist-led Carnegie Hall Perspectives series. Carnegie Hall's official season announcement identifies these as Argerich's first performances at the Hall in 10 years. The same Vengerov-Argerich Beethoven cycle was performed across five evenings at the Martha Argerich Festival in Hamburg in June 2026, confirming that the complete-cycle collaboration is an active artistic project rather than an inferred one-off concept.",
+      "links": {
+        "official_event": "https://www.carnegiehall.org/Calendar/2027/04/23/Maxim-Vengerov-Violin-Martha-Argerich-Piano-0800PM",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gidon Kremer & Martha Argerich",
+          "title": "Beethoven: The Violin Sonatas",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/beethoven-the-violin-sonatas/1452186040"
+        },
+        {
+          "artist": "Maxim Vengerov",
+          "title": "Bach & Beethoven - Wigmore Hall Live",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/bach-beethoven-wigmore-hall-live/590001589?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "showtimes",
+          "links.official_tickets"
+        ],
+        "note": "Carnegie Hall's exact April 23 event page and official season announcement verify the three-night April 23-25 cycle, venue, complete Beethoven-sonata concept, Vengerov Perspectives context and Argerich's first Carnegie performances in 10 years. Current authoritative listings indicate 8:00 PM on April 23-24 and 7:00 PM on April 25, but the automation could not reliably resolve all three Carnegie event pages without redirect errors, so the canonical candidate leaves showtimes empty rather than promoting secondary timing into a factual field. No separate stable official purchase destination was resolved, so official_tickets remains pending. Both Apple Music listening links are exact verified album pages."
+      },
+      "sources": [
+        {
+          "url": "https://www.carnegiehall.org/Calendar/2027/04/23/Maxim-Vengerov-Violin-Martha-Argerich-Piano-0800PM",
+          "publisher": "Carnegie Hall",
+          "checked_on": "2026-08-25",
+          "note": "Exact official event URL for the opening night of the Vengerov-Argerich Carnegie Hall cycle."
+        },
+        {
+          "url": "https://www.carnegiehall.org/-/media/CarnegieHall/Files/PDFs/About/Press-Resources/2026-2027-Season/01-20262027-Season-Release.pdf?la=en",
+          "publisher": "Carnegie Hall",
+          "checked_on": "2026-08-25",
+          "note": "Official 2026-27 season announcement confirms April 23, 24 and 25 in Stern Auditorium / Perelman Stage, Beethoven's complete violin sonatas, Vengerov's Perspectives role, and Argerich's first Carnegie Hall performances in 10 years."
+        },
+        {
+          "url": "https://www.symphonikerhamburg.de/martha-argerich-festival/",
+          "publisher": "Symphoniker Hamburg",
+          "checked_on": "2026-08-25",
+          "note": "Official Martha Argerich Festival page documents Vengerov and Argerich performing the complete Beethoven violin-sonata project across the 2026 Hamburg festival and explicitly notes the planned 2027 Carnegie Hall presentation."
+        },
+        {
+          "url": "https://www.maximvengerov.com/events",
+          "publisher": "Maxim Vengerov",
+          "checked_on": "2026-08-25",
+          "note": "Official artist calendar documents Vengerov and Argerich's 2026 Beethoven-sonata cycle in Hamburg, providing independent primary-source context for the collaboration."
+        },
+        {
+          "url": "https://music.apple.com/us/album/beethoven-the-violin-sonatas/1452186040",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Martha Argerich and Gidon Kremer's complete Beethoven violin-sonata recording."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/bach-beethoven-wigmore-hall-live/590001589?l=en-US",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Maxim Vengerov's live Beethoven Kreutzer Sonata recording with Itamar Golan."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, venue, complete-cycle concept, Perspectives context and Argerich's decade-long Carnegie absence were verified from Carnegie Hall primary materials. The existing Vengerov-Argerich Beethoven project was independently verified through Symphoniker Hamburg and Vengerov's official calendar. Repository searches found no existing Argerich/Vengerov or complete-Beethoven-sonata Carnegie RADAR record. Exact showtimes for all three nights and a stable separate official ticket destination were not promoted because all three Carnegie event pages could not be reliably resolved during this pass."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The event is the cycle, not a star recital with familiar repertoire. Beethoven's ten violin sonatas trace an enormous change in what violin and piano can demand from one another, and Vengerov and Argerich are taking that whole arc across three consecutive Carnegie nights. Argerich's first return to the Hall in a decade adds real historical weight, but the stronger musical reason is the sustained duo conversation: three evenings in which two highly individual players have to keep renegotiating balance, attack, freedom and structure across an entire body of work rather than one showcase sonata.",
+          "trip_verdict": "Protect at least one night if a New York trip is remotely feasible, and consider the full three-night cycle if Beethoven chamber music is a central listening thread. The commitment is larger than a normal regional concert, but the complete-cycle format and Argerich's long Carnegie absence make it a legitimate anchor for a dedicated New York weekend rather than something to squeeze around another plan.",
+          "listen_before": "Martha Argerich & Gidon Kremer — Beethoven: The Violin Sonatas; Maxim Vengerov — Bach & Beethoven - Wigmore Hall Live"
+        },
+        "es": {
+          "why_it_matters": "El acontecimiento es el ciclo completo, no un recital de estrellas con repertorio conocido. Las diez sonatas para violín de Beethoven recorren un cambio enorme en lo que violín y piano se exigen mutuamente, y Vengerov y Argerich van a atravesar todo ese arco durante tres noches consecutivas en Carnegie Hall. El regreso de Argerich después de una década le añade peso histórico, pero la razón musical más fuerte es la conversación sostenida del dúo: tres noches obligados a renegociar balance, ataque, libertad y estructura a lo largo de un cuerpo completo de obra, no sólo en una sonata de exhibición.",
+          "trip_verdict": "Protegería por lo menos una noche si un viaje a Nueva York es razonablemente posible, y consideraría el ciclo completo si la música de cámara de Beethoven está en el centro del hilo de escucha. El compromiso es mayor que para un concierto regional normal, pero el formato integral y la larga ausencia de Argerich en Carnegie hacen que pueda anclar un fin de semana dedicado en Nueva York, no simplemente acomodarse alrededor de otro plan.",
+          "listen_before": "Martha Argerich & Gidon Kremer — Beethoven: The Violin Sonatas; Maxim Vengerov — Bach & Beethoven - Wigmore Hall Live"
+        }
+      }
+    }
+  ]
+}
