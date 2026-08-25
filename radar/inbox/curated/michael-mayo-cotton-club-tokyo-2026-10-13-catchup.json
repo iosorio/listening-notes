@@ -1,0 +1,100 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "michael-mayo-cotton-club-tokyo-2026-10-13-catchup",
+  "notes": "Verified A+-priority Tokyo catch-up under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. Michael Mayo clears RADAR admission because his use of the voice as an improvising instrument—multilayered harmony, rhythmic vocal language and beatboxing—creates a specific instrumental identity beyond a conventional vocal-jazz booking, and the October COTTON CLUB engagement presents that language with a compact current quartet. A+ captures the recommendation: this is an unusually strong contemporary performance worth actively making room for, while three nights and six sets provide enough access that the engagement does not require S-level scarcity.",
+  "events": [
+    {
+      "id": "michael-mayo-cotton-club-tokyo-2026-10-13",
+      "artist": "Michael Mayo",
+      "subtitle": "Voice as instrument / current quartet",
+      "dates": {
+        "start": "2026-10-13",
+        "end": "2026-10-15"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary vocal jazz / Improvised voice / Quartet",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Vocal Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Michael Mayo — voice",
+        "Andrew Freedman — keyboards",
+        "Kyle Miles — bass",
+        "Robin Baytas — drums"
+      ],
+      "factual_description": "COTTON CLUB presents Michael Mayo on October 13–15, 2026, with two sets each night at 6:00 PM and 8:30 PM. The announced quartet is Michael Mayo on voice, Andrew Freedman on keyboards, Kyle Miles on bass, and Robin Baytas on drums. The venue describes Mayo's approach as using the voice like an instrument, including multilayered chorus and beatboxing, and notes his two nominations at the 68th Grammy Awards for Best Jazz Performance and Best Jazz Vocal Album. The engagement marks his return to COTTON CLUB roughly a year and a half after his previous appearance there. Web reservations have been open since August 1, 2026.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/michaelmayo-261013/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Michael Mayo",
+          "title": "Fly (Deluxe Edition)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/fly-deluxe-edition/1830565175"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact COTTON CLUB event page, all three dates, both nightly showtimes, current quartet personnel, active reservation status, and the exact Apple Music destination are verified. COTTON CLUB's reservation link resolves through a session-dependent booking route that returns a session error outside an active reservation session, so official_tickets remains pending instead of storing an unstable URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/michaelmayo-261013/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-25",
+          "note": "Official venue page confirms October 13–15, 2026, 6:00 PM and 8:30 PM sets each night, the Michael Mayo / Andrew Freedman / Kyle Miles / Robin Baytas lineup, active reservations, and the venue's description of Mayo's instrumental vocal approach."
+        },
+        {
+          "url": "https://music.apple.com/us/album/fly-deluxe-edition/1830565175",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album destination for Michael Mayo's Fly (Deluxe Edition)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, showtimes, lineup, reservation status and artistic context were verified against the exact COTTON CLUB event page; the recommended listening destination was verified on Apple Music. Repository search found no existing Michael Mayo event in the indexed canonical/inbox history before publication. No stable direct ticket URL was invented where COTTON CLUB's booking system is session-dependent."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Mayo is interesting here because the voice is not just carrying songs; it is doing jobs normally split among horn, rhythm section and studio arrangement. Layered harmony, rhythmic syllables and beatboxing sit inside a live quartet with enough space for the vocal line to function as an improvising instrument. That gives this engagement a specific contemporary identity rather than making it another strong singer passing through a Tokyo jazz club.",
+          "trip_verdict": "Actively make room for one of the six sets if October overlaps with Tokyo, especially if contemporary improvisation and unusual instrumental language are part of the trip. Three nights provide enough flexibility that a genuinely singular master appearance or one-off elsewhere in Kanto would still take precedence.",
+          "listen_before": "Michael Mayo — Fly (Deluxe Edition)"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante aquí es que Mayo no usa la voz sólo para cantar canciones: la pone a hacer trabajos que normalmente se reparten entre un instrumento melódico, la sección rítmica y el arreglo de estudio. Capas de armonía, sílabas rítmicas y beatboxing viven dentro de un cuarteto con suficiente espacio para que la voz funcione realmente como instrumento de improvisación. Eso le da a estas noches una identidad contemporánea muy concreta, más allá de ser simplemente otro gran vocalista pasando por un club de jazz en Tokio.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los seis sets si octubre coincide con Tokio, sobre todo si la improvisación contemporánea y los lenguajes instrumentales poco convencionales forman parte del viaje. Tres noches dan suficiente flexibilidad para que un maestro en un contexto verdaderamente singular o un one-off raro en otro punto de Kanto todavía tenga precedencia.",
+          "listen_before": "Michael Mayo — Fly (Deluxe Edition)"
+        }
+      }
+    }
+  ]
+}
