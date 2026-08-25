@@ -1,0 +1,95 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "fkj-tyber-tokyo-international-forum-2026-12-10-discovery",
+  "notes": "Verified A+-priority Greater Tokyo discovery announced on 2026-08-25 under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. FKJ clears RADAR admission because the performance is built around a distinctive multi-instrumental live language in which keys, guitar, saxophone, vocals and live looping are part of the musical identity, and the Tokyo date presents the new Tyber album in the only announced Japanese performance of the tour. A+ captures the recommendation: it is an unusually strong current-performance context worth actively making room for, while the date is part of a large international tour and therefore does not require S-level scarcity.",
+  "events": [
+    {
+      "id": "fkj-tyber-tokyo-international-forum-2026-12-10",
+      "artist": "FKJ",
+      "subtitle": "Tyber Tour",
+      "dates": {
+        "start": "2026-12-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "tokyo-international-forum-hall-a",
+        "name": "Tokyo International Forum Hall A",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Multi-instrumental / Jazz-soul-electronic / Album tour",
+      "genres": [
+        "Jazz-influenced",
+        "Soul",
+        "Electronic",
+        "R&B"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "FKJ — multi-instrumentalist / vocals"
+      ],
+      "factual_description": "LIVE NATION H.I.P. announced FKJ: Tyber Tour for December 10, 2026 at Tokyo International Forum Hall A, with doors at 6:00 PM and the performance at 7:00 PM. The official event page identifies this as FKJ's first Japan performance in two years and the sole announced Japanese date of the Tyber Tour, which is part of a broader Europe and North America world tour. The new album Tyber is scheduled for release on September 11, 2026. The official page lists SS seats at ¥15,800 and S seats at ¥11,800 and links to an authorized Lawson Ticket artist presale opening August 26 at noon JST.",
+      "links": {
+        "official_event": "https://www.livenationhip.co.jp/all-events/fkj-tickets-ae1212035",
+        "official_tickets": "https://l-tike.com/st1/fkj2026-artist"
+      },
+      "recommended_listening": [
+        {
+          "artist": "FKJ",
+          "title": "Tyber",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/tyber/6771308806"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact LIVE NATION H.I.P. event page verifies date, venue, doors/show time, pricing, Japan-tour context and an authorized Lawson Ticket artist-presale destination. The exact Apple Music pre-release page for Tyber is verified. The authorized presale opens August 26, 2026 at noon JST; no unannounced support act or additional personnel are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.livenationhip.co.jp/all-events/fkj-tickets-ae1212035",
+          "publisher": "LIVE NATION H.I.P.",
+          "checked_on": "2026-08-25",
+          "note": "Official promoter page confirms the August 25 announcement, December 10 Tokyo International Forum Hall A date, 6:00 PM doors / 7:00 PM start, ticket prices, one announced Japan performance, Tyber-tour context and the linked Lawson Ticket artist presale."
+        },
+        {
+          "url": "https://music.apple.com/us/album/tyber/6771308806",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music pre-release destination for FKJ's Tyber, scheduled for September 11, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Event facts and ticketing were verified against the exact LIVE NATION H.I.P. page published on August 25, 2026; the listening destination was verified on Apple Music. Repository search found no existing FKJ/Tyber Tokyo record in indexed canonical or inbox history before publication. The event is admitted for its specific multi-instrumental live language and current-album context, not for fame alone. No support act, additional live personnel or production details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "FKJ's live identity is unusually physical for music that can look electronic on paper: keys, guitar, saxophone, voice and looping are assembled in real time until groove and arrangement become part of the performance itself. The Tokyo date arrives with Tyber as a new body of material rather than a catalogue stop, and the fact that Japan gets a single announced night gives the show a clear local reason to matter without turning a world-tour date into artificial scarcity.",
+          "trip_verdict": "Actively make room for this night if December overlaps with Tokyo, especially if multi-instrumental performance, groove and the jazz-soul-electronic borderlands are part of the trip. It can anchor an evening in the city, while a genuinely singular master appearance or one-off elsewhere in Kanto would still take precedence.",
+          "listen_before": "FKJ — Tyber"
+        },
+        "es": {
+          "why_it_matters": "La identidad en vivo de FKJ es mucho más física de lo que su música electrónica puede sugerir en papel: teclados, guitarra, saxofón, voz y loops se van armando en tiempo real hasta que el groove y el arreglo forman parte de la ejecución misma. La fecha de Tokio llega con Tyber como un cuerpo de material nuevo, no como una parada de catálogo, y que Japón tenga una sola noche anunciada le da una razón local clara para importar sin convertir artificialmente una fecha de gira mundial en algo irrepetible.",
+          "trip_verdict": "Sí le haría espacio activamente a esta noche si diciembre coincide con Tokio, sobre todo si el viaje trae un hilo de multiinstrumentismo, groove y cruces entre jazz, soul y electrónica. Puede ser una muy buena ancla para una noche en la ciudad, aunque un maestro en un contexto realmente singular o un one-off raro en otro punto de Kanto todavía tendría precedencia.",
+          "listen_before": "FKJ — Tyber"
+        }
+      }
+    }
+  ]
+}
