@@ -26,12 +26,12 @@ class StructureParser(HTMLParser):
 
 
 class RadarSignalStructureTest(unittest.TestCase):
-    def test_controls_signal_recent_and_results_have_required_dom_order(self):
+    def test_signal_controls_recent_and_results_have_required_dom_order(self):
         for relative in ("radar/index.html", "radar/es/index.html"):
             parser = StructureParser()
             parser.feed((ROOT / relative).read_text())
             with self.subTest(page=relative):
-                self.assertEqual(parser.markers, ["controls", "signal", "recent-signals", "radar"])
+                self.assertEqual(parser.markers, ["signal", "controls", "recent-signals", "radar"])
 
     def test_archive_deep_link_remains_in_bilingual_navigation(self):
         for relative in ("radar/index.html", "radar/es/index.html"):

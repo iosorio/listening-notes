@@ -113,9 +113,10 @@ its current event cannot be resolved, the module is hidden and every upcoming
 event remains in the normal results.
 
 The Signal and at most two real, replaced Recent Signals appear only in the
-completely unfiltered Upcoming view. Any city, venue, or priority filter hides
-both sections and displays every matching event as a normal card. Archive also
-hides them. The current event is removed from the normal grid only while its
-explicit Signal card is visible. Previous Signals may remain in the normal
-listing. Switching Upcoming and Archive resets filters; filter choices continue
-to come from the active view.
+completely unfiltered Upcoming view. The large Signal card precedes the view
+and filter controls; Recent Signals follow the controls. Any city, venue, or
+priority filter hides both editorial sections and displays every matching event
+as a normal card. Archive also hides them. The current event is removed from the
+normal grid only while its explicit Signal card is visible. Previous Signals
+may remain in the normal listing. Switching Upcoming and Archive resets filters;
+filter choices continue to come from the active view.
