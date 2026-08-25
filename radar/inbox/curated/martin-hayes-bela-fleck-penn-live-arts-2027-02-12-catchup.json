@@ -1,0 +1,127 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "martin-hayes-bela-fleck-penn-live-arts-2027-02-12-catchup",
+  "notes": "Yamamoto-first discovery pass on 2026-08-25 under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were re-read before grading. Current ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule searches, and credible Japanese jazz sources produced no new unrecorded verified Tsuyoshi Yamamoto performance. One Philadelphia catch-up clears RADAR admission. Martin Hayes Duo with special guest Béla Fleck receives S only after a second scarcity challenge: Penn Live Arts presents a one-night-only Hayes/Kyle Sanna/Fleck convergence, and Fleck will give the world premiere of Plain Songs, a Penn Live Arts commission for solo banjo. A+ would undersell the likely regret if this exact commissioned premiere and cross-Atlantic instrumental meeting were missed. It remains S rather than S+ because Hayes and Fleck are active touring artists, Penn's Americana Festival provides additional related appearances, and the event is exceptional rather than historically singular on an alter-plans scale. Recent corrected RADAR batches remain predominantly A/A+, so this is a deliberate scarcity exception rather than a return to S inflation.",
+  "events": [
+    {
+      "id": "martin-hayes-duo-bela-fleck-penn-live-arts-2027-02-12",
+      "artist": "Martin Hayes Duo with special guest Béla Fleck",
+      "subtitle": "Americana Festival — world premiere of Béla Fleck's Plain Songs",
+      "dates": {
+        "start": "2027-02-12",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "harold-prince-theatre-penn-live-arts-philadelphia",
+        "name": "Harold Prince Theatre",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-25",
+        "rationale": "The scarcity is the specific one-night Penn Live Arts convergence and commissioned premiere, not the reputations of Hayes or Fleck by themselves. Martin Hayes and guitarist Kyle Sanna are joined by Béla Fleck to trace the movement of Irish traditional music into American roots traditions, and Fleck will give the world premiere of Plain Songs, a Penn Live Arts commission for solo banjo. Penn explicitly bills the concert as a one-night-only convergence. A+ would be too casual for the likely regret if this exact premiere and instrumental dialogue were missed. S+ would overstate the case because Hayes and Fleck remain active touring artists and the surrounding Americana Festival offers additional related encounters."
+      },
+      "category": "World premiere / Irish traditional music / Banjo-fiddle dialogue",
+      "genres": [
+        "Irish Traditional",
+        "Bluegrass",
+        "Folk",
+        "Americana"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Martin Hayes — fiddle",
+        "Kyle Sanna — guitar",
+        "Béla Fleck — banjo"
+      ],
+      "factual_description": "Penn Live Arts presents Martin Hayes Duo with special guest Béla Fleck on Friday, February 12, 2027 at 7:30 PM in Harold Prince Theatre in Philadelphia as part of its Americana Festival: Roots & Reinventions. Martin Hayes is joined by guitarist Kyle Sanna, with Béla Fleck as special guest, for a program exploring the intercontinental journey of Irish traditional music and its influence on American roots traditions. Penn Live Arts states that Fleck will perform the world premiere of Plain Songs, a Penn Live Arts commission for solo banjo, and describes the concert as a one-night-only convergence. A pre-show conversation between Hayes and Fleck is scheduled for 6:30 PM.",
+      "links": {
+        "official_event": "https://pennlivearts.org/event/MartinHayesDuo",
+        "official_tickets": "https://tickets.pennlivearts.org/0/107717"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Martin Hayes & The Common Ground Ensemble",
+          "title": "Peggy's Dream",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/peggys-dream/1670495577"
+        },
+        {
+          "artist": "Béla Fleck",
+          "title": "My Bluegrass Heart",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/my-bluegrass-heart/1583824458"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Penn Live Arts' exact event page verifies date, 7:30 PM performance time, Harold Prince Theatre, Martin Hayes/Kyle Sanna/Béla Fleck billing, the Americana Festival context, the Plain Songs world premiere, the Penn Live Arts commission and the 6:30 PM pre-show talk. The exact Penn Live Arts ticketing destination is verified. Both Apple Music links are exact album pages."
+      },
+      "sources": [
+        {
+          "url": "https://pennlivearts.org/event/MartinHayesDuo",
+          "publisher": "Penn Live Arts",
+          "checked_on": "2026-08-25",
+          "note": "Exact official event page confirms February 12, 2027, 7:30 PM, Harold Prince Theatre, Martin Hayes with guitarist Kyle Sanna and special guest Béla Fleck, the Americana Festival context, the world premiere of Fleck's Plain Songs commission for solo banjo, and the one-night-only framing."
+        },
+        {
+          "url": "https://tickets.pennlivearts.org/0/107717",
+          "publisher": "Penn Live Arts Ticketing",
+          "checked_on": "2026-08-25",
+          "note": "Exact authorized ticketing page confirms February 12, 2027 at 7:30 PM in Harold Prince Theatre."
+        },
+        {
+          "url": "https://pennlivearts.org/events/americana.php",
+          "publisher": "Penn Live Arts",
+          "checked_on": "2026-08-25",
+          "note": "Official Americana Festival page places the concert within Roots & Reinventions, a festival tracing Celtic traditions into American folk, bluegrass and old-time music, with Béla Fleck as 2026-27 artist-in-residence."
+        },
+        {
+          "url": "https://music.apple.com/us/album/peggys-dream/1670495577",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Martin Hayes & The Common Ground Ensemble's Peggy's Dream."
+        },
+        {
+          "url": "https://music.apple.com/us/album/my-bluegrass-heart/1583824458",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Béla Fleck's My Bluegrass Heart."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, lineup, festival context, commission, world-premiere status and one-night framing were verified from Penn Live Arts primary materials, with the exact ticketing destination verified through Penn Live Arts. Repository searches found no existing Martin Hayes / Béla Fleck February 12, 2027 RADAR record. No prices, additional musicians, repertoire beyond the announced Plain Songs premiere, or unverified ticket destinations were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not simply an Irish fiddle set with a famous banjo guest. Hayes and Sanna bring a deeply internalized traditional language built on phrasing, pulse and restraint; Fleck arrives from the American branch of that same family tree, where the banjo became a vehicle for bluegrass, chamber writing, jazz and improvisation. Penn Live Arts makes the historical relationship audible rather than abstract, then adds a real present-tense event: the world premiere of Fleck's solo-banjo commission Plain Songs. The evening therefore joins lineage, instrumental identity and new work in one compact room.",
+          "trip_verdict": "Protect the night and build a dedicated Philadelphia evening around it. The one-night commissioned premiere gives this more urgency than a normal regional tour stop, and the surrounding Americana Festival could make the trip richer without diluting the importance of this specific concert.",
+          "listen_before": "Martin Hayes & The Common Ground Ensemble — Peggy's Dream; Béla Fleck — My Bluegrass Heart"
+        },
+        "es": {
+          "why_it_matters": "No es simplemente un set de fiddle irlandés con un invitado famoso en banjo. Hayes y Sanna parten de un lenguaje tradicional profundamente interiorizado, hecho de fraseo, pulso y contención; Fleck llega desde la rama estadounidense de ese mismo árbol, donde el banjo terminó convertido en vehículo para bluegrass, escritura de cámara, jazz e improvisación. Penn Live Arts vuelve audible esa relación histórica en vez de dejarla como concepto y, además, mete algo completamente presente: el estreno mundial de Plain Songs, la nueva comisión para banjo solo de Fleck. La noche junta linaje, identidad instrumental y obra nueva en una misma sala pequeña.",
+          "trip_verdict": "Protegería la noche y armaría una salida dedicada a Filadelfia alrededor del concierto. El estreno comisionado de una sola fecha le da más urgencia que a una parada regional normal, y el resto del Americana Festival puede enriquecer el viaje sin quitarle importancia a esta función específica.",
+          "listen_before": "Martin Hayes & The Common Ground Ensemble — Peggy's Dream; Béla Fleck — My Bluegrass Heart"
+        }
+      }
+    }
+  ]
+}
