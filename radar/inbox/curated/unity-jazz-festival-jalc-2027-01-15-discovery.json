@@ -1,0 +1,132 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "unity-jazz-festival-jalc-2027-01-15-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-25 under the current durable editorial hierarchy. No new unrecorded Tsuyoshi Yamamoto performance was verified. The 2027 Unity Jazz Festival clears RADAR admission because the currently announced lineup deliberately spans Afro-Latin orchestral jazz, exploratory piano/improvisation, and West African percussion within a two-night JALC festival. It is graded A+ rather than S because the festival is recurring, runs two nights, and additional acts are still to be announced, so the current context warrants active prioritization without scarcity-tier inflation.",
+  "events": [
+    {
+      "id": "unity-jazz-festival-jalc-new-york-2027-01-15",
+      "artist": "Unity Jazz Festival",
+      "subtitle": "Arturo O'Farrill & The Afro Latin Jazz Orchestra, Myra Melford, Weedie Braimah & The Hands of Time",
+      "dates": {
+        "start": "2027-01-15",
+        "end": "2027-01-16"
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "frederick-p-rose-hall-jazz-at-lincoln-center-new-york",
+        "name": "Frederick P. Rose Hall — Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz festival / Afro-Latin jazz / Improvisation / Percussion",
+      "genres": [
+        "Jazz",
+        "Afro-Latin Jazz",
+        "Contemporary Jazz",
+        "Experimental Jazz",
+        "West African Percussion"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Latin",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Arturo O'Farrill & The Afro Latin Jazz Orchestra",
+        "Myra Melford",
+        "Weedie Braimah & The Hands of Time",
+        "Additional artists — to be announced by Jazz at Lincoln Center"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents the fourth annual Unity Jazz Festival on January 15-16, 2027, beginning at 6:00 PM each evening throughout Frederick P. Rose Hall. The currently announced lineup includes Arturo O'Farrill and the Afro Latin Jazz Orchestra, pianist/composer Myra Melford, and percussionist Weedie Braimah with The Hands of Time; JALC states that additional acts are still to be announced. The festival is designed as an intergenerational and multicultural survey of 21st-century jazz and music associated with jazz, with general-admission festival access and a late-night Dizzy's Club option for ticket holders.",
+      "links": {
+        "official_event": "https://jazz.org/concert/unity-jazz-festival/",
+        "official_tickets": "https://ticketing.jazz.org/20690/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Arturo O'Farrill & The Afro Latin Jazz Orchestra",
+          "title": "Mundoagua - Celebrating Carla Bley",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/mundoagua-celebrating-carla-bley/1781040567"
+        },
+        {
+          "artist": "Myra Melford",
+          "title": "the mundane uncanny",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-mundane-uncanny/1868879614"
+        },
+        {
+          "artist": "Weedie Braimah",
+          "title": "The Hands of Time",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-hands-of-time/1649982396"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact JALC event page, exact authorized ticketing page, January 15-16 dates, 6:00 PM start, currently announced artists, venue identity, and three exact Apple Music listening pages are verified. Additional festival artists remain TBA and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/unity-jazz-festival/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-25",
+          "note": "Official concert page confirms the fourth annual Unity Jazz Festival, January 15-16, 2027 at 6:00 PM, Frederick P. Rose Hall, the currently announced lineup of Arturo O'Farrill & The Afro Latin Jazz Orchestra, Myra Melford, and Weedie Braimah & The Hands of Time, plus additional artists TBA."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20690/",
+          "publisher": "Jazz at Lincoln Center Ticketing",
+          "checked_on": "2026-08-25",
+          "note": "Exact authorized ticketing page confirms January 15-16, 2027, 6:00 PM festival admission, Frederick P. Rose Hall, the named artists, and active general-admission sales."
+        },
+        {
+          "url": "https://music.apple.com/us/album/mundoagua-celebrating-carla-bley/1781040567",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Arturo O'Farrill & The Afro Latin Jazz Orchestra's Mundoagua - Celebrating Carla Bley."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-mundane-uncanny/1868879614",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Myra Melford's 2026 release the mundane uncanny."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-hands-of-time/1649982396",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Weedie Braimah's The Hands of Time."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, time, venue, festival concept, current lineup and authorized ticketing were verified against Jazz at Lincoln Center's official event and ticketing pages. Listening recommendations were verified against exact Apple Music pages. Repository searches found no existing Unity Jazz Festival 2027 record. No unannounced festival artists, room-by-room schedule, or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is the collision of three very different rhythmic and improvisational worlds under one festival roof: O'Farrill's large-ensemble Afro-Latin writing, Melford's exploratory piano language, and Braimah's percussion-centered work with The Hands of Time. That makes the current lineup more than a sampler of good jazz names; it sketches a genuinely broad map of how composition, groove and improvisation can relate in contemporary jazz. The remaining TBA artists could strengthen the case further, but the announced core already clears the RADAR threshold on its own.",
+          "trip_verdict": "Actively make room for one of the two festival nights if a New York trip overlaps, and consider the second night once the remaining lineup is announced. The two-night format and recurring festival structure give enough flexibility that it should complement, not displace, a truly singular premiere, farewell or one-off elsewhere in the itinerary.",
+          "listen_before": "Arturo O'Farrill & The Afro Latin Jazz Orchestra — Mundoagua - Celebrating Carla Bley; Myra Melford — the mundane uncanny; Weedie Braimah — The Hands of Time"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante es el choque de tres mundos rítmicos e improvisatorios muy distintos bajo el mismo festival: la escritura afrolatina de gran ensamble de O'Farrill, el lenguaje exploratorio de piano de Melford y el trabajo de Weedie Braimah con The Hands of Time, donde la percusión es el centro de gravedad. Así, el cartel actual es más que una colección de buenos nombres: ya dibuja un mapa bastante amplio de cómo composición, groove e improvisación pueden convivir en el jazz contemporáneo. Los artistas todavía por anunciar pueden fortalecerlo, pero el núcleo confirmado ya cruza por sí solo el umbral del RADAR.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos noches si coincide con un viaje a Nueva York, y volvería a mirar la segunda cuando publiquen el resto del cartel. El formato de dos noches y el carácter recurrente del festival dan suficiente flexibilidad para que complemente, en vez de desplazar, un estreno, despedida o one-off realmente singular dentro del itinerario.",
+          "listen_before": "Arturo O'Farrill & The Afro Latin Jazz Orchestra — Mundoagua - Celebrating Carla Bley; Myra Melford — the mundane uncanny; Weedie Braimah — The Hands of Time"
+        }
+      }
+    }
+  ]
+}
