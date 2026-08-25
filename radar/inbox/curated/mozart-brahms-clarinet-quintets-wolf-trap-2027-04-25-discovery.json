@@ -1,0 +1,97 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "mozart-brahms-clarinet-quintets-wolf-trap-2027-04-25-discovery",
+  "notes": "Verified A+-priority local discovery under the current two-stage RADAR rubric after rereading the repository priority, editorial, domain, and inbox guidance. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. This Chamber Music Society of Lincoln Center program clears RADAR admission because Wolf Trap deliberately pairs Mozart's and Brahms's canonical clarinet quintets on one program, a pairing the venue itself describes as rare, with a strong five-player CMSLC lineup in the intimate Barns. A+ captures the recommendation: it is unusually strong repertoire and instrumental-context programming worth actively making room for, without the premiere/farewell/historical scarcity required for S.",
+  "events": [
+    {
+      "id": "mozart-brahms-clarinet-quintets-wolf-trap-2027-04-25",
+      "artist": "Chamber Music Society of Lincoln Center",
+      "subtitle": "Mozart & Brahms: The Great Clarinet Quintets",
+      "dates": {
+        "start": "2027-04-25",
+        "end": null
+      },
+      "showtimes": [
+        "17:30"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Chamber music / Clarinet quintets / Classical",
+      "genres": [
+        "Classical",
+        "Chamber Music"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Stella Chen",
+        "Chad Hoopes",
+        "Timothy Ridout",
+        "Clive Greensmith",
+        "Sebastian Manz"
+      ],
+      "factual_description": "Wolf Trap presents the Chamber Music Society of Lincoln Center in Mozart & Brahms: The Great Clarinet Quintets at The Barns on Sunday, April 25, 2027 at 5:30 PM, with doors at 4:00 PM. The program pairs Brahms's Clarinet Quintet in B minor, Op. 115 with Mozart's Clarinet Quintet in A major, K. 581. Wolf Trap describes hearing these two works on the same program as a rare musical event. The announced performers are Stella Chen, Chad Hoopes, Timothy Ridout, Clive Greensmith, and Sebastian Manz.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/042527/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Harold Wright & Boston Symphony Chamber Players",
+          "title": "Mozart & Brahms: Clarinet Quintets",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/mozart-brahms-clarinet-quintets/1452267100"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Wolf Trap event page, program, announced five-player lineup, and exact Apple Music page containing both clarinet quintets are verified. Wolf Trap says individual tickets go on sale in August but a stable event-specific individual purchase destination was not independently resolved in this pass, so no subscription or generic ticket URL is substituted."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/042527/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-25",
+          "note": "Official event page confirms April 25, 2027, 5:30 PM, 4:00 PM doors, The Barns, the Mozart and Brahms clarinet-quintet program, the five announced performers, and Wolf Trap's description of the two works being rarely heard together on one program."
+        },
+        {
+          "url": "https://music.apple.com/us/album/mozart-brahms-clarinet-quintets/1452267100",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Harold Wright and the Boston Symphony Chamber Players' Mozart & Brahms: Clarinet Quintets, containing the same two works programmed at Wolf Trap."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, doors, venue, program, and announced personnel were verified against the exact Wolf Trap event page; the listening recommendation is an exact Apple Music page containing both programmed works. Repository search found no existing matching event ID, title, or performer combination. Individual ticketing remains pending rather than substituting a subscription or generic destination."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not simply five strong classical players. Mozart K. 581 and Brahms Op. 115 are two defining works for clarinet and strings, and Wolf Trap puts them side by side in one evening. That pairing makes the change in color, weight, and relationship between clarinet and strings across the two musical worlds part of the listening itself. In The Barns, the program should reward close attention to breath, attack, blend, and chamber-scale interaction rather than spectacle.",
+          "trip_verdict": "Actively make room for it in the DMV if chamber music or instrumental color is in the listening thread. The one-night pairing is unusually well chosen, but this is canonical repertoire rather than a premiere or farewell, so it should fit around rarer anchors rather than displace them.",
+          "listen_before": "Harold Wright & Boston Symphony Chamber Players — Mozart & Brahms: Clarinet Quintets"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente juntar a cinco músicos clásicos muy buenos. K. 581 de Mozart y Op. 115 de Brahms son dos obras fundamentales para clarinete y cuerdas, y Wolf Trap las pone juntas en una sola tarde. Esa combinación hace que el cambio de color, peso y relación entre el clarinete y las cuerdas de un mundo musical al otro sea parte de la escucha misma. En The Barns, el programa debería premiar la atención al aliento, el ataque, la mezcla y la conversación de cámara más que el espectáculo.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV si la música de cámara o el color instrumental están en el hilo de escucha. La combinación de obras está especialmente bien escogida, pero sigue siendo repertorio canónico y no un estreno o despedida; la acomodaría alrededor de fechas todavía más escasas en vez de desplazar una de ellas.",
+          "listen_before": "Harold Wright & Boston Symphony Chamber Players — Mozart & Brahms: Clarinet Quintets"
+        }
+      }
+    }
+  ]
+}
