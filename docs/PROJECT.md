@@ -12,6 +12,7 @@ destination.
 - `index.html` is an editorial listening feature.
 - `radar/` is the bilingual live-music radar.
 - `radar/events.json` is the single underlying event dataset.
+- `radar/signals.json` preserves the explicit editorial Signal history.
 - `assets/` holds local editorial images.
 
 The site is intentionally static so it can remain publishable through GitHub
@@ -57,6 +58,10 @@ research validator produces a structural diff, a human or interactive Codex
 review explicitly approves promotion, and the curated patch merger modifies
 only enrichment fields. GitHub Actions performs no AI or editorial reasoning.
 See `docs/RADAR_ENRICHMENT.md` for the contracts and commands.
+
+The Signal is selected manually and remains independent of event priority,
+discovery order, and page filters. See `docs/SIGNALS.md` for its eligibility,
+history, stability, promotion, and display rules.
 
 ## Current boundaries
 

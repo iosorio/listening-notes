@@ -49,6 +49,15 @@ innovation, a living master, a Japanese-jazz connection, Latin identity,
 cross-genre work, a meaningful venue or DMV connection, and continuity with
 the archive are signals—not a rigid scoring algorithm.
 
+## The Signal
+
+The Signal is a time-specific editorial recommendation, not a higher priority
+tier and not the best item returned by a page filter. It changes only through a
+documented manual editorial decision, remains stable for a normal seven-day
+cycle, and preserves its real history. Discovery may nominate but never
+promote. The complete eligibility, bilingual why-now, replacement, re-entry,
+and interface rules are in `docs/SIGNALS.md`.
+
 ## Bilingual practice
 
 English and Spanish are equal editorial surfaces. Keep one shared factual event

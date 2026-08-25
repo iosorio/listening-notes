@@ -4022,9 +4022,10 @@
         },
         {
           "type": "official_venue",
-          "name": "YOKOHAMA JAZZ FIRST",
-          "url": "https://jazz-first.com/",
-          "checked_on": "2026-08-15"
+          "name": "YOKOHAMA JAZZ FIRST schedule",
+          "url": "https://jazz-first.com/schedule/",
+          "checked_on": "2026-08-25",
+          "note": "The official venue schedule lists the August 28 Yamamoto Trio performance; the venue does not publish a separate event permalink."
         },
         {
           "publisher": "Apple Music",
@@ -4040,10 +4041,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_event",
           "official_tickets"
         ],
-        "note": "Research verified this exact Apple Music album but did not establish exact authorized event or ticket destinations for the August 28 YOKOHAMA JAZZ FIRST performance."
+        "note": "The official venue schedule verifies the August 28 performance, but no exact authorized ticket or reservation destination is published."
       },
       "editorial": {
         "en": {
@@ -4067,7 +4067,7 @@
         }
       ],
       "links": {
-        "official_event": null,
+        "official_event": "https://jazz-first.com/schedule/",
         "official_tickets": null
       },
       "tickets": {
