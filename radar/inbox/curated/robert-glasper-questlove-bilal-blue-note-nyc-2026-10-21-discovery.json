@@ -1,0 +1,100 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "robert-glasper-questlove-bilal-blue-note-nyc-2026-10-21-discovery",
+  "notes": "Verified A+-priority New York discovery after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass checked current ALFIE, BODY&SOUL, Space M&A and Japanese jazz sources and found no new unrecorded verified Tsuyoshi Yamamoto date. Robert Glasper X Questlove + Special Guest Bilal clears RADAR admission because the specific one-night lineup concentrates three connected but distinct languages—Glasper's jazz/R&B/hip-hop keyboard vocabulary, Questlove's live hip-hop drum architecture, and Bilal's free-form instrumental vocal approach—inside Blue Note's intimate Robtober setting. A+ captures the recommendation: it is unusually strong and worth actively making room for, while the collaborators' long shared musical lineage and the broader month-long Robtober residency do not require S-level scarcity. Recent/current RADAR additions are again dominated by A and A+, so this batch does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "robert-glasper-questlove-bilal-blue-note-nyc-2026-10-21",
+      "artist": "Robert Glasper X Questlove + Special Guest Bilal",
+      "subtitle": "Robtober — one-night jazz / hip-hop / soul collaboration",
+      "dates": {
+        "start": "2026-10-21",
+        "end": null
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz / Hip-hop / Soul / Robtober collaboration",
+      "genres": [
+        "Jazz",
+        "Hip-Hop",
+        "R&B",
+        "Soul"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Robert Glasper — piano / keyboards",
+        "Questlove — drums",
+        "Bilal — voice"
+      ],
+      "factual_description": "Blue Note Jazz Club presents Robert Glasper X Questlove + Special Guest Bilal on Wednesday, October 21, 2026, with sets at 8:00 PM and 10:30 PM. The exact Blue Note event page identifies the booking as part of Glasper's Robtober residency and confirms both showtimes. Blue Note describes Glasper as a pianist and composer whose work blends jazz, R&B and hip-hop; Questlove as drummer and co-frontman of The Roots with a long production and arranging history; and Bilal as a singer whose free-form vocal language spans jazz, soul, alternative R&B and rock. The venue states that tickets purchased through its official website or TicketWeb are the only authorized sources.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/robert-glasper-x-questlove-special-guest-bilal/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Robert Glasper Experiment",
+          "title": "Black Radio",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/black-radio/716753527"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Blue Note event page, date, both showtimes, advertised billing and exact Apple Music destination are verified. Blue Note exposes separate authorized TicketWeb purchase destinations for the 8:00 PM and 10:30 PM sets, so official_tickets remains pending rather than storing one set-specific ticket URL as if it represented the whole event."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/robert-glasper-x-questlove-special-guest-bilal/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-08-25",
+          "note": "Exact official event page confirms Wednesday, October 21, 2026, 8:00 PM and 10:30 PM sets, the Robert Glasper X Questlove + Special Guest Bilal billing, Robtober context, and Blue Note/TicketWeb as authorized ticket sources."
+        },
+        {
+          "url": "https://music.apple.com/us/album/black-radio/716753527",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Black Radio; the album documents Glasper's jazz/hip-hop/R&B language and includes Bilal among its guest vocalists."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, showtimes, advertised lineup, Robtober context and ticket authorization were verified against the exact Blue Note New York page; the recommended listening destination was verified on Apple Music. Repository search found no existing Robert Glasper / Questlove / Bilal October 21, 2026 event in the indexed canonical or inbox history before publication. No additional sidemen, prices or a synthetic single ticket URL were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The appeal is the rhythmic and vocal conversation, not celebrity stacking. Glasper's harmonic language has spent years dissolving the line between jazz, hip-hop and R&B; Questlove brings a drummer's sense of pocket that helped make live-band hip-hop its own grammar; Bilal can move between song and improvising instrument. In a Blue Note room small enough for those micro-decisions to register, the lineup has a concrete musical reason to exist.",
+          "trip_verdict": "Actively make room for one of the two sets if New York is already in the corridor. It is strong enough to build that evening around, especially for groove, drums and the jazz-to-soul continuum, but I would not reorganize a larger regional trip solely around this one Robtober night.",
+          "listen_before": "Robert Glasper Experiment — Black Radio"
+        },
+        "es": {
+          "why_it_matters": "Lo chingón aquí no es amontonar nombres, sino la conversación entre ritmo y voz. El lenguaje armónico de Glasper lleva años borrando la frontera entre jazz, hip-hop y R&B; Questlove trae un sentido del pocket que ayudó a convertir el hip-hop tocado por una banda en una gramática propia; y Bilal puede pasar de canción a instrumento improvisador sin avisar. En una sala tan pequeña como Blue Note, esas microdecisiones sí se escuchan y le dan una razón musical concreta a la alineación.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si Nueva York ya está dentro del corredor del viaje. Tiene suficiente peso para construir esa noche alrededor del show, sobre todo si groove, batería y el continuo jazz-soul están en el hilo, pero no reorganizaría un viaje regional completo únicamente por esta fecha de Robtober.",
+          "listen_before": "Robert Glasper Experiment — Black Radio"
+        }
+      }
+    }
+  ]
+}
