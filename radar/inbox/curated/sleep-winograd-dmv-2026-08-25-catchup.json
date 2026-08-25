@@ -1,0 +1,197 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sleep-winograd-dmv-2026-08-25-catchup",
+  "notes": "Verified DMV catch-up batch created under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. Sleep clears RADAR admission through foundational heavy-music identity and a physically distinctive slow-riff/low-end live language; A+ captures the recommendation because the Washington date is worth actively making room for but belongs to a broader North American tour rather than a scarce one-off. Michael Winograd and The Honorable Mentshn clear admission through clarinet-centered klezmer, live dance practice and a specific Hanukkah/cultural-context program at The Barns; A captures the recommendation because it is worth knowing and attending if convenient without displacing rarer local anchors. Batch distribution: A+ 1, A 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "sleep-lincoln-theatre-washington-dc-2026-11-17",
+      "artist": "Sleep",
+      "subtitle": "North America 2026",
+      "dates": {
+        "start": "2026-11-17",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "lincoln-theatre-washington-dc",
+        "name": "Lincoln Theatre",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Doom / stoner metal / heavy instrumental identity",
+      "genres": [
+        "Doom metal",
+        "Stoner metal",
+        "Heavy metal"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Groove"
+      ],
+      "lineup": [
+        "Sleep — individual personnel for this date are not listed on the Lincoln Theatre event page"
+      ],
+      "factual_description": "Lincoln Theatre presents Sleep on Tuesday, November 17, 2026 at 8:00 PM, with doors at 6:30 PM, as part of the band's North America 2026 tour. The venue and Ticketmaster both confirm the Washington date and active authorized ticketing. Apple Music describes The Sciences as a return by the legendary doom trio built around sludgy riffs, rumbling percussion and long-form heavy structures; the event page does not announce individual personnel or support for this date, so none are inferred here.",
+      "links": {
+        "official_event": "https://www.thelincolndc.com/e/sleep-north-america-2026/",
+        "official_tickets": "https://www.ticketmaster.com/sleep-north-america-2026-washington-district-of-columbia-11-17-2026/event/150064D0C98BA8D9"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sleep",
+          "title": "The Sciences",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-sciences/1854871452"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Lincoln Theatre event, authorized Ticketmaster destination and Apple Music album page are verified. The venue does not announce individual band personnel or support for this date, so none were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.thelincolndc.com/e/sleep-north-america-2026/",
+          "publisher": "Lincoln Theatre / I.M.P.",
+          "checked_on": "2026-08-25",
+          "note": "Official venue page confirms Tuesday, November 17, 2026, 8:00 PM show, 6:30 PM doors and the Sleep: North America 2026 billing."
+        },
+        {
+          "url": "https://www.ticketmaster.com/sleep-north-america-2026-washington-district-of-columbia-11-17-2026/event/150064D0C98BA8D9",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-25",
+          "note": "Authorized ticket page confirms Sleep at Lincoln Theatre in Washington, DC on November 17, 2026 at 8:00 PM."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-sciences/1854871452",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for The Sciences; useful listening context for Sleep's riff, low-end and long-form heavy language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtime, doors and venue were verified against Lincoln Theatre; authorized ticketing was verified through Ticketmaster; listening was verified through the exact Apple Music album page. Repository search found no existing Sleep RADAR record or matching event ID. No individual personnel, support acts or prices were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Sleep belongs here because heaviness is not just volume in this band; it is an instrumental language built from bass pressure, enormous guitar sustain, repetition and a rhythm section that makes slow motion feel physical. Lincoln Theatre gives that sound a very different frame from an outdoor festival or generic metal room: the point is to hear how the low end, feedback and long-form pacing occupy an old theater at close range.",
+          "trip_verdict": "Actively make room for the Washington date if heavy music, riff architecture and low-end physicality are in the listening thread. It is a strong local night, but the North America 2026 tour provides other opportunities, so it should fit around genuinely singular DMV events rather than forcing larger travel changes.",
+          "listen_before": "Sleep — The Sciences"
+        },
+        "es": {
+          "why_it_matters": "Sleep entra porque aquí lo pesado no es simplemente volumen: es un lenguaje instrumental construido con presión de bajo, sustain enorme de guitarra, repetición y una sección rítmica capaz de volver física la lentitud. Lincoln Theatre le da además un marco muy distinto al de un festival o una sala metalera genérica: interesa escuchar cómo el grave, el feedback y las formas largas ocupan un teatro viejo a poca distancia.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de Washington si el heavy, la arquitectura del riff y la fuerza física del grave están en el hilo de escucha. Es una noche local fuerte, pero la gira norteamericana ofrece otras oportunidades, así que la acomodaría alrededor de eventos realmente singulares del DMV en vez de rehacer planes mayores por ella.",
+          "listen_before": "Sleep — The Sciences"
+        }
+      }
+    },
+    {
+      "id": "michael-winograd-honorable-mentshn-wolf-trap-2026-12-05",
+      "artist": "Michael Winograd and The Honorable Mentshn",
+      "subtitle": "Dreidels, Donuts, and Dance — Hanukkah Party",
+      "dates": {
+        "start": "2026-12-05",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "the-barns-wolf-trap-vienna-va",
+        "name": "The Barns at Wolf Trap",
+        "city": "Vienna",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Klezmer / clarinet / live dance tradition",
+      "genres": [
+        "Klezmer",
+        "Jewish folk",
+        "Traditional"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Michael Winograd — clarinet",
+        "The Honorable Mentshn — band; individual event personnel not announced on the Wolf Trap page"
+      ],
+      "factual_description": "Wolf Trap presents Michael Winograd and The Honorable Mentshn at The Barns on Saturday, December 5, 2026 at 6:30 PM, with doors at 5:00 PM. The program celebrates the second night of Hanukkah as a live klezmer dance party, with traditional Jewish dances led by instructor Judy Sweet plus family activities. Wolf Trap identifies Winograd as one of today's premier klezmer clarinetists and frames the event as carrying an Eastern European Jewish diaspora tradition into the 21st century. The program is presented in partnership with the National Council for the Traditional Arts, George Mason University's Institute for Immigration Research, and Pozez JCC of Northern Virginia.",
+      "links": {
+        "official_event": "https://www.wolftrap.org/show/2627barns/120526/",
+        "official_tickets": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&eventid=8183&orgid=44689"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Michael Winograd",
+          "title": "Kosher Style",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kosher-style/1458432108"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Wolf Trap event and authorized Tickets.com destination are verified. The exact Apple Music album page for Kosher Style is verified. Individual Honorable Mentshn personnel for this specific event are not announced, so none were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.wolftrap.org/show/2627barns/120526/",
+          "publisher": "Wolf Trap",
+          "checked_on": "2026-08-25",
+          "note": "Official event page confirms December 5, 2026, 6:30 PM at The Barns, 5:00 PM doors, Michael Winograd and The Honorable Mentshn, the Hanukkah dance-party format, Judy Sweet's dance instruction and the presenting partnerships."
+        },
+        {
+          "url": "https://mpv.tickets.com/?agency=WTFV_PLAGENCY_MPV&eventid=8183&orgid=44689",
+          "publisher": "Wolf Trap / Tickets.com",
+          "checked_on": "2026-08-25",
+          "note": "Exact authorized Wolf Trap ticketing destination for the December 5, 2026 Michael Winograd event."
+        },
+        {
+          "url": "https://www.michaelwinograd.net/",
+          "publisher": "Michael Winograd",
+          "checked_on": "2026-08-25",
+          "note": "Official artist site verifies Michael Winograd's current artist presence and tour infrastructure."
+        },
+        {
+          "url": "https://music.apple.com/us/album/kosher-style/1458432108",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Kosher Style, a useful listening document for Winograd's contemporary klezmer language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtime, doors, venue, artist billing, cultural framing, dance component and presenting partners were verified against Wolf Trap; authorized ticketing was followed to the exact Tickets.com event; listening was verified through Apple Music. Repository search found no existing Michael Winograd RADAR record or matching event ID. Individual Honorable Mentshn personnel were not inferred because Wolf Trap does not announce them for this date."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The clarinet is the reason to pay attention here. Winograd works inside klezmer as a living dance language rather than repertory preservation, and The Barns turns that into a social event: the band, an actual dance instructor and the second night of Hanukkah all make rhythm and communal response part of the performance. The NCTA, George Mason immigration-research and local Jewish-community partnerships give the night a specific cultural frame without turning the music into a lecture.",
+          "trip_verdict": "Keep it on the local board and go if December 5 is open and clarinet, klezmer or live dance traditions are in the listening thread. It is a distinctive DMV cultural night, but I would fit it around rarer local anchors rather than move another major event for it.",
+          "listen_before": "Michael Winograd — Kosher Style"
+        },
+        "es": {
+          "why_it_matters": "La razón para poner atención aquí es el clarinete. Winograd trabaja el klezmer como una música de baile viva, no como repertorio de conservación, y The Barns convierte eso en un acontecimiento social: banda, instructor de baile de verdad y la segunda noche de Hanukkah hacen que el ritmo y la respuesta de la comunidad formen parte de la función. Las alianzas con NCTA, el instituto de investigación migratoria de George Mason y la comunidad judía local le dan un marco cultural muy concreto sin volver la música una conferencia.",
+          "trip_verdict": "La tendría en el tablero local e iría si el 5 de diciembre está libre y el clarinete, el klezmer o las tradiciones de baile en vivo están en el hilo de escucha. Es una noche cultural distintiva del DMV, pero la acomodaría alrededor de anclas locales más raras en vez de mover otra fecha importante por ella.",
+          "listen_before": "Michael Winograd — Kosher Style"
+        }
+      }
+    }
+  ]
+}
