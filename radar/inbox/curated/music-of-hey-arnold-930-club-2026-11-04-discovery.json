@@ -1,0 +1,104 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "music-of-hey-arnold-930-club-2026-11-04-discovery",
+  "notes": "Verified DMV discovery created under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. The Music of Hey Arnold! Live clears RADAR admission because the original composer Jim Lang is bringing the score's unusual jazz/hip-hop/blues/R&B/funk language to the stage with the PS 118 AllStars, multimedia material, and series creator Craig Bartlett for the show's 30th anniversary. A+ captures the recommendation because the Washington performance is unusual and worth actively making room for, but it belongs to a broad 20-city U.S. anniversary tour rather than a scarce one-off. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "music-of-hey-arnold-live-930-club-washington-dc-2026-11-04",
+      "artist": "The Music of Hey Arnold! Live",
+      "subtitle": "30th Anniversary — Jim Lang & The PS 118 AllStars with special guest Craig Bartlett",
+      "dates": {
+        "start": "2026-11-04",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Animation score / jazz-funk / multimedia anniversary concert",
+      "genres": [
+        "Jazz",
+        "Hip-hop",
+        "Funk",
+        "R&B",
+        "Blues",
+        "Soundtrack"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jim Lang — composer / bandleader",
+        "The PS 118 AllStars — live band; individual personnel not announced on the official 9:30 Club event page",
+        "Craig Bartlett — special guest / series creator"
+      ],
+      "factual_description": "I.M.P. presents The Music of Hey Arnold! Live at 9:30 Club in Washington, DC on Wednesday, November 4, 2026. The official venue page lists doors at 7:00 PM and currently marks the show sold out; Ticketmaster lists the event at 7:00 PM, but because the venue explicitly identifies 7:00 as doors, no separate showtime is stored here. The 30th-anniversary production is led by original series composer Jim Lang with The PS 118 AllStars and special guest Craig Bartlett, combining live performance of themes and songs from the series with multimedia visuals and behind-the-music stories. Official tour materials describe Lang's score as blending jazz, hip-hop, blues, R&B and funk and identify the anniversary production as a 20-city U.S. tour.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/the-music-of-hey-arnold-live/",
+        "official_tickets": "https://www.ticketmaster.com/the-music-of-hey-arnold-live-washington-11-04-2026/event/1500650CB6B87A0D"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jim Lang",
+          "title": "Hey Arnold! The Music, Vol. 1",
+          "kind": "album",
+          "apple_music_url": null
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact I.M.P. event and authorized Ticketmaster destination are verified. No exact Apple Music page for Jim Lang's official Hey Arnold! score release was verified in this pass, so the listening link remains pending rather than substituting a cover recording."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/the-music-of-hey-arnold-live/",
+          "publisher": "I.M.P. / 9:30 Club",
+          "checked_on": "2026-08-25",
+          "note": "Official event page confirms November 4, 2026 at 9:30 Club, 7:00 PM doors, sold-out status, Jim Lang & The PS 118 AllStars, special guest Craig Bartlett, the 30th-anniversary framing, multimedia component, and the score's jazz/hip-hop/blues/R&B/funk language."
+        },
+        {
+          "url": "https://www.ticketmaster.com/the-music-of-hey-arnold-live-washington-11-04-2026/event/1500650CB6B87A0D",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-25",
+          "note": "Authorized ticketing page confirms The Music of Hey Arnold! Live at 9:30 Club in Washington, DC on November 4, 2026. It displays 7:00 PM as the event time; because I.M.P. explicitly labels 7:00 PM as doors, no separate showtime is inferred."
+        },
+        {
+          "url": "https://www.stgpresents.org/events/the-music-of-hey-arnold-live/",
+          "publisher": "Seattle Theatre Group",
+          "checked_on": "2026-08-25",
+          "note": "Official tour-venue page corroborates Jim Lang, The PS 118 AllStars and Craig Bartlett and describes the production as a 20-city U.S. tour celebrating the series' 30th anniversary."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, doors, sold-out status, principal billing, anniversary concept and multimedia format were verified against I.M.P.; authorized ticketing was verified through Ticketmaster; the broader 20-city tour context was corroborated by an official tour-venue page. Repository search found no existing Hey Arnold / Jim Lang RADAR record or matching event ID. No individual PS 118 AllStars personnel, separate showtime, ticket prices or substitute Apple Music links were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Jim Lang's score gave a children's cartoon an unusually adult musical bloodstream: brushed jazz, hip-hop pocket, blues, R&B and funk were part of the show's emotional grammar rather than background decoration. Hearing that language rebuilt by the composer with a live band, while Craig Bartlett adds the creator's side of the story, turns the anniversary into more than a nostalgia screening. The 9:30 Club setting also keeps the music at club scale instead of turning it into a distant orchestral franchise show.",
+          "trip_verdict": "Actively make room for the Washington date if soundtrack composition, groove and the way television music can shape a generation's listening are in the thread. The tour reaches many U.S. cities, so this should fit around truly singular DMV nights rather than force larger travel changes; the local show is already sold out, which makes legitimate returned inventory the practical route if a ticket is still wanted.",
+          "listen_before": "Jim Lang — Hey Arnold! The Music, Vol. 1"
+        },
+        "es": {
+          "why_it_matters": "La música de Jim Lang le dio a una caricatura infantil un torrente musical sorprendentemente adulto: jazz con escobillas, pocket de hip-hop, blues, R&B y funk formaban parte de la gramática emocional de la serie, no eran simple fondo. Escuchar ese lenguaje reconstruido por el compositor con una banda en vivo, mientras Craig Bartlett aporta la mirada del creador, vuelve el aniversario algo bastante más interesante que una proyección nostálgica. Además, el 9:30 Club mantiene la música a escala de club en vez de convertirla en un espectáculo de franquicia a distancia.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de Washington si la composición para pantalla, el groove y la forma en que la música de televisión puede moldear la escucha de una generación están en el hilo. La gira pasa por muchas ciudades de Estados Unidos, así que la acomodaría alrededor de noches realmente singulares del DMV en vez de rehacer planes mayores; la función local ya aparece agotada, por lo que el camino práctico sería inventario oficial devuelto si vuelve a aparecer.",
+          "listen_before": "Jim Lang — Hey Arnold! The Music, Vol. 1"
+        }
+      }
+    }
+  ]
+}
