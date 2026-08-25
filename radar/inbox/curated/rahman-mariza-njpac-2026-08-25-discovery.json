@@ -1,0 +1,217 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "rahman-mariza-njpac-2026-08-25-discovery",
+  "notes": "Verified Newark discoveries under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass checked ALFIE, BODY&SOUL, current Yamamoto listings, Space M&A and Japanese jazz sources and found no new unrecorded verified Tsuyoshi Yamamoto date. A.R. Rahman with the New Jersey Symphony and Mariza with Derek Gripper & Duo Andalus each clear RADAR admission for a specific musical context and are graded A+ rather than S because both offer multiple or touring opportunities rather than genuine scarcity.",
+  "events": [
+    {
+      "id": "ar-rahman-new-jersey-symphony-njpac-2026-11-03",
+      "artist": "A.R. Rahman with the New Jersey Symphony",
+      "subtitle": "The Symphonic Experience",
+      "dates": {
+        "start": "2026-11-03",
+        "end": "2026-11-04"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark",
+        "name": "Prudential Hall at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Indian film music / Symphonic / Cross-genre",
+      "genres": [
+        "Indian film music",
+        "Orchestral",
+        "World",
+        "Pop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "A.R. Rahman — composer / performer",
+        "New Jersey Symphony — orchestra; conductor and additional guest personnel not announced on the NJPAC event page"
+      ],
+      "factual_description": "NJPAC and the New Jersey Symphony present A.R. Rahman: The Symphonic Experience in Prudential Hall on Tuesday, November 3 and Wednesday, November 4, 2026, both at 7:30 PM. NJPAC describes the program as Rahman's film and popular repertoire spanning works associated with Roja, Bombay, Dil Se, Taal, Lagaan, Jodhaa Akbar, Ponniyin Selvan, Slumdog Millionaire and 127 Hours, with the New Jersey Symphony joining Rahman to expand music that crosses Eastern classical, pop, world-music and rap vocabularies. Ticketmaster independently confirms both Newark dates and the 7:30 PM start time; member presale begins August 26 and general sale begins August 28, 2026. The specific conductor and any additional soloists or vocalists have not been announced on the Newark event page.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/a-r-rahman/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "A.R. Rahman",
+          "title": "Bombay (Original Soundtrack) [OST]",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/bombay-original-soundtrack-ost/1442492180"
+        }
+      ],
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "NJPAC's exact event page, both dates/times and the exact Apple Music listening page are verified. Ticketmaster has separate authorized event pages for November 3 and November 4; the canonical single official_tickets field is left pending rather than making one night's purchase URL stand in for the two-night engagement. No conductor or unannounced guest personnel were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/a-r-rahman/",
+          "publisher": "NJPAC",
+          "checked_on": "2026-08-25",
+          "note": "Official event page confirms November 3-4, 2026 at 7:30 PM in Prudential Hall, the New Jersey Symphony collaboration and the genre-spanning symphonic program around Rahman's film repertoire."
+        },
+        {
+          "url": "https://www.ticketmaster.com/ar-rahman-the-symphonic-experience-newark-new-jersey-11-03-2026/event/00006513A473CCBA",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-25",
+          "note": "Authorized ticket page for the November 3 function confirms 7:30 PM at NJPAC and sale windows beginning August 26, 2026."
+        },
+        {
+          "url": "https://www.ticketmaster.com/ar-rahman-the-symphonic-experience-newark-new-jersey-11-04-2026/event/00006513A477CCCF",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-25",
+          "note": "Authorized ticket page for the November 4 function independently confirms 7:30 PM at NJPAC and the same symphonic billing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/bombay-original-soundtrack-ost/1442492180",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Bombay, a useful compact example of Rahman's orchestral, electronic, vocal and Indian-classical synthesis."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date, time, venue, symphonic billing and program framing were verified against NJPAC; separate Ticketmaster event pages independently verify both Newark functions and authorized sale timing. Repository search found no A.R. Rahman RADAR record or matching event ID before publication. No conductor, vocalists, additional soloists, prices or repertoire beyond the official program description were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Rahman's film music is built for this kind of expansion: Indian classical color, electronics, pop hooks, choral scale and cinematic orchestration already coexist inside the writing. Putting that language in front of the New Jersey Symphony makes the arrangement itself the reason to listen, not celebrity or soundtrack nostalgia. The interesting question is how themes from very different periods and film traditions change when a full orchestra carries the weight, counterpoint and dynamic range in the room.",
+          "trip_verdict": "Actively make room for one of the two Newark performances if orchestration, Indian film music and large-scale cross-genre writing are in the listening thread. It can anchor a Newark/NYC evening, while the two-night run and the broader Symphonic Experience activity provide enough flexibility that it need not displace a genuinely singular event elsewhere in the corridor.",
+          "listen_before": "A.R. Rahman — Bombay (Original Soundtrack) [OST]"
+        },
+        "es": {
+          "why_it_matters": "La música de cine de Rahman está hecha para este tipo de expansión: color de tradición clásica india, electrónica, hooks de pop, escala coral y escritura cinematográfica ya conviven dentro de sus composiciones. Poner ese lenguaje frente a la New Jersey Symphony hace que el arreglo sea la razón para escuchar, no la celebridad ni la nostalgia de soundtrack. La pregunta interesante es cómo cambian temas de épocas y películas muy distintas cuando una orquesta completa carga con el peso, el contrapunto y el rango dinámico dentro de la sala.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos funciones en Newark si la orquestación, la música de cine india y la escritura cross-genre a gran escala están en el hilo de escucha. Puede anclar una noche Newark/NYC, mientras las dos funciones y la actividad más amplia de Symphonic Experience dejan suficiente flexibilidad para no desplazar un evento verdaderamente singular en otro punto del corredor.",
+          "listen_before": "A.R. Rahman — Bombay (Original Soundtrack) [OST]"
+        }
+      }
+    },
+    {
+      "id": "mariza-derek-gripper-duo-andalus-njpac-2026-11-01",
+      "artist": "Mariza with special guests Derek Gripper & Duo Andalus",
+      "subtitle": "Fado, African guitar and Mediterranean / Middle Eastern song in one bill",
+      "dates": {
+        "start": "2026-11-01",
+        "end": null
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark",
+        "name": "Prudential Hall at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Fado / African guitar / Mediterranean cross-cultural bill",
+      "genres": [
+        "Fado",
+        "World",
+        "African guitar",
+        "Mediterranean",
+        "Flamenco"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Mariza — vocals",
+        "Derek Gripper — guitar",
+        "Duo Andalus: Lala Tamar — vocals",
+        "Duo Andalus: Ofer Ronen — oud / flamenco guitar"
+      ],
+      "factual_description": "NJPAC presents Mariza with special guests Derek Gripper and Duo Andalus in Prudential Hall on Sunday, November 1, 2026 at 6:00 PM. NJPAC describes Mariza's set as a journey through Portuguese fado across her career; Derek Gripper appears with his African-guitar repertoire, while Duo Andalus pairs Lala Tamar's vocals with Ofer Ronen on oud and flamenco guitar in music drawing on Mediterranean and Middle Eastern traditions. NJPAC describes Gripper and Duo Andalus as two performances that set the stage for Mariza rather than announcing a joint collaboration among all artists. Ticketmaster independently confirms the same date, time and billing.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/mariza-2026/",
+        "official_tickets": "https://www.ticketmaster.com/mariza-with-special-guests-derek-gripper-newark-new-jersey-11-01-2026/event/0000645AEB758995"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Mariza",
+          "title": "Mundo",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/mundo/1128527799"
+        },
+        {
+          "artist": "Derek Gripper",
+          "title": "One Night On Earth (Live in Concert)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/one-night-on-earth-live-in-concert/1610368277"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact NJPAC event, authorized Ticketmaster destination, announced personnel for Duo Andalus and exact Apple Music pages for Mariza and Derek Gripper are verified. The editorial copy does not imply that the three acts will collaborate because NJPAC describes Gripper and Duo Andalus as performances that set the stage for Mariza."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/mariza-2026/",
+          "publisher": "NJPAC",
+          "checked_on": "2026-08-25",
+          "note": "Official event page confirms November 1, 2026 at 6:00 PM in Prudential Hall; Mariza, Derek Gripper and Duo Andalus billing; and identifies Lala Tamar and Ofer Ronen with vocals, oud and flamenco guitar."
+        },
+        {
+          "url": "https://www.ticketmaster.com/mariza-with-special-guests-derek-gripper-newark-new-jersey-11-01-2026/event/0000645AEB758995",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-25",
+          "note": "Exact authorized ticketing destination confirms the November 1, 6:00 PM NJPAC performance."
+        },
+        {
+          "url": "https://music.apple.com/us/album/mundo/1128527799",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Mariza's Mundo."
+        },
+        {
+          "url": "https://music.apple.com/us/album/one-night-on-earth-live-in-concert/1610368277",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Derek Gripper's One Night On Earth (Live in Concert)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date, time, venue, billing, personnel and the distinct musical framing of the three performances were verified against NJPAC; Ticketmaster independently confirms the exact function. Repository search found no Mariza, Derek Gripper or matching NJPAC event record before publication. No unannounced collaboration, shared set or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The strength of this bill is adjacency rather than a promised supergroup: Mariza's fado places voice and Portuguese song at the center, Derek Gripper has built a highly individual guitar language by translating African string traditions onto six strings, and Duo Andalus brings voice, oud and flamenco guitar into a Mediterranean and Middle Eastern frame. Hearing those vocabularies consecutively makes the evening a useful map of how song, plucked strings and modal color travel across regions without needing to flatten them into one generic 'world music' sound.",
+          "trip_verdict": "Actively make room for it if a Newark/NYC trip overlaps the date and fado, guitar language or Mediterranean musical exchange are part of the listening thread. The bill is unusually coherent across very different traditions, but it is best treated as a strong regional night rather than a reason to rebuild a trip by itself.",
+          "listen_before": "Mariza — Mundo; Derek Gripper — One Night On Earth (Live in Concert)"
+        },
+        "es": {
+          "why_it_matters": "La fuerza del cartel está en la vecindad de lenguajes, no en prometer un supergrupo: el fado de Mariza pone la voz y la canción portuguesa al centro; Derek Gripper ha construido un lenguaje de guitarra muy personal al trasladar tradiciones africanas de cuerdas a seis cuerdas; y Duo Andalus mete voz, oud y guitarra flamenca dentro de un marco mediterráneo y de Oriente Medio. Escuchar esos vocabularios uno detrás de otro vuelve la noche un mapa muy útil de cómo viajan la canción, las cuerdas pulsadas y el color modal entre regiones sin aplastarlos en una sola etiqueta genérica de 'world music'.",
+          "trip_verdict": "Sí le haría espacio activamente si un viaje Newark/NYC coincide con la fecha y el fado, el lenguaje de guitarra o los cruces mediterráneos están en el hilo de escucha. El cartel tiene una coherencia poco común entre tradiciones muy distintas, pero lo trataría como una noche regional fuerte y no como una razón suficiente para rehacer por sí sola todo el viaje.",
+          "listen_before": "Mariza — Mundo; Derek Gripper — One Night On Earth (Live in Concert)"
+        }
+      }
+    }
+  ]
+}
