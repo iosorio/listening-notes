@@ -1,0 +1,110 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "greg-osby-dancing-with-duke-birdland-2026-09-01-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Greg Osby's Dancing with Duke residency clears RADAR admission because a specific all-star sextet applies contemporary improvisational language to Duke Ellington at Birdland; the five-night run provides enough access that A+ better fits the current hierarchy than S.",
+  "events": [
+    {
+      "id": "greg-osby-dancing-with-duke-birdland-2026-09-01",
+      "artist": "Greg Osby: Dancing with Duke",
+      "subtitle": "The Music of Duke Ellington with Ethan Iverson, Eric Harland, J.D. Allen, Virginia MacDonald & Lonnie Plaxico",
+      "dates": {
+        "start": "2026-09-01",
+        "end": "2026-09-05"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30",
+        "20:30",
+        "22:30"
+      ],
+      "venue": {
+        "id": "birdland-jazz-club-new-york",
+        "name": "Birdland Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Ellington reimagined / M-BASE lineage / All-star small-group jazz",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Greg Osby — alto saxophone",
+        "Ethan Iverson — piano",
+        "Eric Harland — drums",
+        "J.D. Allen — tenor saxophone",
+        "Virginia MacDonald — clarinet",
+        "Lonnie Plaxico — bass"
+      ],
+      "factual_description": "Birdland Jazz Club presents Greg Osby's Dancing with Duke from September 1 through September 5, 2026. The official event page lists two sets nightly: 7:00 PM and 9:30 PM Tuesday through Thursday, then 8:30 PM and 10:30 PM Friday and Saturday. Birdland describes Osby leading contemporary interpretations of Duke Ellington with Ethan Iverson on piano, Eric Harland on drums, J.D. Allen on tenor saxophone, Virginia MacDonald on clarinet, and Lonnie Plaxico on bass. Virginia MacDonald's official calendar independently confirms the Birdland engagement and the six-person personnel.",
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/greg-osby-dancing-with-duke-the-music-of-duke-ellington-6/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Greg Osby",
+          "title": "Banned in New York",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/banned-in-new-york/724905061"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Birdland's exact event page verifies the full residency, all set times and the announced personnel. Birdland exposes separate purchase actions for individual sets, so no single residency-wide ticket URL is asserted. The exact Apple Music page for Banned in New York is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.birdlandjazz.com/tm-event/greg-osby-dancing-with-duke-the-music-of-duke-ellington-6/",
+          "publisher": "Birdland Jazz Club",
+          "checked_on": "2026-08-25",
+          "note": "Official event page confirms September 1-5, 2026, all ten set times, Birdland Jazz Club, the contemporary-Ellington framing and the announced ensemble."
+        },
+        {
+          "url": "https://virginiamacdonald.ca/calendar/",
+          "publisher": "Virginia MacDonald",
+          "checked_on": "2026-08-25",
+          "note": "Official artist calendar independently confirms the Dancing with Duke Birdland engagement and lists Greg Osby, Virginia MacDonald, J.D. Allen, Ethan Iverson, Lonnie Plaxico and Eric Harland."
+        },
+        {
+          "url": "https://music.apple.com/us/album/banned-in-new-york/724905061",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Greg Osby's Banned in New York."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Dates, date-specific set times, venue, program framing and personnel were verified from Birdland; Virginia MacDonald's official calendar independently confirms the ensemble; listening is an exact Apple Music album page. Repository search found no existing Greg Osby / Dancing with Duke / Birdland 2026 RADAR record. No ticket destination, additional personnel or unannounced repertoire were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to keep this on RADAR is not Ellington repertory by itself but who is being asked to bend it. Osby's M-BASE-rooted alto language sits beside Iverson's structural piano, Harland's elastic time, Allen's tenor, MacDonald's clarinet and Plaxico's bass, giving the band enough contrasting voices to treat Ellington as material for contemporary interaction rather than period reconstruction. Birdland makes that conversation close enough to hear the arrangement and the improvisation changing each other in real time.",
+          "trip_verdict": "Actively make room for one of the ten sets if New York is already in the corridor plan, especially if contemporary improvisers reworking canonical material is part of the trip. Five nights provide enough flexibility that I would not move a genuinely scarce premiere, farewell or one-off solely to catch this residency.",
+          "listen_before": "Greg Osby — Banned in New York"
+        },
+        "es": {
+          "why_it_matters": "La razón para mantener esto en el RADAR no es el repertorio de Ellington por sí solo, sino quiénes lo van a doblar. El alto de Osby, con raíz M-BASE, se cruza con el piano estructural de Iverson, el tiempo elástico de Harland, el tenor de Allen, el clarinete de MacDonald y el bajo de Plaxico; hay suficientes voces contrastantes para tratar a Ellington como material de interacción contemporánea y no como reconstrucción de época. En Birdland esa conversación queda lo bastante cerca para escuchar cómo arreglo e improvisación se van modificando mutuamente.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los diez sets si Nueva York ya está dentro del recorrido, sobre todo si el viaje viene siguiendo improvisadores contemporáneos enfrentándose al canon. Las cinco noches dan suficiente flexibilidad para no desplazar por esto un estreno, despedida o one-off verdaderamente escaso.",
+          "listen_before": "Greg Osby — Banned in New York"
+        }
+      }
+    }
+  ]
+}
