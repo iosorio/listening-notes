@@ -1,0 +1,122 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "toku-shinya-kiyozuka-blue-note-place-2026-08-30-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule searches and credible Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. The broader Tokyo/Kanto pass found this August 30 Blue Note Place catch-up. The event clears RADAR admission because the exact duo format puts TOKU's voice/flugelhorn language in direct conversation with Shinya Kiyozuka's concert-piano vocabulary in an intimate room, creating a specific cross-genre musical proposition rather than a generic celebrity pairing. Priority A+ is deliberate: this is unusual enough to merit actively making room for one of the two sets, but there is no verified farewell, premiere, one-time commission, or other scarcity fact that would justify S. Recent curated work remains dominated by A/A+ rather than S/S+, consistent with the intended broad-base shape without treating distribution as a quota.",
+  "events": [
+    {
+      "id": "toku-shinya-kiyozuka-blue-note-place-2026-08-30",
+      "artist": "TOKU meets Shinya Kiyozuka",
+      "subtitle": "Voice / flugelhorn + piano duo",
+      "dates": {
+        "start": "2026-08-30",
+        "end": null
+      },
+      "showtimes": [
+        "18:15",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-place-ebisu-tokyo",
+        "name": "Blue Note Place",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Jazz-classical crossover / Intimate duo",
+      "genres": [
+        "Jazz",
+        "Vocal jazz",
+        "Classical crossover",
+        "Pop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "TOKU — vocals, flugelhorn",
+        "Shinya Kiyozuka — piano"
+      ],
+      "factual_description": "Blue Note Place presents TOKU meets Shinya Kiyozuka on Sunday, August 30, 2026 in Ebisu, Tokyo. The first set opens at 5:30 PM and starts at 6:15 PM; the second opens at 7:45 PM and starts at 8:30 PM. Each performance is scheduled for 60 minutes with turnover between sets. The official venue page lists only TOKU on vocals and flugelhorn and Shinya Kiyozuka on piano and describes the collaboration as a genre-crossing encounter between TOKU's jazz-based voice/flugelhorn identity and Kiyozuka's classical-piano practice. Kiyozuka's official artist page and TOKU's official schedule independently confirm the August 30 Blue Note Place date, exact duo billing and set times. The first show is designated Family Friendly Day by the venue.",
+      "links": {
+        "official_event": "https://www.bluenoteplace.jp/live/toku-shinya-kiyozuka-260830/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "TOKU",
+          "title": "Eerything She Said",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/%E3%82%A8%E3%83%B4%E3%83%AA%E3%82%B7%E3%83%B3%E3%82%B0-%E3%82%B7%E3%83%BC-%E3%82%BB%E3%83%83%E3%83%89/1537506974"
+        },
+        {
+          "artist": "Shinya Kiyozuka",
+          "title": "KIYO-LOGUE",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kiyo-logue/1895215398"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact event page, date, set times, duo lineup and current listening pages are verified. Blue Note Place exposes reservation controls on the event page, but no stable event-specific reservation URL was independently resolved outside the venue's session-dependent flow, so official_tickets remains null rather than substituting a generic or unstable destination."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenoteplace.jp/live/toku-shinya-kiyozuka-260830/",
+          "publisher": "Blue Note Place",
+          "checked_on": "2026-08-26",
+          "note": "Official event page confirms August 30, 2026, 6:15 PM and 8:30 PM live starts, the exact TOKU/Shinya Kiyozuka duo, pricing, reservation context and Family Friendly Day designation for the first show."
+        },
+        {
+          "url": "https://tristone.co.jp/actors/kiyozuka/",
+          "publisher": "Tristone Entertainment / Shinya Kiyozuka official page",
+          "checked_on": "2026-08-26",
+          "note": "Official artist page independently confirms the August 30 Blue Note Place date, TOKU/Shinya Kiyozuka billing, set times and reservation opening information."
+        },
+        {
+          "url": "https://toku.fanpla.jp/",
+          "publisher": "TOKU official site",
+          "checked_on": "2026-08-26",
+          "note": "TOKU's official schedule lists the August 30 TOKU meets Shinya Kiyozuka performance at Blue Note Place."
+        },
+        {
+          "url": "https://music.apple.com/us/album/%E3%82%A8%E3%83%B4%E3%83%AA%E3%82%B7%E3%83%B3%E3%82%B0-%E3%82%B7%E3%83%BC-%E3%82%BB%E3%83%83%E3%83%89/1537506974",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for TOKU's 2000 debut album Eerything She Said."
+        },
+        {
+          "url": "https://music.apple.com/us/album/kiyo-logue/1895215398",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for Shinya Kiyozuka's 2026 album KIYO-LOGUE."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, set times, venue, exact two-person lineup and cross-genre framing were verified directly from Blue Note Place; Kiyozuka's official artist page and TOKU's official schedule independently corroborate the engagement; both listening recommendations are exact Apple Music album pages. Repository search found no existing TOKU meets Shinya Kiyozuka / Blue Note Place / August 30, 2026 record before publication. No additional musicians, repertoire, ticket destination or scarcity claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the stripped-down collision of vocabularies. TOKU can move between sung melody and flugelhorn phrasing from inside a jazz language, while Kiyozuka brings a concert-piano vocabulary rooted in classical repertoire but accustomed to crossing into popular music. With no rhythm section or additional ensemble announced, the two musicians have to carry time, harmony, texture and dynamics themselves; in a compact room, that makes the pairing a real musical proposition rather than a guest cameo.",
+          "trip_verdict": "Actively make room for one of the two sets if August 30 is open in Tokyo. The duo is unusual enough to build the evening around, especially in a room this intimate, but I would not displace a rarer master appearance, farewell, premiere or one-off elsewhere in Kanto to make it happen.",
+          "listen_before": "TOKU — Eerything She Said; Shinya Kiyozuka — KIYO-LOGUE"
+        },
+        "es": {
+          "why_it_matters": "Lo que le gana el lugar es el choque de lenguajes en formato mínimo. TOKU puede pasar de la melodía cantada al fraseo del flugelhorn desde adentro del jazz, mientras Kiyozuka llega con un vocabulario de piano de concierto arraigado en repertorio clásico pero acostumbrado a cruzarse con música popular. Sin sección rítmica ni otro ensamble anunciado, los dos tienen que cargar por sí mismos tiempo, armonía, textura y dinámica; en una sala pequeña, eso vuelve la pareja una propuesta musical real y no un simple cameo.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el 30 de agosto está libre en Tokio. El dúo es suficientemente inusual para construir la noche alrededor de él, sobre todo en una sala así de íntima, pero no desplazaría por esta fecha una aparición más rara de un maestro, una despedida, un estreno o un one-off en otro punto de Kanto.",
+          "listen_before": "TOKU — Eerything She Said; Shinya Kiyozuka — KIYO-LOGUE"
+        }
+      }
+    }
+  ]
+}
