@@ -1,0 +1,404 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "strathmore-four-additions-2026-08-26-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-26 after rereading the current durable editorial authority (docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md). No new unrecorded verified Tsuyoshi Yamamoto date was found after checking ALFIE-oriented search, BODY&SOUL, Space M&A, current Yamamoto schedule queries and credible Japanese jazz sources. Four recently announced Strathmore additions clear RADAR admission. The proposed distribution is A+ 3 / S 1 / S+ 0: Anat Cohen + Camille Thurman with the Strathmore Jazz Orchestra, Gustavo Santaolalla's Ronroco Tour, and BEATrio are active-priority events without scarcity claims; The Orchestral Qawwali Project with Washington National Opera Orchestra is S because Strathmore identifies the two-night engagement as the project's U.S. premiere with a specific local opera-orchestra collaboration.",
+  "events": [
+    {
+      "id": "strathmore-jazz-orchestra-anat-cohen-camille-thurman-2027-02-27",
+      "artist": "Strathmore Jazz Orchestra featuring Anat Cohen & Camille Thurman",
+      "subtitle": "Daniel Jamieson directs a 17-piece big band with two reed-and-voice improvisers",
+      "dates": {
+        "start": "2027-02-27",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Big-band jazz / Guest soloists / Contemporary improvisation",
+      "genres": [
+        "Jazz",
+        "Big Band"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Daniel Jamieson — director",
+        "Anat Cohen — featured artist",
+        "Camille Thurman — featured artist",
+        "Strathmore Jazz Orchestra — 17-piece big band"
+      ],
+      "factual_description": "Strathmore announced the Strathmore Jazz Orchestra featuring Anat Cohen and Camille Thurman for Saturday, February 27, 2027 at the Music Center at Strathmore in North Bethesda. The season-addition announcement describes the Strathmore Jazz Orchestra as a 17-piece big band directed by Daniel Jamieson and identifies Cohen and Thurman as the featured guests. Current public materials do not yet expose a stable event-specific detail page, purchase destination or exact showtime, so those fields remain unfilled rather than inferred.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Anat Cohen",
+          "title": "Quartetinho: Bloom",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/quartetinho-bloom-feat-james-shipp-vitor-gon%C3%A7alves/1760620057"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Strathmore's official season-addition announcement verifies the date, venue and billing; a local report based on the Strathmore announcement supplies the 17-piece/Daniel Jamieson context and the guest instrument profiles. The exact Apple Music album page is verified. Event-specific Strathmore detail/ticket URLs and showtime remain pending rather than inferred before public on-sale."
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/press-releases-news/press-release-strathmore-announces-four-new-performances-for-2026-2027-season/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-08-26",
+          "note": "Official Strathmore season-addition announcement lists the February 27, 2027 Strathmore Jazz Orchestra performance featuring Anat Cohen and Camille Thurman at the Music Center at Strathmore."
+        },
+        {
+          "url": "https://culturaldmv.town.news/g/bethesda-md/n/385013/strathmore-adds-four-bold-performances-2026-2027-season",
+          "publisher": "Cultural DMV",
+          "checked_on": "2026-08-26",
+          "note": "Local coverage of Strathmore's announcement identifies Daniel Jamieson as director, the orchestra as a 17-piece big band, and Cohen/Thurman as featured multi-instrumental jazz artists."
+        },
+        {
+          "url": "https://music.apple.com/us/album/quartetinho-bloom-feat-james-shipp-vitor-gon%C3%A7alves/1760620057",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Anat Cohen's Quartetinho: Bloom."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Date, venue and featured billing were verified from Strathmore's official announcement; local coverage based on that release supplies the 17-piece/Daniel Jamieson detail. Repository searches found no existing February 27, 2027 Cohen/Thurman/Strathmore event or batch before publication. No showtime, ticket URL or unannounced personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The interesting part is not simply two guest names on a big-band date. Cohen can make clarinet or tenor carry both lyricism and rhythmic bite; Thurman can move between saxophone and voice without turning the vocal side into a separate feature. Put both inside a 17-piece local orchestra and the arranging question becomes the event: how much room can a large ensemble leave for two musicians whose strongest language is conversational?",
+          "trip_verdict": "Actively make room for this locally. It is a strong one-night DMV jazz date with enough instrumental identity to build the evening around, without pretending that a guest-feature big-band concert is a scarcity event.",
+          "listen_before": "Anat Cohen — Quartetinho: Bloom"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante no es simplemente poner dos nombres invitados sobre una big band. Cohen puede hacer que el clarinete o el tenor carguen lirismo y filo rítmico al mismo tiempo; Thurman se mueve entre saxofón y voz sin separar lo vocal como un número aparte. Meter a las dos dentro de una orquesta local de 17 músicos vuelve al arreglo parte del acontecimiento: cuánto espacio puede dejar una formación grande para dos músicas cuyo idioma más fuerte es la conversación.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV. Es una fecha local de jazz suficientemente fuerte para construir la noche alrededor de ella, sin vender una colaboración de big band como si fuera un acontecimiento escaso.",
+          "listen_before": "Anat Cohen — Quartetinho: Bloom"
+        }
+      }
+    },
+    {
+      "id": "gustavo-santaolalla-ronroco-strathmore-2027-04-15",
+      "artist": "Gustavo Santaolalla",
+      "subtitle": "Ronroco Tour",
+      "dates": {
+        "start": "2027-04-15",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Ronroco / Film score / Latin American instrumental music",
+      "genres": [
+        "Latin American folk",
+        "Film score",
+        "Instrumental"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Latin",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Gustavo Santaolalla — ronroco / multi-instrumentalist",
+        "Multi-instrumental band — additional personnel not yet verified"
+      ],
+      "factual_description": "Strathmore announced Gustavo Santaolalla's Ronroco Tour for Thursday, April 15, 2027 at the Music Center at Strathmore in North Bethesda. The program is described around Santaolalla's multi-instrumental band and music associated with The Motorcycle Diaries, The Book of Life, Maya and the Three, The Last of Us and other scores, with the ronroco central to the tour identity. Current public materials do not yet expose a stable event-specific Strathmore detail page, purchase destination or exact showtime, so those fields remain unfilled rather than inferred.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gustavo Santaolalla",
+          "title": "Ronroco (2024 Remaster)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/ronroco-2024-remaster/1724487204"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Strathmore's official announcement verifies the April 15 date, venue and Ronroco Tour billing. The exact Apple Music Ronroco remaster is verified. Event-specific Strathmore detail/ticket URLs and showtime remain pending rather than inferred before public on-sale; additional band personnel were not announced in the sources checked."
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/press-releases-news/press-release-strathmore-announces-four-new-performances-for-2026-2027-season/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-08-26",
+          "note": "Official Strathmore announcement lists Gustavo Santaolalla's Ronroco Tour for April 15, 2027 at the Music Center at Strathmore and describes the multi-instrumental/film-score program."
+        },
+        {
+          "url": "https://culturaldmv.town.news/g/bethesda-md/n/385013/strathmore-adds-four-bold-performances-2026-2027-season",
+          "publisher": "Cultural DMV",
+          "checked_on": "2026-08-26",
+          "note": "Local coverage of Strathmore's season addition corroborates the April 15 Ronroco Tour date and the repertoire framing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/ronroco-2024-remaster/1724487204",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Ronroco (2024 Remaster)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Date, venue and tour/program identity were verified from Strathmore's official announcement and corroborating local coverage. Repository searches found no existing April 15, 2027 Santaolalla/Strathmore event or batch before publication. No exact showtime, ticket destination, unannounced musicians or additional repertoire were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Santaolalla's real live hook is the instrument. The ronroco gives his scores that dry, plucked, almost geological pulse that can carry landscape before an orchestra or image arrives. Hearing that vocabulary with a multi-instrumental band turns The Last of Us, The Motorcycle Diaries and the rest back into music rather than soundtrack recognition, while the Argentine/Andean thread keeps the night tied to a specific instrumental culture.",
+          "trip_verdict": "Actively make room for this in the DMV. The Ronroco Tour is a distinctive local instrumental date and a very good Strathmore fit, but it is an established touring project rather than a one-off that should dictate larger travel plans.",
+          "listen_before": "Gustavo Santaolalla — Ronroco"
+        },
+        "es": {
+          "why_it_matters": "El gancho real de Santaolalla en vivo está en el instrumento. El ronroco le da a sus partituras ese pulso seco, punteado, casi geológico, capaz de construir paisaje antes de que aparezca una orquesta o una imagen. Escuchar ese vocabulario con banda multiinstrumental devuelve The Last of Us, Diarios de motocicleta y el resto a la música, no sólo al reconocimiento del soundtrack, y mantiene presente el hilo argentino/andino.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV. El Ronroco Tour es una fecha instrumental local con identidad muy clara y Strathmore le queda bien; sigue siendo un proyecto de gira, no una función única que deba mandar sobre planes mayores.",
+          "listen_before": "Gustavo Santaolalla — Ronroco"
+        }
+      }
+    },
+    {
+      "id": "beatrio-strathmore-2027-05-16",
+      "artist": "Béla Fleck, Edmar Castañeda & Antonio Sánchez Trio",
+      "subtitle": "BEATrio — banjo, harp & drums",
+      "dates": {
+        "start": "2027-05-16",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Acoustic fusion / Improvised trio / Instrumental innovators",
+      "genres": [
+        "Jazz",
+        "Bluegrass",
+        "Latin jazz",
+        "Acoustic fusion"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Latin",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Béla Fleck — banjo",
+        "Edmar Castañeda — harp",
+        "Antonio Sánchez — drums"
+      ],
+      "factual_description": "Strathmore announced Béla Fleck, Edmar Castañeda and Antonio Sánchez for Sunday, May 16, 2027 at the Music Center at Strathmore in North Bethesda. The trio works as BEATrio, a banjo/harp/drums project built around collaboratively written original repertoire; Fleck's official music page documents the same three musicians and the working-band identity. Current Strathmore public materials do not yet expose a stable event-specific detail page, purchase destination or exact showtime, so those fields remain unfilled rather than inferred.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Béla Fleck, Edmar Castañeda & Antonio Sánchez",
+          "title": "BEATrio",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/beatrio/1798328005"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Strathmore's official announcement verifies the May 16 date, venue and trio billing. Béla Fleck's official music page independently verifies the exact banjo/harp/drums personnel and the collaboratively written working-trio repertoire. The exact Apple Music BEATrio album page is verified. Event-specific Strathmore URLs and showtime remain pending rather than inferred before public on-sale."
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/press-releases-news/press-release-strathmore-announces-four-new-performances-for-2026-2027-season/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-08-26",
+          "note": "Official Strathmore season-addition announcement lists Béla Fleck, Edmar Castañeda and Antonio Sánchez for May 16, 2027 at the Music Center at Strathmore."
+        },
+        {
+          "url": "https://www.belafleck.com/music",
+          "publisher": "Béla Fleck Official",
+          "checked_on": "2026-08-26",
+          "note": "Official artist music page documents BEATrio as Béla Fleck on banjo, Edmar Castañeda on harp and Antonio Sánchez on drums, with original collaboratively written repertoire."
+        },
+        {
+          "url": "https://music.apple.com/us/album/beatrio/1798328005",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for BEATrio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue and trio billing were verified from Strathmore's official announcement; the working-band personnel and repertoire identity were independently verified from Béla Fleck's official site. Repository searches found no existing May 16, 2027 BEATrio/Strathmore event or batch before publication. No showtime, ticket URL or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Banjo, harp and drums should be an unstable setup; that is exactly why it works. Fleck and Castañeda can each carry bass, harmony and melody from plucked strings while Sánchez can turn pulse into form, so there is no default instrument whose job is merely accompaniment. The trio has already become a real working band, which means the attraction is not novelty but how three virtuoso vocabularies have learned to leave space for one another.",
+          "trip_verdict": "Actively make room for this locally. It is one of the cleaner instrumental-identity fits on the Strathmore calendar, but BEATrio is an active touring group with multiple appearances, so the North Bethesda date does not need scarcity language.",
+          "listen_before": "Béla Fleck, Edmar Castañeda & Antonio Sánchez — BEATrio"
+        },
+        "es": {
+          "why_it_matters": "Banjo, arpa y batería deberían ser una formación inestable; justamente por eso funciona. Fleck y Castañeda pueden cargar bajo, armonía y melodía desde cuerdas pulsadas, mientras Sánchez convierte el pulso en forma, así que no hay un instrumento condenado a acompañar. El trío ya se volvió una banda de trabajo real: el atractivo no es la rareza del formato, sino cómo tres vocabularios virtuosos aprendieron a dejarse espacio.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del calendario local. Es uno de los cruces más limpios de identidad instrumental en Strathmore, pero BEATrio es un grupo activo de gira y esta parada no necesita lenguaje de escasez.",
+          "listen_before": "Béla Fleck, Edmar Castañeda & Antonio Sánchez — BEATrio"
+        }
+      }
+    },
+    {
+      "id": "orchestral-qawwali-project-wno-strathmore-2027-06-25",
+      "artist": "The Orchestral Qawwali Project with Washington National Opera Orchestra",
+      "subtitle": "U.S. premiere — Abi Sampa & Rushil Ranjan",
+      "dates": {
+        "start": "2027-06-25",
+        "end": "2027-06-26"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-26",
+        "rationale": "Strathmore identifies the June 25-26 collaboration with Washington National Opera Orchestra as The Orchestral Qawwali Project's U.S. premiere. The specific first-U.S.-presentation context and local opera-orchestra collaboration make A+ understate the genuine-regret value of missing the engagement. S+ is not warranted because there are two performances and Sampa/Ranjan's project is already an established international orchestral-qawwali production rather than a singular once-ever performance."
+      },
+      "category": "U.S. premiere / Orchestral qawwali / Sufi-classical crossover",
+      "genres": [
+        "Qawwali",
+        "Sufi music",
+        "Orchestral",
+        "Indian classical",
+        "Choral"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Abi Sampa — lead vocals",
+        "Rushil Ranjan — composer / arranger / piano",
+        "The Orchestral Qawwali Project",
+        "Washington National Opera Orchestra"
+      ],
+      "factual_description": "Strathmore and District of Raga announced The Orchestral Qawwali Project with Washington National Opera Orchestra for Friday, June 25 and Saturday, June 26, 2027 at the Music Center at Strathmore, describing the engagement as the project's U.S. premiere. The project is led by singer Abi Sampa and composer/arranger/pianist Rushil Ranjan and combines qawwali/Sufi vocal language with orchestral and choral writing; Strathmore's Windows programming adds contextual activity around the engagement. Current public materials do not yet expose stable event-specific detail/ticket URLs or exact showtimes, so those fields remain unfilled rather than inferred.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Rushil Ranjan, Abi Sampa & City of Birmingham Symphony Orchestra",
+          "title": "Man Kunto Maula (Live at Birmingham Symphony Hall)",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/song/1765369773"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "Strathmore's official season announcement verifies the June 25-26 dates, Music Center venue, Washington National Opera Orchestra collaboration and U.S.-premiere framing. The official Windows-series announcement corroborates the qawwali context and co-presentation. The project biography verifies Sampa/Ranjan leadership, and the exact Apple Music Man Kunto Maula track is verified. Event-specific ticket/detail URLs and showtimes remain pending rather than inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/press-releases-news/press-release-strathmore-announces-four-new-performances-for-2026-2027-season/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-08-26",
+          "note": "Official Strathmore season-addition announcement lists June 25-26, 2027, Washington National Opera Orchestra and the U.S.-premiere framing for The Orchestral Qawwali Project."
+        },
+        {
+          "url": "https://www.strathmore.org/press-releases-news/press-release-strathmores-windows-series-deepens-cultural-connections-for-2026-2027-season/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-08-26",
+          "note": "Official Windows-series announcement supplies the broader cultural-programming context around the Orchestral Qawwali Project engagement and Strathmore/District of Raga collaboration."
+        },
+        {
+          "url": "https://orchestralqawwali.com/biography",
+          "publisher": "The Orchestral Qawwali Project",
+          "checked_on": "2026-08-26",
+          "note": "Official project biography verifies Abi Sampa and Rushil Ranjan as the central creative partnership and describes the blend of Western classical/choral, Indian classical and Sufi qawwali traditions."
+        },
+        {
+          "url": "https://music.apple.com/us/song/1765369773",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music song page for Man Kunto Maula (Live at Birmingham Symphony Hall), documenting the orchestral project in performance."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, venue, WNO Orchestra collaboration and U.S.-premiere framing were verified from Strathmore; the official project biography verifies Sampa/Ranjan and the established international orchestral-qawwali format. Repository searches found no existing June 25-26, 2027 Orchestral Qawwali Project/Strathmore record before publication. The S review is based on the first U.S. presentation with this specific local orchestra, not the artists' fame or a general crossover claim."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The project already knows how to make orchestra and qawwali inhabit the same space; the new fact here is the American context. Bringing Sampa and Ranjan's devotional, rhythm-driven language into the Washington National Opera Orchestra for its first U.S. presentation makes the local orchestra part of the experiment, not just hired scale. The tension between repetition, vocal ascent, tabla-rooted momentum and symphonic mass is the musical reason to care, while the Strathmore/District of Raga framing gives the cultural context enough room to remain visible.",
+          "trip_verdict": "Protect one of the two North Bethesda nights. This is a genuinely rare local configuration and the first U.S. presentation of the project; two performances give some flexibility, so there is no need to turn it into an alter-plans event.",
+          "listen_before": "Rushil Ranjan, Abi Sampa & City of Birmingham Symphony Orchestra — Man Kunto Maula"
+        },
+        "es": {
+          "why_it_matters": "El proyecto ya sabe hacer que qawwali y orquesta habiten el mismo espacio; lo nuevo aquí es el contexto estadounidense. Llevar el lenguaje devocional y rítmico de Sampa y Ranjan a la Washington National Opera Orchestra para su primera presentación en Estados Unidos vuelve a la orquesta local parte del experimento, no sólo escala contratada. La tensión entre repetición, ascenso vocal, impulso rítmico y masa sinfónica es la razón musical; el marco de Strathmore y District of Raga deja además visible el contexto cultural.",
+          "trip_verdict": "Protegería una de las dos noches en North Bethesda. Es una configuración local genuinamente rara y la primera presentación estadounidense del proyecto; dos funciones dan algo de flexibilidad, así que no hace falta convertirla en una noche de rehacer todos los planes.",
+          "listen_before": "Rushil Ranjan, Abi Sampa & City of Birmingham Symphony Orchestra — Man Kunto Maula"
+        }
+      }
+    }
+  ]
+}
