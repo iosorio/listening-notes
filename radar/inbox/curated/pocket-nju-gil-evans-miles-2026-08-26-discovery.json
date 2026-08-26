@@ -1,0 +1,322 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "pocket-nju-gil-evans-miles-2026-08-26-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-26 after reading the current durable RADAR editorial files. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule searches, and current Japanese-jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. The pass then found three unrecorded New York events at The Pocket that clear RADAR admission: New Jazz Underground on August 26 and two separate Gil Evans Project centennial programs, Birth of the Cool on August 27-28 and Miles Ahead on August 29-30. Priorities are deliberately A / A+ / A+: the young trio is worth knowing and catching if already in New York, while the two complete Miles/Evans programs merit active prioritization but have multiple sets and do not require scarcity tiers. Recent curated additions are already concentrated in A/A+ rather than S/S+, and this batch adds no scarcity-tier event. Batch distribution: A 1, A+ 2, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "new-jazz-underground-the-pocket-new-york-2026-08-26",
+      "artist": "New Jazz Underground",
+      "subtitle": "Hoodies-era trio at The Pocket",
+      "dates": {
+        "start": "2026-08-26",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-pocket-new-york",
+        "name": "The Pocket",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Contemporary jazz trio / new-generation NYC jazz",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Hip-hop-influenced jazz",
+        "Afro-Latin jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Abdias Armenteros — saxophone",
+        "Sebastian Rios — bass",
+        "TJ Reddick — drums"
+      ],
+      "factual_description": "The Pocket presents New Jazz Underground on Wednesday, August 26, 2026, with sets at 7:00 PM and 9:00 PM. The trio is Abdias Armenteros on saxophone, Sebastian Rios on bass, and TJ Reddick on drums. The venue describes the group as merging blues, swing and improvisation with hip-hop, pop and Afro-Latin influence. The band's official tour page independently confirms the August 26 Pocket date, and the trio is touring behind its May 29, 2026 album Hoodies.",
+      "links": {
+        "official_event": "https://thepocketnyc.com/event/new-jazz-underground/",
+        "official_tickets": "https://thepocketnyc.com/event/new-jazz-underground/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "New Jazz Underground",
+          "title": "Hoodies",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/hoodies/1877151498"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Pocket event page, the band's official tour listing, current trio personnel, both set times, and the exact Apple Music page for Hoodies are verified. The Pocket event page itself is the stable official purchase surface and contains the live ticket controls."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "The Pocket",
+          "url": "https://thepocketnyc.com/event/new-jazz-underground/",
+          "checked_on": "2026-08-26",
+          "note": "Official venue page confirms August 26, 2026; 7:00 PM and 9:00 PM sets; the trio personnel; musical framing; and active ticket controls."
+        },
+        {
+          "type": "official_artist",
+          "name": "New Jazz Underground",
+          "url": "https://www.newjazzunderground.com/tour",
+          "checked_on": "2026-08-26",
+          "note": "Official band tour page independently confirms The Pocket on August 26, 2026."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/hoodies/1877151498",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Hoodies, released May 29, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, set times, personnel and event framing were verified directly from The Pocket; the date was independently confirmed on the band's official tour page; the current album was verified on Apple Music. Repository searches for New Jazz Underground, The Pocket, and the proposed stable event ID found no existing canonical or inbox record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "New Jazz Underground is worth tracking because the trio does not treat tradition and contemporary language as opposing camps: Armenteros, Rios and Reddick can swing hard, leave real improvisational space, and then let hip-hop or Afro-Latin rhythmic ideas reshape the same conversation. Hoodies gives the group a current body of original material, while The Pocket puts a sax-bass-drums trio in exactly the kind of small room where chemistry and time feel exposed rather than packaged.",
+          "trip_verdict": "Worth catching if New York is already in play today. At this late point in the day I would not build a fresh DMV-to-NYC trip around it, but the trio belongs on the RADAR and is an easy yes if you are already nearby and one of the two sets fits.",
+          "listen_before": "New Jazz Underground — Hoodies"
+        },
+        "es": {
+          "why_it_matters": "Vale seguir a New Jazz Underground porque el trío no plantea tradición y lenguaje contemporáneo como bandos opuestos: Armenteros, Rios y Reddick pueden tocar con swing de verdad, dejar espacio para improvisar y luego permitir que ideas rítmicas de hip-hop o de raíz afrolatina cambien la conversación sin romperla. Hoodies les da además un cuerpo actual de material propio, y The Pocket pone a un trío de saxo, bajo y batería en una sala donde la química y el tiempo quedan completamente expuestos.",
+          "trip_verdict": "Vale entrarle si Nueva York ya está en juego hoy. A esta hora no armaría desde cero un viaje DMV–NYC sólo por la fecha, pero el trío sí pertenece al RADAR y es una decisión fácil si ya estás cerca y uno de los dos sets acomoda.",
+          "listen_before": "New Jazz Underground — Hoodies"
+        }
+      }
+    },
+    {
+      "id": "gil-evans-project-birth-of-the-cool-the-pocket-2026-08-27",
+      "artist": "The Gil Evans Project",
+      "subtitle": "Miles Davis Centennial — Birth of the Cool in full",
+      "dates": {
+        "start": "2026-08-27",
+        "end": "2026-08-28"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-pocket-new-york",
+        "name": "The Pocket",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Miles Davis centennial / Gil Evans repertory / chamber large ensemble",
+      "genres": [
+        "Jazz",
+        "Cool jazz",
+        "Orchestral jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Mike Rodriguez — trumpet soloist",
+        "Ryan Truesdell — conductor",
+        "Steve Wilson — alto saxophone",
+        "Alden Banta — baritone saxophone",
+        "Adam Unsworth — French horn",
+        "Nick Finzer — trombone",
+        "Marcus Rojas — tuba",
+        "Gary Versace — piano",
+        "Jay Anderson — bass",
+        "Willie Jones III — drums",
+        "Wendy Gilles — voice"
+      ],
+      "factual_description": "The Gil Evans Project makes its debut at The Pocket on August 27-28, 2026, with sets at 7:00 PM and 9:00 PM each night. Led by Ryan Truesdell with Mike Rodriguez as trumpet soloist, the ensemble performs the complete music of Birth of the Cool as part of the Miles Davis centennial. The Pocket publishes the full eleven-person lineup and describes the engagement as a celebration of the historic Davis/Evans collaboration; vocalist Wendy Gilles independently lists the same engagement and personnel on her official schedule.",
+      "links": {
+        "official_event": "https://thepocketnyc.com/event/the-gil-evans-project-plays-birth-of-the-cool/",
+        "official_tickets": "https://thepocketnyc.com/event/the-gil-evans-project-plays-birth-of-the-cool/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Miles Davis",
+          "title": "The Complete Birth of the Cool",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-complete-birth-of-the-cool/1458147618"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact venue event page verifies the complete program, two-night/four-set schedule and all announced personnel; Wendy Gilles' official schedule independently confirms the engagement. The exact Apple Music listening page is verified. The event page itself is the official ticket surface."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "The Pocket",
+          "url": "https://thepocketnyc.com/event/the-gil-evans-project-plays-birth-of-the-cool/",
+          "checked_on": "2026-08-26",
+          "note": "Official venue page confirms August 27-28, 2026; 7:00 PM and 9:00 PM sets; complete Birth of the Cool program; Miles Davis centennial framing; Gil Evans Project debut at The Pocket; and the full announced lineup."
+        },
+        {
+          "type": "official_artist",
+          "name": "Wendy Gilles",
+          "url": "https://www.wendygilles.net/upcoming/2026/8/27/gil-evans-project-plays-birth-of-the-cool-at-the-pocket",
+          "checked_on": "2026-08-26",
+          "note": "Participating vocalist's official event page independently confirms the engagement, the full lineup and both set times."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/the-complete-birth-of-the-cool/1458147618",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for The Complete Birth of the Cool."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue, full personnel, centennial context and complete-program framing were verified from The Pocket and independently cross-checked with a participating artist's official schedule. Repository searches for the Gil Evans Project, Birth of the Cool, The Pocket and the proposed stable event ID found no existing canonical or inbox record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more interesting than another Miles centennial tribute because the arrangement itself is the subject. Birth of the Cool only works when the unusual nonet colors — French horn, tuba, baritone and alto around the trumpet — breathe as one instrument, and Ryan Truesdell has built the Gil Evans Project around preserving that arranging language rather than sanding it into generic repertory jazz. Hearing the complete program at The Pocket puts those inner voices at almost chamber-music distance.",
+          "trip_verdict": "Actively make room for one of the four sets if New York is within reach this week. The combination of complete repertoire, the centennial frame and a very small room makes this a strong regional-trip anchor, while two nights and four opportunities provide enough flexibility that it does not need scarcity language.",
+          "listen_before": "Miles Davis — The Complete Birth of the Cool"
+        },
+        "es": {
+          "why_it_matters": "Esto es bastante más interesante que otro tributo de centenario a Miles porque aquí el arreglo mismo es el tema. Birth of the Cool sólo funciona cuando esos colores rarísimos del noneto —corno francés, tuba, barítono y alto alrededor de la trompeta— respiran como un solo instrumento, y Ryan Truesdell construyó The Gil Evans Project precisamente para conservar ese lenguaje de arreglo en vez de convertirlo en jazz de repertorio genérico. Escuchar el programa completo en The Pocket pone esas voces internas casi a distancia de música de cámara.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets si Nueva York está al alcance esta semana. Repertorio completo, centenario y una sala muy pequeña hacen que pueda anclar un viaje regional; dos noches y cuatro oportunidades dan suficiente flexibilidad para no convertirlo artificialmente en una fecha de escasez.",
+          "listen_before": "Miles Davis — The Complete Birth of the Cool"
+        }
+      }
+    },
+    {
+      "id": "gil-evans-project-miles-ahead-the-pocket-2026-08-29",
+      "artist": "The Gil Evans Project",
+      "subtitle": "Miles Davis Centennial — Miles Ahead in full",
+      "dates": {
+        "start": "2026-08-29",
+        "end": "2026-08-30"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-pocket-new-york",
+        "name": "The Pocket",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Miles Davis centennial / Gil Evans repertory / large-ensemble jazz",
+      "genres": [
+        "Jazz",
+        "Orchestral jazz",
+        "Third stream"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Mike Rodriguez — trumpet soloist",
+        "Ryan Truesdell — conductor",
+        "Steve Wilson — woodwinds",
+        "Dave Pietro — woodwinds",
+        "Tom Christensen — woodwinds",
+        "Alden Banta — woodwinds",
+        "Adam Unsworth — French horn",
+        "Dan Salera — French horn",
+        "Augie Haas — lead trumpet",
+        "Grace Fox — trumpet",
+        "Jonathan Heim — trumpet",
+        "Michael Dudley — trumpet",
+        "Dan Urness — trumpet",
+        "Nick Finzer — trombone",
+        "James Burton III — trombone",
+        "Sara Jacovino — trombone",
+        "George Flynn — bass trombone",
+        "Marcus Rojas — tuba",
+        "Gary Versace — piano",
+        "Jay Anderson — bass",
+        "Willie Jones III — drums"
+      ],
+      "factual_description": "The Gil Evans Project continues its Miles Davis centennial engagement at The Pocket on August 29-30, 2026, with sets at 7:00 PM and 9:00 PM each night. Led by Ryan Truesdell with Mike Rodriguez as trumpet soloist, the large ensemble performs the complete music from Miles Ahead, the 1957 Miles Davis/Gil Evans orchestral collaboration. The Pocket publishes the full twenty-one-person lineup and frames the weekend as a continuation of the project's celebration of the Davis/Evans partnership.",
+      "links": {
+        "official_event": "https://thepocketnyc.com/event/the-gil-evans-project-plays-miles-ahead/?se-date=10663",
+        "official_tickets": "https://thepocketnyc.com/event/the-gil-evans-project-plays-miles-ahead/?se-date=10663"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Miles Davis",
+          "title": "Miles Ahead",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/miles-ahead/200300007"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Pocket event page verifies the complete Miles Ahead program, two-night/four-set schedule and all announced personnel. The exact Apple Music album page is verified. The event page itself is the stable official purchase surface."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "The Pocket",
+          "url": "https://thepocketnyc.com/event/the-gil-evans-project-plays-miles-ahead/?se-date=10663",
+          "checked_on": "2026-08-26",
+          "note": "Official venue page confirms August 29-30, 2026; 7:00 PM and 9:00 PM sets; complete Miles Ahead program; Miles Davis centennial framing; and the full announced large-ensemble lineup."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/miles-ahead/200300007",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Miles Ahead."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue, full personnel, centennial context and complete-program framing were verified from The Pocket. Repository searches for the Gil Evans Project, Miles Ahead, The Pocket and the proposed stable event ID found no existing canonical or inbox record before publication. No personnel beyond the venue's published lineup were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Miles Ahead is where the Davis–Evans partnership opens up into full orchestral scale, and that scale is the point here: flutes and reeds, two French horns, five trumpets, four trombones and tuba surrounding a single trumpet soloist. The Gil Evans Project exists to make the voicing and counterpoint audible as living music, and hearing this many acoustic colors compressed into The Pocket should make details that disappear in a concert hall feel almost physical.",
+          "trip_verdict": "Actively make room for one of the four weekend sets if New York is in play. This is a particularly strong choice for anyone following the Miles centennial or orchestration as an instrumental language; two nights and four sets make it accessible enough that a scarcity tier is unnecessary.",
+          "listen_before": "Miles Davis — Miles Ahead"
+        },
+        "es": {
+          "why_it_matters": "Miles Ahead es el momento en que la relación Davis–Evans se abre de lleno a escala orquestal, y justamente esa escala es el tema aquí: flautas y maderas, dos cornos franceses, cinco trompetas, cuatro trombones y tuba rodeando a una sola trompeta solista. The Gil Evans Project existe para que ese voicing y ese contrapunto vuelvan a escucharse como música viva; meter tantos colores acústicos dentro de The Pocket puede hacer casi físicos detalles que en una sala grande se pierden.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets del fin de semana si Nueva York está en juego. Es una opción especialmente fuerte si estás siguiendo el centenario de Miles o la orquestación como lenguaje instrumental; dos noches y cuatro funciones dan suficiente acceso para no necesitar una categoría de escasez.",
+          "listen_before": "Miles Davis — Miles Ahead"
+        }
+      }
+    }
+  ]
+}
