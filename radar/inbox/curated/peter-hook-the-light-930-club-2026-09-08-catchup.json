@@ -1,0 +1,103 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "peter-hook-the-light-930-club-2026-09-08-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This catch-up restores Peter Hook & The Light at 9:30 Club because the specific program centers New Order's Get Ready performed live in full plus Joy Division and New Order material, placing Hook's unusually identifiable bass language inside a culturally resonant small DC room. It grades A+ rather than S because the same album-in-full program is touring extensively across North America in August and September 2026.",
+  "events": [
+    {
+      "id": "peter-hook-the-light-930-club-2026-09-08",
+      "artist": "Peter Hook & The Light",
+      "subtitle": "Get Ready live in full + Joy Division / New Order selections",
+      "dates": {
+        "start": "2026-09-08",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Post-punk lineage / Album-in-full / Bass identity",
+      "genres": [
+        "Post-punk",
+        "Alternative rock",
+        "Electronic rock"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Peter Hook & The Light"
+      ],
+      "factual_description": "9:30 Club presents Peter Hook & The Light in Washington, DC on Tuesday, September 8, 2026. The venue lists doors at 7:00 PM and links to the exact authorized Ticketmaster event page; because the venue does not separately verify the performance start time, no showtime is stored. Peter Hook & The Light's official 2026/27 tour schedule identifies the Washington date and states that the North American program performs New Order's 2001 album Get Ready live in full plus a selection of Joy Division and New Order greatest hits. The same official tour page documents numerous North American dates using the same program across August and September 2026.",
+      "links": {
+        "official_event": "https://www.930.com/e/peter-hook-the-light-north-american-tour-2026/",
+        "official_tickets": "https://www.ticketmaster.com/peter-hook-the-light-north-american-washington-district-of-columbia-09-08-2026/event/1500630E250AE897"
+      },
+      "recommended_listening": [
+        {
+          "artist": "New Order",
+          "title": "Get Ready",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/get-ready/282971689"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact 9:30 Club event page, authorized Ticketmaster destination, Peter Hook & The Light official tour page, album-in-full program, and exact Apple Music page for Get Ready are verified. The 7:00 PM venue value is stored only as doors context because a separate show start is not verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.930.com/e/peter-hook-the-light-north-american-tour-2026/",
+          "publisher": "9:30 Club / I.M.P.",
+          "checked_on": "2026-08-26",
+          "note": "Exact official venue page confirming September 8, 2026 at 9:30 Club in Washington, DC, doors at 7:00 PM, and the authorized Ticketmaster destination."
+        },
+        {
+          "url": "https://peterhookandthelight.live/",
+          "publisher": "Peter Hook & The Light",
+          "checked_on": "2026-08-26",
+          "note": "Official artist tour page confirms the September 8 Washington date and states the 2026 North American program: Get Ready live in full plus a selection of Joy Division and New Order greatest hits. The same page shows the program across many North American dates, informing the scarcity judgment."
+        },
+        {
+          "url": "https://www.ticketmaster.com/peter-hook-the-light-north-american-washington-district-of-columbia-09-08-2026/event/1500630E250AE897",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-26",
+          "note": "Exact authorized ticket page for Peter Hook & The Light at 9:30 Club on September 8, 2026."
+        },
+        {
+          "url": "https://music.apple.com/us/album/get-ready/282971689",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for New Order's Get Ready."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-sources",
+        "note": "The exact 9:30 Club event page and its authorized Ticketmaster destination verify the Washington date, venue and doors time. Peter Hook & The Light's official tour page verifies the Get Ready-in-full concept and the extensive North American run, which is material to keeping the priority at A+ rather than a scarcity tier. Apple Music verifies the exact listening page. Repository searches for Peter Hook, the event title, and the stable event ID found no existing canonical, curated, or processed RADAR record before publication. No unannounced band personnel or unverified show start time were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs on RADAR because Peter Hook's bass is not incidental to the Joy Division/New Order lineage; its high-register melodic attack helped define the architecture of both bands. Hearing him put Get Ready back into sequence at 9:30 Club, then connect it to Joy Division and New Order material across the same night, turns a catalog show into a focused look at how one instrumental voice carried through several eras of post-punk and alternative rock.",
+          "trip_verdict": "Actively make room for the Washington date if post-punk, bass identity, or the Joy Division/New Order lineage matters to the listening thread. The 9:30 Club scale makes this a strong local night, while the extensive North American run gives enough alternative opportunities that it should not displace a genuinely singular premiere, farewell, reunion, or one-off.",
+          "listen_before": "New Order — Get Ready"
+        },
+        "es": {
+          "why_it_matters": "Ésta merece RADAR porque el bajo de Peter Hook no es un detalle dentro del linaje Joy Division/New Order: ese ataque melódico en registro alto ayudó a definir la arquitectura de las dos bandas. Escucharlo reconstruir Get Ready completo en el 9:30 Club y conectarlo después con material de Joy Division y New Order vuelve la noche algo más interesante que un simple repaso de catálogo: permite seguir una misma voz instrumental a través de varias etapas del post-punk y el rock alternativo.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de Washington si el post-punk, la identidad del bajo o el linaje Joy Division/New Order forman parte del hilo de escucha. La escala del 9:30 Club la vuelve una noche local fuerte, pero la gira norteamericana es amplia y deja suficientes oportunidades como para no desplazar un estreno, despedida, reunión o one-off realmente singular.",
+          "listen_before": "New Order — Get Ready"
+        }
+      }
+    }
+  ]
+}
