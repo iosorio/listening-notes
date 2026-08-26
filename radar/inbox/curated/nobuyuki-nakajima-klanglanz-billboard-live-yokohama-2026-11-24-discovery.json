@@ -1,0 +1,123 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "nobuyuki-nakajima-klanglanz-billboard-live-yokohama-2026-11-24-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-26. No new unrecorded Tsuyoshi Yamamoto date was verified from the current ALFIE, BODY&SOUL, Space M&A, Yamamoto-schedule and Japanese-jazz sources checked. This batch adds one newly announced Tokyo/Kanto event that clears RADAR admission under the current editorial rubric: composer/pianist Nobuyuki Nakajima's new KLANGLANZ ensemble in its first live performance at Billboard Live Yokohama. Priority A+ reflects the new formation, unusual chamber-groove instrumentation and event-specific first-live context without treating a debut automatically as an S scarcity event.",
+  "events": [
+    {
+      "id": "nobuyuki-nakajima-klanglanz-billboard-live-yokohama-2026-11-24",
+      "artist": "Nobuyuki Nakajima — KLANGLANZ ensemble",
+      "subtitle": "A New Formation ・ First Live feat. Kahimi Karie",
+      "dates": {
+        "start": "2026-11-24",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary chamber ensemble / first live",
+      "genres": [
+        "Contemporary chamber music",
+        "Jazz",
+        "Minimalism",
+        "Art pop"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Nobuyuki Nakajima — piano",
+        "Satoshi Kitamura — bandoneon",
+        "Kazuma Fujimoto — guitar",
+        "Hitomi Aikawa — marimba",
+        "Shuichiro Sakaguchi — trumpet",
+        "Takashi Sugawa — cello",
+        "Tetsu Nishijima — double bass",
+        "Shinya Fukumori — drums",
+        "Kahimi Karie — guest vocals"
+      ],
+      "factual_description": "Billboard Live Yokohama presents composer/pianist Nobuyuki Nakajima's KLANGLANZ ensemble on Tuesday, November 24, 2026, with stages at 5:30 PM and 8:30 PM. The engagement is billed as the new formation's first live performance. The announced ensemble pairs Nakajima's piano with bandoneon, guitar, marimba, trumpet, cello, double bass and drums, with Kahimi Karie as guest vocalist. Billboard describes the project as extending Nakajima's work across chamber music, bossa nova, minimalism and jazz around a contrast of delicacy and intense dynamism. Club BBL/member sales are scheduled to begin September 3 and general sales September 10, 2026.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/yokohama/show?date=2026-11-24&event_id=ev-21665",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Nobuyuki Nakajima",
+          "title": "PASSACAILLE",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/passacaille/1818863092?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Billboard Live Yokohama event page and exact Apple Music album page for PASSACAILLE are verified. General ticket sales are announced for September 10, 2026, but no stable exact event-level purchase destination was stored before that sale opens."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Yokohama",
+          "url": "https://www.billboard-live.com/en/yokohama/show?date=2026-11-24&event_id=ev-21665",
+          "checked_on": "2026-08-26",
+          "note": "Official event page confirms November 24, 2026; stages at 17:30 and 20:30; the KLANGLANZ ensemble first-live framing; full announced lineup; Kahimi Karie as guest; musical concept; seat prices; and September 3/10 sales schedule."
+        },
+        {
+          "type": "official_artist",
+          "name": "Nobuyuki Nakajima",
+          "url": "https://www.nobuyukinakajima.com/",
+          "checked_on": "2026-08-26",
+          "note": "Official artist site confirms Nakajima's work as composer, pianist and arranger across film, orchestral, chamber and cross-genre projects, and lists PASSACAILLE in his current music catalog."
+        },
+        {
+          "type": "press_announcement",
+          "name": "Real Sound",
+          "url": "https://realsound.jp/2026/08/post-2501560.html",
+          "checked_on": "2026-08-26",
+          "note": "Fresh August 25 announcement independently matches the date, two-stage schedule, full lineup, first-live concept and September 3/10 ticket-sale dates published by Billboard Live."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/passacaille/1818863092?l=en-US",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Nobuyuki Nakajima's PASSACAILLE."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, lineup, first-live framing and concept were verified against Billboard Live Yokohama; Nakajima's artistic background and PASSACAILLE catalog entry were checked against his official site; the August 25 announcement was cross-checked through Real Sound. The canonical repository and current inbox were searched for KLANGLANZ, Nobuyuki Nakajima and the proposed stable event ID before publication and no existing record or batch was found. Ticketing remains pending until a stable exact purchase destination is available."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the formation itself. Nakajima is not simply bringing a jazz combo or a chamber group to Billboard: piano, bandoneon, guitar, marimba, trumpet, cello, double bass and drums create a palette where pulse, resonance and orchestration can move between chamber writing, minimalism and improvisation without a conventional front line. Kahimi Karie's voice adds another deliberately off-center color. Because this is the first live performance of KLANGLANZ, the night is also the first real test of how that architecture behaves onstage rather than on paper.",
+          "trip_verdict": "Actively make room for one of the two Yokohama sets if the Kanto itinerary is in play. The new formation and unusually specific instrumentation make it stronger than a routine club date, while there is not yet enough evidence that this first performance is a singular one-off that should bend the entire trip around it.",
+          "listen_before": "Nobuyuki Nakajima — PASSACAILLE"
+        },
+        "es": {
+          "why_it_matters": "La razón para entrarle está en la formación misma. Nakajima no está llevando a Billboard ni un combo de jazz convencional ni un ensamble de cámara puro: piano, bandoneón, guitarra, marimba, trompeta, cello, contrabajo y batería abren un espacio donde pulso, resonancia y arreglo pueden moverse entre escritura de cámara, minimalismo e improvisación sin una primera línea tradicional. La voz de Kahimi Karie mete además otro color deliberadamente extraño. Como ésta será la primera presentación en vivo de KLANGLANZ, también será la primera prueba real de cómo funciona esa arquitectura arriba del escenario y no sólo como idea.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets en Yokohama si Kanto ya forma parte del itinerario. La nueva formación y una instrumentación tan específica la ponen claramente por encima de una fecha rutinaria de club, pero todavía no hay evidencia suficiente para tratar este debut como un one-off irrepetible que obligue a doblar todo el viaje alrededor de él.",
+          "listen_before": "Nobuyuki Nakajima — PASSACAILLE"
+        }
+      }
+    }
+  ]
+}
