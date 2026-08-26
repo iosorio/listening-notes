@@ -1,0 +1,107 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "george-cables-songbook-smoke-2026-09-02-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This catch-up restores a Smoke Jazz Club residency that clears RADAR admission as A without scarcity inflation: George Cables centers his own songbook with Craig Handy, Essiet Okon Essiet, Jerome Jennings, and Sarah Elizabeth Charles, whose lyrics are part of the recorded Songbook project.",
+  "events": [
+    {
+      "id": "george-cables-songbook-smoke-2026-09-02",
+      "artist": "George Cables Quartet with Sarah Elizabeth Charles",
+      "subtitle": "The George Cables Songbook",
+      "dates": {
+        "start": "2026-09-02",
+        "end": "2026-09-06"
+      },
+      "showtimes": [
+        "18:30",
+        "20:30",
+        "22:00"
+      ],
+      "venue": {
+        "id": "smoke-jazz-club-new-york",
+        "name": "Smoke Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A",
+      "category": "Living-master songbook / Piano-centered post-bop / Smoke residency",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Hard bop",
+        "Vocal jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "George Cables — piano",
+        "Craig Handy — tenor saxophone, flute",
+        "Essiet Okon Essiet — bass",
+        "Jerome Jennings — drums",
+        "Sarah Elizabeth Charles — vocals"
+      ],
+      "factual_description": "Smoke Jazz Club presents George Cables from Wednesday, September 2 through Sunday, September 6, 2026 in a program centered on The George Cables Songbook. The announced group is Cables on piano, Craig Handy on tenor saxophone and flute, Essiet Okon Essiet on bass, Jerome Jennings on drums, and special guest Sarah Elizabeth Charles on vocals. Smoke lists 6:30 PM and 8:30 PM dinner shows throughout the five-night residency, with additional 10:00 PM shows on Friday September 4 and Saturday September 5. George Cables's official site documents The George Cables Songbook as a collection of his compositions and identifies Sarah Elizabeth Charles as the lyricist and vocalist on several pieces, with Craig Handy also featured on the recording.",
+      "links": {
+        "official_event": "https://tickets.smokejazz.com/r/george-cables-quartet-the-george-cables-songbook-featuring-special-guest-sarah-elizabeth-charles",
+        "official_tickets": "https://tickets.smokejazz.com/r/george-cables-quartet-the-george-cables-songbook-featuring-special-guest-sarah-elizabeth-charles"
+      },
+      "recommended_listening": [
+        {
+          "artist": "George Cables",
+          "title": "The George Cables Songbook",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-george-cables-songbook/1437929068"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Smoke residency/ticket hub, full date range, date-specific showtime pattern, complete announced lineup, George Cables's official Songbook page, and the exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://tickets.smokejazz.com/r/george-cables-quartet-the-george-cables-songbook-featuring-special-guest-sarah-elizabeth-charles",
+          "publisher": "Smoke Jazz Club",
+          "checked_on": "2026-08-25",
+          "note": "Exact authorized residency and ticket page confirms September 2-6, the 6:30/8:30 PM shows throughout plus 10:00 PM on Friday/Saturday, complete announced lineup, and the George Cables Songbook framing."
+        },
+        {
+          "url": "https://georgecables.com/music/the-george-cables-songbook/",
+          "publisher": "George Cables",
+          "checked_on": "2026-08-25",
+          "note": "Official artist page documents The George Cables Songbook, its track list and album personnel, and explains that Sarah Elizabeth Charles wrote lyrics for several Cables compositions and performs them on the recording, with Craig Handy also featured."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-george-cables-songbook/1437929068",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for The George Cables Songbook."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, showtimes, venue, lineup, concept and ticketing were verified on Smoke's exact authorized residency page. George Cables's official site verifies the compositional and Sarah Elizabeth Charles lyric/vocal relationship behind the Songbook project. Apple Music verifies the exact listening page. Repository searches for George Cables, the event title, and a 2026 Smoke event ID found no existing canonical, curated, or processed RADAR record before publication. No unannounced personnel, prices beyond the source, or secondary ticket destinations were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs on RADAR because the center of gravity is Cables's own writing, not a standards set wrapped around a famous pianist. Sarah Elizabeth Charles has already turned several of his instrumental pieces into songs by writing lyrics for them, while Craig Handy, Essiet Okon Essiet, and Jerome Jennings give the music enough history and flexibility to keep the songbook alive rather than fixed. It is a useful chance to hear a major living pianist-composer presented through his own vocabulary in the kind of room where touch, pacing, and ensemble response are the point.",
+          "trip_verdict": "Keep it on the board if New York is already in play and take a set if it fits the schedule. The five-night run offers enough flexibility that I would not build a dedicated DMV-to-New York trip around it or displace a rarer premiere, farewell, reunion, or one-off.",
+          "listen_before": "George Cables — The George Cables Songbook"
+        },
+        "es": {
+          "why_it_matters": "Ésta merece RADAR porque el centro de gravedad está en la escritura de Cables, no en un set de standards montado alrededor de un pianista famoso. Sarah Elizabeth Charles ya convirtió varias de sus piezas instrumentales en canciones al escribirles letra, mientras Craig Handy, Essiet Okon Essiet y Jerome Jennings le dan al repertorio suficiente historia y elasticidad para que el cancionero siga vivo y no quede congelado. Es una buena oportunidad para escuchar a un gran pianista-compositor vivo desde su propio vocabulario, en una sala donde importan el toque, el manejo del tiempo y la respuesta del ensamble.",
+          "trip_verdict": "Vale tenerla en el tablero si Nueva York ya está en juego e ir a uno de los sets si encaja en el calendario. Cinco noches dan suficiente margen para no armar un viaje dedicado DMV→Nueva York sólo por esta residencia ni desplazar un estreno, despedida, reunión o one-off más raro.",
+          "listen_before": "George Cables — The George Cables Songbook"
+        }
+      }
+    }
+  ]
+}
