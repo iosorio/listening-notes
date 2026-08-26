@@ -1,0 +1,204 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "acoustic-weather-report-vienna-teng-2026-08-26-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before admission or grading. ALFIE, BODY&SOUL, KEYSTONE CLUB TOKYO Yamamoto listings, Space M&A and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance; known Yamamoto dates were not duplicated. This batch adds two events that clear RADAR admission for specific musical reasons: ACOUSTIC WEATHER REPORT at KEYSTONE CLUB TOKYO, an established Japanese veteran trio that dismantles and acoustically reinterprets Weather Report, and Vienna Teng featuring Few Of A Kind at The Hamilton Live, where Teng's songwriting is placed inside a five-person chamber/improvising ensemble with unusually specific instrumentation. Proposed batch distribution is A=1, A+=1, S=0, S+=0. This distribution is a sanity check, not a quota.",
+  "events": [
+    {
+      "id": "acoustic-weather-report-keystone-club-tokyo-2026-09-07",
+      "artist": "ACOUSTIC WEATHER REPORT",
+      "subtitle": "Makoto Kuriya / Koichi Osamu / Hiroyuki Noritake reinterpret Weather Report",
+      "dates": {
+        "start": "2026-09-07",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "keystone-club-tokyo-roppongi",
+        "name": "KEYSTONE CLUB TOKYO",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Tokyo fusion / Acoustic Weather Report reinterpretation",
+      "genres": [
+        "Jazz",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Makoto Kuriya — piano",
+        "Koichi Osamu — bass",
+        "Hiroyuki Noritake — drums"
+      ],
+      "factual_description": "KEYSTONE CLUB TOKYO presents ACOUSTIC WEATHER REPORT on Monday, September 7, 2026. Doors are at 18:00 and the performance starts at 19:00. The announced trio is Makoto Kuriya on piano, Koichi Osamu on bass and Hiroyuki Noritake on drums. The venue describes the concept as three veteran artists dismantling and newly interpreting Weather Report in pursuit of freedom, hot interplay and the essence of jazz. Kuriya's and Osamu's official project materials document ACOUSTIC WEATHER REPORT as an established trio formed to reinterpret Weather Report acoustically rather than reproduce the original arrangements.",
+      "links": {
+        "official_event": "https://keystoneclubtokyo.com/html/schedule/acoustic-weather-report/",
+        "official_tickets": "https://keystoneclubtokyo.com/html/schedule/acoustic-weather-report/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Makoto Kuriya, Koichi Osamu & Hiroyuki Noritake",
+          "title": "Acoustic Weather Report",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/%E3%82%A2%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-%E3%82%A6%E3%82%A7%E3%82%B6%E3%83%BC-%E3%83%AA%E3%83%9D%E3%83%BC%E3%83%88/1537317460"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact KEYSTONE CLUB TOKYO page verifies date, doors, start time, full trio, price and the embedded venue reservation form. Official artist project pages verify the trio's Weather Report reinterpretation concept and personnel. The exact Apple Music album page is verified."
+      },
+      "sources": [
+        {
+          "url": "https://keystoneclubtokyo.com/html/schedule/acoustic-weather-report/",
+          "publisher": "KEYSTONE CLUB TOKYO",
+          "checked_on": "2026-08-26",
+          "note": "Exact official event and reservation page confirming September 7, 2026, doors 18:00, start 19:00, Kuriya/Osamu/Noritake, and the venue's description of the trio dismantling and reinterpreting Weather Report."
+        },
+        {
+          "url": "https://www.makotokuriya.com/AWRtourEN.html",
+          "publisher": "Makoto Kuriya",
+          "checked_on": "2026-08-26",
+          "note": "Official artist project page documents ACOUSTIC WEATHER REPORT as the Kuriya/Osamu/Noritake trio and describes its acoustic reworking of Weather Report material."
+        },
+        {
+          "url": "https://music.apple.com/us/album/%E3%82%A2%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-%E3%82%A6%E3%82%A7%E3%82%B6%E3%83%BC-%E3%83%AA%E3%83%9D%E3%83%BC%E3%83%88/1537317460",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Acoustic Weather Report by Makoto Kuriya, Koichi Osamu and Hiroyuki Noritake."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "The event was verified on KEYSTONE CLUB TOKYO's exact live page and the concept/personnel were cross-checked against Makoto Kuriya's official project material. Repository searches for ACOUSTIC WEATHER REPORT and the proposed stable event ID returned no existing canonical, curated or processed match before publication. No unannounced personnel, showtimes or ticket destinations were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a repertory cover exercise. Kuriya, Osamu and Noritake have spent years using Weather Report as raw material for an acoustic piano trio, stripping away the electric surfaces and forcing the harmony, rhythmic displacement and collective improvisation to survive in a different physical language. In a room as small as Keystone, the interest is hearing three veteran Japanese players negotiate that translation in real time rather than reproduce the records.",
+          "trip_verdict": "Actively make room for September 7 if fusion, rhythm-section interplay and Japanese instrumental voices are part of the Tokyo thread. The project is established and has performed repeatedly, so I would build an evening around this set without treating it as a once-only destination event.",
+          "listen_before": "Makoto Kuriya, Koichi Osamu & Hiroyuki Noritake — Acoustic Weather Report"
+        },
+        "es": {
+          "why_it_matters": "Esto no es un ejercicio de tocar repertorio de memoria. Kuriya, Osamu y Noritake llevan años usando a Weather Report como materia prima para un trío acústico: quitan la superficie eléctrica y obligan a que la armonía, los desplazamientos rítmicos y la improvisación colectiva sobrevivan en otro lenguaje físico. En una sala tan chica como Keystone, lo interesante es escuchar a tres veteranos japoneses negociar esa traducción en tiempo real, no reproducir los discos.",
+          "trip_verdict": "Sí le haría espacio activamente al 7 de septiembre si la fusión, la conversación de la sección rítmica y las voces instrumentales japonesas forman parte del hilo de Tokio. Es un proyecto establecido que ha tocado varias veces, así que construiría la noche alrededor del set sin tratarlo como un destino irrepetible.",
+          "listen_before": "Makoto Kuriya, Koichi Osamu & Hiroyuki Noritake — Acoustic Weather Report"
+        }
+      }
+    },
+    {
+      "id": "vienna-teng-few-of-a-kind-hamilton-washington-dc-2026-11-21",
+      "artist": "Vienna Teng featuring Few Of A Kind",
+      "subtitle": "Vienna Teng's songwriting inside a chamber-improvising quintet",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Chamber folk / Improvising ensemble / Songwriting crossover",
+      "genres": [
+        "Chamber folk",
+        "Jazz",
+        "Classical crossover",
+        "Singer-songwriter"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Vienna Teng — piano, vocals",
+        "Ben Russell — violin, vocals",
+        "Brandon Ridenour — trumpet",
+        "Andrew Gutauskas — bass clarinet, baritone saxophone",
+        "Yousif Sheronick — percussion"
+      ],
+      "factual_description": "Vienna Teng's official 2026 tour announcement lists a Saturday, November 21, 2026 performance at The Hamilton Live in Washington, DC at 8:00 PM and explicitly bills the date as 'featuring Few Of A Kind.' The Hamilton's authorized EVENTIM page confirms doors at 6:30 PM and show at 8:00 PM. Teng's official January 2026 Few Of A Kind EP announcement identifies the current ensemble as Teng with violinist-singer Ben Russell, trumpeter Brandon Ridenour, Andrew Gutauskas on bass clarinet and baritone saxophone, and Yousif Sheronick on percussion. The EP includes arrangements and compositions spanning Teng material, Maya Angelou, asymmetrical-meter writing and blues repertoire.",
+      "links": {
+        "official_event": "https://wl.eventim.us/event/vienna-teng/691921?afflky=TheHamiltonDC",
+        "official_tickets": "https://wl.eventim.us/event/vienna-teng/691921?afflky=TheHamiltonDC"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Few of a Kind",
+          "title": "Few Of A Kind",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/few-of-a-kind-feat-vienna-teng-brandon-louis/1855695834"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The authorized Hamilton/EVENTIM page verifies date, venue, doors, showtime and ticketing. Vienna Teng's official tour page verifies that the Washington date features Few Of A Kind, and her official EP announcement verifies the ensemble personnel and instrumentation. The exact Apple Music EP page is verified."
+      },
+      "sources": [
+        {
+          "url": "https://wl.eventim.us/event/vienna-teng/691921?afflky=TheHamiltonDC",
+          "publisher": "The Hamilton Live / EVENTIM",
+          "checked_on": "2026-08-26",
+          "note": "Exact authorized event and ticketing page confirming Vienna Teng at The Hamilton Live on November 21, 2026, doors 6:30 PM and show 8:00 PM."
+        },
+        {
+          "url": "https://www.viennateng.com/news/2026-tour-2",
+          "publisher": "Vienna Teng",
+          "checked_on": "2026-08-26",
+          "note": "Official 2026 tour announcement confirms the November 21 Washington date and explicitly states that the Hamilton performance features Few Of A Kind."
+        },
+        {
+          "url": "https://www.viennateng.com/news/few-of-a-kind-debut-ep",
+          "publisher": "Vienna Teng",
+          "checked_on": "2026-08-26",
+          "note": "Official January 2026 EP announcement identifies the current ensemble personnel and instrumentation and describes the project's repertoire and writing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/few-of-a-kind-feat-vienna-teng-brandon-louis/1855695834",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for the four-track 2026 Few Of A Kind EP featuring Vienna Teng, Brandon Ridenour, Ben Russell, Yousif Sheronick and Andrew Gutauskas."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "The date/time/ticketing were verified through the Hamilton's authorized EVENTIM destination, while Vienna Teng's official site verifies that this specific Washington date features Few Of A Kind and documents the ensemble's current personnel. Repository searches for Vienna Teng, Few Of A Kind, The Hamilton and the proposed stable event ID found no existing matching RADAR event or batch before publication. No additional support act, personnel or program beyond the published sources is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The specific reason this date belongs is Few Of A Kind. Teng's piano and songs are being placed inside an ensemble whose violin, trumpet, bass clarinet/baritone sax and hand percussion can change harmony, register and pulse without relying on a conventional rock rhythm section. The debut EP already moves between Teng's writing, a Maya Angelou setting, five-beat rhythmic play and blues, making this a much more instrumentally curious Hamilton date than a standard singer-songwriter tour stop.",
+          "trip_verdict": "Keep it on the local board and go if November 21 is open, especially if chamber writing, unusual instrumentation and the border between composed song and improvisation are in the listening thread. I would not displace a rarer local premiere, farewell or historically specific one-off for it.",
+          "listen_before": "Few Of A Kind — Few Of A Kind"
+        },
+        "es": {
+          "why_it_matters": "La razón específica para meter esta fecha es Few Of A Kind. El piano y las canciones de Teng quedan dentro de un ensamble donde violín, trompeta, clarinete bajo/saxo barítono y percusión pueden mover armonía, registro y pulso sin depender de una sección rítmica convencional de rock. El EP debut ya pasa de canciones de Teng a un texto de Maya Angelou, juego rítmico en cinco y blues; eso vuelve esta fecha del Hamilton mucho más curiosa instrumentalmente que una parada normal de cantautora.",
+          "trip_verdict": "La tendría en el tablero local e iría si el 21 de noviembre está libre, sobre todo si la escritura de cámara, la instrumentación poco común y la frontera entre canción compuesta e improvisación están en el hilo de escucha. No desplazaría por ésta un estreno local más raro, una despedida o un one-off históricamente más específico.",
+          "listen_before": "Few Of A Kind — Few Of A Kind"
+        }
+      }
+    }
+  ]
+}
