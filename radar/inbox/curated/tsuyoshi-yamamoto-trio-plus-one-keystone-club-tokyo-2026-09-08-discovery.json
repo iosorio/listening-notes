@@ -1,0 +1,102 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tsuyoshi-yamamoto-trio-plus-one-keystone-club-tokyo-2026-09-08-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. KEYSTONE CLUB TOKYO now lists an unrecorded September 8, 2026 Tsuyoshi Yamamoto Trio +1 performance. The event clears RADAR admission because it is a verified Yamamoto small-club date with Michio Takanashi and Chicco Souma. It grades A rather than A+/S/S+: the exact lineup is a recurring Yamamoto club configuration, the same three named musicians also appeared together at KEYSTONE CLUB TOKYO on May 31, 2026, and no premiere, farewell, anniversary, special repertoire, or named guest is verified. Proposed batch distribution: A 1, A+ 0, S 0, S+ 0. This is a sanity check, not a quota.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-trio-plus-one-keystone-club-tokyo-2026-09-08",
+      "artist": "Tsuyoshi Yamamoto Trio +1",
+      "subtitle": "Yamamoto / Michio Takanashi / Chicco Souma at KEYSTONE CLUB TOKYO",
+      "dates": {
+        "start": "2026-09-08",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "keystone-club-tokyo-roppongi",
+        "name": "KEYSTONE CLUB TOKYO",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Tokyo jazz / Yamamoto small-club trio",
+      "genres": [
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto — piano",
+        "Michio Takanashi — bass",
+        "Chicco Souma — drums",
+        "Additional '+1' participant — not named on the current official event page"
+      ],
+      "factual_description": "KEYSTONE CLUB TOKYO lists 'Tsuyoshi Yamamoto Trio +1' for Tuesday, September 8, 2026. Doors are at 18:30 and the performance starts at 19:30. The exact venue page names Tsuyoshi Yamamoto on piano, Michio Takanashi on bass and Chicco Souma on drums. Although the billing says '+1', no fourth participant is identified on the current page, so no additional musician is inferred. General admission is listed at ¥3,800, with a separate table charge. The exact event page contains the venue's reservation form.",
+      "links": {
+        "official_event": "https://keystoneclubtokyo.com/html/schedule/%E5%B1%B1%E6%9C%AC%E5%89%9B-night-2/",
+        "official_tickets": "https://keystoneclubtokyo.com/html/schedule/%E5%B1%B1%E6%9C%AC%E5%89%9B-night-2/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio",
+          "title": "Blues For K",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/blues-for-k/6768695416"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact KEYSTONE CLUB TOKYO event page verifies the billing, date, doors, start time, three named musicians, price and venue-run reservation form. The '+1' participant remains unnamed and is explicitly not inferred. The exact Apple Music album page is verified."
+      },
+      "sources": [
+        {
+          "url": "https://keystoneclubtokyo.com/html/schedule/%E5%B1%B1%E6%9C%AC%E5%89%9B-night-2/",
+          "publisher": "KEYSTONE CLUB TOKYO",
+          "checked_on": "2026-08-25",
+          "note": "Exact official event and reservation page confirming September 8, 2026, doors 18:30, start 19:30, the 'Tsuyoshi Yamamoto Trio +1' billing, Yamamoto/Takanashi/Souma as the three currently named musicians, ¥3,800 general admission and the venue's embedded reservation form."
+        },
+        {
+          "url": "https://www.jazzshiryokan.net/jazzDB/performer_detail.php?recordID=M1936",
+          "publisher": "Jazz資料館",
+          "checked_on": "2026-08-25",
+          "note": "Authoritative Japanese jazz performance database documents Yamamoto, Michio Takanashi and Chicco Souma together at KEYSTONE CLUB TOKYO on May 31, 2026, supporting the editorial judgment that this is a recurring club configuration rather than a scarce one-off."
+        },
+        {
+          "url": "https://music.apple.com/us/album/blues-for-k/6768695416",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music album page for Tsuyoshi Yamamoto Trio's Blues For K."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "The September 8 event was discovered on KEYSTONE CLUB TOKYO's live schedule and verified on the exact event page. Repository searches for the date, Yamamoto/Keystone combination and the proposed stable event ID found no existing matching RADAR event or batch. Jazz資料館 was used only for historical lineup context, not to override the primary event facts. No unnamed '+1' participant is guessed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs because the Yamamoto thread is ultimately about not missing real club opportunities, and this one changes the rhythm-section conversation: Michio Takanashi and Chicco Souma put a different weight under Yamamoto's touch than the Kagawa/Osumi trio heard elsewhere in the current schedule. The configuration is not rare enough to inflate the grade—the same three named musicians played Keystone earlier in 2026—but it is exactly the kind of small-room date worth keeping visible.",
+          "trip_verdict": "Keep September 8 on the Tokyo board and take it if the evening is open, especially if the goal is to hear Yamamoto in a compact club setting rather than a larger programmed event. I would not displace a genuinely scarce one-off, farewell or unusual lineup for it.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Blues For K"
+        },
+        "es": {
+          "why_it_matters": "Entra porque el hilo Yamamoto consiste, al final, en no perder oportunidades reales de escucharlo en club, y aquí cambia la conversación de la sección rítmica: Michio Takanashi y Chicco Souma ponen otro peso debajo del toque de Yamamoto frente al trío Kagawa/Osumi que aparece en otras fechas actuales. La configuración no es lo bastante rara para inflar la nota —los mismos tres músicos ya tocaron juntos en Keystone este año—, pero sí es exactamente el tipo de noche pequeña que vale mantener visible.",
+          "trip_verdict": "La tendría en el tablero de Tokio y entraría si la noche está libre, sobre todo si la idea es escuchar a Yamamoto en una sala compacta y no dentro de un evento más programado. No desplazaría por ésta un one-off realmente escaso, una despedida o una alineación inusual.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Blues For K"
+        }
+      }
+    }
+  ]
+}
