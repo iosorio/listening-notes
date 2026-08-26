@@ -1,0 +1,311 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "three-visitors-clarke-hiromi-2026-08-26-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and current Japanese jazz sources produced no new unrecorded verified Yamamoto date. Three Visitors clears RADAR admission through the specific working-trio language of Edward Simon, Scott Colley, and Brian Blade around their 2024 album, with separate COTTON CLUB and Blue Note Tokyo engagements; both are A+ because the trio is unusually strong and worth actively making room for, while six Tokyo sets across three consecutive days remove S-level scarcity. Stanley Clarke and Hiromi with PUBLIQuartet at Strathmore clears admission through the personal Chick Corea lineage, bass-piano virtuosity, and improvising string-quartet setting; A+ is appropriate because the same tribute program tours multiple cities in 2027, so the North Bethesda performance is exceptional locally without being scarce enough for S. Proposed batch shape: A+ 3, A 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "three-visitors-cotton-club-tokyo-2026-12-13",
+      "artist": "THREE VISITORS featuring Edward Simon, Scott Colley & Brian Blade",
+      "subtitle": "Three Visitors — Tokyo club run",
+      "dates": {
+        "start": "2026-12-13",
+        "end": "2026-12-14"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30",
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz trio / Album project / Tokyo club run",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Edward Simon — piano",
+        "Scott Colley — bass",
+        "Brian Blade — drums"
+      ],
+      "factual_description": "COTTON CLUB presents Three Visitors featuring Edward Simon, Scott Colley and Brian Blade on Sunday, December 13 and Monday, December 14, 2026. December 13 has sets at 4:30 PM and 7:30 PM; December 14 has sets at 6:00 PM and 8:30 PM. The venue identifies the project with the trio's 2024 GroundUP Music album Three Visitors and lists Simon on piano, Colley on bass and Blade on drums. General web reservations are scheduled to open September 14, 2026 after a Jam Session member presale on September 8.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/three-visitors-261213/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Scott Colley, Edward Simon & Brian Blade",
+          "title": "Three Visitors",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/three-visitors/1758824309"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact COTTON CLUB event page verifies both dates, all four set times, the trio personnel, reservation-opening dates, and the Three Visitors album framing. The exact Apple Music album page is verified. COTTON CLUB routes booking through its reservation system, and no stable event-specific purchase destination was stored before the reservation window opens."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/three-visitors-261213/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-26",
+          "note": "Official venue page confirms December 13-14, 2026, the date-specific set times, Edward Simon / Scott Colley / Brian Blade lineup, reservation-opening dates, and the 2024 Three Visitors project context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/three-visitors/1758824309",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for Three Visitors by Scott Colley, Edward Simon and Brian Blade."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, venue, set times, lineup and project context were verified directly against COTTON CLUB; the listening destination was verified on Apple Music. Repository searches for the exact stable event ID and Three Visitors billing returned no matching RADAR record before publication. No ticket URL or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the trio itself. Simon, Colley and Blade have enough shared language that the music can move without a fixed hierarchy: piano can become rhythm, bass can carry the melodic argument, and Blade can reshape the form without sounding like he is simply driving it. Three Visitors gives that chemistry an actual body of compositions, so this is a working ensemble rather than an all-star pickup date.",
+          "trip_verdict": "Actively make room for one set if December overlaps with Tokyo. The COTTON CLUB room should reward the trio's dynamics and small shifts in time, but the three-day Tokyo run gives enough flexibility that there is no need to sacrifice a genuinely singular master appearance elsewhere in Kanto.",
+          "listen_before": "Scott Colley, Edward Simon & Brian Blade — Three Visitors"
+        },
+        "es": {
+          "why_it_matters": "La razón para entrarle es el trío mismo. Simon, Colley y Blade tienen suficiente lenguaje compartido para que la música se mueva sin una jerarquía fija: el piano puede volverse ritmo, el bajo cargar el argumento melódico y Blade cambiar la forma sin limitarse a empujarla desde atrás. Three Visitors les da además un cuerpo real de composiciones, así que no es una fecha de estrellas armada para la ocasión sino un ensamble con identidad propia.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets si diciembre coincide con Tokio. COTTON CLUB debería favorecer muchísimo la dinámica y los pequeños desplazamientos de tiempo del trío; como hay una corrida de tres días en la ciudad, todavía dejaría precedencia a un maestro en contexto verdaderamente singular en otro punto de Kanto.",
+          "listen_before": "Scott Colley, Edward Simon & Brian Blade — Three Visitors"
+        }
+      }
+    },
+    {
+      "id": "three-visitors-blue-note-tokyo-2026-12-15",
+      "artist": "THREE VISITORS featuring Edward Simon, Scott Colley & Brian Blade",
+      "subtitle": "Three Visitors — Blue Note Tokyo debut",
+      "dates": {
+        "start": "2026-12-15",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-aoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz trio / Album project / Blue Note Tokyo debut",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Edward Simon — piano",
+        "Scott Colley — bass",
+        "Brian Blade — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Three Visitors featuring Edward Simon, Scott Colley and Brian Blade on Tuesday, December 15, 2026, with sets at 6:00 PM and 8:30 PM. The venue identifies the appearance as the project's first Blue Note Tokyo engagement and centers the program on the trio's 2024 GroundUP Music album Three Visitors. General web reservations are scheduled to open September 14, 2026 after a Jam Session member presale on September 8.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/sp/artists/three-visitors/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Scott Colley, Edward Simon & Brian Blade",
+          "title": "Three Visitors",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/three-visitors/1758824309"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Blue Note Tokyo event page verifies the date, both set times, trio personnel, Blue Note Tokyo debut framing and reservation-opening dates. The exact Apple Music album page is verified. No stable event-specific purchase destination was stored before the reservation window opens."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/sp/artists/three-visitors/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-26",
+          "note": "Official event page confirms December 15, 2026, 6:00 PM and 8:30 PM sets, the Edward Simon / Scott Colley / Brian Blade lineup, Blue Note Tokyo debut framing, reservation-opening dates, and Three Visitors album context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/three-visitors/1758824309",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for Three Visitors by Scott Colley, Edward Simon and Brian Blade."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, set times, lineup and project context were verified directly against Blue Note Tokyo; the listening destination was verified on Apple Music. Repository searches for the exact stable event ID and Three Visitors billing returned no matching RADAR record before publication. No ticket URL or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the same working trio rather than a separate one-off concept, but the Blue Note date matters as another close-range way to hear how Simon, Colley and Blade distribute melody, pulse and form around the Three Visitors book. Blade's ability to turn dynamics into structure is especially well suited to a room where the smallest change in touch can register.",
+          "trip_verdict": "Actively make room for one of the two sets if the earlier COTTON CLUB dates do not fit. Treat the three Tokyo nights as alternate doors into the same A+-level opportunity rather than a reason to see every performance; a scarcer one-off elsewhere in the city can still take precedence.",
+          "listen_before": "Scott Colley, Edward Simon & Brian Blade — Three Visitors"
+        },
+        "es": {
+          "why_it_matters": "Es el mismo trío de trabajo y no un concepto distinto de una sola noche, pero Blue Note ofrece otra forma muy cercana de escuchar cómo Simon, Colley y Blade se reparten melodía, pulso y forma alrededor del repertorio de Three Visitors. La capacidad de Blade para convertir la dinámica en estructura tiene especialmente sentido en una sala donde cualquier cambio pequeño de toque se alcanza a sentir.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si las fechas previas de COTTON CLUB no embonan. Tomaría las tres noches de Tokio como puertas alternativas a la misma oportunidad A+ y no como obligación de ver todas; un one-off más escaso en la ciudad todavía tendría precedencia.",
+          "listen_before": "Scott Colley, Edward Simon & Brian Blade — Three Visitors"
+        }
+      }
+    },
+    {
+      "id": "stanley-clarke-hiromi-publiquartet-strathmore-2027-04-08",
+      "artist": "Stanley Clarke & Hiromi featuring PUBLIQuartet",
+      "subtitle": "A Celebration of the Music of Chick Corea and Beyond",
+      "dates": {
+        "start": "2027-04-08",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Chick Corea tribute / Bass-piano-string collaboration",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Chamber music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Stanley Clarke — bass",
+        "Hiromi — piano",
+        "PUBLIQuartet — string quartet"
+      ],
+      "factual_description": "Strathmore presents Stanley Clarke and Hiromi featuring PUBLIQuartet at the Music Center at Strathmore on Thursday, April 8, 2027 at 8:00 PM. The program, A Celebration of the Music of Chick Corea and Beyond, combines Chick Corea compositions with new works inspired by his legacy. Strathmore identifies Clarke as Corea's longtime Return to Forever collaborator and notes that Hiromi's connection to Corea began when he invited her to perform with him in Tokyo at age 17. PUBLIQuartet adds an improvisation-oriented string-quartet voice. The same program is scheduled at other 2027 presenters, including Berklee, Krannert Center, Mesa Arts Center and CU Presents.",
+      "links": {
+        "official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/stanley-clarke-hiromi/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chick Corea & Hiromi",
+          "title": "Duet",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/duet/1442964638"
+        },
+        {
+          "artist": "Stanley Clarke Trio",
+          "title": "Jazz In the Garden (feat. Hiromi & Lenny White)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/jazz-in-the-garden-feat-hiromi-lenny-white/1394898942"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Strathmore event page verifies April 8, 2027 at 8:00 PM, the Clarke / Hiromi / PUBLIQuartet billing, Chick Corea tribute concept and $28-$98 listed price range. Additional official presenter pages verify that the same collaboration tours other cities in 2027, supporting A+ rather than S scarcity. Exact Apple Music destinations for Chick Corea & Hiromi's Duet and Stanley Clarke Trio's Jazz In the Garden are verified. Strathmore's direct purchase destination was not resolved to a stable non-resale event-specific URL in this pass, so official_tickets remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/events-tickets/in-the-music-center/stanley-clarke-hiromi/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-08-26",
+          "note": "Official venue page confirms April 8, 2027 at 8:00 PM, Music Center at Strathmore, Stanley Clarke / Hiromi / PUBLIQuartet billing, Chick Corea tribute concept, Corea works plus new works inspired by his legacy, and the listed ticket price range."
+        },
+        {
+          "url": "https://www.publiquartet.com/events/2026/10/12/immersive-residency-at-the-john-j-cali-school-of-music-at-montclair-state-university-bbnsz-ht23c-y8bx9",
+          "publisher": "PUBLIQuartet",
+          "checked_on": "2026-08-26",
+          "note": "Official ensemble schedule confirms the same Clarke / Hiromi / PUBLIQuartet Chick Corea tribute at Berklee Performance Center on April 11, 2027, establishing that the project is a touring collaboration rather than a Strathmore-only one-off."
+        },
+        {
+          "url": "https://krannertcenter.com/events/stanley-clarke-hiromi-along-publiquartet-celebration-music-chick-corea",
+          "publisher": "Krannert Center for the Performing Arts",
+          "checked_on": "2026-08-26",
+          "note": "Official university presenter page confirms the same project on April 14, 2027 and describes Clarke's Return to Forever lineage, Hiromi's mentorship connection to Corea, and PUBLIQuartet's role in the collaboration."
+        },
+        {
+          "url": "https://music.apple.com/us/album/duet/1442964638",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for Duet by Chick Corea and Hiromi."
+        },
+        {
+          "url": "https://music.apple.com/us/album/jazz-in-the-garden-feat-hiromi-lenny-white/1394898942",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for Jazz In the Garden by the Stanley Clarke Trio featuring Hiromi and Lenny White."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, billing and program concept were verified directly against Strathmore. The project's multi-city 2027 life was verified through official presenter and ensemble pages, which is central to the A+ rather than S judgment. Repository searches for the exact stable event ID and Stanley Clarke / Hiromi / PUBLIQuartet / Strathmore billing returned no matching RADAR record before publication. No direct primary-market ticket URL was invented when the stable Strathmore purchase destination could not be resolved."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This has a reason to exist beyond the tribute label. Clarke carries the Return to Forever side of Corea's history; Hiromi carries a direct personal and musical connection that began in Tokyo when she was still a teenager; PUBLIQuartet changes the physical vocabulary by putting an improvising string ensemble around bass and piano. The interesting question is how Corea's writing survives that combination without turning into repertory museum music.",
+          "trip_verdict": "Actively make room for this locally. It is one of those Strathmore dates where the DMV gets a genuinely high-level intersection of living masters, the Japan thread and instrumental experimentation; because the same project tours several cities, there is no need to treat the North Bethesda stop as a scarcity event.",
+          "listen_before": "Chick Corea & Hiromi — Duet; Stanley Clarke Trio — Jazz In the Garden"
+        },
+        "es": {
+          "why_it_matters": "Aquí sí hay una razón musical más allá de la etiqueta de homenaje. Clarke carga el lado Return to Forever de la historia de Corea; Hiromi trae una relación personal y musical que empezó en Tokio cuando todavía era adolescente; y PUBLIQuartet cambia el vocabulario físico al poner un cuarteto de cuerdas con vocación improvisadora alrededor del bajo y el piano. La pregunta interesante es cómo sobrevive la escritura de Corea dentro de esa combinación sin volverse música de museo.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV. Es una de esas fechas de Strathmore donde se cruzan de verdad maestros vivos, el hilo de Japón y la experimentación instrumental; como el mismo proyecto circula por varias ciudades, no hace falta tratar la parada de North Bethesda como un acontecimiento escaso.",
+          "listen_before": "Chick Corea & Hiromi — Duet; Stanley Clarke Trio — Jazz In the Garden"
+        }
+      }
+    }
+  ]
+}
