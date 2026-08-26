@@ -1,0 +1,134 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ryo-takaiwa-billboard-live-yokohama-2026-11-03-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-26 after reading the current durable RADAR editorial files. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule searches, and current Japanese-jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This batch adds one freshly announced Greater Tokyo/Kanto event: Ryo Takaiwa's first Billboard Live tour stop in Yokohama, built around a new Ryo Takaiwa Big Band. Priority A is deliberate: the cross-genre jazz-vocal/big-band concept clears RADAR admission, but the full big-band personnel remain unannounced and the same tour continues in Osaka, so the current evidence supports 'worth knowing/attending if convenient' rather than active-priority or scarcity language. Batch distribution: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "ryo-takaiwa-billboard-live-yokohama-2026-11-03",
+      "artist": "Ryo Takaiwa",
+      "subtitle": "Billboard Live Tour — new Ryo Takaiwa Big Band",
+      "dates": {
+        "start": "2026-11-03",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:00"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese jazz vocal / big-band crossover / first Billboard tour",
+      "genres": [
+        "Jazz",
+        "Big band",
+        "Soul",
+        "Hip-hop",
+        "R&B"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ryo Takaiwa — vocals",
+        "New Ryo Takaiwa Big Band — additional personnel TBA"
+      ],
+      "factual_description": "Billboard Live Yokohama presents Ryo Takaiwa on Tuesday, November 3, 2026, with stages at 4:00 PM and 7:00 PM. The engagement is part of Takaiwa's first Billboard Live tour and is announced as a performance with a new Ryo Takaiwa Big Band; the venue currently names Takaiwa on vocals and leaves the additional personnel to be announced. Billboard describes Takaiwa's path from jazz vocalist at age 18 through SANABAGUN., THE THROTTLE, electronic project INF and his jazz album TAKAIWA, and frames the Yokohama date as a large-scale club presentation of his current cross-genre work. The tour continues at Billboard Live Osaka on November 13, 2026.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/yokohama/show?date=2026-11-03&event_id=ev-21663",
+        "official_tickets": "https://eplus.jp/ryotakaiwa-bbl/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ryo Takaiwa",
+          "title": "TAKAIWA",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/takaiwa/1839101032"
+        },
+        {
+          "artist": "Ryo Takaiwa",
+          "title": "10",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/10/1437360424"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Billboard Live Yokohama event page, the official eplus tour presale destination, and exact Apple Music album pages for TAKAIWA and 10 are verified. The full new big-band personnel are explicitly not yet announced; no names beyond Ryo Takaiwa were inferred."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Yokohama",
+          "url": "https://www.billboard-live.com/yokohama/show?date=2026-11-03&event_id=ev-21663",
+          "checked_on": "2026-08-26",
+          "note": "Official event page confirms November 3, 2026; 16:00 and 19:00 stages; first Billboard Live appearance/tour framing; the new Ryo Takaiwa Big Band concept; Takaiwa on vocals; additional personnel TBA; seat prices; and the November 13 Osaka continuation."
+        },
+        {
+          "type": "official_artist_label",
+          "name": "King Records — Ryo Takaiwa",
+          "url": "https://www.kingrecords.co.jp/cs/artist/artist.aspx?artist=46609",
+          "checked_on": "2026-08-26",
+          "note": "Official label profile confirms Takaiwa began as a jazz vocalist at 18, his SANABAGUN./THE THROTTLE work, later electronic and cross-genre projects, and that his 2018 solo debut 10 was recorded with a full big-band lineup."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "eplus — Ryo Takaiwa Billboard Live Tour official presale",
+          "url": "https://eplus.jp/ryotakaiwa-bbl/",
+          "checked_on": "2026-08-26",
+          "note": "Authorized official presale destination published for the Billboard Live Tour; the presale window opened August 26 at 21:00 JST and covers the Yokohama and Osaka tour dates."
+        },
+        {
+          "type": "press_announcement",
+          "name": "Real Sound",
+          "url": "https://realsound.jp/2026/08/post-2502732.html",
+          "checked_on": "2026-08-26",
+          "note": "Fresh August 26 announcement reports that Takaiwa revealed his first Billboard Live tour from the stage at Shibuya CLUB QUATTRO, confirms the November 3 Yokohama date and two set times, and describes the Yokohama show as a new big-band presentation."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/takaiwa/1839101032",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for TAKAIWA, Takaiwa's 2025 jazz album."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/10/1437360424",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for 10, Takaiwa's 2018 big-band solo debut and useful context for the announced return to a large-ensemble format."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, venue, announced vocalist, new-big-band framing and tour continuation were verified directly from Billboard Live Yokohama; Takaiwa's jazz-vocal and big-band background was verified against King Records; the same-day announcement was cross-checked through Real Sound; exact listening pages were verified on Apple Music. Repository searches for Ryo Takaiwa, 高岩遼, Billboard Live Yokohama and the proposed stable event ID found no existing canonical or inbox record before publication. Additional big-band personnel were not inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Takaiwa is interesting precisely because he refuses to keep jazz vocals, hip-hop, rock, electronic music and showmanship in separate boxes. The Yokohama date returns that vocabulary to a large-ensemble setting: his first solo album was built with a full big band, and this first Billboard Live tour is explicitly introducing a new Ryo Takaiwa Big Band. That makes the arranging scale and groove part of the reason to listen, not just decoration behind a singer. The current listing stops short of naming the band, so the musical promise is real but the event should not be oversold before the personnel are known.",
+          "trip_verdict": "Worth keeping on the Kanto board if November 3 is open, especially for a night centered on Japanese jazz vocals, big-band arranging and genre collision. I would attend if it fits cleanly, while keeping a rarer master, one-off lineup or premiere ahead of it until the full band is announced.",
+          "listen_before": "Ryo Takaiwa — TAKAIWA; Ryo Takaiwa — 10"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante de Takaiwa es precisamente que no separa jazz vocal, hip-hop, rock, electrónica y espectáculo en compartimentos distintos. La fecha de Yokohama devuelve ese vocabulario a una escala grande: su primer disco solista ya nació con una big band completa y esta primera gira de Billboard Live presenta explícitamente una nueva Ryo Takaiwa Big Band. Eso hace que los arreglos y el groove sean parte del motivo para escuchar, no simple decoración detrás de un cantante. La página actual todavía no publica quién integra la banda, así que la promesa musical es real pero no conviene venderla por encima de la evidencia disponible.",
+          "trip_verdict": "La tendría en el tablero de Kanto si el 3 de noviembre está libre, sobre todo para una noche de jazz vocal japonés, arreglos de big band y choque de géneros. Entraría si acomoda limpio en el calendario, pero mantendría por delante a un maestro más escaso, una alineación irrepetible o un estreno hasta conocer la formación completa.",
+          "listen_before": "Ryo Takaiwa — TAKAIWA; Ryo Takaiwa — 10"
+        }
+      }
+    }
+  ]
+}
