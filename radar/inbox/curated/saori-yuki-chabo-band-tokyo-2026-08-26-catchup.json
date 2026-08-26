@@ -1,0 +1,202 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "saori-yuki-chabo-band-tokyo-2026-08-26-catchup",
+  "notes": "Yamamoto-first discovery pass on 2026-08-26. Current docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md and radar/inbox/README.md were read before admission and grading. No new unrecorded Tsuyoshi Yamamoto performance was verified in ALFIE, BODY&SOUL, Space M&A or the current Japanese sources checked. Two Tokyo catch-ups clear RADAR admission without scarcity-tier inflation: Saori Yuki is A+ because the one-day Billboard Live program is specially directed by Kyoko Koizumi around new jazz/Japanese-inflected readings of Showa repertoire; CHABO BAND is A because the small-room living Japanese-rock lineage is compelling but the engagement is a recurring working-band appearance rather than a scarce event. Batch sanity check: A+ 1, A 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "saori-yuki-billboard-live-tokyo-2026-09-12",
+      "artist": "Saori Yuki",
+      "subtitle": "Once Upon a Melody — directed by Kyoko Koizumi",
+      "dates": {
+        "start": "2026-09-12",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Living master / Kayokyoku reinterpretation",
+      "genres": [
+        "Kayokyoku",
+        "Pop",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Saori Yuki — vocals",
+        "Kenji Ueda — bass, arrangements",
+        "akkin — guitar",
+        "YOKAN — horn",
+        "Masuke Nozaki — drums",
+        "Kenta Yamamoto — keyboards",
+        "Kyoko Koizumi — director (not scheduled to perform onstage)"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Saori Yuki on September 12, 2026 for two sets at 4:00 PM and 7:00 PM under the title Once Upon a Melody. The current venue page lists Kenji Ueda on bass and arrangements, akkin on guitar, YOKAN on horn, Masuke Nozaki on drums and Kenta Yamamoto on keyboards, with Kyoko Koizumi directing the program but not scheduled to appear onstage. Billboard describes the concept as reworking Showa-era repertoire through jazz and Japanese musical elements. Universal Music's official June 30 announcement independently confirms Koizumi's directing role and frames the performance around Yuki's continuing reinterpretation of Japanese popular-song history.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?date=2026-09-12&event_id=ev-21566",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Pink Martini & Saori Yuki",
+          "title": "Yoake No Scat",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/1280807809"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Billboard Live event, current live lineup, director credit, two set times and Apple Music song page are verified. Billboard exposes a Buy Tickets control, but a stable event-wide purchase destination covering both sets was not independently resolved; the eplus listing visible in this pass represents only one set/allotment, so it is not substituted as the canonical ticket link."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?date=2026-09-12&event_id=ev-21566",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-26",
+          "note": "Official venue page confirms September 12, two set times, the current six-musician live lineup, Kyoko Koizumi's director credit and the Showa-song/jazz/Japanese-element concept."
+        },
+        {
+          "url": "https://www.universal-music.co.jp/yuki-saori/news/2026-06-30/",
+          "publisher": "Universal Music Japan / Saori Yuki",
+          "checked_on": "2026-08-26",
+          "note": "Official label/artist announcement independently confirms the Billboard Live Tokyo date, Koizumi's directing role and the program's Showa-kayokyoku reinterpretation concept."
+        },
+        {
+          "url": "https://music.apple.com/us/song/1280807809",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for Yoake No Scat from the 1969 collaboration with Pink Martini."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, times, live personnel and current event concept were verified against Billboard Live Tokyo; the directing concept was cross-checked against Saori Yuki's Universal Music artist announcement; the listening destination was verified on Apple Music. Repository searches for Saori Yuki, 由紀さおり, the Billboard billing and the stable event ID returned no existing RADAR record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the frame, not nostalgia alone. Yuki has spent decades carrying Japanese popular song across eras, including the international 1969 project with Pink Martini; here Kyoko Koizumi is explicitly reshaping that lineage for a one-day club program, with arrangements that bring jazz and Japanese color back into Showa repertoire. It is a living conversation about how an old songbook can sound current without being stripped of its identity.",
+          "trip_verdict": "Actively make room for one of the two sets if the date overlaps with Tokyo. The one-day concept and small Roppongi room make it a strong evening anchor, but I would not rebuild a Japan itinerary around it by itself.",
+          "listen_before": "Pink Martini & Saori Yuki — Yoake No Scat"
+        },
+        "es": {
+          "why_it_matters": "Lo importante aquí no es la nostalgia por sí sola, sino el marco. Yuki lleva décadas moviendo la canción popular japonesa entre épocas —incluido el proyecto internacional 1969 con Pink Martini— y aquí Kyoko Koizumi toma ese linaje para rearmarlo en una sola jornada de club, con arreglos que vuelven a meter jazz y color japonés en el repertorio Showa. Es una conversación viva sobre cómo actualizar un cancionero viejo sin quitarle identidad.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si la fecha coincide con Tokio. El concepto de una sola jornada y la escala pequeña de Roppongi la vuelven una buena ancla de noche, pero no reconstruiría un itinerario por Japón sólo alrededor de esta función.",
+          "listen_before": "Pink Martini & Saori Yuki — Yoake No Scat"
+        }
+      }
+    },
+    {
+      "id": "chabo-band-billboard-live-tokyo-2026-10-22",
+      "artist": "CHABO BAND",
+      "subtitle": "STILL ALIVE & WELL 2026",
+      "dates": {
+        "start": "2026-10-22",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Living rock lineage / Groove",
+      "genres": [
+        "Rock",
+        "Blues rock",
+        "Roots rock"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Reiichi 'CHABO' Nakaido — vocals, guitar",
+        "Takeharu Hayakawa — bass",
+        "Tomoyasu 'Kaasuke' Kawamura — drums",
+        "Yuta Saito — keyboards"
+      ],
+      "factual_description": "Billboard Live Tokyo presents CHABO BAND on October 22, 2026 for sets at 5:30 PM and 8:30 PM. The venue identifies Reiichi 'CHABO' Nakaido on vocals and guitar with Takeharu Hayakawa on bass, Tomoyasu 'Kaasuke' Kawamura on drums and Yuta Saito on keyboards. Billboard places the engagement in Nakaido's still-active Japanese-rock lineage from his 1970 debut with Furuido through RC Succession, Reiran, the day and his solo work, and notes that the band is returning after a well-received Billboard Live appearance the previous year.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21585",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Reiichi Nakaido",
+          "title": "DADA",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/dada/715883432"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact official event, date, two set times, four-member lineup and Apple Music album page are verified. Billboard displays ticket purchasing on the event page but a separate stable event-wide purchase URL was not independently resolved in this pass."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21585",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-26",
+          "note": "Official venue page confirms October 22, two set times, four-member lineup, Nakaido's career context and that CHABO BAND returns following the prior year's Billboard engagement."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/dada/715883432",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for Reiichi Nakaido's DADA."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set times, lineup and living Japanese-rock lineage were verified against Billboard Live Tokyo; the listening destination was verified on Apple Music. Repository searches for CHABO BAND and the stable event ID returned no existing RADAR record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Nakaido is not appearing here as a museum piece from RC Succession. CHABO BAND is a working four-piece with a bassist, drummer and keyboardist whose own identities give the music a real groove-and-soul engine, letting one of Japanese rock's foundational guitar voices be heard in the present tense. That continuity is exactly the reason the night belongs in RADAR.",
+          "trip_verdict": "Worth having on the Tokyo shortlist if October 22 is open, especially if the trip is pulling toward Japanese rock history as well as jazz. Because this is a recurring working-band engagement rather than a rare one-off, I would fit it around a more singular anchor rather than move that anchor for this show.",
+          "listen_before": "Reiichi Nakaido — DADA"
+        },
+        "es": {
+          "why_it_matters": "Nakaido no llega aquí como pieza de museo de RC Succession. CHABO BAND es un cuarteto de trabajo con bajo, batería y teclados que le dan un motor real de groove y soul, de modo que una de las voces fundacionales de la guitarra rock japonesa se escucha en presente, no sólo como recuerdo. Esa continuidad es justamente la razón para meter la fecha al RADAR.",
+          "trip_verdict": "La tendría en la lista corta de Tokio si el 22 de octubre está libre, sobre todo si el viaje también está jalando hacia la historia del rock japonés. Como es una fecha recurrente de una banda activa y no un one-off raro, la acomodaría alrededor de una ancla más singular en vez de mover esa ancla por este show.",
+          "listen_before": "Reiichi Nakaido — DADA"
+        }
+      }
+    }
+  ]
+}
