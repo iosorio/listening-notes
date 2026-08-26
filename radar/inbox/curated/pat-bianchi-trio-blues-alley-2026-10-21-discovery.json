@@ -1,0 +1,122 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "pat-bianchi-trio-blues-alley-2026-10-21-discovery",
+  "notes": "Verified local catch-up created under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. Pat Bianchi Trio clears RADAR admission through Hammond B-3 instrumental identity, current Confluence language, Colin Stranahan on drums and special guest Paul Bollenback on guitar. The event is A+: actively worth making room for in the DMV, but it is not a premiere, farewell or historically singular one-off, and there are two sets. Proposed batch distribution: A+ 1, A 0, S 0, S+ 0. This is a sanity check, not a quota.",
+  "events": [
+    {
+      "id": "pat-bianchi-trio-blues-alley-washington-dc-2026-10-21",
+      "artist": "Pat Bianchi Trio",
+      "subtitle": "Hammond B-3 Week — A Meeting of the Minds with Paul Bollenback",
+      "dates": {
+        "start": "2026-10-21",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Hammond B-3 organ trio / contemporary organ jazz",
+      "genres": [
+        "Jazz",
+        "Organ jazz",
+        "Soul jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove"
+      ],
+      "lineup": [
+        "Pat Bianchi — Hammond organ / keyboards",
+        "Paul Bollenback — guitar",
+        "Colin Stranahan — drums"
+      ],
+      "factual_description": "Blues Alley’s authorized InstantSeats schedule presents The Pat Bianchi Trio as part of Hammond B-3 Week on Wednesday, October 21, 2026, with sets at 7:00 PM and 9:30 PM. The exact event page bills the program as ‘A Meeting of The Minds’ with Colin Stranahan on drums and special guest Paul Bollenback on guitar, and says the group will perform original compositions, inventive arrangements, and music from Bianchi’s 2026 release Confluence. Bianchi’s official site identifies Stranahan as the drummer in his current trio and documents his modern Hammond B-3 approach; Bianchi’s recording history also includes Paul Bollenback on Something to Say.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Pat Bianchi",
+          "title": "Confluence (feat. Troy Roberts & Colin Stranahan)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/confluence-feat-troy-roberts-colin-stranahan/1871047066"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Both set times and active Get Tickets controls are verified from Blues Alley’s authorized InstantSeats schedule. The exact 9:30 PM buy.event destination is verified, but the 7:00 PM set uses a separate per-set destination that was not independently resolved in this pass; official_tickets is intentionally left null rather than using one set’s ticket URL for the full two-set event."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-08-25",
+          "note": "Authorized live venue schedule verifies The Pat Bianchi Trio on October 21, 2026 at 7:00 PM and 9:30 PM, both with active Get Tickets controls."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=55309930-AB93-5EBB-2E8472B1DAA6B380&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-08-25",
+          "note": "Exact event page for the 9:30 PM set verifies Hammond B-3 Week framing, Pat Bianchi, Colin Stranahan, special guest Paul Bollenback, and current Confluence material."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=55309930-AB93-5EBB-2E8472B1DAA6B380&fuseaction=buy.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-08-25",
+          "note": "Exact authorized purchase destination verifies the 9:30 PM set and current $35 general-admission price; it is retained as evidence only because each set has a separate purchase path."
+        },
+        {
+          "url": "https://patbianchi.com/home",
+          "publisher": "Pat Bianchi",
+          "checked_on": "2026-08-25",
+          "note": "Official artist site documents Bianchi’s modern Hammond B-3 language, current trio with Colin Stranahan, and Confluence as the current project."
+        },
+        {
+          "url": "https://www.patbianchi.com/recordings",
+          "publisher": "Pat Bianchi",
+          "checked_on": "2026-08-25",
+          "note": "Official discography documents prior collaboration with Paul Bollenback on Something to Say and establishes Bollenback as part of Bianchi’s recorded organ-guitar language."
+        },
+        {
+          "url": "https://music.apple.com/us/album/confluence-feat-troy-roberts-colin-stranahan/1871047066",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for Confluence, released February 20, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, both set times, venue, Hammond B-3 Week framing, lineup and current-project context were verified from Blues Alley’s authorized InstantSeats pages; Bianchi’s current trio and recording history were checked against his official site; listening was verified through Apple Music. Repository search found no matching Pat Bianchi / Blues Alley October 21 event or matching stable event ID. No additional personnel or per-set ticket URL was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The admission case is the instrument and the lineup. Bianchi treats the Hammond B-3 as both rhythm section and harmonic engine, with enough modern voicing and rhythmic pressure to keep the organ-trio tradition from turning into repertory. Stranahan carries the current Confluence chemistry into the room, while Bollenback—already part of Bianchi’s recorded organ-guitar history—changes the front line from saxophone to guitar. In Blues Alley, that should put touch, drawbar color, pocket and guitar-organ counterpoint unusually close to the listener.",
+          "trip_verdict": "Actively make room for one of the two sets if organ, groove and small-room improvisation are in the DMV listening thread. This is a strong local night and the Hammond B-3 Week context makes the booking more specific than a routine trio stop, but I would still fit it around scarcer premieres, farewells or one-off lineups rather than rebuild a larger trip around it.",
+          "listen_before": "Pat Bianchi — Confluence"
+        },
+        "es": {
+          "why_it_matters": "El argumento de admisión está en el instrumento y la alineación. Bianchi usa el Hammond B-3 a la vez como sección rítmica y motor armónico, con suficiente invención de voicings y presión rítmica para que la tradición del organ trio no se vuelva repertorio de museo. Stranahan trae al escenario la química actual de Confluence, mientras Bollenback —ya parte de la historia grabada de Bianchi entre órgano y guitarra— cambia la voz frontal del sax al instrumento de cuerdas. En Blues Alley deberían sentirse muy de cerca el toque, el color de drawbars, el pocket y el contrapunto guitarra–órgano.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si órgano, groove e improvisación en sala pequeña están en el hilo del DMV. Es una noche local fuerte y el contexto de Hammond B-3 Week vuelve la fecha más específica que una parada rutinaria de trío, pero todavía la acomodaría alrededor de estrenos, despedidas o alineaciones realmente más escasas en vez de rehacer un viaje grande sólo por esto.",
+          "listen_before": "Pat Bianchi — Confluence"
+        }
+      }
+    }
+  ]
+}
