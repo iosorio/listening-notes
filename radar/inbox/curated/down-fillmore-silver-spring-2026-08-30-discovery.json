@@ -1,0 +1,108 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "down-fillmore-silver-spring-2026-08-30-discovery",
+  "notes": "Verified DMV heavy-music discovery created under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. DOWN clears RADAR admission through a specific New Orleans heavy-music lineage, a groove-centered band identity, the current Volume V cycle, and a strong supporting bill with Helmet and Spirit in the Room. The event is A+: actively worth making room for locally, but the Strap It DOWN Tour is a multi-city North American run and the Silver Spring stop is not a premiere, farewell, reunion, or singular one-off. Proposed batch distribution: A+ 1, A 0, S 0, S+ 0. This is a sanity check, not a quota.",
+  "events": [
+    {
+      "id": "down-fillmore-silver-spring-2026-08-30",
+      "artist": "DOWN",
+      "subtitle": "Strap It DOWN Tour '26 with Helmet and Spirit in the Room",
+      "dates": {
+        "start": "2026-08-30",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "fillmore-silver-spring-silver-spring-md",
+        "name": "The Fillmore Silver Spring",
+        "city": "Silver Spring",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "New Orleans heavy music / sludge-metal lineage / current-album tour",
+      "genres": [
+        "Heavy metal",
+        "Sludge metal",
+        "Stoner metal",
+        "Southern metal"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "DOWN — Philip H. Anselmo, Pepper Keenan, Kirk Windstein, Jimmy Bower, Pat Bruders",
+        "Helmet — support",
+        "Spirit in the Room — support"
+      ],
+      "factual_description": "Live Nation lists DOWN: Strap It DOWN Tour '26 at The Fillmore Silver Spring on Sunday, August 30, 2026 at 7:30 PM, with Helmet and Spirit in the Room on the bill. Nuclear Blast's August 19 announcement identifies DOWN's current lineup as Philip H. Anselmo, Pepper Keenan, Kirk Windstein, Jimmy Bower and Pat Bruders and confirms the forthcoming studio album Volume V for November 20, 2026, with lead single Blood Oath. The label describes the record as music made face-to-face from two writing sessions at Nodferatu's Lair, maintaining the band's New Orleans-rooted, riff-and-groove identity. Live Nation's current DOWN tour schedule confirms Silver Spring as one stop in a broader North American run.",
+      "links": {
+        "official_event": "https://www.livenation.com/event/17A8v0G65hu5D7w/down-strap-it-down-tour-26",
+        "official_tickets": "https://www.livenation.com/event/17A8v0G65hu5D7w/down-strap-it-down-tour-26"
+      },
+      "recommended_listening": [
+        {
+          "artist": "DOWN",
+          "title": "Nola",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/nola/299793030"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact date, time, venue, support bill and active purchase control are verified on the Live Nation event page. Current DOWN personnel and the Volume V context are verified through Nuclear Blast. The exact Apple Music page for Nola is verified. No doors time, prices, or additional personnel were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.livenation.com/event/17A8v0G65hu5D7w/down-strap-it-down-tour-26",
+          "publisher": "Live Nation / The Fillmore Silver Spring",
+          "checked_on": "2026-08-26",
+          "note": "Exact authorized event page verifies Sunday, August 30, 2026 at 7:30 PM, The Fillmore Silver Spring, and the lineup of DOWN, Helmet and Spirit in the Room; it also exposes the active Buy Tickets control."
+        },
+        {
+          "url": "https://www.livenation.com/artist/K8vZ9175dt0/down-events",
+          "publisher": "Live Nation",
+          "checked_on": "2026-08-26",
+          "note": "Current artist tour schedule confirms Silver Spring as part of a multi-city 2026 North American run, relevant to the scarcity review."
+        },
+        {
+          "url": "https://www.nuclearblast.com/blogs/news/down-announce-volume-v-for-november-20th-single-video-blood-oath-now-playing",
+          "publisher": "Nuclear Blast Records",
+          "checked_on": "2026-08-26",
+          "note": "Official label announcement verifies the current five-member lineup, Volume V release date of November 20, 2026, Blood Oath as the lead single, and the album's New Orleans-rooted writing/recording context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/nola/299793030",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for DOWN's 1995 album Nola."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, support bill and ticket availability were verified against Live Nation's exact venue event page; current DOWN personnel and Volume V context were verified against Nuclear Blast; listening was verified against Apple Music. Repository searches for 'DOWN Fillmore Silver Spring 2026 08 30' and 'Strap It DOWN' returned no matching canonical, curated, or processed record before publication. No doors time, ticket price, unverified set list, or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "DOWN is one of the places where New Orleans heaviness becomes a musical language rather than just a genre tag: blues-weighted riffs, slow physical groove, and the shared history of musicians whose other bands map a large part of Southern heavy music. The timing matters too. Volume V is arriving in November, and the band is touring with fresh material rather than simply recycling Nola-era mythology. Helmet on the same bill sharpens the contrast: a different kind of riff economy and rhythmic pressure from another foundational heavy-rock vocabulary.",
+          "trip_verdict": "Actively make room for this one in the DMV if heavy music, riff architecture and low-end groove are in the listening thread. The Fillmore is close enough that the combination of DOWN's current cycle and Helmet makes this a strong local night; the broader North American tour means I would still fit it around genuinely scarce premieres, farewells or one-off lineups rather than rebuild larger travel plans around this stop.",
+          "listen_before": "DOWN — Nola"
+        },
+        "es": {
+          "why_it_matters": "DOWN es uno de esos lugares donde la pesadez de Nueva Orleans se vuelve lenguaje musical y no sólo etiqueta de género: riffs cargados de blues, groove lento y físico, y la historia compartida de músicos cuyas otras bandas dibujan buena parte del mapa del heavy sureño. También importa el momento: Volume V sale en noviembre y la banda está girando con material nuevo, no simplemente reciclando la mitología de Nola. Helmet en el mismo cartel afila todavía más el contraste, con otra escuela fundamental de economía del riff y presión rítmica.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV si el heavy, la arquitectura del riff y el groove de frecuencias bajas están en el hilo de escucha. The Fillmore queda lo suficientemente cerca para que la combinación del ciclo actual de DOWN con Helmet arme una noche local fuerte; como la gira norteamericana ofrece varias fechas, todavía la acomodaría alrededor de estrenos, despedidas o alineaciones realmente escasas en vez de rehacer planes de viaje mayores sólo por esta parada.",
+          "listen_before": "DOWN — Nola"
+        }
+      }
+    }
+  ]
+}
