@@ -1,0 +1,110 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "coltrane-centennial-jalc-2027-04-02-catchup",
+  "notes": "Verified Jazz at Lincoln Center catch-up created after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass checked BODY&SOUL, Jazz House ALFIE, Space M&A, current Yamamoto listings, and credible Japanese jazz sources; no new unrecorded future Tsuyoshi Yamamoto performance was verified. Celebrating John Coltrane at 100 clears RADAR admission because Jazz at Lincoln Center has given Philadelphia drummer Justin Faulkner music direction of a saxophone-centered centennial program explicitly designed to move across different styles and eras of Coltrane's legacy. The event is A+: actively worth making room for in a New York trip, but four performances across two days provide enough access that the current scarcity rubric does not justify S. Recent/current RADAR shape was checked as a sanity test before finalizing; this batch adds A+ 1, A 0, S 0, S+ 0 and does not increase scarcity-tier frequency.",
+  "events": [
+    {
+      "id": "celebrating-john-coltrane-100-jalc-new-york-2027-04-02",
+      "artist": "Celebrating John Coltrane at 100",
+      "subtitle": "Justin Faulkner music directs a saxophone-centered Coltrane centennial",
+      "dates": {
+        "start": "2027-04-02",
+        "end": "2027-04-03"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "16:30"
+      ],
+      "venue": {
+        "id": "the-appel-room-jazz-at-lincoln-center-new-york",
+        "name": "The Appel Room at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "John Coltrane centennial / Saxophone-centered repertory / Contemporary jazz",
+      "genres": [
+        "Jazz",
+        "Modern jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Justin Faulkner — music director, drums",
+        "Cohort of saxophonists — individual names not yet announced by Jazz at Lincoln Center"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Celebrating John Coltrane at 100 in The Appel Room on April 2-3, 2027. Performances are Friday, April 2 at 7:00 PM and 9:00 PM and Saturday, April 3 at 4:30 PM and 7:00 PM. Jazz at Lincoln Center identifies Philadelphia-based drummer Justin Faulkner, a member of the Branford Marsalis Quartet and leader of the Philadelphia Youth Jazz Orchestra, as music director and says he will lead a group featuring a cohort of saxophonists through different styles and eras of Coltrane's legacy. The organization connects the concept to Coltrane's formative teenage years in Philadelphia. Individual saxophonists have not yet been named on the official concert page and are not inferred here.",
+      "links": {
+        "official_event": "https://jazz.org/concert/celebrating-john-coltrane-at-100/",
+        "official_tickets": "https://ticketing.jazz.org/20738?z=0"
+      },
+      "recommended_listening": [
+        {
+          "artist": "John Coltrane",
+          "title": "A Love Supreme",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/a-love-supreme/1440713018"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "full_lineup"
+        ],
+        "note": "Dates, four performance times, venue, centennial concept, Justin Faulkner's music-director role, saxophone-centered format, authorized JALC ticketing, and the exact Apple Music album page are verified. Jazz at Lincoln Center has not yet named the individual saxophonists, so the event remains pending only for the full lineup rather than inferring personnel."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/celebrating-john-coltrane-at-100/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-25",
+          "note": "Official concert page confirms April 2-3, 2027 in The Appel Room, the four performance times, the Coltrane centennial frame, and Justin Faulkner as the Philadelphia-based music director connected to the Branford Marsalis Quartet and Philadelphia Youth Jazz Orchestra."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-25",
+          "note": "Official 2026-27 season announcement says Justin Faulkner music directs a group featuring a cohort of saxophonists and that the program will cover various styles and eras of Coltrane's legacy."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20738?z=0",
+          "publisher": "Jazz at Lincoln Center Ticketing",
+          "checked_on": "2026-08-25",
+          "note": "Authorized JALC ticketing page confirms the April 2-3 engagement and selectable performance inventory."
+        },
+        {
+          "url": "https://music.apple.com/us/album/a-love-supreme/1440713018",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-25",
+          "note": "Exact Apple Music page for John Coltrane's A Love Supreme."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue, music-director identity, centennial concept, saxophone-centered format and ticketing were verified through Jazz at Lincoln Center; listening was verified through Apple Music. Repository searches found no existing Celebrating John Coltrane at 100 / April 2, 2027 JALC RADAR record before publication. No unannounced saxophonists, repertoire details, prices, or premiere claims were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The useful idea here is not simply Coltrane at 100. Jazz at Lincoln Center has handed the music direction to Justin Faulkner, a Philadelphia drummer whose own working life sits inside the Branford Marsalis Quartet, and asked him to build the centennial around a cohort of saxophonists moving through different phases of Coltrane's language. That Philadelphia connection gives the tribute a point of view: the city that shaped Coltrane's teenage musical formation is represented by a current bandleader rather than treated as background biography.",
+          "trip_verdict": "Actively make room for one Appel Room set if a New York trip can absorb it. The saxophone-centered concept and Faulkner's Philadelphia connection make this substantially more purposeful than a generic repertory tribute, while four performances across two days provide enough access that it should fit around truly scarce one-offs rather than determine the entire regional trip by itself.",
+          "listen_before": "John Coltrane — A Love Supreme"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante no es simplemente celebrar los cien años de Coltrane. Jazz at Lincoln Center puso la dirección musical en manos de Justin Faulkner, un baterista de Filadelfia cuya vida de trabajo pasa por el cuarteto de Branford Marsalis, y le pidió construir el centenario alrededor de un grupo de saxofonistas que recorra distintas etapas del lenguaje de Coltrane. Esa conexión con Filadelfia le da un punto de vista al homenaje: la ciudad que marcó la formación musical adolescente de Coltrane aparece encarnada por un bandleader actual, no como simple dato biográfico.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los sets del Appel Room si un viaje a Nueva York puede absorberlo. El concepto centrado en saxofones y la conexión de Faulkner con Filadelfia vuelven la fecha bastante más intencional que un tributo de repertorio genérico; cuatro funciones en dos días dan suficiente acceso para acomodarla alrededor de one-offs verdaderamente escasos en vez de hacer que determine por sí sola todo el viaje regional.",
+          "listen_before": "John Coltrane — A Love Supreme"
+        }
+      }
+    }
+  ]
+}
