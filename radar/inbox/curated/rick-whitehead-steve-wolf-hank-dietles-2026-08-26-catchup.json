@@ -1,0 +1,97 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "rick-whitehead-steve-wolf-hank-dietles-2026-08-26-catchup",
+  "notes": "Yamamoto-first discovery pass on 2026-08-26 under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Current searches of Jazz House ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources and credible Japanese jazz listings produced no new unrecorded Tsuyoshi Yamamoto date. The broader DMV pass found a same-day catch-up at Hank Dietle's Tavern: Rick Whitehead Jazz Trio with special guest Steve Wolf. The event clears RADAR admission because it concentrates a specifically Washington-area guitar/bass lineage tied to Danny Gatton, Charlie Byrd and decades of local jazz activity in a small roadhouse setting. Priority A is deliberate: the music and DMV continuity are worth knowing about and attending if convenient, but the trio is locally active, another Rick Whitehead Trio date is already listed at the same venue for September 23, and no premiere, farewell, rare repertoire or other scarcity condition warrants A+ or S. Recent curated additions remain concentrated in A/A+ rather than S/S+, consistent with the intended editorial shape without treating distribution as a quota.",
+  "events": [
+    {
+      "id": "rick-whitehead-steve-wolf-hank-dietles-2026-08-26",
+      "artist": "Rick Whitehead Jazz Trio with special guest Steve Wolf",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-08-26",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "hank-dietles-tavern-rockville-md",
+        "name": "Hank Dietle's Tavern",
+        "city": "Rockville",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV jazz guitar / Local lineage / Improvised trio",
+      "genres": [
+        "Jazz",
+        "Bebop",
+        "Swing"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Rick Whitehead — guitar",
+        "Steve Wolf — special guest, bass",
+        "Nick Ruggieri — drums"
+      ],
+      "factual_description": "Hank Dietle's Tavern presents Rick Whitehead Jazz Trio with special guest Steve Wolf on Wednesday, August 26, 2026 from 8:00 PM to 10:00 PM with a $10 cover. The current venue billing line names Rick Whitehead, Steve Wolf and Nick Ruggieri. Its descriptive copy identifies Whitehead as the guitarist, Wolf as a veteran DMV bassist and Ruggieri as drummer, and places the trio in a Washington-area lineage formed in 1994 after Danny Gatton's death. The same venue page also refers to longtime trio bassist John Previti in its historical description; because the current billing line does not list Previti, this candidate does not assert his participation in the August 26 performance. Hank Dietle's separately lists another Rick Whitehead Jazz Trio engagement for September 23, 2026, confirming that this is an active local working group rather than a one-off reunion.",
+      "links": {
+        "official_event": "https://hankdietlestavern.squarespace.com/events/ftbcywpd4klsn72-w9t6r-ragsl-45c9p-52nzx",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Rick Whitehead Trio",
+          "title": "Live in Captivity",
+          "kind": "album"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets",
+          "recommended_listening.apple_music_url"
+        ],
+        "note": "The exact Hank Dietle's event page, date, 8:00 PM start, $10 cover and current billing are verified. The event page does not expose a separate official purchase destination, and no exact Apple Music page for Live in Captivity was verified in this pass. Rick Whitehead's official music page verifies the album and trio history. No ticket URL or streaming URL was invented."
+      },
+      "sources": [
+        {
+          "url": "https://hankdietlestavern.squarespace.com/events/ftbcywpd4klsn72-w9t6r-ragsl-45c9p-52nzx",
+          "publisher": "Hank Dietle's Tavern",
+          "checked_on": "2026-08-26",
+          "note": "Official venue event page confirms August 26, 2026, 8:00 PM-10:00 PM, $10 cover and the current billing Rick Whitehead / Steve Wolf / Nick Ruggieri; it also provides the DMV lineage and historical trio context."
+        },
+        {
+          "url": "https://rickwhiteheadguitar.com/rwg-music",
+          "publisher": "Rick Whitehead Jazz Trio",
+          "checked_on": "2026-08-26",
+          "note": "Artist-controlled music page documents the trio's formation, Washington-area activity, Live in Captivity, its 1998 WAMMIE recognition, Whitehead's 22 years with the Airmen of Note, and the trio's live/improvised recording approach."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, cover and current billing were verified from Hank Dietle's Tavern; Rick Whitehead's own site supplies independent historical context for the trio and Live in Captivity. Repository search for Rick Whitehead, Steve Wolf and Hank Dietle's found no existing RADAR event or batch before publication. The venue copy is internally inconsistent about longtime bassist John Previti versus the current billing line, so Previti was not asserted as a participant. No separate ticket destination or Apple Music URL was fabricated."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the kind of local lineage RADAR should notice without pretending every strong club date is a priority event. Whitehead's guitar vocabulary sits inside decades of Washington jazz, while Steve Wolf brings another branch of the same DMV ecosystem through Danny Gatton, Tom Principato and the region's blues-jazz-roots circuit. In a room like Hank Dietle's, the value is hearing that history as a working language rather than as a museum piece.",
+          "trip_verdict": "Worth knowing about tonight and worth dropping into if the evening is open, especially for guitar or DMV music history. I would keep a rarer master appearance, premiere or one-off ahead of it rather than rearrange plans around a locally recurring working group.",
+          "listen_before": "The Rick Whitehead Trio — Live in Captivity"
+        },
+        "es": {
+          "why_it_matters": "Éste es justo el tipo de linaje local que el RADAR debe notar sin fingir que toda buena fecha de club es prioritaria. El lenguaje de guitarra de Whitehead vive dentro de décadas de jazz de Washington, mientras Steve Wolf trae otra rama del mismo ecosistema del DMV a través de Danny Gatton, Tom Principato y el circuito regional de blues, jazz y roots. En una sala como Hank Dietle's, lo interesante es escuchar esa historia como lenguaje de trabajo y no como pieza de museo.",
+          "trip_verdict": "Vale saber que está pasando esta noche y caerle si la tarde está libre, sobre todo si traes guitarra o historia musical del DMV en el hilo. Mantendría por delante una aparición más rara de un maestro, un estreno o un one-off antes que reorganizar planes alrededor de un grupo local que sigue activo.",
+          "listen_before": "The Rick Whitehead Trio — Live in Captivity"
+        }
+      }
+    }
+  ]
+}
