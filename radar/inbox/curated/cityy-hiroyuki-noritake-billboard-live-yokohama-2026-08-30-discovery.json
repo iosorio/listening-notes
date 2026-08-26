@@ -1,0 +1,110 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "cityy-hiroyuki-noritake-billboard-live-yokohama-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-26 after reading the current durable RADAR editorial files. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule searches and current Japanese-jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This batch adds one verified Greater Tokyo/Kanto catch-up: Cityy featuring Hiroyuki Noritake at Billboard Live Yokohama on August 30. Priority A+ is deliberate after a distribution sanity check and an explicit challenge against A: the young quartet's two-sax/keys/bass instrumental identity, first-album cycle and the addition of veteran fusion drummer Noritake make this a night worth actively making room for within Kanto. It is not S: the same project plays Billboard Live Osaka four days earlier and Cityy is an active developing band, so there is no genuine scarcity. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "cityy-hiroyuki-noritake-billboard-live-yokohama-2026-08-30",
+      "artist": "Cityy featuring Hiroyuki Noritake",
+      "subtitle": "HELLO, CITYY first-album cycle — Yokohama",
+      "dates": {
+        "start": "2026-08-30",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:00"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese crossover jazz / fusion / first-album cycle",
+      "genres": [
+        "Jazz",
+        "Jazz fusion",
+        "Funk",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Groove"
+      ],
+      "lineup": [
+        "Miho Terachi — saxophone, flute, vocals",
+        "Ami Nakazono — saxophone, vocals",
+        "Marie Takeda — keyboards, vocals",
+        "Juna Serita — bass, vocals",
+        "Hiroyuki Noritake — drums (featured support)"
+      ],
+      "factual_description": "Billboard Live Yokohama presents Cityy featuring Hiroyuki Noritake on Sunday, August 30, 2026, with stages at 4:00 PM and 7:00 PM. Cityy is the quartet of Miho Terachi, Ami Nakazono, Marie Takeda and Juna Serita; veteran drummer Hiroyuki Noritake is the featured support musician for this engagement. Billboard describes Cityy as a crossover jazz unit launched in May 2025 and notes that the group released its debut album HELLO, CITYY in May 2026. The same Cityy-with-Noritake configuration plays Billboard Live Osaka on August 26 before the Yokohama date.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/yokohama/show?date=2026-08-30&event_id=ev-21407",
+        "official_tickets": "https://eplus.jp/sf/detail/4395900002"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Cityy",
+          "title": "HELLO, CITYY",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/hello-cityy/1895116628"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Billboard Live Yokohama event page, authorized eplus Cityy ticket listing and exact Apple Music album page for HELLO, CITYY are verified. The eplus sales window for the Yokohama allotment has ended, but the listing remains authoritative evidence for both set times and the announced personnel. No additional musicians or availability were inferred."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Yokohama",
+          "url": "https://www.billboard-live.com/en/yokohama/show?date=2026-08-30&event_id=ev-21407",
+          "checked_on": "2026-08-26",
+          "note": "Official event page confirms August 30, 2026; 16:00 and 19:00 stages; the full Cityy quartet; Hiroyuki Noritake as featured support drummer; the group's May 2025 launch; the 2026 debut-album cycle; and the August 26 Billboard Live Osaka tour stop."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "eplus — Cityy",
+          "url": "https://eplus.jp/sf/detail/4395900002",
+          "checked_on": "2026-08-26",
+          "note": "Authorized ticket listing confirms both August 30 Yokohama performances, door/start times and the announced personnel. The eplus general-sales allotment is currently shown as ended."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/hello-cityy/1895116628",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Cityy's 2026 debut album HELLO, CITYY."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, venue and all announced personnel were verified directly from Billboard Live Yokohama and cross-checked against authorized eplus ticketing. The first-album context and Osaka tour continuation are stated by Billboard; the exact listening page was verified on Apple Music. Repository searches for Cityy, the member names, Billboard Live Yokohama and the proposed stable event ID found no existing canonical, curated or processed record before publication. No unannounced personnel, ticket availability or purchase destination beyond the verified authorized listing were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Cityy is interesting because the band starts from instrumental identity rather than a front-person hierarchy: two saxophone voices, keyboards and a bass-led groove have to create the shape of the music together. The quartet is still very young, only active since 2025, and arrives in Yokohama on its first-album cycle; adding Hiroyuki Noritake connects that emerging vocabulary to a deep Japanese fusion lineage without turning the night into a heritage package. This is a chance to hear a new ensemble while its collective language is still becoming visible.",
+          "trip_verdict": "Actively make room if you are in Greater Tokyo/Kanto and fusion, saxophone interplay or bass-led groove are part of the listening thread. Yokohama is worth building the evening around, but the Osaka stop four days earlier and the band's active development mean there is no reason to reshape a larger trip around this date alone.",
+          "listen_before": "Cityy — HELLO, CITYY"
+        },
+        "es": {
+          "why_it_matters": "Cityy llama la atención porque parte de una identidad instrumental colectiva y no de una cantante o solista al frente: dos saxofones, teclados y un bajo con mucho peso en el groove tienen que construir juntos la forma de la música. El cuarteto apenas existe desde 2025 y llega a Yokohama en el ciclo de su primer disco; sumar a Hiroyuki Noritake conecta ese lenguaje todavía joven con una línea profunda de la fusión japonesa sin convertir la noche en un ejercicio de nostalgia. Es una buena oportunidad para escuchar a una banda mientras su vocabulario colectivo todavía se está formando.",
+          "trip_verdict": "Le haría espacio activamente si estás en Greater Tokyo/Kanto y el hilo del viaje incluye fusión, diálogo de saxofones o groove guiado por el bajo. Sí vale construir la tarde-noche alrededor de Yokohama, pero la parada de Osaka cuatro días antes y la continuidad del proyecto no justifican rehacer un viaje mayor sólo por esta fecha.",
+          "listen_before": "Cityy — HELLO, CITYY"
+        }
+      }
+    }
+  ]
+}
