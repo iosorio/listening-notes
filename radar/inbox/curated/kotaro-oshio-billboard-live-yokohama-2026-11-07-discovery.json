@@ -1,0 +1,117 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kotaro-oshio-billboard-live-yokohama-2026-11-07-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-26 after re-reading the current durable RADAR editorial files. ALFIE, BODY&SOUL, Space M&A, current Tsuyoshi Yamamoto schedule searches, and Japanese-jazz sources produced no new unrecorded verified Yamamoto performance. One unrecorded Greater Tokyo/Kanto event clears RADAR admission: Kotaro Oshio's LOVE is All Around 25th Anniversary Prologue Billboard Live Special in Yokohama. Priority A+ is deliberate: solo acoustic-guitar identity, the opening of his 25th-anniversary year, a new album released on August 26, a roughly six-year return to Billboard Live Yokohama, and the tour-finale framing make this actively worth prioritizing. It remains below the scarcity tiers because the same repertoire cycle is being presented across a 15-date national tour and the anniversary year continues beyond this engagement. Recent corrected batches remain predominantly A/A+, so this single A+ preserves the intended broad-base/narrower-priority shape without using a quota. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "kotaro-oshio-billboard-live-yokohama-2026-11-07",
+      "artist": "Kotaro Oshio",
+      "subtitle": "LOVE is All Around — 25th Anniversary Prologue Billboard Live Special",
+      "dates": {
+        "start": "2026-11-07",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:00"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese acoustic guitar / 25th-anniversary prologue / tour finale",
+      "genres": [
+        "Acoustic guitar",
+        "Instrumental",
+        "Jazz-influenced",
+        "Pop",
+        "Flamenco-influenced"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Kotaro Oshio — acoustic guitar"
+      ],
+      "factual_description": "Billboard Live Yokohama presents Kotaro Oshio on Saturday, November 7, 2026, with performances at 4:00 PM and 7:00 PM. The engagement is billed as the LOVE is All Around 25th Anniversary Prologue Billboard Live Special and marks Oshio's return to Billboard Live Yokohama after roughly six years. The venue identifies Oshio alone on guitar. Oshio's official tour page identifies the Yokohama engagement as the special finale to a 15-show national LOVE is All Around tour opening his 25th-anniversary year. His official discography confirms that the album LOVE is All Around was released on August 26, 2026 and includes new solo-guitar material spanning percussive/open-tuning technique, flamenco-inflected writing and jazzier pieces.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/yokohama/show?event_id=ev-21509",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kotaro Oshio",
+          "title": "Dramatic",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/dramatic/715727869"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Billboard Live Yokohama event page, Oshio's official tour listing and official LOVE is All Around release page are verified. Authorized eplus listings corroborate that both November 7 performances are on sale, but a stable event-specific direct purchase URL was not resolved in this pass, so official_tickets remains null rather than storing a generic category/search page. The exact Apple Music album page for Dramatic is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/yokohama/show?event_id=ev-21509",
+          "publisher": "Billboard Live Yokohama",
+          "checked_on": "2026-08-26",
+          "note": "Exact official event page confirms November 7, 2026; 16:00 and 19:00 stages; Kotaro Oshio as the sole announced performer on guitar; 25th Anniversary Prologue Billboard Live Special framing; roughly six-year return to the venue; and the LOVE is All Around album context."
+        },
+        {
+          "url": "https://www.kotaro-oshio.com/schedule/tour/",
+          "publisher": "Kotaro Oshio official site",
+          "checked_on": "2026-08-26",
+          "note": "Official tour schedule confirms the November 7 Billboard Live Yokohama special, both showtimes, seat-price structure and general sale, and places it after the 15-date national LOVE is All Around tour as its special finale."
+        },
+        {
+          "url": "https://www.kotaro-oshio.com/discography/2026/08/loveisallaround.php",
+          "publisher": "Kotaro Oshio official site",
+          "checked_on": "2026-08-26",
+          "note": "Official discography confirms LOVE is All Around was released August 26, 2026, opening Oshio's 25th-anniversary year and documenting the current solo-guitar material, including flamenco-inflected and jazzy compositions."
+        },
+        {
+          "url": "https://eplus.jp/sf/live/j-pop/kanagawa/p3",
+          "publisher": "eplus",
+          "checked_on": "2026-08-26",
+          "note": "Authorized ticketing listing currently shows both November 7 Billboard Live Yokohama performances at 16:00 and 19:00 as on sale. This page is corroborative evidence only; it is not stored as official_tickets because it is a category listing rather than a stable event-specific purchase destination."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/dramatic/715727869",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Dramatic, a representative early major-label document of Oshio's solo acoustic-guitar language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, venue, solo-guitar lineup and anniversary framing were verified directly from Billboard Live Yokohama; the national-tour/finale context and current album were verified from Oshio's official site; eplus independently corroborates both performances and sale status. Repository searches for Kotaro Oshio, 押尾コータロー, November 7, 2026, and the proposed Billboard Live Yokohama event slug found no existing canonical, curated or processed record before publication. No backing musicians, additional repertoire, resale inventory or unstable purchase URL were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Oshio is a useful RADAR test because the attraction is not celebrity or genre but the instrument itself. Open tunings, tapping, bass motion, percussion and melody all have to coexist on one acoustic guitar, turning technique into arrangement rather than display. The Yokohama date adds real present-tense context: a new album released this week, the opening of his 25th-anniversary year, a roughly six-year return to this room and the special finale of the national prologue tour. That is enough to make the evening actively worth prioritizing without pretending the opportunity is singular.",
+          "trip_verdict": "Make room for one of the two Yokohama sets if November 7 fits the Kanto itinerary, especially if solo guitar and instrumental technique are part of the trip's listening thread. The club-scale setting should reward the physical detail of his playing; I would still keep a genuinely rare master appearance, farewell, premiere or one-off lineup ahead of it if the dates collide.",
+          "listen_before": "Kotaro Oshio — LOVE is All Around; Dramatic"
+        },
+        "es": {
+          "why_it_matters": "Oshio es una buena prueba para el RADAR porque aquí el atractivo no es la fama ni una etiqueta de género: es el instrumento mismo. Afinaciones abiertas, tapping, línea de bajo, percusión y melodía tienen que convivir en una sola guitarra acústica, de modo que la técnica se vuelve arreglo y no exhibición. La fecha de Yokohama además tiene contexto completamente actual: disco nuevo publicado esta semana, arranque del año de 25 aniversario, regreso a esta sala después de unos seis años y cierre especial de la gira nacional de prólogo. Eso alcanza de sobra para hacerle espacio activamente sin vender la oportunidad como si fuera irrepetible.",
+          "trip_verdict": "Le haría espacio a uno de los dos sets de Yokohama si el 7 de noviembre embona con el itinerario de Kanto, sobre todo si la guitarra solista y la técnica instrumental están dentro del hilo del viaje. La escala del club debería dejar escuchar muy de cerca la parte física de su toque; si se cruza con un maestro verdaderamente raro, una despedida, un estreno o una alineación de una sola ocasión, mantendría esa otra fecha por delante.",
+          "listen_before": "Kotaro Oshio — LOVE is All Around; Dramatic"
+        }
+      }
+    }
+  ]
+}
