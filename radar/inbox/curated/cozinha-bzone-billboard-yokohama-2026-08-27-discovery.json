@@ -1,0 +1,251 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "cozinha-bzone-billboard-yokohama-2026-08-27-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-27 after reading the current durable RADAR editorial files. Jazz House ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule searches, and current Japanese-jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This batch adds two unrecorded Billboard Live Yokohama events. Priority distribution: A 1, A+ 1, S 0, S+ 0. Cozinha is intentionally A because the same working quartet already appeared together at Shinjuku PIT INN earlier in 2026; B ZONE GUITAR SUMMIT Vol.14 is A+ because the four-guitar summit lineup and first Yokohama edition merit active priority, while its recurring Vol.14 format and Osaka date rule out scarcity language.",
+  "events": [
+    {
+      "id": "b-zone-guitar-summit-vol-14-billboard-live-yokohama-2026-11-02",
+      "artist": "B ZONE GUITAR SUMMIT Vol.14",
+      "subtitle": "Takashi Masuzaki × Takashi Gomi × Hiroshi Shibasaki × AKIHIDE",
+      "dates": {
+        "start": "2026-11-02",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese guitar summit / fusion-rock / first Yokohama edition",
+      "genres": [
+        "Fusion",
+        "Rock",
+        "J-pop",
+        "Instrumental"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Instrumental identity",
+        "Fusion/Prog",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Takashi Masuzaki (DIMENSION) — guitar",
+        "Takashi Gomi (T-BOLAN / electro53) — guitar",
+        "Hiroshi Shibasaki (WANDS / abingdon boys school) — guitar",
+        "AKIHIDE (BREAKERZ) — guitar",
+        "Yoshiteru Takahashi — bass",
+        "Riku Taira — drums"
+      ],
+      "factual_description": "Billboard Live Yokohama presents B ZONE GUITAR SUMMIT Vol.14 on Monday, November 2, 2026, with stages at 5:30 PM and 8:30 PM. The announced lineup puts four guitarists from distinct strands of Japanese fusion and rock — Takashi Masuzaki, Takashi Gomi, Hiroshi Shibasaki and AKIHIDE — over Yoshiteru Takahashi on bass and Riku Taira on drums. Billboard identifies this as the series' first appearance at Billboard Live Yokohama after a two-year hiatus from Billboard Live and frames the program around guitar interplay, ensemble playing and the lineage associated with the 1990s Being sound. The same Vol.14 production is also scheduled at Billboard Live Osaka on October 21, 2026.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/yokohama/show?event_id=ev-21583",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Takashi Masuzaki",
+          "title": "In and out",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/in-and-out/466999208?l=en-US"
+        },
+        {
+          "artist": "AKIHIDE",
+          "title": "RAIN STORY",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/rain-story/871675843"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Billboard Live Yokohama event page and authorized eplus listing verify the event and active ticketing, but the eplus result resolved to a set-specific destination rather than one stable whole-engagement ticket URL. It is intentionally left pending rather than representing one set's purchase page as the canonical ticket link for both performances."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Yokohama",
+          "url": "https://www.billboard-live.com/yokohama/show?event_id=ev-21583",
+          "checked_on": "2026-08-27",
+          "note": "Exact official event page verifies November 2, 2026; 17:30 and 20:30 stages; full six-musician lineup; first Billboard Live Yokohama edition; return after a two-year Billboard Live hiatus; and the October 21 Osaka presentation of Vol.14."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "eplus — B ZONE GUITAR SUMMIT Vol.14",
+          "url": "https://eplus.jp/sf/detail/4139830002-P0030004P021001",
+          "checked_on": "2026-08-27",
+          "note": "Authorized eplus listing confirms the Yokohama engagement, first-set timing, lineup and general-sale window. The destination is treated as set-specific evidence rather than the single canonical ticket link for the full two-set engagement."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/in-and-out/466999208?l=en-US",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for Takashi Masuzaki's In and out."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/rain-story/871675843",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for AKIHIDE's RAIN STORY."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, venue, full lineup, Yokohama-debut framing and Osaka companion date were verified from Billboard Live Yokohama; active ticketing and lineup were cross-checked through eplus; exact listening pages were verified on Apple Music. Repository searches for the event title and proposed stable ID found no existing canonical or inbox record before publication. No personnel, prices or ticket destinations were inferred beyond the verified sources."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The four guitars are the point, not decoration around a nostalgia package. Masuzaki brings the precision and harmonic language of DIMENSION, Gomi and Shibasaki connect different strands of Japanese rock and the Being catalog, and AKIHIDE adds a more cinematic solo-guitar voice. Putting all four over one bass-and-drums engine turns phrasing, tone, handoff and ensemble discipline into the event itself. The first Yokohama edition gives the recurring summit a fresh room and context without pretending that the series is a one-off.",
+          "trip_verdict": "Actively make room for one set if the Kanto calendar is open and guitar, Japanese fusion or instrumental rock are part of the thread. The Osaka presentation and the recurring nature of the summit keep it below true scarcity, but this is strong enough to build a Yokohama evening around.",
+          "listen_before": "Takashi Masuzaki — In and out; AKIHIDE — RAIN STORY"
+        },
+        "es": {
+          "why_it_matters": "Las cuatro guitarras son el acontecimiento, no decoración alrededor de un paquete nostálgico. Masuzaki trae la precisión y el lenguaje armónico de DIMENSION; Gomi y Shibasaki conectan distintas ramas del rock japonés y del catálogo Being; AKIHIDE añade una voz de guitarra solista más cinematográfica. Poner a los cuatro sobre una sola base de bajo y batería convierte fraseo, tono, relevos y disciplina de ensamble en el centro de la noche. Que sea la primera edición en Yokohama le da un cuarto y un contexto nuevos a una serie recurrente sin venderla falsamente como un one-off.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el calendario de Kanto está limpio y la guitarra, la fusión japonesa o el rock instrumental forman parte del hilo. La fecha de Osaka y el carácter recurrente de la serie quitan cualquier argumento de verdadera escasez, pero alcanza de sobra para construir una noche en Yokohama alrededor del concierto.",
+          "listen_before": "Takashi Masuzaki — In and out; AKIHIDE — RAIN STORY"
+        }
+      }
+    },
+    {
+      "id": "cozinha-billboard-live-yokohama-2026-11-04",
+      "artist": "Cozinha — Tadataka Unno / Yosuke Onuma / Hideki Matsubara / Takashi Numazawa",
+      "subtitle": "Jazz, Brazilian, funk and pop groove quartet",
+      "dates": {
+        "start": "2026-11-04",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese jazz / groove quartet / cross-genre",
+      "genres": [
+        "Jazz",
+        "Brazilian",
+        "Funk",
+        "Pop",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Tadataka Unno — piano",
+        "Yosuke Onuma — guitar",
+        "Hideki Matsubara — bass",
+        "Takashi Numazawa — drums"
+      ],
+      "factual_description": "Billboard Live Yokohama presents Cozinha on Wednesday, November 4, 2026, with stages at 5:30 PM and 8:30 PM. The quartet is Tadataka Unno on piano, Yosuke Onuma on guitar, Hideki Matsubara on bass and Takashi Numazawa on drums. Billboard describes Cozinha — Portuguese for 'kitchen' — as a project that mixes jazz, Brazilian music, funk and pop through a groove-centered quartet language, with Unno and Onuma improvising over the Matsubara-Numazawa rhythm section. Unno's official schedule independently documents the same four musicians performing as Cozinha at Shinjuku PIT INN on April 29, 2026, confirming that this is an established working quartet rather than a one-night first meeting.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/yokohama/show?date=2026-11-04&event_id=ev-21624",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tadataka Unno",
+          "title": "I Am, Because You Are",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/i-am-because-you-are/1683039893"
+        },
+        {
+          "artist": "Yosuke Onuma",
+          "title": "Your Smile",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/your-smile/1704954787"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Billboard Live Yokohama event page and authorized eplus pages verify active ticketing, but eplus resolves separate destinations by set. No single stable whole-engagement ticket URL was verified, so official_tickets is intentionally left pending rather than using one set's purchase page for both performances."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Yokohama",
+          "url": "https://www.billboard-live.com/en/yokohama/show?date=2026-11-04&event_id=ev-21624",
+          "checked_on": "2026-08-27",
+          "note": "Exact official event page verifies November 4, 2026; 17:30 and 20:30 stages; the complete four-musician lineup; and the jazz/Brazilian/funk/pop groove concept."
+        },
+        {
+          "type": "official_artist",
+          "name": "Tadataka Unno — official schedule",
+          "url": "https://www.tadatakaunno.com/schedule/2026/4/29/pit-inn-tokyo",
+          "checked_on": "2026-08-27",
+          "note": "Official artist schedule documents the same Cozinha quartet — Unno, Onuma, Matsubara and Numazawa — at Shinjuku PIT INN on April 29, 2026, establishing that this is a continuing working project."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "eplus — Cozinha / Billboard Live Yokohama",
+          "url": "https://eplus.jp/sf/detail/4582490002-P0030001P021001?P1=0175",
+          "checked_on": "2026-08-27",
+          "note": "Authorized first-set listing confirms November 4, Billboard Live Yokohama, 17:30 start and all four musicians. It is used as ticketing evidence, not as the canonical whole-engagement ticket URL because the two stages resolve separately."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/i-am-because-you-are/1683039893",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for Tadataka Unno's I Am, Because You Are."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/your-smile/1704954787",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for Yosuke Onuma's Your Smile."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, showtimes, venue, full lineup and project concept were verified from Billboard Live Yokohama; the quartet's earlier 2026 appearance was independently verified from Tadataka Unno's official schedule; ticketing evidence was cross-checked through eplus; exact listening pages were verified on Apple Music. Repository searches for Cozinha, the named musicians and the proposed stable event ID found no existing canonical or inbox record before publication. No unannounced program, personnel or ticket destination was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Cozinha is a useful RADAR kind of date because the identity comes from how four established players divide the work, not from a headline guest or anniversary. Unno and Onuma can move between jazz harmony, Brazilian phrasing and more open improvisation while Matsubara and Numazawa make groove the organizing principle. The same quartet already played together earlier in 2026, so this is a chance to hear a working language deepen rather than a manufactured summit.",
+          "trip_verdict": "Keep it on the Kanto board and go if November 4 fits cleanly. It should be a strong small-room groove-and-improvisation night, but I would keep a rarer master appearance, premiere, farewell or one-off lineup ahead of it if the calendar conflicts.",
+          "listen_before": "Tadataka Unno — I Am, Because You Are; Yosuke Onuma — Your Smile"
+        },
+        "es": {
+          "why_it_matters": "Cozinha es justo uno de esos eventos útiles para el RADAR porque la identidad sale de cómo cuatro músicos ya hechos reparten el trabajo, no de un invitado de relumbrón ni de un aniversario. Unno y Onuma pueden moverse entre armonía de jazz, fraseo brasileño e improvisación más abierta mientras Matsubara y Numazawa convierten el groove en el principio organizador. El mismo cuarteto ya tocó junto antes en 2026, así que aquí interesa escuchar cómo madura un lenguaje de trabajo, no una cumbre fabricada para una sola noche.",
+          "trip_verdict": "La tendría en el tablero de Kanto y entraría si el 4 de noviembre acomoda limpio. Pinta para una muy buena noche de groove e improvisación en sala pequeña, pero si choca con un maestro más escaso, un estreno, una despedida o una alineación verdaderamente irrepetible, mantendría ese otro evento por delante.",
+          "listen_before": "Tadataka Unno — I Am, Because You Are; Yosuke Onuma — Your Smile"
+        }
+      }
+    }
+  ]
+}
