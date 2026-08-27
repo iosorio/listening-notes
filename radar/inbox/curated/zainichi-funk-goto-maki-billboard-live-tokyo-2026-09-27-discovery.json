@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "zainichi-funk-goto-maki-billboard-live-tokyo-2026-09-27-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. Zainichi Funk with special guest Maki Goto clears RADAR admission because this edition places a seven-piece horn-driven Japanese deep-funk band together with a current collaborator from a different pop lineage, creating a specific groove and cross-genre question rather than a celebrity guest spot. A+ is intentional: actively worth making room for, while a recurring Billboard Live relationship and an active current collaboration do not justify the scarcity language of S. Batch distribution: A+ 1, A 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "zainichi-funk-goto-maki-billboard-live-tokyo-2026-09-27",
+      "artist": "Zainichi Funk feat. Maki Goto",
+      "subtitle": "Zainichi Funk at Billboard Live TOKYO 2026 — special guest Maki Goto",
+      "dates": {
+        "start": "2026-09-27",
+        "end": null
+      },
+      "showtimes": [
+        "15:00",
+        "18:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese deep funk / Horn-driven groove / Current cross-genre collaboration",
+      "genres": [
+        "Funk",
+        "Soul",
+        "Jazz-funk",
+        "J-Pop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Kenta Hamano — vocals",
+        "Keita Murakami — bass",
+        "Masaki Nagata — drums",
+        "Gentle Kubota — trombone",
+        "Motoi Murakami — trumpet",
+        "Takehide Hashimoto — saxophone",
+        "Kei Kogane-maru — guitar",
+        "Maki Goto — vocals, special guest"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Zainichi Funk on Sunday, September 27, 2026, with sets at 3:00 PM and 6:00 PM. The official event page lists the seven-piece band of Kenta Hamano, Keita Murakami, Masaki Nagata, Gentle Kubota, Motoi Murakami, Takehide Hashimoto, and Kei Kogane-maru, with Maki Goto as special guest vocalist. Billboard describes the group as a new-era deep-funk band descended from the James Brown lineage and identifies this as its third consecutive Billboard Live premium club appearance. KAKUBARHYTHM, the band's official label/management, confirms Goto's guest appearance and says it follows her 2026 collaboration with Hamano on the theme song 'Oh-hey' for the drama Ginga no Ippyo. The official pages confirm first-stage doors at 2:00 PM / start at 3:00 PM and second-stage doors at 5:00 PM / start at 6:00 PM.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Zainichi Funk",
+          "title": "Zai Life",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/%E5%9C%A8%E3%83%A9%E3%82%A4%E3%83%95/1709418157"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact Billboard Live Tokyo event page, date, both set times, full announced band, Maki Goto guest billing, and the third-consecutive-Billboard context are verified. KAKUBARHYTHM independently confirms the guest appearance, current collaboration context, and stage times. The event page exposes a Buy Tickets control, but a distinct stable event-specific purchase destination was not resolved in this pass, so official_tickets remains pending rather than storing a generic or unstable booking URL. The exact Apple Music page for Zai Life is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-08-27",
+          "note": "Official event page confirms September 27, 2026, both stage times, full seven-piece Zainichi Funk lineup, Maki Goto as special guest, third-consecutive-Billboard framing, and the current collaboration context."
+        },
+        {
+          "url": "https://kakubarhythm.com/news/zainichifunk",
+          "publisher": "KAKUBARHYTHM",
+          "checked_on": "2026-08-27",
+          "note": "Official label/management news confirms Maki Goto's guest appearance, September 27 Billboard Live Tokyo date, both stage times, and that the appearance follows her collaboration with Kenta Hamano on the 2026 drama theme song Oh-hey."
+        },
+        {
+          "url": "https://music.apple.com/us/album/%E5%9C%A8%E3%83%A9%E3%82%A4%E3%83%95/1709418157",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for Zainichi Funk's Zai Life."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, set times, venue, full announced lineup, guest billing, and event framing were verified directly from Billboard Live Tokyo; KAKUBARHYTHM independently verifies the guest appearance and current collaboration context; listening is an exact Apple Music album page. Repository searches for Zainichi Funk, the event title, Maki Goto, and the stable proposed event ID found no matching canonical, curated, or processed RADAR record before publication. No unannounced personnel or purchase URL were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is not celebrity crossover. Zainichi Funk already runs on a real seven-piece funk engine: bass and drums lock the pocket while trombone, trumpet, saxophone and guitar give Hamano's vocal attack a hard, horn-driven frame. Goto enters because of a current 2026 collaboration rather than as a decorative guest, which makes the interesting question musical: what happens when a mainstream J-pop voice is forced inside this band's deep-funk pocket and call-and-response logic? That contrast gives this year's Billboard stop a concrete identity beyond another return engagement.",
+          "trip_verdict": "Actively make room for one of the two sets if September 27 overlaps a Tokyo stay, especially if the Japan thread includes groove, horn sections and contemporary cross-genre collisions. The guest collaboration makes this edition more distinctive than a routine club return, but the band's recurring Billboard relationship and active current work mean it should complement rather than displace a genuinely scarce master, premiere, farewell or one-off elsewhere in Kanto.",
+          "listen_before": "Zainichi Funk — Zai Life"
+        },
+        "es": {
+          "why_it_matters": "La razón para ponerla en el tablero no es el crossover de celebridades. Zainichi Funk ya funciona como una máquina real de siete músicos: bajo y batería amarran el pocket mientras trombón, trompeta, sax y guitarra le dan un marco duro y lleno de metales a la voz de Hamano. Goto entra por una colaboración vigente de 2026, no como invitada decorativa, y ahí está la pregunta musical: qué pasa cuando una voz muy asociada al J-pop mainstream tiene que meterse dentro del deep funk, el call-and-response y el groove de esta banda. Ese contraste le da a la fecha de Billboard una identidad concreta más allá de otra visita anual.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si el 27 de septiembre coincide con una estancia en Tokio, sobre todo si el hilo japonés viene siguiendo groove, secciones de metales y cruces contemporáneos. La colaboración con Goto vuelve esta edición más particular que una fecha rutinaria del grupo, pero la relación recurrente con Billboard y el trabajo actual de la banda hacen que complemente, y no desplace, a un maestro realmente escaso, un estreno, una despedida o un one-off en otro punto de Kanto.",
+          "listen_before": "Zainichi Funk — Zai Life"
+        }
+      }
+    }
+  ]
+}
