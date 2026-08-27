@@ -1,0 +1,99 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "john-k-mystery-band-hamilton-2026-11-25-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule searches, Space M&A and Japanese jazz sources produced no new verified unrecorded Yamamoto performance. The broader DMV pass found John K's Mystery Band at The Hamilton Live on November 25, 2026. The event clears RADAR admission because John Kadlecik is a DC-area guitarist/vocalist with a direct improvisational lineage through Dark Star Orchestra, Furthur with Phil Lesh and Bob Weir, and his current work with Melvin Seals & JGB. Priority A is deliberate: the local connection and improvisational identity make the date worth knowing, but the current event page does not announce a rare lineup, premiere, farewell, or other context that warrants active-priority or scarcity language. The proposed batch adds one A and no S/S+, supporting the intended broad-base shape without using distribution as a quota. The authorized event copy says The Hamilton is thrilled to host '2 nights' with the Mystery Band, but the current Hamilton calendar and exact EVENTIM listing expose only November 25; this candidate therefore records only the verified date and does not infer a second show.",
+  "events": [
+    {
+      "id": "john-k-mystery-band-hamilton-washington-dc-2026-11-25",
+      "artist": "John K's Mystery Band",
+      "subtitle": "John Kadlecik — improvisational Dead-lineage music in the DMV",
+      "dates": {
+        "start": "2026-11-25",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Improvisational rock / Grateful Dead lineage / DMV",
+      "genres": [
+        "Jam band",
+        "Rock",
+        "Psychedelic rock"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "John Kadlecik — guitar/vocals; additional Mystery Band personnel are not announced on the current authorized event page"
+      ],
+      "factual_description": "The Hamilton Live and its authorized EVENTIM listing announce John K's Mystery Band for Wednesday, November 25, 2026 at The Hamilton Live in Washington, DC, with doors at 6:30 PM and the show at 8:00 PM. The authorized event page describes John Kadlecik as a DC-area singer, songwriter and guitarist, an original co-founder of Dark Star Orchestra, a former Furthur sideman to Phil Lesh and Bob Weir, and a musician currently performing with Melvin Seals & JGB. It also states that $5 from each ticket will be donated to DC Central Kitchen. The current page does not announce the additional Mystery Band personnel, so they are not inferred. The event copy mentions '2 nights,' but the current Hamilton calendar and exact EVENTIM series page list only November 25; only that verified date is recorded here.",
+      "links": {
+        "official_event": "https://www.eventim.com/event/john-ks-mystery-band-the-hamilton-live-22003900/",
+        "official_tickets": "https://www.eventim.com/event/john-ks-mystery-band-the-hamilton-live-22003900/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "John Kadlecik",
+          "title": "Liquid Silver Live",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/liquid-silver-live/934284038"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The Hamilton Live calendar and exact authorized EVENTIM destination verify the date, doors, showtime, venue, ticketing status, charitable component and Kadlecik's DC/Furthur/Dark Star Orchestra context. Additional Mystery Band personnel are not currently announced and were not inferred. The source-text reference to two nights conflicts with the live calendar/series listing, so only the single verified November 25 performance is recorded."
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-08-27",
+          "note": "Official venue site lists John Kadlecik / John K's Mystery Band among newly announced performances and places the event on November 25, 2026 at 8:00 PM."
+        },
+        {
+          "url": "https://www.eventim.com/event/john-ks-mystery-band-the-hamilton-live-22003900/",
+          "publisher": "The Hamilton Live authorized ticketing / EVENTIM",
+          "checked_on": "2026-08-27",
+          "note": "Exact authorized event page confirms Wednesday, November 25, 2026, doors at 6:30 PM, show at 8:00 PM, venue, active ticketing, $5-per-ticket donation to DC Central Kitchen, and Kadlecik's DC-area / Dark Star Orchestra / Furthur / Melvin Seals & JGB context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/liquid-silver-live/934284038",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music page for John Kadlecik's 2014 live album Liquid Silver Live."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date, venue, doors, showtime, ticketing and the event's charitable component were verified against The Hamilton Live and its authorized EVENTIM page. Kadlecik's DC-area identity and Grateful Dead-related lineage are stated on that same authorized event page. Repository searches for John Kadlecik, John K's Mystery Band and the November 25 Hamilton engagement found no existing matching RADAR record before publication. No unannounced band personnel, second date, special repertoire or scarcity claims were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Kadlecik is part of the post-Garcia Dead lineage in a way that is unusually native to the DMV: he is a DC-area guitarist and singer who co-founded Dark Star Orchestra, then spent years inside Furthur with Phil Lesh and Bob Weir, while keeping improvisation at the center of his own work. A Mystery Band night at The Hamilton is therefore less interesting as repertory nostalgia than as a local branch of that improvisational language still being played by someone who helped carry it forward.",
+          "trip_verdict": "Keep Thanksgiving Eve on the local board if the Dead-improvisation thread is calling. This is a good Washington night with a real regional connection, but with the supporting personnel still unannounced and Kadlecik active in several projects, I would fit it around rarer lineups, premieres, farewells or one-off contexts rather than move one of those to make room.",
+          "listen_before": "John Kadlecik — Liquid Silver Live"
+        },
+        "es": {
+          "why_it_matters": "Kadlecik forma parte del linaje post-Garcia de los Dead de una manera especialmente ligada al DMV: es guitarrista y cantante de la zona de DC, cofundó Dark Star Orchestra y después pasó años dentro de Furthur con Phil Lesh y Bob Weir, manteniendo la improvisación en el centro de su propio trabajo. Por eso una noche de Mystery Band en The Hamilton interesa menos como nostalgia de repertorio que como una rama local de ese lenguaje improvisatorio todavía tocada por alguien que ayudó a mantenerlo vivo.",
+          "trip_verdict": "La tendría en el tablero local para la víspera de Thanksgiving si el hilo de improvisación de los Dead está llamando. Es una buena noche de Washington con una conexión regional real, pero con el resto de la banda todavía sin anunciar y Kadlecik activo en varios proyectos, la acomodaría alrededor de alineaciones más raras, estrenos, despedidas o contextos de una sola oportunidad en vez de mover uno de esos conciertos para hacerle espacio.",
+          "listen_before": "John Kadlecik — Liquid Silver Live"
+        }
+      }
+    }
+  ]
+}
