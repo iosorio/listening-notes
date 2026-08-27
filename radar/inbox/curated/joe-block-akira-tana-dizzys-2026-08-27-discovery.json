@@ -1,0 +1,195 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "joe-block-akira-tana-dizzys-2026-08-27-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before discovery and grading. ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule searches, and credible Japanese jazz sources produced no new unrecorded verified Tsuyoshi Yamamoto performance. The broader corridor scan found two unrecorded Dizzy's Club candidates. Admission and priority were decided separately. Joe Block is A: the first complete live performance of his first all-original bandleader album gives the date a concrete editorial reason beyond a routine club booking, but two sets by an emerging leader do not require active regional reprioritization. Akira Tana and Friends featuring Atsuko Hashimoto and Skylar Tang is A+: Tana's direct mentor/bandleader relationship with Jimmy Heath and the Hammond-organ-led quartet make the three-night tribute musically specific and worth actively making room for, while three nights and six sets rule out scarcity-tier treatment. Proposed batch shape: A 1 / A+ 1 / S 0 / S+ 0, consistent with the repo's broad-base hierarchy without using distribution as a quota.",
+  "events": [
+    {
+      "id": "joe-block-quintet-dizzys-new-york-2026-09-28",
+      "artist": "Joe Block Quintet",
+      "subtitle": "There Is Always Hope album release — first complete live performance",
+      "dates": {
+        "start": "2026-09-28",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Contemporary jazz / Album release / Original composition",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Joe Block — piano, bandleader"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents the Joe Block Quintet at Dizzy's Club on Monday, September 28, 2026, with sets at 7:00 PM and 9:00 PM. Blue Engine Records announced on August 26 that the concerts celebrate Block's September 25 release There Is Always Hope and will mark the first time the album is performed live in its entirety. Blue Engine describes the record as Block's debut as a bandleader and his first album composed entirely of original works, developed over roughly six years with a recurring ensemble. The album personnel include Noah Halpern, Chris Lewis, Morgan Guerin, Dylan Band, Abdias Armenteros, Samuel Harris and Christian McGhee, with Kurt Rosenwinkel guesting on one track; however, Jazz at Lincoln Center has not published the concert quintet personnel beyond Joe Block, so no additional live lineup is inferred here.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21338/",
+        "official_tickets": "https://ticketing.jazz.org/21338/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Joe Block",
+          "title": "Solo Piano, Vol. 1",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/solo-piano-vol-1/1871580952"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "live_quintet_personnel",
+          "there_is_always_hope_apple_music"
+        ],
+        "note": "Exact Dizzy's event, both set times, the Blue Engine release announcement and the first-complete-live-performance context are verified. The concert is billed as a quintet, but the live personnel beyond Joe Block are not listed on the current JALC ticket page; album personnel were not copied into the live lineup. There Is Always Hope has not yet been released, so no Apple Music URL for the album was inferred; Solo Piano, Vol. 1 is used as an exact currently verified listening destination."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21338/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-27",
+          "note": "Official Dizzy's Club ticket page confirms Monday, September 28, 2026, 7:00 PM and 9:00 PM sets and the Joe Block Quintet album-release billing."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/08/blue-engine-records-announces-there-is-always-hope-new-album-from-joe-block/",
+          "publisher": "Blue Engine Records / Jazz at Lincoln Center",
+          "checked_on": "2026-08-27",
+          "note": "Official August 26 release announcement confirms There Is Always Hope, September 25 release date, that it is Block's debut as a bandleader and first all-original album, and that the September 28 Dizzy's sets will perform the album live in its entirety for the first time."
+        },
+        {
+          "url": "https://music.apple.com/us/album/solo-piano-vol-1/1871580952",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music destination for Joe Block's 2026 Solo Piano, Vol. 1."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, set times, venue, album-release context and first full live performance were verified from Jazz at Lincoln Center / Blue Engine primary sources. Repository search found no existing Joe Block / Dizzy's / September 28, 2026 record before publication. No unannounced live quintet personnel, ticket destination or unreleased Apple Music URL was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The useful hook is not simply a young pianist getting a Dizzy's date. Block has spent years revising this body of original music with a recurring circle of players, and this is the first time the new album will be played live from beginning to end. That turns the set into a snapshot of a composer moving from sideman and musical-director work into a fully authored bandleader statement.",
+          "trip_verdict": "Worth catching if New York is already in play and September 28 fits cleanly. The first full live pass through the album makes it more interesting than a routine club set, but I would not build a dedicated DMV-to-NYC trip around this date alone.",
+          "listen_before": "Joe Block — Solo Piano, Vol. 1"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente que un pianista joven tenga una fecha en Dizzy's. Block lleva años revisando este cuerpo de música original con un círculo recurrente de músicos, y ésta será la primera vez que el nuevo disco se toque completo en vivo. Eso convierte el set en una fotografía de un compositor pasando del trabajo de sideman y director musical a una declaración plenamente propia como bandleader.",
+          "trip_verdict": "Vale entrarle si Nueva York ya está en juego y el 28 de septiembre embona limpio. Escuchar por primera vez el disco completo en vivo vuelve la fecha más interesante que un set rutinario de club, pero no armaría un viaje dedicado DMV–NYC sólo alrededor de esta noche.",
+          "listen_before": "Joe Block — Solo Piano, Vol. 1"
+        }
+      }
+    },
+    {
+      "id": "akira-tana-atsuko-hashimoto-dizzys-new-york-2026-10-09",
+      "artist": "Akira Tana and Friends featuring Atsuko Hashimoto and Skylar Tang",
+      "subtitle": "Celebrating Jimmy Heath — Akira Tana / Skylar Tang / Atsuko Hashimoto / Yutaka Hashimoto",
+      "dates": {
+        "start": "2026-10-09",
+        "end": "2026-10-11"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "17:00",
+        "19:30"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese jazz lineage / Hammond organ quartet / Jimmy Heath tribute",
+      "genres": [
+        "Jazz",
+        "Hard Bop",
+        "Soul Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Akira Tana — drums, bandleader",
+        "Skylar Tang — trumpet",
+        "Atsuko Hashimoto — Hammond organ",
+        "Yutaka Hashimoto — guitar"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Akira Tana and Friends featuring Atsuko Hashimoto and Skylar Tang at Dizzy's Club from October 9 through October 11, 2026. Friday and Saturday sets are at 7:00 PM and 9:00 PM; Sunday sets are at 5:00 PM and 7:30 PM. The announced quartet is Akira Tana on drums, Skylar Tang on trumpet, Atsuko Hashimoto on Hammond organ and Yutaka Hashimoto on guitar. JALC frames the engagement as a tribute to saxophonist Jimmy Heath, describing Heath as Tana's former mentor and bandleader and the music as a reworking of Heath compositions and related classics through organ-led, blues- and groove-oriented arrangements. Tana's recorded history includes work with Jimmy Heath and the Heath Brothers; his 2025 album Loving Burt Bacharach also features Atsuko Hashimoto, documenting a current Tana–Hashimoto musical relationship independent of this tribute.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21473/",
+        "official_tickets": "https://ticketing.jazz.org/21473/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Akira Tana",
+          "title": "Loving Burt Bacharach",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/es/album/loving-burt-bacharach/1843988217"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact JALC event page verifies all three dates, six set times, complete quartet personnel, tribute framing and direct Tana–Jimmy Heath relationship. The exact Apple Music destination for Tana's 2025 Loving Burt Bacharach, featuring Atsuko Hashimoto, is verified."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21473/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-27",
+          "note": "Official event/ticket page confirms October 9–11, all set times, Akira Tana / Skylar Tang / Atsuko Hashimoto / Yutaka Hashimoto personnel, and the Jimmy Heath tribute context tied to Tana's mentor/bandleader relationship with Heath."
+        },
+        {
+          "url": "https://music.apple.com/es/album/loving-burt-bacharach/1843988217",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for Akira Tana's 2025 Loving Burt Bacharach, which features Atsuko Hashimoto across the album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, set times, venue, complete quartet lineup and the Jimmy Heath tribute rationale were verified from Jazz at Lincoln Center. Repository search found no existing Akira Tana / Atsuko Hashimoto / Dizzy's / October 9, 2026 record before publication. No additional guests, repertoire specifics beyond JALC's description or scarcity claim were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This tribute has lineage inside it. Tana is not approaching Jimmy Heath as repertory from a distance; Heath was his mentor and bandleader, and Tana spent real time inside that musical world. Putting that memory over Atsuko Hashimoto's Hammond, Yutaka Hashimoto's guitar and Skylar Tang's trumpet shifts the music toward a greasy organ-quartet language rather than a museum reconstruction, which is exactly what makes the tribute worth hearing.",
+          "trip_verdict": "Actively make room for one of the six sets if a New York trip overlaps with October 9–11. The direct Heath lineage and the organ-led configuration are strong enough to prioritize within the city, while three nights give plenty of flexibility and keep this from becoming a scarcity-driven regional trip on its own.",
+          "listen_before": "Akira Tana — Loving Burt Bacharach"
+        },
+        "es": {
+          "why_it_matters": "Este tributo trae el linaje metido adentro. Tana no se acerca a Jimmy Heath como repertorio visto desde lejos: Heath fue su mentor y bandleader, y Tana pasó tiempo real dentro de ese mundo musical. Poner esa memoria sobre el Hammond de Atsuko Hashimoto, la guitarra de Yutaka Hashimoto y la trompeta de Skylar Tang empuja la música hacia un lenguaje grasoso de organ quartet en vez de una reconstrucción de museo; justo ahí está la razón para escucharlo.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los seis sets si un viaje a Nueva York coincide con el 9–11 de octubre. El vínculo directo con Heath y la configuración alrededor del órgano alcanzan para priorizarlo dentro de la ciudad, mientras las tres noches dan suficiente flexibilidad para que no se convierta por sí solo en un viaje regional basado en escasez.",
+          "listen_before": "Akira Tana — Loving Burt Bacharach"
+        }
+      }
+    }
+  ]
+}
