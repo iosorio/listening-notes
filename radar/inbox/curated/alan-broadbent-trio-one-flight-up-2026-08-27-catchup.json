@@ -1,0 +1,111 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "alan-broadbent-trio-one-flight-up-2026-08-27-catchup",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE-oriented search, BODY&SOUL, Space M&A, Keystone Club Tokyo, Yamamoto schedule sources, and current Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. This catch-up adds the Alan Broadbent Trio at One Flight Up as an A-priority event: a strong working trio worth knowing about and attending if convenient, without scarcity inflation.",
+  "events": [
+    {
+      "id": "alan-broadbent-trio-one-flight-up-new-york-2026-08-27",
+      "artist": "Alan Broadbent Trio",
+      "subtitle": "Alan Broadbent with Harvie S and Billy Mintz",
+      "dates": {
+        "start": "2026-08-27",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "one-flight-up-new-york",
+        "name": "One Flight Up",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Acoustic jazz / Piano trio / New York club",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Piano trio"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Alan Broadbent — piano",
+        "Harvie S — bass",
+        "Billy Mintz — drums"
+      ],
+      "factual_description": "One Flight Up presents the Alan Broadbent Trio on Thursday, August 27, 2026. The club's current schedule states that its performances use 7:00 PM and 8:30 PM sets and identifies Alan Broadbent on piano, Harvie S on bass, and Billy Mintz on drums. Harvie S's official calendar independently confirms the same trio and venue and connects the working group to the album Like Minds.",
+      "links": {
+        "official_event": "https://www.oneflightupjazz.com/live-music-calendar/alan-broadbent-trio",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Alan Broadbent Trio",
+          "title": "Like Minds",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/like-minds/1614325147"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Exact venue event page, the club's two-set convention for the engagement, complete trio personnel, an independent official-musician calendar confirmation, and the exact Apple Music album page are verified. The accessible event page did not expose a stable event-specific booking destination separate from the event page, so no generic or session-dependent URL is substituted."
+      },
+      "sources": [
+        {
+          "url": "https://www.oneflightupjazz.com/live-music-calendar/alan-broadbent-trio",
+          "publisher": "One Flight Up",
+          "checked_on": "2026-08-26",
+          "note": "Official venue event page confirms Thursday, August 27, 2026 and the evening engagement."
+        },
+        {
+          "url": "https://www.oneflightupjazz.com/",
+          "publisher": "One Flight Up",
+          "checked_on": "2026-08-26",
+          "note": "Official venue homepage lists Alan Broadbent, Harvie S and Billy Mintz and states that upcoming performances use sets at 7:00 PM and 8:30 PM."
+        },
+        {
+          "url": "https://harvies.com/",
+          "publisher": "Harvie S",
+          "checked_on": "2026-08-26",
+          "note": "Official musician site independently lists Alan Broadbent Trio with Harvie S and Billy Mintz at One Flight Up on August 27 and references Like Minds."
+        },
+        {
+          "url": "https://music.apple.com/us/album/like-minds/1614325147",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music page for Like Minds by the same Broadbent-Harvie S-Mintz trio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, lineup and set structure were verified from One Flight Up; Harvie S's official site independently confirms the exact trio and engagement; listening is an exact Apple Music album page for the same trio. Repository search found no existing Alan Broadbent / One Flight Up RADAR record. No ticket destination, price, repertoire, or additional personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the kind of straight-ahead date RADAR should be able to keep without inflating it. Broadbent, Harvie S and Mintz are a real working trio with years of recorded chemistry, and their best quality is not spectacle but the freedom to reshape standards from inside the piano-trio form. A small new downtown club is a good place to hear that conversational detail at close range.",
+          "trip_verdict": "Worth keeping on the board if New York is already in play on August 27. I would take a set if the evening is open, but I would not build a dedicated regional trip around this date or move a rarer one-off to make room for it.",
+          "listen_before": "Alan Broadbent Trio — Like Minds"
+        },
+        "es": {
+          "why_it_matters": "Ésta es justo la clase de fecha straight-ahead que el RADAR debe poder conservar sin inflarla. Broadbent, Harvie S y Mintz son un trío de trabajo con años de química grabada, y su fuerza no está en el espectáculo sino en la libertad para rehacer standards desde adentro del formato de piano trío. Un club nuevo y pequeño en downtown Manhattan es muy buen contexto para escuchar esa conversación de cerca.",
+          "trip_verdict": "Vale tenerla en el tablero si Nueva York ya está en juego el 27 de agosto. Entraría a un set si la noche está libre, pero no armaría un viaje regional dedicado alrededor de esta fecha ni desplazaría por ella un one-off más raro.",
+          "listen_before": "Alan Broadbent Trio — Like Minds"
+        }
+      }
+    }
+  ]
+}
