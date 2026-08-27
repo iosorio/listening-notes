@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "polyphia-be-not-afraid-echostage-2027-03-09-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-26 under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were re-read before searching and grading. Current ALFIE, BODY&SOUL, Space M&A, Yamamoto-schedule, and Japanese-jazz searches produced no new unrecorded verified Tsuyoshi Yamamoto performance. Polyphia's Washington date is newly material because the band announced on 2026-08-26 that its North American run has moved to February/March 2027 around the new album BE NOT AFRAID. Repository searches found no existing Polyphia RADAR event or batch. The event clears RADAR admission through strong instrumental identity, modern prog/heavy vocabulary, groove, and a current album-cycle context. It receives A+: actively make room for the local date, while the broad North American run and nearby Philadelphia/Brooklyn dates make S-level scarcity inappropriate.",
+  "events": [
+    {
+      "id": "polyphia-be-not-afraid-echostage-washington-dc-2027-03-09",
+      "artist": "Polyphia",
+      "subtitle": "BE NOT AFRAID World Tour",
+      "dates": {
+        "start": "2027-03-09",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "echostage-washington-dc",
+        "name": "Echostage",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Instrumental prog / Modern heavy music / Genre hybrid",
+      "genres": [
+        "Progressive metal",
+        "Instrumental rock",
+        "Math rock",
+        "Electronic rock"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Experimental / Metal",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Polyphia — headliner",
+        "Ladrones — support",
+        "RJ Pasin — support"
+      ],
+      "factual_description": "Polyphia's BE NOT AFRAID World Tour plays Echostage in Washington, DC on Tuesday, March 9, 2027 at 7:30 PM. Ticketmaster's current event page verifies the rescheduled date, venue and show time, while its reschedule notice confirms that the Washington performance moved into the February/March 2027 North American run. Polyphia announced the move on August 26, 2026 while detailing BE NOT AFRAID, its fifth studio album, due October 23, 2026 via Rise Records. Current tour-announcement coverage carrying the band's statement lists Ladrones and RJ Pasin on the North American dates, including Washington.",
+      "links": {
+        "official_event": "https://www.ticketmaster.com/polyphia-tour-mmxxvi-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395",
+        "official_tickets": "https://www.ticketmaster.com/polyphia-tour-mmxxvi-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/polyphia-tour-mmxxvi-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395",
+          "checked_on": "2026-08-26"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Polyphia",
+          "title": "Remember That You Will Die",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/remember-that-you-will-die/1651577210"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact refreshed Ticketmaster event page verifies the March 9, 2027 7:30 PM Echostage date and serves as the authorized ticket destination. Ticketmaster's current reschedule notice independently confirms the moved Washington date. Polyphia's official store verifies the new BE NOT AFRAID album and track list; current release/tour coverage carrying the band's statement verifies the October 23 release date and North American support billing. The recommended listening URL is the exact Apple Music album page for Remember That You Will Die. No ticket prices were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.com/polyphia-tour-mmxxvi-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-26",
+          "note": "Exact authorized event page verifies Polyphia: BE NOT AFRAID World Tour on Tuesday, March 9, 2027 at 7:30 PM at Echostage in Washington, DC."
+        },
+        {
+          "url": "https://help.ticketmaster.com/hc/en-us/articles/47794193785745-Polyphia",
+          "publisher": "Ticketmaster Help",
+          "checked_on": "2026-08-26",
+          "note": "Current official reschedule chart confirms the Washington, DC Echostage performance moved to March 9, 2027 and also lists nearby Philadelphia on March 5 and Brooklyn on March 6."
+        },
+        {
+          "url": "https://polyphia.com/products/be-not-afraid-cd",
+          "publisher": "Polyphia",
+          "checked_on": "2026-08-26",
+          "note": "Official band store verifies BE NOT AFRAID as Polyphia's new album and lists its 12-track sequence, including Can You Feel It and Power In The Blood."
+        },
+        {
+          "url": "https://www.theprp.com/2026/08/26/news/polyphia-unveil-their-fifth-album-be-not-afraid-debut-power-in-the-blood-video/",
+          "publisher": "ThePRP",
+          "checked_on": "2026-08-26",
+          "note": "Current release coverage quotes Polyphia's announcement, confirms BE NOT AFRAID for October 23, 2026 via Rise Records, lists the rescheduled March 9 Washington date, and identifies Ladrones and RJ Pasin as support on the North American run."
+        },
+        {
+          "url": "https://music.apple.com/us/album/remember-that-you-will-die/1651577210",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-26",
+          "note": "Exact Apple Music album page for Polyphia's Remember That You Will Die."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "The current Ticketmaster event page verifies the rescheduled date, venue and show time; Ticketmaster Help independently verifies the reschedule. Polyphia's official store verifies the new album. Current release coverage carrying the band's statement verifies the October 23 album release and support billing. Repository searches found no existing Polyphia RADAR record or batch. Nearby Philadelphia and Brooklyn stops on the same run were used only as editorial evidence against scarcity, not duplicated as separate RADAR records. No ticket prices or unannounced personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Polyphia clears RADAR because the instrument is the language. Tim Henson and Scott LePage treat electric guitar as melody, percussion and production surface at once, folding prog precision into trap-derived rhythm, electronic texture and heavy-guitar vocabulary without reducing the music to technique for technique's sake. BE NOT AFRAID gives the Washington date a genuinely current center: the band has described this record as a more communal writing process, with everyone in the room earlier instead of assembling separate ideas after the fact. Echostage also makes sense for a group whose music depends as much on bass pressure and pocket as on fretboard detail.",
+          "trip_verdict": "Actively make room for the rescheduled local date if March is open. This is a strong DMV night for guitar, rhythm and modern heavy music, but the same North American run passes through Philadelphia and Brooklyn just days earlier, so there is no need to treat Washington as a scarce regional opportunity.",
+          "listen_before": "Polyphia — Remember That You Will Die"
+        },
+        "es": {
+          "why_it_matters": "Polyphia entra al RADAR porque aquí el instrumento es el lenguaje. Tim Henson y Scott LePage hacen que la guitarra eléctrica cargue melodía, percusión y textura de producción al mismo tiempo, mezclando precisión prog con ritmos derivados del trap, electrónica y vocabulario pesado sin volver la música una exhibición de técnica por la técnica. BE NOT AFRAID le da además un centro completamente actual a la fecha de Washington: la banda ha explicado que esta vez compuso de manera más colectiva, trabajando juntos desde el principio en vez de ensamblar después ideas separadas. Echostage también le queda bien a una música que depende tanto de presión de bajo y pocket como de detalle de guitarra.",
+          "trip_verdict": "Sí le haría espacio activamente a la nueva fecha local si marzo está abierto. Es una noche fuerte del DMV para guitarra, ritmo y música pesada contemporánea, pero la misma corrida pasa por Filadelfia y Brooklyn apenas unos días antes, así que no hace falta tratar Washington como una oportunidad regional escasa.",
+          "listen_before": "Polyphia — Remember That You Will Die"
+        }
+      }
+    }
+  ]
+}
