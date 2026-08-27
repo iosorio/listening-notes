@@ -1,0 +1,140 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "mastodon-deafheaven-alcest-anthem-2026-09-25-discovery",
+  "notes": "Verified A+-priority Washington, DC discovery under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. This event clears RADAR admission because the specific Mastodon / Deafheaven / Alcest package places three distinct strands of adventurous heavy music in one local bill: progressive/sludge riff architecture, black-metal/shoegaze expansion, and atmospheric blackgaze/post-metal. A+ captures the recommendation because the lineup is unusually strong and worth actively making room for in the DMV, while the Poisonous Weapons Tour is a multi-city U.S. run and therefore not scarce enough for S. Repository search before publication found no Mastodon / Deafheaven / Alcest / The Anthem / September 25, 2026 record in indexed canonical or inbox history.",
+  "events": [
+    {
+      "id": "mastodon-deafheaven-alcest-the-anthem-washington-dc-2026-09-25",
+      "artist": "Mastodon with Deafheaven & Alcest",
+      "subtitle": "Poisonous Weapons Tour",
+      "dates": {
+        "start": "2026-09-25",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Progressive metal / Blackgaze / Post-metal",
+      "genres": [
+        "Progressive metal",
+        "Sludge metal",
+        "Post-metal",
+        "Blackgaze",
+        "Shoegaze"
+      ],
+      "musical_axes": [
+        "Fusion/Prog",
+        "Experimental/Metal",
+        "Instrumental identity",
+        "Groove"
+      ],
+      "lineup": [
+        "Mastodon",
+        "Deafheaven",
+        "Alcest"
+      ],
+      "factual_description": "I.M.P. presents Mastodon with Deafheaven and Alcest at The Anthem in Washington, DC on Friday, September 25, 2026. Doors are at 5:30 PM and the show is at 7:00 PM. Ticketmaster independently confirms the same date, show time and venue. Mastodon's official store identifies the current U.S. run as the Poisonous Weapons Tour, while Mastodon's official site and Apple Music identify Marrow Deep as the band's new album, scheduled for release on August 28, 2026. Deafheaven's current album is Lonely People With Power and Alcest's most recent album is Les Chants de l'Aurore.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/mastodon/",
+        "official_tickets": "https://www.ticketmaster.com/mastodon-washington-district-of-columbia-09-25-2026/event/150064BCD4EBF492"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Mastodon",
+          "title": "Marrow Deep",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/marrow-deep/6781040477"
+        },
+        {
+          "artist": "Deafheaven",
+          "title": "Lonely People With Power",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/lonely-people-with-power/1792077173"
+        },
+        {
+          "artist": "Alcest",
+          "title": "Les Chants de l'Aurore",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/les-chants-de-laurore/1737389873"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact I.M.P. event page verifies billing, date, venue and doors/show time; Ticketmaster verifies the authorized ticket destination and 7:00 PM event time. Mastodon's official store identifies the U.S. run as the Poisonous Weapons Tour. Exact Apple Music album pages are verified for Mastodon's Marrow Deep, Deafheaven's Lonely People With Power, and Alcest's Les Chants de l'Aurore. No unannounced personnel, set lengths, prices or production details were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/mastodon/",
+          "publisher": "I.M.P. / The Anthem",
+          "checked_on": "2026-08-27",
+          "note": "Exact official promoter event page confirms Mastodon with Deafheaven and Alcest on September 25, 2026 at The Anthem, with 5:30 PM doors and 7:00 PM show."
+        },
+        {
+          "url": "https://www.ticketmaster.com/mastodon-washington-district-of-columbia-09-25-2026/event/150064BCD4EBF492",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-27",
+          "note": "Exact authorized ticket page confirms Friday, September 25, 2026 at 7:00 PM at The Anthem in Washington, DC."
+        },
+        {
+          "url": "https://shop.mastodonrocks.com/pages/poisonous-weapons-sweepstakes",
+          "publisher": "Mastodon Official Store",
+          "checked_on": "2026-08-27",
+          "note": "Official Mastodon source identifies the current U.S. run as the Poisonous Weapons Tour."
+        },
+        {
+          "url": "https://www.mastodonrocks.com/",
+          "publisher": "Mastodon",
+          "checked_on": "2026-08-27",
+          "note": "Official artist site identifies Marrow Deep as the current album, due August 28, 2026."
+        },
+        {
+          "url": "https://music.apple.com/us/album/marrow-deep/6781040477",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music pre-release page for Mastodon's Marrow Deep."
+        },
+        {
+          "url": "https://music.apple.com/us/album/lonely-people-with-power/1792077173",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for Deafheaven's Lonely People With Power."
+        },
+        {
+          "url": "https://music.apple.com/us/album/les-chants-de-laurore/1737389873",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for Alcest's Les Chants de l'Aurore."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Billing, date, venue and doors/show time were verified against I.M.P.'s exact event page; the authorized Ticketmaster page independently confirms the event time and venue. The tour name comes from Mastodon's official store and the current-album context from Mastodon's official site and exact Apple Music pages. Repository search before publication found no matching Mastodon / Deafheaven / Alcest / The Anthem / September 25, 2026 record in indexed canonical or inbox history. No individual band personnel, support beyond the announced billing, prices or production details were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the bill itself: Mastodon, Deafheaven and Alcest represent three different ways of stretching heavy music beyond genre orthodoxy. Mastodon builds weight through progressive riff architecture and rhythmic muscle; Deafheaven lets black-metal velocity collide with shoegaze scale and atmosphere; Alcest helped turn that atmospheric borderland into a language of its own. With Mastodon also entering the Marrow Deep cycle, the Anthem date has a current-project reason to matter rather than reading as a legacy-heavy package.",
+          "trip_verdict": "Actively make room for this one in the DMV if progressive, heavy and experimental music are part of the listening thread. The specific three-band package is strong enough to build the night around locally, while the multi-city tour routing means there is no need to treat Washington as a scarce regional one-off.",
+          "listen_before": "Mastodon — Marrow Deep; Deafheaven — Lonely People With Power; Alcest — Les Chants de l'Aurore"
+        },
+        "es": {
+          "why_it_matters": "Aquí importa el cartel completo: Mastodon, Deafheaven y Alcest representan tres maneras distintas de empujar la música pesada fuera de sus fronteras más obvias. Mastodon construye peso desde arquitectura de riffs progresivos y músculo rítmico; Deafheaven hace chocar la velocidad del black metal con la escala y la atmósfera del shoegaze; Alcest ayudó a convertir justamente esa frontera atmosférica en un lenguaje propio. Además, Mastodon entra a esta gira con Marrow Deep como ciclo nuevo, así que la fecha de The Anthem tiene una razón actual para importar y no funciona sólo como paquete de legado.",
+          "trip_verdict": "Sí le haría espacio activamente dentro del DMV si el hilo de escucha incluye prog, metal y música pesada experimental. El cartel de tres bandas alcanza para construir la noche alrededor del show localmente; al ser parte de una gira de varias ciudades, no hace falta tratar Washington como un one-off regional escaso.",
+          "listen_before": "Mastodon — Marrow Deep; Deafheaven — Lonely People With Power; Alcest — Les Chants de l'Aurore"
+        }
+      }
+    }
+  ]
+}
