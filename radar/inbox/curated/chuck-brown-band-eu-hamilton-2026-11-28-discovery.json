@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "chuck-brown-band-eu-hamilton-2026-11-28-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule searches, and Japanese jazz sources produced no new unrecorded Tsuyoshi Yamamoto performance. The broader DMV pass found The Chuck Brown Band and E.U. featuring Sugar Bear at The Hamilton Live on November 28, 2026. The event clears RADAR admission because it places two foundational DC go-go lineages together in Washington, with groove, call-and-response and local cultural continuity as the musical subject rather than generic nostalgia. Priority A+ is deliberate: this is an unusually strong local cultural pairing worth actively making room for, while the documented annual Thanksgiving-weekend recurrence at The Hamilton and both bands' continuing live activity rule out scarcity-tier treatment. Recent curated additions remain dominated by A/A+ rather than S/S+, so this assignment fits the intended broad-base shape without using distribution as a quota.",
+  "events": [
+    {
+      "id": "chuck-brown-band-eu-sugar-bear-hamilton-washington-dc-2026-11-28",
+      "artist": "The Chuck Brown Band and E.U. featuring Sugar Bear",
+      "subtitle": "Thanksgiving Weekend Go-Go double header",
+      "dates": {
+        "start": "2026-11-28",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "DC go-go / Living lineage / Cultural context",
+      "genres": [
+        "Go-go",
+        "Funk",
+        "R&B/Soul"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "The Chuck Brown Band — exact November 28 personnel not announced on the venue listing",
+        "E.U. featuring Sugar Bear — Gregory 'Sugar Bear' Elliott, lead vocals and bass; additional November 28 personnel not announced on the venue listing"
+      ],
+      "factual_description": "The Hamilton Live lists The Chuck Brown Band and E.U. featuring Sugar Bear for Saturday, November 28, 2026 at 8:00 PM in Washington, DC, with active ticket sales. The Hamilton's outbound purchase link resolves to the event-specific EVENTIM listing for the same billing. E.U.'s official site documents this pairing as an annual Thanksgiving-weekend go-go party at The Hamilton in prior years and describes E.U. as one of Washington's definitive go-go bands since the genre's birth, fronted by Gregory 'Sugar Bear' Elliott on lead vocals and bass. The Chuck Brown Band's official site identifies the current ensemble as the band and family continuing Chuck Brown's go-go tradition. No exact November 28 personnel beyond the billed groups and Sugar Bear were announced in the sources checked.",
+      "links": {
+        "official_event": "https://wl.eventim.us/event/the-chuck-brown-band-and-eu-feat-sugar-bear/702790?afflky=TheHamiltonDC",
+        "official_tickets": "https://wl.eventim.us/event/the-chuck-brown-band-and-eu-feat-sugar-bear/702790?afflky=TheHamiltonDC"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chuck Brown & The Soul Searchers",
+          "title": "Go Go Swing Live",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/go-go-swing-live/447726671"
+        },
+        {
+          "artist": "E.U. & Ivan Goff",
+          "title": "GO Ju Ju GO - EP",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/go-ju-ju-go-ep/814509416"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The Hamilton Live verifies the 2026 billing, date, showtime and active sale status; its outbound link resolves the event-specific authorized EVENTIM destination. Official artist sites verify the continuing Chuck Brown Band lineage, Sugar Bear's role and the recurring Thanksgiving-weekend pairing. Exact November 28 personnel beyond the billed groups and Sugar Bear were not announced and were not inferred. Exact Apple Music pages for representative Chuck Brown/Soul Searchers and E.U. recordings are verified."
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-08-27",
+          "note": "Official venue listing marks The Chuck Brown Band and E.U. featuring Sugar Bear as just announced for Saturday, November 28, 2026 at 8:00 PM and links to event-specific authorized ticketing."
+        },
+        {
+          "url": "https://wl.eventim.us/event/the-chuck-brown-band-and-eu-feat-sugar-bear/702790?afflky=TheHamiltonDC",
+          "publisher": "The Hamilton Live authorized ticketing / EVENTIM",
+          "checked_on": "2026-08-27",
+          "note": "Event-specific purchase destination resolved directly from The Hamilton Live's outbound ticket link for this billing."
+        },
+        {
+          "url": "https://eusugarbear.com/shows",
+          "publisher": "E.U. featuring Sugar Bear",
+          "checked_on": "2026-08-27",
+          "note": "Official artist schedule documents the same Chuck Brown Band + E.U. Thanksgiving-weekend pairing at The Hamilton as a recurring annual go-go party in prior years, which is material to the non-scarcity judgment."
+        },
+        {
+          "url": "https://eusugarbear.com/bio/",
+          "publisher": "E.U. featuring Sugar Bear",
+          "checked_on": "2026-08-27",
+          "note": "Official biography confirms Gregory 'Sugar Bear' Elliott as E.U.'s frontman, lead vocalist and bass player and documents the band's direct formation within Washington's go-go lineage."
+        },
+        {
+          "url": "https://www.windmeupchuck.com/shows",
+          "publisher": "The Chuck Brown Band",
+          "checked_on": "2026-08-27",
+          "note": "Official Chuck Brown Band schedule describes the current ensemble as Brown's band members and family continuing the go-go tradition he pioneered."
+        },
+        {
+          "url": "https://music.apple.com/us/album/go-go-swing-live/447726671",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music page for Chuck Brown & The Soul Searchers' Go Go Swing Live."
+        },
+        {
+          "url": "https://music.apple.com/us/album/go-ju-ju-go-ep/814509416",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music page for E.U. & Ivan Goff's GO Ju Ju GO - EP."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "The 2026 date, billing, showtime and active sale status were verified against The Hamilton Live, and the exact authorized ticket destination was resolved from its outbound purchase link. Official E.U. and Chuck Brown Band sources establish the artists' DC go-go lineage and the recurring Thanksgiving-weekend context. Repository searches for the proposed stable ID, Chuck Brown Band, E.U. and the November 28 Hamilton pairing found no existing canonical, curated or processed RADAR record before publication. No unannounced band personnel, repertoire, prices beyond the venue listing, or scarcity claims were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs because it is DC music functioning on its own turf. The Chuck Brown Band carries the rhythmic grammar Brown built around percussion, pocket, call-and-response and the refusal to let the groove stop; E.U. brings a parallel lineage with Sugar Bear still fronting the band from the bass. Putting both on the same Hamilton bill turns the night into a living cross-section of go-go rather than a generic legacy package.",
+          "trip_verdict": "Actively make room for it if you are in the DMV and want to hear Washington's homegrown groove language in a room built for dancing and close crowd response. I would not treat it as a destination trip or displace a true one-off, because this Thanksgiving-weekend pairing is a recurring local tradition rather than a singular reunion.",
+          "listen_before": "Chuck Brown & The Soul Searchers — Go Go Swing Live; E.U. & Ivan Goff — GO Ju Ju GO"
+        },
+        "es": {
+          "why_it_matters": "Entra porque ésta es música de DC funcionando en su propio territorio. The Chuck Brown Band mantiene la gramática rítmica que Brown construyó alrededor de percusión, pocket, llamada y respuesta y esa idea de que el groove no se corta; E.U. trae otro linaje central del go-go con Sugar Bear todavía al frente desde el bajo. Poner a las dos bandas en la misma noche en The Hamilton vuelve el concierto una sección viva de la historia del go-go, no un paquete genérico de nostalgia.",
+          "trip_verdict": "Sí le haría espacio activamente si estás en el DMV y quieres escuchar el lenguaje rítmico propio de Washington en una sala donde baile y respuesta del público forman parte de la música. No lo trataría como viaje destino ni movería por él un verdadero one-off: este doble cartel de Thanksgiving ya es una tradición local recurrente, no una reunión irrepetible.",
+          "listen_before": "Chuck Brown & The Soul Searchers — Go Go Swing Live; E.U. & Ivan Goff — GO Ju Ju GO"
+        }
+      }
+    }
+  ]
+}
