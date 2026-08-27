@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "pigeons-playing-ping-pong-dc-three-night-run-2026-12-03-catchup",
+  "notes": "Yamamoto-first discovery pass on 2026-08-27 under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were re-read before searching and grading. Current ALFIE, BODY&SOUL, Space M&A, Yamamoto-schedule, and Japanese-jazz searches produced no new unrecorded verified Tsuyoshi Yamamoto performance. Repository search found no existing Pigeons Playing Ping Pong RADAR event or batch. The December 3 Atlantis opener clears RADAR admission because the Baltimore quartet begins a three-night Washington run in the smaller Atlantis setting, and access to that first night is available only through the full three-night pass. The December 4-5 9:30 Club dates were verified and used as context but were not separately admitted in this pass; they are repeat opportunities within the same run without an independently strong enough setting or historical hook. The December 3 event receives A+: actively make room for the small-room opener, while the surrounding two 9:30 Club dates make S-level scarcity inappropriate. The batch adds no S/S+ pressure.",
+  "events": [
+    {
+      "id": "pigeons-playing-ping-pong-the-atlantis-washington-dc-2026-12-03",
+      "artist": "Pigeons Playing Ping Pong",
+      "subtitle": "Three-night Washington run — Night 1 at The Atlantis",
+      "dates": {
+        "start": "2026-12-03",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Psychedelic funk / Jam / DMV three-night residency opener",
+      "genres": [
+        "Psychedelic funk",
+        "Jam rock",
+        "Funk rock"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Pigeons Playing Ping Pong — Greg Ormont, Jeremy Schon, Ben Carrey, Alex Petropulos"
+      ],
+      "factual_description": "Pigeons Playing Ping Pong open a three-night Washington, DC run at The Atlantis on Thursday, December 3, 2026. I.M.P.'s exact Atlantis event page lists doors at 6:30 PM and states that admission to the December 3 Atlantis show is available only through the three-night pass covering December 3 at The Atlantis and December 4-5 at 9:30 Club. The authorized Ticketmaster pass page repeats the three-night structure. I.M.P. identifies the band as a Baltimore quartet and centers the current live cycle on its eighth studio album Feed The Fire.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/pigeons-playing-ping-pong-3/",
+        "official_tickets": "https://www.ticketmaster.com/pigeons-playing-ping-pong-3-night-washington-district-of-columbia-12-03-2026/event/150064FEAE928562"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/pigeons-playing-ping-pong-3-night-washington-district-of-columbia-12-03-2026/event/150064FEAE928562",
+          "checked_on": "2026-08-27"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Pigeons Playing Ping Pong",
+          "title": "Feed The Fire",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/feed-the-fire/1822311120"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "I.M.P. verifies the exact Atlantis date, 6:30 PM doors, venue and pass-only access; Ticketmaster verifies the authorized three-night pass. No show start time, ticket price, opener or additional personnel were inferred. Apple Music verifies Feed The Fire."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/pigeons-playing-ping-pong-3/",
+          "publisher": "I.M.P. / The Atlantis",
+          "checked_on": "2026-08-27",
+          "note": "Exact Atlantis event page verifies December 3, 2026, 6:30 PM doors, The Atlantis, and that this first night is available only as part of the three-night pass."
+        },
+        {
+          "url": "https://impconcerts.com/event/pigeons-playing-ping-pong-3-night-pass/",
+          "publisher": "I.M.P. / 9:30 Club",
+          "checked_on": "2026-08-27",
+          "note": "Official three-night-pass page verifies the structure: December 3 at The Atlantis, December 4 and 5 at 9:30 Club, and identifies the Baltimore quartet and current Feed The Fire cycle."
+        },
+        {
+          "url": "https://www.ticketmaster.com/pigeons-playing-ping-pong-3-night-washington-district-of-columbia-12-03-2026/event/150064FEAE928562",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-27",
+          "note": "Authorized pass page repeats the December 3-5 three-night Washington run and the Atlantis/9:30 split in its event information."
+        },
+        {
+          "url": "https://music.apple.com/us/album/feed-the-fire/1822311120",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page verifies Feed The Fire, released October 3, 2025."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "I.M.P. and Ticketmaster verify the date, venue structure and pass-only access for the Atlantis opener; Apple Music verifies the current reference album. Repository search found no existing Pigeons Playing Ping Pong RADAR event or batch before publication. Because the available sources identify doors rather than a separate music start time, showtimes remain empty rather than converting doors to showtime."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The three-night Washington run has a real DMV center of gravity: Pigeons came out of Baltimore, and their live identity is built less around fixed songs than around guitar interplay, deep-pocket rhythm and the way psychedelic funk opens into extended improvisation. The Atlantis opener is the most concentrated version of that proposition—an unusually small room for a band that normally works much larger stages, and accessible only through the full three-night pass.",
+          "trip_verdict": "Actively make room for the Atlantis opener if a three-night commitment is realistic. It is the most distinctive night of the local run and the small-room setting should magnify the band's groove and improvisational exchange; the two following 9:30 Club nights provide easier alternatives if the pass structure is too much.",
+          "listen_before": "Pigeons Playing Ping Pong — Feed The Fire"
+        },
+        "es": {
+          "why_it_matters": "La corrida de tres noches sí tiene un centro de gravedad DMV: Pigeons salió de Baltimore y su identidad en vivo depende menos de canciones fijas que del diálogo entre guitarras, una sección rítmica muy metida en el pocket y la manera en que el funk psicodélico se abre hacia improvisaciones largas. La apertura en The Atlantis concentra mejor esa idea: una sala inusualmente pequeña para una banda acostumbrada a escenarios mayores y, además, accesible sólo mediante el pase de las tres noches.",
+          "trip_verdict": "Sí le haría espacio activamente a la noche de The Atlantis si tiene sentido comprometerse con el pase completo. Es la fecha más particular de la corrida local y la escala de la sala debería amplificar el groove y la conversación improvisada; las dos noches siguientes en 9:30 Club quedan como alternativas más fáciles si el pase completo es demasiado.",
+          "listen_before": "Pigeons Playing Ping Pong — Feed The Fire"
+        }
+      }
+    }
+  ]
+}
