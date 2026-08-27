@@ -1,0 +1,40 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "carmen-staaf-jorge-roeder-body-and-soul-2026-09-10-discovery",
+  "notes": "Verified A+-priority Tokyo discovery under the current two-stage RADAR rubric. Yamamoto-first research found no new unrecorded verified Tsuyoshi Yamamoto date. Carmen Staaf and Jorge Roeder are an active piano-bass duo on a multi-date Japan run; September 10 falls within BODY&SOUL's documented final month. A+ fits: actively worth making room for, but not scarce enough for S.",
+  "events": [
+    {
+      "id": "carmen-staaf-jorge-roeder-body-and-soul-tokyo-2026-09-10",
+      "artist": "Carmen Staaf & Jorge Roeder",
+      "subtitle": "Japan Tour 2026 / BODY&SOUL final month",
+      "dates": {"start": "2026-09-10", "end": null},
+      "showtimes": ["19:30", "21:00"],
+      "venue": {"id": "body-and-soul-shibuya-tokyo", "name": "BODY&SOUL", "city": "Shibuya, Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz / Piano-bass duo / BODY&SOUL final month",
+      "genres": ["Jazz", "Contemporary Jazz"],
+      "musical_axes": ["Japan / Tokyo", "Improvised", "Instrumental identity", "Acoustic Jazz", "Cultural context"],
+      "lineup": ["Carmen Staaf — piano", "Jorge Roeder — bass"],
+      "factual_description": "BODY&SOUL presents Carmen Staaf and Jorge Roeder on September 10, 2026, with doors at 6:30 PM and sets at 7:30 PM and 9:00 PM. The venue lists Staaf on piano and Roeder on bass. Staaf's official itinerary independently confirms the Tokyo date as part of a Japan run, and Yamaha's current artist profile notes that Staaf recorded in duo with Roeder in 2026. BODY&SOUL has announced September 26, 2026 as its grand finale.",
+      "links": {"official_event": "https://bodyandsoul.co.jp/event/260910", "official_tickets": null},
+      "recommended_listening": [{"artist": "Carmen Staaf", "title": "Sounding Line", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/sounding-line/1840923056"}],
+      "enrichment": {"status": "pending", "missing": ["official_tickets"], "note": "Exact event, lineup, showtimes, artist itinerary, duo context, final-month context and Apple Music destination are verified. BODY&SOUL uses the event-page reservation form rather than a separate stable ticket URL."},
+      "sources": [
+        {"url": "https://bodyandsoul.co.jp/event/260910", "publisher": "BODY&SOUL", "checked_on": "2026-08-27", "note": "Official event page confirms date, duo lineup, doors, set times and reservation method."},
+        {"url": "https://www.carmenstaaf.com/new-events", "publisher": "Carmen Staaf", "checked_on": "2026-08-27", "note": "Official artist itinerary confirms the September 10 BODY&SOUL date and broader Japan run."},
+        {"url": "https://hub.yamaha.com/artists/carmen-staaf/", "publisher": "Yamaha Music", "checked_on": "2026-08-27", "note": "Current artist profile notes Staaf recorded in duo with Jorge Roeder in 2026."},
+        {"url": "https://bodyandsoul.co.jp/2026/08/175580", "publisher": "BODY&SOUL", "checked_on": "2026-08-27", "note": "Official notice confirms September 26, 2026 as the club's grand finale."},
+        {"url": "https://music.apple.com/us/album/sounding-line/1840923056", "publisher": "Apple Music", "checked_on": "2026-08-27", "note": "Exact Apple Music page for Sounding Line."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Date, venue, lineup and times were verified against BODY&SOUL; Staaf's official itinerary confirms the tour; current duo context and final-month context were independently verified. Repository search found no matching Carmen Staaf / Jorge Roeder BODY&SOUL record. No ticket URL was invented."},
+      "editorial": {
+        "en": {"why_it_matters": "This is a real duo, not just two strong names sharing a bill. Staaf's piano is compositionally alert and historically grounded, while Roeder can make the bass function as pulse, counterpoint and melodic voice at once. Their 2026 duo recording work makes the Japan run a useful snapshot of a partnership still taking shape; BODY&SOUL's final month adds meaningful place-history without being the sole reason for inclusion.", "trip_verdict": "Actively make room for this if the September Tokyo calendar overlaps. The piano-bass format should be especially revealing in a small room, while the duo's several Japan dates mean a truly singular premiere, farewell or one-off elsewhere in Kanto would still take precedence.", "listen_before": "Carmen Staaf — Sounding Line"},
+        "es": {"why_it_matters": "Esto sí es un dúo de trabajo, no simplemente dos nombres fuertes compartiendo cartel. El piano de Staaf tiene una cabeza compositiva muy clara y conoce la tradición sin sonar a museo; Roeder puede hacer que el bajo sea pulso, contrapunto y voz melódica al mismo tiempo. Que hayan grabado juntos como dúo en 2026 vuelve esta gira japonesa una buena foto de una relación creativa todavía en formación; el último mes de BODY&SOUL añade historia del lugar sin ser la única razón para incluirla.", "trip_verdict": "Sí le haría espacio activamente si septiembre coincide con Tokio. El formato piano-bajo debería escucharse especialmente bien en una sala pequeña; como el dúo tiene varias fechas en Japón, mantendría por delante un estreno, despedida o one-off verdaderamente singular en otro punto de Kanto si hubiera conflicto.", "listen_before": "Carmen Staaf — Sounding Line"}
+      }
+    }
+  ]
+}
