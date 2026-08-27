@@ -1,0 +1,115 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "reuben-james-chris-dave-dj-ginyard-blue-note-2026-11-24-discovery",
+  "notes": "Verified New York discovery created under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass found no new unrecorded verified Tsuyoshi Yamamoto date. Reuben James featuring Chris Dave and David 'DJ' Ginyard clears RADAR admission because the one-night Blue Note booking turns James's Big People Music material into a compact piano/bass/drums-led live proposition with unusually strong rhythmic identities. The event is A+: actively worth making room for in New York, but two sets and an active touring/collaborative context do not justify scarcity-tier treatment. Proposed batch distribution: A+ 1, A 0, S 0, S+ 0. This is a sanity check, not a quota.",
+  "events": [
+    {
+      "id": "reuben-james-chris-dave-dj-ginyard-blue-note-new-york-2026-11-24",
+      "artist": "Reuben James featuring Chris Dave and David \"DJ\" Ginyard",
+      "subtitle": "Performing Big People Music",
+      "dates": {
+        "start": "2026-11-24",
+        "end": null
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz / soul / groove trio",
+      "genres": [
+        "Jazz",
+        "R&B / Soul",
+        "Funk"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Reuben James — piano / bandleader",
+        "Chris Dave — drums",
+        "David \"DJ\" Ginyard — bass"
+      ],
+      "factual_description": "Blue Note New York lists Reuben James featuring Chris Dave and David \"DJ\" Ginyard performing Big People Music on Tuesday, November 24, 2026, with sets at 8:00 PM and 10:30 PM. The club identifies James as a British pianist, songwriter and bandleader whose music combines jazz, soul, funk and contemporary R&B, and identifies Chris Dave as a drummer, bandleader and producer. David \"DJ\" Ginyard is independently documented as a bassist in current professional credits. Reuben James's official site presents Big People Music as his current full-length project; Apple Music verifies the album was released May 16, 2025.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/reuben-james-featuring-chris-dave-and-david-dj-ginyard/",
+        "official_tickets": "https://www.bluenotejazz.com/nyc/tm-event/reuben-james-featuring-chris-dave-and-david-dj-ginyard/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Reuben James",
+          "title": "Big People Music",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/big-people-music/1789144830"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The official Blue Note event page is a stable event-specific destination and exposes authorized TicketWeb purchase controls for both sets, so the same page is used as official_event and official_tickets. No additional guests or personnel were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/reuben-james-featuring-chris-dave-and-david-dj-ginyard/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-08-27",
+          "note": "Official event page verifies artist billing, Big People Music framing, November 24 date, both set times, venue, authorized TicketWeb sales, and Blue Note biographies for James and Chris Dave."
+        },
+        {
+          "url": "https://www.bluenotejazz.com/nyc/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-08-27",
+          "note": "Blue Note's current homepage lists the November 24 Reuben James / Chris Dave / David Ginyard date among its Just Announced shows."
+        },
+        {
+          "url": "https://www.reubenjames.com/",
+          "publisher": "Reuben James",
+          "checked_on": "2026-08-27",
+          "note": "Official artist site identifies Big People Music as James's current album project."
+        },
+        {
+          "url": "https://www.dansiegelmusic.com/music/unity-dan-siegel-2024",
+          "publisher": "Dan Siegel",
+          "checked_on": "2026-08-27",
+          "note": "Official recording credits independently identify David (DJ) Ginyard on bass."
+        },
+        {
+          "url": "https://music.apple.com/us/album/big-people-music/1789144830",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music page verifies Big People Music, released May 16, 2025."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, two set times, venue, billing, Big People Music framing and authorized purchase path were verified from Blue Note New York. James's current-project framing was checked against his official site, Ginyard's instrument was independently confirmed from official recording credits, and listening was verified through Apple Music. Repository search found no Reuben James event and no matching stable event ID in canonical, curated or processed repository content. No unannounced guests, prices beyond the venue's published minimum, or per-set TicketWeb URLs were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The admission case is the rhythm section as much as James himself. Big People Music lives between jazz harmony, British soul, funk and contemporary R&B; putting James's piano in a small room with Chris Dave's fractured, elastic time and David Ginyard's bass turns those songs into a live groove laboratory rather than a polished album reproduction. Blue Note also frames these as part of James's first U.S. headline shows, giving the booking a useful moment-in-career context without pretending it is a once-ever event.",
+          "trip_verdict": "Actively make room for one of the two sets if New York is already in the regional plan and piano, pocket and contemporary jazz/R&B crossover are in the listening thread. The lineup is specific enough to anchor a night in the city, but I would not rebuild the entire DMV-to-NYC trip around it ahead of a rarer farewell, premiere or one-off master encounter.",
+          "listen_before": "Reuben James — Big People Music"
+        },
+        "es": {
+          "why_it_matters": "El argumento de admisión está tanto en la sección rítmica como en James. Big People Music vive entre armonía de jazz, soul británico, funk y R&B contemporáneo; poner el piano de James en una sala pequeña con el tiempo quebrado y elástico de Chris Dave y el bajo de David Ginyard convierte esas canciones en un laboratorio de groove en vivo, no en una reproducción pulida del disco. Blue Note además presenta estas fechas como parte de los primeros shows de James como headliner en Estados Unidos: contexto real de carrera, sin venderlo como un acontecimiento irrepetible.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si Nueva York ya está dentro del plan regional y piano, pocket y el cruce jazz/R&B contemporáneo están en el hilo. La alineación alcanza para construir una noche alrededor del concierto, pero no rehacería todo el viaje DMV–NYC por encima de una despedida, estreno o encuentro con un maestro realmente más raro.",
+          "listen_before": "Reuben James — Big People Music"
+        }
+      }
+    }
+  ]
+}
