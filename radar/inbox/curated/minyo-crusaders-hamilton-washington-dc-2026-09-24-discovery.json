@@ -1,0 +1,106 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "minyo-crusaders-hamilton-washington-dc-2026-09-24-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule searches, Space M&A and Japanese jazz sources produced no new verified unrecorded Yamamoto performance. The broader US-corridor pass found Minyo Crusaders at The Hamilton Live on September 24, 2026, part of the band's first North American tour. The event clears RADAR admission because it joins a Tokyo-based 12-piece reworking Japanese min'yō through cumbia, salsa, reggae, Afrobeat and other diasporic grooves with a local Washington club context, while Philadelphia-based Mariposas Galácticas add a distinct cumbia-klezmer-punk opening set. Priority A+ is deliberate: this is unusually aligned with Listening Notes' Japan, Latin, groove and cross-cultural threads and merits making room locally, but the seven-city North American tour includes nearby Brooklyn and Philadelphia dates, so the opportunity is not scarce enough for S. The proposed batch adds one A+ and no S/S+, consistent with the intended broad-base hierarchy without using distribution as a quota.",
+  "events": [
+    {
+      "id": "minyo-crusaders-hamilton-washington-dc-2026-09-24",
+      "artist": "Minyo Crusaders",
+      "subtitle": "From Japan With Love — first North American tour, with Mariposas Galácticas",
+      "dates": {
+        "start": "2026-09-24",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese min'yō / cumbia / Afrobeat / cross-cultural roots",
+      "genres": [
+        "Min'yō",
+        "Cumbia",
+        "Afrobeat",
+        "Reggae",
+        "Folk",
+        "World"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Latin",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Minyo Crusaders — Tokyo-based 12-piece ensemble; individual personnel not listed on the current Hamilton/EVENTIM event page",
+        "Mariposas Galácticas — support; Philadelphia-based 8-piece cumbia-klezmer-punk ensemble"
+      ],
+      "factual_description": "The Hamilton Live's authorized EVENTIM page lists Minyo Crusaders for Thursday, September 24, 2026 in Washington, DC, with doors at 6:30 PM and the show at 8:00 PM, and identifies Mariposas Galácticas as support. The same event page describes Minyo Crusaders as a Tokyo-based 12-piece ensemble reimagining Japanese min'yō through cumbia, reggae, Afro-Caribbean, African and related global rhythmic languages. Universal Music Japan's official Minyo Crusaders site identifies this September 22-30 run as the band's first North American tour and lists seven cities, including Brooklyn, Philadelphia and Washington on consecutive dates. The tour follows the June 26, 2026 release of From Japan With Love, whose arrangements combine regional Japanese folk melodies with salsa, cumbia, Afrobeat and other groove traditions. Individual Minyo Crusaders personnel for the Hamilton engagement are not listed on the exact event page and are therefore not inferred.",
+      "links": {
+        "official_event": "https://www.eventim.com/event/minyo-crusaders-the-hamilton-live-21715961/",
+        "official_tickets": "https://www.eventim.com/event/minyo-crusaders-the-hamilton-live-21715961/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Minyo Crusaders",
+          "title": "From Japan With Love",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/from-japan-with-love/1892928459"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Hamilton/EVENTIM page verifies date, doors, showtime, venue, support and sale destination. Universal Music Japan verifies the first-North-American-tour context and seven-city routing, while Apple Music verifies the exact current album page. Individual Minyo Crusaders personnel are not named on the exact Hamilton event page, so none were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.eventim.com/event/minyo-crusaders-the-hamilton-live-21715961/",
+          "publisher": "The Hamilton Live authorized ticketing / EVENTIM",
+          "checked_on": "2026-08-27",
+          "note": "Exact authorized event page confirms September 24, 2026 at The Hamilton Live, doors at 6:30 PM, show at 8:00 PM, Minyo Crusaders as a Tokyo-based 12-piece ensemble and Mariposas Galácticas as support."
+        },
+        {
+          "url": "https://www.universal-music.co.jp/minyo-crusaders/news/2026-06-03/",
+          "publisher": "Universal Music Japan / Minyo Crusaders",
+          "checked_on": "2026-08-27",
+          "note": "Official artist-label announcement identifies the September 22-30 run as Minyo Crusaders' first North American tour and lists seven cities, including Brooklyn, Philadelphia and Washington."
+        },
+        {
+          "url": "https://music.apple.com/us/album/from-japan-with-love/1892928459",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music page for From Japan With Love, released June 26, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Date, venue, doors, showtime, support billing and ticket destination were verified against The Hamilton Live's authorized EVENTIM page. First-North-American-tour context and regional routing were verified against the official Universal Music Japan Minyo Crusaders announcement. The current album was verified on Apple Music. Repository search for 'Minyo Crusaders', 'minyo' and the proposed event slug returned no canonical, curated or processed match before publication. No individual band personnel, prices beyond source text, unannounced guests or scarcity claims were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This lands almost exactly where the RADAR's Japan, Latin and groove threads cross. Minyo Crusaders do not preserve min'yō behind glass: a 12-piece Tokyo band takes regional Japanese work songs and dance melodies and pushes them through cumbia, salsa, reggae, Afrobeat and other rhythmic languages until the old material functions again as social music. The Washington stop is also part of the band's first North American tour and arrives with From Japan With Love still fresh. Mariposas Galácticas deepen the idea rather than merely fill the opening slot, bringing a Philadelphia cumbia-klezmer-punk vocabulary built from another set of diasporic traditions.",
+          "trip_verdict": "Actively make room for the Washington date if September 24 is open. It is unusually well matched to Listening Notes and The Hamilton is local, so there is little reason to chase the nearby Brooklyn or Philadelphia stops unless the DC night conflicts with something stronger. The multi-city tour also means the music is important without pretending this particular stop is a one-shot rarity.",
+          "listen_before": "Minyo Crusaders — From Japan With Love"
+        },
+        "es": {
+          "why_it_matters": "Esta fecha cae casi exactamente donde se cruzan los hilos de Japón, Latin y groove del RADAR. Minyo Crusaders no conserva el min'yō detrás de una vitrina: una banda tokiota de 12 músicos toma canciones de trabajo y melodías regionales japonesas y las pasa por cumbia, salsa, reggae, Afrobeat y otros lenguajes rítmicos hasta volverlas otra vez música social. La parada de Washington forma además parte de la primera gira norteamericana del grupo y llega con From Japan With Love todavía recién salido. Mariposas Galácticas profundiza la idea en vez de ocupar simplemente el turno de apertura, con una mezcla de cumbia, klezmer y punk nacida de otra combinación de tradiciones diaspóricas.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de Washington si el 24 de septiembre está libre. Embona de manera excepcional con Listening Notes y The Hamilton es local, así que no hay mucha razón para perseguir las paradas cercanas de Brooklyn o Filadelfia salvo que la noche de DC choque con algo más fuerte. La gira de varias ciudades también permite tratar la música como importante sin fingir que esta parada particular es una oportunidad irrepetible.",
+          "listen_before": "Minyo Crusaders — From Japan With Love"
+        }
+      }
+    }
+  ]
+}
