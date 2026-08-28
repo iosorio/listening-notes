@@ -1,0 +1,169 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ars-nova-late-2026-jen-shyu-gilmore-marta-2026-08-28-discovery",
+  "notes": "Yamamoto-first pass found no new verified, unrecorded Tsuyoshi Yamamoto appearance. Three later-2026 Solar Myth performances clear RADAR admission on event-specific ritual-opera, mentorship-trio, and prepared-piano solo grounds. Priority shape: A 2, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "jen-shyu-fertile-land-fertile-body-solar-myth-philadelphia-2026-11-21",
+      "artist": "Jen Shyu",
+      "subtitle": "Fertile Land, Fertile Body: The Missing of the Future",
+      "dates": {"start": "2026-11-21", "end": null},
+      "showtimes": ["20:00"],
+      "venue": {"id": "solar-myth-philadelphia-pa", "name": "Solar Myth", "city": "Philadelphia", "state": "PA", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Multilingual ritual opera / cross-genre",
+      "genres": ["Experimental", "Contemporary composition", "Cross-genre"],
+      "musical_axes": ["Instrumental identity", "Experimental", "Cross-genre", "Cultural context"],
+      "lineup": [
+        "Jen Shyu — composition, libretto, voice, gayageum, Taiwanese moon lute, piano, movement, raw video footage",
+        "Nana Dakin — director",
+        "Zosha Warpeha — violin, Hardanger fiddle, voice",
+        "Alexandria DeWalt — flute, voice",
+        "Elizabeth Kate — cello, voice",
+        "Devon Gates — bass, voice"
+      ],
+      "factual_description": "Ars Nova Workshop presents Jen Shyu's Fertile Land, Fertile Body: The Missing of the Future at Solar Myth on November 21, 2026 at 8:00 PM. The official page describes a multilingual ritual opera combining ancient and original music, dance and projection, and confirms Shyu on voice, gayageum, Taiwanese moon lute, piano and movement with the named ensemble; one viola/voice position remains TBA.",
+      "links": {
+        "official_event": "https://www.arsnovaworkshop.org/programs/jen-shyu/",
+        "official_tickets": "https://link.dice.fm/Kac8dba6514f"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["one viola/voice performer remains TBA", "apple_music"],
+        "note": "The event, time, venue, named personnel and authorized DICE destination are verified. The unannounced viola/voice performer and an exact Apple Music destination are not invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.arsnovaworkshop.org/programs/jen-shyu/",
+          "publisher": "Ars Nova Workshop",
+          "checked_on": "2026-08-28",
+          "note": "Official event page verifying date, time, venue, work framing, named personnel and authorized ticket link."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Ars Nova Workshop event page; the page's authorized DICE destination was also observed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Shyu is building a complete live language rather than a standard concert set: voice, gayageum, Taiwanese moon lute, strings, movement and projection are integrated into a multilingual ritual opera about motherhood, environmental toxicity and the future. The specific collision of instrumental identity, cultural memory and staged form makes this worth actively making room for.",
+          "trip_verdict": "If Philadelphia is reachable that Saturday, I would build an evening around Solar Myth; the fully staged format gives the trip a stronger reason than a routine tour stop.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Shyu construye un lenguaje escénico completo, no un set de concierto convencional: voz, gayageum, laúd lunar taiwanés, cuerdas, movimiento y proyección se integran en una ópera ritual multilingüe sobre maternidad, toxicidad ambiental y futuro. El cruce específico entre identidad instrumental, memoria cultural y forma escénica hace que valga la pena abrirle espacio activamente.",
+          "trip_verdict": "Si Filadelfia es viable ese sábado, armaría la noche alrededor de Solar Myth; el formato plenamente escénico da una razón más fuerte para el viaje que una parada de gira rutinaria.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "marcus-gilmore-ryoma-takenaga-david-virelles-solar-myth-philadelphia-2026-11-28",
+      "artist": "Marcus Gilmore / Ryoma Takenaga / David Virelles Trio",
+      "subtitle": "The Jazz Gallery Mentorship Series — Philadelphia edition",
+      "dates": {"start": "2026-11-28", "end": null},
+      "showtimes": ["20:00"],
+      "venue": {"id": "solar-myth-philadelphia-pa", "name": "Solar Myth", "city": "Philadelphia", "state": "PA", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A",
+      "category": "Mentorship trio / improvised music",
+      "genres": ["Jazz", "Improvised music"],
+      "musical_axes": ["Instrumental identity", "Improvised", "Cultural context"],
+      "lineup": [
+        "Marcus Gilmore — drums",
+        "Ryoma Takenaga — bass",
+        "David Virelles — piano"
+      ],
+      "factual_description": "Ars Nova Workshop presents the Philadelphia edition of The Jazz Gallery Mentorship Series at Solar Myth on November 28, 2026 at 8:00 PM, pairing drummer Marcus Gilmore and pianist David Virelles with bassist Ryoma Takenaga. The official page identifies Gilmore as Takenaga's mentor in the series.",
+      "links": {
+        "official_event": "https://www.arsnovaworkshop.org/programs/marcus-gilmore-ryoma-takenaga/",
+        "official_tickets": "https://link.dice.fm/hf5a92646a0e"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "Date, time, complete announced trio, mentorship context and authorized DICE destination are verified; no exact Apple Music destination is supplied without verification."
+      },
+      "sources": [
+        {
+          "url": "https://www.arsnovaworkshop.org/programs/marcus-gilmore-ryoma-takenaga/",
+          "publisher": "Ars Nova Workshop",
+          "checked_on": "2026-08-28",
+          "note": "Official event page verifying date, time, venue, trio personnel, mentorship framing and authorized ticket link."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Ars Nova Workshop event page; the page's authorized DICE destination was also observed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to track this is the mentorship architecture itself: Gilmore's expanding rhythmic language is placed beside Takenaga's emerging bass voice, with Virelles adding a highly individual piano vocabulary. It is a purposeful intergenerational trio rather than a generic all-star booking.",
+          "trip_verdict": "Catch it if a Philadelphia Saturday is already workable; the special trio makes the night useful to know about, but I would not make it the sole reason for a dedicated corridor trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón para seguir esta fecha es la arquitectura de mentoría: el lenguaje rítmico expansivo de Gilmore se pone junto a la voz emergente de Takenaga en el bajo, con Virelles aportando un vocabulario de piano muy propio. Es un trío intergeneracional construido con intención, no un cartel de estrellas genérico.",
+          "trip_verdict": "La aprovecharía si un sábado en Filadelfia ya resulta viable; el trío especial hace que valga tener la fecha en el radar, pero no la convertiría por sí sola en el motivo de un viaje dedicado por el corredor.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "marta-sanchez-solo-solar-myth-philadelphia-2026-12-17",
+      "artist": "Marta Sánchez",
+      "subtitle": "Solo piano",
+      "dates": {"start": "2026-12-17", "end": null},
+      "showtimes": ["20:00"],
+      "venue": {"id": "solar-myth-philadelphia-pa", "name": "Solar Myth", "city": "Philadelphia", "state": "PA", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A",
+      "category": "Solo piano / contemporary creative music",
+      "genres": ["Jazz", "Improvised music", "Contemporary composition"],
+      "musical_axes": ["Instrumental identity", "Improvised", "Experimental"],
+      "lineup": ["Marta Sánchez — piano"],
+      "factual_description": "Ars Nova Workshop presents Marta Sánchez solo at Solar Myth on December 17, 2026 at 8:00 PM. The official page connects the performance to her 2026 debut solo-piano recording For the Space You Left and explains that her solo language emerged through piano preparations, rhythmic loops and melodic counterpoint.",
+      "links": {
+        "official_event": "https://www.arsnovaworkshop.org/programs/marta-sanchez/",
+        "official_tickets": "https://link.dice.fm/yb877f3f1c88"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "Date, time, solo billing, program context and authorized DICE destination are verified; the exact Apple Music destination for For the Space You Left is not supplied without verification."
+      },
+      "sources": [
+        {
+          "url": "https://www.arsnovaworkshop.org/programs/marta-sanchez/",
+          "publisher": "Ars Nova Workshop",
+          "checked_on": "2026-08-28",
+          "note": "Official event page verifying date, time, venue, solo billing, prepared-piano context and authorized ticket link."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Ars Nova Workshop event page; the page's authorized DICE destination was also observed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The solo setting exposes the mechanism of Sánchez's new language: piano preparations, rhythmic loops and contrapuntal writing compress ideas developed for her ensembles into a single instrument. That concrete shift in instrumental identity is enough to make this more than another excellent pianist passing through town.",
+          "trip_verdict": "Attend if Philadelphia is already convenient in mid-December; the solo format is distinctive, but I would pair it with another reason to make the corridor trip.",
+          "listen_before": "For the Space You Left"
+        },
+        "es": {
+          "why_it_matters": "El formato solista deja expuesto el mecanismo del nuevo lenguaje de Sánchez: preparaciones del piano, bucles rítmicos y escritura contrapuntística comprimen en un solo instrumento ideas desarrolladas para sus ensambles. Ese cambio concreto de identidad instrumental basta para que sea algo más que otra excelente pianista de paso por la ciudad.",
+          "trip_verdict": "Iría si Filadelfia ya resulta conveniente a mediados de diciembre; el formato solo es distintivo, pero lo combinaría con otra razón para hacer el viaje por el corredor.",
+          "listen_before": "For the Space You Left"
+        }
+      }
+    }
+  ]
+}
