@@ -1,0 +1,264 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "roulette-pcms-fall-2026-2026-08-28-discovery",
+  "notes": "Yamamoto-first discovery pass found no new verified, unrecorded Tsuyoshi Yamamoto appearance. Five US-corridor performances clear RADAR admission on event-specific grounds. Priority shape: A 2, A+ 2, S 1, S+ 0. The sole S survived a separate scarcity challenge because a John Zorn world premiere at Roulette with the work's exact four interpreters cannot recur as a premiere; A+ would understate the genuine-regret context.",
+  "events": [
+    {
+      "id": "red-hook-records-5th-anniversary-roulette-brooklyn-2026-09-18",
+      "artist": "Amina Claudine Myers // Andrew Cyrille, Wadada Leo Smith & Qasim Naqvi",
+      "subtitle": "Red Hook Records 5th Anniversary — Night One",
+      "dates": {"start": "2026-09-18", "end": null},
+      "showtimes": ["20:00"],
+      "venue": {"id": "roulette-brooklyn-ny", "name": "Roulette", "city": "Brooklyn", "state": "NY", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Creative music anniversary / two-set program",
+      "genres": ["Improvised music", "Creative music", "Electronic"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Experimental", "Cultural context"],
+      "lineup": [
+        "Amina Claudine Myers — piano (Set 1)",
+        "Andrew Cyrille — drums (Set 2)",
+        "Wadada Leo Smith — trumpet (Set 2)",
+        "Qasim Naqvi — modular synthesizer (Set 2)"
+      ],
+      "factual_description": "Roulette presents the first night of Red Hook Records' fifth-anniversary celebration on September 18, 2026 at 8:00 PM. Set 1 is a solo piano performance by Amina Claudine Myers. Set 2 reunites Andrew Cyrille, Wadada Leo Smith and Qasim Naqvi, whose trumpet-drums-modular-synth collaboration was documented on the Red Hook Records album Two Centuries.",
+      "links": {
+        "official_event": "https://roulette.org/event/red-hook-records-andrew-cyrille-wadada-leo-smith-qasim-naqvi-amina-claudine-myers/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1281966?performanceId=11836511"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "Exact Roulette event and authorized AudienceView ticket destinations are verified. No Apple Music destination is supplied without exact verification."
+      },
+      "sources": [{
+        "url": "https://roulette.org/event/red-hook-records-andrew-cyrille-wadada-leo-smith-qasim-naqvi-amina-claudine-myers/",
+        "publisher": "Roulette",
+        "checked_on": "2026-08-28",
+        "note": "Primary event page verifying date, time, two-set structure, complete announced personnel, fifth-anniversary context, prices, and authorized ticket link."
+      }],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Roulette event page and its authorized ticket destination."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The anniversary framing produces a specific two-part portrait of Red Hook's creative-music identity: Myers alone at the piano, followed by the Cyrille-Smith-Naqvi trio's unusual acoustic-electronic language. The link back to a label launched with Masabumi Kikuchi's final studio recording adds a meaningful Japanese-jazz thread without making that connection the reason for inclusion.",
+          "trip_verdict": "If New York is viable that Friday, make Roulette the anchor of the evening; it is strong enough to shape a corridor weekend, especially if another New York reason can share the trip.",
+          "listen_before": "Two Centuries"
+        },
+        "es": {
+          "why_it_matters": "El aniversario arma un retrato muy específico de la identidad de Red Hook: Myers sola al piano y, después, el lenguaje acústico-electrónico poco común del trío Cyrille-Smith-Naqvi. El vínculo con un sello que nació publicando la última grabación de estudio de Masabumi Kikuchi suma además un hilo japonés pertinente, sin convertir esa conexión en la razón automática para incluirlo.",
+          "trip_verdict": "Si Nueva York es viable ese viernes, haría de Roulette el centro de la noche; tiene suficiente peso para ordenar un fin de semana por el corredor, sobre todo si el viaje puede compartir otra razón en la ciudad.",
+          "listen_before": "Two Centuries"
+        }
+      }
+    },
+    {
+      "id": "john-zorn-alea-iacta-est-roulette-brooklyn-2026-09-27",
+      "artist": "John Zorn",
+      "subtitle": "Alea Iacta Est — World Premiere",
+      "dates": {"start": "2026-09-27", "end": null},
+      "showtimes": ["20:00"],
+      "venue": {"id": "roulette-brooklyn-ny", "name": "Roulette", "city": "Brooklyn", "state": "NY", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-28",
+        "rationale": "Scarcity challenge: this is the world-premiere performance of a substantial Zorn work at Roulette, played by the exact quartet identified for the work — Brian Marsella, Jorge Roeder, Ches Smith and Sae Hashimoto. A later performance could recur, but the premiere context cannot. Given Zorn's long history with Roulette and the unusually demanding late-career work, A+ would understate the genuine-regret-if-missed character of this specific night."
+      },
+      "category": "World premiere / contemporary creative music",
+      "genres": ["Avant jazz", "Contemporary composition", "Improvised music"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Experimental", "Premiere"],
+      "lineup": [
+        "Brian Marsella — piano",
+        "Jorge Roeder — bass",
+        "Ches Smith — drums",
+        "Sae Hashimoto — vibraphone"
+      ],
+      "factual_description": "Roulette presents the world premiere of John Zorn's Alea Iacta Est on September 27, 2026 at 8:00 PM. The venue describes the 2020–2024 composition as a complex, varied piano concerto and confirms the four performers: Brian Marsella, Jorge Roeder, Ches Smith and Sae Hashimoto.",
+      "links": {
+        "official_event": "https://roulette.org/event/john-zorns-alea-iacta-est/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1281989?performanceId=11836552"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "Exact Roulette event and authorized AudienceView ticket destinations are verified. No Apple Music destination is supplied without exact verification."
+      },
+      "sources": [{
+        "url": "https://roulette.org/event/john-zorns-alea-iacta-est/",
+        "publisher": "Roulette",
+        "checked_on": "2026-08-28",
+        "note": "Primary event page verifying world-premiere billing, date, time, complete announced quartet, prices, and authorized ticket link."
+      }],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Roulette event page and its authorized ticket destination."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "A substantial Zorn piano concerto written across 2020–24 reaches the stage for the first time with Marsella, Roeder, Smith and Hashimoto—the same four interpreters named for the work. At Roulette, a venue woven into Zorn's history, the premiere joins late-career composition, extreme instrumental demands and a trusted ensemble in a context that cannot be recreated as a first performance.",
+          "trip_verdict": "This can justify the New York trip on its own. If Brooklyn is reachable on September 27, anchor the corridor plan around that Sunday night rather than trying to fit it around something else.",
+          "listen_before": "Alea Iacta Est"
+        },
+        "es": {
+          "why_it_matters": "Un concierto para piano de Zorn compuesto entre 2020 y 2024 llega por primera vez al escenario con Marsella, Roeder, Smith y Hashimoto, los mismos cuatro intérpretes asociados con la obra. En Roulette, un espacio entretejido con la historia de Zorn, el estreno junta composición tardía, exigencia instrumental extrema y un ensamble de confianza en un contexto que no puede repetirse como primera ejecución.",
+          "trip_verdict": "Esta fecha sí puede justificar por sí sola el viaje a Nueva York. Si Brooklyn es viable el 27 de septiembre, armaría el plan por el corredor alrededor de esa noche de domingo y no al revés.",
+          "listen_before": "Alea Iacta Est"
+        }
+      }
+    },
+    {
+      "id": "jennifer-koh-vijay-iyer-pcms-philadelphia-2026-10-16",
+      "artist": "Jennifer Koh & Vijay Iyer",
+      "subtitle": "Scenes of Living and Dying — Part II World Premiere",
+      "dates": {"start": "2026-10-16", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {"id": "perelman-theater-kimmel-center-philadelphia-pa", "name": "Perelman Theater, Kimmel Center", "city": "Philadelphia", "state": "PA", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Violin-piano recital / world premiere",
+      "genres": ["Contemporary composition", "Chamber music", "Cross-genre"],
+      "musical_axes": ["Instrumental identity", "Cross-genre", "Experimental", "Premiere", "Cultural context"],
+      "lineup": ["Jennifer Koh — violin", "Vijay Iyer — piano"],
+      "factual_description": "Philadelphia Chamber Music Society opens its 41st season with Jennifer Koh and Vijay Iyer at Perelman Theater on October 16, 2026 at 7:30 PM. The program includes Iyer's The Diamond, the Philadelphia premiere of Scenes of Living and Dying: Part I, and the world premiere/PCMS co-commission of Part II, alongside solo works for piano and Bach selections for solo violin that remain TBA.",
+      "links": {
+        "official_event": "https://www.pcmsconcerts.org/concerts/koh-iyer/",
+        "official_tickets": "https://www.pcmsconcerts.org/concerts/koh-iyer/"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "The exact PCMS event page verifies the event, program and an embedded official ticket selector. TBA solo selections remain TBA; no Apple Music destination is supplied without exact verification."
+      },
+      "sources": [{
+        "url": "https://www.pcmsconcerts.org/concerts/koh-iyer/",
+        "publisher": "Philadelphia Chamber Music Society",
+        "checked_on": "2026-08-28",
+        "note": "Primary event page verifying date, time, venue, duo, world-premiere/co-commission status, Philadelphia premiere, and embedded ticket purchase interface."
+      }],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Philadelphia Chamber Music Society event page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Koh and Iyer are not simply sharing a recital: the program builds from solo voices into a continuing violin-piano collaboration and culminates in the world premiere of Part II of Scenes of Living and Dying. The combination of Iyer's rhythmic language, Koh's commissioning practice and a new work conceived around private and public grief gives the evening a concrete reason to make room for it.",
+          "trip_verdict": "Philadelphia is close enough for this to be a strong single-evening target; if October 16 is open, the premiere gives the trip a clear center without requiring a longer itinerary.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Koh e Iyer no sólo comparten un recital: el programa parte de voces solistas, entra en una colaboración sostenida de violín y piano y culmina con el estreno mundial de la segunda parte de Scenes of Living and Dying. El lenguaje rítmico de Iyer, la práctica de comisión de Koh y una obra nueva concebida alrededor del duelo privado y público le dan a la noche una razón concreta para abrirle espacio.",
+          "trip_verdict": "Filadelfia está lo bastante cerca para convertir ésta en una buena salida de una sola noche; si el 16 de octubre está libre, el estreno le da al viaje un centro claro sin exigir un itinerario más largo.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "sphinx-virtuosi-jnai-bridges-pcms-philadelphia-2026-10-23",
+      "artist": "Sphinx Virtuosi with J’Nai Bridges",
+      "subtitle": "American Dialogues 250",
+      "dates": {"start": "2026-10-23", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {"id": "perelman-theater-kimmel-center-philadelphia-pa", "name": "Perelman Theater, Kimmel Center", "city": "Philadelphia", "state": "PA", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A",
+      "category": "Chamber orchestra / cultural-context program",
+      "genres": ["Contemporary classical", "Chamber music"],
+      "musical_axes": ["Instrumental identity", "Cultural context", "Cross-genre"],
+      "lineup": ["Sphinx Virtuosi — self-conducted chamber orchestra", "J’Nai Bridges — mezzo-soprano"],
+      "factual_description": "Philadelphia Chamber Music Society presents Sphinx Virtuosi with mezzo-soprano J’Nai Bridges at Perelman Theater on October 23, 2026 at 7:30 PM. The American Dialogues 250 program includes works by McFarlane, Roberto Sierra, Damien Geter, Jessie Montgomery, Ravel and Stravinsky, with the Philadelphia premiere of Geter's Declaration, a song cycle with libretto by Aaron Dworkin.",
+      "links": {
+        "official_event": "https://www.pcmsconcerts.org/concerts/sphinx-virtuosi-jnai-bridges/",
+        "official_tickets": "https://www.pcmsconcerts.org/concerts/sphinx-virtuosi-jnai-bridges/"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "The exact PCMS event page verifies the billing, program and embedded official ticket selector. Individual Sphinx Virtuosi roster names are not supplied on the event page and are not invented; no Apple Music destination is supplied without exact verification."
+      },
+      "sources": [{
+        "url": "https://www.pcmsconcerts.org/concerts/sphinx-virtuosi-jnai-bridges/",
+        "publisher": "Philadelphia Chamber Music Society",
+        "checked_on": "2026-08-28",
+        "note": "Primary event page verifying date, time, venue, billing, American Dialogues 250 framing, complete published repertoire and Philadelphia-premiere status for Declaration."
+      }],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Philadelphia Chamber Music Society event page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to track this is the program architecture: a self-conducted ensemble of Black and Latinx soloists uses the United States' 250th anniversary to place a new song cycle for Bridges beside Sierra, Montgomery, Ravel and Stravinsky. It turns a touring chamber-orchestra date into a focused argument about American musical identity.",
+          "trip_verdict": "Catch it if a Philadelphia Friday already fits, or pair it with another city reason; the touring program makes it useful to know about without making this stop the sole reason for a corridor trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón para seguir esta fecha está en la arquitectura del programa: un ensamble autoconducido de solistas negros y latinos usa los 250 años de Estados Unidos para poner un nuevo ciclo de canciones para Bridges junto a Sierra, Montgomery, Ravel y Stravinsky. Así, una parada de gira se vuelve un argumento enfocado sobre identidad musical estadounidense.",
+          "trip_verdict": "La aprovecharía si ese viernes en Filadelfia ya acomoda, o la combinaría con otra razón en la ciudad; el programa de gira hace que valga saber de ella sin convertir esta parada en el único motivo para viajar por el corredor.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "timo-andres-aaron-diehl-pcms-philadelphia-2026-11-03",
+      "artist": "Timo Andres & Aaron Diehl",
+      "subtitle": "Two-piano American music program",
+      "dates": {"start": "2026-11-03", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {"id": "perelman-theater-kimmel-center-philadelphia-pa", "name": "Perelman Theater, Kimmel Center", "city": "Philadelphia", "state": "PA", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A",
+      "category": "Two-piano recital / jazz-classical crossover",
+      "genres": ["Jazz", "Contemporary classical", "Cross-genre"],
+      "musical_axes": ["Instrumental identity", "Cross-genre", "Cultural context"],
+      "lineup": ["Timo Andres — piano", "Aaron Diehl — piano"],
+      "factual_description": "Philadelphia Chamber Music Society presents Timo Andres and Aaron Diehl in a two-piano recital at Perelman Theater on November 3, 2026 at 7:30 PM. The published program moves through Ellington, Monk, Julia Wolfe and selections from Andres's Shy and Mighty, and includes a new Andres work, still TBA by title, in its Philadelphia premiere.",
+      "links": {
+        "official_event": "https://www.pcmsconcerts.org/concerts/andres-diehl/",
+        "official_tickets": "https://www.pcmsconcerts.org/concerts/andres-diehl/"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "The exact PCMS event page verifies the duo, program, Philadelphia-premiere status and embedded official ticket selector. The new Andres work remains TBA by title; no Apple Music destination is supplied without exact verification."
+      },
+      "sources": [{
+        "url": "https://www.pcmsconcerts.org/concerts/andres-diehl/",
+        "publisher": "Philadelphia Chamber Music Society",
+        "checked_on": "2026-08-28",
+        "note": "Primary event page verifying date, time, venue, duo, program, new-work Philadelphia premiere, and embedded ticket purchase interface."
+      }],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Philadelphia Chamber Music Society event page."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The two-piano setup makes the jazz-classical border audible rather than theoretical: Diehl's lineage-conscious jazz language meets Andres's contemporary composition through Ellington, Monk, Wolfe and Shy and Mighty, with a new Andres work added to the conversation. The pairing is specific enough to belong even without scarcity.",
+          "trip_verdict": "Attend if Philadelphia is already convenient on November 3; it is an unusually coherent crossover recital, but I would pair it with another reason before making a dedicated corridor trip.",
+          "listen_before": "Shy and Mighty"
+        },
+        "es": {
+          "why_it_matters": "El formato de dos pianos vuelve audible —y no sólo teórica— la frontera entre jazz y música clásica: el lenguaje jazzístico de Diehl, muy consciente del linaje, se encuentra con la composición contemporánea de Andres a través de Ellington, Monk, Wolfe y Shy and Mighty, con una obra nueva de Andres dentro de la conversación. La pareja es lo bastante específica para entrar al RADAR sin necesidad de fabricar escasez.",
+          "trip_verdict": "Iría si Filadelfia ya resulta conveniente el 3 de noviembre; es un recital crossover particularmente coherente, pero lo combinaría con otra razón antes de hacer un viaje dedicado por el corredor.",
+          "listen_before": "Shy and Mighty"
+        }
+      }
+    }
+  ]
+}
