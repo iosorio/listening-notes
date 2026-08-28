@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "patti-smith-quartet-atlantis-2026-09-01-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-27 under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were re-read before grading. Current ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO, Yamamoto-schedule searches, and credible Japanese-jazz sources produced no new unrecorded verified Tsuyoshi Yamamoto performance. One Washington, DC discovery clears RADAR admission: Patti Smith Quartet at The Atlantis on September 1, 2026. S is deliberate and passed a second scarcity challenge. The scarcity is the exact pairing of a major living rock figure with The Atlantis in a surprise, intentionally intimate, already sold-out show with will-call-only/non-transferable ticket controls; it is not simply Patti Smith's stature. A+ would understate the likely regret of missing this particular room/context. S+ would overstate the case because Patti Smith Quartet plays Annapolis the following night and Smith has additional 2026 dates. Recent corrected RADAR batches remain dominated by A/A+, so this S is a specific scarcity exception rather than a return to grade inflation. Batch distribution: A 0, A+ 0, S 1, S+ 0.",
+  "events": [
+    {
+      "id": "patti-smith-quartet-atlantis-washington-dc-2026-09-01",
+      "artist": "Patti Smith Quartet",
+      "subtitle": "Surprise! At The Atlantis!",
+      "dates": {
+        "start": "2026-09-01",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-27",
+        "rationale": "The scarcity is the exact context, not Patti Smith's reputation alone. I.M.P. and The Atlantis bill September 1 as a surprise Patti Smith Quartet appearance in a venue whose own materials emphasize a substantially more intimate scale than the neighboring 9:30 Club; the show is already sold out and uses strict will-call-only, two-ticket, no-name-change controls. A+ would undersell the likely regret of missing this specific artist-room pairing. It remains S rather than S+ because Patti Smith Quartet performs in Annapolis on September 2 and Smith has additional 2026 dates, so the regional opportunity to hear her is not singular even though the Atlantis context is rare."
+      },
+      "category": "Surprise intimate rock performance / living master / DC venue context",
+      "genres": [
+        "Rock",
+        "Proto-punk",
+        "Art rock",
+        "Spoken word"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Patti Smith — vocals, guitar",
+        "Tony Shanahan — bass, keyboards, backing vocals",
+        "Jackson Smith — guitar",
+        "Sebastian Rochford — drums"
+      ],
+      "factual_description": "The Atlantis and I.M.P. present Patti Smith Quartet on Tuesday, September 1, 2026 in Washington, DC under the billing 'Surprise! At The Atlantis!'. Doors are at 6:30 PM; the promoter does not separately publish a verified performance start time, so no showtime is inferred. The event is sold out. Tickets are will-call only with a two-ticket limit, no will-call name changes, and no advance will-call pickup. The official event description identifies Patti Smith on vocals/guitar, Tony Shanahan on bass/keyboards/backing vocals, Jackson Smith on guitar, and Sebastian Rochford on drums. Patti Smith's official schedule independently confirms the September 1 Atlantis date and a Patti Smith Quartet performance in Annapolis on September 2. The Atlantis' own venue materials describe the room as less than half the capacity of the neighboring 9:30 Club and emphasize the resulting artist-audience intimacy.",
+      "links": {
+        "official_event": "https://theatlantis.com/e/patti-smith-quartet/",
+        "official_tickets": "https://www.ticketmaster.com/patti-smith-quartet-washington-district-of-columbia-09-02-2026/event/150064EEA779875B"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Patti Smith",
+          "title": "Horses",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/horses/1038568061"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "showtime"
+        ],
+        "note": "Exact official event, authorized Ticketmaster destination, quartet personnel, sold-out/will-call restrictions, Patti Smith official schedule, venue intimacy context and exact Apple Music album page are verified. The 6:30 PM time is explicitly labeled doors by I.M.P./The Atlantis, so no performance start time is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://theatlantis.com/e/patti-smith-quartet/",
+          "publisher": "The Atlantis / I.M.P.",
+          "checked_on": "2026-08-27",
+          "note": "Exact official event page confirms September 1, 2026, Washington, DC, surprise-show framing, 6:30 PM doors, sold-out status, will-call-only/two-ticket/no-name-change restrictions and the quartet personnel."
+        },
+        {
+          "url": "https://www.ticketmaster.com/patti-smith-quartet-washington-district-of-columbia-09-02-2026/event/150064EEA779875B",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-27",
+          "note": "Exact authorized ticketing page confirms Patti Smith Quartet at The Atlantis on September 1, 2026. Ticketmaster displays 6:30 PM, while the promoter explicitly labels that time as doors; the candidate therefore does not treat it as a verified showtime."
+        },
+        {
+          "url": "https://www.pattismith.net/jobs",
+          "publisher": "Patti Smith official website",
+          "checked_on": "2026-08-27",
+          "note": "Official artist schedule confirms Patti Smith Quartet at The Atlantis in Washington, DC on September 1 and at Maryland Hall in Annapolis on September 2, relevant both to factual verification and the S-versus-S+ scarcity review."
+        },
+        {
+          "url": "https://theatlantis.com/zine-archive/",
+          "publisher": "The Atlantis",
+          "checked_on": "2026-08-27",
+          "note": "Official venue material describes The Atlantis as less than half the capacity of the neighboring 9:30 Club and emphasizes its deeper artist-audience intimacy, supporting the rare-context rationale without inventing an exact capacity figure."
+        },
+        {
+          "url": "https://music.apple.com/us/album/horses/1038568061",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music album page for Patti Smith's Horses."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, surprise framing, doors time, sold-out/ticket-control status and quartet personnel were verified from The Atlantis/I.M.P.; the exact ticket destination was verified through Ticketmaster; Patti Smith's official schedule independently confirms the Washington date and the adjacent Annapolis date used in the scarcity review; The Atlantis' own venue material supports the intimacy characterization; Apple Music verifies the listening link. Repository searches found no existing Patti Smith / Atlantis September 1, 2026 RADAR record before publication. No performance start time, additional musicians, prices or secondary-market availability were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the kind of room-context collision that changes the meaning of a familiar artist. Patti Smith is not arriving with a large anniversary production but with the lean Quartet: Shanahan holding bass, keys and harmony, Jackson Smith carrying the guitar line, and Sebastian Rochford giving the music a modern rhythmic edge around Smith's voice, guitar and spoken intensity. The Atlantis is built around proximity, and a surprise set there compresses five decades of rock, poetry and improvisational fire into a room designed for direct contact rather than spectacle. The scarcity belongs to that exact encounter, not to celebrity alone.",
+          "trip_verdict": "Protect the night if you already have legitimate access, and treat any authorized ticket release as unusually consequential. The quartet is in Annapolis the following evening, so there is a regional fallback for hearing Smith, but the Atlantis show is the much rarer room-context pairing and should take precedence if access becomes possible.",
+          "listen_before": "Patti Smith — Horses"
+        },
+        "es": {
+          "why_it_matters": "Ésta es una de esas combinaciones artista-sala que cambian por completo el significado de una fecha. Patti Smith no llega con una producción grande de aniversario sino con el Quartet reducido: Shanahan sosteniendo bajo, teclados y armonías, Jackson Smith cargando la línea de guitarra y Sebastian Rochford metiendo un pulso moderno alrededor de la voz, la guitarra y la intensidad hablada de Smith. The Atlantis está construido alrededor de la cercanía, y una aparición sorpresa ahí comprime cinco décadas de rock, poesía y fuego improvisador dentro de una sala pensada para el contacto directo, no para el espectáculo de gran escala. La escasez está en ese encuentro exacto, no en la celebridad por sí sola.",
+          "trip_verdict": "Protegería la noche si ya tienes acceso legítimo y trataría cualquier liberación autorizada de boletos como algo realmente importante. El Quartet toca en Annapolis la noche siguiente, así que existe una alternativa regional para escuchar a Smith; aun así, la fecha de The Atlantis es la combinación artista-sala mucho más rara y tendría prioridad si aparece una vía legítima de entrada.",
+          "listen_before": "Patti Smith — Horses"
+        }
+      }
+    }
+  ]
+}
