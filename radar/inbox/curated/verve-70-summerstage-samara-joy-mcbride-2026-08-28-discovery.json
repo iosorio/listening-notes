@@ -1,0 +1,105 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "verve-70-summerstage-samara-joy-mcbride-2026-08-28-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. Current PRIORITIES, EDITORIAL, DOMAINS and radar inbox guidance were read before grading. Jazz House ALFIE, BODY&SOUL, current Yamamoto schedules, Space M&A and credible Japanese jazz sources were checked first; surfaced September BODY&SOUL Yamamoto dates are already represented in processed RADAR batches, including Kimiko Ito + Tsuyoshi Yamamoto on September 6, Chika Toyoda with the Yamamoto/Kagawa/Osumi core on September 9, and the September 26 BODY&SOUL final-period date. Stage 1 admission: the Verve 70 SummerStage program has a concrete historical and repertory argument beyond artist fame, pairing Samara Joy and Christian McBride in the label's 70th-anniversary celebration with Mei Semones & Friends explicitly performing music from Getz/Gilberto, plus a Sparklmami DJ set. Stage 2 priority: A+. The one-night anniversary framing and cross-generational bill are actively worth making room for, while A+ still captures the recommendation without invoking scarcity-tier language. Recent/current candidate flow remains weighted toward A and A+ with S/S+ used sparingly; this event adds no scarcity-tier pressure. Repository searches for Samara Joy, Christian McBride + Verve 70, and the SummerStage billing returned no existing RADAR record before publication.",
+  "events": [
+    {
+      "id": "samara-joy-christian-mcbride-verve70-summerstage-2026-09-02",
+      "artist": "Samara Joy + Christian McBride / Mei Semones & Friends",
+      "subtitle": "Verve Records 70th Anniversary at SummerStage",
+      "dates": {
+        "start": "2026-09-02",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "rumsey-playfield-central-park-new-york",
+        "name": "Rumsey Playfield at Central Park",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz anniversary / cross-generational repertory program",
+      "genres": [
+        "Jazz",
+        "Vocal jazz",
+        "Bossa nova",
+        "Jazz-influenced indie"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Samara Joy — vocals",
+        "Christian McBride — bass",
+        "Mei Semones & Friends — ensemble performing music from Getz/Gilberto",
+        "aron! — member of Mei Semones & Friends for this program",
+        "Liana Flores — member of Mei Semones & Friends for this program",
+        "John Roseboro — member of Mei Semones & Friends for this program",
+        "Sparklmami — DJ set"
+      ],
+      "factual_description": "City Parks Foundation presents a free Verve Records 70th-anniversary SummerStage program on Wednesday, September 2, 2026 from 7:00 PM to 10:00 PM at Rumsey Playfield in Central Park, with doors at 6:00 PM. The announced program features Samara Joy and Christian McBride celebrating Verve's 70th anniversary; Mei Semones & Friends, including aron!, Liana Flores and John Roseboro, performing music from the 1964 Verve album Getz/Gilberto; and an opening DJ set by Sparklmami. The official presenter page does not specify whether Joy and McBride perform a joint set or separate sets, so no set format is inferred here.",
+      "links": {
+        "official_event": "https://cityparksfoundation.org/events/verve-70th-anniversary-christian-mcbride-mei-semones-friends-play-the-music-of-getz-gilberto/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Stan Getz & João Gilberto",
+          "title": "Getz/Gilberto",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/getz-gilberto/1422655717"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The City Parks Foundation event page is exact and verifies that admission is free. No separate official registration or ticket destination is published on that page, so official_tickets remains null rather than inventing a purchase or registration URL. The exact Apple Music page for Getz/Gilberto is verified."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "City Parks Foundation / SummerStage",
+          "url": "https://cityparksfoundation.org/events/verve-70th-anniversary-christian-mcbride-mei-semones-friends-play-the-music-of-getz-gilberto/",
+          "checked_on": "2026-08-28",
+          "note": "Primary presenter page verifies September 2, 2026, 7:00-10:00 PM, 6:00 PM doors, Rumsey Playfield in Central Park, free admission, the Samara Joy / Christian McBride anniversary billing, Mei Semones with aron!, Liana Flores and John Roseboro performing music from Getz/Gilberto, and Sparklmami's DJ set."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — Getz/Gilberto",
+          "url": "https://music.apple.com/us/album/getz-gilberto/1422655717",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music album page for Stan Getz and João Gilberto's Getz/Gilberto, the repertory explicitly named in the event billing."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, times, venue, free-admission status, announced artists and Getz/Gilberto repertory were verified against City Parks Foundation's exact SummerStage event page. The Apple Music recommendation is an exact album page tied directly to the announced repertory. Repository searches across canonical/inbox-indexed content for Samara Joy and the Verve 70 SummerStage billing returned no existing event before publication. No unannounced backing personnel, set order, collaboration format, ticket destination or price was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The anniversary has a real repertory spine rather than functioning as label branding alone. Samara Joy and Christian McBride carry the contemporary jazz center of gravity, while Mei Semones and friends turn toward Getz/Gilberto, one of Verve's defining cross-cultural records, from a younger language that already moves between jazz harmony, indie songcraft and Japanese-English songwriting. That historical line from catalog to current practice gives the Central Park bill a specific reason to exist live.",
+          "trip_verdict": "If New York is feasible that Wednesday, actively make room for the free Central Park program and let it anchor the evening. From the DMV, it makes the most sense as the musical center of a day trip or overnight that includes another New York reason rather than as a scarcity-driven trip on its own.",
+          "listen_before": "Stan Getz & João Gilberto — Getz/Gilberto"
+        },
+        "es": {
+          "why_it_matters": "El aniversario tiene una columna vertebral de repertorio y no funciona sólo como celebración de sello. Samara Joy y Christian McBride ponen el peso del jazz contemporáneo, mientras Mei Semones y sus invitados regresan a Getz/Gilberto, uno de los discos interculturales decisivos de Verve, desde un lenguaje joven que ya cruza armonía de jazz, canción indie y escritura en japonés e inglés. Esa línea entre catálogo y práctica actual le da al cartel de Central Park una razón muy concreta para existir en vivo.",
+          "trip_verdict": "Si Nueva York es viable ese miércoles, le haría espacio activamente al programa gratuito de Central Park y armaría la noche alrededor de él. Desde el DMV tiene más sentido como centro musical de una ida y vuelta o una noche en la ciudad que incluya otra buena razón para Nueva York, no como un viaje sostenido únicamente por la escasez de esta fecha.",
+          "listen_before": "Stan Getz & João Gilberto — Getz/Gilberto"
+        }
+      }
+    }
+  ]
+}
