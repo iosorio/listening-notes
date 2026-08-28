@@ -1,0 +1,108 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kali-rodriguez-pena-dayme-arocena-blues-alley-2026-08-28-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Current ALFIE, BODY&SOUL, Space M&A and Yamamoto schedule checks produced no new verified unrecorded Tsuyoshi Yamamoto appearance. The broader DMV pass found this event-specific Cuban Jazz Series pairing at Blues Alley. RADAR admission is based on the named Rodríguez-Peña/Arocena collaboration, the 'Latin Louie and Ella' program, and the Embassy of Cuba co-presentation rather than venue prestige or artist reputation alone. Priority A+ is deliberate: the program is worth actively making room for locally, while two same-night sets and the absence of a premiere, farewell, singular lineup claim or other demonstrated scarcity leave no basis for S. Recent curated additions remain dominated by A/A+ rather than S/S+, consistent with the intended broad-base distribution without treating that shape as a quota.",
+  "events": [
+    {
+      "id": "kali-rodriguez-pena-dayme-arocena-blues-alley-2026-10-13",
+      "artist": "Kalí Rodríguez-Peña feat. Daymé Arocena",
+      "subtitle": "Sings ‘Latin Louie and Ella’ — Cuban Jazz Series",
+      "dates": {
+        "start": "2026-10-13",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Cuban jazz / Latin jazz",
+      "genres": [
+        "Cuban jazz",
+        "Afro-Cuban jazz",
+        "Jazz vocals"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Kalí Rodríguez-Peña — trumpet, bandleader",
+        "Daymé Arocena — vocals"
+      ],
+      "factual_description": "Blues Alley's authorized InstantSeats pages list Kalí Rodríguez-Peña featuring Daymé Arocena for Tuesday, October 13, 2026, with sets at 7:00 PM and 9:30 PM. The venue bills the program as ‘Latin Louie and Ella’ within its Cuban Jazz Series and states that it is co-presented with the Embassy of Cuba. Blues Alley identifies Rodríguez-Peña as a Cuban bandleader, trumpeter, composer and educator whose music combines Cuban motifs with jazz classicism; his official site independently identifies him as a trumpeter and bandleader. The billing itself specifies Arocena as the featured singer. No backing-band personnel are currently published and none are inferred here.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=8933920D-CE37-8DEB-6AAADF056FB4DBE7&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=8933920D-CE37-8DEB-6AAADF056FB4DBE7&fuseaction=buy.event"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Daymé Arocena",
+          "title": "Alkemi",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/alkemi/1719887812"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Authorized Blues Alley / InstantSeats pages verify billing, date, both showtimes, venue, the ‘Latin Louie and Ella’ program and Embassy of Cuba co-presentation. Rodríguez-Peña's official site verifies his trumpet/bandleader identity. The exact Apple Music album page verifies the recommended listening. No unannounced backing-band personnel, repertoire details beyond the published program title, or scarcity claims were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=8933920D-CE37-8DEB-6AAADF056FB4DBE7&fuseaction=home.event",
+          "publisher": "Blues Alley authorized ticketing / InstantSeats",
+          "checked_on": "2026-08-28",
+          "note": "Exact 7:00 PM event page verifies date, billing, venue, program title, Rodríguez-Peña's trumpeter/bandleader identity and Embassy of Cuba co-presentation."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=89339336-0616-115A-85BDFB511AA64B46&fuseaction=home.event",
+          "publisher": "Blues Alley authorized ticketing / InstantSeats",
+          "checked_on": "2026-08-28",
+          "note": "Exact 9:30 PM event page independently verifies the second set and repeats the published program and co-presentation details."
+        },
+        {
+          "url": "https://www.kalirodriguezpena.com/",
+          "publisher": "Kalí Rodríguez-Peña",
+          "checked_on": "2026-08-28",
+          "note": "Artist-controlled site identifies Rodríguez-Peña as a Cuban bandleader and trumpeter and describes the Cuban/jazz synthesis central to his musical identity."
+        },
+        {
+          "url": "https://music.apple.com/us/album/alkemi/1719887812",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music page verifies Daymé Arocena's Alkemi as a 2024 album and supplies the recommended-listening destination."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-sources",
+        "note": "Date, both showtimes, venue, billing, program title and Embassy of Cuba co-presentation were verified against Blues Alley's authorized InstantSeats event pages. Rodríguez-Peña's instrumental role was checked against both the venue and his official site. Repository search found no existing October 13, 2026 Rodríguez-Peña/Arocena Blues Alley RADAR record before publication. No backing-band names, additional repertoire or scarcity rationale were invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The attraction is the frame as much as the names: Rodríguez-Peña's trumpet language and Arocena's vocal presence meet in a program explicitly built around ‘Latin Louie and Ella,’ with Blues Alley's Cuban Jazz Series and the Embassy of Cuba placing the night inside a live Cuba–U.S. musical conversation. That gives the pairing a sharper reason to exist than a routine club date, and the close room should put phrasing, rhythmic lift and the exchange between trumpet and voice right in front of you.",
+          "trip_verdict": "For a DC night, make room for whichever of the two sets fits best. The local geography and duplicate set times make this easy to build around without turning it into a travel project or pretending the opportunity is scarce.",
+          "listen_before": "Daymé Arocena — Alkemi"
+        },
+        "es": {
+          "why_it_matters": "Aquí importa tanto el marco como los nombres: el lenguaje de trompeta de Rodríguez-Peña y la presencia vocal de Arocena se encuentran en un programa construido explícitamente alrededor de ‘Latin Louie and Ella’, mientras la Cuban Jazz Series de Blues Alley y la copresentación de la Embajada de Cuba colocan la noche dentro de una conversación musical Cuba–Estados Unidos. Eso le da a la colaboración una razón mucho más precisa que una fecha rutinaria de club, y la cercanía de la sala debería dejar al frente el fraseo, el impulso rítmico y el intercambio entre trompeta y voz.",
+          "trip_verdict": "Para una noche en DC, haría espacio para el set que mejor encaje. La geografía local y las dos funciones permiten construir la salida alrededor del concierto sin convertirla en un proyecto de viaje ni fingir que la oportunidad es escasa.",
+          "listen_before": "Daymé Arocena — Alkemi"
+        }
+      }
+    }
+  ]
+}
