@@ -1,0 +1,142 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "lagheads-billboard-live-tokyo-2026-10-17-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-28 after reading the current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. ALFIE, BODY&SOUL, Space M&A, current Tsuyoshi Yamamoto schedule searches, and credible Japanese-jazz sources produced no new unrecorded Yamamoto performance that required a new-event batch; the September 26 BODY&SOUL grand finale and the recurring Space M&A dates were recognized as already represented or non-new. The broader Tokyo/Kanto pass found LAGHEADS at Billboard Live Tokyo on October 17, 2026. Stage 1 RADAR admission is based on the specific live configuration: the band's first Billboard Live tour culminates in Tokyo with its four-piece instrumental core plus TENDRE, Sara Yoshida, HIMI, and Shiori Sasaki, bringing several established LAGHEADS vocal collaborations into one club-stage lineup; HIMI is unique to the Tokyo stop. Stage 2 priority is A: this is a distinctive groove-forward Japanese ensemble date worth tracking and attending if convenient, but it is part of a three-city tour and has no verified premiere, farewell, historic anniversary, or other context requiring active-priority or scarcity language. Recent/current RADAR grades were checked as a sanity check only; the proposed A supports the intended broad base without being assigned to satisfy a quota. Batch distribution: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "lagheads-billboard-live-tokyo-2026-10-17",
+      "artist": "LAGHEADS",
+      "subtitle": "Billboard Live Tour feat. TENDRE, HIMI, Sara Yoshida",
+      "dates": {
+        "start": "2026-10-17",
+        "end": null
+      },
+      "showtimes": [
+        "15:00",
+        "18:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese groove / jazz-fusion / jam-pop",
+      "genres": [
+        "Jazz fusion",
+        "J-Pop",
+        "Funk"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Sho Ogawa — guitar",
+        "Ren Yamamoto — bass",
+        "Jun Miyakawa — keyboards",
+        "Fumihiro Ibuki — drums",
+        "TENDRE — vocals",
+        "Sara Yoshida (MONO NO AWARE) — vocals",
+        "HIMI — vocals",
+        "Shiori Sasaki — chorus"
+      ],
+      "factual_description": "Billboard Live Tokyo presents LAGHEADS on Saturday, October 17, 2026, with first-stage doors at 14:00 and a 15:00 start, followed by second-stage doors at 17:00 and an 18:00 start. Billboard identifies this as the band's first appearance on its stage and lists Sho Ogawa on guitar, Ren Yamamoto on bass, Jun Miyakawa on keyboards, and Fumihiro Ibuki on drums, joined by TENDRE, Sara Yoshida, HIMI, and Shiori Sasaki. LAGHEADS' official announcement describes Osaka, Yokohama, and Tokyo as the band's first Billboard Live tour and specifies HIMI as a Tokyo-only guest. The exact eplus event page independently confirms the October 17 Tokyo billing, times, and announced personnel; as checked on August 28, eplus marks its allocation for both Tokyo stages as sold out.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?date=2026-10-17&event_id=ev-21451",
+        "official_tickets": "https://eplus.jp/sf/detail/3767250002-P0030005P021001"
+      },
+      "recommended_listening": [
+        {
+          "artist": "LAGHEADS feat. TENDRE",
+          "title": "SSAW (feat. TENDRE)",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/6771602834"
+        },
+        {
+          "artist": "LAGHEADS feat. HIMI",
+          "title": "Dance (feat. HIMI)",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/1718705965"
+        },
+        {
+          "artist": "LAGHEADS feat. Sara Yoshida",
+          "title": "Sugar Days (feat. SARA YOSHIDA)",
+          "kind": "song",
+          "apple_music_url": "https://music.apple.com/us/song/1794496053"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Billboard Live Tokyo event page verifies the date, both stage times, venue, full announced lineup, and the band's Billboard Live debut context. LAGHEADS' official tour announcement verifies the first three-city Billboard Live tour and the Tokyo-only HIMI guest distinction. The exact eplus event page verifies authorized ticketing, billing, times, and personnel; it currently marks its Tokyo allocations as sold out. Exact Apple Music song pages verify three recorded LAGHEADS collaborations represented in the live guest lineup. No additional musicians, repertoire, ticket availability outside eplus, or purchase destinations were inferred."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/tokyo/show?date=2026-10-17&event_id=ev-21451",
+          "checked_on": "2026-08-28",
+          "note": "Primary venue page confirms October 17, 2026; 15:00 and 18:00 starts; complete announced lineup; and LAGHEADS' first Billboard Live appearance."
+        },
+        {
+          "type": "artist_official",
+          "name": "LAGHEADS",
+          "url": "https://www.lagheads.com/post/billboard-live-tour2026",
+          "checked_on": "2026-08-28",
+          "note": "Artist-controlled tour announcement calls Osaka/Yokohama/Tokyo the band's first Billboard Live tour and identifies HIMI as a Tokyo-only guest, with Shiori Sasaki appearing in Tokyo and Yokohama."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "eplus — LAGHEADS Billboard Live Tour Tokyo",
+          "url": "https://eplus.jp/sf/detail/3767250002-P0030005P021001",
+          "checked_on": "2026-08-28",
+          "note": "Exact authorized ticket page confirms October 17 Billboard Live Tokyo, stage times, full announced lineup, and that the eplus allocations for both Tokyo performances are currently exhausted."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — SSAW (feat. TENDRE)",
+          "url": "https://music.apple.com/us/song/6771602834",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music song page verifies the June 24, 2026 LAGHEADS collaboration with TENDRE."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — Dance (feat. HIMI)",
+          "url": "https://music.apple.com/us/song/1718705965",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music song page verifies the LAGHEADS collaboration with HIMI."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — Sugar Days (feat. SARA YOSHIDA)",
+          "url": "https://music.apple.com/us/song/1794496053",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music song page verifies the LAGHEADS collaboration with Sara Yoshida."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Date, stage times, venue, first-Billboard appearance context, and full announced personnel were verified against Billboard Live Tokyo and LAGHEADS' official tour announcement, with the exact authorized eplus page used as a ticketing cross-check. Exact Apple Music song pages verify the TENDRE, HIMI, and Sara Yoshida collaborations used for listening preparation. Repository search for LAGHEADS returned no existing canonical, curated, or processed RADAR record before publication. Priority was assigned only after Stage 1 admission; A reflects a specific and worthwhile Tokyo lineup without turning a first tour or venue debut into scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the way LAGHEADS turns its studio-collaboration network into a live band. Ogawa, Yamamoto, Miyakawa, and Ibuki supply the elastic guitar-bass-keys-drums core, while TENDRE, Sara Yoshida, and HIMI bring three different vocal relationships already heard across the group's records into the same Tokyo set. HIMI appears only on the Tokyo stop, so this is the fullest version of the band's first Billboard Live tour rather than a generic club date.",
+          "trip_verdict": "If October 17 is open and an authorized seat becomes available, this is a strong groove-forward Tokyo club night to catch. Choose the Tokyo stop if the expanded guest lineup is the draw; I would still fit it around rarer master dates, premieres, farewells, and one-off encounters rather than reshape the itinerary around it alone.",
+          "listen_before": "LAGHEADS — SSAW (feat. TENDRE); Dance (feat. HIMI); Sugar Days (feat. SARA YOSHIDA)"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en cómo LAGHEADS convierte su red de colaboraciones de estudio en una banda en vivo. Ogawa, Yamamoto, Miyakawa e Ibuki ponen el núcleo elástico de guitarra, bajo, teclados y batería, mientras TENDRE, Sara Yoshida y HIMI reúnen en el mismo set de Tokio tres relaciones vocales que ya existen en los discos del grupo. HIMI aparece sólo en la parada de Tokio, así que ésta es la versión más completa de la primera gira de LAGHEADS por Billboard Live y no una fecha genérica de club.",
+          "trip_verdict": "Si el 17 de octubre está libre y aparece un asiento por un canal autorizado, es una muy buena noche de club en Tokio para ir por groove y ensamble. Escogería la fecha de Tokio si lo que atrae es la formación ampliada; aun así, la acomodaría alrededor de maestros en contextos más raros, estrenos, despedidas y encuentros de una sola ocasión en vez de rehacer el itinerario sólo por esta fecha.",
+          "listen_before": "LAGHEADS — SSAW (feat. TENDRE); Dance (feat. HIMI); Sugar Days (feat. SARA YOSHIDA)"
+        }
+      }
+    }
+  ]
+}
