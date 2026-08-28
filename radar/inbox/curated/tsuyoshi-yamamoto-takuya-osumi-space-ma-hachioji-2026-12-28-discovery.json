@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tsuyoshi-yamamoto-takuya-osumi-space-ma-hachioji-2026-12-28-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-28 under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were consulted before publication. The official Space M&A July-December schedule exposes a December 28 date that was not present in canonical/inbox searches: Tsuyoshi Yamamoto with Hiroshi Kagawa and Toshio Osumi, joined by Takuya Osumi on saxophone. RADAR admission rests on the specific year-end quartet variation of the recurring Hachioji trio, not on Yamamoto's name alone. Priority was assigned only after admission. A+ captures the recommendation: actively make room for the added-saxophone lineup within Kanto, while the venue's recurring Yamamoto series and the lack of farewell, premiere, or other demonstrated scarcity do not support S. Batch distribution: A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-trio-takuya-osumi-space-ma-hachioji-2026-12-28",
+      "artist": "Tsuyoshi Yamamoto Trio + Takuya Osumi",
+      "subtitle": "Year-end Space M&A quartet date",
+      "dates": {
+        "start": "2026-12-28",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "space-ma-hachioji-tokyo",
+        "name": "Space M&A",
+        "city": "Hachioji",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Greater Tokyo jazz / Yamamoto",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Groove"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto (山本剛) — piano",
+        "Hiroshi Kagawa (香川裕史) — bass",
+        "Toshio Osumi (大隅寿男) — drums",
+        "Takuya Osumi (大隅卓也) — saxophone"
+      ],
+      "factual_description": "Space M&A's official July-December 2026 JAZZLIVE schedule lists Tsuyoshi Yamamoto on piano, Hiroshi Kagawa on bass, Toshio Osumi on drums, with Takuya Osumi on saxophone for Monday, December 28, 2026. Doors are at 18:00 and the performance runs from 18:30 to 21:00. The venue publishes a reservation form from the same official event page.",
+      "links": {
+        "official_event": "https://space-ma.com/jazzlive-7%E6%9C%88%EF%BD%9E12%E6%9C%88/",
+        "official_tickets": "https://forms.gle/caFedX4A9yBjVsjS9"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://forms.gle/caFedX4A9yBjVsjS9",
+          "checked_on": "2026-08-28"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio",
+          "title": "Blues For K",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/blues-for-k/6768695416"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact official Space M&A JAZZLIVE July-December page verifies the December 28 date, lineup, doors and performance time and publishes the authorized reservation form. An exact Apple Music album page for Tsuyoshi Yamamoto Trio is also verified. No face-value price is shown on the accessible official page, so ticket amounts remain null."
+      },
+      "sources": [
+        {
+          "url": "https://space-ma.com/jazzlive-7%E6%9C%88%EF%BD%9E12%E6%9C%88/",
+          "publisher": "Space M&A",
+          "checked_on": "2026-08-28",
+          "note": "Official JAZZLIVE July-December page confirms December 28, 2026; Yamamoto/Kagawa/Toshio Osumi with Takuya Osumi on saxophone; doors 18:00; performance 18:30-21:00; and links directly to the venue's reservation form."
+        },
+        {
+          "url": "https://music.apple.com/us/album/blues-for-k/6768695416",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music album page for Tsuyoshi Yamamoto Trio's Blues For K."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Performance facts and reservation destination were verified directly from Space M&A; the listening destination was verified on Apple Music. Repository searches for the exact December 28 date in English and Japanese returned no matching canonical, curated, or processed event before publication. The existing processed Space M&A batch ends with November 28. Priority was assigned after RADAR admission; no ticket price, repertoire, or additional context was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The recurring Hachioji trio changes shape for the year-end date: Takuya Osumi adds saxophone to Yamamoto, Kagawa and Toshio Osumi. That extra horn gives the familiar rhythm section another voice to push against and opens the small-room conversation beyond the standard piano-trio format—a specific live reason to make space for this one rather than treating every Yamamoto date as interchangeable.",
+          "trip_verdict": "If Greater Tokyo is in play on December 28, I would build the evening around Hachioji and make the westward trip for this expanded lineup. It is a strong Kanto night, not a reason by itself to reorganize an entire Japan itinerary.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Blues For K"
+        },
+        "es": {
+          "why_it_matters": "El trío recurrente de Hachioji cambia de forma para la fecha de fin de año: Takuya Osumi suma el saxofón a Yamamoto, Kagawa y Toshio Osumi. Esa cuarta voz abre la conversación del cuarto pequeño más allá del formato habitual de piano trío y le da a la sección rítmica otro interlocutor; ésa es la razón concreta para hacerle espacio a esta noche y no tratar todas las fechas de Yamamoto como equivalentes.",
+          "trip_verdict": "Si Greater Tokyo está en juego el 28 de diciembre, armaría la noche alrededor de Hachioji y haría el trayecto hacia el oeste por esta formación ampliada. Es una noche fuerte dentro de Kanto, no una razón por sí sola para reorganizar todo un viaje a Japón.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Blues For K"
+        }
+      }
+    }
+  ]
+}
