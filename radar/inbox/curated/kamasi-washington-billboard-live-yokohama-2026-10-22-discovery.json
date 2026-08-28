@@ -1,0 +1,106 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kamasi-washington-billboard-live-yokohama-2026-10-22-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-28 after reading the current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule searches, Space M&A, and credible Japanese-jazz sources produced no new verified unrecorded Yamamoto appearance. The broader Tokyo/Kanto pass found Kamasi Washington at Billboard Live Yokohama on October 22, 2026, a distinct third Kanto night after his already-recorded October 19-20 Billboard Live Tokyo engagement. Stage 1 admission is based on the performance-specific fit between Washington's tenor-led, spiritual, groove-heavy contemporary jazz language and a compressed club setting, plus the cross-genre thread documented by the official venue. Stage 2 priority is A+: this is excellent and actively worth making room for within Kanto, but the same run offers two Tokyo nights immediately beforehand, the additional personnel remain TBA, and there is no farewell, premiere, rare announced lineup, or other scarcity fact warranting S. Recent/current RADAR grades were reviewed as a sanity check only; the proposed grade was not adjusted to satisfy a quota. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "kamasi-washington-billboard-live-yokohama-2026-10-22",
+      "artist": "Kamasi Washington",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-22",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live Yokohama",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz / spiritual jazz",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Spiritual jazz"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Groove",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Kamasi Washington — tenor saxophone",
+        "Additional personnel — TBA"
+      ],
+      "factual_description": "Billboard Live Yokohama presents Kamasi Washington on Thursday, October 22, 2026, with first-stage doors at 4:30 PM and a 5:30 PM start, followed by second-stage doors at 7:30 PM and an 8:30 PM start. The official listing currently names Washington on tenor saxophone and explicitly states that the other members are not yet determined. Billboard also lists Washington at Billboard Live Tokyo on October 19-20 as part of the same Japan run.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/yokohama/show?date=2026-10-22&event_id=ev-21398",
+        "official_tickets": "https://eplus.jp/sf/detail/1996380003"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kamasi Washington",
+          "title": "Fearless Movement",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/fearless-movement/1729582490"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Billboard Live Yokohama event page verifies the date, both stage times, venue, Washington on tenor saxophone, additional personnel TBA, and the October 19-20 Billboard Live Tokyo tour dates. The authorized eplus page independently verifies the October 22 Yokohama engagement and ticketing. Apple Music verifies the exact Fearless Movement album page. No unannounced personnel, repertoire, prices, or purchase destinations were inferred."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Yokohama",
+          "url": "https://www.billboard-live.com/yokohama/show?date=2026-10-22&event_id=ev-21398",
+          "checked_on": "2026-08-28",
+          "note": "Exact official event page confirms October 22, 2026; 17:30 and 20:30 starts; Billboard Live Yokohama; Kamasi Washington on tenor saxophone; other members TBA; and the October 19-20 Billboard Live Tokyo tour dates."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "eplus — Kamasi Washington",
+          "url": "https://eplus.jp/sf/detail/1996380003",
+          "checked_on": "2026-08-28",
+          "note": "Authorized ticketing page for Kamasi Washington verifies the October 22 Billboard Live Yokohama engagement and provides the live purchase route."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/fearless-movement/1729582490",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music page for Fearless Movement, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Date, set times, venue, announced instrument and TBA personnel status were verified directly against Billboard Live Yokohama, with authorized ticketing cross-checked on eplus. Repository searches for 'Kamasi Washington Yokohama 2026', official event ID ev-21398, and the proposed stable event ID returned no matching current candidate or processed record before publication. The existing processed October 19-20 Billboard Live Tokyo Kamasi Washington engagement was recognized as a separate venue/date and was not duplicated. Priority was assigned only after RADAR admission; A+ reflects active Kanto priority without manufacturing scarcity from a run that already includes two Tokyo nights."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Washington's music is built for scale: tenor saxophone over layered rhythm, spiritual-jazz sweep, and a vocabulary that moves naturally through hip-hop, screen work, and large-form jazz writing. Hearing that language compressed into Billboard Live Yokohama is the concrete live-context reason to track this date. It also closes a three-night Kanto run after two Tokyo evenings, adding another club-scale chance to hear that expansive language at close range.",
+          "trip_verdict": "Actively make room if Yokohama fits the itinerary. If central Tokyo is easier, the October 19-20 Billboard Live Tokyo dates are equally viable, so use this as the Kanto scheduling option that best fits the trip rather than treating Yokohama itself as a separate travel mission.",
+          "listen_before": "Kamasi Washington — Fearless Movement"
+        },
+        "es": {
+          "why_it_matters": "La música de Washington piensa en grande: saxo tenor sobre capas rítmicas, amplitud de spiritual jazz y un vocabulario que pasa con naturalidad por hip-hop, música para imagen y escritura jazzística de gran formato. Escuchar esa escala comprimida en Billboard Live Yokohama es la razón concreta para seguir esta fecha. Además, cierra una corrida de tres noches en Kanto después de dos noches en Tokio y suma otra oportunidad de club para oír ese lenguaje expansivo de cerca.",
+          "trip_verdict": "Le haría espacio activamente si Yokohama encaja en el itinerario. Si conviene más el centro de Tokio, las fechas del 19-20 de octubre en Billboard Live Tokyo son alternativas igual de viables; usaría esta noche como la opción de Kanto que mejor acomode, no como un viaje separado sólo por Yokohama.",
+          "listen_before": "Kamasi Washington — Fearless Movement"
+        }
+      }
+    }
+  ]
+}
