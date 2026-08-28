@@ -1,0 +1,86 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tsuyoshi-yamamoto-keystone-night-2026-09-15-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before discovery and grading. A new unrecorded verified Tsuyoshi Yamamoto appearance surfaced at KEYSTONE CLUB TOKYO on September 15, 2026. Admission and priority were decided separately. The date clears RADAR admission because it is a dedicated Yamamoto leader night in Roppongi, directly continuing the documented Listening Notes Yamamoto/ALFIE thread in the same neighborhood rather than relying on fame or venue prestige alone. Final priority A+: within Tokyo this is actively worth making room for, while the regular club setting, currently unannounced supporting personnel, and lack of a verified one-off, farewell, premiere, reunion, or other scarcity fact do not justify S. This batch adds one A+ and no scarcity-tier event, so it creates no S/S+ distribution pressure.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-keystone-club-tokyo-2026-09-15",
+      "artist": "Tsuyoshi Yamamoto",
+      "subtitle": "Yamamoto Night!",
+      "dates": {
+        "start": "2026-09-15",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "keystone-club-tokyo",
+        "name": "KEYSTONE CLUB TOKYO",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / Tokyo jazz / Dedicated leader night",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto — piano"
+      ],
+      "factual_description": "KEYSTONE CLUB TOKYO lists 'Yamamoto Night!' for Tuesday, September 15, 2026 in Roppongi. Doors open at 6:30 PM and the performance starts at 7:30 PM. The official venue page currently confirms Tsuyoshi Yamamoto on piano and states that the remaining members are still being arranged. The music charge is also not yet set. No additional personnel, repertoire, price, or separate ticket destination is inferred until the venue publishes it.",
+      "links": {
+        "official_event": "https://keystoneclubtokyo.com/html/schedule/%E5%B1%B1%E6%9C%AC%E5%89%9B-night-3/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "complete_lineup",
+          "music_charge",
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact venue event page, date, opening time, start time, Yamamoto billing and Roppongi venue identity are verified. KEYSTONE CLUB TOKYO explicitly marks the other members as still being arranged and the music charge as unset, so those fields remain pending rather than inferred. No separate stable event-specific ticket URL or exact Apple Music destination is supplied without verification."
+      },
+      "sources": [
+        {
+          "url": "https://keystoneclubtokyo.com/html/schedule/%E5%B1%B1%E6%9C%AC%E5%89%9B-night-3/",
+          "publisher": "KEYSTONE CLUB TOKYO",
+          "checked_on": "2026-08-28",
+          "note": "Primary venue page verifies September 15, 2026, doors 6:30 PM, start 7:30 PM, Tsuyoshi Yamamoto on piano, remaining members still being arranged, music charge not yet set, and the Roppongi venue address."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, time, venue and currently announced billing were verified from the exact KEYSTONE CLUB TOKYO event page. Repository code searches for the event title, Tsuyoshi Yamamoto with KEYSTONE CLUB, and the date 2026-09-15 returned no existing RADAR record before publication. Unannounced personnel, repertoire, music charge, purchase destination and listening links were not invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This one matters because the Yamamoto thread becomes concrete again in Roppongi. RADAR began with the missed chance to hear him at ALFIE a few blocks away; here the billing is his own dedicated night, not a sideman appearance or a generic jazz-club listing. The supporting band is still unannounced, so the musical shape is not yet fully visible, but the chance to hear Yamamoto lead a small-room Tokyo date is exactly the kind of live continuation the project was built to notice.",
+          "trip_verdict": "If September 15 overlaps with Tokyo, actively make room for the evening in Roppongi and keep watching the personnel announcement. I would build the Tokyo night around it, but with the band still pending and no verified one-off context, I would not make this single club date the reason for a dedicated Japan trip by itself.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — a recent trio recording of your choice while the exact live personnel remain pending"
+        },
+        "es": {
+          "why_it_matters": "Esta fecha importa porque el hilo de Yamamoto vuelve a hacerse concreto en Roppongi. El RADAR nació de aquella oportunidad perdida de escucharlo en ALFIE, a unas cuadras de aquí; ahora el billing es una noche encabezada por él, no una aparición secundaria ni una entrada genérica de club. La banda que lo acompañará todavía no está anunciada, así que la forma musical de la noche sigue incompleta, pero escuchar a Yamamoto liderar una fecha de club en Tokio es exactamente la clase de continuidad en vivo que el proyecto nació para detectar.",
+          "trip_verdict": "Si el 15 de septiembre coincide con Tokio, sí le haría espacio activamente a la noche en Roppongi y seguiría de cerca el anuncio de los músicos. Construiría esa noche de Tokio alrededor del show, pero con la banda todavía pendiente y sin un contexto one-off verificado, no haría de esta única fecha de club la razón de un viaje dedicado a Japón.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — una grabación reciente del trío mientras sigue pendiente la formación exacta de esta fecha"
+        }
+      }
+    }
+  ]
+}
