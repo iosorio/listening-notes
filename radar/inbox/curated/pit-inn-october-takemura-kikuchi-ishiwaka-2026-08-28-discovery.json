@@ -1,0 +1,293 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "pit-inn-october-takemura-kikuchi-ishiwaka-2026-08-28-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-28 under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, AGENTS.md, and docs/DATA_MODEL.md were consulted before publication. Current Yamamoto/ALFIE/BODY&SOUL/Space M&A research produced no new verified unrecorded Tsuyoshi Yamamoto appearance; the apparently fresh September 15 Keystone Club Tokyo result is already archived in radar/inbox/processed. The broader Tokyo/Kanto pass found three newly published Shinjuku PIT INN dates/engagements that clear RADAR admission for performance-specific reasons. Admission and priority were decided separately. Ittetsu Takemura with Yoshihide Otomo and Shinpei Ruike is A+ because PIT INN explicitly identifies an all-improvised first Takemura/Otomo collaboration; the first meeting is concrete live context but A+ fully captures the recommendation without manufacturing S-tier scarcity. Naruyoshi Kikuchi Trio is A because Kikuchi's deliberate move from saxophone to piano in a self-described classical free-jazz trio is a specific instrumental/live-context reason to track the performance, while the working trio is not a scarce event. Shun Ishiwaka 3DAYS / 6 Performances is A+ because its tenth edition spans six distinct working projects and includes arrangements prepared specifically for the anniversary big-band set; the active projects and six-set format make A+ sufficient. Batch distribution: A 1 / A+ 2 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "ittetsu-takemura-otomo-yoshihide-shinpei-ruike-shinjuku-pit-inn-2026-10-02",
+      "artist": "Ittetsu Takemura / Yoshihide Otomo / Shinpei Ruike",
+      "subtitle": "Ittetsu Takemura 2DAYS — Night 1: first Takemura/Otomo collaboration, all improvised",
+      "dates": {
+        "start": "2026-10-02",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese free improvisation / first collaboration",
+      "genres": [
+        "Free Jazz",
+        "Improvised Music",
+        "Experimental Jazz"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Experimental/Metal"
+      ],
+      "lineup": [
+        "Ittetsu Takemura (竹村一哲) — drums",
+        "Yoshihide Otomo (大友良英) — guitar",
+        "Shinpei Ruike (類家心平) — trumpet"
+      ],
+      "factual_description": "Shinjuku PIT INN presents the first night of Ittetsu Takemura 2DAYS on Friday, October 2, 2026. Doors are at 7:00 PM and the performance starts at 7:30 PM. The announced trio is Takemura on drums, Yoshihide Otomo on guitar, and Shinpei Ruike on trumpet. PIT INN's event text states that this is Takemura's first performance with Otomo and that the night will be improvised. The published admission price is ¥4,400 including one drink; reservations and sales begin September 1.",
+      "links": {
+        "official_event": "https://pit-inn.com/artist_live_info/261002takemura/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ittetsu Takemura",
+          "title": "Kagerou",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kagerou/1769537473"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Date, start time, venue, full trio, first-collaboration/all-improvised framing, face-value admission and sale start are verified from Shinjuku PIT INN. The exact Apple Music album page is verified. No event-specific active purchase destination is published yet; official_tickets remains null until sales begin."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/artist_live_info/261002takemura/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-28",
+          "note": "Official individual event page confirms October 2, 2026; doors 19:00/start 19:30; Takemura/Otomo/Ruike; Takemura's first collaboration with Otomo; all-improvised performance; ¥4,400 including one drink; and September 1 reservation/sale start."
+        },
+        {
+          "url": "https://pit-inn.com/newarrivals/takemura-2days/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-28",
+          "note": "Official 2DAYS announcement independently confirms the October 2 trio and first-night concept."
+        },
+        {
+          "url": "https://music.apple.com/us/album/kagerou/1769537473",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music page for Ittetsu Takemura's Kagerou."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Performance facts and context were verified directly from Shinjuku PIT INN; listening destination was verified on Apple Music. Repository code searches in English and Japanese for the artist/date and proposed context returned no matching canonical or inbox/processed event before publication. Priority was assigned only after RADAR admission. No unannounced repertoire, guests, ticket destination, or scarcity claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The first meeting is the music here. PIT INN identifies this as Takemura's first performance with Otomo and an entirely improvised set, putting Takemura's attack and elasticity against Ruike's trumpet and Otomo's guitar/noise vocabulary without a repertory safety net. That untested small-room conversation is a concrete reason to make space for the date.",
+          "trip_verdict": "Actively make room if Tokyo is available on October 2. A first-meeting improvised trio at PIT INN is the kind of evening worth building around, without turning the fact that it is a first encounter into a claim that it cannot happen again.",
+          "listen_before": "Ittetsu Takemura — Kagerou"
+        },
+        "es": {
+          "why_it_matters": "Aquí el acontecimiento es el primer encuentro. PIT INN identifica esta fecha como la primera vez que Takemura toca con Otomo y anuncia una noche completamente improvisada: el ataque y la elasticidad de Takemura frente a la trompeta de Ruike y el vocabulario de guitarra y ruido de Otomo, sin repertorio que funcione como red de seguridad. Esa conversación todavía no probada en un cuarto pequeño es una razón concreta para hacerle espacio.",
+          "trip_verdict": "Si Tokio está abierto el 2 de octubre, construiría la noche alrededor de PIT INN. Un trío de primer encuentro en improvisación libre merece prioridad, sin convertir el hecho de que sea la primera vez en una afirmación de que nunca podrá repetirse.",
+          "listen_before": "Ittetsu Takemura — Kagerou"
+        }
+      }
+    },
+    {
+      "id": "naruyoshi-kikuchi-trio-shinjuku-pit-inn-2026-10-10",
+      "artist": "Naruyoshi Kikuchi Trio",
+      "subtitle": "Naruyoshi Kikuchi / Takashi Sugawa / Osamu Akimoto",
+      "dates": {
+        "start": "2026-10-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese free-jazz piano trio",
+      "genres": [
+        "Free Jazz",
+        "Jazz",
+        "Improvised Music"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Naruyoshi Kikuchi (菊地成孔) — piano",
+        "Takashi Sugawa (須川崇志) — bass",
+        "Osamu Akimoto (秋元修) — drums"
+      ],
+      "factual_description": "Shinjuku PIT INN presents Naruyoshi Kikuchi Trio on Saturday, October 10, 2026, with doors at 7:00 PM and a 7:30 PM start. The announced lineup is Kikuchi on piano, Takashi Sugawa on bass, and Osamu Akimoto on drums. In PIT INN's event note, Kikuchi says the trio was formed last year and describes its approach as 'classical free jazz'; the performance is built around Kikuchi playing piano rather than his more familiar saxophone role. Published admission is ¥5,500 advance / ¥6,050 at the door, including one drink, with ticket sales beginning September 6.",
+      "links": {
+        "official_event": "https://pit-inn.com/newarrivals/naruyoshi-kikuchi/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Naruyoshi Kikuchi",
+          "title": "Degustation A Jazz",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/degustation-a-jazz/468853424"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Date, start time, trio personnel, piano/free-jazz project framing, face-value range and sale date are verified from Shinjuku PIT INN; exact Apple Music listening is verified. The active event-specific purchase destination is not yet available because sales begin September 6."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/newarrivals/naruyoshi-kikuchi/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-28",
+          "note": "Official event announcement confirms October 10, 2026; doors 19:00/start 19:30; Kikuchi/Sugawa/Akimoto lineup; Kikuchi on piano; the 'classical free jazz' framing; ¥5,500 advance / ¥6,050 door including one drink; and September 6 ticket-sale start."
+        },
+        {
+          "url": "https://music.apple.com/us/album/degustation-a-jazz/468853424",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music page for Naruyoshi Kikuchi's Degustation A Jazz."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Performance facts and artist framing were verified directly from Shinjuku PIT INN; the listening destination was verified on Apple Music. Repository searches in English and Japanese for Kikuchi and October 10 returned no matching current or processed event before publication. No repertoire, additional personnel, ticket URL, or scarcity claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Kikuchi's instrument choice changes the center of gravity. Rather than fronting the trio on saxophone, he puts himself at the piano inside a deliberately old-school free-jazz proposition with Sugawa and Akimoto, treating the instrument's friction and his own outsider relationship to it as part of the music. That is a specific live idea, not simply another date by a major Tokyo musician.",
+          "trip_verdict": "Worth choosing if October 10 is open while already in Tokyo, especially if the trip has room for a late-night PIT INN set. I would not reorganize a packed Kanto itinerary around this working trio alone.",
+          "listen_before": "Naruyoshi Kikuchi — Degustation A Jazz"
+        },
+        "es": {
+          "why_it_matters": "La elección de instrumento cambia el centro de gravedad. En vez de ponerse al frente con el saxofón, Kikuchi entra al piano dentro de una propuesta deliberadamente clásica de free jazz con Sugawa y Akimoto, haciendo de la fricción con el instrumento y de su propia relación de outsider parte de la música. Esa es una idea de vivo específica, no simplemente otra fecha de un músico importante de Tokio.",
+          "trip_verdict": "Si el 10 de octubre está libre y ya estás en Tokio, vale escoger esta noche, sobre todo si el itinerario deja espacio para PIT INN. No reorganizaría un calendario cargado de Kanto únicamente alrededor de este trío.",
+          "listen_before": "Naruyoshi Kikuchi — Degustation A Jazz"
+        }
+      }
+    },
+    {
+      "id": "shun-ishiwaka-3days-6-performances-shinjuku-pit-inn-2026-10-23",
+      "artist": "Shun Ishiwaka — 3DAYS / 6 Performances 2026",
+      "subtitle": "10th edition: MANGAPHONICS, SMTK, trio, Answer to Remember Big Band, Songbook Project, The Boys Trio Returns",
+      "dates": {
+        "start": "2026-10-23",
+        "end": "2026-10-25"
+      },
+      "showtimes": [
+        "15:00",
+        "20:00",
+        "14:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese drummer-composer residency / 10th edition / six-project showcase",
+      "genres": [
+        "Jazz",
+        "Free Jazz",
+        "Contemporary Jazz",
+        "Experimental",
+        "Progressive"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Fusion/Prog",
+        "Experimental/Metal",
+        "Groove"
+      ],
+      "lineup": [
+        "Oct 23 daytime — MANGAPHONICS: Shun Ishiwaka, Masaki Hayashi, Yoichi Murata, Osamu Koike, Keisuke Torigoe; DJ Marty Holoubek",
+        "Oct 23 night — SMTK: Shun Ishiwaka, Marty Holoubek, Tokutaro Hosoi, Kei Matsumaru",
+        "Oct 24 daytime — Shun Ishiwaka / Marty Holoubek / Chris Kazuki Jones",
+        "Oct 24 night — Answer to Remember Big Band: Shun Ishiwaka-led big-band edition with guests, complete personnel published by PIT INN",
+        "Oct 25 daytime — Songbook Project: Manami Kakudo, Chris Kazuki Jones, Hirofumi Nakamura, Shun Ishiwaka; guest Marty Holoubek",
+        "Oct 25 night — The Boys Trio 'Returns': Hideaki Kanazawa, Akira Ishii, Shun Ishiwaka"
+      ],
+      "factual_description": "Shinjuku PIT INN presents Shun Ishiwaka 3DAYS / 6 Performances 2026 from October 23 through October 25, 2026. October 23 and 25 daytime sets open at 2:30 PM and start at 3:00 PM; night sets open at 7:30 PM and start at 8:00 PM. On October 24 the daytime set opens at 1:30 PM and starts at 2:00 PM, while the Answer to Remember Big Band night opens at 8:00 PM and starts at 8:30 PM as one 90-minute set. The six programs are MANGAPHONICS and SMTK on October 23; an Ishiwaka/Holoubek/Chris Kazuki Jones trio and Answer to Remember Big Band on October 24; and Songbook Project plus The Boys Trio 'Returns' on October 25. Ishiwaka's official event note identifies this as the tenth edition of the 3DAYS / 6 performances format and says arrangements are being prepared specifically for the October 24 big-band set to mark the tenth edition. Published prices range from ¥4,950 advance for the October 24 daytime trio to ¥8,250 door for the October 24 big-band night; ticket sales begin September 6.",
+      "links": {
+        "official_event": "https://pit-inn.com/newarrivals/ishiwaka-3days/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Answer to Remember",
+          "title": "Answer to Remember II",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/answer-to-remember-ii/1754939372"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The official PIT INN residency announcement verifies all six program billings, dates, start times, prices, tenth-edition context and the special big-band arrangements. The curated event preserves the complete project-level six-set billing and does not invent romanizations for individual large-ensemble sidemen. The exact event-specific ticket destination is not active yet because sales begin September 6. Exact Apple Music listening is verified."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/newarrivals/ishiwaka-3days/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-28",
+          "note": "Official residency announcement confirms October 23-25, six performances, all program billings and published personnel, set-specific opening/start times, face-value prices, September 6 ticket-sale start, tenth-edition context, and arrangements prepared specifically for the October 24 Answer to Remember Big Band set."
+        },
+        {
+          "url": "https://music.apple.com/us/album/answer-to-remember-ii/1754939372",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music page for Answer to Remember II."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, six-set program structure, project billings, times, prices, anniversary framing and special-arrangement claim were verified from the Shinjuku PIT INN announcement; listening destination was verified on Apple Music. Repository searches for the English artist/date, Japanese artist/date and the exact 3DAYS phrase returned no matching current or processed RADAR record before publication. The batch groups the six performances as one residency-level event to avoid flooding RADAR with six separate entries. No S-tier scarcity was inferred from the anniversary or one-night arrangements."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The residency works as a portrait of Ishiwaka rather than a pile of dates. Across six sets he moves between MANGAPHONICS, SMTK, a lean trio, the large-scale Answer to Remember language, Songbook, and an older piano-trio relationship; PIT INN also marks this as the tenth edition and says the big-band charts are being prepared specifically for the occasion. The thread is Ishiwaka as drummer, organizer and composer changing the size and grammar of the ensemble around him.",
+          "trip_verdict": "If Tokyo overlaps October 23–25, actively make room for at least one of the six sets and consider pairing contrasting formats rather than trying to collect the whole residency. The big-band night has the strongest one-off context, while the multiple active projects and three-day structure keep the weekend flexible.",
+          "listen_before": "Answer to Remember — Answer to Remember II"
+        },
+        "es": {
+          "why_it_matters": "La residencia funciona como retrato de Ishiwaka, no como un montón de fechas. En seis sets pasa de MANGAPHONICS y SMTK a un trío ligero, el lenguaje de gran formato de Answer to Remember, Songbook y una relación de piano trío de muchos años; PIT INN además marca ésta como la décima edición y dice que los arreglos de la big band se están preparando especialmente para la ocasión. El hilo es Ishiwaka como baterista, organizador y compositor cambiando el tamaño y la gramática del ensamble a su alrededor.",
+          "trip_verdict": "Si Tokio coincide con el 23–25 de octubre, sí le haría espacio activamente por lo menos a uno de los seis sets y pensaría en combinar formatos contrastantes, no en coleccionar toda la residencia. La noche de big band tiene el contexto más singular; los varios proyectos activos y los tres días dejan suficiente flexibilidad.",
+          "listen_before": "Answer to Remember — Answer to Remember II"
+        }
+      }
+    }
+  ]
+}
