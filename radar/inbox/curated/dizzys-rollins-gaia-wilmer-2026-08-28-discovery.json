@@ -1,0 +1,194 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dizzys-rollins-gaia-wilmer-2026-08-28-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-28 under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were re-read before searching or grading. Current ALFIE, BODY&SOUL, Yamamoto-schedule, Space M&A and Japanese-jazz searches did not produce a new unrecorded verified Tsuyoshi Yamamoto appearance. The broader US-corridor scan found two unrecorded Dizzy's Club candidates. Admission and priority were decided separately. Saxophone Colossus clears RADAR admission because the specific multigenerational four-saxophone lineup turns Sonny Rollins' improvisational legacy into an instrument-centered live conversation; it is A because the tribute is useful and compelling if New York is already in play, but it does not demand a dedicated regional trip. Gaia Wilmer Large Ensemble featuring Mônica Salmaso clears admission because the engagement is the live album-release realization of a new large-ensemble recomposition of Gilberto Gil's music, combining Brazilian rhythmic language, horn writing and Salmaso's voice; it is A+ because the new project and live setting merit actively making room within a New York trip. Three nights and six sets, plus the project's ongoing multi-volume nature, remove any scarcity-tier case. Batch distribution: A 1 / A+ 1 / S 0 / S+ 0, consistent with the repo's broad-base hierarchy without using distribution as a quota.",
+  "events": [
+    {
+      "id": "saxophone-colossus-sonny-rollins-dizzys-new-york-2026-09-10",
+      "artist": "Saxophone Colossus: Celebrating Sonny Rollins",
+      "subtitle": "Melissa Aldana / Jerry Weldon / Chris Lewis / Jacob Chung — music inspired by Sonny Rollins",
+      "dates": {
+        "start": "2026-09-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Multigenerational saxophone tribute / Sonny Rollins repertory",
+      "genres": [
+        "Jazz",
+        "Hard Bop",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Luther Allison — piano, musical director",
+        "Melissa Aldana — saxophone",
+        "Jerry Weldon — saxophone",
+        "Chris Lewis — saxophone",
+        "Jacob Chung — saxophone",
+        "Jared Beckstead-Craan — bass",
+        "Anwar Marshall — drums"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Saxophone Colossus: Celebrating Sonny Rollins at Dizzy's Club on Thursday, September 10, 2026, with sets at 7:00 PM and 9:00 PM. JALC describes the program as a multigenerational celebration of Rollins' improvisational legacy, with four announced saxophonists — Melissa Aldana, Jerry Weldon, Chris Lewis and Jacob Chung — under the musical direction of pianist Luther Allison, joined by Jared Beckstead-Craan on bass and Anwar Marshall on drums. The official event page states that the ensemble will perform music inspired by Rollins' contributions to jazz; no additional repertoire is inferred.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21580/",
+        "official_tickets": "https://ticketing.jazz.org/21580/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sonny Rollins",
+          "title": "Saxophone Colossus",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/saxophone-colossus/1440737584"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Dizzy's event, both set times, complete announced lineup, program framing, authorized ticketing destination and exact Apple Music album page are verified."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21580/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-28",
+          "note": "Official Dizzy's Club event/ticket page confirms September 10, 2026, 7:00 PM and 9:00 PM sets, the complete announced lineup and the multigenerational Sonny Rollins program framing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/saxophone-colossus/1440737584",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music album page for Sonny Rollins' Saxophone Colossus."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, set times, venue, complete announced personnel, program description and authorized purchase route were verified from Jazz at Lincoln Center. Apple Music verifies the listening destination. Repository search found no existing Saxophone Colossus / Sonny Rollins / Dizzy's September 10, 2026 RADAR record before publication. No unannounced repertoire, guests or scarcity claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to hear this is the saxophone conversation, not tribute prestige. Aldana, Weldon, Lewis and Chung bring different generations and different relationships to time, tone and melodic development into the same front line, with Allison directing a rhythm section built to leave room for improvisation. Rollins' language becomes a live point of departure rather than a museum object.",
+          "trip_verdict": "Worth catching if New York is already in play on September 10, especially if the trip can connect to other strong jazz dates that weekend. I would not build a dedicated DMV-to-NYC trip around this program alone.",
+          "listen_before": "Sonny Rollins — Saxophone Colossus"
+        },
+        "es": {
+          "why_it_matters": "La razón para escuchar esta noche está en la conversación entre saxofones, no en el prestigio del homenaje. Aldana, Weldon, Lewis y Chung ponen generaciones distintas y distintas maneras de trabajar tiempo, sonido y desarrollo melódico dentro de una misma línea frontal, con Allison dirigiendo una sección rítmica pensada para dejar espacio a la improvisación. El lenguaje de Rollins funciona como punto de partida vivo, no como pieza de museo.",
+          "trip_verdict": "Vale entrarle si Nueva York ya está en juego el 10 de septiembre, sobre todo si el viaje puede conectarse con otras fechas fuertes de jazz ese fin de semana. No armaría un viaje dedicado DMV–NYC únicamente alrededor de este programa.",
+          "listen_before": "Sonny Rollins — Saxophone Colossus"
+        }
+      }
+    },
+    {
+      "id": "gaia-wilmer-monica-salmaso-dizzys-new-york-2026-09-11",
+      "artist": "Gaia Wilmer Large Ensemble featuring Mônica Salmaso",
+      "subtitle": "Reflections on Gilberto Gil — album release celebration",
+      "dates": {
+        "start": "2026-09-11",
+        "end": "2026-09-13"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "17:00",
+        "19:30"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Brazilian large-ensemble jazz / Album release / Gilberto Gil reimagining",
+      "genres": [
+        "Brazilian Jazz",
+        "MPB",
+        "Large Ensemble Jazz",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Gaia Wilmer — arranger, composer, conductor",
+        "Mônica Salmaso — vocals"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Gaia Wilmer Large Ensemble featuring Mônica Salmaso: Reflections on Gilberto Gil at Dizzy's Club from Friday, September 11 through Sunday, September 13, 2026. Friday and Saturday have 7:00 PM and 9:00 PM sets; Sunday has 5:00 PM and 7:30 PM sets. JALC frames the engagement as an album release celebration honoring Gilberto Gil, with Wilmer reimagining Gil's songs through a large jazz ensemble, Brazilian rhythms, horn arrangements and Salmaso's vocals. The current JALC performance-lineup section names Wilmer as arranger/composer/conductor and Salmaso as vocalist but does not yet publish the individual supporting large-ensemble personnel, so no recording personnel are copied into the live lineup. Apple Music lists Parabólico: Reflections on Gilberto Gil (feat. Mônica Salmaso) by Gaia Wilmer and Gaia Wilmer Large Ensemble as a seven-track, 58-minute Sunnyside Records release dated August 14, 2026.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21295/",
+        "official_tickets": "https://ticketing.jazz.org/21295/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gaia Wilmer & Gaia Wilmer Large Ensemble",
+          "title": "Parabólico: Reflections on Gilberto Gil (feat. Mônica Salmaso)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/parab%C3%B3lico-reflections-on-gilberto-gil-feat-m%C3%B4nica/6790952090"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "supporting_large_ensemble_personnel"
+        ],
+        "note": "Exact Dizzy's engagement, all six set times, Wilmer and Salmaso billing, album-release framing, authorized ticketing destination and exact Apple Music album page are verified. JALC has not yet published the individual supporting large-ensemble live personnel, so recording credits were not substituted for the concert lineup."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21295/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-28",
+          "note": "Official Dizzy's Club event/ticket page confirms September 11-13, 2026, six sets across three nights, Gaia Wilmer and Mônica Salmaso as the currently published performance lineup, and the album-release / Gilberto Gil reimagining context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/parab%C3%B3lico-reflections-on-gilberto-gil-feat-m%C3%B4nica/6790952090",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music album page confirms Parabólico: Reflections on Gilberto Gil (feat. Mônica Salmaso), released August 14, 2026 by Gaia Wilmer and Gaia Wilmer Large Ensemble on Sunnyside Records."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, six set times, venue, principal billing, live-project description and authorized ticket route were verified from Jazz at Lincoln Center. Apple Music verifies the exact newly released album. Repository search found no existing Gaia Wilmer / Mônica Salmaso / Dizzy's September 11-13, 2026 RADAR record before publication. Supporting live ensemble personnel were intentionally left pending because JALC has not published them; no album personnel, additional guests or scarcity claims were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more than a Gilberto Gil songbook night. Wilmer has built a new large-ensemble language around the material, using Brazilian rhythmic cells, extended horn color and Salmaso's unusually precise phrasing to move the songs between MPB memory and contemporary jazz orchestration. Hearing the freshly released project opened up across a working big ensemble is exactly the kind of cultural translation that earns a place on RADAR.",
+          "trip_verdict": "Actively make room for one of the six sets if a New York trip overlaps September 11-13. It can anchor a strong evening in the city and pairs naturally with other jazz around the weekend, while three nights give enough flexibility that the trip does not need to revolve around a single scarce performance.",
+          "listen_before": "Gaia Wilmer & Gaia Wilmer Large Ensemble — Parabólico: Reflections on Gilberto Gil (feat. Mônica Salmaso)"
+        },
+        "es": {
+          "why_it_matters": "Esto es bastante más que una noche de canciones de Gilberto Gil. Wilmer construyó un lenguaje nuevo de gran ensamble alrededor del repertorio, usando células rítmicas brasileñas, color extendido de metales y el fraseo extraordinariamente preciso de Salmaso para mover las canciones entre la memoria de la MPB y la orquestación del jazz contemporáneo. Escuchar el proyecto recién publicado abierto sobre un ensamble grande en vivo es justo el tipo de traducción cultural que merece entrar al RADAR.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los seis sets si un viaje a Nueva York coincide con el 11–13 de septiembre. Puede anclar muy bien una noche en la ciudad y combinarse naturalmente con otras fechas de jazz del fin de semana, mientras las tres noches dan suficiente flexibilidad para que el viaje no dependa de una sola función escasa.",
+          "listen_before": "Gaia Wilmer & Gaia Wilmer Large Ensemble — Parabólico: Reflections on Gilberto Gil (feat. Mônica Salmaso)"
+        }
+      }
+    }
+  ]
+}
