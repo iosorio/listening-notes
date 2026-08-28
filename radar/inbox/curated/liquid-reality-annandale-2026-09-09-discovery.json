@@ -1,0 +1,117 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "liquid-reality-annandale-2026-09-09-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule searches, Space M&A and Japanese jazz sources produced no new verified unrecorded Yamamoto performance. The broader US-corridor pass found Liquid Reality at Northern Virginia Community College's Richard J. Ernst Community Cultural Center in Annandale on September 9, 2026. The event clears RADAR admission because the specific ensemble centers instrumental innovation and cross-cultural improvisation: Anupam Shobhakar's custom Kalima double-neck guitar, Swaminathan Selvaganesh's kanjeera, Satoshi Takeishi's percussion, piano and voice combine Indian classical rhythmic and melodic language with jazz and progressive fusion. Priority A+ is deliberate: the concept and lineup merit actively making room locally, while this is not a farewell, premiere, singular master appearance, or other scarcity case requiring S. The most recent curated sequence remains dominated by A/A+ with only an isolated S; this batch adds one A+ and no S/S+, using distribution only as a sanity check rather than a quota.",
+  "events": [
+    {
+      "id": "2026-09-09-annandale-liquid-reality-richard-j-ernst-community-cultural-center",
+      "artist": "Liquid Reality",
+      "subtitle": "AAPI Center & District of Raga Present Liquid Reality",
+      "dates": {
+        "start": "2026-09-09",
+        "end": null
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "richard-j-ernst-community-cultural-center-annandale",
+        "name": "Richard J. Ernst Community Cultural Center",
+        "city": "Annandale",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Indian classical / jazz-rock fusion ensemble",
+      "genres": [
+        "Indian classical",
+        "Jazz fusion",
+        "Progressive fusion"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Anupam Shobhakar — Kalima double-neck guitar",
+        "Swaminathan \"Swami\" Selvaganesh — kanjeera",
+        "Satoshi Takeishi — drums & percussion",
+        "Rohan Prabhudesai — piano",
+        "Anirudh Srinivasraghavan — vocals"
+      ],
+      "factual_description": "District of Raga and the authorized Viewcy registration page list Liquid Reality for Wednesday, September 9, 2026 at the Richard J. Ernst Community Cultural Center, 8333 Little River Turnpike, Annandale, Virginia, with doors at 5:30 PM and the concert from 6:00 to 7:30 PM. The event is free and open to the public with registration required. The presenters are the AAPI Intercultural Learning Center at Northern Virginia Community College and District of Raga. The verified ensemble is Anupam Shobhakar on Kalima double-neck guitar, Swaminathan \"Swami\" Selvaganesh on kanjeera, Satoshi Takeishi on drums and percussion, Rohan Prabhudesai on piano, and Anirudh Srinivasraghavan on vocals.",
+      "links": {
+        "official_event": "https://www.districtofraga.com/upcomingevents/aapi-center-district-of-raga-present-liquid-reality",
+        "official_tickets": "https://www.viewcy.com/event/district_of_raga__liquid_reality/checkout?event=f7ffa9a3-915a-4235-9cd5-2e5c23987bfa&ticketType=in-person"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Anupam Shobhakar",
+          "title": "Liquid Reality",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/liquid-reality/1780161058"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "District of Raga verifies the date, doors, concert window, free-registration requirement, complete ensemble and musical framing. The authorized Viewcy page independently verifies date, concert time, venue and street address. Northern Virginia Community College verifies the Richard J. Ernst Community Cultural Center identity and address. Anupam Shobhakar's official site verifies the custom double-neck guitar and Liquid Reality's Indian classical, progressive jazz-rock and cross-cultural concept. Apple Music verifies the exact recommended-listening album page. No additional repertoire, personnel, prices or venue-room assignment were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.districtofraga.com/upcomingevents/aapi-center-district-of-raga-present-liquid-reality",
+          "publisher": "District of Raga",
+          "checked_on": "2026-08-27",
+          "note": "Official presenter page confirms September 9, 2026, doors at 5:30 PM, concert from 6:00 to 7:30 PM, free registration, full ensemble and the Indian-classical/jazz/global fusion concept."
+        },
+        {
+          "url": "https://www.viewcy.com/event/district_of_raga__liquid_reality",
+          "publisher": "Viewcy",
+          "checked_on": "2026-08-27",
+          "note": "Authorized registration page confirms date, time, Richard J. Ernst Community Cultural Center, and 8333 Little River Turnpike, Annandale, Virginia."
+        },
+        {
+          "url": "https://calendar.nvcc.edu/ernst",
+          "publisher": "Northern Virginia Community College",
+          "checked_on": "2026-08-27",
+          "note": "Official NOVA place page verifies the Richard J. Ernst Community Cultural Center name and 8333 Little River Turnpike, Annandale, VA 22003 address."
+        },
+        {
+          "url": "https://www.shobhakar.com/",
+          "publisher": "Anupam Shobhakar",
+          "checked_on": "2026-08-27",
+          "note": "Artist's official site describes the custom double-neck guitar, the Liquid Reality project, and its Indian classical, Sufi, progressive jazz-rock and cross-cultural musical language."
+        },
+        {
+          "url": "https://music.apple.com/us/album/liquid-reality/1780161058",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-27",
+          "note": "Exact Apple Music page for Liquid Reality by Anupam Shobhakar, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Date, time, venue, free-registration requirement and lineup were verified against District of Raga and its authorized Viewcy registration flow. Venue identity/address were cross-checked against Northern Virginia Community College, and the project/instrumental framing against Anupam Shobhakar's official site. Repository searches for 'Liquid Reality', the proposed stable ID, and related artist/venue terms returned no canonical, curated or processed match before publication. Priority was assigned only after RADAR admission; A+ was retained because the unusual instrumental language and cross-cultural lineup merit active local prioritization, without invoking a scarcity tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is fusion at the level of musical mechanics, not just labeling. Anupam Shobhakar's fretted/fretless double-neck guitar was built to move between electric-guitar attack and Indian string vocabulary, while Swaminathan Selvaganesh's kanjeera puts South Indian rhythmic language at the center of the pulse. With Satoshi Takeishi on percussion, piano and voice around them, the ensemble has room to make Indian classical phrasing, jazz improvisation and progressive-fusion weight collide in real time.",
+          "trip_verdict": "Actively make room if the evening is open in Northern Virginia. It is a particularly strong local fit for the instrumental and fusion threads of RADAR, and the free registration makes it easy to build the night around without turning it into a travel project.",
+          "listen_before": "Anupam Shobhakar — Liquid Reality"
+        },
+        "es": {
+          "why_it_matters": "Aquí la fusión ocurre en la mecánica de la música, no sólo en la etiqueta. La guitarra doble de Anupam Shobhakar, con mástil trasteado y fretless, fue concebida para moverse entre el ataque de la guitarra eléctrica y vocabularios de cuerda de la India, mientras la kanjeera de Swaminathan Selvaganesh pone el lenguaje rítmico del sur de India en el centro del pulso. Con Satoshi Takeishi en percusión, más piano y voz, el ensamble tiene espacio para hacer chocar en tiempo real fraseo clásico indio, improvisación jazzística y peso de fusión progresiva.",
+          "trip_verdict": "Si la tarde está libre en Northern Virginia, le haría espacio activamente. Encaja especialmente bien con los hilos instrumentales y de fusión del RADAR, y el registro gratuito permite construir la noche alrededor del concierto sin convertirlo en un proyecto de viaje.",
+          "listen_before": "Anupam Shobhakar — Liquid Reality"
+        }
+      }
+    }
+  ]
+}
