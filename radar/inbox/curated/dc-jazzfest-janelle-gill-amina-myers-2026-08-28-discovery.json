@@ -1,0 +1,107 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dc-jazzfest-janelle-gill-amina-myers-2026-08-28-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule searches, Space M&A and credible Japanese jazz sources produced no new verified unrecorded Yamamoto performance. The broader US-corridor pass identified Janelle Gill with special guest Amina Claudine Myers at DC JazzFest. The event clears RADAR admission because it is the 2026 Artist-in-Residence program of a deeply rooted DMV pianist-composer, explicitly framed by DCJF around the cross-generational artistic lineage of Mary Lou Williams and Geri Allen, with NEA Jazz Master Myers as the special guest soloist. Priority A+ is deliberate: this is an unusually strong local cultural and musical connection worth actively making room for, while the verified facts do not establish a farewell, singular premiere, rare one-time master context, or other scarcity case requiring S. The recent/current RADAR shape remains centered on A and A+ with scarcity tiers uncommon; this batch adds one A+ and no S/S+, using distribution only as a sanity check rather than a quota.",
+  "events": [
+    {
+      "id": "janelle-gill-amina-claudine-myers-dc-jazzfest-2026-09-05",
+      "artist": "Janelle Gill",
+      "subtitle": "with Special Guest Amina Claudine Myers — DC JazzFest 2026 Artist-in-Residence program",
+      "dates": {
+        "start": "2026-09-05",
+        "end": null
+      },
+      "showtimes": [
+        "18:15"
+      ],
+      "venue": {
+        "id": "arena-stage-washington-dc",
+        "name": "Arena Stage",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Artist-in-residence lineage program / Intergenerational jazz",
+      "genres": [
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Janelle Gill — pianist / bandleader",
+        "Amina Claudine Myers — special guest soloist"
+      ],
+      "factual_description": "DC Jazz Festival lists Janelle Gill with special guest Amina Claudine Myers at Arena Stage, 651 Maine Ave SW, Washington, DC, on Saturday, September 5, 2026 at 6:15 PM. DCJF identifies Gill as a 2026 Artist-in-Residence and a DMV pianist-composer, and Myers as an NEA Jazz Master. The festival states that Myers will appear as special guest soloist in a program curated by Gill and inspired by the cross-generational artistic lineage of Mary Lou Williams and Geri Allen. The official pages checked do not publish additional backing personnel, so no supporting lineup is inferred.",
+      "links": {
+        "official_event": "https://www.dcjazzfest.org/event-details/arena-stage-2026",
+        "official_tickets": "https://www.dcjazzfest.org/event-details/arena-stage-2026"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Amina Claudine Myers",
+          "title": "Solace of the Mind",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/solace-of-the-mind/1800699487"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "DC Jazz Festival's official Arena Stage page verifies date, time, venue, billing and authorized ticket access. DCJF's 2026 lineup announcement verifies Gill's Artist-in-Residence context, Myers's NEA Jazz Master status, and the Mary Lou Williams / Geri Allen lineage framing. DCJF's Artist-in-Residence announcement verifies Gill's DMV pianist-composer identity. Apple Music verifies the exact recommended-listening album page. Supporting band personnel remain intentionally unpopulated because the official pages checked do not announce them."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "DC Jazz Festival — Arena Stage Concert Tickets & Upgrades",
+          "url": "https://www.dcjazzfest.org/event-details/arena-stage-2026",
+          "checked_on": "2026-08-28",
+          "note": "Official festival event/ticket page confirms Saturday, September 5, 2026 at 6:15 PM, Janelle Gill with special guest Amina Claudine Myers, and Arena Stage at 651 Maine Ave SW, Washington, DC."
+        },
+        {
+          "type": "official_program",
+          "name": "DC Jazz Festival — 2026 lineup additions announcement",
+          "url": "https://www.dcjazzfest.org/post/dc-jazzfest-announces-nate-smith-nea-jazz-masters-donald-harrison-and-amina-claudine-myers-and-exp",
+          "checked_on": "2026-08-28",
+          "note": "Official DCJF announcement identifies Myers as an NEA Jazz Master and special guest soloist in a program curated by 2026 Artist-in-Residence Janelle Gill, inspired by the cross-generational artistic lineage of Mary Lou Williams and Geri Allen."
+        },
+        {
+          "type": "official_program",
+          "name": "DC Jazz Festival — 2026 Artists-in-Residence announcement",
+          "url": "https://www.dcjazzfest.org/post/dc-jazz-festival-announces-2026-artists-in-residence",
+          "checked_on": "2026-08-28",
+          "note": "Official DCJF announcement identifies Janelle Gill as a 2026 Artist-in-Residence, DMV pianist, composer and educator with deep Washington-area roots."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/solace-of-the-mind/1800699487",
+          "checked_on": "2026-08-28",
+          "note": "Exact Apple Music page for Amina Claudine Myers's 2025 album Solace of the Mind, selected as a current listening reference for the special guest."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Verified against current DC Jazz Festival event, program and Artist-in-Residence pages, with Apple Music used only for the exact listening reference. Repository searches for Janelle Gill, Amina Claudine Myers, Arena Stage and the September 5 billing found no existing canonical, curated or processed match for this performance before publication. Priority was assigned only after RADAR admission; A+ was retained because the Artist-in-Residence culmination, explicit Mary Lou Williams / Geri Allen lineage and Myers collaboration merit active local prioritization without invoking a scarcity tier. No supporting musicians, repertoire, prices beyond what the event page exposes, or live instrument for Myers were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The strongest part of this booking is the lineage, not the festival marquee. Gill is using her DC JazzFest residency to put a distinctly Washington musical voice in conversation with Amina Claudine Myers, while the program explicitly traces a line through Mary Lou Williams and Geri Allen. That makes the set a living intergenerational exchange: a local pianist-composer shaping a program around two foundational women in modern jazz history and inviting a master whose own work joins piano, organ, voice, blues, gospel and the AACM tradition.",
+          "trip_verdict": "If Saturday at DC JazzFest is in play, build the early evening around the Arena Stage set. It is strong enough to shape the festival day from within the DMV, without turning a local performance into an artificial travel proposition.",
+          "listen_before": "Amina Claudine Myers — Solace of the Mind"
+        },
+        "es": {
+          "why_it_matters": "Lo más fuerte de esta fecha no es el cartel del festival sino el linaje. Gill está usando su residencia en DC JazzFest para poner una voz profundamente washingtoniana en conversación con Amina Claudine Myers, mientras el propio programa traza explícitamente una línea que pasa por Mary Lou Williams y Geri Allen. Eso vuelve el set un intercambio intergeneracional vivo: una pianista y compositora local construyendo una noche alrededor de dos mujeres fundamentales en la historia del jazz moderno e invitando a una maestra cuyo lenguaje cruza piano, órgano, voz, blues, gospel y la tradición de la AACM.",
+          "trip_verdict": "Si el sábado de DC JazzFest está en juego, armaría el inicio de la noche alrededor de este set en Arena Stage. Tiene suficiente peso para ordenar el día del festival desde dentro del DMV, sin convertir una fecha local en un proyecto de viaje artificial.",
+          "listen_before": "Amina Claudine Myers — Solace of the Mind"
+        }
+      }
+    }
+  ]
+}
