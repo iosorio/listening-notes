@@ -1,226 +1,157 @@
 {
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "pit-inn-fulldesign-holoubek-september-2026-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-29 under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, scripts/merge_inbox.py, and scripts/validate_events.py were consulted before final publication. Current Yamamoto/ALFIE/BODY&SOUL/Space M&A research produced no new verified unrecorded Tsuyoshi Yamamoto appearance with sufficient performance-specific context for RADAR admission. The broader Tokyo/Kanto pass found two newly published Shinjuku PIT INN engagements that clear Stage 1 for event-specific reasons. Admission and priority were decided separately. REVUE THE FULLDESIGN 2026 is A+ because the annual Full Design Records gathering has a specific ten-player free/improvised configuration; its annual recurrence makes A+ sufficient without manufacturing S-tier scarcity. Marty Holoubek 3 Days 6 Concerts 2026 is A+ because six deliberately contrasting programs map multiple currents in contemporary Tokyo music across one residency; the annual format and six opportunities make A+ sufficient. Batch distribution: A 0 / A+ 2 / S 0 / S+ 0.",
   "events": [
     {
       "id": "revue-the-fulldesign-2026-pit-inn-2026-09-13",
-      "dates": [
-        "2026-09-13"
-      ],
-      "showtimes": [
-        "19:30"
-      ],
-      "venue": {
-        "name": "PIT INN",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "Japan",
-        "venue_id": "venue:pit-inn-shinjuku",
-        "neighborhood": "Shinjuku"
+      "artist": "REVUE THE FULLDESIGN 2026",
+      "subtitle": "Full Design Records annual revue",
+      "dates": {
+        "start": "2026-09-13",
+        "end": null
       },
-      "geographic_domain": "Japan/Tokyo",
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
       "status": "considering",
       "priority": "A+",
-      "category": "Concert",
-      "genres": [
-        "Free jazz",
-        "Avant-garde jazz",
-        "Improvised music",
-        "Experimental"
+      "category": "Japanese free improvisation / annual label revue",
+      "genres": ["Free Jazz", "Avant-garde Jazz", "Improvised Music", "Experimental"],
+      "musical_axes": ["Japan/Tokyo", "Masters", "Improvised", "Instrumental identity", "Experimental/Metal", "Cultural context"],
+      "lineup": [
+        "Akira Sakata (坂田 明) — alto saxophone, clarinet, voice",
+        "Eiichi Hayashi (林 栄一) — alto saxophone",
+        "Junji Hirose (広瀬淳二) — tenor saxophone",
+        "Naoji Kondo (近藤直司) — baritone saxophone",
+        "Takayuki Kato (加藤崇之) — guitar",
+        "Keisuke Ohta (太田惠資) — violin",
+        "Hiromichi Sakamoto (坂本弘道) — cello",
+        "Masayasu Tzboguchi (坪口昌恭) — piano, synthesizer",
+        "Takeharu Hayakawa (早川岳晴) — bass",
+        "Masataka Fujikake (藤掛正隆) — drums"
       ],
-      "musical_axes": [
-        "Japan/Tokyo",
-        "Masters",
-        "Improvised",
-        "Instrumental identity",
-        "Experimental / Metal",
-        "Cultural context"
-      ],
-      "artists": [
-        "Akira Sakata",
-        "Eiichi Hayashi",
-        "Junji Hirose",
-        "Naoji Kondo",
-        "Takayuki Kato",
-        "Keisuke Ohta",
-        "Hiromichi Sakamoto",
-        "Masayasu Tzboguchi",
-        "Takeharu Hayakawa",
-        "Masataka Fujikake"
-      ],
-      "lineup": {
-        "billing": "REVUE THE FULLDESIGN 2026",
-        "details": "Akira Sakata (alto saxophone, clarinet, voice); Eiichi Hayashi (alto saxophone); Junji Hirose (tenor saxophone); Naoji Kondo (baritone saxophone); Takayuki Kato (guitar); Keisuke Ohta (violin); Hiromichi Sakamoto (cello); Masayasu Tzboguchi (piano, synthesizer); Takeharu Hayakawa (bass); Masataka Fujikake (drums)."
-      },
-      "factual_description": {
-        "en": "PIT INN presents the annual REVUE THE FULLDESIGN on September 13, 2026, bringing together ten artists associated with Full Design Records for a one-night label revue. Doors are at 19:00 and the performance starts at 19:30. PIT INN describes the revue as a once-a-year gathering built around a rare collaboration among artists who have released work on the label.",
-        "es": "PIT INN presenta el REVUE THE FULLDESIGN anual el 13 de septiembre de 2026, reuniendo a diez artistas asociados con Full Design Records en una revista del sello de una sola noche. Las puertas abren a las 19:00 y la función comienza a las 19:30. PIT INN describe la revista como un encuentro anual construido alrededor de una colaboración poco común entre artistas que han publicado obras en el sello."
-      },
+      "factual_description": "Shinjuku PIT INN presents REVUE THE FULLDESIGN 2026 on Sunday, September 13, 2026, with doors at 7:00 PM and a 7:30 PM start. The announced ten-player lineup is Akira Sakata, Eiichi Hayashi, Junji Hirose, Naoji Kondo, Takayuki Kato, Keisuke Ohta, Hiromichi Sakamoto, Masayasu Tzboguchi, Takeharu Hayakawa, and Masataka Fujikake. PIT INN describes the Full Design Records revue as a once-a-year gathering built around a rare collaboration among artists associated with the label. Published admission is ¥4,400 including one drink.",
       "links": {
         "official_event": "https://pit-inn.com/artist_live_info/260913fulldesign/",
-        "official_tickets": null,
-        "apple_music": null,
-        "youtube": null,
-        "media": [
-          "https://pit-inn.com/schedule/"
-        ]
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_tickets", "apple_music"],
+        "note": "Date, start time, venue, complete ten-player lineup, annual-revue framing, and face-value admission were verified from Shinjuku PIT INN. PIT INN handles reservations from its event pages, venue counter, and phone; no separate exact purchase destination was recorded. Apple Music was not inferred for a multi-artist label revue."
       },
       "sources": [
         {
-          "type": "primary",
           "url": "https://pit-inn.com/artist_live_info/260913fulldesign/",
+          "publisher": "Shinjuku PIT INN",
           "checked_on": "2026-08-29",
-          "notes": "PIT INN verifies the September 13 date, 19:00 doors, 19:30 start, complete ten-musician lineup, reservation method, and the annual/rare Full Design Records revue context."
+          "note": "Official individual event page verifies the September 13 date, 19:00 doors, 19:30 start, complete ten-musician lineup, admission details, and Full Design Records revue context."
+        },
+        {
+          "url": "https://pit-inn.com/schedule/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-29",
+          "note": "Official September schedule independently corroborates September 13, the 19:30 start, and the complete lineup."
         }
       ],
       "provenance": {
-        "discovered_via": "web",
-        "discovered_by": "RADAR automation",
-        "published_by": "RADAR automation",
-        "verification": "Primary PIT INN event and schedule pages checked before publication; canonical and inbox repository searches checked for duplicate billing/date."
+        "status": "verified-primary-sources",
+        "note": "Performance facts and context were verified directly from Shinjuku PIT INN. Repository code searches for the billing/date returned no matching canonical or inbox event before publication. Priority was assigned only after RADAR admission; annual recurrence was used to challenge, not inflate, the priority. No unannounced repertoire, guests, ticket URL, or scarcity claim was inferred."
       },
       "editorial": {
-        "why_it_matters": {
-          "en": "The lineup is the event: Sakata, Hayashi, Hirose and Kondo create a formidable reed front while guitar, violin, cello, piano/synth, bass and drums widen the music toward the rougher edge of Japan's free and improvised lineage. PIT INN explicitly frames this as the once-a-year Full Design Records gathering and a collaboration available only in this configuration, giving the night a concrete identity beyond a generic label showcase.",
-          "es": "El acontecimiento es la formación: Sakata, Hayashi, Hirose y Kondo forman un frente de alientos formidable, mientras guitarra, violín, violonchelo, piano/sintetizador, bajo y batería abren la música hacia el borde más áspero del linaje japonés de free jazz e improvisación. PIT INN presenta explícitamente la noche como el encuentro anual de Full Design Records y una colaboración que sólo existe en esta configuración, dándole una identidad concreta más allá de una simple muestra de sello."
+        "en": {
+          "why_it_matters": "The lineup is the event: Sakata, Hayashi, Hirose and Kondo create a formidable reed front while guitar, violin, cello, piano/synth, bass and drums widen the music toward the rougher edge of Japan's free and improvised lineage. PIT INN frames this as the annual Full Design Records gathering, giving this year's particular configuration a concrete identity beyond a generic label showcase.",
+          "trip_verdict": "If September 13 overlaps with Tokyo, actively make room and build the Shinjuku evening around PIT INN. The annual series means this is not a reason by itself to restructure a Japan trip, but this year's particular all-star configuration is worth prioritizing once in the city.",
+          "listen_before": null
         },
-        "trip_verdict": {
-          "en": "If September 13 overlaps with Tokyo, actively make room and build the Shinjuku evening around PIT INN. The annual series means this is not a reason by itself to restructure a Japan trip, but this year's particular all-star configuration is worth prioritizing once in the city.",
-          "es": "Si el 13 de septiembre coincide con una estancia en Tokio, le haría espacio activamente y construiría la noche de Shinjuku alrededor de PIT INN. Que la serie sea anual significa que por sí sola no justifica reestructurar un viaje a Japón, pero esta configuración particular de all-stars sí merece prioridad una vez en la ciudad."
-        },
-        "venue_note": {
-          "en": "PIT INN's Shinjuku room is a natural setting for this label revue: a close-range listening environment deeply tied to Japanese jazz and improvisation.",
-          "es": "La sala de PIT INN en Shinjuku es un entorno natural para esta revista del sello: un espacio de escucha cercana profundamente ligado al jazz y la improvisación japoneses."
+        "es": {
+          "why_it_matters": "El acontecimiento es la formación: Sakata, Hayashi, Hirose y Kondo forman un frente de alientos formidable, mientras guitarra, violín, violonchelo, piano/sintetizador, bajo y batería abren la música hacia el borde más áspero del linaje japonés de free jazz e improvisación. PIT INN presenta la noche como el encuentro anual de Full Design Records, dándole a esta configuración concreta una identidad que va más allá de una simple muestra de sello.",
+          "trip_verdict": "Si el 13 de septiembre coincide con una estancia en Tokio, le haría espacio activamente y construiría la noche de Shinjuku alrededor de PIT INN. Que la serie sea anual significa que por sí sola no justifica reestructurar un viaje a Japón, pero esta configuración particular de all-stars sí merece prioridad una vez en la ciudad.",
+          "listen_before": null
         }
-      },
-      "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets",
-          "apple_music"
-        ],
-        "notes": "PIT INN accepts reservations through the official event page, at the venue, and by phone; no separate exact ticket destination was recorded. Apple Music was not inferred for a multi-artist revue."
       }
     },
     {
       "id": "marty-holoubek-3-days-6-concerts-2026-pit-inn-2026-09-20",
-      "dates": [
-        "2026-09-20",
-        "2026-09-21",
-        "2026-09-22"
-      ],
-      "showtimes": [
-        "14:30",
-        "19:30"
-      ],
-      "venue": {
-        "name": "PIT INN",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "Japan",
-        "venue_id": "venue:pit-inn-shinjuku",
-        "neighborhood": "Shinjuku"
+      "artist": "Marty Holoubek",
+      "subtitle": "3 Days 6 Concerts 2026",
+      "dates": {
+        "start": "2026-09-20",
+        "end": "2026-09-22"
       },
-      "geographic_domain": "Japan/Tokyo",
+      "showtimes": ["14:30", "19:30"],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
       "status": "considering",
       "priority": "A+",
-      "category": "Concert",
-      "genres": [
-        "Jazz",
-        "Improvised music",
-        "Japanese folk",
-        "Experimental"
+      "category": "Tokyo contemporary-music residency / six-project showcase",
+      "genres": ["Jazz", "Improvised Music", "Japanese Folk", "Experimental"],
+      "musical_axes": ["Japan/Tokyo", "Improvised", "Instrumental identity", "Cross-genre", "Experimental/Metal", "Cultural context"],
+      "lineup": [
+        "Sep 20 daytime — Tokyo MinYo Club: Yutaka Oyama (小山 豊) — tsugaru shamisen, leader; Yukihiro Atsumi (渥美幸裕) — guitar, composition/arrangement; Hikari Shirafuji (白藤ひかり) — tsugaru shamisen, ohayashi; Kanami Takeda (武田佳泉) — tsugaru shamisen, ohayashi; Sayo Komada (駒田早代) — tsugaru shamisen, voice; Akihisa Kominato (小湊昭尚) — shakuhachi; Masaki Otawa (大多和正樹) — taiko; Maiko Isobe (磯部舞子) — violin; Sumire Kuribayashi (栗林すみれ) — piano; Kota Kaihori (海堀弘太) — keyboards, synthesizer; Shun Ishiwaka (石若 駿) — drums; Marty Holoubek — bass",
+        "Sep 20 evening — The Shadow of a Ghost: Laughter and Music: Junpei Ishihara (石原淳平) — guitar, PC; MEEBEE a.k.a. KAZUHIRO ABO — DJ; Koichi Wakui (和久井幸一) — synth-accordion; Sango Tsubaki (椿 三期) — drums; Satsuki Tsuchiya (槌谷颯晃) — guitar; Kurara Abe (阿部くらら) — projector; Marty Holoubek — bass",
+        "Sep 21 daytime — Marty Holoubek's Trio IV: Shota Watanabe (渡辺翔太) — piano, synthesizer; Shun Ishiwaka (石若 駿) — drums; Marty Holoubek — bass",
+        "Sep 21 evening — Marty Holoubek's Trio III: Eiko Ishibashi (石橋英子) — piano, flute, effects; Tatsuhisa Yamamoto (山本達久) — drums, electronics; Marty Holoubek — bass",
+        "Sep 22 daytime — Marty Holoubek's Trio V: May Inoue (井上 銘) — acoustic steel-string guitar; Gensuke Kanki (閑喜弦介) — acoustic gut-string guitar; Marty Holoubek — acoustic bass",
+        "Sep 22 evening — Marty Holoubek's Trio II: May Inoue (井上 銘) — guitar; Shun Ishiwaka (石若 駿) — drums; Marty Holoubek — bass"
       ],
-      "musical_axes": [
-        "Japan/Tokyo",
-        "Improvised",
-        "Instrumental identity",
-        "Cross-genre",
-        "Experimental / Metal",
-        "Cultural context"
-      ],
-      "artists": [
-        "Marty Holoubek",
-        "Yutaka Oyama",
-        "Yukihiro Atsumi",
-        "Hikari Shirafuji",
-        "Kanami Takeda",
-        "Sayo Komada",
-        "Akihisa Kominato",
-        "Masaki Otawa",
-        "Maiko Isobe",
-        "Sumire Kuribayashi",
-        "Kota Kaihori",
-        "Shun Ishiwaka",
-        "Junpei Ishihara",
-        "MEEBEE a.k.a. Kazuhiro Abo",
-        "Koichi Wakui",
-        "Sango Tsubaki",
-        "Satsuki Tsuchiya",
-        "Kurara Abe",
-        "Shota Watanabe",
-        "Eiko Ishibashi",
-        "Tatsuhisa Yamamoto",
-        "May Inoue",
-        "Gensuke Kanki"
-      ],
-      "lineup": {
-        "billing": "Marty Holoubek 3 Days 6 Concerts 2026",
-        "details": "Sep 20 daytime — Tokyo MinYo Club: Yutaka Oyama (tsugaru shamisen, supervise), Yukihiro Atsumi (guitar, composition/arrangement), Hikari Shirafuji (tsugaru shamisen, ohayashi), Kanami Takeda (tsugaru shamisen, ohayashi), Sayo Komada (tsugaru shamisen, uta), Akihisa Kominato (shakuhachi), Masaki Otawa (taiko), Maiko Isobe (violin), Sumire Kuribayashi (piano), Kota Kaihori (keys, synth), Shun Ishiwaka (drums), Marty Holoubek (bass). Sep 20 evening — The Shadow of a Ghost: Laughter and Music: Junpei Ishihara (guitar, PC), MEEBEE a.k.a. Kazuhiro Abo (DJ), Koichi Wakui (synth-accordion), Sango Tsubaki (drums), Satsuki Tsuchiya (guitar), Kurara Abe (projector), Marty Holoubek (bass). Sep 21 daytime — Marty Holoubek's Trio IV: Shota Watanabe (piano, synth), Shun Ishiwaka (drums), Marty Holoubek (bass). Sep 21 evening — Trio III: Eiko Ishibashi (piano, flute, effects), Tatsuhisa Yamamoto (drums, electronics), Marty Holoubek (bass). Sep 22 daytime — Trio V: May Inoue (acoustic steel-string guitar), Gensuke Kanki (acoustic gut-string guitar), Marty Holoubek (acoustic bass). Sep 22 evening — Trio II: May Inoue (guitar), Shun Ishiwaka (drums), Marty Holoubek (bass)."
-      },
-      "factual_description": {
-        "en": "Marty Holoubek returns to PIT INN for three days and six distinct concerts on September 20–22, 2026. Each date has a 14:30 daytime set and a 19:30 evening set. The six programs move from Tokyo MinYo Club and an electronic/visual ensemble to four contrasting trio configurations with Shun Ishiwaka, Eiko Ishibashi, Tatsuhisa Yamamoto, May Inoue and other Tokyo musicians. PIT INN describes the residency as an annual return featuring trios, new songs, experiments and folk music.",
-        "es": "Marty Holoubek vuelve a PIT INN para tres días y seis conciertos distintos del 20 al 22 de septiembre de 2026. Cada fecha tiene una función diurna a las 14:30 y una nocturna a las 19:30. Los seis programas pasan de Tokyo MinYo Club y un ensamble electrónico/visual a cuatro configuraciones de trío contrastantes con Shun Ishiwaka, Eiko Ishibashi, Tatsuhisa Yamamoto, May Inoue y otros músicos de Tokio. PIT INN describe la residencia como un regreso anual con tríos, música nueva, experimentos y música tradicional."
-      },
+      "factual_description": "Marty Holoubek returns to Shinjuku PIT INN for 3 Days 6 Concerts 2026 from September 20 through September 22. Each date has a 2:30 PM daytime performance and a 7:30 PM evening performance. The six programs move from Tokyo MinYo Club and an electronic/visual ensemble to four contrasting trio configurations featuring Shun Ishiwaka, Eiko Ishibashi, Tatsuhisa Yamamoto, May Inoue and other Tokyo musicians. PIT INN presents the residency as an annual return to Holoubek's Shinjuku home base, with trios, new music, experiments and folk music across the three days.",
       "links": {
         "official_event": "https://pit-inn.com/newarrivals/marty-holoubek-3-days/",
-        "official_tickets": null,
-        "apple_music": null,
-        "youtube": null,
-        "media": [
-          "https://pit-inn.com/schedule/",
-          "https://pit-inn.com/pickup-e/"
-        ]
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_tickets", "apple_music"],
+        "note": "Dates, all six session billings, complete personnel, start times, and the recurring residency concept were verified from Shinjuku PIT INN. Reservations are routed through six individual official event pages rather than one series purchase destination, so official_tickets remains null. Apple Music was not inferred for a multi-project residency."
       },
       "sources": [
         {
-          "type": "primary",
           "url": "https://pit-inn.com/newarrivals/marty-holoubek-3-days/",
+          "publisher": "Shinjuku PIT INN",
           "checked_on": "2026-08-29",
-          "notes": "PIT INN verifies the September 20–22 dates, all six session billings and complete personnel, daytime/evening start times, and the recurring residency concept."
+          "note": "Official pickup page verifies September 20–22, all six program billings and personnel, daytime/evening start times, admission structure, and the annual home-base residency framing."
         },
         {
-          "type": "primary",
           "url": "https://pit-inn.com/schedule/",
+          "publisher": "Shinjuku PIT INN",
           "checked_on": "2026-08-29",
-          "notes": "PIT INN's September schedule corroborates the individual dates, set times, and current program listings."
+          "note": "Official PIT INN schedule corroborates the September residency dates and current program listings."
         }
       ],
       "provenance": {
-        "discovered_via": "web",
-        "discovered_by": "RADAR automation",
-        "published_by": "RADAR automation",
-        "verification": "Primary PIT INN pickup and schedule pages checked before publication; canonical and inbox repository searches checked for duplicate billing/date."
+        "status": "verified-primary-sources",
+        "note": "Performance facts and residency framing were verified directly from Shinjuku PIT INN. Repository searches for the exact series billing and date range returned no matching canonical or inbox event before publication. Priority was assigned only after RADAR admission; the annual format and six-show availability were used to challenge, not inflate, the priority. No unannounced repertoire, guests, singular ticket URL, or scarcity claim was inferred."
       },
       "editorial": {
-        "why_it_matters": {
-          "en": "The six-show architecture is the reason to care. Holoubek uses the same Shinjuku room to jump from a large Tokyo MinYo Club built around shamisen, shakuhachi and taiko, to an electronic/visual ensemble, then to four sharply different small-group conversations. Ishiwaka, Ishibashi, Tatsuhisa Yamamoto and May Inoue make this a compact map of several currents in contemporary Tokyo music rather than a conventional bass-led residency.",
-          "es": "La arquitectura de seis conciertos es la razón para poner atención. Holoubek usa la misma sala de Shinjuku para pasar de un Tokyo MinYo Club amplio construido alrededor de shamisen, shakuhachi y taiko, a un ensamble electrónico/visual y luego a cuatro conversaciones de grupo pequeño muy distintas. Ishiwaka, Ishibashi, Tatsuhisa Yamamoto y May Inoue convierten la residencia en un mapa compacto de varias corrientes de la música contemporánea de Tokio, no en una residencia convencional liderada por un bajista."
+        "en": {
+          "why_it_matters": "The six-show architecture is the reason to care. Holoubek uses the same Shinjuku room to jump from a large Tokyo MinYo Club built around shamisen, shakuhachi and taiko, to an electronic/visual ensemble, then to four sharply different small-group conversations. Ishiwaka, Ishibashi, Tatsuhisa Yamamoto and May Inoue make this a compact map of several currents in contemporary Tokyo music rather than a conventional bass-led residency.",
+          "trip_verdict": "If September 20–22 overlaps with Tokyo, actively make room for at least one set and consider pairing two contrasting programs — for example Tokyo MinYo Club with one of the trios or the electronic evening. Six shows across three days create flexibility, so the value is in choosing the combinations that best fit the rest of a Tokyo itinerary rather than treating every set as mandatory.",
+          "listen_before": null
         },
-        "trip_verdict": {
-          "en": "If September 20–22 overlaps with Tokyo, actively make room for at least one set and consider pairing two contrasting programs — for example Tokyo MinYo Club with one of the trios or the electronic evening. Six shows across three days create flexibility, so the value is in choosing the combinations that best fit the rest of a Tokyo itinerary rather than treating every set as mandatory.",
-          "es": "Si del 20 al 22 de septiembre coincide con una estancia en Tokio, le haría espacio activamente por lo menos a una función y consideraría emparejar dos programas contrastantes —por ejemplo Tokyo MinYo Club con uno de los tríos o con la noche electrónica—. Seis conciertos en tres días dan flexibilidad, así que el valor está en escoger las combinaciones que mejor embonen con el resto del itinerario en Tokio, no en tratar cada set como obligatorio."
-        },
-        "venue_note": {
-          "en": "PIT INN functions here as more than a venue: Holoubek calls it the residency's home base, and the fixed room makes the changing ensemble architecture legible across three days.",
-          "es": "Aquí PIT INN funciona como algo más que una sala: Holoubek la llama la base de la residencia, y mantener el mismo espacio permite leer con claridad cómo cambia la arquitectura de los ensambles durante tres días."
+        "es": {
+          "why_it_matters": "La arquitectura de seis conciertos es la razón para poner atención. Holoubek usa la misma sala de Shinjuku para pasar de un Tokyo MinYo Club amplio construido alrededor de shamisen, shakuhachi y taiko, a un ensamble electrónico/visual y luego a cuatro conversaciones de grupo pequeño muy distintas. Ishiwaka, Ishibashi, Tatsuhisa Yamamoto y May Inoue convierten la residencia en un mapa compacto de varias corrientes de la música contemporánea de Tokio, no en una residencia convencional liderada por un bajista.",
+          "trip_verdict": "Si del 20 al 22 de septiembre coincide con una estancia en Tokio, le haría espacio activamente por lo menos a una función y consideraría emparejar dos programas contrastantes —por ejemplo Tokyo MinYo Club con uno de los tríos o con la noche electrónica—. Seis conciertos en tres días dan flexibilidad, así que el valor está en escoger las combinaciones que mejor embonen con el resto del itinerario en Tokio, no en tratar cada set como obligatorio.",
+          "listen_before": null
         }
-      },
-      "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets",
-          "apple_music"
-        ],
-        "notes": "PIT INN routes reservations through the six individual event pages, venue counter, and phone rather than a single series purchase URL. Apple Music was not inferred for a multi-project residency."
       }
     }
   ]
