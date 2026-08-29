@@ -1,0 +1,154 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tigran-senri-shag-clarice-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-29 after reading the current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Fresh checks of Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedule references, Space M&A, and credible Japanese-jazz sources produced no new verified unrecorded Yamamoto appearance that cleared Stage 1 admission; regular Space M&A dates without a performance-specific hook were not admitted. The broader pass admitted five events for event-specific reasons: Tigran Hamasyan's one-night Billboard Live Tokyo debut; Senri Kawaguchi's first-live-album release performance at the room named by that album; SHAG's Miles Davis centennial response at a venue documenting a direct Miles history; Conrad Tao and Caleb Teicher's piano/tap Counterpoint project in the DMV; and Yeison Landero's accordion-centered cumbia lineage in College Park. Priority was assigned only after admission. Tigran and SHAG were challenged against S: A+ still captures the recommendation because neither listing establishes a farewell, singular premiere, or nonrecurring lineup/context strong enough for protect-the-night treatment. Recent/current RADAR output was reviewed for scarcity inflation; no S or S+ is proposed. Batch distribution: A 3, A+ 2, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "tigran-hamasyan-billboard-live-tokyo-2026-10-18",
+      "artist": "Tigran Hamasyan",
+      "subtitle": null,
+      "dates": {"start": "2026-10-18", "end": null},
+      "showtimes": ["16:00", "19:00"],
+      "venue": {"id": "billboard-live-tokyo-roppongi", "name": "Billboard Live Tokyo", "city": "Minato, Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz / Armenian folk / progressive fusion",
+      "genres": ["Jazz", "Contemporary jazz", "Progressive rock", "Armenian folk"],
+      "musical_axes": ["Japan/Tokyo", "Instrumental identity", "Fusion / Prog", "Improvised", "Cross-genre", "Cultural context"],
+      "lineup": ["Tigran Hamasyan — piano", "Additional personnel — TBA"],
+      "factual_description": "Billboard Live Tokyo presents Tigran Hamasyan on Sunday, October 18, 2026, for two stages starting at 4:00 PM and 7:00 PM. The venue describes the engagement as Hamasyan's one-night-only Billboard Live Tokyo stage debut and identifies him on piano; additional personnel are still TBA. The official description frames his music as a fusion of jazz, progressive rock, and Armenian traditional music.",
+      "links": {"official_event": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21488", "official_tickets": "https://eplus.jp/sf/detail/2643910002-P0030002P021002?P6=001"},
+      "recommended_listening": [{"artist": "Tigran Hamasyan", "title": "Manifeste", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/manifeste/1841668692"}],
+      "enrichment": {"status": "partial", "missing": ["personnel"], "note": "The exact Billboard Live Tokyo event page verifies date, both stage times, venue, Hamasyan on piano, one-night-only venue debut framing, and that additional members remain TBD. eplus independently verifies the authorized ticket route. Apple Music verifies the exact Manifeste album page. No unannounced personnel or repertoire were inferred."},
+      "sources": [
+        {"type": "official_event", "name": "Billboard Live Tokyo", "url": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21488", "checked_on": "2026-08-29", "note": "Exact official event page confirms October 18, 2026; 16:00 and 19:00 starts; Billboard Live Tokyo; Tigran Hamasyan on piano; additional members TBA; and one-night-only venue-debut framing."},
+        {"type": "authorized_ticketing", "name": "eplus — Tigran Hamasyan", "url": "https://eplus.jp/sf/detail/2643910002-P0030002P021002?P6=001", "checked_on": "2026-08-29", "note": "Authorized eplus listing verifies the October 18 Billboard Live Tokyo engagement and ticket route."},
+        {"type": "streaming", "name": "Apple Music — Manifeste", "url": "https://music.apple.com/us/album/manifeste/1841668692", "checked_on": "2026-08-29", "note": "Exact Apple Music album page for Manifeste, selected as listening preparation."}
+      ],
+      "provenance": {"status": "verified-primary-and-authoritative-sources", "note": "Date, times, venue, instrument, debut framing, and personnel-TBA status were verified directly with Billboard Live Tokyo and cross-checked through authorized eplus ticketing. Repository searches for the artist and proposed stable event ID returned no matching candidate before publication. Priority was assigned after admission; A+ reflects an engagement worth actively making room for in Tokyo without manufacturing scarcity from an active touring artist whose additional personnel and repertoire are not yet announced."},
+      "editorial": {
+        "en": {"why_it_matters": "Hamasyan's piano language makes Armenian modal and rhythmic material collide with contemporary jazz and progressive-rock force without treating any of those vocabularies as decoration. The concrete live hook is his one-night Billboard Live Tokyo debut: two club-scale chances to hear that architecture centered on the piano.", "trip_verdict": "Actively make room if October 18 falls inside a Tokyo stay. The two-stage format gives some flexibility, so build the Roppongi evening around the set that best fits the rest of the itinerary rather than treating the date as a separate Japan mission.", "listen_before": "Tigran Hamasyan — Manifeste"},
+        "es": {"why_it_matters": "El lenguaje pianístico de Hamasyan hace chocar material modal y rítmico armenio con jazz contemporáneo y la fuerza del prog sin usar ninguno de esos vocabularios como simple adorno. El gancho en vivo es concreto: su debut de una sola noche en Billboard Live Tokyo, con dos oportunidades de club para escuchar esa arquitectura centrada en el piano.", "trip_verdict": "Le haría espacio activamente si el 18 de octubre cae dentro de una estancia en Tokio. Los dos sets dan margen para acomodarlo: armaría la noche de Roppongi alrededor del horario que mejor embone con el resto del itinerario, sin convertir esta fecha por sí sola en una misión separada a Japón.", "listen_before": "Tigran Hamasyan — Manifeste"}
+      }
+    },
+    {
+      "id": "senri-kawaguchi-e-magination-blues-alley-japan-2026-09-08",
+      "artist": "Senri Kawaguchi",
+      "subtitle": "E-Magination -Live at Blues Alley Japan- Release Live",
+      "dates": {"start": "2026-09-08", "end": null},
+      "showtimes": ["19:00"],
+      "venue": {"id": "blues-alley-japan-meguro", "name": "BLUES ALLEY JAPAN", "city": "Meguro, Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese fusion / drum-led quartet",
+      "genres": ["Jazz", "Fusion", "Instrumental"],
+      "musical_axes": ["Japan/Tokyo", "Instrumental identity", "Fusion / Prog", "Groove", "Cultural context"],
+      "lineup": ["Senri Kawaguchi — drums", "Yuya Komoguchi — guitar", "Yoshiki Takahashi — bass", "Jun Tomoda — keyboards"],
+      "factual_description": "BLUES ALLEY JAPAN presents Senri Kawaguchi on Tuesday, September 8, 2026, with doors at 6:00 PM and a 7:00 PM start for a two-set release performance. The official venue lists Kawaguchi with Yuya Komoguchi, Yoshiki Takahashi, and Jun Tomoda. King Records identifies E-Magination - Live at Blues Alley Japan - as Kawaguchi's first live album, released August 26, 2026, and her first solo-name release in five years and eight months; nine of its ten tracks are originals, with Kozo Suganuma's 'Winds' as the sole cover.",
+      "links": {"official_event": "https://bluesalley.co.jp/schedule/syousai.html?c_code=Schedule-20260611011213&disp_date=202609&status=ok&type=s", "official_tickets": "https://www.ticketpay.jp/booking/?event_id=62821"},
+      "recommended_listening": [],
+      "enrichment": {"status": "partial", "missing": ["apple_music"], "note": "The exact BLUES ALLEY JAPAN event page verifies the date, start time, venue, and quartet. TicketPay is linked by the venue and verifies the same event, currently showing its online allocation sold out; the venue advises calling because seats may still be available. King Records verifies the album-release context. No Apple Music ID was added without exact verification."},
+      "sources": [
+        {"type": "official_event", "name": "BLUES ALLEY JAPAN", "url": "https://bluesalley.co.jp/schedule/syousai.html?c_code=Schedule-20260611011213&disp_date=202609&status=ok&type=s", "checked_on": "2026-08-29", "note": "Exact venue page confirms September 8, 2026; 19:00 start; two-set format; BLUES ALLEY JAPAN; and the quartet of Kawaguchi, Komoguchi, Takahashi, and Tomoda."},
+        {"type": "authorized_ticketing", "name": "TicketPay — Senri Kawaguchi", "url": "https://www.ticketpay.jp/booking/?event_id=62821", "checked_on": "2026-08-29", "note": "Venue-linked TicketPay page verifies the event, venue, start time, quartet, and current online sold-out status."},
+        {"type": "label", "name": "King Records Today", "url": "https://news.kingrecords.co.jp/2026/07/56652/", "checked_on": "2026-08-29", "note": "King Records verifies the August 26 release date, first-live-album status, first solo-name release in five years and eight months, and album-program context."}
+      ],
+      "provenance": {"status": "verified-primary-and-authoritative-sources", "note": "Core event facts were verified against the exact venue page and authorized ticketing, with album context verified through King Records. Repository searches for Kawaguchi and the proposed stable ID returned no matching event before publication. Priority was assigned after admission; A reflects a strong drum-led release context that is worth tracking if convenient, while the wider release tour and repeatable working-band context do not require stronger behavioral priority."},
+      "editorial": {
+        "en": {"why_it_matters": "This is more than a drummer's club date: Kawaguchi returns to BLUES ALLEY JAPAN to launch her first live album, with a quartet built around the same high-resolution fusion language the record documents. The album also carries a direct thread to her late teacher Kozo Suganuma through 'Winds,' making the release context part of the musical story rather than marketing furniture.", "trip_verdict": "Attend if it fits a Tokyo evening and legitimate access is available. The venue's online allocation is currently exhausted but it notes that seats may still be available by phone, so treat this as an opportunity to pursue locally rather than a reason to reorganize a larger trip.", "listen_before": "Senri Kawaguchi — E-Magination - Live at Blues Alley Japan -"},
+        "es": {"why_it_matters": "Esto es más que una fecha de club de una baterista: Kawaguchi vuelve a BLUES ALLEY JAPAN para presentar su primer disco en vivo con un cuarteto construido alrededor del mismo lenguaje de fusión de altísima precisión que documenta el álbum. El disco además mantiene un hilo directo con su fallecido maestro Kozo Suganuma mediante 'Winds', de modo que el contexto del lanzamiento forma parte de la historia musical.", "trip_verdict": "Iría si embona en una noche de Tokio y aparece una vía legítima de acceso. La asignación online del venue está agotada, aunque la sala indica que puede haber lugares consultando por teléfono; lo trataría como una oportunidad local a perseguir, no como motivo para reordenar un viaje mayor.", "listen_before": "Senri Kawaguchi — E-Magination - Live at Blues Alley Japan -"}
+      }
+    },
+    {
+      "id": "shag-miles-davis-blues-alley-japan-2026-09-28",
+      "artist": "SHAG",
+      "subtitle": "A Tribute to Miles Davis",
+      "dates": {"start": "2026-09-28", "end": null},
+      "showtimes": ["17:00", "20:00"],
+      "venue": {"id": "blues-alley-japan-meguro", "name": "BLUES ALLEY JAPAN", "city": "Meguro, Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Psychedelic jam / Miles Davis centennial tribute",
+      "genres": ["Jazz", "Rock", "Dub", "Funk", "Ambient", "Psychedelic"],
+      "musical_axes": ["Japan/Tokyo", "Fusion / Prog", "Experimental / Metal", "Groove", "Instrumental identity", "Cross-genre", "Cultural context"],
+      "lineup": ["SUGIZO — guitar / violin", "KenKen — bass", "Shinpei Ruike — trumpet", "Kazuhiro Bessho — keyboards", "Yukino Matsuura — drums", "Kenji Yoshiura — percussion"],
+      "factual_description": "BLUES ALLEY JAPAN presents SHAG: A Tribute to Miles Davis on Monday, September 28, 2026, with separate 5:00 PM and 8:00 PM performances. The venue lists SUGIZO, KenKen, Shinpei Ruike, Kazuhiro Bessho, Yukino Matsuura, and Kenji Yoshiura. Its official description frames the night around the centennial of Miles Davis's birth and states that Davis himself performed at the venue's opening; it describes SHAG's current sound as a fusion of jazz, rock, dub, funk, and ambient music.",
+      "links": {"official_event": "https://bluesalley.co.jp/schedule/syousai.html?c_code=Schedule-20260401222025&disp_date=202609&status=ok&type=s", "official_tickets": "https://eplus.jp/sf/detail/4541510001-P0030001"},
+      "recommended_listening": [],
+      "enrichment": {"status": "partial", "missing": ["apple_music"], "note": "The exact BLUES ALLEY JAPAN page verifies date, both set times, venue, lineup, Miles-centennial framing, and the venue's documented Miles history. The venue links to eplus, which independently verifies both performances, lineup, and authorized purchase route. No Apple Music recommendation was added without exact verification."},
+      "sources": [
+        {"type": "official_event", "name": "BLUES ALLEY JAPAN", "url": "https://bluesalley.co.jp/schedule/syousai.html?c_code=Schedule-20260401222025&disp_date=202609&status=ok&type=s", "checked_on": "2026-08-29", "note": "Exact venue page confirms September 28, 2026; 17:00 and 20:00 performances; full lineup; Miles Davis centennial framing; and the venue's statement that Davis performed at its opening."},
+        {"type": "authorized_ticketing", "name": "eplus — SHAG: A Tribute to Miles Davis", "url": "https://eplus.jp/sf/detail/4541510001-P0030001", "checked_on": "2026-08-29", "note": "Venue-linked eplus page independently verifies both showtimes, lineup, and current authorized ticket route."}
+      ],
+      "provenance": {"status": "verified-primary-and-authoritative-sources", "note": "Core facts and historical framing were taken from the exact venue page and cross-checked through venue-linked eplus ticketing. Repository searches for SHAG/Miles and the proposed stable ID returned no match before publication. Priority was assigned only after admission. The centennial-plus-venue-history context was explicitly challenged against S, but A+ remains sufficient: the listing documents a special tribute rather than a farewell, singular premiere, or one-time reunion, and the active ensemble has two performances that day."},
+      "editorial": {
+        "en": {"why_it_matters": "The reason to track this is not another Miles tribute but the angle of attack: SHAG answers the centennial through a psychedelic jam language of guitar/violin, bass, trumpet, keys, drums, and percussion, in a room whose own history is tied directly to Miles. The venue explicitly positions the set as a response to his restless experimental spirit rather than an attempt to reproduce a canonical record.", "trip_verdict": "Actively make room if September 28 falls inside a Tokyo stay. With two separate sets, choose the one that best anchors the Meguro evening; the historical venue connection makes the date worth prioritizing, but not a standalone reason to reroute a Japan itinerary.", "listen_before": "Miles Davis — electric-period recordings; SHAG — current live material"},
+        "es": {"why_it_matters": "La razón para seguirla no es otro tributo a Miles sino el ángulo de ataque: SHAG responde al centenario desde un lenguaje de jam psicodélico con guitarra/violín, bajo, trompeta, teclados, batería y percusión, en una sala cuya propia historia está ligada directamente a Miles. El venue plantea explícitamente el set como respuesta a su impulso experimental, no como intento de reproducir un disco canónico.", "trip_verdict": "Le haría espacio activamente si el 28 de septiembre cae dentro de una estancia en Tokio. Con dos funciones separadas, escogería la que mejor ancle la noche de Meguro; la conexión histórica del venue vuelve la fecha prioritaria, pero no la convertiría por sí sola en motivo para desviar un itinerario por Japón.", "listen_before": "Miles Davis — etapa eléctrica; SHAG — material en vivo actual"}
+      }
+    },
+    {
+      "id": "conrad-tao-caleb-teicher-rhapsody-blue-clarice-2026-10-04",
+      "artist": "Conrad Tao & Caleb Teicher",
+      "subtitle": "Counterpoint: Rhapsody in Blue",
+      "dates": {"start": "2026-10-04", "end": null},
+      "showtimes": ["15:00"],
+      "venue": {"id": "clarice-dekelboum-concert-hall", "name": "Dekelboum Concert Hall at The Clarice", "city": "College Park", "state": "MD", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Washington, DC / DMV",
+      "status": "considering",
+      "priority": "A",
+      "category": "Piano / tap dance / cross-disciplinary performance",
+      "genres": ["Classical", "Contemporary", "Jazz", "Dance"],
+      "musical_axes": ["Instrumental identity", "Cross-genre", "Groove", "Cultural context"],
+      "lineup": ["Conrad Tao — piano", "Caleb Teicher — tap dance / percussion"],
+      "factual_description": "The Clarice presents Conrad Tao and Caleb Teicher's Counterpoint: Rhapsody in Blue on Sunday, October 4, 2026, at 3:00 PM in Dekelboum Concert Hall. The venue describes the project as part dance, part piano recital, and part theater, linking piano and tap through repertoire and references that include Gershwin's Rhapsody in Blue, Bach, Art Tatum, Schoenberg, original music by Tao, and Teicher's More Forever.",
+      "links": {"official_event": "https://theclarice.umd.edu/events/counterpoint-rhapsody-blue-ft-conrad-tao-caleb-teicher"},
+      "recommended_listening": [],
+      "enrichment": {"status": "partial", "missing": ["official_tickets", "apple_music"], "note": "The exact Clarice event page verifies date, time, room, performers, and project/repertoire framing. The page offers ticketing through the venue, but an exact purchase-destination URL was not independently resolved in this pass, so no ticket link was invented. No Apple Music ID was added without exact verification."},
+      "sources": [
+        {"type": "official_event", "name": "The Clarice Smith Performing Arts Center", "url": "https://theclarice.umd.edu/events/counterpoint-rhapsody-blue-ft-conrad-tao-caleb-teicher", "checked_on": "2026-08-29", "note": "Exact official event page confirms October 4, 2026 at 15:00; Dekelboum Concert Hall; Conrad Tao and Caleb Teicher; and the piano/tap Counterpoint program framing."},
+        {"type": "artist_schedule", "name": "Caleb Teicher — Upcoming", "url": "https://www.calebteicher.net/upcoming", "checked_on": "2026-08-29", "note": "Artist schedule independently lists Counterpoint with Conrad Tao at The Clarice on October 4, 2026."}
+      ],
+      "provenance": {"status": "verified-primary-and-authoritative-sources", "note": "Event facts were verified through The Clarice and cross-checked on Caleb Teicher's artist schedule. Repository searches for Conrad Tao and the proposed stable ID returned no matching event before publication. Priority was assigned after admission; A reflects a distinctive live-only piano/percussion dialogue in the DMV that is worth attending if convenient, while the project has multiple tour dates and is not scarce enough for higher treatment."},
+      "editorial": {
+        "en": {"why_it_matters": "The instrument here is really the collision itself: Tao's piano and Teicher's feet turn rhythm into a two-body conversation, moving from Gershwin and Bach toward stride, contemporary composition, and theater. Counterpoint belongs in RADAR because its musical logic depends on being seen and heard live, not because Rhapsody in Blue is famous repertoire.", "trip_verdict": "Attend if the Sunday afternoon is convenient in the DMV. College Park makes this an easy local experiment, and the 3 PM start leaves the evening open; there is no need to displace a rarer regional date for a project that continues touring.", "listen_before": "Conrad Tao & Caleb Teicher — Counterpoint / Tiny Desk material"},
+        "es": {"why_it_matters": "Aquí el instrumento real es la colisión: el piano de Tao y los pies de Teicher convierten el ritmo en una conversación de dos cuerpos que pasa de Gershwin y Bach al stride, la composición contemporánea y el teatro. Counterpoint entra al RADAR porque su lógica musical depende de verse y escucharse en vivo, no porque Rhapsody in Blue sea repertorio famoso.", "trip_verdict": "Iría si la tarde del domingo resulta conveniente dentro del DMV. College Park vuelve esto un experimento local fácil y el horario de las 3 PM deja libre la noche; no desplazaría por él una fecha regional más rara de un proyecto que sigue girando.", "listen_before": "Conrad Tao & Caleb Teicher — Counterpoint / material de Tiny Desk"}
+      }
+    },
+    {
+      "id": "yeison-landero-clarice-college-park-2026-10-23",
+      "artist": "Yeison Landero",
+      "subtitle": null,
+      "dates": {"start": "2026-10-23", "end": null},
+      "showtimes": ["20:00"],
+      "venue": {"id": "clarice-kay-theatre", "name": "Kay Theatre at The Clarice", "city": "College Park", "state": "MD", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Washington, DC / DMV",
+      "status": "considering",
+      "priority": "A",
+      "category": "Cumbia / Colombian accordion tradition",
+      "genres": ["Cumbia", "Colombian folk", "Latin"],
+      "musical_axes": ["Latin", "Groove", "Instrumental identity", "Cultural context"],
+      "lineup": ["Yeison Landero — accordion / bandleader", "Additional ensemble personnel — not listed by venue"],
+      "factual_description": "The Clarice presents Colombian cumbianero Yeison Landero on Friday, October 23, 2026, at 8:00 PM in Kay Theatre. The venue identifies him as the grandson of Andrés Landero and centers the event on cumbia and accordion tradition from Colombia's Caribbean region. The official page does not publish the supporting ensemble personnel.",
+      "links": {"official_event": "https://theclarice.umd.edu/events/yeison-landero"},
+      "recommended_listening": [],
+      "enrichment": {"status": "partial", "missing": ["official_tickets", "apple_music", "personnel"], "note": "The exact Clarice page verifies date, time, room, artist, and accordion/cumbia lineage. An exact purchase-destination URL and supporting personnel were not independently resolved from the official page, and no Apple Music ID was added without exact verification."},
+      "sources": [
+        {"type": "official_event", "name": "The Clarice Smith Performing Arts Center", "url": "https://theclarice.umd.edu/events/yeison-landero", "checked_on": "2026-08-29", "note": "Exact official event page confirms October 23, 2026 at 20:00; Kay Theatre; and the cumbia/accordion lineage connecting Yeison Landero to his grandfather Andrés Landero."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Date, time, room, artist, and cultural/instrumental context were verified through The Clarice. Repository search for the proposed stable ID returned no match before publication. Priority was assigned after admission; A reflects a culturally grounded, accordion-centered local performance worth attending if convenient, without treating lineage or genre importance alone as a reason for stronger ranking."},
+      "editorial": {
+        "en": {"why_it_matters": "Landero carries cumbia through a literal instrumental lineage: accordion vocabulary learned inside the family of Andrés Landero, one of the tradition's defining figures, then carried forward as a living dance language rather than a museum reconstruction. The concrete RADAR hook is hearing that ancestral accordion-and-rhythm system in a close DMV theater.", "trip_verdict": "Attend if Friday night is open. College Park is close enough to treat this as a local groove-and-tradition night rather than a travel decision, and it adds a Latin thread the RADAR should not reduce to jazz-adjacent programming.", "listen_before": "Yeison Landero — current cumbia repertoire"},
+        "es": {"why_it_matters": "Landero carga la cumbia mediante un linaje instrumental literal: vocabulario de acordeón aprendido dentro de la familia de Andrés Landero, una de las figuras definitorias de la tradición, y llevado hacia adelante como lenguaje vivo de baile, no como reconstrucción de museo. El gancho concreto para RADAR es escuchar ese sistema ancestral de acordeón y ritmo en un teatro íntimo del DMV.", "trip_verdict": "Iría si el viernes está libre. College Park queda suficientemente cerca para tratarlo como una noche local de groove y tradición, no como decisión de viaje, y suma un hilo latino que el RADAR no debería reducir a programación adyacente al jazz.", "listen_before": "Yeison Landero — repertorio actual de cumbia"}
+      }
+    }
+  ]
+}
