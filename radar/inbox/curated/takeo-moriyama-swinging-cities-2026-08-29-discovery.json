@@ -1,0 +1,166 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "takeo-moriyama-swinging-cities-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-29 under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and the current merge contract were consulted before grading or publication. Fresh checks of Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources did not produce a new verified unrecorded Yamamoto performance with enough event-specific context to clear RADAR admission; recurring Space M&A trio dates were not admitted merely because Yamamoto is present. Two broader discoveries clear Stage 1 for performance-specific reasons. Takeo Moriyama 2DAYS is A+ because the current twin-sax/vibraphone/bass quintet gives a living master of Japanese jazz a strong present-tense instrumental identity in PIT INN; two nights and Moriyama's continuing activity make A+ sufficient without manufacturing scarcity. Marsalis' Swinging Cities is A because the three-suite city/cultural-exchange program gives the concert a specific editorial argument during Marsalis's final season as JALC Artistic Director, while two performances and a season full of Marsalis-led programs make it useful to know rather than a night that should dominate travel. Proposed shape A 1 / A+ 1 / S 0 / S+ 0 is consistent with the current/recent RADAR pattern of an A/A+ base and rare scarcity tiers.",
+  "events": [
+    {
+      "id": "takeo-moriyama-2days-shinjuku-pit-inn-tokyo-2026-09-11",
+      "artist": "Takeo Moriyama",
+      "subtitle": "2DAYS",
+      "dates": {
+        "start": "2026-09-11",
+        "end": "2026-09-12"
+      },
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese jazz master / drum-led quintet",
+      "genres": ["Jazz", "Modern Jazz", "Improvised Music"],
+      "musical_axes": ["Japan/Tokyo", "Masters", "Instrumental identity", "Improvised", "Acoustic Jazz", "Cultural context"],
+      "lineup": [
+        "Takeo Moriyama (森山威男) — drums",
+        "Tetsuro Kawashima (川嶋哲郎) — tenor saxophone",
+        "Takumi Nakayama (中山拓海) — alto saxophone",
+        "Reiko Yamamoto (山本玲子) — vibraphone",
+        "Takashi Sugawa (須川崇志) — bass"
+      ],
+      "factual_description": "Shinjuku PIT INN presents Takeo Moriyama 2DAYS on Friday, September 11 and Saturday, September 12, 2026. Doors are at 7:00 PM and both performances begin at 7:30 PM. The announced quintet is Takeo Moriyama on drums, Tetsuro Kawashima on tenor saxophone, Takumi Nakayama on alto saxophone, Reiko Yamamoto on vibraphone, and Takashi Sugawa on bass. PIT INN publishes admission at ¥5,500 including one drink and states that advance reservations are available at the venue counter, by phone, or through each performance's reservation form.",
+      "links": {
+        "official_event": "https://pit-inn.com/newarrivals/takeo-moriyama-2days/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_tickets", "apple_music"],
+        "note": "Dates, doors, start time, complete five-player lineup, face-value admission, and official reservation routes were verified directly from Shinjuku PIT INN. The pickup page routes reservations through separate date-specific forms rather than one stable purchase destination, so official_tickets remains null. No Apple Music ID was inferred."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/newarrivals/takeo-moriyama-2days/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-29",
+          "note": "Primary pickup page verifies September 11-12, 19:00 doors, 19:30 starts, the complete quintet, ¥5,500 admission including one drink, and the venue's reservation methods."
+        },
+        {
+          "url": "https://pit-inn.com/schedule/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-29",
+          "note": "Primary September schedule independently corroborates both dates, the start time, price, and complete lineup."
+        },
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/takeo-moriyama/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-29",
+          "note": "Authoritative current artist profile documents Moriyama's place in the Yosuke Yamashita Trio lineage and his continuing activity as a leading Japanese jazz drummer."
+        },
+        {
+          "url": "https://bbemusic.bandcamp.com/album/east-plants",
+          "publisher": "BBE Music",
+          "checked_on": "2026-08-29",
+          "note": "Authorized label page for East Plants documents Moriyama's rhythm-led, open-arrangement quintet language and the album's standing within the J Jazz canon; used only as background context, not as a claim about the September repertoire."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Performance facts were verified directly from Shinjuku PIT INN. Repository searches for Takeo Moriyama, 森山威男, and the stable event ID returned no matching canonical, curated, or processed event before publication. Priority was assigned only after RADAR admission. Two nights and Moriyama's continuing performance activity were used to challenge escalation beyond A+; no farewell, premiere, special repertoire, or one-off claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The current quintet is the reason, not Moriyama's history alone: twin saxophones and vibraphone sit over Sugawa's bass and Moriyama's drums, giving one of the defining drummers of Japan's post-1960s jazz lineage a colorful present-tense small-group sound at PIT INN. The instrumentation also echoes the reed-and-rhythm openness long associated with Moriyama without pretending this is a retrospective program.",
+          "trip_verdict": "If September 11-12 overlaps with Tokyo, actively make room for one night and let Shinjuku anchor the evening. Two performances provide flexibility, so this belongs as a strong Tokyo priority rather than a reason by itself to restructure the wider Japan trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón es el quinteto actual, no sólo la historia de Moriyama: dos saxofones y vibráfono se apoyan sobre el bajo de Sugawa y la batería de Moriyama, dándole a uno de los bateristas definitorios del jazz japonés posterior a los sesenta un sonido de grupo pequeño, vivo y actual, en PIT INN. La instrumentación además conversa con la apertura de alientos y ritmo asociada desde hace décadas con Moriyama sin fingir que se trata de un programa retrospectivo.",
+          "trip_verdict": "Si el 11 o 12 de septiembre coincide con una estancia en Tokio, le haría espacio activamente a una noche y dejaría que Shinjuku ancle la velada. Tener dos funciones da flexibilidad, así que funciona como una prioridad fuerte dentro de Tokio y no como motivo único para reestructurar todo el viaje a Japón.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "jlco-wynton-marsalis-swinging-cities-new-york-2026-11-06",
+      "artist": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+      "subtitle": "Marsalis’ Swinging Cities",
+      "dates": {
+        "start": "2026-11-06",
+        "end": "2026-11-07"
+      },
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york-ny",
+        "name": "Rose Theater, Frederick P. Rose Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A",
+      "category": "City-suite retrospective / cultural-exchange orchestral jazz",
+      "genres": ["Jazz", "Big Band", "Orchestral Jazz"],
+      "musical_axes": ["Masters", "Instrumental identity", "Acoustic Jazz", "Cultural context"],
+      "lineup": [
+        "Jazz at Lincoln Center Orchestra",
+        "Wynton Marsalis — trumpet / composer / leader"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Marsalis’ Swinging Cities at Rose Theater on Friday, November 6 and Saturday, November 7, 2026, at 7:30 PM, with a 6:30 PM pre-concert lecture each night. The Jazz at Lincoln Center Orchestra with Wynton Marsalis performs music from Vitoria Suite, Shanghai Suite, and Marciac Suite in a program JALC describes as reflecting cultures, experiences, places, and relationships accumulated across Marsalis's decades of touring. The engagement falls in Marsalis's 2026-27 final season as Artistic Director of Jazz at Lincoln Center.",
+      "links": {
+        "official_event": "https://jazz.org/concert/marsalis-swinging-cities-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+        "official_tickets": "https://ticketing.jazz.org/20624/20625"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music", "individual_jlco_personnel"],
+        "note": "The exact dates, 19:30 performances, Rose Theater, pre-concert lecture, three-suite program, billed JLCO/Marsalis ensemble, and official ticket destination are verified. The current event page does not enumerate individual orchestra personnel, so none are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/marsalis-swinging-cities-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-29",
+          "note": "Primary event page verifies November 6-7, 19:30 starts, Rose Theater, the Vitoria/Shanghai/Marciac suite framework, the 18:30 pre-concert lecture, and official purchase links."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20624/20625",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-29",
+          "note": "Authorized ticketing page verifies the November 6-7 engagement and 19:30 performance time."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-29",
+          "note": "Official season announcement corroborates the Swinging Cities dates, venue, three-suite repertoire concept, and its place within the 2026-27 Marsalis-focused season."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Performance facts and program framing were verified directly from Jazz at Lincoln Center and its authorized ticketing portal. Repository searches for the exact billing and stable event ID returned no matching canonical, curated, or processed event before publication. Priority was assigned only after RADAR admission. The two-night run and density of Marsalis-led programs in the final Artistic Director season support A rather than an inflated scarcity narrative. No unannounced guests, individual orchestra personnel, or repertoire beyond the three stated suites was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the repertoire arc, not Marsalis's stature alone: Vitoria Suite, Shanghai Suite and Marciac Suite turn three places and decades of touring relationships into one orchestral argument about how jazz absorbs and answers local culture. In his final season as JALC Artistic Director, that makes the program a focused institutional self-portrait rather than another prestige orchestra date.",
+          "trip_verdict": "If New York already makes sense that weekend, catch one of the two nights and pair Rose Theater with another reason to be in the city. The program is worth knowing and attending when convenient, but two performances and a full Marsalis-centered season mean it does not need to dictate a corridor trip on its own.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El gancho es el arco de repertorio, no sólo el peso del nombre de Marsalis: Vitoria Suite, Shanghai Suite y Marciac Suite convierten tres lugares y décadas de relaciones construidas en gira en un argumento orquestal sobre cómo el jazz absorbe y responde a la cultura local. En su última temporada como director artístico de JALC, el programa funciona como un autorretrato institucional concentrado y no como otra fecha de prestigio de una gran orquesta.",
+          "trip_verdict": "Si Nueva York ya hace sentido ese fin de semana, escogería una de las dos noches y combinaría Rose Theater con otra razón para estar en la ciudad. Vale la pena conocerla y aprovecharla si embona, pero dos funciones y una temporada entera centrada en Marsalis hacen que no deba dictar por sí sola un viaje por el corredor.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
