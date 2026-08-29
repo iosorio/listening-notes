@@ -1,0 +1,224 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yamamoto-satoh-interpretations-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-29 under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. The newly verified Plaza Afternoon Jazz Vol.21 FINAL clears Stage 1 because the roughly five-year Kawasaki series is explicitly ending and the finale is built as two specially expanded groups led by Masahiko Satoh and Tsuyoshi Yamamoto. A broader New York discovery, Interpretations at Roulette, also clears Stage 1 on the specific double-bill instrumentation and long-running contemporary-composer/interpreter context. Priority was assigned only after admission. Recent 2026-08-29 curated intake reviewed before finalizing remains shaped primarily by A and A+; this batch adds A 1 / A+ 0 / S 1 / S+ 0. The Yamamoto/Satoh finale received an explicit scarcity challenge: A+ would understate the genuine-regret case for the final performance of a five-year series in a one-day special bill, while S+ would overstate it because neither Yamamoto nor Satoh is retiring or presenting a final career appearance. The S review was performed by the RADAR automation itself and is identified accordingly.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-masahiko-satoh-kawasaki-shimin-plaza-2026-10-03",
+      "artist": "Masahiko Satoh Trio featuring Keisuke Ohta / Tsuyoshi Yamamoto Trio",
+      "subtitle": "Plaza Afternoon Jazz Vol.21 FINAL",
+      "dates": {
+        "start": "2026-10-03",
+        "end": null
+      },
+      "showtimes": [
+        "14:00"
+      ],
+      "venue": {
+        "id": "kawasaki-shimin-plaza-kawasaki-jp",
+        "name": "Kawasaki Shimin Plaza — Furusato Theater",
+        "city": "Kawasaki",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo/Kanto",
+      "status": "considering",
+      "priority": "S",
+      "category": "Japanese living masters / long-running series finale / special dual-band program",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz",
+        "Improvised Music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Acoustic Jazz",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Masahiko Satoh — piano (Part 1)",
+        "Hideaki Kanazawa — bass (Part 1)",
+        "Shun Ishiwaka — drums (Part 1)",
+        "Keisuke Ohta — violin, featured guest (Part 1)",
+        "Tsuyoshi Yamamoto — piano (Part 2)",
+        "Hiroshi Kagawa — bass (Part 2)",
+        "Toshio Osumi — drums (Part 2)",
+        "Takuya Osumi — alto saxophone, special addition (Part 2)"
+      ],
+      "factual_description": "Kawasaki Shimin Plaza presents Plaza Afternoon Jazz Vol.21 FINAL on Saturday, October 3, 2026, in the Furusato Theater. Doors are at 13:30 and the performance begins at 14:00. The venue describes it as the final performance of the Plaza Afternoon Jazz series after roughly five years. Part 1 is the Masahiko Satoh Trio with Hideaki Kanazawa and Shun Ishiwaka, featuring violinist Keisuke Ohta. Part 2 is the Tsuyoshi Yamamoto Trio with Hiroshi Kagawa and Toshio Osumi, expanded by alto saxophonist Takuya Osumi. The venue lists advance general admission at JPY 5,000, day-of-show general admission at JPY 5,500, U25 student tickets at JPY 2,000 advance / JPY 2,500 day-of-show, and a JPY 9,000 pair ticket. All seating is unreserved.",
+      "links": {
+        "official_event": "https://www.kawasaki-shiminplaza.jp/event/detail?id=15726",
+        "official_tickets": "https://t.pia.jp/pia/event/event.do?eventCd=2621171"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 2000,
+          "maximum": 5500,
+          "source_url": "https://t.pia.jp/pia/event/event.do?eventCd=2621171",
+          "checked_on": "2026-08-29"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Kawasaki Shimin Plaza's exact event page verifies the date, 13:30 doors, 14:00 start, final-series framing, two-part structure, complete announced personnel, ticket tiers, and the authorized Ticket Pia destination. No Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.kawasaki-shiminplaza.jp/event/detail?id=15726",
+          "publisher": "Kawasaki Shimin Plaza",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies October 3, 2026; 13:30 doors / 14:00 start; Furusato Theater; the finale after roughly five years; Part 1 Masahiko Satoh Trio featuring Keisuke Ohta; Part 2 Tsuyoshi Yamamoto Trio plus Takuya Osumi; all announced personnel; ticket tiers; and the Ticket Pia purchase route."
+        },
+        {
+          "url": "https://t.pia.jp/pia/event/event.do?eventCd=2621171",
+          "publisher": "Ticket Pia",
+          "checked_on": "2026-08-29",
+          "note": "Authorized purchase destination identified by Kawasaki Shimin Plaza for event code 2621171."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core performance facts were verified from Kawasaki Shimin Plaza's exact event page. Repository searches for the title, the Yamamoto/Satoh pairing, the date, and a corresponding stable event ID returned no matching canonical, curated, or processed record before publication. Priority was assigned only after RADAR admission and then challenged under the S scarcity gate."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason is not simply two famous pianists on one bill. A roughly five-year Kawasaki series is ending, and its final program is built as two deliberately expanded working groups: Masahiko Satoh's trio gains Keisuke Ohta's violin, then Tsuyoshi Yamamoto's trio gains Takuya Osumi on alto saxophone. With Shun Ishiwaka in Satoh's rhythm section and veteran swing voices around Yamamoto, the afternoon becomes a compact cross-generational map of Japanese jazz rather than a routine double bill.",
+          "trip_verdict": "If October 3 overlaps Tokyo or Kanto, protect the afternoon and build the day around Kawasaki. Because it is a 14:00 matinee, it can still leave the evening open in Tokyo; the finality of the series is what makes this worth locking in.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón no es simplemente juntar a dos pianistas famosos. Una serie de Kawasaki de aproximadamente cinco años llega a su final y lo hace con dos grupos de trabajo ampliados de manera deliberada: el trío de Masahiko Satoh suma el violín de Keisuke Ohta y después el trío de Tsuyoshi Yamamoto incorpora el alto de Takuya Osumi. Con Shun Ishiwaka dentro de la sección rítmica de Satoh y voces veteranas del swing alrededor de Yamamoto, la tarde funciona como un mapa compacto y generacional del jazz japonés, no como un doble cartel rutinario.",
+          "trip_verdict": "Si el 3 de octubre coincide con Tokio o Kanto, protegería la tarde y armaría el día alrededor de Kawasaki. Al ser una función de las 14:00 todavía deja libre la noche en Tokio; el cierre definitivo de la serie es lo que hace que valga la pena fijarla.",
+          "listen_before": null
+        }
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-29",
+        "rationale": "Concrete scarcity: Kawasaki Shimin Plaza explicitly identifies this as the final performance of the Plaza Afternoon Jazz series after roughly five years, and the finale is built as a one-day two-part special program pairing Masahiko Satoh's trio plus Keisuke Ohta with Tsuyoshi Yamamoto's trio plus Takuya Osumi. The second editorial challenge asked whether A+ would still capture the recommendation; for a listener already in Tokyo/Kanto, it would understate the genuine regret of missing the final installment of a series that cannot recur as an ongoing series after this date. S+ was rejected because the source does not present this as a farewell, retirement, or final career appearance by Yamamoto, Satoh, or the other musicians; the singularity belongs to the series finale, not to the end of an artist's performing life."
+      }
+    },
+    {
+      "id": "interpretations-hemingway-andonovska-howard-roulette-brooklyn-2026-12-03",
+      "artist": "Interpretations: Gerry Hemingway, Lina Andonovska, and Earl Howard // Kyle Motl, Eli Wallace, and Nick Neuburg",
+      "subtitle": "Interpretations 37th season double bill",
+      "dates": {
+        "start": "2026-12-03",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A",
+      "category": "Avant jazz / contemporary composition / improvised double bill",
+      "genres": [
+        "Avant Jazz",
+        "Jazz",
+        "New Music",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Experimental / Metal",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Gerry Hemingway — percussion",
+        "Lina Andonovska — flutes",
+        "Earl Howard — saxophone, synthesizer",
+        "Special guest — TBA",
+        "Kyle Motl — double bass",
+        "Eli Wallace — piano",
+        "Nick Neuburg — drums, percussion"
+      ],
+      "factual_description": "Roulette and Interpretations present a two-ensemble bill on Thursday, December 3, 2026. Doors are at 19:00 and the performance begins at 20:00. The first ensemble is Gerry Hemingway on percussion, Lina Andonovska on flutes, Earl Howard on saxophone and synthesizer, plus a special guest to be announced. The second is Kyle Motl on double bass, Eli Wallace on piano, and Nick Neuburg on drums and percussion. The event continues the 37th season of the Interpretations series, which focuses on relationships between contemporary composers and interpreters. Roulette lists $20 general admission in advance or at the door and $15 student/senior admission with ID. A free livestream is scheduled for 20:00 and is to be archived.",
+      "links": {
+        "official_event": "https://roulette.org/event/hemingway-andonovska-howard-motl-wallace-neuburg/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1282823"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 15,
+          "maximum": 20,
+          "source_url": "https://ci.ovationtix.com/36368/production/1282823",
+          "checked_on": "2026-08-29"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "special_guest",
+          "apple_music"
+        ],
+        "note": "Roulette's exact event page verifies the date, doors/start, all currently announced personnel, 37th-season Interpretations framing, face-value admission, free livestream/archive, and authorized AudienceView/OvationTix ticket destination. The special guest remains unannounced and no Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/hemingway-andonovska-howard-motl-wallace-neuburg/",
+          "publisher": "Roulette",
+          "checked_on": "2026-08-29",
+          "note": "Primary event page verifies December 3, 2026; 19:00 doors / 20:00 performance; the two ensembles and current personnel; Interpretations' 37th-season context; $20 general and $15 student/senior admission; free livestream/archive; and the authorized ticket link."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1282823",
+          "publisher": "AudienceView Professional / OvationTix",
+          "checked_on": "2026-08-29",
+          "note": "Authorized purchase destination linked directly from Roulette's event page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Performance facts were verified from Roulette's exact event page and authorized ticket destination. Repository searches for Gerry Hemingway, the full bill, the date, and the stable event ID returned no matching canonical, curated, or processed event before publication. Priority was assigned only after RADAR admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The double-bill architecture gives this a real live premise. Hemingway, Andonovska and Howard put percussion, flute, saxophone and electronics into a chamber-improvisation space; Motl, Wallace and Neuburg answer with an acoustic bass-piano-percussion trio. Inside Interpretations' long-running composer/interpreter framework, the contrast is less about genre labels than about how two small ensembles organize sound, attack and spontaneity.",
+          "trip_verdict": "If New York is already in play on December 3, attend if convenient and let Roulette be the experimental stop in the evening. I would combine it with another New York reason rather than make a corridor trip solely for this bill.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La arquitectura del doble cartel le da una premisa en vivo muy concreta. Hemingway, Andonovska y Howard ponen percusión, flauta, saxofón y electrónica dentro de un espacio de improvisación de cámara; Motl, Wallace y Neuburg responden con un trío acústico de contrabajo, piano y percusión. Dentro del marco de compositores e intérpretes que Interpretations lleva décadas construyendo, el contraste importa menos por las etiquetas de género que por la manera en que dos grupos pequeños organizan sonido, ataque y espontaneidad.",
+          "trip_verdict": "Si Nueva York ya está en juego el 3 de diciembre, iría si acomoda y dejaría que Roulette sea la parada experimental de la noche. Lo combinaría con otra razón para estar en la ciudad en vez de hacer el viaje por el corredor únicamente por este cartel.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
