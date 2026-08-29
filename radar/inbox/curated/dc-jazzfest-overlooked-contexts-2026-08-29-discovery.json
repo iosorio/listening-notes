@@ -1,0 +1,149 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dc-jazzfest-overlooked-contexts-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research and grading. Fresh searches of ALFIE, BODY&SOUL, Yamamoto schedules, KEYSTONE CLUB TOKYO and Japanese jazz sources produced no new verified Yamamoto appearance absent from the repository. The broader pass found five previously unrecorded DC JazzFest performances with event-specific editorial reasons. Stage 1 admitted them for repertoire, lineage, ensemble revival, centennial context or cross-genre instrumental identity rather than fame or festival prestige. Stage 2 yields A 2 / A+ 3 / S 0 / S+ 0. Recent/current RADAR material remains centered on A and A+ with scarcity tiers uncommon; this batch adds no scarcity tier. Exact Wharf set times/stages were not available from the accessible official pages in this pass, so no per-act time is inferred for those three events.",
+  "events": [
+    {
+      "id": "isaiah-collier-plays-coltrane-dc-jazzfest-2026-09-05",
+      "artist": "Isaiah Collier",
+      "subtitle": "Collier Plays Coltrane — John Coltrane centennial program",
+      "dates": {"start": "2026-09-05", "end": null},
+      "showtimes": [],
+      "venue": {"id": "the-wharf-washington-dc", "name": "The Wharf", "city": "Washington, DC", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A",
+      "category": "Centennial repertoire / emerging instrumental voice / tenor-sax lineage",
+      "genres": ["Jazz", "Modern jazz"],
+      "musical_axes": ["Instrumental identity", "Improvised", "Cultural context", "Acoustic Jazz"],
+      "lineup": ["Isaiah Collier — tenor saxophone / bandleader"],
+      "factual_description": "DC Jazz Festival lists Isaiah Collier's 'Collier Plays Coltrane' on Saturday, September 5, 2026 at The Wharf in Washington, DC. The festival explicitly frames the appearance as homage to John Coltrane during the centennial month of Coltrane's birth. The accessible official pages checked in this pass do not publish Collier's exact Wharf set time, stage or supporting personnel, so those details are not inferred.",
+      "links": {"official_event": "https://www.dcjazzfest.org/lineup-2026", "official_tickets": "https://www.dcjazzfest.org/event-details/dcjazzfest26"},
+      "recommended_listening": [],
+      "enrichment": {"status": "pending", "missing": ["apple_music"], "note": "DC Jazz Festival verifies the date, billing, centennial framing and Wharf festival location; its Wharf event page is the exact authorized festival-ticket destination. Exact per-act time/stage, supporting personnel and an Apple Music destination are not populated without verification."},
+      "sources": [
+        {"type": "official_program", "name": "DC Jazz Festival — 2026 Lineup", "url": "https://www.dcjazzfest.org/lineup-2026", "checked_on": "2026-08-29", "note": "Primary festival lineup verifies Isaiah Collier, Collier Plays Coltrane, Saturday September 5 and the John Coltrane centennial framing."},
+        {"type": "official_event", "name": "DC Jazz Festival — DC JazzFest at The Wharf", "url": "https://www.dcjazzfest.org/event-details/dcjazzfest26", "checked_on": "2026-08-29", "note": "Primary festival event page verifies September 5-6 at The Wharf, 1001 7th Street SW, Washington, DC, and provides official pass access."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Verified from current DC Jazz Festival pages. Repository-wide search for Isaiah Collier returned no existing RADAR record before publication. Admission rests on Collier engaging Coltrane's tenor language in Coltrane's centennial month; priority was assigned only after admission. No exact Wharf set time, stage or supporting musicians were inferred."},
+      "editorial": {
+        "en": {"why_it_matters": "The reason is the live argument Collier is choosing to make with the tenor tradition. A young Chicago saxophonist with his own increasingly forceful language is not simply playing a festival set; he is placing that language directly against Coltrane in the month of Coltrane's centennial. The value is hearing where homage ends and Collier's own improvisational identity takes over.", "trip_verdict": "If Saturday at The Wharf is already in play, make this one of the sets to catch and let the rest of the festival day remain flexible. It is a meaningful local centennial program, but it does not need to reorganize the entire day by itself.", "listen_before": null},
+        "es": {"why_it_matters": "La razón está en el argumento en vivo que Collier decide sostener con la tradición del tenor. Un saxofonista joven de Chicago con un lenguaje propio cada vez más contundente no llega simplemente a tocar un set de festival: pone ese lenguaje directamente frente a Coltrane en el mes de su centenario. El interés está en escuchar dónde termina el homenaje y empieza a mandar la identidad improvisatoria de Collier.", "trip_verdict": "Si el sábado en The Wharf ya está en juego, incluiría este set entre las paradas del día y dejaría flexible el resto del festival. Es un programa centenario local con sustancia, pero por sí solo no necesita reorganizar toda la jornada.", "listen_before": null}
+      }
+    },
+    {
+      "id": "michele-rosewoman-quintessence-dc-jazzfest-2026-09-06",
+      "artist": "Michele Rosewoman & Quintessence",
+      "subtitle": "Revived Quintessence ensemble — premiere of new repertoire",
+      "dates": {"start": "2026-09-06", "end": null},
+      "showtimes": ["16:00"],
+      "venue": {"id": "arena-stage-washington-dc", "name": "Arena Stage", "city": "Washington, DC", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Ensemble revival / new-repertoire premiere / modern jazz",
+      "genres": ["Jazz", "Modern jazz", "Afro-Cuban jazz", "Avant-garde jazz"],
+      "musical_axes": ["Masters", "Improvised", "Instrumental identity", "Latin", "Cultural context"],
+      "lineup": ["Michele Rosewoman — piano / composer / bandleader", "Greg Osby — announced returning Quintessence member", "Tyshawn Sorey — announced returning Quintessence member"],
+      "factual_description": "DC Jazz Festival lists Michele Rosewoman & Quintessence at Arena Stage on Sunday, September 6, 2026 at 4:00 PM. The festival says Quintessence began in 1986, is being revived in renewed form in 2026, reunites veteran members including Greg Osby and Tyshawn Sorey with newer voices, and will premiere an all-new repertoire of recent compositions. The full personnel beyond the specifically named returning members are not published on the official pages checked, so no additional lineup is inferred.",
+      "links": {"official_event": "https://www.dcjazzfest.org/lineup-2026", "official_tickets": "https://www.dcjazzfest.org/event-details/arena-stage-2026"},
+      "recommended_listening": [],
+      "enrichment": {"status": "pending", "missing": ["apple_music"], "note": "DC Jazz Festival verifies the 4:00 PM Arena Stage slot, revival framing, named returning members and premiere of new repertoire; the Arena Stage page is the authorized ticket destination. Full personnel and an exact Apple Music destination remain unpopulated without verification."},
+      "sources": [
+        {"type": "official_program", "name": "DC Jazz Festival — 2026 Lineup", "url": "https://www.dcjazzfest.org/lineup-2026", "checked_on": "2026-08-29", "note": "Primary festival page documents Quintessence's 1986 origins, 2026 revival, Greg Osby and Tyshawn Sorey among returning members, and the premiere of all-new recent compositions."},
+        {"type": "official_event", "name": "DC Jazz Festival — Arena Stage Concert Tickets & Upgrades", "url": "https://www.dcjazzfest.org/event-details/arena-stage-2026", "checked_on": "2026-08-29", "note": "Primary event/ticket page verifies Sunday September 6 at 4:00 PM at Arena Stage."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Verified from current DC Jazz Festival pages. Repository search for Quintessence returned no existing RADAR match before publication; a separate Michele Rosewoman Newark event already in the repository was recognized as a different project/date/venue and not treated as a duplicate. Admission rests on the revived ensemble plus newly premiered repertoire; no scarcity tier is claimed because the project is explicitly being renewed and plans further recording activity."},
+      "editorial": {
+        "en": {"why_it_matters": "This is not a generic Rosewoman festival appearance. Quintessence is a compositional vehicle with a history reaching back to 1986, and the 2026 version deliberately reconnects veterans such as Greg Osby and Tyshawn Sorey with newer voices while introducing an entirely new body of music. The set matters because an established ensemble language is being reopened rather than merely commemorated.", "trip_verdict": "Actively make room for the 4:00 PM Arena Stage set if Sunday at DC JazzFest is available; it is strong enough to organize the middle of the festival day from within the DMV. Arena Stage access should be planned in advance rather than treated as a casual walk-up.", "listen_before": null},
+        "es": {"why_it_matters": "No es una aparición genérica de Rosewoman en un festival. Quintessence es un vehículo compositivo con historia desde 1986, y la versión de 2026 vuelve a conectar a veteranos como Greg Osby y Tyshawn Sorey con voces más nuevas mientras estrena un cuerpo completo de música reciente. El set importa porque se vuelve a abrir un lenguaje de ensamble establecido, en vez de limitarse a conmemorarlo.", "trip_verdict": "Le haría espacio activamente al set de las 4:00 PM en Arena Stage si el domingo de DC JazzFest está disponible; tiene suficiente peso para ordenar la parte media del día desde dentro del DMV. Conviene planear con anticipación el acceso a Arena Stage en vez de tratarlo como una entrada improvisada.", "listen_before": null}
+      }
+    },
+    {
+      "id": "danilo-perez-trio-panamonk-dc-jazzfest-2026-09-06",
+      "artist": "Danilo Pérez Trio",
+      "subtitle": "PanaMonk featuring Ben Street & Adam Cruz",
+      "dates": {"start": "2026-09-06", "end": null},
+      "showtimes": ["18:30"],
+      "venue": {"id": "arena-stage-washington-dc", "name": "Arena Stage", "city": "Washington, DC", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Panamanian-Monk repertoire / piano trio / 30-year recorded-work context",
+      "genres": ["Jazz", "Latin jazz", "Modern jazz"],
+      "musical_axes": ["Masters", "Latin", "Improvised", "Instrumental identity", "Cultural context"],
+      "lineup": ["Danilo Pérez — piano", "Ben Street — bass", "Adam Cruz — drums"],
+      "factual_description": "DC Jazz Festival lists Danilo Pérez Trio: PanaMonk featuring Ben Street and Adam Cruz at Arena Stage on Sunday, September 6, 2026 at 6:30 PM; the individual performance is marked sold out on the official Arena Stage page. Pérez's official biography states that he recorded Panamonk in 1996 for Impulse as a tribute to Thelonious Monk, placing this 2026 performance three decades after that recording. The festival does not label the set as a formal 30th-anniversary event, so that phrase is not inferred.",
+      "links": {"official_event": "https://www.dcjazzfest.org/lineup-2026", "official_tickets": "https://www.dcjazzfest.org/event-details/arena-stage-2026"},
+      "recommended_listening": [],
+      "enrichment": {"status": "pending", "missing": ["apple_music"], "note": "DC Jazz Festival verifies date, 6:30 PM time, Arena Stage, full trio and sold-out individual-ticket status; Danilo Pérez's official site verifies the 1996 Panamonk recording and Monk-tribute context. No exact Apple Music destination is supplied without verification."},
+      "sources": [
+        {"type": "official_program", "name": "DC Jazz Festival — 2026 Lineup", "url": "https://www.dcjazzfest.org/lineup-2026", "checked_on": "2026-08-29", "note": "Primary festival page verifies Danilo Pérez Trio: PanaMonk featuring Ben Street & Adam Cruz on Sunday September 6."},
+        {"type": "official_event", "name": "DC Jazz Festival — Arena Stage Concert Tickets & Upgrades", "url": "https://www.dcjazzfest.org/event-details/arena-stage-2026", "checked_on": "2026-08-29", "note": "Primary event/ticket page verifies 6:30 PM at Arena Stage and marks the individual performance sold out."},
+        {"type": "artist_official", "name": "Danilo Pérez — About Danilo", "url": "https://www.daniloperez.com/about-danilo2", "checked_on": "2026-08-29", "note": "Artist's official biography states that Pérez recorded Panamonk in 1996 for Impulse as a tribute to Thelonious Monk."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Date, exact time, venue, trio, sold-out individual ticket status and PanaMonk background were verified from DC Jazz Festival and Danilo Pérez's official site. Repository-wide searches for Danilo Perez/Pérez and PanaMonk returned no existing RADAR record before publication. Priority was assigned only after admission; the three-decade return to this specific repertoire is worth active local prioritization but is not presented as a singular or farewell event."},
+      "editorial": {
+        "en": {"why_it_matters": "PanaMonk is a particularly Listening Notes kind of bridge: Pérez does not approach Monk by stripping away his Panamanian identity, but by letting that rhythmic and cultural vocabulary enter the conversation with Monk's compositions. Hearing him reopen that project three decades after the 1996 recording with Ben Street and Adam Cruz turns the set into more than a standards trio date—it is a mature artist revisiting an early statement about how jazz languages can meet without flattening one another.", "trip_verdict": "Actively make room for the 6:30 PM Arena Stage set if access is available. The individual ticket is currently sold out, so treat festival-pass access as something to verify and plan rather than assuming entry; geographically, this is a local DC anchor rather than a travel decision.", "listen_before": null},
+        "es": {"why_it_matters": "PanaMonk es un puente muy de Listening Notes: Pérez no se acerca a Monk borrando su identidad panameña, sino dejando que ese vocabulario rítmico y cultural dialogue con las composiciones de Monk. Escucharlo reabrir ese proyecto tres décadas después de la grabación de 1996 junto a Ben Street y Adam Cruz convierte el set en algo más que una fecha de standards: es un artista maduro regresando a una afirmación temprana sobre cómo pueden encontrarse distintos lenguajes del jazz sin aplanarse entre sí.", "trip_verdict": "Le haría espacio activamente al set de las 6:30 PM en Arena Stage si el acceso está disponible. El boleto individual aparece actualmente agotado, así que conviene verificar y planear el acceso mediante los pases del festival en vez de asumir la entrada; geográficamente es un ancla local en DC, no una decisión de viaje.", "listen_before": null}
+      }
+    },
+    {
+      "id": "african-rhythms-alumni-quintet-randy-weston-dc-jazzfest-2026-09-06",
+      "artist": "African Rhythms Alumni Quintet",
+      "subtitle": "Randy Weston Centennial",
+      "dates": {"start": "2026-09-06", "end": null},
+      "showtimes": [],
+      "venue": {"id": "the-wharf-washington-dc", "name": "The Wharf", "city": "Washington, DC", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A",
+      "category": "Centennial lineage ensemble / African Rhythms alumni / living repertory",
+      "genres": ["Jazz", "African-influenced jazz"],
+      "musical_axes": ["Masters", "Cultural context", "Improvised", "Instrumental identity"],
+      "lineup": ["T.K. Blue — saxophone / flute", "Neil Clarke — hand drums", "Alex Blake — bass", "Frank Lacy — trombone", "Sharp Radway — piano"],
+      "factual_description": "DC Jazz Festival lists the African Rhythms Alumni Quintet: Randy Weston Centennial on Sunday, September 6, 2026 at The Wharf. The festival says the group brings together members of Weston's enduring African Rhythms bands and names T.K. Blue, Neil Clarke, Alex Blake, Frank Lacy and Weston acolyte Sharp Radway. The accessible official pages checked in this pass do not publish the exact Wharf set time or stage, so neither is inferred.",
+      "links": {"official_event": "https://www.dcjazzfest.org/lineup-2026", "official_tickets": "https://www.dcjazzfest.org/event-details/dcjazzfest26"},
+      "recommended_listening": [],
+      "enrichment": {"status": "pending", "missing": ["apple_music"], "note": "DC Jazz Festival verifies the date, centennial framing, full announced quintet and Wharf festival location; the Wharf event page is the authorized festival-ticket destination. Exact per-act time/stage and an Apple Music destination are not populated without verification."},
+      "sources": [
+        {"type": "official_program", "name": "DC Jazz Festival — 2026 Lineup", "url": "https://www.dcjazzfest.org/lineup-2026", "checked_on": "2026-08-29", "note": "Primary festival page verifies the Randy Weston Centennial billing and full announced personnel drawn from Weston's African Rhythms orbit."},
+        {"type": "official_event", "name": "DC Jazz Festival — DC JazzFest at The Wharf", "url": "https://www.dcjazzfest.org/event-details/dcjazzfest26", "checked_on": "2026-08-29", "note": "Primary festival event page verifies September 5-6 at The Wharf and official pass access."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Verified from current DC Jazz Festival pages. Repository-wide search for African Rhythms Alumni Quintet returned no existing RADAR record before publication. Admission rests on actual Weston-band lineage in the centennial year, not on tribute branding alone. No exact Wharf set time or stage was inferred."},
+      "editorial": {
+        "en": {"why_it_matters": "The centennial has unusual credibility because the music is being carried by players from Weston's own African Rhythms world rather than by an unrelated repertory band. T.K. Blue, Neil Clarke, Alex Blake and Frank Lacy bring direct ensemble memory, while Sharp Radway extends the line as a Weston acolyte. The set is useful precisely because it can reveal how that rhythmic and pan-African conception lived inside a working band.", "trip_verdict": "If Sunday at The Wharf is already on the calendar, fold this into the day and give it a real listen rather than treating it as background festival programming. Its lineage makes it worth catching locally, but it does not need to dictate the entire Sunday schedule.", "listen_before": null},
+        "es": {"why_it_matters": "El centenario tiene una credibilidad poco común porque la música la cargan músicos del propio mundo de African Rhythms de Weston y no una banda de repertorio ajena. T.K. Blue, Neil Clarke, Alex Blake y Frank Lacy traen memoria directa de ensamble, mientras Sharp Radway prolonga la línea como discípulo de Weston. El set importa precisamente porque puede mostrar cómo vivían esa concepción rítmica y panafricana dentro de una banda de trabajo.", "trip_verdict": "Si el domingo en The Wharf ya está en el calendario, lo integraría al día y lo escucharía de verdad en vez de tratarlo como música de fondo del festival. El linaje hace que valga la pena localmente, pero no necesita dictar por sí solo toda la agenda del domingo.", "listen_before": null}
+      }
+    },
+    {
+      "id": "kurt-elling-yellowjackets-weather-report-dc-jazzfest-2026-09-06",
+      "artist": "Kurt Elling & Yellowjackets",
+      "subtitle": "Celebrate Weather Report",
+      "dates": {"start": "2026-09-06", "end": null},
+      "showtimes": [],
+      "venue": {"id": "the-wharf-washington-dc", "name": "The Wharf", "city": "Washington, DC", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Weather Report repertoire / vocal-fusion collaboration / groove",
+      "genres": ["Jazz", "Jazz fusion", "Vocal jazz", "Funk"],
+      "musical_axes": ["Masters", "Fusion / Prog", "Groove", "Instrumental identity", "Cross-genre", "Cultural context"],
+      "lineup": ["Kurt Elling — voice", "Yellowjackets — ensemble"],
+      "factual_description": "DC Jazz Festival lists Kurt Elling and Yellowjackets 'Celebrate Weather Report' on Sunday, September 6, 2026 at The Wharf in Washington, DC. DCJF describes Yellowjackets as a long-running jazz-fusion ensemble rooted in post-bop, funk, R&B and contemporary jazz, and frames this appearance specifically around the legacy of Weather Report. The accessible official pages checked in this pass do not publish the exact Wharf set time, stage or complete touring personnel, so those details are not inferred.",
+      "links": {"official_event": "https://www.dcjazzfest.org/lineup-2026", "official_tickets": "https://www.dcjazzfest.org/event-details/dcjazzfest26"},
+      "recommended_listening": [],
+      "enrichment": {"status": "pending", "missing": ["apple_music"], "note": "DC Jazz Festival verifies the date, billing, Weather Report concept and Wharf festival location; the Wharf event page is the authorized festival-ticket destination. Exact per-act time/stage, complete touring personnel and an Apple Music destination remain unpopulated without verification."},
+      "sources": [
+        {"type": "official_program", "name": "DC Jazz Festival — 2026 Lineup", "url": "https://www.dcjazzfest.org/lineup-2026", "checked_on": "2026-08-29", "note": "Primary festival page verifies Kurt Elling and Yellowjackets Celebrate Weather Report on Sunday September 6 and describes the fusion identity of Yellowjackets."},
+        {"type": "official_event", "name": "DC Jazz Festival — DC JazzFest at The Wharf", "url": "https://www.dcjazzfest.org/event-details/dcjazzfest26", "checked_on": "2026-08-29", "note": "Primary festival event page verifies September 5-6 at The Wharf and official festival-pass access."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Verified from current DC Jazz Festival pages. Repository-wide search for Kurt Elling with Yellowjackets returned no existing RADAR record before publication. Admission rests on the specific vocal-plus-fusion reworking of Weather Report rather than the stature of either act alone. No exact Wharf set time, stage or unverified individual Yellowjackets personnel were inferred."},
+      "editorial": {
+        "en": {"why_it_matters": "The interesting collision is vocal improvisation against a fusion language that was built to move without a singer. Weather Report's repertoire depends on timbre, groove, keyboards, bass and collective motion; putting Elling's elastic phrasing in front of Yellowjackets creates a real interpretive problem rather than a routine tribute. That makes the set a useful test of how far the material can be transformed without losing its instrumental identity.", "trip_verdict": "Actively make room for this set if Sunday at The Wharf is available, and leave enough slack around it for the festival's multi-stage logistics. Because it is already in Washington, the decision is about protecting space inside the day rather than traveling for it.", "listen_before": null},
+        "es": {"why_it_matters": "El choque interesante está entre la improvisación vocal y un lenguaje de fusion que fue construido para moverse sin cantante. El repertorio de Weather Report depende de timbre, groove, teclados, bajo y movimiento colectivo; poner el fraseo elástico de Elling al frente de Yellowjackets crea un verdadero problema interpretativo en vez de un homenaje rutinario. Eso vuelve el set una prueba útil de cuánto puede transformarse ese material sin perder su identidad instrumental.", "trip_verdict": "Le haría espacio activamente a este set si el domingo en The Wharf está disponible y dejaría suficiente margen alrededor por la logística de varias tarimas del festival. Como ya ocurre en Washington, la decisión es reservar espacio dentro del día, no viajar por él.", "listen_before": null}
+      }
+    }
+  ]
+}
