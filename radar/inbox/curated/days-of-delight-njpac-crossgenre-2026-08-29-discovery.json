@@ -1,0 +1,371 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "days-of-delight-njpac-crossgenre-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-29 after reading the current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Fresh checks of Tsuyoshi Yamamoto schedules, KEYSTONE CLUB TOKYO, BODY&SOUL, Jazz House ALFIE references, Space M&A, and credible Japanese-jazz sources produced no newly admitted Yamamoto event. A September 15 KEYSTONE listing is verified but currently has a routine club context, a lineup still being adjusted, and no performance-specific hook beyond Yamamoto's presence, so it does not clear Stage 1 at this time. The broader pass admitted four events for event-specific reasons: Days of Delight All Stars 2026 returning to BODY&SOUL during the club's final eleven days after the label used the room for its live all-star project; Trombone Shorty & Orleans Avenue with Mavis Staples as a New Orleans brass/funk and gospel/soul lineage pairing; Mariza with Derek Gripper and Duo Andalus as a deliberately cross-cultural vocal/string bill; and A.R. Rahman performing his own catalogue with the New Jersey Symphony. Priority was assigned only after admission. Days of Delight, Trombone Shorty/Mavis Staples, and A.R. Rahman/NJSO were explicitly challenged against S; A+ still captures the recommendation because the first has two nights and is not the club's documented final performance, Shorty and Staples have repeatedly shared stages/tours, and Rahman/NJSO has two performances with no documented farewell, premiere, or singular one-off claim. Recent/current RADAR output was reviewed for scarcity inflation; no S or S+ is proposed. Batch distribution: A 1, A+ 3, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "days-of-delight-all-stars-body-and-soul-tokyo-2026-09-15",
+      "artist": "Days of Delight All Stars 2026",
+      "subtitle": "2 Days at BODY&SOUL",
+      "dates": {
+        "start": "2026-09-15",
+        "end": "2026-09-16"
+      },
+      "showtimes": [
+        "19:30",
+        "21:00"
+      ],
+      "venue": {
+        "id": "body-and-soul-shibuya-tokyo",
+        "name": "BODY&SOUL",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese jazz label all-stars / BODY&SOUL final month",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Improvised",
+        "Acoustic Jazz",
+        "Cultural context"
+      ],
+      "lineup": [
+        "広瀬未来 — trumpet",
+        "池本茂貴 — trombone",
+        "宮川純 — piano",
+        "中林薫平 — bass",
+        "小田桐和寛 — drums",
+        "荻原亮 — guitar"
+      ],
+      "factual_description": "BODY&SOUL presents Days of Delight All Stars 2026 on Tuesday and Wednesday, September 15–16, 2026, with doors at 6:30 PM and sets at 7:30 PM and 9:00 PM both nights. The official venue pages list 広瀬未来 on trumpet, 池本茂貴 on trombone, 宮川純 on piano, 中林薫平 on bass, 小田桐和寛 on drums, and 荻原亮 on guitar. Days of Delight has previously used BODY&SOUL as the room for a specially assembled all-star recording project, and the club has separately announced September 26, 2026 as its grand finale.",
+      "links": {
+        "official_event": "https://bodyandsoul.co.jp/event/260915",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Both exact BODY&SOUL event pages verify the two-night engagement, doors, set times and six-person lineup. The club's closure notice verifies the September 26 grand finale. Days of Delight's label release documents the earlier BODY&SOUL all-star live project. No separate stable ticket destination or Apple Music ID was added without exact verification. Japanese-script personnel spelling is preserved directly from the venue source rather than inferred through romanization."
+      },
+      "sources": [
+        {
+          "url": "https://bodyandsoul.co.jp/event/260915",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-08-29",
+          "note": "Official first-night page confirms September 15, 2026, doors at 18:30, sets at 19:30 and 21:00, and the six-person lineup."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/event/260916",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-08-29",
+          "note": "Official second-night page confirms September 16, 2026 with the same doors, set times and lineup."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/2026/08/175580",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-08-29",
+          "note": "Official club notice confirms September 26, 2026 as the grand finale and documents the imminent closure context."
+        },
+        {
+          "url": "https://www.atpress.ne.jp/news/604264",
+          "publisher": "Days of Delight / press release",
+          "checked_on": "2026-08-29",
+          "note": "Label release documents the specially assembled Days of Delight All Stars live recording made at BODY&SOUL and the label's role as a platform for contemporary Japanese jazz."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core facts for both nights are verified against BODY&SOUL; final-month context is verified by the club's own closure notice; prior all-star recording context is documented by the label. Repository search for Days of Delight returned no matching RADAR candidate before publication. Priority was assigned after admission; A+ reflects a strong Japanese-jazz platform returning to a meaningful room during its final eleven days, while two performances and the separate September 26 grand finale make protect-the-night scarcity too strong a claim."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Days of Delight has already used BODY&SOUL as more than a booking room: it turned the club into a recording site for a deliberately assembled snapshot of contemporary Japanese jazz. This new sextet returns during the club's final eleven days, so label, players and place become one musical story rather than a generic all-star date.",
+          "trip_verdict": "Actively make room for one of the two nights if mid-September overlaps with Tokyo. The repeat date gives useful flexibility; if it conflicts with the documented September 26 grand finale, the actual closing night remains the scarcer BODY&SOUL event.",
+          "listen_before": "Days of Delight All Stars — Live at BODY & SOUL volumes from the 2025 session"
+        },
+        "es": {
+          "why_it_matters": "Days of Delight ya ha usado BODY&SOUL como algo más que una sala para contratar una fecha: convirtió el club en sitio de grabación para una foto deliberadamente armada del jazz japonés contemporáneo. Este nuevo sexteto vuelve durante los últimos once días del lugar, así que sello, músicos y espacio forman una sola historia musical en vez de otra fecha genérica de all-stars.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos noches si mediados de septiembre coincide con Tokio. Tener dos fechas da margen; si choca con el grand finale documentado del 26 de septiembre, la última noche real del club sigue siendo el acontecimiento más escaso.",
+          "listen_before": "Days of Delight All Stars — los volúmenes Live at BODY & SOUL de la sesión de 2025"
+        }
+      }
+    },
+    {
+      "id": "trombone-shorty-mavis-staples-njpac-newark-2026-10-23",
+      "artist": "Trombone Shorty & Orleans Avenue with Mavis Staples",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-10-23",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark-nj",
+        "name": "Prudential Hall, New Jersey Performing Arts Center",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "New Orleans brass-funk / gospel-soul living master pairing",
+      "genres": [
+        "Jazz",
+        "Funk",
+        "Soul",
+        "Gospel",
+        "Rock",
+        "Blues"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Trombone Shorty & Orleans Avenue",
+        "Mavis Staples"
+      ],
+      "factual_description": "NJPAC presents Trombone Shorty & Orleans Avenue with Mavis Staples on Friday, October 23, 2026 at 8:00 PM in Prudential Hall. The presenter describes Trombone Shorty's music as rooted in New Orleans brass tradition while mixing funk, rock, blues, jazz and hip-hop, and presents Staples through her gospel, R&B and soul lineage. NJPAC's authorized Ticketmaster listing confirms both acts and notes that they have frequently shared stages and tours.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/trombone-shorty/",
+        "official_tickets": "https://www.ticketmaster.com/event/000064A8A8A5DCF0?brand=njpac&camefrom=cfc_njpac_NJPACWebsite"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "NJPAC and its authorized Ticketmaster page verify the date, time, venue and two billed acts. No unannounced Orleans Avenue personnel or other guests are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/trombone-shorty/",
+          "publisher": "New Jersey Performing Arts Center",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies October 23, 2026, 8:00 PM, Prudential Hall, Trombone Shorty & Orleans Avenue and Mavis Staples, plus the presenter's musical framing."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/000064A8A8A5DCF0?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-29",
+          "note": "Authorized ticket destination confirms the event and both acts; its event copy notes prior shared stages and tours."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core facts were verified from NJPAC and its authorized ticket page. Repository searches for Trombone Shorty with Mavis Staples returned no matching RADAR candidate before publication. Priority was assigned after admission. The pairing is actively worth making room for, but prior shared stages/touring undermine any claim that this exact convergence is unlikely to recur."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The bill connects two still-living American performance traditions rather than merely stacking famous names: Shorty's New Orleans horn-and-groove language meets Staples's gospel and soul authority. The handoff from brass-band physicality to a voice carrying decades of civil-rights-era and roots-music history gives the night a real cultural and musical arc.",
+          "trip_verdict": "If Newark is workable that Friday, actively make room for it and let Prudential Hall anchor the evening. Shorty and Staples have shared stages before, so a genuinely one-off regional lineup would still outrank this if the calendar forces a choice.",
+          "listen_before": "Trombone Shorty & Orleans Avenue and Mavis Staples — representative recent live recordings"
+        },
+        "es": {
+          "why_it_matters": "El cartel conecta dos tradiciones estadounidenses que siguen vivas en escenario en vez de limitarse a apilar nombres famosos: el lenguaje de metales y groove de Nueva Orleans de Shorty se encuentra con la autoridad gospel y soul de Staples. Pasar de la fisicalidad de una brass band a una voz que carga décadas de historia de derechos civiles y música de raíz le da a la noche un arco cultural y musical real.",
+          "trip_verdict": "Si Newark funciona ese viernes, sí le haría espacio activamente y dejaría que Prudential Hall ancle la noche. Shorty y Staples ya han compartido escenarios antes, así que un lineup regional verdaderamente irrepetible seguiría teniendo precedencia si hubiera conflicto.",
+          "listen_before": "Trombone Shorty & Orleans Avenue y Mavis Staples — grabaciones recientes representativas en vivo"
+        }
+      }
+    },
+    {
+      "id": "mariza-derek-gripper-duo-andalus-njpac-newark-2026-11-01",
+      "artist": "Mariza with special guests Derek Gripper & Duo Andalus",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-11-01",
+        "end": null
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark-nj",
+        "name": "Prudential Hall, New Jersey Performing Arts Center",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Fado / African guitar / Mediterranean-Middle Eastern cross-cultural bill",
+      "genres": [
+        "Fado",
+        "World Music",
+        "African guitar",
+        "Mediterranean music",
+        "Flamenco"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Mariza — vocals",
+        "Derek Gripper — guitar",
+        "Duo Andalus: Lala Tamar — vocals",
+        "Duo Andalus: Ofer Ronen — oud / flamenco guitar"
+      ],
+      "factual_description": "NJPAC presents Mariza with special guests Derek Gripper and Duo Andalus on Sunday, November 1, 2026 at 6:00 PM in Prudential Hall. The official presenter describes Mariza through Portuguese fado, South African guitarist Derek Gripper through his African-guitar work, and Duo Andalus as Lala Tamar on vocals with Ofer Ronen on oud and flamenco guitar, mixing Mediterranean and Middle Eastern influences. The current listing presents these as billed performances; it does not state that the artists will collaborate together on stage.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/mariza-2026/",
+        "official_tickets": "https://www.ticketmaster.com/mariza-with-special-guests-derek-gripper-newark-new-jersey-11-01-2026/event/0000645AEB758995?brand=njpac&camefrom=cfc_njpac_NJPACWebsite"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "NJPAC verifies all three billed performances and identifies the Duo Andalus members/instruments; authorized Ticketmaster independently verifies Mariza with Derek Gripper and the event details. No joint collaboration among the billed artists is claimed because the current sources do not announce one."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/mariza-2026/",
+          "publisher": "New Jersey Performing Arts Center",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies November 1, 2026, 6:00 PM, Prudential Hall, Mariza, Derek Gripper, and Duo Andalus, including the Duo Andalus personnel and instruments."
+        },
+        {
+          "url": "https://www.ticketmaster.com/mariza-with-special-guests-derek-gripper-newark-new-jersey-11-01-2026/event/0000645AEB758995?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-29",
+          "note": "Authorized ticket destination confirms the date, time, venue and Mariza with special guest Derek Gripper."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core facts are verified through NJPAC and authorized ticketing. Repository searches for Mariza and the proposed stable ID returned no matching RADAR candidate before publication. Priority was assigned after admission; A records a musically coherent cross-cultural bill worth knowing about without overstating three separately billed performances as a rare collaborative event."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The night creates a useful listening arc without pretending the artists form a single ensemble: Mariza's fado voice, Gripper's guitar vocabulary and Duo Andalus's voice/oud/flamenco-guitar language place Portuguese, African and Mediterranean/Middle Eastern traditions in the same room. The interest is in hearing those identities adjacent to one another, not in a collaboration the presenter has not announced.",
+          "trip_verdict": "Attend if November 1 already makes sense for Newark or a Newark/New York day. I would combine it with another regional reason rather than build the entire corridor trip around this bill alone.",
+          "listen_before": "Mariza, Derek Gripper and Duo Andalus — one representative recording from each"
+        },
+        "es": {
+          "why_it_matters": "La noche arma un arco de escucha interesante sin fingir que los artistas forman un solo ensamble: la voz de fado de Mariza, el vocabulario guitarrístico de Gripper y el lenguaje de voz, oud y guitarra flamenca de Duo Andalus ponen tradiciones portuguesas, africanas y mediterráneas/medio-orientales dentro del mismo espacio. El interés está en oír esas identidades una junto a otra, no en una colaboración que el presentador no ha anunciado.",
+          "trip_verdict": "Iría si el 1 de noviembre ya hace sentido para Newark o para un día Newark/Nueva York. Lo combinaría con otra razón regional en vez de construir todo el viaje por el corredor únicamente alrededor de este cartel.",
+          "listen_before": "Mariza, Derek Gripper y Duo Andalus — una grabación representativa de cada uno"
+        }
+      }
+    },
+    {
+      "id": "ar-rahman-new-jersey-symphony-njpac-newark-2026-11-03",
+      "artist": "A.R. Rahman with the New Jersey Symphony",
+      "subtitle": "The Symphonic Experience",
+      "dates": {
+        "start": "2026-11-03",
+        "end": "2026-11-04"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark-nj",
+        "name": "Prudential Hall, New Jersey Performing Arts Center",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Indian film music / symphonic crossover / composer-led performance",
+      "genres": [
+        "Indian film music",
+        "Orchestral",
+        "World Music",
+        "Pop",
+        "Eastern classical",
+        "Rap"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "A.R. Rahman",
+        "New Jersey Symphony"
+      ],
+      "factual_description": "NJPAC presents A.R. Rahman with the New Jersey Symphony in The Symphonic Experience on Tuesday and Wednesday, November 3–4, 2026 at 7:30 PM in Prudential Hall. The official presenter says the program brings Rahman together with the full symphony for music from his catalogue spanning Eastern classical music, pop, world music, rap and film work. The current event page does not identify a conductor or additional soloists, so no further personnel are inferred.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/a-r-rahman/",
+        "official_tickets": "https://www.ticketmaster.com/event/00006513A473CCBA?brand=njpac&camefrom=cfc_njpac_NJPACWebsite"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music",
+          "personnel"
+        ],
+        "note": "NJPAC and authorized Ticketmaster pages verify both dates, the 7:30 PM starts, Prudential Hall, Rahman and the New Jersey Symphony. The current presenter copy does not name a conductor or additional soloists, so those remain explicitly unresolved."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/a-r-rahman/",
+          "publisher": "New Jersey Performing Arts Center",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies November 3–4, 2026 at 7:30 PM in Prudential Hall, A.R. Rahman with the New Jersey Symphony, and the symphonic-program framing."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/00006513A473CCBA?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-29",
+          "note": "Authorized ticket destination for the November 3 performance verifies the event, date, time and venue."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/00006513A477CCCF?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-29",
+          "note": "Authorized ticket destination for the November 4 performance verifies the second date, time and venue."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core facts are verified through NJPAC and exact authorized ticket pages for both dates. Repository searches for A.R. Rahman with the New Jersey Symphony returned no matching RADAR candidate before publication. Priority was assigned after admission; A+ reflects a composer-led full-orchestra translation of a culturally and stylistically broad catalogue, while two performances and no documented farewell or premiere make scarcity-tier treatment unwarranted."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The important fact is not simply that a film composer gets orchestral treatment: Rahman himself is on the bill with a full symphony, placing the author of this catalogue inside the act of translating music built from Indian classical, electronic, pop and cinematic languages to orchestral scale. That makes the crossover a live compositional question rather than a tribute from a distance.",
+          "trip_verdict": "Actively make room for one of the two Newark performances if the regional calendar is open. The full-symphony format can anchor an evening or overnight, and the second date gives enough flexibility to combine it with another New York/Newark reason rather than forcing a single-night turnaround.",
+          "listen_before": "A.R. Rahman — a representative film score and concert recording before hearing the symphonic treatment"
+        },
+        "es": {
+          "why_it_matters": "Lo importante no es simplemente que un compositor de cine reciba tratamiento orquestal: el propio Rahman está en el cartel con una sinfónica completa, así que el autor participa en traducir a escala orquestal un catálogo construido desde lenguajes clásicos de India, electrónicos, pop y cinematográficos. Eso convierte el cruce en una pregunta compositiva en vivo y no en un homenaje hecho a distancia.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las dos funciones de Newark si el calendario regional está abierto. El formato con sinfónica completa puede anclar una noche u overnight, y tener una segunda fecha permite combinarlo con otra razón para estar en Nueva York/Newark sin forzar un turnaround de una sola noche.",
+          "listen_before": "A.R. Rahman — un score cinematográfico y una grabación de concierto representativos antes de escuchar el tratamiento sinfónico"
+        }
+      }
+    }
+  ]
+}
