@@ -1,0 +1,152 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "chucho-jalc-linda-sikhakhane-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-29 after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md from main. Fresh checks of Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A leads, and credible Japanese-jazz sources produced no new verified unrecorded Yamamoto appearance with a performance-specific reason that cleared Stage 1; already-curated Yamamoto dates were not duplicated. The broader US-corridor pass admitted two unrecorded performances for specific live-context reasons. Priority was assigned only after admission. Final proposed distribution: A 1, A+ 1, S 0, S+ 0. The recent/current RADAR intake remains centered on A and A+, with S/S+ sparse; this batch preserves that shape without using a quota. Chucho Valdés at Jazz at Lincoln Center was explicitly challenged against S: the 85th-birthday context and exact New York lineup are exceptional, but the program runs two nights and the 85th-birthday celebration continues to other 2026 stops, so actively making room is the durable recommendation rather than protect-the-night scarcity. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "chucho-valdes-85th-jalc-rose-theater-nyc-2026-10-16",
+      "artist": "Chucho Valdés",
+      "subtitle": "85th Birthday Celebration with Joe Lovano and Terence Blanchard",
+      "dates": {"start": "2026-10-16", "end": "2026-10-17"},
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "rose-theater-frederick-p-rose-hall-nyc",
+        "name": "Rose Theater at Frederick P. Rose Hall",
+        "city": "New York City",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional trip / New York City",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / 85th-birthday program / all-star Afro-Cuban jazz lineup",
+      "genres": ["Jazz", "Afro-Cuban jazz", "Latin jazz"],
+      "musical_axes": ["Masters", "Latin", "Acoustic Jazz", "Instrumental identity", "Improvised", "Cultural context"],
+      "lineup": [
+        "Chucho Valdés — piano",
+        "Terence Blanchard — trumpet",
+        "Joe Lovano — saxophone",
+        "John Patitucci — bass",
+        "Marcus Gilmore — drums",
+        "Roberto Jr. Vizcaino Torre — percussion"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Chucho Valdés at Rose Theater on Friday, October 16 and Saturday, October 17, 2026, with both performances at 7:30 PM. The program celebrates Valdés's 85th birthday and explores his roots in North American jazz. Jazz at Lincoln Center publishes a six-person lineup of Valdés on piano, Terence Blanchard on trumpet, Joe Lovano on saxophone, John Patitucci on bass, Marcus Gilmore on drums, and Roberto Jr. Vizcaino Torre on percussion. A pre-concert lecture is scheduled at 6:30 PM.",
+      "links": {
+        "official_event": "https://jazz.org/concert/chucho-valdes-85th-birthday-celebration-with-special-guests-joe-lovano-and-terence-blanchard/",
+        "official_tickets": "https://ticketing.jazz.org/20614/20615"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "partial",
+        "missing": ["apple_music"],
+        "note": "Dates, both 7:30 PM performances, Rose Theater, complete six-person lineup, 85th-birthday framing and authorized ticketing were verified from Jazz at Lincoln Center. No Apple Music destination is stored without exact verification."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Jazz at Lincoln Center — Chucho Valdés 85th Birthday Celebration",
+          "url": "https://jazz.org/concert/chucho-valdes-85th-birthday-celebration-with-special-guests-joe-lovano-and-terence-blanchard/",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies October 16-17, 2026, both 7:30 PM starts, Rose Theater and the 85th-birthday program."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Jazz at Lincoln Center ticketing — Chucho Valdés",
+          "url": "https://ticketing.jazz.org/20614/20615",
+          "checked_on": "2026-08-29",
+          "note": "Authorized presenter ticketing page verifies both dates and the complete announced lineup: Valdés, Blanchard, Lovano, Patitucci, Gilmore and Roberto Jr. Vizcaino Torre."
+        },
+        {
+          "type": "official_event",
+          "name": "Strathmore — Chucho Valdés 85th Birthday Celebration",
+          "url": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page for the October 18 North Bethesda stop corroborates that the 85th-birthday celebration is a broader 2026 performance thread, relevant to the scarcity challenge."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core event facts and full announced personnel were verified from Jazz at Lincoln Center's official event and ticketing pages. Repository searches for Chucho Valdés plus Rose Theater / October 16-17 returned no matching RADAR candidate before publication. Stage 1 admission rests on the 85th-birthday program and exact all-star lineup rather than fame alone. Stage 2 assigns A+ after a scarcity challenge: two New York performances and a continuing 85th-birthday tour make active prioritization more durable than S-tier scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The birthday frame matters because the band makes it musical rather than ceremonial: Valdés has Blanchard, Lovano, Patitucci, Gilmore and Vizcaino Torre around him for a program that turns his North American jazz roots back through an Afro-Cuban rhythmic engine. That exact lineup gives the retrospective real live tension instead of making it a career-summary gala.",
+          "trip_verdict": "If New York is workable on October 16 or 17, actively make room for one of the two nights and let Rose Theater anchor the evening. The second performance gives useful flexibility, and the trip makes the most sense paired with another New York reason rather than treated as a once-only emergency.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El cumpleaños importa porque la banda lo convierte en una idea musical y no en una ceremonia: Valdés reúne a Blanchard, Lovano, Patitucci, Gilmore y Vizcaino Torre para volver sobre sus raíces en el jazz norteamericano desde un motor rítmico afrocubano. Esa formación exacta le da tensión real al retrospectivo en vez de volverlo una simple gala de carrera.",
+          "trip_verdict": "Si Nueva York funciona el 16 o 17 de octubre, sí le haría espacio activamente a una de las dos noches y dejaría que Rose Theater ancle la velada. La segunda función da margen útil, y el viaje tiene más sentido combinado con otra razón para estar en Nueva York que tratado como una emergencia irrepetible.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "linda-sikhakhane-solar-myth-philadelphia-2026-10-29",
+      "artist": "Linda Sikhakhane",
+      "subtitle": "Solar Myth — current Blue Note period",
+      "dates": {"start": "2026-10-29", "end": null},
+      "showtimes": ["20:00"],
+      "venue": {
+        "id": "solar-myth-philadelphia",
+        "name": "Solar Myth",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional trip / Philadelphia",
+      "status": "considering",
+      "priority": "A",
+      "category": "South African jazz / saxophone-led current Blue Note period",
+      "genres": ["Jazz", "South African jazz", "Spiritual jazz", "Contemporary jazz"],
+      "musical_axes": ["Instrumental identity", "Improvised", "Cross-genre", "Cultural context"],
+      "lineup": ["Linda Sikhakhane — saxophone"],
+      "factual_description": "Ars Nova Workshop presents South African saxophonist Linda Sikhakhane and his band at Solar Myth in Philadelphia on Thursday, October 29, 2026 at 8:00 PM. The presenter lists the supporting personnel as TBA and prices the seated 21+ show at $30 advance / $35 day of show. Blue Note Records identifies Sikhakhane as a saxophonist and composer and announces his self-titled fifth album LINDA for September 4, 2026, produced with guidance from Nduduzo Makhathini and rooted in South African jazz while incorporating contemporary inflections including hip-hop, mzansi neo-soul and amapiano.",
+      "links": {
+        "official_event": "https://www.arsnovaworkshop.org/programs/linda-sikhakhane/",
+        "official_tickets": "https://link.dice.fm/d387d708cdde"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "partial",
+        "missing": ["full supporting lineup", "apple_music"],
+        "note": "Date, 8:00 PM start, Solar Myth, seated 21+ format, $30 advance / $35 day-of-show pricing and authorized DICE destination are verified from Ars Nova Workshop. Sikhakhane's saxophone identity and current LINDA album context are verified from Blue Note Records. Supporting personnel remain TBA and are not inferred."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Ars Nova Workshop — Linda Sikhakhane",
+          "url": "https://www.arsnovaworkshop.org/programs/linda-sikhakhane/",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies October 29, 2026 at 8:00 PM, Solar Myth, seated 21+ format, official pricing, Linda Sikhakhane and supporting personnel TBA."
+        },
+        {
+          "type": "artist_label",
+          "name": "Blue Note Records — Linda Sikhakhane announces LINDA",
+          "url": "https://www.bluenote.com/south-african-saxophonist-linda-sikhakhane-announces-new-blue-note-album-linda/",
+          "checked_on": "2026-08-29",
+          "note": "Artist-label source verifies Sikhakhane's saxophone/composer identity, September 4 release of LINDA, Nduduzo Makhathini's production guidance and the album's South African-jazz / contemporary-influence context."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-artist-label-sources",
+        "note": "Core performance facts were verified from Ars Nova Workshop, with current artistic context verified from Blue Note Records. Repository searches for Linda Sikhakhane and for the October 29 Solar Myth performance returned no matching RADAR candidate before publication. Stage 1 admission rests on the saxophone-led South African jazz thread and the timing immediately after a new self-titled Blue Note album; Stage 2 assigns A because the supporting band is still TBA and no rare or singular live context is documented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Sikhakhane is carrying a distinctly South African saxophone language into a new Blue Note chapter just weeks after LINDA arrives. The record keeps heritage and spirituality in the center while letting hip-hop, mzansi neo-soul and amapiano enter the frame, which makes a small-room Philadelphia set worth tracking even before the supporting band is fully announced.",
+          "trip_verdict": "Catch it if Philadelphia already fits that Thursday or if another city reason makes the run easy. With the supporting lineup still TBA, this is a strong Solar Myth option rather than a date to build the entire corridor trip around yet.",
+          "listen_before": "Linda Sikhakhane — LINDA"
+        },
+        "es": {
+          "why_it_matters": "Sikhakhane está llevando un lenguaje de saxofón muy arraigado en Sudáfrica hacia una nueva etapa con Blue Note apenas unas semanas después de la salida de LINDA. El disco mantiene al centro herencia y espiritualidad mientras deja entrar hip-hop, mzansi neo-soul y amapiano, suficiente para seguir muy de cerca una fecha en sala pequeña aunque la banda de apoyo todavía no esté completa.",
+          "trip_verdict": "La agarraría si Filadelfia ya embona ese jueves o si otra razón en la ciudad vuelve fácil el trayecto. Con la formación de apoyo todavía TBA, por ahora funciona mejor como una opción muy buena en Solar Myth que como único motivo para armar todo el viaje por el corredor.",
+          "listen_before": "Linda Sikhakhane — LINDA"
+        }
+      }
+    }
+  ]
+}
