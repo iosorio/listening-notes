@@ -1,0 +1,321 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tokyo-dmv-crossgenre-2026-08-28-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule traces, KEYSTONE CLUB TOKYO and credible Japanese-jazz sources produced no new verified, unrecorded Tsuyoshi Yamamoto appearance in this pass. Admission and priority were decided separately. Seven unrecorded performances clear RADAR admission for specific lineup, repertoire, first-appearance, milestone, cultural-exchange, or local-live-context reasons. Proposed shape: A 3, A+ 4, S 0, S+ 0. This is not a quota; it reflects the event-specific judgments after checking the recent A/A+-heavy RADAR flow and challenging every potential scarcity claim. Chucho Valdés at Strathmore was explicitly challenged against S: the 85th-birthday retrospective with Joe Lovano and Etienne Charles is a major local master context, but the same birthday program and guests are confirmed at multiple 2026 tour stops, so actively making room is sufficient for this specific performance. Marty Friedman's one-night Cotton Club billing was likewise challenged against S because it has two sets and the Aikawa/Friedman relationship is active; A+ captures the special lineup without manufacturing singularity. The Residents' Eskimo production has multiple Tokyo sets and a broad North American tour, so neither the Tokyo nor Washington date qualifies for scarcity-tier language.",
+  "events": [
+    {
+      "id": "mary-halvorson-amaryllis-blue-note-tokyo-2026-08-30",
+      "artist": "Mary Halvorson's Amaryllis Sextet",
+      "subtitle": "Blue Note Tokyo leader debut",
+      "dates": {"start": "2026-08-30", "end": "2026-08-31"},
+      "showtimes": ["16:30", "19:30", "18:00", "20:30"],
+      "venue": {"id": "blue-note-tokyo", "name": "Blue Note Tokyo", "city": "Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary creative jazz / leader debut / sextet",
+      "genres": ["Creative jazz", "Avant jazz", "Improvised music"],
+      "musical_axes": ["Japan / Tokyo", "Instrumental identity", "Improvised", "Experimental"],
+      "lineup": [
+        "Mary Halvorson — guitar",
+        "Adam O'Farrill — trumpet",
+        "Jacob Garchik — trombone",
+        "Yvonne Rogers — piano, synthesizer",
+        "Nick Dunston — bass",
+        "Tomas Fujiwara — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Mary Halvorson's Amaryllis Sextet on August 30-31, 2026. August 30 sets start at 4:30 PM and 7:30 PM; August 31 sets start at 6:00 PM and 8:30 PM. The venue identifies the engagement as Halvorson's first leader appearance there and describes Amaryllis as a representative project in her current work. The announced sextet is Halvorson, Adam O'Farrill, Jacob Garchik, Yvonne Rogers, Nick Dunston and Tomas Fujiwara.",
+      "links": {"official_event": "https://www.bluenote.co.jp/jp/artists/mary-halvorson/", "official_tickets": null},
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["stable event-specific ticket URL", "apple_music"],
+        "note": "Dates, all four set times, complete sextet and leader-debut framing are verified from Blue Note Tokyo. The venue uses a session-dependent reservation flow, and no Apple Music destination is supplied without exact verification."
+      },
+      "sources": [
+        {"url": "https://www.bluenote.co.jp/jp/artists/mary-halvorson/", "publisher": "Blue Note Tokyo", "checked_on": "2026-08-28", "note": "Official event page verifying August 30-31 dates, all set times, complete Amaryllis Sextet personnel, music charge and Halvorson's first leader appearance at the venue."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Verified from the exact Blue Note Tokyo event page. Repository search found no existing Mary Halvorson / Amaryllis RADAR record before publication; no ticket destination, repertoire or listening URL was inferred."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to make room is the band, not a generic first visit. Amaryllis puts Halvorson's guitar inside a six-way architecture of trumpet, trombone, piano/synth, bass and drums where written detail can fracture into improvisation without losing shape. Blue Note Tokyo catches her first leader appearance in the room with the project that most clearly represents her current compositional language.",
+          "trip_verdict": "If Tokyo is in play this weekend, actively make room for one of the four sets; the two-day run gives enough flexibility to choose a slot without reorganizing the rest of the city around a single curtain time.",
+          "listen_before": "Mary Halvorson — About Ghosts"
+        },
+        "es": {
+          "why_it_matters": "La razón para abrirle espacio es la banda, no el simple hecho de que sea una primera visita. Amaryllis mete la guitarra de Halvorson dentro de una arquitectura de seis voces —trompeta, trombón, piano/synth, bajo y batería— donde la escritura puede quebrarse hacia la improvisación sin perder forma. Blue Note Tokyo recibe su primera fecha como líder con el proyecto que mejor concentra su lenguaje compositivo actual.",
+          "trip_verdict": "Si Tokio está en juego este fin de semana, sí le abriría espacio activamente a uno de los cuatro sets; las dos noches dan suficiente flexibilidad para escoger horario sin reorganizar toda la ciudad alrededor de una sola función.",
+          "listen_before": "Mary Halvorson — About Ghosts"
+        }
+      }
+    },
+    {
+      "id": "mike-stern-band-blue-note-tokyo-2026-09-01",
+      "artist": "Mike Stern Band",
+      "subtitle": "featuring Dennis Chambers, Randy Brecker, Leni Stern & Lincoln Goines",
+      "dates": {"start": "2026-09-01", "end": "2026-09-04"},
+      "showtimes": ["18:00", "20:30"],
+      "venue": {"id": "blue-note-tokyo", "name": "Blue Note Tokyo", "city": "Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Electric jazz / fusion / multi-night club run",
+      "genres": ["Jazz fusion", "Jazz-rock", "Contemporary jazz"],
+      "musical_axes": ["Japan / Tokyo", "Masters", "Fusion / Prog", "Instrumental identity", "Groove"],
+      "lineup": [
+        "Mike Stern — guitar",
+        "Dennis Chambers — drums",
+        "Randy Brecker — trumpet",
+        "Leni Stern — guitar",
+        "Lincoln Goines — bass"
+      ],
+      "factual_description": "Blue Note Tokyo presents Mike Stern Band featuring Dennis Chambers, Randy Brecker, Leni Stern and Lincoln Goines on September 1-4, 2026, with daily sets at 6:00 PM and 8:30 PM. The venue documents Stern's recurring Blue Note Tokyo history with different elite lineups, including four-night runs in recent years, while this engagement specifically adds Randy Brecker to the Chambers / Leni Stern / Goines configuration.",
+      "links": {"official_event": "https://www.bluenote.co.jp/jp/artists/mike-stern/", "official_tickets": null},
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["stable event-specific ticket URL", "apple_music"],
+        "note": "All four dates, both daily set times, complete quintet and ¥11,800 music charge are verified from Blue Note Tokyo. No session-dependent booking destination or unverified listening URL is stored."
+      },
+      "sources": [
+        {"url": "https://www.bluenote.co.jp/jp/artists/mike-stern/", "publisher": "Blue Note Tokyo", "checked_on": "2026-08-28", "note": "Official event page verifying September 1-4 dates, 6:00 PM / 8:30 PM sets, complete personnel and the venue's documented prior Mike Stern engagements."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Verified from Blue Note Tokyo's exact artist/event page. Repository search found no existing record for this 2026 Stern / Chambers / Brecker / Leni Stern / Goines engagement. No repertoire or ticket destination was inferred."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "The lineup is the hook: Stern and Leni Stern put two very different guitar vocabularies against Randy Brecker's brass attack, Dennis Chambers' enormous pocket and Lincoln Goines' electric-bass foundation. It is an unusually muscular fusion configuration, but Stern's recurring Blue Note Tokyo runs and eight available sets make this a strong option rather than a night the calendar has to bend around.",
+          "trip_verdict": "Keep it on the Tokyo board and take a set if the evening fits cleanly. Four consecutive nights make access easy enough to work around stronger one-off anchors without losing the chance to hear this lineup.",
+          "listen_before": "Mike Stern — Echoes and Other Songs"
+        },
+        "es": {
+          "why_it_matters": "El gancho es la formación: Mike y Leni Stern ponen dos vocabularios de guitarra muy distintos frente al ataque de Randy Brecker, el pocket enorme de Dennis Chambers y el bajo eléctrico de Lincoln Goines. Es una configuración de fusion especialmente musculosa, pero las visitas recurrentes de Stern a Blue Note Tokyo y ocho sets disponibles la vuelven una opción muy buena sin exigir doblar el calendario alrededor de ella.",
+          "trip_verdict": "La tendría en el tablero de Tokio y tomaría un set si la noche embona limpio. Cuatro días seguidos permiten acomodarla alrededor de anclas más raras sin perder la oportunidad de escuchar esta formación.",
+          "listen_before": "Mike Stern — Echoes and Other Songs"
+        }
+      }
+    },
+    {
+      "id": "the-residents-eskimo-blue-note-tokyo-2026-09-07",
+      "artist": "The Residents",
+      "subtitle": "Eskimo",
+      "dates": {"start": "2026-09-07", "end": "2026-09-09"},
+      "showtimes": ["18:00", "20:30"],
+      "venue": {"id": "blue-note-tokyo", "name": "Blue Note Tokyo", "city": "Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental rock / multimedia repertoire performance / Japan return",
+      "genres": ["Experimental rock", "Avant-garde", "Multimedia performance"],
+      "musical_axes": ["Japan / Tokyo", "Experimental / Metal", "Cultural context", "Cross-genre"],
+      "lineup": ["The Residents — ensemble"],
+      "factual_description": "Blue Note Tokyo presents The Residents: Eskimo on September 7-9, 2026, with daily sets at 6:00 PM and 8:30 PM. The venue frames the production around the world of the group's 1979 album Eskimo and identifies these dates as The Residents' first Japan performances since their 2017 Blue Note Tokyo engagement, a nine-year gap. The group's official historical site lists the same 2026 Eskimo tour through Tokyo and a subsequent North American itinerary.",
+      "links": {"official_event": "https://www.bluenote.co.jp/jp/artists/the-residents/", "official_tickets": null},
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["named live personnel", "stable event-specific ticket URL", "apple_music"],
+        "note": "Dates, set times, Eskimo repertoire framing and the nine-year Japan-return context are verified. The anonymous/unnamed live personnel are not guessed; no session-dependent booking URL or unverified listening URL is stored."
+      },
+      "sources": [
+        {"url": "https://www.bluenote.co.jp/jp/artists/the-residents/", "publisher": "Blue Note Tokyo", "checked_on": "2026-08-28", "note": "Official event page verifying September 7-9, both daily set times, Eskimo program framing and the nine-year interval since the group's 2017 Japan engagement."},
+        {"url": "https://testing.residents.com/historical/index.php?page=eskimo", "publisher": "The Residents", "checked_on": "2026-08-28", "note": "Artist-official historical/tour page listing the 2026 Eskimo dates in Tokyo and the wider 2026 touring itinerary, relevant to the scarcity check."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Verified from Blue Note Tokyo and The Residents' official historical site. Repository search found no existing Residents / Eskimo RADAR record. No anonymous member identities or unannounced supporting personnel were inferred."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is repertoire as performance art: a group that has spent half a century collapsing records, costumes, film and invented mythology returns to Japan after nine years to rebuild the world of Eskimo in a club room. The historical album is the concrete thread, and Blue Note Tokyo's scale should make the visual and sonic detail unusually immediate.",
+          "trip_verdict": "If September overlaps Tokyo, actively make room for one of the six sets. The three-night run gives flexibility, and the broader tour means there is no need to treat any single Tokyo curtain as a once-only event.",
+          "listen_before": "The Residents — Eskimo"
+        },
+        "es": {
+          "why_it_matters": "Aquí el repertorio se vuelve performance art: un grupo que lleva medio siglo mezclando discos, disfraces, cine y mitología inventada regresa a Japón después de nueve años para reconstruir el mundo de Eskimo dentro de un club. El álbum histórico es el hilo concreto y la escala de Blue Note Tokyo debería volver muy inmediatos tanto el detalle visual como el sonoro.",
+          "trip_verdict": "Si septiembre coincide con Tokio, sí le abriría espacio activamente a uno de los seis sets. Las tres noches dan flexibilidad y la gira más amplia evita tratar una sola función como oportunidad irrepetible.",
+          "listen_before": "The Residents — Eskimo"
+        }
+      }
+    },
+    {
+      "id": "marty-friedman-cotton-club-tokyo-2026-09-28",
+      "artist": "Marty Friedman",
+      "subtitle": "JAPAN LIVE 2026 with ASTERISM and special guest Nanase Aikawa",
+      "dates": {"start": "2026-09-28", "end": null},
+      "showtimes": ["18:00", "20:30"],
+      "venue": {"id": "cotton-club-tokyo", "name": "COTTON CLUB", "city": "Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Virtuoso guitar / heavy instrumental cross-genre special lineup",
+      "genres": ["Heavy metal", "Instrumental rock", "Progressive rock", "J-Rock"],
+      "musical_axes": ["Japan / Tokyo", "Masters", "Instrumental identity", "Experimental / Metal", "Cross-genre"],
+      "lineup": [
+        "Marty Friedman — guitar",
+        "HAL-CA — guitar (ASTERISM)",
+        "MIYU — bass (ASTERISM)",
+        "MIO — drums (ASTERISM)",
+        "Mika Maruki — keyboards",
+        "Nanase Aikawa — special guest vocals"
+      ],
+      "factual_description": "COTTON CLUB presents Marty Friedman JAPAN LIVE 2026 on September 28, 2026 with sets at 6:00 PM and 8:30 PM. The announced lineup pairs Friedman with the technical instrumental trio ASTERISM—HAL-CA, MIYU and MIO—plus keyboardist Mika Maruki and special guest vocalist Nanase Aikawa. The venue describes the date as a one-night special stage and notes that Friedman is also supporting Aikawa on her current national tour.",
+      "links": {"official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marty-friedman-260928/", "official_tickets": null},
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["stable event-specific ticket URL", "apple_music"],
+        "note": "Date, both set times, complete announced personnel, one-night framing and reservation-opening dates are verified from COTTON CLUB. Its booking flow is account/session based, so no unstable purchase destination is stored."
+      },
+      "sources": [
+        {"url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marty-friedman-260928/", "publisher": "COTTON CLUB", "checked_on": "2026-08-28", "note": "Official event page verifying September 28, 6:00 PM / 8:30 PM sets, Friedman / ASTERISM / Maruki / Aikawa lineup, one-night special-stage framing and current Friedman-Aikawa touring connection."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Verified from the exact COTTON CLUB event page. Repository search found no existing Marty Friedman / September 28, 2026 Cotton Club RADAR record. No repertoire, ticket destination or listening link was inferred."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "The generational guitar exchange is the point. Friedman brings a career built on turning metal technique into a personal melodic language, while ASTERISM supplies a younger Japanese instrumental engine that is already built around precision, speed and heavy groove; Aikawa then changes the second axis from instrumental display to a real rock-song voice. That exact club-scale combination is more interesting than a routine Friedman stop.",
+          "trip_verdict": "Actively make room if September 28 is open in Tokyo. Two sets keep the logistics flexible, and the exact lineup is distinctive enough to anchor the evening without pretending the collaborators will never cross paths again.",
+          "listen_before": "Marty Friedman — Tokyo Jukebox 3; ASTERISM — Kick Down the Wall"
+        },
+        "es": {
+          "why_it_matters": "El punto es el cruce generacional de guitarras. Friedman trae una carrera construida alrededor de convertir la técnica del metal en un lenguaje melódico propio; ASTERISM pone un motor instrumental japonés más joven hecho de precisión, velocidad y groove pesado; Aikawa cambia después el segundo eje, del despliegue instrumental a una voz real de canción rock. Esa combinación exacta en escala de club tiene mucho más interés que una parada rutinaria de Friedman.",
+          "trip_verdict": "Sí le abriría espacio activamente si el 28 de septiembre está libre en Tokio. Dos sets mantienen flexible la logística y la formación es suficientemente particular para anclar la noche sin fingir que estos colaboradores nunca volverán a cruzarse.",
+          "listen_before": "Marty Friedman — Tokyo Jukebox 3; ASTERISM — Kick Down the Wall"
+        }
+      }
+    },
+    {
+      "id": "chucho-valdes-85-strathmore-2026-10-18",
+      "artist": "Chucho Valdés",
+      "subtitle": "85th Birthday Celebration with special guests Joe Lovano and Etienne Charles",
+      "dates": {"start": "2026-10-18", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {"id": "music-center-at-strathmore-north-bethesda-md", "name": "The Music Center at Strathmore", "city": "North Bethesda", "state": "MD", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / 85th-birthday retrospective / Afro-Cuban jazz",
+      "genres": ["Afro-Cuban jazz", "Latin jazz", "Jazz"],
+      "musical_axes": ["Masters", "Latin", "Acoustic Jazz", "Instrumental identity", "Cultural context"],
+      "lineup": [
+        "Chucho Valdés — piano",
+        "Joe Lovano — special guest",
+        "Etienne Charles — special guest"
+      ],
+      "factual_description": "Strathmore presents Chucho Valdés' 85th Birthday Celebration at the Music Center in North Bethesda on Sunday, October 18, 2026 at 7:30 PM, with special guests Joe Lovano and Etienne Charles. The venue frames the concert as a career retrospective connecting Valdés' Irakere innovations with his more recent Cuba and Beyond work. Other presenters confirm that the 85th-birthday program with Lovano and Charles appears at multiple 2026 tour stops, which is material to the scarcity review.",
+      "links": {"official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/", "official_tickets": null},
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["complete touring band personnel", "current stable official purchase URL", "apple_music"],
+        "note": "Date, 7:30 PM start, venue, birthday-retrospective framing and named special guests are verified from Strathmore. No unannounced rhythm-section personnel or resale destination is substituted for an official purchase link."
+      },
+      "sources": [
+        {"url": "https://www.strathmore.org/events-tickets/in-the-music-center/chucho-valdes/", "publisher": "Strathmore", "checked_on": "2026-08-28", "note": "Official presenter page verifying October 18, 2026 at 7:30 PM, Music Center venue, 85th-birthday retrospective and special guests Joe Lovano and Etienne Charles."},
+        {"url": "https://www.cornellconcertseries.com/2627-season/chuchovaldes", "publisher": "Cornell Concert Series", "checked_on": "2026-08-28", "note": "Official presenter page confirming the same 85th-birthday program with Lovano and Charles at another October 2026 tour stop, used to challenge S-level scarcity."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Strathmore verifies the local performance and named guests; Cornell independently verifies that the same birthday program and guests recur on the 2026 tour. Repository search found no existing October 18, 2026 Chucho Valdés RADAR record. No additional personnel or ticket URL was inferred."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "At eighty-five, Valdés is not being presented as a museum piece: the concert traces the Afro-Cuban language he helped remake through Irakere into his current work, with Joe Lovano and Etienne Charles adding two very different horn perspectives around the piano. For a local night, the combination of living-master perspective, Latin-jazz history and active collaboration is unusually strong.",
+          "trip_verdict": "Actively make room in the local calendar for Strathmore. The 85th-birthday program is touring, so there is no need to manufacture one-night scarcity, but North Bethesda gets a major career-scale statement without requiring a corridor trip.",
+          "listen_before": "Chucho Valdés — Cuba and Beyond; Irakere"
+        },
+        "es": {
+          "why_it_matters": "A los ochenta y cinco, Valdés no aparece como pieza de museo: el concierto recorre el lenguaje afrocubano que ayudó a transformar con Irakere hasta su trabajo actual, con Joe Lovano y Etienne Charles sumando dos perspectivas de metales muy distintas alrededor del piano. Para una noche local, la mezcla de maestro vivo, historia del jazz latino y colaboración activa es especialmente fuerte.",
+          "trip_verdict": "Sí le haría espacio activamente en el calendario local a Strathmore. El programa de los 85 años está de gira, así que no hace falta fabricar una escasez de una sola noche, pero North Bethesda recibe una declaración de escala de carrera sin exigir viaje por el corredor.",
+          "listen_before": "Chucho Valdés — Cuba and Beyond; Irakere"
+        }
+      }
+    },
+    {
+      "id": "the-residents-eskimo-930-club-washington-dc-2026-10-17",
+      "artist": "The Residents",
+      "subtitle": "Eskimo Live",
+      "dates": {"start": "2026-10-17", "end": null},
+      "showtimes": [],
+      "venue": {"id": "930-club-washington-dc", "name": "9:30 Club", "city": "Washington, DC", "state": "DC", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Experimental rock / multimedia repertoire tour",
+      "genres": ["Experimental rock", "Avant-garde", "Multimedia performance"],
+      "musical_axes": ["Experimental / Metal", "Cultural context", "Cross-genre"],
+      "lineup": ["The Residents — ensemble"],
+      "factual_description": "I.M.P. presents The Residents — Eskimo Live at 9:30 Club in Washington, DC on Saturday, October 17, 2026. The promoter explicitly lists doors at 10:00 PM but does not publish a separate performance start time, so no showtime is inferred. Ticketmaster is the authorized ticket destination. Blue Note Tokyo's official page for the same 2026 production identifies Eskimo as the repertoire center, while The Residents' official historical site documents a broad 2026 Eskimo tour including Washington.",
+      "links": {"official_event": "https://impconcerts.com/event/the-residents-eskimo-live/", "official_tickets": "https://www.ticketmaster.com/the-residents-eskimo-live-washington-district-of-columbia-10-17-2026/event/150064E9AC607411"},
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["verified performance start time", "named live personnel", "apple_music"],
+        "note": "Date, venue, 10:00 PM doors and authorized Ticketmaster destination are verified from I.M.P. A separate start time is not stated by the promoter and is deliberately left unresolved rather than treating doors as showtime."
+      },
+      "sources": [
+        {"url": "https://impconcerts.com/event/the-residents-eskimo-live/", "publisher": "I.M.P. / 9:30 Club", "checked_on": "2026-08-28", "note": "Primary promoter page verifying October 17, 2026, 9:30 Club, Washington, 10:00 PM doors and authorized Ticketmaster ticket link."},
+        {"url": "https://www.ticketmaster.com/the-residents-eskimo-live-washington-district-of-columbia-10-17-2026/event/150064E9AC607411", "publisher": "Ticketmaster", "checked_on": "2026-08-28", "note": "Authorized ticket page verifying the exact Washington event; because I.M.P. labels 10:00 PM as doors, it is not promoted to a showtime field."},
+        {"url": "https://www.bluenote.co.jp/jp/artists/the-residents/", "publisher": "Blue Note Tokyo", "checked_on": "2026-08-28", "note": "Official presenter page for the same 2026 Eskimo production establishing the landmark 1979 album as the program's repertoire center."},
+        {"url": "https://testing.residents.com/historical/index.php?page=eskimo", "publisher": "The Residents", "checked_on": "2026-08-28", "note": "Artist-official historical/tour page documenting Washington within the broad 2026 Eskimo itinerary, relevant to admission context and the scarcity challenge."}
+      ],
+      "provenance": {"status": "verified-primary-and-authorized-sources", "note": "I.M.P. and Ticketmaster verify the local event and ticket path; Blue Note Tokyo and The Residents' official historical site verify the Eskimo production context and touring breadth. Repository search found no existing Residents / Eskimo RADAR record. No show start, anonymous member identity or opener was invented."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "The local reason is the chance to see a culturally durable piece of American avant-garde theater-rock built around Eskimo rather than a generic legacy set. The Residents' live language has always treated sound, costume, narrative and image as one object, and 9:30 Club puts that strange vocabulary into a familiar DMV room instead of a museum or festival context.",
+          "trip_verdict": "Keep the Saturday on the local board and go if the late-night timing works. The production is touring widely, so Washington is a useful chance to catch it close to home rather than a date that should displace a rarer one-off elsewhere.",
+          "listen_before": "The Residents — Eskimo"
+        },
+        "es": {
+          "why_it_matters": "La razón local es poder ver una pieza culturalmente duradera del teatro-rock de vanguardia estadounidense construida alrededor de Eskimo, no un set genérico de catálogo. En vivo, The Residents siempre ha tratado sonido, vestuario, relato e imagen como un solo objeto, y 9:30 Club mete ese vocabulario raro en una sala familiar del DMV en vez de un museo o festival.",
+          "trip_verdict": "La tendría en el tablero local del sábado e iría si el horario nocturno acomoda. La producción está girando ampliamente, así que Washington funciona como oportunidad cercana y útil, no como fecha que deba desplazar un one-off más raro en otro lugar.",
+          "listen_before": "The Residents — Eskimo"
+        }
+      }
+    },
+    {
+      "id": "three-visitors-cotton-club-tokyo-2026-12-13",
+      "artist": "Three Visitors",
+      "subtitle": "Edward Simon / Scott Colley / Brian Blade",
+      "dates": {"start": "2026-12-13", "end": "2026-12-14"},
+      "showtimes": ["16:30", "19:30", "18:00", "20:30"],
+      "venue": {"id": "cotton-club-tokyo", "name": "COTTON CLUB", "city": "Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Acoustic piano trio / collaborative contemporary jazz",
+      "genres": ["Contemporary jazz", "Acoustic jazz", "Improvised music"],
+      "musical_axes": ["Japan / Tokyo", "Masters", "Acoustic Jazz", "Instrumental identity", "Improvised"],
+      "lineup": [
+        "Edward Simon — piano",
+        "Scott Colley — bass",
+        "Brian Blade — drums"
+      ],
+      "factual_description": "COTTON CLUB presents Three Visitors featuring Edward Simon, Scott Colley and Brian Blade on December 13-14, 2026. December 13 sets start at 4:30 PM and 7:30 PM; December 14 sets start at 6:00 PM and 8:30 PM. The venue describes the trio's 2024 GroundUP album Three Visitors as the project center and notes a further Blue Note Tokyo performance on December 15, giving the project five Tokyo sets across three consecutive days.",
+      "links": {"official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/three-visitors-261213/", "official_tickets": null},
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["stable event-specific ticket URL", "apple_music"],
+        "note": "All Cotton Club dates, set times, trio personnel, album context and the following Blue Note Tokyo date are verified. No unstable reservation destination or unverified listening URL is stored."
+      },
+      "sources": [
+        {"url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/three-visitors-261213/", "publisher": "COTTON CLUB", "checked_on": "2026-08-28", "note": "Official event page verifying December 13-14, all four Cotton Club set times, Simon / Colley / Blade personnel, Three Visitors album context and the December 15 Blue Note Tokyo continuation."}
+      ],
+      "provenance": {"status": "verified-primary-source", "note": "Verified from the exact COTTON CLUB page. Repository search found no existing Three Visitors RADAR record. No additional personnel, repertoire beyond the documented project context or ticket URL was inferred."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a trio built on equality rather than a star plus rhythm section: Simon, Colley and Blade bring compositions into a conversation where piano, bass and drums can trade structural responsibility from tune to tune. The appeal is that balance and the accumulated trust among three major improvisers, not a special-effects billing or anniversary frame.",
+          "trip_verdict": "Worth catching if the December Tokyo calendar has room, with five local sets across three days making it easy to fit around rarer anchors. Pick the room and time that work best rather than reorganizing the trip around one performance.",
+          "listen_before": "Three Visitors — Three Visitors"
+        },
+        "es": {
+          "why_it_matters": "Es un trío construido sobre igualdad y no sobre una estrella con sección rítmica: Simon, Colley y Blade llevan composiciones a una conversación donde piano, bajo y batería pueden intercambiar la responsabilidad estructural de tema en tema. El atractivo está en ese equilibrio y en la confianza acumulada entre tres improvisadores mayores, no en un billing de efectos especiales ni en un aniversario.",
+          "trip_verdict": "Vale entrar si el calendario de diciembre en Tokio tiene espacio; cinco sets locales en tres días permiten acomodarlo alrededor de anclas más raras. Escogería la sala y el horario que mejor funcionen en vez de reorganizar el viaje por una sola función.",
+          "listen_before": "Three Visitors — Three Visitors"
+        }
+      }
+    }
+  ]
+}
