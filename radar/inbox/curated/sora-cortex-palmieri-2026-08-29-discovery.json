@@ -1,0 +1,332 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sora-ichikawa-cortex-eddie-palmieri-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-08-29 after rereading the current docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md from main. Fresh Yamamoto checks of Jazz House ALFIE, BODY&SOUL, schedule traces, Space M&A leads, and credible Japanese-jazz sources produced no new verified unrecorded Yamamoto performance with a performance-specific reason that cleared Stage 1; already-curated Yamamoto dates were not duplicated. The broader pass admitted three unrecorded performances for specific live-context reasons: Sora Ichikawa's release performance returns the Concept Band to ALFIE, the room where its first live album was recorded; Cortex brings Alain Mion's founder-led French psychedelic jazz-funk project to a local Washington date on the Le Jazz Est Mort North American tour; and Jazz at Lincoln Center convenes longtime Eddie Palmieri collaborators and alumni for a two-night all-star celebration. Priority was assigned only after admission. Final proposed distribution: A 1, A+ 2, S 0, S+ 0. The recent/current RADAR intake remains centered on A and A+, with S/S+ sparse; this batch preserves that shape without using a quota. Cortex was not promoted to S because the 2026 itinerary is a multi-city North American tour and the group also toured North America in 2024. The Eddie Palmieri Experience was not promoted to S because the November program runs two nights and follows a related Palmieri retrospective at the January 2026 Unity Jazz Festival; active prioritization is more durable than a one-off scarcity claim. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "sora-ichikawa-concept-band-jazz-house-alfie-tokyo-2026-09-12",
+      "artist": "Sora Ichikawa Concept Band",
+      "subtitle": "First live-album release performance at the room where it was recorded",
+      "dates": {
+        "start": "2026-09-12",
+        "end": null
+      },
+      "showtimes": [
+        "19:15"
+      ],
+      "venue": {
+        "id": "jazz-house-alfie-roppongi",
+        "name": "Jazz House ALFIE",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "ALFIE recording-room return / first live-album release performance",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Sora Ichikawa — piano",
+        "高橋将 — bass",
+        "塚田陽太 — drums"
+      ],
+      "factual_description": "Sora Ichikawa leads the Concept Band at Jazz House ALFIE in Roppongi on September 12, 2026 at 7:15 PM, with Ichikawa on piano, 高橋将 on bass and 塚田陽太 on drums. Disk Union's company press release identifies the performance as the release live for Ichikawa's first live album, Sora Ichikawa Concept Band, recorded at ALFIE. The album is described as a continuous live work without MC or breaks, giving the return to the recording room a direct performance context.",
+      "links": {
+        "official_event": "https://prtimes.jp/main/html/rd/p/000000754.000033531.html",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "event-specific official ticketing",
+          "verified event-specific music charge",
+          "apple_music"
+        ],
+        "note": "September 12, 2026, the 7:15 PM start, trio personnel and release-live context were verified from Disk Union's company press release and TOWER RECORDS intoxicate; ALFIE's official site corroborates the venue and the Live@alfie release thread. No price, ticket destination or Apple Music ID is stored without exact verification."
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Jazz House ALFIE",
+          "url": "https://alfie.tokyo/",
+          "checked_on": "2026-08-29",
+          "note": "Official venue site corroborates Jazz House ALFIE in Roppongi and highlights the Sora Ichikawa Concept Band Live@alfie release."
+        },
+        {
+          "type": "label_press_release",
+          "name": "Disk Union company press release — Sora Ichikawa Concept Band",
+          "url": "https://prtimes.jp/main/html/rd/p/000000754.000033531.html",
+          "checked_on": "2026-08-29",
+          "note": "Company press release verifies the first live album, its recording at ALFIE, the continuous live-work concept and the September 12 ALFIE release performance with the trio."
+        },
+        {
+          "type": "authoritative_music_press",
+          "name": "TOWER RECORDS intoxicate — Sora Ichikawa Concept Band",
+          "url": "https://mikiki.tokyo.jp/articles/-/41855",
+          "checked_on": "2026-08-29",
+          "note": "Music-publication listing corroborates September 12 at ALFIE, 18:45 open / 19:15 start, and the trio personnel."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Repository searches for Sora Ichikawa, 市川空 and the September 12 ALFIE date found no matching RADAR candidate before publication. Stage 1 admission rests on the Concept Band returning to ALFIE, the exact room where its first live album was recorded, which also connects directly to the project's ALFIE listening thread. Stage 2 assigns A: the context is specific and worth knowing, but no scarcity or singular one-off claim is documented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The room is part of the record's identity: Ichikawa's first live album was captured at ALFIE as one continuous performance, and the same piano-bass-drums concept returns there for the release show. It is more than another young-trio date; it folds a new Japanese-jazz voice directly into the ALFIE thread that started RADAR.",
+          "trip_verdict": "If September 12 falls inside a Tokyo stay, catch it if the night is open and let ALFIE anchor the evening. The return to the recording room gives it extra weight without displacing a rarer date.",
+          "listen_before": "Sora Ichikawa Concept Band"
+        },
+        "es": {
+          "why_it_matters": "La sala forma parte de la identidad del disco: el primer álbum en vivo de Ichikawa se grabó en ALFIE como una sola secuencia continua, y el mismo concepto de piano, bajo y batería vuelve ahí para el concierto de lanzamiento. No es sólo otra fecha de un trío joven; mete una voz nueva del jazz japonés directamente en el hilo del lugar donde nació RADAR.",
+          "trip_verdict": "Si el 12 de septiembre cae dentro de una estancia en Tokio, la agarraría si la noche está libre y dejaría que ALFIE la ancle. El regreso al lugar de la grabación le da un peso especial, sin necesidad de desplazar una fecha más rara.",
+          "listen_before": "Sora Ichikawa Concept Band"
+        }
+      }
+    },
+    {
+      "id": "cortex-howard-theatre-washington-dc-2026-10-06",
+      "artist": "Cortex",
+      "subtitle": "Le Jazz Est Mort — North American Tour 2026",
+      "dates": {
+        "start": "2026-10-06",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "howard-theatre-washington-dc",
+        "name": "Howard Theatre",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Founder-led French psychedelic jazz-funk / hip-hop sampling lineage",
+      "genres": [
+        "Jazz-funk",
+        "Psychedelic jazz",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Fusion / Prog",
+        "Groove",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Cortex — ensemble led by Alain Mion (piano, composition, vocals)"
+      ],
+      "factual_description": "ArtDontSleep's official Le Jazz Est Mort tour page lists Cortex at Howard Theatre in Washington, DC on Tuesday, October 6, 2026 as part of the band's North American Tour 2026. AXS lists the performance at 8:00 PM. ArtDontSleep identifies Cortex as the French psychedelic jazz-funk group founded and led by pianist, composer and vocalist Alain Mion, and connects the 1975 album Troupeau Bleu to a broad hip-hop sampling history. The 2026 page describes a multi-city North American tour; the same presenter also documents a 2024 North American Cortex run.",
+      "links": {
+        "official_event": "https://artdontsleep.com/cortex-2026/",
+        "official_tickets": "https://www.axs.com/events/1520923/cortex-tickets"
+      },
+      "recommended_listening": [],
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": "https://www.axs.com/events/1520923/cortex-tickets",
+          "checked_on": "2026-08-29"
+        }
+      },
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "complete verified 2026 touring personnel",
+          "verified official face-value availability",
+          "apple_music"
+        ],
+        "note": "Date, Washington/Howard Theatre stop, 8:00 PM start, Alain Mion's founder-leader role and the Le Jazz Est Mort 2026 tour context were verified from ArtDontSleep and AXS. The AXS page currently surfaces Marketplace resale inventory, so no resale price is copied and no official face-value price is inferred. Supporting 2026 personnel are not inferred from the documented 2024 lineup."
+      },
+      "sources": [
+        {
+          "type": "official_presenter",
+          "name": "ArtDontSleep / Le Jazz Est Mort — Cortex North American Tour 2026",
+          "url": "https://artdontsleep.com/cortex-2026/",
+          "checked_on": "2026-08-29",
+          "note": "Official tour page verifies the October 6 Washington stop, Alain Mion's founder-leader role, the project's French psychedelic jazz-funk identity, Troupeau Bleu context and the multi-city 2026 North American tour."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "AXS — Cortex at Howard Theatre",
+          "url": "https://www.axs.com/events/1520923/cortex-tickets",
+          "checked_on": "2026-08-29",
+          "note": "Authorized event page verifies Tuesday, October 6, 2026 at 8:00 PM at Howard Theatre in Washington, DC. The currently surfaced offer is AXS Marketplace resale rather than verified face-value inventory."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Repository search for Cortex returned no matching RADAR candidate before publication. Stage 1 admission rests on the founder-led band's specific jazz-funk vocabulary, groove and cross-genre cultural afterlife through hip-hop sampling, plus a local Washington performance. Stage 2 assigns A+: this is actively worth making room for locally, but the documented multi-city 2026 tour and prior 2024 North American tour do not support S-tier scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Cortex sits exactly where groove, instrumental identity and cultural afterlife meet. Alain Mion is still leading the project more than fifty years after Troupeau Bleu, and those French jazz-funk lines now carry a second history through the hip-hop records that sampled them. Hearing that continuum live in Washington is a concrete cross-genre event, not nostalgia.",
+          "trip_verdict": "Actively make room for the Howard Theatre date if October 6 is open. It is local, the musical thread is unusually on-point, and there is no need to manufacture travel scarcity around a tour with multiple North American stops.",
+          "listen_before": "Cortex — Troupeau Bleu"
+        },
+        "es": {
+          "why_it_matters": "Cortex cae justo donde se cruzan groove, identidad instrumental y una segunda vida cultural. Alain Mion sigue al frente del proyecto más de cincuenta años después de Troupeau Bleu, y esas líneas de jazz-funk francés ya cargan otra historia a través de los discos de hip-hop que las samplearon. Escuchar ese continuo en Washington es un cruce de lenguajes concreto, no nostalgia.",
+          "trip_verdict": "Si el 6 de octubre está libre, sí le haría espacio activamente a la fecha del Howard Theatre. Es local y el hilo musical embona de lleno; no hace falta inventarle escasez de viaje a una gira con varias paradas norteamericanas.",
+          "listen_before": "Cortex — Troupeau Bleu"
+        }
+      }
+    },
+    {
+      "id": "eddie-palmieri-experience-jalc-rose-theater-nyc-2026-11-13",
+      "artist": "Eddie Palmieri Experience",
+      "subtitle": "An All-Star Celebration",
+      "dates": {
+        "start": "2026-11-13",
+        "end": "2026-11-14"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-frederick-p-rose-hall-nyc",
+        "name": "Rose Theater at Frederick P. Rose Hall",
+        "city": "New York City",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional trip / New York City",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Palmieri alumni celebration / Latin-jazz living repertoire",
+      "genres": [
+        "Latin jazz",
+        "Salsa",
+        "Afro-Caribbean jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Latin",
+        "Groove",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Louis Fouché — saxophone / co-music director",
+        "Luques Curtis — bass / co-music director",
+        "Brian Lynch — Palmieri alumnus",
+        "Conrad Herwig — Palmieri alumnus",
+        "Herman Olivera — Palmieri alumnus",
+        "Nelson Gonzalez — Palmieri alumnus"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Eddie Palmieri Experience: An All-Star Celebration at Rose Theater on Friday, November 13 and Saturday, November 14, 2026, with both performances at 7:30 PM. Longtime Palmieri collaborators Louis Fouché and Luques Curtis serve as music directors, and the announced alumni include Brian Lynch, Conrad Herwig, Herman Olivera and Nelson Gonzalez, with additional artists to be announced. Jazz at Lincoln Center describes the program as an across-decades celebration of Palmieri's repertoire. A related Eddie Palmieri Experience retrospective led by Fouché and Curtis also appeared at the January 2026 Unity Jazz Festival, which informs the scarcity review.",
+      "links": {
+        "official_event": "https://jazz.org/concert/eddie-palmieri-experience-an-all-star-celebration/",
+        "official_tickets": "https://ticketing.jazz.org/20627/20629"
+      },
+      "recommended_listening": [],
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ticketing.jazz.org/20627/20629",
+          "checked_on": "2026-08-29"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "complete announced personnel",
+          "verified ticket-price range",
+          "apple_music"
+        ],
+        "note": "Both November 13-14 dates, 7:30 PM starts, Rose Theater, the two music directors and four named alumni were verified from Jazz at Lincoln Center. The presenter says additional artists will join, so no unannounced personnel are inferred. The exact authorized ticket destination is stored without inventing a price range."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Jazz at Lincoln Center — Eddie Palmieri Experience: An All-Star Celebration",
+          "url": "https://jazz.org/concert/eddie-palmieri-experience-an-all-star-celebration/",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies November 13-14, 2026, both 7:30 PM starts, Rose Theater, Fouché and Curtis as music directors, and named Palmieri alumni Lynch, Herwig, Olivera and Gonzalez."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Jazz at Lincoln Center ticketing — Eddie Palmieri Experience",
+          "url": "https://ticketing.jazz.org/20627/20629",
+          "checked_on": "2026-08-29",
+          "note": "Authorized presenter ticketing destination for the November Rose Theater performances."
+        },
+        {
+          "type": "official_presenter_archive",
+          "name": "Jazz at Lincoln Center — Unity Jazz Festival 2026 announcement",
+          "url": "https://jazz.org/press/jazz-at-lincoln-center-announces-2025-26-season/",
+          "checked_on": "2026-08-29",
+          "note": "Official season announcement documents a related Eddie Palmieri Experience retrospective led by Louis Fouché and Luques Curtis at the January 2026 Unity Jazz Festival, relevant to the scarcity challenge."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Repository searches for Eddie Palmieri Experience, Palmieri, and the November 13 Rose Theater date returned no matching current RADAR candidate before publication. Stage 1 admission rests on a living alumni ensemble directed by longtime Palmieri collaborators and an across-decades repertoire context, not on the master's name alone. Stage 2 assigns A+ after a scarcity challenge: two November performances plus a related January 2026 retrospective make active prioritization more durable than S-tier one-off scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Palmieri's music is being carried by people who actually lived inside it. Fouché and Curtis direct a band of alumni that already includes Lynch, Herwig, Olivera and Gonzalez, so the retrospective can move through salsa and Latin-jazz history as working band language rather than tribute-band reconstruction.",
+          "trip_verdict": "If New York is workable on November 13 or 14, actively make room for one of the two Rose Theater nights and pair it with another city reason. The second performance gives flexibility, and the alumni context is strong enough to anchor the evening without pretending it is the only chance to hear this Palmieri project.",
+          "listen_before": "Eddie Palmieri — La Perfecta / Harlem River Drive / The Sun of Latin Music"
+        },
+        "es": {
+          "why_it_matters": "La música de Palmieri queda en manos de gente que realmente vivió adentro de ella. Fouché y Curtis dirigen una banda de excolaboradores que ya incluye a Lynch, Herwig, Olivera y Gonzalez, así que el recorrido por salsa y jazz latino puede sonar como lenguaje de banda viva y no como reconstrucción de homenaje.",
+          "trip_verdict": "Si Nueva York funciona el 13 o 14 de noviembre, sí le haría espacio activamente a una de las dos noches en Rose Theater y la combinaría con otra razón para estar en la ciudad. La segunda función da flexibilidad, y el contexto de excolaboradores alcanza para anclar la velada sin fingir que es la única oportunidad de escuchar este proyecto sobre Palmieri.",
+          "listen_before": "Eddie Palmieri — La Perfecta / Harlem River Drive / The Sun of Latin Music"
+        }
+      }
+    }
+  ]
+}
