@@ -1,0 +1,297 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "village-vanguard-gilmore-ravi-hersch-october-2026-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass after rereading the current repository authority files. No new unrecorded Tsuyoshi Yamamoto appearance cleared RADAR admission in this pass. Three Village Vanguard residencies clear Stage 1 on performance-specific grounds. Final priority shape: A 1, A+ 2, S 0, S+ 0. Both A+ candidates were explicitly challenged against scarcity tiers: Ravi Coltrane's centennial is a six-night Village Vanguard residency within a wider 2026 centennial concert cycle, and Fred Hersch's Trio + 2 is a six-night return to a concept with documented prior performances. A+ captures the recommendation in both cases; no priority_review is warranted.",
+  "events": [
+    {
+      "id": "marcus-gilmore-new-orchestra-village-vanguard-new-york-2026-10-06",
+      "artist": "Marcus Gilmore’s New Orchestra",
+      "subtitle": "Six-night Village Vanguard residency",
+      "dates": {
+        "start": "2026-10-06",
+        "end": "2026-10-11"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "village-vanguard-new-york-ny",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A",
+      "category": "New ensemble / contemporary improvised music",
+      "genres": [
+        "Jazz",
+        "Improvised music",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Marcus Gilmore",
+        "Morgan Guerin",
+        "Joel Ross",
+        "David Virelles",
+        "Emmanuel Michael",
+        "Rashaan Carter",
+        "Ekep Nkwelle"
+      ],
+      "factual_description": "Village Vanguard lists Marcus Gilmore’s New Orchestra for October 6–11, 2026, with Morgan Guerin, Joel Ross, David Virelles, Emmanuel Michael, Rashaan Carter and Ekep Nkwelle. The venue's current official upcoming page and authorized SquadUp portal confirm the residency dates and billing. The accessible official event copy does not currently expose the individual set times, so no showtimes are inferred.",
+      "links": {
+        "official_event": "https://villagevanguard.com/event/coming-soon",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The venue schedule and its authorized SquadUp portal verify the run and named ensemble. An exact event-specific SquadUp purchase URL and an exact Apple Music destination were not independently captured, so neither is invented."
+      },
+      "sources": [
+        {
+          "url": "https://villagevanguard.com/event/coming-soon",
+          "publisher": "Village Vanguard",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue schedule verifying the October 6–11 residency, billing and six named ensemble members alongside Gilmore."
+        },
+        {
+          "url": "https://vv.squadup.com/artists?direct=true",
+          "publisher": "Village Vanguard / SquadUp",
+          "checked_on": "2026-08-29",
+          "note": "Authorized Village Vanguard ticket portal confirming Marcus Gilmore’s New Orchestra as an upcoming October 6–11 booking; no event-specific purchase URL is copied without verification."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core event facts were verified from Village Vanguard and its authorized ticket portal. Repository searches found no existing Marcus Gilmore New Orchestra Village Vanguard candidate before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to track this week is the ensemble itself: Gilmore expands beyond a small-group drum chair into a seven-person New Orchestra with Guerin, Ross, Virelles, Michael, Carter and Nkwelle. The unusual personnel mix makes the project worth hearing as a statement about rhythm, orchestration and collective identity rather than simply another strong Vanguard booking.",
+          "trip_verdict": "If New York is already workable that week, catch one of the six nights if convenient. The residency gives enough flexibility to fit it around a stronger regional anchor rather than making it the sole reason for the corridor trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón para seguir esta semana es el ensamble mismo: Gilmore sale del formato de grupo pequeño y arma una New Orchestra de siete músicos con Guerin, Ross, Virelles, Michael, Carter y Nkwelle. La combinación de personalidades hace que valga escuchar el proyecto como una propuesta de ritmo, orquestación e identidad colectiva, no sólo como otra buena contratación del Vanguard.",
+          "trip_verdict": "Si Nueva York ya resulta viable esa semana, aprovecharía una de las seis noches si acomoda. La residencia da suficiente flexibilidad para combinarla con un ancla regional más fuerte en vez de convertirla en el único motivo del viaje por el corredor.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "ravi-coltrane-centennial-village-vanguard-new-york-2026-10-13",
+      "artist": "Ravi Coltrane Quartet",
+      "subtitle": "Centennial Celebration",
+      "dates": {
+        "start": "2026-10-13",
+        "end": "2026-10-18"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "village-vanguard-new-york-ny",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "John Coltrane centennial / lineage / historic venue",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ravi Coltrane",
+        "David Virelles (October 13–15)",
+        "Dezron Douglas (October 13–15)",
+        "Johnathan Blake (October 13–15)",
+        "Jonathan Finlayson (October 16–18)",
+        "Gadi Lehavi (October 16–18)",
+        "Anwar Marshall (October 16–18)"
+      ],
+      "factual_description": "Village Vanguard lists Ravi Coltrane Quartet: Centennial Celebration for October 13–18, 2026. The venue publishes David Virelles, Dezron Douglas and Johnathan Blake for October 13–15, then a different announced group for October 16–18. The standardized spellings Jonathan Finlayson and Gadi Lehavi are corroborated by current SFJAZZ centennial personnel material; Anwar Marshall is the third name listed by the Vanguard for the later dates. The accessible official event copy does not currently expose individual set times, so no showtimes are inferred.",
+      "links": {
+        "official_event": "https://villagevanguard.com/event/coming-soon",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact residency dates, title and date-specific personnel are verified from Village Vanguard; the authorized SquadUp portal also lists the run. An exact event-specific purchase URL and an exact Apple Music destination were not independently captured."
+      },
+      "sources": [
+        {
+          "url": "https://villagevanguard.com/",
+          "publisher": "Village Vanguard",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue front page verifying the October 13–18 Centennial Celebration and the two date-specific personnel groups."
+        },
+        {
+          "url": "https://vv.squadup.com/artists?direct=true",
+          "publisher": "Village Vanguard / SquadUp",
+          "checked_on": "2026-08-29",
+          "note": "Authorized ticket portal confirming Ravi Coltrane Centennial Celebration as an upcoming October 13–18 booking."
+        },
+        {
+          "url": "https://www.sfjazz.org/tickets/productions/26-27/ravi-coltrane-coltrane-centennial-celebration/",
+          "publisher": "SFJAZZ",
+          "checked_on": "2026-08-29",
+          "note": "Current presenter material corroborating the standardized spellings Jonathan Finlayson and Gadi Lehavi and documenting the 2026 centennial project."
+        },
+        {
+          "url": "https://www.thealluvion.org/tickets/alluvion-jazz-series-presents-ravi-coltrane-7pm-show",
+          "publisher": "The Alluvion",
+          "checked_on": "2026-08-29",
+          "note": "Current presenter material documenting the centennial project as a 2026 series of re-imagined John Coltrane concerts rather than a single one-off."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Residency and personnel facts were verified from the Village Vanguard and its authorized ticket portal; current SFJAZZ and Alluvion presenter pages were used only to corroborate names and centennial-series context. Repository searches found no Village Vanguard Ravi Coltrane centennial candidate before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The room is part of the music here: Ravi brings his father’s centennial project into the Village Vanguard, where John Coltrane’s 1961 performances became part of the core recorded history of modern jazz. Two different personnel configurations across the week make the residency a living argument about lineage rather than a museum-piece tribute.",
+          "trip_verdict": "If New York is viable in mid-October, actively make room for one of these nights and let the Village Vanguard anchor the evening. Six dates provide enough flexibility to choose the best fit within a broader New York trip.",
+          "listen_before": "John Coltrane — The Complete 1961 Village Vanguard Recordings"
+        },
+        "es": {
+          "why_it_matters": "Aquí la sala forma parte de la música: Ravi lleva el proyecto del centenario de su padre al Village Vanguard, donde las actuaciones de John Coltrane de 1961 quedaron dentro de la historia grabada esencial del jazz moderno. Dos configuraciones distintas durante la semana hacen que la residencia dialogue con ese linaje en presente y no como homenaje de museo.",
+          "trip_verdict": "Si Nueva York es viable a mediados de octubre, sí le haría espacio activamente a una de estas noches y dejaría que el Village Vanguard ancle la velada. Las seis fechas dan margen para escoger la que mejor embone dentro de un viaje más amplio a Nueva York.",
+          "listen_before": "John Coltrane — The Complete 1961 Village Vanguard Recordings"
+        }
+      }
+    },
+    {
+      "id": "fred-hersch-trio-plus-two-village-vanguard-new-york-2026-10-20",
+      "artist": "Fred Hersch Trio + 2",
+      "subtitle": "Six-night Village Vanguard residency",
+      "dates": {
+        "start": "2026-10-20",
+        "end": "2026-10-25"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "village-vanguard-new-york-ny",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Revisited quintet concept / Village Vanguard lineage",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Fred Hersch",
+        "Tony Malaby",
+        "Ralph Alessi",
+        "Drew Gress",
+        "Joe Dyson"
+      ],
+      "factual_description": "Village Vanguard lists Fred Hersch Trio + 2 for October 20–25, 2026, with Tony Malaby, Ralph Alessi, Drew Gress and Joe Dyson. The title reconnects directly to Hersch's 2004 Trio + 2 project: contemporary reviews document Malaby, Alessi and Gress in that original quintet concept and note a six-night Village Vanguard residency around the album's release. The accessible official event copy does not currently expose individual set times, so no showtimes are inferred.",
+      "links": {
+        "official_event": "https://villagevanguard.com/event/coming-soon",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "title": "Trio + 2",
+          "artist": "Fred Hersch",
+          "apple_music_url": "https://music.apple.com/us/album/trio-2/1053190721"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The run and current five-person billing are verified from Village Vanguard and its authorized ticket portal. The exact Apple Music album destination is verified. An exact event-specific SquadUp purchase URL was not independently captured."
+      },
+      "sources": [
+        {
+          "url": "https://villagevanguard.com/event/coming-soon",
+          "publisher": "Village Vanguard",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue schedule verifying the October 20–25 Fred Hersch Trio + 2 residency and current named personnel."
+        },
+        {
+          "url": "https://vv.squadup.com/artists?direct=true",
+          "publisher": "Village Vanguard / SquadUp",
+          "checked_on": "2026-08-29",
+          "note": "Authorized ticket portal confirming Fred Hersch Trio + 2 as an upcoming October 20–25 booking."
+        },
+        {
+          "url": "https://www.allaboutjazz.com/trio--2-fred-hersch-palmetto-records-review-by-john-kelman",
+          "publisher": "All About Jazz",
+          "checked_on": "2026-08-29",
+          "note": "Historical review documenting the 2004 Trio + 2 personnel and musical concept."
+        },
+        {
+          "url": "https://www.allaboutjazz.com/trio--2-fred-hersch-palmetto-records-review-by-aaj-staff",
+          "publisher": "All About Jazz",
+          "checked_on": "2026-08-29",
+          "note": "Historical review noting the original release-period six-night Village Vanguard residency and the quintet personnel."
+        },
+        {
+          "url": "https://music.apple.com/us/album/trio-2/1053190721",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-29",
+          "note": "Exact album destination for Fred Hersch's 2004 Trio + 2."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Current event facts were verified from Village Vanguard and its authorized ticket portal. Historical lineage is supported by period All About Jazz reviews, and the listening destination is verified on Apple Music. Repository searches found no Fred Hersch Trio + 2 Village Vanguard candidate before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just Hersch adding two horns to a trio: Malaby, Alessi and Gress reconnect the 2026 band to the actual Trio + 2 language Hersch developed in 2004, while Joe Dyson changes the rhythmic engine. Bringing that concept back for another Vanguard week turns the booking into a live comparison across more than two decades of ensemble history.",
+          "trip_verdict": "If New York works in late October, actively make room for one of the six nights. The week-long run makes it easy to choose the best date and pair the Vanguard with another New York reason rather than forcing a single-night turnaround.",
+          "listen_before": "Fred Hersch — Trio + 2"
+        },
+        "es": {
+          "why_it_matters": "No se trata sólo de agregar dos metales a un trío: Malaby, Alessi y Gress conectan la formación de 2026 con el lenguaje real de Trio + 2 que Hersch desarrolló en 2004, mientras Joe Dyson cambia el motor rítmico. Volver con ese concepto durante otra semana en el Vanguard permite escuchar, en vivo, más de dos décadas de historia del ensamble.",
+          "trip_verdict": "Si Nueva York funciona a finales de octubre, sí le haría espacio activamente a una de las seis noches. La residencia permite escoger la fecha que mejor acomode y combinar el Vanguard con otra razón para estar en la ciudad, sin forzar un viaje relámpago por una sola función.",
+          "listen_before": "Fred Hersch — Trio + 2"
+        }
+      }
+    }
+  ]
+}
