@@ -1,0 +1,595 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yamamoto-bodyandsoul-finale-dmv-philly-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, scripts/validate_events.py, and scripts/merge_inbox.py were reread before publication. Repository-wide duplicate searches were run for each proposed artist/date/venue. Stage 1 admits six performances for specific live-context reasons: BODY&SOUL's documented 52nd-year grand finale; EIC's clarinet/launeddas/electronics-plus-four-percussion instrumental design; Surprise Chef's tightly defined cinematic instrumental language in the immediate window after Frogs In A Pond; Daniel Lanois's sparse three-voice trio configuration; Rishab Rikhiram Sharma's sitar/electronics Sitar For Mental Health program; and Daniel Villarreal's two-night Pan-Latin Solar Myth residency with a named Chicago band. Stage 2 yields A 4 / A+ 1 / S 1 / S+ 0. The BODY&SOUL finale received the required scarcity challenge: the club explicitly identifies September 26 as its grand finale after 52 years and says equipment removal begins the following week before building demolition; A+ would understate genuine-regret scarcity for the last night, while S+ would overstate its broader historical singularity. Japanese local music charges are retained in factual/source notes but not forced into canonical numeric ticket fields because the current validator models ticket currency as USD.",
+  "events": [
+    {
+      "id": "toku-tsuyoshi-yamamoto-body-and-soul-tokyo-2026-09-26",
+      "artist": "TOKU with Tsuyoshi Yamamoto Group",
+      "subtitle": "BODY&SOUL Grand Finale — The Final Groove",
+      "dates": {
+        "start": "2026-09-26",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "body-and-soul-shibuya-tokyo",
+        "name": "BODY&SOUL",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Historic venue farewell / Japanese jazz masters / closing-night performance",
+      "genres": [
+        "Jazz",
+        "Modern jazz",
+        "Vocal jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Improvised",
+        "Acoustic Jazz",
+        "Cultural context"
+      ],
+      "lineup": [
+        "TOKU — flugelhorn, voice",
+        "Tsuyoshi Yamamoto — piano",
+        "Toshio Osumi — drums",
+        "Hiroshi Kagawa — bass",
+        "Shinobu Ishizaki — alto saxophone"
+      ],
+      "factual_description": "BODY&SOUL presents TOKU with the Tsuyoshi Yamamoto Group on Saturday, September 26, 2026 as the club's documented grand finale. The first set opens at 17:00 and starts at 18:00; the second opens at 20:00 and starts at 21:00. Both official event pages list TOKU on flugelhorn and voice, Tsuyoshi Yamamoto on piano, Toshio Osumi on drums, Hiroshi Kagawa on bass, and Shinobu Ishizaki on alto saxophone. Each set carries a listed music charge of ¥10,000 before tax / ¥11,000 tax included, and reservations are currently closed. BODY&SOUL's August 14 closure notice states that September 26 is the grand finale of its 52nd year, equipment removal begins the following week, and building demolition is scheduled to begin in mid-October.",
+      "links": {
+        "official_event": "https://bodyandsoul.co.jp/event/260926-1",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Both exact BODY&SOUL set pages verify date, lineup, music charge and set times, and both say reservations are closed. The club's own closure notice verifies the grand-finale and imminent teardown context. No active exact purchase destination or exact Apple Music destination is supplied."
+      },
+      "sources": [
+        {
+          "url": "https://bodyandsoul.co.jp/event/260926-1",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-08-29",
+          "note": "Primary first-set page verifies September 26, 17:00 doors, 18:00 start, full lineup, listed music charge and closed reservations."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/event/260926-2",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-08-29",
+          "note": "Primary second-set page verifies September 26, 20:00 doors, 21:00 start, same full lineup, listed music charge and closed reservations."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/2026/08/175580",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-08-29",
+          "note": "Primary closure notice identifies September 26 as the 52nd-year grand finale, says equipment removal begins the following week, and building demolition begins in mid-October."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, two set times, complete announced lineup, local music charge, reservation status and final-night scarcity were verified from BODY&SOUL's exact event and closure pages. Repository searches for TOKU, Tsuyoshi Yamamoto, BODY&SOUL and September 26 returned no existing matching RADAR record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The club is the event here as much as the band. After 52 years, BODY&SOUL closes its run with TOKU in front of Yamamoto's Kagawa/Osumi rhythm section, widened by Shinobu Ishizaki on alto, and the room begins to come apart the following week. That turns a strong Japanese-jazz lineup into an actual last night: one final chance to hear this music inside a Tokyo institution before the setting disappears.",
+          "trip_verdict": "If September 26 overlaps with Tokyo, protect the evening and build the Shibuya plan around this finale. Both reservation forms are currently closed, so access should be treated as a real constraint rather than assumed; I would not create a dedicated Japan trip without a legitimate way into the room.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí el club importa tanto como la banda. Después de 52 años, BODY&SOUL cierra su historia con TOKU al frente de la sección Kagawa/Osumi de Yamamoto, ampliada por Shinobu Ishizaki en alto, y la semana siguiente empieza el desmantelamiento del lugar. Eso convierte una alineación fuerte de jazz japonés en una verdadera última noche: la última oportunidad de escuchar esta música dentro de una institución de Tokio antes de que desaparezca el escenario.",
+          "trip_verdict": "Si el 26 de septiembre coincide con Tokio, protegería la noche y armaría el plan de Shibuya alrededor de este cierre. Las reservas de ambos sets ya aparecen cerradas, así que el acceso es una restricción real y no algo que convenga dar por hecho; no organizaría un viaje dedicado a Japón sin una vía legítima para entrar.",
+          "listen_before": null
+        }
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-29",
+        "rationale": "Concrete scarcity: BODY&SOUL explicitly identifies September 26 as the grand finale of its 52nd year, with equipment removal starting the following week and building demolition in mid-October. The second editorial challenge asked whether A+ would still capture the recommendation; it would understate the genuine regret of missing the final night in the room. S+ was rejected because this is a historically meaningful venue farewell, not a singular event of broad enough consequence to justify alter-plans treatment."
+      }
+    },
+    {
+      "id": "eic-atlantidei-keystone-club-tokyo-2026-09-16",
+      "artist": "EIC (Eden Inverted Collective)",
+      "subtitle": "Atlantidei Japan Tour in Tokyo",
+      "dates": {
+        "start": "2026-09-16",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "keystone-club-tokyo",
+        "name": "KEYSTONE CLUB TOKYO",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Sardinian contemporary jazz / percussion ensemble / cultural exchange",
+      "genres": [
+        "Contemporary jazz",
+        "Contemporary classical",
+        "World music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Improvised",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Zoe Pia — clarinet, electronics",
+        "Mattia Pia — percussion",
+        "Nicola Ciccarelli — percussion",
+        "Carlo Alberto Chittolina — percussion",
+        "Paolo Nocentini — percussion"
+      ],
+      "factual_description": "KEYSTONE CLUB TOKYO presents EIC's Atlantidei Japan Tour in Tokyo on Wednesday, September 16, 2026, with doors at 19:00 and the performance at 19:30. The venue lists Zoe Pia on clarinet and electronics with percussionists Mattia Pia, Nicola Ciccarelli, Carlo Alberto Chittolina and Paolo Nocentini, and a general music charge of ¥4,000 plus table charge. Caligola Records describes Atlantidei as the debut of a quintet of four classical percussionists with jazz clarinetist Zoe Pia, who also uses launeddas and live electronics on the recording; the music sits between contemporary classical music, jazz and world traditions.",
+      "links": {
+        "official_event": "https://keystoneclubtokyo.com/html/schedule/eic-atlantidei-japan-tour-in-tokyo/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact KEYSTONE CLUB TOKYO page verifies date, time, lineup, local charge and an integrated reservation form, but no separate stable purchase URL is supplied. Caligola Records verifies the album concept and broader instrumentation. No exact Apple Music destination is supplied."
+      },
+      "sources": [
+        {
+          "url": "https://keystoneclubtokyo.com/html/schedule/eic-atlantidei-japan-tour-in-tokyo/",
+          "publisher": "KEYSTONE CLUB TOKYO",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue page verifies September 16, 19:00 doors / 19:30 start, all five announced performers and the integrated reservation form."
+        },
+        {
+          "url": "https://caligolarecords.bandcamp.com/album/atlantidei",
+          "publisher": "Caligola Records",
+          "checked_on": "2026-08-29",
+          "note": "Label page verifies Atlantidei as EIC's 2026 debut, Zoe Pia's clarinet/launeddas/live-electronics role, four-percussion ensemble and contemporary-classical/jazz/world framing."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-label-sources",
+        "note": "Date, time, Tokyo venue and announced live personnel were verified from KEYSTONE CLUB TOKYO; the record's exact instrumental concept was verified from Caligola Records. Repository searches for EIC, Atlantidei and the September 16 Keystone engagement returned no existing matching RADAR record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The instrumental design is the reason to notice it: one reed voice and electronics set against four percussionists, with Pia's Sardinian launeddas language sitting behind a project that treats timbre and pulse as the bridge between contemporary composition, jazz and Mediterranean memory. A Japan-tour stop in a small Roppongi room gives that unusually physical chamber setup a concrete live context.",
+          "trip_verdict": "If Tokyo is already in play on September 16 and the evening is open, catch the Keystone set. It is the kind of exploratory small-room date that can deepen a trip, but I would fit it around stronger one-off anchors rather than reorganize the itinerary around it.",
+          "listen_before": "EIC — Atlantidei"
+        },
+        "es": {
+          "why_it_matters": "La razón para seguirlo está en el diseño instrumental: una sola voz de aliento y electrónica frente a cuatro percusionistas, con el lenguaje sardo de las launeddas de Pia detrás de un proyecto que usa timbre y pulso como puente entre composición contemporánea, jazz y memoria mediterránea. Una parada de la gira japonesa en un cuarto pequeño de Roppongi le da a esa formación casi camerística y muy física un contexto en vivo concreto.",
+          "trip_verdict": "Si Tokio ya está en juego el 16 de septiembre y la noche está libre, entraría al set de Keystone. Es de esas fechas exploratorias de cuarto pequeño que pueden enriquecer mucho un viaje, pero la acomodaría alrededor de anclas más raras en vez de reorganizar el itinerario por ella.",
+          "listen_before": "EIC — Atlantidei"
+        }
+      }
+    },
+    {
+      "id": "surprise-chef-hamilton-washington-dc-2026-11-11",
+      "artist": "Surprise Chef",
+      "subtitle": "Cinematic instrumental soul in the Frogs In A Pond release window",
+      "dates": {
+        "start": "2026-11-11",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Instrumental soul / jazz-funk / cinematic groove",
+      "genres": [
+        "Instrumental soul",
+        "Jazz-funk",
+        "Cinematic funk"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Lachlan Stuckey — guitar",
+        "Jethro Curtin — keyboards",
+        "Carl Lindeberg — bass",
+        "Andrew Congues — drums"
+      ],
+      "factual_description": "The Hamilton Live lists Surprise Chef on Wednesday, November 11, 2026 at 8:00 PM, with tickets listed at $25-$40. The band's own Bandcamp tour listings independently place Surprise Chef at The Hamilton Live on November 11. Their fifth studio album, Frogs In A Pond, is scheduled for release October 23, 2026 on Concord Jazz; Concord describes a quartet of Lachlan Stuckey, Jethro Curtin, Carl Lindeberg and Andrew Congues and a suite built from cinematic soul, jazz-funk and late-1960s/1970s European film-score ideas.",
+      "links": {
+        "official_event": "https://wl.seetickets.us/event/surprise-chef/701868?afflky=TheHamiltonDC",
+        "official_tickets": "https://wl.seetickets.us/event/surprise-chef/701868?afflky=TheHamiltonDC"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 40,
+          "source_url": "https://live.thehamiltondc.com/listing/page/4/",
+          "checked_on": "2026-08-29"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The Hamilton Live calendar verifies date, 8:00 PM start, price range and the exact authorized ticket destination; the band's own Bandcamp verifies the Washington tour stop, and Concord verifies the current quartet and forthcoming album. No exact Apple Music destination is supplied."
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/listing/page/4/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue listing verifies November 11, 8:00 PM and $25-$40, and links directly to the authorized See Tickets destination."
+        },
+        {
+          "url": "https://surprisechef.bandcamp.com/album/frogs-in-a-pond",
+          "publisher": "Surprise Chef",
+          "checked_on": "2026-08-29",
+          "note": "Artist-owned page verifies the October 23, 2026 album release and the November 11 Hamilton Live tour stop."
+        },
+        {
+          "url": "https://concord.com/concord-albums/frogs-in-a-pond/",
+          "publisher": "Concord Jazz",
+          "checked_on": "2026-08-29",
+          "note": "Label page verifies the current quartet, the album's cinematic-suite concept and its instrumentation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-label-sources",
+        "note": "Performance date/time and authorized ticket path were verified from The Hamilton Live; the artist's own tour listing corroborates the stop; Concord verifies current quartet identity and new-record context. Repository searches for Surprise Chef at The Hamilton on November 11 returned no existing RADAR match before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Surprise Chef build groove like a film score rather than a jam-band vehicle: bass, drums, guitar and keys leave space for small motifs to move while soul, jazz-funk and hip-hop's sample vocabulary stay in the frame. The Washington date lands less than three weeks after Frogs In A Pond, a deliberately sequenced suite recorded largely live, giving this local stop a fresh musical object to test onstage.",
+          "trip_verdict": "If the Wednesday is open, catch them locally at The Hamilton and let the small-room groove be the reason. The tour offers other cities and the project is active, so this is a strong convenient Washington night rather than a date to displace a rarer event for.",
+          "listen_before": "Surprise Chef — Frogs In A Pond"
+        },
+        "es": {
+          "why_it_matters": "Surprise Chef construye el groove más como una banda sonora que como un vehículo de jam: bajo, batería, guitarra y teclados dejan aire para mover motivos pequeños mientras siguen presentes el soul, el jazz-funk y el vocabulario de samples del hip-hop. La fecha de Washington cae menos de tres semanas después de Frogs In A Pond, una suite secuenciada deliberadamente y grabada casi toda en vivo, así que el concierto local llega con un objeto musical nuevo para poner a prueba en el escenario.",
+          "trip_verdict": "Si el miércoles está libre, los vería localmente en The Hamilton y dejaría que el groove del cuarto pequeño sea la razón. La gira pasa por otras ciudades y el proyecto está activo, así que es una muy buena noche conveniente en Washington, no una fecha para desplazar algo más raro.",
+          "listen_before": "Surprise Chef — Frogs In A Pond"
+        }
+      }
+    },
+    {
+      "id": "daniel-lanois-trio-hamilton-washington-dc-2026-11-12",
+      "artist": "Daniel Lanois Trio",
+      "subtitle": "Daniel Lanois / Jermaine Holmes / Jim Wilson",
+      "dates": {
+        "start": "2026-11-12",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Sonic architect / sparse trio / three-part vocal harmony",
+      "genres": [
+        "Art rock",
+        "Ambient roots",
+        "Singer-songwriter"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Groove"
+      ],
+      "lineup": [
+        "Daniel Lanois — guitar, voice",
+        "Jermaine Holmes — drums, voice",
+        "Jim Wilson — bass, voice"
+      ],
+      "factual_description": "The Hamilton Live and its authorized EVENTIM page list Daniel Lanois Trio on Thursday, November 12, 2026, with doors at 18:30 and the show at 20:00. The Hamilton calendar lists a $45-$80 ticket range; the live EVENTIM inventory shows seat-specific prices and some categories already sold out. Current 2026 tour coverage and presenter material identify the trio as Lanois on guitar and voice, Jermaine Holmes on drums and voice, and Jim Wilson on bass and voice, with the configuration built around three-part harmony that Lanois says began in a small chapel outside Berlin.",
+      "links": {
+        "official_event": "https://www.eventim.us/event/daniel-lanois-trio/701127",
+        "official_tickets": "https://www.eventim.us/event/daniel-lanois-trio/701127"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 45,
+          "maximum": 80,
+          "source_url": "https://live.thehamiltondc.com/listing/page/4/",
+          "checked_on": "2026-08-29"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The Hamilton and authorized EVENTIM verify the exact date, doors, showtime, sale and venue; current 2026 tour materials consistently identify Holmes and Wilson as the trio partners and describe the three-part-vocal format. No exact Apple Music destination is supplied."
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/listing/page/4/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue listing verifies November 12, 8:00 PM and the published $45-$80 range."
+        },
+        {
+          "url": "https://www.eventim.us/event/daniel-lanois-trio/701127",
+          "publisher": "The Hamilton Live authorized ticketing / EVENTIM",
+          "checked_on": "2026-08-29",
+          "note": "Exact authorized event page verifies November 12, 18:30 doors / 20:00 show and active ticket inventory."
+        },
+        {
+          "url": "https://exclaim.ca/music/article/daniel-lanois-announces-east-coast-shows",
+          "publisher": "Exclaim!",
+          "checked_on": "2026-08-29",
+          "note": "Current 2026 tour coverage identifies Jermaine Holmes on drums/voice and Jim Wilson on bass/voice with Lanois and quotes the trio's vocal-harmony concept."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Washington performance facts are verified from The Hamilton and its exact authorized EVENTIM page. The current trio personnel and vocal-harmony concept are corroborated by 2026 tour coverage using Lanois's own description. Repository searches for Daniel Lanois Trio at The Hamilton on November 12 returned no existing RADAR match before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Lanois's studio reputation becomes interesting live when the arrangement gets this bare. Guitar, bass and drums are almost secondary to three voices that learned to lock together in a chapel, which puts his obsession with space, decay, texture and emotional imperfection into a format small enough to hear the choices happen. That makes the trio more than a producer playing songs from a long résumé.",
+          "trip_verdict": "Actively make room for the local Hamilton date if Lanois's sound-world is in the listening thread. There are other stops on the 2026 tour, so the advantage here is getting this unusually stripped configuration in Washington without corridor travel.",
+          "listen_before": "Daniel Lanois — Acadie; Heavy Sun"
+        },
+        "es": {
+          "why_it_matters": "La reputación de Lanois como productor se vuelve especialmente interesante en vivo cuando el arreglo queda así de desnudo. Guitarra, bajo y batería casi pasan a segundo plano frente a tres voces que aprendieron a amarrarse en una capilla, y eso deja expuesta su obsesión con el espacio, la caída del sonido, la textura y la imperfección emocional. El trío termina siendo mucho más que un productor tocando canciones de un currículum enorme.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha local en The Hamilton si el mundo sonoro de Lanois está en el hilo de escucha. Hay otras paradas en la gira de 2026, así que la ventaja aquí es escuchar esta configuración tan reducida en Washington sin necesidad de viajar por el corredor.",
+          "listen_before": "Daniel Lanois — Acadie; Heavy Sun"
+        }
+      }
+    },
+    {
+      "id": "rishab-rikhiram-sharma-capital-one-hall-tysons-2026-11-18",
+      "artist": "Rishab Rikhiram Sharma",
+      "subtitle": "Sitar For Mental Health",
+      "dates": {
+        "start": "2026-11-18",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "capital-one-hall-tysons",
+        "name": "Capital One Hall",
+        "city": "Tysons",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Sitar / Indian classical-meets-electronics / programmatic performance",
+      "genres": [
+        "Indian classical",
+        "Ambient",
+        "Electronic crossover"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Rishab Rikhiram Sharma — sitar, voice; additional live personnel are not specified on the current venue page"
+      ],
+      "factual_description": "Capital One Hall presents Rishab Rikhiram Sharma's Sitar For Mental Health in the Main Theater on Wednesday, November 18, 2026. The venue lists doors at 18:30 but does not publish a separate performance start time on the current page, so no showtime is inferred. The program is described as a meeting of classical Indian sitar tradition and modern electronic elements, with soundscapes including Chanakya, The Burning Ghat and Roslyn. Capital One Hall links to an exact authorized Ticketmaster event that is currently on sale.",
+      "links": {
+        "official_event": "https://www.capitalonehall.com/events/detail/rishab-rikhiram-sharma-sitar-for-mental-health",
+        "official_tickets": "https://www.ticketmaster.com/event/15006506FF56E4BB"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/event/15006506FF56E4BB",
+          "checked_on": "2026-08-29"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Capital One Hall verifies date, 18:30 doors, Main Theater, program concept and its exact authorized Ticketmaster destination. The venue does not currently publish a distinct show start or additional live personnel, so neither is inferred. No exact Apple Music destination is supplied."
+      },
+      "sources": [
+        {
+          "url": "https://www.capitalonehall.com/events/detail/rishab-rikhiram-sharma-sitar-for-mental-health",
+          "publisher": "Capital One Hall",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue page verifies November 18, 18:30 doors, Main Theater, active sale, sitar/electronics concept and named program material."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/15006506FF56E4BB",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-29",
+          "note": "Exact authorized purchase destination linked directly by Capital One Hall; no price or showtime is inferred from the inaccessible ticket inventory."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, venue, doors time, program concept and authorized ticket destination were verified from Capital One Hall. Repository searches for Rishab Rikhiram Sharma at Capital One Hall on November 18 returned no existing matching RADAR record before publication. No unannounced showtime, personnel or prices were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The sitar is not being used as crossover decoration: Sharma builds the whole program around its classical identity, then stretches the instrument through electronic atmosphere and a sequence explicitly designed around emotional states. That instrument-first premise gives a large Tysons room a sharper musical reason than a generic wellness presentation.",
+          "trip_verdict": "Keep the Tysons date on the local board and go if the sitar/electronics thread is calling and the evening fits. The current page does not yet expose a separate start time or full live personnel, so I would not rearrange a stronger one-off around details that are still incomplete.",
+          "listen_before": "Chanakya; The Burning Ghat; Roslyn"
+        },
+        "es": {
+          "why_it_matters": "Aquí el sitar no aparece como adorno de crossover: Sharma construye todo el programa desde la identidad clásica del instrumento y después lo estira con atmósferas electrónicas y una secuencia pensada explícitamente alrededor de estados emocionales. Ese punto de partida centrado en el instrumento le da a una sala grande de Tysons una razón musical más precisa que una presentación genérica de bienestar.",
+          "trip_verdict": "La dejaría en el tablero local y entraría si el hilo de sitar y electrónica está llamando y la noche acomoda. La página actual todavía no publica un inicio de show separado ni el personal completo en vivo, así que no movería una fecha más rara alrededor de detalles que siguen incompletos.",
+          "listen_before": "Chanakya; The Burning Ghat; Roslyn"
+        }
+      }
+    },
+    {
+      "id": "daniel-villarreal-solar-myth-philadelphia-2026-11-06",
+      "artist": "Daniel Villarreal",
+      "subtitle": "Two-night Solar Myth residency",
+      "dates": {
+        "start": "2026-11-06",
+        "end": "2026-11-07"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "solar-myth-philadelphia-pa",
+        "name": "Solar Myth",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Pan-Latin groove / drummer-led residency / Chicago working band",
+      "genres": [
+        "Latin jazz",
+        "Cumbia",
+        "Afrobeat",
+        "Psychedelic funk"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Groove",
+        "Instrumental identity",
+        "Improvised",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Daniel Villarreal — drums, percussion",
+        "Cole DeGenova — keyboards",
+        "Nathan Karagianis — guitar",
+        "John Sutton — bass",
+        "Danjuma Gaskin — congas",
+        "Additional special guests — not yet named"
+      ],
+      "factual_description": "Ars Nova Workshop presents Panama-born, Chicago-based drummer and DJ Daniel Villarreal for a two-night Solar Myth residency on November 6-7, 2026 at 20:00. Friday is announced as a standing show and Saturday as seated. The named Chicago-based band is Villarreal on drums and percussion, Cole DeGenova on keyboards, Nathan Karagianis on guitar, John Sutton on bass and Danjuma Gaskin on congas, with additional special guests not yet named. Ars Nova describes Villarreal's music as a Pan-Latin blend touching psychedelic rock, cumbia, Afrobeat, boogaloo, free jazz, hip-hop and funk, with post-production used as an instrument. The presenter lists $30 advance / $35 day-of-show.",
+      "links": {
+        "official_event": "https://www.arsnovaworkshop.org/programs/daniel-villarreal-2026/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 30,
+          "maximum": 35,
+          "source_url": "https://www.arsnovaworkshop.org/programs/daniel-villarreal-2026/",
+          "checked_on": "2026-08-29"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact Ars Nova Workshop page verifies both residency dates, 8:00 PM time, format difference between nights, full named band, listed advance/day-of-show prices and the possibility of unnamed special guests. No separate exact ticket destination or exact Apple Music destination is supplied."
+      },
+      "sources": [
+        {
+          "url": "https://www.arsnovaworkshop.org/programs/daniel-villarreal-2026/",
+          "publisher": "Ars Nova Workshop",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies November 6-7, 20:00, Solar Myth, named band, standing/seated split, price range and residency context."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "All event facts and named live personnel were verified from Ars Nova Workshop. Repository searches for Daniel Villarreal at Solar Myth on November 6-7 returned no existing matching RADAR record before publication. Unnamed special guests were left unnamed and no separate purchase destination was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Villarreal's drums sit at the junction of Panamanian memory and Chicago's improvised-music ecosystem, and this residency gives that idea a working band rather than a stylistic list: congas, bass, guitar and keyboards can move from cumbia and Afrobeat into psych, boogaloo, free jazz and hip-hop without leaving the groove. His habit of treating post-production as another instrument also makes the live translation worth hearing.",
+          "trip_verdict": "If Philadelphia is already workable that weekend, choose the standing Friday or seated Saturday format and build a Solar Myth night around it. Two chances and an active project make this better as a strong trip add-on than as the sole reason for a corridor run.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La batería de Villarreal está justo en el cruce entre memoria panameña y la escena de improvisación de Chicago, y esta residencia le da a esa idea una banda de trabajo en vez de una simple lista de estilos: congas, bajo, guitarra y teclados pueden pasar de cumbia y Afrobeat a psicodelia, boogaloo, free jazz y hip-hop sin soltar el groove. Además, su costumbre de tratar la posproducción como otro instrumento vuelve especialmente interesante escuchar cómo traduce ese lenguaje al vivo.",
+          "trip_verdict": "Si Filadelfia ya resulta viable ese fin de semana, escogería entre el viernes de pie o el sábado sentado y armaría una noche en Solar Myth alrededor del set. Dos oportunidades y un proyecto activo hacen que funcione mejor como una muy buena adición al viaje que como la única razón para bajar por el corredor.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
