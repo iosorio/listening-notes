@@ -1,0 +1,307 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sadao-last-waltz-venna-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, schedule traces, Space M&A, and credible Japanese-jazz sources did not produce a new verified unrecorded Yamamoto performance with enough event-specific context to clear RADAR admission; already-curated Yamamoto and BODY&SOUL dates were not duplicated. Stage 1 admitted three broader performances for specific live reasons: Sadao Watanabe's 75th-anniversary two-part quartet/orchestra program with the New Japan Philharmonic, the Washington edition of Newmyer Flyer's long-running Last Waltz tribute in the calendar year of the original concert's 50th anniversary, and Venna's Blue Note Tokyo return as a leader with his MALIK quartet after previously appearing there in Yussef Dayes' orbit. Stage 2 produces A 2 / A+ 0 / S 1 / S+ 0. The recent/current curated intake remains dominated by A and A+; the sole S received an explicit scarcity challenge. For Watanabe, A+ would understate the genuine-regret case created by a 75th-career-anniversary orchestral encounter with the New Japan Philharmonic, while S+ would overstate it because his official 75th-anniversary schedule contains multiple special 2026 engagements and this is not presented as a farewell or singular final performance. The S review was performed by the RADAR automation itself and is identified accordingly.",
+  "events": [
+    {
+      "id": "sadao-watanabe-new-japan-philharmonic-sumida-tokyo-2026-09-08",
+      "artist": "Sadao Watanabe meets New Japan Philharmonic",
+      "subtitle": "75th Anniversary Concert — quartet to orchestra",
+      "dates": {
+        "start": "2026-09-08",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "sumida-triphony-hall-tokyo",
+        "name": "Sumida Triphony Hall — Concert Hall",
+        "city": "Sumida, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Japanese living master / 75th-career-anniversary / jazz quartet with symphony orchestra",
+      "genres": [
+        "Jazz",
+        "Orchestral jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Acoustic Jazz",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Sadao Watanabe — alto saxophone",
+        "Akira Onozuka — piano",
+        "Takashi Yofu — guitar (Part 2)",
+        "Daiki Mishima — bass",
+        "Ittetsu Takemura — drums",
+        "Nobuaki Nakata — conductor (Part 2)",
+        "New Japan Philharmonic — orchestra (Part 2)"
+      ],
+      "factual_description": "Sadao Watanabe's official site and Sumida Triphony Hall present a 75th Anniversary Concert on Tuesday, September 8, 2026, with doors at 18:15 and the performance at 19:00. Part 1 is the Sadao Watanabe Quartet with Akira Onozuka, Daiki Mishima and Ittetsu Takemura. Part 2 expands Watanabe into a New Japan Philharmonic program conducted by Nobuaki Nakata, with Onozuka, Takashi Yofu, Mishima and Takemura also announced. Sumida Triphony Hall currently marks its planned ticket allocation as ended. The official 75th-anniversary tour page lists the engagement within Watanabe's broader 2026 anniversary schedule.",
+      "links": {
+        "official_event": "https://www.sadao.com/live/%E6%B8%A1%E8%BE%BA%E8%B2%9E%E5%A4%AB-meets-%E6%96%B0%E6%97%A5%E6%9C%AC%E3%83%95%E3%82%A3%E3%83%AB%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%83%BC%E4%BA%A4%E9%9F%BF%E6%A5%BD%E5%9B%A3%E3%80%8075%E5%91%A8/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The artist, presenter and orchestra sources verify the date, doors, start, two-part program and announced personnel. Sumida Triphony Hall currently marks the planned allocation as ended, so no active purchase destination is represented as available. No Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.sadao.com/live/%E6%B8%A1%E8%BE%BA%E8%B2%9E%E5%A4%AB-meets-%E6%96%B0%E6%97%A5%E6%9C%AC%E3%83%95%E3%82%A3%E3%83%AB%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%83%BC%E4%BA%A4%E9%9F%BF%E6%A5%BD%E5%9B%A3%E3%80%8075%E5%91%A8/",
+          "publisher": "Sadao Watanabe Official Web Site",
+          "checked_on": "2026-08-29",
+          "note": "Primary artist page verifies September 8, 2026; Sumida Triphony Hall; 18:15 doors / 19:00 start; 75th-anniversary framing; both program parts; and the full announced artist/orchestra personnel."
+        },
+        {
+          "url": "https://www.triphony.com/concert/detail/2026-05-008951.html",
+          "publisher": "Sumida Triphony Hall",
+          "checked_on": "2026-08-29",
+          "note": "Primary presenter page verifies the event and program, provides official English romanizations for personnel, and currently labels the planned ticket allocation as ended."
+        },
+        {
+          "url": "https://www.njp.or.jp/en/concerts/",
+          "publisher": "New Japan Philharmonic",
+          "checked_on": "2026-08-29",
+          "note": "Official orchestra schedule corroborates September 8 at 19:00 in Sumida Triphony Hall and the quartet-to-New-Japan-Philharmonic program."
+        },
+        {
+          "url": "https://www.sadao.com/75th-tour",
+          "publisher": "Sadao Watanabe Official Web Site",
+          "checked_on": "2026-08-29",
+          "note": "Primary anniversary-tour page places the New Japan Philharmonic date within Watanabe's broader 75th-year 2026 schedule and documents other anniversary-season engagements."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, venue, time, anniversary context, program structure and announced personnel were verified from Watanabe's official site, Sumida Triphony Hall and New Japan Philharmonic. Repository-wide searches for Sadao Watanabe, the Japanese name 渡辺貞夫, the date/venue combination and the stable event ID returned no matching canonical, curated or processed record before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The live argument is the two-part arc. Watanabe first exposes the music at quartet scale with his current rhythm section, then carries the same alto voice into a full New Japan Philharmonic setting under Nobuaki Nakata, with Takashi Yofu added on guitar. In a year explicitly marking 75 years of Watanabe's musical life, that shift from working-band intimacy to orchestral scale makes this a specific historical encounter rather than another anniversary label pasted onto a routine date.",
+          "trip_verdict": "If September 8 overlaps Tokyo or Kanto, protect the evening and build the day around Sumida. The hall currently lists its planned allocation as ended, so the practical move is only with already-secured or newly released official access rather than assuming tickets remain available.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El argumento en vivo está en el arco de dos partes. Watanabe primero deja la música expuesta a escala de cuarteto con su sección rítmica actual y después lleva esa misma voz de alto a un marco completo con la New Japan Philharmonic bajo Nobuaki Nakata, sumando a Takashi Yofu en guitarra. En un año que marca explícitamente 75 años de vida musical de Watanabe, el paso de la intimidad de una banda de trabajo a la escala orquestal convierte la noche en un encuentro histórico concreto y no en otra fecha rutinaria con una etiqueta de aniversario.",
+          "trip_verdict": "Si el 8 de septiembre coincide con Tokio o Kanto, protegería la noche y armaría el día alrededor de Sumida. La sala marca actualmente su asignación prevista como agotada, así que el movimiento práctico sólo tiene sentido con acceso oficial ya asegurado o con una nueva liberación de inventario, no suponiendo que todavía hay boletos.",
+          "listen_before": null
+        }
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-29",
+        "rationale": "Concrete scarcity: the performance marks Watanabe's 75th musical-career anniversary through a specifically staged two-part progression from his quartet to a New Japan Philharmonic collaboration at Sumida Triphony Hall. The second editorial challenge asked whether A+ would still capture the recommendation; it would understate the genuine regret of missing this anniversary orchestral encounter while in Tokyo/Kanto. S+ was rejected because the official 75th-anniversary schedule contains multiple special 2026 engagements and this date is not presented as a farewell, final appearance or singular once-only historical endpoint."
+      }
+    },
+    {
+      "id": "last-waltz-hamilton-washington-dc-2026-11-13",
+      "artist": "Newmyer Flyer Presents: The Last Waltz Tribute",
+      "subtitle": "Two-night Washington tradition in the original concert's 50th-anniversary year",
+      "dates": {
+        "start": "2026-11-13",
+        "end": "2026-11-14"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Culturally significant rock / DMV repertory tradition / 50th-anniversary context",
+      "genres": [
+        "Rock",
+        "Roots rock",
+        "Americana"
+      ],
+      "musical_axes": [
+        "Cultural context",
+        "Groove",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Big Joe Maher — performer",
+        "Tommy Lepson — performer",
+        "Jonathan Sloane — performer",
+        "Ruthie Logsdon — performer",
+        "Margot MacDonald — performer",
+        "Bill Starks — performer",
+        "Pete Ragusa — performer",
+        "Ricky Wise — performer",
+        "Bill Williams — performer",
+        "Billy Coulter — performer",
+        "Bill Baker — performer",
+        "Kirk Philips — performer",
+        "40 Dollar Fine — performer",
+        "Steve Wolf — performer",
+        "Bronson Hoover — performer",
+        "Tom Fridrich — performer",
+        "Andy Rutherford — performer",
+        "Ronnie Smith — performer",
+        "Trevor Specht — performer",
+        "Justine Miller — performer",
+        "Cheryl Terwilliger — performer",
+        "Craig Considine — performer",
+        "Wayne Sulc — performer",
+        "Ronnie Newmyer — performer"
+      ],
+      "factual_description": "The Hamilton Live calendar and its authorized EVENTIM pages list Newmyer Flyer's The Last Waltz Tribute on Friday, November 13 and Saturday, November 14, 2026, with doors at 18:30 and performances at 20:00. The production honors The Band's 1976 Winterland farewell concert with DC-area performers, a full band and horn section, drawing from songs performed by The Band and its original guests. The authorized event text says Newmyer Flyer's tribute debuted in 2012 and has been presented to sold-out audiences each November at The Hamilton. The 2026 edition falls fifty years after the original 1976 concert.",
+      "links": {
+        "official_event": "https://live.thehamiltondc.com/the-last-waltz-2026/",
+        "official_tickets": "https://www.eventim.us/event/the-last-waltz/701504"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The Hamilton calendar verifies both 2026 dates and 20:00 showtimes. The authorized EVENTIM destinations verify 18:30 doors and the same announced performer list for each night. The single official_tickets field points to the November 13 destination; the November 14 authorized destination is retained in sources. No performer instruments or Apple Music destination are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/calendar/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue calendar verifies November 13 and November 14, 2026, both at 20:00, at The Hamilton Live."
+        },
+        {
+          "url": "https://www.eventim.us/event/the-last-waltz/701504",
+          "publisher": "The Hamilton Live authorized ticketing / EVENTIM",
+          "checked_on": "2026-08-29",
+          "note": "Exact November 13 purchase page verifies 18:30 doors, 20:00 show, the current performer list, original Last Waltz repertory framing and the tribute's annual Hamilton history since 2012."
+        },
+        {
+          "url": "https://www.eventim.us/event/the-last-waltz/701515",
+          "publisher": "The Hamilton Live authorized ticketing / EVENTIM",
+          "checked_on": "2026-08-29",
+          "note": "Exact November 14 purchase page verifies the second night, 18:30 doors in the event details, 20:00 show and the same current performer list."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "The 2026 dates and showtimes were taken from The Hamilton's current calendar because its separate descriptive event page contains a date typo. Door times, performer billing and production history were verified from the authorized EVENTIM pages for each night. Repository-wide searches for The Last Waltz at The Hamilton in 2026 and the stable event ID returned no matching canonical, curated or processed event before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This clears RADAR because it is a Washington live tradition with a meaningful historical clock attached, not because every tribute show belongs here. Newmyer Flyer has rebuilt The Band's farewell repertory with DC-area musicians at The Hamilton since 2012; in 2026, that annual practice lands fifty years after the original Winterland concert. The local players and horn-section scale make the anniversary a piece of DMV music culture interpreting a canonical rock moment rather than a touring facsimile.",
+          "trip_verdict": "If either November night is open, attend the one that fits and keep the decision local; two performances make it easy to work around the rest of the DC calendar. This is a worthwhile neighborhood-scale way to mark the anniversary, not a reason to restructure travel.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Entra al RADAR porque es una tradición en vivo de Washington con un reloj histórico real detrás, no porque cualquier tribute show merezca estar aquí. Newmyer Flyer reconstruye desde 2012 el repertorio de despedida de The Band con músicos del área de DC en The Hamilton; en 2026, esa práctica anual cae cincuenta años después del concierto original en Winterland. La escala de banda completa y sección de metales hace que el aniversario sea cultura musical del DMV interpretando un momento canónico del rock, no una copia itinerante.",
+          "trip_verdict": "Si cualquiera de las dos noches de noviembre está libre, iría a la que mejor acomode y mantendría la decisión en escala local; dos funciones permiten rodear fácilmente el resto del calendario de DC. Es una buena manera cercana de marcar el aniversario, no una razón para reorganizar viajes.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "venna-blue-note-tokyo-2026-11-15",
+      "artist": "Venna",
+      "subtitle": "MALIK — Blue Note Tokyo leader return",
+      "dates": {
+        "start": "2026-11-15",
+        "end": null
+      },
+      "showtimes": [
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Contemporary UK saxophone / debut-album leader project / Tokyo return",
+      "genres": [
+        "Jazz",
+        "R&B",
+        "Soul",
+        "Hip-hop",
+        "Bossa nova"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Cross-genre",
+        "Groove"
+      ],
+      "lineup": [
+        "Venna — saxophone",
+        "Jack Kuelling — guitar",
+        "Maurice Allen Jr. — bass",
+        "Dominique Gervais — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Venna on Sunday, November 15, 2026, with sets at 16:30 and 19:30. The announced quartet is Venna on saxophone, Jack Kuelling on guitar, Maurice Allen Jr. on bass and Dominique Gervais on drums. The venue frames the date as Venna's return to Blue Note Tokyo with his own project and debut album MALIK after his earlier Japan appearance with Yussef Dayes, and describes his music as jazz-based work incorporating R&B, soul, hip-hop and bossa nova. Blue Note Tokyo lists a music charge of ¥8,800 and also lists a Blue Note Place appearance in Ebisu on November 16.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/venna/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Blue Note Tokyo verifies the date, both set times, complete quartet, ¥8,800 charge, MALIK leader-project framing and the nearby November 16 Blue Note Place date. Reservations are session-based, so no generic URL is substituted as an exact purchase destination; no Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/venna/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue page verifies November 15, 2026; 16:30 and 19:30 sets; the complete quartet; ¥8,800 music charge; MALIK leader-project context; and a second Tokyo-area appearance on November 16."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set times, venue, complete announced personnel, leader-project framing and charge were verified from Blue Note Tokyo. Repository-wide searches for Venna and the stable event ID returned no matching canonical, curated or processed event before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason is the change of role. Venna first reached this Tokyo audience inside Yussef Dayes' orbit; this time the saxophone is the organizing voice, with guitar, bass and drums carrying the MALIK material across jazz, R&B, soul and hip-hop without losing a clear instrumental center. Hearing that leader identity at Blue Note scale gives the date a concrete developmental thread rather than treating a rising name as automatic admission.",
+          "trip_verdict": "If November 15 falls inside a Tokyo stay, catch whichever set fits around stronger anchors. A second Tokyo-area performance follows in Ebisu the next day, so this is useful flexibility rather than a date that should reorganize the trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón está en el cambio de rol. Venna llegó primero a este público de Tokio dentro del universo de Yussef Dayes; ahora el saxofón funciona como voz organizadora, con guitarra, bajo y batería llevando el material de MALIK entre jazz, R&B, soul y hip-hop sin perder un centro instrumental claro. Escuchar esa identidad de líder a escala de Blue Note le da a la fecha un hilo de desarrollo concreto, en vez de admitir automáticamente a un nombre ascendente.",
+          "trip_verdict": "Si el 15 de noviembre cae dentro de una estancia en Tokio, agarraría el set que mejor acomode alrededor de anclas más fuertes. Hay otra presentación en el área de Tokio, en Ebisu, al día siguiente, así que aquí hay flexibilidad útil y no una fecha que deba reorganizar el viaje.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
