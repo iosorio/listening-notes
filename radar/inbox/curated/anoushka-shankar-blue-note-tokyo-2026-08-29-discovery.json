@@ -1,0 +1,97 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "anoushka-shankar-blue-note-tokyo-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before searching or grading. Current Tsuyoshi Yamamoto sources were checked first; no newly unrecorded Yamamoto performance with a distinct event-specific admission reason was verified in this pass. Repository searches also show that the September 15 KEYSTONE CLUB TOKYO Yamamoto date is already represented in curated intake, so it was not duplicated. Anoushka Shankar's October 9-11 Blue Note Tokyo debut clears RADAR admission because it places a sitar-led Chapters Tour quartet with Sarathy Korwar, Tom Farmer and Arun Ghosh in an intimate jazz-club format, creating a specific instrumental and cross-cultural live context rather than an artist-name inclusion. Final priority A+ is intentional: actively make room if in Tokyo; six sets over three nights plus an active Asia tour mean A+ captures the recommendation without scarcity language. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "anoushka-shankar-blue-note-tokyo-2026-10-09",
+      "artist": "Anoushka Shankar",
+      "subtitle": "Blue Note Tokyo debut — Chapters Tour",
+      "dates": {
+        "start": "2026-10-09",
+        "end": "2026-10-11"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / sitar-led cross-cultural quartet / Blue Note Tokyo debut",
+      "genres": [
+        "Indian classical",
+        "Global fusion",
+        "Contemporary world"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context",
+        "Groove"
+      ],
+      "lineup": [
+        "Anoushka Shankar — sitar",
+        "Sarathy Korwar — drums",
+        "Tom Farmer — bass",
+        "Arun Ghosh — clarinet"
+      ],
+      "factual_description": "Blue Note Tokyo presents Anoushka Shankar for her first appearance at the club on October 9-11, 2026. The venue confirms Shankar on sitar with Sarathy Korwar on drums, Tom Farmer on bass and Arun Ghosh on clarinet. On October 9 the sets start at 6:00 PM and 8:30 PM; on October 10 and 11 the sets start at 4:30 PM and 7:30 PM. Blue Note Tokyo lists a music charge of ¥16,500. Shankar's official tour page identifies all three Tokyo dates as part of the Chapters Tour, between tour stops in Kuala Lumpur and Beijing.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/anoushka-shankar/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Blue Note Tokyo's exact event page verifies all three dates, the date-specific set times, complete quartet, music charge and debut framing. Anoushka Shankar's official tour page corroborates the Tokyo engagement as part of the Chapters Tour. Blue Note Tokyo reservations are session-based, so no generic reservation URL is substituted as an event-specific purchase destination; no exact Apple Music destination is supplied."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/anoushka-shankar/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue page verifying October 9-11, 2026, Blue Note Tokyo debut framing, date-specific set times, complete quartet and ¥16,500 music charge."
+        },
+        {
+          "url": "https://www.anoushkashankar.com/tour",
+          "publisher": "Anoushka Shankar",
+          "checked_on": "2026-08-29",
+          "note": "Artist-owned tour page corroborating October 9, 10 and 11 at Blue Note Tokyo as Chapters Tour dates within the current Asia itinerary."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Performance facts were verified from Blue Note Tokyo and Anoushka Shankar's official tour page. Repository searches for Anoushka Shankar, the Japanese spelling アヌーシュカ, the October 9 date and the stable candidate ID returned no existing event before publication. No Apple Music ID or session-specific purchase destination was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The specific quartet is the live argument: Shankar's sitar sits against Sarathy Korwar's rhythmic language, Tom Farmer's bass and Arun Ghosh's clarinet inside a compact Blue Note room, while the Chapters Tour gives the encounter a current body of work rather than a retrospective frame. Her first appearance at the club makes this a particularly strong Tokyo setting for hearing how Indian classical vocabulary, improvisation and contemporary ensemble color meet in real time.",
+          "trip_verdict": "Actively make room for one of the six sets if October 9-11 overlaps a Tokyo stay and let Aoyama anchor that evening. Three nights provide enough flexibility that this should shape a Tokyo itinerary rather than force a Japan trip to be rebuilt around a single scarce performance.",
+          "listen_before": "Chapter III: We Return to Light"
+        },
+        "es": {
+          "why_it_matters": "El argumento en vivo está en el cuarteto concreto: el sitar de Shankar frente al lenguaje rítmico de Sarathy Korwar, el bajo de Tom Farmer y el clarinete de Arun Ghosh dentro de la escala compacta de Blue Note, mientras el Chapters Tour le da al encuentro un cuerpo de trabajo actual y no un marco retrospectivo. Que sea su primera aparición en la sala vuelve éste un contexto especialmente fuerte para escuchar cómo el vocabulario clásico indio, la improvisación y el color de ensamble contemporáneo se encuentran en tiempo real.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los seis sets si del 9 al 11 de octubre coincide con una estancia en Tokio y dejaría que Aoyama ordene esa noche. Tres noches dan suficiente flexibilidad para que la fecha moldee el itinerario dentro de Tokio sin obligar a reconstruir todo un viaje a Japón alrededor de una sola oportunidad.",
+          "listen_before": "Chapter III: We Return to Light"
+        }
+      }
+    }
+  ]
+}
