@@ -1,0 +1,231 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "patitucci-osby-new-york-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks of Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources did not produce an additional verified, unrecorded Yamamoto appearance with a distinct performance-specific reason for admission. Stage 1 and Stage 2 were kept separate. John Patitucci's Village Vanguard week clears admission because the exact Patitucci/Potter/Blade trio is the working ensemble on Spirit Fall and the record explicitly connects this trio to an earlier Vanguard week; the return puts a bassist-led, unusually interactive trio back in the room that is already part of the project's musical story. It is graded A+: actively make room if New York is viable, while the six-night run and continuing working-trio context make A+ sufficient rather than a scarcity tier. Greg Osby's Dancing with Duke clears admission because the performance is a concrete Ellington-repertoire project for a six-player ensemble with a distinctive alto/tenor/clarinet front line and Ethan Iverson, Lonnie Plaxico and Eric Harland in the rhythm section. It is graded A+: the lineup and repertoire justify making room, but five nights and ten sets make this a flexible residency rather than a protect-the-night scarcity event. The current/recent RADAR shape was rechecked as a sanity test; the intake remains concentrated in A/A+ and no new S/S+ is proposed. Proposed batch distribution: A 0, A+ 2, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "john-patitucci-trio-village-vanguard-new-york-2026-09-01",
+      "artist": "John Patitucci Trio featuring Chris Potter & Brian Blade",
+      "subtitle": "Six-night Village Vanguard residency",
+      "dates": {
+        "start": "2026-09-01",
+        "end": "2026-09-06"
+      },
+      "showtimes": [
+        "20:00",
+        "22:00"
+      ],
+      "venue": {
+        "id": "village-vanguard-new-york-ny",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Bassist-led working trio / contemporary acoustic jazz residency",
+      "genres": [
+        "Jazz",
+        "Acoustic jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised"
+      ],
+      "lineup": [
+        "John Patitucci — bass",
+        "Chris Potter — saxophones",
+        "Brian Blade — drums"
+      ],
+      "factual_description": "Village Vanguard presents the John Patitucci Trio featuring Chris Potter and Brian Blade from September 1 through September 6, 2026. The venue identifies Potter on saxophones, Patitucci on bass and Blade on drums. Village Vanguard's current FAQ states that its shows start at 8:00 PM and 10:00 PM, with first-show seating beginning at 7:00 PM and second-show seating at 9:30 PM. The venue's authorized SquadUp artist page independently lists the September 1–6 residency. Edition Records documents the same three musicians as the trio on Patitucci's 2025 album Spirit Fall and notes that the project draws on the New York trio tradition; the album's 'Deluge on Seventh Avenue' was inspired by a memorable earlier week performing at the Vanguard.",
+      "links": {
+        "official_event": "https://villagevanguard.com/event/john-patitucci-trio",
+        "official_tickets": "https://vv.squadup.com/artists/john-patitucci-trio"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://vv.squadup.com/artists/john-patitucci-trio",
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official face-value ticket price",
+          "apple_music"
+        ],
+        "note": "The exact Village Vanguard event page verifies the residency dates and personnel; the current official FAQ verifies the venue's 20:00 and 22:00 show schedule, and the authorized SquadUp artist page confirms the September 1–6 booking. No ticket price or Apple Music destination is inferred because those values were not exposed on the accessible official/authorized pages checked in this pass."
+      },
+      "sources": [
+        {
+          "type": "primary_venue",
+          "name": "Village Vanguard",
+          "url": "https://villagevanguard.com/event/john-patitucci-trio",
+          "checked_on": "2026-08-30",
+          "note": "Exact venue page verifies September 1–6, 2026 and the trio of John Patitucci, Chris Potter and Brian Blade with instruments."
+        },
+        {
+          "type": "primary_venue",
+          "name": "Village Vanguard FAQ",
+          "url": "https://villagevanguard.com/faq",
+          "checked_on": "2026-08-30",
+          "note": "Current official venue FAQ states that shows start at 8:00 PM and 10:00 PM, with seating beginning at 7:00 PM and 9:30 PM respectively."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "Village Vanguard / SquadUp",
+          "url": "https://vv.squadup.com/artists/john-patitucci-trio",
+          "checked_on": "2026-08-30",
+          "note": "Authorized Village Vanguard ticket page confirms the John Patitucci Trio featuring Chris Potter & Brian Blade booking for September 1–6."
+        },
+        {
+          "type": "label",
+          "name": "Edition Records",
+          "url": "https://editionrecords.com/releases/john-patitucci-spirit-fall/",
+          "checked_on": "2026-08-30",
+          "note": "Label page verifies the exact Patitucci/Potter/Blade trio on Spirit Fall, its February 14, 2025 release, and the Vanguard-week origin of 'Deluge on Seventh Avenue.'"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core performance facts were verified from Village Vanguard and its authorized SquadUp page; Edition Records supports only the project/working-trio context. Repository searches for the exact John Patitucci Trio title, the September 1 date with Patitucci, the three-player Village Vanguard billing, and the proposed stable event ID returned no matching RADAR record before publication. Priority was assigned only after RADAR admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is Patitucci as bandleader rather than famous bassist in somebody else's rhythm section. Potter and Blade are the exact trio on Spirit Fall, a group built around melody, rhythmic elasticity and a bass voice that can lead without crowding the music. The Vanguard matters specifically because the record already carries memory of an earlier week in that room: bringing the working trio back turns the residency into a continuation of the project rather than just another strong New York booking.",
+          "trip_verdict": "If New York is workable during Labor Day week, actively make room for one of the six nights and let the Vanguard anchor the evening. The long run gives enough flexibility to fit the trio around another New York reason without forcing the whole corridor trip onto a single date.",
+          "listen_before": "John Patitucci — Spirit Fall"
+        },
+        "es": {
+          "why_it_matters": "Aquí Patitucci aparece como líder, no como un bajista célebre dentro de la sección rítmica de alguien más. Potter y Blade son el trío exacto de Spirit Fall: un grupo construido alrededor de melodía, elasticidad rítmica y un bajo capaz de conducir sin apretar la música. El Vanguard importa de manera específica porque el disco ya guarda la memoria de una semana anterior en ese cuarto; regresar con el trío de trabajo convierte la residencia en una continuación del proyecto y no simplemente en otra buena contratación neoyorquina.",
+          "trip_verdict": "Si Nueva York resulta viable durante la semana de Labor Day, sí le haría espacio activamente a una de las seis noches y dejaría que el Vanguard ancle la velada. La residencia da suficiente margen para combinar el trío con otra razón para estar en la ciudad sin hacer que todo el viaje por el corredor dependa de una sola fecha.",
+          "listen_before": "John Patitucci — Spirit Fall"
+        }
+      }
+    },
+    {
+      "id": "greg-osby-dancing-with-duke-birdland-new-york-2026-09-01",
+      "artist": "Greg Osby: Dancing with Duke — The Music of Duke Ellington",
+      "subtitle": "with Ethan Iverson, Eric Harland, JD Allen, Virginia Macdonald & Lonnie Plaxico",
+      "dates": {
+        "start": "2026-09-01",
+        "end": "2026-09-05"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30",
+        "20:30",
+        "22:30"
+      ],
+      "venue": {
+        "id": "birdland-jazz-club-new-york",
+        "name": "Birdland Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Ellington repertoire reimagined / all-star acoustic ensemble",
+      "genres": [
+        "Jazz",
+        "Acoustic jazz",
+        "Modern jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Greg Osby — alto saxophone",
+        "JD Allen — tenor saxophone",
+        "Virginia Macdonald — clarinet",
+        "Ethan Iverson — piano",
+        "Lonnie Plaxico — bass",
+        "Eric Harland — drums"
+      ],
+      "factual_description": "Birdland Jazz Club presents Greg Osby's Dancing with Duke — The Music of Duke Ellington from September 1 through September 5, 2026. Birdland describes Osby as leading an all-star band through contemporary interpretations of Ellington and lists Greg Osby on alto saxophone, Eric Harland on drums, Ethan Iverson on piano, JD Allen on tenor saxophone, Lonnie Plaxico on bass and Virginia Macdonald on clarinet. The official event page publishes 7:00 PM and 9:30 PM sets Tuesday through Thursday, then 8:30 PM and 10:30 PM sets Friday and Saturday, with set-specific TicketWeb purchase links. Birdland lists face-value prices of $45.76–$56.06 for the published sets.",
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/greg-osby-dancing-with-duke-the-music-of-duke-ellington-4/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 45.76,
+          "maximum": 56.06,
+          "source_url": "https://www.birdlandjazz.com/tm-event/greg-osby-dancing-with-duke-the-music-of-duke-ellington-4/",
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Birdland's exact event page verifies the full six-player lineup, the Ellington repertoire concept, all ten set times, published face-value pricing and set-specific authorized TicketWeb links. Because the residency uses a different TicketWeb purchase URL for each set, no single all-residency official_tickets URL is stored. No Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "type": "primary_venue",
+          "name": "Birdland Jazz Club & Theater",
+          "url": "https://www.birdlandjazz.com/tm-event/greg-osby-dancing-with-duke-the-music-of-duke-ellington-4/",
+          "checked_on": "2026-08-30",
+          "note": "Exact presenter page verifies September 1–5, all ten set times, $45.76–$56.06 published pricing, the contemporary-Ellington repertoire concept and the complete six-player lineup with instruments."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "TicketWeb",
+          "url": "https://www.ticketweb.com/event/greg-osby-dancing-with-duke-birdland-jazz-club-tickets/14223604",
+          "checked_on": "2026-08-30",
+          "note": "Set-specific authorized TicketWeb destination reached from Birdland's exact event page for the September 1 7:00 PM set; Birdland exposes separate purchase links for the other sets, so this URL is retained as a source rather than represented as a universal residency-level ticket destination."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date range, all set times, Birdland Jazz Club venue, six-player personnel, repertoire concept and published ticket-price range were verified from Birdland's exact event page; authorized TicketWeb corroborates ticketing. Repository searches for Greg Osby Dancing with Duke, September 1 with Greg Osby, and the proposed stable event ID returned no matching RADAR record before publication. Priority was assigned only after RADAR admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the arrangement problem Osby has set himself: Ellington filtered through an ensemble whose front line is alto saxophone, tenor saxophone and clarinet, with Iverson, Plaxico and Harland underneath. That instrumentation can preserve Ellington's orchestral sense while opening the music to players with very different modern-jazz vocabularies. It is a repertoire project with enough ensemble identity to be more than a tribute set.",
+          "trip_verdict": "If New York is already in play that week, actively make room for one of the ten Birdland sets. Five nights make the project easy to pair with another Manhattan or Brooklyn anchor rather than forcing a trip around one scarce performance.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el problema de arreglo que Osby se plantea: Ellington pasado por un ensamble cuyo frente reúne sax alto, sax tenor y clarinete, con Iverson, Plaxico y Harland sosteniendo la música. Esa instrumentación puede conservar algo del sentido orquestal de Ellington y al mismo tiempo abrir el repertorio a músicos con vocabularios modernos muy distintos. Es un proyecto de repertorio con suficiente identidad de ensamble para ser bastante más que un set de homenaje.",
+          "trip_verdict": "Si Nueva York ya está en juego esa semana, sí le haría espacio activamente a uno de los diez sets de Birdland. Cinco noches permiten combinarlo fácilmente con otra ancla en Manhattan o Brooklyn sin construir el viaje alrededor de una sola actuación escasa.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
