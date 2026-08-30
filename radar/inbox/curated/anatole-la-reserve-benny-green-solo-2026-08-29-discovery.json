@@ -1,0 +1,249 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "anatole-la-reserve-benny-green-solo-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching and grading. Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A-related searches and credible Japanese jazz sources were checked first; no additional unrecorded verified Yamamoto performance with a distinct event-specific admission reason was found in this pass. Admission and priority were decided separately. Anatole Muster clears admission because his Cotton Club debut centers accordion plus a custom MIDI-controlled breath instrument in a working bass-drums trio and is graded A+ because the unusual instrumental language merits actively making room for one of four sets. La Reserve Asia Tour clears admission because the Brooklyn label's first Asian concert series puts three culturally distinct vocal-jazz voices over one rhythm section; it is graded A because it is worth catching if convenient without displacing a rarer anchor. Benny Green's November 12 date clears admission because it is a dedicated solo-piano night tied to his first solo live album, distinct from the trio run that follows; it is graded A+ because the exposed solo format around a veteran pianist merits active prioritization. None of the three establishes the scarcity required for S or S+, so no priority_review is included. Proposed batch distribution: A 1, A+ 2, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "anatole-muster-cotton-club-tokyo-2026-11-06",
+      "artist": "Anatole Muster",
+      "subtitle": "Cotton Club debut — accordion, voice and custom breath-controlled electronics",
+      "dates": {
+        "start": "2026-11-06",
+        "end": "2026-11-07"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Accordion-led modern jazz-fusion / custom electronic instrument / Tokyo club debut",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Electronic",
+        "Instrumental"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Fusion / Prog",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Anatole Muster — accordion, vocals, breathalyzer",
+        "Hugo Piper — bass",
+        "Ananda Brandão — drums"
+      ],
+      "factual_description": "COTTON CLUB presents Anatole Muster on November 6 and 7, 2026, for his first performance at the venue. November 6 sets start at 6:00 PM and 8:30 PM; November 7 sets start at 4:30 PM and 7:30 PM. The announced trio is Muster on accordion, vocals and 'breathalyzer,' Hugo Piper on bass, and Ananda Brandão on drums. The venue describes the breathalyzer as a custom MIDI-controlled synthesizer instrument developed with Muster and frames the performance around his accordion-led contemporary jazz-fusion language, including material from the current album hopecore. COTTON CLUB lists the standard table-seat charge at ¥7,700 per person.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/anatole-muster-261106/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Dates, date-specific set times, complete announced trio, Cotton Club debut framing, custom MIDI-controlled breathalyzer description and table-seat charge were verified from the exact COTTON CLUB event page. The venue routes booking through its reservation system, so no session-dependent or unverified purchase URL is stored as official_tickets; no Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/anatole-muster-261106/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-29",
+          "note": "Primary event page verifies November 6-7, 2026, all four set times, Cotton Club debut, complete trio, Muster's custom MIDI-controlled breathalyzer instrument, current hopecore context and charges."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core event facts were verified from COTTON CLUB's exact event page. Repository code searches for Anatole Muster and the proposed stable ID returned no existing RADAR record before publication. No unannounced personnel, ticket destination, repertoire detail beyond the venue framing or Apple Music ID was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The accordion is not a novelty prop here: Muster pairs it with a custom MIDI-controlled breath instrument and a bass-drums trio, treating breath, buttons and electronics as one instrumental system. His first Cotton Club run offers a close-range look at a player connecting Kiefer- and Louis Cole-adjacent modern fusion to an instrument that almost never occupies this role.",
+          "trip_verdict": "If November 6 or 7 overlaps a Tokyo stay, actively make room for one set and let Marunouchi anchor that part of the evening. Four chances provide enough flexibility to work around rarer dates elsewhere in the city.",
+          "listen_before": "Anatole Muster — hopecore"
+        },
+        "es": {
+          "why_it_matters": "El acordeón no está aquí como curiosidad: Muster lo conecta con un instrumento de aliento y síntesis MIDI hecho a la medida, más bajo y batería, para tratar respiración, botones y electrónica como un solo sistema instrumental. Su debut en COTTON CLUB permite escuchar de cerca a un músico que acerca la fusión contemporánea del entorno de Kiefer y Louis Cole a un instrumento que casi nunca ocupa este lugar.",
+          "trip_verdict": "Si el 6 o 7 de noviembre coincide con una estancia en Tokio, sí le haría espacio activamente a uno de los sets y dejaría que Marunouchi ancle esa parte de la noche. Cuatro oportunidades permiten acomodarlo alrededor de fechas más raras en la ciudad.",
+          "listen_before": "Anatole Muster — hopecore"
+        }
+      }
+    },
+    {
+      "id": "la-reserve-asia-tour-cotton-club-tokyo-2026-11-11",
+      "artist": "La Reserve Asia Tour 2026: Maria Kim, Lucy Yeghiazaryan & Caity Gyorgy",
+      "subtitle": "La Reserve Records' first Asian concert series",
+      "dates": {
+        "start": "2026-11-11",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "International label showcase / vocal jazz / cultural exchange",
+      "genres": [
+        "Jazz",
+        "Vocal Jazz",
+        "Swing"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Maria Kim — vocals, piano",
+        "Lucy Yeghiazaryan — vocals",
+        "Caity Gyorgy — vocals",
+        "Peng Ji — bass",
+        "Gene Jackson — drums"
+      ],
+      "factual_description": "COTTON CLUB presents La Reserve Asia Tour 2026 on November 11, 2026, with sets at 6:00 PM and 8:30 PM. The announced lineup is Maria Kim on vocals and piano, Lucy Yeghiazaryan on vocals, Caity Gyorgy on vocals, Peng Ji on bass and Gene Jackson on drums. The venue identifies the engagement as Brooklyn-based independent jazz label La Reserve's first Asian concert series and frames the program around Kim's Korean jazz perspective, Yeghiazaryan's Armenian roots and contemporary American jazz approach, and Gyorgy's Canadian swing tradition sharing one stage. COTTON CLUB lists the standard table-seat charge at ¥8,500 per person. General web reservations are scheduled to open September 11, 2026, following a September 8 member presale.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/la-reserve-asiatour-20261111/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Date, both set times, complete announced lineup, first-Asia-series framing, reservation opening dates and table-seat charge were verified from COTTON CLUB. General web reservations have not yet opened and no event-specific durable purchase URL or Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/la-reserve-asiatour-20261111/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-29",
+          "note": "Primary event page verifies November 11, 2026, both set times, complete lineup, La Reserve's first Asian concert-series framing, the artists' distinct cultural contexts, reservation dates and charges."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core event facts were verified from COTTON CLUB's exact event page. Repository searches for the combined billing, date and proposed stable ID returned no existing RADAR record before publication. No additional repertoire, purchase destination or Apple Music ID was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more specific than three singers sharing a bill. La Reserve's first Asian concert series uses one rhythm section to place Maria Kim's Korean jazz perspective, Lucy Yeghiazaryan's Armenian-American musical background and Caity Gyorgy's swing-centered Canadian voice in direct conversation. The cultural exchange is built into the performance structure rather than added as marketing around it.",
+          "trip_verdict": "If November 11 is open during a Tokyo stay, catch either set if it fits cleanly. It is a useful one-night snapshot of an international label scene, but I would keep rarer master appearances or singular lineups ahead of it when the calendar conflicts.",
+          "listen_before": "Maria Kim — Love Letters; Lucy Yeghiazaryan — Hey Love!; Caity Gyorgy — You Irritate Me So"
+        },
+        "es": {
+          "why_it_matters": "Esto es más específico que juntar a tres cantantes en un cartel. La primera serie asiática de conciertos de La Reserve usa una misma sección rítmica para poner en conversación la mirada del jazz coreano de Maria Kim, el trasfondo armenio-estadounidense de Lucy Yeghiazaryan y la voz canadiense de Caity Gyorgy anclada en el swing. El intercambio cultural está metido en la estructura del concierto y no pegado como discurso promocional.",
+          "trip_verdict": "Si el 11 de noviembre queda libre durante una estancia en Tokio, entraría al set que acomode mejor. Es una buena fotografía de una escena internacional reunida por el sello, pero ante un conflicto de calendario dejaría primero una aparición más rara de un maestro o una formación verdaderamente singular.",
+          "listen_before": "Maria Kim — Love Letters; Lucy Yeghiazaryan — Hey Love!; Caity Gyorgy — You Irritate Me So"
+        }
+      }
+    },
+    {
+      "id": "benny-green-solo-cotton-club-tokyo-2026-11-12",
+      "artist": "Benny Green",
+      "subtitle": "Piano solo — Renovation",
+      "dates": {
+        "start": "2026-11-12",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / solo piano / current solo repertoire",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz",
+        "Solo Piano"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised"
+      ],
+      "lineup": [
+        "Benny Green — piano"
+      ],
+      "factual_description": "COTTON CLUB presents Benny Green in solo piano on November 12, 2026, with sets at 6:00 PM and 8:30 PM. The venue frames the one-day solo engagement around Green's current album Renovation, identified there as his first solo-piano live album, with repertoire on that recording including a Duke Pearson tribute and compositions associated with Bobby Timmons, Randy Weston and Hoagy Carmichael. Green then remains at COTTON CLUB for separate trio performances November 13-15. COTTON CLUB lists the solo table-seat charge at ¥8,500 per person and separately advertises a limited solo-plus-trio pass.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/benny-green-261112/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Date, both solo set times, solo lineup, Renovation framing, adjacent trio-run context and charges were verified from the exact COTTON CLUB event page. Booking runs through the venue reservation system, so no session-dependent purchase destination is stored; no Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/benny-green-261112/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-29",
+          "note": "Primary event page verifies November 12, 2026, both solo set times, Benny Green alone on piano, Renovation as his first solo live album, repertoire context, the November 13-15 trio run and charges."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core event facts were verified from COTTON CLUB's exact event page. Repository searches for Benny Green with COTTON CLUB/date and the proposed stable ID returned no existing RADAR record before publication. No additional personnel, unannounced repertoire, ticket destination or Apple Music ID was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The solo format is the reason to flag this date. After decades inside hard-bop lineages and ensemble settings, Green brings the repertory documented on his first solo live album into a room where touch, time and harmonic architecture are completely exposed. That makes November 12 a different proposition from the three trio nights that follow rather than simply the first date of a longer residency.",
+          "trip_verdict": "If November 12 overlaps Tokyo, actively make room for one of the two solo sets. The trio run immediately afterward gives plenty of access to Green that week, but the unaccompanied night is the more distinctive date to build a Marunouchi evening around.",
+          "listen_before": "Benny Green — Renovation"
+        },
+        "es": {
+          "why_it_matters": "La razón para marcar esta fecha es el formato solista. Después de décadas dentro del linaje hard bop y de tocar en ensambles, Green lleva el repertorio documentado en su primer disco en vivo a piano solo a una sala donde quedan completamente expuestos el toque, el tiempo y la arquitectura armónica. Eso vuelve al 12 de noviembre una propuesta distinta de las tres noches de trío que siguen, no simplemente el inicio de una residencia más larga.",
+          "trip_verdict": "Si el 12 de noviembre coincide con Tokio, sí le haría espacio activamente a uno de los dos sets solistas. La corrida de trío que sigue da muchas oportunidades para escuchar a Green esa semana, pero la noche sin acompañamiento es la fecha más distintiva para construir una velada por Marunouchi.",
+          "listen_before": "Benny Green — Renovation"
+        }
+      }
+    }
+  ]
+}
