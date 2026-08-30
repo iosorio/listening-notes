@@ -1,0 +1,101 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "michael-blake-halloween-tales-birdland-2026-11-01-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-30 after reading the current durable priority, editorial, domain and inbox guidance. No unrecorded Tsuyoshi Yamamoto performance with a sufficiently specific admission hook was verified in this pass. Michael Blake Quartet's Birdland Theater presentation of Halloween Tales clears RADAR admission on repertoire-concept and live-quartet grounds. Priority is assigned only after admission: A, because the performance is worth knowing and attending if convenient but neither the repertoire concept nor the working quartet is scarce enough to justify protecting a New York trip around this single date. Batch distribution: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "michael-blake-halloween-tales-birdland-2026-11-01",
+      "artist": "Michael Blake Quartet",
+      "subtitle": "Halloween Tales",
+      "dates": {
+        "start": "2026-11-01",
+        "end": "2026-11-01"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "birdland-theater-new-york",
+        "name": "Birdland Theater",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Acoustic jazz quartet / Themed repertoire",
+      "genres": [
+        "Jazz",
+        "Acoustic jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Michael Blake — tenor saxophone",
+        "Gary Versace — piano",
+        "Ben Allison — bass",
+        "Michael Sarin — drums"
+      ],
+      "factual_description": "Birdland Theater presents Michael Blake Quartet: Halloween Tales on Sunday, November 1, 2026, with 7:00 PM and 9:30 PM sets. Birdland and Michael Blake's official live schedule identify the quartet as Blake on tenor saxophone, Gary Versace on piano, Ben Allison on bass and Michael Sarin on drums. Birdland describes Halloween Tales, released September 25, 2026, as a project built around Halloween and harvest-season atmosphere through original compositions, reimagined standards and improvisation, using the classic acoustic-quartet instrumentation of holiday jazz records as a deliberate frame.",
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/michael-blake-quartet-halloween-tales/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "recommended_listening"
+        ],
+        "note": "The exact Birdland event page and Michael Blake's official live schedule are verified. Birdland exposes set-specific ticket purchase controls; no single residence-level purchase URL is stored. No Apple Music ID or listening link was inferred during this pass."
+      },
+      "sources": [
+        {
+          "type": "primary_venue",
+          "name": "Birdland Jazz Club & Theater",
+          "url": "https://www.birdlandjazz.com/tm-event/michael-blake-quartet-halloween-tales/",
+          "checked_on": "2026-08-30",
+          "note": "Exact venue page confirms November 1, 2026, both set times, Birdland Theater, the quartet personnel and the Halloween Tales repertoire concept."
+        },
+        {
+          "type": "primary_artist",
+          "name": "Michael Blake",
+          "url": "https://www.michaelblake.net/dates.php",
+          "checked_on": "2026-08-30",
+          "note": "Artist's official live schedule confirms the November 1 Birdland Theater engagement, both set times and the live quartet of Gary Versace, Ben Allison and Mike Sarin with Blake."
+        },
+        {
+          "type": "authorized_ticketing",
+          "name": "TicketWeb",
+          "url": "https://www.ticketweb.com/event/michael-blake-quartet-halloween-tales-birdland-theater-tickets/14278924",
+          "checked_on": "2026-08-30",
+          "note": "Authorized Birdland Theater ticketing corroborates the event and quartet personnel. Because Birdland presents two set-specific purchase controls, this URL is retained as a source rather than represented as a single official_tickets destination for both sets."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, two set times, venue, all four live musicians and the performance concept were verified against Birdland and Michael Blake's official schedule; authorized TicketWeb corroborates the event. Repository searches and current curated/processed inbox checks found no existing Michael Blake Halloween Tales Birdland record before publication. No price, Apple Music ID or single all-sets ticket destination was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Blake is treating Halloween as repertoire rather than decoration. The project uses a straight acoustic-quartet frame to turn originals and reworked standards toward mystery, humor and cinematic atmosphere, with Versace, Allison and Sarin giving the concept enough improvisational weight to make this more than a seasonal novelty. The Birdland date is a direct live realization of that unusually specific idea soon after the record's release.",
+          "trip_verdict": "If a New York trip already overlaps November 1, pick whichever Theater set fits the rest of the evening. It is a distinctive club date worth adding to the itinerary, but I would not build the corridor trip around this performance alone.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Blake está tratando Halloween como repertorio, no como decoración. El proyecto usa el formato directo del cuarteto acústico para llevar originales y standards reimaginados hacia el misterio, el humor y una atmósfera cinematográfica; Versace, Allison y Sarin le dan suficiente peso improvisatorio para que la idea sea bastante más que una curiosidad de temporada. La fecha de Birdland es una realización en vivo muy directa de ese concepto poco después de la salida del disco.",
+          "trip_verdict": "Si un viaje a Nueva York ya coincide con el 1 de noviembre, escogería el set del Theater que mejor embone con el resto de la noche. Es una fecha de club suficientemente distintiva para sumarla al itinerario, pero no construiría todo el viaje por el corredor alrededor de esta presentación.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
