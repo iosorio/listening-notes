@@ -1,0 +1,285 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "mcbride-ursa-wyclef-pjo-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before any research or grading. Fresh checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A search traces, and credible Japanese-jazz sources. The Yamamoto thread produced no newly verified, non-duplicate performance beyond already-curated September BODY&SOUL dates and other existing Yamamoto records, so no Yamamoto event was added merely because he is the narrative guide. Repository-wide duplicate searches were then run for the proposed artist/date/venue combinations and stable IDs. Stage 1 admits three performances for specific live reasons: Christian McBride brings the new Ursa Major working quintet to Blue Note Tokyo for its Japan-debut engagement; Wyclef Jean's Tysons date places the presenter's 30-years-of-The-Carnival framing inside a one-night orchestral reimagining with the Fairfax Symphony; and Pacific Jazz Orchestra returns to Tokyo in a specifically announced 17-player big-band deployment under arranger-conductor Chris Walden. Stage 2 produces A 1 / A+ 2 / S 0 / S+ 0. Recent curated intake was checked before finalizing and remains dominated by A and A+ with scarcity tiers uncommon. McBride and Wyclef merit active room-making but do not require protect-the-night treatment: Ursa Major has six Tokyo sets plus other Japan dates, while Wyclef's one-night local orchestral setting is distinctive without being documented as a farewell, premiere, or nonrecurring endpoint. Pacific Jazz Orchestra is a strong large-ensemble date but a return engagement with three Tokyo nights, so A captures attend-if-convenient behavior. No priority_review is required because no S/S+ tier is proposed.",
+  "events": [
+    {
+      "id": "christian-mcbride-ursa-major-blue-note-tokyo-2026-09-16",
+      "artist": "Christian McBride & Ursa Major",
+      "subtitle": "Japan-debut engagement for McBride's new quintet",
+      "dates": {
+        "start": "2026-09-16",
+        "end": "2026-09-18"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / new working quintet / Japan debut",
+      "genres": [
+        "Contemporary jazz",
+        "Modern jazz",
+        "Jazz fusion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Improvised",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Christian McBride — bass",
+        "Nicole Glover — saxophone",
+        "Ely Perlman — guitar",
+        "Mike King — piano",
+        "Savannah Harris — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Christian McBride & Ursa Major on September 16, 17, and 18, 2026, with sets at 6:00 PM and 8:30 PM each day. The announced quintet is Christian McBride on bass, Nicole Glover on saxophone, Ely Perlman on guitar, Mike King on piano, and Savannah Harris on drums. Blue Note Tokyo describes Ursa Major as McBride's newest project and presents this engagement as the group's Japan debut. The venue lists a ¥9,500 music charge. McBride's artist-owned store independently identifies Ursa Major as his newest ensemble and describes it as an intergenerational, genre-crossing project.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/christian-mcbride/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Blue Note Tokyo verifies all three dates, both set times, the full announced quintet, Japan-debut/new-project framing and the local music charge. Reservations are handled through Blue Note Tokyo's session-based system, so no generic reservation URL is substituted as an exact event-specific purchase destination. McBride's artist-owned store corroborates Ursa Major as his newest ensemble. No Apple Music destination is inserted without repository-format verification."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/christian-mcbride/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue page verifies September 16-18, 2026, 18:00 and 20:30 sets, complete quintet, ¥9,500 music charge, and the new-project/Japan-debut framing."
+        },
+        {
+          "url": "https://store.christianmcbride.com/",
+          "publisher": "Christian McBride",
+          "checked_on": "2026-08-29",
+          "note": "Artist-owned source identifies Ursa Major as McBride's newest ensemble and names the project as a next-generation, genre-crossing working group."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core performance facts were verified from Blue Note Tokyo and the current-project identity was corroborated by Christian McBride's artist-owned site. Repository-wide searches for Ursa Major, Christian McBride with the September 16 date, and the proposed stable ID returned no existing matching canonical, curated or processed record immediately before publication. Priority was assigned only after RADAR admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The point is not another McBride appearance but the band he has chosen for the next chapter. Ursa Major puts one of jazz's defining bass voices inside a younger five-piece with Nicole Glover's saxophone, Ely Perlman's guitar, Mike King's piano and Savannah Harris's drums, so the leader's role is as much rhythmic architect and catalyst as featured master. Hearing that new working chemistry at the start of its Japan life makes this a present-tense ensemble story rather than a retrospective one.",
+          "trip_verdict": "If September 16-18 overlaps a Tokyo stay, actively make room for one of the six sets and let Aoyama anchor that evening. Three nights give enough flexibility to fit it around rarer Tokyo dates rather than rebuilding the trip around a single scarce opportunity.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El punto no es otra aparición de McBride sino la banda que escogió para su siguiente capítulo. Ursa Major pone a una de las voces fundamentales del bajo de jazz dentro de un quinteto más joven con el sax de Nicole Glover, la guitarra de Ely Perlman, el piano de Mike King y la batería de Savannah Harris; McBride funciona tanto como arquitecto rítmico y catalizador como maestro al frente. Escuchar esa química de trabajo al inicio de su historia en Japón vuelve la fecha una conversación del presente y no un ejercicio retrospectivo.",
+          "trip_verdict": "Si del 16 al 18 de septiembre coincide con una estancia en Tokio, le haría espacio activamente a uno de los seis sets y dejaría que Aoyama ancle esa noche. Tres noches dan suficiente flexibilidad para acomodarlo alrededor de fechas más raras en Tokio, sin reconstruir el viaje alrededor de una sola oportunidad escasa.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "wyclef-jean-fairfax-symphony-capital-one-hall-tysons-2026-10-25",
+      "artist": "Wyclef Jean with the Fairfax Symphony Orchestra",
+      "subtitle": "Celebrates 30 years of The Carnival",
+      "dates": {
+        "start": "2026-10-25",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "capital-one-hall-tysons",
+        "name": "Capital One Hall",
+        "city": "Tysons",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Culturally significant hip-hop / orchestral reimagining / anniversary context",
+      "genres": [
+        "Hip-hop",
+        "Reggae",
+        "R&B",
+        "Caribbean music",
+        "Orchestral crossover"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Wyclef Jean — performing artist",
+        "Jason Seber — conductor",
+        "Fairfax Symphony Orchestra"
+      ],
+      "factual_description": "Capital One Hall presents Wyclef Jean with the Fairfax Symphony Orchestra on Sunday, October 25, 2026 in Tysons, Virginia. The venue bills the program as Celebrates 30 years of The Carnival and describes it as a one-night-only orchestral reimagining of music from Jean's career, combining hip-hop, reggae, R&B, pop and Caribbean influences with full orchestra under conductor Jason Seber. Ticketmaster, the authorized ticketing destination, verifies 6:00 PM doors and a 7:00 PM showtime and lists Wyclef Jean and the Fairfax Symphony Orchestra for the event.",
+      "links": {
+        "official_event": "https://www.capitalonehall.com/events/detail/wyclef-jean",
+        "official_tickets": "https://www.ticketmaster.com/wyclef-jean-celebrates-30-years-of-the-carnival-tysons-10-25-2026/event/15006505F0D9BD97"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Capital One Hall verifies the date, one-night orchestral concept, anniversary billing, Fairfax Symphony collaboration and Jason Seber as conductor. Authorized Ticketmaster verifies the exact 19:00 showtime, 18:00 doors and active purchase destination. No exact Apple Music destination is inserted without verification, and no unannounced orchestral arrangement details or additional performers are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.capitalonehall.com/events/detail/wyclef-jean",
+          "publisher": "Capital One Hall",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue page verifies October 25, 2026, 18:00 doors, the 30-years-of-The-Carnival billing, Fairfax Symphony collaboration, Jason Seber as conductor and one-night-only orchestral reimagining context."
+        },
+        {
+          "url": "https://www.ticketmaster.com/wyclef-jean-celebrates-30-years-of-the-carnival-tysons-10-25-2026/event/15006505F0D9BD97",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-29",
+          "note": "Authorized ticketing verifies Sunday, October 25, 2026 at 19:00 at Capital One Hall, with 18:00 doors and Wyclef Jean plus Fairfax Symphony Orchestra in the lineup."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Date, venue, anniversary/orchestral concept and conductor were verified from Capital One Hall; time and authorized sale were independently verified through Ticketmaster. Repository-wide searches for Wyclef Jean at Capital One Hall and the proposed stable ID returned no existing matching canonical, curated or processed RADAR record immediately before publication. The presenter's anniversary wording is retained as billing rather than converted into an unsupported claim about an exact album-release anniversary date. Priority was assigned only after admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The orchestra is what turns this from a legacy-artist stop into a Listening Notes date. Wyclef's music has always treated hip-hop as porous—open to reggae, Caribbean rhythm, R&B, pop and instrumental color—and the Fairfax Symphony gives that mixture a different physical scale. Framing the night around The Carnival era creates a useful historical lens without asking the orchestra to turn the music into a museum piece.",
+          "trip_verdict": "This is local enough to make room for directly: build the Tysons evening around the 7:00 PM performance if that orchestral crossover thread is appealing. The one-night format makes the local opportunity distinctive, but it does not require treating the broader trip calendar as if this were a farewell or final chance to hear Wyclef's music.",
+          "listen_before": "The Carnival"
+        },
+        "es": {
+          "why_it_matters": "La orquesta es lo que convierte esta fecha de un artista con historia en una noche propia de Listening Notes. La música de Wyclef siempre ha tratado al hip-hop como un lenguaje poroso, abierto al reggae, al ritmo caribeño, al R&B, al pop y al color instrumental; la Fairfax Symphony lleva esa mezcla a otra escala física. Enmarcar la noche alrededor de la etapa de The Carnival da una perspectiva histórica útil sin pedirle a la orquesta que convierta la música en pieza de museo.",
+          "trip_verdict": "Es suficientemente local para abrirle espacio directamente: armaría la noche en Tysons alrededor de la función de las 7:00 si atrae ese cruce con orquesta. Que sea una sola noche vuelve especial la oportunidad local, pero no obliga a tratar el calendario más amplio como si fuera una despedida o la última ocasión de escuchar la música de Wyclef.",
+          "listen_before": "The Carnival"
+        }
+      }
+    },
+    {
+      "id": "pacific-jazz-orchestra-blue-note-tokyo-2026-11-20",
+      "artist": "Pacific Jazz Orchestra directed by Chris Walden",
+      "subtitle": "17-player big-band return to Blue Note Tokyo",
+      "dates": {
+        "start": "2026-11-20",
+        "end": "2026-11-22"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Large ensemble / arranger-conductor identity / contemporary orchestral jazz",
+      "genres": [
+        "Big band jazz",
+        "Orchestral jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Acoustic Jazz",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Chris Walden — director, conductor",
+        "Jeff Driskill — saxophone",
+        "Jacob Scesney — saxophone",
+        "Brandon Fields — saxophone",
+        "Glen Berger — saxophone",
+        "Ken Fisher — saxophone",
+        "Wayne Bergeron — trumpet",
+        "Kye Palmer — trumpet",
+        "Chris Gray — trumpet",
+        "Michael Stever — trumpet",
+        "Andy Martin — trombone",
+        "Alex Iles — trombone",
+        "Ramsey Hampton — trombone",
+        "Tiffany Johns — trombone",
+        "Andrew Synowiec — guitar",
+        "Josh Nelson — piano",
+        "Edwin Livingston — bass",
+        "Jamey Tate — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Pacific Jazz Orchestra directed by Chris Walden on November 20, 21, and 22, 2026. November 20 sets start at 6:00 PM and 8:30 PM; November 21 and 22 sets start at 4:30 PM and 7:30 PM. Blue Note Tokyo describes the Los Angeles organization as founded as a 40-piece orchestra but announces this return in a 17-player big-band format under artistic director, arranger and conductor Chris Walden, performing arrangements that range from jazz standards to original music. The venue publishes the complete horn and rhythm-section personnel and a ¥11,500 music charge. Blue Note Tokyo also documents a prior Pacific Jazz Orchestra engagement there in May 2024.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/pacific-jazz-orchestra/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Blue Note Tokyo verifies all three dates, date-specific set times, the full announced personnel, 17-player big-band framing, repertoire description, ¥11,500 music charge and the prior 2024 engagement. Pacific Jazz Orchestra's official site corroborates the organization as a 40-piece jazz-and-beyond ensemble and Chris Walden as artistic director/conductor. Reservations are session-based, so no generic reservation URL is substituted as an exact event-specific ticket destination."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/pacific-jazz-orchestra/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-29",
+          "note": "Primary venue page verifies November 20-22, date-specific set times, all announced personnel, 17-player big-band deployment, standards-to-originals repertoire framing, ¥11,500 music charge and the prior May 2024 Blue Note Tokyo engagement."
+        },
+        {
+          "url": "https://www.pacificjazz.org/",
+          "publisher": "Pacific Jazz Orchestra",
+          "checked_on": "2026-08-29",
+          "note": "Official ensemble site corroborates Pacific Jazz Orchestra's 40-piece organizational identity and Chris Walden as artistic director and conductor."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, times, Tokyo personnel and the specific 17-player format were verified from Blue Note Tokyo; organizational context was corroborated by Pacific Jazz Orchestra's official site. Repository-wide searches for Pacific Jazz Orchestra and the proposed stable ID returned no existing matching canonical, curated or processed RADAR record immediately before publication. Priority was assigned only after admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to notice this is the machinery of the ensemble itself. Walden brings a deep arranger's ear to five reeds, four trumpets, four trombones and a compact rhythm section, with players such as Wayne Bergeron, Andy Martin, Josh Nelson and Andrew Synowiec giving the band a distinctly Los Angeles studio-and-big-band vocabulary. In a club room, that many independent instrumental voices make orchestration something you can hear physically rather than as background architecture.",
+          "trip_verdict": "If November 20-22 overlaps Tokyo and an evening is open, catch one of the six sets. The three-night run and documented 2024 Blue Note Tokyo appearance make it easy to fit around rarer anchors rather than treating this return as a reason to reorganize the trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón para seguirlo está en la maquinaria del ensamble. Walden lleva un oído de arreglista muy desarrollado a cinco alientos de lengüeta, cuatro trompetas, cuatro trombones y una sección rítmica compacta; músicos como Wayne Bergeron, Andy Martin, Josh Nelson y Andrew Synowiec le dan a la banda un vocabulario muy marcado de estudio y big band de Los Ángeles. En un club, tantas voces instrumentales independientes hacen que la orquestación se escuche físicamente y no sólo como arquitectura de fondo.",
+          "trip_verdict": "Si del 20 al 22 de noviembre coincide con Tokio y hay una noche libre, entraría a uno de los seis sets. Las tres noches y la aparición documentada de 2024 en Blue Note Tokyo permiten acomodarlo alrededor de anclas más raras en vez de reorganizar el viaje por este regreso.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
