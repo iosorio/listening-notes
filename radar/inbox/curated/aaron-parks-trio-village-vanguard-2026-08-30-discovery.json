@@ -1,0 +1,125 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "aaron-parks-trio-village-vanguard-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks of Tsuyoshi Yamamoto at BODY&SOUL, Jazz House ALFIE schedule traces, Space M&A and credible Japanese-jazz sources did not produce an additional verified, unrecorded Yamamoto appearance with a sufficiently distinct performance-specific reason for RADAR admission. The September 6 BODY&SOUL appearance with Kimiko Ito was verified but not admitted merely because Yamamoto is present; the venue itself links it to a recurring prior-stage context, and no stronger event-specific hook was established in this pass. Aaron Parks Trio at the Village Vanguard clears Stage 1 because this is the original Aaron Parks/Ben Street/Billy Hart trio, a working project documented since 2012 and on ECM's Find the Way, returning in trio form to the room where Parks' 2023 week with Street and Hart directly prompted him to expand the group with a saxophonist for the project that became By All Means. Stage 2 is A+: the exact trio, Billy Hart's living-master drum voice and the Vanguard-specific project history merit actively making room if New York is viable. A scarcity tier is not warranted: this is a six-night residency by an intermittently active trio, not a farewell, premiere or singular one-off. Recent curated RADAR intake was rechecked as a sanity test and remains concentrated in A/A+; this batch proposes A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "aaron-parks-trio-village-vanguard-new-york-2026-10-27",
+      "artist": "Aaron Parks Trio",
+      "subtitle": "with Ben Street & Billy Hart",
+      "dates": {
+        "start": "2026-10-27",
+        "end": "2026-11-01"
+      },
+      "showtimes": [
+        "20:00",
+        "22:00"
+      ],
+      "venue": {
+        "id": "village-vanguard-new-york-ny",
+        "name": "Village Vanguard",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Working piano trio / Village Vanguard project continuity",
+      "genres": [
+        "Jazz",
+        "Acoustic jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised"
+      ],
+      "lineup": [
+        "Aaron Parks — piano",
+        "Ben Street — bass",
+        "Billy Hart — drums"
+      ],
+      "factual_description": "Village Vanguard lists Aaron Parks Trio with Ben Street and Billy Hart for October 27 through November 1, 2026. The venue's current FAQ states that shows start at 8:00 PM and 10:00 PM. ECM documents Parks, Street and Hart as the trio on the 2017 album Find the Way. Blue Note Records documents that the trio had been intermittently active since 2012 and that, before an upcoming Village Vanguard week in July 2023, Parks decided to add a saxophonist to the trio; that expansion with Ben Solomon later became the quartet heard on By All Means. The 2026 Vanguard booking therefore presents the original three-player configuration again in a room directly connected to the project's evolution.",
+      "links": {
+        "official_event": "https://villagevanguard.com/event/coming-soon",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "official face-value ticket price",
+          "apple_music"
+        ],
+        "note": "Village Vanguard's current schedule verifies the October 27-November 1 residency and named trio; the current venue FAQ verifies the standard 20:00 and 22:00 show schedule. ECM and Blue Note Records support the exact trio/project history only. No event-specific ticket URL, official face-value price or Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "type": "primary_venue",
+          "name": "Village Vanguard",
+          "url": "https://villagevanguard.com/",
+          "checked_on": "2026-08-30",
+          "note": "Primary venue schedule verifying the October 27-November 1, 2026 Aaron Parks Trio residency with Ben Street and Billy Hart."
+        },
+        {
+          "type": "primary_venue",
+          "name": "Village Vanguard FAQ",
+          "url": "https://villagevanguard.com/faq",
+          "checked_on": "2026-08-30",
+          "note": "Current official FAQ states that Village Vanguard shows start at 8:00 PM and 10:00 PM."
+        },
+        {
+          "type": "label",
+          "name": "ECM Records",
+          "url": "https://ecmrecords.com/product/find-the-way-aaron-parks-ben-street-billy-hart/",
+          "checked_on": "2026-08-30",
+          "note": "Label page verifies Aaron Parks, Ben Street and Billy Hart as the trio on Find the Way and describes the trio's musical concept."
+        },
+        {
+          "type": "label",
+          "name": "Blue Note Records",
+          "url": "https://www.bluenote.com/spotlight/aaron-parks-by-all-means/",
+          "checked_on": "2026-08-30",
+          "note": "Blue Note feature documents that the Parks/Street/Hart trio had been intermittently active since 2012 and that Parks decided, before a 2023 Village Vanguard week, to expand the trio with a saxophonist, leading to the By All Means quartet."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core event dates, billing and venue were verified from Village Vanguard; showtimes from the venue's current FAQ. ECM and Blue Note Records provide only project-history context. Repository searches for Aaron Parks, Billy Hart and the proposed stable event ID returned no matching RADAR record before publication. Priority was assigned only after RADAR admission; no S/S+ priority_review is required for A+."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the core Parks-Street-Hart conversation, not a generic leader date. The trio has its own recorded language on Find the Way, and Parks' 2023 Vanguard week with Street and Hart was the moment that pushed him to expand the group for the project that became By All Means. Bringing the original three back to the same room puts the focus again on the trio's elastic center: Parks' open harmony, Street's quiet gravitational pull and Hart's unmistakably floating authority at the drums.",
+          "trip_verdict": "If New York is workable from October 27 through November 1, actively make room for one of the six nights and let the Vanguard anchor the evening. The weeklong run gives enough flexibility to pair it with another New York reason rather than forcing the corridor trip onto one scarce date.",
+          "listen_before": "Aaron Parks — Find the Way"
+        },
+        "es": {
+          "why_it_matters": "Ésta es la conversación central Parks-Street-Hart, no una fecha genérica de líder. El trío tiene un lenguaje propio grabado en Find the Way, y la semana de Parks con Street y Hart en el Vanguard en 2023 fue el momento que lo empujó a ampliar el grupo para el proyecto que terminó siendo By All Means. Volver al mismo cuarto con los tres originales pone otra vez el centro en la elasticidad del trío: la armonía abierta de Parks, la gravedad discreta de Street y esa autoridad flotante e inconfundible de Hart en la batería.",
+          "trip_verdict": "Si Nueva York resulta viable entre el 27 de octubre y el 1 de noviembre, sí le haría espacio activamente a una de las seis noches y dejaría que el Vanguard ancle la velada. La semana completa permite combinarlo con otra razón para estar en la ciudad sin hacer depender todo el viaje por el corredor de una sola fecha escasa.",
+          "listen_before": "Aaron Parks — Find the Way"
+        }
+      }
+    }
+  ]
+}
