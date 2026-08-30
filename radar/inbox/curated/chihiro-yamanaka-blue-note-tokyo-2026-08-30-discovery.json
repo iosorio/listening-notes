@@ -1,0 +1,109 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "chihiro-yamanaka-blue-note-tokyo-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before discovery and grading. Fresh checks of Tsuyoshi Yamamoto sources, including Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources, produced no new verified unrecorded Yamamoto performance with a distinct event-specific admission reason. Chihiro Yamanaka's Blue Note Tokyo engagement clears Stage 1 because it marks her 25-year music-career anniversary and opens the announced tour for Happy-Go-Lucky with the same New York Trio personnel heard on the new album; this is a performance-specific repertoire and career-moment hook rather than admission by venue prestige or artist reputation alone. Priority was assigned only after admission. A+ reflects an event worth actively making room for during a Tokyo stay: a major career anniversary, a new album built from repertoire shaped across 25 years of live work, and the tour-opening return of her New York Trio. The regular working-trio format, two nights and four sets make scarcity tiers inappropriate. Recent/current RADAR output was reviewed as a sanity check; no S or S+ is proposed. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "chihiro-yamanaka-blue-note-tokyo-2026-10-15",
+      "artist": "Chihiro Yamanaka",
+      "subtitle": "Celebrating the 25th Anniversary of Chihiro Yamanaka's Debut — New York Trio",
+      "dates": {
+        "start": "2026-10-15",
+        "end": "2026-10-16"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese jazz / piano trio / 25th-anniversary album tour",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Piano trio"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Acoustic Jazz",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Chihiro Yamanaka — piano",
+        "Yoshi Waki — bass",
+        "John Davis — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Chihiro Yamanaka New York Trio on October 15 and 16, 2026, celebrating 25 years since the start of her recording career. Each night has sets starting at 6:00 PM and 8:30 PM, with doors at 5:00 PM and 7:45 PM respectively. The venue lists Chihiro Yamanaka on piano, Yoshi Waki on bass and John Davis on drums, with a ¥9,900 music charge. Universal Music Japan confirms that Happy-Go-Lucky is released September 30, 2026, marks Yamanaka's 25-year music career, uses the same Yamanaka/Waki/Davis personnel, and that the October 15-16 Blue Note Tokyo engagement opens the announced tour behind the album. The record draws on repertoire Yamanaka has performed across her career, combining piano and keyboard with the trio's groove and interplay.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/chihiro-yamanaka/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chihiro Yamanaka",
+          "title": "Happy-Go-Lucky",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/happy-go-lucky/6798596861"
+        }
+      ],
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Blue Note Tokyo verifies both dates, both nightly set times, complete trio, anniversary billing and ¥9,900 music charge. Universal Music Japan verifies the September 30 Happy-Go-Lucky release, exact trio personnel, 25-year-career context and that Blue Note Tokyo opens the announced album tour. Apple Music verifies the exact pre-release album page. Blue Note Tokyo uses its web reservation flow, so no generic or session-dependent reservation URL is substituted as an event-specific purchase destination."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Blue Note Tokyo — Chihiro Yamanaka New York Trio",
+          "url": "https://www.bluenote.co.jp/jp/artists/chihiro-yamanaka/",
+          "checked_on": "2026-08-30",
+          "note": "Primary venue page verifying October 15-16, 2026, anniversary billing, 18:00 and 20:30 nightly starts, complete trio and ¥9,900 music charge."
+        },
+        {
+          "type": "label",
+          "name": "Universal Music Japan — Happy-Go-Lucky",
+          "url": "https://www.universal-music.co.jp/chihiro-yamanaka/products/uccj-2264/",
+          "checked_on": "2026-08-30",
+          "note": "Primary label page verifying the September 30, 2026 album release, 25-year-career framing, Yamanaka/Waki/Davis personnel, repertoire context and that the Blue Note Tokyo dates open the announced Happy-Go-Lucky tour."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music — Happy-Go-Lucky",
+          "url": "https://music.apple.com/us/album/happy-go-lucky/6798596861",
+          "checked_on": "2026-08-30",
+          "note": "Exact Apple Music pre-release album page for Happy-Go-Lucky, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core event facts were verified directly with Blue Note Tokyo and the album/tour context with Universal Music Japan; Apple Music verifies the exact recommended-listening page. Repository searches for Chihiro Yamanaka, the October 15 engagement and the proposed stable event ID returned no matching canonical, curated or processed record before publication. Priority was assigned after admission; A+ reflects an unusually strong Japanese-jazz anniversary and tour-opening context worth actively making room for, without treating a regular two-night working-trio engagement as scarce."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The anniversary has a musical shape, not just a number: Yamanaka opens the Happy-Go-Lucky tour with Yoshi Waki and John Davis, the same New York Trio heard on an album built from repertoire she has carried and reshaped across twenty-five years of live work. That makes these Blue Note dates a compact snapshot of where one of Japan's most distinctive contemporary jazz pianists has arrived, with the trio's groove and close interplay doing the storytelling.",
+          "trip_verdict": "Actively make room for one of the four sets if October 15-16 overlaps a Tokyo stay. Two nights give enough flexibility to build an Aoyama evening around the trio without reorganizing the wider Kanto itinerary.",
+          "listen_before": "Chihiro Yamanaka — Happy-Go-Lucky"
+        },
+        "es": {
+          "why_it_matters": "El aniversario tiene una forma musical, no sólo una cifra: Yamanaka abre la gira de Happy-Go-Lucky con Yoshi Waki y John Davis, el mismo New York Trio del disco, construido a partir de repertorio que ella ha tocado y transformado a lo largo de veinticinco años de trabajo en vivo. Estas fechas condensan muy bien el punto al que ha llegado una de las pianistas más singulares del jazz japonés contemporáneo, con el groove y la interacción cerrada del trío contando la historia.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets si el 15 o 16 de octubre coincide con una estancia en Tokio. Las dos noches dan margen suficiente para armar una velada por Aoyama alrededor del trío sin reordenar el resto del itinerario por Kanto.",
+          "listen_before": "Chihiro Yamanaka — Happy-Go-Lucky"
+        }
+      }
+    }
+  ]
+}
