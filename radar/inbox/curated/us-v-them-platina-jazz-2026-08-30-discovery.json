@@ -1,0 +1,204 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "us-v-them-platina-jazz-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks of Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedule traces, Space M&A-related sources and credible Japanese-jazz sources did not produce an additional verified, unrecorded Yamamoto performance with a distinct event-specific admission reason; the relevant September KEYSTONE CLUB TOKYO and BODY&SOUL dates and a December Space M&A/Hachioji date are already represented in the repo. Admission and priority were decided separately. Us v. Them night two clears admission because Roulette ties a one-night performance to the documented early-2000s Brooklyn DIY/indie scene and bills Skeletons Big Band in its first expanded iteration in a decade alongside The Fiery Furnaces. PLATINA JAZZ clears admission because a Swedish-led eleven-piece ensemble reframes Japanese anime songs through jazz arranging, swing and large-ensemble performance in Tokyo, creating a specific cross-cultural live context rather than a generic jazz booking. Priority was assigned after admission: A 1, A+ 1, S 0, S+ 0. The proposed batch adds no scarcity-tier events and is consistent with the repository's broad-A / narrower-A+ shape. Us v. Them received an explicit scarcity challenge: the decade-gap expanded Skeletons format is genuinely rare, but A+ still captures the recommendation because the sources do not establish a farewell or terminal opportunity and the performance will also be livestreamed and archived.",
+  "events": [
+    {
+      "id": "us-v-them-fiery-furnaces-skeletons-big-band-roulette-2026-10-02",
+      "artist": "Us v. Them: The Fiery Furnaces, Skeletons Big Band & Special Guests",
+      "subtitle": "Brooklyn indie/DIY scene retrospective — night two",
+      "dates": {
+        "start": "2026-10-02",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Brooklyn DIY/indie history / rare expanded large ensemble / experimental rock",
+      "genres": [
+        "Experimental Rock",
+        "Indie Rock",
+        "Large Ensemble"
+      ],
+      "musical_axes": [
+        "Experimental / Metal",
+        "Cultural context",
+        "Cross-genre",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "The Fiery Furnaces — Eleanor Friedberger and Matthew Friedberger",
+        "Skeletons Big Band — expanded iteration; individual personnel not announced",
+        "Special guests — TBA"
+      ],
+      "factual_description": "Roulette presents night two of Us v. Them on Friday, October 2, 2026. Doors are at 7:00 PM and the performance begins at 8:00 PM. The evening marks Ronen Givony's book Us v. Them: The Age of Indie Music and a Decade in New York (2004–2014) and is part of a two-night Roulette program highlighting Brooklyn's early-2000s indie and DIY community. Night two bills The Fiery Furnaces, Skeletons Big Band and special guests to be announced. Roulette specifically describes the Skeletons opening set as rare and says the group will perform in an expanded iteration for the first time in a decade. The performance will be livestreamed free and archived. Roulette lists $35 advance admission, $40 at the door, and $30 student/senior admission with ID.",
+      "links": {
+        "official_event": "https://roulette.org/event/us-v-them-the-fiery-furnaces-skeletons-big-band/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1283782"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 30,
+          "maximum": 40,
+          "source_url": "https://ci.ovationtix.com/36368/production/1283782",
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "Skeletons Big Band individual personnel",
+          "special guests",
+          "apple_music"
+        ],
+        "note": "Roulette's exact event page verifies the date, doors/start time, billed acts, first-expanded-iteration-in-a-decade framing for Skeletons Big Band, two-night Brooklyn-scene/book context, official face-value admission, livestream/archive plan and authorized AudienceView/OvationTix destination. Individual Skeletons personnel and special guests remain unannounced; no Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/us-v-them-the-fiery-furnaces-skeletons-big-band/",
+          "publisher": "Roulette",
+          "checked_on": "2026-08-30",
+          "note": "Primary event page verifies October 2, 2026; 19:00 doors; 20:00 performance; The Fiery Furnaces, Skeletons Big Band and special-guests billing; first expanded Skeletons iteration in a decade; the Brooklyn indie/DIY scene and Us v. Them book context; face-value prices; free livestream/archive; and the authorized ticket link."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1283782",
+          "publisher": "AudienceView Professional / OvationTix",
+          "checked_on": "2026-08-30",
+          "note": "Authorized purchase destination linked directly from Roulette's event page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core performance facts were verified from Roulette's exact event page and authorized ticket destination. Repository searches for the exact title, The Fiery Furnaces, and the stable event ID returned no matching canonical, curated or processed RADAR record before publication. Priority was assigned only after admission. The first-expanded-iteration-in-a-decade statement triggered a scarcity challenge; A+ remains sufficient because the sources do not describe a farewell or final appearance and the concert will also be livestreamed and archived."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the scene being reconstructed, not nostalgia by itself. Roulette is putting The Fiery Furnaces beside a rare Skeletons Big Band set in its first expanded form in a decade, inside a two-night look back at the Brooklyn DIY ecosystem that shaped both the music and the institutions around it. That makes the large-ensemble return part of a specific cultural argument about a vanished New York moment rather than a routine reunion bill.",
+          "trip_verdict": "If New York is already viable on October 2, actively make room for Roulette and let the Brooklyn program anchor the night. From farther down the corridor, I would pair it with another strong New York reason rather than build the entire trip around a concert that will also be streamed and archived.",
+          "listen_before": "The Fiery Furnaces — Blueberry Boat"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en la escena que se reconstruye, no en la nostalgia por sí sola. Roulette pone a The Fiery Furnaces junto a un set poco común de Skeletons Big Band en su primera versión ampliada en una década, dentro de dos noches que vuelven sobre el ecosistema DIY de Brooklyn que moldeó tanto la música como las instituciones alrededor de ella. Así, el regreso del formato grande funciona como un argumento cultural sobre un momento neoyorquino que ya no existe, no como una reunión rutinaria.",
+          "trip_verdict": "Si Nueva York ya es viable el 2 de octubre, sí le haría espacio activamente a Roulette y dejaría que el programa de Brooklyn ancle la noche. Desde más abajo en el corredor lo combinaría con otra razón fuerte para subir, en vez de construir todo el viaje alrededor de un concierto que además tendrá transmisión y archivo.",
+          "listen_before": "The Fiery Furnaces — Blueberry Boat"
+        }
+      }
+    },
+    {
+      "id": "platina-jazz-cotton-club-tokyo-2026-11-29",
+      "artist": "PLATINA JAZZ",
+      "subtitle": "Rasmus Faber's anime-song jazz project",
+      "dates": {
+        "start": "2026-11-29",
+        "end": "2026-12-02"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30",
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan/Sweden cultural exchange / anime-song jazz arrangements / large ensemble",
+      "genres": [
+        "Jazz",
+        "Anime-song arrangements",
+        "Large Ensemble",
+        "Crossover"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Cross-genre",
+        "Cultural context",
+        "Groove"
+      ],
+      "lineup": [
+        "Niklas Gabrielsson — vocals",
+        "Emily McEwan — vocals",
+        "Martin Landström — piano",
+        "Ola Bothzén — drums",
+        "Martin Höper — bass",
+        "Nils Janson — trumpet",
+        "Karl Frid — trombone",
+        "Andreas Gidlund — tenor saxophone",
+        "Kristian Harborg — baritone saxophone",
+        "Thomas Eby — percussion, vocals",
+        "Rasmus Faber — vibraphone, keyboards"
+      ],
+      "factual_description": "COTTON CLUB presents PLATINA JAZZ from November 29 through December 2, 2026. On November 29, sets begin at 4:30 PM and 7:30 PM; on November 30, December 1 and December 2, sets begin at 6:00 PM and 8:30 PM. The announced eleven-person lineup is led by Swedish producer, musician and DJ Rasmus Faber on vibraphone and keyboards, with Niklas Gabrielsson and Emily McEwan on vocals and a piano-bass-drums, brass/reed and percussion ensemble. COTTON CLUB describes PLATINA JAZZ as Faber's anime-jazz cover project, active since 2009, and frames the Tokyo run around Japanese anime songs recast through jazz swing and harmony. The venue lists a standard table-seat charge of ¥9,900 per person, with other seat categories priced from ¥10,900 to ¥12,400. Member presale begins September 8 and general web reservations begin September 14.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/platina-jazz-261129/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "COTTON CLUB's exact event page verifies dates, date-specific set times, complete announced lineup, project framing, official seat charges and reservation-opening dates. The event-specific reservation page currently states that booking has not opened, so no active purchase destination is stored yet; no Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/platina-jazz-261129/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-08-30",
+          "note": "Primary event page verifies November 29-December 2, 2026; date-specific showtimes; full eleven-person lineup; Rasmus Faber/PLATINA JAZZ anime-jazz project context; official seat charges; and September 8/14 reservation-opening dates."
+        },
+        {
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/202611/",
+          "publisher": "COTTON CLUB reservation system",
+          "checked_on": "2026-08-30",
+          "note": "Official November schedule corroborates the run, showtimes, standard ¥9,900 music charge and reservation timing."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Performance facts were verified from COTTON CLUB's exact event page and official schedule. Repository searches for PLATINA JAZZ and the stable candidate ID returned no matching canonical, curated or processed RADAR record before publication. Priority was assigned only after admission. The project is an established recurring concept with four Tokyo nights and eight sets, so A captures the recommendation without overstating scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a genuine cross-cultural arranging project rather than a novelty cover night: a Swedish-led eleven-piece band uses horns, rhythm section, vibraphone, keyboards, percussion and two voices to turn Japanese anime songs into working jazz repertoire. The interest is in how familiar melodic material survives — or changes — when swing, harmony and ensemble color become the organizing language.",
+          "trip_verdict": "If November 29-December 2 overlaps a Tokyo stay, catch the set that fits naturally around stronger anchors. Four nights and eight performances make it a useful Marunouchi option without needing to reorganize the trip around it.",
+          "listen_before": "Rasmus Faber presents Platina Jazz — Anime Standards Vol. 6"
+        },
+        "es": {
+          "why_it_matters": "Esto sí es un proyecto de arreglo y cruce cultural, no una noche de covers como curiosidad: una banda de once músicos encabezada desde Suecia usa metales, sección rítmica, vibráfono, teclados, percusión y dos voces para convertir canciones de anime japonés en repertorio de jazz. Lo interesante es escuchar qué conserva —y qué cambia— una melodía conocida cuando el swing, la armonía y el color del ensamble pasan a organizar la música.",
+          "trip_verdict": "Si el 29 de noviembre al 2 de diciembre coincide con una estancia en Tokio, agarraría el set que entre naturalmente alrededor de anclas más fuertes. Cuatro noches y ocho funciones lo vuelven una buena opción en Marunouchi sin necesidad de reorganizar el viaje alrededor del concierto.",
+          "listen_before": "Rasmus Faber presents Platina Jazz — Anime Standards Vol. 6"
+        }
+      }
+    }
+  ]
+}
