@@ -1,0 +1,96 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "stanley-jordan-keystone-baltimore-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass under the current repository rubric. Current Yamamoto sources were checked first; no new verified, unrecorded appearance cleared RADAR admission. Recent/current RADAR intake was rechecked as a priority-shape sanity test and remains A+-heavy, so this strong but repeatable touring-trio context is kept at A rather than inflated. Proposed batch shape: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "stanley-jordan-trio-keystone-korner-baltimore-2026-10-02",
+      "artist": "Stanley Jordan Trio",
+      "subtitle": "with Kenwood Dennard and Wes Wirth",
+      "dates": {"start": "2026-10-02", "end": "2026-10-03"},
+      "showtimes": ["18:00", "20:30"],
+      "venue": {"id": "keystone-korner-baltimore-md", "name": "Keystone Korner Baltimore", "city": "Baltimore", "state": "MD", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "geography": "Baltimore",
+      "status": "considering",
+      "priority": "A",
+      "category": "Virtuoso jazz guitar / working trio",
+      "genres": ["Jazz", "Jazz fusion", "Improvised music"],
+      "musical_axes": ["Masters", "Instrumental identity", "Improvised", "Fusion / Prog"],
+      "lineup": [
+        "Stanley Jordan — guitar",
+        "Kenwood Dennard",
+        "Wes Wirth"
+      ],
+      "factual_description": "Keystone Korner Baltimore lists Stanley Jordan for Friday and Saturday, October 2-3, 2026, with 6:00 PM and 8:30 PM sets both nights. Stanley Jordan's official tour calendar independently identifies both Baltimore dates as a trio with Kenwood Dennard and Wes Wirth. Jordan's official biography identifies his signature instrumental language as the two-handed guitar touch technique.",
+      "links": {
+        "official_event": "https://www.keystonekornerbaltimore.com/",
+        "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 45,
+          "maximum": 55,
+          "source_url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["instrument assignments for announced trio members where not stated on the event/tour listings", "apple_music"],
+        "note": "Both dates, all four live set times, authorized live-ticket price range and the announced trio are verified. The artist tour page names Kenwood Dennard and Wes Wirth but does not assign their instruments there, so those assignments are not inferred in the event record. Streaming passes are separately offered at $15 and are not mixed into the live-ticket price field."
+      },
+      "sources": [
+        {
+          "url": "https://www.keystonekornerbaltimore.com/",
+          "publisher": "Keystone Korner Baltimore",
+          "checked_on": "2026-08-30",
+          "note": "Official venue listing verifying October 2-3 and 6:00 PM / 8:30 PM shows on both days, with the authorized InstantSeats destination."
+        },
+        {
+          "url": "https://stanleyjordan.com/en/tourdates/?v=1",
+          "publisher": "Stanley Jordan",
+          "checked_on": "2026-08-30",
+          "note": "Artist-official tour calendar verifying both Keystone Korner dates and the trio billing with Kenwood Dennard and Wes Wirth."
+        },
+        {
+          "url": "https://stanleyjordan.com/en/biography/",
+          "publisher": "Stanley Jordan",
+          "checked_on": "2026-08-30",
+          "note": "Artist-official biography verifying Jordan's two-handed touch technique as the core of his instrumental identity."
+        },
+        {
+          "url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+          "publisher": "InstantSeats / Keystone Korner Baltimore",
+          "checked_on": "2026-08-30",
+          "note": "Authorized ticketing page verifying all four live sets at $45-$55 and separate $15 streaming access."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Verified from Keystone Korner Baltimore, Stanley Jordan's official site and the venue-authorized InstantSeats page. Repository searches for Stanley Jordan and the exact Baltimore date returned no existing candidate before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Jordan's touch technique is the reason this clears RADAR: he turns the guitar into a genuinely polyphonic instrument, and Baltimore gets the touring trio with Kenwood Dennard and Wes Wirth rather than a generic billing. Four sets in Keystone's close listening-room scale make that instrumental identity unusually easy to hear up close.",
+          "trip_verdict": "Baltimore is an easy short-trip option; choose whichever of the four sets fits the weekend and make an evening of it rather than reorganizing a larger regional itinerary around the engagement.",
+          "listen_before": "Magic Touch"
+        },
+        "es": {
+          "why_it_matters": "La técnica de touch de Jordan es la razón para meterlo al RADAR: convierte la guitarra en un instrumento realmente polifónico, y Baltimore recibe al trío de gira con Kenwood Dennard y Wes Wirth, no un cartel genérico. Cuatro sets en la escala cercana de Keystone permiten escuchar esa identidad instrumental con especial claridad.",
+          "trip_verdict": "Baltimore funciona como salida corta y sencilla; escogería el set que mejor acomode ese fin de semana y armaría la noche alrededor de él, sin reorganizar un itinerario regional más grande por toda la residencia.",
+          "listen_before": "Magic Touch"
+        }
+      }
+    }
+  ]
+}
