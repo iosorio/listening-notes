@@ -1,0 +1,108 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tohji-last-live-tokyo-mall-2026-08-30-discovery",
+  "checked_on": "2026-08-30",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources found no additional verified unrecorded Yamamoto performance requiring a new RADAR record; already-canonical or already-curated dates were not duplicated. Stage 1 admits Tohji Last Live “TOKYO MALL” for a specific historical/live reason rather than fame or venue prestige: Tohji has announced the end of his music activity in 2026, this Tokyo Dome concert is explicitly billed as his final live performance, and the setting deliberately closes a long-running artistic thread because the Dome appears in Mall Boyz’s “Higher” and a new 'Higher 2026 in 東京ドーム' version was created around the farewell. Stage 2 assigns S only after an explicit scarcity challenge. The concrete non-repeatability is the announced final performance of his music career. A+ would understate the genuine-regret case created by a documented career endpoint; S+ would overstate the broader historical claim because current evidence supports a singular farewell for Tohji but does not establish an 'alter plans' event of wider historical exceptionalism. The current rubric was reread before finalizing this S, and the batch adds no S+ event. Batch distribution: A 0, A+ 0, S 1, S+ 0.",
+  "events": [
+    {
+      "id": "tohji-last-live-tokyo-dome-2026-11-17",
+      "artist": "Tohji",
+      "subtitle": "Last Live “TOKYO MALL”",
+      "dates": {
+        "start": "2026-11-17",
+        "end": null
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "tokyo-dome-tokyo",
+        "name": "Tokyo Dome",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Japan / contemporary hip-hop / final live performance",
+      "genres": [
+        "Hip-hop",
+        "Japanese hip-hop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Tohji"
+      ],
+      "factual_description": "Tohji will present Tohji Last Live “TOKYO MALL” at Tokyo Dome on November 17, 2026. Spincoaster lists doors at 16:00, a concert start at 18:00 and a planned end at 20:30, with CANTEEN Inc. as planner/producer, and reports that Tohji has announced the end of his music activity in 2026 and that this will be his final live performance. Spincoaster also notes that he has remained independent rather than joining a major label and that Tokyo Dome appears in the lyrics of Mall Boyz’s “Higher.” LiFTED Japan documents the newly recorded 'Higher 2026 in 東京ドーム' video, which combines the original video with footage shot inside Tokyo Dome and makes that earlier lyric literal ahead of the farewell. The official concert site lists face-value reserved seating at ¥14,800 and reserved seating with a T-shirt at ¥19,800. Its fastest presale application window ran August 9–23, 2026.",
+      "ticket_price": "¥14,800 reserved; ¥19,800 reserved with T-shirt",
+      "links": {
+        "official_event": "https://tohji-tokyomall.com/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        "Mall Boyz — Higher",
+        "Higher 2026 in 東京ドーム"
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "currently open event-specific official_tickets",
+          "additional announced personnel",
+          "apple_music"
+        ],
+        "note": "The date, doors, showtime, planned end, venue, final-performance framing, production credit and initial face-value ticket classes are verified. The official site's fastest lottery application window ended August 23, 2026; no currently open new-purchase destination was confirmed on August 30, so official_tickets remains null. No guests, backing personnel or Apple Music IDs are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://tohji-tokyomall.com/",
+          "publisher": "Tohji Last Live / CANTEEN Inc.",
+          "checked_on": "2026-08-30",
+          "note": "Primary concert microsite verifying the Tokyo Dome engagement, face-value reserved-seat classes, CANTEEN credit and the August 9–23 fastest-presale application window."
+        },
+        {
+          "url": "https://spincoaster.com/news/tohji-last-live-tokyo-mall",
+          "publisher": "Spincoaster",
+          "checked_on": "2026-08-30",
+          "note": "Authoritative Japanese music source verifying November 17, 2026; Tokyo Dome; 16:00 doors / 18:00 start / planned 20:30 end; final-live status; announced end of music activity in 2026; independent career context; CANTEEN production; and the 'Higher' Tokyo Dome lyric connection."
+        },
+        {
+          "url": "https://liftedasia.com/ja/article/tohji-higher-2026mv",
+          "publisher": "LiFTED Japan",
+          "checked_on": "2026-08-30",
+          "note": "Authoritative Asian hip-hop source corroborating the final Tokyo Dome date and documenting 'Higher 2026 in 東京ドーム' as a newly recorded/reconstructed video that makes the song's long-standing Tokyo Dome lyric literal."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Verified against the official Tohji Last Live microsite plus Spincoaster and LiFTED Japan. Repository-wide searches for Tohji, 'Tohji Last Live', 'TOKYO MALL', and the 2026-11-17 Tohji combination returned no canonical, curated or processed RADAR record before publication. No currently open ticket destination, unannounced guest, supporting musician or Apple Music identifier was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a farewell whose setting is part of the work, not just a bigger room. Tohji has built his career independently of a major label, and the final concert lands at Tokyo Dome—the image already embedded in Mall Boyz’s “Higher” and now made literal in a 2026 version filmed inside the Dome. With Tohji ending music activity in 2026 and naming this his last live performance, the night closes a distinctly contemporary Japanese career arc on its own chosen symbol.",
+          "trip_verdict": "If a Kanto stay overlaps November 17, make Tokyo Dome the anchor and leave the evening clear. From elsewhere in Japan, the one-time farewell can justify a dedicated Tokyo detour; from overseas, pair it with a broader Tokyo stay rather than treating the concert alone as the whole trip.",
+          "listen_before": "Mall Boyz — Higher"
+        },
+        "es": {
+          "why_it_matters": "Es una despedida en la que el lugar forma parte de la obra, no sólo una sala más grande. Tohji construyó su carrera de manera independiente, fuera de un sello major, y el último concierto llega al Tokyo Dome: una imagen que ya estaba en “Higher” de Mall Boyz y que ahora se vuelve literal en una versión de 2026 filmada dentro del Dome. Con Tohji cerrando su actividad musical en 2026 y señalando ésta como su última presentación en vivo, la noche cierra un arco muy concreto de la música japonesa contemporánea sobre el símbolo que él mismo venía cargando desde antes.",
+          "trip_verdict": "Si una estancia en Kanto coincide con el 17 de noviembre, haría del Tokyo Dome el ancla y dejaría libre la noche. Desde otra parte de Japón, la despedida única sí puede justificar un desvío dedicado a Tokio; desde fuera de Japón, la integraría en una estancia más amplia en la ciudad en vez de hacer que todo el viaje dependa sólo del concierto.",
+          "listen_before": "Mall Boyz — Higher"
+        }
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-30",
+        "rationale": "Concrete scarcity: Tohji has announced the end of his music activity in 2026 and this Tokyo Dome concert is explicitly billed as his final live performance, making the career endpoint non-repeatable if the announced plan holds. The second editorial challenge asked whether A+ would still capture the recommendation; it would understate the genuine regret of missing the documented final performance, especially because the Tokyo Dome setting deliberately resolves the earlier 'Higher' motif. S+ was rejected: the evidence supports a singular farewell within Tohji's career, but not a broader historically exceptional 'alter plans' claim at the current Listening Notes threshold."
+      }
+    }
+  ]
+}
