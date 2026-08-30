@@ -1,0 +1,126 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wynton-marsalis-quintet-jalc-2027-01-07-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-08-30 under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources. Space M&A's official July-December schedule confirms the recurring Yamamoto/Kagawa/Osumi trio on September 29, October 30 and November 28; the repository already documents that processed Space M&A coverage runs through November 28, so those dates were not duplicated. No newly verified, non-duplicate Yamamoto appearance with a distinct performance-specific reason cleared Stage 1 in this pass. Broader US-corridor research admitted one event: the January 7-9 Wynton Marsalis Quintet at Jazz at Lincoln Center. Admission rests on the specifically programmed special lineup and repertoire: Marcus Roberts, Reginald Veal and Jason Marsalis form the rhythm section, a guest tenor saxophonist remains TBA, and JALC states that the group will make contemporary interpretations of selected music from Black Codes (From the Underground), Hot House Flowers and Think of One, alongside Integrity Suite and pieces by New Orleans modernists James Black and Ellis Marsalis. Priority was assigned only after admission. A+ captures the recommendation because the special personnel/repertoire frame is worth actively making room for in New York; three performances, an active leader, and no farewell or terminal context do not establish protect-the-night scarcity. Recent/current RADAR intake was checked before finalizing; the recent durable editorial pattern remains centered on A and A+ with S/S+ scarce. Batch distribution: A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "wynton-marsalis-quintet-jalc-new-york-2027-01-07",
+      "artist": "Wynton Marsalis Quintet",
+      "subtitle": "Special quintet: early-1980s repertoire to Integrity Suite",
+      "dates": {
+        "start": "2027-01-07",
+        "end": "2027-01-09"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york",
+        "name": "Rose Theater at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / special quintet / repertoire reinterpretation",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz",
+        "Post-bop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Acoustic Jazz",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Wynton Marsalis — trumpet",
+        "Marcus Roberts — piano",
+        "Reginald Veal — bass",
+        "Jason Marsalis — drums",
+        "Special guest tenor saxophonist — TBA"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents the Wynton Marsalis Quintet in Rose Theater on January 7, 8 and 9, 2027, at 7:30 PM each night. JALC calls this a special lineup with Wynton Marsalis, pianist Marcus Roberts, bassist Reginald Veal, drummer Jason Marsalis and a guest tenor saxophonist still to be announced. JALC's official 2026-27 season announcement states that the group will make contemporary interpretations of selected repertoire from the early albums Black Codes (From the Underground), Hot House Flowers and Think of One, as well as music from Integrity Suite and compositions by New Orleans modernists James Black and Ellis Marsalis that the Marsalis brothers learned during their formative years. The January 9 authorized ticket page currently exposes selectable seats with $30-$165 face values plus a $12 fee; prices for the other performances are not generalized from that page.",
+      "links": {
+        "official_event": "https://jazz.org/concert/wynton-marsalis-quintet/",
+        "official_tickets": "https://ticketing.jazz.org/20685/20686"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ticketing.jazz.org/20685/20686",
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Wynton Marsalis",
+          "title": "Black Codes (From The Underground) [2023 Remaster]",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/black-codes-from-the-underground-2023-remaster/192487566"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Jazz at Lincoln Center's exact concert page and official season announcement verify all three dates, 7:30 PM starts, Rose Theater, the announced special lineup, the TBA tenor chair and the specific repertoire frame. The JALC ticketing page recorded in official_tickets is an exact authorized purchase destination for the January 7 performance; the same official ticketing system exposes separate items for January 8 and 9. Apple Music verifies the exact Black Codes album destination. No tenor saxophonist, unannounced repertoire or cross-date ticket price was inferred."
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/wynton-marsalis-quintet/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-08-30",
+          "note": "Primary concert page verifies January 7-9, 2027; 7:30 PM nightly; Rose Theater; and the special lineup of Marsalis, Marcus Roberts, Reginald Veal, Jason Marsalis and a guest tenor saxophonist TBA."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center Press Center",
+          "checked_on": "2026-08-30",
+          "note": "Official season announcement verifies the contemporary-interpretation program drawing from Black Codes (From the Underground), Hot House Flowers, Think of One, Integrity Suite, and music by James Black and Ellis Marsalis."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20685/20686",
+          "publisher": "Jazz at Lincoln Center Ticketing",
+          "checked_on": "2026-08-30",
+          "note": "Authorized ticketing destination for the January 7 performance; it corroborates the three-night engagement, lineup and 7:30 PM start. Separate official items exist for January 8 and 9."
+        },
+        {
+          "url": "https://music.apple.com/us/album/black-codes-from-the-underground-2023-remaster/192487566",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-30",
+          "note": "Exact Apple Music album page for Black Codes (From The Underground) [2023 Remaster], selected as listening preparation because JALC explicitly names Black Codes in the live repertoire frame."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, times, venue, personnel, TBA tenor status and program framing were verified directly through Jazz at Lincoln Center and its press center; authorized ticketing and Apple Music destinations were also verified. Repository code searches for the event, the lineup and the proposed stable ID returned no matching canonical, curated or processed record immediately before publication, and recent commit history contains no prior Wynton Marsalis Quintet discovery. Priority was assigned only after Stage 1 admission. A+ reflects a special, repertoire-specific living-master context worth actively making room for; the three-night engagement and absence of farewell or terminal scarcity do not warrant S."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to hear this is not Marsalis's stature by itself; it is the way JALC has built the quintet around a specific historical conversation. Marcus Roberts, Reginald Veal and Jason Marsalis form a rhythm section with deep roots in the Marsalis musical world, while the program reaches from the early-1980s language of Think of One, Hot House Flowers and Black Codes into Integrity Suite and the New Orleans writing of James Black and Ellis Marsalis. That gives the night a real live question: what does this repertoire become when a present-day quintet reopens it instead of simply commemorating it?",
+          "trip_verdict": "If New York is already in play January 7-9, actively make room for one of the Rose Theater nights and let it anchor that evening. From farther down the corridor, I would pair it with another strong New York reason rather than turn a three-performance engagement into a single-show up-and-back mission.",
+          "listen_before": "Wynton Marsalis — Black Codes (From The Underground)"
+        },
+        "es": {
+          "why_it_matters": "La razón para escucharlo no es la estatura de Marsalis por sí sola, sino la conversación histórica concreta que JALC armó alrededor de este quinteto. Marcus Roberts, Reginald Veal y Jason Marsalis forman una sección rítmica con raíces profundas en el mundo musical de Marsalis, mientras el programa va del lenguaje de los primeros años ochenta de Think of One, Hot House Flowers y Black Codes hasta Integrity Suite y la escritura de los modernistas de Nueva Orleans James Black y Ellis Marsalis. Eso le da a la noche una pregunta real en vivo: ¿en qué se convierte este repertorio cuando un quinteto actual lo vuelve a abrir en lugar de limitarse a conmemorarlo?",
+          "trip_verdict": "Si Nueva York ya está en juego del 7 al 9 de enero, le haría espacio activamente a una de las noches en Rose Theater y dejaría que ordene esa velada. Desde más abajo en el corredor, la combinaría con otra razón fuerte para estar en Nueva York en vez de convertir una residencia de tres funciones en un viaje de ida y vuelta por un solo show.",
+          "listen_before": "Wynton Marsalis — Black Codes (From The Underground)"
+        }
+      }
+    }
+  ]
+}
