@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-blackbyrds-anacostia-jazz-hop-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and the current data model were read before publication. Fresh checks of Tsuyoshi Yamamoto through Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources produced no new verified, unrecorded appearance with a distinct event-specific reason for another RADAR entry; the Yamamoto dates surfaced in this pass were already represented in canonical or inbox history. The broader DMV pass found a same-day Blackbyrds appearance at Big Jazz Cafe inside the August 30 Jazz Hop Sound Sessions finale in Historic Anacostia. Stage 1 admission is based on the specific live context: a Washington-born jazz-funk group created from Donald Byrd's Howard University students returning to a neighborhood-scale DC arts-district finale, with a musical lineage whose Rock Creek Park groove is inseparable from the city and has a long afterlife in hip-hop. Stage 2 is A+: the local history, intimate setting, groove identity, and finale context merit actively making room for the set if still reachable today. A scarcity tier is not warranted: The Blackbyrds remain an active touring band, and Howard University and current artist listings document additional 2026 performances, including a later Baltimore date; A+ fully captures the recommendation. Recent curated intake was checked as a sanity test and remains concentrated in A/A+ rather than S/S+; this batch proposes A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "the-blackbyrds-big-jazz-cafe-washington-dc-2026-08-30",
+      "artist": "The Blackbyrds",
+      "subtitle": "Jazz Hop Sound Sessions — grand finale in Historic Anacostia",
+      "dates": {
+        "start": "2026-08-30",
+        "end": null
+      },
+      "showtimes": [
+        "19:15"
+      ],
+      "venue": {
+        "id": "big-jazz-cafe-washington-dc",
+        "name": "Big Jazz Cafe",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "DC jazz-funk lineage / Anacostia neighborhood finale",
+      "genres": [
+        "Jazz-funk",
+        "Funk",
+        "R&B/Soul"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Instrumental identity",
+        "Cultural context",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "The Blackbyrds — performing ensemble; individual personnel for this specific Anacostia appearance are not published in the current event notice"
+      ],
+      "factual_description": "Anacostia BID identifies August 30, 2026 as the grand finale of its second Jazzy Sundays season, expanding into the neighborhood-wide Jazz Hop Sound Sessions across the Anacostia Arts & Culture District. Congress Heights on the Rise's August 27 event notice identifies The Blackbyrds at Big Jazz Cafe, 1234 Marion Barry Avenue SE, Washington, DC, from 7:15 PM to 8:15 PM and states that the event is free. The Blackbyrds' official history documents the band's 1973 formation as Donald Byrd's project to give Howard University students real-world music-business experience. Howard University's June 2026 profile documents the continuing band with original members Keith Killgo and Joe Hall and its Washington jazz-funk legacy. Individual personnel for the August 30 Big Jazz Cafe performance are not published in the current event notice and are therefore not inferred.",
+      "links": {
+        "official_event": "https://anacostiabid.org/news/july-12aug-30-jazzy-sundays-in-anacostia-returns-for-a-second-season",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://anacostiabid.org/news/july-12aug-30-jazzy-sundays-in-anacostia-returns-for-a-second-season",
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Blackbyrds",
+          "title": "Rock Creek Park",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/song/1443925803"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "direct event-specific registration destination",
+          "performance-specific personnel"
+        ],
+        "note": "The official Anacostia BID season/finale page verifies the free August 30 Jazz Hop context, while the exact local event notice verifies The Blackbyrds, Big Jazz Cafe, address, and the 19:15-20:15 performance window. The Blackbyrds' official site and Howard University verify band history and current activity only; current-member information is not treated as event-specific personnel. The organizer page exposes a free-ticket action, but a direct event-specific registration destination was not successfully verified, so official_tickets remains null."
+      },
+      "sources": [
+        {
+          "url": "https://anacostiabid.org/news/july-12aug-30-jazzy-sundays-in-anacostia-returns-for-a-second-season",
+          "publisher": "Anacostia Business Improvement District",
+          "checked_on": "2026-08-30",
+          "note": "Official organizer page verifies the August 30 Jazz Hop Sound Sessions as the grand finale of the 2026 Jazzy Sundays season in the Anacostia Arts & Culture District and identifies the event as free."
+        },
+        {
+          "url": "https://www.congressheightsontherise.com/blog/august-30-the-blackbyrds-take-the-stage-in-historic-anacostia-5zsak",
+          "publisher": "Congress Heights on the Rise",
+          "checked_on": "2026-08-30",
+          "note": "Current local event notice verifies The Blackbyrds on Sunday, August 30, 2026 at Big Jazz Cafe, 1234 Marion Barry Avenue SE, from 7:15 PM to 8:15 PM, and states that admission is free."
+        },
+        {
+          "url": "https://www.blackbyrdsmusic.com/about",
+          "publisher": "The Blackbyrds",
+          "checked_on": "2026-08-30",
+          "note": "Official band history verifies the 1973 Donald Byrd/Howard University origin, Washington lineage, signature Rock Creek Park repertoire, and ongoing activity."
+        },
+        {
+          "url": "https://thedig.howard.edu/all-stories/walking-rhythm-blackbyrds-enduring-legacy-howard-university-international-stage",
+          "publisher": "Howard University — The Dig",
+          "checked_on": "2026-08-30",
+          "note": "Howard University's June 2026 feature documents the Blackbyrds' formation from Howard student musicians under Donald Byrd, their Washington legacy, original members Keith Killgo and Joe Hall in the current band, and continued 2026 touring."
+        },
+        {
+          "url": "https://music.apple.com/us/song/1443925803",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-30",
+          "note": "Exact Apple Music track destination for The Blackbyrds' Rock Creek Park on City Life."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "The festival/finale context and free status were verified against Anacostia BID; exact artist, venue, address, date, and performance window were verified against a current Anacostia community event notice. Band history and current activity were cross-checked against The Blackbyrds' official site and Howard University. Repository searches for The Blackbyrds, Big Jazz Cafe, and the proposed stable event ID returned no matching RADAR record before publication. Priority was assigned only after Stage 1 admission. No individual performance personnel, direct registration URL, or scarcity claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is one of those DC dates where geography becomes part of the music. The Blackbyrds began at Howard University as Donald Byrd's bridge from the classroom to a working band, and Rock Creek Park became a foundational Washington jazz-funk groove with a long afterlife in hip-hop. Putting that lineage inside a free, neighborhood-scale Anacostia Jazz Hop finale makes this more than another legacy-band stop: it reconnects a Washington-born sound with a living local arts district.",
+          "trip_verdict": "If you are local and can still make Historic Anacostia tonight, actively make room for the 7:15 set. The neighborhood-finale setting is the reason to choose this Blackbyrds date over one of their more routine regional stops; no corridor travel is needed.",
+          "listen_before": "The Blackbyrds — Rock Creek Park"
+        },
+        "es": {
+          "why_it_matters": "Ésta es una de esas fechas de DC donde la geografía entra en la música. The Blackbyrds nació en Howard University como el puente de Donald Byrd entre el aula y una banda de trabajo, y Rock Creek Park terminó siendo un groove fundamental del jazz-funk de Washington con una vida larguísima dentro del hip-hop. Llevar ese linaje al cierre gratuito y de escala barrial del Jazz Hop en Anacostia convierte la fecha en algo más que otra parada de una banda histórica: vuelve a poner un sonido nacido en Washington dentro de un distrito artístico local que sigue vivo.",
+          "trip_verdict": "Si estás local y todavía alcanzas Historic Anacostia esta noche, sí le haría espacio activamente al set de las 7:15. El contexto barrial y de cierre es justamente lo que distingue esta fecha de otras paradas regionales del grupo; no hace falta convertirla en viaje por el corredor.",
+          "listen_before": "The Blackbyrds — Rock Creek Park"
+        }
+      }
+    }
+  ]
+}
