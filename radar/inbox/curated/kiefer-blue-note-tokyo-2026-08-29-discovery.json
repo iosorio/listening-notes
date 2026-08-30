@@ -1,0 +1,95 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kiefer-blue-note-tokyo-2026-08-29-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before discovery and grading. Current Tsuyoshi Yamamoto sources were checked first, including Jazz House ALFIE, BODY&SOUL, his current schedule/diary traces, Space M&A-related searches and credible Japanese jazz sources; no additional unrecorded Yamamoto appearance with a distinct event-specific admission reason was verified in this pass. Kiefer's Blue Note Tokyo debut clears RADAR admission because it arrives immediately after his first leader album for Blue Note Records and puts his piano/beatmaking language at the center of a Tokyo club run, not because of venue prestige or name recognition alone. Priority was assigned only after admission. Batch distribution: A 1, A+ 0, S 0, S+ 0; no scarcity-tier review is required.",
+  "events": [
+    {
+      "id": "kiefer-blue-note-tokyo-2026-11-01",
+      "artist": "Kiefer",
+      "subtitle": "Blue Note Tokyo debut behind Memory Bomb",
+      "dates": {
+        "start": "2026-11-01",
+        "end": "2026-11-03"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30",
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / piano-led modern jazz / jazz-beat crossover",
+      "genres": [
+        "Jazz",
+        "Hip-hop-influenced jazz",
+        "Electronic",
+        "Instrumental"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Groove",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Kiefer — keyboards, piano"
+      ],
+      "factual_description": "Blue Note Tokyo presents Kiefer on November 1, 2 and 3, 2026, in his first appearance at the venue. November 1 and 3 have sets at 4:30 PM and 7:30 PM; November 2 has sets at 6:00 PM and 8:30 PM. The venue currently confirms Kiefer on keyboards and piano and marks the remaining personnel TBA. The run follows the September 25 release of Memory Bomb, Kiefer's first leader album for Blue Note Records. Blue Note Records describes the album as produced by Kiefer with Shibo and CARRTOONS and built around collaborations that connect jazz improvisation, beatmaking and hip-hop. Blue Note Tokyo lists a music charge of ¥9,500.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/kiefer/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "remaining personnel",
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Dates, date-specific set times, Kiefer's instrumentation, Blue Note Tokyo debut framing and ¥9,500 music charge were verified from Blue Note Tokyo. The venue still marks all additional personnel TBA. Blue Note Tokyo's reservation flow is session-based, so no generic reservation URL is substituted as an event-specific purchase destination; no Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/kiefer/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-29",
+          "note": "Primary event page verifying November 1-3, 2026, date-specific set times, venue debut, Kiefer on keyboards/piano, additional personnel TBA, music charge and Memory Bomb framing."
+        },
+        {
+          "url": "https://www.bluenote.com/kiefer-announces-blue-note-debut-memory-bomb/",
+          "publisher": "Blue Note Records",
+          "checked_on": "2026-08-29",
+          "note": "Primary label announcement verifying Memory Bomb as Kiefer's September 25, 2026 first leader album for Blue Note Records, produced with Shibo and CARRTOONS, and documenting its jazz-improvisation / beatmaking collaborative context."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Verified from Blue Note Tokyo's exact event page and Blue Note Records' album announcement. Repository code search for Kiefer returned no existing canonical, curated or processed RADAR record before publication. Unannounced live personnel, an event-specific purchase destination and Apple Music IDs were not invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The useful hook is the timing and musical identity: Kiefer reaches Blue Note Tokyo just over a month after his first leader album for Blue Note Records, carrying a piano language that treats jazz improvisation and beatmaking as parts of the same instrument. The live personnel are still unannounced, so the draw is the chance to hear that new Blue Note chapter translated back into a player-centered club setting rather than the label milestone by itself.",
+          "trip_verdict": "If November 1-3 overlaps a Tokyo stay, catch whichever set fits cleanly around stronger anchors. Three nights and six sets make this easy to fold into an Aoyama evening without reorganizing the trip around it.",
+          "listen_before": "Memory Bomb"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el momento y en la identidad musical: Kiefer llega a Blue Note Tokyo poco más de un mes después de publicar su primer álbum como líder para Blue Note Records, con un lenguaje de piano donde la improvisación de jazz y el beatmaking funcionan como partes del mismo instrumento. La formación en vivo todavía no está anunciada, así que el interés está en escuchar cómo ese nuevo capítulo se traduce otra vez a un club centrado en tocar, no en el hito discográfico por sí solo.",
+          "trip_verdict": "Si el 1, 2 o 3 de noviembre coincide con una estancia en Tokio, escogería el set que embone mejor alrededor de anclas más fuertes. Tres noches y seis funciones permiten meterlo con facilidad en una noche por Aoyama sin reorganizar el viaje alrededor del concierto.",
+          "listen_before": "Memory Bomb"
+        }
+      }
+    }
+  ]
+}
