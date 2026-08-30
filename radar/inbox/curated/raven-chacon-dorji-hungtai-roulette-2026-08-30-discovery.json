@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "raven-chacon-dorji-hungtai-roulette-2026-08-30-discovery",
+  "checked_on": "2026-08-30",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources produced no additional verified unrecorded Yamamoto performance requiring a new RADAR record; already represented appearances were not duplicated. Stage 1 admits the September 13 Roulette double bill for a specific live construction rather than name recognition: Raven Chacon, Tashi Dorji, and Alex Zhang Hungtai make their trio debut with new works, while Leo Chang opens with an interactive sound-movement performance that reimagines Korean sangmonori through a new iteration of his custom jeonmonori feedback-hat and amplified-gong instrument. Stage 2 assigns A+ after admission. The concrete scarcity is the debut of this exact trio around new work, but the second editorial challenge finds that A+ still captures the recommendation: current sources do not establish a farewell, final appearance, or one-time historical endpoint, and the performance will also be livestreamed and archived. The batch therefore adds no S or S+ event and remains consistent with the repository's broad-A / narrower-A+ / rare-S / exceptional-S+ shape. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "raven-chacon-tashi-dorji-alex-zhang-hungtai-roulette-brooklyn-2026-09-13",
+      "artist": "Raven Chacon + Tashi Dorji + Alex Zhang Hungtai // Leo Chang",
+      "subtitle": "Trio debut with new works / Leo Chang jeonmonori performance",
+      "dates": {
+        "start": "2026-09-13",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A+",
+      "category": "trio debut / electroacoustic improvisation / Korean folk-practice reimagining",
+      "genres": [
+        "Improvisation",
+        "Noise",
+        "Experimental Music",
+        "Electroacoustic Music"
+      ],
+      "musical_axes": [
+        "Experimental / Metal",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Raven Chacon — guitar, electronics",
+        "Tashi Dorji — guitar",
+        "Alex Zhang Hungtai — electronics, trumpet",
+        "Leo Chang — electronics; jeonmonori custom feedback hat and amplified gong"
+      ],
+      "factual_description": "Roulette presents Raven Chacon + Tashi Dorji + Alex Zhang Hungtai // Leo Chang on Sunday, September 13, 2026. Doors are at 7:00 PM and the performance begins at 8:00 PM. Leo Chang opens with an interactive sound-movement performance that reimagines the Korean folk practice of sangmonori and features a new iteration of his jeonmonori, described by Roulette as a custom-built feedback hat and amplified gong instrument. Alex Zhang Hungtai, Tashi Dorji, and Raven Chacon then make their trio debut with new works in a program of spontaneous composition, improvisation, and electroacoustic exploration. Roulette lists Chacon on guitar and electronics, Dorji on guitar, Hungtai on electronics and trumpet, and Chang on electronics. The performance will be livestreamed free at 8:00 PM and archived. Face-value admission is $25 advance, $30 at the door, and $20 student/senior with ID; Roulette also advertises an EARLYBIRDER $5 discount code through August 31, 2026.",
+      "links": {
+        "official_event": "https://roulette.org/event/raven-chacon-tashi-dorji-alex-zhang-hungtai-leo-chang/",
+        "official_tickets": "https://ci.ovationtix.com/36368/performance/11836504?performanceId=11836504"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 30,
+          "source_url": "https://ci.ovationtix.com/36368/performance/11836504?performanceId=11836504",
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette's exact event page verifies the date, doors/start time, billing, trio-debut/new-works framing, Chang's sangmonori/jeonmonori concept and custom feedback-hat/amplified-gong instrument, announced instruments, face-value admission, livestream/archive plan, and authorized AudienceView/OvationTix purchase destination. No Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/raven-chacon-tashi-dorji-alex-zhang-hungtai-leo-chang/",
+          "publisher": "Roulette",
+          "checked_on": "2026-08-30",
+          "note": "Primary event page verifies September 13, 2026; 19:00 doors; 20:00 performance; the Chacon/Dorji/Hungtai trio debut with new works; Leo Chang's interactive sangmonori reimagining and new jeonmonori iteration; announced instruments; face-value prices; free livestream/archive; and the authorized ticket link."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/performance/11836504?performanceId=11836504",
+          "publisher": "AudienceView Professional / OvationTix",
+          "checked_on": "2026-08-30",
+          "note": "Authorized purchase destination linked directly from Roulette's event page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core performance facts were verified from Roulette's exact event page and authorized ticket destination. Repository-wide search for the stable event ID returned no matching RADAR record before publication; prior repository searches for Raven Chacon and the September 13, 2026 combination also returned no matching canonical, curated, or processed entry. Priority was assigned only after Stage 1 admission. The trio debut/new-works context triggered a scarcity challenge; A+ remains sufficient because the sources do not establish a farewell, final appearance, or one-time historical endpoint, and the performance will also be livestreamed and archived."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to make room is the construction of the night rather than name recognition: Chacon, Dorji, and Hungtai meet as a trio for the first time around new work, while Chang's feedback-driven recasting of Korean percussion practice makes instrument design and cultural translation part of the performance itself. That combination gives this a specific live identity rather than the feel of a routine experimental-music bill.",
+          "trip_verdict": "If New York is already viable that weekend, make room for Sunday at Roulette and let Atlantic Avenue anchor the evening. From farther down the corridor, pair it with another strong New York reason rather than building a dedicated trip around this one show.",
+          "listen_before": "Raven Chacon — Voiceless Mass"
+        },
+        "es": {
+          "why_it_matters": "La razón para hacerle espacio está en la construcción de la noche, no en el reconocimiento de los nombres: Chacon, Dorji y Hungtai se encuentran por primera vez como trío alrededor de obra nueva, mientras la reformulación con feedback que hace Chang de prácticas coreanas de percusión convierte el diseño instrumental y la traducción cultural en parte del propio concierto. Esa combinación le da una identidad escénica específica, no la de una cartelera experimental rutinaria.",
+          "trip_verdict": "Si Nueva York ya es viable ese fin de semana, haría espacio para el domingo en Roulette y dejaría que Atlantic Avenue ancle la noche. Desde más abajo del corredor, lo combinaría con otra razón fuerte para subir en vez de construir un viaje dedicado alrededor de este único concierto.",
+          "listen_before": "Raven Chacon — Voiceless Mass"
+        }
+      },
+      "priority_review": {
+        "decision": "actively_make_room",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-30",
+        "rationale": "Concrete scarcity: September 13 is the debut performance of this exact Chacon/Dorji/Hungtai trio, built around new works, and Chang's opening set uses a new iteration of his custom jeonmonori setup. The second editorial challenge asked whether A+ still captures the recommendation; it does. Current sources do not establish a farewell, final appearance, premiere of a fixed work unlikely to recur, or other terminal context that would make missing this specific night a protect-the-night case. The free livestream/archive further reduces the need to manufacture S-level scarcity, while the first-time trio and instrument-specific program remain strong enough to actively make room for in New York."
+      }
+    }
+  ]
+}
