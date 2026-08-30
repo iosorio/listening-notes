@@ -1,0 +1,105 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tank-and-the-bangas-blue-note-tokyo-2026-08-30-discovery",
+  "checked_on": "2026-08-30",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before discovery and grading. Current Tsuyoshi Yamamoto sources were checked first, including Jazz House ALFIE, BODY&SOUL, current schedule/diary traces, Space M&A-related searches and credible Japanese jazz sources; no additional unrecorded Yamamoto appearance with a distinct event-specific admission reason was verified in this pass. Tank and the Bangas clear RADAR admission because this three-night Tokyo run is explicitly built around The Last Balloon, the concluding chapter of the band's balloon trilogy, with a rhythm-forward R&B/soul/hip-hop record that the label says was designed to thrive in the live set. Priority was assigned only after admission. A is sufficient: the band is active, played Blue Note-related Japan dates in 2024, and this is a three-night/six-set run rather than a scarce, terminal, premiere or farewell context. The proposed A also preserves the current editorial shape of a broad A base beneath narrower A+ and rare S/S+ tiers. Batch distribution: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "tank-and-the-bangas-blue-note-tokyo-2026-12-11",
+      "artist": "Tank and the Bangas",
+      "subtitle": "The Last Balloon Tour",
+      "dates": {
+        "start": "2026-12-11",
+        "end": "2026-12-13"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / New Orleans groove / cross-genre",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Hip-hop",
+        "Spoken word"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Groove",
+        "Cross-genre",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Tarriona \"Tank\" Ball — lead vocals, poet",
+        "Norman Spence — keyboards, guitar",
+        "Deven Trusclair — drums",
+        "Kenaniah Turner — bass",
+        "David Mckissick — trumpet",
+        "Raion Ramsey — backing vocals"
+      ],
+      "factual_description": "Blue Note Tokyo presents Tank and the Bangas: The Last Balloon Tour on December 11, 12 and 13, 2026. December 11 has sets at 6:00 PM and 8:30 PM; December 12 and 13 have sets at 4:30 PM and 7:30 PM. The verified lineup is Tarriona \"Tank\" Ball on lead vocals and poetry, Norman Spence on keyboards and guitar, Deven Trusclair on drums, Kenaniah Turner on bass, David Mckissick on trumpet, and Raion Ramsey on backing vocals. Blue Note Tokyo frames the engagement around The Last Balloon as the conclusion of the band's balloon trilogy and its next chapter. Verve describes The Last Balloon as a rhythm-driven blend of R&B, soul and hip hop, with songs designed to thrive in the band’s live set. Blue Note Tokyo lists a base music charge of ¥9,900; some seating sections carry additional seat charges.",
+      "ticket_price": "¥9,900 base music charge; some seating sections add seat charges",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/sp/artists/tank-and-the-bangas/index.html",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        "The Last Balloon"
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "event-specific official_tickets",
+          "apple_music"
+        ],
+        "note": "Dates, date-specific showtimes, complete announced lineup and the ¥9,900 base music charge were verified from Blue Note Tokyo. The venue notes that some seating categories add seat charges. The event page's reservation flow is not exposed as a stable event-specific purchase URL in the verified source, so no ticket destination is invented. No Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/sp/artists/tank-and-the-bangas/index.html",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-30",
+          "note": "Primary event page verifying December 11-13, 2026, date-specific showtimes, announced lineup, The Last Balloon Tour billing, prior Japan/Blue Note appearances and ¥9,900 base music charge."
+        },
+        {
+          "url": "https://store.ververecords.com/products/the-last-balloon-cd",
+          "publisher": "Verve Records",
+          "checked_on": "2026-08-30",
+          "note": "Primary label store page describing The Last Balloon as the final chapter of the balloon trilogy, a blend of R&B, soul and hip hop, and a project built with songs designed to thrive in the live set."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Verified against Blue Note Tokyo's exact event page and Verve Records' The Last Balloon page. Repository searches for 'Tank and the Bangas', 'tank-and-the-bangas', and the proposed stable ID returned no canonical, curated or processed RADAR record before publication. No unannounced personnel, purchase destination or Apple Music ID was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the live cycle, not the room: Tank and the Bangas bring the closing chapter of their balloon trilogy to Tokyo with a full band built for the project's communal, rhythm-first language. The Last Balloon folds R&B, soul, hip-hop and Tank's spoken-word identity into material the label explicitly describes as designed to open up in performance, making this a useful snapshot of the band at the end of one creative arc and the start of the next.",
+          "trip_verdict": "If December 11-13 overlaps a Tokyo stay, catch whichever of the six sets fits cleanly around stronger anchors. Three nights make it easy to fold into a Minami-Aoyama evening without reorganizing the trip.",
+          "listen_before": "The Last Balloon"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el ciclo en vivo, no en la sala: Tank and the Bangas llevan a Tokio el cierre de su trilogía Balloon con una banda completa hecha para el lenguaje comunal y rítmico del proyecto. The Last Balloon cruza R&B, soul, hip-hop y la identidad de spoken word de Tank en un repertorio que el propio sello describe como pensado para crecer en directo; es una buena fotografía de la banda cerrando un arco creativo y abriendo el siguiente.",
+          "trip_verdict": "Si el 11, 12 o 13 de diciembre coincide con una estancia en Tokio, escogería el set que embone mejor alrededor de anclas más fuertes. Tres noches y seis funciones permiten meterlo con facilidad en una noche por Minami-Aoyama sin reorganizar el viaje.",
+          "listen_before": "The Last Balloon"
+        }
+      }
+    }
+  ]
+}
