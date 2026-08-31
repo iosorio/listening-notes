@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "angine-de-poitrine-atlantis-dc-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources; the verified September 6 BODY&SOUL date, October 3 Kawasaki Plaza Afternoon Jazz FINAL context and relevant BODY&SOUL closing/finale threads are already represented in canonical/curated intake, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found Angine de Poitrine with Annie-Claude Deschênes at The Atlantis on September 15, 2026. Stage 1 admission is based on the exact live construction and instrumental identity: Angine de Poitrine's tight pulsing drums against a double-neck microtonal guitar/loop architecture, paired in the same small DC room with Deschênes' performance-art-derived dystopian disco project. Priority was assigned only after admission. A+ reflects an unusually strong local experimental/groove night worth actively making room for; S/S+ are not warranted because this is part of an active North American tour rather than a farewell, premiere, one-off reunion or otherwise terminal opportunity. Sold-out status is recorded as an access fact and was not used as the reason for admission or priority. Repository searches for Angine de Poitrine, Annie-Claude Deschênes, The Atlantis and September 15 found no matching canonical, curated or processed candidate before publication. Recent/current RADAR output was reviewed as a sanity check and remains weighted toward A/A+ with S/S+ treated as scarcity tiers; this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "angine-de-poitrine-atlantis-washington-dc-2026-09-15",
+      "artist": "Angine de Poitrine",
+      "subtitle": "with Annie-Claude Deschênes",
+      "dates": {
+        "start": "2026-09-15",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Microtonal experimental rock / groove / performance-art electronics",
+      "genres": [
+        "Experimental Rock",
+        "Math Rock",
+        "Progressive Rock",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Experimental / Metal",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Khn de Poitrine — double-neck microtonal guitar/bass, loops",
+        "Klek de Poitrine — drums",
+        "Annie-Claude Deschênes — opening solo project / performance art and electronic music"
+      ],
+      "factual_description": "The Atlantis presents Angine de Poitrine with Annie-Claude Deschênes on Tuesday, September 15, 2026 in Washington, DC. The event is sold out. Ticketmaster displays 6:30 PM for the event, but the currently retrievable promoter page does not separately label that value as doors or performance start, so no showtime is inferred. The Atlantis describes Angine de Poitrine as an asymmetrical, dissonant project built from tight pulsing drum grooves and intricate double-neck microtonal guitar, with Vol. 2 drawing explicitly on acid techno, disco and rock. The same official event page describes Deschênes' solo work as multidisciplinary performance art moving from the aggression of Duchess Says and PyPy toward dystopian disco informed by minimal pop and electronic pioneers. ATO Records independently carries the band's current official artist description and the same double-neck-microtonal-guitar / pulsing-drum identity. Ticketmaster verifies The Atlantis at 2047 9th St NW, Washington, DC 20001 and the exact September 15 billing with both artists.",
+      "links": {
+        "official_event": "https://theatlantis.com/e/angine-de-poitrine/",
+        "official_tickets": "https://www.ticketmaster.com/angine-de-poitrine-washington-district-of-columbia-09-15-2026/event/1500646DECB120C7"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Angine de Poitrine",
+          "title": "Vol.II",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/vol-ii/1876355936"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "showtime",
+          "face_value_price"
+        ],
+        "note": "Exact date, venue, billing, sold-out status, event-time display and venue address are verified from The Atlantis/Ticketmaster. The promoter and ATO verify Angine de Poitrine's microtonal double-neck guitar / pulsing-drum identity and the promoter verifies Annie-Claude Deschênes' solo-project context. Ticketmaster displays 6:30 PM but the accessible promoter material does not currently distinguish it as doors versus performance start, so no showtime is inferred. No face-value ticket price is published in the accessible sold-out listing."
+      },
+      "sources": [
+        {
+          "url": "https://theatlantis.com/e/angine-de-poitrine/",
+          "publisher": "The Atlantis / I.M.P.",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page verifies September 15, 2026, Angine de Poitrine with Annie-Claude Deschênes, sold-out status, Angine's pulsing-drum/double-neck-microtonal-guitar description, Vol. 2's acid-techno/disco/rock reference points, and Deschênes' multidisciplinary dystopian-disco solo-project context."
+        },
+        {
+          "url": "https://www.ticketmaster.com/angine-de-poitrine-washington-district-of-columbia-09-15-2026/event/1500646DECB120C7",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-31",
+          "note": "Authorized exact event page verifies Tuesday, September 15, 2026 at The Atlantis, Washington, DC and displays 6:30 PM. Because the retrievable venue page does not identify that value as doors or showtime, the candidate leaves showtimes empty rather than infer a performance start."
+        },
+        {
+          "url": "https://www.ticketmaster.com/the-atlantis-tickets-washington/venue/172698",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-31",
+          "note": "Authorized venue page verifies The Atlantis address as 2047 9th St NW, Washington, DC 20001 and lists the September 15 Angine de Poitrine event with Annie-Claude Deschênes."
+        },
+        {
+          "url": "https://atorecords.com/artists/angine-de-poitrine/",
+          "publisher": "ATO Records",
+          "checked_on": "2026-08-31",
+          "note": "Current official-label artist page independently verifies Angine de Poitrine's asymmetrical/dissonant music, tight pulsing drum grooves and double-neck microtonal guitar architecture."
+        },
+        {
+          "url": "https://music.apple.com/us/album/vol-ii/1876355936",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music page verifies Angine de Poitrine's 2026 album Vol.II, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core event facts and support billing were verified from The Atlantis/I.M.P. and authorized Ticketmaster pages; instrumental identity and current artist description were verified from The Atlantis and ATO Records; Apple Music verifies the exact listening link. Repository searches found no Angine de Poitrine / Annie-Claude Deschênes / Atlantis September 15 RADAR record before publication. No performance start time, face-value price, resale destination or additional personnel were inferred. A+ was assigned after Stage 1 admission and reflects the specific local instrumental/groove proposition without converting an active tour date into artificial scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the machinery of the set. Khn builds dense, looping architecture on a double-neck microtonal guitar/bass while Klek keeps the music physical with hard, pulsing drums; the result can be rhythmically crooked and harmonically off-center without giving up the body-moving force of acid techno and disco. Pairing that with Annie-Claude Deschênes' performance-art-rooted dystopian disco gives the Atlantis bill a coherent thread of repetition, abrasion and groove rather than a generic experimental-rock package.",
+          "trip_verdict": "Actively make room for the Atlantis date if you already have legitimate access, and keep an eye only on authorized ticket inventory if access changes. For a DC-area night, the combination of unusual instrument design, live looping and groove is strong enough to anchor the evening without needing a special-trip rationale.",
+          "listen_before": "Angine de Poitrine — Vol.II"
+        },
+        "es": {
+          "why_it_matters": "La razón para poner atención está en la maquinaria del set. Khn construye una arquitectura densa de loops sobre una guitarra/bajo microtonal de doble mástil mientras Klek mantiene la música física con una batería dura y pulsante; el resultado puede ser rítmicamente torcido y armónicamente fuera de centro sin perder la fuerza corporal del acid techno y el disco. Emparejar eso con el disco distópico de Annie-Claude Deschênes, surgido de una práctica de performance art, le da al cartel de The Atlantis un hilo coherente de repetición, abrasión y groove en vez de ser un paquete genérico de rock experimental.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de The Atlantis si ya tienes acceso legítimo, y si cambia la disponibilidad miraría únicamente inventario autorizado. Para una noche en el área de DC, la combinación de diseño instrumental inusual, looping en vivo y groove alcanza para anclar la velada sin necesitar una justificación de viaje especial.",
+          "listen_before": "Angine de Poitrine — Vol.II"
+        }
+      }
+    }
+  ]
+}
