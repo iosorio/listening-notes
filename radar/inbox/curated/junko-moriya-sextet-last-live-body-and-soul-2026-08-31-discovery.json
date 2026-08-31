@@ -1,0 +1,56 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "junko-moriya-sextet-last-live-body-and-soul-2026-08-31-discovery",
+  "notes": "Verified A+-priority Tokyo discovery under the current two-stage RADAR rubric. Yamamoto-first research found no new unrecorded verified Tsuyoshi Yamamoto date. Junko Moriya Sextet's September 20 performance is the ensemble's documented final BODY&SOUL appearance before the club's September 26 grand finale. A+ fits: actively worth making room for because of the long-running ensemble/venue relationship and final-room context, while the ensemble itself continues beyond this venue and the club's true grand finale occurs six days later.",
+  "events": [
+    {
+      "id": "junko-moriya-sextet-body-and-soul-tokyo-2026-09-20",
+      "artist": "Junko Moriya Sextet",
+      "subtitle": "Last Live @BODY&SOUL",
+      "dates": {"start": "2026-09-20", "end": null},
+      "showtimes": ["18:30", "20:00"],
+      "venue": {"id": "body-and-soul-shibuya-tokyo", "name": "BODY&SOUL", "city": "Shibuya, Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Modern jazz / Sextet / BODY&SOUL final appearance",
+      "genres": ["Jazz", "Modern Jazz"],
+      "musical_axes": ["Japan / Tokyo", "Improvised", "Instrumental identity", "Acoustic Jazz", "Cultural context"],
+      "lineup": [
+        "Junko Moriya — piano",
+        "Yoshiro Okazaki — trumpet",
+        "Kazuhiko Kondo — alto saxophone",
+        "Masanori Okazaki — tenor saxophone",
+        "Daiki Yasukagawa — bass",
+        "Juasa Kanoh — drums"
+      ],
+      "factual_description": "BODY&SOUL presents Junko Moriya Sextet on September 20, 2026, with doors at 5:30 PM and sets at 6:30 PM and 8:00 PM. The official venue page lists Junko Moriya on piano, Yoshiro Okazaki on trumpet, Kazuhiko Kondo on alto saxophone, Masanori Okazaki on tenor saxophone, Daiki Yasukagawa on bass and Juasa Kanoh on drums. Moriya's official site identifies this as the sextet's last live performance at BODY&SOUL, noting that the group has worked there for many years and that the club closes after its September 26 grand finale. The venue lists a music charge of ¥7,000 before tax / ¥7,700 including tax, with a student price of ¥5,000 including tax.",
+      "links": {"official_event": "https://bodyandsoul.co.jp/event/260920", "official_tickets": null},
+      "recommended_listening": [
+        {"artist": "Junko Moriya Orchestra", "title": "Moving Onward", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/moving-onward/1818251561"}
+      ],
+      "enrichment": {"status": "pending", "missing": ["official_tickets"], "note": "Exact date, lineup, doors, set times, price, final-appearance context, venue-closing context and Apple Music destination are verified. BODY&SOUL uses the event-page reservation form rather than a separate stable ticket URL."},
+      "sources": [
+        {"url": "https://bodyandsoul.co.jp/event/260920", "publisher": "BODY&SOUL", "checked_on": "2026-08-31", "note": "Official event page confirms date, full sextet lineup, doors, set times, music charge and reservation method."},
+        {"url": "https://www.junkomoriya.com/", "publisher": "Junko Moriya", "checked_on": "2026-08-31", "note": "Official artist site identifies the performance as Junko Moriya Sextet's last live at BODY&SOUL, confirms doors/set times and describes the ensemble's long-running relationship with the club."},
+        {"url": "https://bodyandsoul.co.jp/2026/08/175580", "publisher": "BODY&SOUL", "checked_on": "2026-08-31", "note": "Official venue notice confirms September 26, 2026 as BODY&SOUL's grand finale and the start of venue teardown the following week."},
+        {"url": "https://music.apple.com/us/album/moving-onward/1818251561", "publisher": "Apple Music", "checked_on": "2026-08-31", "note": "Exact Apple Music page for Junko Moriya Orchestra's 2025 album Moving Onward."}
+      ],
+      "provenance": {"status": "verified-primary-sources", "note": "Date, venue, lineup, times and price were verified against BODY&SOUL; Moriya's official site independently confirms the final-appearance framing and long-running venue relationship; the club's closure notice confirms the September 26 grand finale. Repository searches for Junko Moriya, the sextet and the September 20 BODY&SOUL date found no matching canonical, curated or processed event. No separate ticket URL was invented."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "Moriya's sextet has treated BODY&SOUL as a long-running home, and this is its documented final night in that room before the club closes. Piano, trumpet, alto and tenor over bass and drums give her writing the compression and color of a small jazz orchestra without losing combo-level improvisational freedom. The farewell is to a specific ensemble-place relationship, not simply another strong Tokyo jazz date.",
+          "trip_verdict": "Actively make room for this if September overlaps with Tokyo, especially if hearing one of BODY&SOUL's established working bands in its home room matters to the trip. It is worth building the Shibuya evening around; if the club's September 26 grand finale is also possible and the two compete for limited Tokyo time, preserve the finale.",
+          "listen_before": "Junko Moriya Orchestra — Moving Onward"
+        },
+        "es": {
+          "why_it_matters": "El sexteto de Moriya ha tenido en BODY&SOUL una casa de trabajo durante años, y ésta es su última noche documentada en esa sala antes del cierre del club. Piano, trompeta, alto y tenor sobre bajo y batería le dan a sus arreglos la presión y el color de una pequeña orquesta de jazz sin perder la libertad improvisatoria de un combo. La despedida es de una relación concreta entre un ensamble y su lugar, no simplemente otra buena fecha de jazz en Tokio.",
+          "trip_verdict": "Sí le haría espacio activamente si septiembre coincide con Tokio, sobre todo si importa escuchar a una de las bandas de trabajo de BODY&SOUL dentro de su propia casa. Vale construir la noche de Shibuya alrededor de esta fecha; si también es posible el grand finale del club el 26 de septiembre y compiten por tiempo limitado en Tokio, conservaría el finale.",
+          "listen_before": "Junko Moriya Orchestra — Moving Onward"
+        }
+      }
+    }
+  ]
+}
