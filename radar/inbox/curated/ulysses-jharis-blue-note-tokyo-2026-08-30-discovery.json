@@ -1,0 +1,193 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ulysses-jharis-blue-note-tokyo-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, scripts/merge_inbox.py, and scripts/validate_events.py were reread before publication. Current Tsuyoshi Yamamoto research checked Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces and credible Japanese-jazz sources first; no newly unrepresented verified Yamamoto performance cleared a new-event path in this pass. Known September/December Yamamoto dates and the BODY&SOUL finale are already represented in current intake, so they were not duplicated. Stage 1 admits two Blue Note Tokyo performances for event-specific reasons: Ulysses Owens Jr. & Generation Y bring the newly released Kind of Grunge project, whose repertoire and creation process deliberately transform culturally significant grunge material through improvisational jazz, with Erena Terakubo in the announced Tokyo live lineup; Jharis Yokley + BIGYUKI reduce jazz/hip-hop/electronic language to an unusually exposed drums-versus-keys-and-synth duo. Stage 2 yields A 1 / A+ 1 / S 0 / S+ 0. Recent RADAR intake is already A+-heavy, so both recommendations were challenged against the lower tier without using distribution as a quota: Ulysses remains A+ because the current repertoire concept and live configuration warrant actively making room if in Tokyo, while A fully captures the strong but repeatable Yokley/BIGYUKI duo date. Neither performance has the scarcity required for S.",
+  "events": [
+    {
+      "id": "ulysses-owens-generation-y-blue-note-tokyo-2026-09-25",
+      "artist": "Ulysses Owens Jr. & Generation Y",
+      "subtitle": "Kind of Grunge",
+      "dates": {
+        "start": "2026-09-25",
+        "end": "2026-09-26"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30",
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Grunge-to-jazz reinterpretation / current album project / Tokyo club performance",
+      "genres": [
+        "Contemporary jazz",
+        "Jazz-rock",
+        "Grunge reinterpretation"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Cross-genre",
+        "Groove",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ulysses Owens Jr. — drums",
+        "Anthony Hervey — trumpet",
+        "Erena Terakubo — alto saxophone",
+        "Tyler Bullock — piano",
+        "Thomas Milovac — bass"
+      ],
+      "factual_description": "Blue Note Tokyo presents Ulysses Owens Jr. & Generation Y on September 25-26, 2026 with the current Kind of Grunge project. On September 25 the sets start at 18:00 and 20:30; on September 26 they start at 16:30 and 19:30. The venue lists Ulysses Owens Jr. on drums, Anthony Hervey on trumpet, Erena Terakubo on alto saxophone, Tyler Bullock on piano and Thomas Milovac on bass, with a music charge of ¥9,500. Kind of Grunge was released August 14, 2026; the project grew from Owens's Drumeo first-listen encounter with Nirvana's In Bloom into an album of grunge reinterpretations including material associated with Nirvana, Pearl Jam, Alice in Chains, Soundgarden, Stone Temple Pilots and others. The album sessions and the announced Tokyo live personnel are not identical, so only the Blue Note Tokyo lineup is recorded as the live lineup here.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/ulysses-owens-jr/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "title": "Kind of Grunge",
+          "apple_music_url": "https://music.apple.com/us/album/kind-of-grunge/1896054540"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Blue Note Tokyo's exact event page verifies the dates, date-specific set times, announced Tokyo lineup and local music charge. The page exposes online reservations through its session-based booking interface rather than a stable event-specific public purchase URL, so no generic reservation destination is substituted. An exact Apple Music album destination for Kind of Grunge is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/ulysses-owens-jr/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-30",
+          "note": "Primary venue page verifies September 25-26, date-specific set times, the five announced live performers, ¥9,500 music charge and Kind of Grunge framing."
+        },
+        {
+          "url": "https://ulyssesowensjr.bandcamp.com/album/kind-of-grunge",
+          "publisher": "Ulysses Owens Jr.",
+          "checked_on": "2026-08-30",
+          "note": "Artist-owned release page verifies the August 14, 2026 release, the grunge-reinterpretation concept and repertoire, the Drumeo origin, and that most album material was approached unrehearsed; its recording personnel are not substituted for the live Tokyo lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/kind-of-grunge/1896054540",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-30",
+          "note": "Exact Apple Music destination verifies Kind of Grunge as a 2026 12-track album and provides the recommended-listening destination."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-artist-sources",
+        "note": "Performance facts were verified from Blue Note Tokyo; project and repertoire context from Ulysses Owens Jr.'s artist-owned Bandcamp; Apple Music was used only for the exact listening destination. Repository searches for the stable ID and artist/project terms returned no matching current repository record, and the latest merge report's current-intake additions did not list this performance before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is what the band is doing to the repertoire, not the novelty of a jazz group covering rock. Kind of Grunge grew from a first-listen improvisation into a full project that treats Nirvana, Pearl Jam, Soundgarden and their peers as material to be reharmonized, re-grooved and pulled into a road-tested jazz language. The Tokyo lineup adds Erena Terakubo on alto to that current project, giving the date a specific Japanese live connection rather than merely importing the record to Aoyama.",
+          "trip_verdict": "If September 25-26 overlaps a Tokyo stay, actively make room for one of the four sets and let Aoyama anchor that part of the evening. Two nights provide enough flexibility for the performance to shape a Tokyo itinerary without making it the sole reason for a dedicated Japan trip.",
+          "listen_before": "Kind of Grunge"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en lo que la banda hace con el repertorio, no en la simple novedad de que un grupo de jazz toque rock. Kind of Grunge nació de una improvisación a primera escucha y terminó convertido en un proyecto completo que toma a Nirvana, Pearl Jam, Soundgarden y sus contemporáneos como material para reharmonizar, cambiar de groove y llevar al lenguaje de una banda de jazz ya curtida en vivo. La formación de Tokio suma a Erena Terakubo en alto, así que la fecha tiene además una conexión japonesa concreta y no se limita a trasladar el disco a Aoyama.",
+          "trip_verdict": "Si el 25 o 26 de septiembre coincide con una estancia en Tokio, sí le haría espacio activamente a uno de los cuatro sets y dejaría que Aoyama ordene esa parte de la noche. Dos fechas dan suficiente flexibilidad para que el concierto moldee el itinerario en Tokio sin convertirlo en la única razón para organizar un viaje dedicado a Japón.",
+          "listen_before": "Kind of Grunge"
+        }
+      }
+    },
+    {
+      "id": "jharis-yokley-bigyuki-blue-note-tokyo-2026-09-29",
+      "artist": "Jharis Yokley + BIGYUKI",
+      "subtitle": "Drums / keys-synth duo",
+      "dates": {
+        "start": "2026-09-29",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Drums + keys/synth duo / NYC-Tokyo cross-current / jazz-hip-hop-electronic",
+      "genres": [
+        "Contemporary jazz",
+        "Electronic jazz",
+        "Hip-hop fusion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Groove",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Jharis Yokley — drums",
+        "BIGYUKI — keyboards, synthesizer"
+      ],
+      "factual_description": "Blue Note Tokyo presents Jharis Yokley + BIGYUKI as a duo on Tuesday, September 29, 2026. The first set starts at 18:00 and the second at 20:30. The venue lists only Yokley on drums and BIGYUKI on keyboards and synthesizer, with a music charge of ¥8,000. Blue Note describes both musicians as New York-based and frames their shared language across jazz, hip-hop and electronic music; it also notes that they have collaborated previously. The venue expresses anticipation that unreleased material may appear, but no unreleased repertoire is treated as confirmed in this record.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/jharis-yokley/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Blue Note Tokyo's exact event page verifies date, both set times, two-person live lineup, instruments, local music charge, prior collaboration and the duo framing. Its reservation interface is session-based, so no generic booking URL is substituted as an event-specific purchase destination. No exact Apple Music destination is supplied in this batch."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/jharis-yokley/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-30",
+          "note": "Primary venue page verifies September 29, 18:00 and 20:30 set starts, Jharis Yokley on drums, BIGYUKI on keyboards/synthesizer, ¥8,000 music charge and the duo's jazz/hip-hop/electronic framing."
+        },
+        {
+          "url": "https://www.bluenote.co.jp/jp/info/2026/06/18/jharis-yokley-bigyuki.html",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-08-30",
+          "note": "Primary announcement independently corroborates the September 29 booking, duo billing, music charge and reservation-start dates."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Performance facts and context were verified from Blue Note Tokyo's event and announcement pages. Repository searches for the stable ID and billing returned no matching current repository record, and the latest merge report's current-intake additions did not list this performance before publication. No purchase URL, Apple Music destination or unannounced repertoire was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The duo format is the argument: drums facing keyboards and synthesizer with no bass player, horn or guitar to fill the middle. Yokley's rhythmic detail and BIGYUKI's ability to build bass, harmony and texture electronically leave the jazz/hip-hop/electronic overlap unusually exposed, making this a compact live test of how much architecture two players can create in real time.",
+          "trip_verdict": "If Tokyo is already in play on September 29 and the evening is open, catch one of the two sets. It is a strong small-format Aoyama date to fit into a Kanto stay, but not one I would use by itself to reroute the trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El argumento es el formato de dúo: batería frente a teclados y sintetizador, sin bajista, aliento o guitarra que rellene el centro. El detalle rítmico de Yokley y la capacidad de BIGYUKI para construir bajo, armonía y textura electrónicamente dejan muy expuesto el cruce entre jazz, hip-hop y electrónica; es una prueba compacta de cuánta arquitectura pueden levantar dos músicos en tiempo real.",
+          "trip_verdict": "Si Tokio ya está en juego el 29 de septiembre y la noche está libre, entraría a uno de los dos sets. Es una fecha pequeña y muy buena para acomodar dentro de una estancia en Kanto, pero no la usaría por sí sola para desviar el viaje.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
