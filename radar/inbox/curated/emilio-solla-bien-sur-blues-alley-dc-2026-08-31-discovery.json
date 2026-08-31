@@ -1,0 +1,101 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "emilio-solla-bien-sur-blues-alley-dc-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A/Keystone traces and credible Japanese-jazz sources; the verified Yamamoto dates returned by the pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found Emilio Solla & Bien Sur! at Blues Alley on September 24, 2026. Stage 1 admission rests on the specific musical proposition: Solla's established Bien Sur! project treats Argentine tango language, Argentine folk and contemporary jazz improvisation as a single working vocabulary, with a strong instrumental identity centered on Solla's piano/composition and the band's characteristic saxophone, bandoneon/accordion, bass and drums palette. Stage 2 assigns A only after admission. This is clearly useful RADAR material for the DMV and worth attending if convenient, but Bien Sur! is an active longstanding project rather than a premiere, farewell, rare reunion or singular lineup, so A+ or S would manufacture scarcity. Repository searches for Emilio Solla, Bien Sur, Blues Alley and the exact September 24 date returned no matching canonical, curated or processed candidate before publication. Recent/current RADAR output was reviewed as a sanity check; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and reinforces the intended broad A base rather than tier inflation.",
+  "events": [
+    {
+      "id": "emilio-solla-bien-sur-blues-alley-dc-2026-09-24",
+      "artist": "Emilio Solla & Bien Sur!",
+      "subtitle": "Argentinean Jazz Series",
+      "dates": {
+        "start": "2026-09-24",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Argentine tango-jazz / contemporary improvisation",
+      "genres": [
+        "Jazz",
+        "Tango Jazz",
+        "Argentine Music",
+        "Latin Jazz",
+        "Improvised Music"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Emilio Solla — piano, composer; billed leader of Bien Sur!"
+      ],
+      "factual_description": "Emilio Solla's official calendar lists Emilio Solla & Bien Sur! at Blues Alley in Washington, DC, on Thursday, September 24, 2026, with a first set at 19:00 and a second set at 21:30. Solla's official Bien Sur! page describes the group as his regular New York-based quintet and identifies its current project personnel as Solla on piano and compositions, Chris Cheek on soprano and tenor saxophones, Julien Labro on bandoneon and accordion, Jorge Roeder on bass, and Ferenc Nemeth on drums. Because the event-specific public listing does not independently enumerate every musician for the Blues Alley date, only Solla is stored in the verified concert lineup field and no date-specific personnel beyond the billed leader are inferred. The project itself is documented by Solla as a tango-jazz language combining his Argentine musical background with contemporary jazz improvisation.",
+      "links": {
+        "official_event": "https://emiliosolla.com/calendar/",
+        "official_tickets": "https://www.ticketmaster.com/emilio-solla-bien-sur-argentinean-jazz-washington-district-of-columbia-09-24-2026/event/1500638080A9370E"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "date_specific_full_bien_sur_personnel",
+          "primary_price_confirmation",
+          "apple_music"
+        ],
+        "note": "Solla's official calendar verifies the exact Blues Alley date and both set times. His official Bien Sur! page verifies the project's standing personnel and musical identity, but the concert-specific listing does not independently enumerate the complete September 24 lineup, so substitutes are not assumed. An authorized Ticketmaster event destination was verified for the billing/date, but no price is stored without a stable primary-source confirmation. No Apple Music destination is supplied without exact verification."
+      },
+      "sources": [
+        {
+          "url": "https://emiliosolla.com/calendar/",
+          "publisher": "Emilio Solla",
+          "checked_on": "2026-08-31",
+          "note": "Primary artist calendar verifies Emilio Solla & Bien Sur! at Blues Alley, Washington, DC, on September 24, 2026, with first set at 19:00 and second set at 21:30."
+        },
+        {
+          "url": "https://emiliosolla.com/bien-sur/",
+          "publisher": "Emilio Solla",
+          "checked_on": "2026-08-31",
+          "note": "Primary artist project page documents Bien Sur!'s regular quintet personnel and the project's tango-jazz identity; used as project context only, not as proof that every regular member will play the Blues Alley date."
+        },
+        {
+          "url": "https://www.ticketmaster.com/emilio-solla-bien-sur-argentinean-jazz-washington-district-of-columbia-09-24-2026/event/1500638080A9370E",
+          "publisher": "Ticketmaster / Blues Alley authorized ticketing",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket destination verified for the Emilio Solla & Bien Sur! - Argentinean Jazz Series billing at Blues Alley on September 24, 2026. No dynamic/resale-derived price is stored."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core event date and both set times were verified from Emilio Solla's official calendar; the official Bien Sur! page verifies the project's musical identity and standing personnel, while date-specific personnel beyond Solla remain intentionally unasserted. Repository-wide searches found no Emilio Solla / Bien Sur! / Blues Alley September 24 candidate before publication. Priority A was assigned only after Stage 1 admission and reflects a musically distinctive, highly relevant local tango-jazz performance by an active project without artificial scarcity. Editorial review in this automation was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Bien Sur! is more specific than a generic Latin-jazz date: Solla treats Argentine tango and folk language as material for contemporary jazz improvisation, with the project's characteristic piano, saxophone and bandoneon/accordion vocabulary giving the music a distinct instrumental identity. In Blues Alley's close room, that Argentine-New York cross-current is exactly the kind of local DMV performance worth keeping visible.",
+          "trip_verdict": "If September 24 is open in the DMV, this is an easy worthwhile local night at Blues Alley. I would not reorganize a larger regional trip around this stop alone, but either set is a strong option if the evening is convenient.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Bien Sur! es algo mucho más específico que una fecha genérica de jazz latino: Solla trabaja el lenguaje del tango y el folclor argentino como material para la improvisación contemporánea de jazz, y el vocabulario característico del proyecto —piano, saxofón y bandoneón/acordeón— le da una identidad instrumental muy clara. En el cuarto cercano de Blues Alley, ese cruce argentino-neoyorquino es exactamente el tipo de concierto local del DMV que conviene mantener visible.",
+          "trip_verdict": "Si el 24 de septiembre está libre en el DMV, es una salida local fácil de justificar en Blues Alley. No reorganizaría un viaje regional más grande alrededor de esta fecha por sí sola, pero cualquiera de los dos sets es una muy buena opción si la noche está disponible.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
