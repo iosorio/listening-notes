@@ -1,0 +1,227 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "masuo-yagi-pit-inn-october-2026-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, KEYSTONE CLUB TOKYO, and credible Japanese-jazz sources; the verified dates that resurfaced are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. The newly published October Shinjuku PIT INN schedule produced two unrecorded performances that clear Stage 1 for specific live reasons rather than artist prestige alone: Yoshiaki Masuo's working quartet on his exact 80th birthday, and Michiyo Yagi Talon's debut-album release show built around a four-koto electro-acoustic instrumentation. Stage 2 assigns A+ to both. Masuo's 80th birthday is a real milestone, but PIT INN explicitly describes the Birthday Live as an annual tradition and Masuo remains active with his group, so A+ still captures the recommendation without inventing S-level nonrecurrence. Talon's Izayoi release is an especially strong statement of current Japanese instrumental identity, but the ensemble has already performed in 2026 and no farewell, one-off, or terminal context is published. Recent/current RADAR intake was reviewed as a sanity check and remains centered on A/A+ with S/S+ reserved for scarcity cases; this batch adds A 0 / A+ 2 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "yoshiaki-masuo-80th-birthday-pit-inn-tokyo-2026-10-12",
+      "artist": "YOSHIAKI MASUO GROUP",
+      "subtitle": "An 80th Birthday Live Show I Can't Believe Myself!",
+      "dates": {
+        "start": "2026-10-12",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living Japanese jazz master / 80th birthday / guitar-led quartet",
+      "genres": [
+        "Jazz",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Yoshiaki Masuo — guitar",
+        "Mikiko Nagatake — piano",
+        "Shimpei Ogawa — bass",
+        "Kunito Kitai — drums"
+      ],
+      "factual_description": "Shinjuku PIT INN lists YOSHIAKI MASUO GROUP on Monday, October 12, 2026 for 'An 80th Birthday Live Show I Can't Believe Myself!'. Doors are at 19:00 and the performance starts at 19:30. Admission is ¥4,400 including one drink. The announced quartet is Yoshiaki Masuo on guitar, Mikiko Nagatake on piano, Shimpei Ogawa on bass and Kunito Kitai on drums. Masuo's official biography states that he was born in Tokyo on October 12, 1946, so this performance falls on his exact 80th birthday. The same biography documents his early work with Sadao Watanabe and two three-year periods with Sonny Rollins. PIT INN explicitly calls the Birthday Live an annual tradition; no farewell, special guest, premiere or final-performance claim is published.",
+      "links": {
+        "official_event": "https://pit-inn.com/artist_live_info/261012masuo/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 4400,
+          "maximum": 4400,
+          "source_url": "https://pit-inn.com/artist_live_info/261012masuo/",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yoshiaki Masuo",
+          "title": "Good Morning",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/good-morning/1649756985"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact PIT INN event page verifies the date, doors/start time, full quartet, ¥4,400 admission and one-drink inclusion. PIT INN states that reservations open September 1 at 11:00 JST via the per-performance reservation form, phone or venue desk; at this check the event-specific online reservation form is not yet live, so no purchase URL is invented. Masuo's official biography verifies the exact birth date and career context. Apple Music verifies Good Morning."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/artist_live_info/261012masuo/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-31",
+          "note": "Primary exact event page verifies October 12, 2026; 19:00 doors / 19:30 start; ¥4,400 admission including one drink; the full quartet; the 80th-birthday framing; and that the Birthday Live is an annual tradition."
+        },
+        {
+          "url": "https://www.ymasuo.com/eng/bio.htm",
+          "publisher": "Yoshiaki Masuo official website",
+          "checked_on": "2026-08-31",
+          "note": "Official biography verifies Masuo's October 12, 1946 birth date and documents his work with Sadao Watanabe, Sonny Rollins, Lee Konitz, Elvin Jones and his own jazz-fusion groups."
+        },
+        {
+          "url": "https://music.apple.com/us/album/good-morning/1649756985",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music page verifies Yoshiaki Masuo's Good Morning (1979), selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, venue, lineup, price, birthday framing and annual-Birthday-Live context were verified directly from Shinjuku PIT INN; Masuo's exact birth date and career history were verified from his official site; the listening destination was verified on Apple Music. Repository searches for Yoshiaki Masuo / Masuo and the 80th Birthday Live returned no matching current, curated or processed RADAR candidate before publication. Priority was assigned only after RADAR admission. No special guests, repertoire, farewell status, resale inventory or not-yet-live ticket URL was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The milestone has musical weight because it lands on Masuo's actual 80th birthday and puts a still-active Japanese jazz-guitar voice back in a working quartet rather than turning the night into a museum piece. His lineage runs directly through Sadao Watanabe and six years with Sonny Rollins, but the present-tense argument is guitar, piano, bass and drums in PIT INN: a compact setting for hearing how that history still lives inside his own band.",
+          "trip_verdict": "If October 12 overlaps with Tokyo, actively make room for Shinjuku and let the 19:30 set anchor the evening. The exact birthday makes it a particularly meaningful night to catch while there; because the Birthday Live is an annual tradition and Masuo remains active, I would not rebuild an entire Japan itinerary around this date alone.",
+          "listen_before": "Yoshiaki Masuo — Good Morning"
+        },
+        "es": {
+          "why_it_matters": "El aniversario tiene peso musical porque cae exactamente en los 80 años de Masuo y coloca a una voz todavía activa de la guitarra de jazz japonesa dentro de un cuarteto de trabajo, no en una vitrina retrospectiva. Su linaje pasa directamente por Sadao Watanabe y seis años con Sonny Rollins, pero el argumento presente es guitarra, piano, bajo y batería en PIT INN: un formato compacto para escuchar cómo esa historia sigue viva dentro de su propia banda.",
+          "trip_verdict": "Si el 12 de octubre coincide con Tokio, sí le haría espacio a Shinjuku y dejaría que el set de las 19:30 ancle la noche. El cumpleaños exacto vuelve especialmente significativa esta fecha estando allá; como el Birthday Live es una tradición anual y Masuo sigue activo, no rehacería un itinerario completo por Japón alrededor de esta sola noche.",
+          "listen_before": "Yoshiaki Masuo — Good Morning"
+        }
+      }
+    },
+    {
+      "id": "michiyo-yagi-talon-izayoi-pit-inn-tokyo-2026-10-17",
+      "artist": "MICHIYO YAGI TALON",
+      "subtitle": "Izayoi release live",
+      "dates": {
+        "start": "2026-10-17",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Hyper-koto quartet / debut-album release / electro-acoustic improvisation",
+      "genres": [
+        "Improvised Music",
+        "Experimental",
+        "Contemporary Japanese Music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Improvised",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Michiyo Yagi — electric 21-string koto, electronics, voice",
+        "Maki Isogai — 13-string koto, 21-string koto, 17-string koto, voice",
+        "Hiroko Takahashi — electric 18-string koto, voice",
+        "Eden Okuno — 13-string koto, 17-string koto, voice"
+      ],
+      "factual_description": "Shinjuku PIT INN presents MICHIYO YAGI TALON on Saturday, October 17, 2026 for the release of the quartet's long-awaited debut album Izayoi. Doors are at 19:00 and the performance starts at 19:30. Admission is ¥4,400 including one drink. The announced quartet is Michiyo Yagi on electric 21-string koto, electronics and voice; Maki Isogai on 13-, 21- and 17-string kotos and voice; Hiroko Takahashi on electric 18-string koto and voice; and Eden Okuno on 13- and 17-string kotos and voice. PIT INN describes the program as centered on Yagi's original compositions, incorporating improvisation, traditional Japanese vocal music and electronics. A May 3, 2026 Tokyo performance documents Talon as an already-active project, so no first-ever-performance or one-off claim is inferred.",
+      "links": {
+        "official_event": "https://pit-inn.com/artist_live_info/261017yagi/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 4400,
+          "maximum": 4400,
+          "source_url": "https://pit-inn.com/artist_live_info/261017yagi/",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact PIT INN event page verifies the date, doors/start time, ¥4,400 admission, one-drink inclusion, full four-member instrumentation, debut-album release framing and musical description. PIT INN states that reservations open September 1 at 11:00 JST via the per-performance reservation form, phone or venue desk; the event-specific online reservation form is not yet live at this check. Izayoi is described as forthcoming and no exact Apple Music album destination is yet verified, so neither a purchase URL nor album URL is invented."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/artist_live_info/261017yagi/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-08-31",
+          "note": "Primary exact event page verifies October 17, 2026; 19:00 doors / 19:30 start; ¥4,400 admission including one drink; the complete Talon instrumentation; the Izayoi debut-album release framing; and the original-composition/improvisation/traditional-vocal/electronics concept."
+        },
+        {
+          "url": "https://www.timeoutcafe.jp/schedule/2026/05",
+          "publisher": "TimeOut Café & Diner",
+          "checked_on": "2026-08-31",
+          "note": "Authoritative venue schedule documents a May 3, 2026 Michiyo Yagi Talon performance in Tokyo with the same four-member project, supporting the judgment that the October album-release show is special but not a first-ever or terminal performance."
+        },
+        {
+          "url": "https://www.michiyoyagi.com/",
+          "publisher": "Michiyo Yagi official website",
+          "checked_on": "2026-08-31",
+          "note": "Official artist site verifies Michiyo Yagi's current Tokyo-based koto practice and identity."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core event facts, instrumentation, price, release-show framing and musical concept were verified directly from Shinjuku PIT INN; an earlier 2026 Talon performance was verified from TimeOut Café & Diner, and Yagi's official site supports artist identity. Repository searches for Michiyo Yagi, Talon and Izayoi returned no matching current, curated or processed RADAR candidate before publication. Priority was assigned only after RADAR admission. No first-performance claim, additional personnel, unannounced repertoire, resale inventory, not-yet-live ticket URL or Apple Music ID was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Talon makes the koto itself the compositional engine: four players span electric 18- and 21-string instruments, 13- and 17-string kotos, electronics and voices, giving Yagi's original music a low-register and electro-acoustic range far beyond a token 'traditional instrument' appearance. The Izayoi release show matters because improvisation, traditional Japanese vocal material and electronics are being presented as one current ensemble language, not as a crossover garnish.",
+          "trip_verdict": "If October 17 is open in Tokyo, actively make room for Shinjuku and build the evening around PIT INN. It is a strong reason to cross the city for a focused small-room statement; I would fold it into a broader Tokyo stay rather than reshape a wider Kanto itinerary around this one date.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Talon convierte al koto en el motor mismo de la composición: cuatro intérpretes cubren instrumentos eléctricos de 18 y 21 cuerdas, kotos de 13 y 17 cuerdas, electrónica y voces, dándole a la música original de Yagi un rango grave y electroacústico muy lejos de una aparición decorativa de 'instrumento tradicional'. La presentación de Izayoi importa porque improvisación, material vocal tradicional japonés y electrónica aparecen como un solo lenguaje de ensamble contemporáneo, no como adorno de crossover.",
+          "trip_verdict": "Si el 17 de octubre está abierto en Tokio, sí le haría espacio a Shinjuku y armaría la noche alrededor de PIT INN. Es una razón fuerte para cruzar la ciudad por una declaración concentrada en sala pequeña; la integraría a una estancia más amplia en Tokio en vez de rehacer un itinerario por Kanto alrededor de esta única fecha.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
