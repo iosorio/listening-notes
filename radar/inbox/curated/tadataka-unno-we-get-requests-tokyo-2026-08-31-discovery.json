@@ -1,0 +1,52 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tadataka-unno-we-get-requests-tokyo-2026-08-31-discovery",
+  "notes": "Verified A+-priority Tokyo discovery under the current two-stage RADAR rubric. Yamamoto-first research found no new unrecorded verified Tsuyoshi Yamamoto date. Tadataka Unno's October 16 concert clears admission because the repertoire is explicitly autobiographical: hearing Oscar Peterson live at age nine helped lead Unno toward jazz piano, and he now revisits Peterson's We Get Requests with his own trio. A+ fits active prioritization; no farewell, premiere, reunion, or other scarcity fact was verified that would support S.",
+  "events": [
+    {
+      "id": "tadataka-unno-we-get-requests-im-a-show-tokyo-2026-10-16",
+      "artist": "Tadataka Unno Trio",
+      "subtitle": "Tribute to Oscar Peterson — We Get Requests revisited",
+      "dates": {"start": "2026-10-16", "end": null},
+      "showtimes": ["19:00"],
+      "venue": {"id": "im-a-show-yurakucho-tokyo", "name": "I'M A SHOW", "city": "Chiyoda, Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Acoustic jazz / Piano trio / Repertoire tribute",
+      "genres": ["Jazz", "Acoustic Jazz"],
+      "musical_axes": ["Japan / Tokyo", "Improvised", "Instrumental identity", "Acoustic Jazz", "Cultural context"],
+      "lineup": [
+        "Tadataka Unno — piano",
+        "Satsuki Kusui — bass",
+        "Ryutaro Goto — drums"
+      ],
+      "factual_description": "Sunrise Promotion's official press release presents Tadataka Unno Trio at I'M A SHOW in Yurakucho, Tokyo, on October 16, 2026, with doors at 6:15 PM and the concert at 7:00 PM. The verified trio is Tadataka Unno on piano, Satsuki Kusui on bass and Ryutaro Goto on drums. The program is built around Oscar Peterson Trio's 1964 album We Get Requests, which Unno identifies as music he listened to closely after hearing Peterson live at age nine, an experience he says helped lead him toward becoming a jazz pianist. The promoter lists reserved seating at ¥8,200 including tax, plus a ¥600 drink charge, and identifies authorized sales through Ticket Pia, eplus, Lawson Ticket and Ticket Sunrise.",
+      "links": {"official_event": "https://sunrisetokyo.com/detail/36032/", "official_tickets": "https://eplus.jp/wgr2026/"},
+      "recommended_listening": [
+        {"artist": "Oscar Peterson Trio", "title": "We Get Requests", "kind": "album", "apple_music_url": "https://music.apple.com/us/album/we-get-requests/1443078246"}
+      ],
+      "enrichment": {"status": "complete", "missing": [], "note": "Date, doors, start time, venue, full trio, price, repertoire framing, authorized ticket destination and exact Apple Music destination are verified."},
+      "sources": [
+        {"url": "https://prtimes.jp/main/html/rd/p/000000914.000041063.html", "publisher": "Sunrise Promotion via PR TIMES", "checked_on": "2026-08-31", "note": "Promoter-issued press release confirms date, venue, doors/start time, full trio, price, authorized ticket sellers and Unno's personal/repertoire framing for the Oscar Peterson tribute."},
+        {"url": "https://www.tadatakaunno.com/schedule", "publisher": "Tadataka Unno", "checked_on": "2026-08-31", "note": "Official artist schedule independently confirms the October 16, 2026 I'M A SHOW performance and the We Get Requests revisited billing."},
+        {"url": "https://music.apple.com/us/album/we-get-requests/1443078246", "publisher": "Apple Music", "checked_on": "2026-08-31", "note": "Exact Apple Music album page for Oscar Peterson Trio's We Get Requests, the repertoire source explicitly named for the concert."}
+      ],
+      "provenance": {"status": "verified-primary-and-authoritative-sources", "note": "Event details and autobiographical repertoire context were verified against a promoter-issued press release and Tadataka Unno's official schedule. Repository searches for Tadataka Unno, We Get Requests revisited and the October 16 I'M A SHOW date found no matching canonical, curated or processed event. The repo does contain a separate Yokohama Cozinha event involving Unno; this is a different date, lineup and program. No unverified Apple Music ID or ticket destination was invented."},
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a repertoire choice with biography inside it. Unno traces part of his decision to become a jazz pianist to hearing Oscar Peterson live at nine; decades later, after work with Hank Jones, Jimmy Cobb, Roy Hargrove and now the Jeff Hamilton Trio, he returns to the Peterson record he absorbed as a young player. With Satsuki Kusui and Ryutaro Goto, We Get Requests becomes less a museum tribute than a Japanese pianist revisiting one of the records that formed his ear.",
+          "trip_verdict": "If October overlaps with Tokyo, actively make room for this Yurakucho night. It is strong enough to build that evening around, while leaving the larger Tokyo itinerary anchored by rarer farewell or once-only dates when they compete directly.",
+          "listen_before": "Oscar Peterson Trio — We Get Requests"
+        },
+        "es": {
+          "why_it_matters": "Aquí el repertorio también cuenta una biografía. Unno vincula parte de su decisión de convertirse en pianista de jazz con haber escuchado a Oscar Peterson en vivo a los nueve años; décadas después, tras trabajar con Hank Jones, Jimmy Cobb, Roy Hargrove y ahora con el trío de Jeff Hamilton, vuelve al disco de Peterson que absorbió cuando era joven. Con Satsuki Kusui y Ryutaro Goto, We Get Requests funciona menos como homenaje de museo y más como un pianista japonés regresando a una de las grabaciones que formaron su oído.",
+          "trip_verdict": "Si octubre coincide con Tokio, sí le haría espacio activamente a esta noche en Yurakucho. Da para construir la velada alrededor del concierto, dejando que las despedidas o fechas realmente irrepetibles conserven prioridad cuando compitan de frente dentro de un itinerario limitado.",
+          "listen_before": "Oscar Peterson Trio — We Get Requests"
+        }
+      }
+    }
+  ]
+}
