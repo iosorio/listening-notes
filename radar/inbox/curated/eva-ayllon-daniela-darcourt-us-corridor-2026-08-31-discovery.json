@@ -1,0 +1,235 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "eva-ayllon-daniela-darcourt-us-corridor-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread from main before any searching or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A leads, and credible Japanese-jazz sources; surfaced Yamamoto dates were already represented in canonical/curated/processed-visible intake, so no duplicate Yamamoto event was created. Repository searches for Eva Ayllon, Eva Ayllón, Daniela Darcourt, Reunion Tour, the October 30 NJPAC date, and the November 1 Howard Theatre date returned no matching RADAR event before publication. Stage 1 admits the Newark and Washington performances because this 2026 U.S. tour places Eva Ayllón's more-than-five-decade Afro-Peruvian/landó lineage beside Daniela Darcourt's contemporary Peruvian salsa voice, creating a concrete cross-generational Peruvian music context rather than relying on fame or venue prestige. The tour's own U.S. site frames the run as a celebration of Ayllón's 55-year career. Stage 2 assigns A+ to both dates: the living-master lineage, special-guest pairing and anniversary-tour context are actively worth making room for, while the multi-city U.S. itinerary — including Newark and Washington only two days apart — makes S-tier scarcity inappropriate. Recent/current visible curated intake remains centered on A and A+ with scarcity tiers uncommon; this batch proposes A 0 / A+ 2 / S 0 / S+ 0 and does not use distribution as a quota.",
+  "events": [
+    {
+      "id": "eva-ayllon-daniela-darcourt-njpac-newark-2026-10-30",
+      "artist": "Eva Ayllón with special guest Daniela Darcourt",
+      "subtitle": "Reunion Tour",
+      "dates": {
+        "start": "2026-10-30",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "njpac-prudential-hall-newark",
+        "name": "Prudential Hall at New Jersey Performing Arts Center",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional trip / Newark, New Jersey",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Afro-Peruvian living master / cross-generational Peruvian pairing / anniversary tour",
+      "genres": [
+        "Afro-Peruvian music",
+        "Landó",
+        "Peruvian salsa",
+        "Latin music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Latin",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Eva Ayllón — vocals",
+        "Daniela Darcourt — vocals"
+      ],
+      "factual_description": "New Jersey Performing Arts Center presents Eva Ayllón with special guest Daniela Darcourt on Friday, October 30, 2026 at 8:00 PM in Prudential Hall on the Betty Wold Johnson Stage. NJPAC bills the event as the Reunion Tour and describes Ayllón as the Queen of Landó and a legend of Afro-Peruvian music for more than 50 years; it also notes her 2019 Latin GRAMMY Lifetime Achievement Award. NJPAC identifies Darcourt as a Latin GRAMMY-nominated artist bringing contemporary Peruvian salsa to the program. The Eva y Daniela USA 2026 tour site frames the broader run as a celebration of Ayllón's 55-year career and documents a multi-city U.S. itinerary with the same special-guest pairing, including a Washington, DC date two days later.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/eva-ayllon/",
+        "official_tickets": "https://www.ticketmaster.com/event/00006437B9F110C8?brand=njpac&camefrom=cfc_njpac_NJPACWebsite"
+      },
+      "recommended_listening": [],
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/event/00006437B9F110C8?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "complete verified touring personnel",
+          "verified official face-value price range",
+          "apple_music"
+        ],
+        "note": "NJPAC and its linked Ticketmaster destination verify the exact date, 8:00 PM start, Prudential Hall venue and two-artist billing. The tour site supplies the 55-year-career and multi-city U.S.-tour context. No backing-band personnel, face-value price range or exact Apple Music destination is stored without verification."
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "New Jersey Performing Arts Center — Eva Ayllón with special guest Daniela Darcourt: Reunion Tour",
+          "url": "https://www.njpac.org/event/eva-ayllon/",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page verifies October 30 at 8:00 PM, Prudential Hall / Betty Wold Johnson Stage, Reunion Tour billing, Ayllón's Afro-Peruvian/landó context and Darcourt's Peruvian salsa role."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Ticketmaster — Eva Ayllon at NJPAC",
+          "url": "https://www.ticketmaster.com/event/00006437B9F110C8?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket destination linked by NJPAC verifies Friday, October 30, 2026 at 8:00 PM in Newark and lists Eva Ayllon and Daniela Darcourt in the lineup."
+        },
+        {
+          "type": "official_tour",
+          "name": "Eva y Daniela USA 2026",
+          "url": "https://evaayllonusa.com/",
+          "checked_on": "2026-08-31",
+          "note": "Tour site documents the multi-city U.S. itinerary with Daniela Darcourt as special guest and frames the run as a celebration of Eva Ayllón's 55-year career."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts were verified from NJPAC and its authorized Ticketmaster page; tour context was verified from the dedicated Eva y Daniela USA 2026 site. Repository searches found no matching Eva Ayllón/Daniela Darcourt RADAR event before publication. Stage 1 rests on the specific cross-generational Peruvian pairing and anniversary-tour context. Stage 2 assigns A+: actively worth making room for, but the documented multi-city run and nearby Washington date do not support scarcity-tier treatment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a lineage conversation, not just a two-singer bill. Ayllón brings more than five decades of Afro-Peruvian and landó authority into the same program as Darcourt's contemporary Peruvian salsa voice, making the anniversary tour a live bridge between different generations and rhythmic vocabularies of Peruvian popular music.",
+          "trip_verdict": "If the New York/New Jersey corridor is already in play on October 30, actively make room for Prudential Hall. From the DMV, the smarter geography is to catch the same pairing at Howard Theatre two days later rather than build a separate Newark trip around it.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí hay una conversación de linaje, no sólo un cartel de dos cantantes. Ayllón pone más de cinco décadas de autoridad afroperuana y de landó en el mismo programa que la voz contemporánea de salsa peruana de Darcourt, convirtiendo la gira de aniversario en un puente en vivo entre generaciones y vocabularios rítmicos distintos de la música popular peruana.",
+          "trip_verdict": "Si el corredor Nueva York/Nueva Jersey ya está en juego el 30 de octubre, sí le haría espacio activamente a Prudential Hall. Desde el DMV, la geografía más sensata es ver la misma dupla en Howard Theatre dos días después en vez de armar un viaje separado a Newark.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "eva-ayllon-daniela-darcourt-howard-theatre-dc-2026-11-01",
+      "artist": "Eva Ayllón with special guest Daniela Darcourt",
+      "subtitle": "Eva y Daniela USA 2026",
+      "dates": {
+        "start": "2026-11-01",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "howard-theatre-washington-dc",
+        "name": "Howard Theatre",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Afro-Peruvian living master / cross-generational Peruvian pairing / anniversary tour",
+      "genres": [
+        "Afro-Peruvian music",
+        "Landó",
+        "Peruvian salsa",
+        "Latin music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Latin",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Eva Ayllón — vocals",
+        "Daniela Darcourt — vocals"
+      ],
+      "factual_description": "Live Nation lists Eva Ayllón with special guest Daniela Darcourt at Howard Theatre in Washington, DC on Sunday, November 1, 2026 at 7:00 PM and links to the authorized TicketWeb purchase destination. The dedicated Eva y Daniela USA 2026 site includes Washington in the same multi-city U.S. run and frames the tour as a celebration of Ayllón's 55-year career. NJPAC's page for the same pairing two nights earlier identifies Ayllón's more-than-50-year Afro-Peruvian and landó legacy and Darcourt's contemporary Peruvian salsa role, establishing the musical context carried by the tour into Washington.",
+      "links": {
+        "official_event": "https://www.livenation.com/event/rZ7HnEZ1AfPKeK/eva-ayllon-with-special-guest-daniela-darcourt",
+        "official_tickets": "https://www.ticketweb.com/event/eva-ayllon-with-special-guest-howard-theatre-tickets/14953093"
+      },
+      "recommended_listening": [],
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketweb.com/event/eva-ayllon-with-special-guest-howard-theatre-tickets/14953093",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "complete verified touring personnel",
+          "verified official face-value price range",
+          "apple_music"
+        ],
+        "note": "Live Nation verifies the exact Washington date, 7:00 PM start, Howard Theatre venue, Eva Ayllón billing and Daniela Darcourt special-guest billing, and supplies the authorized TicketWeb destination. The dedicated U.S. tour site supplies the 55-year-career and tour context. No backing-band personnel, face-value price range or exact Apple Music destination is stored without verification."
+      },
+      "sources": [
+        {
+          "type": "authorized_presenter_ticketing",
+          "name": "Live Nation — Eva Ayllon with special guest Daniela Darcourt at Howard Theatre",
+          "url": "https://www.livenation.com/event/rZ7HnEZ1AfPKeK/eva-ayllon-with-special-guest-daniela-darcourt",
+          "checked_on": "2026-08-31",
+          "note": "Authorized event page verifies Sunday, November 1, 2026 at 7:00 PM, Howard Theatre in Washington, DC, and the special-guest billing."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "TicketWeb — Eva Ayllon with special guest Daniela Darcourt at Howard Theatre",
+          "url": "https://www.ticketweb.com/event/eva-ayllon-with-special-guest-howard-theatre-tickets/14953093",
+          "checked_on": "2026-08-31",
+          "note": "Authorized purchase destination linked directly by Live Nation for the Howard Theatre performance."
+        },
+        {
+          "type": "official_tour",
+          "name": "Eva y Daniela USA 2026",
+          "url": "https://evaayllonusa.com/",
+          "checked_on": "2026-08-31",
+          "note": "Tour site documents the Washington stop within the multi-city U.S. itinerary and frames the run as a celebration of Eva Ayllón's 55-year career."
+        },
+        {
+          "type": "official_venue_context",
+          "name": "New Jersey Performing Arts Center — Eva Ayllón with special guest Daniela Darcourt: Reunion Tour",
+          "url": "https://www.njpac.org/event/eva-ayllon/",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page for the same touring pairing two nights earlier documents Ayllón's Afro-Peruvian/landó legacy and Darcourt's Peruvian salsa role."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core Washington event facts were verified from Live Nation and its linked TicketWeb destination; the dedicated U.S. tour site verifies the tour/anniversary context, and NJPAC documents the musical framing of the same pairing. Repository searches found no matching Eva Ayllón/Daniela Darcourt RADAR event before publication. Stage 1 rests on the specific cross-generational Peruvian pairing and anniversary-tour context. Stage 2 assigns A+: actively worth making room for locally, but a long multi-city run does not support S-tier scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The Washington date puts a foundational Afro-Peruvian voice and a contemporary Peruvian salsa singer on the same stage as part of a career-anniversary run. The useful thread is the contrast and continuity: Ayllón's landó-centered legacy meeting Darcourt's modern salsa vocabulary in a program that carries Peruvian rhythm across generations.",
+          "trip_verdict": "Actively make room for the Howard Theatre date if November 1 is open. For the DMV this is the geographically natural stop on the tour, and it removes any reason to chase the same pairing to Newark unless New York/New Jersey is already part of another plan.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La fecha de Washington pone en el mismo escenario a una voz fundacional de la música afroperuana y a una cantante contemporánea de salsa peruana dentro de una gira de aniversario. El hilo está en el contraste y la continuidad: el legado de Ayllón, con el landó al centro, encontrándose con el vocabulario salsero actual de Darcourt y llevando el ritmo peruano de una generación a otra.",
+          "trip_verdict": "Si el 1 de noviembre está libre, sí le haría espacio activamente a la fecha del Howard Theatre. Para el DMV ésta es la parada geográficamente natural de la gira y elimina cualquier necesidad de perseguir la misma dupla hasta Newark, salvo que Nueva York/Nueva Jersey ya formen parte de otro plan.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
