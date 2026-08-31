@@ -1,0 +1,125 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wooten-brothers-hamilton-dc-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto sources covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources. The October 3 Plaza Afternoon Jazz Vol.21 FINAL in Kawasaki was verified again but is already represented by the existing curated stable ID tsuyoshi-yamamoto-masahiko-satoh-kawasaki-shimin-plaza-2026-10-03, and the BODY&SOUL Final Groove / grand-finale Yamamoto context is also already represented in curated intake, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found The Wooten Brothers at The Hamilton Live on September 13, 2026. Stage 1 admission is based on the specific four-brother lineup and its unusually concentrated instrumental identity: Regi Wooten on guitar/vocals, Roy Futureman Wooten on drums/vocals, Joseph Wooten on keyboards/vocals and Victor Wooten on bass/vocals, combining decades of shared language across funk, jazz, fusion, R&B and rock. Priority was assigned only after admission. A+ reflects an unusually strong local lineup worth actively making room for, especially for bass, groove and instrumental-innovation threads; scarcity tiers are inappropriate because this is part of an active multi-city Wooten Brothers tour rather than a farewell, premiere or one-off reunion. Recent/current RADAR output was reviewed as a sanity check and remains weighted toward A/A+ with S/S+ treated as scarcity tiers; this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "wooten-brothers-hamilton-live-washington-dc-2026-09-13",
+      "artist": "The Wooten Brothers",
+      "subtitle": "Victor, Regi, Roy ‘Futureman’ and Joseph Wooten",
+      "dates": {
+        "start": "2026-09-13",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Virtuosic family ensemble / funk-jazz fusion / instrumental innovation",
+      "genres": [
+        "Funk",
+        "Jazz Fusion",
+        "R&B",
+        "Rock"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Regi Wooten — guitar, vocals",
+        "Roy ‘Futureman’ Wooten — drums, vocals",
+        "Joseph Wooten — keyboards, vocals",
+        "Victor Wooten — bass, vocals"
+      ],
+      "factual_description": "All Good Presents and The Hamilton Live present The Wooten Brothers on Sunday, September 13, 2026 in Washington, DC. Doors are at 6:30 PM and the show begins at 8:00 PM. The authorized EVENTIM page lists GA standing/bar-area tickets at $53.61 and GA seated tickets at $64.95 at the current check. The Wooten Brothers' official site identifies the current self-contained family band as Regi Wooten on guitar/vocals, Roy ‘Futureman’ Wooten on drums/vocals, Joseph Wooten on keyboards/vocals and Victor Wooten on bass/vocals. The band describes its current music as a blend of jazz, funk, soul, R&B and related styles, while Roy's instrumental practice includes his trademark Drumitar and RoyEl keyboard. The official band site also documents the brothers' decades-long shared performing history and current touring activity.",
+      "links": {
+        "official_event": "https://www.allgoodpresentslivemusic.com/events/the-wooten-brothers/",
+        "official_tickets": "https://www.eventim.us/event/the-wooten-brothers/696220"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 53.61,
+          "maximum": 64.95,
+          "source_url": "https://www.eventim.us/event/the-wooten-brothers/696220",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Wooten Brothers",
+          "title": "Sweat (Version B)",
+          "kind": "single",
+          "apple_music_url": "https://music.apple.com/us/album/sweat-version-b-single/1706177278"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "All Good Presents and authorized EVENTIM verify the exact date, venue, 18:30 doors, 20:00 showtime and current face-value ticket options. The Wooten Brothers' official site verifies the current four-brother personnel, instruments/vocals, family-band history and cross-genre identity. Apple Music verifies the exact Sweat (Version B) release and credits the same four brothers on the recording."
+      },
+      "sources": [
+        {
+          "url": "https://www.allgoodpresentslivemusic.com/events/the-wooten-brothers/",
+          "publisher": "All Good Presents",
+          "checked_on": "2026-08-31",
+          "note": "Primary presenter page verifies The Wooten Brothers at The Hamilton Live on September 13, 2026, doors at 18:30, all-ages status, venue address and authorized ticket route."
+        },
+        {
+          "url": "https://www.eventim.us/event/the-wooten-brothers/696220",
+          "publisher": "The Hamilton Live authorized ticketing / EVENTIM",
+          "checked_on": "2026-08-31",
+          "note": "Authorized exact event page verifies Sunday, September 13, 2026, 18:30 doors, 20:00 show, Hamilton Live location and current GA standing and seated ticket prices of $53.61 and $64.95 respectively."
+        },
+        {
+          "url": "https://www.thewootenbrothers.com/brothers",
+          "publisher": "The Wooten Brothers",
+          "checked_on": "2026-08-31",
+          "note": "Official band page verifies the current self-contained quartet as Regi on guitar/vocals, Roy on drums/vocals, Joseph on keyboards/vocals and Victor on bass/vocals, and documents Roy Futureman's Drumitar/RoyEl practice plus the group's multi-genre family-band history."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sweat-version-b-single/1706177278",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music page for The Wooten Brothers' Sweat (Version B), selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core event facts were verified against All Good Presents and The Hamilton Live's authorized EVENTIM destination; exact current band personnel and instruments were verified with The Wooten Brothers' official site. Repository searches for The Wooten Brothers, September 13, 2026 at The Hamilton Live and the proposed stable event identity returned no matching canonical, curated or processed record before publication. Priority was assigned after admission; A+ reflects the concentrated virtuosity, groove and instrumental identity of the four-brother working band without converting an active tour date into artificial scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the family instrument map itself. Victor's bass language sits beside Regi's percussive guitar, Joseph's keyboards and Roy Futureman's approach to rhythm, including the Drumitar, with four brothers who have been learning each other's time and reflexes since childhood. The result can move through funk, fusion, R&B and rock without sounding like a genre sampler because the common language is groove, touch and a lifetime of shared interaction.",
+          "trip_verdict": "Actively make room for the Hamilton date if September 13 is open. This is exactly the kind of local night that can carry an evening on instrumental identity and groove alone, without needing a special-trip rationale.",
+          "listen_before": "The Wooten Brothers — Sweat (Version B)"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el mapa instrumental de la propia familia. El lenguaje de bajo de Victor convive con la guitarra percusiva de Regi, los teclados de Joseph y la manera de pensar el ritmo de Roy Futureman, incluido el Drumitar, dentro de cuatro hermanos que llevan desde niños aprendiendo el tiempo y los reflejos de los otros. Pueden pasar por funk, fusión, R&B y rock sin sonar a muestrario de géneros porque el idioma común es el groove, el toque y una vida entera de interacción compartida.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de The Hamilton si el 13 de septiembre está libre. Es justo el tipo de noche local que puede sostener toda la velada por identidad instrumental y groove, sin necesitar una justificación de viaje especial.",
+          "listen_before": "The Wooten Brothers — Sweat (Version B)"
+        }
+      }
+    }
+  ]
+}
