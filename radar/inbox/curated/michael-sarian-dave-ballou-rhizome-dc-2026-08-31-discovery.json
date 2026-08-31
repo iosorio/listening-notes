@@ -1,0 +1,107 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "michael-sarian-dave-ballou-rhizome-dc-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A/Keystone traces and credible Japanese-jazz sources. The September 6 Kimiko Ito/Tsuyoshi Yamamoto BODY&SOUL date, September 15 Yamamoto Night at Keystone, and other verified Yamamoto items returned by the pass are already represented in canonical/curated intake, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found Michael Sarian's Esquina with Dave Ballou and the for-tet at Rhizome DC on September 10, 2026. Stage 1 admission is based on the exact double-bill: Esquina uses loosely structured compositions, graphic scores, electronics and extended improvisation shaped by Sarian's Armenian heritage and Argentine upbringing, while Ballou's for-tet deliberately performs compositions without rehearsal or advance structural discussion, creating form in real time. Stage 2 assigns A after admission. The event is clearly worthy of RADAR and unusually aligned with Listening Notes, but an active Sarian tour and an established for-tet project make 'attend if convenient' more accurate than manufacturing scarcity or an obligation to reorganize plans. Repository searches for Michael Sarian, Rhizome, and the exact proposed event ID returned no matching canonical, curated or processed candidate before publication. Recent/current RADAR output was reviewed as a sanity check; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and does not invoke the scarcity-review gate.",
+  "events": [
+    {
+      "id": "michael-sarian-esquina-dave-ballou-rhizome-dc-2026-09-10",
+      "artist": "Michael Sarian's Esquina / Dave Ballou and the for-tet",
+      "subtitle": "Transparent Productions presents two trumpet-led improvising ensembles",
+      "dates": {
+        "start": "2026-09-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Trumpet-led contemporary improvisation / graphic scores / electronics",
+      "genres": [
+        "Contemporary Jazz",
+        "Improvised Music",
+        "Experimental Jazz",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Michael Sarian — trumpet; leader of Esquina",
+        "Dave Ballou — trumpet",
+        "John Dieker — bass clarinet",
+        "Adam Hopkins — bass",
+        "Mike Kuhl — drums"
+      ],
+      "factual_description": "Rhizome DC and Transparent Productions present Michael Sarian's Esquina with Dave Ballou and the for-tet on Thursday, September 10, 2026. Doors are at 18:30 and music begins at 19:00; the event listing runs through 22:00. Rhizome lists a $20-$30 sliding-scale ticket. Rhizome describes Esquina as using loosely structured compositions and graphic scores with electronics, extended improvisation, and themes connected to Sarian's Armenian heritage and Argentine upbringing. Greenleaf Music's August 28 tour notice confirms the September 10 Rhizome date and says Sarian is debuting new music on this tour. Rhizome identifies Dave Ballou's for-tet as Ballou on trumpet, John Dieker on bass clarinet, Adam Hopkins on bass, and Mike Kuhl on drums; Ballou states that the ensemble performs these compositions without rehearsal or advance discussion of structure, using the pieces as context while creating form in real time. Rhizome's authorized Pools ticket page verifies the Washington, DC address and the $20-$30 sliding-scale ticket, with fees shown separately by the ticketing platform.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/9/10/sarian-ballou",
+        "official_tickets": "https://pools.events/event/E8rxVL3D/michael-sarian-esquina-dave-ballou-and-the-for-tet/"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "full_esquina_concert_personnel",
+          "apple_music"
+        ],
+        "note": "Rhizome verifies the date, doors, music start, ticket range, presenter, project descriptions, full for-tet personnel and venue address through its authorized ticket link. Greenleaf Music independently confirms the September 10 Rhizome tour stop and that Sarian is debuting new music on the tour. The event page does not publish the complete Esquina personnel for this specific performance, so only Sarian is named for that ensemble and no additional members are inferred. No Apple Music destination is supplied without exact verification."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/9/10/sarian-ballou",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page verifies September 10, doors at 18:30, music at 19:00, $20-$30 pricing, both billed ensembles, Esquina's graphic-score/electronics/heritage framing, and full for-tet personnel plus its no-rehearsal real-time-structure concept."
+        },
+        {
+          "url": "https://pools.events/event/E8rxVL3D/michael-sarian-esquina-dave-ballou-and-the-for-tet/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket page verifies the exact billing, September 10 event, 18:30 doors, 19:00 music, 6950 Maple St NW address and a $20-$30 sliding-scale ticket."
+        },
+        {
+          "url": "https://greenleafmusic.com/on-tour-michael-sarian-is-on-the-road/",
+          "publisher": "Greenleaf Music",
+          "checked_on": "2026-08-31",
+          "note": "Artist-label tour notice published August 28, 2026 independently confirms the September 10 Rhizome, Washington, DC stop and states that Sarian is debuting new music on the tour."
+        },
+        {
+          "url": "https://greenleafmusic.com/artists/michael-sarian/esquina/",
+          "publisher": "Greenleaf Music",
+          "checked_on": "2026-08-31",
+          "note": "Official label project page verifies Esquina's established electric/improvisational identity and Sarian's trumpet/FX role; it is used for project context only, not to infer the personnel of this specific concert."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core event facts, price, address and for-tet lineup were verified from Rhizome DC and its authorized ticketing page; Greenleaf Music independently verifies Sarian's September 10 DC tour stop and new-music framing. Repository-wide searches found no Michael Sarian, Rhizome DC or exact event-ID match before publication. The complete Esquina concert personnel and any Apple Music destination remain unknown rather than inferred. Priority A was assigned only after Stage 1 admission and reflects a strong, highly relevant local improvisational double-bill without elevating a touring/active project into artificial scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is how both bands decide what a piece is while they are playing it. Sarian's Esquina works with graphic scores, electronics and extended trumpet improvisation, folding his Armenian and Argentine background into a Miles-electric lineage without treating that vocabulary as museum repertory. Ballou's for-tet pushes the same question from another angle: the compositions provide context, but the quartet deliberately avoids rehearsal or a pre-agreed structure and builds the form through collective decisions in real time. Putting those two trumpet-led systems in the same Rhizome night gives the bill a clear musical argument rather than just two compatible jazz sets.",
+          "trip_verdict": "If Thursday evening is open in the DMV, this is worth the short trip to Rhizome and an easy night to attend on its own merits. I would not reorganize a larger regional itinerary around it, but the small-room setting and unusually process-driven double bill make it a useful date to keep visible.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El gancho está en cómo las dos bandas deciden qué es la pieza mientras la están tocando. Esquina trabaja con partituras gráficas, electrónica e improvisación extendida de trompeta, incorporando el trasfondo armenio y argentino de Sarian a una línea eléctrica que viene de Miles sin convertirla en repertorio de museo. El for-tet de Ballou plantea la misma pregunta desde otro ángulo: las composiciones dan el contexto, pero el cuarteto evita deliberadamente el ensayo y una estructura acordada de antemano, y construye la forma con decisiones colectivas en tiempo real. Poner esos dos sistemas liderados por trompeta en la misma noche de Rhizome le da al cartel un argumento musical claro y no sólo dos sets compatibles de jazz.",
+          "trip_verdict": "Si el jueves por la noche está libre en el DMV, vale el traslado corto a Rhizome y funciona perfectamente como salida por sí misma. No reorganizaría un itinerario regional más grande alrededor de esta fecha, pero el cuarto pequeño y el doble cartel tan centrado en el proceso hacen que convenga mantenerla visible.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
