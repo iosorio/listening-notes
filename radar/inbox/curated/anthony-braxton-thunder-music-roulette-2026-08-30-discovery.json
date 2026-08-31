@@ -1,0 +1,135 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "anthony-braxton-thunder-music-roulette-2026-08-30-discovery",
+  "checked_on": "2026-08-30",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources produced no additional verified unrecorded Yamamoto performance requiring a new RADAR record; already represented appearances were not duplicated. Stage 1 admits the December 11 Darmstadt at 80 program for a specific live construction: the New York premiere of Anthony Braxton's Thunder Music in an International Contemporary Ensemble x Tri-Centric realization, paired with GBSR Duo performing Stockhausen's Kontakte, inside the 80th-anniversary mini-festival for the Darmstadt Summer Course. Stage 2 assigns A+ only after admission. The New York premiere, exact ensemble and anniversary frame create real occasion, but A+ still captures the recommendation: Thunder Music debuted at Darmstadt in 2023 and received its U.S. premiere at the Library of Congress in 2025, Anthony Braxton is not billed as a performer here, and Roulette will livestream and archive the performance. That is enough to actively make room without manufacturing S-level scarcity. Recent/current curated intake was inspected as a distribution sanity check and remains weighted toward A/A+ with scarcity tiers treated as exceptions; no grade was changed to meet a quota. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "ice-tri-centric-braxton-thunder-music-roulette-brooklyn-2026-12-11",
+      "artist": "International Contemporary Ensemble x Tri-Centric plays Anthony Braxton's Thunder Music // GBSR Duo plays Stockhausen's Kontakte",
+      "subtitle": "Darmstadt at 80 Festival — Night Two / New York premiere of Thunder Music",
+      "dates": {
+        "start": "2026-12-11",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A+",
+      "category": "New York premiere / avant-jazz new music / Darmstadt 80th anniversary",
+      "genres": [
+        "Avant Jazz",
+        "New Music",
+        "Improvisation",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Improvised",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Carl Testa — double bass, electronics",
+        "Levy Lorenzo — percussion",
+        "Ingrid Laubrock — saxophone",
+        "Darius Jones — saxophone",
+        "Reut Regev — trombone",
+        "Chris McIntyre — trombone",
+        "Rebekah Heller — bassoon, conductor",
+        "Jonathan Finlayson — trumpet",
+        "Nick Hallett — voice",
+        "Kyoko Kitamura — voice",
+        "Raquel Klein — voice",
+        "Adam Matlock — voice, accordion",
+        "Anne Rhodes — voice",
+        "Fay Victor — voice",
+        "George Barton — percussion (GBSR Duo)",
+        "Siwan Rhys — piano (GBSR Duo)"
+      ],
+      "factual_description": "Roulette presents night two of the Darmstadt at 80 Festival on Friday, December 11, 2026. Doors are at 7:00 PM and the performance begins at 8:00 PM; International Contemporary Ensemble lists the event from 8:00 to 9:30 PM. The program features the New York premiere of Anthony Braxton's Thunder Music, which debuted at Darmstadt in 2023, performed by International Contemporary Ensemble x Tri-Centric personnel, and GBSR Duo performing Karlheinz Stockhausen's Kontakte (1958-60). Roulette frames the two-night festival around the 80th anniversary of the Internationales Musikinstitut Darmstadt Summer Course. Face-value admission is $25 advance, $30 at the door, and $20 student/senior with ID. Roulette states that a free livestream will be available at 8:00 PM and archived afterward.",
+      "links": {
+        "official_event": "https://roulette.org/event/darmstadt-at-80-international-contemporary-ensemble-x-tri-centric-anthony-braxtons-thunder-music/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1283890"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 30,
+          "source_url": "https://ci.ovationtix.com/36368/production/1283890",
+          "checked_on": "2026-08-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette and International Contemporary Ensemble verify the exact date, doors/start time, New York-premiere framing, Darmstadt 80th-anniversary context, complete announced personnel, Stockhausen pairing and authorized ticket destination. GBSR Duo independently lists the December 11 program. The Library of Congress verifies that Thunder Music had its U.S. premiere in Washington on March 8, 2025, preventing the New York premiere from being overstated as a U.S. premiere. No Apple Music ID is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/darmstadt-at-80-international-contemporary-ensemble-x-tri-centric-anthony-braxtons-thunder-music/",
+          "publisher": "Roulette",
+          "checked_on": "2026-08-30",
+          "note": "Primary presenter page verifies December 11, 2026; 19:00 doors; 20:00 performance; face-value admission; the Darmstadt 80th-anniversary mini-festival; New York premiere of Thunder Music; complete announced personnel; GBSR Duo performing Kontakte; free livestream/archive; and the authorized ticket link."
+        },
+        {
+          "url": "https://iceorg.org/events/darmstadt-at-80",
+          "publisher": "International Contemporary Ensemble",
+          "checked_on": "2026-08-30",
+          "note": "Primary ensemble page independently verifies the December 11 date, 20:00-21:30 window, Roulette address, New York-premiere framing, Darmstadt context, complete Thunder Music personnel and GBSR Duo pairing."
+        },
+        {
+          "url": "https://www.gbsr.co.uk/concerts",
+          "publisher": "GBSR Duo",
+          "checked_on": "2026-08-30",
+          "note": "Primary artist schedule lists Friday, December 11 at Roulette, the Darmstadt at 80 Festival, Stockhausen's Kontakte and Braxton's Thunder Music with International Contemporary Ensemble x Tri-Centric."
+        },
+        {
+          "url": "https://www.loc.gov/item/event-415334/music-of-anthony-braxton/2025-03-08/",
+          "publisher": "Library of Congress",
+          "checked_on": "2026-08-30",
+          "note": "Authoritative prior-event record verifies that Thunder Music received its U.S. premiere at the Library of Congress on March 8, 2025 and that Anthony Braxton did not perform at that concert. Used to avoid overstating the 2026 Roulette performance's scarcity."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core performance facts were verified against Roulette, International Contemporary Ensemble, GBSR Duo and the Library of Congress. Repository searches for 'Thunder Music', the December 11, 2026 date and the proposed stable event ID returned no matching RADAR candidate before publication. Priority was assigned only after Stage 1 admission. The New York premiere and anniversary frame were explicitly challenged against the S threshold; A+ remains sufficient because this is not the work's world or U.S. premiere, Braxton himself is not billed as a performer, and the performance will be livestreamed and archived."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The live argument is unusually concrete: Braxton's recent Thunder Music reaches New York in an ICE/Tri-Centric realization where performer choice, electronics, voices, and a broad brass-reed-percussion palette are part of the composition's identity, while GBSR answers with Stockhausen's Kontakte. The Darmstadt 80 frame places a living master's current system inside the postwar experimental lineage it keeps extending rather than treating either work as museum repertoire.",
+          "trip_verdict": "If New York is viable that Friday, actively make room for Roulette and let the festival anchor the night. From farther down the corridor, pair it with another strong New York reason rather than turn the New York premiere alone into a one-concert pilgrimage.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El argumento en vivo es muy específico: Thunder Music, uno de los sistemas recientes de Braxton, llega a Nueva York en una realización de ICE/Tri-Centric donde las decisiones de los intérpretes, la electrónica, las voces y una paleta amplia de metales, cañas y percusión forman parte de la identidad de la obra; GBSR responde con Kontakte de Stockhausen. El marco de los 80 años de Darmstadt coloca un sistema actual de un maestro vivo dentro de la tradición experimental de posguerra que sigue extendiendo, en vez de tratar cualquiera de las dos obras como repertorio de museo.",
+          "trip_verdict": "Si Nueva York es viable ese viernes, le haría espacio activamente a Roulette y dejaría que el festival organice la noche. Desde más abajo del corredor, lo combinaría con otra razón fuerte para estar en Nueva York en vez de convertir el estreno neoyorquino, por sí solo, en un viaje de un concierto.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
