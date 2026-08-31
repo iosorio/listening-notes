@@ -1,0 +1,266 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sadao-watanabe-with-strings-tokyo-december-2026-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, KEYSTONE/current schedule traces, Space M&A and credible Japanese-jazz sources. The Yamamoto dates that resurfaced, including the September BODY&SOUL/KEYSTONE appearances and the October 3 Kawasaki Plaza Afternoon Jazz finale, are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. The broader Greater Tokyo pass found two unrecorded December performances of Sadao Watanabe with Strings 'NOW'S THE TIME': December 1 at Meguro Persimmon Hall and December 3 at Suntory Hall. Stage 1 admission is event-specific: in his 75th year of musical activity, Watanabe places his alto against a verified 20-player Takayuki Oshikane string ensemble while Russell Ferrante, Ben Williams and Ittetsu Takemura supply the rhythm section; the December 3 realization also belongs to SHISEIDO presents Christmas Gift vol.33. Stage 2 assigns A+ to both after admission. The anniversary-scale instrumentation and current international rhythm section warrant actively making room, but the same with-strings production appears multiple times within days (including November 28 in Utsunomiya and both Tokyo dates), so A+ captures the recommendation without manufacturing S-level scarcity. Repository searches for Sadao Watanabe, the exact December dates, Suntory Hall and Meguro Persimmon Hall returned no matching current, curated or processed RADAR candidate before publication. Recent/current RADAR intake was reviewed as a sanity check; this batch adds A 0 / A+ 2 / S 0 / S+ 0 and does not invoke the scarcity-review gate.",
+  "events": [
+    {
+      "id": "sadao-watanabe-with-strings-persimmon-hall-tokyo-2026-12-01",
+      "artist": "Sadao Watanabe with Strings",
+      "subtitle": "NOW'S THE TIME — 75th Anniversary",
+      "dates": {
+        "start": "2026-12-01",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "meguro-persimmon-hall-main-hall-tokyo",
+        "name": "Meguro Persimmon Hall — Main Hall",
+        "city": "Meguro, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living Japanese jazz master / 75th-anniversary strings program / alto-led orchestral jazz",
+      "genres": [
+        "Jazz",
+        "Orchestral Jazz",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Sadao Watanabe — alto saxophone",
+        "Russell Ferrante — piano",
+        "Ben Williams — bass",
+        "Ittetsu Takemura — drums",
+        "Takayuki Oshikane — 1st violin / string leader",
+        "Yuki Sugiyama — 1st violin",
+        "Shoko Oki — 1st violin",
+        "Miho Shimokawa — 1st violin",
+        "Yuki Nanjo — 1st violin",
+        "Ken Okabe — 1st violin",
+        "Nagisa Kiriyama — 2nd violin",
+        "Kazuo Watanabe — 2nd violin",
+        "Yukiko Iwato — 2nd violin",
+        "Motoko Fujiie — 2nd violin",
+        "Emiko Hagino — 2nd violin",
+        "Toshiro Murai — 2nd violin",
+        "Kiyo Kido — viola",
+        "Naoko Masuda — viola",
+        "Rie Akimoto — viola",
+        "Ayaka Jomoto — viola",
+        "Ayano Kasahara — cello",
+        "Takahiro Yuki — cello",
+        "Masao Watanabe — cello",
+        "Kana Moriya — cello"
+      ],
+      "factual_description": "Sadao Watanabe's official site lists Sadao Watanabe with Strings 'NOW'S THE TIME' at Meguro Persimmon Hall on Tuesday, December 1, 2026. Doors are at 18:00 and the performance starts at 18:30. Reserved seats are ¥10,000 for S and ¥9,000 for A. The verified rhythm section is Russell Ferrante on piano, Ben Williams on bass and Ittetsu Takemura on drums, with Takayuki Oshikane Strings: a 20-player ensemble of twelve violins, four violas and four cellos. Tokyo Onkyo bills the concert as part of Watanabe's 75th anniversary. General ticket sales are scheduled to begin September 26, 2026 at 10:00; the earlier Ticket Pia advance lottery closed August 30. The same with-strings production is also scheduled in Utsunomiya on November 28 and at Suntory Hall on December 3, so no one-off, farewell or final-performance claim is inferred.",
+      "links": {
+        "official_event": "https://www.sadao.com/en/live/sadao-watanabe-with-strings-nows-the-time-9/",
+        "official_tickets": "https://w.pia.jp/t/sadaowatanabe-ntt/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 9000,
+          "maximum": 10000,
+          "source_url": "https://www.sadao.com/en/live/sadao-watanabe-with-strings-nows-the-time-9/",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The artist's exact event page verifies date, doors/start, prices, full rhythm section, all 20 string players and the authorized Ticket Pia destination. Tokyo Onkyo independently lists the December 1 Meguro Persimmon Hall performance as a 75th-anniversary Sadao Watanabe with Strings date. No Apple Music destination is supplied without exact listening-preparation verification."
+      },
+      "sources": [
+        {
+          "url": "https://www.sadao.com/en/live/sadao-watanabe-with-strings-nows-the-time-9/",
+          "publisher": "Sadao Watanabe Official Web Site",
+          "checked_on": "2026-08-31",
+          "note": "Primary exact event page verifies December 1, 2026; Meguro Persimmon Hall; 18:00 doors / 18:30 start; ¥10,000 S and ¥9,000 A reserved seating; the rhythm section; complete 20-player Takayuki Oshikane Strings personnel; authorized Ticket Pia destination; and September 26 general-sale date."
+        },
+        {
+          "url": "https://www.t-onkyo.co.jp/ticket",
+          "publisher": "Tokyo Onkyo",
+          "checked_on": "2026-08-31",
+          "note": "Primary promoter ticket listing independently verifies the December 1, 2026 18:30 Meguro Persimmon Hall date and explicitly bills it as Sadao Watanabe 75th Anniversary with Strings 'NOW'S THE TIME'."
+        },
+        {
+          "url": "https://www.sadao.com/en/live/",
+          "publisher": "Sadao Watanabe Official Web Site",
+          "checked_on": "2026-08-31",
+          "note": "Official live calendar documents the nearby November 28 Utsunomiya, December 1 Meguro and December 3 Suntory Hall appearances, supporting the non-scarcity judgment for this active with-strings production."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core date, time, venue, ticket prices, full lineup and sales timing were verified from Sadao Watanabe's official event page; Tokyo Onkyo independently verifies the anniversary billing and exact Tokyo date. Repository searches found no Sadao Watanabe / December 1 / Persimmon Hall match before publication. Priority A+ was assigned only after Stage 1 admission and reflects a major anniversary-scale ensemble statement that merits actively making room while remaining part of a multi-date production. No repertoire, guest, farewell status, resale inventory or listening link was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The anniversary becomes a present-tense musical proposition rather than a retrospective because Watanabe puts the alto in front of a twenty-player string body while Russell Ferrante, Ben Williams and Ittetsu Takemura keep a compact rhythm section underneath it. That scale changes the room around one of Japan's foundational living jazz voices: orchestral color is added without removing the instrumental directness and pulse that make the saxophone the center of the music.",
+          "trip_verdict": "If December 1 overlaps with Tokyo, actively make room for Meguro and let the 18:30 concert anchor the evening. The December 3 Suntory realization of the same production gives a Tokyo stay some scheduling flexibility, so I would choose the date that fits the trip rather than contort a wider Kanto itinerary around only one of the two halls.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El aniversario se vuelve una propuesta musical en presente, no una retrospectiva, porque Watanabe coloca el saxo alto frente a un cuerpo de veinte cuerdas mientras Russell Ferrante, Ben Williams e Ittetsu Takemura mantienen debajo una sección rítmica compacta. Esa escala cambia el espacio alrededor de una de las voces vivas fundamentales del jazz japonés: entra el color orquestal sin quitarle al saxofón la identidad instrumental ni el pulso que lo mantienen en el centro de la música.",
+          "trip_verdict": "Si el 1 de diciembre coincide con Tokio, sí le haría espacio a Meguro y dejaría que el concierto de las 18:30 ancle la noche. La realización del mismo programa en Suntory Hall el 3 de diciembre da cierta flexibilidad dentro de una estancia en Tokio, así que escogería la fecha que encaje mejor en el viaje en vez de torcer un itinerario más amplio por Kanto alrededor de una sola sala.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "sadao-watanabe-with-strings-suntory-hall-tokyo-2026-12-03",
+      "artist": "Sadao Watanabe with Strings",
+      "subtitle": "NOW'S THE TIME — SHISEIDO presents Christmas Gift vol.33",
+      "dates": {
+        "start": "2026-12-03",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "suntory-hall-main-hall-tokyo",
+        "name": "Suntory Hall — Main Hall",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living Japanese jazz master / 75th-year strings program / alto-led orchestral jazz",
+      "genres": [
+        "Jazz",
+        "Orchestral Jazz",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Sadao Watanabe — alto saxophone",
+        "Russell Ferrante — piano",
+        "Ben Williams — bass",
+        "Ittetsu Takemura — drums",
+        "Takayuki Oshikane — 1st violin / string leader",
+        "Yuki Sugiyama — 1st violin",
+        "Shoko Oki — 1st violin",
+        "Miho Shimokawa — 1st violin",
+        "Yuki Nanjo — 1st violin",
+        "Ken Okabe — 1st violin",
+        "Nagisa Kiriyama — 2nd violin",
+        "Kazuo Watanabe — 2nd violin",
+        "Yukiko Iwato — 2nd violin",
+        "Motoko Fujiie — 2nd violin",
+        "Yuya Yanagihara — 2nd violin",
+        "Toshiro Murai — 2nd violin",
+        "Kiyo Kido — viola",
+        "Naoko Masuda — viola",
+        "Rie Akimoto — viola",
+        "Ayaka Jomoto — viola",
+        "Ayano Kasahara — cello",
+        "Takahiro Yuki — cello",
+        "Masao Watanabe — cello",
+        "Kana Moriya — cello"
+      ],
+      "factual_description": "Sadao Watanabe with Strings 'NOW'S THE TIME' is scheduled for Thursday, December 3, 2026 in Suntory Hall's Main Hall as SHISEIDO presents Christmas Gift vol.33. Doors are at 17:45 and the concert starts at 18:30. Sadao Watanabe's official site and Tokyo Onkyo verify Russell Ferrante on piano, Ben Williams on bass, Ittetsu Takemura on drums and Takayuki Oshikane Strings; Watanabe's event page names all 20 string players. Tokyo Onkyo states that Watanabe is in his 75th year of musical activity and describes the ensemble as the rhythm section plus 20 strings. Reserved tickets are SS ¥22,000 with a commemorative red-wine bottle, S ¥12,000, A ¥10,000, B ¥7,000 and P behind-stage ¥6,000. General sales are scheduled to begin September 26, 2026 at 10:00. Suntory Hall independently verifies the same date, start time, Main Hall, principal performers and price bands. The same with-strings production appears on December 1 at Meguro Persimmon Hall and November 28 in Utsunomiya, so no one-off, farewell or final-performance claim is inferred.",
+      "links": {
+        "official_event": "https://www.sadao.com/en/live/sadao-watanabe-with-strings-nows-the-time-8/",
+        "official_tickets": "https://www.t-onkyo.co.jp/ticket/watanabesadao-xmasgift-vol33"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 6000,
+          "maximum": 22000,
+          "source_url": "https://www.t-onkyo.co.jp/ticket/watanabesadao-xmasgift-vol33",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Sadao Watanabe's exact event page, Tokyo Onkyo and Suntory Hall all verify the core performance facts. The artist page supplies the complete 20-player string personnel; Tokyo Onkyo supplies the 75th-year framing and official sales hub; Suntory Hall independently verifies the Main Hall booking and ticket bands. No Apple Music destination is supplied without exact listening-preparation verification."
+      },
+      "sources": [
+        {
+          "url": "https://www.sadao.com/en/live/sadao-watanabe-with-strings-nows-the-time-8/",
+          "publisher": "Sadao Watanabe Official Web Site",
+          "checked_on": "2026-08-31",
+          "note": "Primary exact event page verifies December 3, 2026; Suntory Hall; 17:45 doors / 18:30 start; all ticket bands; the rhythm section; complete 20-player Takayuki Oshikane Strings personnel; and September 26 general-sale timing."
+        },
+        {
+          "url": "https://www.t-onkyo.co.jp/ticket/watanabesadao-xmasgift-vol33",
+          "publisher": "Tokyo Onkyo",
+          "checked_on": "2026-08-31",
+          "note": "Primary promoter page verifies SHISEIDO presents Christmas Gift vol.33, the December 3 Suntory Hall Main Hall date, Watanabe's 75th year of musical activity, the 20-string configuration, principal performers, price bands and official future ticket-sale information."
+        },
+        {
+          "url": "https://www.suntory.co.jp/suntoryhall/schedule/detail/20261203_M_3.html",
+          "publisher": "Suntory Hall",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue calendar independently verifies the December 3 18:30 Main Hall performance, principal billing, performers, price bands and September 26 general-sale date."
+        },
+        {
+          "url": "https://www.sadao.com/en/live/",
+          "publisher": "Sadao Watanabe Official Web Site",
+          "checked_on": "2026-08-31",
+          "note": "Official live calendar documents the nearby November 28 Utsunomiya, December 1 Meguro and December 3 Suntory Hall appearances, supporting the non-scarcity judgment for this active with-strings production."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core date, time, Main Hall, prices, full lineup, 75th-year framing and sales timing were verified across the artist, promoter and venue. Repository searches found no Sadao Watanabe / December 3 / Suntory Hall match before publication. Priority A+ was assigned only after Stage 1 admission and reflects an anniversary-scale 20-string realization worth actively prioritizing; the neighboring December 1 Tokyo and November 28 Utsunomiya performances mean A+ still captures the recommendation without claiming S-level nonrecurrence. No repertoire, guest, farewell status, resale inventory or listening link was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not simply a veteran artist moved into a prestigious room. The live argument is the scale of the ensemble: Watanabe's alto sits in front of twenty strings while Russell Ferrante, Ben Williams and Ittetsu Takemura preserve a real rhythm-section center. In his 75th year of musical activity, that combination lets a foundational Japanese jazz voice work with orchestral color as living material, not as a ceremonial backdrop.",
+          "trip_verdict": "If December 3 overlaps with Tokyo, actively make room for Akasaka and build the evening around Suntory Hall. The nearby December 1 Meguro performance gives a Tokyo stay another way to hear the same large-scale production, so there is useful scheduling flexibility without needing to rebuild a wider Kanto itinerary around a single night.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Esto no es simplemente poner a un veterano en una sala prestigiosa. El argumento vivo está en la escala del ensamble: el saxo alto de Watanabe queda frente a veinte cuerdas mientras Russell Ferrante, Ben Williams e Ittetsu Takemura conservan un verdadero centro rítmico. En su año 75 de actividad musical, esa combinación permite escuchar a una voz fundacional del jazz japonés trabajar el color orquestal como material vivo, no como telón ceremonial.",
+          "trip_verdict": "Si el 3 de diciembre coincide con Tokio, sí le haría espacio a Akasaka y construiría la noche alrededor de Suntory Hall. La función cercana del 1 de diciembre en Meguro ofrece otra manera de escuchar la misma producción a gran escala dentro de una estancia en Tokio, así que hay flexibilidad útil sin tener que rehacer un itinerario más amplio por Kanto alrededor de una sola noche.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
