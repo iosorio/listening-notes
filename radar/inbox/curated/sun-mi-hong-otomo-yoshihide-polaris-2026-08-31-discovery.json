@@ -1,0 +1,111 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sun-mi-hong-otomo-yoshihide-polaris-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources. The verified BODY&SOUL September 6 and September 26 threads and the recurring Space M&A dates through November are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Stage 1 admits the September 25 POLARIStokyo performance for a specific live proposition: an exposed drums-guitar duo pairing South Korean, Amsterdam-based improviser Sun-Mi Hong with Yoshihide Otomo, whose practice is rooted in noise, improvisation and free jazz and whose Asian Meeting work gives the pairing a concrete cross-Asian cultural-exchange context. Priority was assigned only after admission. A+ reflects a Tokyo small-room performance actively worth making room for; S/S+ are not warranted because no farewell, premiere, first-ever meeting, terminal context, or other demonstrated nonrecurrence is published. Recent/current RADAR output was reviewed as a sanity check and remains weighted toward A/A+ with S/S+ used as scarcity tiers; this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "sun-mi-hong-otomo-yoshihide-polaris-tokyo-2026-09-25",
+      "artist": "Sun-Mi Hong / Yoshihide Otomo",
+      "subtitle": "Drums-guitar duo at POLARIStokyo",
+      "dates": {
+        "start": "2026-09-25",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "polaris-tokyo-minami-aoyama",
+        "name": "POLARIStokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Korean-Japanese improvisation / drums-guitar duo / cultural exchange",
+      "genres": [
+        "Improvised Music",
+        "Free Jazz",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Sun-Mi Hong — drums",
+        "Yoshihide Otomo (大友良英) — guitar"
+      ],
+      "factual_description": "POLARIStokyo presents Sun-Mi Hong and Yoshihide Otomo as a drums-guitar duo on Friday, September 25, 2026. Doors are at 19:00 and the performance starts at 19:30. Advance admission is ¥3,500 and door admission is ¥4,000, with a separate ¥700 drink charge. The venue describes Hong as a South Korean drummer based in Amsterdam whose work combines structured frameworks with experimental and interdisciplinary approaches. Its Otomo profile identifies noise, improvisation and free jazz as core parts of his practice and notes continuing exchange with musicians across Asia since Asian Meeting began in 2005. No repertoire, additional personnel, premiere status, or first-collaboration claim is published and none is inferred.",
+      "links": {
+        "official_event": "https://polaristokyo.com/schedule/20260925/",
+        "official_tickets": "https://t-dv.com/polaris260925"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3500,
+          "maximum": 4000,
+          "source_url": "https://polaristokyo.com/schedule/20260925/",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sun-Mi Hong",
+          "title": "Fourth Page: Meaning of a Nest",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/fourth-page-meaning-of-a-nest/1785234591"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact POLARIStokyo event page verifies date, doors/start time, both announced performers and instruments, advance/door admission, drink charge, and the venue-linked authorized ticket destination. Apple Music verifies the exact Fourth Page: Meaning of a Nest album page. No unannounced repertoire, guests, premiere/first-meeting status, or resale destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://polaristokyo.com/schedule/20260925/",
+          "publisher": "POLARIStokyo",
+          "checked_on": "2026-08-31",
+          "note": "Primary exact event page verifies Friday, September 25, 2026; 19:00 doors / 19:30 start; Sun-Mi Hong on drums and Yoshihide Otomo on guitar; ¥3,500 advance / ¥4,000 door plus ¥700 drink; the official TicketDive link; Hong's structured/experimental/interdisciplinary framing; and Otomo's noise/improvisation/free-jazz and ongoing Asian-exchange context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/fourth-page-meaning-of-a-nest/1785234591",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music page verifies Sun-Mi Hong's Fourth Page: Meaning of a Nest, released March 14, 2025, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core event facts, price, ticket path and artist-context text were verified directly from POLARIStokyo; the listening destination was verified on Apple Music. Repository searches for Sun-Mi Hong, Yoshihide Otomo / 大友良英, POLARIS and the exact September 25 date returned no matching current, curated or processed candidate before publication. Priority was assigned after RADAR admission. No repertoire, additional live personnel, first-collaboration claim, premiere claim, or scarcity fact was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "With only drums and guitar announced, the conversation is unusually exposed: Hong works between structured form and experimental improvisation, while Otomo brings a guitar language shaped by noise and free jazz. POLARIS also places the meeting inside a real Asia-facing thread—Hong is a South Korean artist based in Amsterdam, and Otomo has sustained exchange across Asian scenes since Asian Meeting—so the cultural connection belongs to the live context rather than functioning as a decorative tag.",
+          "trip_verdict": "If Tokyo is open on September 25, actively make room for Minami-Aoyama and let this duo anchor the evening. It is a strong small-room reason to cross the city, not by itself a reason to rebuild a wider Kanto itinerary.",
+          "listen_before": "Sun-Mi Hong — Fourth Page: Meaning of a Nest"
+        },
+        "es": {
+          "why_it_matters": "Con sólo batería y guitarra anunciadas, la conversación queda especialmente expuesta: Hong trabaja entre estructuras definidas e improvisación experimental, mientras Otomo lleva una guitarra marcada por el ruido y el free jazz. POLARIS además coloca el encuentro dentro de un hilo asiático real: Hong es una artista surcoreana radicada en Ámsterdam y Otomo mantiene intercambios entre escenas de Asia desde Asian Meeting. El cruce cultural pertenece al contexto musical de la noche; no es una etiqueta añadida después.",
+          "trip_verdict": "Si Tokio está abierto el 25 de septiembre, sí le haría espacio a Minami-Aoyama y dejaría que este dúo ancle la noche. Es una razón fuerte para cruzar la ciudad hacia un cuarto pequeño, no para rehacer por sí sola un itinerario más amplio por Kanto.",
+          "listen_before": "Sun-Mi Hong — Fourth Page: Meaning of a Nest"
+        }
+      }
+    }
+  ]
+}
