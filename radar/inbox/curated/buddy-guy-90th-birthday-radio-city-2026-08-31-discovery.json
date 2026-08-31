@@ -1,0 +1,111 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "buddy-guy-90th-birthday-radio-city-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable editorial authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research and grading. Current Tsuyoshi Yamamoto sources were checked first, including BODY&SOUL, ALFIE, Jazz in Japan and Japanese schedule sources; the verified Yamamoto dates surfaced in this pass were already represented in canonical/processed/curated intake, so no duplicate was created. Recent RADAR intake remains weighted toward A and A+, with S/S+ rare. This batch adds one S after an explicit scarcity challenge; A+ would understate the one-night-only 90th-birthday context, while S+ was rejected because the event is not billed as a final performance or farewell. The priority review was performed by this automation and is identified accurately.",
+  "events": [
+    {
+      "id": "buddy-guy-90th-birthday-radio-city-2026-10-01",
+      "artist": "Buddy Guy with Eric Clapton, John Mayer, Susan Tedeschi & Derek Trucks, Jon Batiste and guests",
+      "subtitle": "Buddy's Got The Blues: A 90th Birthday Concert Celebration",
+      "dates": {"start": "2026-10-01", "end": null},
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "radio-city-music-hall-new-york",
+        "name": "Radio City Music Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living master / blues / 90th birthday / one-night tribute",
+      "genres": ["Blues", "Electric blues", "Blues rock", "Rock"],
+      "musical_axes": ["Masters", "Instrumental identity", "Groove", "Cross-genre", "Cultural context"],
+      "lineup": [
+        "Buddy Guy",
+        "Eric Clapton",
+        "John Mayer",
+        "Susan Tedeschi",
+        "Derek Trucks",
+        "Jon Batiste",
+        "Aloe Blacc",
+        "Joe Bonamassa",
+        "Gary Clark Jr.",
+        "Shemekia Copeland",
+        "Robert Cray",
+        "Samantha Fish",
+        "Eric Gales",
+        "Billy F Gibbons",
+        "Ivan Neville",
+        "Robert Randolph",
+        "Bobby Rush",
+        "Isaiah Sharkey",
+        "Kenny Wayne Shepherd",
+        "Jimmie Vaughan",
+        "Ally Venable",
+        "Willie Weeks",
+        "Kim Wilson",
+        "Steve Jordan — music director"
+      ],
+      "factual_description": "Blackbird Presents and Radio City Music Hall present Buddy's Got The Blues: A 90th Birthday Concert Celebration on October 1, 2026. Radio City lists doors at 18:30 and the concert at 19:30 at 1260 6th Avenue in New York. Blackbird Presents describes the event as a one-night-only celebration of Buddy Guy's 90th birthday and announces Buddy Guy, Eric Clapton, John Mayer, Susan Tedeschi & Derek Trucks, Jon Batiste, Aloe Blacc, Joe Bonamassa, Gary Clark Jr., Shemekia Copeland, Robert Cray, Samantha Fish, Eric Gales, Billy F Gibbons, Ivan Neville, Robert Randolph, Bobby Rush, Isaiah Sharkey, Kenny Wayne Shepherd, Jimmie Vaughan, Ally Venable, Willie Weeks and Kim Wilson, with additional special guests to be announced. Steve Jordan is the announced music director. The lineup is subject to change.",
+      "links": {
+        "official_event": "https://www.msg.com/events-tickets/buddy-guy-eric-clapton-john-mayer-susan-tedeschi-derek-trucks-jon-batiste-aloe-blacc-joe-bonamassa-gary-clark-jr-shemekia-copeland-robert-cray-samantha-fish-eric-gales-billy-f-gibbons-ivan-neville-robert-randolph-bobby-rush-isaiah-sharkey-kenny-wayne-shepherd-jimmie-vaughan-ally-venable-willie-weeks-kim-wilson-radio-city-music-hall-october-2026/3C0064D2903D1226",
+        "official_tickets": "https://www.ticketmaster.com/buddys-got-the-blues-eric-clapton-new-york-new-york-10-01-2026/event/3C0064D2903D1226?camefrom=CFC_MSG"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "Primary event and authorized Ticketmaster destinations are verified. No ticket price or Apple Music destination is recorded because no exact value/destination was verified for this batch."
+      },
+      "sources": [
+        {
+          "type": "official_venue",
+          "name": "Radio City Music Hall / MSG",
+          "url": "https://www.msg.com/events-tickets/buddy-guy-eric-clapton-john-mayer-susan-tedeschi-derek-trucks-jon-batiste-aloe-blacc-joe-bonamassa-gary-clark-jr-shemekia-copeland-robert-cray-samantha-fish-eric-gales-billy-f-gibbons-ivan-neville-robert-randolph-bobby-rush-isaiah-sharkey-kenny-wayne-shepherd-jimmie-vaughan-ally-venable-willie-weeks-kim-wilson-radio-city-music-hall-october-2026/3C0064D2903D1226",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page verifies October 1, 2026, 19:30 showtime, 18:30 doors, venue address, announced performers and authorized ticket link."
+        },
+        {
+          "type": "official_presenter",
+          "name": "Blackbird Presents",
+          "url": "https://blackbirdpresents.com/concert/buddys-got-the-blues/about/",
+          "checked_on": "2026-08-31",
+          "note": "Official presenter page verifies the one-night-only 90th-birthday concept, announced all-star lineup, additional special guests and Steve Jordan as music director."
+        },
+        {
+          "type": "official_tickets",
+          "name": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/buddys-got-the-blues-eric-clapton-new-york-new-york-10-01-2026/event/3C0064D2903D1226?camefrom=CFC_MSG",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket page linked from Radio City verifies October 1, 2026 at 19:30, Radio City Music Hall and the announced lineup; ticket pricing is dynamic and is not copied into the event record."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Date, time, doors, venue, address, billing, one-night-only 90th-birthday context, music director and authorized ticket destination were verified from Radio City/MSG, Blackbird Presents and Ticketmaster. Repository-wide code searches for the exact event title and for Buddy Guy plus the October 1 date returned no existing RADAR match before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not celebrity density by itself. Buddy Guy reaches 90 and takes the stage at a one-night celebration built around the electric-blues lineage he helped define, with several generations of major guitarists, singers and rhythm players gathered in the same room. The age milestone, the explicit tribute format and this exact all-star assembly turn the concert into a live historical context rather than a routine tour stop.",
+          "trip_verdict": "From the DMV, this is strong enough to protect the night and justify a dedicated New York trip if the date is workable. The travel case rests on the one-night 90th-birthday gathering and exact roster, not on Radio City prestige alone.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente la cantidad de nombres famosos. Buddy Guy llega a los 90 y sube al escenario en una celebración de una sola noche construida alrededor del linaje del blues eléctrico que ayudó a definir, con varias generaciones de guitarristas, cantantes y músicos de sección reunidas en el mismo recinto. La edad, el formato explícito de homenaje y esta combinación exacta convierten la fecha en un contexto histórico en vivo, no en otra parada de gira.",
+          "trip_verdict": "Desde el DMV, sí protegería la noche y la fecha puede justificar un viaje dedicado a Nueva York si el calendario lo permite. La razón para viajar es la reunión única por los 90 años y este cartel concreto, no el prestigio de Radio City por sí solo.",
+          "listen_before": null
+        }
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-08-31",
+        "rationale": "Concrete scarcity: Buddy Guy can turn 90 only once, and the official presenter bills this as a one-night-only celebration with an unusually large cross-generational roster gathered specifically around that milestone. The second editorial challenge asked whether A+ would still capture the recommendation; it would understate the genuine regret of missing this exact birthday gathering. S+ was rejected because the concert is not announced as Guy's final performance, farewell, or another event whose broader historical singularity clearly requires altering plans at the highest tier."
+      }
+    }
+  ]
+}
