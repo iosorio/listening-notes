@@ -1,0 +1,71 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "red-hook-records-night-two-roulette-2026-08-30-discovery",
+  "notes": "Yamamoto-first discovery pass found no new verified, unrecorded Tsuyoshi Yamamoto appearance after checking the current repository authority and the principal Tokyo research threads. One new US-corridor performance clears RADAR admission on event-specific grounds. Recent/current editorial shape remains concentrated in A/A+ with S isolated and S+ exceptional; this event is A+ and does not require the S/S+ scarcity gate.",
+  "events": [
+    {
+      "id": "red-hook-records-5th-anniversary-roulette-brooklyn-2026-09-19",
+      "artist": "Jason Moran, BlankFor.ms & Marcus Gilmore // Caroline Davis, Qasim Naqvi & Grey Mcmurray",
+      "subtitle": "Red Hook Records 5th Anniversary — Night Two",
+      "dates": {"start": "2026-09-19", "end": null},
+      "showtimes": ["20:00"],
+      "venue": {"id": "roulette-brooklyn-ny", "name": "Roulette", "city": "Brooklyn", "state": "NY", "country": "US"},
+      "geographic_domain": "us_corridor",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Creative music anniversary / two-set program",
+      "genres": ["Improvised music", "Electronic", "New music"],
+      "musical_axes": ["Improvised", "Instrumental identity", "Experimental", "Cross-genre", "Cultural context"],
+      "lineup": [
+        "Caroline Davis — alto saxophone (Set 1)",
+        "Qasim Naqvi — drums (Set 1)",
+        "Grey Mcmurray — guitar (Set 1)",
+        "Jason Moran — piano (Set 2)",
+        "BlankFor.ms — electronics (Set 2)",
+        "Marcus Gilmore — drums (Set 2)"
+      ],
+      "factual_description": "Roulette presents the second night of Red Hook Records' fifth-anniversary residency on September 19, 2026 at 8:00 PM, with doors at 7:00 PM. Set 1 is Caroline Davis on alto saxophone, Qasim Naqvi on drums and Grey Mcmurray on guitar. Set 2 is Jason Moran on piano, BlankFor.ms on electronics and Marcus Gilmore on drums; Roulette identifies Shards (Red Hook, 2026) as a collaborative album by those three musicians. Tickets are listed at $40 advance, $45 at the door, and $30 student/senior. Roulette also announces a free live stream at showtime with an archived stream afterward.",
+      "links": {
+        "official_event": "https://roulette.org/event/red-hook-records-jason-moran-blankforms-marcus-gilmore-caroline-davis-qasim-naqvi-grey-mcmurray/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1281967?performanceId=11836535"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["apple_music"],
+        "note": "Exact Roulette event and authorized AudienceView ticket destinations are verified. No Apple Music destination is supplied without exact verification."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/red-hook-records-jason-moran-blankforms-marcus-gilmore-caroline-davis-qasim-naqvi-grey-mcmurray/",
+          "publisher": "Roulette",
+          "checked_on": "2026-08-30",
+          "note": "Primary event page verifying date, doors and show time, fifth-anniversary context, two-set structure, complete announced personnel and instruments, prices, livestream/archive status, Shards collaboration context, and authorized ticket link."
+        },
+        {
+          "url": "https://www.redhookrecords.com/",
+          "publisher": "Red Hook Records",
+          "checked_on": "2026-08-30",
+          "note": "Primary label source confirming Shards as a Jason Moran–BlankFor.ms–Marcus Gilmore Red Hook release and the label's cross-boundary creative-music identity."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Verified from the exact Roulette event page, its authorized AudienceView ticket destination, and Red Hook Records' official catalog. Editorial review performed by RADAR automation editorial review after reading the current PRIORITIES, EDITORIAL, DOMAINS, and inbox contract."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Night Two turns Red Hook's fifth anniversary into two sharply different improvising environments. Davis, Naqvi and Mcmurray put alto, drums and guitar in one frame; Moran, BlankFor.ms and Gilmore bring the piano-electronics-drums language documented on Shards into the room together. The label-anniversary context matters because it makes the evening a live snapshot of Red Hook's boundary-crossing aesthetic rather than a generic multi-artist bill.",
+          "trip_verdict": "If New York is viable that Saturday, actively make room for Roulette and let it anchor the evening. From farther down the corridor, it is strongest as part of a Brooklyn/New York weekend rather than as a one-show trip by itself.",
+          "listen_before": "Shards"
+        },
+        "es": {
+          "why_it_matters": "La segunda noche convierte el quinto aniversario de Red Hook en dos espacios de improvisación muy distintos. Davis, Naqvi y Mcmurray juntan alto, batería y guitarra; Moran, BlankFor.ms y Gilmore llevan al escenario el lenguaje de piano, electrónica y batería documentado en Shards. El marco del aniversario sí importa: hace de la noche una instantánea en vivo de la estética fronteriza del sello y no una simple cartelera de buenos nombres.",
+          "trip_verdict": "Si Nueva York es viable ese sábado, le haría espacio activamente a Roulette y dejaría que ordene la noche. Desde más abajo del corredor, funciona mejor dentro de un fin de semana en Brooklyn/Nueva York que como viaje dedicado a un solo concierto.",
+          "listen_before": "Shards"
+        }
+      }
+    }
+  ]
+}
