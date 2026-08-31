@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "raphael-roginski-sarah-hughes-rhizome-dc-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Tsuyoshi Yamamoto research covered BODY&SOUL, Jazz House ALFIE traces, current Tokyo schedule sources, Space M&A/Keystone traces and credible Japanese-jazz sources. The September 1 and September 8 Keystone Trio +1 dates, September 6 and September 9 BODY&SOUL appearances, September 15 Yamamoto Night, and September 26 BODY&SOUL Final Groove appearance were already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Stage 1 admits the October 21 Raphael Rogiński / Sarah Hughes night at Rhizome DC for a specific performance-level reason: Rogiński performs his John Coltrane and Langston Hughes program entirely solo on electric guitar with no overdubs or effects, radically slowing and reworking Coltrane material through blues, folk and improvisational language, while DC-area improviser Sarah Hughes supplies a separate reed-centered opening voice. Stage 2 assigns A after admission. The exact Coltrane/Hughes program already returned to Rhizome DC in February 2026 during Rogiński's U.S. tour, so this October date is worth attending if convenient but does not carry enough event-specific urgency for A+ and has no S/S+ scarcity claim. Recent/current RADAR intake was reviewed as a sanity check; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and does not invoke the scarcity-review gate. Repository-wide searches for Raphael Rogiński, Sarah Hughes, the October 21 billing and the proposed stable ID returned no matching event before publication.",
+  "events": [
+    {
+      "id": "raphael-roginski-sarah-hughes-rhizome-dc-2026-10-21",
+      "artist": "Raphael Rogiński / Sarah Hughes",
+      "subtitle": "Rogiński plays John Coltrane and Langston Hughes — solo electric guitar; Sarah Hughes opening set",
+      "dates": {
+        "start": "2026-10-21",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Solo electric guitar reinterpretation / improvised reeds / cross-cultural experimental music",
+      "genres": [
+        "Improvised Music",
+        "Experimental Music",
+        "Jazz",
+        "Blues",
+        "Contemporary Guitar"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Cross-genre",
+        "Cultural context",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Raphael Rogiński — solo electric guitar; no overdubs or effects",
+        "Sarah Hughes — opening artist; alto saxophone, with soprano saxophone, flute and clarinet also documented in her practice"
+      ],
+      "factual_description": "Rhizome DC presents Raphael Rogiński and Sarah Hughes on Wednesday, October 21, 2026. Doors are at 19:00 and the show begins at 19:30. Rhizome lists a $20-$30 sliding-scale ticket. Rogiński's set is explicitly billed as 'Plays John Coltrane and Langston Hughes,' performed fully solo on electric guitar with no overdubs or effects. The venue describes the program as reinterpretations of Coltrane combined with original improvisations and musical responses to Langston Hughes's poetry. The project originated as a 2015 Bôłt Records release and was expanded and reissued by Unsound in 2024 with four additional recordings. Rhizome bills Sarah Hughes separately and describes her as a performing and visual artist whose primary instrument is alto saxophone and who also plays soprano saxophone, flute and clarinet; the venue does not publish a specific instrument list for her October 21 set, so no live assignment beyond the documented practice is inferred. Rhizome's authorized Pools ticket page independently verifies the billing, date, doors, showtime, venue address and sliding-scale face value. The Polish Cultural Institute New York documents that Rogiński brought this same Coltrane/Hughes program to Rhizome DC on February 22, 2026 during an earlier U.S. tour, which is used only to calibrate recurrence and priority.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/10/21/raphael-rogiski-sarah-hughes",
+        "official_tickets": "https://pools.events/event/GpLOrqbq/raphael-roginski-sarah-hughes/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 30,
+          "source_url": "https://pools.events/event/GpLOrqbq/raphael-roginski-sarah-hughes/",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Raphael Roginski",
+          "title": "Plays John Coltrane and Langston Hughes",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/plays-john-coltrane-and-langston-hughes/1762861504"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Rhizome DC and its authorized Pools page verify the exact billing, date, doors, showtime, venue, ticket range and Rogiński's solo/no-effects program. The exact Apple Music album destination is verified. Sarah Hughes's general instrumental practice is source-backed, but the venue does not specify which of those instruments she will use on October 21, so the event record does not invent a set-specific assignment."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/10/21/raphael-rogiski-sarah-hughes",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page verifies October 21, 2026; 19:00 doors; 19:30 show; $20-$30 sliding-scale pricing; exact Rogiński / Sarah Hughes billing; the Coltrane/Hughes solo electric-guitar program with no overdubs or effects; and Hughes's documented reed/flute practice."
+        },
+        {
+          "url": "https://pools.events/event/GpLOrqbq/raphael-roginski-sarah-hughes/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket page independently verifies billing, October 21 date, 19:00 doors, 19:30 show, 6950 Maple St NW address and $20-$30 sliding-scale face value before fees."
+        },
+        {
+          "url": "https://raphaelroginski.bandcamp.com/album/plays-john-coltrane-and-langston-hughes",
+          "publisher": "Raphael Rogiński / Unsound",
+          "checked_on": "2026-08-31",
+          "note": "Artist release page documents the project's 2015 origin, September 27, 2024 expanded reissue, solo-guitar approach, Coltrane reinterpretations and Langston Hughes-based compositions. Used for repertoire context, not to infer the October setlist."
+        },
+        {
+          "url": "https://instytutpolski.pl/newyork/2026/02/09/raphael-roginski-us-tour/",
+          "publisher": "Polish Cultural Institute New York",
+          "checked_on": "2026-08-31",
+          "note": "Authoritative cultural-institute tour page documents Rogiński performing the same John Coltrane / Langston Hughes solo project at Rhizome DC on February 22, 2026. Used as recurrence evidence for the A priority judgment."
+        },
+        {
+          "url": "https://music.apple.com/us/album/plays-john-coltrane-and-langston-hughes/1762861504",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact album destination verifies Raphael Roginski's 14-track 2024 release 'Plays John Coltrane and Langston Hughes.'"
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core event facts were verified from Rhizome DC and its authorized ticketing. Rogiński's artist release page and the Polish Cultural Institute New York provide repertoire and recurrence context, while Apple Music supplies an exact listening destination. Repository-wide searches across canonical-indexed code, curated intake and processed history returned no October 21 Raphael Rogiński / Sarah Hughes candidate or proposed stable-ID match before publication. Priority A was assigned only after Stage 1 admission; the same program's documented February 2026 Rhizome appearance argues against manufacturing urgency for this return date."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The argument is in the transformation itself: Rogiński strips Coltrane down to one untreated electric guitar and rebuilds the music through space, blues feeling, folk memory and improvisation, then extends that listening frame toward Langston Hughes. Sarah Hughes adds a separate local improviser's voice rooted in reeds and a deliberately genre-free approach. In Rhizome's close room, the night is about how familiar source material changes when timbre, silence and instrumental identity carry almost all of the weight.",
+          "trip_verdict": "If Wednesday is open in the DMV, this is an easy Rhizome night to keep on the calendar and worth the local trip. The same Rogiński program already reached this room earlier in 2026, so I would treat the return as a strong nearby opportunity rather than reorganize a broader itinerary around it.",
+          "listen_before": "Raphael Roginski — Plays John Coltrane and Langston Hughes"
+        },
+        "es": {
+          "why_it_matters": "El argumento está en la transformación misma: Rogiński reduce a Coltrane a una sola guitarra eléctrica sin efectos ni overdubs y reconstruye la música desde el espacio, el blues, la memoria folk y la improvisación; después extiende ese marco de escucha hacia Langston Hughes. Sarah Hughes aporta una voz improvisatoria local distinta, anclada en los instrumentos de aliento y en una práctica deliberadamente libre de género. En el cuarto cercano de Rhizome, la noche trata de cómo cambia un material conocido cuando el timbre, el silencio y la identidad instrumental cargan casi todo el peso.",
+          "trip_verdict": "Si el miércoles está libre en el DMV, es una fecha de Rhizome fácil de mantener en el calendario y vale el traslado local. El mismo programa de Rogiński ya pasó por este cuarto a principios de 2026, así que tomaría el regreso como una oportunidad cercana muy buena, no como motivo para reorganizar un itinerario más amplio.",
+          "listen_before": "Raphael Roginski — Plays John Coltrane and Langston Hughes"
+        }
+      }
+    }
+  ]
+}
