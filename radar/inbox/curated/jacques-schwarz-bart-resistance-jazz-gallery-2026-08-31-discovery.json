@@ -1,0 +1,125 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jacques-schwarz-bart-resistance-jazz-gallery-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading; docs/DATA_MODEL.md was also checked before publication. Fresh Tsuyoshi Yamamoto research covered ALFIE, BODY&SOUL, current KEYSTONE CLUB TOKYO schedule traces, Space M&A, and credible Japanese-jazz sources. The verified Yamamoto dates surfaced in that pass were already represented in canonical/inbox intake, including September 1, September 8 and September 15 at KEYSTONE, the September 26 BODY&SOUL grand finale, and the December 28 Space M&A date, so no duplicate Yamamoto candidate was created. Stage 1 admits Jacques Schwarz-Bart's September 30 Jazz Gallery album-release performance for a specific musical proposition: a tenor-led, harmony-free trio connected to Resistance, a project built around open improvisational space and Schwarz-Bart's Guadeloupean/Afro-Caribbean language, with Or Bareket and Ele Howell forming the live New York rhythm section. Stage 2 assigns A. The event belongs in RADAR and is worth attending if New York is already in play, but the album is in an active release cycle with further October performances and there is no verified farewell, premiere, one-off lineup, or other scarcity fact that warrants a higher behavioral recommendation. Recent/current curated intake was reviewed as a sanity check; scarcity-tier assignments are already present in the queue, and this batch adds A 1 / A+ 0 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "jacques-schwarz-bart-resistance-jazz-gallery-new-york-2026-09-30",
+      "artist": "Jacques Schwarz-Bart",
+      "subtitle": "RESISTANCE Album Release",
+      "dates": {
+        "start": "2026-09-30",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A",
+      "category": "Afro-Caribbean jazz / tenor trio / album release",
+      "genres": [
+        "Jazz",
+        "Afro-Caribbean Jazz",
+        "Gwoka Jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jacques Schwarz-Bart — tenor saxophone",
+        "Or Bareket — bass",
+        "Elé Howell — drums"
+      ],
+      "factual_description": "The Jazz Gallery presents Jacques Schwarz-Bart's RESISTANCE Album Release on Wednesday, September 30, 2026, with sets at 7:00 PM and 9:00 PM. The announced live trio is Schwarz-Bart on tenor saxophone, Or Bareket on bass and Ele Howell on drums. The venue describes Schwarz-Bart as a Guadeloupe-born pioneer of Gwoka jazz and Voodoo jazz whose work engages Afro-Caribbean traditions, spirituality and collective memory. Quai Son Records describes Resistance as a tenor-saxophone, bass and drums project that deliberately omits piano and guitar to create open improvisational space; the recording itself features Reggie Washington on bass and Arnaud Dolmen on drums, so those studio personnel are not represented as members of the September 30 live trio. The full ten-track album was released on August 28, 2026. General seating is $33 and cabaret seating is $38.50, with lower member/student prices also published; livestream access is $22.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/jacques-schwarz-bart-sept-30-2026",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1284401"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 33,
+          "maximum": 38.5,
+          "source_url": "https://jazzgallery.org/calendar/jacques-schwarz-bart-sept-30-2026",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jacques Schwarz-Bart",
+          "title": "Resistance (feat. Arnaud Dolmen & Reggie Washington)",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/album/resistance-feat-arnaud-dolmen-reggie-washington-single/1893916350"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Jazz Gallery event page verifies date, both set times, the live trio, public seating prices, livestream price and the venue-linked authorized OvationTix destination. Quai Son Records documents the harmony-free trio concept and the recording personnel behind Resistance, while Apple Music verifies an exact Resistance listening destination. The live September 30 lineup is kept distinct from the album's recording trio."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/jacques-schwarz-bart-sept-30-2026",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-08-31",
+          "note": "Primary exact event page verifies Wednesday, September 30, 2026; 7:00 PM and 9:00 PM sets; Jacques Schwarz-Bart on tenor saxophone, Or Bareket on bass and Ele Howell on drums; the RESISTANCE Album Release billing; $33 general / $38.50 cabaret public seating; $22 livestream; and the authorized OvationTix destination."
+        },
+        {
+          "url": "https://www.quaisonrecords.fr/artistes/jacques-schwarz-bart/",
+          "publisher": "Quai Son Records",
+          "checked_on": "2026-08-31",
+          "note": "Label page documents Resistance as a saxophone-bass-drums project without piano or guitar, explicitly framing that absence as space for improvisation; it identifies Jacques Schwarz-Bart, Reggie Washington and Arnaud Dolmen as the recording trio and describes Schwarz-Bart's Guadeloupean, Gwoka-jazz and Afro-Caribbean context."
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/album/resistance-jacques-schwarz-bart/gwy5hd3l2ufap",
+          "publisher": "Qobuz",
+          "checked_on": "2026-08-31",
+          "note": "Authoritative digital-retailer page verifies the ten-track Resistance album and its August 28, 2026 release date."
+        },
+        {
+          "url": "https://music.apple.com/us/album/resistance-feat-arnaud-dolmen-reggie-washington-single/1893916350",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music destination for the title track Resistance featuring Arnaud Dolmen and Reggie Washington."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core live facts, prices and ticket destination were verified from The Jazz Gallery; the project's instrumental concept and studio personnel were verified from Quai Son Records; release metadata was cross-checked with Qobuz; and the listening destination was verified on Apple Music. Repository searches for Jacques Schwarz-Bart, Schwarz-Bart at The Jazz Gallery, September 30 plus Resistance, and the proposed stable ID returned no existing RADAR candidate before publication. Priority was assigned only after RADAR admission, and no studio musician was inferred into the live lineup."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Resistance is built around what is missing as much as what is present: tenor saxophone, bass and drums with no piano or guitar to lock the harmony down. Schwarz-Bart brings his Guadeloupean and Afro-Caribbean rhythmic language into that open space, and the New York release date reshapes the project around Bareket and Howell rather than simply reproducing the recording trio. That combination of instrumental identity, memory and improvisational room is enough to make this more than a routine club set.",
+          "trip_verdict": "If New York is already in play that Wednesday, The Jazz Gallery is a worthwhile way to spend the evening and either set works. From the DMV, I would fold it into a broader New York trip rather than travel solely for this album-cycle date.",
+          "listen_before": "Jacques Schwarz-Bart — Resistance"
+        },
+        "es": {
+          "why_it_matters": "Resistance se construye tanto alrededor de lo que falta como de lo que está presente: sax tenor, bajo y batería, sin piano ni guitarra que amarren la armonía. Schwarz-Bart lleva su lenguaje rítmico guadalupeño y afrocaribeño a ese espacio abierto, y la fecha de lanzamiento en Nueva York rehace el proyecto con Bareket y Howell en vez de limitarse a reproducir el trío del disco. Esa mezcla de identidad instrumental, memoria y libertad improvisatoria basta para que sea mucho más que otra fecha de club.",
+          "trip_verdict": "Si Nueva York ya está en juego ese miércoles, The Jazz Gallery vale perfectamente la noche y cualquiera de los dos sets funciona. Desde el DMV, lo integraría a un viaje más amplio a Nueva York en vez de subir exclusivamente por esta fecha del ciclo de lanzamiento.",
+          "listen_before": "Jacques Schwarz-Bart — Resistance"
+        }
+      }
+    }
+  ]
+}
