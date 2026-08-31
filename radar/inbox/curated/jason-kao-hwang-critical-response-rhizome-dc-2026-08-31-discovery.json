@@ -1,0 +1,117 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jason-kao-hwang-critical-response-rhizome-dc-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A/Keystone traces and credible Japanese-jazz sources. Verified Yamamoto dates returned by the pass, including the September BODY&SOUL appearances and the October 3 Kawasaki Plaza Afternoon Jazz FINAL, are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found Jason Kao Hwang Critical Response with Jessica Ackerley solo at Rhizome DC on September 12, 2026. Stage 1 admission rests on the exact musical proposition: Hwang's violin/viola, Anders Nilsson's extended electric-guitar vocabulary and Michael T.A. Thompson's drums use composition and collective improvisation to rethink fusion as an active contemporary language, while Ackerley's solo-guitar opening adds a second distinct instrumental and improvisational frame. Stage 2 assigns A only after admission. Rhizome explicitly describes this as a return, Hwang's official project page documents Critical Response as an established trio, and the group remains active in other 2026 performances; the event is highly aligned with Listening Notes and worth attending if convenient but does not carry a premiere, farewell, rare reunion or other scarcity that would warrant A+ or S. Repository searches for Jason Kao Hwang, Critical Response, Jessica Ackerley, Rhizome on September 12 and the exact proposed event identity returned no matching canonical, curated or processed candidate before publication. Recent/current RADAR output was reviewed as a sanity check; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and reinforces the intended broad A base without invoking the scarcity-review gate.",
+  "events": [
+    {
+      "id": "jason-kao-hwang-critical-response-jessica-ackerley-rhizome-dc-2026-09-12",
+      "artist": "Jason Kao Hwang Critical Response / Jessica Ackerley",
+      "subtitle": "Critical Response with Jessica Ackerley solo opening",
+      "dates": {
+        "start": "2026-09-12",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Avant-jazz / electric improvisation / contemporary fusion",
+      "genres": [
+        "Avant Jazz",
+        "Improvised Music",
+        "Experimental Music",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Fusion / Prog",
+        "Experimental / Metal",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Jason Kao Hwang — violin, viola",
+        "Anders Nilsson — guitar",
+        "Michael T.A. Thompson — drums",
+        "Jessica Ackerley — solo guitar"
+      ],
+      "factual_description": "Rhizome DC and Transparent Productions present Jason Kao Hwang Critical Response with Jessica Ackerley opening solo on Saturday, September 12, 2026. Doors are at 18:30 and music begins at 19:00 at Rhizome DC, 6950 Maple Street NW, Washington, DC. The official listings give a $20-$30 sliding-scale ticket. The announced Critical Response trio is Jason Kao Hwang on violin and viola, Anders Nilsson on guitar, and Michael T.A. Thompson on drums; Jessica Ackerley opens on guitar. Rhizome describes the appearance as a return of Critical Response to the venue. Hwang's official project page identifies Critical Response as the trio heard on Book of Stories and frames the music around composition, improvisation and a reconceptualization of fusion; it documents Nilsson on electric guitar and Thompson on drums. The exact Book of Stories album page was verified on Apple Music.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/6/23/jason-kao-hwang-critical-response-jessica-ackerley-solo",
+        "official_tickets": "https://pools.events/event/o5so6B2Y/jason-kao-hwang-critical-response-jessica-ackerley-solo/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jason Kao Hwang Critical Response",
+          "title": "Book of Stories",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/book-of-stories/1698767909"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Rhizome DC and Transparent Productions verify the exact date, doors/music times, address, sliding-scale price and full announced lineup. Rhizome's authorized Pools ticket destination was verified directly. Hwang's official Critical Response page verifies the project's trio identity and musical framework, and the exact Apple Music page for Book of Stories was verified. No additional personnel, fees beyond the ticket platform's displayed totals, or unannounced program details are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/6/23/jason-kao-hwang-critical-response-jessica-ackerley-solo",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page verifies Saturday, September 12, 2026, doors at 18:30, music at 19:00, $20-$30 sliding-scale admission, the return-of-Critical-Response framing, the trio personnel and Jessica Ackerley's solo opening context."
+        },
+        {
+          "url": "https://www.transparentproductionsdc.org/events",
+          "publisher": "Transparent Productions DC",
+          "checked_on": "2026-08-31",
+          "note": "Official presenter calendar independently verifies September 12 at Rhizome DC, 6950 Maple Street NW, doors at 18:30, music at 19:00, $20-$30 sliding-scale admission, and the exact Hwang/Nilsson/Thompson plus Ackerley lineup."
+        },
+        {
+          "url": "https://pools.events/event/o5so6B2Y/jason-kao-hwang-critical-response-jessica-ackerley-solo/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-08-31",
+          "note": "Authorized exact ticket page verifies the $20-$30 sliding-scale ticket and displays fee-inclusive totals separately."
+        },
+        {
+          "url": "https://jasonkaohwang.com/critical-response",
+          "publisher": "Jason Kao Hwang",
+          "checked_on": "2026-08-31",
+          "note": "Primary artist project page verifies Critical Response as Hwang with Anders Nilsson and Michael T.A. Thompson and documents the Book of Stories composition/improvisation and fusion-reconsideration framework; used for project context rather than event logistics."
+        },
+        {
+          "url": "https://music.apple.com/us/album/book-of-stories/1698767909",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music album page verifies Book of Stories by Jason Kao Hwang Critical Response, released June 30, 2023."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Date, venue, address, doors/music times, price, lineup and authorized ticket destination were verified from Rhizome DC, Transparent Productions and Pools; Hwang's official project page verifies the Critical Response musical identity and Apple Music verifies the exact listening destination. Repository-wide searches found no Jason Kao Hwang, Critical Response, Jessica Ackerley or September 12 Rhizome match before publication. Priority A was assigned only after Stage 1 admission and reflects a musically distinctive local return by an active improvising trio rather than artificial scarcity. Editorial review in this automation was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Critical Response puts Hwang's electric violin and viola against Nilsson's extended guitar vocabulary and Thompson's drums, treating fusion as a live field for composition and collective improvisation rather than revivalism. Ackerley's solo-guitar opening gives the night a second, sharply focused instrumental language, so the bill has a clear musical argument instead of simply grouping compatible experimental players.",
+          "trip_verdict": "If September 12 is open in the DMV, this is a strong local Rhizome night worth attending. The trio is an active project and this is a return to the room, so I would keep it on the local board rather than reorganize a larger regional itinerary around it.",
+          "listen_before": "Jason Kao Hwang Critical Response — Book of Stories"
+        },
+        "es": {
+          "why_it_matters": "Critical Response enfrenta el violín y la viola eléctricos de Hwang con el vocabulario expandido de guitarra de Nilsson y la batería de Thompson, usando la fusión como terreno vivo para composición e improvisación colectiva y no como revival. La apertura solista de Ackerley le da a la noche un segundo lenguaje instrumental muy concentrado, así que el cartel tiene un argumento musical claro y no sólo una reunión de músicos experimentales compatibles.",
+          "trip_verdict": "Si el 12 de septiembre está libre en el DMV, es una muy buena noche local para ir a Rhizome. El trío es un proyecto activo y ésta es una vuelta a la sala, así que la mantendría en el tablero local en vez de reorganizar un itinerario regional más grande alrededor de ella.",
+          "listen_before": "Jason Kao Hwang Critical Response — Book of Stories"
+        }
+      }
+    }
+  ]
+}
