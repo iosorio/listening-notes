@@ -1,0 +1,111 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dc-jazzfest-downtown-anthem-row-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE-oriented search, BODY&SOUL, Space M&A, and Japanese schedule searches; the verified Yamamoto dates that resurfaced were already represented in curated/processed intake and were not duplicated. The broader US-corridor pass found an unrepresented DC JazzFest Downtown bill at Anthem Row. Stage 1 admission is based on the specific convergence of genre-bending Butcher Brown with DC-native bassist Corcoran Holt and longtime DC saxophonist Marshall Keys & Soulful Path in a free public downtown setting, giving the event a concrete DMV/groove context rather than generic festival prestige. Stage 2 is A: it is worthy of RADAR and useful to know about or attend if convenient, but the recurring festival framework and multi-artist public format do not create scarcity or an unusually rare one-off context. Recent/current intake remains concentrated in A and A+ with isolated S candidates, so this grade is consistent with the durable hierarchy without using distribution as a quota.",
+  "events": [
+    {
+      "id": "dc-jazzfest-downtown-anthem-row-2026-09-03",
+      "artist": "DC JazzFest Downtown: Butcher Brown + Corcoran Holt + Marshall Keys & Soulful Path",
+      "subtitle": "A free downtown DC groove-focused bill linking Butcher Brown with two generations of local instrumental voices",
+      "dates": {
+        "start": "2026-09-03",
+        "end": null
+      },
+      "showtimes": [
+        "16:30"
+      ],
+      "venue": {
+        "id": "anthem-row-washington-dc",
+        "name": "Anthem Row",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DC jazz / Groove / Contemporary fusion / Public festival context",
+      "genres": [
+        "Jazz",
+        "Jazz-funk",
+        "Contemporary jazz",
+        "Groove"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Fusion / Prog",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Butcher Brown",
+        "Corcoran Holt",
+        "Marshall Keys & Soulful Path"
+      ],
+      "factual_description": "DC Jazz Festival's current event page lists DC JazzFest Downtown at Anthem Row, 800 K Street NW in Washington, DC, on Thursday, September 3, 2026 from 4:30 PM to 8:00 PM, with Butcher Brown, Corcoran Holt, and Marshall Keys & Soulful Path. The event is free, with an optional suggested donation supporting DC Jazz Festival education programs. A recent DC Jazz Festival announcement independently confirms the same September 3 Anthem Row bill, describes Butcher Brown as jazz-funk favorites, identifies Corcoran Holt as a DC native, and calls Marshall Keys a legendary DC saxophonist. Individual artist set times and a detailed personnel roster for each billed act are not published on the verified pages, so none are inferred.",
+      "links": {
+        "official_event": "https://www.dcjazzfest.org/event-details/dc-jazzfest-downtown-2026",
+        "official_tickets": "https://www.dcjazzfest.org/event-details/dc-jazzfest-downtown-2026"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "source_url": "https://www.dcjazzfest.org/event-details/dc-jazzfest-downtown-2026",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "individual_artist_set_times",
+          "detailed_personnel",
+          "apple_music"
+        ],
+        "note": "Date, current event start/window, venue, billing, free admission, and the DMV context are verified from DC Jazz Festival primary pages. Individual act set times, detailed personnel, and exact Apple Music destinations remain pending rather than being inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.dcjazzfest.org/event-details/dc-jazzfest-downtown-2026",
+          "publisher": "DC Jazz Festival",
+          "checked_on": "2026-09-01",
+          "note": "Primary event page verifies September 3, 2026, the current 4:30 PM-8:00 PM event window, Anthem Row at 800 K Street NW, the three billed acts, and free admission with an optional donation."
+        },
+        {
+          "url": "https://www.dcjazzfest.org/post/dc-jazzfest-takes-center-stage-at-anthem-row-downtown-dc",
+          "publisher": "DC Jazz Festival",
+          "checked_on": "2026-09-01",
+          "note": "Primary festival announcement confirms the Anthem Row bill and provides the event-specific context: Butcher Brown as jazz-funk favorites, Corcoran Holt as a DC native, and Marshall Keys as a DC saxophonist."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core facts are verified against two DC Jazz Festival primary pages. Repository searches for Butcher Brown, Anthem Row, the date/billing combination, and the proposed stable ID found no canonical/curated/processed match before publication. No individual set times, detailed band personnel, resale data, or Apple Music IDs were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This works as more than a free festival sampler because the bill puts three related Mid-Atlantic currents in the same downtown frame: Butcher Brown's elastic jazz-funk language, Corcoran Holt's DC-rooted bass voice, and Marshall Keys' long saxophone presence in the city's scene. The point is the local groove ecology and the public setting, not festival prestige by itself.",
+          "trip_verdict": "If Thursday afternoon is open in the DMV, this is an easy one to fold into the day and worth arriving in time to hear the whole bill. Treat it as a strong local opportunity rather than a reason to reorganize travel around downtown DC.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Esto funciona como algo más que una probadita gratuita de festival porque el cartel junta tres corrientes emparentadas del Mid-Atlantic en el mismo espacio del centro: el lenguaje elástico de jazz-funk de Butcher Brown, la voz de bajo de Corcoran Holt con raíces en DC y la presencia de Marshall Keys como saxofonista de larga trayectoria en la escena de la ciudad. Lo que importa es esa ecología local de groove y el contexto público, no el prestigio del festival por sí solo.",
+          "trip_verdict": "Si el jueves por la tarde está libre en el DMV, es muy fácil incorporarlo al día y vale llegar con tiempo para escuchar el cartel completo. Lo trataría como una buena oportunidad local, no como razón para reorganizar un viaje alrededor del centro de DC.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
