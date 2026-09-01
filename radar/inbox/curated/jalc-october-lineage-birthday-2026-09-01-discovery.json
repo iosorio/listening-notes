@@ -1,0 +1,407 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jalc-october-lineage-birthday-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. After the Yamamoto-first thread, a fresh US-corridor scan surfaced four unrepresented Jazz at Lincoln Center / Dizzy's Club engagements with concrete event-specific reasons for RADAR admission. Repository searches for each billing, date, and proposed identity found no canonical/curated/processed match before publication. Admission and priority were decided separately. Jon Faddis's Dizzy Gillespie birthday program is A: the direct protégé lineage and Gillespie-specific repertoire clear RADAR, but Faddis is a recurring carrier of that legacy and this date does not require active reprioritization of a New York trip. Carl Allen's Messengers of Jazz is A+: Allen's direct Blakey connection and a concentrated lineup of musicians associated with the Jazz Messengers make one set worth actively prioritizing, while the four-night run removes scarcity. Mike LeDonne's 70th-birthday big band is A+: the one-night milestone and unusually deep New York big-band lineup justify making room, but a birthday celebration alone does not support S. Greg Hutchinson's Kind of Now is A+: the drummer-centered Miles Davis concept and Hill/Roney/Clayton/Hurst/Hutchinson lineup make the project unusually focused, while four nights rule out scarcity. Batch shape: A 1 / A+ 3 / S 0 / S+ 0. This challenges repeated upper-tier assignments without treating distribution as a quota; none of these events meets the repository's protect-the-night scarcity threshold.",
+  "events": [
+    {
+      "id": "jon-faddis-dizzy-gillespie-birthday-dizzys-new-york-2026-10-21",
+      "artist": "Jon Faddis Quartet",
+      "subtitle": "Dizzy Gillespie Birthday",
+      "dates": {
+        "start": "2026-10-21",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Trumpet lineage / Dizzy Gillespie repertoire",
+      "genres": [
+        "Jazz",
+        "Bebop",
+        "Afro-Cuban jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Latin",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jon Faddis — trumpet",
+        "David Hazeltine — piano",
+        "Todd Coolman — bass",
+        "Dion Parson — drums"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Dizzy Gillespie Birthday with Jon Faddis at Dizzy's Club on Wednesday, October 21, 2026, with sets at 19:00 and 21:00. JALC identifies Faddis as a protégé and longtime standard-bearer of Gillespie's legacy and says the quartet will explore Gillespie favorites including A Night in Tunisia, Groovin' High, and Manteca. The announced quartet is Jon Faddis on trumpet, David Hazeltine on piano, Todd Coolman on bass, and Dion Parson on drums. The current ticket page lists a standard $60 face-value cover plus a $5 fee and a $25 student face-value reservation charge plus a $5 fee; student reservations require valid student ID. Dizzy's Club also requires a $25 minimum food and/or beverage purchase per person.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21549/",
+        "official_tickets": "https://ticketing.jazz.org/21549/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 60,
+          "source_url": "https://ticketing.jazz.org/21549/",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact JALC event/ticket page verifies the date, both set times, complete quartet, Gillespie-protégé framing, named repertoire, current face-value charges and venue food/beverage minimum. No exact Apple Music recommendation was added without verification."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21549/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-09-01",
+          "note": "Primary event/ticket page verifies October 21, 2026; 19:00 and 21:00 sets; Faddis/Hazeltine/Coolman/Parson lineup; Faddis's direct Gillespie lineage; named Gillespie repertoire; and current ticket/fee/food-minimum terms."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core performance and ticket facts come from the exact Jazz at Lincoln Center ticket page. Repository searches for the billing, date, and proposed stable identity found no existing canonical, curated, or processed match before publication. Priority was assigned after Stage 1 admission; the recurring nature of Faddis's Gillespie stewardship was used to keep this at A rather than treating lineage alone as an automatic A+."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Faddis carries Gillespie's language from direct contact rather than repertory study alone, and this quartet puts that lineage back on the horn through tunes like A Night in Tunisia, Groovin' High, and Manteca. The useful reason to notice the date is the continuity: a protégé returning to the vocabulary, humor, high-register attack, swing, and Afro-Cuban spark that Gillespie helped make modern.",
+          "trip_verdict": "If New York is already in play and October 21 fits cleanly, this is a worthwhile Dizzy's set to catch. I would not build a dedicated DMV-to-NYC trip around the date by itself.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Faddis carga el lenguaje de Gillespie desde el contacto directo, no sólo desde el repertorio, y este cuarteto vuelve a poner ese linaje en la trompeta con piezas como A Night in Tunisia, Groovin' High y Manteca. La razón concreta para mirar la fecha es la continuidad: un discípulo regresando al vocabulario, el humor, el ataque en el registro alto, el swing y la chispa afrocubana que Gillespie ayudó a volver modernos.",
+          "trip_verdict": "Si Nueva York ya está en juego y el 21 de octubre embona limpio, vale entrarle a uno de los sets en Dizzy's. No armaría un viaje dedicado DMV–NYC sólo alrededor de esta fecha.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "carl-allen-messengers-of-jazz-dizzys-new-york-2026-10-22",
+      "artist": "Carl Allen's Messengers of Jazz",
+      "subtitle": "A Tribute to Art Blakey's Jazz Messengers",
+      "dates": {
+        "start": "2026-10-22",
+        "end": "2026-10-25"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "17:00",
+        "19:30"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz Messengers lineage / drummer-led tribute",
+      "genres": [
+        "Jazz",
+        "Hard Bop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Improvised",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Brian Lynch — trumpet",
+        "Donald Harrison — alto saxophone",
+        "Robin Eubanks — trombone",
+        "Benny Green — piano",
+        "Alexander Claffy — bass",
+        "Carl Allen — drums"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Carl Allen's Messengers of Jazz — A Tribute to Art Blakey's Jazz Messengers at Dizzy's Club from October 22 through October 25, 2026. Thursday through Saturday have 19:00 and 21:00 sets; Sunday has 17:00 and 19:30 sets. JALC says Art Blakey once named Carl Allen an honorary Messenger and frames the sextet around musicians associated with the Jazz Messengers, with repertoire including Moanin' and Blues March. The announced lineup is Brian Lynch, Donald Harrison, Robin Eubanks, Benny Green, Alexander Claffy, and Carl Allen. The current ticket page lists a standard $55 face-value cover plus a $5 fee and a $25 student face-value reservation charge plus a $5 fee; student reservations require valid student ID. Dizzy's Club also requires a $25 minimum food and/or beverage purchase per person.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21552/21559",
+        "official_tickets": "https://ticketing.jazz.org/21552/21559"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 55,
+          "source_url": "https://ticketing.jazz.org/21552/21559",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact JALC event/ticket page verifies the four-date engagement, set-time pattern, complete sextet, Blakey/Allen lineage, named repertoire and current ticket terms. No exact Apple Music recommendation was added without verification."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21552/21559",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-09-01",
+          "note": "Primary event/ticket page verifies October 22-25, the set times, complete sextet, JALC's statement that Blakey named Allen an honorary Messenger, tribute framing, named repertoire, and current ticket/fee/food-minimum terms."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core performance and ticket facts come from the exact Jazz at Lincoln Center ticket page. Repository searches for Carl Allen's Messengers of Jazz, the Art Blakey tribute billing, and the October 22 start date found no matching canonical, curated, or processed event before publication. Priority was assigned after admission; the four-night run and multiple sets explicitly rule out scarcity-tier treatment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The tribute has unusually concentrated lineage. Allen was personally recognized by Blakey as an honorary Messenger, while Lynch, Harrison, Eubanks and Green each bring their own lived relationship to the Messengers tradition. Putting that history into a sextet with Allen driving from the drum chair makes Moanin' and Blues March less a repertory exercise than a conversation among musicians who inherited the language through people, bands and bandstands.",
+          "trip_verdict": "If a New York trip overlaps October 22–25, actively make room for one set. Four nights give enough flexibility that the engagement should fit around the trip rather than dictate the trip by itself.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El tributo concentra el linaje de una manera poco común. Blakey reconoció personalmente a Allen como Messenger honorario, mientras Lynch, Harrison, Eubanks y Green cargan sus propias relaciones vividas con la tradición de los Jazz Messengers. Poner esa historia en un sexteto con Allen empujando desde la batería hace que Moanin' y Blues March funcionen menos como ejercicio de repertorio y más como conversación entre músicos que heredaron el lenguaje a través de personas, bandas y escenarios.",
+          "trip_verdict": "Si un viaje a Nueva York coincide con el 22–25 de octubre, sí le haría espacio activamente a uno de los sets. Cuatro noches dan suficiente flexibilidad para acomodarlo dentro del viaje en vez de dejar que la fecha dicte el viaje completo.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "mike-ledonne-big-band-70th-birthday-dizzys-new-york-2026-10-26",
+      "artist": "Mike LeDonne Big Band",
+      "subtitle": "70th Birthday Celebration",
+      "dates": {
+        "start": "2026-10-26",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "70th birthday / New York big band",
+      "genres": [
+        "Jazz",
+        "Big Band",
+        "Hard Bop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Mike LeDonne — piano, music director",
+        "Jon Faddis — trumpet",
+        "Nathaniel Williford — trumpet",
+        "Frank Greene — trumpet",
+        "Josh Bruneau — trumpet",
+        "Freddie Hendrix — trumpet",
+        "Mark Patterson — trombone",
+        "Steve Davis — trombone",
+        "Dion Tucker — trombone",
+        "Jeff Nelson — trombone",
+        "Steve Wilson — alto saxophone",
+        "Vincent Herring — alto saxophone",
+        "Eric Alexander — tenor saxophone",
+        "Chris Lewis — tenor saxophone",
+        "Jason Marshall — baritone saxophone",
+        "Peter Bernstein — guitar",
+        "John Webber — bass",
+        "Kenny Washington — drums"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Mike LeDonne Big Band: 70th Birthday Celebration at Dizzy's Club on Monday, October 26, 2026, with 19:00 and 21:00 performances. JALC frames the one-night engagement as a 70th-birthday milestone and publishes an 18-piece lineup led by LeDonne on piano and music direction, with Jon Faddis, Steve Wilson, Vincent Herring, Eric Alexander, Peter Bernstein, Kenny Washington and other New York musicians. The accessible primary-source result confirms the exact ticket page and performances but does not expose a verified face-value ticket amount in this pass, so the price remains unset rather than inferred from other Dizzy's engagements.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21561/21563",
+        "official_tickets": "https://ticketing.jazz.org/21561/21563"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ticketing.jazz.org/21561/21563",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_price",
+          "apple_music"
+        ],
+        "note": "The exact JALC ticket page verifies the date, two-set structure, birthday context and complete announced big-band lineup. This pass does not carry a verified face-value amount or exact Apple Music recommendation, so neither is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21561/21563",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-09-01",
+          "note": "Primary event/ticket page verifies October 26, 2026; 19:00 and 21:00 performances; Mike LeDonne's 70th-birthday framing; and the full announced big-band lineup."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Date, set structure, milestone context and lineup come from Jazz at Lincoln Center's exact ticket page. Repository searches for Mike LeDonne, the 70th-birthday billing and October 26, 2026 found no matching canonical, curated, or processed event before publication. Priority was assigned after admission; the one-night birthday and unusually deep lineup support active prioritization, while the milestone is not treated as a scarcity-tier claim."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The birthday is useful because of who shows up for it. LeDonne expands his hard-swinging small-group world into a full big band stocked with Faddis, Wilson, Herring, Alexander, Bernstein, Washington and a deep New York brass-and-reeds bench. The milestone turns that community into the subject of the night: a pianist and bandleader hearing decades of relationships come back at him at full ensemble scale.",
+          "trip_verdict": "If New York is already in play on October 26, actively make room for one of the two sets. The one-night lineup is strong enough to prioritize inside the city, but I would not make the birthday milestone alone the sole reason for a dedicated regional trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El cumpleaños importa por quién aparece para celebrarlo. LeDonne expande su mundo de hard swing y grupos pequeños a una big band completa con Faddis, Wilson, Herring, Alexander, Bernstein, Washington y una sección profunda de metales y saxofones de Nueva York. El aniversario convierte esa comunidad en el tema de la noche: un pianista y bandleader escuchando décadas de relaciones regresar hacia él a escala de gran ensamble.",
+          "trip_verdict": "Si Nueva York ya está en juego el 26 de octubre, sí le haría espacio activamente a uno de los dos sets. La formación de una sola noche alcanza para priorizarla dentro de la ciudad, pero no haría del cumpleaños por sí solo la única razón de un viaje regional dedicado.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "greg-hutchinson-kind-of-now-miles-davis-dizzys-new-york-2026-10-28",
+      "artist": "Greg Hutchinson's Kind of Now",
+      "subtitle": "The Pulse of Miles Davis",
+      "dates": {
+        "start": "2026-10-28",
+        "end": "2026-10-31"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "dizzys-club-new-york",
+        "name": "Dizzy's Club at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Drummer lineage / Miles Davis repertoire",
+      "genres": [
+        "Jazz",
+        "Post-Bop",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Marquis Hill — trumpet",
+        "Antoine Roney — tenor saxophone",
+        "Gerald Clayton — piano",
+        "Robert Hurst — bass",
+        "Greg Hutchinson — drums"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Greg Hutchinson's Kind of Now: The Pulse of Miles Davis at Dizzy's Club from Wednesday, October 28 through Saturday, October 31, 2026, with 19:00 and 21:00 performances. JALC describes the project as a drummer-led tribute to the drummers who powered Miles Davis's ensembles, using Davis's musical legacy as a platform for groove, improvisation and forward-looking reinterpretation. The announced quintet is Marquis Hill on trumpet, Antoine Roney on tenor saxophone, Gerald Clayton on piano, Robert Hurst on bass, and Greg Hutchinson on drums. The current ticket page lists a standard $65 face-value cover plus a $5 fee and a $25 student face-value reservation charge plus a $5 fee; student reservations require valid student ID. Dizzy's Club also requires a $25 minimum food and/or beverage purchase per person.",
+      "links": {
+        "official_event": "https://ticketing.jazz.org/21567",
+        "official_tickets": "https://ticketing.jazz.org/21567"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 65,
+          "source_url": "https://ticketing.jazz.org/21567",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact JALC event/ticket page verifies the four-date engagement, two-set pattern, complete quintet, drummer-centered Miles Davis concept and current ticket terms. No exact Apple Music recommendation was added without verification."
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/21567",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-09-01",
+          "note": "Primary event/ticket page verifies October 28-31, 19:00 and 21:00 performances, Hill/Roney/Clayton/Hurst/Hutchinson lineup, the drummer-centered Miles Davis concept, and current ticket/fee/food-minimum terms."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core performance and ticket facts come from Jazz at Lincoln Center's exact ticket page. Repository searches for Greg Hutchinson, Kind of Now, The Pulse of Miles Davis and the October 28 start date found no matching canonical, curated, or processed event before publication. Priority was assigned after Stage 1 admission; four nights and multiple sets explicitly rule out scarcity-tier treatment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The concept puts the rhythm section where it belongs in the Miles story: at the engine room. Hutchinson is not simply leading another Davis tribute; the project listens through the drummers who changed the feel underneath Miles, then hands that rhythmic question to a quintet with Hill, Roney, Clayton and Hurst. That makes the repertoire a vehicle for pulse, space and improvisational response rather than a museum set of familiar tunes.",
+          "trip_verdict": "If New York is in play during October 28–31, actively make room for one set. Four nights give enough flexibility to fit the project around the trip rather than making the engagement the sole reason to travel.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El concepto pone a la sección rítmica donde debe estar en la historia de Miles: en el cuarto de máquinas. Hutchinson no está encabezando simplemente otro tributo a Davis; el proyecto escucha a través de los bateristas que cambiaron el pulso debajo de Miles y entrega esa pregunta rítmica a un quinteto con Hill, Roney, Clayton y Hurst. Así, el repertorio funciona como vehículo para pulso, espacio y respuesta improvisada, no como museo de temas conocidos.",
+          "trip_verdict": "Si Nueva York está en juego entre el 28 y el 31 de octubre, sí le haría espacio activamente a uno de los sets. Cuatro noches dan suficiente flexibilidad para acomodarlo alrededor del viaje en vez de volver la residencia la única razón para desplazarse.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
