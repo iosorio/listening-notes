@@ -1,0 +1,102 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wpfw-jazz-and-justice-malcolm-x-park-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE traces, BODY&SOUL, current Yamamoto schedule traces, Space M&A, Keystone Club Tokyo, and credible Japanese-jazz sources. The September 1 and September 15 Keystone appearances, September 6 BODY&SOUL appearance, and September 29 Space M&A trio date resurfaced but are already represented or do not add a sufficiently specific new event context for duplicate publication; no Yamamoto duplicate was created. The broader US-corridor pass surfaced WPFW's second annual Jazz and Justice Festival at Malcolm X Park on September 27. Stage 1 admission rests on the exact live context: five bands spanning salsa, modern jazz, roots reggae and DC go-go, presented by Washington's listener-supported jazz-and-justice station during the park's 90th-anniversary weekend, with the park's longstanding Sunday drum circle opening the musical day. This is a concrete DMV cultural setting rather than generic festival programming. Stage 2 assigns A after admission: the event is worth RADAR and especially useful as a local DC afternoon if convenient, but it is a free multi-act community festival rather than a scarce one-off master appearance, premiere, farewell or singular lineup that calls for active travel planning. Repository-wide searches for WPFW, Jazz and Justice Festival, Malcolm X Park, Brandon Woody on September 27, and the exact proposed event context returned no matching canonical, curated or processed candidate before publication. Recent/current RADAR and intake grades were reviewed as a sanity check; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and preserves A as the broad base without invoking the scarcity-review gate.",
+  "events": [
+    {
+      "id": "wpfw-jazz-and-justice-festival-malcolm-x-park-washington-dc-2026-09-27",
+      "artist": "WPFW Jazz and Justice Festival",
+      "subtitle": "2nd annual festival — Edwin Ortiz & La Mafia Del Guaguanco / Brandon Woody's Upendo / MuMu Fresh / Proverbs Reggae Band / Be'la Dona",
+      "dates": {
+        "start": "2026-09-27",
+        "end": null
+      },
+      "showtimes": [
+        "13:20",
+        "14:40",
+        "16:05",
+        "16:40",
+        "18:00"
+      ],
+      "venue": {
+        "id": "malcolm-x-park-washington-dc",
+        "name": "Malcolm X Park",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV community music / jazz / salsa / reggae / go-go",
+      "genres": [
+        "Jazz",
+        "Salsa",
+        "Reggae",
+        "Go-go",
+        "Hip-hop / Soul"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Edwin Ortiz & La Mafia Del Guaguanco",
+        "Brandon Woody's Upendo",
+        "MuMu Fresh",
+        "Proverbs Reggae Band",
+        "Be'la Dona"
+      ],
+      "factual_description": "WPFW 89.3 FM presents its second annual Jazz and Justice Festival on Sunday, September 27, 2026, at Malcolm X Park in Washington, DC. The official event page lists the event as free and all ages, with gates at 11:30, a live WPFW broadcast beginning at 12:00, the park's Sunday drum circle at 12:30, and five main-stage bands. WPFW's currently published main-stage schedule lists Edwin Ortiz & La Mafia Del Guaguanco at 13:20, Brandon Woody's Upendo at 14:40, MuMu Fresh at 16:05, Proverbs Reggae Band at 16:40, and Be'la Dona at 18:00, ending at 19:00. The same primary page explicitly says this schedule is a draft and that final times will be posted and announced during the week of the festival, so the listed set times should be rechecked closer to September 27 rather than treated as immutable. WPFW identifies the event as part of the park's 90th-anniversary weekend and says the Sunday drum circle has gathered on the hill since 1965. The festival also includes community discussions, documentary screenings, poetry, art and a live radio broadcast, but this RADAR record is admitted for the specific music-and-place context rather than those ancillary programs. No ticket or RSVP is required.",
+      "links": {
+        "official_event": "https://www.wpfwdc.org/jazz-and-justice-festival"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "final_main_stage_set_times",
+          "complete_personnel_for_each_billed_band",
+          "exact_recommended_listening"
+        ],
+        "note": "WPFW's primary festival page verifies the date, location, free/all-ages admission, five billed acts, current main-stage schedule, 90th-anniversary-weekend context and Sunday drum-circle framing. The page explicitly labels the detailed schedule as a draft, so a closer-to-show recheck is required before treating those set times as final. Individual personnel for every billed ensemble and exact Apple Music destinations were not inferred where the event page does not provide them."
+      },
+      "sources": [
+        {
+          "url": "https://www.wpfwdc.org/jazz-and-justice-festival",
+          "publisher": "WPFW 89.3 FM",
+          "checked_on": "2026-09-01",
+          "note": "Primary festival page verifies September 27, 2026, Malcolm X Park, free/all-ages admission, the complete five-act billing, current draft set times, park 90th-anniversary-weekend context, the Sunday drum circle, and the live-broadcast/community format."
+        },
+        {
+          "url": "https://www.wpfwdc.org/station-events/jazz-and-justice-festival",
+          "publisher": "WPFW 89.3 FM",
+          "checked_on": "2026-09-01",
+          "note": "Primary WPFW station-event listing independently confirms September 27 from 12:00 to 19:00, Malcolm X Park, the same five-act billing, the Sunday drum-circle opening and no-ticket/no-RSVP admission."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core event facts come directly from WPFW's detailed festival page and station-event listing. Repository-wide searches for WPFW, Jazz and Justice Festival, Malcolm X Park, and Brandon Woody on September 27 returned no matching canonical, curated or processed RADAR event before publication. Stage 1 admission is based on the unusually specific DMV cultural setting: a five-band salsa-to-go-go arc presented by Washington's jazz-and-justice community station in Malcolm X Park during the park's 90th-anniversary weekend, with its longstanding Sunday drum circle opening the day. Stage 2 assigns A because this is a strong local RADAR date worth knowing about and attending if convenient, while the recurring community-festival format does not establish scarcity or a need to reorganize regional plans."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the shape of the whole afternoon, not one marquee name. WPFW puts a salsa orchestra, Brandon Woody's Baltimore-rooted trumpet band, MuMu Fresh, roots reggae and an all-woman DC go-go band on the same hill, while the Sunday drum circle that has gathered there since 1965 opens the musical day. Add the park's 90th-anniversary weekend and WPFW broadcasting the festival live, and the bill becomes a compact piece of DMV music culture: jazz sharing space with the Latin, Black community-radio and go-go traditions around it.",
+          "trip_verdict": "If Sunday is open in the DMV, this is an easy local afternoon to keep visible: drop in for the part of the salsa-to-go-go arc that matters most, or stay and let the whole sequence unfold. It does not need a regional trip built around it, but the setting and free admission make it unusually easy to catch on its own terms.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí importa la forma de toda la tarde, no un solo nombre grande del cartel. WPFW pone en la misma colina una orquesta de salsa, la banda de trompeta de Brandon Woody con raíces en Baltimore, a MuMu Fresh, roots reggae y una banda femenina de go-go de DC, mientras el círculo dominical de tambores que se reúne ahí desde 1965 abre la parte musical del día. Si además cae en el fin de semana del 90 aniversario del parque y WPFW transmite todo en vivo, el cartel se vuelve una pieza muy concreta de cultura musical del DMV: jazz compartiendo espacio con las tradiciones latinas, la radio comunitaria negra y el go-go que lo rodean.",
+          "trip_verdict": "Si el domingo está libre en el DMV, es una tarde local muy fácil de mantener en el radar: puedes caer para el tramo de salsa a go-go que más te interese o quedarte a escuchar cómo se arma toda la secuencia. No amerita construir un viaje regional alrededor de ella, pero el lugar y la entrada gratuita hacen que sea especialmente sencillo aprovecharla por lo que es.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
