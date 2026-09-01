@@ -1,0 +1,126 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tsuyoshi-yamamoto-trio-otokichi-meg-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks covered Tsuyoshi Yamamoto schedule traces, BODY&SOUL, Jazz House ALFIE leads, Space M&A, and credible Japanese-jazz sources. The October 8 Otokichi! MEG date was then verified on the venue's exact primary event page. Repository searches for the exact proposed ID, October 8 Yamamoto date, Otokichi! MEG billing, and the Japanese venue name found no canonical/curated/processed match before publication. Stage 1 admission rests on the specific combination of Yamamoto's long-running Kagawa/Osumi trio and a Kichijoji room that explicitly defines itself around careful analog, CD, and high-resolution sound reproduction as well as live jazz; the setting gives this recurring trio a concrete Listening Notes reason to be here. Stage 2 assigns A+: actively make room for the classic trio in this unusually listening-focused small-room context if Greater Tokyo is in play. The same trio appears repeatedly elsewhere and this is not a farewell, premiere, rare reunion, or other scarcity event, so S would overstate the recommendation. Recent/current intake remains centered on A and A+, with S reserved for clearly scarce contexts; this batch adds A 0 / A+ 1 / S 0 / S+ 0 without using distribution as a quota.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-trio-otokichi-meg-musashino-2026-10-08",
+      "artist": "Tsuyoshi Yamamoto Trio",
+      "subtitle": "Classic trio at Kichijoji's audio-focused Otokichi! MEG",
+      "dates": {
+        "start": "2026-10-08",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "otokichi-meg-musashino-tokyo",
+        "name": "Otokichi! MEG",
+        "city": "Musashino",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Greater Tokyo jazz / Yamamoto",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz",
+        "Piano trio"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Groove"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto (山本剛) — piano",
+        "Hiroshi Kagawa (香川裕史) — bass",
+        "Toshio Osumi (大隅寿男) — drums"
+      ],
+      "factual_description": "Otokichi! MEG's official event page lists Tsuyoshi Yamamoto Trio on Thursday, October 8, 2026, from 19:30 to 21:30, with Tsuyoshi Yamamoto on piano, Hiroshi Kagawa on bass, and Toshio Osumi on drums. The same primary page lists a ¥4,000 ticket and states that the price is plus a ¥500 table charge, two orders, and consumption tax. The venue's official map identifies the location as 1-31-3 Kichijoji Honcho, Musashino, Tokyo.",
+      "links": {
+        "official_event": "https://otokichi-meg.net/events/2026-10-08-1",
+        "official_tickets": "https://otokichi-meg.net/events/2026-10-08-1"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 4000,
+          "maximum": 4000,
+          "source_url": "https://otokichi-meg.net/events/2026-10-08-1",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio",
+          "title": "Blues For K",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/blues-for-k/6768695416"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact official Otokichi! MEG event page verifies the date, 19:30-21:30 event time, complete trio lineup, ¥4,000 ticket, additional table-charge/order/tax terms, and contains the venue's booking form. The official venue map verifies the Musashino/Kichijoji location, and an exact Apple Music album destination for Tsuyoshi Yamamoto Trio is verified."
+      },
+      "sources": [
+        {
+          "url": "https://otokichi-meg.net/events/2026-10-08-1",
+          "publisher": "Otokichi! MEG",
+          "checked_on": "2026-09-01",
+          "note": "Primary event and booking page confirms October 8, 2026; 19:30-21:30; Tsuyoshi Yamamoto on piano, Hiroshi Kagawa on bass, Toshio Osumi on drums; ¥4,000 ticket; plus ¥500 table charge, two orders, and tax; and the on-page reservation form."
+        },
+        {
+          "url": "https://otokichi-meg.net/",
+          "publisher": "Otokichi! MEG",
+          "checked_on": "2026-09-01",
+          "note": "Primary venue site describes the Kichijoji jazz cafe/live house and its stated focus on carefully built analog, CD, and high-resolution sound, alongside evening jazz performances."
+        },
+        {
+          "url": "https://otokichi-meg.net/map",
+          "publisher": "Otokichi! MEG",
+          "checked_on": "2026-09-01",
+          "note": "Primary venue map confirms Otokichi! MEG at 1-31-3 Kichijoji Honcho, Musashino, Tokyo and lists regular Wednesday-Friday live hours of 19:30-21:30."
+        },
+        {
+          "url": "https://music.apple.com/us/album/blues-for-k/6768695416",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-01",
+          "note": "Exact Apple Music album page for Blues For K by Tsuyoshi Yamamoto Trio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core performance, booking, venue-identity, and location facts were verified directly from Otokichi! MEG's exact event and venue pages; the listening destination was verified on Apple Music. Repository searches for the proposed stable event ID, October 8 Yamamoto date, Otokichi! MEG, and 音吉 found no existing canonical, curated, or processed match before publication. Priority was assigned only after Stage 1 RADAR admission; the recurring classic-trio context was used explicitly to keep the event below the scarcity tiers."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The setting is the hook: Yamamoto's long-running Kagawa/Osumi trio lands in a Kichijoji room that defines itself around careful analog, CD, and high-resolution playback as well as live jazz. For a pianist whose records sit at the heart of Japanese audiophile jazz listening, that sound-obsessed small-room context makes this more than another trio date—the familiar chemistry gets heard in a venue built around listening itself.",
+          "trip_verdict": "If Greater Tokyo is in play on October 8, make room for Kichijoji and build the evening around the trio. The same core appears elsewhere, so this is a strong Tokyo night rather than a reason to restructure an entire Japan itinerary.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Blues For K"
+        },
+        "es": {
+          "why_it_matters": "La sala es el gancho: el trío de larga trayectoria de Yamamoto con Kagawa y Osumi llega a un cuarto de Kichijoji que se define tanto por el jazz en vivo como por cuidar el sonido analógico, CD y de alta resolución. Para un pianista cuyos discos están en el centro de la escucha audiófila del jazz japonés, ese contexto íntimo y obsesionado con el sonido vuelve la fecha algo más que otra aparición del trío: la química conocida se escucha en un lugar construido alrededor del acto de escuchar.",
+          "trip_verdict": "Si Greater Tokyo está en juego el 8 de octubre, haría espacio para Kichijoji y armaría la noche alrededor del trío. El mismo núcleo aparece en otros lugares, así que es una noche fuerte de Tokio, no una razón para reorganizar por completo un viaje a Japón.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Blues For K"
+        }
+      }
+    }
+  ]
+}
