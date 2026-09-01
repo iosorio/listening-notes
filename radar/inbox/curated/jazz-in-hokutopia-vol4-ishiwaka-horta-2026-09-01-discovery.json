@@ -1,0 +1,247 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jazz-in-hokutopia-vol4-ishiwaka-horta-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A leads, and credible Japanese-jazz sources produced no additional verified unrecorded Yamamoto performance; September BODY&SOUL dates and the September 26 finale surfaced again but are already represented in canonical/curated/processed intake and were not duplicated. Stage 1 admits both Jazz in Hokutopia Vol.4 dates for event-specific reasons. September 25 is a three-part snapshot of the current Tokyo jazz scene centered on Shun Ishiwaka, culminating in Answer to Remember's explicit Miles Davis and John Coltrane centennial program. September 26 is Toninho Horta's first Japan visit in eight years and is structured uniquely as Horta solo, Horta with a Japan Jazz Collective, and Horta with a Japan Brazil Collective. Stage 2 assigns A+ to September 25 because the program is unusually strong and worth actively making room for, but the musicians and projects are active and the centennial concept does not create terminal scarcity. September 26 is assigned S only after a second scarcity challenge: Horta is a major living Brazilian guitar/composition voice returning to Japan after eight years, and the exact Tokyo three-part solo/Japan-jazz/Japan-Brazil sequence is not replicated by the other verified Japan-tour dates found in Osaka and Shizuoka. A+ would understate the genuine-regret-if-missed character of that specific Tokyo program; S+ is not warranted because Horta is playing multiple Japan dates and the event is not a farewell or final performance. Recent/current RADAR intake remains weighted toward A and A+, with S/S+ treated as scarce; this batch adds A+ 1, S 1, S+ 0 without using distribution as a quota.",
+  "events": [
+    {
+      "id": "jazz-in-hokutopia-ishiwaka-answer-to-remember-tokyo-2026-09-25",
+      "artist": "Shun Ishiwaka / Yuya Wakai Trio / Marty Holoubek Trio II / Answer to Remember",
+      "subtitle": "Jazz in Hokutopia Vol.4 — Miles Davis & John Coltrane centennial program",
+      "dates": {
+        "start": "2026-09-25",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "hokutopia-sakura-hall-tokyo",
+        "name": "Hokutopia Sakura Hall",
+        "city": "Kita, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary Tokyo jazz / Multi-ensemble program / Miles & Coltrane centennial",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Yuya Wakai Trio: Yuya Wakai — piano; Riku Takahashi — bass; Shun Ishiwaka — drums",
+        "Marty Holoubek Trio II: Marty Holoubek — bass; May Inoue — guitar; Shun Ishiwaka — drums",
+        "Answer to Remember: Shun Ishiwaka — drums; MELRAW — alto saxophone; Yusuke Sase — trumpet; Akiha Nakashima — alto saxophone; Tomoaki Baba — tenor saxophone; Kota Kaihori — keyboard; Yuya Wakai — piano; Marty Holoubek — bass; Taikimen — percussion"
+      ],
+      "factual_description": "Jazz in Hokutopia Vol.4 opens on Friday, September 25, 2026 at Hokutopia Sakura Hall in Kita, Tokyo. The Kita City Culture Foundation event page lists doors at 18:00 and a performance start at 18:30. The program is organized around drummer Shun Ishiwaka and presents, in order, the Yuya Wakai Trio, Marty Holoubek Trio II, and Answer to Remember. Answer to Remember is billed with a Miles Davis and John Coltrane 100th-birthday tribute, with the nine-person announced lineup recorded here from the official event page. The event is reserved seating. The official listed prices are ¥5,000 general, ¥4,500 for members or Kita residents, and ¥3,500 for U22 ticket holders with proof.",
+      "links": {
+        "official_event": "https://kitabunka.or.jp/event/24496/",
+        "official_tickets": "https://eplus.jp/sf/detail/4526920001"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3500,
+          "maximum": 5000,
+          "source_url": "https://kitabunka.or.jp/event/24496/",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Answer to Remember",
+          "title": "Answer to Remember II",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/answer-to-remember-ii/1754939372"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The primary co-presenter page verifies the date, doors, start time, venue, full three-part billing, all announced personnel, centennial repertoire framing, reserved-seating status, prices, and authorized ticket outlets. The exact Answer to Remember II Apple Music album destination is verified. No unannounced personnel, set lengths, or repertoire beyond the stated centennial tribute are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://kitabunka.or.jp/event/24496/",
+          "publisher": "Kita City Culture Foundation",
+          "checked_on": "2026-09-01",
+          "note": "Primary co-presenter event page verifies September 25, 2026, 18:00 doors / 18:30 start, Hokutopia Sakura Hall, reserved seating and prices, the Yuya Wakai Trio and Marty Holoubek Trio II personnel, and the complete Answer to Remember lineup plus the Miles Davis & John Coltrane centennial framing."
+        },
+        {
+          "url": "https://eplus.jp/sf/detail/4526920001",
+          "publisher": "e+ (authorized ticketing)",
+          "checked_on": "2026-09-01",
+          "note": "Authorized ticketing destination linked by the primary event page verifies Jazz in Hokutopia Vol.4 ticket availability and the September 25-26 event billing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/answer-to-remember-ii/1754939372",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-01",
+          "note": "Exact Apple Music destination for Answer to Remember II."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts come from the Kita City Culture Foundation event page and its authorized e+ ticketing destination. Repository searches for Jazz in Hokutopia, Hokutopia Sakura Hall, Answer to Remember plus September 25, and Toninho Horta plus Hokutopia returned no matching current RADAR candidate or processed artifact before publication. The exact Apple Music album link is used only for recommended listening. Priority was assigned only after RADAR admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a compact map of the Tokyo jazz scene in motion. Shun Ishiwaka links three different ensemble languages across the evening, from the Yuya Wakai Trio to Marty Holoubek's guitar-bass-drums configuration and finally the larger Answer to Remember band, where the Miles Davis and John Coltrane centennials become material for a current Japanese ensemble rather than a museum tribute. The attraction is the sequence: the same rhythmic imagination keeps changing scale, instrumentation, and historical reference.",
+          "trip_verdict": "If September overlaps with Tokyo, actively make room for the evening and treat Oji as the destination rather than an add-on after another plan. It is strong enough to build the night around, while the active musicians and projects leave room to protect truly scarcer one-offs elsewhere in Kanto.",
+          "listen_before": "Answer to Remember — Answer to Remember II"
+        },
+        "es": {
+          "why_it_matters": "La noche funciona como un mapa compacto del jazz de Tokio en movimiento. Shun Ishiwaka conecta tres lenguajes de ensamble distintos: del trío de Yuya Wakai pasa a la configuración guitarra-bajo-batería de Marty Holoubek y termina en la formación más amplia de Answer to Remember, donde los centenarios de Miles Davis y John Coltrane sirven como materia para una banda japonesa actual y no como homenaje de museo. El atractivo está en la secuencia: una misma imaginación rítmica cambia de escala, instrumentación y referencia histórica durante la noche.",
+          "trip_verdict": "Si septiembre coincide con Tokio, sí le haría espacio activamente y tomaría Oji como destino de la noche, no como complemento de otro plan. Da para construir la velada alrededor del concierto, pero la actividad continua de estos músicos deja margen para reservar las decisiones más drásticas para one-offs realmente más escasos en Kanto.",
+          "listen_before": "Answer to Remember — Answer to Remember II"
+        }
+      }
+    },
+    {
+      "id": "toninho-horta-jazz-in-hokutopia-tokyo-2026-09-26",
+      "artist": "Toninho Horta",
+      "subtitle": "Jazz in Hokutopia Vol.4 — solo + Japan Jazz Collective + Japan Brazil Collective",
+      "dates": {
+        "start": "2026-09-26",
+        "end": null
+      },
+      "showtimes": [
+        "15:00"
+      ],
+      "venue": {
+        "id": "hokutopia-sakura-hall-tokyo",
+        "name": "Hokutopia Sakura Hall",
+        "city": "Kita, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living master / Brazilian guitar / Japan return / Cross-cultural collective program",
+      "genres": [
+        "Brazilian Jazz",
+        "MPB",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Latin",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Toninho Horta Solo: Toninho Horta — voice, guitar",
+        "Toninho Horta & Japan Jazz Collective: Toninho Horta — voice, guitar; Tomoaki Baba — tenor saxophone; Akira Ishiguro — guitar; Shimpei Ogawa — bass; Kazuhiro Odagiri — drums",
+        "Toninho Horta & Japan Brazil Collective: Toninho Horta — voice, guitar; NOBIE — chorus, voice; Akemi Ota — flute; Kazuhiko Obata — guitar; Ryoji Orihara — bass; Ryo Saito — drums"
+      ],
+      "factual_description": "Jazz in Hokutopia Vol.4 presents Toninho Horta on Saturday, September 26, 2026 at Hokutopia Sakura Hall in Kita, Tokyo. The primary event page lists doors at 14:30 and a 15:00 start and divides the program into three announced formations: Horta solo on voice and guitar; Toninho Horta & Japan Jazz Collective; and Toninho Horta & Japan Brazil Collective. Authorized e+ ticketing describes the appearance as Horta's first Japan visit in eight years. The event is reserved seating, with official listed prices of ¥5,000 general, ¥4,500 for members or Kita residents, and ¥3,500 for U22 ticket holders with proof.",
+      "links": {
+        "official_event": "https://kitabunka.or.jp/event/24496/",
+        "official_tickets": "https://eplus.jp/sf/detail/4526920001-P0030001P021002"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3500,
+          "maximum": 5000,
+          "source_url": "https://kitabunka.or.jp/event/24496/",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Toninho Horta",
+          "title": "Moonstone",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/moonstone/1443630566"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The primary co-presenter page verifies date, doors, start, venue, all three program formations, all announced personnel, reserved seating, prices, and authorized ticket outlets. Authorized e+ copy verifies the eight-year Japan-return context. An official Lisa Ono schedule confirms Horta's September 29 Billboard Live Osaka appearance, and LIFETIME Shizuoka confirms a September 30 Horta solo date, so the priority review does not falsely treat the Japan visit itself as a one-night event. The exact Moonstone Apple Music destination is verified."
+      },
+      "sources": [
+        {
+          "url": "https://kitabunka.or.jp/event/24496/",
+          "publisher": "Kita City Culture Foundation",
+          "checked_on": "2026-09-01",
+          "note": "Primary co-presenter event page verifies September 26, 2026, 14:30 doors / 15:00 start, Hokutopia Sakura Hall, all three Toninho Horta formations and personnel, reserved seating, prices, and authorized ticket outlets."
+        },
+        {
+          "url": "https://eplus.jp/sf/detail/4526920001-P0030001P021002",
+          "publisher": "e+ (authorized ticketing)",
+          "checked_on": "2026-09-01",
+          "note": "Authorized ticketing page verifies September 26, 2026 at 15:00, the Horta program and personnel, active ticketing, and describes the visit as Horta's first Japan appearance in eight years."
+        },
+        {
+          "url": "https://www.onolisa.com/en/live",
+          "publisher": "Lisa Ono official website",
+          "checked_on": "2026-09-01",
+          "note": "Primary artist schedule independently verifies Toninho Horta with guest Lisa Ono at Billboard Live Osaka on September 29, 2026, documenting that the Japan visit includes additional dates beyond Tokyo."
+        },
+        {
+          "url": "https://www.lifetime-shizuoka.com/information/categories/night",
+          "publisher": "LIFETIME Shizuoka",
+          "checked_on": "2026-09-01",
+          "note": "Primary venue listing verifies a Toninho Horta solo performance in Shizuoka on September 30, 2026, another Japan-tour date used only to test scarcity honestly."
+        },
+        {
+          "url": "https://music.apple.com/us/album/moonstone/1443630566",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-01",
+          "note": "Exact Apple Music destination for Toninho Horta's Moonstone."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts come from the Kita City Culture Foundation and authorized e+ ticketing. The eight-year Japan-return context is explicitly stated by e+. Separate primary artist/venue listings for Osaka and Shizuoka were checked to avoid manufacturing scarcity: Horta is on a multi-date Japan visit, but the exact Hokutopia three-part solo/Japan Jazz Collective/Japan Brazil Collective program is distinct among the verified dates found. Repository searches for Toninho Horta, Hokutopia, Jazz in Hokutopia, and the September 26 combination returned no matching current RADAR candidate or processed artifact before publication. Priority was assigned only after RADAR admission and then passed the S scarcity review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Horta's return is compelling because Tokyo is not getting a generic tour set. After eight years away from Japan, he moves through three frames in one afternoon: guitar and voice alone, then a current Japanese jazz group, then a Japan-Brazil ensemble that puts flute, voices, two guitars, electric bass, and drums around his harmonic language. The program turns a living Minas Gerais master into an actual exchange with musicians working in Japan now.",
+          "trip_verdict": "If you are in Tokyo or can reach it comfortably from Kanto, protect the afternoon and build the day around Oji. The Osaka and Shizuoka dates provide other ways to hear Horta on this Japan visit, but they do not duplicate this exact three-part Tokyo program.",
+          "listen_before": "Toninho Horta — Moonstone"
+        },
+        "es": {
+          "why_it_matters": "Lo especial del regreso de Horta es que Tokio no recibe una parada genérica de gira. Después de ocho años sin tocar en Japón, pasa por tres marcos en una sola tarde: primero guitarra y voz a solas, luego un colectivo de jazz japonés actual y finalmente un ensamble Japón-Brasil que coloca flauta, voces, dos guitarras, bajo eléctrico y batería alrededor de su lenguaje armónico. El programa convierte la visita de un maestro vivo de Minas Gerais en un intercambio real con músicos que hoy trabajan en Japón.",
+          "trip_verdict": "Si estás en Tokio o puedes llegar cómodamente desde Kanto, protegería la tarde y armaría el día alrededor de Oji. Las fechas de Osaka y Shizuoka ofrecen otras maneras de escuchar a Horta durante esta visita a Japón, pero no repiten este programa tokiota de tres partes.",
+          "listen_before": "Toninho Horta — Moonstone"
+        }
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-01",
+        "rationale": "Concrete scarcity: authorized ticketing identifies this as Toninho Horta's first Japan visit in eight years, and the Tokyo date uniquely sequences Horta solo, a Japan Jazz Collective, and a Japan Brazil Collective with two distinct Japan-based lineups. Other verified Japan-tour stops exist—Billboard Live Osaka with Lisa Ono on September 29 and a Shizuoka solo show on September 30—so the review does not claim the visit itself is one-night-only. The second editorial challenge asked whether A+ would still capture the recommendation; for this exact Tokyo program, it would understate the genuine regret of missing a major living Brazilian guitar/composition voice in a rare, locally assembled cross-cultural context after an eight-year absence. S+ is not warranted because the tour has multiple Japan dates and this is neither a farewell nor a final performance."
+      }
+    }
+  ]
+}
