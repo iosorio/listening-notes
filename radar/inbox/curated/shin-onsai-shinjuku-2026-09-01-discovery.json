@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "shin-onsai-shinjuku-2026-09-01-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese jazz sources; no newly verified Yamamoto appearance was found that was not already represented in canonical/curated/processed intake. SHIN-ONSAI 2026 clears RADAR admission because the festival's Shinjuku-specific curatorial frame deliberately brings together Japanese alternative, experimental, art-rock, electronic, jazz-adjacent, and singer-songwriter voices across two days rather than functioning as a generic prestige bill. Final priority A+: actively worth making room for if Tokyo is in play, but the recurring two-day festival and active touring lives of the artists do not create S-level scarcity. Recent/current intake remains concentrated in A/A+ with scarcity tiers rare; this candidate adds no pressure to S/S+.",
+  "events": [
+    {
+      "id": "shin-onsai-shinjuku-bunka-center-2026-10-10",
+      "artist": "SHIN-ONSAI 2026",
+      "subtitle": "Two-day Shinjuku alternative and experimental music festival",
+      "dates": {
+        "start": "2026-10-10",
+        "end": "2026-10-11"
+      },
+      "showtimes": [
+        "12:00"
+      ],
+      "venue": {
+        "id": "shinjuku-bunka-center-tokyo",
+        "name": "Shinjuku Bunka Center",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese alternative / Experimental / Cross-genre festival",
+      "genres": [
+        "Alternative",
+        "Experimental",
+        "Art Rock",
+        "Jazz",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Oct 10 — ZAZEN BOYS",
+        "Oct 10 — D.A.N.",
+        "Oct 10 — 奇妙礼太郎BAND",
+        "Oct 10 — □□□（クチロロ／いとうせいこう is not appearing）",
+        "Oct 10 — 君島大空",
+        "Oct 10 — maya ongaku",
+        "Oct 10 — 前野健太",
+        "Oct 10 — kiss the gambler",
+        "Oct 10 — 和久井沙良",
+        "Oct 10 — DYGL",
+        "Oct 10 — カブトムシ",
+        "Oct 10 — Gingersamm",
+        "Oct 11 — MONO NO AWARE",
+        "Oct 11 — 石橋英子 (Eiko Ishibashi)",
+        "Oct 11 — 原摩利彦 (Marihiko Hara)",
+        "Oct 11 — Laura day romance",
+        "Oct 11 — 岡田拓郎 (Takuro Okada)",
+        "Oct 11 — ゆうらん船",
+        "Oct 11 — SuiseiNoboAz",
+        "Oct 11 — DURDN",
+        "Oct 11 — VivaOla",
+        "Oct 11 — Bialystocks",
+        "Oct 11 — Summer Eye",
+        "Oct 11 — さらさ",
+        "Opening act — 田中コウタ"
+      ],
+      "factual_description": "SHIN-ONSAI 2026 takes place Saturday and Sunday, October 10-11, 2026 at Shinjuku Bunka Center. The organizer lists doors at 11:30 AM and music beginning at 12:00 PM on both days. The final announcement expands the festival to 25 artists across the weekend. October 10 includes ZAZEN BOYS, D.A.N., 奇妙礼太郎BAND, □□□（クチロロ）, 君島大空, maya ongaku, 前野健太, kiss the gambler, 和久井沙良, DYGL, カブトムシ and Gingersamm. October 11 includes MONO NO AWARE, Eiko Ishibashi, Marihiko Hara, Laura day romance, Takuro Okada, ゆうらん船, SuiseiNoboAz, DURDN, VivaOla, Bialystocks, Summer Eye and さらさ, with 田中コウタ announced as opening act. The organizer lists general one-day admission at ¥4,500 and a two-day pass at ¥8,500, with a Shinjuku-resident one-day ticket at ¥4,000.",
+      "links": {
+        "official_event": null,
+        "official_tickets": "https://w.pia.jp/t/shin-onsai2026/"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "apple_music"
+        ],
+        "note": "The official festival homepage is verified as primary evidence but is a root homepage rather than an exact event-path URL, so it is retained only in sources under the current canonical link contract. The organizer's exact Pia ticket destination is verified. No exact Apple Music album or track is selected in this pass rather than inventing a representative listening item for a 25-artist festival."
+      },
+      "sources": [
+        {
+          "url": "https://shin-onsai.com/",
+          "publisher": "SHIN-ONSAI 2026",
+          "checked_on": "2026-09-01",
+          "note": "Primary festival site confirming October 10-11, 2026, Shinjuku Bunka Center, the final day-by-day artist split, opening act, venue address, and organizing/production entities."
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000919.000041063.html",
+          "publisher": "Sunrise Promotion Tokyo",
+          "checked_on": "2026-09-01",
+          "note": "Organizer/producer announcement dated August 7, 2026 confirming the final 25-artist lineup and the additions including ZAZEN BOYS, Eiko Ishibashi, and Kenta Maeno."
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000897.000041063.html",
+          "publisher": "Sunrise Promotion Tokyo",
+          "checked_on": "2026-09-01",
+          "note": "Organizer/producer announcement confirming doors 11:30, start 12:00, one-day and two-day ticket prices, Shinjuku-resident ticket price, venue, and the authorized Pia/ePlus/Lawson ticket destinations."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Dates, venue, event start time, full announced day split, ticket prices, and authorized ticket destination were verified from the festival's official site and organizer/producer releases. Repository searches found no existing SHIN-ONSAI 2026 or matching Shinjuku Bunka Center October 10-11 record before publication. No individual artist set times, backing personnel, or unannounced performers were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The curation is the reason this belongs. SHIN-ONSAI uses Shinjuku as a meeting point for Japanese alternative, experimental and rhythm-driven music rather than sorting the weekend into clean genre lanes: ZAZEN BOYS, D.A.N., maya ongaku and Sara Wakui pull one day toward angular groove and improvisational edges, while Eiko Ishibashi, Marihiko Hara, Takuro Okada and MONO NO AWARE give the second day a different compositional and textural center. It is a useful snapshot of several strands of adventurous Japanese music sharing one civic-stage ecosystem.",
+          "trip_verdict": "If Tokyo is in play that weekend, actively make room for the day whose lineup best matches the listening thread and let Shinjuku anchor the afternoon and evening. The two-day format gives enough access that I would not force both days or displace a singular one-off elsewhere in Kanto.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La curaduría es la razón por la que esto entra. SHIN-ONSAI usa Shinjuku como punto de encuentro para música japonesa alternativa, experimental y muy rítmica sin ordenar el fin de semana en cajones de género: ZAZEN BOYS, D.A.N., maya ongaku y Sara Wakui llevan un día hacia el groove anguloso y los bordes improvisatorios, mientras que Eiko Ishibashi, Marihiko Hara, Takuro Okada y MONO NO AWARE le dan al segundo una gravedad más compositiva y textural. Es una buena fotografía de varias corrientes inquietas de la música japonesa compartiendo el mismo ecosistema de escenario cívico.",
+          "trip_verdict": "Si Tokio está en juego ese fin de semana, le haría espacio activamente al día cuyo cartel mejor siga el hilo de escucha y dejaría que Shinjuku organice la tarde y la noche. El formato de dos días da suficiente acceso como para no forzar ambos ni desplazar un one-off realmente singular en otra parte de Kanto.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
