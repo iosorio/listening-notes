@@ -1,0 +1,201 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "zeigler-somogyi-national-sawdust-2026-08-31-discovery",
+  "checked_on": "2026-08-31",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources. The Space M&A dates returned by the pass, including September 29, October 30, November 28 and December 28, are already represented in canonical/curated/processed intake, and no additional unrepresented Yamamoto appearance was verified. The broader corridor pass found two unrepresented National Sawdust performances that clear Stage 1 for event-specific reasons. Jeffrey Zeigler's We Were Fridays is the public world premiere and album-release engagement of a multi-year cello/electronics/dance work rooted in Gullah cultural memory and the Black diaspora, with new compositions by Tamar-kali, Etienne Charles, Hannah Ishizaki and Zeigler and choreography by Reggie Regg Roc Gray. Lara Somogyi's a [time] patterned is the New York premiere of a newly released harp-centered work built from extended harp technique, electronics, pedal textures, tape processes and field recordings. Stage 2 assigns A+ to We Were Fridays because the premiere engagement is actively worth making room for, but not S: National Sawdust presents a second matinee the next day and the producing organization explicitly says the work will tour nationally and internationally, so A+ captures the recommendation without manufacturing scarcity. Somogyi receives A: the New York premiere and instrumental design make the performance worth RADAR admission, while a multi-city album-release run and active project make attend-if-convenient the durable recommendation. John Zorn's Flatlands at National Sawdust was reviewed but not added: the same new trio project is already represented in RADAR by its September 5 Solar Myth performance, and the September 12 National Sawdust date did not establish a distinct performance-specific hook beyond another stop by the same touring project. Recent/current RADAR intake was rechecked as a sanity test and remains concentrated in A/A+ with S/S+ reserved for scarcity; this batch adds A 1 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "jeffrey-zeigler-we-were-fridays-national-sawdust-brooklyn-2026-09-18",
+      "artist": "Jeffrey Zeigler",
+      "subtitle": "We Were Fridays — world premiere and album release",
+      "dates": {
+        "start": "2026-09-18",
+        "end": "2026-09-19"
+      },
+      "showtimes": [
+        "19:30",
+        "14:00"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "World-premiere cello / electronics / dance work on Gullah memory and the Black diaspora",
+      "genres": [
+        "Contemporary Classical",
+        "Experimental Music",
+        "Electronic",
+        "Interdisciplinary Performance"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jeffrey Zeigler — cello; creator",
+        "Reggie 'Regg Roc' Gray — choreography / dance"
+      ],
+      "factual_description": "National Sawdust presents Jeffrey Zeigler's We Were Fridays on September 18 and 19, 2026 in Brooklyn. The September 18 performance has 18:30 doors and a 19:30 start and is identified by the venue as the world premiere and album release; the September 19 matinee has 13:00 doors and a 14:00 start. National Sawdust describes the work as an interdisciplinary project led by cellist Jeffrey Zeigler and told through cello, electronics and dance, tracing a cultural-memory path from West African griot tradition through the Gullah community of South Carolina and the Great Migration. New compositions are by Tamar-kali, Etienne Charles, Hannah Ishizaki and Zeigler; choreography is by Flexn pioneer Reggie 'Regg Roc' Gray. The project was commissioned by VisionIntoArt, National Sawdust and The Wexner Center for the Arts, and developed with support including Penn Center and Weeksville Heritage Center. VisionIntoArt states that the work will premiere at National Sawdust in September 2026 and subsequently tour in the United States and internationally.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/season-12-opening-we-were-fridays-9-18-26",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280098"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "face_value_price",
+          "apple_music"
+        ],
+        "note": "National Sawdust verifies both performance dates, doors and start times, world-premiere and album-release status, the cello/electronics/dance construction, composers, choreographer and production partners. VisionIntoArt independently verifies the creative team and planned post-premiere touring. The authorized AudienceView/OvationTix destination is linked from National Sawdust. No face-value price is exposed in the retrievable ticket page, and the album is announced for September 18 but no exact Apple Music destination is yet verifiable, so neither is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/season-12-opening-we-were-fridays-9-18-26",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-08-31",
+          "note": "Primary presenter page verifies the September 18 world premiere and album release, 18:30 doors / 19:30 start, cello/electronics/dance framing, Gullah and diaspora context, composers, Reggie Gray choreography, commissioning/development partners and authorized ticket link."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/event/season-12-opening-we-were-fridays-9-19-26-matinee",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-08-31",
+          "note": "Primary presenter page verifies the September 19 matinee with 13:00 doors and 14:00 start and repeats the project/creative-team context."
+        },
+        {
+          "url": "https://www.visionintoart.org/via-projects/we-were-fridays",
+          "publisher": "VisionIntoArt",
+          "checked_on": "2026-08-31",
+          "note": "Primary producer/project page verifies Zeigler as creator, new music by Tamar-kali, Etienne Charles, Hannah Ishizaki and Zeigler, Reggie Gray choreography, the National Sawdust September premiere and planned US/international touring."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280098",
+          "publisher": "AudienceView Professional / National Sawdust authorized ticketing",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket destination linked directly from the September 18 National Sawdust event page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts and the world-premiere/album-release context were verified from National Sawdust; VisionIntoArt independently verifies the project, creative team and touring plan. Repository-wide searches for Jeffrey Zeigler, We Were Fridays and the September 18 National Sawdust date returned no matching canonical, curated or processed RADAR event before publication. Priority A+ was assigned only after Stage 1 admission. The world premiere creates a strong reason to make room, but the next-day matinee and explicit touring plan mean S would overstate scarcity. No price, unannounced performer or Apple Music ID was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the point where a long-developed project becomes a public work. Zeigler puts the cello at the center of a route through griot tradition, Gullah memory and the Great Migration, then lets electronics and Regg Roc's Flexn movement carry that history into a contemporary performance language. New music by Tamar-kali, Etienne Charles, Hannah Ishizaki and Zeigler keeps the project from functioning as an illustrated history lesson: the premiere is a living argument about how an instrument, a body and an archive can hold diaspora at the same time.",
+          "trip_verdict": "If New York is workable that weekend, actively make room for either the Friday premiere or Saturday matinee and pair it with another Brooklyn or Manhattan reason to be in the city. The second performance gives useful flexibility without diminishing the value of seeing the work at the moment it enters public life.",
+          "listen_before": "We Were Fridays — album releases September 18, 2026; no pre-release Apple Music link verified"
+        },
+        "es": {
+          "why_it_matters": "Éste es el momento en que un proyecto desarrollado durante años se convierte en obra pública. Zeigler pone al violonchelo en el centro de un recorrido por la tradición griot, la memoria Gullah y la Gran Migración, y deja que la electrónica y el movimiento Flexn de Regg Roc lleven esa historia a un lenguaje escénico contemporáneo. La música nueva de Tamar-kali, Etienne Charles, Hannah Ishizaki y Zeigler evita que el proyecto funcione como una lección histórica ilustrada: el estreno plantea en vivo cómo un instrumento, un cuerpo y un archivo pueden contener la diáspora al mismo tiempo.",
+          "trip_verdict": "Si Nueva York es viable ese fin de semana, sí le haría espacio activamente al estreno del viernes o a la matiné del sábado y lo combinaría con otra razón para estar en Brooklyn o Manhattan. La segunda función da flexibilidad útil sin restarle valor a ver la obra justo cuando entra a la vida pública.",
+          "listen_before": "We Were Fridays — el álbum se publica el 18 de septiembre de 2026; no hay todavía un enlace de Apple Music verificado"
+        }
+      }
+    },
+    {
+      "id": "lara-somogyi-a-time-patterned-national-sawdust-brooklyn-2026-09-11",
+      "artist": "Lara Somogyi",
+      "subtitle": "a [time] patterned — NYC premiere",
+      "dates": {
+        "start": "2026-09-11",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Contemporary harp / electronics / time-based electroacoustic composition",
+      "genres": [
+        "Contemporary Classical",
+        "Experimental Music",
+        "Electronic",
+        "Ambient"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Lara Somogyi — harp; performer-composer"
+      ],
+      "factual_description": "National Sawdust presents the New York premiere of Lara Somogyi's a [time] patterned on Friday, September 11, 2026, with 18:30 doors and a 19:30 performance. The venue describes the newly released full-length work as contemporary harp music built from pedal textures and electronics, virtuosic arpeggios, tape processes, ambient processing, extended harp techniques, string-orchestra language and field recordings. National Sawdust also documents Somogyi's established practice of integrating electronics and pedal effects with classical harp and identifies her solo compositions for harp and electronics. Apple Music verifies a [time] patterned as an 11-track, 35-minute 2026 album released August 28 on Mercury KX, with Somogyi credited on harp. The accessible event page does not announce additional live instrumental personnel, so none are inferred.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/lara-somogyi-a-time-patterned-nyc-premiere",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1275165"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Lara Somogyi",
+          "title": "a [time] patterned",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/a-time-patterned/1893033792"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "face_value_price",
+          "additional_live_personnel_if_any"
+        ],
+        "note": "National Sawdust verifies the exact date, 18:30 doors, 19:30 start, NYC-premiere framing, project description and Somogyi's harp/electronics practice. The authorized AudienceView/OvationTix destination is linked by the venue. Apple Music verifies the exact album and release date. No face-value price is exposed in the retrievable ticket page, and the event page does not identify additional live musicians, so neither is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/lara-somogyi-a-time-patterned-nyc-premiere",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-08-31",
+          "note": "Primary presenter page verifies September 11, 18:30 doors, 19:30 start, New York premiere status, project/instrumental design, Somogyi's harp/electronics practice and the authorized ticket link."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1275165",
+          "publisher": "AudienceView Professional / National Sawdust authorized ticketing",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket destination linked directly from the National Sawdust event page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/a-time-patterned/1893033792",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music page verifies a [time] patterned as Lara Somogyi's 11-track 2026 album, released August 28, with Somogyi credited on harp."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Event facts and NYC-premiere framing were verified from National Sawdust and its authorized ticket destination; Apple Music verifies the exact listening link. Repository-wide searches for Lara Somogyi, Somogyi and a [time] patterned returned no matching canonical, curated or processed RADAR event before publication. Priority A was assigned only after Stage 1 admission: the New York premiere and unusually specific harp/electronics language warrant RADAR inclusion, while a multi-city release cycle and ongoing project do not require active-priority or scarcity language. No additional performers or ticket price were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Somogyi treats the harp less as a historical timbre than as a time machine: pedal mechanics, loops, delays, granular repetition and field sound let the instrument accumulate and fracture patterns while the acoustic strings remain physically present. The New York premiere matters because it puts that newly released studio architecture back into live space, where touch, resonance and processing have to coexist in real time rather than as a purely produced texture.",
+          "trip_verdict": "If September 11 already places you in New York, this is a strong National Sawdust option to fold into the evening if it fits cleanly. I would not make the corridor trip depend on this date alone, but it is exactly the sort of instrument-centered premiere worth keeping visible.",
+          "listen_before": "Lara Somogyi — a [time] patterned"
+        },
+        "es": {
+          "why_it_matters": "Somogyi trata el arpa menos como un timbre histórico que como una máquina del tiempo: mecanismos de pedal, loops, delays, repetición granular y sonido de campo permiten que el instrumento acumule y fracture patrones mientras las cuerdas acústicas siguen físicamente presentes. El estreno en Nueva York importa porque devuelve esa arquitectura recién publicada al espacio en vivo, donde tacto, resonancia y procesamiento tienen que convivir en tiempo real y no sólo como textura de estudio.",
+          "trip_verdict": "Si el 11 de septiembre ya te pone en Nueva York, es una muy buena opción de National Sawdust para integrar a la noche si embona limpiamente. No haría depender el viaje por el corredor de esta fecha sola, pero sí es exactamente el tipo de estreno centrado en identidad instrumental que vale mantener visible.",
+          "listen_before": "Lara Somogyi — a [time] patterned"
+        }
+      }
+    }
+  ]
+}
