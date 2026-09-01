@@ -1,0 +1,133 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "home-rule-music-festival-alethia-tanner-park-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered BODY&SOUL's final-month schedule, Space M&A's current July-December schedule, current Yamamoto schedule traces, Jazz House ALFIE traces, Keystone Club Tokyo, and related Japanese-jazz sources. The September 6 and September 9 BODY&SOUL dates, September 29/October 30/November 28 Space M&A trio dates, and other Yamamoto appearances that resurfaced are already represented in canonical, curated, or processed intake; no duplicate Yamamoto candidate was created. The broader US-corridor pass surfaced the October 3 fall edition of Home Rule Music Festival at Alethia Tanner Park. Stage 1 admission rests on a specific DMV music-history context rather than generic festival prestige: Home Rule explicitly frames the festival as a fifth-year, free community celebration preserving Washington's Black musical legacy across jazz, go-go, hip-hop, soul and contemporary Black music; the current fall billing reported by PoPville places experimental composer/clarinetist Angel Bat Dawid in the same day as DC go-go/funk acts UCB and Crush Funk, Foots X Coles, Joantz with Special Berriez, DJ RBI, and a youth showcase that the organizer independently confirms opens each festival and features Next Gen Krank Band and Soul of Seed DC. Stage 2 assigns A+ after admission: the exact DC Black-music continuum, local go-go identity, experimental instrumental voice, youth-to-working-scene bridge and preservation mission merit actively making room for the day if local. The recurring annual-festival format, nine-hour access window and absence of a verified farewell, premiere or singular historical one-off make S unnecessary. Recent/current RADAR intake remains weighted toward A and A+; this batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not invoke the scarcity-review gate. Repository-wide searches for Home Rule, Alethia Tanner Park on 2026-10-03, and Angel Bat Dawid returned no matching canonical, curated or processed candidate before publication.",
+  "events": [
+    {
+      "id": "home-rule-music-festival-alethia-tanner-park-washington-dc-2026-10-03",
+      "artist": "Home Rule Music Festival",
+      "subtitle": "Fall 2026 — UCB / Angel Bat Dawid / Crush Funk / Foots X Coles / Joantz with Special Berriez / Youth Showcase / DJ RBI",
+      "dates": {
+        "start": "2026-10-03",
+        "end": null
+      },
+      "showtimes": [
+        "12:00"
+      ],
+      "venue": {
+        "id": "alethia-tanner-park-washington-dc",
+        "name": "Alethia Tanner Park",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "DC Black music / jazz / go-go / experimental / community festival",
+      "genres": [
+        "Jazz",
+        "Go-go",
+        "Funk",
+        "Experimental",
+        "Hip-hop / Soul"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Experimental / Metal",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "UCB",
+        "Angel Bat Dawid",
+        "Crush Funk",
+        "Foots X Coles",
+        "Joantz with Special Berriez",
+        "Youth Showcase featuring Next Gen Krank Band and Soul of Seed DC",
+        "DJ RBI"
+      ],
+      "factual_description": "The Home Rule Music and Film Preservation Foundation presents the fall 2026 Home Rule Music Festival on Saturday, October 3, 2026 at Alethia Tanner Park, 227 Harry Thomas Way NE, Washington, DC. The organizer's Eventbrite listing gives a 12:00 PM to 9:00 PM event window and describes the festival as free and open to the public. Home Rule's current official festival and About Us pages independently list October 3 at Alethia Tanner Park and describe 2026 as the festival's fifth year, with programming spanning jazz, go-go, hip-hop, soul and contemporary Black music. The official youth-program page says the Youth Showcase opens the October 3 festival and currently names Soul of Seed DC and Next Gen Krank Band as participants. PoPville's current October 3 event listing supplies the announced fall billing: UCB, Angel Bat Dawid, Crush Funk, Foots X Coles, Joantz with Special Berriez, the youth showcase and DJ RBI. Individual artist set times are not currently verified, so 12:00 records only the published festival start and no per-act times are inferred. One older organizer subpage still contains an October 4 date, but multiple current organizer pages, the organizer's Eventbrite listing and the current local event listing converge on Saturday, October 3; the stale internal date is treated as superseded pending any contrary primary update.",
+      "links": {
+        "official_event": "https://www.hrmfdc.org/homerulemusicfest",
+        "official_tickets": "https://www.eventbrite.com/e/2026-home-rule-music-festival-alethia-tanner-park-tickets-1998020276432"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Angel Bat Dawid",
+          "title": "The Oracle",
+          "kind": "album",
+          "apple_music_url": null
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "individual_set_times",
+          "primary_fall_lineup_page",
+          "complete_personnel_for_billed_ensembles",
+          "apple_music"
+        ],
+        "note": "Date, venue, noon-to-9 PM festival window, free public access, fifth-year framing, musical mission and youth-showcase structure are verified from Home Rule's primary pages and organizer Eventbrite listing. The current fall lineup is verified from PoPville's live event listing but has not yet appeared as text on a primary organizer page, so it should be rechecked when Home Rule publishes its fall artist page or set schedule. No individual artist set times, unannounced personnel or Apple Music IDs are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.hrmfdc.org/homerulemusicfest",
+          "publisher": "Home Rule Music and Film Preservation Foundation",
+          "checked_on": "2026-09-01",
+          "note": "Primary foundation festival page confirms Saturday, October 3, 2026 at Alethia Tanner Park and describes Home Rule as an all-day, family-friendly Washington festival centered on live jazz and go-go music."
+        },
+        {
+          "url": "https://www.homerulemusicfestival.com/about-us-2026/",
+          "publisher": "Home Rule Music Festival",
+          "checked_on": "2026-09-01",
+          "note": "Primary organizer page confirms October 3 at Alethia Tanner Park, fifth-year framing, free public programming, and the jazz/go-go/hip-hop/soul/contemporary-Black-music scope."
+        },
+        {
+          "url": "https://www.homerulemusicfestival.com/youth-showcase-2026/",
+          "publisher": "Home Rule Music Festival",
+          "checked_on": "2026-09-01",
+          "note": "Primary organizer youth page confirms the Youth Showcase opens the October 3 Alethia Tanner Park festival and currently names Soul of Seed DC and Next Gen Krank Band among participants."
+        },
+        {
+          "url": "https://www.eventbrite.com/e/2026-home-rule-music-festival-alethia-tanner-park-tickets-1998020276432",
+          "publisher": "Home Rule Music and Film Preservation Foundation / Eventbrite",
+          "checked_on": "2026-09-01",
+          "note": "Organizer-controlled event listing confirms Saturday, October 3 from 12:00 PM to 9:00 PM, Alethia Tanner Park, and free/open-to-the-public admission."
+        },
+        {
+          "url": "https://www.popville.com/events/home-rule-music-festival-2026-28178/",
+          "publisher": "PoPville",
+          "checked_on": "2026-09-01",
+          "note": "Current authoritative local event listing supplies the fall billing: UCB, Angel Bat Dawid, Crush Funk, Foots X Coles, Joantz with Special Berriez, Youth Showcase featuring Next Generation Crank and Soul of SEED, and DJ RBI."
+        },
+        {
+          "url": "https://www.intlanthem.com/artists/angel-bat-dawid",
+          "publisher": "International Anthem",
+          "checked_on": "2026-09-01",
+          "note": "Artist-label source verifies Angel Bat Dawid as a composer, improviser, clarinetist, pianist, vocalist and bandleader and documents The Oracle as her 2019 debut; used for artist context and recommended-listening title, not for event logistics."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core date, venue, festival window, free-access status, fifth-year framing, musical mission and youth-showcase structure come from Home Rule's own pages and its organizer Eventbrite listing. The current fall billing comes from PoPville's live event listing and is therefore marked as authoritative secondary evidence until a primary fall-lineup page is exposed. Multiple current primary sources and Eventbrite agree on Saturday, October 3, while one stale organizer subpage still says October 4; the current consensus is used and the conflict is explicitly preserved. Repository searches found no existing Home Rule/Alethia Tanner Park October 3 or Angel Bat Dawid candidate before publication. Priority was assigned only after Stage 1 admission and no scarcity-tier review was needed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the kind of local context RADAR is supposed to catch: not a generic festival, but a day built around D.C.'s Black musical continuum. Angel Bat Dawid brings an improviser's and clarinetist's experimental language into the same park program as UCB and Crush Funk's go-go/funk pull, while the youth showcase puts the next generation of the city's signature rhythm on the main stage. Home Rule's preservation mission makes those juxtapositions the point rather than a coincidence of booking.",
+          "trip_verdict": "If October 3 is open in the DMV, actively make room for part of the afternoon or evening and let the Dawid-to-go-go overlap guide when to arrive once set times appear. It is a local park day, not a reason to build a regional trip, and the long free-access window makes it easy to fit around the rest of the weekend.",
+          "listen_before": "Angel Bat Dawid — The Oracle"
+        },
+        "es": {
+          "why_it_matters": "Este es justo el tipo de contexto local que RADAR debe pescar: no un festival genérico, sino un día armado sobre el continuo de la música negra de DC. Angel Bat Dawid lleva su lenguaje experimental de improvisadora y clarinetista al mismo parque donde aparecen el jalón go-go/funk de UCB y Crush Funk, mientras el showcase juvenil pone en el escenario principal a la siguiente generación del ritmo emblemático de la ciudad. La misión de preservación de Home Rule hace que esos cruces sean el centro de la programación y no una casualidad del cartel.",
+          "trip_verdict": "Si el 3 de octubre está libre en el DMV, sí le haría espacio activamente a una parte de la tarde o la noche y usaría el cruce entre Dawid y el go-go para decidir a qué hora caer cuando publiquen los sets. Es un plan local de parque, no una razón para armar un viaje regional, y la ventana larga con acceso gratuito permite acomodarlo bien alrededor del resto del fin de semana.",
+          "listen_before": "Angel Bat Dawid — The Oracle"
+        }
+      }
+    }
+  ]
+}
