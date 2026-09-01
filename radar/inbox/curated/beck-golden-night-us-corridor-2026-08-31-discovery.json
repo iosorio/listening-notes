@@ -1,0 +1,195 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "beck-golden-night-us-corridor-2026-08-31-discovery",
+  "notes": "Fresh US-corridor discovery under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass checked current Tsuyoshi Yamamoto schedule surfaces and repository intake; the September 1, September 8, and September 15 Keystone Club Tokyo appearances are already represented, and no new unrecorded verified Yamamoto appearance was found. Two new events clear RADAR admission here. Neither is assigned S or S+: Beck's Ride Lonesome tour is a 21-show North American run, while Golden Night is a recurring concert series even though this 10th-anniversary lineup is unusually strong. Both are kept at A+ because their specific current context merits actively making room without claiming scarcity.",
+  "events": [
+    {
+      "id": "beck-ride-lonesome-the-anthem-2026-10-25",
+      "artist": "Beck",
+      "subtitle": "RIDE LONESOME TOUR",
+      "dates": {
+        "start": "2026-10-25",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Culturally significant rock / New-album tour",
+      "genres": [
+        "Alternative Rock"
+      ],
+      "musical_axes": [
+        "Cultural context",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Beck",
+        "Ioanna Gika — support"
+      ],
+      "factual_description": "I.M.P. presents Beck's RIDE LONESOME TOUR at The Anthem in Washington, DC on Sunday, October 25, 2026. Doors are at 6:00 PM and the show is at 7:30 PM, with Ioanna Gika announced as support. Ticketmaster confirms the same date, time and venue. Beck's official store describes Ride Lonesome as his first album of all-new material since Hyperspace, due September 18, 2026 via Capitol Records; the record returns to the atmospheric vocabulary associated with Morning Phase and Sea Change, reunites Beck with musicians from those releases, is produced by Beck and mixed by Nigel Godrich. Ticketmaster's tour information lists 21 dates, including Philadelphia on October 18 and Brooklyn on October 22-23 before Washington.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/beck-ride-lonesome-tour/",
+        "official_tickets": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Beck",
+          "title": "Ride Lonesome",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/ride-lonesome/6788956584"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Date, doors/show time, venue, support billing, authorized ticket destination, current album context and exact Apple Music album ID are verified. Static face-value ticket prices were not published in the retrieved official surfaces and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/beck-ride-lonesome-tour/",
+          "publisher": "I.M.P. / The Anthem",
+          "checked_on": "2026-08-31",
+          "note": "Official promoter page confirms October 25, 2026, 6:00 PM doors, 7:30 PM show, The Anthem, Washington, DC, and Ioanna Gika as support."
+        },
+        {
+          "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket page confirms the October 25, 2026 7:30 PM Beck RIDE LONESOME TOUR performance at The Anthem."
+        },
+        {
+          "url": "https://shop.beck.com/products/ride-lonesome-cd",
+          "publisher": "Beck Official Store",
+          "checked_on": "2026-08-31",
+          "note": "Official artist store verifies the September 18 Ride Lonesome release, first all-new album since Hyperspace, atmospheric Morning Phase/Sea Change connection, returning musicians, Beck production and Nigel Godrich mix."
+        },
+        {
+          "url": "https://help.ticketmaster.com/hc/en-us/articles/45951110474513-BECK-RIDE-LONESOME-TOUR",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-31",
+          "note": "Authorized tour information lists 21 dates and confirms nearby Philadelphia and Brooklyn stops, relevant to the non-scarcity priority judgment."
+        },
+        {
+          "url": "https://music.apple.com/us/album/ride-lonesome/6788956584",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music pre-release album destination for Ride Lonesome, dated September 18, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts were verified from I.M.P. and Ticketmaster; the current-album framing comes from Beck's official store and Apple Music. Repository searches for Beck, The Anthem, October 25, Ride Lonesome and the proposed stable ID found no matching Beck event before publication. No tour-band personnel, ticket prices or setlist beyond the announced Beck/Ioanna Gika billing were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs because the Washington stop catches Beck inside a defined new creative chapter, not because his catalog is famous. Ride Lonesome is his first album of all-new material since Hyperspace and deliberately circles back to the intimate, cinematic atmosphere of Sea Change and Morning Phase. Five weeks after release, the tour offers a useful live test of how that quieter language sits beside a career built on radical stylistic shifts.",
+          "trip_verdict": "For the DMV, actively make room if October 25 is open. I would not build a regional trip around scarcity alone: the same tour reaches Philadelphia and Brooklyn immediately before Washington.",
+          "listen_before": "Beck — Ride Lonesome"
+        },
+        "es": {
+          "why_it_matters": "Esta fecha entra porque encuentra a Beck dentro de una etapa creativa muy concreta, no porque su catálogo sea famoso. Ride Lonesome es su primer disco de material completamente nuevo desde Hyperspace y vuelve de manera deliberada a la atmósfera íntima y cinematográfica de Sea Change y Morning Phase. Cinco semanas después del lanzamiento, la gira permite escuchar cómo convive ese lenguaje más contenido con una carrera construida sobre cambios radicales de estilo.",
+          "trip_verdict": "Para el DMV, sí le haría espacio activamente si el 25 de octubre está libre. No armaría un viaje regional sólo por escasez: la misma gira pasa por Filadelfia y Brooklyn inmediatamente antes de Washington.",
+          "listen_before": "Beck — Ride Lonesome"
+        }
+      }
+    },
+    {
+      "id": "golden-night-concert-alice-tully-hall-2026-10-17",
+      "artist": "Manhattan Philharmonic",
+      "subtitle": "2026 Golden Night Concert — 10th Anniversary",
+      "dates": {
+        "start": "2026-10-17",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "alice-tully-hall-lincoln-center-new-york",
+        "name": "Alice Tully Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "East-West orchestral gala / 10th anniversary / Virtuoso instrumentalists",
+      "genres": [
+        "Orchestral",
+        "Chinese traditional",
+        "Cross-cultural"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Steven Fei Fang — conductor",
+        "Manhattan Philharmonic",
+        "Lu Siqing — featured violinist",
+        "Fang Jinlong — featured pipa artist",
+        "Huo Zun — featured singer",
+        "Cheng Lin — featured singer"
+      ],
+      "factual_description": "The 2026 Golden Night Concert takes place at Alice Tully Hall in New York on Saturday, October 17, 2026 at 7:30 PM. Lincoln Center's venue page identifies the event as the Golden Night Concert's 10th anniversary and describes an East-West cultural-exchange program led by conductor Steven Fei Fang with the Manhattan Philharmonic. Featured artists named on the page are violinist Lu Siqing, pipa artist Fang Jinlong, singers Huo Zun and Cheng Lin, plus additional vocalists and instrumentalists not individually listed. The event is presented by the Manhattan Philharmonic Society, New Jersey Philharmonic Chorus, Kai Yue Foundation and Beijing Association of New York, and Lincoln Center explicitly notes that it is an outside-licensee event rather than a Lincoln Center production.",
+      "links": {
+        "official_event": "https://www.lincolncenter.org/venue/alice-tully-hall/2026-golden-night-concert-725",
+        "official_tickets": "https://tickets.lincolncenter.org/en/syos/performance/33414"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Date, time, hall, conductor, orchestra, named featured artists, 10th-anniversary framing and authorized Lincoln Center ticket destination are verified. No exact Apple Music recommendation was resolved in this pass. The venue page also says additional vocalists and instrumentalists will appear but does not name them or publish a repertoire list, so neither is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.lincolncenter.org/venue/alice-tully-hall/2026-golden-night-concert-725",
+          "publisher": "Lincoln Center / Alice Tully Hall",
+          "checked_on": "2026-08-31",
+          "note": "Authoritative venue listing confirms October 17, 2026 at 7:30 PM, Alice Tully Hall, the 10th-anniversary framing, Steven Fei Fang and Manhattan Philharmonic, featured artists Lu Siqing, Fang Jinlong, Huo Zun and Cheng Lin, presenting organizations and outside-licensee status."
+        },
+        {
+          "url": "https://tickets.lincolncenter.org/en/syos/performance/33414",
+          "publisher": "Lincoln Center Ticketing",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket destination linked directly from the Alice Tully Hall event page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-and-authorized-sources",
+        "note": "Core event facts are verified from Alice Tully Hall's official Lincoln Center listing and its authorized ticket link. Because Lincoln Center labels this an outside-licensee event, the provenance does not claim Lincoln Center as artistic presenter. Repository searches for the event title, Lu Siqing, Fang Jinlong, Alice Tully Hall and the proposed stable ID found no matching RADAR record before publication. Unnamed additional performers and repertoire were left unresolved rather than inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The admission case is the instrumental and cultural architecture of the night: a 10th-anniversary gala placing Lu Siqing's violin and Fang Jinlong's pipa inside the same orchestral frame, with Chinese vocalists and a program explicitly built around East-West exchange. That combination gives the concert a specific reason to be on RADAR beyond the prestige of Alice Tully Hall.",
+          "trip_verdict": "If a New York trip overlaps October 17, actively make room for it. From the DMV, I would want the full published program before making this the sole reason for a dedicated trip, but it can anchor a strong New York music weekend.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón para meterla al RADAR está en la arquitectura instrumental y cultural de la noche: una gala de décimo aniversario que pone el violín de Lu Siqing y la pipa de Fang Jinlong dentro del mismo marco orquestal, junto con voces chinas y un programa planteado explícitamente como intercambio entre Oriente y Occidente. Esa combinación le da una razón concreta para estar aquí más allá del prestigio de Alice Tully Hall.",
+          "trip_verdict": "Si un viaje a Nueva York coincide con el 17 de octubre, sí le haría espacio activamente. Desde el DMV preferiría ver el programa completo antes de convertirla en la única razón de un viaje dedicado, pero puede ser un ancla muy buena para un fin de semana musical en Nueva York.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
