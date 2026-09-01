@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "shibuya-kikuchi-unplugged-totsuka-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered KEYSTONE CLUB TOKYO, BODY&SOUL, ALFIE traces, Space M&A leads, and current Japanese-jazz schedule sources; the Yamamoto dates that resurfaced were already represented in curated/processed intake, so none were duplicated. The broader Greater Tokyo/Kanto pass found one unrepresented performance that clears Stage 1 for specific reasons: Keiichiro Shibuya and Naruyoshi Kikuchi reunite in this piano-saxophone configuration for the first time since 2017, and Sakura Plaza states that a newly written work is planned. Stage 2 assigns S only after a separate scarcity challenge. The concrete non-recurring facts are the nine-year gap in this exact duo configuration, the one-night presentation, and the planned new work. A+ would understate the genuine-regret-if-missed character if a Kanto stay overlaps the date; S+ would overstate it because the event is a rare reunion, not a singular historical milestone. Recent September 1 intake remains centered on A and A+ (the most recent published candidates before this pass were High Zero A+, Home Rule A+, Erena Terakubo A, with one S for the Suntory Hall 40th-anniversary Yo-Yo Ma engagement), so this batch adds one S and no S+ without using distribution as a quota.",
+  "events": [
+    {
+      "id": "keiichiro-shibuya-naruyoshi-kikuchi-unplugged-totsuka-2026-10-17",
+      "artist": "Keiichiro Shibuya + Naruyoshi Kikuchi",
+      "subtitle": "UNPLUGGED — first duo performance in this configuration since 2017",
+      "dates": {
+        "start": "2026-10-17",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "totsuka-sakura-plaza-yokohama",
+        "name": "Totsuka Civic Cultural Center Sakura Plaza — Hall",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "S",
+      "category": "Japanese experimental / piano-saxophone reunion / new work",
+      "genres": [
+        "Contemporary music",
+        "Experimental music",
+        "Jazz",
+        "Cross-genre"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Keiichiro Shibuya — piano",
+        "Naruyoshi Kikuchi — saxophone"
+      ],
+      "factual_description": "Totsuka Civic Cultural Center Sakura Plaza presents UNPLUGGED Keiichiro Shibuya + Naruyoshi Kikuchi on Saturday, October 17, 2026. Doors open at 18:00 and the approximately 120-minute performance begins at 18:30, with an intermission. Sakura Plaza states that Shibuya and Kikuchi will perform works from their respective catalogs and play together in session, and that a newly written work is planned. The presenter identifies this as the first performance by the pair in this configuration since 2017, a gap of nine years. The announced ticket categories are ¥3,000 general, ¥2,500 Yokohama resident, ¥1,500 EX limited-view/auxiliary seating, and ¥1,000 student.",
+      "links": {
+        "official_event": "https://totsuka.hall-info.jp/event/ShibuyaKikuchi.html",
+        "official_tickets": "https://www.confetti-web.com/events/14680"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 1000,
+          "maximum": 3000,
+          "source_url": "https://totsuka.hall-info.jp/event/ShibuyaKikuchi.html",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The presenter page verifies the date, doors/start time, duration, venue, two-person lineup, nine-year reunion framing, planned new work, ticket categories, and authorized online ticket route. No Apple Music destination was added without an exact verified match."
+      },
+      "sources": [
+        {
+          "url": "https://totsuka.hall-info.jp/event/ShibuyaKikuchi.html",
+          "publisher": "Totsuka Civic Cultural Center Sakura Plaza",
+          "checked_on": "2026-09-01",
+          "note": "Primary presenter page verifies October 17, 2026; 18:00 doors / 18:30 start; approximately 120 minutes with intermission; Keiichiro Shibuya on piano and Naruyoshi Kikuchi on saxophone; first performance in this configuration since 2017; planned newly written work; venue; ticket categories; and current authorized sales routes."
+        },
+        {
+          "url": "https://totsuka.hall-info.jp/onlineticket.html",
+          "publisher": "Totsuka Civic Cultural Center Sakura Plaza",
+          "checked_on": "2026-09-01",
+          "note": "Primary ticket-service page confirms that the October 17 UNPLUGGED performance is currently offered through Sakura Plaza's authorized online ticket window and links to the exact Confetti event."
+        },
+        {
+          "url": "https://atak.jp/news/20260629/",
+          "publisher": "ATAK / Keiichiro Shibuya",
+          "checked_on": "2026-09-01",
+          "note": "Primary artist-side announcement independently confirms the October 17 date, 18:00 doors / 18:30 start, Sakura Plaza Hall, Shibuya and Kikuchi personnel, and that this configuration has not performed together since 2017."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core facts come from Sakura Plaza's primary event and ticket-service pages, with Keiichiro Shibuya's ATAK site as independent artist-side confirmation. Repository searches for the Japanese billing, English artist names, UNPLUGGED, Totsuka and the proposed stable event identity found no canonical/curated/processed match before publication. Priority was assigned only after RADAR admission and then challenged separately for scarcity."
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-01",
+        "rationale": "Concrete scarcity: Sakura Plaza states that Keiichiro Shibuya and Naruyoshi Kikuchi have not performed in this piano-saxophone configuration since 2017, making the October 17 engagement a nine-year reunion, and the presenter also states that a newly written work is planned for this one-night program. A+ would understate the genuine-regret-if-missed character of missing the only announced Kanto reunion date when a stay overlaps it. S+ would overstate the claim because the performance is rare and newly created, but not a documented farewell or historically singular milestone."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just two versatile Japanese musicians sharing a bill. Shibuya and Kikuchi are stripping the encounter down to piano and saxophone, returning to a duo configuration they have not used together since 2017, and Sakura Plaza says a newly written work is planned. That makes the night about friction and space between two very different musical languages: Shibuya's composition-and-technology world reduced to the physical piano, and Kikuchi's saxophone voice meeting it without a larger ensemble to absorb the collision.",
+          "trip_verdict": "If a Tokyo/Kanto stay overlaps October 17, protect the evening and go to Totsuka rather than treating Yokohama as an optional add-on. The nine-year gap and planned new work make this the kind of Kanto date worth building the night around.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "No es simplemente un cartel con dos músicos japoneses muy versátiles. Shibuya y Kikuchi reducen el encuentro a piano y saxofón, vuelven a una formación que no compartían desde 2017 y Sakura Plaza anuncia que planean presentar una obra nueva. Eso pone el peso de la noche en el roce y el espacio entre dos lenguajes muy distintos: el mundo de composición y tecnología de Shibuya llevado al piano físico, frente al saxofón de Kikuchi sin una banda grande que amortigüe el choque.",
+          "trip_verdict": "Si una estancia en Tokio/Kanto coincide con el 17 de octubre, protegería la noche y me movería hasta Totsuka en vez de tratar Yokohama como un desvío opcional. Nueve años sin esta formación y una obra nueva planeada hacen que valga construir la velada alrededor de esta fecha.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
