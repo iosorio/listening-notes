@@ -1,0 +1,122 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "erena-terakubo-quartet-ginza-swing-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Current Yamamoto checks surfaced a material lineup correction for the existing October 10 Ginza Swing entry, recorded separately in GitHub issue #2 because the repository's current enrichment contract explicitly forbids core lineup/priority/editorial corrections and no deterministic core-event correction merger is exposed on main. No duplicate Yamamoto event was created. Stage 1 admits this October 26 Erena Terakubo Quartet performance because it is a specific Japan-US jazz thread: a Japanese alto saxophonist whose working base is in the United States returns to Tokyo under her own name with a fully announced Japanese quartet, rather than appearing as a sideman in another project. The artist's official schedule confirms this as part of her seven-date Quartet Tour 2026, and Ginza Swing confirms the exact Tokyo club performance and lineup. Stage 2 assigns A: it is worthy of RADAR and useful to know about or attend if convenient, but the same quartet has additional Japan dates including Shinjuku Pit Inn on October 30 and Asagaya on October 31, so the performance is not treated as scarce. Recent/current intake remains weighted toward A and A+, and this batch adds A 1, A+ 0, S 0, S+ 0 without using distribution as a quota.",
+  "events": [
+    {
+      "id": "erena-terakubo-quartet-ginza-swing-tokyo-2026-10-26",
+      "artist": "Erena Terakubo Quartet",
+      "subtitle": "Quartet Tour 2026",
+      "dates": {
+        "start": "2026-10-26",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "ginza-swing-tokyo",
+        "name": "Ginza Swing",
+        "city": "Chuo-ku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese jazz / Alto saxophone / Japan-US quartet thread",
+      "genres": [
+        "Jazz",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Erena Terakubo — alto saxophone",
+        "Hatsune Hirakura — piano",
+        "Shuji Watanabe — bass",
+        "Hironori Suzuki — drums"
+      ],
+      "factual_description": "Ginza Swing presents the Erena Terakubo Quartet on Monday, October 26, 2026 as part of Terakubo's Quartet Tour 2026. The venue lists doors at 18:00, first set at 19:00 and second set at 20:30, with Erena Terakubo on saxophone, Hatsune Hirakura on piano, Shuji Watanabe on bass and Hironori Suzuki on drums. Ginza Swing lists ¥6,000 web advance and ¥6,500 day-of admission and says general TicketPay sales begin September 15 at 12:00. Terakubo's official schedule independently confirms the October 26 Ginza Swing date, 19:00 start and exact quartet, and shows the same quartet continuing to Osaka, Kyoto, Nagoya, Shinjuku and Asagaya.",
+      "links": {
+        "official_event": "https://ginzaswing.jp/20261026-2/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 6000,
+          "maximum": 6500,
+          "source_url": "https://ginzaswing.jp/20261026-2/",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Erena Terakubo",
+          "title": "ABSOLUTELY LIVE!(Complete Edition)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/absolutely-live-complete-edition/1634383361"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact venue event page verifies date, doors, both set times, lineup and official advance/day-of prices. Ginza Swing says general TicketPay sales begin September 15 at 12:00, but no exact event-specific authorized purchase destination is exposed yet, so official_tickets remains null. The exact Apple Music album destination is verified."
+      },
+      "sources": [
+        {
+          "url": "https://ginzaswing.jp/20261026-2/",
+          "publisher": "Ginza Swing",
+          "checked_on": "2026-09-01",
+          "note": "Exact primary venue event page verifies October 26, 2026, Erena Terakubo Quartet billing and all four musicians, 18:00 doors, 19:00 and 20:30 sets, ¥6,000 web advance, ¥6,500 day-of, and September 15 at 12:00 as the announced general-sale time."
+        },
+        {
+          "url": "https://www.jamrice.co.jp/erena/en/schedule/schedule.html",
+          "publisher": "Erena Terakubo official website",
+          "checked_on": "2026-09-01",
+          "note": "Primary artist schedule independently verifies the October 26 Ginza Swing date at 19:00 and the exact quartet of Terakubo, Hatsune Hirakura, Shuji Watanabe and Hironori Suzuki; it also documents the surrounding Quartet Tour 2026 dates used to assess scarcity."
+        },
+        {
+          "url": "https://music.apple.com/us/album/absolutely-live-complete-edition/1634383361",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-01",
+          "note": "Exact Apple Music album destination for the recommended Erena Terakubo listening."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core event facts are verified against Ginza Swing's exact event page and Erena Terakubo's official schedule. Repository searches for Terakubo and the Quartet Tour found existing RADAR appearances by Terakubo in other projects but no October 26 Ginza Swing candidate or processed event before publication. The exact Apple Music album link is used only for recommended listening. Priority was assigned only after RADAR admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Terakubo is already moving through RADAR in other bands; this date puts the alto saxophone at the center under her own name. A Japanese player whose career is rooted in the U.S. returns with a compact quartet of current Japanese musicians, making the set a clean Japan–New York bridge rather than another guest appearance. The interest is in her phrasing, repertoire and bandleading when the ensemble is hers.",
+          "trip_verdict": "If October 26 is open in Tokyo, this is a good Monday-night club choice, especially if the alto-saxophone and Japan–U.S. jazz thread is pulling the trip. Keep the wider Kanto itinerary flexible, though: the same quartet reaches Shinjuku later that week.",
+          "listen_before": "Erena Terakubo — ABSOLUTELY LIVE!(Complete Edition)"
+        },
+        "es": {
+          "why_it_matters": "Terakubo ya aparece en el RADAR dentro de otras bandas; aquí el sax alto queda al centro bajo su propio nombre. Una música japonesa cuya carrera se ha desarrollado en Estados Unidos vuelve con un cuarteto compacto de músicos japoneses actuales, de modo que la fecha funciona como un puente limpio Japón–Nueva York y no como otra participación de invitada. El interés está en escuchar su fraseo, su repertorio y su manera de dirigir cuando el ensamble es suyo.",
+          "trip_verdict": "Si el 26 de octubre está libre en Tokio, es una buena elección para la noche del lunes, sobre todo si el hilo del sax alto y el cruce Japón–Estados Unidos está jalando el viaje. Mantendría flexible el resto del itinerario por Kanto: el mismo cuarteto llega a Shinjuku unos días después.",
+          "listen_before": "Erena Terakubo — ABSOLUTELY LIVE!(Complete Edition)"
+        }
+      }
+    }
+  ]
+}
