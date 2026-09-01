@@ -1,0 +1,205 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "junko-moriya-k8a-yokohama-dc-2026-08-31-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks covered Tsuyoshi Yamamoto at Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A/Keystone traces, and credible Japanese-jazz sources. The September 6 and September 9 BODY&SOUL appearances and other Yamamoto dates returned by the pass are already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. Two unrepresented performances clear Stage 1 for performance-specific reasons. Junko Moriya Trio with TOKU at Mizuki Hall is a dedicated Miles Davis centennial program with a documented trio-plus-flugelhorn/voice configuration; K8A at Rhizome DC presents Kaethe Hostetter's solo violin/live-looping/electronics work shaped by more than a decade immersed in Ethiopian music, with Ethiopian artist Andy Betezema opening. Stage 2 assigns A to both after admission. Each is clearly worth knowing about and attending if convenient, but neither requires active-priority or scarcity language: Moriya/TOKU is a themed hall concert within an active Japanese-jazz ecosystem, and K8A is an ongoing solo project already premiered at Roulette earlier in 2026. Recent/current RADAR output was reviewed as a sanity check; this batch adds A 2 / A+ 0 / S 0 / S+ 0 and does not invoke the scarcity-review gate.",
+  "events": [
+    {
+      "id": "junko-moriya-trio-toku-mizuki-hall-yokohama-2026-09-05",
+      "artist": "Junko Moriya Trio feat. TOKU",
+      "subtitle": "JAZZ Masterpiece Concert Vol.3 — Miles Davis 100th Anniversary / Echoes of Miles",
+      "dates": {
+        "start": "2026-09-05",
+        "end": null
+      },
+      "showtimes": [
+        "16:00"
+      ],
+      "venue": {
+        "id": "mizuki-hall-yokohama",
+        "name": "Yokohama City Kohoku Ward Cultural Center Mizuki Hall",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Yokohama",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese jazz / Miles Davis centennial repertoire / trio plus flugelhorn and voice",
+      "genres": [
+        "Jazz",
+        "Modern Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Junko Moriya — piano",
+        "Daiki Yasukagawa — bass",
+        "Juasa Kanoh — drums",
+        "TOKU — flugelhorn, voice; special guest"
+      ],
+      "factual_description": "Yokohama City Kohoku Ward Cultural Center Mizuki Hall presents JAZZ Masterpiece Concert Vol.3 on Saturday, September 5, 2026 as a Miles Davis 100th Anniversary concert. Doors are at 15:30 and the concert begins at 16:00. The official venue page lists Junko Moriya on piano, Daiki Yasukagawa on bass, Juasa Kanoh on drums, and TOKU as special guest on flugelhorn and voice. Moriya's official site also lists the date as Junko Moriya Trio + TOKU / Echoes of Miles. Reserved admission is ¥3,000 general and ¥2,000 for U-25. The venue identifies itself as Yokohama City Kohoku Ward Cultural Center Mizuki Hall, at Shin-Tsunashima Square in Kohoku Ward, Yokohama.",
+      "links": {
+        "official_event": "https://www.mizkie-hall.com/events/event/%E3%80%90%E3%83%9F%E3%82%BA%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%BB%E5%82%AC%E3%80%91jazz-masterpiece-concert-vol-3/",
+        "official_tickets": "https://t.pia.jp/pia/event/event.do?eventCd=2612625"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Junko Moriya Orchestra",
+          "title": "Moving Onward",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/moving-onward/1818251561"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Date, doors, start time, venue identity, full announced lineup, Miles Davis centennial framing, reserved ticket prices and authorized Ticket Pia destination are verified. The exact Apple Music destination for Junko Moriya Orchestra's Moving Onward is also verified. No unannounced repertoire beyond the stated Miles Davis centennial / Echoes of Miles framing is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.mizkie-hall.com/events/event/%E3%80%90%E3%83%9F%E3%82%BA%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%BB%E5%82%AC%E3%80%91jazz-masterpiece-concert-vol-3/",
+          "publisher": "Yokohama City Kohoku Ward Cultural Center Mizuki Hall",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page verifies September 5, 15:30 doors, 16:00 start, Miles Davis 100th Anniversary framing, full Moriya Trio + TOKU lineup, ¥3,000 general / ¥2,000 U-25 reserved pricing, venue identity/address and the authorized Ticket Pia link."
+        },
+        {
+          "url": "https://www.junkomoriya.com/",
+          "publisher": "Junko Moriya",
+          "checked_on": "2026-08-31",
+          "note": "Official artist site independently lists the September 5 Mizuki Hall performance as Junko Moriya Trio + TOKU / Echoes of Miles and confirms the trio personnel and guest."
+        },
+        {
+          "url": "https://music.apple.com/us/album/moving-onward/1818251561",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music page for Junko Moriya Orchestra's 2025 album Moving Onward."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts and the anniversary/repertoire framing were verified from Mizuki Hall and Junko Moriya's official site; the Ticket Pia destination was followed from the official venue page. Repository-wide searches for Junko Moriya, TOKU, Mizuki Hall, Echoes of Miles and the September 5 date returned no matching canonical, curated or processed event before publication. Priority A was assigned only after Stage 1 admission: the specific centennial program and instrumental configuration warrant RADAR inclusion, while the event does not present the scarcity or unusually forceful recommendation needed for A+ or above."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The centennial theme gives this date a concrete musical argument: Moriya's piano trio is joined by TOKU on flugelhorn and voice for a program explicitly built around Miles Davis at 100. That combination keeps the reference point recognizable while leaving room for a Japanese small-group language of its own, with the flugelhorn carrying the instrumental identity rather than turning the night into a generic tribute.",
+          "trip_verdict": "If September 5 overlaps with Yokohama or a flexible Tokyo day, this is worth building into the afternoon if it fits naturally. I would keep it visible as a strong Kanto option rather than reorganize a limited Tokyo itinerary around it.",
+          "listen_before": "Junko Moriya Orchestra — Moving Onward"
+        },
+        "es": {
+          "why_it_matters": "El centenario le da a esta fecha un argumento musical concreto: el trío de piano de Moriya suma a TOKU en fliscorno y voz para un programa planteado explícitamente alrededor de los cien años de Miles Davis. La combinación conserva reconocible el punto de partida pero deja espacio para un lenguaje propio de pequeño grupo japonés, con el fliscorno como identidad instrumental y no como simple decoración de un tributo genérico.",
+          "trip_verdict": "Si el 5 de septiembre coincide con Yokohama o con un día flexible en Tokio, vale incorporarlo a la tarde si embona naturalmente. Lo mantendría visible como una buena opción en Kanto sin reordenar por él un itinerario limitado en Tokio.",
+          "listen_before": "Junko Moriya Orchestra — Moving Onward"
+        }
+      }
+    },
+    {
+      "id": "k8a-andy-betezema-rhizome-dc-2026-09-25",
+      "artist": "K8A / Andy Betezema",
+      "subtitle": "Secret Planet presents K8A's Woradj Alle / Impressions of Ethiopia solo language",
+      "dates": {
+        "start": "2026-09-25",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Ethiopian-influenced experimental violin / live electronics / DMV cultural exchange",
+      "genres": [
+        "Experimental Music",
+        "Improvised Music",
+        "Ethiopian Music",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "K8A (Kaethe Hostetter) — violin, live looping, electronics",
+        "Andy Betezema — opening set; exact live instrumentation not specified by the venue"
+      ],
+      "factual_description": "Rhizome DC and Secret Planet present K8A / Andy Betezema on Friday, September 25, 2026. Doors are at 19:00 and music begins at 19:30, with a $15-$25 sliding-scale ticket. Rhizome describes K8A, the solo project of violinist Kaethe Hostetter, as a performance language for violin, live looping and electronics that reimagines Ethiopian songs through psychedelic texture, dub-inflected delay and extended string techniques. Hostetter's official biography says Woradj Alle (Impressions of Ethiopia for Solo Violin and Electronics) grew from more than a decade living, studying, performing and collaborating with musicians in Addis Ababa. Rhizome bills Andy Betezema for the opening set; his exact instrument for this date is not specified on the venue page. Roulette documents that the same K8A solo project received its multimedia album-release performance in Brooklyn on April 28, 2026, so this DC date is part of an active body of work rather than a one-time premiere.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/9/25/k8a-andy-betezema",
+        "official_tickets": "https://pools.events/event/gkpV6G7R/"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music",
+          "andy_betezema_exact_live_instrumentation"
+        ],
+        "note": "Rhizome and its authorized Pools destination verify date, doors, showtime, price and exact billing. K8A's violin/live-looping/electronics language and Ethiopian source context are corroborated by Hostetter's official biography and Roulette. The venue does not state Andy Betezema's instrument for this specific opening set, so it is not inferred. No exact Apple Music destination for Woradj Alle was found in this pass."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/9/25/k8a-andy-betezema",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue page verifies September 25, 19:00 doors, 19:30 music, $15-$25 pricing, Secret Planet presentation, exact K8A / Andy Betezema billing, and K8A's solo violin/live-looping/electronics framing."
+        },
+        {
+          "url": "https://pools.events/event/gkpV6G7R/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-08-31",
+          "note": "Authorized ticket destination linked directly from the Rhizome event page."
+        },
+        {
+          "url": "https://www.kaethehostetter.com/bio",
+          "publisher": "Kaethe Hostetter",
+          "checked_on": "2026-08-31",
+          "note": "Official artist biography documents K8A as Hostetter's solo project, Woradj Alle as the culmination of more than a decade living and collaborating in Addis Ababa, and the project's violin/electronics and Ethiopian-music basis."
+        },
+        {
+          "url": "https://roulette.org/event/kaethe-hostetter-impressions-of-ethiopia/",
+          "publisher": "Roulette Intermedium",
+          "checked_on": "2026-08-31",
+          "note": "Primary presenter page documents the April 28, 2026 multimedia album-release performance and Roulette residency for the same K8A / Woradj Alle solo project, establishing that the project is active rather than a one-off premiere on September 25."
+        },
+        {
+          "url": "https://www.dominosoundrecords.com/",
+          "publisher": "Domino Sound",
+          "checked_on": "2026-08-31",
+          "note": "Official label site lists K8A's Woradj Alle and describes it as Impressions of Ethiopia for solo violin and electronics, based on Hostetter's years living in Addis Ababa."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts were verified from Rhizome DC and its authorized ticketing destination; Hostetter, Roulette and Domino Sound provide first-party context for the solo project and its Ethiopian source material. Repository-wide searches for K8A, Kaethe Hostetter, Andy Betezema, the exact billing and the September 25 Rhizome date found no matching canonical, curated or processed event before publication. Priority A was assigned only after Stage 1 admission: the specific cultural transmission and solo instrumental design make the date unusually relevant to Listening Notes, while an active post-release project does not require A+ urgency or scarcity language."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Hostetter turns a long period of musical life in Ethiopia into a solo instrument rather than a genre label: violin, looping and electronics carry Ethiopian melodic material through dub space, psychedelic texture and improvisation. The opening by Ethiopian artist Andy Betezema gives the Washington date an additional DMV connection without pretending the two sets are a collaboration. It is a small-room night about how instrumental technique can hold memory, place and cultural exchange at once.",
+          "trip_verdict": "If Friday is open in the DMV, Rhizome is an easy night to keep on the calendar, especially if the Ethiopian and experimental threads are pulling. I would not reshape a regional itinerary around it, but it is exactly the kind of local discovery worth catching when convenient.",
+          "listen_before": "K8A — Woradj Alle"
+        },
+        "es": {
+          "why_it_matters": "Hostetter convierte una larga etapa de vida musical en Etiopía en un instrumento solista y no en una etiqueta de género: violín, loops y electrónica llevan material melódico etíope por espacios de dub, textura psicodélica e improvisación. La apertura del artista etíope Andy Betezema le añade a la fecha de Washington una conexión local con el DMV sin fingir que ambos sets forman una colaboración. Es una noche de cuarto pequeño sobre cómo la técnica instrumental puede cargar memoria, lugar e intercambio cultural al mismo tiempo.",
+          "trip_verdict": "Si el viernes está libre en el DMV, Rhizome es una noche fácil de mantener en el calendario, sobre todo si están jalando los hilos etíope y experimental. No reordenaría un itinerario regional alrededor de ella, pero es exactamente el tipo de descubrimiento local que vale pescar cuando resulta conveniente.",
+          "listen_before": "K8A — Woradj Alle"
+        }
+      }
+    }
+  ]
+}
