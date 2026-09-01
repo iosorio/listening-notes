@@ -1,0 +1,214 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dc-jazzfest-chuck-brown-harrison-organ-summit-2026-09-01-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and scripts/merge_inbox.py were read before final grading/publication. Current ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule, and Japanese jazz-source checks produced no new unrepresented Tsuyoshi Yamamoto performance; recurring BODY&SOUL and Final Groove dates were already represented in canonical/curated/processed intake. The broader DMV pass found two unrepresented DC JazzFest contexts that clear RADAR admission for event-specific reasons. Chuck Brown Band with special guest Big Chief Donald Harrison is A+ because the festival explicitly frames Harrison as a New Orleans culture keeper engaging with DC's go-go rhythmic tradition in the festival finale; this is actively worth making room for locally, but A+ captures the recommendation without manufacturing scarcity because no farewell, premiere, or historically singular one-off is documented. Organ Summit II is A because the two-organ Charles Covington/Mike LeDonne pairing at Westminster puts Hammond B-3 identity, groove, and a longstanding DC jazz setting at the center of the event, while the 'Vol. 2' framing and regular Friday Jazz Night context argue against urgency inflation. Recent/current intake reviewed in this pass remains weighted toward A/A+, with S uncommon and S+ exceptional; these assignments preserve that shape without using it as a quota. This automation performed its own editorial check and does not claim independent Codex or human review.",
+  "events": [
+    {
+      "id": "chuck-brown-band-donald-harrison-dc-jazzfest-2026-09-06",
+      "artist": "The Chuck Brown Band with special guest Big Chief Donald Harrison",
+      "subtitle": "DC JazzFest grand finale — DC go-go meets Afro-New Orleans jazz lineage",
+      "dates": {
+        "start": "2026-09-06",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "district-pier-the-wharf-washington-dc",
+        "name": "District Pier at The Wharf",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "DMV go-go / New Orleans culture / Jazz-funk cultural exchange",
+      "genres": [
+        "Go-go",
+        "Jazz",
+        "Funk",
+        "Afro-New Orleans"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "The Chuck Brown Band — billed ensemble; exact September 6 personnel not listed in the sources checked",
+        "Big Chief Donald Harrison — alto saxophone; special guest soloist"
+      ],
+      "factual_description": "DC Jazz Festival's official 2026 lineup bills The Chuck Brown Band with special guest NEA Jazz Master Big Chief Donald Harrison for Sunday, September 6, 2026. DCJF identifies Harrison as an alto saxophonist and New Orleans culture keeper and states that he will appear as a special guest soloist with the Chuck Brown Band to engage with DC's go-go rhythmic tradition. DCJF's festival announcement describes the pairing as the grand finale. The Chuck Brown Band's official event page places the performance at District Pier, 101 District Square SW, Washington, DC. The official DC JazzFest Wharf page gives the September 5-6 festival window as noon-10:00 PM but does not expose this set's exact time. The Chuck Brown Band schedule index currently displays a 9:00 AM calendar value while its event-specific page omits the time; because that value conflicts with the official festival window, it is not treated as a verified set time and showtimes remains empty pending an authoritative stage schedule.",
+      "links": {
+        "official_event": "https://www.dcjazzfest.org/lineup-2026",
+        "official_tickets": "https://www.dcjazzfest.org/event-details/dcjazzfest26"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chuck Brown & The Soul Searchers",
+          "title": "Go Go Swing Live",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/go-go-swing-live/447726671"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact_set_time"
+        ],
+        "note": "Artist, special-guest role, date, District Pier venue identity, festival context, and official ticket destination are verified from primary sources. Exact set time is intentionally left unfilled because the official DCJF page exposes only the festival-wide noon-10:00 PM window and the Chuck Brown Band site has a conflicting list-view calendar value that its event page does not repeat. The exact Apple Music page for Chuck Brown & The Soul Searchers' Go Go Swing Live was already verified in current repository enrichment and is reused without inventing a new identifier."
+      },
+      "sources": [
+        {
+          "url": "https://www.dcjazzfest.org/lineup-2026",
+          "publisher": "DC Jazz Festival",
+          "checked_on": "2026-09-01",
+          "note": "Official lineup verifies September 6 billing, Donald Harrison as NEA Jazz Master/alto saxophonist/New Orleans culture keeper, and his role as special guest soloist with the Chuck Brown Band engaging DC's go-go tradition."
+        },
+        {
+          "url": "https://www.dcjazzfest.org/post/dc-jazzfest-2026-brings-five-days-of-world-class-jazz-across-the-nation-s-capital",
+          "publisher": "DC Jazz Festival",
+          "checked_on": "2026-09-01",
+          "note": "Official festival announcement identifies the Chuck Brown Band/Big Chief Donald Harrison pairing as the September 6 grand finale."
+        },
+        {
+          "url": "https://www.dcjazzfest.org/event-details/dcjazzfest26",
+          "publisher": "DC Jazz Festival",
+          "checked_on": "2026-09-01",
+          "note": "Official Wharf event page verifies the September 5-6 festival at The Wharf, noon-10:00 PM, and current official ticket options; it does not expose the individual Chuck Brown/Harrison set time."
+        },
+        {
+          "url": "https://windmeupchuck.com/event/6517111/758045760/chuck-brown-band-live-dc-jazz-fest",
+          "publisher": "The Chuck Brown Band",
+          "checked_on": "2026-09-01",
+          "note": "Official artist event page verifies Sunday September 6 and District Pier, 101 District Square SW, Washington, DC. The event-specific page omits an exact set time."
+        },
+        {
+          "url": "https://music.apple.com/us/album/go-go-swing-live/447726671",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-01",
+          "note": "Exact Apple Music page for Chuck Brown & The Soul Searchers' Go Go Swing Live, previously verified in repository enrichment and rechecked for this candidate."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Primary DC Jazz Festival and Chuck Brown Band sources establish the date, billing, special-guest role, District Pier venue, and festival-finale context. Repository searches for the proposed stable ID, Chuck Brown, and Donald Harrison found no existing canonical/curated/processed record for this September 6 pairing before publication; a separate November 28 Chuck Brown Band/E.U. event remains distinct. Exact September 6 band personnel and exact set time were not inferred. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This belongs because two place-based Black musical traditions are being asked to speak to each other on a DC stage. The Chuck Brown Band carries the continuous pocket and call-and-response grammar of go-go; Donald Harrison arrives not merely as a guest saxophonist but as a New Orleans culture keeper, with DCJF explicitly framing him as a soloist entering that rhythmic language. The hook is the collision of DC groove and Afro-New Orleans lineage in the festival finale, not the fame of either name.",
+          "trip_verdict": "Actively make room for it if you are in the DMV: the hometown setting is part of the musical meaning, and this is the sort of festival collaboration worth catching in Washington rather than reading about afterward. I would not build a corridor trip solely around it, because the special billing is compelling without being documented as a farewell, premiere, or historically singular one-off.",
+          "listen_before": "Chuck Brown & The Soul Searchers — Go Go Swing Live"
+        },
+        "es": {
+          "why_it_matters": "Entra porque aquí se encuentran dos tradiciones negras profundamente ligadas a su ciudad. The Chuck Brown Band lleva el pulso continuo, la llamada y respuesta y la lógica rítmica del go-go; Donald Harrison llega no sólo como saxofonista invitado, sino como guardián de una tradición de Nueva Orleans, y el propio festival lo presenta entrando como solista al lenguaje rítmico de DC. El punto es ese cruce entre groove washingtoniano y linaje afro-neoorleanés en el cierre del festival, no el peso de los nombres por separado.",
+          "trip_verdict": "Si estás en el DMV, sí le haría espacio activamente: tocar esta música en Washington forma parte de lo que hace especial al encuentro. No armaría un viaje por el corredor únicamente por esta fecha, porque el cartel es inusual y muy atractivo, pero no está documentado como despedida, estreno o momento históricamente irrepetible.",
+          "listen_before": "Chuck Brown & The Soul Searchers — Go Go Swing Live"
+        }
+      }
+    },
+    {
+      "id": "organ-summit-ii-covington-ledonne-westminster-dc-2026-09-04",
+      "artist": "Charles Covington & Mike LeDonne with Dave Manley and Lenny Robinson",
+      "subtitle": "DC JazzFest — Organ Summit II / B-3 Summit Vol. 2",
+      "dates": {
+        "start": "2026-09-04",
+        "end": null
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "westminster-presbyterian-church-washington-dc",
+        "name": "Westminster Presbyterian Church",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Hammond B-3 / DMV jazz institution / Instrumental identity",
+      "genres": [
+        "Jazz",
+        "Soul jazz",
+        "Hammond organ"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Charles Covington — organ",
+        "Mike LeDonne — organ",
+        "Dave Manley — guitar",
+        "Lenny Robinson — drums"
+      ],
+      "factual_description": "Westminster Presbyterian Church's official Jazz Night schedule lists DC JazzFest — Organ Summit II for Friday, September 4, 2026, within its Friday 6:00-9:00 PM Jazz Night, with Charles Covington and Mike LeDonne on organ, Dave Manley on guitar, and Lenny Robinson on drums. The same official schedule states a $10 admission for Friday Jazz Night. DC Jazz Festival's official lineup describes the program as B-3 Summit Vol. 2, identifies Covington as a longtime Howard University and Peabody educator with an extensive performance history, and presents LeDonne as a champion of the Hammond B-3 organ tradition. No additional performers or separate set times were announced in the primary sources checked.",
+      "links": {
+        "official_event": "https://westminsterdc.org/jazz-night-in-dc-schedule",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 10,
+          "maximum": 10,
+          "source_url": "https://westminsterdc.org/jazz-night-in-dc-schedule",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "recommended_listening"
+        ],
+        "note": "Primary venue and festival sources verify the date, 6:00 PM start/6:00-9:00 PM Jazz Night window, complete four-person lineup, venue identity, $10 admission, and Hammond B-3 framing. No exact Apple Music recommendation was added without a separately verified release URL."
+      },
+      "sources": [
+        {
+          "url": "https://westminsterdc.org/jazz-night-in-dc-schedule",
+          "publisher": "Westminster Presbyterian Church",
+          "checked_on": "2026-09-01",
+          "note": "Official venue schedule verifies September 4 Organ Summit II, Friday Jazz Night 6:00-9:00 PM, $10 admission, and the Covington/LeDonne/Manley/Robinson lineup."
+        },
+        {
+          "url": "https://www.dcjazzfest.org/lineup-2026",
+          "publisher": "DC Jazz Festival",
+          "checked_on": "2026-09-01",
+          "note": "Official festival lineup describes B-3 Summit Vol. 2 and documents Charles Covington and Mike LeDonne's organ-centered musical context."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Official Westminster and DC Jazz Festival sources establish the event, date/time, lineup, venue, price, and Hammond B-3 context. Repository searches for Organ Summit II and the proposed stable ID found no canonical, curated, or processed RADAR record before publication. No unannounced musicians, repertoire, or listening links were inferred. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the instrument and the room. Covington and LeDonne put two Hammond-organ voices at the center of a small guitar-and-drums setting inside Westminster's long-running Friday jazz tradition, turning the B-3's sustain, attack, bass movement, and church-to-soul-jazz vocabulary into the subject of the night. That is a specific DMV listening context, not just another festival slot.",
+          "trip_verdict": "If Friday evening is open in the DMV, this is worth dropping into for the organ sound and the Westminster atmosphere. I would keep it as a strong local option rather than reorganizing the weekend around it, especially because the summit is explicitly a second edition rather than a one-time event.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón para entrar es el instrumento y el lugar. Covington y LeDonne ponen dos voces de Hammond al centro de una formación pequeña con guitarra y batería dentro de la tradición de los viernes de jazz de Westminster; el sustain, el ataque, el bajo que construye el órgano y ese puente entre iglesia, soul jazz y groove se vuelven el tema de la noche. Es un contexto de escucha muy de DC, no una fecha genérica de festival.",
+          "trip_verdict": "Si el viernes está libre en el DMV, vale caer por el sonido de los órganos y por la atmósfera de Westminster. Lo dejaría como una opción local muy buena, sin reorganizar el fin de semana alrededor de ella, especialmente porque el propio programa se presenta como una segunda edición y no como un one-off.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
