@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "mari-froes-atlantis-first-north-american-tour-2026-08-31-discovery",
+  "checked_on": "2026-08-31",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources produced no additional verified unrecorded Yamamoto performance requiring a new RADAR record; already represented appearances were not duplicated. Stage 1 admits Mari Froes at The Atlantis for an event-specific cultural-exchange and career-moment reason: the Washington date is part of Froes' first USA/Canada tour and follows her debut Sony/RCA album Esquina do Sol, while the venue itself frames her music through Brazilian Popular Music and Brazilian rhythms. Stage 2 assigns A after admission. This is a meaningful first-North-American-tour local date, but it is one stop in a multi-city September/October run with nearby corridor dates and no verified farewell, one-off lineup, premiere, or other scarcity. A therefore captures the durable recommendation: worth knowing about and attending if convenient without manufacturing urgency. A current sanity check of recent/pending RADAR intake also argues against casual A+ inflation, but the grade is based on this event's own live context rather than a quota. Repository searches for Mari Froes, the September 16 Atlantis combination, and the first-USA/Canada-tour wording returned no matching canonical, curated, or processed entry before publication. Batch distribution: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "mari-froes-atlantis-washington-dc-2026-09-16",
+      "artist": "Mari Froes",
+      "subtitle": "First USA & Canada tour behind Esquina do Sol",
+      "dates": {
+        "start": "2026-09-16",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Brazilian MPB / first North American tour / debut-album live context",
+      "genres": [
+        "MPB",
+        "Brazilian Popular Music"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Mari Froes"
+      ],
+      "factual_description": "The Atlantis presents Brazilian singer-songwriter Mari Froes on Wednesday, September 16, 2026 in Washington, DC. The venue lists doors at 6:30 PM and currently marks the show sold out; no separate stage time or face-value ticket price was verified in the current primary/authorized sources, so those are not inferred. The Atlantis describes Froes as inspired by Brazilian Popular Music and navigating Brazilian rhythms, and identifies the September-October 2026 run as her first tour in the USA and Canada. Current Sony Music information confirms that her debut album Esquina do Sol was released July 31, 2026 via RCA/Sony, correcting the venue's older pre-release copy that had projected a June release. Ticketmaster's authorized event page confirms the September 16 date, The Atlantis, Washington, DC, and a 6:30 PM event listing; because The Atlantis separately identifies 6:30 PM as doors and notes that door/set times are subject to change, RADAR leaves showtimes empty rather than treating the door time as a verified stage time.",
+      "links": {
+        "official_event": "https://theatlantis.com/e/mari-froes/",
+        "official_tickets": "https://www.ticketmaster.com/mari-froes-washington-district-of-columbia-09-16-2026/event/150064BD91C88833"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/mari-froes-washington-district-of-columbia-09-16-2026/event/150064BD91C88833",
+          "checked_on": "2026-08-31"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Mari Froes",
+          "title": "Esquina do Sol",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/esquina-do-sol/6783835265"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "verified_stage_time",
+          "face_value_ticket_price",
+          "backing_lineup"
+        ],
+        "note": "The exact venue page, authorized Ticketmaster event page, Sony Music album announcement, and Apple Music album page verify the core event/career context. A 6:30 PM door time is verified, but no separate stage time is inferred; no face-value price or backing personnel are invented. The venue's older copy projected the Sony album for June, while Sony Music and Apple Music confirm the actual July 31, 2026 release of Esquina do Sol."
+      },
+      "sources": [
+        {
+          "url": "https://theatlantis.com/e/mari-froes/",
+          "publisher": "The Atlantis / I.M.P.",
+          "checked_on": "2026-08-31",
+          "note": "Primary venue event page verifies September 16, 2026, Mari Froes billing, sold-out status, Brazilian Popular Music/Brazilian-rhythm framing, and the first USA & Canada tour context. The venue's current schedule separately lists 6:30 PM doors."
+        },
+        {
+          "url": "https://www.ticketmaster.com/mari-froes-washington-district-of-columbia-09-16-2026/event/150064BD91C88833",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-08-31",
+          "note": "Authorized purchase/event destination linked by The Atlantis confirms Wednesday, September 16, 2026, The Atlantis in Washington, DC, and a 6:30 PM event listing. RADAR does not treat that as a separate stage time because the venue labels 6:30 PM as doors."
+        },
+        {
+          "url": "https://sonymusic.pt/mari-froes-anuncia-novo-album-esquina-do-sol-com-data-de-lancamento-a-31-de-julho/",
+          "publisher": "Sony Music Portugal",
+          "checked_on": "2026-08-31",
+          "note": "Primary label source identifies the debut album as Esquina do Sol and gives its release date as July 31, 2026."
+        },
+        {
+          "url": "https://music.apple.com/us/album/esquina-do-sol/6783835265",
+          "publisher": "Apple Music",
+          "checked_on": "2026-08-31",
+          "note": "Exact Apple Music destination verifies Mari Froes' Esquina do Sol, released July 31, 2026, and provides the durable pre-show listening link."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts are verified from The Atlantis and its authorized Ticketmaster destination; current album title/date are verified from Sony Music and Apple Music. Repository searches for Mari Froes, September 16 + Atlantis, and the first-USA/Canada-tour context returned no matching RADAR entry before publication. The venue's stale projected June album date is not copied into the factual record because the label and Apple Music now document the actual July 31 release. No price, backing personnel, or separate stage time is inferred. Priority was assigned only after Stage 1 admission and remains A because the first-North-American-tour context is meaningful but the date is one stop in a broad run rather than a scarce or terminal live moment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the crossing point: a young Brazilian voice rooted in MPB and Brazilian rhythm reaches Washington on her first North American tour just after a debut album turns that identity into a full-length statement. In a small room like The Atlantis, that makes this more than a generic tour stop and gives RADAR a useful snapshot of contemporary Brazilian music arriving in the DMV.",
+          "trip_verdict": "If legitimate face-value access reappears and the Wednesday is open, this is worth catching locally. The tour continues through the corridor immediately afterward, so there is no reason to chase unverified resale or build a separate regional trip around the Washington sellout.",
+          "listen_before": "Mari Froes — Esquina do Sol"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el cruce: una voz brasileña joven, arraigada en la MPB y los ritmos de Brasil, llega a Washington en su primera gira norteamericana justo después de convertir esa identidad en un álbum debut de larga duración. En una sala pequeña como The Atlantis, la fecha deja de ser una parada genérica de gira y se vuelve una buena fotografía de música brasileña contemporánea entrando al DMV.",
+          "trip_verdict": "Si reaparece acceso legítimo a precio oficial y el miércoles está libre, vale la pena aprovecharlo como plan local. La gira sigue de inmediato por el corredor, así que no perseguiría reventa sin verificar ni armaría un viaje regional separado alrededor del sold out de Washington.",
+          "listen_before": "Mari Froes — Esquina do Sol"
+        }
+      }
+    }
+  ]
+}
