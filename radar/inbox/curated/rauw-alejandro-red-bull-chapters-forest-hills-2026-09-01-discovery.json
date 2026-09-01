@@ -1,0 +1,129 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "rauw-alejandro-red-bull-chapters-forest-hills-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks covered Tsuyoshi Yamamoto at Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A leads, and credible Japanese-jazz sources. No new verified Yamamoto appearance absent from canonical/curated/processed intake was found. The broader US-corridor pass found Rauw Alejandro's Red Bull Chapters at Forest Hills Stadium on September 5-6, 2026. Repository searches for Rauw Alejandro, Forest Hills Stadium, and the proposed stable ID returned no matching RADAR candidate before publication. Stage 1 admission rests on the event-specific live context: the global debut of Red Bull's three-act Chapters format is built around Alejandro's artistic biography, Puerto Rican roots, visual storytelling, dance/performance identity, and cross-genre movement between reggaeton, Latin R&B, electronic music, pop, salsa and Caribbean references, with New York explicitly framed by the artist as his second home. Stage 2 assigns A+: actively worth making room for if New York is already in play. The event now has two performances and is a branded new-format showcase rather than a farewell, premiere of a unique musical work, or another context whose nonattendance would clearly justify the scarcity tiers. Proposed distribution for this batch is A 0, A+ 1, S 0, S+ 0. Recent/current curated intake reviewed in this pass continues to use A/A+ as the working base while keeping S/S+ sparse; the grade was not adjusted to hit a quota. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "rauw-alejandro-red-bull-chapters-forest-hills-2026-09-05",
+      "artist": "Rauw Alejandro",
+      "subtitle": "Red Bull Chapters — global debut",
+      "dates": {
+        "start": "2026-09-05",
+        "end": "2026-09-06"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "forest-hills-stadium-queens-new-york",
+        "name": "Forest Hills Stadium",
+        "city": "Queens",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional trip / New York City",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Latin / immersive live concept / Puerto Rican cultural identity",
+      "genres": [
+        "Reggaeton",
+        "Latin R&B",
+        "Latin pop",
+        "Electronic",
+        "Salsa"
+      ],
+      "musical_axes": [
+        "Latin"
+      ],
+      "lineup": [
+        "Rauw Alejandro"
+      ],
+      "factual_description": "Red Bull Chapters makes its global debut with Rauw Alejandro at Forest Hills Stadium in Queens. Red Bull's official event guide describes the show as a three-act immersive live journey through Alejandro's past, present and future, combining live performance, storytelling, cultural influences and custom production while centering his Puerto Rican roots and artistic evolution. The current Bowery Presents and AXS listings show two performances, Saturday September 5 and Sunday September 6, 2026, both at 7:30 PM; Bowery lists doors at 5:30 PM for each date. No supporting musicians or event-specific face-value price are stored because the verified sources consulted do not publish them in a reliable form.",
+      "links": {
+        "official_event": "https://www.redbull.com/us-en/rauw-alejandro-red-bull-chapters-new-york",
+        "official_tickets": "https://www.axs.com/series/34293/red-bull-chapters-rauw-alejandro-tickets"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Rauw Alejandro",
+          "title": "Cosa Nuestra: Capítulo 0",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/cosa-nuestra-cap%C3%ADtulo-0/1839980812"
+        }
+      ],
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "verified event-specific supporting/touring personnel",
+          "verified official face-value price"
+        ],
+        "note": "The official Red Bull guide verifies the global-debut, three-act immersive concept, September 5 date, Forest Hills Stadium setting, Puerto Rican-roots framing and Alejandro's description of New York as his second home. Bowery Presents and AXS independently verify the current two-date September 5-6 run at 7:30 PM, with Bowery listing 5:30 PM doors. No supporting musicians or face-value price are inferred from secondary or resale listings. The exact Apple Music destination for Cosa Nuestra: Capítulo 0 is verified."
+      },
+      "sources": [
+        {
+          "type": "official_presenter",
+          "name": "Red Bull — Rauw Alejandro headlines first-ever Red Bull Chapters in New York",
+          "url": "https://www.redbull.com/us-en/rauw-alejandro-red-bull-chapters-new-york",
+          "checked_on": "2026-09-01",
+          "note": "Official presenter guide verifies the global debut of Red Bull Chapters, the three-act immersive format, September 5 at Forest Hills Stadium, and the live-storytelling concept centered on Alejandro's Puerto Rican roots, artistic evolution and New York connection."
+        },
+        {
+          "type": "official_promoter",
+          "name": "The Bowery Presents — Red Bull Chapters: Rauw Alejandro",
+          "url": "https://origin.bowerypresents.com/shows/detail/1587794-red-bull-chapters-rauw-alejandro",
+          "checked_on": "2026-09-01",
+          "note": "Authorized promoter listing verifies September 5 and September 6, 2026 at Forest Hills Stadium, both with 5:30 PM doors and 7:30 PM showtimes."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "AXS — Red Bull Chapters: Rauw Alejandro",
+          "url": "https://www.axs.com/series/34293/red-bull-chapters-rauw-alejandro-tickets",
+          "checked_on": "2026-09-01",
+          "note": "Authorized ticketing series page independently lists both September 5 and September 6 performances at Forest Hills Stadium at 7:30 PM."
+        },
+        {
+          "type": "official_music_service",
+          "name": "Apple Music — Cosa Nuestra: Capítulo 0",
+          "url": "https://music.apple.com/us/album/cosa-nuestra-cap%C3%ADtulo-0/1839980812",
+          "checked_on": "2026-09-01",
+          "note": "Exact Apple Music destination for the album; Apple Music describes the project as going deeper into Alejandro's Puerto Rican story and Caribbean musical roots."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Repository searches found no matching Rauw Alejandro or Forest Hills Stadium RADAR event before publication. Stage 1 admission rests on the specific global-debut live format and its Puerto Rican-to-New York cultural framing, not on fame alone. Stage 2 assigns A+: the concept is unusually strong and actively worth prioritizing if New York is in play, while two performances and the absence of a farewell, rare reunion or singular one-night musical occurrence keep it below the scarcity tiers. No prices, supporting musicians or other event facts were inferred where primary/authorized sources did not verify them."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just a stadium stop attached to a tour. Chapters is being launched around Alejandro's own musical biography: Puerto Rico, the move across reggaeton, R&B, electronic and pop languages, and a performance identity where choreography and visual construction are part of the music's meaning. Putting that story in Queens — a city he calls his second home — gives the format a real cultural axis rather than a generic retrospective frame.",
+          "trip_verdict": "If New York is already in play this weekend, make room for one of the two Forest Hills nights. The second performance gives useful flexibility, so there is no reason to sacrifice a genuinely one-off regional date just to force this one into the itinerary.",
+          "listen_before": "Rauw Alejandro — Cosa Nuestra: Capítulo 0"
+        },
+        "es": {
+          "why_it_matters": "Esto no es simplemente otra parada de estadio pegada a una gira. Chapters se estrena alrededor de la propia biografía musical de Alejandro: Puerto Rico, el movimiento entre reggaetón, R&B, electrónica y pop, y una identidad escénica donde la coreografía y la construcción visual forman parte del sentido de la música. Llevar esa historia a Queens —en una ciudad que él llama su segundo hogar— le da al formato un eje cultural real y no el de una retrospectiva genérica.",
+          "trip_verdict": "Si Nueva York ya está en juego este fin de semana, sí le haría espacio a una de las dos noches en Forest Hills. La segunda función da margen suficiente para acomodarla sin sacrificar por fuerza otro one-off verdaderamente irrepetible en el corredor.",
+          "listen_before": "Rauw Alejandro — Cosa Nuestra: Capítulo 0"
+        }
+      }
+    }
+  ]
+}
