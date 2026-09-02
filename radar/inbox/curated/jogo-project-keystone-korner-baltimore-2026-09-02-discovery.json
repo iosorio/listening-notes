@@ -1,0 +1,113 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jogo-project-keystone-korner-baltimore-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; the verified Yamamoto dates surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Stage 1 admits The JoGo Project at Keystone Korner Baltimore because this is a specific DMV cultural thread: a Washington, DC jazz/go-go band founded by saxophonist and Chuck Brown alum Elijah Jamal Balbed returns to the Bmore Loves Go-Go context, previewing new music from a record in progress and revisiting material from its P-Funk and Stevie Wonder programs. Stage 2 assigns A. The musical and regional identity is concrete enough for RADAR, but the active band, recurring Keystone history and lack of a farewell, premiere claim, unique one-off lineup or other scarcity fact make attend-if-convenient behavior more durable than active-prioritization language. Recent/current intake was checked as a sanity test and remains weighted toward A/A+ rather than requiring another scarcity tier. Batch distribution: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "jogo-project-keystone-korner-baltimore-2026-09-02",
+      "artist": "The JoGo Project",
+      "subtitle": "Bmore Loves Go-Go: The Return of JoGo Project",
+      "dates": {
+        "start": "2026-09-02",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore-md",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Baltimore",
+      "status": "considering",
+      "priority": "A",
+      "category": "DC go-go / jazz fusion / DMV cultural context",
+      "genres": [
+        "Go-go",
+        "Jazz",
+        "Funk",
+        "Jazz fusion"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "The JoGo Project"
+      ],
+      "factual_description": "Keystone Korner Baltimore lists Bmore Loves Go-Go: The Return of JoGo Project for Wednesday, September 2, 2026 at 7:00 PM. The Baltimore Jazz Alliance event listing describes the performance as a return to Keystone Korner that will preview new music from a record the band is currently developing and include selections from its JoGo Celebrates P-Funk and Stevie Wonder programs. The same listing identifies The JoGo Project as the Washington, DC jazz-and-go-go fusion band founded in 2014 by saxophonist and Chuck Brown alum Elijah Jamal Balbed. No event-specific sideman roster was published in the sources verified for this pass, so individual personnel are not inferred.",
+      "links": {
+        "official_event": "https://www.keystonekornerbaltimore.com/home",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "event-specific personnel roster",
+          "stable event-specific official ticket URL",
+          "verified live-ticket price",
+          "apple_music"
+        ],
+        "note": "The date, 7:00 PM start, venue, billing, new-music preview and P-Funk/Stevie Wonder program context are verified. The venue exposes ticket/streaming access, but a stable event-specific purchase URL and current live-ticket price were not independently verified in this pass, so neither is invented. No event-specific sidemen are inferred from general band credits."
+      },
+      "sources": [
+        {
+          "url": "https://www.keystonekornerbaltimore.com/home",
+          "publisher": "Keystone Korner Baltimore",
+          "checked_on": "2026-09-02",
+          "note": "Official venue listing verifies Bmore Loves Go-Go: The Return of JoGo Project on September 2, 2026 at 7:00 PM and links to ticket/streaming access."
+        },
+        {
+          "url": "https://www.baltimorejazz.com/event/bmore-loves-go-go-the-return-of-jogo-project-11558/",
+          "publisher": "Baltimore Jazz Alliance",
+          "checked_on": "2026-09-02",
+          "note": "Authoritative local jazz listing verifies the 7:00-8:30 PM event window, Keystone Korner venue, preview of new music from a record in progress, selections from JoGo Celebrates P-Funk and Stevie Wonder, and the band's jazz/go-go and Chuck Brown lineage."
+        },
+        {
+          "url": "https://www.jogoproject.com/",
+          "publisher": "The JoGo Project",
+          "checked_on": "2026-09-02",
+          "note": "Artist-official site verifies The JoGo Project as a Washington, DC jazz/go-go fusion band and documents its continuing DMV performance history."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core date/time/venue/billing facts were verified from Keystone Korner Baltimore and the Baltimore Jazz Alliance, with the artist's official site used for durable band identity. Repository-wide searches for JoGo Project, Bmore Loves Go-Go and the exact September 2 concept returned no matching RADAR record; curated and processed directory listings were also checked for JoGo before publication. Priority was assigned only after Stage 1 admission. A was retained because the return, new-music preview and DMV cultural thread make the performance genuinely worth RADAR attention, while the band's continuing schedule and recurring Keystone history mean A+ active-prioritization language would overstate this particular date."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a real DMV thread rather than a generic club date. Elijah Jamal Balbed built JoGo out of the line that runs from Chuck Brown's jazz-informed go-go language into a younger Washington band writing original music of its own. Bringing that language back to Keystone under the Bmore Loves Go-Go banner, with new material in progress and P-Funk/Stevie Wonder repertoire in the frame, makes the Baltimore date a useful snapshot of how DC groove keeps evolving across the region.",
+          "trip_verdict": "If tonight is open and a Baltimore run is easy, this is worth folding into the evening at Keystone. The music has enough DMV identity to justify the short drive, but I would not displace a harder-to-repeat regional one-off to make it happen.",
+          "listen_before": "The JoGo Project — Keeping the Faith Alive in 2025"
+        },
+        "es": {
+          "why_it_matters": "Aquí sí hay un hilo real del DMV, no otra fecha genérica de club. Elijah Jamal Balbed armó JoGo desde la línea que conecta el go-go con raíz jazzística de Chuck Brown con una banda más joven de Washington que escribe música propia. Llevar ese lenguaje de regreso a Keystone bajo el nombre Bmore Loves Go-Go, con material nuevo en proceso y repertorio de P-Funk y Stevie Wonder dentro del marco, convierte la fecha de Baltimore en una buena fotografía de cómo sigue evolucionando el groove de DC por toda la región.",
+          "trip_verdict": "Si esta noche está libre y Baltimore queda fácil, vale incorporarlo al plan en Keystone. La identidad DMV alcanza para justificar la manejada corta, pero no desplazaría por esto una fecha regional realmente más difícil de repetir.",
+          "listen_before": "The JoGo Project — Keeping the Faith Alive in 2025"
+        }
+      }
+    }
+  ]
+}
