@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "donny-mccaslin-ben-allison-steve-smith-way-out-west-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources produced no additional verified unrepresented Yamamoto performance requiring a new record; already represented appearances were not duplicated. Stage 1 admits Donny McCaslin, Ben Allison and Steve Smith's WAY OUT WEST because the event is a specific Sonny Rollins repertoire project whose tenor-saxophone, bass and drums instrumentation directly echoes the chordless trio documented on Rollins's 1957 Way Out West, giving the performance a concrete instrumental and historical reason beyond artist or venue prestige. Stage 2 assigns A+ after comparing the judgment with the recent/current RADAR shape. The lineup and repertoire concept merit actively making room for a set, while six performances across three nights remove any credible scarcity argument for S. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "donny-mccaslin-ben-allison-steve-smith-way-out-west-birdland-2026-09-11",
+      "artist": "Donny McCaslin, Ben Allison & Steve Smith",
+      "subtitle": "WAY OUT WEST — A Birthday Tribute to Sonny Rollins",
+      "dates": {
+        "start": "2026-09-11",
+        "end": "2026-09-13"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "birdland-theater-new-york",
+        "name": "Birdland Theater",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz / Sonny Rollins repertoire / tenor-bass-drums trio",
+      "genres": [
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Donny McCaslin — tenor saxophone",
+        "Ben Allison — bass",
+        "Steve Smith — drums"
+      ],
+      "factual_description": "Birdland Theater presents Donny McCaslin, Ben Allison and Steve Smith in WAY OUT WEST — A Birthday Tribute to Sonny Rollins from Friday, September 11 through Sunday, September 13, 2026. Birdland lists two sets each night at 7:00 PM and 9:30 PM, with doors at 5:30 PM and 9:00 PM respectively, and lists tickets from $35.46 to $45.76. The announced lineup is Donny McCaslin on tenor saxophone, Ben Allison on bass and Steve Smith on drums. Steve Smith's official schedule identifies the program as Way Out West — The Music of Sonny Rollins and describes the trio as celebrating Rollins's music and enduring influence. Sonny Rollins's official site documents the 1957 Way Out West session with Rollins on tenor saxophone, Ray Brown on bass and Shelly Manne on drums.",
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/donny-mccaslin-ben-allison-steve-smith-way-out-west-a-birthday-tribute-to-sonny-rollins-4/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35.46,
+          "maximum": 45.76,
+          "source_url": "https://www.birdlandjazz.com/tm-event/donny-mccaslin-ben-allison-steve-smith-way-out-west-a-birthday-tribute-to-sonny-rollins-4/",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music",
+          "official_tickets"
+        ],
+        "note": "Birdland's exact event page verifies the date range, both set and door times, price range, venue, billing and lineup. Birdland exposes purchase actions for individual performances, so no single set-specific purchase destination is stored as if it represented all six sets. Steve Smith's official site verifies the three-night run and Sonny Rollins repertoire framing. No Apple Music destination was invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.birdlandjazz.com/tm-event/donny-mccaslin-ben-allison-steve-smith-way-out-west-a-birthday-tribute-to-sonny-rollins-4/",
+          "publisher": "Birdland Jazz Club & Theater",
+          "checked_on": "2026-09-02",
+          "note": "Primary event page verifies September 11-13, 2026; 19:00 and 21:30 sets each night; 17:30 and 21:00 doors; Birdland Theater; $35.46-$45.76 listed ticket range; ages 10+; and McCaslin, Allison and Smith with their announced instruments."
+        },
+        {
+          "url": "https://www.vitalinformation.com/tour.htm",
+          "publisher": "Steve Smith / Vital Information",
+          "checked_on": "2026-09-02",
+          "note": "Steve Smith's official tour page confirms September 11, 12 and 13 at Birdland Theater, two shows per night, the same trio, and the Way Out West — The Music of Sonny Rollins program."
+        },
+        {
+          "url": "https://sonnyrollins.com/way-out-west",
+          "publisher": "Sonny Rollins official website",
+          "checked_on": "2026-09-02",
+          "note": "Official catalog page documents the March 16, 1957 Way Out West session and its tenor-saxophone, bass and drums personnel: Sonny Rollins, Ray Brown and Shelly Manne."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Core event facts were verified against Birdland and Steve Smith's official sources; Sonny Rollins's official site verifies the 1957 trio-format reference. Searches across the canonical dataset and repository inbox/processed records found no matching WAY OUT WEST Birdland 2026 record before publication. Priority was assigned only after Stage 1 admission. A+ was retained after the current/recent distribution sanity check because the repertoire concept and trio architecture merit active prioritization, while six sets across three nights make a scarcity tier inappropriate."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The title and instrumentation make this more specific than a generic standards tribute. McCaslin, Allison and Smith work in the same exposed tenor-bass-drums architecture documented on Rollins's 1957 Way Out West, putting rhythmic conversation and improvisational space at the center. With three players who can carry that openness without a chordal instrument, the lineage is audible in the setup before a note of repertoire is chosen.",
+          "trip_verdict": "If a New York trip intersects September 11-13, actively make room for one set at Birdland. Six performances across three nights give enough flexibility to fit it around the rest of the trip rather than reorganize the regional itinerary around a single scarce slot.",
+          "listen_before": "Sonny Rollins — Way Out West"
+        },
+        "es": {
+          "why_it_matters": "El título y la instrumentación vuelven este homenaje mucho más específico que otra noche de standards. McCaslin, Allison y Smith retoman la misma arquitectura expuesta de saxo tenor, bajo y batería documentada en Way Out West de Rollins en 1957, dejando el diálogo rítmico y el espacio de improvisación en primer plano. Con tres músicos capaces de sostener esa apertura sin instrumento armónico, el linaje se escucha desde la propia formación antes de saber qué temas tocarán.",
+          "trip_verdict": "Si un viaje a Nueva York coincide con el 11-13 de septiembre, sí le haría espacio activamente a uno de los sets en Birdland. Seis funciones en tres noches dan suficiente flexibilidad para acomodarlo dentro del viaje sin reorganizar todo el itinerario regional alrededor de un solo horario escaso.",
+          "listen_before": "Sonny Rollins — Way Out West"
+        }
+      }
+    }
+  ]
+}
