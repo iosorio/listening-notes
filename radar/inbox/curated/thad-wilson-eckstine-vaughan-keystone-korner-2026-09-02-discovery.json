@@ -1,0 +1,113 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "thad-wilson-eckstine-vaughan-keystone-korner-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; the verified Yamamoto dates surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Stage 1 admits the Thad Wilson Jazz Orchestra performance because its reason is event-specific: a DMV big band led by trumpeter/composer/arranger Thad Wilson is presenting a dedicated Billy Eckstine and Sarah Vaughan repertory program at Keystone Korner Baltimore, with Alison Crockett and Steve Washington as featured vocalists. This is a concrete regional reading of two foundational vocal-jazz legacies rather than a generic club booking. Stage 2 assigns A. The repertoire, live big-band frame, featured vocalists and DMV context make the date useful RADAR knowledge and worth attending if convenient, while no verified premiere, farewell, rare reunion, singular lineup claim or other scarcity fact supports active-prioritization or protect-the-night language. A review of recent/current RADAR intake confirms that this assignment reinforces the intended broad A base rather than adding pressure to the deliberately narrower A+ and scarcity tiers. Batch distribution: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "thad-wilson-jazz-orchestra-eckstine-vaughan-keystone-korner-baltimore-2026-10-08",
+      "artist": "Thad Wilson Jazz Orchestra",
+      "subtitle": "Celebrate Billy Eckstine & Sarah Vaughan",
+      "dates": {
+        "start": "2026-10-08",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore-md",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Baltimore",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV big band / Vocal jazz / Repertoire tribute",
+      "genres": [
+        "Jazz",
+        "Big band",
+        "Vocal jazz"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Thad Wilson — trumpet, composer, arranger, leader",
+        "Thad Wilson Jazz Orchestra",
+        "Alison Crockett — vocals",
+        "Steve Washington — vocals"
+      ],
+      "factual_description": "Keystone Korner Baltimore's authorized event listing schedules the Thad Wilson Jazz Orchestra program Celebrate Billy Eckstine & Sarah Vaughan for Thursday, October 8, 2026 at 7:00 PM. The event description identifies Wilson as the orchestra's trumpeter, composer and arranger and says the ensemble brings together DMV musicians for a tribute to Billy Eckstine and Sarah Vaughan, with Alison Crockett and Steve Washington as special guest vocalists. The listed live-ticket range is $45-$55 before stated fees. No complete event-specific orchestra personnel roster is published in the sources verified for this pass, so additional sidemen are not inferred.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=3D25E7F2-FD8E-1ADE-8B5FDD71F35944F8&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=3D25E7F2-FD8E-1ADE-8B5FDD71F35944F8&fuseaction=buy.event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 45,
+          "maximum": 55,
+          "source_url": "https://www.instantseats.com/index.cfm?eventID=3D25E7F2-FD8E-1ADE-8B5FDD71F35944F8&fuseaction=buy.event",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "complete event-specific orchestra personnel roster",
+          "apple_music"
+        ],
+        "note": "Date, 7:00 PM start, venue, live-ticket range, tribute concept, Wilson's leadership role and the two featured vocalists are verified from Keystone Korner Baltimore's authorized InstantSeats listing. Additional orchestra personnel and Apple Music identifiers were not verified and are not invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.keystonekornerbaltimore.com/home",
+          "publisher": "Keystone Korner Baltimore",
+          "checked_on": "2026-09-02",
+          "note": "Official venue calendar lists Thad Wilson Jazz Orchestra: Celebrate Billy Eckstine & Sarah Vaughan on October 8, 2026 and routes event/ticket access through InstantSeats."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=3D25E7F2-FD8E-1ADE-8B5FDD71F35944F8&fuseaction=home.event",
+          "publisher": "InstantSeats / Keystone Korner Baltimore",
+          "checked_on": "2026-09-02",
+          "note": "Authorized event page verifies October 8 at 7:00 PM, Keystone Korner Baltimore, $45-$55 live-ticket range, the Eckstine/Vaughan tribute concept, Wilson as trumpeter/composer/arranger, DMV orchestra context, and featured vocalists Alison Crockett and Steve Washington."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=3D25E7F2-FD8E-1ADE-8B5FDD71F35944F8&fuseaction=buy.event",
+          "publisher": "InstantSeats / Keystone Korner Baltimore",
+          "checked_on": "2026-09-02",
+          "note": "Authorized purchase page verifies the live event at Keystone Korner Baltimore on October 8, 2026 at 7:00 PM and provides the official ticket destination."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core facts were verified through Keystone Korner Baltimore and its authorized InstantSeats event/ticket pages. Repository searches for Thad Wilson, Billy Eckstine, Sarah Vaughan and the exact October 8 Keystone concept returned no matching RADAR record before publication. Priority was assigned only after Stage 1 admission. A is retained because the repertory-specific big-band and DMV context clearly belongs in RADAR, while the verified evidence does not establish the scarcity or singularity needed for A+, S or S+."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the repertoire and the local lineage, not nostalgia by itself. Wilson's DMV big band puts a live orchestral frame around the music associated with Billy Eckstine and Sarah Vaughan, with Alison Crockett and Steve Washington carrying the vocal center. That makes the Baltimore date a specific regional reading of two foundational vocal-jazz legacies rather than another Thursday club booking.",
+          "trip_verdict": "If you're in the DMV and October 8 is open, the Baltimore drive is worthwhile. I'd fold it into the evening at Keystone rather than rearrange a regional trip around the date.",
+          "listen_before": "Billy Eckstine and Sarah Vaughan — representative vocal-jazz recordings"
+        },
+        "es": {
+          "why_it_matters": "El motivo está en el repertorio y el linaje local, no en la nostalgia a secas. La big band de Wilson, formada en el eje DMV, pone un marco orquestal en vivo alrededor de la música asociada con Billy Eckstine y Sarah Vaughan, con Alison Crockett y Steve Washington en el centro vocal. Eso convierte la noche de Baltimore en una lectura regional específica de dos legados fundacionales del jazz vocal, no en otra fecha genérica de jueves.",
+          "trip_verdict": "Si estás en el DMV y el 8 de octubre está libre, la manejada a Baltimore vale la pena. Lo incorporaría a la noche en Keystone sin reorganizar un viaje regional alrededor de la fecha.",
+          "listen_before": "Billy Eckstine y Sarah Vaughan — grabaciones representativas de su jazz vocal"
+        }
+      }
+    }
+  ]
+}
