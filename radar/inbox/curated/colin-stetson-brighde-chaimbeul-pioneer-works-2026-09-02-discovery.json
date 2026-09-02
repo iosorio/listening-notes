@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "colin-stetson-brighde-chaimbeul-pioneer-works-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, and scripts/merge_inbox.py were read before final publication. Fresh Yamamoto research checked Jazz House ALFIE, BODY&SOUL, Space M&A/current-schedule traces, and credible Japanese-jazz sources; no new verified, unrepresented Yamamoto appearance was found, so no duplicate Yamamoto candidate was created. Stage 1 admits the September 15 Colin Stetson and Brìghde Chaimbeul performance because Pioneer Works specifically presents their new collaborative album All the light in the world as a live saxophone/Scottish-smallpipes work built from deep listening and improvisation, with The Space Lady and Clarice Jensen broadening the bill's drone, outsider, and experimental-instrumental frame. This is an event-specific instrumental and cross-tradition reason, not an artist-fame or venue-prestige admission. Stage 2 assigns A+: the new duo language, album-performance context four days after release, and unusually coherent supporting bill make the night actively worth prioritizing. The scarcity challenge does not support S: contemporary tour reporting documents a small North American run, including Brooklyn and Boston in the United States, but the duo is launching a new collaborative project rather than announcing a farewell, final appearance, or otherwise demonstrably nonrecurring context; A+ fully captures the recommendation. Recent/current intake was reviewed qualitatively and has contained many A+ candidates, so this assignment was challenged directly; A would undersell the strength of the specific saxophone/smallpipes collaboration and the album-performance frame, while no S or S+ pressure is added. Repository searches for the artist pair, Pioneer Works with the September 15 date, and the proposed stable event ID returned no existing RADAR event before publication.",
+  "events": [
+    {
+      "id": "colin-stetson-brighde-chaimbeul-pioneer-works-2026-09-15",
+      "artist": "Colin Stetson & Brìghde Chaimbeul",
+      "subtitle": "All the light in the world — with The Space Lady and Clarice Jensen",
+      "dates": {
+        "start": "2026-09-15",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "pioneer-works-brooklyn-ny",
+        "name": "Pioneer Works",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental / drone / new-album duo",
+      "genres": [
+        "Experimental",
+        "Drone",
+        "Contemporary folk",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Colin Stetson — saxophone",
+        "Brìghde Chaimbeul — Scottish smallpipes",
+        "The Space Lady — Casio keyboard, voice",
+        "Clarice Jensen — support artist"
+      ],
+      "factual_description": "Pioneer Works presents Colin Stetson and Brìghde Chaimbeul in its Main Hall on Tuesday, September 15, 2026. Doors are at 7:00 PM and the performance starts at 8:00 PM; admission is general admission, standing room only. Pioneer Works describes the duo's live performance of All the light in the world as music built from deep listening and improvisation, merging Stetson's saxophone approach with Chaimbeul's Scottish smallpipes across drone, ritual, and cinematic textures. The Space Lady and Clarice Jensen are also billed. Colin Stetson's artist-owned Bandcamp page lists the album for release on September 11, 2026 and credits all songs as written and performed by Stetson and Chaimbeul. Apple Music also lists the eight-song album as a September 11, 2026 pre-release.",
+      "links": {
+        "official_event": "https://pioneerworks.org/programs/colin-stetson-and-brighde-chaimbeul-duo",
+        "official_tickets": "https://www.eventbrite.com/e/1989671124895"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.eventbrite.com/e/1989671124895",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Colin Stetson & Brìghde Chaimbeul",
+          "title": "All the light in the world",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/all-the-light-in-the-world/6781061569"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Pioneer Works event page, its exact authorized Eventbrite destination, and the exact Apple Music album page are verified. Official face-value price remains null because the primary event page does not display a price and the authorized Eventbrite destination returned a rate-limit response during this check; no third-party or resale amount is substituted."
+      },
+      "sources": [
+        {
+          "url": "https://pioneerworks.org/programs/colin-stetson-and-brighde-chaimbeul-duo",
+          "publisher": "Pioneer Works",
+          "checked_on": "2026-09-02",
+          "note": "Primary presenter page verifies September 15, 2026, 7:00 PM doors, 8:00 PM start, general-admission standing-room format, the four-artist billing, the authorized ticket destination, and the album-performance framing built around saxophone, Scottish smallpipes, deep listening, and improvisation."
+        },
+        {
+          "url": "https://colinstetson.bandcamp.com/album/all-the-light-in-the-world",
+          "publisher": "Colin Stetson Bandcamp",
+          "checked_on": "2026-09-02",
+          "note": "Artist-owned release page verifies the September 11, 2026 album release, eight-track program, and credits all songs as written and performed by Colin Stetson and Brìghde Chaimbeul."
+        },
+        {
+          "url": "https://music.apple.com/us/album/all-the-light-in-the-world/6781061569",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page verifies All the light in the world by Colin Stetson and Brìghde Chaimbeul as an eight-song September 11, 2026 pre-release."
+        },
+        {
+          "url": "https://exclaim.ca/music/article/colin-stetson-and-brighde-chaimbeul-to-take-new-album-all-the-light-in-the-world-on-north-american-tour",
+          "publisher": "Exclaim!",
+          "checked_on": "2026-09-02",
+          "note": "Contemporary music-press tour report documents a small North American album-support run and identifies Brooklyn on September 15 and Boston on September 20 as the U.S. dates; used only for the scarcity challenge, not as a substitute for the primary event source."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authoritative-and-apple-sources",
+        "note": "Date, doors, start time, venue, billing, performance concept, and authorized ticket destination are verified from Pioneer Works. The artist-owned Bandcamp page verifies the album identity, release date, and duo writing/performance credits; Apple Music supplies the exact album destination. Exclaim! provides contemporaneous tour context for the scarcity check. Repository searches for the pair, the Pioneer Works date, and the stable event ID returned no prior RADAR representation. Priority was assigned only after Stage 1 admission. A+ was retained after challenging the recent A+-heavy intake because this specific new saxophone/smallpipes album-performance context merits making room; the limited initial tour does not establish the kind of nonrecurrence required for S."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "A saxophone and Scottish-smallpipes duo should feel improbable; here the shared language is breath, drone, pulse, and physical resonance. Stetson and Chaimbeul bring their new collaborative album to Pioneer Works four days after release, turning two intensely individual instrumental practices into music built for sustained listening and improvisational pressure. The Space Lady and Clarice Jensen make the surrounding bill unusually coherent rather than merely eclectic.",
+          "trip_verdict": "If New York is already plausible, I would organize the Brooklyn night around this set. From the DMV, I would pair it with another strong New York reason rather than make the corridor trip solely for this one date.",
+          "listen_before": "Colin Stetson & Brìghde Chaimbeul — All the light in the world"
+        },
+        "es": {
+          "why_it_matters": "Un dúo de saxofón y smallpipes escocesas debería sonar improbable; aquí el idioma común es respiración, drone, pulso y resonancia física. Stetson y Chaimbeul llevan a Pioneer Works su nuevo disco colaborativo apenas cuatro días después de publicarlo, convirtiendo dos maneras muy personales de tocar en música hecha para la escucha sostenida y la presión de la improvisación. The Space Lady y Clarice Jensen hacen que el resto del cartel tenga una lógica experimental muy clara, no una mezcla al azar.",
+          "trip_verdict": "Si Nueva York ya está en juego, organizaría la noche de Brooklyn alrededor de este concierto. Desde el DMV lo combinaría con otra razón fuerte para subir, en vez de hacer el viaje del corredor únicamente por esta fecha.",
+          "listen_before": "Colin Stetson & Brìghde Chaimbeul — All the light in the world"
+        }
+      }
+    }
+  ]
+}
