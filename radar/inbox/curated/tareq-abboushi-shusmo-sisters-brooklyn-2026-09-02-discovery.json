@@ -1,0 +1,123 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tareq-abboushi-shusmo-sisters-brooklyn-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; the verified future Yamamoto dates surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Stage 1 admits Tareq Abboushi & SHUSMO because this is a specifically documented rare Brooklyn return by a group that was a regular part of the New York scene until 2012, led by a Palestinian composer whose buzuq-centered writing brings Arabic music into direct conversation with funk, Latin, rock, Baroque, electronic music, and jazz-trained ensemble language. The exact returning quintet and long gap in regular New York activity make the performance-specific case; admission is not based on genre or venue prestige. Stage 2 assigns A+. The scarcity challenge was explicit: Brooklyn Maqam says SHUSMO has appeared only on rare occasions since Abboushi left New York in 2012 and cites a 2016 reunion, but the source does not establish this 2026 date as a farewell, final reunion, or singular last chance. A+ therefore captures the recommendation: actively make room if New York is in play, without overstating the available evidence into S. Recent/current RADAR intake was rechecked as a sanity test and remains concentrated in A/A+ with S/S+ reserved for stronger documented scarcity. This batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "tareq-abboushi-shusmo-sisters-brooklyn-2026-09-29",
+      "artist": "Tareq Abboushi & SHUSMO",
+      "subtitle": "Rare Brooklyn return",
+      "dates": {
+        "start": "2026-09-29",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "sisters-brooklyn-ny",
+        "name": "Sisters Brooklyn",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Arabic-rooted cross-genre ensemble / rare Brooklyn return",
+      "genres": [
+        "Arabic music",
+        "Jazz",
+        "Funk",
+        "Latin",
+        "Rock",
+        "Electronic music"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Tareq Abboushi — buzuq, vocals, electronics, compositions",
+        "Lefteris Bournias — clarinet",
+        "Hector Morales — drums, percussion",
+        "John Murchison — bass",
+        "Zafer Tawil — percussion"
+      ],
+      "factual_description": "Brooklyn Maqam presents Tareq Abboushi & SHUSMO at Sisters Brooklyn, 900 Fulton St, Brooklyn, on Tuesday, September 29, 2026 at 20:00. The organizer lists the quintet as Tareq Abboushi on buzuq, vocals, electronics and compositions; Lefteris Bournias on clarinet; Hector Morales on drums and percussion; John Murchison on bass; and Zafer Tawil on percussion. The organizer states that SHUSMO was a regular presence on the New York music scene until 2012, when Abboushi left the city, and that live appearances since then have been rare, citing a 2016 reunion performance. Brooklyn Maqam describes the band's original music as carrying traces of Arabic music, funk, Latin, rock, Baroque and electronic music. Admission is $20 at the door; no separate advance-purchase destination is published on the organizer event page.",
+      "links": {
+        "official_event": "https://brooklynmaqam.com/event/6712722/777623329/tareq-abboushi-shusmo",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 20,
+          "source_url": "https://brooklynmaqam.com/event/6712722/777623329/tareq-abboushi-shusmo",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tareq Abboushi & Shusmo",
+          "title": "Mumtastic",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/mumtastic/450515782"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_ticket_url"
+        ],
+        "note": "Brooklyn Maqam verifies the exact event, date, time, venue address, full announced quintet, rare-return context and $20 at-door admission. The organizer does not publish a separate advance ticket destination for this event, so no purchase URL is invented. Apple Music verifies the exact Mumtastic album."
+      },
+      "sources": [
+        {
+          "url": "https://brooklynmaqam.com/event/6712722/777623329/tareq-abboushi-shusmo",
+          "publisher": "Brooklyn Maqam",
+          "checked_on": "2026-09-02",
+          "note": "Primary organizer event page verifies September 29, 2026 at 20:00, Sisters Brooklyn at 900 Fulton St, the full announced quintet, $20 at-door admission, SHUSMO's pre-2012 New York history, rare appearances since Abboushi left the city, and the band's Arabic/funk/Latin/rock/Baroque/electronic musical frame."
+        },
+        {
+          "url": "https://brooklynmaqam.com/home/blog/7837575/september-events",
+          "publisher": "Brooklyn Maqam",
+          "checked_on": "2026-09-02",
+          "note": "Fresh September 2026 organizer post identifies the date as a rare chance to hear Abboushi and SHUSMO back in Brooklyn after many years, describes Abboushi's Palestinian background and buzuq practice, and notes that he is currently based in Finland."
+        },
+        {
+          "url": "https://music.apple.com/us/album/mumtastic/450515782",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page verifies Mumtastic by Tareq Abboushi & Shusmo, released June 23, 2011."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-organizer-source",
+        "note": "Core event facts and the full announced lineup are verified directly from Brooklyn Maqam's current event page and fresh September organizer post; Apple Music verifies the listening recommendation. Repository searches for Tareq Abboushi, SHUSMO, Sisters Brooklyn and the September 29 date returned no matching canonical, curated or processed RADAR event before publication. Priority A+ was assigned only after Stage 1 admission. The documented rarity of SHUSMO appearances since 2012 was challenged against the S threshold; because the sources do not establish this as a farewell, final reunion, or singular last chance, actively making room is the durable recommendation without manufacturing S-level scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "SHUSMO's identity starts with the sound of Abboushi's buzuq, not with a generic fusion label. The original music lets Arabic melodic language rub against funk, Latin pulse, rock weight, electronics, clarinet and a rhythm section that once made the band a regular part of New York's scene. That history matters here: Abboushi left the city in 2012, the group has appeared only occasionally since, and this Brooklyn return restores a live conversation that has largely been absent rather than simply reviving an old repertoire on tour.",
+          "trip_verdict": "If New York is already in play on September 29, actively make room for Sisters Brooklyn and build the Fort Greene evening around the set. From the DMV, I would pair the rare return with another strong New York reason rather than make a dedicated trip on this date alone.",
+          "listen_before": "Mumtastic — Tareq Abboushi & Shusmo"
+        },
+        "es": {
+          "why_it_matters": "La identidad de SHUSMO empieza por el sonido del buzuq de Abboushi, no por una etiqueta genérica de fusión. Su música original pone el lenguaje melódico árabe en fricción con funk, pulso latino, peso de rock, electrónica, clarinete y una sección rítmica que durante años hizo de la banda una presencia habitual en Nueva York. Aquí esa historia sí importa: Abboushi dejó la ciudad en 2012, el grupo ha aparecido sólo ocasionalmente desde entonces y este regreso a Brooklyn recupera una conversación en vivo que llevaba años siendo rara, en vez de simplemente reciclar repertorio viejo dentro de una gira.",
+          "trip_verdict": "Si Nueva York ya está en juego el 29 de septiembre, sí le haría espacio activamente a Sisters Brooklyn y construiría la noche en Fort Greene alrededor del set. Desde el DMV combinaría este regreso poco frecuente con otra razón fuerte para subir, en vez de hacer un viaje dedicado únicamente por esta fecha.",
+          "listen_before": "Mumtastic — Tareq Abboushi & Shusmo"
+        }
+      }
+    }
+  ]
+}
