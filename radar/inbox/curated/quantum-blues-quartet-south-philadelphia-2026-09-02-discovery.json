@@ -1,0 +1,135 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "quantum-blues-quartet-south-philadelphia-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, scripts/merge_inbox.py, and scripts/validate_events.py were read before final publication. Fresh Yamamoto checks covered Jazz House ALFIE traces, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources. No new verified, unrepresented Yamamoto appearance was found; BODY&SOUL's September 6, September 9, and September 26 Yamamoto dates and other current Yamamoto dates already have canonical/curated/processed representation, so no duplicate was created. Stage 1 admits the September 13 Quantum Blues Quartet performance because this specific lineup puts Tisziji Muñoz's electric guitar, Paul Shaffer's keys, Jamaaladeen Tacuma's electric-bass language, and Will Calhoun's drums together inside an avant-funk collective-improvisation project, presented with the Outsiders Improvised & Creative Music Festival in SOUTH's intimate jazz-club setting. The project's 2025 Ropeadope album emerged from a 2024 meeting with no charts or prearranged material, making spontaneous interaction central to the actual performance concept rather than generic artist prestige. Stage 2 assigns A+: this is an unusually strong cross-scene instrumental lineup and actively worth making room for. The scarcity challenge does not support S: the same quartet was documented at Winter Jazzfest on January 10, 2026, and the project remains active, so the Philadelphia date is unusual but not established as farewell, final appearance, premiere, or a moment unlikely to recur. Recent/current RADAR intake was reviewed qualitatively; A+ has been common in recent curated material, so this assignment was challenged directly, but A would undersell how distinctive the four-player configuration and improvisational premise are. The batch adds no S or S+ pressure. Repository searches for Quantum Blues Quartet, Tisziji Muñoz with the September 13 date, and SOUTH Jazz Kitchen returned no existing RADAR event before publication.",
+  "events": [
+    {
+      "id": "quantum-blues-quartet-south-philadelphia-2026-09-13",
+      "artist": "The Quantum Blues Quartet",
+      "subtitle": "Outsiders Improvised & Creative Music Festival",
+      "dates": {
+        "start": "2026-09-13",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "south-jazz-kitchen-philadelphia",
+        "name": "SOUTH Jazz Kitchen",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Avant-funk / collective improvisation / cross-scene quartet",
+      "genres": [
+        "Avant-funk",
+        "Jazz",
+        "Improvised music",
+        "Funk"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Tisziji Muñoz — guitar",
+        "Paul Shaffer — keys",
+        "Jamaaladeen Tacuma — bass",
+        "Will Calhoun — drums"
+      ],
+      "factual_description": "SOUTH Jazz Kitchen presents The Quantum Blues Quartet on Sunday, September 13, 2026, with sets at 6:00 PM and 8:30 PM, in collaboration with the Outsiders Improvised & Creative Music Festival. SOUTH identifies the quartet as Tisziji Muñoz, Will Calhoun, Jamaaladeen Tacuma, and Paul Shaffer and describes the project as avant-funk. Tisziji Muñoz's official event page confirms the Philadelphia date and instruments: Muñoz on guitar, Shaffer on keys, Tacuma on bass, and Calhoun on drums. Ropeadope documents that the project originated in a 2024 New York session in which the musicians played without charts, preparation, or prearranged material; the resulting album Quantum Blues was released April 25, 2025. SOUTH describes its jazz club as an intimate room with fewer than 75 seats.",
+      "links": {
+        "official_event": "https://www.southjazzkitchen.com/event/the-quantum-blues-quartet-featuring-tisziji-mun-paul-shaffer-will-calhoun-and-jamaaladeen-tacuma-sun-sept-13-600pm-830pm-oz/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Quantum Blues Quartet",
+          "title": "Quantum Blues",
+          "kind": "album"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact SOUTH event page, complete quartet/instrument information, project history, and album identity are verified. SOUTH's purchase link currently resolves to a generic Tock venue landing page rather than a stable event-specific ticket destination, so official_tickets remains null. No exact Apple Music album/song/playlist URL was verified in this pass, so none is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.southjazzkitchen.com/event/the-quantum-blues-quartet-featuring-tisziji-mun-paul-shaffer-will-calhoun-and-jamaaladeen-tacuma-sun-sept-13-600pm-830pm-oz/",
+          "publisher": "SOUTH Jazz Kitchen",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue event page verifies September 13, 2026, both 6:00 PM and 8:30 PM sets, the four-person billing, avant-funk description, and Outsiders Improvised & Creative Music Festival collaboration."
+        },
+        {
+          "url": "https://www.tisziji.com/events/2026/1/25/g3bojhq5xtr0xmn6dqg7l0ds0szp9y",
+          "publisher": "Tisziji Muñoz Official Website",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist event page verifies the September 13 Philadelphia performance and instrument assignments: Muñoz/guitar, Shaffer/keys, Tacuma/bass, and Calhoun/drums."
+        },
+        {
+          "url": "https://ropeadope.com/quantum-blues-quartet/",
+          "publisher": "Ropeadope",
+          "checked_on": "2026-09-02",
+          "note": "Artist-label page verifies the quartet personnel, the 2024 origin meeting, the no-prep/no-charts/no-prearrangement recording process, and the April 25, 2025 release of Quantum Blues."
+        },
+        {
+          "url": "https://www.southjazzkitchen.com/jazz-club/",
+          "publisher": "SOUTH Jazz Kitchen",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue calendar corroborates the September 13 Quantum Blues Quartet listing and states that SOUTH's jazz club has fewer than 75 seats."
+        },
+        {
+          "url": "https://www.tisziji.com/events/event-one-cdyrn",
+          "publisher": "Tisziji Muñoz Official Website",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist archive documents the same quartet at Winter Jazzfest on January 10, 2026; this is the concrete evidence used in the scarcity challenge against elevating the September Philadelphia date to S."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-label-sources",
+        "note": "Date, set times, venue, billing, festival collaboration and avant-funk framing were verified from SOUTH; the artist-owned page verifies instruments; Ropeadope verifies the project's improvisational origin and album; the artist archive documents a January 2026 performance by the same quartet, preventing false scarcity inflation. Repository searches for Quantum Blues Quartet, Tisziji Muñoz with September 13, and SOUTH Jazz Kitchen found no existing RADAR candidate before publication. Priority was assigned only after Stage 1 admission, and A+ was retained after explicitly testing whether A would capture the recommendation and whether S was warranted; the distinctive quartet and live premise justify making room for the date, while the active project's documented 2026 recurrence rules out a scarcity-tier claim."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This quartet is built around collision rather than polite all-star assembly: Tisziji Muñoz's searching electric guitar, Jamaaladeen Tacuma's elastic bass language, Will Calhoun's rock power and polyrhythmic reach, and Paul Shaffer working as an improvising keyboard player. Quantum Blues began with no charts and no prearranged material, so the point of the live set is what these four do to one another in real time. Putting that chemistry into SOUTH's sub-75-seat room, inside the Outsiders festival, gives the Philadelphia date a particularly good frame.",
+          "trip_verdict": "From the DMV, I would seriously consider a dedicated Philadelphia run for one of these two sets if electric improvisation and groove are the point of the trip; the small room is unusually well matched to the quartet. If another Philadelphia reason is already on the weekend, this becomes an especially easy night to build around.",
+          "listen_before": "The Quantum Blues Quartet — Quantum Blues"
+        },
+        "es": {
+          "why_it_matters": "Este cuarteto funciona por choque, no como una reunión amable de nombres: la guitarra eléctrica de Tisziji Muñoz, el bajo elástico de Jamaaladeen Tacuma, la potencia rockera y el alcance polirrítmico de Will Calhoun, y Paul Shaffer tocando como tecladista improvisador. Quantum Blues nació sin partituras ni material arreglado de antemano, así que el punto del directo es escuchar qué se provocan estos cuatro en tiempo real. Meter esa química en una sala de menos de 75 personas como SOUTH, dentro del festival Outsiders, le da a la fecha de Filadelfia un marco especialmente bueno.",
+          "trip_verdict": "Desde el DMV sí contemplaría una subida dedicada a Filadelfia para uno de los dos sets si el motivo del viaje es la improvisación eléctrica y el groove; la sala pequeña le queda particularmente bien al cuarteto. Si el fin de semana ya trae otra razón para estar en Philly, esta fecha se vuelve muy fácil de construir alrededor.",
+          "listen_before": "The Quantum Blues Quartet — Quantum Blues"
+        }
+      }
+    }
+  ]
+}
