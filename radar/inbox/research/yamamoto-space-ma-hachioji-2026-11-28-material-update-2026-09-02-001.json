@@ -1,0 +1,42 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "yamamoto-space-ma-hachioji-2026-11-28-material-update-2026-09-02-001",
+  "created_on": "2026-09-02",
+  "notes": "Material update research for the existing Tsuyoshi Yamamoto Trio event at Space M&A on November 28, 2026. The exact official July-December event page now exposes the full November 28 timing and the venue's authorized reservation form. The current enrichment contract does not permit showtime corrections, so this handoff records only supported links, listening, enrichment and source evidence for explicit review/promotion; it does not silently modify canonical factual fields.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-trio-space-ma-hachioji-2026-11-28",
+      "links": {
+        "official_event": "https://space-ma.com/jazzlive-7%E6%9C%88%EF%BD%9E12%E6%9C%88/",
+        "official_tickets": "https://forms.gle/caFedX4A9yBjVsjS9"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio",
+          "title": "Blues For K",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/blues-for-k/6768695416"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Space M&A",
+          "url": "https://space-ma.com/jazzlive-7%E6%9C%88%EF%BD%9E12%E6%9C%88/",
+          "checked_on": "2026-09-02",
+          "note": "Official JAZZLIVE July-December page confirms the November 28, 2026 Tsuyoshi Yamamoto/Hiroshi Kagawa/Toshio Osumi trio date, doors at 18:00, performance from 18:30 to 21:00, and links directly to the venue's reservation form. The exact showtime is evidence for a separate factual correction because showtimes are outside the enrichment patch contract."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/blues-for-k/6768695416",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page for Tsuyoshi Yamamoto Trio's Blues For K."
+        }
+      ]
+    }
+  ]
+}
