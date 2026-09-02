@@ -1,0 +1,113 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wet-ink-28th-season-opener-zurcher-gallery-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed after rereading the current durable docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Fresh checks covered Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources. No new unrepresented Yamamoto appearance was verified; current BODY&SOUL and other Yamamoto dates surfaced in search but are already represented in canonical/curated/processed intake. Repository searches for Wet Ink, Zürcher Gallery, the September 27 season opener and the proposed stable ID returned no existing RADAR match. Stage 1 admits the Wet Ink performance for a specific live construction: the ensemble opens its 28th season with three world premieres for a five-player saxophone/percussion/violin/cello/electronics configuration, developed through Wet Ink's collaborative band methodology. Stage 2 assigns A+: the exact premiere program and instrumental/electronic architecture are actively worth making room for if New York is in play, but A+ captures the recommendation better than S because the ensemble is active and the newly introduced works are explicitly part of an ongoing development process rather than a farewell, final performance or singular historical event. Recent/current intake notes remain centered on A and A+ with scarcity tiers rare; this one-event batch adds no S/S+ pressure. Proposed batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "wet-ink-28th-season-opener-zurcher-gallery-new-york-2026-09-27",
+      "artist": "Wet Ink Ensemble",
+      "subtitle": "28th Season Opener — Premieres for Small Ensemble and Electronics",
+      "dates": {
+        "start": "2026-09-27",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "zurcher-gallery-new-york-ny",
+        "name": "Zürcher Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental new music / world-premiere small-ensemble and electronics program",
+      "genres": [
+        "Experimental",
+        "New music",
+        "Electroacoustic"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Alex Mincek — saxophone",
+        "Ian Antonio — percussion",
+        "Modney — violin",
+        "Mariel Roberts Musa — cello",
+        "Sam Pluta — electronics"
+      ],
+      "factual_description": "Zürcher Gallery and Wet Ink Ensemble's authorized Eventbrite listing present Wet Ink's 28th Season Opener on Sunday, September 27, 2026 at 7:30 PM at Zürcher Gallery, 33 Bleecker Street in New York City. The announced program contains three world premieres: new 2026 works by Alex Mincek, Mariel Roberts Musa and Modney. The verified performers are Mincek on saxophone, Ian Antonio on percussion, Modney on violin, Roberts Musa on cello and Sam Pluta on electronics. The presenter describes the pieces as products of Wet Ink's collaborative band working methodology. General admission is pay-what-you-wish with a $20 suggested donation; student tickets are free, and tickets are also available at the door.",
+      "links": {
+        "official_event": "https://www.galeriezurcher.com/september-27-2026-wet-ink-ensemble",
+        "official_tickets": "https://www.eventbrite.com/e/wet-ink-28th-season-opener-premieres-for-small-ensemble-and-electronics-tickets-1994203814291"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.eventbrite.com/e/wet-ink-28th-season-opener-premieres-for-small-ensemble-and-electronics-tickets-1994203814291",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Zürcher Gallery and Wet Ink's authorized Eventbrite page verify the exact date, time, venue, five-player personnel, three announced world premieres and pay-what-you-wish ticket structure. No Apple Music destination was added without an exact verified match."
+      },
+      "sources": [
+        {
+          "url": "https://www.galeriezurcher.com/september-27-2026-wet-ink-ensemble",
+          "publisher": "Zürcher Gallery",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue event page verifying September 27 at 19:30, the 28th-season-opener framing, three world premieres, five announced performers, venue address and $20 suggested donation / free student admission."
+        },
+        {
+          "url": "https://www.eventbrite.com/e/wet-ink-28th-season-opener-premieres-for-small-ensemble-and-electronics-tickets-1994203814291",
+          "publisher": "Wet Ink Ensemble / Eventbrite",
+          "checked_on": "2026-09-02",
+          "note": "Authorized ticket listing organized by Wet Ink Ensemble; independently confirms September 27 at 19:30, Zürcher Gallery, three world premieres, full five-player personnel, pay-what-you-wish general admission with $20 suggested and free student tickets."
+        },
+        {
+          "url": "https://www.iloveny.com/thebeat/post/wet-ink-ensemble-announces-2026-2027-season-opening-concert-on-september-27/",
+          "publisher": "I LOVE NY / New York State tourism",
+          "checked_on": "2026-09-02",
+          "note": "Authoritative August 27 announcement corroborating the 28th-season-opening context and Wet Ink's long-term collaborative development process. Exact program/personnel fields follow the current venue and authorized ticket pages where those sources differ."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-and-authoritative-sources",
+        "note": "Core event facts and full announced personnel come from the current Zürcher Gallery page and Wet Ink Ensemble's authorized Eventbrite listing. An authoritative New York State announcement corroborates the season-opening and collaborative-development context, but where its program/personnel detail differs from the current venue/ticket pages the latter control. Repository searches for Wet Ink, Zürcher Gallery, the September 27 program and the proposed stable ID found no matching RADAR record before publication. Priority was assigned only after RADAR admission; A+ reflects a concrete premiere program worth prioritizing in New York without manufacturing scarcity-tier language."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The interest is in the machinery of the ensemble itself. Wet Ink opens its 28th season with three new works built inside its band-like collaborative process, using saxophone, percussion, violin, cello and electronics as one compositional laboratory rather than a conventional chamber lineup. These are actual world premieres, but the stronger reason to hear them is that the first public versions expose how this group turns performer-specific technique and electronics into music that can keep changing after the premiere.",
+          "trip_verdict": "If New York is already in play on September 27, actively make room for the Bleecker Street set and let it anchor the experimental side of the evening. From the DMV, I would pair it with another strong New York reason rather than make a dedicated trip for this concert alone.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El interés está en la maquinaria del propio ensamble. Wet Ink abre su temporada 28 con tres obras nuevas construidas dentro de su proceso colaborativo de banda, usando saxofón, percusión, violín, cello y electrónica como un solo laboratorio compositivo en vez de una formación de cámara convencional. Son estrenos mundiales reales, pero la razón más fuerte para escucharlos es que estas primeras versiones públicas dejan ver cómo el grupo convierte técnicas específicas de sus intérpretes y electrónica en música que puede seguir transformándose después del estreno.",
+          "trip_verdict": "Si Nueva York ya está en juego el 27 de septiembre, le haría espacio activamente al set de Bleecker Street y dejaría que ancle el lado experimental de la noche. Desde el DMV, lo combinaría con otra razón fuerte para subir a Nueva York en vez de hacer un viaje dedicado únicamente por este concierto.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
