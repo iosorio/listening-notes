@@ -1,0 +1,89 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "maki-ohguro-55-red-billboard-live-tokyo-2026-09-01-discovery",
+  "notes": "Yamamoto-first discovery pass completed on 2026-09-01 after rereading the current durable RADAR priority, editorial, domain and inbox guidance. Current ALFIE, BODY&SOUL, Space M&A, Yamamoto-schedule and Japanese-jazz searches produced no new unrepresented Tsuyoshi Yamamoto performance. This batch adds one newly announced Greater Tokyo/Kanto event. Maki Ohguro's 55 RED release night clears RADAR admission because the specific performance joins her new album material to Orquesta de la Luz through the established 'Latin Family' / Habana Clave collaboration in a one-night Billboard Live Tokyo format. Priority A+ is deliberate after admission and a distribution sanity check: the setting and cross-cultural repertoire merit actively making room, but the collaboration is part of an ongoing musical relationship and there is no verified farewell, premiere of historical weight, or other scarcity fact that requires S. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "maki-ohguro-55-red-billboard-live-tokyo-2026-11-12",
+      "artist": "Maki Ohguro",
+      "subtitle": "Album '55 RED' Release Commemorative Live Vol.1 — with Orquesta de la Luz",
+      "dates": {
+        "start": "2026-11-12",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo",
+        "name": "Billboard Live Tokyo",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese pop / Latin album-release collaboration",
+      "genres": [
+        "Japanese pop",
+        "Latin"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Latin",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Maki Ohguro — vocals",
+        "Toshitaka Shibata — piano",
+        "Masanori Fukuhara — guitar",
+        "Orquesta de la Luz — guest",
+        "Makita Gomez — guest"
+      ],
+      "factual_description": "Billboard Live Tokyo presents Maki Ohguro Album '55 RED' Release Commemorative Live Vol.1 on Thursday, November 12, 2026, with stages at 5:30 PM and 8:30 PM. Billboard lists Maki Ohguro on vocals, Toshitaka Shibata on piano, Masanori Fukuhara on guitar, with Orquesta de la Luz and Makita Gomez as guests. The venue describes the performance as Ohguro's first Billboard Live Tokyo appearance in about five years and a one-night Latin-focused release show for 55 RED, released September 1, built around songs from the album and the Habana Clave collaboration with Orquesta de la Luz. Billboard also identifies Shibata as the album's co-producer and notes the longstanding 'Latin Family' connection with Orquesta de la Luz.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21670",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "links.official_tickets",
+          "recommended_listening"
+        ],
+        "note": "The exact Billboard Live Tokyo event page is verified and currently states that BBL/corporate-member reservations begin September 25 and guest-member reservations begin October 2. Because sales have not opened, no separate stable event-specific purchase destination is stored. Billboard links directly to the official 55 RED release page, but no exact Apple Music album/song URL was independently verified in this pass, so no streaming destination was inferred."
+      },
+      "sources": [
+        {
+          "type": "official_event",
+          "name": "Billboard Live Tokyo",
+          "url": "https://www.billboard-live.com/en/tokyo/show?event_id=ev-21670",
+          "checked_on": "2026-09-01",
+          "note": "Official event page confirms November 12, 2026; 17:30 and 20:30 starts; complete announced personnel; the 55 RED release context; the Habana Clave collaboration; Orquesta de la Luz's longstanding Latin Family connection; Toshitaka Shibata's co-producer role; one-night Latin-night framing; and Billboard Live Tokyo venue identity."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core performance facts, lineup, repertoire context and venue were verified from Billboard Live Tokyo's exact event page. Repository searches for Maki Ohguro and the proposed stable event ID returned no matching canonical, curated or processed record before publication. No individual Orquesta de la Luz members, unannounced musicians, Apple Music IDs or ticket purchase destination were inferred. Priority was assigned only after RADAR admission."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not simply a veteran Japanese pop singer returning to a club stage. Ohguro is using the 55 RED release to put her long-running Latin thread in the foreground, bringing Orquesta de la Luz into a set built around the album and their Habana Clave collaboration while co-producer Toshitaka Shibata sits at the piano. That makes the night a concrete Japan–Latin exchange with groove and repertoire doing the connecting, rather than a generic anniversary or release show.",
+          "trip_verdict": "Actively make room for one of the two sets if Tokyo is in play and the Latin/Japan crossover thread is part of the listening. Billboard's two-set format gives useful flexibility, and the Roppongi setting makes this easy to build an evening around without treating it as a singular travel event.",
+          "listen_before": "Maki Ohguro — 55 RED"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente el regreso de una veterana del pop japonés a una sala de club. Ohguro está usando el lanzamiento de 55 RED para poner al frente un hilo latino que lleva años trabajando: Orquesta de la Luz entra a una noche construida alrededor del disco y de la colaboración Habana Clave, mientras el coproductor Toshitaka Shibata ocupa el piano. Ahí sí hay un cruce Japón–Latino concreto, sostenido por repertorio y groove, no sólo por la etiqueta de un lanzamiento.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los dos sets si Tokio está en juego y el cruce Latino/Japón forma parte del hilo de escucha. El formato de dos funciones da flexibilidad y Roppongi permite construir la noche alrededor del concierto sin convertirlo artificialmente en un viaje singular.",
+          "listen_before": "Maki Ohguro — 55 RED"
+        }
+      }
+    }
+  ]
+}
