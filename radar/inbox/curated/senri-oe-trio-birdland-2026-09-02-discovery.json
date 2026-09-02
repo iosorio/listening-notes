@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "senri-oe-trio-birdland-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed after rereading the current durable docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Fresh Yamamoto research checked Jazz House ALFIE, BODY&SOUL, Space M&A/current schedule traces, and credible Japanese-jazz sources; the surfaced September Yamamoto dates were already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. A broader US-corridor scan surfaced Senri Oe Trio at Birdland Theater on October 30-31, 2026. Repository searches for Senri Oe with Birdland, the exact dates, and the proposed event identity found no existing RADAR representation. Stage 1 admits the engagement for a concrete Japan-to-New-York thread: Oe's current acoustic trio, formed with Matt Clohesy and Ross Pederson, is presenting HOMEWORK in the city where his late-career reinvention as a jazz pianist took place. Stage 2 assigns A+: the new-record context, Japanese musical biography, and established trio are strong enough to actively make room for if New York is in play. The scarcity challenge does not justify S: Birdland offers four sets across two nights, the trio remains active, and a 2027 Japan tour is already announced. Recent/current September 2 intake includes both A and A+ candidates; this batch adds one A+ and no S/S+, so it does not increase scarcity-tier pressure.",
+  "events": [
+    {
+      "id": "senri-oe-trio-birdland-theater-new-york-2026-10-30",
+      "artist": "Senri Oe Trio",
+      "subtitle": "HOMEWORK release engagement",
+      "dates": {
+        "start": "2026-10-30",
+        "end": "2026-10-31"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "birdland-theater-new-york",
+        "name": "Birdland Theater",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese jazz / Album-release trio / New York reinvention",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Japanese jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Senri Oe — piano, compositions",
+        "Matt Clohesy — bass",
+        "Ross Pederson — drums"
+      ],
+      "factual_description": "Birdland Theater presents Senri Oe Trio for four sets across Friday, October 30 and Saturday, October 31, 2026, at 7:00 PM and 9:30 PM each night. The official Birdland page identifies Senri Oe on piano and compositions, Matt Clohesy on bass, and Ross Pederson on drums, and frames the engagement around Oe's latest album HOMEWORK. Birdland states that HOMEWORK receives its worldwide release on September 4, 2026 and that it was recorded at The Bunker Studio with Clohesy and Pederson. Sony's official Otonano portal documents the Japanese album release on June 24, 2026, while Oe's official publishing channel states that the worldwide digital/CD release is September 4. Birdland lists a current ticket range of $35.46-$45.76 for each set.",
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/senri-oe-trio-4/",
+        "official_tickets": "https://www.birdlandjazz.com/tm-event/senri-oe-trio-4/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35.46,
+          "maximum": 45.76,
+          "source_url": "https://www.birdlandjazz.com/tm-event/senri-oe-trio-4/",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Senri Oe",
+          "title": "HOMEWORK",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/homework/6776530115"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Birdland verifies both dates, all four set times, the exact trio, event framing and current ticket range. The event page links four separate authorized TicketWeb purchase destinations, so the stable Birdland event page is retained as the event-level ticket link. Apple Music independently verifies the exact HOMEWORK album page and September 4, 2026 global pre-release date."
+      },
+      "sources": [
+        {
+          "url": "https://www.birdlandjazz.com/tm-event/senri-oe-trio-4/",
+          "publisher": "Birdland Jazz Club & Theater",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue page confirms October 30-31, 2026, 7:00 PM and 9:30 PM sets each night, Birdland Theater, the trio of Senri Oe, Matt Clohesy and Ross Pederson, HOMEWORK release framing, and the current $35.46-$45.76 ticket range."
+        },
+        {
+          "url": "https://www.110107.com/s/oto/artist/50505040",
+          "publisher": "Sony Music Labels / Otonano",
+          "checked_on": "2026-09-02",
+          "note": "Official Sony portal for Senri Oe documents HOMEWORK as his new album and the Japanese release on June 24, 2026."
+        },
+        {
+          "url": "https://note.com/senrigarden/n/n7a6023c1a033",
+          "publisher": "SENRI OE / P.N.D. Records official channel",
+          "checked_on": "2026-09-02",
+          "note": "Oe's official publishing channel states HOMEWORK CD release in Japan on June 24 and worldwide digital/CD release on September 4, 2026."
+        },
+        {
+          "url": "https://music.apple.com/us/album/homework/6776530115",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page for HOMEWORK by Senri Oe, listing a September 4, 2026 release."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core performance facts, personnel and ticket range were verified directly from Birdland. HOMEWORK release context was corroborated by Sony's official artist portal, Oe's official publishing channel and Apple Music. Repository-wide searches for Senri Oe plus Birdland, October 30-31, and the proposed event identity found no existing RADAR match before publication. Priority was assigned only after Stage 1 admission. A+ reflects an album-release trio engagement with a strong Japan/New York continuity that merits active prioritization without treating the artist's biography or venue prestige as automatic scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a particularly clean Japan-to-New-York thread: Oe did not simply carry a Japanese pop career into a jazz room; he rebuilt himself as a jazz pianist in New York and now brings the trio behind HOMEWORK into Birdland at the moment the record is reaching a worldwide audience. Clohesy and Pederson are the album rhythm section, so the live proposition is the working trio rather than a pickup band around a release date. The interest is in how Oe's melodic instincts and long pop-writing history behave inside an acoustic trio built for interaction.",
+          "trip_verdict": "If a New York trip overlaps October 30-31, actively make room for one of the four Birdland sets and let it anchor that part of the evening. From the DMV, pair it with another strong New York reason rather than make a dedicated corridor trip solely for this engagement.",
+          "listen_before": "Senri Oe — HOMEWORK"
+        },
+        "es": {
+          "why_it_matters": "Aquí el hilo Japón–Nueva York está especialmente bien armado: Oe no llegó a un club de jazz simplemente cargando una carrera de pop japonés; se rehízo como pianista de jazz en Nueva York y ahora lleva a Birdland al mismo trío que grabó HOMEWORK justo cuando el disco sale al mundo. Clohesy y Pederson son la sección rítmica del álbum, así que no es una banda armada para acompañar un lanzamiento sino un trío que ya tiene lenguaje propio. Lo interesante es escuchar qué ocurre cuando el instinto melódico y la larga historia de Oe como compositor pop entran en una formación acústica que vive de la interacción.",
+          "trip_verdict": "Si una ida a Nueva York cae el 30 o 31 de octubre, sí le haría espacio activamente a uno de los cuatro sets y dejaría que Birdland ancle esa parte de la noche. Desde el DMV, lo combinaría con otra razón fuerte para subir en vez de hacer el viaje regional únicamente por esta fecha.",
+          "listen_before": "Senri Oe — HOMEWORK"
+        }
+      }
+    }
+  ]
+}
