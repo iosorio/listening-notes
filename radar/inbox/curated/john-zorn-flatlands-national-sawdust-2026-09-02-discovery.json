@@ -1,0 +1,114 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "john-zorn-flatlands-national-sawdust-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed after rereading the current durable docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Fresh research checked Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedule traces, Space M&A and Jazz in Japan/current Japanese-jazz calendars. No new unrepresented Yamamoto appearance was verified; the September 6 BODY&SOUL appearance with Kimiko Ito and the September Final Groove Yamamoto material are already represented in canonical/curated/processed intake. Repository searches for Flatlands, John Zorn + National Sawdust + September 12, and the proposed stable ID returned no existing RADAR match. Stage 1 admits this performance for a concrete live construction: John Zorn's newest project is a guitar-bass-drums power trio explicitly tied to the Simulacrum/Naked City/Insurrection lineage, with thirteen compact compositions built around abrupt structure, virtuosity, advanced harmony, complex rhythm and electric instrumental identity. Stage 2 assigns A+: if New York is in play, the new Zorn power-trio language and exact Hollenberg/Hanes/Smith lineup merit actively making room for the set. A+ captures the recommendation better than S because the source does not establish a farewell, one-time-only event, world premiere, final performance or other scarcity fact making recurrence genuinely unlikely. This one-event batch adds no S/S+ pressure and is consistent with the current rubric's broad A / narrower A+ / rare scarcity-tier shape.",
+  "events": [
+    {
+      "id": "john-zorn-flatlands-national-sawdust-brooklyn-2026-09-12",
+      "artist": "John Zorn's Flatlands",
+      "subtitle": "New electric power trio",
+      "dates": {
+        "start": "2026-09-12",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental new music / electric power trio",
+      "genres": [
+        "Experimental",
+        "Avant-garde",
+        "Jazz",
+        "Heavy music"
+      ],
+      "musical_axes": [
+        "Experimental / Metal",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Matt Hollenberg — electric guitar",
+        "Simon Hanes — electric bass",
+        "Ches Smith — drums"
+      ],
+      "factual_description": "National Sawdust presents John Zorn's Flatlands on Saturday, September 12, 2026 at 8:00 PM, with doors at 7:00 PM, at 80 North 6th Street in Brooklyn. The venue identifies Flatlands as Zorn's newest project, a power trio in the Simulacrum / Naked City / Insurrection mold featuring Matt Hollenberg on electric guitar, Simon Hanes on electric bass and Ches Smith on drums. The announced music comprises thirteen compact compositions characterized by virtuosic solos, abrupt structural shifts, atonal melody, advanced harmony and complex rhythm. The individual event page contains a stale 'This event has passed' label while also marking the event UPCOMING; National Sawdust's current performances page independently lists September 12, 2026 as an upcoming performance, so the current calendar/date and active ticket link control status. No ticket price was recorded because the authorized ticket destination did not expose a stable verified price in the available source text.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/john-zorns-flatlands",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1277401"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1277401",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music",
+          "official_ticket_price"
+        ],
+        "note": "National Sawdust verifies the date, doors, performance time, venue and complete three-player lineup, and provides the authorized OvationTix destination. No ticket price or Apple Music destination was added without an exact verifiable match."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/john-zorns-flatlands",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-02",
+          "note": "Primary event page verifying September 12, 2026, 19:00 doors, 20:00 performance, the complete Hollenberg/Hanes/Smith lineup, the thirteen-composition description, all-ages/seated context and authorized ticket link. The page has a stale passed label but simultaneously marks the event UPCOMING."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/performances",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-02",
+          "note": "Current primary venue calendar independently lists John Zorn's Flatlands on September 12, 2026 among upcoming performances and corroborates the trio personnel and project description; used to resolve the stale CMS passed label on the individual page."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1277401",
+          "publisher": "National Sawdust / AudienceView Professional",
+          "checked_on": "2026-09-02",
+          "note": "Authorized ticket destination reached directly from the National Sawdust event page. No stable ticket price was exposed in the accessible source text, so price remains unknown rather than inferred."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts, personnel and live-project context come from National Sawdust's event page and current performances calendar; the official page's ticket button resolves to the authorized AudienceView/OvationTix production. Repository searches for Flatlands, the September 12 National Sawdust date and the proposed stable ID found no existing RADAR record before publication. Priority was assigned only after Stage 1 admission. A+ reflects a new, highly specific electric Zorn ensemble worth prioritizing in New York without inventing scarcity-tier facts."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Flatlands is not a generic Zorn repertory night. It is a new three-body machine: Matt Hollenberg's electric guitar, Simon Hanes's bass and Ches Smith's drums carrying thirteen short pieces that jump between hard-edged riffing, atonal turns, dense rhythm and sudden structural cuts. The connection to Simulacrum, Naked City and Insurrection gives the set a clear lineage, but the draw is hearing a new power-trio language being built around these particular players rather than revisiting an old band by proxy.",
+          "trip_verdict": "If New York is already in play on September 12, I would build the Brooklyn evening around the 8 PM set. From the DMV, pair it with another strong New York reason rather than make a dedicated corridor trip for this date alone.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Flatlands no es una noche genérica de repertorio de Zorn. Es una máquina nueva de tres cuerpos: la guitarra eléctrica de Matt Hollenberg, el bajo de Simon Hanes y la batería de Ches Smith cargando trece piezas breves que saltan entre riffs duros, giros atonales, ritmo denso y cortes estructurales repentinos. La conexión con Simulacrum, Naked City e Insurrection le da un linaje claro, pero lo interesante es escuchar cómo estos tres músicos construyen un lenguaje nuevo de power trio en vez de recrear una banda anterior por sustitución.",
+          "trip_verdict": "Si Nueva York ya está en juego el 12 de septiembre, armaría la noche de Brooklyn alrededor del set de las 8. Desde el DMV, lo combinaría con otra razón fuerte para subir a Nueva York en vez de hacer un viaje dedicado únicamente por esta fecha.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
