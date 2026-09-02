@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "luis-valle-afro-qbamigos-b-flat-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; no new verified, unrepresented Yamamoto appearance was found, so no duplicate Yamamoto record was created. Stage 1 admits Luis Valle & Afro Qbamigos! at Jazz Dining B-flat because this specific Akasaka performance connects a Havana-born trumpeter who has worked from Japan since 1997 with a seven-piece Tokyo ensemble whose trumpet/flugelhorn, saxophone, vibraphone/marimba and two-percussion rhythm language makes the Cuba-Japan relationship audible rather than merely biographical. The artist also frames Akasaka Summertime as a one-night special ensemble. Stage 2 assigns A: the night is distinctive and clearly worth RADAR admission, especially for the Japan/Latin thread, but Afro Qbamigos remains an active project and the verified evidence does not establish a farewell, premiere, historically singular appearance, or other scarcity fact that would justify reshaping the Tokyo calendar around it. Repository searches for Luis Valle, Afro Qbamigos, and B-flat Akasaka returned no existing RADAR record. This batch adds no S or S+ event and is consistent with the rubric's broad-base A shape without using distribution as a grading formula.",
+  "events": [
+    {
+      "id": "luis-valle-afro-qbamigos-b-flat-akasaka-tokyo-2026-09-29",
+      "artist": "Luis Valle & Afro Qbamigos!",
+      "subtitle": "Akasaka Summertime",
+      "dates": {
+        "start": "2026-09-29",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "jazz-dining-b-flat-akasaka-tokyo",
+        "name": "Jazz Dining B-flat",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Afro-Cuban Latin jazz / Trumpet-led ensemble",
+      "genres": [
+        "Latin jazz",
+        "Afro-Cuban jazz",
+        "Salsa",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Latin"
+      ],
+      "lineup": [
+        "Luis Valle — trumpet, flugelhorn, vocal",
+        "Andy Wulf — saxophone, chorus",
+        "Chie Suzuki — vibraphone, marimba",
+        "Masaru Okuyama — piano",
+        "Tetsuo Koizumi — bass",
+        "Kenji Imafuku — percussion",
+        "Setsu Fujii — drums"
+      ],
+      "factual_description": "Luis Valle & Afro Qbamigos! present “Akasaka Summertime” at Jazz Dining B-flat in Akasaka, Tokyo, on Tuesday, September 29, 2026. Doors are at 6:00 PM and the performance starts at 7:00 PM. Valle's official event page announces a seven-person lineup: Luis Valle on trumpet, flugelhorn and vocal; Andy Wulf on saxophone and chorus; Chie Suzuki on vibraphone and marimba; Masaru Okuyama on piano; Tetsuo Koizumi on bass; Kenji Imafuku on percussion; and Setsu Fujii on drums. The page describes the band's language as rooted in Cuban music and combining jazz, Afro-Cuban music and salsa, and calls this Akasaka Summertime edition a one-night special ensemble. The published music charge is ¥5,000 plus tax for general admission and ¥4,000 plus tax for students, with one drink and one food order additionally required. The venue address published by the artist is Akasaka Sakae Building B1F, 6-6-4 Akasaka, Minato-ku, Tokyo 107-0052.",
+      "links": {
+        "official_event": "https://bflat.yamano-music.co.jp/event?contentId=3w56fnpe_2b",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Luis Valle & Afro Qbamigos!",
+          "title": "Afro Cafe feat. Chie Ayado",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/afro-caf%C3%A9-feat-%E7%B6%BE%E6%88%B8%E6%99%BA%E6%81%B5/1773208025"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact official B-flat event page, the artist's detailed event page, and an exact Apple Music album destination are verified. B-flat's reservation flow resolves to a generic venue booking landing page rather than a stable event-specific purchase destination, so official_tickets remains null instead of storing a generic URL."
+      },
+      "sources": [
+        {
+          "url": "https://bflat.yamano-music.co.jp/event?contentId=3w56fnpe_2b",
+          "publisher": "Jazz Dining B-flat / Yamano Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact first-party B-flat event destination for the September 29 Luis Valle & Afro Qbamigos! performance."
+        },
+        {
+          "url": "https://luisvalle.jp/infomation/26-9-29%EF%BC%88tue%EF%BC%89-luis-valle-aflo-qbamigos-%E8%B5%A4%E5%9D%82summertime/",
+          "publisher": "Luis Valle Official Website",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist event page verifies September 29, doors 18:00/start 19:00, B-flat in Akasaka, the complete seven-person lineup, published music charges, the Cuba/jazz/Afro-Cuban/salsa framing, the one-night Akasaka Summertime concept, and the venue address."
+        },
+        {
+          "url": "https://luisvalle.jp/profile/",
+          "publisher": "Luis Valle Official Website",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist profile verifies Valle's Havana background, his move of his activity base to Japan in 1997, his formation and leadership of Luis Valle & Afro Qbamigos!, and the project's Latin-jazz, salsa and Afro-Cuban rhythmic language."
+        },
+        {
+          "url": "https://www.jazzinjapan.com/calendar/luis-valle-amp-afro-qbamigos-at-b-flat-akasaka",
+          "publisher": "Jazz in Japan",
+          "checked_on": "2026-09-02",
+          "note": "Authoritative Japanese-jazz calendar corroborates Luis Valle & Afro Qbamigos! at B-flat, Akasaka on September 29, 2026 at 19:00."
+        },
+        {
+          "url": "https://music.apple.com/us/album/afro-caf%C3%A9-feat-%E7%B6%BE%E6%88%B8%E6%99%BA%E6%81%B5/1773208025",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page for Luis Valle & Afro Qbamigos!'s 2024 Afro Cafe feat. Chie Ayado."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core date, start time, venue, complete announced lineup, event framing and published music charge were verified from Luis Valle's first-party event page; B-flat supplies the exact official venue event destination; Luis Valle's official profile verifies the Cuba-to-Japan band history; Jazz in Japan independently corroborates the date, time and venue; Apple Music verifies the listening destination. Repository-wide searches returned no existing Luis Valle, Afro Qbamigos or B-flat Akasaka RADAR record before publication. Priority was assigned only after Stage 1 admission. A is retained because the specific Cuba-Japan instrumental and rhythmic context is worth knowing and attending when the Tokyo evening fits, while the active project and absence of a verified farewell, premiere or singular scarcity fact do not support a higher behavioral recommendation."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a useful window into Tokyo's international jazz ecology: a Havana-born trumpeter who has worked from Japan since 1997 leading a septet where trumpet and flugelhorn sit beside saxophone and vibraphone/marimba over piano, bass, percussion and drums. Afro Qbamigos turns the Cuba–Japan connection into sound, folding Afro-Cuban and salsa rhythm into a jazz setting with real room for improvisation. The one-night Akasaka Summertime frame gives the club date a specific shape without pretending the active band itself is disappearing.",
+          "trip_verdict": "If September 29 is open in Tokyo, this is a strong choice for a Latin-leaning club night, especially if the trip is tracing the city's international jazz ecology. Attend if the evening lines up naturally; I would keep a scarcer master, farewell, premiere or true one-off ahead of it.",
+          "listen_before": "Luis Valle & Afro Qbamigos! — Afro Cafe feat. Chie Ayado"
+        },
+        "es": {
+          "why_it_matters": "Es una buena ventana a la ecología internacional del jazz de Tokio: un trompetista nacido en La Habana y radicado musicalmente en Japón desde 1997 al frente de un septeto donde trompeta y fliscorno conviven con saxofón y vibráfono/marimba sobre piano, bajo, percusión y batería. Afro Qbamigos convierte la conexión Cuba–Japón en sonido, metiendo ritmo afrocubano y salsa dentro de un entorno de jazz con espacio real para la improvisación. El marco de una sola noche de Akasaka Summertime le da forma concreta a la fecha de club sin fingir que la banda activa está por desaparecer.",
+          "trip_verdict": "Si el 29 de septiembre está libre en Tokio, es una muy buena opción para una noche de club con inclinación latina, sobre todo si el viaje viene siguiendo la ecología internacional del jazz de la ciudad. Vale ir si la noche acomoda naturalmente; mantendría por delante a un maestro más escaso, una despedida, un estreno o una fecha verdaderamente irrepetible.",
+          "listen_before": "Luis Valle & Afro Qbamigos! — Afro Cafe feat. Chie Ayado"
+        }
+      }
+    }
+  ]
+}
