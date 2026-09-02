@@ -1,0 +1,108 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "social-distortion-descendents-chats-anthem-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md before research or grading. Fresh Yamamoto checks did not produce a new unrepresented qualifying appearance; current BODY&SOUL and KEYSTONE dates found in research were already represented in processed or curated intake, including a duplicate/conflicting September 8 KEYSTONE candidate that was not republished. Stage 1 admits this September 4 Anthem event because the specific three-band bill creates a concrete multigenerational punk lineage in one local night: Social Distortion brings the Southern California punk/roots-rock line into its first new-album cycle in fifteen years, Descendents bring the melodic SoCal branch they helped define, and The Chats connect that lineage to contemporary Australian pub/garage punk. Stage 2 assigns A+: the package is unusually coherent and actively worth making room for locally. Scarcity challenge: the same Social Distortion / Descendents / The Chats package is officially listed at the Stone Pony Summer Stage on September 5 as part of the Born To Kill World Tour, and Social Distortion continues through the region afterward; A+ still fully captures the recommendation, so S is not warranted. A review of recent/current RADAR intake showed no reason to introduce a scarcity tier here; this batch adds one A+ and no S/S+ event. Repository code search for the exact Social Distortion / Descendents / The Chats combination returned no existing RADAR candidate before publication.",
+  "events": [
+    {
+      "id": "social-distortion-descendents-chats-the-anthem-washington-dc-2026-09-04",
+      "artist": "Social Distortion with Descendents & The Chats",
+      "subtitle": "Born To Kill World Tour",
+      "dates": {
+        "start": "2026-09-04",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Culturally significant rock / multigenerational punk lineage / DMV",
+      "genres": [
+        "Punk rock",
+        "Pop punk",
+        "Garage punk",
+        "Roots rock"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Social Distortion",
+        "Descendents",
+        "The Chats"
+      ],
+      "factual_description": "The Anthem presents Social Distortion with Descendents and The Chats in Washington, DC on Friday, September 4, 2026. Doors are at 6:00 PM and the show starts at 7:30 PM. The authorized Ticketmaster page independently confirms the September 4 date, 7:30 PM time and The Anthem. The Anthem places Social Distortion in the Born To Kill cycle, the band's first new-album cycle in fifteen years, following Mike Ness's serious illness; it also identifies Descendents with the Southern California pop-punk lineage they helped define and The Chats with Australian pub/garage-punk roots. The exact same three-band package is officially listed at the Stone Pony Summer Stage in Asbury Park on September 5 as part of the Born To Kill World Tour, confirming that the Washington show is a strong tour stop rather than a one-off. No ticket price is recorded because the accessible authorized ticket page does not expose a stable verified price.",
+      "links": {
+        "official_event": "https://theanthemdc.com/event/social-distortion/",
+        "official_tickets": "https://www.ticketmaster.com/social-distortion-washington-district-of-columbia-09-04-2026/event/15006452E2B559E9"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Social Distortion",
+          "title": "Born to Kill",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/born-to-kill/1873280355"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Anthem page verifies billing, date, doors and show time; its authorized Ticketmaster destination verifies the date, time and venue. The exact Apple Music album page verifies Born to Kill as Social Distortion's 2026 album, and the Stone Pony's official event page verifies that the same three-band package continues the next night as part of the Born To Kill World Tour. Ticket prices are intentionally not recorded because the accessible authorized purchase page does not expose a stable verified amount. No individual personnel beyond the verified band billing are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://theanthemdc.com/event/social-distortion/",
+          "publisher": "The Anthem / I.M.P.",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue page verifies Social Distortion with Descendents and The Chats on September 4, 2026, doors at 6:00 PM and show at 7:30 PM, and supplies the current-project and punk-lineage context used in the factual description."
+        },
+        {
+          "url": "https://www.ticketmaster.com/social-distortion-washington-district-of-columbia-09-04-2026/event/15006452E2B559E9",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-02",
+          "note": "Authorized ticket destination confirms Friday, September 4, 2026 at 7:30 PM at The Anthem in Washington, DC. The accessible page does not expose a stable verified ticket price, so none is recorded."
+        },
+        {
+          "url": "https://www.stoneponyonline.com/events/social-distortion/",
+          "publisher": "The Stone Pony",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue page verifies Social Distortion, Descendents and The Chats together again on September 5, 2026 and identifies the package as the Born To Kill World Tour; used for the explicit scarcity challenge."
+        },
+        {
+          "url": "https://music.apple.com/us/album/born-to-kill/1873280355",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album destination verifies Social Distortion's Born to Kill as an 11-track 2026 album released May 8, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core billing, date, venue and doors/show time were verified from The Anthem's exact event page and its authorized Ticketmaster destination. Current-project context comes from The Anthem and the exact Apple Music album page. The same-package next-night evidence comes from the Stone Pony's primary event page and is used only to test scarcity. Repository search for the exact three-band combination returned no matching RADAR candidate before publication. Priority was assigned only after Stage 1 admission. A+ is retained because the unusually coherent local bill merits active prioritization, while the documented multi-date tour package means A+ still captures the recommendation without manufacturing S-tier scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a lineage bill rather than three unrelated punk bookings. Social Distortion brings nearly five decades of Southern California punk and roots-rock into its first new-album cycle in fifteen years; Descendents bring the melodic SoCal branch they helped define; and The Chats push the same stripped-down urgency through contemporary Australian pub punk. In one local night, the genre's continuity is audible rather than commemorative.",
+          "trip_verdict": "If you're in the DMV, make The Wharf the evening and go; no regional travel calculation is needed. If Washington does not fit, the same three-band package reaches Asbury Park the next night, so there is useful flexibility without treating this stop as a one-off.",
+          "listen_before": "Social Distortion — Born to Kill"
+        },
+        "es": {
+          "why_it_matters": "No es un cartel de tres nombres puestos juntos. Social Distortion trae casi cinco décadas de punk y roots rock del sur de California dentro de su primer ciclo de disco nuevo en quince años; Descendents, la rama melódica de esa escena que ayudaron a definir; y The Chats empujan esa misma urgencia desde el pub punk australiano contemporáneo. En una sola noche local, la continuidad del género se escucha en vivo y no como pieza de museo.",
+          "trip_verdict": "Si estás en el DMV, haría del Wharf la noche y listo; no hace falta justificar un viaje regional. Si Washington no embona, el mismo cartel toca en Asbury Park al día siguiente, así que hay flexibilidad real sin tratar esta parada como un one-off.",
+          "listen_before": "Social Distortion — Born to Kill"
+        }
+      }
+    }
+  ]
+}
