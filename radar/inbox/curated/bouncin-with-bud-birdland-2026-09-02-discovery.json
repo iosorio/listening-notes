@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "bouncin-with-bud-birdland-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. A fresh Kawasaki Shimin Plaza finale check was not republished because repository searches found the October 3 Yamamoto/Satoh event already represented in processed and curated intake. Stage 1 admits BOUNCIN' WITH BUD because this is a repertoire-specific Bud Powell birthday project rather than a generic Birdland booking: Tardo Hammer's piano and Pasquale Grasso's guitar are paired with Lonnie Plaxico and Steve Smith for a focused bebop-lineage quartet. Stage 2 assigns A. The performance is useful to know and worth attending when a New York evening lines up naturally, but six announced sets across three nights and its place inside Smith's broader Birdland residency provide flexibility rather than scarcity. No farewell, premiere, unique one-night configuration, or other concrete fact supports a stronger behavioral recommendation. Repository searches for the exact title, Bud Powell Birthday Celebration, Tardo Hammer/Pasquale Grasso, and the proposed event identity returned no existing RADAR record. This batch adds an A event, consistent with the current rubric's broad-base shape without using distribution as a grading formula.",
+  "events": [
+    {
+      "id": "bouncin-with-bud-birdland-theater-new-york-2026-10-02",
+      "artist": "BOUNCIN' WITH BUD",
+      "subtitle": "Bud Powell Birthday Celebration",
+      "dates": {
+        "start": "2026-10-02",
+        "end": "2026-10-04"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "birdland-theater-new-york",
+        "name": "Birdland Theater",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Bud Powell repertoire / bebop lineage / piano-guitar quartet",
+      "genres": [
+        "Jazz",
+        "Bebop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Tardo Hammer — piano",
+        "Pasquale Grasso — guitar",
+        "Lonnie Plaxico — bass",
+        "Steve Smith — drums"
+      ],
+      "factual_description": "Birdland Theater presents BOUNCIN' WITH BUD: Bud Powell Birthday Celebration from Friday, October 2 through Sunday, October 4, 2026. Birdland lists two sets per night at 7:00 PM and 9:30 PM, with Tardo Hammer on piano, Pasquale Grasso on guitar, Lonnie Plaxico on bass, and Steve Smith on drums. The venue lists $35.46-$45.76 for the performances. Birdland's event page routes each set through its own authorized TicketWeb purchase link. The engagement is part of Steve Smith's multi-program Birdland residency, and contemporary residency coverage describes this quartet as exploring the music of Bud Powell.",
+      "links": {
+        "official_event": "https://www.birdlandjazz.com/tm-event/bouncin-with-bud-bud-powell-birthday-celebration-4/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35.46,
+          "maximum": 45.76,
+          "source_url": "https://www.birdlandjazz.com/tm-event/bouncin-with-bud-bud-powell-birthday-celebration-4/",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Bud Powell",
+          "title": "The Amazing Bud Powell, Vol. 1 (The Rudy Van Gelder Edition)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-amazing-bud-powell-vol-1-the-rudy-van-gelder-edition/738341407"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Birdland's exact event page verifies the engagement, lineup, set times and listed price range and exposes separate authorized TicketWeb links for individual sets. Because there is no single verified TicketWeb destination covering all six performances, official_tickets remains null rather than pointing the whole engagement at only one set. The Bud Powell listening destination is an exact Apple Music album page."
+      },
+      "sources": [
+        {
+          "url": "https://www.birdlandjazz.com/tm-event/bouncin-with-bud-bud-powell-birthday-celebration-4/",
+          "publisher": "Birdland Jazz Club & Theater",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue page verifies the October 2-4 engagement, 7:00 PM and 9:30 PM set pattern, Birdland Theater, listed price range, and the complete Hammer/Grasso/Plaxico/Smith lineup."
+        },
+        {
+          "url": "https://www.broadwayworld.com/bwwtv/article/STEVE-SMITH-VITAL-INFORMATION-to-Launch-Birdland-Residency-Over-Labor-Day-20260902",
+          "publisher": "BroadwayWorld",
+          "checked_on": "2026-09-02",
+          "note": "Contemporary coverage of Steve Smith's Birdland residency corroborates the October 2-4 lineup and describes the quartet as exploring Bud Powell's music within the multi-program residency."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-amazing-bud-powell-vol-1-the-rudy-van-gelder-edition/738341407",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album destination for The Amazing Bud Powell, Vol. 1; the edition includes the composition Bouncin' with Bud."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core date range, set times, venue, prices and full announced lineup were verified from Birdland's first-party event page. Current residency coverage corroborates that the quartet is a Bud Powell repertoire program and places it within Steve Smith's broader Birdland residency. Repository-wide searches for the exact event title, Bud Powell Birthday Celebration, and the Hammer/Grasso combination returned no existing RADAR record before publication. Priority was assigned only after Stage 1 admission. A is retained because the focused repertoire and piano-guitar instrumental identity clear the RADAR threshold, while the six-set, three-night run and active residency context make attendance flexible rather than scarce."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the instrumentation as much as the tribute: Tardo Hammer's piano and Pasquale Grasso's guitar approach Bud Powell's bebop language from two different harmonic angles, with Lonnie Plaxico and Steve Smith underneath them. That makes this more useful than a generic birthday set—the repertoire is a reason to hear four strong individual voices negotiate a very specific jazz vocabulary in real time.",
+          "trip_verdict": "If a New York evening naturally falls on October 2–4, pick the set that fits and go. With six chances across three nights, I would use the flexibility rather than organize a DMV-to-New York trip around this engagement alone.",
+          "listen_before": "Bud Powell — The Amazing Bud Powell, Vol. 1 (The Rudy Van Gelder Edition)"
+        },
+        "es": {
+          "why_it_matters": "El gancho está tanto en la instrumentación como en el homenaje: el piano de Tardo Hammer y la guitarra de Pasquale Grasso atacan el lenguaje bebop de Bud Powell desde dos ángulos armónicos distintos, con Lonnie Plaxico y Steve Smith sosteniendo el pulso. Eso lo vuelve más interesante que una celebración genérica: el repertorio sirve para escuchar a cuatro voces muy definidas negociar en tiempo real un vocabulario de jazz sumamente específico.",
+          "trip_verdict": "Si una noche en Nueva York cae naturalmente entre el 2 y el 4 de octubre, escogería el set que mejor acomode e iría. Con seis oportunidades en tres noches, aprovecharía esa flexibilidad en lugar de organizar un viaje DMV–Nueva York únicamente alrededor de esta fecha.",
+          "listen_before": "Bud Powell — The Amazing Bud Powell, Vol. 1 (The Rudy Van Gelder Edition)"
+        }
+      }
+    }
+  ]
+}
