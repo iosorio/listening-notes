@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "two-door-cinema-club-tourist-history-anthem-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed after rereading the current durable RADAR priority, editorial, domain and inbox guidance. Current Jazz House ALFIE, BODY&SOUL, Space M&A, Jazz Shiryokan/Yamamoto-schedule and Japanese-jazz checks produced no new unrepresented Tsuyoshi Yamamoto performance; Space M&A continues to list the already represented September 29, October 30 and November 28 Yamamoto/Kagawa/Osumi dates, while ALFIE has no October schedule posted yet. Repository searches for Two Door Cinema Club, Tourist History and the proposed stable ID found no existing canonical, curated or processed RADAR record. The October 11 Anthem performance clears Stage 1 because the tour is built around a complete live performance of Tourist History, turning a standard headline stop into a repertoire-specific anniversary event tied to a debut that established the band's guitar/post-punk/electronic identity. Stage 2 assigns A: the full-album anniversary context is worth RADAR and worth attending locally if convenient, while a broad multi-city anniversary tour and the absence of a farewell, premiere, rare lineup or one-off setting make stronger behavioral language unnecessary. Proposed batch distribution: A 1, A+ 0, S 0, S+ 0; the batch adds to the intended broad A base and creates no scarcity-tier pressure.",
+  "events": [
+    {
+      "id": "two-door-cinema-club-tourist-history-the-anthem-2026-10-11",
+      "artist": "Two Door Cinema Club",
+      "subtitle": "Tourist History 15th Anniversary Tour — with STRFKR",
+      "dates": {
+        "start": "2026-10-11",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Culturally significant indie rock / Full-album anniversary repertoire",
+      "genres": [
+        "Indie rock",
+        "Dance-punk",
+        "Indie pop"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Alex Trimble — vocals, guitar, programming",
+        "Sam Halliday — guitar, vocals",
+        "Kevin Baird — bass, vocals",
+        "STRFKR — support"
+      ],
+      "factual_description": "I.M.P. presents Two Door Cinema Club's Tourist History 15th Anniversary Tour at The Anthem in Washington, DC on Sunday, October 11, 2026, with doors at 6:30 PM and the show at 8:00 PM; STRFKR is the announced support act. I.M.P.'s exact event page identifies Two Door Cinema Club's core trio as Alex Trimble, Sam Halliday and Kevin Baird and centers the tour title on the band's 2010 debut Tourist History. Consequence's March 13 tour announcement reports that the North American anniversary run performs Tourist History in full along with later greatest hits and lists the Washington date among a broad multi-city itinerary. Apple Music verifies the 2010 album and its ten-track original edition.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/two-door-cinema-club-tourist-history-15th-anniversary-tour/",
+        "official_tickets": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-washington-district-of-columbia-10-11-2026/event/15006459B632539A"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-washington-district-of-columbia-10-11-2026/event/15006459B632539A",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Two Door Cinema Club",
+          "title": "Tourist History",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/tourist-history/1771710760"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "I.M.P. and Ticketmaster verify the exact Washington event, date, venue and 8:00 PM show time; I.M.P. verifies 6:30 PM doors, STRFKR support and the core trio. Consequence supplies the authoritative full-album-tour context, and Apple Music verifies the exact Tourist History album destination. No ticket price was stored because an original face value was not exposed in the verified sources consulted."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/two-door-cinema-club-tourist-history-15th-anniversary-tour/",
+          "publisher": "I.M.P. / The Anthem",
+          "checked_on": "2026-09-01",
+          "note": "Exact official promoter/venue page confirming October 11, 2026 at The Anthem; doors 18:30; show 20:00; STRFKR support; the anniversary-tour billing; and the band's core trio."
+        },
+        {
+          "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-washington-district-of-columbia-10-11-2026/event/15006459B632539A",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-01",
+          "note": "Authorized ticket page confirming the October 11, 2026, 8:00 PM event at The Anthem in Washington, DC."
+        },
+        {
+          "url": "https://concerts.consequence.net/articles/two-door-cinema-club-2026-north-american-tour",
+          "publisher": "Consequence",
+          "checked_on": "2026-09-01",
+          "note": "Authoritative March 13, 2026 tour announcement reporting that Tourist History is performed in full alongside later hits and documenting the broad North American routing with STRFKR."
+        },
+        {
+          "url": "https://music.apple.com/us/album/tourist-history/1771710760",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-01",
+          "note": "Exact album page verifying Tourist History as Two Door Cinema Club's 2010 ten-track debut album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-and-authoritative-sources",
+        "note": "Core event facts come from I.M.P./The Anthem and the authorized Ticketmaster listing; the performance-specific full-album anniversary context is cross-checked against Consequence's tour announcement, and Apple Music verifies the listening destination. Repository searches for Two Door Cinema Club, Tourist History and the proposed stable ID returned no matching RADAR event or intake batch before publication. No face-value price was inferred. Priority was assigned only after RADAR admission; A reflects a worthwhile local repertoire event within an extensive tour rather than a scarce or one-off context."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the repertoire, not a routine arena-scale tour stop. Tourist History compressed clipped guitars, post-punk momentum and electronic dance energy into one of the records that defined the early-2010s indie-club crossover; this tour puts the full debut back in sequence rather than reducing that period to its biggest singles. At The Anthem, the anniversary format offers a useful chance to hear whether the album still works as a continuous live object fifteen-plus years after it broke the band internationally.",
+          "trip_verdict": "If Sunday is open, this is a strong local night to fold into the calendar rather than reorganize the month around. The Anthem is easy enough to treat as an attend-if-convenient proposition, and the full-album format is the reason to choose this stop over a standard Two Door Cinema Club set.",
+          "listen_before": "Two Door Cinema Club — Tourist History"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el repertorio, no en otra parada grande de gira. Tourist History comprimió guitarras cortadas, impulso post-punk y energía electrónica de pista en uno de los discos que marcaron el cruce indie-bailable de principios de los 2010; esta gira devuelve el debut completo a su secuencia original en vez de reducir esa etapa a sus sencillos más conocidos. En The Anthem, el formato de aniversario permite escuchar si el álbum todavía funciona como una pieza continua en vivo más de quince años después de haber lanzado internacionalmente a la banda.",
+          "trip_verdict": "Si el domingo está libre, lo incorporaría al calendario como una muy buena noche local sin reorganizar el mes alrededor del concierto. The Anthem hace fácil caerle si conviene, y el álbum completo es la razón concreta para escoger esta fecha por encima de un set estándar de Two Door Cinema Club.",
+          "listen_before": "Two Door Cinema Club — Tourist History"
+        }
+      }
+    }
+  ]
+}
