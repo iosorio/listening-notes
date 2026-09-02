@@ -1,0 +1,216 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sex-pistols-ligeti-trio-2026-09-01-discovery",
+  "checked_on": "2026-09-01",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed on 2026-09-01 after rereading the current durable RADAR priority, editorial, domain and inbox guidance. Current ALFIE, BODY&SOUL, Space M&A, Yamamoto-schedule and Japanese-jazz checks produced no new unrepresented Tsuyoshi Yamamoto performance. This batch adds two newly verified performances that clear RADAR admission for event-specific reasons. Sex Pistols featuring Frank Carter at 9:30 Club places Steve Jones, Paul Cook and Glen Matlock with Carter in a sold-out local-room return built around the band's current revival and 50th-anniversary context; the extensive North American tour makes A+ sufficient and defeats a scarcity-tier claim. The Tokyo trio of Lukas Ligeti, Kazuhisa Uchihashi and Yoshio Machida brings drums, guitar/daxophone and steelpan into a one-night small-room improvisational encounter at Jimbocho Shichoshitsu; the unusual instrumental collision merits actively making room, while the lack of a verified premiere, farewell or otherwise historically singular fact keeps it at A+. Proposed batch distribution: A 0, A+ 2, S 0, S+ 0. The scarcity tiers remain unused in this batch.",
+  "events": [
+    {
+      "id": "sex-pistols-frank-carter-930-club-2026-09-29",
+      "artist": "Sex Pistols featuring Frank Carter",
+      "subtitle": "Steve Jones, Paul Cook & Glen Matlock with Frank Carter — with Bad Nerves",
+      "dates": {
+        "start": "2026-09-29",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Punk lineage / Original-member revival / Culturally significant rock",
+      "genres": [
+        "Punk rock"
+      ],
+      "musical_axes": [
+        "Masters"
+      ],
+      "lineup": [
+        "Frank Carter — vocals",
+        "Steve Jones — guitar",
+        "Glen Matlock — bass",
+        "Paul Cook — drums",
+        "Bad Nerves — support"
+      ],
+      "factual_description": "I.M.P. presents Sex Pistols featuring Frank Carter at 9:30 Club in Washington, DC on Tuesday, September 29, 2026, with Bad Nerves supporting. The venue lists doors at 7:30 PM and the show as sold out. Its exact event page identifies the current Sex Pistols lineup as Frank Carter, guitarist Steve Jones, drummer Paul Cook and bassist Glen Matlock, and frames the current run around the band's 50th-anniversary revival. The authorized Ticketmaster listing confirms the September 29 date and 9:30 Club venue but displays 7:30 PM only as the event time; because the venue itself labels 7:30 PM as doors and does not publish a separate performance start, no showtime is stored. Pollstar's 2026 tour announcement documents that the North American run spans many cities, including Philadelphia on September 25 and Washington on September 29, and reports that each stop will perform Never Mind the Bollocks, Here's the Sex Pistols in full plus additional catalog material.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/sex-pistols-steve-jones-paul-cook-glen-matlock-feat-frank-carter/",
+        "official_tickets": "https://www.ticketmaster.com/sex-pistols-steve-jones-paul-cook-washington-district-of-columbia-09-29-2026/event/1500627A14967C90"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/sex-pistols-steve-jones-paul-cook-washington-district-of-columbia-09-29-2026/event/1500627A14967C90",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "recommended_listening"
+        ],
+        "note": "The exact I.M.P./9:30 Club event page and authorized Ticketmaster destination are verified. No face-value ticket price is stored because the event is sold out and currently exposed ticket marketplace values are not a verified original face value. No Apple Music ID was inferred."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/sex-pistols-steve-jones-paul-cook-glen-matlock-feat-frank-carter/",
+          "publisher": "I.M.P. / 9:30 Club",
+          "checked_on": "2026-09-01",
+          "note": "Exact official venue/promoter page confirming September 29, 2026 at 9:30 Club in Washington, DC; doors at 7:30 PM; sold-out status; Bad Nerves support; and the current lineup of Frank Carter, Steve Jones, Paul Cook and Glen Matlock."
+        },
+        {
+          "url": "https://www.ticketmaster.com/sex-pistols-steve-jones-paul-cook-washington-district-of-columbia-09-29-2026/event/1500627A14967C90",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-01",
+          "note": "Exact authorized ticket page confirming the September 29, 2026 date and 9:30 Club venue. Ticketmaster displays 7:30 PM as event time, while I.M.P. explicitly labels 7:30 PM as doors, so a performance start is not inferred."
+        },
+        {
+          "url": "https://news.pollstar.com/2026/03/02/the-sex-pistols-reschedule-north-american-tour-dates-beginning-sept-11/",
+          "publisher": "Pollstar",
+          "checked_on": "2026-09-01",
+          "note": "Authoritative tour coverage confirming the extensive 2026 North American routing and the Washington date; used for scarcity context rather than as the primary event source."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-sources",
+        "note": "Core date, venue, billing, lineup, support act, doors time and sold-out status were verified from I.M.P./9:30 Club and the authorized Ticketmaster event. Repository searches for Sex Pistols, Frank Carter and the proposed stable ID returned no matching canonical, curated or processed record before publication. No performance start, face-value price or listening URL was inferred. Priority was assigned only after RADAR admission and challenged against the current scarcity rubric."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a generic legacy-punk stop. Steve Jones, Paul Cook and Glen Matlock are carrying the Sex Pistols repertoire with Frank Carter as the live frontman, putting three musicians who built the original attack into direct contact with a singer shaped by the music decades later. In the 9:30 Club, that lineage lands at club scale rather than as an arena-history exercise, which makes the Washington date a particularly sharp way to hear whether the revival still feels dangerous, physical and present.",
+          "trip_verdict": "Actively make room for the Washington night if the punk and culturally significant rock thread matters. It is sold out, so access may be the practical constraint; the broader North American tour means this should not displace a truly singular farewell, premiere or one-off elsewhere.",
+          "listen_before": "Sex Pistols — Never Mind the Bollocks, Here's the Sex Pistols"
+        },
+        "es": {
+          "why_it_matters": "Esto no es una parada genérica de punk veterano. Steve Jones, Paul Cook y Glen Matlock están llevando el repertorio de Sex Pistols con Frank Carter al frente, poniendo a tres músicos que construyeron el ataque original frente a un cantante formado por esa música décadas después. En el 9:30 Club, ese linaje cae a escala de club y no como ejercicio de historia en una arena; por eso la fecha de Washington tiene una razón muy concreta para escuchar si esta encarnación todavía suena física, peligrosa y presente.",
+          "trip_verdict": "Sí le haría espacio activamente a la noche de Washington si el punk y el rock culturalmente significativo forman parte del hilo. Está agotada, así que conseguir entrada puede ser la restricción real; la gira norteamericana es amplia y no amerita desplazar una despedida, estreno o one-off verdaderamente singular.",
+          "listen_before": "Sex Pistols — Never Mind the Bollocks, Here's the Sex Pistols"
+        }
+      }
+    },
+    {
+      "id": "lukas-ligeti-uchihashi-machida-shichoshitsu-2026-09-22",
+      "artist": "Lukas Ligeti + Kazuhisa Uchihashi + Yoshio Machida",
+      "subtitle": "Drums, guitar/daxophone and steelpan trio",
+      "dates": {
+        "start": "2026-09-22",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "jimbocho-shichoshitsu-tokyo",
+        "name": "Jimbocho Shichoshitsu",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental improvisation / Unusual instrumental trio",
+      "genres": [
+        "Experimental",
+        "Free improvisation"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Lukas Ligeti — drums",
+        "Kazuhisa Uchihashi — guitar, daxophone",
+        "Yoshio Machida — steelpan"
+      ],
+      "factual_description": "Jimbocho Shichoshitsu presents Lukas Ligeti, Kazuhisa Uchihashi and Yoshio Machida in Tokyo on Tuesday, September 22, 2026. The venue-registered TIGET listing gives doors at 7:30 PM and a performance start at 8:00 PM, with advance admission at ¥3,500 plus a ¥500 drink and door admission at ¥4,000 plus a ¥500 drink. The listing identifies Ligeti on drums, Uchihashi on guitar/daxophone and Machida on steelpan. Ligeti's official biography identifies him as an Austrian/American composer and improvisor working with drums and electronics across experimentalism, contemporary composition, jazz and African musical traditions; YCAM identifies Uchihashi as a guitarist, daxophonist and composer whose work centers improvisation and instrumental expansion; Machida's official profile identifies him as a Tokyo-based composer and steelpan player.",
+      "links": {
+        "official_event": "https://tiget.net/events/513791",
+        "official_tickets": "https://tiget.net/events/513791"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3500,
+          "maximum": 4000,
+          "source_url": "https://tiget.net/events/513791",
+          "checked_on": "2026-09-01"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "recommended_listening"
+        ],
+        "note": "The venue-registered TIGET page functions as both event listing and reservation destination. Performer roles are cross-checked against authoritative artist/institution profiles. No repertoire or Apple Music destination is announced for this trio, so neither is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://tiget.net/events/513791",
+          "publisher": "TIGET / Jimbocho Shichoshitsu",
+          "checked_on": "2026-09-01",
+          "note": "Exact event page registered by Jimbocho Shichoshitsu confirming September 22, 2026; doors 19:30; start 20:00; the three performers; stated instruments; and advance/door admission terms."
+        },
+        {
+          "url": "https://www.lukasligeti.com/information/biography",
+          "publisher": "Lukas Ligeti",
+          "checked_on": "2026-09-01",
+          "note": "Official biography confirming Ligeti as a composer/improvisor working with drums and electronics and describing the experimental, contemporary, jazz and African-music strands of his practice."
+        },
+        {
+          "url": "https://www.ycam.jp/en/archive/profile/kazuhisa-uchihashi/",
+          "publisher": "Yamaguchi Center for Arts and Media (YCAM)",
+          "checked_on": "2026-09-01",
+          "note": "Authoritative institutional profile confirming Kazuhisa Uchihashi as guitarist, daxophonist and composer and documenting his improvisational/instrumental practice."
+        },
+        {
+          "url": "https://www.yoshiomachida.com/index_e.html",
+          "publisher": "Yoshio Machida",
+          "checked_on": "2026-09-01",
+          "note": "Official artist profile confirming Machida as a Tokyo-based composer and steelpan player and documenting his work across sound, art and intercultural practice."
+        }
+      ],
+      "provenance": {
+        "status": "verified-organizer-and-authoritative-sources",
+        "note": "Date, venue, doors, start, admission and the billed trio come from the venue-registered TIGET listing; instrumental identities are cross-checked against authoritative performer profiles. Repository searches for Lukas Ligeti with the September 22 date, Yoshio Machida and the proposed stable ID returned no matching canonical, curated or processed record before publication. No repertoire, premiere claim or listening URL was inferred. Priority was assigned only after RADAR admission and A+ was retained after explicitly rejecting a scarcity-tier claim."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to care is the instrumentation and the collision of three improvisational languages: Ligeti's rhythm-first experimental practice, Uchihashi's guitar/daxophone vocabulary, and Machida's steelpan sound world. In a small Jimbocho room, drums, a friction instrument with an almost vocal range, guitar and steelpan create a setup with very little stylistic safety net. The specific trio, rather than any one name, is what earns the RADAR slot.",
+          "trip_verdict": "Actively make room for this if Tokyo is in play and the experimental/improvised thread matters. Jimbocho makes it an easy evening to build around; the unusual trio is the attraction, but there is not enough verified evidence of premiere, farewell or historical singularity to turn the night into a special-trip proposition.",
+          "listen_before": "Lukas Ligeti / Kazuhisa Uchihashi / Yoshio Machida — individual work; no trio recording verified"
+        },
+        "es": {
+          "why_it_matters": "La razón para detenerse aquí es la instrumentación y el choque de tres lenguajes improvisatorios: el trabajo experimental de Ligeti desde el ritmo, el vocabulario de guitarra y daxophone de Uchihashi y el mundo sonoro del steelpan de Machida. En una sala pequeña de Jimbocho, batería, un instrumento de fricción con registro casi vocal, guitarra y steelpan dejan muy poca red de seguridad estilística. Es el trío específico —no cualquiera de los nombres por separado— lo que le gana su lugar en RADAR.",
+          "trip_verdict": "Sí le haría espacio activamente si Tokio está en juego y el hilo experimental/improvisado importa. Jimbocho permite construir fácilmente la noche alrededor del concierto; la combinación poco común es el atractivo, pero no hay evidencia verificada de estreno, despedida o singularidad histórica que convierta esta fecha en un viaje especial por sí sola.",
+          "listen_before": "Lukas Ligeti / Kazuhisa Uchihashi / Yoshio Machida — trabajo individual; no se verificó una grabación del trío"
+        }
+      }
+    }
+  ]
+}
