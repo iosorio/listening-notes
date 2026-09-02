@@ -1,0 +1,113 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "so-laboratories-tim-thomas-roulette-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources produced no additional verified unrepresented Yamamoto performance requiring a new record; already represented appearances were not duplicated. Stage 1 admits Sō Laboratories in Memory of Tim Thomas because the September 15 Roulette event is a specific memorial built around the Sō Laboratories series that Thomas guided, with Sō Percussion + Friends and a percussion-heavy new-music lineup; the context is not generic venue or artist prestige. Stage 2 assigns A after comparing the judgment with the recent/current RADAR shape and challenging whether active-prioritization language is really warranted. The one-night memorial is distinctive, but Roulette also provides a free livestream and archive, and the primary page does not announce a premiere, farewell performance, fixed rare repertoire, or other fact that makes A+ necessary. A therefore captures the behavior without grading to a quota: this is worth knowing about and attending if a New York trip aligns. Batch distribution: A 1, A+ 0, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "so-laboratories-tim-thomas-roulette-brooklyn-2026-09-15",
+      "artist": "Sō Laboratories in Memory of Tim Thomas",
+      "subtitle": "Sō Percussion + Friends — memorial concert",
+      "dates": {
+        "start": "2026-09-15",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A",
+      "category": "Memorial / contemporary percussion and new music",
+      "genres": [
+        "New Music",
+        "Contemporary classical",
+        "Experimental music"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Sō Percussion + Friends",
+        "Matt Evans — percussion",
+        "Amy Garapic — percussion",
+        "Charlotte Greve — alto saxophone",
+        "Sruly Lazaros",
+        "Dani Matei — percussion",
+        "Beth Meyers — viola",
+        "Drew Neal — percussion",
+        "Dylan Offrais — percussion",
+        "Pat Swoboda — bass",
+        "Philippa Thompson"
+      ],
+      "factual_description": "Roulette presents Sō Laboratories in Memory of Tim Thomas on Tuesday, September 15, 2026. Doors are at 7:00 PM and the performance begins at 8:00 PM. The event is free with RSVP and is presented by Sō Percussion in partnership with Roulette. Roulette states that Tim Thomas (1966–2026) died in January 2026 and describes the evening as a celebration of his life through Sō Laboratories, the series he loved and guided. The announced billing is Sō Percussion + Friends, with Matt Evans (percussion), Amy Garapic (percussion), Charlotte Greve (alto saxophone), Sruly Lazaros, Dani Matei (percussion), Beth Meyers (viola), Drew Neal (percussion), Dylan Offrais (percussion), Pat Swoboda (bass), and Philippa Thompson. Roulette also states that the concert will be livestreamed free at 8:00 PM and archived for future viewing.",
+      "links": {
+        "official_event": "https://roulette.org/event/so-laboratories-in-memory-of-tim-thomas/",
+        "official_tickets": "https://ci.ovationtix.com/36368/performance/11846294?performanceId=11846294"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://roulette.org/event/so-laboratories-in-memory-of-tim-thomas/",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette's exact event page verifies the date, doors/start time, free-with-RSVP admission, memorial context, Sō Percussion + Friends billing, listed participants and instruments where supplied, livestream/archive plan, and authorized AudienceView/OvationTix reservation destination. No instrument was inferred for Sruly Lazaros or Philippa Thompson, and no Apple Music destination was invented."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/so-laboratories-in-memory-of-tim-thomas/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-02",
+          "note": "Primary event page verifies September 15, 2026; 19:00 doors; 20:00 performance; free-with-RSVP admission; the Tim Thomas memorial framing through Sō Laboratories; Sō Percussion + Friends billing; announced participants and listed instruments; free livestream/archive; and the authorized reservation link."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/performance/11846294?performanceId=11846294",
+          "publisher": "AudienceView Professional / OvationTix",
+          "checked_on": "2026-09-02",
+          "note": "Authorized reservation destination linked directly from Roulette's exact event page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "note": "Core event facts were verified against Roulette's exact event page and its directly linked authorized reservation destination. Repository-wide searches for Tim Thomas, Sō Laboratories, So Laboratories, Roulette, and the proposed stable event concept returned no matching canonical, curated, or processed RADAR record before publication. Priority was assigned only after Stage 1 admission. A was retained after the distribution sanity check because the memorial context makes the night specific enough for RADAR, while the available free livestream/archive and absence of a verified premiere, farewell performance, or other scarce musical endpoint make attend-if-convenient behavior the durable recommendation."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason this belongs is the memorial structure, not simply Sō Percussion's reputation. Thomas helped guide Sō Laboratories, and the series becomes the language for remembering him: a percussion-heavy circle of musicians gathering around the experimental community he supported. That gives the evening a real human and musical context rather than the feel of a routine new-music bill.",
+          "trip_verdict": "If a New York trip already lines up with September 15, this is worth folding into the evening at Roulette, especially because the reservation is free. From the DMV, I would pair it with another strong New York reason rather than build a dedicated trip around this single night; the free livestream also keeps the music accessible if the geography does not work.",
+          "listen_before": "Sō Percussion — a representative recent recording or live set"
+        },
+        "es": {
+          "why_it_matters": "Lo que mete esta fecha al RADAR es la forma del memorial, no simplemente la reputación de Sō Percussion. Thomas ayudó a guiar Sō Laboratories y ahora la propia serie sirve como lenguaje para recordarlo: un círculo de músicos, con fuerte peso de la percusión, reunido alrededor de la comunidad experimental que él apoyó. Eso le da a la noche un contexto humano y musical concreto, no el aire de otra cartelera rutinaria de música nueva.",
+          "trip_verdict": "Si un viaje a Nueva York ya coincide con el 15 de septiembre, vale incorporarlo a la noche en Roulette, sobre todo porque la reservación es gratuita. Desde el DMV lo combinaría con otra razón fuerte para subir, en vez de construir un viaje dedicado alrededor de esta sola fecha; el livestream gratuito también mantiene la música al alcance si la geografía no cuadra.",
+          "listen_before": "Sō Percussion — una grabación reciente o set en vivo representativo"
+        }
+      }
+    }
+  ]
+}
