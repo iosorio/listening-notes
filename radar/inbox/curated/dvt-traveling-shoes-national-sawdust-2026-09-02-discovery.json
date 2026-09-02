@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dvt-traveling-shoes-national-sawdust-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources. The verified Yamamoto dates surfaced in this pass, including the Space M&A September 29, October 30, November 28 and December 28 dates and BODY&SOUL's final-run dates, are already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found DVT's Traveling Shoes Experience at National Sawdust. Stage 1 admits it because the specific performance is the New York City debut of a seven-year collaborative project built from Damani Rhodes's piano-centered composition, VADIA's vocals and Tongo Eisen-Martin's poetry, with the presenter explicitly framing the live work as a collision of jazz, poetry and soul. This is not admission by venue prestige or artist reputation alone. Stage 2 assigns A+: within New York, the one-night debut and unusually integrated composition/voice/poetry format merit actively making room, while the project is active and has other live performances, so there is no verified scarcity fact requiring S. Recent/current RADAR intake was rechecked as a sanity test and remains concentrated in A/A+ with S/S+ reserved for genuine scarcity; this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "dvt-traveling-shoes-national-sawdust-brooklyn-2026-10-16",
+      "artist": "DVT",
+      "subtitle": "Traveling Shoes Experience — NYC debut",
+      "dates": {
+        "start": "2026-10-16",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz / poetry / soul interdisciplinary performance",
+      "genres": [
+        "Jazz",
+        "Spoken word",
+        "Soul",
+        "Experimental music"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Damani Rhodes — composer, piano",
+        "VADIA — vocals",
+        "Tongo Eisen-Martin — poetry"
+      ],
+      "factual_description": "National Sawdust presents DVT's Traveling Shoes Experience on Friday, October 16, 2026, with doors at 18:30 and the performance at 19:30. The venue identifies the event as DVT's New York City debut and a one-night performance, naming the trio as composer Damani Rhodes, vocalist VADIA and poet Tongo Eisen-Martin and describing the work as a collision of jazz, poetry and soul. National Sawdust's current performances index also lists the October 16 event as upcoming and links to ticketing. DVT's official site identifies Traveling Shoes as an 11-track, 33-minute work developed over seven years and credits Rhodes, VADIA and Eisen-Martin as the ensemble; it also describes Rhodes's piano as the harmonic structure of the project. The National Sawdust event page does not announce album guests or additional live personnel, so none are inferred. The event-page template also displays a contradictory 'This event has passed' label despite the future October 16 date; the venue's current performances index lists the event as upcoming, so the future date and active ticket link are retained as the controlling current evidence.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/dvt-traveling-shoes-experience",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280711"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1280711",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tongo Eisen-Martin, Damani Rhodes & Vadia",
+          "title": "Traveling Shoes",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/traveling-shoes/1830590638"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "face_value_price"
+        ],
+        "note": "National Sawdust verifies the exact event, date, doors, start time, NYC-debut framing, trio identities and authorized ticket destination. DVT's official project site verifies the ensemble and Traveling Shoes project, and Apple Music verifies the exact 2025 album. The retrievable authorized ticket page does not expose a face-value price, so no price is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/dvt-traveling-shoes-experience",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-02",
+          "note": "Primary presenter page verifies October 16, 2026, 18:30 doors, 19:30 start, DVT's NYC debut, one-night framing, trio identities, jazz/poetry/soul context and authorized ticket link. The page template also shows a contradictory passed-event label, so current venue-index evidence was checked separately."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/performances",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-02",
+          "note": "Current presenter performances index lists DVT: Traveling Shoes Experience for October 16, 2026 at 7:30 PM among upcoming performances and offers a Buy Tickets action, resolving the stale passed-event label on the individual template."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280711",
+          "publisher": "AudienceView Professional / National Sawdust authorized ticketing",
+          "checked_on": "2026-09-02",
+          "note": "Authorized ticket destination linked directly from National Sawdust. No retrievable face-value price is exposed, so prices remain null."
+        },
+        {
+          "url": "https://www.dvtmusic.com/",
+          "publisher": "DVT",
+          "checked_on": "2026-09-02",
+          "note": "Official project site verifies the ensemble as Damani Rhodes, VADIA and Tongo Eisen-Martin, the seven-year development history, and Traveling Shoes as an 11-track, 33-minute project centered on poetry, piano and vocals."
+        },
+        {
+          "url": "https://music.apple.com/us/album/traveling-shoes/1830590638",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page verifies Traveling Shoes by Tongo Eisen-Martin, Damani Rhodes and Vadia, released August 22, 2025, with 11 songs and a 33-minute runtime."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core facts were verified from National Sawdust, its current performances index, the authorized AudienceView/OvationTix ticket destination, DVT's official project site and Apple Music. Repository-wide searches for DVT, Traveling Shoes and Tongo Eisen-Martin returned no matching canonical, curated or processed RADAR event before publication. Priority A+ was assigned only after Stage 1 admission: the one-night NYC debut and integrated composition/piano-vocal-poetry language make the performance actively worth making room for in New York, while existing live activity by the project means A+ captures the recommendation without manufacturing S-level scarcity. Album guest artists are not assumed to appear live."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Traveling Shoes is built less like a band set than a single three-way language: Rhodes gives the poems harmonic architecture at the piano, VADIA moves between song and the grain of the spoken text, and Eisen-Martin keeps language in the foreground without turning the music into accompaniment. After seven years of development, the New York debut is the interesting live question: whether that studio-bound balance of poetry, harmony and soul can breathe as one form in the room.",
+          "trip_verdict": "If New York is already in play on October 16, actively make room for National Sawdust and build the Brooklyn evening around it. From the DMV, I would pair it with another strong New York reason rather than make a dedicated trip for this date alone.",
+          "listen_before": "Traveling Shoes — Tongo Eisen-Martin, Damani Rhodes & Vadia"
+        },
+        "es": {
+          "why_it_matters": "Traveling Shoes funciona menos como un set de banda que como un solo lenguaje de tres partes: Rhodes le da arquitectura armónica a los poemas desde el piano, VADIA se mueve entre el canto y la textura de la palabra hablada, y Eisen-Martin mantiene el lenguaje al frente sin reducir la música a mero acompañamiento. Después de siete años de desarrollo, el debut en Nueva York plantea la pregunta interesante en vivo: si ese equilibrio de poesía, armonía y soul puede respirar como una sola forma dentro de la sala.",
+          "trip_verdict": "Si Nueva York ya está en juego el 16 de octubre, sí le haría espacio activamente a National Sawdust y construiría la noche en Brooklyn alrededor de esta fecha. Desde el DMV lo combinaría con otra razón fuerte para subir, en vez de hacer un viaje dedicado únicamente por este concierto.",
+          "listen_before": "Traveling Shoes — Tongo Eisen-Martin, Damani Rhodes & Vadia"
+        }
+      }
+    }
+  ]
+}
