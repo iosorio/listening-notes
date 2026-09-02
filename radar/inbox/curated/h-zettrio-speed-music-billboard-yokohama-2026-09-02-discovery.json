@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "h-zettrio-speed-music-billboard-yokohama-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks covered Tsuyoshi Yamamoto schedule traces, BODY&SOUL, Jazz House ALFIE, Space M&A, and credible Japanese-jazz sources; no new verified, unrepresented Yamamoto appearance was found. Stage 1 admits H ZETTRIO's September 5 Billboard Live YOKOHAMA Speed Music Night because this specific performance is built around the trio's long-running SPEED MUSIC project: a piano-bass-drums group recasting Japanese songs across eras into fast, highly arranged instrumental trio language. The concrete repertoire concept, Japanese cultural context, and strong instrumental identity make the event more than a generic jazz-club appearance. Stage 2 assigns A. Billboard and the artist both present Speed Music Night as a recurring 2026 quarterly showcase with dates in February, June, September and December, and September 5 itself has two sets; there is no verified farewell, premiere, one-off lineup or scarcity fact that warrants a higher behavioral recommendation. Repository searches for H ZETTRIO, Speed Music Night, and the September 5 Billboard Live YOKOHAMA engagement returned no existing matching RADAR record. This batch adds no S or S+ event and preserves the rubric's broad-base A shape without using distribution as a grading formula.",
+  "events": [
+    {
+      "id": "h-zettrio-speed-music-billboard-live-yokohama-2026-09-05",
+      "artist": "H ZETTRIO",
+      "subtitle": "Speed Music Night with H ZETTRIO 2026",
+      "dates": {
+        "start": "2026-09-05",
+        "end": null
+      },
+      "showtimes": [
+        "15:30",
+        "18:30"
+      ],
+      "venue": {
+        "id": "billboard-live-yokohama",
+        "name": "Billboard Live YOKOHAMA",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Yokohama",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese instrumental piano trio / reimagined songbook / television-project showcase",
+      "genres": [
+        "Jazz",
+        "Instrumental jazz",
+        "Jazz fusion",
+        "Japanese popular-song reinterpretation"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "H ZETT M — piano / blue nose",
+        "H ZETT NIRE — bass / red nose",
+        "H ZETT KOU — drums / silver nose"
+      ],
+      "factual_description": "Billboard Live YOKOHAMA presents H ZETTRIO's “Speed Music Night with H ZETTRIO 2026” on Saturday, September 5, 2026. The first stage opens at 14:30 and starts at 15:30; the second opens at 17:30 and starts at 18:30. Billboard and H ZETTRIO's official page list the trio as H ZETT M on piano, H ZETT NIRE on bass and H ZETT KOU on drums. The official pages frame the show as the live extension of the TV Kanagawa project SPEED MUSIC ソクドノオンガク and show the 2026 series recurring quarterly at Billboard Live YOKOHAMA on February 27, June 7, September 5 and December 5. Billboard lists current seat charges ranging from ¥7,500 for Casual Side seats to ¥19,300 for a two-person DX Sheet DUO, with other seat categories between those amounts.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/en/yokohama/show?event_id=ev-21119",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "H ZETTRIO",
+          "title": "SPEED MUSIC ソクドノオンガク vol. 10 (Instrument Ver.)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/speed-music-%E3%82%BD%E3%82%AF%E3%83%89%E3%83%8E%E3%82%AA%E3%83%B3%E3%82%AC%E3%82%AF-vol-10-instrument-ver/1800631676"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Billboard Live YOKOHAMA event page and H ZETTRIO's official event page verify date, both set times, trio personnel, recurring-series context and published local seat charges. An exact Apple Music album destination for the SPEED MUSIC project is verified. No separate stable event-specific purchase destination was established, so official_tickets remains null rather than storing a generic or session-dependent booking URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/en/yokohama/show?event_id=ev-21119",
+          "publisher": "Billboard Live YOKOHAMA",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue page verifies September 5, 2026, both stage times, all three performers, seat categories and charges, and the broader four-date 2026 Speed Music Night series."
+        },
+        {
+          "url": "https://worldapart.co.jp/hzettrio/live/billboard/",
+          "publisher": "H ZETTRIO Official Website",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist page verifies the SPEED MUSIC TV-project connection, quarterly 2026 Billboard Live YOKOHAMA showcase, September 5 stage times, trio personnel and current ticket-sale framing."
+        },
+        {
+          "url": "https://realsound.jp/2026/02/post-2311641.html",
+          "publisher": "Real Sound",
+          "checked_on": "2026-09-02",
+          "note": "Authoritative music coverage describes SPEED MUSIC as H ZETTRIO's long-running project of reworking requested Japanese songs across eras through the trio's instrumental arrangements and notes the scale of the accumulated repertoire."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/speed-music-%E3%82%BD%E3%82%AF%E3%83%89%E3%83%8E%E3%82%AA%E3%83%B3%E3%82%AC%E3%82%AF-vol-10-instrument-ver/1800631676",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page for H ZETTRIO's SPEED MUSIC ソクドノオンガク vol. 10 (Instrument Ver.), a directly relevant entry point into the live project's repertoire language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authoritative-and-apple-sources",
+        "note": "Date, both showtimes, venue, trio personnel, recurring-showcase context and published local seat charges were verified from Billboard Live YOKOHAMA and H ZETTRIO's official page; Real Sound supplies independent context on the repertoire project; Apple Music verifies the listening destination. Repository searches returned no existing H ZETTRIO or September 5 Speed Music Night RADAR record before publication. Priority was assigned only after Stage 1 admission. A is retained because the event has a specific Japanese-repertoire and instrumental-trio identity worth knowing and attending when convenient, while the recurring quarterly format, two same-day sets and absence of a verified one-off scarcity fact do not support stronger behavioral language."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The repertoire concept is the hook: H ZETTRIO takes Japanese songs from different eras and rebuilds them for piano, bass and drums, turning a long-running television project into a compact live songbook of speed, arrangement and trio interplay. That gives the Yokohama date a distinctly Japanese listening-history thread and a strong instrumental identity rather than making it just another piano-trio club set.",
+          "trip_verdict": "If September 5 is open and Yokohama fits naturally into the Kanto plan, either set is worth catching. The two showtimes make it easy to fold into the day; I would keep scarcer farewells, premieres or rare master appearances ahead of it rather than reorganize the itinerary around this recurring showcase.",
+          "listen_before": "H ZETTRIO — SPEED MUSIC ソクドノオンガク vol. 10 (Instrument Ver.)"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el repertorio: H ZETTRIO toma canciones japonesas de distintas épocas y las reconstruye para piano, bajo y batería, convirtiendo un proyecto televisivo de larga duración en un cancionero en vivo de velocidad, arreglo e interacción de trío. Eso le da a la fecha de Yokohama un hilo muy japonés de historia de escucha y una identidad instrumental clara, en vez de ser simplemente otro set de piano trio.",
+          "trip_verdict": "Si el 5 de septiembre está libre y Yokohama entra naturalmente en el plan de Kantō, cualquiera de los dos sets vale la pena. Los dos horarios facilitan acomodarlo en el día; mantendría por delante despedidas, estrenos o apariciones más escasas de grandes maestros en vez de reorganizar el itinerario alrededor de esta serie recurrente.",
+          "listen_before": "H ZETTRIO — SPEED MUSIC ソクドノオンガク vol. 10 (Instrument Ver.)"
+        }
+      }
+    }
+  ]
+}
