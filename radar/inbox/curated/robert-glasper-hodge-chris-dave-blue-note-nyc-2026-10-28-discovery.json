@@ -1,0 +1,113 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "robert-glasper-hodge-chris-dave-blue-note-nyc-2026-10-28-discovery",
+  "notes": "Yamamoto-first discovery pass on 2026-09-03 after rereading current docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Current ALFIE, BODY&SOUL, Space M&A and Japanese-jazz searches did not reveal a new verified, unrecorded Tsuyoshi Yamamoto appearance. Robert Glasper feat. Derrick Hodge & Chris Dave clears RADAR admission because the advertised rhythm-section lineup reconnects three musicians central to the original Robert Glasper Experiment / Black Radio language: piano and keyboards, electric bass, and a highly distinctive drum vocabulary meeting at close range in Blue Note's Robtober setting. The final priority is A+: actively make room if New York is in play. Six advertised sets across three nights, followed by additional Halloween and residency-finale appearances with the same trio, make A+ sufficient and argue against scarcity-tier inflation. Repository search for the exact billing and Hodge/Dave combination returned no existing event before publication; recent/current grade sanity checking did not create a reason to move this non-scarcity engagement into S or S+.",
+  "events": [
+    {
+      "id": "robert-glasper-hodge-chris-dave-blue-note-nyc-2026-10-28",
+      "artist": "Robert Glasper feat. Derrick Hodge & Chris Dave",
+      "subtitle": "Robtober — Experiment rhythm-section reunion",
+      "dates": {
+        "start": "2026-10-28",
+        "end": "2026-10-30"
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz / Groove / Robtober reunion",
+      "genres": [
+        "Jazz",
+        "R&B",
+        "Hip-Hop",
+        "Fusion"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Robert Glasper — piano / keyboards",
+        "Derrick Hodge — bass",
+        "Chris Dave — drums"
+      ],
+      "factual_description": "Blue Note Jazz Club presents Robert Glasper feat. Derrick Hodge & Chris Dave from Wednesday, October 28 through Friday, October 30, 2026, with 8:00 PM and 10:30 PM sets each night. Blue Note's official event page confirms the exact billing, dates, showtimes and venue, and identifies Glasper's Robtober as entering its seventh year. Blue Note Records documents Derrick Hodge on bass and Chris Dave on drums as members of the Robert Glasper Experiment lineup behind Black Radio, alongside Glasper and Casey Benjamin. Blue Note's calendar also shows Hodge and Dave continuing with Glasper for separate Halloween and Robtober-finale billings on October 31 and November 1, making this a multi-night closing stretch rather than a one-off appearance.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/robert-glasper-feat-derrick-hodge-chris-dave/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Robert Glasper Experiment",
+          "title": "Black Radio",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/black-radio/716753527"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Blue Note event page, advertised trio, three dates and both daily showtimes are verified. Blue Note routes individual sets to authorized TicketWeb purchase destinations, so official_tickets remains pending rather than storing a single set-specific purchase URL as though it covered the entire engagement."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/robert-glasper-feat-derrick-hodge-chris-dave/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-03",
+          "note": "Exact official event page confirms the October 28-30, 2026 engagement, six advertised sets, billing, venue, Robtober context and Blue Note/TicketWeb as authorized ticket sources."
+        },
+        {
+          "url": "https://www.bluenotejazz.com/nyc/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-03",
+          "note": "Official calendar confirms the October 28-30 engagement and additional October 31 Halloween and November 1 finale billings with Derrick Hodge and Chris Dave."
+        },
+        {
+          "url": "https://www.bluenote.com/robert-glasper-black-radio-10th-anniversary-deluxe-edition/",
+          "publisher": "Blue Note Records",
+          "checked_on": "2026-09-03",
+          "note": "Authoritative label source documents the Black Radio-era Robert Glasper Experiment lineup with Derrick Hodge on bass and Chris Dave on drums."
+        },
+        {
+          "url": "https://music.apple.com/us/album/black-radio/716753527",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music destination for Robert Glasper Experiment's Black Radio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authoritative-and-apple-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Date range, venue, six showtimes, exact billing and authorized ticket policy were verified on Blue Note New York. The trio's shared Robert Glasper Experiment / Black Radio history and instrumental roles were checked against Blue Note Records. The exact Apple Music destination was already verified in the repository and re-used without inventing a new identifier. Repository code search found no existing event containing Derrick Hodge and Chris Dave together before this batch. No ticket price, guest, additional sideman or synthetic ticket destination was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is about the engine underneath a landmark cross-genre language. Glasper, Hodge and Dave were the piano-bass-drums core of the Experiment that made Black Radio feel less like jazz borrowing from hip-hop and R&B than a band speaking those vocabularies at once. Putting those three back at the center in a small club shifts attention to pocket, touch, harmonic elasticity and the split-second rhythmic decisions that made the project distinctive in the first place.",
+          "trip_verdict": "Actively make room for one of the six sets if New York is already in the corridor. The three-night run gives enough flexibility to choose the best evening, and the additional Halloween and finale appearances mean there is no need to reshape a larger Northeast trip around one specific set.",
+          "listen_before": "Robert Glasper Experiment — Black Radio"
+        },
+        "es": {
+          "why_it_matters": "Aquí importa el motor que estaba debajo de un lenguaje que de verdad cruzó fronteras. Glasper, Hodge y Dave fueron el núcleo piano-bajo-batería del Experiment que hizo que Black Radio no sonara a jazz tomando prestado del hip-hop y el R&B, sino a una banda hablando esos idiomas al mismo tiempo. Volver a poner a los tres en el centro de un club pequeño devuelve la atención al pocket, al tacto, a la elasticidad armónica y a esas decisiones rítmicas de una fracción de segundo que hicieron tan particular al proyecto.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los seis sets si Nueva York ya está dentro del corredor. Las tres noches dan margen para escoger la que mejor acomode, y las apariciones adicionales de Halloween y del cierre de residencia eliminan cualquier necesidad de reorganizar un viaje más grande por un set específico.",
+          "listen_before": "Robert Glasper Experiment — Black Radio"
+        }
+      }
+    }
+  ]
+}
