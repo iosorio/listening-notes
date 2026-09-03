@@ -1,0 +1,115 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "chief-adjuah-blue-note-new-york-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A/current schedule traces, and current Japanese-jazz sources; the future Yamamoto dates surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found Chief Xian aTunde Adjuah at Blue Note New York on November 25-29, 2026. Stage 1 admits the engagement because Adjuah's live identity is specifically built around instrumental invention, Stretch Music, and a New Orleans cultural lineage rather than ordinary genre prestige. Stage 2 assigns A after challenging A+: the five-night, ten-set residency is clearly RADAR-worthy, but the official page verifies no premiere, farewell, rare lineup, special repertoire, or one-off context that would make this particular engagement something to actively reorganize plans around. Recent same-day curated additions are already concentrated in A/A+ and this batch adds no scarcity-tier event; the A decision is based on the event-specific context, not a quota.",
+  "events": [
+    {
+      "id": "chief-adjuah-blue-note-new-york-2026-11-25",
+      "artist": "Chief Xian aTunde Adjuah",
+      "subtitle": "Five-night Blue Note New York residency",
+      "dates": {
+        "start": "2026-11-25",
+        "end": "2026-11-29"
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York City",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Instrumental innovation / Stretch Music / Contemporary jazz",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Chief Xian aTunde Adjuah — featured artist; event instrumentation and accompanying personnel are not identified on the current official event page"
+      ],
+      "factual_description": "Blue Note New York presents Chief Xian aTunde Adjuah for five consecutive nights, Wednesday through Sunday, November 25-29, 2026. The official event page lists two sets each night at 20:00 and 22:30, with doors at 18:00 for the early set and 22:00 for the late set, and links directly to TicketWeb as the authorized ticket source. Blue Note's artist biography identifies Adjuah as a multi-instrumentalist, composer and designer of instruments including the Adjuah Trumpet and Chief Adjuah Bow, and as the progenitor of the Stretch Music approach. The current event page does not name accompanying personnel or a special program, so neither is inferred.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/chief-adjuah-9/",
+        "official_tickets": "https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-tickets/15032663?pl=bluenoteny"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-tickets/15032663?pl=bluenoteny",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chief Adjuah",
+          "title": "Stretch Music 10th Anniversary Deluxe Edition (feat. Christian Scott aTunde Adjuah)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/stretch-music-10th-anniversary-deluxe-edition-feat/1839971793"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "accompanying_personnel",
+          "face_value_price"
+        ],
+        "note": "Blue Note New York verifies the five-night engagement, all ten showtimes, venue identity and its direct authorized TicketWeb destination. The official event page does not list accompanying personnel or a retrievable face-value ticket price, so neither is invented. Apple Music verifies the exact Stretch Music 10th Anniversary Deluxe Edition album page."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/chief-adjuah-9/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue page verifies November 25-29, 2026, two sets nightly at 20:00 and 22:30, early/late door times, Blue Note Jazz Club in New York, and direct authorized TicketWeb purchase links. Its artist bio documents Adjuah's multi-instrumental practice, Stretch Music, and instrument-design work."
+        },
+        {
+          "url": "https://music.apple.com/us/album/stretch-music-10th-anniversary-deluxe-edition-feat/1839971793",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies Chief Adjuah's Stretch Music 10th Anniversary Deluxe Edition, released September 19, 2025."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-apple-sources",
+        "note": "Core event facts were verified from Blue Note New York, with the exact current Apple Music album page used for listening enrichment. Repository-wide searches for Chief Adjuah, Christian Scott aTunde Adjuah, the Blue Note engagement, and the proposed stable event ID returned no existing RADAR record before publication. Priority A was assigned only after Stage 1 admission: Adjuah's instrumental invention and Stretch Music identity make the engagement belong in RADAR, while the ten-set residency and absence of a verified special program or rare lineup mean attend-if-convenient language fits better than active-prioritization or scarcity language."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Adjuah's live language is built around more than trumpet virtuosity: Stretch Music treats genre as porous, and his own instrument designs push the question of what the front-line voice can physically be. That combination of improvisation, groove, New Orleans lineage and instrument-building gives this Blue Note run a clear Listening Notes reason even without a special one-off program.",
+          "trip_verdict": "If New York is already in the Thanksgiving-week orbit, take whichever of the ten sets fits naturally and make the club part of the trip. I would not build a separate regional run around one particular set when the residency itself offers this much flexibility.",
+          "listen_before": "Stretch Music 10th Anniversary Deluxe Edition — Chief Adjuah"
+        },
+        "es": {
+          "why_it_matters": "El lenguaje en vivo de Adjuah va más allá del virtuosismo de trompeta: Stretch Music trata los géneros como fronteras porosas y sus propios diseños de instrumentos llevan la pregunta hasta qué puede ser físicamente la voz principal de un ensamble. Esa mezcla de improvisación, groove, linaje de Nueva Orleans e invención instrumental le da a esta residencia una razón muy clara para entrar en Listening Notes aunque no tenga un programa excepcional anunciado.",
+          "trip_verdict": "Si Nueva York ya está dentro del plan de la semana de Thanksgiving, escogería el set que mejor embone y haría del Blue Note una parte de la visita. No armaría un viaje regional aparte alrededor de una función específica cuando la propia residencia ofrece diez oportunidades.",
+          "listen_before": "Stretch Music 10th Anniversary Deluxe Edition — Chief Adjuah"
+        }
+      }
+    }
+  ]
+}
