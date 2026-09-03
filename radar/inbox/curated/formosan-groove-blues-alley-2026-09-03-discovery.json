@@ -1,0 +1,132 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "formosan-groove-blues-alley-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; the verified future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader DMV pass found Formosan Groove at Blues Alley on November 2. Stage 1 admits this specific performance because it is a Taiwan Culture Center co-presentation built around authorized rearrangements of classic Taiwanese songs into a groove-centered fusion language using jazz harmony, improvisation, electronics, keyboards and traditional Asian instrumentation including erhu. Blues Alley's event page also frames the evening as a music-and-food cultural presentation rather than a generic club stop. That is a concrete cultural-exchange, repertoire, instrumental-identity and DMV reason. Stage 2 assigns A. The project has several DMV appearances in 2026, including a September 26 Millennium Stage date, and the November 2 event has no verified one-off personnel, premiere, farewell or scarcity fact that warrants actively reorganizing plans. It belongs on RADAR and is worth attending locally if the evening fits, while the recent A+-heavy intake is not increased merely by venue or novelty.",
+  "events": [
+    {
+      "id": "formosan-groove-blues-alley-washington-dc-2026-11-02",
+      "artist": "Formosan Groove",
+      "subtitle": "Emerging Artist Mondays — co-presented with the Taiwan Culture Center of Greater Washington, D.C.",
+      "dates": {
+        "start": "2026-11-02",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Cross-cultural fusion / Taiwanese heritage",
+      "genres": [
+        "Jazz fusion",
+        "Contemporary fusion",
+        "Taiwanese traditional music"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Fusion / Prog",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Formosan Groove — billed ensemble",
+        "Shinyi Lee (RUFusion) — project leader; piano/keyboards on the project's current live-band roster; event-specific personnel beyond the billed ensemble have not yet been published by the checked event sources"
+      ],
+      "factual_description": "Blues Alley's authorized InstantSeats event page presents Formosan Groove on Monday, November 2, 2026 at 19:00 as part of Emerging Artist Mondays, co-presented with the Taiwan Culture Center of Greater Washington, D.C. The authorized page lists a $25 face-value ticket plus a $7 fee. It describes Formosan Groove as a contemporary fusion project led by Washington-based Taiwanese artist Shin-Yi Lee, rooted in classic Taiwanese songs and rebuilt through jazz harmony, global rhythms, electronic textures and traditional Asian instruments. The project emphasizes instrumental reinterpretations featuring erhu, keyboards and rhythm-centered textures, and the Blues Alley presentation explicitly extends the cultural frame to Taiwanese food. Formosan Groove's official performance calendar independently confirms the November 2 Blues Alley date and links directly to the InstantSeats event. An official Taiwan culture-center bulletin also confirms the November 2, 19:00–22:00 Blues Alley appearance under the Emerging Artist Mondays banner.",
+      "links": {
+        "official_event": "https://formosangroove.com/performances",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=32A871F8-E61B-A716-E984A75C78852198&fuseaction=home.event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 25,
+          "source_url": "https://www.instantseats.com/index.cfm?eventID=32A871F8-E61B-A716-E984A75C78852198&fuseaction=home.event",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Formosan Groove",
+          "title": "Formosan Groove",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/%E8%83%A1%E8%81%B2%E6%8B%8D%E5%AD%90/1865373124"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "event_specific_personnel_beyond_project_billing"
+        ],
+        "note": "The authorized Blues Alley/InstantSeats event page verifies the date, 19:00 showtime, venue, Emerging Artist Mondays billing, $25 face-value ticket, Taiwan Culture Center co-presentation, project identity and cultural/instrumental concept. The artist's official performance page independently verifies the date and venue and links directly to that authorized ticket page. The official project musician page identifies Shinyi Lee as project leader and piano/keyboards and lists a current live-band roster, but the checked event-specific sources do not identify which additional musicians will play November 2, so those names are not promoted into the event lineup. Apple Music verifies the exact Formosan Groove album."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=32A871F8-E61B-A716-E984A75C78852198&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-03",
+          "note": "Authorized venue ticket/event page verifies Monday, November 2, 2026, 19:00, $25 face value plus $7 fee, Blues Alley at 1073 Wisconsin Ave. NW, Emerging Artist Mondays billing, co-presentation with the Taiwan Culture Center of Greater Washington, D.C., and the project's Taiwanese-song, jazz-harmony, electronic, groove and traditional-instrument concept."
+        },
+        {
+          "url": "https://formosangroove.com/performances",
+          "publisher": "Formosan Groove",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist performance calendar verifies the November 2 Blues Alley date in Washington, D.C., describes the evening as a music-and-Taiwanese-food experience, and links directly to the authorized InstantSeats event."
+        },
+        {
+          "url": "https://formosangroove.com/musicians",
+          "publisher": "Formosan Groove",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist musician page verifies Shinyi Lee as piano/keyboards and project leader, Cheng-Lun Cheng on erhu and the project's current live-band instrumentation. Because the page is a project roster rather than the November 2 event bill, only Lee's leadership/current role is retained with an explicit event-specific-personnel caveat."
+        },
+        {
+          "url": "https://www.ocac.gov.tw/OCAC/SubSites/Pages/Detail.aspx?nodeid=1956&pid=89725292&site=cac08b4d-90f6-42ea-a535-18713f0724a4",
+          "publisher": "Culture Center of Taipei Economic and Cultural Representative Office in the U.S.",
+          "checked_on": "2026-09-03",
+          "note": "Official Taiwan culture-center bulletin independently confirms Formosan Groove at Blues Alley on November 2, 2026, 19:00–22:00, under Emerging Artist Mondays."
+        },
+        {
+          "url": "https://music.apple.com/us/album/%E8%83%A1%E8%81%B2%E6%8B%8D%E5%AD%90/1865373124",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies Formosan Groove by Formosan Groove as a seven-track instrumental release."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-cultural-center-and-apple-sources",
+        "note": "Core facts were verified from Blues Alley's authorized InstantSeats page, the project's official site, an official Taiwan culture-center bulletin, and Apple Music. Repository-wide searches for Formosan Groove, the November 2 date plus Blues Alley, and the candidate ID returned no existing canonical, curated or processed RADAR record before publication. Priority A was assigned only after Stage 1 admission: the authorized Taiwanese-song reinterpretations, erhu/keyboards/electronic fusion language and Taiwan Culture Center co-presentation give this specific Blues Alley date a concrete Listening Notes reason, while multiple 2026 DMV appearances and no verified one-off personnel or premiere make an attend-if-convenient recommendation more durable than A+ or any scarcity tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Formosan Groove takes century-old and classic Taiwanese melodies out of the nostalgia cabinet and puts them into a live rhythm language: keyboards, erhu, jazz harmony, electronics and groove are used to rearrange the songs rather than decorate them. At Blues Alley the cultural exchange is unusually explicit because the Taiwan Culture Center is co-presenting the night and the project carries its music-and-food idea into the room, turning the set into a small DMV encounter with Taiwanese repertoire as living material.",
+          "trip_verdict": "If November 2 is open, this is an easy local night to use well: Blues Alley gives the project a focused room and the co-presentation adds more context than a routine club stop. I would go if it fits naturally rather than move a harder-to-replace performance around for it.",
+          "listen_before": "Formosan Groove — Formosan Groove"
+        },
+        "es": {
+          "why_it_matters": "Formosan Groove saca melodías taiwanesas clásicas y centenarias de la vitrina de la nostalgia y las mete en un lenguaje rítmico vivo: teclados, erhu, armonía de jazz, electrónica y groove sirven para rearmar las canciones, no sólo para adornarlas. En Blues Alley el intercambio cultural es especialmente explícito porque el Taiwan Culture Center copresenta la noche y el proyecto lleva al club su idea de música y comida, convirtiendo el set en un pequeño encuentro del DMV con repertorio taiwanés tratado como material vivo.",
+          "trip_verdict": "Si el 2 de noviembre está libre, es una noche local fácil de aprovechar: Blues Alley le da al proyecto una sala concentrada y la copresentación añade más contexto que una fecha rutinaria de club. Iría si embona naturalmente, sin mover otro concierto más difícil de reemplazar.",
+          "listen_before": "Formosan Groove — Formosan Groove"
+        }
+      }
+    }
+  ]
+}
