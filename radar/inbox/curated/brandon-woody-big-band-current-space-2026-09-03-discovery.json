@@ -1,0 +1,137 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "brandon-woody-big-band-current-space-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE-oriented search, BODY&SOUL, current Yamamoto schedule traces, Space M&A, Keystone Club Tokyo, and credible Japanese-jazz sources. The verified September Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake or had an existing editorial correction, so no duplicate Yamamoto record was created. Broader US-corridor research found Brandon Woody's BIG Band debut at Current Space in Baltimore on September 11. Repository-wide searches for Brandon Woody's BIG Band, Current Space, the September 11 date, and the proposed stable ID returned no matching canonical, curated, or processed event before publication. Stage 1 admits the performance for a concrete event-specific reason: Baltimore-born trumpeter/composer Brandon Woody is debuting a new large-ensemble format in his home city, with Current Space explicitly billing the outdoor date as the debut performance of his BIG Band and publishing the full brass/reed/rhythm-section personnel. The editorial case is the new 16-piece large-ensemble context and Baltimore connection, not Woody's reputation alone. Stage 2 assigns A+: a hometown debut of this scale is strong enough to actively make room for and merits the short Baltimore trip from the DMV. Scarcity was explicitly challenged: neither Woody nor Current Space describes September 11 as a farewell, sole performance, or final opportunity, so the debut fact does not by itself make A+ insufficient and S is not claimed. Recent/current RADAR intake was rechecked as a sanity test and remains shaped around A/A+ with S/S+ reserved for stronger documented scarcity; this batch adds A 0 / A+ 1 / S 0 / S+ 0 without using distribution as a quota.",
+  "events": [
+    {
+      "id": "brandon-woody-big-band-current-space-baltimore-2026-09-11",
+      "artist": "Brandon Woody's BIG Band",
+      "subtitle": "Debut performance",
+      "dates": {
+        "start": "2026-09-11",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "current-space-baltimore-md",
+        "name": "Current Space",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Baltimore",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Baltimore contemporary jazz / big-band debut",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Big band"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Brandon Woody — trumpet",
+        "Donvonte McCoy — trumpet",
+        "Anthony Hervey — trumpet",
+        "Thomas Davis — trumpet",
+        "Kevin Brewster — alto saxophone",
+        "Ebban Dorsey — alto saxophone",
+        "Robert Gilliam — tenor saxophone",
+        "Ephraim Dorsey — tenor saxophone",
+        "Brent Birkhead — baritone saxophone",
+        "Reginald Cyntje — trombone",
+        "Darent Polk — trombone",
+        "Joe Giordano — trombone",
+        "Christian Hizon — bass trombone",
+        "Troy Long — keys",
+        "Michael Saunders — bass",
+        "Steve Arnold — bass",
+        "Quincy Phillips — drums"
+      ],
+      "factual_description": "Brandon Woody's official calendar and Current Space's authorized ticket listing announce Brandon Woody's BIG Band at Current Space Garden Bar, 421 Tyson Street, Baltimore, on Friday, September 11, 2026. Doors are at 19:00 and music starts at 20:00; the event is all ages and outdoors in Current Space's rear courtyard. Both sources explicitly identify the show as the debut performance of Woody's BIG Band, and Current Space describes it as a special 16-piece performance. The authorized event listing publishes personnel across four trumpets, five saxophones, four trombones, keys, basses, and drums; those names are preserved as listed without inferring seating, doubling, or which bassist may play at a given moment. Posted face prices are $22 advance and $26 day of show, with a limited $20 student ticket requiring student ID. Brandon Woody's official site identifies him as a Baltimore-born trumpeter, composer, and bandleader whose work draws on jazz, gospel, improvisation, and broader Black-music traditions.",
+      "links": {
+        "official_event": "https://www.brandonwoody.com/calendar/brandon-woodys-big-band",
+        "official_tickets": "https://pools.events/event/w56lwPnF/brandon-woodys-big-band/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 22,
+          "maximum": 26,
+          "source_url": "https://pools.events/event/w56lwPnF/brandon-woodys-big-band/",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Brandon Woody",
+          "title": "For The Love Of It All",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/for-the-love-of-it-all/1794692929"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Brandon Woody's exact official calendar entry verifies the event, date, Current Space Garden Bar, address, doors/music times, all-ages status, debut framing, and authorized ticket destination. Current Space's hosted Pools listing verifies the same facts, full published personnel, outdoor courtyard setting, and face-price structure. Apple Music supplies an exact For The Love Of It All album destination. No resale price or unannounced personnel detail is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.brandonwoody.com/calendar/brandon-woodys-big-band",
+          "publisher": "Brandon Woody",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist calendar verifies Friday, September 11, 2026; Current Space Garden Bar at 421 Tyson Street, Baltimore; 19:00 doors / 20:00 music; all-ages status; the BIG Band billing; debut-performance framing; and the authorized ticket link."
+        },
+        {
+          "url": "https://pools.events/event/w56lwPnF/brandon-woodys-big-band/",
+          "publisher": "Current Space / Pools",
+          "checked_on": "2026-09-03",
+          "note": "Authorized Current Space event and ticket page verifies the September 11 date, 19:00 doors / 20:00 music, Current Space Garden Bar, outdoor courtyard setting, debut framing, published large-ensemble personnel, and $22 advance / $26 day-of-show face prices plus a limited $20 student ticket requiring student ID."
+        },
+        {
+          "url": "https://www.brandonwoody.com/",
+          "publisher": "Brandon Woody",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist site identifies Woody as a Baltimore-born trumpeter, composer, and bandleader and documents his current Blue Note-era artistic context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/for-the-love-of-it-all/1794692929",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music page verifies For The Love Of It All by Brandon Woody, released in 2025 on Blue Note Records."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-authorized-ticket-and-apple-sources",
+        "note": "Core event facts are verified from Brandon Woody's exact official calendar entry and Current Space's authorized hosted event/ticket page, with Apple Music supplying the exact recommended-listening destination. Repository-wide searches for Brandon Woody's BIG Band, Current Space, September 11, and the proposed stable ID found no matching canonical, curated, or processed RADAR record before publication. Priority A+ was assigned only after Stage 1 admission. The home-city debut of a newly expanded large ensemble warrants actively making room, while the absence of a verified farewell, sole performance, final opportunity, or other stronger recurrence barrier means A+ still captures the recommendation and S is not justified."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Woody is not simply bringing Upendo back for another Baltimore date; he is opening a new large-ensemble chapter in the city that shaped him. Putting his trumpet voice inside a full brass-and-reed architecture changes the scale of the music, and the published personnel pulls together a deep Baltimore/DC-area jazz bench around that experiment. Hearing the BIG Band at its debut gives the night a real point in the story: this is the first public test of how Woody's communal, rhythm-forward language expands when the canvas suddenly gets much bigger.",
+          "trip_verdict": "From the DMV, this is worth the short run to Baltimore if September 11 is open; I would actively make room for Current Space rather than wait for a routine club return. It does not require a broader Northeast trip, and there is no evidence that this debut is the only chance the big band will ever have to play.",
+          "listen_before": "For The Love Of It All — Brandon Woody"
+        },
+        "es": {
+          "why_it_matters": "Woody no está simplemente regresando con Upendo para otra fecha en Baltimore: está abriendo un capítulo de gran ensamble en la ciudad que lo formó. Meter su voz de trompeta dentro de una arquitectura completa de metales y maderas cambia la escala de la música, y el personal anunciado reúne una buena parte de la escena de jazz de Baltimore y el área de DC alrededor de ese experimento. Escuchar a la BIG Band en su debut le da a la noche un lugar concreto en la historia: es la primera prueba pública de cómo se expande el lenguaje comunitario y rítmico de Woody cuando de pronto el lienzo se vuelve mucho más grande.",
+          "trip_verdict": "Desde el DMV sí haría el viaje corto a Baltimore si el 11 de septiembre está libre; le haría espacio activamente a Current Space en vez de esperar una vuelta rutinaria de club. No hace falta construir un viaje más amplio por el Northeast, y no hay evidencia de que este debut sea la única oportunidad que vaya a tener la big band para tocar.",
+          "listen_before": "For The Love Of It All — Brandon Woody"
+        }
+      }
+    }
+  ]
+}
