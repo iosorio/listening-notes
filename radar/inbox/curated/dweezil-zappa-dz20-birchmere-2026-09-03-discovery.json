@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dweezil-zappa-dz20-birchmere-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered BODY&SOUL, Jazz House ALFIE-oriented search, Space M&A, current Yamamoto schedule traces, and Japanese-jazz sources. BODY&SOUL's September 26 grand finale and Space M&A's September 29 appearance resurfaced but are already represented in curated/processed intake; no new publishable, unrepresented Yamamoto appearance was found. Broader US-corridor research found Dweezil Zappa's November 1 Alexandria stop, and repository searches for Dweezil, Zappa/Birchmere, and the proposed stable ID found no canonical/curated/processed match before publication. Stage 1 admits the performance for a specific live-context reason: DZ20 marks twenty years of Dweezil Zappa keeping Frank Zappa's technically demanding catalog alive on stage, turning the Birchmere date into an anniversary chapter in a long-running interpretive performance practice rather than a generic rock booking. Stage 2 assigns A+: the anniversary, instrumental identity, complex rock/jazz/fusion repertoire, and local small-room setting merit actively making room for the show. Scarcity was challenged even though no S-tier review is required: Dweezil's own site announces 35 concerts on the fall tour, and authorized ticketing lists multiple nearby Northeast dates, so this is not a protect-the-night scarcity event. Recent/current intake remains centered on A and A+ with S/S+ reserved for demonstrably scarce contexts; this batch adds A 0 / A+ 1 / S 0 / S+ 0 without using distribution as a quota.",
+  "events": [
+    {
+      "id": "dweezil-zappa-dz20-birchmere-alexandria-2026-11-01",
+      "artist": "Dweezil Zappa",
+      "subtitle": "DZ20: Like Father, Like Son — 20 years of Frank Zappa live",
+      "dates": {
+        "start": "2026-11-01",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "birchmere-alexandria-va",
+        "name": "Birchmere",
+        "city": "Alexandria",
+        "state": "VA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Progressive and experimental rock / Guitar / Anniversary repertoire",
+      "genres": [
+        "Progressive rock",
+        "Jazz fusion",
+        "Experimental rock",
+        "Instrumental rock"
+      ],
+      "musical_axes": [
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Dweezil Zappa — guitar; supporting touring personnel are not announced on the verified November 1 event or tour pages"
+      ],
+      "factual_description": "Ticketmaster lists Dweezil Zappa's DZ20: Like Father, Like Son at Birchmere in Alexandria, Virginia, on Sunday, November 1, 2026 at 7:30 PM. Dweezil Zappa's official site describes the fall run as 35 concerts celebrating 20 years of keeping his father's music alive on stage. The tour is therefore a defined twentieth-anniversary presentation of Dweezil's long-running live engagement with Frank Zappa's catalog rather than an isolated tribute event. The verified event and tour pages do not identify the supporting musicians for the Alexandria performance, so no touring personnel beyond Dweezil are inferred. No official face-value price was reliably exposed in the verified sources checked for this pass.",
+      "links": {
+        "official_event": null,
+        "official_tickets": "https://www.ticketmaster.com/dweezil-zappa-dz20-like-father-like-alexandria-virginia-11-01-2026/event/150064BAE6CF1301"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/dweezil-zappa-dz20-like-father-like-alexandria-virginia-11-01-2026/event/150064BAE6CF1301",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "exact_event_personnel",
+          "apple_music"
+        ],
+        "note": "The exact authorized Ticketmaster page verifies billing, date, showtime, venue and city. Dweezil Zappa's official site verifies the 35-show Like Father Like Son tour and its twentieth-anniversary purpose. Birchmere's site verifies the venue identity and Alexandria address, but an exact stable Birchmere event page for November 1 was not exposed in the current indexed results. Supporting personnel, a face-value price from a primary event source, and an exact Apple Music destination are intentionally left pending rather than inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.com/dweezil-zappa-dz20-like-father-like-alexandria-virginia-11-01-2026/event/150064BAE6CF1301",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-03",
+          "note": "Exact authorized ticketing page verifies Sunday, November 1, 2026 at 7:30 PM, the DZ20: Like Father, Like Son billing, Birchmere, and Alexandria, Virginia."
+        },
+        {
+          "url": "https://www.dweezilzappa.com/videos",
+          "publisher": "Dweezil Zappa",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist site announces the 2026 Like Father Like Son tour as 35 fall concerts celebrating 20 years of keeping Frank Zappa's music alive on stage."
+        },
+        {
+          "url": "https://www.birchmere.com/calendar/",
+          "publisher": "The Birchmere",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue site verifies the Birchmere Music Hall identity and its address at 3701 Mount Vernon Avenue, Alexandria, Virginia 22305; the current indexed calendar did not expose an exact November 1 Dweezil event page, so it is not used to claim event-specific details."
+        },
+        {
+          "url": "https://www.spinmagazine.com/2026/06/like-father-like-son-dweezil-zappa-celebrates-20-years-of-frank-zappa-live/",
+          "publisher": "SPIN",
+          "checked_on": "2026-09-03",
+          "note": "Contemporary coverage documents DZ20 as the twentieth-anniversary North American tour for Dweezil's live presentation and reimagining of Frank Zappa's demanding catalog, supporting the repertoire and anniversary context used for editorial admission."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts are verified from the exact authorized Ticketmaster event, while the anniversary framing comes directly from Dweezil Zappa's official site. Birchmere's own site verifies the venue identity. Repository searches for Dweezil, Zappa/Birchmere and the proposed stable ID found no existing canonical, curated or processed match before publication. Supporting musicians, official face price, and an exact venue-event page were not inferred. Priority was assigned only after Stage 1 RADAR admission; the 35-concert tour and multiple nearby Northeast dates were explicitly used to reject scarcity-tier treatment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The anniversary is tied to a real performance practice: for twenty years Dweezil Zappa has treated Frank Zappa's catalog as difficult music to be played, rebuilt and kept alive on stage rather than preserved behind glass. That means knotty ensemble writing, guitar technique, jazz-fusion language and the possibility of elastic live arrangements all meet in one local room. Birchmere gives that repertoire a more concentrated setting than a generic legacy-rock stop.",
+          "trip_verdict": "This is local: if November 1 is open, actively make room for the Birchmere night rather than waiting for a regional alternative. The tour is extensive enough that no travel maneuver is necessary, but Alexandria is the clean chance to hear the anniversary program close to home.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El aniversario está amarrado a una práctica de interpretación real: durante veinte años Dweezil Zappa ha tratado el catálogo de Frank Zappa como música difícil que hay que tocar, reconstruir y mantener viva en el escenario, no conservar detrás de un vidrio. Ahí se cruzan escritura de ensamble enredada, técnica de guitarra, lenguaje de jazz-fusion y la posibilidad de arreglos que se estiran en vivo. El Birchmere concentra todo eso mejor que una parada genérica de rock de legado.",
+          "trip_verdict": "Esta es local: si el 1 de noviembre está libre, haría espacio para la noche del Birchmere en vez de esperar una alternativa regional. La gira es suficientemente amplia como para que no haga falta maniobrar un viaje, y Alexandria es la oportunidad limpia de escuchar el programa de aniversario cerca de casa.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
