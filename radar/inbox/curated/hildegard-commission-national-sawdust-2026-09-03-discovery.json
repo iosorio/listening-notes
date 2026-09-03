@@ -1,0 +1,173 @@
+{
+  "batch_id": "hildegard-commission-national-sawdust-2026-09-03-discovery",
+  "operation": "add",
+  "defaults": {
+    "status": "considering",
+    "set_creator_interest": true,
+    "trip_verdict": {
+      "verdict": "maybe",
+      "reason": {
+        "en": "If New York is already in play, build the Brooklyn night around this; from the DMV, pair it with another strong New York reason rather than make a dedicated round trip for this alone.",
+        "es": "Si Nueva York ya está en juego, construiría la noche de Brooklyn alrededor de esta función; desde el DMV, la combinaría con otra razón fuerte para subir en vez de hacer un viaje dedicado solo por ella."
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "hildegard-commission-national-sawdust-brooklyn-2026-12-10",
+      "artist": "Hildegard Commission 2026 winners / Trinity Choir / National Sawdust Ensemble",
+      "event_name": "Hildegard Commission Concert 2026",
+      "dates": {
+        "start": "2026-12-10",
+        "end": "2026-12-10",
+        "doors": "18:30",
+        "showtime": "19:30"
+      },
+      "venue": {
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "region": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "New York Metro",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Classical",
+      "genres": [
+        "Contemporary classical",
+        "New music",
+        "Choral",
+        "Multimedia"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        {
+          "name": "che buford",
+          "role": "composer",
+          "billing": "2026 Hildegard Commission winner"
+        },
+        {
+          "name": "Līva Blūma",
+          "role": "composer",
+          "billing": "2026 Hildegard Commission winner"
+        },
+        {
+          "name": "Fjóla Evans",
+          "role": "composer",
+          "billing": "2026 Hildegard Commission winner"
+        },
+        {
+          "name": "Maria-Eduarda Mendes Martin",
+          "role": "composer",
+          "billing": "2026 Hildegard Commission winner"
+        },
+        {
+          "name": "Trinity Choir",
+          "role": "performing ensemble",
+          "billing": "ensemble"
+        },
+        {
+          "name": "National Sawdust Ensemble",
+          "role": "performing ensemble",
+          "billing": "ensemble"
+        },
+        {
+          "name": "Jeffrey Zeigler",
+          "role": "music director",
+          "billing": "Music Director, National Sawdust Ensemble"
+        }
+      ],
+      "factual_description": {
+        "en": "National Sawdust's 2026 Hildegard Commission Concert presents new commissioned works by winners che buford, Līva Blūma, Fjóla Evans, and Maria-Eduarda Mendes Martin. Each commission responds to a distinct illustration from Hildegard von Bingen's codices and is designed to interact with projections or dynamic animation. The works are performed by Trinity Choir and the National Sawdust Ensemble under music director Jeffrey Zeigler. Doors are at 6:30 PM and the seated concert begins at 7:30 PM; tickets are offered on a $5–50 sliding scale.",
+        "es": "El concierto 2026 de la Hildegard Commission de National Sawdust presenta nuevas obras comisionadas a che buford, Līva Blūma, Fjóla Evans y Maria-Eduarda Mendes Martin. Cada comisión responde a una ilustración distinta de los códices de Hildegard von Bingen y está concebida para interactuar con proyecciones o animación dinámica. Las obras serán interpretadas por Trinity Choir y National Sawdust Ensemble bajo la dirección musical de Jeffrey Zeigler. Las puertas abren a las 6:30 PM y el concierto, con asientos, comienza a las 7:30 PM; los boletos se ofrecen en escala móvil de $5 a $50."
+      },
+      "why_it_matters": {
+        "en": "Four fresh commissions, a vocal-and-instrumental new-music lineup, and a visual concept built directly from Hildegard's codices make this a real event rather than a generic contemporary-music showcase. The commission is specifically designed to give early-career composers a professional performance and recording, so this night captures new work at the moment it enters public life. Actively make room if you are in New York.",
+        "es": "Cuatro comisiones nuevas, una formación vocal e instrumental de música contemporánea y un concepto visual construido directamente a partir de los códices de Hildegard hacen de esta una función con identidad propia, no una muestra genérica de música nueva. La comisión está diseñada precisamente para dar a compositores en etapas tempranas una interpretación y grabación profesionales, así que la noche captura obras nuevas justo cuando entran a la vida pública. Si estás en Nueva York, hazle espacio activamente."
+      },
+      "trip_verdict": {
+        "verdict": "maybe",
+        "reason": {
+          "en": "If New York is already in play, build the Brooklyn night around this; from the DMV, pair it with another strong New York reason rather than make a dedicated round trip for this alone.",
+          "es": "Si Nueva York ya está en juego, construiría la noche de Brooklyn alrededor de esta función; desde el DMV, la combinaría con otra razón fuerte para subir en vez de hacer un viaje dedicado solo por ella."
+        }
+      },
+      "links": [
+        {
+          "label": "Event",
+          "url": "https://www.nationalsawdust.org/event/hildegard-commission-concert-2026"
+        },
+        {
+          "label": "Hildegard Commission",
+          "url": "https://www.nationalsawdust.org/mentorship/hildegard-commission"
+        },
+        {
+          "label": "Tickets",
+          "url": "https://ci.ovationtix.com/36490/production/1280601"
+        }
+      ],
+      "enrichment": {
+        "primary_source_status": "verified-primary-venue-program-and-authorized-ticket-sources",
+        "confidence": "high",
+        "ticketing": {
+          "state": "linked",
+          "url": "https://ci.ovationtix.com/36490/production/1280601",
+          "notes": "National Sawdust's event page links directly to the authorized AudienceView/OvationTix production. The venue lists sliding-scale tickets at $5–50."
+        },
+        "music_service": {
+          "state": "not-linked",
+          "apple_music_id": null,
+          "url": null,
+          "notes": "No event-specific recording or Apple Music destination is asserted for the newly commissioned works before the performance."
+        },
+        "missing": [
+          "individual instrumental roster for National Sawdust Ensemble",
+          "final visual-designer credit"
+        ],
+        "notes": "The individual event page currently carries a generic 'This event has passed' CMS artifact, but National Sawdust's current performances calendar lists the December 10, 2026 concert as upcoming and the authorized ticket link is active. No unsupported work titles, individual ensemble personnel, or recording IDs were added."
+      },
+      "sources": [
+        {
+          "type": "primary",
+          "title": "National Sawdust — Hildegard Commission Concert 2026",
+          "url": "https://www.nationalsawdust.org/event/hildegard-commission-concert-2026",
+          "checked_on": "2026-09-03",
+          "notes": "Confirms date, doors, showtime, sliding-scale ticket range, winners, performing ensembles, Jeffrey Zeigler, seated format, and the visual-music concept."
+        },
+        {
+          "type": "primary",
+          "title": "National Sawdust — Hildegard Commission",
+          "url": "https://www.nationalsawdust.org/mentorship/hildegard-commission",
+          "checked_on": "2026-09-03",
+          "notes": "Confirms the 2026 commission structure, four winning composers, quartet commissions, professional performance and recording, Trinity Choir and National Sawdust Ensemble, Jeffrey Zeigler, and December 10 performance date."
+        },
+        {
+          "type": "authorized-ticket",
+          "title": "AudienceView/OvationTix — Hildegard Commission Concert 2026",
+          "url": "https://ci.ovationtix.com/36490/production/1280601",
+          "checked_on": "2026-09-03",
+          "notes": "Authorized ticket destination linked directly from National Sawdust."
+        }
+      ],
+      "provenance": {
+        "added_by": "automation",
+        "added_on": "2026-09-03",
+        "origin": "scheduled-discovery",
+        "notes": "Discovered after the Yamamoto-first research thread and verified against current National Sawdust primary sources. Duplicate checks across repository search for the event title, Hildegard keyword, and stable event ID returned no represented candidate before publication."
+      }
+    }
+  ],
+  "provenance": {
+    "task": "Listening Notes live-music discovery pass with Tsuyoshi Yamamoto as the first research thread",
+    "searched_on": "2026-09-03",
+    "notes": "Current repository PRIORITIES, EDITORIAL, DOMAINS, and radar inbox contract were read before web research. Yamamoto-first checks included BODY&SOUL and Space M&A/current Japanese schedule leads; surfaced future Yamamoto dates were already represented in canonical/curated/processed intake or did not yield a new in-scope candidate. The broader New York scan surfaced this unrepresented National Sawdust commission concert."
+  },
+  "editorial_review": {
+    "reviewed": true,
+    "reviewer": "RADAR automation editorial review",
+    "reviewed_on": "2026-09-03",
+    "notes": "Stage 1 admission is event-specific: four new commissions responding to Hildegard codex images, performed by Trinity Choir and National Sawdust Ensemble with an integrated visual component. Stage 2 is A+: actively make room if in New York. Explicit scarcity challenge: this is a recurring annual commission platform, there is no farewell or last-opportunity claim, and the commissioned works can have lives beyond this premiere context; A+ fully captures the recommendation, so S is not warranted. Recent/current curated intake was checked as a distribution sanity check and remains weighted toward A/A+ with S/S+ comparatively sparse; no tier was changed to satisfy a quota."
+  }
+}
