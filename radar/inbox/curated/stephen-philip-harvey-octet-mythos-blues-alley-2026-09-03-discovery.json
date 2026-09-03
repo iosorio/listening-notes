@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "stephen-philip-harvey-octet-mythos-blues-alley-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and authoritative Japanese-jazz sources; verified future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader pass found Stephen Philip Harvey Octet presenting Mythos at Blues Alley on November 1. Stage 1 admits the specific performance because this is the Washington presentation of Harvey's 2025 Chamber Music America New Jazz Works commission: a new original suite for octet built around mythology from the African continent, the African diaspora, and U.S. folktales. That is a concrete new-work, ensemble-scale, cultural-context and DMV reason rather than admission by artist name or venue prestige. Stage 2 assigns A. The recent intake is A+-heavy, which prompted a deliberate reread of the behavioral rubric rather than a quota adjustment: Mythos is worth RADAR and worth hearing locally if the date fits, but Washington is the third stop in a three-city commission-premiere sequence after Pittsburgh and Cleveland, and SPH8 already has additional 2027 performances on the artist's calendar. The verified facts therefore do not support a stronger make-room recommendation or any scarcity tier.",
+  "events": [
+    {
+      "id": "stephen-philip-harvey-octet-mythos-blues-alley-washington-dc-2026-11-01",
+      "artist": "Stephen Philip Harvey Octet (SPH8)",
+      "subtitle": "Mythos — New Jazz Works Commission Premiere",
+      "dates": {
+        "start": "2026-11-01",
+        "end": null
+      },
+      "showtimes": [
+        "17:30",
+        "20:00"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "dmv_local",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Modern jazz / Commissioned new work",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Modern jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Stephen Philip Harvey — saxophone, leader/composer",
+        "Stephen Philip Harvey Octet (SPH8) — billed eight-piece ensemble; event-specific personnel beyond Harvey have not yet been published by the checked primary sources"
+      ],
+      "factual_description": "Stephen Philip Harvey's official event listing presents the Stephen Philip Harvey Octet at Blues Alley in Washington, DC, on Sunday, November 1, 2026, with ticket links for 17:30 and 20:00 sets. The program is Mythos, a new original suite commissioned through Chamber Music America's 2025 New Jazz Works program. Harvey describes the suite as drawing on mythology from the African continent, mythology carried through the African diaspora, and U.S. folktales that evolved from that past. Chamber Music America's official 2025 grantee announcement independently confirms Stephen Philip Harvey Octet as a New Jazz Works recipient, identifies Harvey as leader/composer, and specifies an eight-piece instrumentation of alto saxophone, tenor saxophone, trumpet, trombone, guitar, piano, bass, and drums. Harvey's current calendar also lists Mythos commission-premiere performances in Pittsburgh on October 29 and Cleveland on October 30 before the Washington date, so the Blues Alley performance is part of a three-city premiere sequence rather than a unique world-premiere claim.",
+      "links": {
+        "official_event": "https://www.stephenpharvey.com/events/2026/10/29/new-jazz-works-commission-premiere-sph8-at-city-of-asylum-pittsburgh-pa-lfgd7",
+        "official_schedule": "https://www.stephenpharvey.com/events",
+        "commission_source": "https://chambermusicamerica.org/news/announcing-2025-cc-and-njw-grants/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Stephen Philip Harvey",
+          "title": "Live at Radio Artifact",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/live-at-radio-artifact/1724085944"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "event_specific_personnel_beyond_harvey",
+          "face_value_price",
+          "authorized_ticket_destination"
+        ],
+        "note": "The artist's primary event and schedule pages verify the date, venue, Mythos program, commission context, and two set times via separate 17:30 and 20:00 ticket actions. Chamber Music America independently verifies the 2025 New Jazz Works award and the octet instrumentation. Apple Music verifies Live at Radio Artifact as an existing SPH release and lists the November 1 Blues Alley concert. The checked retrievable pages do not expose the names of the seven other musicians, a face-value price, or the final authorized purchase URLs behind the artist's ticket buttons, so those fields are not invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.stephenpharvey.com/events/2026/10/29/new-jazz-works-commission-premiere-sph8-at-city-of-asylum-pittsburgh-pa-lfgd7",
+          "publisher": "Stephen Philip Harvey",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist event page verifies the November 1, 2026 Blues Alley date, Washington venue identity, SPH8 billing, Mythos title, New Jazz Works commission-premiere framing, and the suite's African, diasporic, and U.S.-folklore subject matter."
+        },
+        {
+          "url": "https://www.stephenpharvey.com/events",
+          "publisher": "Stephen Philip Harvey",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist schedule verifies separate 17:30 and 20:00 ticket actions for the Blues Alley performance and shows the same Mythos commission-premiere program in Pittsburgh on October 29 and Cleveland on October 30 before Washington."
+        },
+        {
+          "url": "https://chambermusicamerica.org/news/announcing-2025-cc-and-njw-grants/",
+          "publisher": "Chamber Music America",
+          "checked_on": "2026-09-03",
+          "note": "Primary commissioner announcement verifies Stephen Philip Harvey Octet as a 2025 New Jazz Works grantee, Harvey as leader/composer, ensemble size eight, and instrumentation of alto saxophone, tenor saxophone, trumpet, trombone, guitar, piano, bass, and drums."
+        },
+        {
+          "url": "https://music.apple.com/us/artist/stephen-philip-harvey/1109520353",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Apple Music artist page independently lists Stephen Philip Harvey at Blues Alley Jazz in Washington on November 1 at 17:30 and identifies Harvey as a jazz artist and saxophonist/composer in the artist profile."
+        },
+        {
+          "url": "https://music.apple.com/us/album/live-at-radio-artifact/1724085944",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies Live at Radio Artifact by Stephen Philip Harvey, released in 2024; this is selected as pre-show listening because it documents Harvey's octet-scale live language without pretending the unreleased Mythos suite is available."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-commissioner-and-apple-sources",
+        "note": "Core facts were verified from Stephen Philip Harvey's official event/schedule pages, Chamber Music America's official grant announcement, and Apple Music. Repository-wide searches for the exact artist billing, Mythos plus Blues Alley, and the November 1 candidate returned no existing RADAR event before publication. Priority A was assigned only after Stage 1 admission: the commissioned new suite and DMV presentation make the performance clearly RADAR-worthy, while the three-city premiere sequence and later SPH8 dates mean attend-if-convenient is a more durable behavioral recommendation than actively reorganizing plans."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a routine SPH8 club date. Mythos is the public performance phase of Harvey's 2025 Chamber Music America New Jazz Works commission, written for an octet around stories that move from African mythology through the diaspora into U.S. folklore. The ensemble scale matters: two saxophones, brass, guitar, piano, bass and drums give the new suite enough room for layered writing without losing the reaction time of a working jazz group.",
+          "trip_verdict": "If November 1 is open, Blues Alley is the clean DMV chance to hear Mythos right at the beginning of its public life. I would take advantage of the local date rather than move a harder-to-replace night around for it, especially because Washington follows two other commission-premiere stops that same week.",
+          "listen_before": "Live at Radio Artifact — Stephen Philip Harvey"
+        },
+        "es": {
+          "why_it_matters": "Esta no es una fecha rutinaria de SPH8. Mythos es la salida al escenario de la comisión New Jazz Works 2025 de Chamber Music America: una suite para octeto construida alrededor de relatos que van de la mitología africana a la diáspora y de ahí al folclor de Estados Unidos. La escala del ensamble importa: dos saxofones, metales, guitarra, piano, bajo y batería permiten una escritura con capas sin perder la capacidad de reacción de un grupo de jazz en vivo.",
+          "trip_verdict": "Si el 1 de noviembre está libre, Blues Alley es la oportunidad limpia en el DMV para escuchar Mythos al comienzo de su vida pública. Aprovecharía que está aquí sin mover una noche más difícil de reemplazar, sobre todo porque Washington llega después de otras dos presentaciones de estreno de la comisión esa misma semana.",
+          "listen_before": "Live at Radio Artifact — Stephen Philip Harvey"
+        }
+      }
+    }
+  ]
+}
