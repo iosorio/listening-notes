@@ -1,0 +1,128 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "diles-que-no-me-maten-pie-shop-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; the verified future Yamamoto appearances surfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader pass found Diles que no me maten at Pie Shop in Washington, DC. Stage 1 admits the specific performance because the Mexico City quintet's live language is built from collective improvisation and a distinctive current repertoire that folds krautrock pulse, art-rock guitar, saxophone/clarinet color, poetry, and references to Oaxacan musical practice into Escrito en Agua. That is a concrete artist/repertoire/instrumental-identity reason, not admission by genre or venue prestige. Stage 2 assigns A: this is a strong RADAR-worthy local tour stop and useful to attend if the night is free, but the band is on an extensive North American tour and this date has no verified one-off lineup, premiere, farewell, or other context that calls for actively reorganizing plans. No scarcity-tier review is required.",
+  "events": [
+    {
+      "id": "diles-que-no-me-maten-pie-shop-washington-dc-2026-11-14",
+      "artist": "Diles que no me maten",
+      "subtitle": "Escrito en Agua tour",
+      "dates": {
+        "start": "2026-11-14",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "pie-shop-washington-dc",
+        "name": "Pie Shop",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Latin / Experimental rock / Improvised",
+      "genres": [
+        "Experimental rock",
+        "Krautrock",
+        "Post-punk",
+        "Psychedelic rock"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Raúl Ponce — drums",
+        "Gerardo Ponce — guitar",
+        "Andrés Lupone — bass",
+        "Jerónimo Elizondo-García — guitar, clarinet",
+        "Jonás Derbez — vocals, saxophone"
+      ],
+      "factual_description": "Pie Shop presents Diles que no me maten on Saturday, November 14, 2026, with doors at 19:30 and the show at 20:00. The venue identifies the Mexico City five-piece as Raúl Ponce on drums, Gerardo Ponce on guitar, Andrés Lupone on bass, Jerónimo Elizondo-García on guitar and clarinet, and Jonás Derbez on vocals and saxophone. Its event page frames the band's music around a jam-based krautrock philosophy and a shared improvisational language, and places the performance in the current chapter of the 2026 album Escrito en Agua. The band's Bandcamp show listing independently includes Pie Shop in Washington, DC on November 14 as part of its 2026 North American run.",
+      "links": {
+        "official_event": "https://www.pieshopdc.com/shows/diles-que-no-me-maten-14-nov",
+        "official_tickets": "https://app.opendate.io/e/diles-que-no-me-maten-november-14-2026-688220"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://app.opendate.io/e/diles-que-no-me-maten-november-14-2026-688220",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Diles que no me maten",
+          "title": "Escrito en agua",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/escrito-en-agua/1887684285"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "face_value_price"
+        ],
+        "note": "Pie Shop and its authorized Opendate event page verify the exact date, doors, showtime, venue identity and active ticket destination. Pie Shop also verifies the five named members and current Escrito en Agua context; the band's Bandcamp listing independently verifies the Washington date. Apple Music verifies the exact 2026 album. No retrievable face-value ticket price is exposed in the checked authorized pages, so none is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.pieshopdc.com/shows/diles-que-no-me-maten-14-nov",
+          "publisher": "Pie Shop",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue page verifies November 14, 2026, 19:30 doors, 20:00 show, all-ages status, the five named band members and instruments, the band's improvisational/krautrock live identity, and the Escrito en Agua context."
+        },
+        {
+          "url": "https://app.opendate.io/e/diles-que-no-me-maten-november-14-2026-688220",
+          "publisher": "Opendate / Pie Shop authorized ticketing",
+          "checked_on": "2026-09-03",
+          "note": "Authorized Pie Shop event/ticket page verifies the November 14 date, 20:00 show, Pie Shop at 1339 H St NE in Washington, DC, and an active ticket action. No retrievable face-value price was exposed."
+        },
+        {
+          "url": "https://dilesquenomematen.bandcamp.com/",
+          "publisher": "Diles Que No Me Maten / Bandcamp",
+          "checked_on": "2026-09-03",
+          "note": "Artist Bandcamp page identifies the band as Mexico City-based and lists Pie Shop, Washington, DC, on November 14 within the current 2026 tour."
+        },
+        {
+          "url": "https://music.apple.com/us/album/escrito-en-agua/1887684285",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact album page verifies Escrito en agua by Diles que no me maten, released June 12, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-artist-and-apple-sources",
+        "note": "Core facts were verified from Pie Shop, its authorized Opendate event/ticket page, the band's Bandcamp tour listing, and Apple Music. Repository-wide searches for the exact artist name, candidate ID, Pie Shop, and the November 14 date returned no existing RADAR event before publication. Priority A was assigned only after Stage 1 admission: the band's improvisational, cross-genre current repertoire makes the local performance RADAR-worthy, while its extensive tour and lack of a verified one-off live context mean the durable A language — attend if convenient — fits better than A+ or a scarcity tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Diles que no me maten build songs from collective listening rather than fixed genre rules: krautrock pulse, interlocking guitars, saxophone and clarinet color, poetry, and long-form improvisational instinct all feed the same machine. On Escrito en Agua that language became quieter and more deliberate without losing its instability, which makes the live question especially good: how much the songs open back up once five players are reacting to one another in real time.",
+          "trip_verdict": "If November 14 is free, Pie Shop is an easy local chance to catch an unusually distinctive Mexico City band in the middle of its current album cycle. I would go if the evening fits naturally rather than move a harder-to-replace show around for it.",
+          "listen_before": "Escrito en agua — Diles que no me maten"
+        },
+        "es": {
+          "why_it_matters": "Diles que no me maten arma sus canciones desde la escucha colectiva más que desde reglas fijas de género: pulso krautrock, guitarras entrelazadas, color de sax y clarinete, poesía e impulso improvisador de largo aliento funcionan dentro de la misma máquina. En Escrito en Agua ese lenguaje se volvió más contenido y deliberado sin perder inestabilidad; por eso la pregunta en vivo está buena: cuánto vuelven a abrirse las canciones cuando los cinco están reaccionando entre sí en tiempo real.",
+          "trip_verdict": "Si el 14 de noviembre está libre, Pie Shop es una oportunidad local y fácil para ver a una banda de Ciudad de México con una identidad muy propia en pleno ciclo de su disco nuevo. Iría si la noche embona naturalmente, sin mover otro concierto más difícil de reemplazar.",
+          "listen_before": "Escrito en agua — Diles que no me maten"
+        }
+      }
+    }
+  ]
+}
