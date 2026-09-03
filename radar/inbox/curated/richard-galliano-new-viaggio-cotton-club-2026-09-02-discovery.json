@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "richard-galliano-new-viaggio-cotton-club-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; no new verified, unrepresented Yamamoto appearance was found. COTTON CLUB announced Richard Galliano's New Viaggio Trio engagement on 2026-09-02, and repository-wide searches for Richard Galliano, New Viaggio Trio, and the November 16-17 COTTON CLUB dates returned no matching canonical, curated, or processed event. Stage 1 admits the engagement because it is a specific instrumental and repertoire project: Galliano revisits the 1993 Viaggio material with Adrien Moignard on guitar and Philippe Aerts on bass, recasting his new-musette language in a drumless trio and marking his first COTTON CLUB appearance. Stage 2 assigns A+. The combination of a major living accordion master, a defined repertory project and a strong small-room trio merits actively making room for a set. The scarcity challenge does not support S: the Tokyo engagement offers four sets across two nights, and the New Viaggio Trio is an active touring project with multiple 2026 European dates, so A+ fully captures the recommendation without inflating a non-farewell, non-premiere engagement into a protect-the-night tier. This A+ addition is consistent with the recent/current RADAR shape and does not add to the deliberately rare S/S+ tiers.",
+  "events": [
+    {
+      "id": "richard-galliano-new-viaggio-trio-cotton-club-tokyo-2026-11-16",
+      "artist": "Richard Galliano New Viaggio Trio",
+      "subtitle": "New Viaggio — revisiting the 1993 Viaggio repertoire",
+      "dates": {
+        "start": "2026-11-16",
+        "end": "2026-11-17"
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "European jazz / new musette / accordion-guitar-bass trio",
+      "genres": [
+        "Jazz",
+        "New musette",
+        "Tango"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Richard Galliano — accordion, bandoneon",
+        "Adrien Moignard — guitar",
+        "Philippe Aerts — bass"
+      ],
+      "factual_description": "COTTON CLUB presents Richard Galliano New Viaggio Trio on Monday and Tuesday, November 16-17, 2026. Each night has a first show opening at 17:00 and starting at 18:00, and a second show opening at 19:45 and starting at 20:30. The announced trio is Richard Galliano on accordion and bandoneon, Adrien Moignard on guitar, and Philippe Aerts on bass. The venue frames the engagement around a reinterpretation of Galliano's 1993 album Viaggio and identifies it as Galliano's first COTTON CLUB appearance. Published seat charges run from ¥9,000 for table seats to ¥11,500 for center box seats, with other seat categories between those amounts. The event-specific reservation destination is live but currently states that booking has not opened: JAM SESSION member presale begins September 10 at 12:00 and general web reservations begin September 16 at 12:00.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/richard-galliano-261116/",
+        "official_tickets": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5752/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Richard Galliano",
+          "title": "New Viaggio (Remastered Edition)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/new-viaggio-remastered-edition/1814321606"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact COTTON CLUB event page verifies dates, both nightly set times, full trio personnel, first-COTTON-CLUB framing, repertoire concept and published local seat charges. The event-specific authorized reservation destination is verified and currently shows the September 10 member and September 16 general booking openings. An exact Apple Music destination for New Viaggio (Remastered Edition) is verified. Local JPY charges are retained in factual/source notes rather than forced into the canonical ticket object, whose current validator requires USD."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/richard-galliano-261116/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-09-02",
+          "note": "Primary event page verifies November 16-17, 2026; 17:00 doors/18:00 start and 19:45 doors/20:30 start each night; Richard Galliano, Adrien Moignard and Philippe Aerts; first COTTON CLUB appearance; Viaggio repertoire framing; seat charges; and reservation-opening dates."
+        },
+        {
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5752/",
+          "publisher": "COTTON CLUB Reservation",
+          "checked_on": "2026-09-02",
+          "note": "Authorized event-specific reservation destination; booking is not yet open and the page states JAM SESSION member reservations begin September 10 at 12:00 and general web reservations September 16 at 12:00."
+        },
+        {
+          "url": "https://theactagency.com/specialformats/265",
+          "publisher": "The ACT Agency",
+          "checked_on": "2026-09-02",
+          "note": "Artist booking-agency page verifies the New Viaggio trio personnel and documents multiple 2026 European dates for the active touring project."
+        },
+        {
+          "url": "https://www.richardgalliano.com/en/album-music/new-viaggio-richard-galliano/",
+          "publisher": "Richard Galliano Official Website",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist page identifies New Viaggio as a return to the iconic Viaggio album, revisited in 2025."
+        },
+        {
+          "url": "https://music.apple.com/us/album/new-viaggio-remastered-edition/1814321606",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album destination for Richard Galliano's New Viaggio (Remastered Edition)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-and-apple-sources",
+        "note": "Core performance facts were verified from COTTON CLUB's exact event page and authorized reservation destination; Galliano's official site and The ACT Agency verify the New Viaggio project and its active touring context; Apple Music verifies the listening destination. Repository searches for Richard Galliano, New Viaggio Trio, the exact event ID, and November 16, 2026 returned no matching RADAR record before publication. Priority was assigned only after Stage 1 admission. A+ is retained because the performance has a concrete repertoire and instrumental identity worth actively prioritizing, while four Tokyo sets and an active multi-date touring project do not support S-level scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Galliano has spent decades turning the accordion from a coloristic guest into a front-line improvising voice, and New Viaggio puts that identity under a useful constraint: no drums, just his accordion and bandoneon against Adrien Moignard's guitar and Philippe Aerts's bass. Revisiting the 1993 Viaggio book with a different generation of partners makes this less a nostalgia set than a live test of how new musette, tango and jazz change when the rhythmic engine is carried entirely by three melodic instruments.",
+          "trip_verdict": "If Greater Tokyo is in play on November 16 or 17, I would actively make room for one of the four sets and let the trio anchor that part of the evening. The two-night run gives enough flexibility that I would fit it around scarcer farewells, premieres or one-off master appearances rather than reorganize an entire Japan itinerary around it.",
+          "listen_before": "Richard Galliano — New Viaggio (Remastered Edition)"
+        },
+        "es": {
+          "why_it_matters": "Galliano lleva décadas convirtiendo al acordeón de un color invitado en una voz improvisadora de primera línea, y New Viaggio pone esa identidad bajo una restricción muy fértil: sin batería, sólo su acordeón y bandoneón frente a la guitarra de Adrien Moignard y el bajo de Philippe Aerts. Volver al repertorio de Viaggio de 1993 con compañeros de otra generación hace que esto sea menos un ejercicio de nostalgia que una prueba en vivo de cómo cambian el new musette, el tango y el jazz cuando todo el motor rítmico recae en tres instrumentos melódicos.",
+          "trip_verdict": "Si Greater Tokyo está en juego el 16 o 17 de noviembre, sí haría espacio activamente para uno de los cuatro sets y dejaría que el trío ancle esa parte de la noche. Las dos noches dan suficiente flexibilidad como para acomodarlo alrededor de despedidas, estrenos o apariciones realmente escasas de grandes maestros, en vez de reorganizar todo un viaje a Japón por esta fecha.",
+          "listen_before": "Richard Galliano — New Viaggio (Remastered Edition)"
+        }
+      }
+    }
+  ]
+}
