@@ -1,0 +1,172 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "numero-group-23rd-anniversary-national-sawdust-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; the future Yamamoto appearances surfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Repository searches for Laraaji + National Sawdust + 2026-11-14, Numero Group + National Sawdust, The Album Leaf + 2026-11-14, and the proposed stable ID returned no existing RADAR match. Stage 1 admits the Numero Group 23rd Anniversary Celebration because the specific one-night bill is an explicit live cross-section of Numero's archival catalog: Laraaji, The Album Leaf, and Shira Small connect three very different strands of rediscovered or recontextualized music through the label's recovery work. This is a concrete curatorial, cultural-context and repertoire reason rather than venue prestige or name recognition. Stage 2 assigns A+. The unusual one-night bill is worth actively making room for if New York is in play. The scarcity challenge does not support S: the 23rd anniversary is not a singular historical milestone, the sources do not identify a farewell, final performance, premiere or last-ever configuration, and A+ fully captures the recommendation without inventing irreproducibility. Same-day and recent intake is already weighted toward A and A+ with scarcity tiers treated as rare, so this candidate adds no S/S+ pressure and remains consistent with the current rubric.",
+  "events": [
+    {
+      "id": "numero-group-23rd-anniversary-national-sawdust-brooklyn-2026-11-14",
+      "artist": "The Numero Group: 23rd Anniversary Celebration",
+      "subtitle": "Murmrr Presents — Laraaji / The Album Leaf / Shira Small",
+      "dates": {
+        "start": "2026-11-14",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Archival-label anniversary / ambient / post-rock / outsider folk soul",
+      "genres": [
+        "Ambient",
+        "New Age",
+        "Post-rock",
+        "Electronic",
+        "Folk soul"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Laraaji — billed artist",
+        "The Album Leaf — billed artist",
+        "Shira Small — billed artist"
+      ],
+      "factual_description": "National Sawdust's current event page and current performances calendar list Murmrr Presents Numero Group — 23rd Anniversary Celebration on Saturday, November 14, 2026 at 7:30 PM, with doors at 6:30 PM, as an all-ages standing-room performance at 80 North 6th Street in Brooklyn. The announced bill is Laraaji, The Album Leaf, and Shira Small. National Sawdust describes the event as a night of live music spanning the Numero-verse catalog held to commemorate Numero Group's 23rd anniversary while the label is closing out its New York pop-up period. The individual event page contains a stale 'This event has passed' label, but the venue's current performances page lists the November 14 event among upcoming performances and the authorized AudienceView/OvationTix ticket destination remains active; the current calendar and active ticket route therefore control status. Numero Group identifies itself as an archival label founded in 2003 and documents direct catalog/reissue relationships with Laraaji, The Album Leaf, and Shira Small. No event-specific instruments, backing personnel, set order, ticket price, or special collaborations are stated in the checked sources, so none are inferred.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/murmrr-presents-numero-group-23rd-anniversary-celebration-w-laraaji-the-album-leaf-shira-small-11-14-26",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1283483"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1283483",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Laraaji",
+          "title": "Segue To Infinity",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/segue-to-infinity/1652364681"
+        },
+        {
+          "artist": "The Album Leaf",
+          "title": "One Day I'll Be On Time",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/one-day-ill-be-on-time/1738675835"
+        },
+        {
+          "artist": "Shira Small",
+          "title": "The Line of Time and the Plane of Now",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-line-of-time-and-the-plane-of-now/1690868211"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "event_specific_personnel_beyond_billed_artists",
+          "event_specific_instrumentation",
+          "official_ticket_price"
+        ],
+        "note": "National Sawdust verifies the date, 18:30 doors, 19:30 performance, complete three-artist billing, venue, standing-room/all-ages context and authorized AudienceView/OvationTix ticket destination. Numero Group's own catalog pages establish the label relationship and archival/reissue context for the artists. Exact Apple Music destinations were verified for one Numero-linked release by each billed artist. No ticket price or event-specific personnel/instrument assignments were added without explicit source support."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/murmrr-presents-numero-group-23rd-anniversary-celebration-w-laraaji-the-album-leaf-shira-small-11-14-26",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-03",
+          "note": "Primary event page verifies November 14, 2026, 18:30 doors, 19:30 performance, all-ages standing-room context, the Laraaji / The Album Leaf / Shira Small bill, the Numero Group 23rd-anniversary framing, and the authorized ticket link. The page carries a stale passed label but also marks the event UPCOMING."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/performances",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-03",
+          "note": "Current primary venue calendar independently lists the Numero Group 23rd Anniversary Celebration on November 14, 2026 at 19:30 among upcoming performances, resolving the stale CMS passed label on the individual page."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1283483",
+          "publisher": "National Sawdust / AudienceView Professional",
+          "checked_on": "2026-09-03",
+          "note": "Authorized ticket destination reached directly from National Sawdust's event page. No stable ticket price was exposed in the accessible source text, so price remains unknown rather than inferred."
+        },
+        {
+          "url": "https://numerogroup.com/pages/etc",
+          "publisher": "Numero Group",
+          "checked_on": "2026-09-03",
+          "note": "Primary label page documents Numero Group's archival mission, its 2003 founding, and its role in redeveloping Laraaji's catalog/career, supporting the event's archival-label context."
+        },
+        {
+          "url": "https://numerogroup.com/products/lines-in-a-leaf",
+          "publisher": "Numero Group",
+          "checked_on": "2026-09-03",
+          "note": "Primary label product page documents Numero's archival release of previously unreleased early The Album Leaf recordings and the project's lo-fi, instrumental/post-rock lineage."
+        },
+        {
+          "url": "https://numerogroup.com/products/the-line-of-time-and-the-plane-of-now",
+          "publisher": "Numero Group",
+          "checked_on": "2026-09-03",
+          "note": "Primary label product page documents Numero's recovery and release of Shira Small's mid-1970s recordings, described through soft psych, vocal jazz and sunshine-soul/outsider context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/segue-to-infinity/1652364681",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies Laraaji's Segue To Infinity and identifies Numero Group as the label."
+        },
+        {
+          "url": "https://music.apple.com/us/album/one-day-ill-be-on-time/1738675835",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies The Album Leaf's One Day I'll Be On Time under Tiger Style / The Numero Group."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-line-of-time-and-the-plane-of-now/1690868211",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies Shira Small's The Line of Time and the Plane of Now under Numero Group."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-authorized-ticket-and-apple-sources",
+        "note": "Core date, time, billing, venue and event framing come from National Sawdust's primary event page and current performances calendar; the official event links to the authorized AudienceView/OvationTix production. Numero Group's primary pages establish the archival/reissue relationship behind the bill, and exact Apple Music destinations verify representative Numero-linked listening for all three artists. Repository-wide searches for the three-artist bill, Numero Group + National Sawdust, the November 14 date, and the proposed stable ID found no existing canonical, curated or processed RADAR match before publication. Priority A+ was assigned only after Stage 1 admission. The one-night archival-label cross-section deserves active room-making if New York is already in play, while the absence of farewell, final-performance, premiere or other singular scarcity evidence makes A+ more durable than S."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Numero turns its archival instinct into a live, one-night cross-section of the catalog: Laraaji's devotional ambient world, The Album Leaf's post-rock/electronic language, and Shira Small's rediscovered 1970s songwriting share a bill that only really makes sense through the label's recovery work. The draw is the curation itself — three different eras and forms of outsider music placed in conversation rather than three unrelated sets sharing a room.",
+          "trip_verdict": "If New York is in play that weekend, actively make room for the November 14 gathering at National Sawdust; the unusual bill is the reason to choose this night over a routine club date. From the DMV, I would still pair it with another strong New York reason rather than reshape a broader East Coast trip around this event alone.",
+          "listen_before": "Laraaji — Segue To Infinity; The Album Leaf — One Day I'll Be On Time; Shira Small — The Line of Time and the Plane of Now"
+        },
+        "es": {
+          "why_it_matters": "Numero convierte su instinto de archivo en una muestra viva del catálogo por una sola noche: el mundo ambient y devocional de Laraaji, el lenguaje post-rock/electrónico de The Album Leaf y las canciones setenteras recuperadas de Shira Small comparten un cartel que sólo termina de tener sentido por el trabajo de rescate del sello. Lo atractivo es la curaduría misma: tres épocas y tres formas distintas de música fuera del centro puestas a conversar, no tres sets inconexos compartiendo sala.",
+          "trip_verdict": "Si Nueva York ya está en juego ese fin de semana, le haría espacio activamente a la reunión del 14 de noviembre en National Sawdust; el cartel poco común es la razón para elegir esa noche sobre una fecha rutinaria de club. Desde el DMV, aun así lo combinaría con otra razón fuerte para subir a Nueva York en vez de rehacer un viaje regional completo alrededor de este concierto.",
+          "listen_before": "Laraaji — Segue To Infinity; The Album Leaf — One Day I'll Be On Time; Shira Small — The Line of Time and the Plane of Now"
+        }
+      }
+    }
+  ]
+}
