@@ -1,0 +1,134 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yuki-chiba-union-stage-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication; the required four authority files were read before any event research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; no verified future Yamamoto appearance surfaced that was both new and absent from current canonical/curated/processed intake. The broader Japanese-artist/DMV pass found Yuki Chiba at Union Stage on November 30. Stage 1 admits this specific performance because it is explicitly billed as Chiba's First North America Headline Tour, bringing a Tokyo-born Japanese hip-hop artist in an active global/cross-border phase into the local DMV domain as a headliner rather than as a generic touring stop. Warner Music Japan's current artist profile documents his genre-crossing approach and current releases, while the label's 2025 contract announcement explicitly framed Los Angeles as a new base for an accelerated global career. Stage 2 assigns A. The Washington date is one stop on a multi-city North American headline tour, with an independently listed New York stop immediately before Washington, and no verified one-off lineup, premiere, farewell, or other scarcity fact makes this a protect-the-night event. It belongs on RADAR as a culturally specific Japanese-to-DMV live moment and is worth using if the local Monday fits. The recent/current repository intake was checked before finalizing the grade and remains visibly rich in A+ selections; this event remains A on its own facts, not to satisfy a quota.",
+  "events": [
+    {
+      "id": "yuki-chiba-union-stage-washington-dc-2026-11-30",
+      "artist": "Yuki Chiba",
+      "subtitle": "First North America Headline Tour",
+      "dates": {
+        "start": "2026-11-30",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "union-stage-washington-dc",
+        "name": "Union Stage",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese hip-hop / cultural exchange",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Japanese hip-hop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo"
+      ],
+      "lineup": [
+        "Yuki Chiba — billed artist; event-specific supporting personnel have not been published by the checked primary sources"
+      ],
+      "factual_description": "Union Stage's official event page lists Yuki Chiba's First North America Headline Tour on Monday, November 30, 2026 at Union Stage, 740 Water Street SW, Washington, DC 20024, with doors at 19:00 and the show at 20:00; the event is all ages. The venue page links to its authorized Opendate event/ticket destination. Warner Music Japan's current Yuki Chiba profile documents his current catalog under that name and his genre-crossing presentation. Warner Music Japan's July 2025 corporate announcement states that Chiba signed a comprehensive deal covering recording, management, merchandising and live production and established Los Angeles as a new base for an accelerated global career. The Bowery Presents independently lists the same First North America Headline Tour at Racket in New York on November 28, 2026, before the Washington date.",
+      "links": {
+        "official_event": "https://www.unionstagepresents.com/shows/yuki-chiba-first-north-america-headline-tour-30-nov",
+        "official_tickets": "https://app.opendate.io/e/yuki-chiba-first-north-america-headline-tour-november-30-2026-710600"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://app.opendate.io/e/yuki-chiba-first-north-america-headline-tour-november-30-2026-710600",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yuki Chiba",
+          "title": "STAR",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/star/1809230208"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_face_value_ticket_price",
+          "event_specific_supporting_personnel"
+        ],
+        "note": "Union Stage and its authorized Opendate destination verify the Washington date, venue, doors, showtime, all-ages status, and tour billing. Warner Music Japan verifies Chiba's current artist identity and global-career context; The Bowery Presents independently verifies another stop under the same First North America Headline Tour billing. The checked primary event sources do not publish face-value ticket pricing or event-specific supporting personnel, so those fields remain unknown rather than inferred. Apple Music verifies the exact STAR album page."
+      },
+      "sources": [
+        {
+          "url": "https://www.unionstagepresents.com/shows/yuki-chiba-first-north-america-headline-tour-30-nov",
+          "publisher": "Union Stage",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue event page verifies Monday, November 30, 2026, Union Stage at 740 Water St SW, Washington, DC 20024, all ages, doors 19:00, show 20:00, Yuki Chiba billing, and First North America Headline Tour title."
+        },
+        {
+          "url": "https://app.opendate.io/e/yuki-chiba-first-north-america-headline-tour-november-30-2026-710600",
+          "publisher": "Union Stage / Opendate",
+          "checked_on": "2026-09-03",
+          "note": "Authorized event/ticket destination independently verifies November 30, 2026, doors 19:00, show 20:00, all ages, and the Union Stage address."
+        },
+        {
+          "url": "https://wmg.jp/chiba-yuki",
+          "publisher": "Warner Music Japan",
+          "checked_on": "2026-09-03",
+          "note": "Primary label artist profile verifies Yuki Chiba's current Warner Music Japan identity and current 2026 releases under the Yuki Chiba name."
+        },
+        {
+          "url": "https://wmg.jp/corporate/company/news/250704.html",
+          "publisher": "Warner Music Japan",
+          "checked_on": "2026-09-03",
+          "note": "Primary corporate announcement dated July 4, 2025 verifies Chiba's comprehensive Warner deal covering recording, management, merchandising and live production, and states that Los Angeles becomes a new base to accelerate his global career."
+        },
+        {
+          "url": "https://aeg-bowerypresents-prod.trafficmanager.net/new-york-metro/shows/detail/1518069-yuki-chiba-first-north-america-headline-tour",
+          "publisher": "The Bowery Presents",
+          "checked_on": "2026-09-03",
+          "note": "Authorized promoter event page verifies Yuki Chiba's First North America Headline Tour at Racket in New York on Saturday, November 28, 2026, doors 19:00 and show 20:00, supporting the multi-city tour context used for priority rather than serving as a source for Washington facts."
+        },
+        {
+          "url": "https://music.apple.com/us/album/star/1809230208",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies STAR by Yuki Chiba, released December 11, 2024."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-promoter-label-and-apple-sources",
+        "note": "Core Washington performance facts were verified from Union Stage and its authorized Opendate event/ticket destination; artist/global-career context was checked against Warner Music Japan, tour context against The Bowery Presents, and recommended listening against Apple Music. Repository-wide searches for Yuki Chiba and the proposed event identity returned no existing canonical, curated, or processed RADAR record before publication. Priority A was assigned only after Stage 1 admission: the first North America headline-tour context gives this local Japanese-to-DMV appearance a concrete Listening Notes reason, while the multi-city tour and absence of a verified one-off lineup, premiere, farewell, or scarcity fact support an attend-if-convenient recommendation rather than A+ or a scarcity tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is Chiba's first North American headline cycle, which makes the Union Stage stop more than a routine rap booking. His current work is already moving between Japanese hip-hop and an explicitly international orbit, and Washington gets that project under his own name in a local-room context rather than as a guest appearance. For Listening Notes, the useful thread is cultural movement: a Tokyo-born artist whose recent records and collaborations are being built for a genuinely trans-Pacific audience now arrives in the DMV as the headliner.",
+          "trip_verdict": "Use the Washington date if November 30 is open. It is the low-friction way to hear this first North American cycle; with the same headline tour also reaching New York immediately beforehand, there is no reason to build a regional trip around the Racket stop instead.",
+          "listen_before": "Yuki Chiba — STAR"
+        },
+        "es": {
+          "why_it_matters": "Este es el primer ciclo de Yuki Chiba como headliner en Norteamérica, y eso vuelve la fecha de Union Stage algo más específico que una parada rutinaria de rap. Su trabajo actual ya se mueve entre el hip-hop japonés y una órbita abiertamente internacional, y Washington recibe ese proyecto bajo su propio nombre y en una sala local, no como aparición de invitado. Para Listening Notes, el hilo útil es el movimiento cultural: un artista nacido en Tokio cuyos discos y colaboraciones recientes ya están pensados para una audiencia realmente transpacífica llega ahora al DMV como cabeza de cartel.",
+          "trip_verdict": "Aprovecharía la fecha de Washington si el 30 de noviembre está libre. Es la forma de menor fricción para escuchar este primer ciclo norteamericano; con la misma gira como headliner llegando también a Nueva York inmediatamente antes, no hay razón para armar un viaje regional alrededor de Racket.",
+          "listen_before": "Yuki Chiba — STAR"
+        }
+      }
+    }
+  ]
+}
