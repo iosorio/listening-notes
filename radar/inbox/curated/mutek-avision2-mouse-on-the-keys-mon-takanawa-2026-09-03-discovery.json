@@ -1,0 +1,127 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "mutek-avision2-mouse-on-the-keys-mon-takanawa-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE-oriented search, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. The future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake or in the existing-event research workflow, so no duplicate Yamamoto record was created. Broader Greater Tokyo research found MUTEK.JP 2026 A/Vision 2 at MoN Takanawa on November 21. Repository-wide searches for MUTEK.JP 2026, mouse on the keys A/Vision 2, Hania Rani MUTEK, Ryoichi Kurokawa MUTEK, and the November 21 program returned no matching RADAR record before publication. Stage 1 admits the program for a concrete live-context reason: mouse on the keys is marking its 20th anniversary with a MUTEK.JP-specific audiovisual expansion of the 2024 album midnight, joined by violinist Shuntaro Tsuneta and VJ rokapenis; that sits alongside Hania Rani's Chilling Bambino alter-ego presentation and Ryoichi Kurokawa's latest two-screen work -nD. The editorial case is the program's instrument-to-image architecture, special mouse on the keys formation, anniversary context, and Japanese audiovisual thread, not festival prestige alone. Stage 2 assigns A+: the special formation and three-part audiovisual program merit actively making room for the night within Tokyo/Kanto. Scarcity was explicitly challenged: the official source calls the mouse on the keys performance special and anniversary-linked, but does not present the program as a farewell, final performance, or otherwise demonstrably nonrecurring; A+ still captures the recommendation and S is not claimed. Recent/current intake was rechecked as a sanity test and remains centered on A/A+ with S/S+ reserved for stronger documented scarcity; this batch adds A 0 / A+ 1 / S 0 / S+ 0 without using distribution as a quota.",
+  "events": [
+    {
+      "id": "mutek-jp-avision2-mon-takanawa-tokyo-2026-11-21",
+      "artist": "MUTEK.JP 2026 — A/Vision 2",
+      "subtitle": "Hania Rani presents Chilling Bambino / mouse on the keys / Ryoichi Kurokawa — -nD",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "mon-takanawa-box-1000-tokyo",
+        "name": "MoN Takanawa — Box 1000",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Audiovisual / Experimental music / 20th-anniversary special program",
+      "genres": [
+        "Experimental electronic",
+        "Post-rock",
+        "Ambient",
+        "Audiovisual"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Hania Rani — Chilling Bambino audiovisual performance",
+        "mouse on the keys — instrumental trio",
+        "Shuntaro Tsuneta — violin with mouse on the keys",
+        "rokapenis — VJ with mouse on the keys",
+        "Ryoichi Kurokawa — -nD audiovisual work"
+      ],
+      "factual_description": "MUTEK.JP's official A/Vision 2 page schedules the program for Saturday, November 21, 2026 in Box 1000 at MoN Takanawa, with doors at 18:00, show at 19:00 and scheduled end at 22:00; the first floor is standing and the second floor seated. The program bills Hania Rani presents Chilling Bambino, mouse on the keys, and Ryoichi Kurokawa performing -nD. MUTEK.JP describes Chilling Bambino as Rani's Prophet-synth-centered alter ego combining dark electronica, hypnotic rhythm and exposed upright-piano sound. The official page identifies mouse on the keys as celebrating its 20th anniversary and says the band will present a special audiovisual performance created for MUTEK.JP 2026, expanding the ambient and techno-minimalist world of its 2024 album midnight with violinist Shuntaro Tsuneta and VJ rokapenis. Kurokawa is billed with his latest work -nD, using a two-screen diptych with tightly synchronized sound and image. MoN Takanawa's official visitor information identifies the venue as directly connected to Takanawa Gateway Station; an official Tokyo Festival venue page gives the address as 3-16-1 Mita, Minato-ku, Tokyo 108-0073. The MUTEK event page currently displays a nominal ¥1 price while the festival ticket page contains mixed legacy 2025 pricing, so no face-value price is recorded from those inconsistent displays.",
+      "links": {
+        "official_event": "https://tokyo.mutek.org/en/shows/2026/a-vision-2",
+        "official_tickets": "https://mutekjp.zaiko.io/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://mutekjp.zaiko.io/",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "mouse on the keys",
+          "title": "midnight",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/midnight/1773921118"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact MUTEK.JP program page verifies date, venue, doors/show/end times, viewing format, three billed acts, the mouse on the keys 20th-anniversary special formation, Shuntaro Tsuneta and rokapenis, and the program descriptions. Its Festival Passes link points to the authorized MUTEK.JP Zaiko destination. MoN Takanawa and Tokyo Festival provide venue-location support, and Apple Music provides an exact midnight album destination. Ticket price is intentionally left null because the current MUTEK event display shows an implausible ¥1 placeholder and the broader ticket page contains stale 2025 pricing; neither is treated as a reliable 2026 face price."
+      },
+      "sources": [
+        {
+          "url": "https://tokyo.mutek.org/en/shows/2026/a-vision-2",
+          "publisher": "MUTEK.JP",
+          "checked_on": "2026-09-03",
+          "note": "Primary exact event page verifies Saturday, November 21, 2026; MoN Takanawa Box 1000; 18:00 doors / 19:00 show / 22:00 end; Hania Rani presents Chilling Bambino, mouse on the keys, and Ryoichi Kurokawa -nD; the mouse on the keys 20th-anniversary special audiovisual presentation with violinist Shuntaro Tsuneta and VJ rokapenis; and the authorized MUTEK.JP Zaiko Festival Passes destination. The page's displayed ¥1 amount is not used as a face price."
+        },
+        {
+          "url": "https://www.montakanawa.jp/en/visit/",
+          "publisher": "MoN Takanawa: The Museum of Narratives",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue visitor page verifies MoN Takanawa's identity and direct connection to Takanawa Gateway Station."
+        },
+        {
+          "url": "https://tokyofestival.jp/en/pab/2026/takanawa",
+          "publisher": "Tokyo Festival",
+          "checked_on": "2026-09-03",
+          "note": "Authoritative event-venue page gives MoN Takanawa's address as 3-16-1 Mita, Minato-ku, Tokyo 108-0073 and identifies Box300/foyer spaces in the same complex."
+        },
+        {
+          "url": "https://music.apple.com/us/album/midnight/1773921118",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies mouse on the keys' midnight, released November 1, 2024."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-ticket-and-apple-sources",
+        "note": "Core event facts and the performance-specific editorial context are verified from MUTEK.JP's exact A/Vision 2 page; venue identity/location are supported by MoN Takanawa and Tokyo Festival; the authorized seller destination is linked directly from the official event page; and Apple Music verifies the recommended listening. Repository-wide searches found no existing MUTEK.JP 2026 or A/Vision 2 RADAR record before publication. No ticket price is inferred from the site's inconsistent current displays. Priority A+ was assigned only after Stage 1 admission: the MUTEK-specific mouse on the keys formation and anniversary context merit active prioritization, while the absence of a verified farewell, final opportunity, or stronger recurrence barrier means the scarcity threshold for S is not met."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The center of gravity is mouse on the keys turning a twentieth anniversary into a change of form rather than a retrospective: the trio is expanding midnight into image and space with Shuntaro Tsuneta on violin and rokapenis on visuals. Placed between Hania Rani's synth-and-exposed-piano Chilling Bambino persona and Ryoichi Kurokawa's precision two-screen -nD, the night becomes a coherent argument about how instruments, repetition and electronics can alter perception when sound is treated as physical space.",
+          "trip_verdict": "If November 21 overlaps with Tokyo, I would build the evening around Box 1000 at Takanawa rather than treat this as a drop-in festival stop. The three-part program is strong enough to make room for, while leaving genuinely singular one-off master appearances elsewhere in Kanto free to take precedence.",
+          "listen_before": "midnight — mouse on the keys"
+        },
+        "es": {
+          "why_it_matters": "El centro de gravedad es mouse on the keys usando su vigésimo aniversario para cambiar de forma en vez de hacer una retrospectiva: el trío va a expandir midnight hacia imagen y espacio con Shuntaro Tsuneta en violín y rokapenis en visuales. Puesto entre el alter ego Chilling Bambino de Hania Rani —sintetizador y piano acústico expuesto— y la precisión de dos pantallas de -nD de Ryoichi Kurokawa, el programa termina armando una idea coherente sobre cómo instrumentos, repetición y electrónica pueden modificar la percepción cuando el sonido se trata como espacio físico.",
+          "trip_verdict": "Si el 21 de noviembre coincide con Tokio, armaría la noche alrededor de Box 1000 en Takanawa en vez de tratarlo como una parada casual de festival. El programa de tres partes sí merece que se le haga espacio, dejando todavía precedencia a una aparición verdaderamente singular de un maestro en otro punto de Kanto.",
+          "listen_before": "midnight — mouse on the keys"
+        }
+      }
+    }
+  ]
+}
