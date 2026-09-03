@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "a-thousand-generations-national-sawdust-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed after rereading the current durable docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Fresh research checked Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A search traces, Jazz in Japan/current Japanese-jazz calendars, and the broader Tokyo/Kanto and US-corridor scope. No new verified, unrepresented Yamamoto appearance was found; the September BODY&SOUL dates and Final Groove material are already represented in processed/curated intake. Repository-wide searches for A Thousand Generations, Hannah Ishizaki + Chiori Miyagawa + Mark Campbell, and the proposed stable ID returned no existing RADAR match. Stage 1 admits this performance for a concrete Japan-US cultural and musical construction: an eleven-scene chamber opera for three vocalists, chamber ensemble and electronics based on Tsuru no Ongaeshi, intercutting fifteenth-century Japan with a present-day American girl's journey to Japan and explicitly exploring cultural participation and authenticity. Stage 2 assigns A+: the specific Japan-US frame, new chamber-opera construction, acoustic/electronic instrumentation and one-date National Sawdust presentation merit actively making room if New York is in play. A+ captures the recommendation without inventing scarcity: the primary source does not call this a world premiere, farewell, final performance or otherwise establish that the work is unlikely to recur. The recent/current intake already contains multiple A and A+ additions and protected scarcity tiers; this batch adds one A+ and no S/S+, preserving the intended broad-base/narrower-A+/rare-scarcity shape without grading to a quota.",
+  "events": [
+    {
+      "id": "hannah-ishizaki-a-thousand-generations-national-sawdust-brooklyn-2026-12-01",
+      "artist": "Hannah Ishizaki, Chiori Miyagawa, and Mark Campbell",
+      "subtitle": "A Thousand Generations",
+      "dates": {
+        "start": "2026-12-01",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary chamber opera / Japan-US cultural exchange",
+      "genres": [
+        "Opera",
+        "Contemporary classical",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo"
+      ],
+      "lineup": [
+        "Hannah Ishizaki — composer",
+        "Chiori Miyagawa — co-librettist",
+        "Mark Campbell — co-librettist",
+        "Three vocalists — names not announced",
+        "Chamber ensemble — personnel not announced",
+        "Electronics — personnel not announced"
+      ],
+      "factual_description": "National Sawdust presents A Thousand Generations on Tuesday, December 1, 2026 at 7:30 PM, with doors at 6:30 PM, as a seated performance in Brooklyn. The venue describes Hannah Ishizaki's work as a one-act chamber opera in eleven scenes, created with co-librettists Chiori Miyagawa and Mark Campbell for three vocalists, chamber ensemble and electronics. The work is based on the Japanese folk story Tsuru no Ongaeshi (The Crane's Gratitude), placing a retelling in fifteenth-century Japan alongside a contemporary story about an American girl traveling to Japan to research folk tales and reconnect with her grandparents; the two narratives mix past and present, real and spiritual, around questions of cultural participation and authenticity. National Sawdust does not identify the three vocalists, chamber-ensemble personnel or electronics performer/operator on the current event page, so those names remain unfilled rather than inferred. The individual event page contains a stale 'This event has passed' label even though National Sawdust's current upcoming-performances page lists December 1, 2026 and the page itself marks the event UPCOMING; the current calendar/date and active authorized ticket link therefore control status. No ticket price was recorded because the authorized AudienceView/OvationTix destination did not expose a stable verified price in accessible source text.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/hannah-ishizaki-chiori-miyagawa-and-mark-campbell-a-thousand-generations",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280699"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1280699",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "performer_names",
+          "apple_music",
+          "official_ticket_price"
+        ],
+        "note": "National Sawdust verifies the billed creative team, date, doors, performance time, seated format, eleven-scene chamber-opera form, three-vocalist/chamber-ensemble/electronics instrumentation, Japan-US narrative frame and authorized AudienceView/OvationTix destination. The current page does not name the singers or ensemble personnel, expose a stable ticket price, or provide an exact Apple Music destination for the work, so none were invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/hannah-ishizaki-chiori-miyagawa-and-mark-campbell-a-thousand-generations",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-03",
+          "note": "Primary event page verifies December 1, 2026, 18:30 doors, 19:30 performance, seated format, the billed Ishizaki/Miyagawa/Campbell creative team, the eleven-scene chamber-opera format, three vocalists, chamber ensemble and electronics, and the Tsuru no Ongaeshi / contemporary US-Japan narrative. The page has a stale passed label but simultaneously marks the event UPCOMING."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/performances",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-03",
+          "note": "Current primary venue calendar independently lists A Thousand Generations on December 1, 2026 at 19:30 among upcoming performances and corroborates the work's creative team, instrumentation and Japanese-story frame; used to resolve the stale CMS passed label on the individual page."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280699",
+          "publisher": "National Sawdust / AudienceView Professional",
+          "checked_on": "2026-09-03",
+          "note": "Authorized ticket destination reached directly from National Sawdust's event listing. No stable ticket price was exposed in accessible source text, so price remains unknown rather than inferred."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authorized-sources",
+        "note": "Core event facts and project context come from National Sawdust's exact event page and current performances calendar; the venue links directly to the authorized AudienceView/OvationTix production. Repository searches found no existing A Thousand Generations event or stable-ID collision before publication. Priority was assigned only after Stage 1 admission. A+ reflects the work's unusually specific Japan-US cultural frame and contemporary chamber-opera/electronics construction, worth actively making room for in New York, without claiming unverified premiere or scarcity status."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "A Thousand Generations turns Tsuru no Ongaeshi into more than a retelling: an eleven-scene chamber opera places fifteenth-century Japan beside a contemporary American girl's trip to Japan, then lets the two timelines bleed into each other through three voices, chamber ensemble and electronics. The live hook is that collision of folklore, migration, authenticity and mixed acoustic/electronic language, shaped by Hannah Ishizaki with Chiori Miyagawa and Mark Campbell rather than presented as heritage material at a distance.",
+          "trip_verdict": "If New York is already in play on December 1, I would build the Brooklyn evening around this performance. From the DMV, pair it with another strong New York reason rather than make a dedicated corridor trip for this date alone.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "A Thousand Generations hace de Tsuru no Ongaeshi algo más que una recreación: una ópera de cámara en once escenas pone al Japón del siglo XV junto al viaje contemporáneo de una joven estadounidense a Japón y deja que ambas líneas se mezclen mediante tres voces, ensamble de cámara y electrónica. Lo que jala en vivo es ese cruce entre folclor, migración, autenticidad y lenguaje acústico-electrónico, construido por Hannah Ishizaki con Chiori Miyagawa y Mark Campbell en vez de tratar la tradición como una pieza de museo.",
+          "trip_verdict": "Si Nueva York ya está en juego el 1 de diciembre, armaría la noche de Brooklyn alrededor de esta función. Desde el DMV, la combinaría con otra razón fuerte para subir a Nueva York en vez de hacer un viaje regional dedicado únicamente por esta fecha.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
