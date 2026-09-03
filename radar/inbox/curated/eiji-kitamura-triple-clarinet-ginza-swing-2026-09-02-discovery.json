@@ -1,0 +1,136 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "eiji-kitamura-triple-clarinet-ginza-swing-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Current checks covered Tsuyoshi Yamamoto schedule traces, Jazz House ALFIE, BODY&SOUL, Space M&A and Japanese-jazz sources first; no new unrepresented future Yamamoto appearance cleared publication in this pass. Repository searches for Eiji Kitamura, the exact proposed ID, the October 29 date and Ginza Swing found no canonical/curated/processed match before publication. Stage 1 admits the October 29 Ginza Swing performance because its three-clarinet front line gives a concrete instrumental reason beyond reputation: Eiji Kitamura, Misako Kumakura and Atsushi Miyawaki place three generations of Japanese jazz clarinet language over Kitamura's long-running swing rhythm section. The Japan Popular Music Association documents Kitamura and Kumakura's established Clarinet Square context, while Miyawaki's official site documents his recurring Ginza Swing work with Kitamura; the added third clarinet makes this specific date a distinct live configuration. Stage 2 assigns A+: actively make room for the three-clarinet session if Tokyo is in play. Scarcity was explicitly challenged: Kitamura is 97 in 2026 and the exact three-clarinet configuration is unusual, but Ginza Swing lists another Kitamura date on October 14 and Miyawaki describes monthly appearances with Kitamura at the club, so A+ still captures the recommendation without turning age or master status into an automatic scarcity tier. Recent/current intake remains centered on A and A+, with S/S+ reserved for demonstrably scarce contexts; this batch adds A 0 / A+ 1 / S 0 / S+ 0 without using distribution as a quota.",
+  "events": [
+    {
+      "id": "eiji-kitamura-triple-clarinet-ginza-swing-tokyo-2026-10-29",
+      "artist": "Eiji Kitamura",
+      "subtitle": "Three-clarinet front line at Ginza Swing",
+      "dates": {
+        "start": "2026-10-29",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "ginza-swing-tokyo",
+        "name": "Ginza Swing",
+        "city": "Chuo-ku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese jazz / Clarinet / Living master",
+      "genres": [
+        "Jazz",
+        "Swing",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Eiji Kitamura (北村英治) — clarinet",
+        "Misako Kumakura (熊倉未佐子) — clarinet",
+        "Atsushi Miyawaki (宮脇惇) — clarinet",
+        "Kazuhide Takahama (高浜和英) — piano, vocals",
+        "Yuzo Yamaguchi (山口雄三) — bass",
+        "Kuniyoshi Yashiro (八城邦義) — drums"
+      ],
+      "factual_description": "Ginza Swing's exact event page lists Eiji Kitamura on clarinet for Thursday, October 29, 2026, joined by clarinetists Misako Kumakura and Atsushi Miyawaki, Kazuhide Takahama on piano and vocals, Yuzo Yamaguchi on bass, and Kuniyoshi Yashiro on drums. Doors are at 18:00, with sets at 19:00 and 20:30. The venue lists a ¥6,000 web advance ticket and ¥6,500 day-of price and requires two drinks plus one food order. General TicketPay sales are announced for September 15 at 12:00.",
+      "links": {
+        "official_event": "https://ginzaswing.jp/20261029-2/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 6000,
+          "maximum": 6500,
+          "source_url": "https://ginzaswing.jp/20261029-2/",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Eiji Kitamura & Teddy Wilson",
+          "title": "After You've Gone",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/after-youve-gone/1327742790"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Ginza Swing event page verifies the date, lineup, doors, both set times, official advance/day-of prices and September 15 general-sale timing. The page does not yet expose an exact event-specific TicketPay purchase destination, so official_tickets remains null. The exact Apple Music album destination is verified."
+      },
+      "sources": [
+        {
+          "url": "https://ginzaswing.jp/20261029-2/",
+          "publisher": "Ginza Swing",
+          "checked_on": "2026-09-02",
+          "note": "Exact primary venue event page verifies October 29, 2026; Eiji Kitamura, Misako Kumakura and Atsushi Miyawaki on clarinets; Kazuhide Takahama on piano/vocals; Yuzo Yamaguchi on bass; Kuniyoshi Yashiro on drums; 18:00 doors; 19:00 and 20:30 sets; ¥6,000 web advance and ¥6,500 day-of pricing; two-drink/one-food minimum; and September 15 at 12:00 as announced general-sale time."
+        },
+        {
+          "url": "https://www.eijikitamura.com/sp/profile.html",
+          "publisher": "Eiji Kitamura official website",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist profile verifies Kitamura's April 8, 1929 Tokyo birth, 1951 professional debut, 1957 Benny Goodman jam session, long Monterey Jazz Festival history and extensive recording career."
+        },
+        {
+          "url": "https://jpma-jazz.or.jp/concert/2209/220903_1/kitamuraeiji.html",
+          "publisher": "Japan Popular Music Association",
+          "checked_on": "2026-09-02",
+          "note": "Authoritative Japanese music-association profile documents Kitamura and Misako Kumakura's Clarinet Square project with Kazuhide Takahama, Yuzo Yamaguchi and Kuniyoshi Yashiro, establishing the ongoing intergenerational clarinet context behind this lineup."
+        },
+        {
+          "url": "https://clarinet-miyawaki.com/",
+          "publisher": "Atsushi Miyawaki official website",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist site identifies Atsushi Miyawaki and states that he currently performs with Eiji Kitamura at Ginza Swing about once a month, used here only to assess recurrence and avoid overstating scarcity."
+        },
+        {
+          "url": "https://music.apple.com/us/album/after-youve-gone/1327742790",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album destination for After You've Gone by Eiji Kitamura and Teddy Wilson."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authoritative-and-apple-sources",
+        "note": "Core performance, lineup, timing and price facts are verified directly from Ginza Swing's exact event page; artist history and recurrence context are supported by Kitamura's and Miyawaki's official sites and the Japan Popular Music Association. Repository searches for Eiji Kitamura, the proposed stable ID, October 29 and Ginza Swing found no existing canonical, curated or processed match before publication. Priority was assigned only after Stage 1 RADAR admission; recurrence at Ginza Swing was explicitly used to keep the event below the scarcity tiers."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the clarinet front line, not nostalgia. Kitamura, Kumakura and Miyawaki put three generations of Japanese jazz clarinet language in the same small-room conversation, backed by the piano-bass-drums core that has long surrounded Kitamura's swing work. The familiar vocabulary becomes unusually exposed: tone, breath, articulation and the differences between three players sharing the same instrument family are the point of the night.",
+          "trip_verdict": "If October 29 is open in Tokyo, actively make room for Ginza and build the evening around the three clarinets. Kitamura appears at the club more than once this season, so keep the wider Kanto itinerary flexible rather than treating this as a one-chance trip anchor.",
+          "listen_before": "Eiji Kitamura & Teddy Wilson — After You've Gone"
+        },
+        "es": {
+          "why_it_matters": "El gancho es el frente de clarinetes, no la nostalgia. Kitamura, Kumakura y Miyawaki ponen tres generaciones del clarinete de jazz japonés en una misma conversación de club, sostenidas por el núcleo de piano, bajo y batería que ha acompañado por años el swing de Kitamura. El vocabulario conocido queda inusualmente expuesto: el tono, la respiración, la articulación y las diferencias entre tres músicos que comparten la misma familia de instrumento son el centro de la noche.",
+          "trip_verdict": "Si el 29 de octubre está libre en Tokio, haría espacio para Ginza y armaría la noche alrededor de los tres clarinetes. Kitamura aparece más de una vez en el club durante la temporada, así que mantendría flexible el resto del itinerario por Kanto en lugar de tratar esta fecha como una oportunidad única para el viaje.",
+          "listen_before": "Eiji Kitamura & Teddy Wilson — After You've Gone"
+        }
+      }
+    }
+  ]
+}
