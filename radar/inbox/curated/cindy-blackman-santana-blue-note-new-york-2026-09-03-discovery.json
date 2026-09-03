@@ -1,0 +1,128 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "cindy-blackman-santana-blue-note-new-york-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research, grading, or publication. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE/Roppongi schedule sources, BODY&SOUL, current Yamamoto schedule traces, Space M&A, Jazz in Japan, and Japanese jazz schedule sources. The future Yamamoto dates surfaced in this pass were already represented in canonical/curated/processed intake, including the September 6 Kimiko Ito + Tsuyoshi Yamamoto BODY&SOUL appearance, so no duplicate Yamamoto record was created. Broader US-corridor research found Cindy Blackman Santana at Blue Note New York on December 4-6, 2026. Repository-wide searches for Cindy Blackman Santana, Coherence, the Blue Note engagement, and the proposed stable event ID returned no matching RADAR record before publication. Stage 1 admits the engagement for a specific performance context: Blackman Santana is leading her own drum-centered band in a three-night club run explicitly tied by her official tour page to the release of Coherence, a project built around jazz, rock, fusion, spirituality, rhythmic interplay and improvisation. The editorial case is her instrumental identity and the new-album live context, not Blue Note prestige or fame alone. Stage 2 assigns A+: this is strong enough to actively make room for within a New York trip because the drummer is the organizing musical voice and the run is framed as a Coherence release celebration. Scarcity was challenged explicitly: six sets across three nights and no verified farewell, final opportunity, premiere-only lineup, or otherwise nonrecurring fact mean A+ still captures the recommendation; S is not warranted. Recent/current same-day intake remains centered on A and A+ with scarcity tiers reserved for stronger documented recurrence barriers; this batch adds A 0 / A+ 1 / S 0 / S+ 0 without using distribution as a quota.",
+  "events": [
+    {
+      "id": "cindy-blackman-santana-blue-note-new-york-2026-12-04",
+      "artist": "Cindy Blackman Santana",
+      "subtitle": "Coherence release celebration — three-night Blue Note New York run",
+      "dates": {
+        "start": "2026-12-04",
+        "end": "2026-12-06"
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Drum-led jazz-rock fusion / new-album live context",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Rock",
+        "Funk"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Fusion / Prog",
+        "Groove",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Cindy Blackman Santana — drums, bandleader; accompanying personnel are not yet confirmed on the primary event sources"
+      ],
+      "factual_description": "Blue Note New York presents Cindy Blackman Santana for three nights, Friday through Sunday, December 4-6, 2026, with two sets each night at 20:00 and 22:30. The venue lists doors at 18:00 for the early set and 22:00 for the late set and states that Blue Note and TicketWeb are its authorized ticket sources. The Blue Note page describes Blackman Santana as a drummer, composer and bandleader whose solo work bridges jazz, rock, funk and improvisational music and identifies Coherence as her latest album. Blackman Santana's official tour page explicitly describes the Blue Note dates as a celebration of the release of Coherence and currently lists Aurélien Budynek, Benny Rietveld, Marc Cary and Emilio Modeste under a TBA label; because that presentation is not an unambiguous confirmation of personnel, those names are not asserted as the verified event lineup here. Mack Avenue Records confirms Coherence was released July 31, 2026 and describes it as combining jazz, rock, fusion and spirituality. The venue's $20 figure is a per-person food-and-beverage minimum, not a ticket face value, so no ticket price is inferred from it.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/cindy-blackman-santana/",
+        "official_tickets": "https://www.ticketweb.com/event/cindy-blackman-santana-blue-note-jazz-club-tickets/15031953?pl=bluenoteny"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketweb.com/event/cindy-blackman-santana-blue-note-jazz-club-tickets/15031953?pl=bluenoteny",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Cindy Blackman Santana",
+          "title": "Coherence",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/coherence/6769540997"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "confirmed_accompanying_personnel",
+          "face_value_ticket_price"
+        ],
+        "note": "Blue Note New York verifies all six set times, venue identity and authorized TicketWeb purchase links; Cindy Blackman Santana's official tour page verifies that the engagement celebrates Coherence. The current artist tour page presents four possible accompanying musicians under a TBA label, so they are not promoted to confirmed lineup. No retrievable face-value ticket price is asserted; the venue's $20 amount is explicitly a per-person food-and-beverage minimum. Apple Music provides the exact Coherence album destination."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/cindy-blackman-santana/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue page verifies December 4-6, 2026; two sets nightly at 20:00 and 22:30; early/late door times; Blue Note Jazz Club in New York; authorized TicketWeb purchase links; and identifies Coherence as Blackman Santana's latest album."
+        },
+        {
+          "url": "https://cindyblackmansantana.com/tour",
+          "publisher": "Cindy Blackman Santana",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist tour page verifies the December 4, 5 and 6 Blue Note NYC dates and explicitly frames them as a celebration of the release of Coherence. It currently places Aurélien Budynek, Benny Rietveld, Marc Cary and Emilio Modeste after a TBA label, so those names are treated as tentative rather than confirmed event personnel."
+        },
+        {
+          "url": "https://mackavenue.com/products/cindy-blackman-santana-coherence-vinyl",
+          "publisher": "Mack Avenue Music Group",
+          "checked_on": "2026-09-03",
+          "note": "Primary label page verifies Coherence, its July 31, 2026 release date, and the album's jazz/rock/fusion/spirituality concept. Album guests are not assumed to appear at the Blue Note engagement."
+        },
+        {
+          "url": "https://music.apple.com/us/album/coherence/6769540997",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies Cindy Blackman Santana's Coherence, released July 31, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-ticket-label-and-apple-sources",
+        "note": "Core event dates, set times and venue are verified from Blue Note New York; the new-album live context is verified by Cindy Blackman Santana's own tour page; Mack Avenue verifies the album concept and release; and Apple Music verifies the exact listening destination. Repository-wide searches found no existing Cindy Blackman Santana / Coherence Blue Note New York RADAR record before publication. Priority A+ was assigned only after Stage 1 admission: a drummer-led release celebration at this scale is actively worth making room for, while six sets across three nights and the absence of a verified farewell, final opportunity or singular one-off lineup keep the event below the S scarcity threshold."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The point is not Santana adjacency or a famous room; it is hearing a drummer make rhythm the organizing voice of a band under her own name. Coherence pushes jazz, fusion, rock and spiritual language through Blackman Santana's sense of pulse and interaction, and these Blue Note dates are explicitly tied to bringing that new record into a live setting. That makes the engagement a strong instrumental-identity stop rather than another all-star booking.",
+          "trip_verdict": "If a December New York run is realistic, I would pick one of the six sets and build that evening around the Blue Note. The three-night spread gives enough flexibility that the exact date should fit the trip rather than dictate it.",
+          "listen_before": "Coherence — Cindy Blackman Santana"
+        },
+        "es": {
+          "why_it_matters": "El punto no es la cercanía con Santana ni el prestigio del club; es escuchar a una baterista convertir el ritmo en la voz que organiza a una banda bajo su propio nombre. Coherence pasa por jazz, fusión, rock y una veta espiritual desde el pulso y la interacción de Blackman Santana, y estas fechas están planteadas explícitamente como la puesta en vivo de ese disco nuevo. Eso le da una razón instrumental muy concreta para entrar al RADAR.",
+          "trip_verdict": "Si diciembre ya permite una subida a Nueva York, escogería uno de los seis sets y armaría esa noche alrededor del Blue Note. Las tres noches dan suficiente flexibilidad para que la fecha se acomode al viaje, no para que el viaje entero dependa de una función específica.",
+          "listen_before": "Coherence — Cindy Blackman Santana"
+        }
+      }
+    }
+  ]
+}
