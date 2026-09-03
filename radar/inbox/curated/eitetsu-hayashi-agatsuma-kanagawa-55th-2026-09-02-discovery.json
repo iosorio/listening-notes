@@ -1,0 +1,230 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "eitetsu-hayashi-agatsuma-kanagawa-55th-2026-09-02-discovery",
+  "checked_on": "2026-09-02",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; the verifiable Yamamoto dates surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. Stage 1 admits these two Kanagawa performances because Eitetsu Hayashi's 55th-performance-year program combines a major living taiko innovator with his Fu-un no Kai lineage, special guest Hiromitsu Agatsuma on Tsugaru shamisen, and a newly commissioned work listed by the presenting foundation. That concrete lineage, instrumental identity, anniversary context, and commission clear RADAR admission independently of fame. Stage 2 assigns A+ to both: actively make room if Greater Tokyo/Kanto is in play. Scarcity was challenged explicitly: the same core program has two confirmed Kanagawa performances, and neither is billed as a farewell, final appearance, or one-time-only last chance. The 55th anniversary and lineup are unusually compelling, but A+ still captures the recommendation without stretching S. Recent/current intake remains centered on A and A+ with scarcity tiers reserved for demonstrably harder-to-repeat moments; this batch adds A 0 / A+ 2 / S 0 / S+ 0 without treating distribution as a quota.",
+  "events": [
+    {
+      "id": "eitetsu-hayashi-agatsuma-yokosuka-2026-10-09",
+      "artist": "Eitetsu Hayashi with EITETSU FU-UN no KAI & Hiromitsu Agatsuma",
+      "subtitle": "55th-performance-year concert with taiko lineage, Tsugaru shamisen and a Kanagawa commission",
+      "dates": {
+        "start": "2026-10-09",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "yokosuka-arts-theatre-kanagawa",
+        "name": "Yokosuka Arts Theatre",
+        "city": "Yokosuka",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Kanto traditional-instrument innovation / anniversary",
+      "genres": [
+        "Taiko",
+        "Tsugaru shamisen",
+        "Japanese traditional / contemporary"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters"
+      ],
+      "lineup": [
+        "Eitetsu Hayashi (林 英哲) — taiko",
+        "EITETSU FU-UN no KAI (英哲風雲の会) — taiko ensemble: Hideichiro Ueda (上田 秀一郎), Mikita Hase (はせ みきた), Makoto Tashiro (田代 誠), Yu Tsuji (辻󠄀 祐)",
+        "Hiromitsu Agatsuma (上妻 宏光) — Tsugaru shamisen, special guest"
+      ],
+      "factual_description": "Kanagawa Kenmin Hall's official presentation page lists Eitetsu Hayashi's 55th-performance-year concert in Yokosuka on Friday, October 9, 2026, at Yokosuka Arts Theatre, with doors at 18:00 and the performance at 18:30. The billed performers are Hayashi on taiko; EITETSU FU-UN no KAI members Hideichiro Ueda, Mikita Hase, Makoto Tashiro and Yu Tsuji on taiko; and special guest Hiromitsu Agatsuma on Tsugaru shamisen. The listed program includes Agatsuma's NIPPON and YOSARE plus a new work commissioned by Kanagawa Kenmin Hall. Reserved tickets are listed at ¥4,500 for S seats and ¥3,500 for A seats.",
+      "links": {
+        "official_event": "https://www.kanagawa-kenminhall.com/d/eitetsu_yokosuka",
+        "official_tickets": "https://www.s2.e-get.jp/kaat/pt/%26s%3D26x09YO"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3500,
+          "maximum": 4500,
+          "source_url": "https://www.kanagawa-kenminhall.com/d/eitetsu_yokosuka",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Eitetsu Hayashi & EITETSU FU-UN no KAI",
+          "title": "Eitetsu the Taiei",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/eitetsu-the-taiei/1824411023"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The presenting foundation's exact event page verifies date, doors/showtime, venue, lineup, program highlights, prices and the authorized Ticket Kanagawa purchase destination. The exact Apple Music album page for Eitetsu the Taiei is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.kanagawa-kenminhall.com/d/eitetsu_yokosuka",
+          "publisher": "Kanagawa Kenmin Hall / Kanagawa Arts Foundation",
+          "checked_on": "2026-09-02",
+          "note": "Primary presenter page confirming October 9, 2026; 18:00 doors/18:30 show; Yokosuka Arts Theatre; full taiko lineup and Agatsuma as special guest; program highlights including a commissioned new work; ¥3,500-¥4,500 reserved tickets; and authorized purchase links."
+        },
+        {
+          "url": "https://agatsuma.tv/contents/1063346?tag=all",
+          "publisher": "Hiromitsu Agatsuma Official Web Site",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist page corroborating the two-performance 55th-anniversary program in Yokosuka and Odawara with Hiromitsu Agatsuma."
+        },
+        {
+          "url": "https://music.apple.com/us/album/eitetsu-the-taiei/1824411023",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page for Eitetsu the Taiei by Eitetsu Hayashi, EITETSU FU-UN no KAI, Dozan Fujiwara and Fujisha Takao."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-apple-sources",
+        "note": "Core event, ticket, venue, lineup and program facts were verified from the presenting foundation and Agatsuma's official site; listening enrichment was verified on Apple Music. Repository searches for the proposed stable ID, Eitetsu/Hayashi plus Agatsuma, the Japanese billing, and Yokosuka Arts Theatre on October 9 returned no canonical/curated/processed match before publication. Priority was assigned only after Stage 1 admission; the existence of a second confirmed performance was used explicitly to challenge S-level scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a lineage-and-sound event, not a generic anniversary. Hayashi marks 55 years of performance alongside Fu-un no Kai, the taiko ensemble formed around his work, while Agatsuma brings the cutting attack and pitch-bending language of Tsugaru shamisen into the same frame. A new Kanagawa-commissioned work keeps the program pointed toward transmission and expansion rather than nostalgia alone.",
+          "trip_verdict": "If Greater Tokyo/Kanto is in play on October 9, actively make room for Yokosuka and let the theatre anchor the evening. Because the same core program has a second confirmed Kanagawa performance in Odawara on November 14, choose the date that fits the trip rather than bending the entire itinerary around one of the two.",
+          "listen_before": "Eitetsu Hayashi & EITETSU FU-UN no KAI — Eitetsu the Taiei"
+        },
+        "es": {
+          "why_it_matters": "Aquí importan el linaje y el sonido, no un aniversario genérico. Hayashi marca 55 años de actividad junto a Fu-un no Kai, el ensamble de taiko formado alrededor de su trabajo, mientras Agatsuma mete en el mismo marco el ataque cortante y la flexión de tono del Tsugaru shamisen. Una obra nueva encargada por Kanagawa mantiene el programa mirando a la transmisión y la expansión, no sólo a la nostalgia.",
+          "trip_verdict": "Si Greater Tokyo/Kanto está en juego el 9 de octubre, le haría espacio activamente a Yokosuka y dejaría que el teatro organice la noche. Como el mismo núcleo de programa tiene una segunda función confirmada en Kanagawa, en Odawara el 14 de noviembre, escogería la fecha que mejor encaje en el viaje en vez de doblar todo el itinerario alrededor de una sola.",
+          "listen_before": "Eitetsu Hayashi & EITETSU FU-UN no KAI — Eitetsu the Taiei"
+        }
+      }
+    },
+    {
+      "id": "eitetsu-hayashi-agatsuma-odawara-2026-11-14",
+      "artist": "Eitetsu Hayashi with EITETSU FU-UN no KAI & Hiromitsu Agatsuma",
+      "subtitle": "55th-performance-year concert in Hayashi's Odawara context with taiko lineage and Tsugaru shamisen",
+      "dates": {
+        "start": "2026-11-14",
+        "end": null
+      },
+      "showtimes": [
+        "14:30"
+      ],
+      "venue": {
+        "id": "odawara-sannomaru-hall-kanagawa",
+        "name": "Odawara Sannomaru Hall — Grand Hall",
+        "city": "Odawara",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Kanto traditional-instrument innovation / anniversary",
+      "genres": [
+        "Taiko",
+        "Tsugaru shamisen",
+        "Japanese traditional / contemporary"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters"
+      ],
+      "lineup": [
+        "Eitetsu Hayashi (林 英哲) — taiko",
+        "EITETSU FU-UN no KAI (英哲風雲の会) — taiko ensemble: Hideichiro Ueda (上田 秀一郎), Mikita Hase (はせ みきた), Makoto Tashiro (田代 誠), Yu Tsuji (辻󠄀 祐)",
+        "Hiromitsu Agatsuma (上妻 宏光) — Tsugaru shamisen, special guest"
+      ],
+      "factual_description": "Kanagawa Kenmin Hall's official presentation page lists the Odawara performance of Eitetsu Hayashi's 55th-performance-year concert on Saturday, November 14, 2026, at Odawara Sannomaru Hall's Grand Hall, with doors at 14:00 and the performance at 14:30. The page identifies Hayashi as an Odawara Furusato Ambassador and bills him on taiko with EITETSU FU-UN no KAI members Hideichiro Ueda, Mikita Hase, Makoto Tashiro and Yu Tsuji, plus special guest Hiromitsu Agatsuma on Tsugaru shamisen. The listed program includes Agatsuma's NIPPON and YOSARE plus a new work commissioned by Kanagawa Kenmin Hall. Reserved tickets are ¥4,500 for S seats and ¥3,500 for A seats; U24 tickets are half price for each seat class. Odawara Sannomaru Hall also lists the performance as part of its fifth-anniversary cultural program.",
+      "links": {
+        "official_event": "https://www.kanagawa-kenminhall.com/d/eitetsu_odawara",
+        "official_tickets": "https://www.s2.e-get.jp/kaat/pt/%26s%3D26y14OS"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 1750,
+          "maximum": 4500,
+          "source_url": "https://www.kanagawa-kenminhall.com/d/eitetsu_odawara",
+          "checked_on": "2026-09-02"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Eitetsu Hayashi & EITETSU FU-UN no KAI",
+          "title": "Eitetsu the Taiei",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/eitetsu-the-taiei/1824411023"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The presenting foundation's exact event page verifies date, doors/showtime, venue, lineup, program highlights, standard and U24 prices, and the authorized Ticket Kanagawa purchase destination. The exact Apple Music album page for Eitetsu the Taiei is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.kanagawa-kenminhall.com/d/eitetsu_odawara",
+          "publisher": "Kanagawa Kenmin Hall / Kanagawa Arts Foundation",
+          "checked_on": "2026-09-02",
+          "note": "Primary presenter page confirming November 14, 2026; 14:00 doors/14:30 show; Odawara Sannomaru Hall Grand Hall; Hayashi's Odawara Furusato Ambassador identity; full taiko lineup and Agatsuma as special guest; commissioned new work; standard/U24 prices; and purchase links."
+        },
+        {
+          "url": "https://ooo-hall.jp/event/20261113.html",
+          "publisher": "Odawara Sannomaru Hall",
+          "checked_on": "2026-09-02",
+          "note": "Primary venue page corroborating the November 14 date, 14:30 start, Grand Hall, fifth-anniversary cultural-program framing, Hayashi, Fu-un no Kai, Agatsuma and ticket prices."
+        },
+        {
+          "url": "https://agatsuma.tv/contents/1063346?tag=all",
+          "publisher": "Hiromitsu Agatsuma Official Web Site",
+          "checked_on": "2026-09-02",
+          "note": "Primary artist page corroborating the two-performance 55th-anniversary program in Yokosuka and Odawara with Hiromitsu Agatsuma."
+        },
+        {
+          "url": "https://music.apple.com/us/album/eitetsu-the-taiei/1824411023",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-02",
+          "note": "Exact Apple Music album page for Eitetsu the Taiei by Eitetsu Hayashi, EITETSU FU-UN no KAI, Dozan Fujiwara and Fujisha Takao."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-apple-sources",
+        "note": "Core event, ticket, venue, lineup and program facts were verified from the presenting foundation, Odawara Sannomaru Hall and Agatsuma's official site; listening enrichment was verified on Apple Music. Repository searches for the proposed stable ID, Eitetsu/Hayashi plus Agatsuma, the Japanese billing, and the Odawara November 14 performance returned no canonical/curated/processed match before publication. Priority was assigned only after Stage 1 admission; the existence of the earlier Yokosuka performance was used explicitly to challenge S-level scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The Odawara date adds local resonance to an already strong instrumental idea. Hayashi, identified here as an Odawara Furusato Ambassador, marks 55 years of performance with Fu-un no Kai, the taiko lineage built around his work, while Agatsuma answers that percussion architecture with Tsugaru shamisen. The hall's fifth-anniversary frame and a new Kanagawa-commissioned work make the concert feel like a living statement about continuity and reinvention rather than a museum-piece retrospective.",
+          "trip_verdict": "If the western side of Kanto or Kanagawa is already part of the trip, actively make room for the Odawara afternoon and pair it naturally with the city. From central Tokyo it is a more deliberate outing, and the October 9 Yokosuka performance offers the same core program if that geography or date fits better.",
+          "listen_before": "Eitetsu Hayashi & EITETSU FU-UN no KAI — Eitetsu the Taiei"
+        },
+        "es": {
+          "why_it_matters": "La fecha de Odawara añade una resonancia local a una idea instrumental que ya es fuerte. Hayashi, presentado aquí como Furusato Ambassador de Odawara, marca 55 años de actividad con Fu-un no Kai, el linaje de taiko construido alrededor de su trabajo, mientras Agatsuma responde a esa arquitectura de percusión con Tsugaru shamisen. El marco del quinto aniversario del auditorio y una obra nueva encargada por Kanagawa hacen que el concierto funcione como una declaración viva de continuidad y reinvención, no como una retrospectiva de museo.",
+          "trip_verdict": "Si el lado occidental de Kanto o Kanagawa ya forma parte del viaje, le haría espacio activamente a la tarde en Odawara y la combinaría naturalmente con la ciudad. Desde el centro de Tokio exige una salida más deliberada, y la función de Yokosuka del 9 de octubre ofrece el mismo núcleo de programa si esa geografía o fecha encaja mejor.",
+          "listen_before": "Eitetsu Hayashi & EITETSU FU-UN no KAI — Eitetsu the Taiei"
+        }
+      }
+    }
+  ]
+}
