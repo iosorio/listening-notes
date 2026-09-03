@@ -1,0 +1,111 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "haruomi-hosono-yours-sincerely-ryogoku-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; no new verified, unrepresented Yamamoto appearance was found. Broader Greater Tokyo/Kanto research found the newly announced Haruomi Hosono The Yours Sincerely Tour in Tokyo at Ryogoku Kokugikan on December 7. Repository-wide searches for the exact event title, December 7 date, Ryogoku Kokugikan, and the proposed stable ID returned no matching canonical, curated, or processed RADAR record before publication. Stage 1 admits the performance for a concrete event-specific reason: it is the Tokyo culmination of Hosono's new Yours Sincerely album cycle after his September 2026 New York and Los Angeles tour dates, presented as a one-night solo-billed concert at Ryogoku Kokugikan and described in the announcement as the project's largest domestic highlight. The case is the living-master context joined to a new-work cycle and a specific large-scale Tokyo return, not Hosono's fame alone. Stage 2 assigns A+. The current rubric calls for actively making room for an unusually strong artist, setting, or cultural connection, which this clearly satisfies. Scarcity was explicitly challenged before finalizing: Hosono performed a Tokyo prelude show on September 2 and remains actively performing, while no primary or authoritative source found in this pass labels December 7 a farewell, final performance, or otherwise non-repeatable event. A+ therefore captures the recommendation without turning a one-night album-cycle highlight into an S-tier protect-the-night claim. The recent/current intake was rechecked as a sanity test; this batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not increase the deliberately rare S/S+ tiers.",
+  "events": [
+    {
+      "id": "haruomi-hosono-yours-sincerely-ryogoku-kokugikan-tokyo-2026-12-07",
+      "artist": "Haruomi Hosono",
+      "subtitle": "The Yours Sincerely Tour in Tokyo",
+      "dates": {
+        "start": "2026-12-07",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "ryogoku-kokugikan-sumida-tokyo",
+        "name": "Ryogoku Kokugikan",
+        "city": "Sumida, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese master / new-album tour / cross-genre pop and experimental music",
+      "genres": [
+        "Alternative",
+        "Art pop",
+        "Electronic",
+        "Folk"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters"
+      ],
+      "lineup": [],
+      "factual_description": "Haruomi Hosono will present Haruomi Hosono The Yours Sincerely Tour in Tokyo at Ryogoku Kokugikan in Sumida, Tokyo, on Monday, December 7, 2026. The announced schedule is 17:30 doors and an 18:30 start. Current-day authoritative announcement coverage describes the concert as the largest domestic highlight of the Yours Sincerely album project, following the album's September 11 worldwide release and Hosono's September 16 Radio City Music Hall and September 20 Greek Theatre dates. The authorized Lawson Ticket special landing supplied with the announcement states that the earliest official presale is scheduled to begin September 3 at 19:00 JST; at the time of this check, before that opening time, the destination resolves to Lawson's Haruomi Hosono artist landing rather than live event inventory. No supporting personnel or face-price information for the December 7 concert was announced in the verified sources checked for this batch, so none is inferred.",
+      "links": {
+        "official_event": "https://l-tike.com/haruomihosono/",
+        "official_tickets": "https://l-tike.com/haruomihosono/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Haruomi Hosono",
+          "title": "Yours Sincerely",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/yours-sincerely/6769082566"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Date, venue, doors/start time, album-cycle framing and the announced earliest presale time are verified from multiple current-day authoritative reports carrying the official concert announcement. Lawson Ticket supplies the authorized special landing specifically linked for this announcement; before the announced 19:00 JST presale opening it resolves to Hosono's Lawson artist landing, so no claim is made that ticket inventory is already live. Apple Music supplies an exact pre-release Yours Sincerely album destination. Supporting personnel and face prices are not yet announced and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://hypebeast.com/jp/2026/9/haruomi-hosono-the-yours-sincerely-tour-in-tokyo-info",
+          "publisher": "Hypebeast Japan",
+          "checked_on": "2026-09-03",
+          "note": "Current-day event announcement verifies the Haruomi Hosono The Yours Sincerely Tour in Tokyo title, December 7 date, Ryogoku Kokugikan address, 17:30 doors / 18:30 start, September 3 19:00 JST earliest official presale, authorized Lawson special site, and framing as the largest domestic highlight of the album project after the US dates."
+        },
+        {
+          "url": "https://www.cdjournal.com/news/hosono-haruomi/129343",
+          "publisher": "CDJournal",
+          "checked_on": "2026-09-03",
+          "note": "Current-day report independently verifies December 7, 2026 at Ryogoku Kokugikan, 17:30 doors / 18:30 start, the September 3 19:00 JST earliest official presale, and the September New York and Los Angeles Yours Sincerely tour context."
+        },
+        {
+          "url": "https://l-tike.com/haruomihosono/",
+          "publisher": "Lawson Ticket",
+          "checked_on": "2026-09-03",
+          "note": "Authorized special landing linked from the concert announcement. At check time before the announced 19:00 JST presale opening, it resolves to Lawson Ticket's Haruomi Hosono artist page rather than live December 7 ticket inventory."
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/HaruomiHosono/info/585890",
+          "publisher": "Sony Music Japan",
+          "checked_on": "2026-09-03",
+          "note": "Official artist-label source verifies the current Yours Sincerely release cycle and the album's September 2026 rollout."
+        },
+        {
+          "url": "https://music.apple.com/us/album/yours-sincerely/6769082566",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music pre-release album destination verifies Haruomi Hosono's Yours Sincerely with a September 11, 2026 release date."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authoritative-authorized-ticket-and-apple-sources",
+        "note": "Core concert facts are verified from multiple current-day authoritative reports carrying the official announcement, with Lawson Ticket supplying the authorized special landing and Sony Music/Apple Music verifying the current album cycle and exact listening destination. Repository-wide searches for the exact event title, December 7 date, Ryogoku Kokugikan and the proposed stable event ID found no matching canonical, curated or processed RADAR record before publication. Priority A+ was assigned only after Stage 1 admission. The one-night Ryogoku setting and new-work culmination warrant actively making room, but Hosono's September 2 Tokyo prelude performance and ongoing live activity mean the available evidence does not establish the kind of farewell, final opportunity, or demonstrably unlikely-to-recur context required for S."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Hosono's importance is not the reason to list every date he plays. This one has a specific shape: a new record arriving after decades of moving between folk, electronics, ambient music and pop, a two-city US run built around it, then a single large Tokyo statement at Ryogoku. The interest is hearing a living architect of several Japanese musical lineages use a new album rather than a retrospective as the center of gravity, while the older songbook remains close enough to make the night a conversation across his own history.",
+          "trip_verdict": "If Greater Tokyo is in play on December 7, I would actively make room for Ryogoku and let the concert anchor the evening. I would not reorganize an entire Japan itinerary around the date on scarcity grounds alone, because Hosono is still performing and the current announcement does not present this as a farewell or final opportunity.",
+          "listen_before": "Yours Sincerely — Haruomi Hosono"
+        },
+        "es": {
+          "why_it_matters": "La importancia histórica de Hosono no basta para meter al RADAR cada fecha que toque. Ésta sí tiene una forma concreta: un disco nuevo después de décadas cruzando folk, electrónica, ambient y pop; una gira estadounidense de dos ciudades construida alrededor del álbum; y después una sola declaración grande en Tokio, en Ryogoku. Lo interesante es escuchar a uno de los arquitectos vivos de varias genealogías de la música japonesa poner el peso de la noche en obra nueva y no en una retrospectiva, con el cancionero anterior suficientemente cerca como para que el concierto dialogue con toda su propia historia.",
+          "trip_verdict": "Si Greater Tokyo está en juego el 7 de diciembre, sí haría espacio activamente para Ryogoku y dejaría que el concierto ancle la noche. No reorganizaría todo un viaje a Japón sólo por escasez: Hosono sigue tocando y el anuncio actual no presenta esta fecha como despedida ni como última oportunidad.",
+          "listen_before": "Yours Sincerely — Haruomi Hosono"
+        }
+      }
+    }
+  ]
+}
