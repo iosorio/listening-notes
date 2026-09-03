@@ -1,0 +1,126 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "mario-wellmann-blues-alley-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed after rereading the current docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and Japanese-jazz calendars; no new verified Yamamoto appearance absent from current canonical/curated/processed intake was found. Repository-wide searches for Mario Wellmann, Chilean Jazz Series on 2026-09-15, and the proposed stable event ID returned no existing RADAR match. Stage 1 admits Mario Wellmann Trio at Blues Alley for a performance-specific reason: the date is part of Chilean Jazz Week in partnership with the Embassy of Chile and presents a first local hearing of Ecos del Sur only weeks after recording, a Fondo de la Música-supported debut project joining contemporary jazz language to rhythmic and melodic traditions from Chile and Latin America. Stage 2 assigns A. The concrete cultural-exchange and new-repertoire context makes the date useful RADAR knowledge and worth catching locally if convenient, while an international multi-city album tour and the absence of a premiere, farewell, rare one-off lineup, or other scarcity fact do not warrant active-priority or scarcity tiers. Recent/current intake already includes a mix of A and A+ recommendations with protected S/S+ cases; adding an A strengthens the intended broad base rather than inflating higher tiers.",
+  "events": [
+    {
+      "id": "mario-wellmann-ecos-del-sur-blues-alley-washington-dc-2026-09-15",
+      "artist": "Mario Wellmann Trio",
+      "subtitle": "Ecos del Sur — Chilean Jazz Series",
+      "dates": {
+        "start": "2026-09-15",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Chilean jazz / Album pre-release / Cultural exchange",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Latin jazz",
+        "South American jazz"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Mario Wellmann — guitar",
+        "Mario Wellmann Trio — additional personnel not named on the current primary Blues Alley event page"
+      ],
+      "factual_description": "Blues Alley's authorized InstantSeats pages present Mario Wellmann Trio on Tuesday, September 15, 2026 for 7:00 PM and 9:30 PM sets, each at a $30 face-value general-admission price plus a $7 fee. The event is part of the Chilean Jazz Series / Chilean Jazz Week and is co-presented with the Embassy of Chile. The program centers Ecos del Sur, Wellmann's debut album as a leader, freshly recorded in New York with engineer Joseph Branciforte and funded by Chile's Fondo de la Música. Blues Alley describes the project as synthesizing contemporary jazz language with rhythmic and melodic traditions from Chile and Latin America and frames the Washington date as an early hearing only weeks after the recording sessions, ahead of a late-2026 release. The current primary event page identifies Wellmann and the trio billing but does not name the other two performers, so their identities are left unresolved rather than inferred from other tour dates.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventid=821353AB-056D-3E11-FA3028B32F0C264E&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=821353AB-056D-3E11-FA3028B32F0C264E&fuseaction=buy.event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 30,
+          "maximum": 30,
+          "source_url": "https://www.instantseats.com/index.cfm?eventID=821353AB-056D-3E11-FA3028B32F0C264E&fuseaction=buy.event",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "trio_personnel",
+          "apple_music"
+        ],
+        "note": "Blues Alley's authorized pages verify both set times, face-value price, venue, Chilean Jazz Week / Embassy of Chile framing and Ecos del Sur context. Mario Wellmann's official biography independently verifies the 2026 Fondo de la Música award and debut-album project. The current Blues Alley page does not name the two additional trio members, and Ecos del Sur is scheduled for release later in 2026, so no personnel names or Apple Music destination are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventid=821353AB-056D-3E11-FA3028B32F0C264E&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-03",
+          "note": "Authorized primary 7:00 PM event page verifies the billing, September 15 date, $30 face value plus $7 fee, Blues Alley address, Ecos del Sur pre-release context, Fondo de la Música support, Chilean/Latin musical frame, and Embassy of Chile co-presentation."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=821353AB-056D-3E11-FA3028B32F0C264E&fuseaction=buy.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-03",
+          "note": "Authorized first-set purchase destination verifies Tuesday, September 15 at 7:00 PM and $30 general admission plus $7 fee."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventid=821354E8-ACD8-BEC7-88D412260FDE0BED&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-03",
+          "note": "Authorized primary second-set event page independently verifies the same billing on September 15 at 9:30 PM, with the same project and Embassy of Chile context."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=821354E8-ACD8-BEC7-88D412260FDE0BED&fuseaction=buy.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-03",
+          "note": "Authorized second-set purchase destination verifies Tuesday, September 15 at 9:30 PM and $30 general admission plus $7 fee."
+        },
+        {
+          "url": "https://www.mariowellmann.com/about",
+          "publisher": "Mario Wellmann official site",
+          "checked_on": "2026-09-03",
+          "note": "Artist-primary biography independently verifies Wellmann's Chilean identity, contemporary-jazz practice, 2026 Fondo de la Música award, debut-album project in New York and recording with Joseph Branciforte."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-artist-and-authorized-ticket-sources",
+        "note": "Core event facts, both set times, face-value ticket price, program frame and Embassy of Chile co-presentation are verified from Blues Alley's authorized InstantSeats pages; artist background and the public-funding/debut-album context are independently corroborated by Mario Wellmann's official site. Repository searches found no current canonical, curated or processed match by artist/date or stable ID before publication. Priority was assigned only after Stage 1 admission. The A recommendation reflects a specific new-repertoire and Chile-DC cultural-exchange reason without claiming scarcity that the sources do not establish."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Ecos del Sur gives this club date a real center: Wellmann is bringing newly recorded music shaped by the landscapes and musical memory of Chile into a small Washington room only weeks after the sessions, with Chilean Jazz Week and the Embassy of Chile making the cultural exchange part of the performance rather than background branding. The attraction is the guitar-led meeting of contemporary jazz language with Chilean and broader Latin American rhythmic and melodic ideas at the moment the project is becoming a record.",
+          "trip_verdict": "For the DMV, this is exactly the kind of local discovery worth using an open Tuesday for. Pick whichever Blues Alley set fits; I would not displace a harder-to-replace night or build regional travel around it.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Ecos del Sur le da un centro claro a esta fecha: Wellmann trae a una sala pequeña de Washington música recién grabada, nacida de los paisajes y la memoria musical del sur de Chile, apenas unas semanas después de las sesiones. Chilean Jazz Week y la copresentación de la Embajada de Chile vuelven el intercambio cultural parte del concierto y no simple contexto. Lo interesante es escuchar, todavía en etapa de estreno público, cómo la guitarra y el lenguaje del jazz contemporáneo se cruzan con ideas rítmicas y melódicas chilenas y latinoamericanas mientras el proyecto se convierte en disco.",
+          "trip_verdict": "Desde el DMV, es una buena fecha para aprovechar un martes libre y escoger el set de Blues Alley que mejor embone. No movería una noche más difícil de reemplazar ni armaría un viaje regional alrededor de ella.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
