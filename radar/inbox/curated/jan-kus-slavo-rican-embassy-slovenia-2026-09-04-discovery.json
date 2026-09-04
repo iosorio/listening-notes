@@ -1,0 +1,107 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jan-kus-slavo-rican-embassy-slovenia-2026-09-04-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule sources, and credible Japanese jazz listings produced no new unrepresented Yamamoto performance; a newly surfaced October 3 Kawasaki Shimin Plaza Yamamoto appearance was confirmed already present in processed intake and canonical. Broader corridor research found this unrepresented September 30 DC Jazz Festival embassy concert. Stage 1 admission clears because the specific live setting reinforces the ensemble's South Slavic/Balkan-Caribbean musical premise: the DC Jazz Festival presents Jan Kus and Slavo Rican Assembly at the Embassy of the Republic of Slovenia, with the Slovenian ambassador and EU delegation explicitly part of the hosting context. Stage 2 is A. The event is worth RADAR and worth attending if convenient locally, but the available evidence does not support active schedule reprioritization: the project is active, had another Washington appearance recently, and no premiere, farewell, rare one-off lineup, or other scarcity claim is documented. Recent curated intake is visibly A+-heavy, so the A judgment was challenged rather than mechanically accepted; it remains A because the event-specific behavioral recommendation is 'attend if convenient,' not to force a distribution. No S/S+ priority-review gate is invoked. This automation performed its own editorial review and does not claim independent Codex or human review.",
+  "events": [
+    {
+      "id": "jan-kus-slavo-rican-embassy-slovenia-dc-2026-09-30",
+      "artist": "Jan Kus & Slavo Rican Assembly",
+      "subtitle": "DC Jazz Festival concert and reception at the Embassy of Slovenia",
+      "dates": {
+        "start": "2026-09-30",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "embassy-of-slovenia-washington-dc",
+        "name": "Embassy of the Republic of Slovenia",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Balkan-Caribbean / Jazz / Cultural exchange",
+      "genres": [
+        "Jazz",
+        "Balkan folk",
+        "Caribbean music",
+        "World fusion"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Cross-genre",
+        "Groove",
+        "DMV context"
+      ],
+      "lineup": [
+        "Jan Kus — saxophone, leader",
+        "Slavo Rican Assembly"
+      ],
+      "factual_description": "The DC Jazz Festival presents Jan Kus and Slavo Rican Assembly at the Embassy of the Republic of Slovenia in Washington, DC on Wednesday, September 30, 2026. The event runs from 6:30 PM to 9:00 PM: doors open at 6:30 PM, the program begins at 7:00 PM, and a reception follows at 8:00 PM. The presenter describes Kus as the founder and leader of Slavo Rican Assembly and the project as a blend of South Slavic/Balkan and Caribbean folk traditions. The event is hosted in conjunction with the Ambassador of the Republic of Slovenia to the United States and the Delegation of the European Union to the United States. Registration and ID are required under embassy security protocol, the RSVP is non-transferable, and the listed dress code is business or cocktail attire. No ticket price is stated on the official event page. The presenter bio names musicians associated with the ensemble, but it does not explicitly confirm the individual September 30 personnel, so those names are not encoded here as event-specific lineup members.",
+      "links": {
+        "official_event": "https://www.dcjazzfest.org/event-details/fishmansept30",
+        "official_tickets": "https://www.dcjazzfest.org/event-details/fishmansept30"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.dcjazzfest.org/event-details/fishmansept30",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "recommended_listening",
+          "event_specific_personnel"
+        ],
+        "note": "The official DC Jazz Festival page verifies date, venue, doors, program and reception times, billing, embassy access conditions, and the cultural frame. Jan Kus's official artist page verifies his instrument, leadership role, the project's Balkan/Slavic-Caribbean concept, and current ensemble membership, but the presenter does not explicitly state which individual members will appear on September 30. No event-specific personnel beyond Kus and the billed ensemble, ticket price, or Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.dcjazzfest.org/event-details/fishmansept30",
+          "publisher": "DC Jazz Festival",
+          "checked_on": "2026-09-04",
+          "note": "Official presenter page verifies September 30, 2026 at the Embassy of the Republic of Slovenia, 6:30 PM doors, 7:00 PM program start, 8:00 PM reception, the Jan Kus and Slavo Rican Assembly billing, Slovenian ambassador and EU delegation hosting context, and registration/ID requirements."
+        },
+        {
+          "url": "https://www.jankusmusic.com/slavorican",
+          "publisher": "Jan Kus / Slavo Rican Assembly",
+          "checked_on": "2026-09-04",
+          "note": "Official artist page verifies Jan Kus as saxophonist and documents Slavo Rican Assembly's combination of South Slavic/Balkan and Caribbean musical traditions. It lists the ensemble's current members, but those names are not treated as event-specific September 30 personnel without presenter confirmation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-artist-sources",
+        "note": "Repository searches for Jan Kus, Slavo Rican Assembly, September 30 2026, the Embassy of Slovenia billing, and the proposed stable ID returned no canonical, curated or processed RADAR match before publication. Facts are limited to the official DC Jazz Festival presenter page and Jan Kus's official artist page. No ticket price, individual event-specific ensemble personnel, purchase destination beyond the official RSVP page, or Apple Music ID is inferred. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The setting actually sharpens the musical idea here. Kus built Slavo Rican Assembly around a conversation between South Slavic/Balkan material and Caribbean rhythm, and DC Jazz Festival places that vocabulary inside Slovenia's embassy with the ambassador and EU delegation explicitly part of the occasion. The cultural-exchange frame is therefore not decoration around the concert; it mirrors what the band is doing musically, with groove carrying the argument across traditions.",
+          "trip_verdict": "If the evening is open in the DMV and you can secure the required RSVP, this is worth attending; factor in embassy ID and security procedures and stay for the reception if useful. I would treat it as a strong local cultural-exchange night rather than reorganizing a corridor trip around it.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí el lugar vuelve más nítida la idea musical. Kus armó Slavo Rican Assembly como una conversación entre materiales sudeslavos y balcánicos y el pulso caribeño, y DC Jazz Festival lleva ese lenguaje a la Embajada de Eslovenia con el embajador y la delegación de la Unión Europea como parte explícita de la ocasión. El intercambio cultural no es decoración alrededor del concierto: refleja lo que la banda hace musicalmente, con el groove como puente entre tradiciones.",
+          "trip_verdict": "Si la noche está libre en el DMV y consigues el RSVP requerido, vale la pena ir; hay que considerar el protocolo de identificación y seguridad de la embajada y, si sirve, quedarse a la recepción. Lo tomaría como una buena noche local de intercambio cultural, no como motivo para reorganizar un viaje por el corredor.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
