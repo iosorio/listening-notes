@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yasuko-agawa-crossover-night-billboard-live-tokyo-2026-09-04-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule traces, and credible Japanese jazz sources. Space M&A's September 29, October 30, and November 28 Yamamoto trio dates are already represented in processed intake, and no new unrepresented Yamamoto appearance was verified. Broader Greater Tokyo research found Yasuko Agawa's September 10 CROSSOVER NIGHT 2026 at Billboard Live Tokyo, absent from canonical/curated/processed search results by artist, title, date, and proposed stable ID. Stage 1 admission clears because this specific performance reconnects a vocalist identified by her own current schedule and Billboard as a key figure in Japan's 1980s jazz/fusion boom with a six-piece crossover band spanning voice, keyboards, bass, drums, guitar, and saxophone; the event also continues the later club-scene afterlife of her catalog rather than functioning as a generic standards booking. Stage 2 is A. The exact same CROSSOVER NIGHT concept is a recurring annual series and the 2026 tour also plays Billboard Live Osaka on September 22, so the available evidence supports 'attend if convenient' in Tokyo rather than active schedule reprioritization. Today's recent curated intake remains weighted toward A+ with some A and rare S, but this grade is behavioral judgment rather than distribution management. No S/S+ scarcity gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "yasuko-agawa-crossover-night-billboard-live-tokyo-2026-09-10",
+      "artist": "Yasuko Agawa",
+      "subtitle": "CROSSOVER NIGHT 2026",
+      "dates": {
+        "start": "2026-09-10",
+        "end": null
+      },
+      "showtimes": [
+        "17:00",
+        "20:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japan / Jazz-fusion lineage / Vocal crossover",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Crossover",
+        "Club jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Yasuko Agawa — vocals",
+        "Masanori Sasaji — keyboards",
+        "Bakabon Suzuki — bass",
+        "Chisei Tsurutani — drums",
+        "Koichi Yabori — guitar",
+        "Ryoji Ihara — saxophone"
+      ],
+      "factual_description": "Yasuko Agawa's official schedule and Billboard Live Tokyo list CROSSOVER NIGHT 2026 for Thursday, September 10, 2026 at Billboard Live Tokyo, with first-set doors at 16:00 and start at 17:00, and second-set doors at 19:00 and start at 20:00. The announced lineup is Yasuko Agawa on vocals, Masanori Sasaji on keyboards, Bakabon Suzuki on bass, Chisei Tsurutani on drums, Koichi Yabori on guitar, and Ryoji Ihara on saxophone. Agawa's official site describes her as a vocalist who helped drive Japan's 1980s jazz boom and later won renewed respect in club culture, noting collaborations with Sergio Mendes, Joe Sample, Tommy Flanagan, and Pino Palladino. Billboard frames the night around her jazz/fusion and club-scene lineage. Agawa's official schedule shows the same CROSSOVER NIGHT concept recurring in 2025 and lists a second 2026 date at Billboard Live Osaka on September 22, which makes the Tokyo performance a recurring series rather than a one-off scarcity event. Listed single-seat prices are ¥8,800 to ¥15,000; Duo seating is sold in pairs at ¥21,900 or ¥23,000.",
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21471",
+        "official_tickets": "https://www.billboard-live.com/tokyo/show?event_id=ev-21471"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 8800,
+          "maximum": 15000,
+          "source_url": "https://www.agawa.jp/schedule.html",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yasuko Agawa",
+          "title": "Sunglow/Yasuko, Love-Bird",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/sunglow-yasuko-love-bird/333417360"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Date, both set times, complete announced lineup, venue identity, current CROSSOVER NIGHT framing, ticket prices, recurring-series context, and a representative exact Apple Music album destination are verified from primary artist/presenter sources and Apple Music. Pair-priced Duo seats are described separately in factual copy rather than normalized into the single-seat min/max range."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21471",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-09-04",
+          "note": "Official presenter page verifies September 10, 2026, both set times, complete six-person lineup, Billboard Live Tokyo venue, and the jazz/fusion and club-scene framing of Agawa's career."
+        },
+        {
+          "url": "https://www.agawa.jp/schedule.html",
+          "publisher": "Yasuko Agawa official site",
+          "checked_on": "2026-09-04",
+          "note": "Official artist schedule verifies the Tokyo date, doors and start times, full lineup, all listed seat prices, September 22 Osaka companion date, 2025 CROSSOVER NIGHT precedents, and the current artist framing around Japan's 1980s jazz boom, international collaborations, and later club-scene respect."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sunglow-yasuko-love-bird/333417360",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album page for Sunglow/Yasuko, Love-Bird."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-apple-sources",
+        "note": "Repository searches for Yasuko Agawa, CROSSOVER NIGHT 2026, September 10, Billboard Live Tokyo, and the proposed stable ID returned no canonical, curated, or processed RADAR match before publication. Factual details are limited to the current Billboard Live Tokyo event page, Yasuko Agawa's official schedule, and an exact Apple Music release page. The A grade follows Stage 1 admission and the current durable priority rubric: this is a musically meaningful living Japanese jazz/fusion lineage event worth knowing about in Tokyo, while an annually recurring concept plus a second 2026 tour stop argues against active schedule reprioritization or any scarcity tier. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Agawa's crossover story is unusually legible in this room. Her career helped carry Japanese jazz vocals into the 1980s jazz/fusion boom and later into club culture, and this six-piece band keeps that history musical rather than nostalgic: Sasaji, Suzuki, Tsurutani, Yabori and Ihara give her voice keyboards, electric rhythm section, guitar and saxophone to move between jazz polish and crossover groove. It is a useful live snapshot of a Japanese lineage that kept changing audiences without abandoning musicianship.",
+          "trip_verdict": "If September 10 is open while you are in Tokyo, this is worth an evening at Billboard Live, especially if the trip is following Japanese jazz/fusion lineage beyond piano trios. I would not rearrange a Kanto itinerary around it, because the CROSSOVER NIGHT format is recurring and the same 2026 tour continues to Osaka.",
+          "listen_before": "Yasuko Agawa — Sunglow/Yasuko, Love-Bird"
+        },
+        "es": {
+          "why_it_matters": "La historia de crossover de Agawa se entiende especialmente bien en esta sala. Su carrera ayudó a llevar la voz de jazz japonesa al boom de jazz y fusión de los ochenta y después a la cultura de club, y este sexteto mantiene esa historia en el terreno musical, no en la nostalgia: Sasaji, Suzuki, Tsurutani, Yabori e Ihara rodean su voz con teclados, sección rítmica eléctrica, guitarra y sax para moverse entre el pulido del jazz y el groove crossover. Es una buena fotografía en vivo de una línea japonesa que fue cambiando de público sin soltar el oficio musical.",
+          "trip_verdict": "Si el 10 de septiembre está libre mientras estás en Tokio, vale la pena dedicarle la noche en Billboard Live, sobre todo si el viaje viene siguiendo la línea japonesa de jazz y fusión más allá de los tríos de piano. No reorganizaría un itinerario por Kanto alrededor de esta fecha, porque CROSSOVER NIGHT es un formato recurrente y la gira de 2026 continúa después en Osaka.",
+          "listen_before": "Yasuko Agawa — Sunglow/Yasuko, Love-Bird"
+        }
+      }
+    }
+  ]
+}
