@@ -1,0 +1,139 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "toshiki-kadomatsu-45th-anniversary-live-tachikawa-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md and radar/inbox/README.md were read before searching or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A/current schedule traces and credible Japanese-jazz sources; the future Yamamoto dates surfaced in this pass were already represented in canonical, curated or processed intake, so no duplicate Yamamoto record was created. Repository searches for Toshiki Kadomatsu, 角松敏生, the exact 45th Anniversary Live title and the proposed stable event ID returned no existing RADAR match before publication. Stage 1 admits the September 5 Tachikawa performance for a specific live context: Kadomatsu's 2026 formal 45th-anniversary year, the autumn-tour opening under the '御礼参り / Orei-mairi' return-of-thanks banner, and a Tokyo-rooted catalogue built across urban pop, funk/R&B, production craft and large-format live presentation. Stage 2 assigns A+: in Greater Tokyo/Kanto it is actively worth making room for, especially as the opening night of this anniversary-tour leg. Scarcity challenge: 45 years is meaningful, but the same anniversary cycle already included a June Yokohama Arena celebration and the autumn '御礼参り' tour continues through multiple Japanese cities; there is no verified farewell, unique lineup, premiere or last-opportunity condition. A+ fully captures the recommendation and S would overstate scarcity. The current/recent RADAR shape was sanity-checked qualitatively across canonical and recent processed/curated material; this candidate adds no S/S+ pressure.",
+  "events": [
+    {
+      "id": "toshiki-kadomatsu-45th-anniversary-live-tachikawa-2026-09-05",
+      "artist": "Toshiki Kadomatsu",
+      "subtitle": "TOSHIKI KADOMATSU 45th Anniversary Live 〜御礼参り〜 — autumn-tour opening",
+      "dates": {
+        "start": "2026-09-05",
+        "end": null
+      },
+      "showtimes": [
+        "17:30"
+      ],
+      "venue": {
+        "id": "tachikawa-stage-garden-tachikawa-tokyo",
+        "name": "TACHIKAWA STAGE GARDEN",
+        "city": "Tachikawa",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "45th-anniversary Japanese groove / urban pop / producer-performer",
+      "genres": [
+        "J-pop",
+        "City pop",
+        "Funk",
+        "R&B"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters"
+      ],
+      "lineup": [
+        "Toshiki Kadomatsu — performer",
+        "Additional touring personnel — not published on the verified event sources"
+      ],
+      "factual_description": "TACHIKAWA STAGE GARDEN and DISK GARAGE present Toshiki Kadomatsu's TOSHIKI KADOMATSU 45th Anniversary Live 〜御礼参り〜 on Saturday, September 5, 2026, with doors at 16:30 and the performance at 17:30. The venue lists Kadomatsu as the performer and standard reserved seats at ¥11,000 including tax. DISK GARAGE also lists ¥11,000 third-floor seated-designated seats and ¥6,000 third-floor restricted-view seats. Kadomatsu's official Sony Music site originally announced the autumn 2026 tour with Tachikawa as the opening date; his official profile states that he debuted in June 1981, making 2026 his 45th-anniversary year. The anniversary context is broader than a single night: DISK GARAGE documents the June 27 Yokohama Arena anniversary concert and multiple autumn 2026 dates after Tachikawa.",
+      "links": {
+        "official_event": "https://www.t-sg.jp/events/2026/09/00001470.php",
+        "official_artist_tour": "https://www.kadomatsu.jp/artist/ToshikiKadomatsu/info/583725",
+        "official_tickets": "https://diskgarage.com/ticket/detail/102102",
+        "official_artist_profile": "https://www.kadomatsu.jp/artist/ToshikiKadomatsu/profile/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 6000,
+          "maximum": 11000,
+          "source_url": "https://diskgarage.com/ticket/detail/102102",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Toshiki Kadomatsu",
+          "title": "SEA BREEZE 2016",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/sea-breeze-2016/1089828121?l=en"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "touring personnel beyond Toshiki Kadomatsu"
+        ],
+        "note": "The exact Tachikawa venue page, official Sony Music autumn-tour announcement, DISK GARAGE ticket page, official Sony Music profile and exact Apple Music album destination are verified. Only Toshiki Kadomatsu is named as performer on the verified event sources; no additional touring personnel are inferred. The official ticket range reflects DISK GARAGE's ¥6,000 restricted-view third-floor option through ¥11,000 standard/seated-designated options, not resale listings."
+      },
+      "sources": [
+        {
+          "url": "https://www.t-sg.jp/events/2026/09/00001470.php",
+          "publisher": "TACHIKAWA STAGE GARDEN",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue page verifies September 5, 2026; doors 16:30; start 17:30; Toshiki Kadomatsu as performer; standard reserved-seat price ¥11,000 tax included; DISK GARAGE as organizer; Sony Music Labels support; and Beans/Gracias as planning/production."
+        },
+        {
+          "url": "https://www.kadomatsu.jp/artist/ToshikiKadomatsu/info/583725",
+          "publisher": "Toshiki Kadomatsu / Sony Music",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist announcement verifies that the autumn 2026 tour opens September 5 at Tachikawa Stage Garden with doors 16:30 and start 17:30, and lists the subsequent multi-city itinerary."
+        },
+        {
+          "url": "https://diskgarage.com/ticket/detail/102102",
+          "publisher": "DISK GARAGE",
+          "checked_on": "2026-09-03",
+          "note": "Authorized promoter/ticket page verifies the updated 45th Anniversary Live 〜御礼参り〜 title, September 5 Tachikawa date, 17:30 start / 16:30 doors, ¥11,000 standard and third-floor seated-designated seats, and a ¥6,000 restricted-view third-floor option."
+        },
+        {
+          "url": "https://www.kadomatsu.jp/artist/ToshikiKadomatsu/profile/",
+          "publisher": "Toshiki Kadomatsu / Sony Music",
+          "checked_on": "2026-09-03",
+          "note": "Official artist profile verifies Kadomatsu's Tokyo origin, June 1981 debut, long-running singer/producer career and history of major anniversary concerts and varied live formats."
+        },
+        {
+          "url": "https://diskgarage.com/digaonline/pleasure/232901",
+          "publisher": "DISK GARAGE / DI:GA ONLINE",
+          "checked_on": "2026-09-03",
+          "note": "Promoter feature verifies the 2026 45th-anniversary context, the June 27 Yokohama Arena anniversary concert and a multi-date autumn performance schedule including Tachikawa, Saitama, Ichikawa and Tokyo, supporting the scarcity review."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/sea-breeze-2016/1089828121?l=en",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album destination for SEA BREEZE 2016 by Toshiki Kadomatsu."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-artist-promoter-and-apple-sources",
+        "note": "Core event facts and the current event title come from TACHIKAWA STAGE GARDEN and DISK GARAGE; the tour structure and June 1981 debut come from Kadomatsu's official Sony Music pages; the broader anniversary schedule is cross-checked through DISK GARAGE; the listening destination is an exact Apple Music album page. Repository searches found no existing Kadomatsu / 角松敏生 RADAR record or stable-ID collision before publication. Priority A+ was assigned only after Stage 1 admission: the 45th-anniversary return-of-thanks context and opening-night setting merit active prioritization in Kanto, while the documented multi-city anniversary cycle means A+ still captures the recommendation without claiming S-level scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Kadomatsu is a durable Tokyo-rooted thread in Japanese groove: a singer, writer and producer whose catalogue has connected polished urban pop with funk, R&B and meticulous studio craft since his 1981 debut. Tachikawa opens the autumn leg of his formal 45th-anniversary year under the 〜御礼参り〜 banner, turning the tour into a return of thanks rather than just another legacy date. The draw is hearing that living catalogue in the hands of the artist who has spent four and a half decades shaping both the recordings and their large-scale live life.",
+          "trip_verdict": "If you are in Greater Tokyo/Kanto, actively make room for Tachikawa and let the concert anchor the evening. From outside Kanto, I would fold it into an existing Tokyo plan rather than rebuild a Japan itinerary solely around September 5, because this anniversary cycle continues through multiple cities.",
+          "listen_before": "Toshiki Kadomatsu — SEA BREEZE 2016"
+        },
+        "es": {
+          "why_it_matters": "Kadomatsu es un hilo duradero del groove japonés con raíz en Tokio: cantante, compositor y productor cuyo catálogo ha unido pop urbano pulido, funk, R&B y un oficio de estudio minucioso desde su debut de 1981. Tachikawa abre el tramo otoñal de su año formal de 45 aniversario bajo la idea de 〜御礼参り〜, una vuelta de agradecimiento que le da a la gira un contexto más concreto que otra fecha de catálogo. La razón para ir es escuchar ese repertorio todavía vivo en manos del artista que lleva cuatro décadas y media moldeando tanto las grabaciones como su vida en escenarios grandes.",
+          "trip_verdict": "Si estás en Greater Tokyo/Kanto, sí le haría espacio activamente y dejaría que el concierto ancle la tarde-noche. Desde fuera de Kanto lo metería en un plan de Tokio ya existente, en vez de rehacer un itinerario por Japón únicamente por el 5 de septiembre, porque este ciclo de aniversario continúa por varias ciudades.",
+          "listen_before": "Toshiki Kadomatsu — SEA BREEZE 2016"
+        }
+      }
+    }
+  ]
+}
