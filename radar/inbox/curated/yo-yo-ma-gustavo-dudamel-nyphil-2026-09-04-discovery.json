@@ -1,0 +1,129 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yo-yo-ma-gustavo-dudamel-nyphil-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, KEYSTONE Club Tokyo, and credible Japanese-jazz sources. The Yamamoto appearances that resurfaced are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Broader US-corridor research found Yo-Yo Ma with Gustavo Dudamel and the New York Philharmonic at Wu Tsai Theater, David Geffen Hall on October 2, 2026, absent from repository searches for Yo-Yo Ma, Golijov's Azul, the date, and the proposed stable ID. Stage 1 admission clears for a repertoire- and context-specific reason: Ma performs Osvaldo Golijov's Azul, a work he has recorded, with Dudamel and the New York Philharmonic during the opening month of Dudamel's inaugural season; the one-hour program also includes Tania León's Imágenes mestizas and Mahler's Adagietto from Symphony No. 5. Stage 2 is A+. The single New York date prompted a scarcity challenge, but A+ still captures the recommendation: there is no farewell, premiere of Azul, or other evidence that this collaboration is singular enough to justify protect-the-night scarcity language, while the artist/repertoire/inaugural-season combination is clearly strong enough to merit actively making room. Recent/current September 4 intake was spot-checked against the rubric and remains centered on A/A+ with scarcity tiers used only for documented nonrecurring contexts. This batch adds A 0 / A+ 1 / S 0 / S+ 0. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "yo-yo-ma-gustavo-dudamel-nyphil-new-york-2026-10-02",
+      "artist": "Yo-Yo Ma & Gustavo Dudamel / New York Philharmonic",
+      "subtitle": "Osvaldo Golijov's Azul in Dudamel's inaugural NY Phil season",
+      "dates": {
+        "start": "2026-10-02",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "wu-tsai-theater-david-geffen-hall-new-york",
+        "name": "Wu Tsai Theater, David Geffen Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary orchestral / cello / inaugural-season collaboration",
+      "genres": [
+        "Classical",
+        "Contemporary classical",
+        "Orchestral"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Latin"
+      ],
+      "lineup": [
+        "Yo-Yo Ma — cello",
+        "Gustavo Dudamel — conductor",
+        "New York Philharmonic — orchestra"
+      ],
+      "factual_description": "The New York Philharmonic presents Yo-Yo Ma with Gustavo Dudamel and the Orchestra on Friday, October 2, 2026, at Wu Tsai Theater, David Geffen Hall. The official Philharmonic page lists a one-hour program without intermission: Tania León's Imágenes mestizas, a New York Philharmonic commission; the Adagietto from Mahler's Symphony No. 5; and Osvaldo Golijov's Azul for cello and orchestra, with Ma as cello soloist and Dudamel conducting. Yo-Yo Ma's official calendar independently confirms the October 2 New York engagement and links back to the Philharmonic. Ticketmaster's authorized David Geffen Hall listing and Apple Music's concert listing both publish a 7:30 PM curtain. Apple Music also verifies Ma's 2016 recording Golijov: Azul with The Knights and Eric Jacobsen. No stable face-value ticket price was verified in the authoritative static sources checked, so none is inferred.",
+      "links": {
+        "official_event": "https://www.nyphil.org/concerts-tickets/2627/yo-yo-ma/",
+        "official_tickets": "https://www.nyphil.org/concerts-tickets/2627/yo-yo-ma/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.nyphil.org/concerts-tickets/2627/yo-yo-ma/",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yo-Yo Ma, The Knights & Eric Jacobsen",
+          "title": "Golijov: Azul",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/golijov-azul/1208703426"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The New York Philharmonic verifies the date, exact venue identity, duration, no-intermission format, program, conductor, orchestra and soloist. Yo-Yo Ma's official calendar independently confirms the engagement. Authorized Ticketmaster and Apple Music concert listings verify the 7:30 PM curtain. Apple Music verifies the exact Golijov: Azul listening destination featuring Ma. A stable face-value ticket price is not exposed in the authoritative static sources checked and is intentionally left null rather than inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.nyphil.org/concerts-tickets/2627/yo-yo-ma/",
+          "publisher": "New York Philharmonic",
+          "checked_on": "2026-09-04",
+          "note": "Primary exact event page verifies October 2, Wu Tsai Theater at David Geffen Hall, the approximately one-hour no-intermission format, Gustavo Dudamel, Yo-Yo Ma, the New York Philharmonic, and the program of Tania León's Imágenes mestizas, Mahler's Adagietto from Symphony No. 5, and Osvaldo Golijov's Azul for cello and orchestra."
+        },
+        {
+          "url": "https://www.yo-yoma.com/events-archive/2026-10-2-new-york-phil/",
+          "publisher": "Yo-Yo Ma official website",
+          "checked_on": "2026-09-04",
+          "note": "Artist-controlled calendar independently confirms October 2, 2026 in New York, NY, billed as Yo-Yo Ma & Gustavo Dudamel, and directs ticket buyers to the New York Philharmonic."
+        },
+        {
+          "url": "https://www.tanialeon.com/schedule",
+          "publisher": "Tania León official website",
+          "checked_on": "2026-09-04",
+          "note": "Composer-controlled schedule independently confirms the October 2 New York Philharmonic program: Imágenes mestizas, Mahler Adagietto from Symphony No. 5, and Golijov's Azul, with Yo-Yo Ma, Gustavo Dudamel and the New York Philharmonic."
+        },
+        {
+          "url": "https://www.ticketmaster.com/lincoln-centers-david-geffen-hall-tickets-new-york/venue/1406",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-04",
+          "note": "Authorized David Geffen Hall ticket listing publishes Yo-Yo Ma & Gustavo Dudamel on October 2, 2026 at 7:30 PM. No face-value ticket amount is copied because a stable official price was not verified."
+        },
+        {
+          "url": "https://music.apple.com/us/album/golijov-azul/1208703426",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album page verifies Golijov: Azul by Yo-Yo Ma, The Knights and Eric Jacobsen as the repertoire-specific listening recommendation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-composer-authorized-ticket-and-apple-sources",
+        "note": "Repository searches for Yo-Yo Ma, Golijov Azul, October 2, 2026 and the proposed stable event ID found no matching canonical, curated or processed candidate before publication. The exact Philharmonic event page supplies the core event record; artist and composer official schedules corroborate the billing/program; authorized Ticketmaster corroborates the curtain time; Apple Music supplies the exact listening destination. Priority was assigned only after Stage 1 admission. The single-date format was explicitly challenged against S scarcity, but A+ remains the accurate behavioral recommendation because the event is unusually strong without a farewell, premiere of Azul or other verified singularity. No ticket price, additional musician, unannounced repertoire detail or scarcity claim was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Ma is not dropping in for a generic star turn: the centerpiece is Golijov's Azul, a work he has already made part of his recorded language, now placed inside Dudamel's first month leading the New York Philharmonic. With León's Imágenes mestizas and Mahler's Adagietto compressed into the same one-hour arc, the night puts cello color, Latin American orchestral imagination and Dudamel's new institutional chapter in unusually direct conversation.",
+          "trip_verdict": "If New York is already in play, actively make room for this and let David Geffen Hall anchor the evening. From the DMV, I would pair it with a broader New York day rather than build a dedicated up-and-back trip solely around this one-hour program.",
+          "listen_before": "Yo-Yo Ma, The Knights & Eric Jacobsen — Golijov: Azul"
+        },
+        "es": {
+          "why_it_matters": "Ma no llega para hacer una aparición de figura invitada sin más: el centro de la noche es Azul de Golijov, una obra que ya forma parte de su lenguaje grabado, ahora colocada dentro del primer mes de Dudamel al frente de la New York Philharmonic. Con Imágenes mestizas de León y el Adagietto de Mahler dentro del mismo arco de una hora, la función pone en conversación directa el color del chelo, la imaginación orquestal latinoamericana y el nuevo capítulo institucional de Dudamel.",
+          "trip_verdict": "Si Nueva York ya entra en el plan, sí le haría espacio activamente y dejaría que David Geffen Hall ancle la noche. Desde el DMV la combinaría con un día más amplio en Nueva York en vez de armar un viaje de ida y vuelta exclusivamente alrededor de este programa de una hora.",
+          "listen_before": "Yo-Yo Ma, The Knights & Eric Jacobsen — Golijov: Azul"
+        }
+      }
+    }
+  ]
+}
