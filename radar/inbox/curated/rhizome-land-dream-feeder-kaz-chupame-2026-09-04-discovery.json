@@ -1,0 +1,210 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "rhizome-land-dream-feeder-kaz-chupame-2026-09-04-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, Yamamoto schedule sources, and credible Japanese jazz listings produced no new unrepresented Yamamoto performance; recurring September dates and the previously captured October A-TRAIN duo remained represented in existing intake. The broader US-corridor pass found two unrepresented Rhizome DC events that clear RADAR admission for specific live contexts. Land / Dream Feeder / KAZ is A: three DMV/East Coast creative-music ensembles combine unusual acoustic instrumentation, improvisation, folk, jazz, and chamber textures in a small local room, making it worth attending if the evening is open, without scarcity or special-event evidence that would justify active reprioritization. Chupame El Dedo / Abismo Onix is A+: the exact double bill joins Eblis Alvarez and Pedro Ojeda's Colombian project, which deliberately collides tropical forms with metal, grindcore and electronic extremity, with a Richmond bachata-metal band; the lineup is unusually aligned with Listening Notes' Latin, groove, experimental and heavy threads and is actively worth making room for locally. Neither event is assigned S or S+, so the scarcity review gate is not invoked. This automation performed its own editorial review and does not claim independent Codex or human review.",
+  "events": [
+    {
+      "id": "land-dream-feeder-kaz-rhizome-dc-2026-09-04",
+      "artist": "Land / Dream Feeder / KAZ",
+      "subtitle": "Three-way DMV/East Coast creative-music bill",
+      "dates": {
+        "start": "2026-09-04",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV creative music / Improvisation / Chamber-folk textures",
+      "genres": [
+        "Creative music",
+        "Jazz",
+        "Improvised music",
+        "Experimental folk",
+        "Chamber music"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Experimental / Metal",
+        "Instrumental identity",
+        "DMV context"
+      ],
+      "lineup": [
+        "Land — Will Tober (guitar), Hadley Whittle (guitar), Christian Harper (piano), Chris Dahlke (viola), Thomas McCloskey (bass clarinet)",
+        "Dream Feeder — Brad Linde (saxophone), Keith Butler Jr. (drums), Nelson Dougherty (guitar)",
+        "KAZ — Keith Butler Jr. (percussion, piano, voice), Abe Mamet (French horn), Zoe Jorgenson-Speirs (bass, voice)"
+      ],
+      "factual_description": "Rhizome DC presents Land, Dream Feeder, and KAZ on Friday, September 4, 2026. Doors are at 7:00 PM and music begins at 7:30 PM. Land's five-person lineup uses two guitars, piano, viola and bass clarinet. Dream Feeder is the creative-music trio of Brad Linde, Keith Butler Jr. and Nelson Dougherty, performing member compositions in a sound Rhizome describes as gentle, expansive, discordant and mysterious. KAZ combines Keith Butler Jr., Abe Mamet and Zoe Jorgenson-Speirs across percussion, piano, voice, French horn and bass, drawing from jazz, rock, improvised music and folk. Rhizome lists a $15-$25 sliding-scale face price; its authorized Pools ticketing page confirms the same face-price range and shows fee-inclusive totals of $17.19-$27.75.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/9/4/kaz-land",
+        "official_tickets": "https://pools.events/event/7hOeyz5v/land-dream-feeder-kaz/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 15,
+          "maximum": 25,
+          "source_url": "https://www.rhizomedc.org/new-events/2026/9/4/kaz-land",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "recommended_listening"
+        ],
+        "note": "Primary presenter and authorized ticketing sources verify the date, doors and music-start times, complete billed personnel, Rhizome DC location and sliding-scale face price. No Apple Music URL was added without a separately verified exact release destination."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/9/4/kaz-land",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-09-04",
+          "note": "Official presenter page verifies September 4, doors at 7:00 PM, music at 7:30 PM, $15-$25 price, and the complete billed personnel and project descriptions for Land, Dream Feeder and KAZ."
+        },
+        {
+          "url": "https://pools.events/event/7hOeyz5v/land-dream-feeder-kaz/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticketing corroborates the Rhizome-hosted event, 6950 Maple St NW location, $15-$25 sliding-scale face price and current fee-inclusive ticket range."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-authorized-ticketing",
+        "note": "Repository searches for Land Dream Feeder KAZ, the September 4 Rhizome billing, and the proposed stable ID returned no canonical, curated or processed RADAR match before publication. Facts are limited to the official Rhizome page and its authorized ticketing destination; no additional personnel, repertoire or listening IDs were inferred. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The attraction is the shape of the room and the instrumentation rather than a marquee name. Three local and East Coast creative-music groups approach quiet, texture and improvisation from different angles: Land brings viola and bass clarinet into a guitar-and-piano frame, Dream Feeder works the tension between spaciousness and dissonance, and KAZ folds French horn, rhythm, voice and folk language into the same evening. It is a compact snapshot of the DMV's exploratory music ecology.",
+          "trip_verdict": "If Friday evening is open in the DMV, this is worth dropping into Rhizome for; the small-room setting is part of the appeal. I would treat it as a strong local option rather than reorganizing the weekend around it.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí importa más la forma de la noche y la instrumentación que un nombre de cartel. Tres proyectos de la escena creativa local y de la Costa Este llegan a la improvisación desde ángulos distintos: Land mete viola y clarinete bajo en un marco de guitarras y piano, Dream Feeder trabaja entre espacio y disonancia, y KAZ mezcla corno francés, ritmo, voz y lenguaje folk. Es una buena fotografía, en pequeño, de la ecología experimental del DMV.",
+          "trip_verdict": "Si el viernes está libre en el DMV, vale caer a Rhizome; el cuarto pequeño es parte de la gracia. Lo tomaría como una opción local fuerte, sin reorganizar el fin de semana alrededor de ella.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "chupame-el-dedo-abismo-onix-rhizome-dc-2026-09-29",
+      "artist": "Chúpame El Dedo / Abismo Ónix",
+      "subtitle": "Colombian tropical extremity meets Richmond bachata-metal",
+      "dates": {
+        "start": "2026-09-29",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Latin / Heavy / Experimental cross-genre",
+      "genres": [
+        "Cumbia",
+        "Salsa",
+        "Currulao",
+        "Reggaeton",
+        "Metal",
+        "Grindcore",
+        "Bachata metal",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Experimental / Metal",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Chúpame El Dedo — Eblis Álvarez and Pedro Ojeda",
+        "Abismo Ónix — Andrés Bass (vocals), Moises Carrillo (drums/bongos), Alfonso Santos (guitar), Ramm Iyer (bass)"
+      ],
+      "factual_description": "Rhizome DC and Secret Planet present Chúpame El Dedo with Abismo Ónix on Tuesday, September 29, 2026 at 7:00 PM. Rhizome identifies Chúpame El Dedo as the Colombian duo of Eblis Álvarez of Meridian Brothers and Pedro Ojeda of Ondatrópica, describing a deliberate collision of traditional Colombian music, metal, grindcore, distorted vocals, electronic/gabber-like elements and tropical rhythm vocabularies including salsa, cumbia, currulao and reggaeton. Richmond-based Abismo Ónix is billed as a bachata-metal band, with live members Andrés Bass on vocals, Moises Carrillo on drums/bongos, Alfonso Santos on guitar and Ramm Iyer on bass. Rhizome lists a $20 face price; authorized Pools ticketing currently shows $22.47 including fees.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/9/29/chpame-el-dedo-abismo-nix",
+        "official_tickets": "https://pools.events/event/S6QLeX6M/chupame-el-dedo-abismo-onix/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 20,
+          "source_url": "https://www.rhizomedc.org/new-events/2026/9/29/chpame-el-dedo-abismo-nix",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "recommended_listening"
+        ],
+        "note": "Primary presenter and authorized ticketing sources verify the date, billed projects, Chupame El Dedo duo membership, Abismo Onix live personnel, venue and price. Rhizome does not map individual instruments within Chupame El Dedo on this event page, so no instrument assignments are inferred for Alvarez or Ojeda. No Apple Music URL was added without a separately verified exact destination."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/9/29/chpame-el-dedo-abismo-nix",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-09-04",
+          "note": "Official presenter page verifies September 29 at 7:00 PM, $20 face price, Chupame El Dedo as Eblis Alvarez and Pedro Ojeda, its Colombian/tropical/metal/grindcore/electronic framing, and the four-person live lineup of Abismo Onix."
+        },
+        {
+          "url": "https://pools.events/event/S6QLeX6M/chupame-el-dedo-abismo-onix/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticketing corroborates the Rhizome-hosted event, 7:00 PM time, 6950 Maple St NW location and current $22.47 fee-inclusive ticket price."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-authorized-ticketing",
+        "note": "Repository searches for Chupame El Dedo, Abismo Onix, accentless variants, the September 29 Rhizome billing, and the proposed stable ID returned no canonical, curated or processed RADAR match before publication. Facts are limited to official presenter and authorized ticketing sources; individual Chupame El Dedo instrument assignments, unannounced guests and listening IDs were not inferred. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is almost a diagram of several Listening Notes threads colliding on one small stage: Eblis Álvarez and Pedro Ojeda push Colombian rhythmic languages through distortion, machines, grindcore and metallic abrasion, then Abismo Ónix answers from Richmond by forcing bachata into a heavy-band frame. The attraction is not genre novelty for its own sake; it is the physical argument between groove and extremity, with Latin rhythm remaining audible inside the noise.",
+          "trip_verdict": "Actively make room for this one if you are in the DMV. Rhizome is exactly the right scale for a collision this strange and rhythmic, and I would choose it over a more replaceable local club night; there is no reason to turn it into a corridor trip from outside the region.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Esta noche parece un diagrama de varios hilos de Listening Notes chocando en el mismo escenario: Eblis Álvarez y Pedro Ojeda empujan lenguajes rítmicos colombianos hacia distorsión, máquinas, grindcore y abrasión metálica; después Abismo Ónix responde desde Richmond metiendo bachata en una formación pesada. La gracia no es la rareza de género por sí misma, sino la pelea física entre groove y extremidad, con el pulso latino todavía reconocible dentro del ruido.",
+          "trip_verdict": "Si estás en el DMV, sí le haría espacio activamente. Rhizome tiene la escala exacta para una colisión así de rara y rítmica, y la escogería por encima de una noche local más reemplazable; no la convertiría en un viaje regional desde fuera del corredor.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
