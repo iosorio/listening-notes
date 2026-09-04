@@ -1,0 +1,132 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "eli-winter-trio-this-times-quartet-kajwan-ziaoddini-rhizome-dc-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule traces, and credible Japanese jazz sources; no new unrepresented Yamamoto appearance was verified. The broader US-corridor pass found Eli Winter Trio / This Time's Quartet / Kajwan Ziaoddini at Rhizome DC on October 2, 2026, absent from repository searches by artist, billing, date, and proposed stable ID. Stage 1 admission clears because the exact bill places Eli Winter's guitar-led trio with Sam Wagster's pedal steel and Tyler Damon's drums beside an intermedia quartet built around Huda Asfour's oud and voice, shadow-puppet/paper-cut work and live illustration, plus Kajwan Ziaoddini's Persian santur practice and Maryland ethnomusicology connection. The event-specific attraction is the collision of instrumental identities, improvisation, folk/devotional language, Iranian classical practice, and live visual performance in a small DMV room, not venue prestige or artist fame. Stage 2 is A. Recent September 4 curated intake has leaned heavily toward A+ relative to A, with S present but scarce and no routine S+ usage; this event remains A because the behavioral recommendation is to attend if the Friday is open, not to actively rearrange an existing plan. That judgment is not a quota correction. No S/S+ scarcity gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "eli-winter-trio-this-times-quartet-kajwan-ziaoddini-rhizome-dc-2026-10-02",
+      "artist": "Eli Winter Trio / This Time's Quartet / Kajwan Ziaoddini",
+      "subtitle": "Guitar, pedal steel, oud, santur and intermedia in a three-part Rhizome bill",
+      "dates": {
+        "start": "2026-10-02",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV creative music / Improvisation / Cross-cultural intermedia",
+      "genres": [
+        "Creative music",
+        "Improvised music",
+        "Folk",
+        "Jazz",
+        "Experimental music",
+        "Iranian classical music"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Eli Winter Trio — Eli Winter (guitar), Sam Wagster (pedal steel guitar), Tyler Damon (drums)",
+        "This Time's Quartet — Erik Ruin (shadow puppetry and paper-cut art), Huda Asfour (oud and voice), Elsa Saade, Tracy Chahwan (live illustration)",
+        "Kajwan Ziaoddini — santur"
+      ],
+      "factual_description": "Rhizome DC presents Eli Winter Trio, This Time's Quartet, and Kajwan Ziaoddini on Friday, October 2, 2026. The current official event page lists doors at 6:30 PM, a 7:00 PM show, and a $20-$30 sliding-scale face price. Eli Winter's trio is Winter on guitar with Sam Wagster on pedal steel guitar and Tyler Damon on drums; the same primary page describes Winter's current repertoire through A Trick of the Light, including his arrangement of Don Cherry and Ed Blackwell's 'Arabian Nightingale' and Carla Bley's 'Ida Lupino.' This Time's Quartet is billed in its Mini East Coast tour configuration with Erik Ruin, Huda Asfour, Elsa Saade and Tracy Chahwan, combining shadow puppetry, paper-cut art, oud, voice, poetry, music and live illustration. Kajwan Ziaoddini is presented as a santur performer trained in Iranian classical music, a University of Kurdistan faculty member and a University of Maryland ethnomusicology PhD candidate. Rhizome's authorized Pools ticket page confirms the 6:30 PM doors, 7:00 PM show, $20-$30 sliding-scale face price and 6950 Maple St NW location; current fee-inclusive totals are $22.47-$33.02.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/10/2/eli-winter-trio-kajwan-ziaoddini",
+        "official_tickets": "https://pools.events/event/llVCT8rH/eli-winter-trio-this-times-quartet-kajwan-ziaoddini/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 30,
+          "source_url": "https://www.rhizomedc.org/new-events/2026/10/2/eli-winter-trio-kajwan-ziaoddini",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Eli Winter",
+          "title": "A Trick of the Light",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/a-trick-of-the-light/1787037967"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The current exact Rhizome event page and its authorized Pools destination verify the updated three-part billing, doors/show times, face-price range, venue and billed personnel. Eli Winter's official tour page separately verifies the October 2 Rhizome date and the Winter/Wagster/Damon trio configuration. The University of Maryland verifies Ziaoddini's current ethnomusicology affiliation and specialization in Persian radif and santur. An exact Apple Music album destination is verified for A Trick of the Light."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/10/2/eli-winter-trio-kajwan-ziaoddini",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-09-04",
+          "note": "Official presenter page verifies October 2, 2026; doors at 6:30 PM; show at 7:00 PM; $20-$30 face price; the current three-part billing; Eli Winter Trio personnel; the four-person This Time's Quartet configuration; and Kajwan Ziaoddini's santur/Iranian-music background."
+        },
+        {
+          "url": "https://pools.events/event/llVCT8rH/eli-winter-trio-this-times-quartet-kajwan-ziaoddini/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticketing corroborates the Rhizome-hosted event, 6:30 PM doors, 7:00 PM show, 6950 Maple St NW location, $20-$30 sliding-scale face price and current fee-inclusive totals."
+        },
+        {
+          "url": "https://eliwinter.com/live",
+          "publisher": "Eli Winter official site",
+          "checked_on": "2026-09-04",
+          "note": "Official artist tour page verifies October 2 at Rhizome and states that fall 2026 trio dates use Sam Wagster and Tyler Damon unless otherwise noted."
+        },
+        {
+          "url": "https://music.umd.edu/areas-of-study/musicology-ethnomusicology/graduate-students",
+          "publisher": "University of Maryland School of Music",
+          "checked_on": "2026-09-04",
+          "note": "University page verifies Kajwan Ziaoddini as an ethnomusicology PhD candidate, University of Kurdistan faculty member, specialist in Persian radif repertoire and accomplished santur performer."
+        },
+        {
+          "url": "https://music.apple.com/us/album/a-trick-of-the-light/1787037967",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album page for Eli Winter's A Trick of the Light."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-university-ticket-and-apple-sources",
+        "note": "Repository searches for Eli Winter Trio, Eli Winter with October 2, the current three-part billing, and the proposed stable ID returned no canonical, curated or processed RADAR match before publication. The event page had previously circulated in a shorter Eli Winter Trio / Kajwan Ziaoddini form, but the current Rhizome exact page and authorized ticketing now agree on the expanded billing with This Time's Quartet, 6:30 PM doors, 7:00 PM show and $20-$30 face price; the batch records only that current verified state. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The point is the instrumentation and the way three different listening worlds share the room. Winter's guitar, Wagster's pedal steel and Damon's drums can move from folk and devotional phrasing toward improvisation without settling into one genre; This Time's Quartet answers with oud, voice, shadow puppetry and live illustration; Ziaoddini brings the Persian santur tradition into the same evening from a Maryland-based ethnomusicology practice. It is the kind of small-room collision that makes the DMV scene worth following closely.",
+          "trip_verdict": "If Friday is open in the DMV, this is worth spending the evening at Rhizome for, especially if you want instrumental identity and cross-cultural improvisation rather than a conventional club set. I would not displace an already stronger commitment or build a corridor trip around it.",
+          "listen_before": "Eli Winter — A Trick of the Light"
+        },
+        "es": {
+          "why_it_matters": "La gracia está en la instrumentación y en que tres mundos de escucha distintos compartan el mismo cuarto. La guitarra de Winter, el pedal steel de Wagster y la batería de Damon pueden pasar del folk y el lenguaje devocional a la improvisación sin acomodarse en un solo género; This Time's Quartet responde con oud, voz, teatro de sombras e ilustración en vivo; Ziaoddini mete la tradición del santur persa en la misma noche desde una práctica de etnomusicología ligada a Maryland. Es justo el tipo de cruce en sala pequeña que hace que valga seguir de cerca la escena del DMV.",
+          "trip_verdict": "Si el viernes está libre en el DMV, vale dedicarle la noche en Rhizome, sobre todo si quieres identidad instrumental e improvisación intercultural en vez de un set convencional de club. No desplazaría un compromiso ya más fuerte ni armaría un viaje por el corredor alrededor de esta fecha.",
+          "listen_before": "Eli Winter — A Trick of the Light"
+        }
+      }
+    }
+  ]
+}
