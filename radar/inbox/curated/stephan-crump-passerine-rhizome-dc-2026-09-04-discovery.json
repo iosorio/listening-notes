@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "stephan-crump-passerine-rhizome-dc-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule traces, and credible Japanese jazz sources; no new unrepresented Yamamoto appearance was verified. The broader US-corridor pass found Stephan Crump’s Passerine at Rhizome DC on November 21, 2026, absent from repository searches by project name and proposed stable ID. Stage 1 admission clears because this exact performance brings Crump’s new nest-building-inspired quartet—acoustic bass, percussion, trumpet, alto flute/saxophone—into Rhizome shortly after the project’s debut album release, creating a concrete instrumental/compositional reason beyond artist reputation or venue identity. Stage 2 is A: the event is useful to know and worth attending if the Saturday is open, but the project is actively touring and the same quartet has multiple 2026 dates, so this is not a scarcity case and does not require active schedule displacement. A review of recent/current repository priority traces shows A/A+ as the working base with S used for narrower scarcity cases; keeping this event at A follows its behavioral recommendation rather than a quota adjustment. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "stephan-crump-passerine-rhizome-dc-2026-11-21",
+      "artist": "Stephan Crump’s Passerine",
+      "subtitle": "Nest-building-inspired quartet for acoustic bass, percussion, trumpet and alto flute/saxophone",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV creative music / Modern jazz / Bass-led quartet",
+      "genres": [
+        "Jazz",
+        "Creative music",
+        "Improvised music",
+        "Modern jazz"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Groove"
+      ],
+      "lineup": [
+        "Stephan Crump — acoustic bass",
+        "Ches Smith — percussion",
+        "Kenny Warren — trumpet",
+        "David Leon — alto flute and saxophone"
+      ],
+      "factual_description": "Rhizome DC and Transparent Productions present Stephan Crump’s Passerine on Saturday, November 21, 2026. The official presenter page lists doors at 7:00 PM, music at 7:30 PM, and a $25-$30 sliding-scale face price. The quartet is Stephan Crump on acoustic bass, Ches Smith on percussion, Kenny Warren on trumpet, and David Leon on alto flute and saxophone. Crump’s official project page states that Passerine has been in development since fall 2024, is inspired by birds and different nest-building techniques, and releases its debut album on October 23, 2026 on Out of Your Head Records. Rhizome’s authorized Pools ticket page confirms the Washington, DC venue, the 7:00 PM doors / 7:30 PM music schedule, the $25-$30 sliding-scale face price, and current fee-inclusive totals of $27.75-$33.02.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/11/21/stephan-crumps-passerine",
+        "official_tickets": "https://pools.events/event/NHiX7im7/stephan-crumps-passerine/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 30,
+          "source_url": "https://www.rhizomedc.org/new-events/2026/11/21/stephan-crumps-passerine",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Stephan Crump",
+          "title": "Slow Water",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/slow-water/1728527479"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Rhizome event page and its authorized Pools destination verify the date, venue, doors/music times, face-price range and quartet personnel. Crump’s official Passerine project page verifies the concept, personnel and October 23, 2026 debut-album release. Passerine is not yet surfaced as an exact Apple Music album page in current search, so the exact Apple Music destination for Crump’s 2024 album Slow Water is used as the verified listening link rather than inventing a future catalog URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/11/21/stephan-crumps-passerine",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-09-04",
+          "note": "Official presenter page verifies November 21, 2026; 7:00 PM doors; 7:30 PM music; $25-$30 face price; the Passerine billing; and the Crump/Smith/Warren/Leon quartet personnel."
+        },
+        {
+          "url": "https://pools.events/event/NHiX7im7/stephan-crumps-passerine/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticketing corroborates the event, 6950 Maple St NW location, doors/music times, $25-$30 sliding-scale face price and current $27.75-$33.02 fee-inclusive totals."
+        },
+        {
+          "url": "https://www.stephancrump.com/passerine-project",
+          "publisher": "Stephan Crump official site",
+          "checked_on": "2026-09-04",
+          "note": "Official project page verifies the quartet personnel, the nest-building concept, development since fall 2024 and the October 23, 2026 debut-album release on Out of Your Head Records."
+        },
+        {
+          "url": "https://stephancrump.bandcamp.com/album/passerine",
+          "publisher": "Stephan Crump Bandcamp",
+          "checked_on": "2026-09-04",
+          "note": "Artist release page verifies Passerine’s October 23, 2026 release, track list, quartet credits and the project’s bird-nest inspiration."
+        },
+        {
+          "url": "https://music.apple.com/us/album/slow-water/1728527479",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album page for Stephan Crump’s Slow Water, used as verified pre-listening because an exact Passerine Apple Music album destination is not yet surfaced."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-ticket-and-apple-sources",
+        "note": "Repository searches for Stephan Crump Passerine and the proposed stable ID returned no canonical, curated or processed RADAR match before publication. All volatile event details were taken from the exact Rhizome presenter page and authorized Pools ticketing; project context and personnel were corroborated by Crump’s official site. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Passerine has a clear compositional engine rather than a generic small-group premise: Crump is building the music around the different ways birds construct nests, and the quartet gives that idea an unusually open palette—acoustic bass, percussion, trumpet, alto flute and saxophone. With Ches Smith, Kenny Warren and David Leon, the draw is how four strong instrumental voices can turn a concrete natural-world idea into ensemble form and improvisation in Rhizome’s close room.",
+          "trip_verdict": "If Saturday is open in the DMV, this is a good Rhizome night to choose, especially for a bass-led ensemble with unusual timbral balance and new music. I would not displace a stronger commitment or build a corridor trip around it.",
+          "listen_before": "Stephan Crump — Slow Water"
+        },
+        "es": {
+          "why_it_matters": "Passerine tiene un motor compositivo concreto y no la premisa genérica de otro cuarteto de jazz: Crump está construyendo la música a partir de las distintas maneras en que las aves hacen sus nidos, y la instrumentación abre un campo poco común —contrabajo, percusión, trompeta, flauta alto y saxofón. Con Ches Smith, Kenny Warren y David Leon, lo interesante es escuchar cómo cuatro identidades instrumentales fuertes convierten esa idea del mundo natural en forma de conjunto e improvisación dentro de una sala tan cercana como Rhizome.",
+          "trip_verdict": "Si el sábado está libre en el DMV, es una buena noche para escoger Rhizome, sobre todo si quieres un ensamble liderado desde el bajo, con balance tímbrico poco común y música nueva. No desplazaría un compromiso más fuerte ni armaría un viaje por el corredor alrededor de esta fecha.",
+          "listen_before": "Stephan Crump — Slow Water"
+        }
+      }
+    }
+  ]
+}
