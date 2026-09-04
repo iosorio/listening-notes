@@ -1,0 +1,136 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "cesar-lopez-quartet-blues-alley-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule traces, and credible Japanese-jazz sources produced no new verified, unrepresented Yamamoto appearance. The broader DMV pass found César López Quartet in Blues Alley's Cuban Jazz Series on October 17-18, 2026. Repository searches for César López with the dates and for the proposed stable ID returned no canonical, curated, or processed match before publication. Stage 1 admission clears because this is a saxophone-led Cuban jazz engagement with a direct Chucho Valdés/Irakere lineage: López was selected by Valdés for Irakere in 1988 and spent nine years with the band, while the exact Blues Alley billing places his quartet inside the venue's Cuban Jazz Series. Stage 2 is A+: this is excellent and actively worth making room for locally because the close-room quartet setting foregrounds a historically important Cuban saxophone voice and a live lineage central to the music, but four sets across two nights make the opportunity readily accessible and provide no scarcity basis for S. Recent/current RADAR intake remains centered on A and A+ with scarcity tiers reserved for genuinely nonrecurring contexts; this A+ assignment follows the behavioral rubric rather than a quota. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "cesar-lopez-quartet-blues-alley-washington-dc-2026-10-17",
+      "artist": "César López Quartet",
+      "subtitle": "Cuban Jazz Series — Irakere lineage at Blues Alley",
+      "dates": {
+        "start": "2026-10-17",
+        "end": "2026-10-18"
+      },
+      "showtimes": [
+        "17:30",
+        "19:00",
+        "20:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Cuban jazz / Irakere lineage / Saxophone-led quartet",
+      "genres": [
+        "Cuban jazz",
+        "Latin jazz",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "César López — alto and soprano saxophones, flute, vocals"
+      ],
+      "factual_description": "Blues Alley's authorized InstantSeats schedule lists César López Quartet in the Cuban Jazz Series for Saturday-Sunday, October 17-18, 2026. Saturday sets are at 7:00 PM and 9:30 PM at $50 face value plus $7 fees; Sunday sets are at 5:30 PM and 8:00 PM at $35 face value plus $7 fees. The venue address is 1073 Wisconsin Ave. NW, Washington, DC 20007. Blues Alley's event pages and López's official biography identify him on alto and soprano saxophones, flute and vocals; the official biography states that Chucho Valdés selected him to join Irakere in 1988 and that López spent nine years with the band before founding Habana Ensemble in 1997. The currently published event pages bill a quartet but do not name the other three personnel, so no additional lineup members are inferred.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=9EC27F57-B7F1-0630-8C1A0C1351D3FA6B&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=9EC27F57-B7F1-0630-8C1A0C1351D3FA6B&fuseaction=buy.event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35,
+          "maximum": 50,
+          "source_url": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "César López",
+          "title": "Andante",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/andante/216285099"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Blues Alley's authorized InstantSeats venue calendar and four exact event pages verify the two-day billing, all four showtimes, face prices, fees and venue. López's official biography independently verifies his instrumental identity and Chucho Valdés/Irakere history. The exact Apple Music page verifies Andante as a César López jazz album. The other three quartet personnel are not currently published; their absence is documented rather than filled by inference."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=9EC27F57-B7F1-0630-8C1A0C1351D3FA6B&fuseaction=home.event",
+          "publisher": "Blues Alley authorized ticketing / InstantSeats",
+          "checked_on": "2026-09-04",
+          "note": "Exact Saturday 7:00 PM event page verifies October 17, 2026, César López Quartet billing, Blues Alley, $50 face price plus $7 fees, and the published López biography."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=9EC2805D-CE10-AEBF-F6DD052B546B31BE&fuseaction=home.event",
+          "publisher": "Blues Alley authorized ticketing / InstantSeats",
+          "checked_on": "2026-09-04",
+          "note": "Exact Saturday 9:30 PM event page independently verifies the second October 17 set and $50 face price plus $7 fees."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=9EC2810C-C37E-6206-897EB385D4798F1C&fuseaction=home.event",
+          "publisher": "Blues Alley authorized ticketing / InstantSeats",
+          "checked_on": "2026-09-04",
+          "note": "Exact Sunday 5:30 PM event page verifies October 18, 2026 and the $35 face price plus $7 fees."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=9EC281B1-D027-2AC0-AB31D1D09092F1B8&fuseaction=home.event",
+          "publisher": "Blues Alley authorized ticketing / InstantSeats",
+          "checked_on": "2026-09-04",
+          "note": "Exact Sunday 8:00 PM event page independently verifies the fourth set and $35 face price plus $7 fees."
+        },
+        {
+          "url": "https://saxlopez.com/en/bio.html",
+          "publisher": "César López official site",
+          "checked_on": "2026-09-04",
+          "note": "Artist-controlled biography verifies alto and soprano saxophones, flute and vocals; selection by Chucho Valdés for Irakere in 1988; nine years with Irakere; and later Habana Ensemble work."
+        },
+        {
+          "url": "https://music.apple.com/us/album/andante/216285099",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album page verifies Andante by César López, a nine-song jazz album released in 2005."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-authorized-ticket-artist-and-apple-sources",
+        "note": "Repository searches for César López with the October 17-18 dates and for the stable event ID returned no canonical, curated or processed RADAR match before publication. Volatile event details are verified against Blues Alley's authorized InstantSeats schedule and all four exact event pages. Artist identity and Irakere history are independently verified from César López's official site, and the listening link from the exact Apple Music album page. No unannounced quartet personnel, repertoire, or scarcity claims were invented. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to hear this quartet is the line running through López's horn: Chucho Valdés brought him into Irakere at nineteen, and nine years inside that band put his alto and soprano voice inside one of the central laboratories of modern Cuban jazz. Blues Alley's Cuban Jazz Series brings that history into a small-room quartet setting where phrasing, rhythmic attack and the conversation between Cuban language and jazz improvisation can sit in the foreground rather than behind a large ensemble.",
+          "trip_verdict": "In the DMV, actively make room for one of the four sets and choose the time that fits best. With two nights and multiple performances, there is no need to turn it into a scarcity chase; the value is having this Cuban saxophone lineage available in an intimate local room.",
+          "listen_before": "César López — Andante"
+        },
+        "es": {
+          "why_it_matters": "La razón para escuchar este cuarteto está en la línea que atraviesa el saxofón de López: Chucho Valdés lo llevó a Irakere a los diecinueve años, y nueve años dentro de esa banda colocaron su voz en alto y soprano dentro de uno de los laboratorios centrales del jazz cubano moderno. La Cuban Jazz Series de Blues Alley trae esa historia a un formato íntimo de cuarteto, donde el fraseo, el ataque rítmico y la conversación entre lenguaje cubano e improvisación jazzística pueden quedar al frente en lugar de diluirse dentro de un ensamble grande.",
+          "trip_verdict": "En el DMV, le haría espacio activamente a uno de los cuatro sets y escogería el horario que mejor embone. Con dos noches y varias funciones no hace falta convertirlo en una persecución de escasez; el valor está en tener esta línea del saxofón cubano disponible en una sala local tan cercana.",
+          "listen_before": "César López — Andante"
+        }
+      }
+    }
+  ]
+}
