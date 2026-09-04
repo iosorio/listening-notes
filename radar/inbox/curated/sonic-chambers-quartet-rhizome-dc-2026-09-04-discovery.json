@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sonic-chambers-quartet-rhizome-dc-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule traces, and credible Japanese-jazz sources; no new verified, unrepresented Yamamoto appearance was found. The broader US-corridor pass found Sonic Chambers Quartet at Rhizome DC on November 8, 2026, absent from repository searches by project name and proposed stable ID. Stage 1 admission clears because this exact performance foregrounds an unusual two-reed front line—clarinet, bass clarinet and tenor/soprano saxophone possibilities—over bass and drums, with a documented practice that deliberately moves between composition and spontaneous form; the group's current record also turns Stravinsky material into an improvisatory vehicle, giving the event a concrete instrumental/compositional reason beyond venue or genre. Stage 2 is A: this is RADAR-worthy and useful to attend if the Sunday is open, but the quartet is an active project and the Washington appearance is not documented as a premiere, farewell, rare lineup, or otherwise scarce event, so it does not warrant displacing a stronger commitment. The recent/current priority shape remains broad at A/A+ with S/S+ reserved for scarcity cases; this A decision follows the behavioral recommendation rather than a quota. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "sonic-chambers-quartet-rhizome-dc-2026-11-08",
+      "artist": "Sonic Chambers Quartet",
+      "subtitle": "New Orleans / New York reeds-led quartet at the composition–improvisation boundary",
+      "dates": {
+        "start": "2026-11-08",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "rhizome-dc-washington-dc",
+        "name": "Rhizome DC",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV creative music / Free improvisation / Reeds-led quartet",
+      "genres": [
+        "Jazz",
+        "Improvised music",
+        "Creative music",
+        "Avant-garde jazz"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Byron Asher — reeds",
+        "Tomas Majcherski — reeds",
+        "Matt Booth — bass",
+        "Doug Garrison — drums"
+      ],
+      "factual_description": "Rhizome DC and Transparent Productions present Sonic Chambers Quartet on Sunday, November 8, 2026. The official presenter page lists doors at 6:30 PM, music at 7:00 PM, and a $20-$30 sliding-scale face price. The lineup is Byron Asher and Tomas Majcherski on reeds, Matt Booth on bass, and Doug Garrison on drums. Rhizome describes the New Orleans/New York project as working between spontaneity and composition. Byron Asher's official project page identifies Asher and Majcherski as clarinetist/saxophonist co-leaders, confirms the same quartet, and states that the collaboration began in 2023. The group's debut album Kiss of the Earth was released in 2025 on 577 Records; the artist/label release page credits Asher on tenor saxophone, clarinet and bass clarinet, Majcherski on tenor and soprano saxophones and clarinet, Booth on bass, and Garrison on drums, and describes the title track as an arrangement of material from Stravinsky's The Rite of Spring reduced to an improvisatory vehicle.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/11/8/sonic-chambers-quartet",
+        "official_tickets": "https://pools.events/event/zsnKyFME/sonic-chambers-quartet/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 30,
+          "source_url": "https://www.rhizomedc.org/new-events/2026/11/8/sonic-chambers-quartet",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sonic Chambers Quartet",
+          "title": "Kiss of the Earth (feat. Byron Asher & Tomas Majcherski)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kiss-of-the-earth-feat-byron-asher-tomas-majcherski/1826160138"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Rhizome presenter page and authorized Pools ticket page verify the date, venue, doors/music times, face-price range and quartet billing. Byron Asher's official project page and the artist/577 Records release page corroborate the project identity, personnel and compositional/improvisational frame. The exact Apple Music album destination for Kiss of the Earth was verified directly."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/11/8/sonic-chambers-quartet",
+          "publisher": "Rhizome DC",
+          "checked_on": "2026-09-04",
+          "note": "Official presenter page verifies November 8, 2026; 6:30 PM doors; 7:00 PM music; $20-$30 face price; Sonic Chambers Quartet billing; Asher/Majcherski/Booth/Garrison lineup; and the project's composition-improvisation framing."
+        },
+        {
+          "url": "https://pools.events/event/zsnKyFME/sonic-chambers-quartet/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticketing corroborates the event at 6950 Maple St NW, Washington, DC, the 6:30 PM doors / 7:00 PM music schedule, $20-$30 sliding-scale face price, and current fee-inclusive totals of $22.47-$33.02."
+        },
+        {
+          "url": "https://www.byronasher.com/sonic-chambers",
+          "publisher": "Byron Asher official site",
+          "checked_on": "2026-09-04",
+          "note": "Official artist project page verifies Sonic Chambers Quartet as a project co-led by clarinetist/saxophonists Byron Asher and Tomas Majcherski, the Booth/Garrison rhythm section, the 2023 collaboration start, and the April 2025 Kiss of the Earth release on 577 Records."
+        },
+        {
+          "url": "https://sonicchambersquartet.bandcamp.com/album/kiss-of-the-earth",
+          "publisher": "Sonic Chambers Quartet / 577 Records release page",
+          "checked_on": "2026-09-04",
+          "note": "Artist/label release page verifies the detailed instrumental credits, April 2025 debut release, diverse improvisational/compositional techniques, and the title track's Stravinsky-derived improvisatory arrangement."
+        },
+        {
+          "url": "https://music.apple.com/us/album/kiss-of-the-earth-feat-byron-asher-tomas-majcherski/1826160138",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album destination for Sonic Chambers Quartet's Kiss of the Earth."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-ticket-and-apple-sources",
+        "note": "Repository searches for Sonic Chambers Quartet and the proposed stable ID returned no canonical, curated or processed RADAR match before publication. Volatile event details come from the exact Rhizome presenter page and authorized Pools ticketing; project context and detailed instruments are corroborated by Byron Asher's official site and the artist/577 Records release page. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the sound architecture: two multi-reed players moving among clarinets and saxophones over bass and drums, with composition and spontaneous form treated as parts of the same language. Kiss of the Earth makes that approach concrete—the quartet can move from original material to a Stravinsky-derived framework without turning the music into a repertory exercise. In Rhizome's close room, the interest is hearing color, density and collective decisions change at conversational distance.",
+          "trip_verdict": "If Sunday is open in the DMV, this is a worthwhile Rhizome night for concentrated improvisation and an unusual reed-heavy palette. I would not displace a stronger commitment or build a corridor trip around it.",
+          "listen_before": "Sonic Chambers Quartet — Kiss of the Earth"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en la arquitectura del sonido: dos multiinstrumentistas de alientos que se mueven entre clarinetes y saxofones sobre bajo y batería, tratando composición y forma espontánea como partes del mismo lenguaje. Kiss of the Earth vuelve concreta esa idea: el cuarteto puede pasar de material original a un marco derivado de Stravinsky sin convertir la música en un ejercicio de repertorio. En la cercanía de Rhizome, interesa escuchar cómo cambian el color, la densidad y las decisiones colectivas casi a distancia de conversación.",
+          "trip_verdict": "Si el domingo está libre en el DMV, vale la pena caer a Rhizome por improvisación concentrada y una paleta cargada hacia los alientos poco común. No desplazaría un compromiso más fuerte ni armaría un viaje por el corredor alrededor de esta fecha.",
+          "listen_before": "Sonic Chambers Quartet — Kiss of the Earth"
+        }
+      }
+    }
+  ]
+}
