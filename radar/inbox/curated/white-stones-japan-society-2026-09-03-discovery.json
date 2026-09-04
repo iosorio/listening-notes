@@ -1,0 +1,132 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "white-stones-japan-society-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed after rereading the current durable docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md and docs/DATA_MODEL.md. Fresh Yamamoto checks covered BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A/current schedule traces and authoritative Japanese jazz sources; future appearances surfaced in the pass were already represented in canonical, curated or processed intake, so no duplicate Yamamoto record was created. Repository searches for White Stones, Kaoru Watanabe, Kite, Japan Society and the proposed stable event ID returned no existing RADAR match before publication. Stage 1 admits White Stones for a specific performance construction: a world premiere bringing Watanabe's Japanese traditional/improvisational practice into direct encounter with Kite's Lakota performance and Indigenous-AI practice, using Japanese drums, flute, koto, voice, violin, electronics and invented instruments while a sovereign AI shapes the performance in real time. The TWO SOILS framing gives the Japan-America cultural exchange an explicit curatorial purpose rather than using identity, venue prestige or genre as a shortcut. Stage 2 assigns A+: the world-premiere context and unusually specific acoustic-electronic/ancestral-technology encounter merit actively making room if New York is in play. Explicit scarcity challenge: the premiere is a meaningful one-night context, but no farewell, last-opportunity claim or verified nonrecurring limitation is published, and the work and artists can have lives beyond the premiere; A+ still captures the recommendation, so S is not warranted. Recent/current intake was sanity-checked and is A/A+ heavy with scarcity tiers comparatively sparse; A+ was retained because this specific premiere merits active prioritization, not to satisfy a distribution target.",
+  "events": [
+    {
+      "id": "kaoru-watanabe-kite-white-stones-japan-society-new-york-2026-12-11",
+      "artist": "Kaoru Watanabe + Kite (Suzanne Kite)",
+      "subtitle": "White Stones — world premiere / TWO SOILS Series",
+      "dates": {
+        "start": "2026-12-11",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "japan-society-new-york-ny",
+        "name": "Japan Society",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary music / cross-cultural world premiere",
+      "genres": [
+        "Contemporary music",
+        "Experimental",
+        "Electroacoustic",
+        "Japanese traditional / contemporary"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Kaoru Watanabe — co-creator / performer",
+        "Kite (Suzanne Kite) — co-creator / performer"
+      ],
+      "factual_description": "Japan Society presents the world premiere of White Stones on Friday, December 11, 2026 at 20:00 in New York. The program pairs Japanese-American musician Kaoru Watanabe with Oglála Lakȟóta performance and visual artist Kite (Suzanne Kite). Japan Society states that the performance uses Japanese drums, flute, koto, voice, violin, electronics and invented instruments, while Kite's sovereign AI, built from Indigenous worldviews and ancestral stories, shapes the performance in real time. The work draws on Noh theater and Lakota ceremonial practice, with stone as a shared organizing image, and is part of Japan Society's TWO SOILS Series of premieres and new collaborations examining inherited national stories across Japan and the United States. Reserved tickets are listed at $43 for nonmembers and $32 for members or persons with disabilities, inclusive of fees where applicable. The primary page does not assign each listed instrument to an individual performer, so those instrument credits are not inferred at lineup level.",
+      "links": {
+        "official_event": "https://japansociety.org/events/white-stones/",
+        "official_tickets": "https://boxoffice.japansociety.org/events/07301b9d-0fbc-3cf4-2d18-5717e50236dc"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 32,
+          "maximum": 43,
+          "source_url": "https://japansociety.org/events/white-stones/",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kaoru Watanabe",
+          "title": "Néo",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/n%C3%A9o/1113857826"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "individual event instrument assignments",
+          "Kite Apple Music destination"
+        ],
+        "note": "Japan Society verifies the exact event, world-premiere framing, 20:00 showtime, venue/address, price range, co-creators, program-wide instrument list, real-time sovereign-AI element and TWO SOILS context. The official page links directly to the Japan Society box-office destination. Apple Music provides an exact Kaoru Watanabe album destination for Néo. No per-performer instrument assignments or Kite Apple Music destination are asserted without a direct source."
+      },
+      "sources": [
+        {
+          "url": "https://japansociety.org/events/white-stones/",
+          "publisher": "Japan Society",
+          "checked_on": "2026-09-03",
+          "note": "Primary presenter page verifies December 11, 2026, 20:00, world-premiere status, Kaoru Watanabe and Kite, the program-wide instrument list, real-time sovereign-AI element, Noh/Lakota framing, TWO SOILS membership, reserved prices and Japan Society's New York address."
+        },
+        {
+          "url": "https://japansociety.org/performing-arts/two-soils-series/",
+          "publisher": "Japan Society",
+          "checked_on": "2026-09-03",
+          "note": "Primary series page verifies White Stones as the December 11 contemporary-music program in TWO SOILS and describes the series as premieres/new collaborations examining inherited national stories across Japan and the United States during the U.S. 250th-anniversary year."
+        },
+        {
+          "url": "https://www.watanabekaoru.com/profile-en",
+          "publisher": "Kaoru Watanabe",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist biography verifies Watanabe's grounding in Japanese traditional performing arts, experimental and improvisational practice, jazz study and extended work with Kodo before returning to New York."
+        },
+        {
+          "url": "https://www.kitekitekitekite.com/",
+          "publisher": "Kite",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist site identifies Kite as an Oglála Lakȟóta artist, composer and scholar and documents her longstanding machine-learning, body-interface, sound/video and Indigenous-AI practice."
+        },
+        {
+          "url": "https://music.apple.com/us/album/n%C3%A9o/1113857826",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album page verifies Kaoru Watanabe's Néo, released April 20, 2016."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-apple-sources",
+        "note": "Core event facts and ticket prices come from Japan Society's exact event page, with the broader Japan-America curatorial frame verified by its TWO SOILS page. Artist-specific context comes from Watanabe's and Kite's own sites, and the listening destination is an exact Apple Music album page. Repository searches found no existing White Stones / Watanabe + Kite / Japan Society RADAR record or stable-ID collision before publication. Priority A+ was assigned only after Stage 1 admission: the world premiere and real-time encounter among Japanese instruments, Lakota ceremonial reference and sovereign AI merit making room for the event, while the absence of a verified farewell, last opportunity or other concrete recurrence barrier keeps it below the S scarcity threshold."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a world premiere built around an actual encounter rather than a vague fusion label: Watanabe's Japanese traditional and improvisational language meets Kite's Lakota performance practice and sovereign AI, with drums, flute, koto, voice, violin, electronics and invented instruments all inside the same live system. The TWO SOILS frame sharpens the point further, asking what artists inherit from national and ancestral stories and what happens when those inheritances are allowed to challenge one another in real time.",
+          "trip_verdict": "If New York is workable on December 11, I would make room for this and build the evening around Japan Society. From the DMV, it is strong enough to anchor a New York day, especially if another good reason can share the corridor trip.",
+          "listen_before": "Néo — Kaoru Watanabe"
+        },
+        "es": {
+          "why_it_matters": "Aquí sí hay un encuentro real y no una etiqueta vaga de fusión: el lenguaje japonés, tradicional e improvisatorio de Watanabe entra en contacto con la práctica Lakota de Kite y con su IA soberana, dentro de un mismo sistema en vivo de tambores, flauta, koto, voz, violín, electrónica e instrumentos inventados. El marco de TWO SOILS aprieta todavía más la idea: qué reciben los artistas de las historias nacionales y ancestrales, y qué ocurre cuando esas herencias pueden interpelarse entre sí en tiempo real.",
+          "trip_verdict": "Si Nueva York es viable el 11 de diciembre, sí le haría espacio y armaría la noche alrededor de Japan Society. Desde el DMV puede anclar un día en Nueva York, mejor todavía si otra razón fuerte comparte el viaje por el corredor.",
+          "listen_before": "Néo — Kaoru Watanabe"
+        }
+      }
+    }
+  ]
+}
