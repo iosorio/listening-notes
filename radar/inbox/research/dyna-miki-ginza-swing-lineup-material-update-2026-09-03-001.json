@@ -1,0 +1,38 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "dyna-miki-ginza-swing-lineup-material-update-2026-09-03-001",
+  "created_on": "2026-09-03",
+  "notes": "Material factual-update research for the existing October 10, 2026 Ginza Swing RADAR record. The exact current Ginza Swing event page now lists vocalist Dyna Miki with pianist Junichiro Oguchi, bassist Daiki Yasukagawa and drummer Chikko Soma, not Tsuyoshi Yamamoto. It also now publishes 19:00 and 20:30 sets and a ¥4,500 ticket price. This resolves the apparent same-evening conflict with A-TRAIN's newly published official October schedule, which lists Tsuyoshi Yamamoto with Riku Takahashi from 19:00 to 21:30. The current enrichment contract explicitly forbids changing artist, lineup, showtimes or prices, so this research handoff records current source/provenance evidence and preserves the unresolved official-ticket enrichment state; it does not silently alter radar/events.json. A separate factual/editorial correction is required.",
+  "events": [
+    {
+      "id": "dyna-miki-tsuyoshi-yamamoto-ginza-swing-2026-10-10",
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Ginza Swing event page is current and authoritative, but the announced TicketPay general sale does not begin until September 15, so no exact authorized purchase URL is yet recorded. The same page now changes the factual lineup from the existing RADAR record to Dyna Miki, Junichiro Oguchi, Daiki Yasukagawa and Chikko Soma and publishes 19:00/20:30 sets and ¥4,500; those factual fields are outside the enrichment patch contract and require separate review."
+      },
+      "sources": [
+        {
+          "url": "https://ginzaswing.jp/20261010-2/",
+          "publisher": "Ginza Swing",
+          "checked_on": "2026-09-03",
+          "note": "Exact primary event page currently lists vo. Dyna Miki, p. Junichiro Oguchi, b. Daiki Yasukagawa and dr. Chikko Soma; doors 18:00, first set 19:00, second set 20:30; ¥4,500 advance/day-of ticket; and general TicketPay sales beginning September 15 at 12:00. The page title still contains the older Yamamoto billing, but the live event body has been updated to Oguchi."
+        },
+        {
+          "url": "https://atrain-jazz.com/livenews.html",
+          "publisher": "A-TRAIN",
+          "checked_on": "2026-09-03",
+          "note": "Primary A-TRAIN October schedule independently places Tsuyoshi Yamamoto on October 10 from 19:00-21:30 with bassist Riku Takahashi, supporting the conclusion that the older Ginza Swing Yamamoto billing has changed."
+        }
+      ],
+      "provenance": {
+        "status": "material-factual-change-detected",
+        "note": "Current primary sources contradict the existing RADAR artist/lineup fact for this Ginza Swing date. No canonical factual fields are modified because the current enrichment workflow permits only links, listening, enrichment, sources and provenance; the correction must proceed through a separate factual/editorial review.",
+        "recorded_on": "2026-09-03"
+      }
+    }
+  ]
+}
