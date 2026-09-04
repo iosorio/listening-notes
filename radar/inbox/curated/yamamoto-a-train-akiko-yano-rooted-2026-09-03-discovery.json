@@ -1,0 +1,250 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yamamoto-a-train-akiko-yano-rooted-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before discovery or grading. Stage 1 and Stage 2 were applied separately. A-TRAIN's current October schedule newly verifies a Tsuyoshi Yamamoto piano-bass duo with Riku Takahashi on October 10. Repository searches found no A-TRAIN/Yamamoto record for that date, but they did surface an existing processed October 10 Ginza Swing record that still names Yamamoto. Fresh primary-source re-verification shows Ginza Swing has changed that date's pianist to Junichiro Oguchi, resolving the apparent double booking; the stale canonical/processed fact is being documented separately as a material-update research handoff because the current enrichment patch contract cannot mutate artist, lineup, showtimes, or prices. The A-TRAIN duo clears Stage 1 because the exposed piano-bass format is a concrete, recurring but musically distinct Yamamoto small-room thread, and is graded A+: within Greater Tokyo/Kanto it is actively worth making room for, while repeated Yamamoto/Takahashi duo dates earlier in 2026 mean there is no S-level scarcity. A second new event, Rooted at Japan Society, clears Stage 1 through its specific Japan/US folk-reinvention program: Akiko Yano reunites with Hiromitsu Agatsuma in the theater where their min'yo project first took shape and adds a first-ever pairing with Sam Amidon. Stage 2 assigns S after the scarcity challenge: Agatsuma's official 2026 announcement shows Yano et Agatsuma also performing in Houston and San Francisco, so the reunion alone is not scarce; the New York performance is still a one-night, sold-out, first-ever Yano/Agatsuma/Amidon configuration around Japanese min'yo and the American songbook, led by a major living Japanese master in a context not currently announced elsewhere. A+ was explicitly challenged and judged insufficient for the exact New York configuration; S, not S+, captures the protect-the-night recommendation. This pass adds one A+ and one S; recent discovery output has been dominated by A/A+, so the single scarcity-tier assignment was challenged rather than used as a quota.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-duo-a-train-tokyo-2026-10-10",
+      "artist": "Tsuyoshi Yamamoto Duo",
+      "subtitle": "Tsuyoshi Yamamoto + Riku Takahashi",
+      "dates": {
+        "start": "2026-10-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "a-train-gakugei-daigaku-tokyo",
+        "name": "A-TRAIN",
+        "city": "Meguro, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese jazz / piano-bass duo / small-room master",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto — piano",
+        "Riku Takahashi — bass"
+      ],
+      "factual_description": "A-TRAIN's official October 2026 live schedule lists 'Tsuyoshi Yamamoto Duo Live' for Saturday, October 10, 2026, from 19:00 to 21:30, with Tsuyoshi Yamamoto on piano and Riku Takahashi on bass, at a music charge of ¥3,200. A-TRAIN identifies itself at 3-6-3 Takaban, Meguro-ku, Tokyo, about 30 seconds on foot from Gakugei-daigaku Station. The venue currently exposes the performance on its monthly live-information page rather than a stable event-specific page or purchase destination, so no event/ticket URL is invented.",
+      "links": {
+        "official_event": null,
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3200,
+          "maximum": 3200,
+          "source_url": "https://atrain-jazz.com/livenews.html",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio",
+          "title": "Blues For K",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/blues-for-k/6768695416"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_event",
+          "official_tickets"
+        ],
+        "note": "The official A-TRAIN monthly schedule verifies date, full time window, lineup and charge, but this pass did not establish a stable event-specific A-TRAIN page or authorized event-specific reservation/ticket destination. The exact Apple Music album destination for Blues For K is verified."
+      },
+      "sources": [
+        {
+          "url": "https://atrain-jazz.com/livenews.html",
+          "publisher": "A-TRAIN",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue October 2026 schedule verifies Saturday October 10, 19:00-21:30, '山本剛 Duo Live', Tsuyoshi Yamamoto on piano, Riku Takahashi on bass, and a ¥3,200 music charge."
+        },
+        {
+          "url": "https://atrain-jazz.com/access.html",
+          "publisher": "A-TRAIN",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue access page verifies A-TRAIN at 3-6-3 Takaban, Meguro-ku, Tokyo, about 30 seconds on foot from Gakugei-daigaku Station."
+        },
+        {
+          "url": "https://music.apple.com/us/album/blues-for-k/6768695416",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album destination for Blues For K by Tsuyoshi Yamamoto Trio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-apple-sources",
+        "note": "Core event facts come from A-TRAIN's current official October schedule; venue identity comes from A-TRAIN's access page; listening destination is an exact Apple Music album page. Repository searches for A-TRAIN, the proposed stable ID, and October 10 found no existing A-TRAIN/Yamamoto RADAR record. A same-date processed Ginza Swing record naming Yamamoto was rechecked against Ginza Swing's live page, which now lists Junichiro Oguchi on piano; that separate material correction is not silently applied here."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The duo format changes the Yamamoto question. With only Riku Takahashi on bass beside him, the piano's touch, timing and blues phrasing have nowhere to hide behind a full rhythm section. A-TRAIN is not a one-off prestige booking—the pair has played there repeatedly in 2026—which is precisely why this belongs as a living Tokyo thread rather than a manufactured rarity.",
+          "trip_verdict": "If October 10 overlaps with Tokyo, actively make room for the evening and choose the small-room duo over a routine club option. I would not rebuild a Japan trip around this date alone because the Yamamoto/Takahashi pairing recurs.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Blues For K"
+        },
+        "es": {
+          "why_it_matters": "El formato de dúo cambia la pregunta de Yamamoto. Con Riku Takahashi como único acompañante en el bajo, el toque, el tiempo y el fraseo blues del piano quedan completamente expuestos, sin una sección rítmica completa que los arrope. A-TRAIN no es una contratación de prestigio inventada como rareza: la pareja ya ha tocado ahí varias veces en 2026, y justamente por eso funciona como un hilo vivo del Tokio de Yamamoto.",
+          "trip_verdict": "Si el 10 de octubre coincide con Tokio, sí le haría espacio activamente a la noche y escogería este dúo de sala pequeña por encima de una fecha rutinaria de club. No rehacería un viaje a Japón sólo por esta función porque la pareja Yamamoto/Takahashi se repite.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Blues For K"
+        }
+      }
+    },
+    {
+      "id": "akiko-yano-rooted-japan-society-new-york-2026-09-18",
+      "artist": "Akiko Yano with Hiromitsu Agatsuma & Sam Amidon",
+      "subtitle": "Rooted: Akiko Yano — Japanese and American Folk",
+      "dates": {
+        "start": "2026-09-18",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "japan-society-new-york-ny",
+        "name": "Japan Society",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-03",
+        "rationale": "Concrete scarcity is the exact New York configuration: Japan Society bills this as Yano's reunion with Hiromitsu Agatsuma in the same theater where their min'yo project first took shape over a decade ago, plus a first-ever pairing with Sam Amidon around Japanese min'yo and the Appalachian/American songbook. Agatsuma's official North American announcement confirms Yano et Agatsuma also play Houston and San Francisco, so the duo reunion by itself does not earn S. The Sam Amidon collaboration is specific to the sold-out September 18 Japan Society program and is not currently announced elsewhere. A+ was explicitly challenged: for a major living Japanese master, missing this one-night first-ever three-way program would plausibly create genuine regret, so protect_the_night is warranted. The event does not rise to S+ because it is a rare collaboration, not a verified farewell or historically singular last opportunity."
+      },
+      "category": "Japanese/American folk reinvention / rare cross-cultural lineup",
+      "genres": [
+        "Japanese folk",
+        "Folk",
+        "J-pop",
+        "Contemporary music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters"
+      ],
+      "lineup": [
+        "Akiko Yano — piano, voice",
+        "Hiromitsu Agatsuma — Tsugaru shamisen",
+        "Sam Amidon — performer; exact instruments for this event not specified on the verified event page"
+      ],
+      "factual_description": "Japan Society presents Rooted: Akiko Yano — Japanese and American Folk on Friday, September 18, 2026 at 7:30 PM, followed by a season-opening reception with the artists. The program pairs Yano with Tsugaru-shamisen virtuoso Hiromitsu Agatsuma, reviving Yano et Agatsuma in the theater where their min'yo project first took shape more than a decade ago, and adds a first-ever pairing with Sam Amidon to rework Appalachian and American folk material. The performance is part of Japan Society's TWO SOILS series. The event is currently sold out; Japan Society says an in-person waitlist opens at its box office one hour before the performance, with one ticket per person if released. Listed reserved-ticket prices are $63 for nonmembers and $48 for members or persons with disabilities, inclusive of fees where applicable.",
+      "links": {
+        "official_event": "https://japansociety.org/events/rooted-akiko-yano-japanese-and-american-folk/",
+        "official_tickets": "https://boxoffice.japansociety.org/events/02739633-5ac5-8a4a-e325-2a1873194d52"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 48,
+          "maximum": 63,
+          "source_url": "https://japansociety.org/events/rooted-akiko-yano-japanese-and-american-folk/",
+          "checked_on": "2026-09-03"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yano et Agatsuma",
+          "title": "Asteroid and Butterfly",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/asteroid-and-butterfly/1499292088"
+        },
+        {
+          "artist": "Sam Amidon",
+          "title": "Lily-O",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/lily-o/907721178"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://japansociety.org/events/rooted-akiko-yano-japanese-and-american-folk/",
+          "publisher": "Japan Society",
+          "checked_on": "2026-09-03",
+          "note": "Primary presenter page verifies September 18, 2026 at 7:30 PM; Akiko Yano, Hiromitsu Agatsuma and Sam Amidon billing; Japanese min'yo and American folk program; reunion of Yano et Agatsuma in the theater where the project first ignited over a decade ago; first-ever Yano/Amidon pairing; TWO SOILS context; sold-out status; in-person waitlist policy; and $63/$48 reserved-ticket prices."
+        },
+        {
+          "url": "https://www.akikoyano.com/sp/news/",
+          "publisher": "Akiko Yano Official Website / Sony Music Artists",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist site independently lists the September 18, 2026 7:30 PM Japan Society New York performance."
+        },
+        {
+          "url": "https://agatsuma.tv/contents/1085193?tag=all",
+          "publisher": "Hiromitsu Agatsuma Official / Nippon Columbia",
+          "checked_on": "2026-09-03",
+          "note": "Primary artist announcement verifies the 2026 Yano et Agatsuma North American dates in Houston September 12 and San Francisco September 14, followed by the sold-out September 18 New York program with Sam Amidon. This source is used to challenge, rather than inflate, the scarcity judgment."
+        },
+        {
+          "url": "https://music.apple.com/us/album/asteroid-and-butterfly/1499292088",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album destination for Asteroid and Butterfly by Yano et Agatsuma."
+        },
+        {
+          "url": "https://music.apple.com/us/album/lily-o/907721178",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music album destination for Lily-O by Sam Amidon."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-ticket-and-apple-sources",
+        "note": "Core event facts, sold-out/waitlist status, prices and rare-program context come from Japan Society's exact event page and authorized box-office destination. Yano's official site independently lists the performance; Agatsuma's official site documents the broader North American duo dates, allowing the scarcity review to isolate the New York-only Sam Amidon configuration. Exact listening destinations are verified Apple Music album pages. Repository searches for Akiko Yano plus Sam Amidon/Agatsuma, the Rooted title, and the proposed stable ID returned no existing RADAR match before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a generic 'Japanese artist in New York' date. Yano returns to the room where her min'yo work with Hiromitsu Agatsuma first caught fire, then opens that language to Sam Amidon for the first time, placing Japanese folk memory beside the Appalachian songbook. The point is the collision: a major Japanese songwriter and improviser revisiting roots without treating tradition as a museum object.",
+          "trip_verdict": "If you can secure a ticket, protect the night in New York and let Japan Society anchor the trip. From the DMV I would not travel on the in-person waitlist alone, but a confirmed seat makes this specific program a strong reason to build a New York day around it.",
+          "listen_before": "Yano et Agatsuma — Asteroid and Butterfly; Sam Amidon — Lily-O"
+        },
+        "es": {
+          "why_it_matters": "No es una fecha genérica de 'artista japonesa en Nueva York'. Yano vuelve a la sala donde su trabajo de min'yo con Hiromitsu Agatsuma prendió por primera vez y abre ese lenguaje, por primera vez, a Sam Amidon, poniendo la memoria del folk japonés junto al cancionero de Appalachia. El punto está en el choque: una gran compositora e improvisadora japonesa revisitando las raíces sin tratarlas como pieza de museo.",
+          "trip_verdict": "Si consigues boleto, protegería la noche en Nueva York y dejaría que Japan Society ancle el viaje. Desde el DMV no subiría únicamente a probar suerte con la lista de espera presencial, pero con asiento confirmado sí construiría un día de Nueva York alrededor de este programa.",
+          "listen_before": "Yano et Agatsuma — Asteroid and Butterfly; Sam Amidon — Lily-O"
+        }
+      }
+    }
+  ]
+}
