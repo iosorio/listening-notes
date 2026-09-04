@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "little-feat-last-farewell-tachikawa-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks covered Tsuyoshi Yamamoto at Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A / KEYSTONE traces, and credible Japanese-jazz sources. The September 26 BODY&SOUL Final Groove and other Yamamoto appearances returned by the pass are already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. Broader Greater Tokyo research surfaced Little Feat's newly announced January 6, 2027 Tachikawa date on The Last Farewell Tour. Repository searches for Little Feat and for 2027-01-06 returned no matching event record. Stage 1 admits the performance for a concrete event-specific reason: Billboard JAPAN explicitly presents this run as the end of Little Feat's more-than-half-century touring life, and the Tokyo date is the only announced Greater Tokyo/Kanto performance in the two-date Japan routing. The band's groove-centered synthesis of rock, New Orleans music, jazz, blues and funk is directly aligned with Listening Notes rather than being admitted on legacy fame alone. Stage 2 assigns S after the required scarcity challenge. A+ was explicitly tested and judged insufficient because the farewell premise makes recurrence of a Little Feat touring performance in Tokyo materially unlikely; missing the only Tokyo/Kanto date would plausibly create genuine regret, so protect_the_night is warranted. S+ is not warranted because this is one stop on a broader farewell tour, with another Japan performance in Osaka and other tour dates beyond Japan, rather than the singular final concert. Recent/current intake was rechecked as a sanity test and remains structurally broader at A/A+, with S appearing as a challenged exception for verified scarcity. This batch adds A 0 / A+ 0 / S 1 / S+ 0; the S is based on the documented farewell condition, not a quota.",
+  "events": [
+    {
+      "id": "little-feat-last-farewell-tachikawa-stage-garden-tokyo-2027-01-06",
+      "artist": "Little Feat",
+      "subtitle": "The Last Farewell Tour",
+      "dates": {
+        "start": "2027-01-06",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "tachikawa-stage-garden-tachikawa-tokyo",
+        "name": "Tachikawa Stage Garden",
+        "city": "Tachikawa",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-04",
+        "rationale": "Concrete scarcity is the farewell condition itself: Billboard JAPAN's official tour page says Little Feat are drawing a line under more than half a century of live touring, and January 6 is the only announced Tokyo/Kanto performance in the Japan routing. A+ was explicitly challenged and judged insufficient because a future routine Tokyo return cannot reasonably be assumed once the band has announced the end of touring; missing this date could therefore create genuine regret. S+ is not warranted because Tachikawa is not advertised as the band's singular final concert: the Japan run also includes Osaka on January 4 and The Last Farewell Tour is a broader routing. This is a protect-the-night final-access event, not an alter-plans historically unique last show."
+      },
+      "category": "Farewell tour / culturally significant rock / groove lineage",
+      "genres": [
+        "Rock",
+        "Funk",
+        "Blues",
+        "Roots rock"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Bill Payne — keyboards, vocals",
+        "Kenny Gradney — bass",
+        "Fred Tackett — guitar, vocals, mandolin, trumpet",
+        "Scott Sharrard — guitar, vocals",
+        "Tony Leone — drums"
+      ],
+      "factual_description": "Billboard JAPAN presents Little Feat's The Last Farewell Tour at Tachikawa Stage Garden on Wednesday, January 6, 2027, with doors at 18:00 and the performance at 19:00. The official Japan tour page describes the run as the band bringing more than half a century of live touring to a close and lists the Japan-performance personnel as Bill Payne, Kenny Gradney, Fred Tackett, Scott Sharrard and Tony Leone. It announces two Japan dates: Osaka Festival Hall on January 4 and Tachikawa Stage Garden on January 6. Published Tokyo ticket categories are meet-and-greet VIP ¥50,000, front SS reserved ¥18,900, S reserved ¥16,800, A reserved ¥15,800 and third-floor U25 ¥8,900. Because the event-specific Japan page does not list Sam Clayton in its MEMBER section, he is not inferred into this performance lineup despite appearing among current band members on Little Feat's own site.",
+      "links": {
+        "official_event": "https://www.billboard-japan.com/littlefeat2027/",
+        "official_tickets": "https://l-tike.com/littlefeat/"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Little Feat",
+          "title": "Waiting for Columbus (Live)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/waiting-for-columbus-live/286757362"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Date, doors, showtime, venue, published Japan-tour personnel, farewell context, two-date Japan routing, published ticket categories, an authorized ticket destination and an exact Apple Music album destination are verified. No unannounced personnel, repertoire or additional Japan dates are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-japan.com/littlefeat2027/",
+          "publisher": "Billboard JAPAN / Hanshin Contents Link",
+          "checked_on": "2026-09-04",
+          "note": "Primary organizer/producer tour page verifies The Last Farewell Tour framing, the end-of-touring context, January 6 Tachikawa Stage Garden date, 18:00 doors, 19:00 start, five announced Japan-performance members, ticket categories and the two-date Japan routing."
+        },
+        {
+          "url": "https://l-tike.com/littlefeat/",
+          "publisher": "Lawson Ticket",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticket landing page verifies Little Feat ticket inventory for January 4-6, 2027 in Osaka and Tokyo and identifies Tachikawa Stage Garden as the January 6 Tokyo venue."
+        },
+        {
+          "url": "https://www.littlefeat.net/contact",
+          "publisher": "Little Feat",
+          "checked_on": "2026-09-04",
+          "note": "Official band site verifies the current band identity and member roster. It includes Sam Clayton, who is intentionally not added to this event's lineup because the event-specific Japan tour page lists only Payne, Gradney, Tackett, Sharrard and Leone."
+        },
+        {
+          "url": "https://music.apple.com/us/album/waiting-for-columbus-live/286757362",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music destination verifies Little Feat's 1978 live album Waiting for Columbus (Live)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-authorized-ticket-and-apple-sources",
+        "note": "Core event facts, performance-specific personnel and farewell language come from Billboard JAPAN's official tour page; ticket availability is corroborated by Lawson Ticket; current band identity is checked against Little Feat's official site; listening is an exact Apple Music destination. Repository searches for Little Feat and for the exact 2027-01-06 date found no matching event record. Priority S was assigned only after Stage 1 admission and a second scarcity challenge. The announced end of touring plus a single Tokyo/Kanto Japan date makes protect-the-night language durable, while the Osaka date and broader farewell routing prevent an S+ claim."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Little Feat's farewell matters because the thing disappearing is precisely what made the band consequential: a live, elastic groove where rock, New Orleans rhythm, blues, funk and jazz could coexist without sounding stitched together. Tachikawa is the only announced Tokyo/Kanto stop in the two-date Japan run, so this is not a generic legacy booking but a finite chance to hear that language from the band that spent decades refining it onstage.",
+          "trip_verdict": "If Tokyo/Kanto is already part of January, protect January 6 and let Tachikawa anchor the evening. From the DMV, I would not build an entire Japan trip around this one stop alone unless Little Feat is personally central, because the farewell routing includes other cities; within Japan, however, this is the Kanto date to choose.",
+          "listen_before": "Waiting for Columbus (Live) — Little Feat"
+        },
+        "es": {
+          "why_it_matters": "La despedida de Little Feat importa porque lo que desaparece es justamente aquello que volvió esencial a la banda en vivo: un groove flexible donde rock, ritmo de Nueva Orleans, blues, funk y jazz conviven sin sentirse pegados a la fuerza. Tachikawa es la única fecha anunciada en Tokio/Kanto dentro de las dos presentaciones japonesas, así que no es una escala rutinaria de una banda histórica sino una oportunidad finita de escuchar ese lenguaje en manos del grupo que pasó décadas afinándolo sobre el escenario.",
+          "trip_verdict": "Si Tokio/Kanto ya forma parte del plan de enero, protegería el 6 de enero y dejaría que Tachikawa ancle la noche. Desde el DMV no armaría un viaje completo a Japón únicamente por esta escala salvo que Little Feat sea personalmente central, porque la despedida recorre otras ciudades; dentro de Japón, en cambio, ésta es la fecha de Kanto que escogería.",
+          "listen_before": "Waiting for Columbus (Live) — Little Feat"
+        }
+      }
+    }
+  ]
+}
