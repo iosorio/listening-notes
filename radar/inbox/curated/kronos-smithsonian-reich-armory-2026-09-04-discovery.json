@@ -1,0 +1,206 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kronos-smithsonian-reich-armory-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources; the verified Yamamoto dates resurfacing in this pass are already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. Repository-wide searches found no existing RADAR record for either Kronos Quartet at the National Museum of American History on September 12 or Steve Reich's Music for 18 Musicians: Staged Variations at Park Avenue Armory October 14-18. Stage 1 admits Kronos for the one-time 25th-anniversary September 11 memorial context at the museum Congress charged with documenting and preserving the attacks, with WTC 9/11's archival voices placed inside that institutional remembrance program. Stage 2 assigns S only after an explicit scarcity challenge: A+ was tested and judged insufficient because the exact 25th-anniversary museum context cannot recur and this is a protect-the-afternoon local performance whose absence would plausibly bring genuine regret; S+ is not warranted because Kronos remains active and the repertoire can recur outside this commemoration. Stage 1 admits the Armory production for its specific 50th-anniversary/90th-birthday durational re-staging, bringing the Steve Reich Ensemble, Alarm Will Sound and Manhattan School of Music musicians into an immersive three-generation cycle. Stage 2 assigns A+: five performances across October 14-18 and a broader season of Reich-at-90 programming mean actively make room is sufficient without manufacturing scarcity. As a sanity check, the immediately recent curated output is still weighted toward A/A+ with a small number of individually challenged S cases; this batch adds A 0 / A+ 1 / S 1 / S+ 0, and the S rests on a non-repeatable commemorative setting rather than artist prestige or quota.",
+  "events": [
+    {
+      "id": "kronos-quartet-september-11-25-years-later-smithsonian-2026-09-12",
+      "artist": "Kronos Quartet",
+      "subtitle": "September 11: 25 Years Later",
+      "dates": {
+        "start": "2026-09-12",
+        "end": null
+      },
+      "showtimes": [
+        "15:00"
+      ],
+      "venue": {
+        "id": "national-museum-of-american-history-washington-dc",
+        "name": "National Museum of American History",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-04",
+        "rationale": "The scarcity is the exact historical setting, not Kronos's fame. September 12 closes the National Museum of American History's 25th-anniversary September 11 commemoration, at the institution Congress charged three months after the attacks with documenting the events and preserving their material history. Kronos places Steve Reich's WTC 9/11—with recorded NORAD communications, FDNY radio and interviews with people who lived and worked in lower Manhattan—at the center of a program on loss, resilience, preservation and remembrance, followed by a conversation with museum staff. A+ was explicitly challenged and judged insufficient: the quartet and parts of the repertoire can recur, but this 25th-anniversary museum frame cannot, and missing the local one-time convergence would plausibly create genuine regret. S+ is not warranted because this is not a farewell or singular last chance to hear Kronos or WTC 9/11; the non-repeatable element is the commemorative context."
+      },
+      "category": "String quartet / 9/11 memorial / archival audio / cultural memory",
+      "genres": [
+        "Contemporary classical",
+        "Experimental",
+        "Minimalism",
+        "Cross-cultural"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Kronos Quartet"
+      ],
+      "factual_description": "The National Museum of American History presents Kronos Quartet on Saturday, September 12, 2026 from 3:00 to 5:00 PM in the Warner Bros. Theater as part of September 11: 25 Years Later. The event is free but ticketed, with limited seating and reservations recommended. The centerpiece is Steve Reich's WTC 9/11, which combines live quartet performance with recorded NORAD communications, FDNY radio transmissions and interviews with people who lived and worked in lower Manhattan. The published program also includes music by John Oswald, Terry Riley, Neil Young, Ramallah Underground, Aftab Darvishi, Laurie Anderson, Trevor Weston, Zachary James Watkins and Stacy Garrop, among others; Glorious Mahalia uses recorded voices of Mahalia Jackson and Studs Terkel. Members of Kronos join museum staff for a conversation after the performance. The museum's September calendar states that Congress charged the museum three months after the attacks with documenting the events and preserving artifacts, and positions this concert within its 25th-anniversary remembrance program. The current event page bills Kronos Quartet but does not name member-level personnel, so no individual quartet lineup is inferred.",
+      "links": {
+        "official_event": "https://americanhistory.si.edu/events/calendar/kronos-quartet",
+        "official_tickets": "https://nmahkronosquartet.eventbrite.com"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://americanhistory.si.edu/events/calendar/kronos-quartet",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "member_level_personnel",
+          "apple_music"
+        ],
+        "note": "Date, time, museum/theater identity, free-ticketed status, complete published program, WTC 9/11 source-audio description, post-performance conversation and 25th-anniversary institutional context are verified from current Smithsonian primary pages. The event page does not publish member-level Kronos personnel, and no exact Apple Music destination was needed for admission, so neither is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://americanhistory.si.edu/events/calendar/kronos-quartet",
+          "publisher": "Smithsonian National Museum of American History",
+          "checked_on": "2026-09-04",
+          "note": "Primary event page verifies September 12, 2026, 3:00-5:00 PM, Warner Bros. Theater, free but ticketed status, the full published program, WTC 9/11 archival-audio description, post-performance conversation, and the 25th-anniversary framing."
+        },
+        {
+          "url": "https://americanhistory.si.edu/press/releases/September-2026-calendar",
+          "publisher": "Smithsonian National Museum of American History",
+          "checked_on": "2026-09-04",
+          "note": "Primary museum press calendar independently places the concert inside September 11: 25 Years Later and states that Congress charged the museum three months after the attacks with documenting the events and preserving artifacts that tell the story of that day."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-smithsonian-sources",
+        "note": "Core event facts, program and commemorative context are verified from current National Museum of American History pages. Repository searches by artist/date and stable ID found no canonical, curated or processed match before publication. Priority S was assigned only after Stage 1 admission and an explicit A+ scarcity challenge; the one-time 25th-anniversary museum context, not Kronos's general stature, is the basis for protect-the-night treatment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not simply Kronos playing WTC 9/11. The museum charged with preserving the material history of the attacks is placing Reich's work—its NORAD calls, FDNY radio and survivor voices—inside the 25th-anniversary act of remembrance, surrounded by music about loss, resistance, memory and preservation. The institution, the date and the source material collapse archive and performance into the same room.",
+          "trip_verdict": "In the DMV, protect the afternoon and register rather than counting on walk-in seating. If the day allows, pair the concert with the museum's 9/11 collection presentation before the 3:00 PM performance; there is no travel case for waiting on another regional date because the commemorative setting is the point.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "No es simplemente Kronos tocando WTC 9/11. El museo encargado de preservar la memoria material de los atentados coloca la obra de Reich—con comunicaciones de NORAD, radio del FDNY y voces de quienes vivieron y trabajaron en Lower Manhattan—dentro del acto conmemorativo de los 25 años, rodeada de música sobre pérdida, resistencia, memoria y preservación. La institución, la fecha y el material de archivo terminan ocupando el mismo espacio que la interpretación.",
+          "trip_verdict": "En el DMV, protegería la tarde y me registraría en vez de depender del acceso sin reservación. Si el día lo permite, juntaría el concierto con la presentación de la colección del 11-S antes de las 3:00; aquí no tiene sentido esperar otra fecha regional porque el contexto conmemorativo es precisamente lo irrepetible.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "steve-reich-music-for-18-musicians-park-avenue-armory-2026-10-14",
+      "artist": "Steve Reich / Alan Pierson / Steve Reich Ensemble / Alarm Will Sound",
+      "subtitle": "Music for 18 Musicians: Staged Variations",
+      "dates": {
+        "start": "2026-10-14",
+        "end": "2026-10-18"
+      },
+      "showtimes": [
+        "19:00",
+        "15:00"
+      ],
+      "venue": {
+        "id": "park-avenue-armory-new-york-ny",
+        "name": "Park Avenue Armory",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Minimalism / 50th anniversary / immersive durational staging / living master",
+      "genres": [
+        "Minimalism",
+        "Contemporary classical",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Steve Reich Ensemble",
+        "Alarm Will Sound",
+        "Musicians from Manhattan School of Music — individual personnel not listed on the current primary page",
+        "Alan Pierson — direction and music direction"
+      ],
+      "factual_description": "Park Avenue Armory presents Music for 18 Musicians: Staged Variations in the Wade Thompson Drill Hall from Wednesday, October 14 through Sunday, October 18, 2026. Wednesday through Saturday performances begin at 7:00 PM and Sunday begins at 3:00 PM; the production runs approximately three hours and thirty minutes. The Armory frames the production around both the 50th anniversary of Music for 18 Musicians' premiere and Steve Reich's 90th birthday. Alan Pierson stages and music-directs a cycling durational version that brings together the original Steve Reich Ensemble, Alarm Will Sound and next-generation musicians from Manhattan School of Music, with the musicians encircling the audience and connective interludes by special guest artists. John Heginbotham is credited for movement and associate direction, Urs Schönebaum for lighting design and Mark Grey for sound design. Tickets start at $55 including fees. The current primary page does not name the special guest artists or individual Manhattan School musicians, so none are inferred.",
+      "links": {
+        "official_event": "https://www.armoryonpark.org/season-events/2026-season/music-for-18-musicians-staged-variations/",
+        "official_tickets": "https://www.armoryonpark.org/season-events/2026-season/music-for-18-musicians-staged-variations/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 55,
+          "maximum": null,
+          "source_url": "https://www.armoryonpark.org/season-events/2026-season/music-for-18-musicians-staged-variations/",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "special_guest_artists",
+          "individual_musician_personnel",
+          "apple_music"
+        ],
+        "note": "Dates, day-specific showtimes, runtime, venue, $55 starting ticket price, anniversary frame, participating ensembles and named creative team are verified from the current Park Avenue Armory primary page. The page does not yet name special guest artists or individual Manhattan School of Music musicians, and no exact Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.armoryonpark.org/season-events/2026-season/music-for-18-musicians-staged-variations/",
+          "publisher": "Park Avenue Armory",
+          "checked_on": "2026-09-04",
+          "note": "Primary presenter page verifies October 14-18, Wade Thompson Drill Hall, Wednesday-Saturday 19:00 / Sunday 15:00, approximately 3h30m runtime, tickets from $55 including fees, the 50th-anniversary and Reich-at-90 framing, the Steve Reich Ensemble / Alarm Will Sound / Manhattan School of Music generational configuration, Alan Pierson's staging and the named creative team."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-source",
+        "note": "All recorded event facts come from the current Park Avenue Armory primary event page. Repository searches by artist/title/date and stable ID found no canonical, curated or processed match before publication. Priority A+ was assigned after Stage 1 admission: the immersive 50th-anniversary/90th-birthday construction merits actively making room if New York is in play, while five performances and a broader Reich-at-90 season mean A+ fully captures the recommendation without claiming scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Fifty years after its premiere, Reich's pulse machine is being rebuilt as a three-and-a-half-hour spatial cycle rather than revived as a standard concert piece. The Steve Reich Ensemble, Alarm Will Sound and Manhattan School musicians place three generations inside the same architecture while Alan Pierson turns the Drill Hall itself into part of the score. The anniversary matters because the staging asks what Music for 18 Musicians can become now, not because a round number needs celebrating.",
+          "trip_verdict": "If New York is already in play, actively make room for one of the five performances and let the Armory anchor that part of the trip. From the DMV, I would pair it with another strong New York reason rather than build a dedicated trip around a run that offers several chances to catch the production.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Cincuenta años después del estreno, la máquina de pulsos de Reich se reconstruye como un ciclo espacial de tres horas y media, no como una reposición convencional de concierto. Steve Reich Ensemble, Alarm Will Sound y músicos de Manhattan School ponen tres generaciones dentro de la misma arquitectura, mientras Alan Pierson convierte el Drill Hall en parte de la partitura. El aniversario importa porque el montaje pregunta en qué puede convertirse hoy Music for 18 Musicians, no porque haya que festejar un número redondo.",
+          "trip_verdict": "Si Nueva York ya está en juego, sí haría espacio para una de las cinco funciones y dejaría que el Armory ancle esa parte del viaje. Desde el DMV, la combinaría con otra razón fuerte para subir en vez de armar un viaje dedicado alrededor de una producción que ofrece varias oportunidades para verla.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
