@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tanaka-yoshito-live-experiment-ix-blues-alley-japan-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A, current Yamamoto schedule traces, and credible Japanese-jazz sources; no new verified, unrepresented Yamamoto appearance was found. The broader Tokyo/Kanto pass found the newly announced TANAKA YOSHITO LIVE EXPERIMENT IX at BLUES ALLEY JAPAN on November 5, 2026. Repository searches for the billing, Yoshito Tanaka / 田中義人, and the proposed stable ID returned no existing canonical, curated, or processed match before publication. Stage 1 admission clears because this specific performance makes Tanaka's production method itself part of the live proposition: authorized ticket copy says original material designed with MPC3000 and Ableton LIVE is transformed by the announced voice/keys-bass-drums-guitar quartet into live music, while authoritative release notes describe his solo language through 90s hip-hop-informed beats, floating synths, and guitar. Stage 2 is A: this is a useful Tokyo discovery with a concrete instrumental/cross-production reason to attend if convenient, but LIVE EXPERIMENT is an active recurring series (the same venue presented VII on September 2), so there is no scarcity, premiere, farewell, or one-off lineup claim that would justify displacing a stronger commitment. The current priority rubric and recent/current RADAR material were checked for shape; assigning A supports the intended broad base without using priority as an admission filter. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "tanaka-yoshito-live-experiment-ix-blues-alley-japan-tokyo-2026-11-05",
+      "artist": "Yoshito Tanaka",
+      "subtitle": "TANAKA YOSHITO LIVE EXPERIMENT IX — MPC/Ableton-built originals translated into a live quartet",
+      "dates": {
+        "start": "2026-11-05",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "blues-alley-japan-meguro-tokyo",
+        "name": "BLUES ALLEY JAPAN",
+        "city": "Meguro, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Tokyo guitar-led crossover / live beatmaking-to-band experiment",
+      "genres": [
+        "Crossover",
+        "Funk",
+        "Hip-hop-influenced",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Katsuyuki Mito — vocals, keyboards",
+        "Takashi Numazawa — drums",
+        "Tomohiko Ohkanda — bass",
+        "Yoshito Tanaka — guitar, backing vocals"
+      ],
+      "factual_description": "BLUES ALLEY JAPAN presents TANAKA YOSHITO LIVE EXPERIMENT IX on Thursday, November 5, 2026 at 1-3-14 Meguro, Meguro-ku, Tokyo, B1F of Meguro Holic Hotel. Doors are at 6:00 PM and the two-set performance begins at 7:00 PM. The announced lineup is Katsuyuki Mito on vocals/keyboards, Takashi Numazawa on drums, Tomohiko Ohkanda on bass, and Yoshito Tanaka on guitar/backing vocals. The venue lists advance prices of ¥6,500 for a table seat, ¥11,500 for a Plate Set, and ¥14,500 for a Dinner Set; same-day prices are ¥550 higher, and the table seat carries a separate ¥550 seat charge. BAJ Club advance reservations are scheduled to open September 9 at noon and general venue reservations September 16 at 2:00 PM. The authorized eplus event page describes Tanaka as a guitarist and sound producer and says the concert turns original material designed with MPC3000 and Ableton LIVE into vivid live music with this band.",
+      "links": {
+        "official_event": "https://www.bluesalley.co.jp/schedule/syousai.html?c_code=Schedule-20260903015359&disp_date=20&status=ok&type=s",
+        "official_tickets": "https://eplus.jp/sf/detail/4600320001-P0030001P021001?P1=0817"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 6500,
+          "maximum": 14500,
+          "source_url": "https://www.bluesalley.co.jp/schedule/syousai.html?c_code=Schedule-20260903015359&disp_date=20&status=ok&type=s",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yoshito Tanaka",
+          "title": "Time",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/time/1596682608"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact BLUES ALLEY JAPAN event page verifies the date, venue, doors/start time, two-set format, four-member lineup, reservation calendar, and published advance/day-of pricing. The event-level eplus page corroborates the November 5 billing and documents the MPC3000/Ableton-to-live-band concept. Virgin Music's Yoshito Tanaka release profile supplies authoritative musical context for Time, and the exact Apple Music album destination is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluesalley.co.jp/schedule/syousai.html?c_code=Schedule-20260903015359&disp_date=20&status=ok&type=s",
+          "publisher": "BLUES ALLEY JAPAN",
+          "checked_on": "2026-09-04",
+          "note": "Official venue event page verifies November 5, 2026; 6:00 PM doors; 7:00 PM two-set performance; Mito/Numazawa/Ohkanda/Tanaka lineup; advance and day-of prices; reservation dates; and the Meguro venue address."
+        },
+        {
+          "url": "https://www2.bluesalley.co.jp/",
+          "publisher": "BLUES ALLEY JAPAN",
+          "checked_on": "2026-09-04",
+          "note": "Official venue homepage records the September 4, 2026 announcement of the new November 5 TANAKA YOSHITO LIVE EXPERIMENT IX performance."
+        },
+        {
+          "url": "https://eplus.jp/sf/detail/4600320001-P0030001P021001?P1=0817",
+          "publisher": "eplus",
+          "checked_on": "2026-09-04",
+          "note": "Authorized event-level ticket page verifies the November 5 BLUES ALLEY JAPAN event and describes Tanaka's original material as designed with MPC3000 and Ableton LIVE and transformed into live music by the announced project."
+        },
+        {
+          "url": "https://www.virginmusic.jp/2021/10/06/yoshito-tanaka-time/",
+          "publisher": "Virgin Music Label & Artist Services Japan",
+          "checked_on": "2026-09-04",
+          "note": "Authoritative label/distributor release profile identifies Tanaka as guitarist, beat maker and sound producer and describes Time through 1990s hip-hop-influenced beats, floating synth textures and guitar; it also documents his Mondo Grosso and broad production/session lineage."
+        },
+        {
+          "url": "https://music.apple.com/us/album/time/1596682608",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album destination for Yoshito Tanaka's Time, released December 8, 2021."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticket-label-and-apple-sources",
+        "note": "Core volatile event facts come from the exact BLUES ALLEY JAPAN event page and its current announcement surface; eplus is the event-level authorized ticket destination. Virgin Music and Apple Music provide durable artist/release context. Repository searches found no pre-existing TANAKA YOSHITO LIVE EXPERIMENT IX, Yoshito Tanaka / 田中義人, or proposed stable-ID RADAR record before publication. No second-set start time, unannounced personnel, or unsupported scarcity claim was inferred. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the conversion from studio architecture to a real band. Tanaka's solo language has been built from beatmaking, synth space and a very identifiable guitar voice; here material designed with MPC3000 and Ableton LIVE is handed to voice/keys, bass, drums and guitar and asked to breathe as live music. That makes the experiment less about watching a session guitarist stretch out and more about hearing programmed structure, groove and instrumental interaction negotiate with each other in a small Meguro room.",
+          "trip_verdict": "If November 5 falls inside a Tokyo stay and the beatmaking-to-guitar thread sounds interesting, this is a worthwhile Meguro night to keep in the options. I would not break an already stronger plan or reroute a Kanto itinerary around it.",
+          "listen_before": "Yoshito Tanaka — Time"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en pasar la arquitectura de estudio a una banda real. El lenguaje solista de Tanaka se ha construido con beatmaking, espacio de sintetizadores y una voz de guitarra muy reconocible; aquí material diseñado con MPC3000 y Ableton LIVE pasa a voz/teclados, bajo, batería y guitarra para respirar como música en vivo. El interés no es simplemente ver a un guitarrista de sesión soltarse, sino escuchar cómo la estructura programada, el groove y la interacción instrumental negocian entre sí en un cuarto pequeño de Meguro.",
+          "trip_verdict": "Si el 5 de noviembre cae dentro de una estancia en Tokio y te interesa el cruce entre beatmaking y guitarra, vale tener esta noche de Meguro entre las opciones. No rompería un plan fuerte ya armado ni reordenaría un itinerario de Kanto alrededor de esta fecha.",
+          "listen_before": "Yoshito Tanaka — Time"
+        }
+      }
+    }
+  ]
+}
