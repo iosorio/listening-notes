@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sensorium-world-national-sawdust-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto sources, including BODY&SOUL and existing ALFIE/Space M&A/current-schedule traces, did not produce a verified future Yamamoto appearance that was not already represented in canonical/curated/processed intake. Repository searches for Sensorium World, Sensorium Ex + National Sawdust, and the proposed stable ID returned no existing RADAR match. Stage 1 admits this performance for a concrete live construction: Sensorium AI models the performer’s own vocalizations and allows the Kitsune performer to shape an AI-generated operatic voice in real time through depth-sensing gesture, placing disability agency, voice, electronics and improvisation inside the performance system rather than using AI as a decorative theme. Stage 2 assigns A+: if New York is in play, the live interface, predominantly disability-centered project and exact National Sawdust/VisionIntoArt context merit actively making room. No scarcity tier is warranted because Sensorium Ex had its world premiere in May 2025 and VisionIntoArt currently identifies it as an active project, demonstrating that the work can recur. The immediately recent RADAR intake remains weighted toward A/A+ with only individually challenged scarcity-tier cases; this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "sensorium-ex-national-sawdust-brooklyn-2026-11-19",
+      "artist": "Paola Prestini / Brenda Shaughnessy / VisionIntoArt",
+      "subtitle": "Sensorium World — Sensorium Ex",
+      "dates": {
+        "start": "2026-11-19",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental chamber opera / AI voice interface / disability / live electronics",
+      "genres": [
+        "Contemporary classical",
+        "Opera",
+        "Experimental",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Hailey McAvoy — Mem",
+        "Jakob Jordan — Kitsune",
+        "Jeffrey Zeigler — cello"
+      ],
+      "factual_description": "National Sawdust presents Sensorium World on Thursday, November 19, 2026, centered on Paola Prestini and Brenda Shaughnessy’s Sensorium Ex, developed and produced by VisionIntoArt and Beth Morrison Projects. The current National Sawdust event page explicitly lists doors at 6:30 PM while also displaying 6:30 PM as the event time; because the primary source does not resolve whether that second field is the actual performance start, no showtime is inferred. The current page names Hailey McAvoy as Mem, Jakob Jordan as Kitsune and Jeffrey Zeigler on cello; it also credits Prestini for music, Shaughnessy for libretto, Jay Scheib and Jerron Herman for direction, Elizabeth Askren for music direction, Beth Morrison and Ras Dia for creative producing, and Luke DuBois as Sensorium AI software designer and project director. Sensorium AI uses vocal sampling of the performer’s own vocalizations to synthesize an expressive operatic voice, with depth-sensing gesture allowing the performer to manipulate pitch, pace and emotion in real time. VisionIntoArt identifies Sensorium Ex as an active project and records its world premiere as May 22–25, 2025 at the Common Senses Festival in Omaha, so this November 2026 National Sawdust performance is not described as a premiere.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/visionintoart-in-residence-sensorium-world",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280641"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1280641",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "performance_start_time",
+          "official_ticket_price",
+          "complete_current_performing_ensemble_personnel",
+          "apple_music"
+        ],
+        "note": "Date, doors, venue, named current cast/cello credit, principal creative team and live Sensorium AI mechanism are verified from National Sawdust’s exact current event page. VisionIntoArt verifies the active-project status and May 2025 world premiere. National Sawdust’s page uses 6:30 PM both as doors and as its displayed event time, so the exact performance start remains unresolved rather than being inferred. No ticket price, unlisted current ensemble personnel or Apple Music destination is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/visionintoart-in-residence-sensorium-world",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-04",
+          "note": "Primary event page verifies November 19, 2026, doors at 6:30 PM, seated format, the current named cast/cello credit and creative team, and describes the real-time vocal-sampling and depth-sensor Sensorium AI performance mechanism. The same page also displays 6:30 PM as the event time, leaving the actual performance-start field ambiguous."
+        },
+        {
+          "url": "https://www.visionintoart.org/via-projects/sensorium-ex",
+          "publisher": "VisionIntoArt",
+          "checked_on": "2026-09-04",
+          "note": "Primary project page identifies Sensorium Ex as active, verifies its May 22–25, 2025 world premiere, documents the AI voice-modulation research and its use of performer-controlled depth sensing, and supplies project/creative provenance."
+        },
+        {
+          "url": "https://www.paolaprestini.com/compositions/sensorium-ex",
+          "publisher": "Paola Prestini",
+          "checked_on": "2026-09-04",
+          "note": "Composer primary page verifies the 90-minute opera format, chamber-orchestra/electronics instrumentation and core collaborators, while confirming that the work premiered in May 2025."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280641",
+          "publisher": "AudienceView / OvationTix",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticket destination reached through National Sawdust’s current BUY TICKETS link. No price is recorded because a verified face-value amount was not available in the accessible source."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-project-composer-and-authorized-ticket-sources",
+        "note": "Core event facts and current named personnel come from National Sawdust; project technology, active status and premiere history are cross-checked against VisionIntoArt and Paola Prestini’s primary project pages. Repository searches for Sensorium World, Sensorium Ex + National Sawdust and the stable ID found no canonical, curated or processed match before publication. Stage 1 admission rests on the live AI/depth-sensing voice interface and disability-centered performance construction. Priority A+ was assigned only after admission: actively making room is warranted, while the work’s documented 2025 premiere and active-project status make a scarcity claim inappropriate."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The AI here is not a theme layered onto an opera; it is part of the instrument. Kitsune’s own vocal material feeds Sensorium AI, while gesture through depth sensing shapes the generated voice in real time, putting voice, agency, disability access and improvisation inside the performance system itself. At National Sawdust, that makes Sensorium Ex a live-technology proposition rather than a conventional revival of a 2025 opera.",
+          "trip_verdict": "If New York is already in play, actively make room and let National Sawdust anchor the evening. From the DMV, I would pair it with another strong New York reason rather than build a dedicated trip around a work that has already premiered and remains an active project.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí la IA no es un tema pegado a la ópera: forma parte del instrumento. El material vocal propio de Kitsune alimenta Sensorium AI y el gesto mediante sensores de profundidad moldea la voz generada en tiempo real, de modo que voz, agencia, accesibilidad e improvisación están metidas en el mecanismo mismo de la función. En National Sawdust, Sensorium Ex funciona como una propuesta de tecnología musical en vivo, no como una reposición convencional de una ópera estrenada en 2025.",
+          "trip_verdict": "Si Nueva York ya está en juego, le haría espacio y dejaría que National Sawdust ancle la noche. Desde el DMV la combinaría con otra razón fuerte para subir, en vez de hacer un viaje dedicado por una obra que ya tuvo su estreno y sigue activa.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
