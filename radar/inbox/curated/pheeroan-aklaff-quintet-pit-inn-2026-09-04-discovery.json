@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "pheeroan-aklaff-quintet-pit-inn-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources. The Yamamoto dates that resurfaced are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. The broader Tokyo pass found Pheeroan akLaff Quintet at Shinjuku PIT INN on October 19, 2026, absent from repository searches for the artist name and proposed stable ID. Stage 1 admission clears for a specific live context: PIT INN explicitly describes this as akLaff's first Japan visit in eight years and says he is assembling trusted long-term collaborators; Jun Miyake's official archive documents akLaff, Jun Miyake and Toshiki Nagata together at this same venue in 2013, while Arts for Art documents akLaff's work with Tom Pierson and Aska Maret-Kaneko, giving the 2026 return a documented collaborative history rather than generic prestige. Stage 2 is A+. The eight-year return is genuinely uncommon and deserves active space in a Tokyo itinerary, but no farewell, premiere, final performance, or one-off claim is published, and akLaff remains an active recording and performing artist. The explicit scarcity challenge therefore lands below S: A+ still captures the behavioral recommendation without overstating nonrecurrence. Recent/current RADAR intake was sanity-checked against the current rubric; A/A+ remain the intended broad base and S/S+ are reserved for stronger scarcity cases. This batch adds A 0 / A+ 1 / S 0 / S+ 0. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "pheeroan-aklaff-quintet-shinjuku-pit-inn-tokyo-2026-10-19",
+      "artist": "Pheeroan akLaff Quintet",
+      "subtitle": "First Japan appearance in eight years with longtime collaborators",
+      "dates": {
+        "start": "2026-10-19",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Creative jazz / eight-year Japan return / long-running international collaboration",
+      "genres": [
+        "Jazz",
+        "Creative music",
+        "Improvised music",
+        "Avant-garde jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Pheeroan akLaff — drums",
+        "Aska Maret — violin",
+        "Toshiki Nagata — bass",
+        "Tom Pierson — piano",
+        "Jun Miyake — tenor saxophone, flute, shakuhachi, nohkan"
+      ],
+      "factual_description": "Shinjuku PIT INN presents Pheeroan akLaff Quintet on Monday, October 19, 2026. Doors open at 19:00 and the performance starts at 19:30. Reserved admission is ¥5,500 and same-day admission is ¥6,050, both including one drink. The announced quintet is Pheeroan akLaff on drums, Aska Maret on violin, Toshiki Nagata on bass, Tom Pierson on piano, and Jun Miyake on tenor saxophone, flute, shakuhachi and nohkan. PIT INN explicitly states that this is akLaff's first visit to Japan in eight years and that he has assembled trusted musicians with whom he has performed over many years. Jun Miyake's official archive documents a September 16, 2013 Shinjuku PIT INN performance of akLaff's Dear Freedom Suite with Aska Kaneko, Miyake and Nagata; Arts for Art's akLaff biography separately lists recorded work with both Tom Pierson and Aska Maret-Kaneko. Seed Artists identifies akLaff as a drummer, composer, bandleader and educator with an international performance and recording history; no farewell, final-performance or premiere claim is published for the October 2026 date.",
+      "links": {
+        "official_event": "https://pit-inn.com/artist_live_info/261019pheeroan/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 5500,
+          "maximum": 6050,
+          "source_url": "https://pit-inn.com/artist_live_info/261019pheeroan/",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact PIT INN event page verifies the October 19 date, 19:00 doors, 19:30 start, full quintet, ¥5,500 reservation / ¥6,050 same-day prices with one drink, and the first-Japan-visit-in-eight-years framing. PIT INN says reservations are accepted through its per-performance online form, phone or venue desk, but the accessible event page does not expose a durable direct purchase destination that can be safely stored, so no ticket URL is invented. No exact Apple Music destination tied cleanly to this 2026 quintet was verified, so recommended_listening remains empty."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/artist_live_info/261019pheeroan/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-09-04",
+          "note": "Primary exact event page verifies October 19, 2026; 19:00 doors / 19:30 start; ¥5,500 reservation and ¥6,050 same-day admission including one drink; complete quintet; reservations currently accepted; and akLaff's first Japan visit in eight years."
+        },
+        {
+          "url": "https://pit-inn.com/show_detail/261019pheeroan-aklaff/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-09-04",
+          "note": "Official English mirror corroborates the date, times, prices, full Romanized lineup and the eight-year Japan-return framing."
+        },
+        {
+          "url": "https://junmiyake.net/event/501667/4416614/pheeroan-aklaff-dear-freedom-suite",
+          "publisher": "Jun Miyake official website",
+          "checked_on": "2026-09-04",
+          "note": "Official artist archive documents Pheeroan akLaff's Dear Freedom Suite at Shinjuku PIT INN on September 16, 2013 with Aska Kaneko, Jun Miyake and Toshiki Nagata, establishing prior collaboration among several musicians connected to the 2026 lineup."
+        },
+        {
+          "url": "https://www.artsforart.org/pheeroan-aklaff/",
+          "publisher": "Arts for Art",
+          "checked_on": "2026-09-04",
+          "note": "Artist biography documents akLaff's long creative-music history and specifically lists recorded work with Tom Pierson and Aska Maret-Kaneko, corroborating the long-running collaborator context."
+        },
+        {
+          "url": "https://seedartists.org/about-us/",
+          "publisher": "Seed Artists",
+          "checked_on": "2026-09-04",
+          "note": "Artist-founded nonprofit biography identifies akLaff as an internationally active drummer, composer, bandleader and educator and documents his long-running cross-cultural work."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-artist-sources",
+        "note": "Volatile event facts come from the exact Shinjuku PIT INN event page and its official English mirror. Long-term collaboration context is supported by Jun Miyake's official 2013 event archive and Arts for Art's akLaff biography; current artist identity and activity are supported by Seed Artists. Repository searches for Pheeroan, the exact 2026-10-19 date, and the proposed stable ID returned no matching canonical, curated or processed RADAR candidate before publication. Priority was assigned only after RADAR admission. No repertoire, additional personnel, farewell status, unexposed ticket URL, resale inventory or Apple Music ID was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the return, not the résumé. After eight years away from Japan, akLaff is reconvening collaborators with real shared history: Miyake's archive puts akLaff, Miyake and Nagata together at this same room in 2013, while Arts for Art documents his work with Tom Pierson and Aska Maret-Kaneko. The 2026 quintet stretches the palette from violin and piano to Miyake's tenor, flute, shakuhachi and nohkan around akLaff's drums. It is a chance to hear a long-running international creative-music network come back together in the close quarters where part of that history already happened.",
+          "trip_verdict": "If October 19 overlaps with Tokyo, actively make room for Shinjuku and let PIT INN anchor the evening. The eight-year Japan return makes the date unusually worthwhile while you are there; without a farewell or one-off claim, I would not reroute an entire Japan trip solely for this performance.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El gancho es el regreso, no el currículum. Después de ocho años sin tocar en Japón, akLaff vuelve a reunir colaboradores con historia compartida real: el archivo de Miyake coloca a akLaff, Miyake y Nagata juntos en esta misma sala en 2013, mientras Arts for Art documenta su trabajo con Tom Pierson y Aska Maret-Kaneko. El quinteto de 2026 abre una paleta que va del violín y el piano al tenor, la flauta, el shakuhachi y el nohkan de Miyake alrededor de la batería de akLaff. Es la oportunidad de escuchar cómo una red internacional de música creativa de largo recorrido vuelve a encontrarse en la cercanía de una sala donde parte de esa historia ya ocurrió.",
+          "trip_verdict": "Si el 19 de octubre coincide con Tokio, sí le haría espacio a Shinjuku y dejaría que PIT INN ancle la noche. El regreso a Japón después de ocho años vuelve la fecha especialmente valiosa estando allá; sin anuncio de despedida ni de función única, no desviaría un viaje completo a Japón sólo por esta presentación.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
