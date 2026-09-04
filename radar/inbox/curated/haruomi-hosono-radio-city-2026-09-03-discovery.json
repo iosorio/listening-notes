@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "haruomi-hosono-radio-city-2026-09-03-discovery",
+  "checked_on": "2026-09-03",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks covered Tsuyoshi Yamamoto at Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, KEYSTONE Club Tokyo / Space M&A traces, and credible Japanese-jazz sources. The September 6 and September 9 BODY&SOUL appearances, the September 8 KEYSTONE date, the September 26 BODY&SOUL Final Groove, and other Yamamoto dates returned by the pass are already represented in canonical/curated/processed intake; no duplicate Yamamoto event was created. Broader US-corridor research surfaced Haruomi Hosono's September 16 Radio City Music Hall date, which is mentioned as tour context in an existing Tokyo Hosono batch but is not itself represented as a RADAR event: repository searches for the proposed stable ID and the artist/date returned no matching event record. Stage 1 admits the performance for a concrete event-specific reason: this is Hosono's first U.S. tour in seven years, announced as only New York and Los Angeles, with Radio City the sole East Coast appearance, arriving five days after the worldwide release of Yours Sincerely and with Toro y Moi as special guest. Stage 2 assigns S after the required scarcity challenge. A+ was explicitly tested and judged insufficient: for a major living Japanese master whose U.S. routing has a seven-year gap and only two announced dates, missing the corridor's sole East Coast night would plausibly create genuine regret, so protect_the_night is warranted. S+ is not warranted because the tour has a second U.S. performance in Los Angeles and Hosono remains actively performing in Japan, including a newly announced December Tokyo concert. Recent/current discovery output was rechecked as a sanity test and remains dominated by A/A+; the immediately recent intake includes a single challenged S for Akiko Yano's rare Japan Society configuration. This batch adds A 0 / A+ 0 / S 1 / S+ 0, and the S assignment is based on verified scarcity rather than a quota.",
+  "events": [
+    {
+      "id": "haruomi-hosono-radio-city-music-hall-new-york-2026-09-16",
+      "artist": "Haruomi Hosono",
+      "subtitle": "The Yours Sincerely Tour — with special guest Toro y Moi",
+      "dates": {
+        "start": "2026-09-16",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "radio-city-music-hall-new-york-ny",
+        "name": "Radio City Music Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-03",
+        "rationale": "Concrete scarcity is the U.S. routing: an authoritative tour presenter describes this as Haruomi Hosono's first U.S. tour in seven years and announces only New York and Los Angeles, making September 16 the sole East Coast performance. The Radio City date also lands five days after the worldwide release of Yours Sincerely and bills Toro y Moi as special guest. A+ was explicitly challenged and judged insufficient: for a major living Japanese master with a seven-year gap between U.S. tours, waiting for another nearby date could realistically mean years, so missing the corridor's only announced East Coast night would plausibly create genuine regret. S+ is not warranted because the same tour continues to Los Angeles on September 20 and Hosono remains actively performing in Japan, so this is rare access rather than a singular farewell or historically unique last opportunity."
+      },
+      "category": "Japanese master / rare U.S. tour / new-album cycle / cross-generational electronic-pop lineage",
+      "genres": [
+        "Alternative",
+        "Art pop",
+        "Electronic",
+        "Folk"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters"
+      ],
+      "lineup": [
+        "Haruomi Hosono",
+        "Toro y Moi — special guest"
+      ],
+      "factual_description": "Radio City Music Hall presents Haruomi Hosono: The Yours Sincerely Tour on Wednesday, September 16, 2026. The official venue page lists doors at 19:00 and the performance at 20:00 and bills Toro y Moi as special guest. Sony Music Japan confirms that Hosono's twenty-third studio album, Yours Sincerely, is scheduled for worldwide release on September 11 and identifies September 16 at Radio City Music Hall and September 20 at the Greek Theatre in Los Angeles as the U.S. tour dates, with Toro y Moi guesting at both. Nederlander Concerts describes the run as Hosono's first U.S. tour in seven years and says the tour consists of performances in New York and Los Angeles. No face-value ticket price or backing-band personnel for the Radio City performance is stated in the verified sources checked for this batch, so none is inferred.",
+      "links": {
+        "official_event": "https://msg.com/events-tickets/haruomi-hosono-toro-y-moi-radio-city-music-hall-september-2026/3C0064AD78030BD9",
+        "official_tickets": "https://www.livenation.com/event/G5dYZ_1gzZYR_/haruomi-hosono-the-yours-sincerely-tour"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Haruomi Hosono",
+          "title": "Yours Sincerely",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/yours-sincerely/6769082566"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Date, doors, showtime, venue identity, exact advertised billing, two-city U.S.-tour routing, seven-year U.S.-tour gap, album-release timing, authorized ticket destination, and exact Apple Music pre-release album destination are verified. Face-value price and backing-band personnel are not stated in the verified current sources and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://msg.com/events-tickets/haruomi-hosono-toro-y-moi-radio-city-music-hall-september-2026/3C0064AD78030BD9",
+          "publisher": "Radio City Music Hall / Madison Square Garden Entertainment",
+          "checked_on": "2026-09-03",
+          "note": "Primary venue event page verifies Wednesday September 16, 2026, 19:00 doors, 20:00 show, Radio City Music Hall venue identity/address, The Yours Sincerely Tour title, and Toro y Moi as special guest."
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/HaruomiHosono/info/585889",
+          "publisher": "Sony Music Japan",
+          "checked_on": "2026-09-03",
+          "note": "Official artist-label source verifies the September 11 worldwide release of Yours Sincerely, September 16 Radio City Music Hall and September 20 Greek Theatre U.S. dates, and Toro y Moi as guest at both performances."
+        },
+        {
+          "url": "https://www.nederlanderconcerts.com/event/haruomi-hosono",
+          "publisher": "Nederlander Concerts",
+          "checked_on": "2026-09-03",
+          "note": "Authoritative tour-presenter page describes this as Hosono's first U.S. tour in seven years and states that the run has performances in New York and Los Angeles with special guest Toro y Moi."
+        },
+        {
+          "url": "https://www.livenation.com/event/G5dYZ_1gzZYR_/haruomi-hosono-the-yours-sincerely-tour",
+          "publisher": "Live Nation",
+          "checked_on": "2026-09-03",
+          "note": "Authorized ticket/event page verifies September 16 at 20:00 at Radio City Music Hall and the Haruomi Hosono / Toro y Moi lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/yours-sincerely/6769082566",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-03",
+          "note": "Exact Apple Music pre-release album destination verifies Yours Sincerely by Haruomi Hosono with a September 11, 2026 release date."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-promoter-ticket-and-apple-sources",
+        "note": "Core event facts come from Radio City Music Hall, tour context and album timing from Sony Music Japan, the seven-year U.S.-tour gap and two-city routing from Nederlander Concerts, ticketing from Live Nation, and listening from an exact Apple Music destination. Repository searches for the proposed stable ID and the artist/date found no matching event record; an existing December Tokyo Hosono batch mentions Radio City only as tour context. Priority S was assigned only after Stage 1 admission and a second scarcity challenge. The sole-East-Coast date on Hosono's first U.S. tour in seven years makes protect-the-night language durable; a second U.S. date in Los Angeles and continued Japan activity prevent an S+ claim."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Hosono rarely gives the U.S. this kind of access: his first American tour in seven years is only two announced dates, and New York is the sole East Coast stop, arriving five days after a new album. Radio City turns a new-record cycle into a rare stateside encounter with one of the living architects connecting Japanese pop, electronic music, folk memory and cosmopolitan songcraft; Toro y Moi on the bill makes that generational line visible without turning the night into nostalgia.",
+          "trip_verdict": "From the DMV, this is one of the New York nights worth making a dedicated regional trip for rather than waiting for a closer routing that may not come. I would secure the New York plan early and let Radio City anchor the day.",
+          "listen_before": "Yours Sincerely — Haruomi Hosono"
+        },
+        "es": {
+          "why_it_matters": "Hosono rara vez ofrece este tipo de acceso en Estados Unidos: su primera gira por el país en siete años tiene sólo dos fechas anunciadas, y Nueva York es la única en la Costa Este, apenas cinco días después de la salida de un disco nuevo. Radio City convierte ese ciclo de obra nueva en un encuentro poco común con uno de los arquitectos vivos que conectaron el pop japonés, la electrónica, la memoria del folk y una idea cosmopolita de la canción; la presencia de Toro y Moi hace visible esa línea generacional sin volver la noche un ejercicio de nostalgia.",
+          "trip_verdict": "Desde el DMV, ésta sí es una de esas noches de Nueva York que justifican una subida regional dedicada, en vez de esperar una fecha más cercana que quizá no llegue. Cerraría pronto el plan de Nueva York y dejaría que Radio City ancle el día.",
+          "listen_before": "Yours Sincerely — Haruomi Hosono"
+        }
+      }
+    }
+  ]
+}
