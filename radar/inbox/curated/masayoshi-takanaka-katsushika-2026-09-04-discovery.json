@@ -1,0 +1,142 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "masayoshi-takanaka-katsushika-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto sources, including BODY&SOUL, KEYSTONE CLUB TOKYO, Jazz House ALFIE/Space M&A/current-schedule traces and repository intake, produced no verified future Yamamoto appearance that was not already represented in canonical/curated/processed data; the September 8 and September 15 KEYSTONE dates and current BODY&SOUL dates are already captured. Repository-wide searches for Masayoshi Takanaka, 高中正義, Katsushika Symphony Hills and the proposed stable ID returned no existing RADAR match, and the canonical response was separately searched for both Takanaka and 高中正義 with no match. Stage 1 admits the September 18 performance for a specific live context: it opens Takanaka's 19-date domestic SUPER TAKANAKA LIVE 2026-2027 tour during the 50th anniversary of his 1976 solo debut/SEYCHELLES, after a 2026 overseas run that established renewed international demand. The event also squarely fits Listening Notes through a living Japanese master, strong instrumental identity and fusion lineage. Stage 2 assigns A+: if Greater Tokyo is in play, the domestic-tour opener in the 50th-anniversary year is actively worth making room for. No scarcity tier is warranted because the same tour continues for 19 domestic dates, including later Tokyo/Kanto performances. The recent/current intake sanity check remains weighted toward A/A+ with only individually challenged scarcity-tier cases; this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "masayoshi-takanaka-katsushika-symphony-hills-tokyo-2026-09-18",
+      "artist": "Masayoshi Takanaka",
+      "subtitle": "SUPER TAKANAKA LIVE 2026-2027 — domestic tour opener",
+      "dates": {
+        "start": "2026-09-18",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "katsushika-symphony-hills-mozart-hall-tokyo",
+        "name": "Katsushika Symphony Hills — Mozart Hall",
+        "city": "Katsushika, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese fusion / guitar / 50th-anniversary domestic tour opener",
+      "genres": [
+        "Fusion",
+        "Jazz-Funk",
+        "Instrumental"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Masayoshi Takanaka (高中正義) — guitar"
+      ],
+      "factual_description": "Masayoshi Takanaka opens SUPER TAKANAKA LIVE 2026-2027 at Katsushika Symphony Hills Mozart Hall in Tokyo on Friday, September 18, 2026. Takanaka's official live schedule, BS Asahi and the venue confirm doors at 6:00 PM, a 6:30 PM performance start and a public reserved-seat price of ¥11,000. The official tour announcement lists September 18 as the first of 19 domestic dates running through February 28, 2027. Mikiki by Tower Records places the tour in Takanaka's 50th solo-anniversary year, measured from the July 1976 release of SEYCHELLES, and reports that the preceding 13 Europe, North America and Australia tour performances sold out. The currently verified event sources name Takanaka on guitar but do not publish the complete touring personnel for this September 18 performance, so no additional lineup members are inferred.",
+      "links": {
+        "official_event": "https://www.k-mil.gr.jp/program/symphony/2026/0918.html",
+        "official_tickets": "https://ticket.rakuten.co.jp/music/jpop/rtol267/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 11000,
+          "maximum": 11000,
+          "source_url": "https://ticket.rakuten.co.jp/music/jpop/rtol267/",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Masayoshi Takanaka",
+          "title": "Seychelles",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/seychelles/1443091653"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "complete_touring_personnel"
+        ],
+        "note": "Date, venue, doors, showtime, public face-value price, tour sequence, anniversary context and exact Apple Music destination are verified. The current September 18 event sources name Takanaka on guitar but do not publish the full touring band for this performance; personnel from other Takanaka dates are not carried over by inference."
+      },
+      "sources": [
+        {
+          "url": "https://takanaka.com/en/live/",
+          "publisher": "Masayoshi Takanaka Official Website",
+          "checked_on": "2026-09-04",
+          "note": "Primary live schedule confirms September 18, 2026 at Katsushika Symphony Hills Mozart Hall, doors 18:00, show 18:30, public reserved-seat price ¥11,000, and the broader 2026-2027 domestic itinerary."
+        },
+        {
+          "url": "https://takanaka.com/en/2026/05/08/masayoshi-takanaka-super-takanaka-live-2026-2027-announced/",
+          "publisher": "Masayoshi Takanaka Official Website",
+          "checked_on": "2026-09-04",
+          "note": "Primary tour announcement identifies September 18 in Tokyo as the first listed performance and publishes the full domestic tour sequence and ¥11,000 reserved-seat price."
+        },
+        {
+          "url": "https://www.k-mil.gr.jp/program/symphony/2026/0918.html",
+          "publisher": "Katsushika Symphony Hills",
+          "checked_on": "2026-09-04",
+          "note": "Primary venue page verifies the exact Mozart Hall event, September 18 date, 18:30 start, public reserved-seat price ¥11,000, member price ¥10,500, and organizers BS Asahi / Kyodo Tokyo."
+        },
+        {
+          "url": "https://www.bs-asahi.co.jp/event/20260918/",
+          "publisher": "BS Asahi",
+          "checked_on": "2026-09-04",
+          "note": "Primary organizer page verifies Masayoshi Takanaka on guitar, September 18 at Katsushika Symphony Hills Mozart Hall, doors 18:00 and show 18:30."
+        },
+        {
+          "url": "https://ticket.rakuten.co.jp/music/jpop/rtol267/",
+          "publisher": "Rakuten Ticket",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticketing page verifies the September 18 Tokyo performance, doors 18:00, show 18:30 and ¥11,000 reserved-seat face value. No resale pricing is recorded."
+        },
+        {
+          "url": "https://mikiki.tokyo.jp/articles/-/44912",
+          "publisher": "Mikiki by TOWER RECORDS",
+          "checked_on": "2026-09-04",
+          "note": "Credible Japanese music source identifies the domestic run as a 19-show tour opening September 18, places it in the 50th anniversary of the 1976 SEYCHELLES solo debut, and reports that the preceding 13 Europe/North America/Australia tour shows sold out."
+        },
+        {
+          "url": "https://music.apple.com/us/album/seychelles/1443091653",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music destination for Masayoshi Takanaka's 1976 album Seychelles."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-organizer-venue-ticket-and-authoritative-music-sources",
+        "note": "Core event facts are independently verified by Takanaka's official site, Katsushika Symphony Hills, BS Asahi and authorized Rakuten ticketing; Mikiki supplies the 50th-anniversary and sold-out overseas-tour context, and Apple Music verifies the listening destination. Repository searches found no matching Masayoshi Takanaka / 高中正義 / Katsushika record before publication, and the canonical response was separately checked for both artist-name forms. Stage 1 admission rests on the 50th-anniversary domestic-tour opener and Takanaka's living Japanese fusion/guitar identity. Priority A+ was assigned only after admission: actively making room is warranted, while 19 domestic dates and later Tokyo/Kanto options make a scarcity tier inappropriate."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The domestic tour opens here in the year Takanaka marks 50 years since Seychelles and his solo debut, after an overseas run that turned his guitar language into a fresh international draw. That gives this night a concrete homecoming-and-anniversary frame for one of Japan's defining fusion guitar voices: not nostalgia alone, but a living instrumental identity meeting a new audience cycle at home.",
+          "trip_verdict": "If Greater Tokyo is in play, actively make room and build the evening around Katsushika. With 19 domestic dates and later Tokyo/Kanto options, choose this one for the opening-night anniversary context rather than treating it as the only chance to see him.",
+          "listen_before": "Masayoshi Takanaka — Seychelles"
+        },
+        "es": {
+          "why_it_matters": "La gira doméstica arranca aquí justo en el año en que Takanaka cumple 50 años desde Seychelles y su debut solista, después de una etapa internacional que volvió a convertir su lenguaje de guitarra en un fenómeno para públicos nuevos. Eso le da a esta noche un contexto concreto de regreso y aniversario para una de las guitarras decisivas de la fusión japonesa: no pura nostalgia, sino una identidad instrumental viva entrando en otro ciclo de escucha en casa.",
+          "trip_verdict": "Si Greater Tokyo está en juego, sí le haría espacio y armaría la noche alrededor de Katsushika. Como la gira suma 19 fechas domésticas y hay opciones posteriores en Tokio/Kanto, escogería ésta por el contexto de apertura y aniversario, no porque sea la única oportunidad de verlo.",
+          "listen_before": "Masayoshi Takanaka — Seychelles"
+        }
+      }
+    }
+  ]
+}
