@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "godiego-fest-sgc-hall-ariake-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks across BODY&SOUL, Jazz House ALFIE/current-schedule traces, Jazz in Japan and related Japanese jazz sources did not produce a verified future Yamamoto appearance that was not already represented in canonical/curated/processed intake. Repository-wide search for Godiego FEST 2026 / SGC HALL ARIAKE returned no existing RADAR event. Stage 1 admits this event for a concrete live context: Godiego's one-day 50th-anniversary festival in Tokyo brings the active five-member band together with a large, cross-generational Japanese guest bill including Char, Yasuyuki Okamura, Kazuyoshi Saito, Seiji Kameda and Mummy-D, plus choir, horns and support players. Stage 2 assigns A+: the exact anniversary/festival setting is actively worth making room for in Greater Tokyo, but A+ still captures the recommendation because Godiego is in the middle of a broader 50th-anniversary tour and the event is not a farewell or documented final opportunity. The recent intake sanity check remains A/A+-heavy with only individually challenged scarcity-tier cases; this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "godiego-fest-sgc-hall-ariake-tokyo-2026-10-10",
+      "artist": "Godiego",
+      "subtitle": "SGC presents Godiego FEST 2026 — 50th Anniversary",
+      "dates": {
+        "start": "2026-10-10",
+        "end": null
+      },
+      "showtimes": [
+        "17:00"
+      ],
+      "venue": {
+        "id": "sgc-hall-ariake-tokyo",
+        "name": "SGC HALL ARIAKE",
+        "city": "Koto, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Culturally significant Japanese rock / 50th-anniversary festival / rare guest lineup",
+      "genres": [
+        "Rock",
+        "Pop Rock",
+        "Japanese Rock"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters"
+      ],
+      "lineup": [
+        "Godiego — Mickie Yoshino, Yukihide Takekawa, Steve Fox, Tommy Snyder, Yoji Yoshizawa",
+        "Kazuyuki Takekoshi — support member",
+        "Godiego Horns — horns",
+        "THE SOULMATICS TSM Gospel Ensemble — choir",
+        "Shin Ikesue — choir conductor / arranger",
+        "Akihiro Kondo — choir conductor / arranger",
+        "Masaaki Sakai — guest artist",
+        "Char — guest artist",
+        "Yasuyuki Okamura — guest artist",
+        "Kazuyoshi Saito — guest artist",
+        "Okamura Kazuyoshi (Yasuyuki Okamura / Kazuyoshi Saito) — guest artist",
+        "Seiji Kameda — guest artist",
+        "Mummy-D — guest artist",
+        "EXILE B HAPPY — guest artist",
+        "$HUN ft. REG☆STYLE — opening act"
+      ],
+      "factual_description": "Godiego's official 50th-anniversary site and SGC HALL ARIAKE confirm SGC presents Godiego FEST 2026 on Saturday, October 10, 2026, with doors at 4:00 PM and the performance beginning at 5:00 PM. The event marks Godiego's 50th anniversary year and features the current five-member band—Mickie Yoshino, Yukihide Takekawa, Steve Fox, Tommy Snyder and Yoji Yoshizawa—alongside support member Kazuyuki Takekoshi, Godiego Horns, THE SOULMATICS TSM Gospel Ensemble, and guest artists Masaaki Sakai, Char, Yasuyuki Okamura, Kazuyoshi Saito, Okamura Kazuyoshi, Seiji Kameda, Mummy-D and EXILE B HAPPY. Reserved seats are ¥14,000 and U-20 seats are ¥5,000; general sale is scheduled to open September 5, 2026 at 10:00 AM through eplus, Pia and Lawson Ticket.",
+      "links": {
+        "official_event": "https://godiego50th.jp/2026/08/17/1897/",
+        "official_tickets": "https://eplus.jp/godiego/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 5000,
+          "maximum": 14000,
+          "source_url": "https://godiego50th.jp/2026/08/17/1897/",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Date, doors, showtime, venue, full announced artist/support/choir/opening billing, face-value ticket categories and verified general-sale destinations are confirmed by primary Godiego and venue sources. No Apple Music destination is added without an exact verified match."
+      },
+      "sources": [
+        {
+          "url": "https://godiego50th.jp/2026/08/17/1897/",
+          "publisher": "Godiego 50th Anniversary Official Website",
+          "checked_on": "2026-09-04",
+          "note": "Primary event notice verifies October 10, 2026, doors 16:00, start 17:00, SGC HALL ARIAKE, the full announced Godiego/guest/support/choir/opening lineup, ¥14,000 reserved and ¥5,000 U-20 pricing, and general sale from September 5 at 10:00 via eplus, Pia and Lawson Ticket."
+        },
+        {
+          "url": "https://tdp.tv-asahi.co.jp/hall/event/0130/",
+          "publisher": "SGC HALL ARIAKE / Tokyo Dream Park",
+          "checked_on": "2026-09-04",
+          "note": "Primary venue page independently verifies the October 10 event, 16:00 doors, 17:00 start, Godiego's five-member billing, support/choir/opening act, guest lineup and face-value ticket categories."
+        },
+        {
+          "url": "https://godiego50th.jp/",
+          "publisher": "Godiego 50th Anniversary Official Website",
+          "checked_on": "2026-09-04",
+          "note": "Primary anniversary site confirms Godiego reached its 50th anniversary on April 1, 2026 and places Godiego FEST 2026 within the broader anniversary-year concert program."
+        },
+        {
+          "url": "https://www.mickieyoshino.com/shows",
+          "publisher": "Mickie Yoshino Official Website",
+          "checked_on": "2026-09-04",
+          "note": "Primary member schedule independently confirms Godiego FEST 2026, the guest/support/choir billing and authorized eplus/Pia ticket destinations."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-band-venue-member-and-ticket-sources",
+        "note": "Core event facts are cross-checked across Godiego's official 50th-anniversary site, SGC HALL ARIAKE and Mickie Yoshino's official schedule. Repository search found no matching Godiego FEST 2026 / SGC HALL ARIAKE RADAR record before publication. Stage 1 admission rests on the one-day 50th-anniversary festival construction and unusually broad cross-generational Japanese guest lineup. Priority A+ was assigned only after admission: it is actively worth making room for in Greater Tokyo, while Godiego's continuing anniversary tour and absence of farewell/final-opportunity evidence keep it below the scarcity tiers."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Godiego's 50th year gets a one-day Tokyo festival rather than another standard tour stop: the current band expands outward through Char, Yasuyuki Okamura, Kazuyoshi Saito, Seiji Kameda, Mummy-D, choir and horns. That turns the anniversary into a map of how a durable piece of Japanese rock history still connects to later generations and adjacent musical worlds.",
+          "trip_verdict": "If Greater Tokyo is in play, actively make room and let Ariake anchor the day. I would choose this over a routine tour stop for the anniversary lineup, but I would not rebuild an entire Japan trip around it while Godiego remains active across a broader 50th-anniversary tour.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El año 50 de Godiego se convierte aquí en un festival de un solo día en Tokio, no en otra parada normal de gira: la banda actual se abre hacia Char, Yasuyuki Okamura, Kazuyoshi Saito, Seiji Kameda, Mummy-D, coro y metales. El aniversario funciona así como un mapa de cómo una pieza duradera de la historia del rock japonés sigue conectando con generaciones posteriores y con otros lenguajes musicales.",
+          "trip_verdict": "Si Greater Tokyo está en juego, sí le haría espacio y dejaría que Ariake ancle el día. Escogería esta fecha sobre una parada rutinaria de la gira por el cartel del aniversario, pero no reconstruiría un viaje entero a Japón alrededor de ella mientras Godiego sigue activo en una gira más amplia de 50 años.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
