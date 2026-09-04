@@ -1,0 +1,134 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dream-brigade-tonal-park-takoma-park-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO, current Yamamoto schedule traces, and credible Japanese-jazz sources; no new verified, unrepresented Yamamoto appearance was found. The broader US-corridor pass found dream brigade, the Phillip Golub / Lesley Mok piano-drums duo, presented by Transparent Productions and Rhizome DC offsite at Tonal Park Studios in Takoma Park on November 6, 2026. Repository searches for dream brigade with the date and for the proposed stable ID returned no canonical, curated, or processed match before publication. Stage 1 admission clears because the exact performance foregrounds an intentionally exposed piano-and-drums improvising format: the duo's self-titled Infrequent Seams album documents an approach in which composed-form logic can emerge from spontaneous interaction and standards can be deconstructed into new forms, giving this local performance a concrete instrumental and improvisational reason beyond venue or genre. Stage 2 is A: worth knowing about and attending if Friday is open, but the duo has performed regularly across the Northeast and Midwest and this Takoma Park date is not documented as a premiere, farewell, one-off lineup, or another scarcity case, so it should not displace a stronger commitment. The recent/current editorial shape remains broad at A/A+ with S/S+ reserved for scarcity; this A assignment follows the behavioral rubric rather than a quota. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "dream-brigade-tonal-park-takoma-park-2026-11-06",
+      "artist": "dream brigade",
+      "subtitle": "Phillip Golub / Lesley Mok piano-drums duo — Rhizome offsite at Tonal Park",
+      "dates": {
+        "start": "2026-11-06",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "tonal-park-studios-takoma-park-md",
+        "name": "Tonal Park Studios",
+        "city": "Takoma Park",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV creative music / Piano-drums duo / Improvised music",
+      "genres": [
+        "Jazz",
+        "Improvised music",
+        "Creative music"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Phillip Golub — piano",
+        "Lesley Mok — drums"
+      ],
+      "factual_description": "Transparent Productions and Rhizome DC present dream brigade, the duo of pianist Phillip Golub and drummer Lesley Mok, offsite at Tonal Park Studios in Takoma Park, Maryland on Friday, November 6, 2026. The official presenter page lists doors at 7:00 PM, music at 7:30 PM, and a $20-$30 sliding-scale face price. The authorized Pools ticket page corroborates the billing, location, schedule and face-price range. The duo's self-titled debut album was released March 14, 2025 on Infrequent Seams; its artist/label Bandcamp page credits Golub on piano and Mok on drums and describes an improvisational practice built from close interaction, economy of material, emergent large-scale form, and deconstruction of the standards Darn That Dream and Conception.",
+      "links": {
+        "official_event": "https://www.rhizomedc.org/new-events/2026/11/6/offsite-dream-brigade-phillip-golub-amp-lesley-mok",
+        "official_tickets": "https://pools.events/event/dyvU4jrr/offsite-dream-brigade-phillip-golub-lesley-mok/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 30,
+          "source_url": "https://www.rhizomedc.org/new-events/2026/11/6/offsite-dream-brigade-phillip-golub-amp-lesley-mok",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Phillip Golub & Lesley Mok",
+          "title": "dream brigade",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/au/album/dream-brigade/1794141236"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Rhizome presenter page and authorized Pools ticket page verify the date, Tonal Park offsite location, doors/music times, face-price range and duo lineup. The artist/label release page verifies the debut album, personnel and improvisational/compositional frame. The exact Apple Music album destination was verified directly."
+      },
+      "sources": [
+        {
+          "url": "https://www.rhizomedc.org/new-events/2026/11/6/offsite-dream-brigade-phillip-golub-amp-lesley-mok",
+          "publisher": "Rhizome DC / Transparent Productions",
+          "checked_on": "2026-09-04",
+          "note": "Official presenter page verifies November 6, 2026; Tonal Park Studios in Takoma Park; 7:00 PM doors; 7:30 PM music; $20-$30 face-price range; Phillip Golub on piano and Lesley Mok on drums; and the duo's improvisational framing."
+        },
+        {
+          "url": "https://pools.events/event/dyvU4jrr/offsite-dream-brigade-phillip-golub-lesley-mok/",
+          "publisher": "Pools / Rhizome DC authorized ticketing",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticketing corroborates the November 6 Takoma Park event, 7:00 PM doors / 7:30 PM music schedule, $20-$30 sliding-scale face price, and current fee-inclusive totals of $22.47-$33.02."
+        },
+        {
+          "url": "https://dreambrigade.bandcamp.com/album/dream-brigade",
+          "publisher": "dream brigade / Infrequent Seams release page",
+          "checked_on": "2026-09-04",
+          "note": "Artist/label release page verifies the March 14, 2025 debut, Phillip Golub on piano, Lesley Mok on drums, the eight-track program, and the duo's improvisational approach, including emergent compositional form and deconstruction of two standards."
+        },
+        {
+          "url": "https://www.lesleymok.com/",
+          "publisher": "Lesley Mok official site",
+          "checked_on": "2026-09-04",
+          "note": "Official artist site identifies Lesley Mok as a performer and composer."
+        },
+        {
+          "url": "https://phillipgolubmusic.com/",
+          "publisher": "Phillip Golub official site",
+          "checked_on": "2026-09-04",
+          "note": "Official artist site identifies Phillip Golub as a pianist, composer and improviser."
+        },
+        {
+          "url": "https://music.apple.com/au/album/dream-brigade/1794141236",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album destination verifies dream brigade by Phillip Golub and Lesley Mok, released March 14, 2025 on Infrequent Seams."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-ticket-and-apple-sources",
+        "note": "Repository searches for dream brigade with the November 6 date and for the proposed stable ID returned no canonical, curated or processed RADAR match before publication. Volatile event details come from the exact Rhizome presenter page and authorized Pools ticketing; project context is corroborated by the artist/label release page and both musicians' official sites. Editorial review in this automation was performed as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The attraction is the exposed architecture of a piano-drums duo with no bass or horn defining the center. Golub and Mok use that openness to let melody, pulse, register and orchestral color migrate between the instruments; on dream brigade, fully improvised passages can acquire the shape of composed music while standards dissolve into something less fixed. Tonal Park's studio-scale room should make the listening and the small rhythmic decisions unusually legible.",
+          "trip_verdict": "If Friday is open in the DMV, this is a worthwhile Takoma Park night for close-range improvisation and an uncommon duo texture. I would not displace a stronger commitment or build a corridor trip around it.",
+          "listen_before": "Phillip Golub & Lesley Mok — dream brigade"
+        },
+        "es": {
+          "why_it_matters": "El atractivo está en la arquitectura expuesta de un dúo de piano y batería, sin bajo ni aliento que fije el centro. Golub y Mok usan ese espacio para que melodía, pulso, registro y color orquestal migren entre ambos instrumentos; en dream brigade, pasajes enteramente improvisados pueden adquirir la forma de música compuesta mientras los standards se desarman hasta volverse otra cosa. La escala de estudio de Tonal Park debería volver especialmente audibles la escucha mutua y las pequeñas decisiones rítmicas.",
+          "trip_verdict": "Si el viernes está libre en el DMV, vale la pena caer a Takoma Park por improvisación a corta distancia y una textura de dúo poco común. No desplazaría un compromiso más fuerte ni armaría un viaje por el corredor alrededor de esta fecha.",
+          "listen_before": "Phillip Golub & Lesley Mok — dream brigade"
+        }
+      }
+    }
+  ]
+}
