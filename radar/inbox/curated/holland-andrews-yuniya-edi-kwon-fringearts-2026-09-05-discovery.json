@@ -1,0 +1,98 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "holland-andrews-yuniya-edi-kwon-fringearts-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, and credible Japanese-jazz sources did not reveal a new verified future Yamamoto appearance not already represented in canonical/curated/processed intake; the September 26 BODY&SOUL closing-night performance and known Space M&A dates are already represented. The broader US-corridor pass found Holland Andrews and yuniya edi kwon's How does it feel to look at nothing at FringeArts in Philadelphia. Stage 1 admits the specific performance because the artists build an experimental opera through fully improvised music, movement, ritual, and projection, and their own schedule identifies the Philadelphia run as WORLD PREMIERE EAST. This is a concrete live-compositional and premiere context rather than an artist- or venue-prestige inclusion. Stage 2 assigns A+. The current rubric supports actively making room for a fully improvised new opera at its announced East Coast premiere, but the scarcity challenge does not justify S: Philadelphia has three performances, and the artists document the same work continuing to Seattle and BAM after earlier Portland performances. A+ captures the recommendation without inflating a touring premiere-season work into a protect-the-night scarcity tier. Repository searches for the exact artists/title/date and the proposed stable event ID found no existing representation before publication. This batch adds no S or S+ and therefore does not increase scarcity-tier pressure in the recent/current RADAR shape.",
+  "events": [
+    {
+      "id": "holland-andrews-yuniya-edi-kwon-fringearts-philadelphia-2026-09-25",
+      "artist": "Holland Andrews & yuniya edi kwon",
+      "subtitle": "How does it feel to look at nothing — WORLD PREMIERE EAST",
+      "dates": {
+        "start": "2026-09-25",
+        "end": "2026-09-27"
+      },
+      "showtimes": [
+        "19:30",
+        "14:00"
+      ],
+      "venue": {
+        "id": "fringearts-philadelphia",
+        "name": "FringeArts",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US",
+        "address": "140 N Columbus Blvd, Philadelphia, PA 19106"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental opera / Improvised music / Interdisciplinary performance",
+      "genres": [
+        "Experimental music",
+        "Improvised music",
+        "Contemporary opera"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Holland Andrews — co-creator / performer / projection designer",
+        "yuniya edi kwon — co-creator / performer / librettist"
+      ],
+      "factual_description": "FringeArts presents Holland Andrews and yuniya edi kwon's How does it feel to look at nothing from September 25 through 27, 2026 at 140 N Columbus Blvd in Philadelphia. The September 25 and 26 performances begin at 7:30 PM; September 27 begins at 2:00 PM. FringeArts lists a 70-minute runtime and advertised prices of $50 Supporter, $35 General Admission, $15 Student & 25-and-Unders, and $2 FringeACCESS. The presenter describes the new opera as entirely improvised and combining music, dance, ritual, and projection; it credits Andrews and edi kwon as co-creators and performers. yuniya edi kwon's official schedule labels the Philadelphia run WORLD PREMIERE EAST, after a WORLD PREMIERE WEST run in Portland on September 11-13 and before later Seattle and BAM performances. This record therefore treats Philadelphia as the announced East Coast premiere rather than claiming it is the first performance anywhere.",
+      "links": {
+        "official_event": "https://fringearts.com/event/how-does-it-feel-to-look-at-nothing/",
+        "official_tickets": "https://fringearts.my.salesforce-sites.com/ticket/"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "No exact Apple Music destination was assigned in this pass. The work is described by the presenter and artists as entirely improvised, and no fixed recording of this opera was verified, so no Apple Music ID, album, or track is invented."
+      },
+      "sources": [
+        {
+          "url": "https://fringearts.com/event/how-does-it-feel-to-look-at-nothing/",
+          "publisher": "FringeArts",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter page verifies September 25-27, 2026; September 25 and 26 at 7:30 PM and September 27 at 2:00 PM; 70-minute runtime; advertised ticket prices; FringeArts venue and address; the entirely improvised music/dance/ritual/projection concept; performer credits; and the authorized ticket link."
+        },
+        {
+          "url": "https://yuniya.net/",
+          "publisher": "yuniya edi kwon",
+          "checked_on": "2026-09-05",
+          "note": "Primary artist site identifies How does it feel to look at nothing as a Fall 2026 premiere-season work, labels the Philadelphia September 25-27 run WORLD PREMIERE EAST, and documents Portland, Seattle, and BAM dates around it. It also confirms Andrews and edi kwon as co-creators, composers, soloists, and multi-instrumentalists in the work."
+        },
+        {
+          "url": "https://fringearts.my.salesforce-sites.com/ticket/",
+          "publisher": "FringeArts authorized ticketing",
+          "checked_on": "2026-09-05",
+          "note": "Authorized ticket portal reached from the Buy Tickets control on the primary FringeArts event page. The destination requires JavaScript, so no seat inventory or additional purchase details are inferred from it."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core dates, showtimes, runtime, venue, address, prices, performance format, and credited creators come from FringeArts. The artists' own schedule resolves the premiere language by identifying Philadelphia specifically as WORLD PREMIERE EAST and documents the surrounding premiere-season tour. Repository searches for the exact artists/title/date and proposed event ID found no prior representation before publication. No Apple Music identifier, fixed score, extra performer, seat availability, or first-ever-world-premiere claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The composition is not a fixed object here. Andrews and edi kwon build the opera in real time from voices, instruments, movement, ritual, and mutual response, so the Philadelphia East Coast premiere is an early public form of a work that can genuinely change from night to night. That combination of full improvisation and staged scale gives the run a specific live reason to exist in RADAR.",
+          "trip_verdict": "Actively make room for one of the three Philadelphia performances if the corridor is open that weekend. Because the work continues through its premiere-season tour and Philadelphia itself offers three chances, choose the date that fits the trip rather than treating a single performance as irreplaceable.",
+          "listen_before": "No fixed pre-listen — the work is entirely improvised."
+        },
+        "es": {
+          "why_it_matters": "Aquí la composición no es un objeto fijo. Andrews y edi kwon construyen la ópera en tiempo real con voces, instrumentos, movimiento, ritual y respuesta mutua, así que el estreno de la Costa Este en Filadelfia es una forma pública temprana de una obra que puede cambiar de verdad de una noche a otra. Esa combinación de improvisación total y escala escénica le da a la función una razón en vivo muy concreta para entrar al RADAR.",
+          "trip_verdict": "Sí le haría espacio activamente a una de las tres funciones en Filadelfia si el corredor está abierto ese fin de semana. Como la obra continúa dentro de su temporada de estrenos y Filadelfia ofrece tres oportunidades, escogería la fecha que mejor encaje en el viaje en vez de tratar una sola función como irreemplazable.",
+          "listen_before": "Sin escucha previa fija: la obra es enteramente improvisada."
+        }
+      }
+    }
+  ]
+}
