@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tsuyoshi-yamamoto-trio-alfie-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before grading or publication. Fresh primary-source checks reached Jazz House ALFIE's newly available October 2026 schedule, BODY&SOUL's current/final-month schedule, Space M&A's July-December series, Yamamoto schedule traces, and credible Japanese-jazz sources. ALFIE now verifies an unrepresented Tsuyoshi Yamamoto Trio appearance on October 21, 2026. Stage 1 admits the specific performance because it returns Yamamoto's longstanding trio with Hiroshi Kagawa and Toshio Osumi to the exact Roppongi room at the center of RADAR's unfinished Yamamoto/ALFIE listening thread; this is not admission by fame or genre alone. Stage 2 assigns A+. Within Tokyo/Kanto, the exact artist-and-room connection is actively worth making room for. The current rubric's special S+ language is not treated as an automatic Tokyo Yamamoto grade, and no scarcity tier is warranted here: ALFIE's own history and current repository context document recurring Yamamoto appearances, while Space M&A independently lists the same core trio repeatedly in late 2026, including September 29, October 30, and November 28. A+ captures the recommendation without inventing scarcity. Recent/current RADAR intake remains centered on A and A+ with S/S+ uncommon; adding an A+ is consistent with that sanity-check shape and is not quota-driven. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-trio-jazz-house-alfie-tokyo-2026-10-21",
+      "artist": "Tsuyoshi Yamamoto Trio",
+      "subtitle": "Yamamoto returns to the ALFIE thread",
+      "dates": {
+        "start": "2026-10-21",
+        "end": null
+      },
+      "showtimes": [
+        "19:15"
+      ],
+      "venue": {
+        "id": "jazz-house-alfie-roppongi",
+        "name": "Jazz House ALFIE",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP",
+        "address": "Hama Roppongi Building 5F, 6-2-35 Roppongi, Minato-ku, Tokyo"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Yamamoto / ALFIE origin-thread return",
+      "genres": [
+        "Jazz",
+        "Piano trio"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto — piano",
+        "Hiroshi Kagawa — bass",
+        "Toshio Osumi — drums"
+      ],
+      "factual_description": "Jazz House ALFIE's official October 2026 schedule lists Tsuyoshi Yamamoto Trio on Wednesday, October 21, 2026 with Tsuyoshi Yamamoto on piano, Hiroshi Kagawa on bass, and Toshio Osumi on drums. ALFIE states its normal October operating pattern as doors at 18:45, performance from 19:15 to 20:45, and closing at 23:30; the October 21 listing carries a ¥5,500 music charge. ALFIE's official site identifies the venue at 6-2-35 Roppongi, Hama Roppongi Building 5F, Minato-ku, Tokyo. Space M&A's current July-December schedule independently shows the same Yamamoto/Kagawa/Osumi trio recurring on September 29, October 30, and November 28, which supports the non-scarcity priority judgment rather than serving as a duplicate of this ALFIE date.",
+      "links": {
+        "official_event": "https://alfie.tokyo/schedule/202610.html",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 5500,
+          "maximum": 5500,
+          "source_url": "https://alfie.tokyo/schedule/202610.html",
+          "checked_on": "2026-09-05"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "ALFIE verifies the date, trio personnel, performance time and music charge. The venue's reservation guidance says it does not accept reservations through the website or email and directs customers to telephone the club, so no web ticket URL is invented. No exact Apple Music destination was independently verified in this run."
+      },
+      "sources": [
+        {
+          "url": "https://alfie.tokyo/schedule/202610.html",
+          "publisher": "Jazz House ALFIE",
+          "checked_on": "2026-09-05",
+          "note": "Primary venue schedule verifies October 21, 2026, the Yamamoto/Kagawa/Osumi trio, the ¥5,500 music charge, and ALFIE's October operating pattern of 18:45 doors and 19:15-20:45 performance."
+        },
+        {
+          "url": "https://alfie.tokyo/about/index.html",
+          "publisher": "Jazz House ALFIE",
+          "checked_on": "2026-09-05",
+          "note": "Primary venue information verifies ALFIE's Roppongi location and states that reservations are not accepted through the website or email, directing customers to telephone the venue."
+        },
+        {
+          "url": "https://space-ma.com/schedule/",
+          "publisher": "Space M&A",
+          "checked_on": "2026-09-05",
+          "note": "Primary venue schedule independently documents recurring late-2026 Yamamoto/Kagawa/Osumi trio dates, supporting the explicit non-scarcity challenge for priority."
+        },
+        {
+          "url": "https://www.jazzshiryokan.net/jazzDB/performer_detail.php?recordID=M1936",
+          "publisher": "Jazz資料館 / Jazz Shiryokan",
+          "checked_on": "2026-09-05",
+          "note": "Credible Japanese jazz schedule source documents Yamamoto's recurring live activity and prior ALFIE appearances; the October 21 fact itself is taken from ALFIE's primary schedule."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-with-authoritative-cross-checks",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for the proposed stable ID, the October 21 date with Tsuyoshi Yamamoto, and Yamamoto at ALFIE found no existing canonical/curated/processed representation of this performance before publication. Core facts come from ALFIE's newly available October schedule. Stage 1 rests on the specific Yamamoto-at-ALFIE narrative and trio context. Stage 2 assigns A+ only after admission. No S/S+ priority_review is included because the performance does not claim scarcity-tier status."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the thread RADAR began by missing: Yamamoto's long-running trio with Hiroshi Kagawa and Toshio Osumi, back in the small Roppongi room that turned a mistaken schedule reading into the project's first unfinished question. The trio itself is not rare, which is exactly why the setting matters here; ALFIE makes this a direct continuation of the listening story rather than just another Yamamoto date.",
+          "trip_verdict": "If October 21 lands inside a Tokyo stay, actively build the evening around ALFIE. The artist-and-room connection is strong enough to make space for, but the trio's recurring Kantō schedule is a reason not to turn this single date into a special trip by itself.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Midnight Sugar"
+        },
+        "es": {
+          "why_it_matters": "Éste es el hilo que RADAR empezó dejando pendiente: el trío de Yamamoto con Hiroshi Kagawa y Toshio Osumi de vuelta en la pequeña sala de Roppongi donde una lectura equivocada del calendario terminó convirtiéndose en la primera pregunta inconclusa del proyecto. El trío no es raro, y precisamente por eso aquí importa el lugar: ALFIE vuelve esta fecha una continuación directa de la historia de escucha, no sólo otro concierto de Yamamoto.",
+          "trip_verdict": "Si el 21 de octubre cae dentro de una estancia en Tokio, sí armaría la noche alrededor de ALFIE. La conexión entre artista y sala merece hacerle espacio, pero la agenda recurrente del trío en Kantō es una buena razón para no convertir esta única fecha en un viaje especial por sí sola.",
+          "listen_before": "Tsuyoshi Yamamoto Trio — Midnight Sugar"
+        }
+      }
+    }
+  ]
+}
