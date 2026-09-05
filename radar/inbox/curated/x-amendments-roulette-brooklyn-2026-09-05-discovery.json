@@ -1,0 +1,122 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "x-amendments-roulette-brooklyn-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, and credible Japanese-jazz sources did not reveal a new verified future Yamamoto appearance not already represented in canonical/curated/processed intake. The broader US-corridor pass found Carla Kihlstedt and Rafael Osés' X Amendments with Dither at Roulette on October 7-8, 2026. Stage 1 admits the specific performance because it is an improvised sonic structure for an orchestra of voices, electric guitars, and audience participation, using the Bill of Rights as source material; the concrete live reason is the unusual compositional mechanism and ensemble architecture, not venue or artist prestige. Stage 2 assigns A+: this is an unusually strong experimental large-ensemble context worth actively making room for if New York is viable. The scarcity challenge does not justify S: there are two performances of the same work and no verified farewell, singular premiere claim, or other fact making one night genuinely irreplaceable. One A+ residency does not add S/S+ pressure to the recent/current RADAR shape. Repository searches for the exact title, artists, dates, and proposed stable event ID found no existing representation before publication. No priority_review is required because the final grade is A+.",
+  "events": [
+    {
+      "id": "x-amendments-roulette-brooklyn-2026-10-07",
+      "artist": "Carla Kihlstedt, Rafael Osés & Dither",
+      "subtitle": "X AMENDMENTS — two-night Roulette residency",
+      "dates": {
+        "start": "2026-10-07",
+        "end": "2026-10-08"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Improvised large ensemble / experimental vocal and electric-guitar music",
+      "genres": [
+        "Improvised music",
+        "Experimental music",
+        "New Music",
+        "Noise"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Holland Andrews — voice",
+        "Gelsey Bell — voice",
+        "Carla Kihlstedt — voice",
+        "Anaïs Maviel — voice",
+        "Kalyn Harewood — voice (October 7 only)",
+        "Rafael Osés — voice",
+        "Dither: Taylor Levine — guitar; Joshua Lopes — guitar; James Moore — guitar; Brendon Randall-Myers — guitar",
+        "Brandon Ross — guitar"
+      ],
+      "factual_description": "Roulette presents X AMENDMENTS by composer/improviser Carla Kihlstedt and poet Rafael Osés on October 7 and 8, 2026 at 8:00 PM, with doors at 7:00 PM. Roulette describes the work as an improvised sonic structure for an orchestra of voices, electric guitars, and an audience, using the first ten amendments of the United States Constitution as source material. Both nights are advertised at $30 advance, $35 at the door, and $25 student/senior. The October 7 lineup lists Holland Andrews, Gelsey Bell, Carla Kihlstedt, Anaïs Maviel, Kalyn Harewood, and Rafael Osés on voice; the October 8 page lists the same vocalists except Harewood. Both nights list Dither members Taylor Levine, Joshua Lopes, James Moore, and Brendon Randall-Myers on guitar, plus Brandon Ross on guitar. Roulette also states that each performance will be livestreamed free at 8:00 PM and archived. Dither's own events page independently lists Carla Kihlstedt's X Amendments at Roulette for October 7-8, 2026.",
+      "links": {
+        "official_event": "https://roulette.org/event/x-amendments-carla-kihlstedt-rafael-oses-dither/",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Roulette exposes separate authorized AudienceView ticket destinations for October 7 and October 8, while the canonical event links model has one official_tickets field; no single purchase URL is substituted for the two-night run. No exact Apple Music destination for X Amendments was verified, so none is invented."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/x-amendments-carla-kihlstedt-rafael-oses-dither/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter page verifies October 7, 2026 at 8:00 PM, 7:00 PM doors, advertised face-value price categories, the X Amendments concept, the complete October 7 vocal and guitar personnel, and free livestream/archive availability."
+        },
+        {
+          "url": "https://roulette.org/event/x-amendments-carla-kihlstedt-rafael-oses-dither-2/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter page verifies October 8, 2026 at 8:00 PM, 7:00 PM doors, advertised face-value price categories, the same work and guitar personnel, and the October 8 vocal lineup without Kalyn Harewood."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1282931",
+          "publisher": "Roulette authorized ticketing / AudienceView",
+          "checked_on": "2026-09-05",
+          "note": "Authorized purchase destination reached from Roulette's October 7 Buy Tickets control."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1282932",
+          "publisher": "Roulette authorized ticketing / AudienceView",
+          "checked_on": "2026-09-05",
+          "note": "Authorized purchase destination reached from Roulette's October 8 Buy Tickets control."
+        },
+        {
+          "url": "https://www.ditherquartet.com/events.html",
+          "publisher": "Dither",
+          "checked_on": "2026-09-05",
+          "note": "Primary ensemble events page independently lists Carla Kihlstedt's X Amendments at Roulette in Brooklyn for October 7-8, 2026."
+        },
+        {
+          "url": "https://roulette.org/directions/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-05",
+          "note": "Primary venue page verifies Roulette's physical address as 509 Atlantic Avenue, Brooklyn, NY 11217."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ensemble-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts, date-specific personnel, times, prices, performance concept, and livestream status come from Roulette; Dither independently corroborates the two-night booking. Exact authorized purchase destinations were followed from each Roulette event page and recorded as separate sources rather than forcing one URL into the two-night links field. Repository searches for X Amendments, the artists, dates, and proposed stable event ID found no prior representation before publication."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The live mechanism is the reason this belongs: Kihlstedt and Osés turn a vocal ensemble, five electric guitars, and the audience into an improvised structure rather than asking a fixed score to carry the evening. The Bill of Rights supplies the text and constraints, but the musical interest is how individual voices and a dense guitar field negotiate freedom, interruption, responsibility, and collective form in real time.",
+          "trip_verdict": "If New York is already viable that week, actively make room for one of the two Roulette nights and choose the date that fits the trip. The two-performance run gives enough flexibility that I would not build a dedicated DMV-to-Brooklyn trip around a single night.",
+          "listen_before": "No exact recording of X Amendments was verified for this pass."
+        },
+        "es": {
+          "why_it_matters": "La razón para meterlo al RADAR está en el mecanismo en vivo: Kihlstedt y Osés convierten un ensamble de voces, cinco guitarras eléctricas y al público en una estructura improvisada, en vez de dejar que una partitura fija cargue con toda la noche. La Carta de Derechos pone el texto y las restricciones; el interés musical está en cómo las voces individuales y ese campo denso de guitarras negocian libertad, interrupción, responsabilidad y forma colectiva en tiempo real.",
+          "trip_verdict": "Si Nueva York ya es viable esa semana, sí le haría espacio activamente a una de las dos noches en Roulette y escogería la fecha que mejor embone con el viaje. Al haber dos funciones, no armaría un ida y vuelta dedicado desde el DMV alrededor de una sola noche.",
+          "listen_before": "No verifiqué una grabación exacta de X Amendments para esta pasada."
+        }
+      }
+    }
+  ]
+}
