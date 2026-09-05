@@ -1,0 +1,123 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dionne-warwick-farewell-queens-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh Yamamoto/Tokyo checks did not produce another verified unrepresented appearance with a distinct admission reason in this pass. The broader US-corridor search found Dionne Warwick's Over & Out — A Farewell Tour at Colden Auditorium in Queens on November 7, 2026. Stage 1 admits the specific performance because the official presenter explicitly frames it as a farewell performance and Warwick's final bow in Queens, creating a terminal live-context reason beyond fame or venue prestige. Stage 2 assigns S only after a second scarcity challenge. The concrete scarcity fact is the farewell-tour framing: this is a closing window to hear a major living interpreter whose Bacharach/David repertoire helped define American pop and soul. A+ would understate the genuine-regret-if-missed character for a listener who wants to hear Warwick before this farewell chapter closes. S+ would overstate the evidence because this is one stop on a multi-city farewell tour, not a verified singular final-ever concert. A current recent-intake comparison was also rechecked against the existing Bad Plus farewell batch, whose review records the intake as weighted toward A and A+; adding another S prompted a renewed rubric challenge rather than a quota adjustment. Repository searches for Dionne Warwick, Colden Auditorium, Kupferberg Center, and the proposed stable ID returned no matching RADAR event before publication.",
+  "events": [
+    {
+      "id": "dionne-warwick-farewell-colden-auditorium-queens-2026-11-07",
+      "artist": "Dionne Warwick",
+      "subtitle": "Over & Out — A Farewell Tour",
+      "dates": {
+        "start": "2026-11-07",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "colden-auditorium",
+        "name": "Colden Auditorium at Kupferberg Center for the Arts",
+        "city": "Flushing",
+        "state": "NY",
+        "country": "US",
+        "address": "153-49 Reeves Ave, Flushing, NY 11367"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Farewell tour / Living master / American pop-soul songbook",
+      "genres": [
+        "Soul",
+        "Pop",
+        "R&B",
+        "Vocal"
+      ],
+      "musical_axes": [
+        "Masters"
+      ],
+      "lineup": [
+        "Dionne Warwick"
+      ],
+      "factual_description": "Kupferberg Center for the Arts presents Dionne Warwick's Over & Out — A Farewell Tour at Colden Auditorium in Queens on Saturday, November 7, 2026 at 8:00 PM. The official presenter describes the engagement as a heartfelt farewell performance and says Warwick is taking her final bow in Queens. Tickets start at $55 plus fees. The venue address is 153-49 Reeves Ave, Flushing, NY 11367. Ticketmaster independently verifies the exact billing, date, 8:00 PM start, venue identity and Warwick as the announced lineup. No touring-band personnel, exact set list, or higher ticket price is inferred beyond the primary sources.",
+      "links": {
+        "official_event": "https://kupferbergcenter.org/event/dionne/",
+        "official_tickets": "https://www.ticketmaster.com/event/1D0064CA6D111B5A"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 55,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/event/1D0064CA6D111B5A",
+          "checked_on": "2026-09-05"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Dionne Warwick",
+          "title": "The Dionne Warwick Collection: Her All-Time Greatest Hits",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-dionne-warwick-collection-her-all-time-greatest-hits/50232525"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Kupferberg event page verifies date, 8:00 PM start, venue identity and address, farewell framing, final-bow-in-Queens language and a $55 starting price. The authorized Ticketmaster destination independently verifies billing, date, time, venue and Warwick as the listed lineup. The Apple Music album destination is exact and verified. No unannounced backing personnel or exact set list is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://kupferbergcenter.org/event/dionne/",
+          "publisher": "Kupferberg Center for the Arts",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter/venue page verifies the Over & Out farewell billing, Saturday November 7, 2026 at 8:00 PM, Colden Auditorium, venue address, farewell-performance and final-bow-in-Queens framing, and tickets starting at $55 plus fees."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/1D0064CA6D111B5A",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-05",
+          "note": "Authorized ticket page verifies Dionne Warwick: Over and Out - A Farewell Tour, Saturday November 7, 2026 at 8:00 PM, Colden Auditorium at Kupferberg Center for the Arts in Queens, and Warwick as the listed lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-dionne-warwick-collection-her-all-time-greatest-hits/50232525",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-05",
+          "note": "Exact Apple Music destination for The Dionne Warwick Collection: Her All-Time Greatest Hits."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-authorized-ticket-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event and farewell facts come from the exact Kupferberg Center page and are corroborated by its authorized Ticketmaster page. Repository searches found no prior Dionne Warwick, Colden Auditorium, Kupferberg Center, or stable-ID RADAR record. The phrase 'final bow in Queens' is preserved as the presenter's own geographic farewell framing and is not expanded into a claim that this Queens engagement is Warwick's final-ever concert. Touring-band personnel and exact set list remain uninferred."
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-05",
+        "rationale": "The concrete scarcity fact is the official farewell-tour context: Kupferberg describes this as a heartfelt farewell performance and Warwick's final bow in Queens. A+ would understate the genuine-regret-if-missed character for someone who wants to hear this major living interpreter before the farewell chapter closes. S is warranted because a farewell is explicitly within the current protect-the-night rubric. S+ is not warranted because the evidence identifies a multi-city farewell tour rather than this date as a singular final-ever performance; altering plans specifically for Queens would overstate the verified scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Warwick's voice is inseparable from one of American pop's defining songbooks, but the live reason is the farewell itself: Kupferberg presents this visit as her final bow in Queens. If hearing her interpret that repertoire in the room matters, this is a night to protect rather than assume there will be another pass.",
+          "trip_verdict": "Queens makes this a real New York trip from the DMV. If Warwick's farewell chapter matters to you, build the New York weekend around this night rather than treating it as an incidental add-on; the multi-city nature of the tour still argues for choosing the stop that best fits the trip rather than chasing this city for its own sake.",
+          "listen_before": "Dionne Warwick — The Dionne Warwick Collection: Her All-Time Greatest Hits"
+        },
+        "es": {
+          "why_it_matters": "La voz de Warwick está unida a uno de los cancioneros decisivos del pop estadounidense, pero la razón en vivo es la despedida: Kupferberg presenta esta visita como su última reverencia en Queens. Si importa escucharla interpretar ese repertorio en la sala, ésta es una noche para proteger en vez de asumir que habrá otra vuelta.",
+          "trip_verdict": "Desde el DMV, Queens sí implica un viaje real a Nueva York. Si importa despedirse de Warwick en vivo, conviene armar el fin de semana alrededor de esta noche en vez de dejarla como un añadido casual; como la despedida es una gira de varias ciudades, sigue teniendo sentido elegir la parada que mejor encaje en el viaje y no perseguir Queens sólo por completar la ciudad.",
+          "listen_before": "Dionne Warwick — The Dionne Warwick Collection: Her All-Time Greatest Hits"
+        }
+      }
+    }
+  ]
+}
