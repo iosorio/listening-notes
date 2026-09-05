@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-matsuri-session-toyosu-pit-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A and current Japanese-jazz sources did not reveal a new verified future Yamamoto appearance that was not already represented in canonical/curated/processed intake. The broader Tokyo/Kanto pass found THE MATSURI SESSION at Toyosu PIT on December 2. Stage 1 admits the performance for a specific live reason: the bill places three distinct Mukai Shutoku-associated performance identities—ZAZEN BOYS, KIMONOS, and Mukai Shutoku Acoustic & Electric—alongside Akira Sakata, connecting angular Japanese art rock with a major free-jazz/improvising lineage inside the MATSURI SESSION frame. The exact onstage collaboration structure is not announced and is not inferred. Stage 2 assigns A+: this is an unusually strong Tokyo bill worth actively making room for, but MATSURI SESSION is a recurring platform and no one-off collaborative set, farewell, premiere, or other scarcity fact is verified, so A+ captures the recommendation without adding unjustified pressure to the rarer S/S+ tiers. Repository searches for THE MATSURI SESSION, the exact stable ID, Toyosu PIT plus December 2, ZAZEN BOYS, KIMONOS and Akira Sakata returned no matching canonical, curated or processed record before publication.",
+  "events": [
+    {
+      "id": "the-matsuri-session-toyosu-pit-tokyo-2026-12-02",
+      "artist": "THE MATSURI SESSION — ZAZEN BOYS / KIMONOS / Mukai Shutoku Acoustic & Electric / Akira Sakata",
+      "subtitle": "Matsuri Studio cross-current bill with Akira Sakata",
+      "dates": {
+        "start": "2026-12-02",
+        "end": "2026-12-02"
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "toyosu-pit-tokyo",
+        "name": "Toyosu PIT",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP",
+        "address": "6-1-23 Toyosu, Koto-ku, Tokyo 135-0061"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese art rock / experimental rock / free-jazz crossover bill",
+      "genres": [
+        "Art rock",
+        "Experimental rock",
+        "Post-punk",
+        "Free jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "ZAZEN BOYS — billed artist",
+        "KIMONOS — billed artist",
+        "Mukai Shutoku Acoustic & Electric — billed artist",
+        "Akira Sakata — billed artist"
+      ],
+      "factual_description": "Mukai Shutoku / Matsuri Studio's official live schedule lists THE MATSURI SESSION at Toyosu PIT in Tokyo on Wednesday, December 2, 2026. Doors are at 18:00 and the performance starts at 19:00. The announced bill is ZAZEN BOYS, KIMONOS, Mukai Shutoku Acoustic & Electric, and Akira Sakata. Advance admission is ¥8,800 and day-of-show admission is ¥9,900, both plus the venue drink charge. The official page links TICKET FROG as an authorized advance-sale destination and lists general sale beginning October 3 at 10:00. Mukai's official news page specifically frames the event as welcoming alto saxophonist Akira Sakata. Toyosu PIT's official access page verifies the venue address as 6-1-23 Toyosu, Koto-ku, Tokyo. No source checked in this run states that the four billed acts will combine into one ensemble, so no cross-artist collaboration is represented as fact.",
+      "links": {
+        "official_event": "https://mukaishutoku.com/live.html",
+        "official_tickets": "https://ticket-frog.com/e/tms261202"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "No exact Apple Music destination was independently verified for a single recording that fairly represents this multi-artist bill, so no Apple Music ID or URL is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://mukaishutoku.com/live.html",
+          "publisher": "Mukai Shutoku / Matsuri Studio",
+          "checked_on": "2026-09-05",
+          "note": "Primary artist/organizer live schedule verifies THE MATSURI SESSION, December 2, 2026 at Toyosu PIT, the four billed artists, 18:00 doors / 19:00 start, ¥8,800 advance / ¥9,900 day-of-show pricing, drink charge, authorized TICKET FROG destination and October 3 general-sale date."
+        },
+        {
+          "url": "https://mukaishutoku.com/main.html",
+          "publisher": "Mukai Shutoku / Matsuri Studio",
+          "checked_on": "2026-09-05",
+          "note": "Primary artist news page independently announces the same Toyosu PIT event and specifically frames the 2026 edition as welcoming alto saxophonist Akira Sakata."
+        },
+        {
+          "url": "https://www.leoimai.com/live",
+          "publisher": "LEO IMAI",
+          "checked_on": "2026-09-05",
+          "note": "Primary participant schedule corroborates the December 2 Toyosu PIT billing, times, prices and authorized ticket outlets."
+        },
+        {
+          "url": "https://toyosu.pia-pit.jp/access/",
+          "publisher": "Toyosu PIT",
+          "checked_on": "2026-09-05",
+          "note": "Official venue access page verifies Toyosu PIT's address as 6-1-23 Toyosu, Koto-ku, Tokyo 135-0061."
+        },
+        {
+          "url": "https://ticket-frog.com/e/tms261202",
+          "publisher": "TICKET FROG / ADN STATE",
+          "checked_on": "2026-09-05",
+          "note": "Authorized purchase destination linked directly from the primary artist schedule. The event-specific URL resolves on TICKET FROG; detailed event rendering is JavaScript-dependent, so factual billing, time and price fields are taken from the primary artist schedule rather than inferred from the ticket page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-participant-venue-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core performance facts are verified from Mukai Shutoku / Matsuri Studio's official event listing and corroborated by LEO IMAI's official schedule; Toyosu PIT verifies venue identity and address. Repository searches for the event title, exact stable ID, date/venue and the ZAZEN BOYS/KIMONOS/Akira Sakata combination returned no existing canonical, curated or processed representation before publication. No unannounced member roster, joint set, guest interaction, setlist, Apple Music identifier or additional purchase destination is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This bill puts several sides of Mukai Shutoku's musical language in one room—ZAZEN BOYS' clipped, rhythm-obsessed art rock, KIMONOS, and his stripped acoustic/electric solo identity—then places Akira Sakata's free-jazz lineage alongside them. The appeal is the collision of Japanese rock and improvising traditions inside the same Matsuri frame; the organizers have not promised a combined ensemble, so the recommendation rests on the exact bill rather than an imagined collaboration.",
+          "trip_verdict": "If December 2 is a Tokyo night, actively make room for Toyosu PIT and let this bill anchor the evening. I would not reroute a Japan trip around it by itself: MATSURI SESSION is an active recurring platform, and no one-off joint set has been announced.",
+          "listen_before": "ZAZEN BOYS — Rando; Akira Sakata — a recent live/free-improvisation recording"
+        },
+        "es": {
+          "why_it_matters": "El cartel junta varias caras del lenguaje de Mukai Shutoku en una sola noche: el art rock seco y obsesionado con el ritmo de ZAZEN BOYS, KIMONOS y su formato acústico/eléctrico más desnudo; al lado aparece Akira Sakata con otra genealogía, la del free jazz y la improvisación japonesa. Lo atractivo es ese choque de tradiciones dentro del mismo marco de Matsuri; como los organizadores no han anunciado un ensamble conjunto, la recomendación se sostiene en el cartel real y no en una colaboración imaginada.",
+          "trip_verdict": "Si el 2 de diciembre es noche de Tokio, sí le haría espacio activamente a Toyosu PIT y dejaría que este cartel ancle la velada. No desviaría por sí solo un viaje por Japón: MATSURI SESSION es una plataforma recurrente y no se ha anunciado un set conjunto irrepetible.",
+          "listen_before": "ZAZEN BOYS — Rando; Akira Sakata — una grabación reciente de free jazz o improvisación en vivo"
+        }
+      }
+    }
+  ]
+}
