@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dana-and-alden-atlantis-dc-2026-09-05-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources; the verified Space M&A dates and relevant September BODY&SOUL / Tokyo dates surfaced in this pass are already represented in canonical, curated, or processed intake, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found Dana and Alden's Papa's Boat Tour with Alex Amen at The Atlantis on October 29, 2026. Stage 1 admission is based on a specific live proposition: the sibling core of Dana McWayne's saxophone and Alden McWayne's drums/percussion gives the project a strong instrumental identity, while the current Papa's Boat material moves through jazz, groove, indie, pop, rap and bossa-nova influence without abandoning the duo's improvisational center. Priority was assigned only after admission. A reflects a worthwhile local DC discovery to catch when convenient; A+ is not warranted because the date is one stop on an active tour and no premiere, farewell, unique guest lineup, anniversary, or other rare live circumstance is verified. Repository search for Dana and Alden found no matching canonical, curated or processed RADAR record before publication. Recent/current RADAR output was reviewed as a sanity check and remains conceptually shaped around a broad A base, narrower A+, and scarcity-gated S/S+; this batch adds A 1 / A+ 0 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "dana-and-alden-the-atlantis-washington-dc-2026-10-29",
+      "artist": "Dana and Alden",
+      "subtitle": "Papa's Boat Tour with Alex Amen",
+      "dates": {
+        "start": "2026-10-29",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Instrumental jazz / groove / cross-genre",
+      "genres": [
+        "Jazz",
+        "Jazz Fusion",
+        "Funk",
+        "Indie",
+        "Bossa Nova"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Dana McWayne — saxophone",
+        "Alden McWayne — drums / percussion",
+        "Alex Amen — support artist"
+      ],
+      "factual_description": "The Atlantis presents Dana and Alden's Papa's Boat Tour with Alex Amen on Thursday, October 29, 2026 in Washington, DC. The venue lists doors at 6:30 PM and authorized Ticketmaster lists the event at 6:30 PM; because no separate performance start is published in the accessible primary sources, no showtime is inferred. Concord describes Dana and Alden as an Eugene, Oregon sibling jazz duo whose current album Papa's Boat is built around Dana's saxophone and Alden's drums, with a backing-band studio sound rooted in jazz and drawing from indie, pop, rap, bossa nova and beyond. The Atlantis independently carries the same current-album context and bills Alex Amen as support. Album collaborators such as Marcos Valle, Mei Semones and Melanie Charles are not listed as live personnel because no source confirms them for this performance.",
+      "links": {
+        "official_event": "https://theatlantis.com/e/dana-and-alden-papas-boat-tour/",
+        "official_tickets": "https://www.ticketmaster.com/dana-and-alden-papas-boat-tour-washington-district-of-columbia-10-29-2026/event/150064BCCC46E5F7"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Dana and Alden",
+          "title": "Papa's Boat",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/papas-boat/1890233745"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "showtime",
+          "face_value_price",
+          "complete_live_backing_personnel"
+        ],
+        "note": "Exact date, venue, tour billing, support artist and 6:30 PM doors are verified from The Atlantis and authorized Ticketmaster. Concord verifies the sibling saxophone/drums instrumental core and the current Papa's Boat album context. No separate performance start, face-value ticket price or complete live backing lineup is published in the accessible primary sources, so those fields are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://theatlantis.com/e/dana-and-alden-papas-boat-tour/",
+          "publisher": "The Atlantis / I.M.P.",
+          "checked_on": "2026-09-05",
+          "note": "Primary venue page verifies Thursday, October 29, 2026, Dana and Alden - Papa's Boat Tour with Alex Amen, The Atlantis in Washington, DC, doors at 6:30 PM, and the current Papa's Boat artist context."
+        },
+        {
+          "url": "https://www.ticketmaster.com/dana-and-alden-papas-boat-tour-washington-district-of-columbia-10-29-2026/event/150064BCCC46E5F7",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-05",
+          "note": "Authorized exact event page verifies Thursday, October 29, 2026 at The Atlantis, Washington, DC and displays 6:30 PM. The venue page identifies 6:30 PM as doors, so the candidate does not reinterpret it as the performance start."
+        },
+        {
+          "url": "https://concord.com/concord-albums/papas-boat/",
+          "publisher": "Concord Jazz / Concord Label Group",
+          "checked_on": "2026-09-05",
+          "note": "Official label album page verifies Papa's Boat, Dana McWayne's saxophone and Alden McWayne's drums as the project's core, and the album's jazz-rooted cross-genre palette. Studio collaborators named there are not treated as live personnel for this event."
+        },
+        {
+          "url": "https://music.apple.com/us/album/papas-boat/1890233745",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-05",
+          "note": "Exact Apple Music page verifies Dana and Alden's 2026 album Papa's Boat, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticket-and-authoritative-label-sources",
+        "note": "Core event facts and support billing were verified from The Atlantis/I.M.P. and authorized Ticketmaster; current instrumental identity and album context were verified from Concord Jazz; Apple Music verifies the exact listening link. Repository search found no Dana and Alden RADAR record before publication. No performance start, face-value price, unverified tour personnel, album guests as live guests, or resale destination was inferred. A was assigned only after Stage 1 admission and reflects a worthwhile local instrumental/groove discovery without manufacturing scarcity or prestige-based priority. Editorial review in this automation is accurately attributable to RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The attraction is the sibling engine: Dana's saxophone and Alden's drums give the music a clear instrumental identity, with groove doing as much work as harmony. The Papa's Boat material widens that core toward funk, indie, pop and bossa-nova color without turning the project into generic crossover, making the small Atlantis room a useful place to hear how the duo's rhythmic conversation actually carries the songs.",
+          "trip_verdict": "Catch the Atlantis set if the evening is open. This is a strong local discovery rather than a travel trigger, so there is no reason to chase another city on the tour for the same billing.",
+          "listen_before": "Dana and Alden — Papa's Boat"
+        },
+        "es": {
+          "why_it_matters": "El atractivo está en el motor fraternal: el saxofón de Dana y la batería de Alden le dan a la música una identidad instrumental muy clara, con el groove haciendo tanto trabajo como la armonía. El material de Papa's Boat abre ese núcleo hacia funk, indie, pop y colores de bossa nova sin convertir el proyecto en un crossover genérico; la sala pequeña de The Atlantis es un buen lugar para escuchar cómo la conversación rítmica del dúo sostiene realmente las canciones.",
+          "trip_verdict": "Caería a The Atlantis si la noche está libre. Es un descubrimiento local fuerte, no una razón para viajar, así que no perseguiría otra ciudad de la gira para ver el mismo billing.",
+          "listen_before": "Dana and Alden — Papa's Boat"
+        }
+      }
+    }
+  ]
+}
