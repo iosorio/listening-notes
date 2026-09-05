@@ -1,0 +1,99 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "shun-ishiwaka-trio-cecion-suginami-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, and credible Japanese-jazz sources did not reveal a new verified future Yamamoto appearance not already represented in canonical/curated/processed intake. The broader Tokyo/Kanto pass found Shun Ishiwaka Trio at Cecion Suginami on November 1. Stage 1 admits the performance for a specific live reason: Bunkamura explicitly frames the hall program around rhythm as the protagonist, with Ishiwaka's drummer-led trio of Marty Holoubek and Yusei Takahashi, and the same core trio's first album was recorded live at ALFIE. Stage 2 assigns A: the event is worth RADAR and worth attending if convenient in Tokyo, but there is no verified premiere, farewell, unusual guest lineup, anniversary, or other scarcity fact that would justify active-prioritization or scarcity language. This A addition is consistent with the intended broad-base shape and does not add pressure to S/S+ distribution.",
+  "events": [
+    {
+      "id": "shun-ishiwaka-trio-cecion-suginami-tokyo-2026-11-01",
+      "artist": "Shun Ishiwaka Trio",
+      "subtitle": "Meet The Artists vol.9 — rhythm-centered trio jazz live",
+      "dates": {
+        "start": "2026-11-01",
+        "end": "2026-11-01"
+      },
+      "showtimes": [
+        "15:00"
+      ],
+      "venue": {
+        "id": "cecion-suginami-tokyo",
+        "name": "Cecion Suginami — Hall",
+        "city": "Suginami, Tokyo",
+        "state": "Tokyo",
+        "country": "JP",
+        "address": "1-22-32 Umezato, Suginami-ku, Tokyo"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese contemporary jazz / drummer-led trio / rhythm-centered hall performance",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Shun Ishiwaka — drums",
+        "Marty Holoubek — bass",
+        "Yusei Takahashi — piano"
+      ],
+      "factual_description": "Bunkamura presents Shun Ishiwaka Trio in Meet The Artists vol.9 at Cecion Suginami Hall on Sunday, November 1, 2026. Doors are at 14:30 and the performance starts at 15:00. The announced trio is Shun Ishiwaka on drums, Marty Holoubek on bass, and Yusei Takahashi on piano. Bunkamura lists general reserved admission at ¥4,500 and describes the 491-seat hall program as a performance in which rhythm itself becomes the protagonist, built from Ishiwaka's movement between jazz, improvisation, contemporary music and pop. Ishiwaka's official site says this core trio was formed in 2024; its first album, Live at ALFIE “Temporal Cubic,” was released in December 2025 and nominated for the Music Awards Japan 2026 jazz-album category. The same artist source documents the trio's September 2, 2026 release mabui as a trio-plus-one project with saxophonist Tomoaki Baba; Baba is not announced for this Cecion Suginami performance and is not included in the event lineup.",
+      "links": {
+        "official_event": "https://www.bunkamura.co.jp/kanri/lineup/20261101.html",
+        "official_tickets": "https://my.bunkamura.co.jp/ticket/ProgramDetail/index/5563"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The trio's Live at ALFIE “Temporal Cubic” and the 2026 trio-plus-one release mabui are verified from Shun Ishiwaka's official site, but no exact Apple Music destination was independently verified in this run, so no Apple Music ID or URL is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.bunkamura.co.jp/kanri/lineup/20261101.html",
+          "publisher": "Bunkamura",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter page verifies November 1, 2026; Cecion Suginami Hall; 14:30 doors / 15:00 start; ¥4,500 general reserved admission; full trio lineup; venue address; and the rhythm-centered framing of the performance."
+        },
+        {
+          "url": "https://my.bunkamura.co.jp/ticket/ProgramDetail/index/5563",
+          "publisher": "MY Bunkamura authorized ticketing",
+          "checked_on": "2026-09-05",
+          "note": "Authorized Bunkamura ticket page corroborates the date, venue, trio personnel, ¥4,500 ticket price and current online reservation availability."
+        },
+        {
+          "url": "https://www.shun-ishiwaka.com/news-1",
+          "publisher": "Shun Ishiwaka",
+          "checked_on": "2026-09-05",
+          "note": "Primary artist site verifies that Ishiwaka formed this trio with Yusei Takahashi and Marty Holoubek in 2024, identifies Live at ALFIE “Temporal Cubic” as the trio's first album and documents the separate September 2026 trio-plus-one release mabui with Tomoaki Baba, preventing a false guest-lineup inference for this show."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository-wide searches for Shun Ishiwaka, 石若駿, Cecion Suginami/セシオン杉並, the November 1 date, and the proposed stable event ID returned no existing canonical, curated or processed representation before publication. Core performance facts come from Bunkamura and its authorized ticketing; trio history comes from Ishiwaka's official site. No additional personnel, showtime, price, Apple Music identifier or purchase destination was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Ishiwaka puts rhythm at the center without turning the trio into a drum showcase: Holoubek and Takahashi give him a compact acoustic frame where pulse, structure and improvisation can keep changing roles. There is also a quiet Listening Notes resonance in hearing the core trio whose first album was recorded live at ALFIE, now presented in a hall program explicitly built around Ishiwaka's rhythmic language.",
+          "trip_verdict": "If November 1 is already a Tokyo day, this is a strong afternoon option in Suginami and worth catching when the schedule lines up. I would not reorganize a Kanto itinerary around this date alone because the trio is active and no one-off context is announced.",
+          "listen_before": "Shun Ishiwaka Trio — Live at ALFIE “Temporal Cubic”"
+        },
+        "es": {
+          "why_it_matters": "Ishiwaka pone el ritmo en el centro sin convertir al trío en una exhibición de batería: Holoubek y Takahashi le dan un marco acústico compacto donde pulso, estructura e improvisación pueden cambiar de función todo el tiempo. Además hay una resonancia discreta con Listening Notes: es el núcleo del trío cuyo primer disco se grabó en vivo en ALFIE, ahora llevado a una sala que presenta esta función precisamente alrededor del lenguaje rítmico de Ishiwaka.",
+          "trip_verdict": "Si el 1 de noviembre ya es un día de Tokio, sí aprovecharía la tarde en Suginami cuando embone con el resto del plan. No reorganizaría un itinerario por Kanto alrededor de esta fecha sola porque el trío está activo y no hay un contexto único anunciado.",
+          "listen_before": "Shun Ishiwaka Trio — Live at ALFIE “Temporal Cubic”"
+        }
+      }
+    }
+  ]
+}
