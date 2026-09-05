@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "blue-note-45th-anniversary-robert-glasper-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread from main before searching or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, KEYSTONE CLUB TOKYO and credible Japanese-jazz sources; surfaced future Yamamoto dates were already represented in canonical, curated, processed or existing enrichment intake, so no duplicate Yamamoto event was created. The broader US-corridor pass found Blue Note New York's 45th Anniversary Celebration hosted by Robert Glasper on October 14, 2026. Repository searches for the exact event title, date and proposed stable ID returned no matching RADAR record before publication. Stage 1 admission clears because this is a specific historical live context rather than a generic venue booking: Blue Note marks 45 years of the Greenwich Village club founded in 1981, and the celebration is hosted by Robert Glasper during the seventh year of his Robtober relationship with the room. Stage 2 is A+: the anniversary is a one-night historical marker and actively worth making room for if New York is in the plan, but the official page currently verifies only Glasper as host and does not announce a singular all-star lineup, farewell, premiere or other scarcity fact strong enough to make genuine-regret S language necessary. Recent/current RADAR additions remain broad at A/A+ with S/S+ reserved for explicit scarcity, so this assignment does not expand the scarcity tiers. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "blue-note-45th-anniversary-robert-glasper-new-york-2026-10-14",
+      "artist": "Blue Note's 45th Anniversary Celebration hosted by Robert Glasper",
+      "subtitle": "One-night Greenwich Village anniversary celebration",
+      "dates": {
+        "start": "2026-10-14",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "NYC jazz institution / 45th anniversary / Robtober",
+      "genres": [
+        "Jazz",
+        "R&B",
+        "Hip-Hop",
+        "Soul"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Robert Glasper — host"
+      ],
+      "factual_description": "Blue Note Jazz Club presents 'Blue Note's 45th Anniversary Celebration hosted by Robert Glasper' on Wednesday, October 14, 2026 at 8:00 PM, with doors at 6:00 PM. Blue Note's official About page states that the Greenwich Village club has operated since 1981, making 2026 its 45th year. The event page describes Glasper as a pianist, producer and composer whose work blends jazz, R&B and hip-hop, and notes that his Robtober residency is entering its seventh year. The official event and authorized TicketWeb pages currently identify Robert Glasper as host but do not publish additional participants, so no guest lineup is inferred. TicketWeb shows current bar-area availability at a $75.00 face price plus $13.98 in fees, while table seating is sold out; the separate $20 per-person food-and-beverage minimum is not treated as a ticket price.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/blue-notes-45th-anniversary-celebration-hosted-by-robert-glasper/",
+        "official_tickets": "https://www.ticketweb.com/event/blue-notes-45th-anniversary-celebration-blue-note-jazz-club-tickets/15041813?pl=bluenoteny"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 75,
+          "maximum": null,
+          "source_url": "https://www.ticketweb.com/event/blue-notes-45th-anniversary-celebration-blue-note-jazz-club-tickets/15041813?pl=bluenoteny",
+          "checked_on": "2026-09-04"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Robert Glasper Experiment",
+          "title": "Black Radio",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/black-radio/716753527"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Blue Note event page verifies the date, venue, doors, showtime and Robert Glasper host billing; Blue Note's About page verifies the club's 1981 origin; authorized TicketWeb verifies the current available face price and purchase destination; the exact Apple Music album destination is verified. No unannounced guests are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/blue-notes-45th-anniversary-celebration-hosted-by-robert-glasper/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-04",
+          "note": "Exact official event page verifies Wednesday, October 14, 2026, 8:00 PM show, 6:00 PM doors, Blue Note Jazz Club, the 45th Anniversary Celebration title, Robert Glasper as host, Robtober's seventh-year context and TicketWeb as an authorized ticket source."
+        },
+        {
+          "url": "https://www.bluenotejazz.com/nyc/about/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-04",
+          "note": "Official venue history states that Blue Note has operated in Greenwich Village since 1981 and describes its role as a close-room jazz institution open to jazz, soul, hip-hop, R&B and funk."
+        },
+        {
+          "url": "https://www.ticketweb.com/event/blue-notes-45th-anniversary-celebration-blue-note-jazz-club-tickets/15041813?pl=bluenoteny",
+          "publisher": "TicketWeb / Blue Note authorized ticketing",
+          "checked_on": "2026-09-04",
+          "note": "Authorized ticket page corroborates October 14, 2026, 8:00 PM show / 6:00 PM doors at Blue Note Jazz Club and currently shows bar-area tickets at $75 face value plus $13.98 fees; table seating is sold out."
+        },
+        {
+          "url": "https://music.apple.com/us/album/black-radio/716753527",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-04",
+          "note": "Exact Apple Music album destination verifies Robert Glasper Experiment's Black Radio, released February 28, 2012 on Blue Note Records."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticket-and-apple-sources",
+        "note": "Repository searches for the exact anniversary billing, October 14 date and proposed stable ID returned no existing canonical, curated or processed RADAR match before publication. Volatile event details come from Blue Note's exact event page and its authorized TicketWeb destination; venue-history context comes from Blue Note's official About page. Only Robert Glasper's host role is recorded because no additional lineup is published. Editorial review was performed in this automation as RADAR automation editorial review; no independent Codex or human review is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not interesting simply because Blue Note is famous. The room is marking 45 years of a specific Greenwich Village listening culture, and Glasper is a particularly apt host because his Robtober residency has become one of the club's contemporary bridges between jazz, hip-hop, R&B and soul. The value is the historical handoff: an institution built around close-range jazz using one of its defining current collaborators to mark its own anniversary.",
+          "trip_verdict": "If New York is already in the corridor, actively make room for the October 14 celebration and let it anchor the evening in Greenwich Village. From the DMV, I would pair it with a broader New York plan rather than make a dedicated trip solely on the basis of a host-only announced lineup.",
+          "listen_before": "Robert Glasper Experiment — Black Radio"
+        },
+        "es": {
+          "why_it_matters": "Esto no entra simplemente porque Blue Note sea famoso. La sala está marcando 45 años de una cultura muy concreta de escuchar jazz a corta distancia, y Glasper es un anfitrión especialmente pertinente porque Robtober se volvió uno de los puentes contemporáneos del club entre jazz, hip-hop, R&B y soul. Lo interesante es el relevo histórico: una institución construida alrededor del jazz íntimo usando a uno de sus colaboradores actuales más representativos para celebrar su propia historia.",
+          "trip_verdict": "Si Nueva York ya está dentro del corredor, sí le haría espacio al 14 de octubre y dejaría que la noche se construya alrededor de Greenwich Village. Desde el DMV la combinaría con un plan más amplio en Nueva York, en vez de hacer un viaje dedicado únicamente con una alineación que por ahora sólo confirma al anfitrión.",
+          "listen_before": "Robert Glasper Experiment — Black Radio"
+        }
+      }
+    }
+  ]
+}
