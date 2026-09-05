@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "aga-khan-master-musicians-sixth-and-i-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, KEYSTONE CLUB TOKYO and credible Japanese-jazz sources. The September 6 Kimiko Ito / Tsuyoshi Yamamoto BODY&SOUL performance and other Yamamoto dates surfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Repository searches for Aga Khan Master Musicians, the November 19 date, Sixth & I, Vincent Peirani and Vincent Segal returned no existing RADAR record for this Washington performance. Stage 1 admits this event because the show-specific billing brings Syrian saxophone/clarinet and qanun, Turkish oud, Uzbek percussion, French accordion and cello into one cross-cultural ensemble whose current project is built around living traditions, contemporary creation and improvisational exchange; the combination gives the performance a concrete instrumental and cultural reason to exist in Listening Notes beyond general prestige. Stage 2 assigns A+: this is a local DMV night worth actively making room for because the instrumentation and cross-continental musical dialogue are unusually distinctive. It is not a scarcity tier: the Peirani/Segal collaboration with Aga Khan Master Musicians premiered in Paris in 2025, continued at Aix in July 2026 and has further performances announced into 2027, so A+ captures the recommendation without manufacturing one-off scarcity. The current Washington Performing Arts and Sixth & I pages name six musicians even though adjacent presenter prose says five Aga Khan Master Musicians plus two French guests and 'seven distinct voices'; the candidate follows only the six names explicitly listed for Washington and does not infer Wu Man from other tour dates. This batch adds one A+ and no S or S+ event; no priority_review gate is triggered and no grade was changed to satisfy a quota.",
+  "events": [
+    {
+      "id": "aga-khan-master-musicians-sixth-and-i-washington-dc-2026-11-19",
+      "artist": "Aga Khan Master Musicians with Vincent Peirani & Vincent Segal",
+      "subtitle": null,
+      "dates": {
+        "start": "2026-11-19",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "sixth-and-i-washington-dc",
+        "name": "Sixth & I",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "dmv",
+      "geography": "Washington, DC",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Cross-cultural contemporary / Living traditions / Improvised ensemble",
+      "genres": [
+        "Global music",
+        "Contemporary music",
+        "Improvised music",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Basel Rajoub — saxophone and clarinet",
+        "Feras Charestan — qanun",
+        "Yurdal Tokcan — oud",
+        "Abbos Kosimov — drum / doira tradition",
+        "Vincent Peirani — accordion",
+        "Vincent Segal — cello"
+      ],
+      "factual_description": "Washington Performing Arts presents Aga Khan Master Musicians with Vincent Peirani and Vincent Segal at Sixth & I, 600 I Street NW, Washington, DC, on Thursday, November 19, 2026. Doors are at 6:30 PM and the performance begins at 7:30 PM. Sixth & I lists $50 general admission, with additional fees. The show-specific pages name Basel Rajoub on saxophone and clarinet, Feras Charestan on qanun, Yurdal Tokcan on oud, Abbos Kosimov on drum, Vincent Peirani on accordion and Vincent Segal on cello. Presenter copy frames the program as a meeting of living traditions from Central Asia and the Middle East with contemporary European jazz/improvisational practice. The broader Aga Khan Music Programme collaboration with Peirani and Segal was introduced in Paris in 2025 as jointly created music inspired by historic cultural routes between Asia and the Mediterranean and continued through 2026 performances. The Washington pages currently contain a numerical inconsistency in their prose about the number of performers, so this record uses only the six musicians explicitly named on the exact Washington event pages and does not add personnel from other tour dates.",
+      "links": {
+        "official_event": "https://www.washingtonperformingarts.org/event/aga-khan-master-musicians/",
+        "official_tickets": "https://my.washingtonperformingarts.org/5047"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact_recorded_release_destination_for_this_collaboration",
+          "presenter_headcount_copy_reconciliation"
+        ],
+        "note": "Date, doors, start time, venue identity, face-value admission, ticket destination and six explicitly named Washington performers are verified. Current Washington first-party pages contain inconsistent prose saying five Aga Khan Master Musicians plus two French guests / seven voices while listing only four Aga Khan Master Musicians plus the two French guests. No seventh performer is inferred. No exact Apple Music release for this specific collaboration was verified, so recommended_listening remains empty."
+      },
+      "sources": [
+        {
+          "type": "official_presenter",
+          "name": "Washington Performing Arts",
+          "url": "https://www.washingtonperformingarts.org/event/aga-khan-master-musicians/",
+          "checked_on": "2026-09-05",
+          "note": "Exact presenter page verifies November 19, 2026 at 7:30 PM, Sixth & I, the six named performers and the cross-cultural program framing."
+        },
+        {
+          "type": "official_venue",
+          "name": "Sixth & I",
+          "url": "https://www.sixthandi.org/event/aga-khan-master-musicians/",
+          "checked_on": "2026-09-05",
+          "note": "Exact venue page verifies November 19 at 7:30 PM, 6:30 PM doors, $50 admission, general admission seating and the same six named performers."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Washington Performing Arts ticketing",
+          "url": "https://my.washingtonperformingarts.org/5047",
+          "checked_on": "2026-09-05",
+          "note": "Authorized presenter ticket destination verifies the November 19 event at Sixth & I and displays $50 full-price general admission plus fees."
+        },
+        {
+          "type": "official_venue",
+          "name": "Sixth & I venue information",
+          "url": "https://www.sixthandi.org/venue/sixth-i/",
+          "checked_on": "2026-09-05",
+          "note": "First-party venue listing verifies the complete venue address as 600 I Street NW, Washington, DC 20001."
+        },
+        {
+          "type": "official_artist_program",
+          "name": "Aga Khan Development Network / Aga Khan Music Programme",
+          "url": "https://the.akdn/en/resources-media/whats-new/news-release/aga-khan-master-musicians-dazzle-with-new-musical-collaborations-in-paris",
+          "checked_on": "2026-09-05",
+          "note": "Official Aga Khan source documents the Peirani/Segal collaboration's 2025 world-premiere origin and describes jointly created works inspired by routes linking Asia and the Mediterranean. It is used for project context only, not to infer Washington personnel."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-venue-ticket-and-program-sources",
+        "note": "Core Washington facts come from Washington Performing Arts, Sixth & I and the authorized Washington Performing Arts ticket page. The Aga Khan Development Network source supports the established collaboration history and jointly created cross-cultural project context. Repository searches found no existing November 19 Sixth & I Aga Khan Master Musicians event before publication. Priority was assigned only after RADAR admission: the unusual meeting of qanun, oud, Central Asian percussion, saxophone/clarinet, accordion and cello within a jointly developed cross-cultural language merits actively making room locally, while the project's multi-year and multi-city continuation argues against scarcity-tier treatment. The Washington lineup is intentionally limited to the six names explicitly printed on the exact event pages because their surrounding headcount prose is internally inconsistent."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to hear this is the conversation between instruments and traditions that rarely share the same working ensemble: qanun and oud beside saxophone/clarinet and Uzbek percussion, with Peirani's accordion and Segal's cello opening a contemporary European improvisational flank. This collaboration was built to create new music from living traditions rather than stage a museum-style survey, so the Washington performance offers a real cross-cultural compositional encounter with a strong instrumental identity.",
+          "trip_verdict": "For a DMV night, make room for Sixth & I if November 19 is open. The room and the unusual instrumentation give this enough identity to anchor an evening in Washington; because the collaboration continues across multiple seasons and cities, there is no reason to chase another stop if the local date works.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón para escuchar esta noche está en la conversación entre instrumentos y tradiciones que rara vez forman un mismo ensamble de trabajo: qanun y oud junto al saxofón/clarinete y la percusión uzbeka, con el acordeón de Peirani y el cello de Segal abriendo un flanco contemporáneo e improvisatorio europeo. Esta colaboración está pensada para crear música nueva desde tradiciones vivas, no para montar una vitrina folclórica, así que la función de Washington ofrece un encuentro compositivo intercultural con una identidad instrumental muy marcada.",
+          "trip_verdict": "Para una noche en el DMV, sí le haría espacio a Sixth & I si el 19 de noviembre está libre. La sala y la combinación instrumental tienen suficiente personalidad para anclar una noche en Washington; como la colaboración continúa en varias ciudades y temporadas, no hace falta perseguir otra fecha si ésta embona.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
