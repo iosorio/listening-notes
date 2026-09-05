@@ -1,0 +1,139 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "morley-meditations-gift-of-awe-national-sawdust-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read from main before research or grading; docs/DATA_MODEL.md was also checked before publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources. The verified future dates surfaced in that thread are already represented in canonical/curated/processed intake, including the September 26 BODY&SOUL Final Groove with TOKU and the September 29, October 30, November 28, and December 28 Space M&A dates, so no duplicate Yamamoto event was created. The broader US-corridor pass found Morley's Meditations on The Gift of Awe Record Premiere Celebration at National Sawdust. Stage 1 admits the specific performance because the presenter describes the new work as an immersive song cycle for vocal trio and chamber ensemble in which vocal soundscapes, rhythm, and improvisation are structural parts of the live design, and publishes a ten-person featured ensemble; the record-premiere context makes this more than a generic club date. Stage 2 assigns A+: the one-night record-premiere presentation, integrated acoustic/vocal/improvisational language, and unusually broad live ensemble make it actively worth making room for in New York. No S-level scarcity is claimed: this is a new active project rather than a farewell, terminal event, or uniquely non-repeatable lineup, so A+ fully captures the recommendation. The recent/current editorial shape remains centered on A and A+ with S/S+ reserved for scarcity; this batch adds A 0 / A+ 1 / S 0 / S+ 0. Repository-wide searches for Morley, National Sawdust, November 7, Meditations on The Gift of Awe, and the proposed stable event ID returned no matching RADAR record before publication.",
+  "events": [
+    {
+      "id": "morley-meditations-gift-of-awe-national-sawdust-brooklyn-2026-11-07",
+      "artist": "Morley",
+      "subtitle": "Meditations on The Gift of Awe — Record Premiere Celebration",
+      "dates": {
+        "start": "2026-11-07",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US",
+        "address": "80 North 6th St, Brooklyn, NY 11249"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Cross-genre vocal / chamber song cycle / record premiere",
+      "genres": [
+        "Jazz",
+        "Soul",
+        "Folk",
+        "Chamber music",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Morley",
+        "Chris Bruce",
+        "Daniel Mintseris",
+        "Jack DeBoe",
+        "Chris St. Hilaire",
+        "Levon Henry",
+        "Arun Ramamurthy",
+        "Trina Basu",
+        "Kenita Miller",
+        "Justin Hicks"
+      ],
+      "factual_description": "National Sawdust presents Morley's Meditations on The Gift of Awe Record Premiere Celebration on Saturday, November 7, 2026, with doors at 18:30 and the performance at 19:30. The presenter describes Meditations on the Gift of Awe :: love songs for earth & survival as an immersive, genre-defying song cycle built from vocal soundscapes, rhythm and improvisation for vocal trio and chamber ensemble. The exact event page lists Morley with Chris Bruce, Daniel Mintseris, Jack DeBoe, Chris St. Hilaire, Levon Henry, Arun Ramamurthy, Trina Basu, Kenita Miller and Justin Hicks. Morley's official current bio identifies Meditations as her ninth album in progress and names Bruce, Trina and Arun Ramamurthy, Justin Hicks, Kenita Miller and Levon Henry among its contributors. National Sawdust's individual page displays a stale 'This event has passed' template label despite the future November 7 date; the venue's current performances index continues to list the event as upcoming and exposes an active authorized ticket destination, so the dated event listing and current index are retained as the controlling evidence.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/morley-meditations-on-the-gift-of-awe-record-release-celebration",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280597"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1280597",
+          "checked_on": "2026-09-05"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Morley",
+          "title": "Follow the Sound",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/follow-the-sound/1762186611"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact National Sawdust event page verifies the event, date, doors, start time, record-premiere framing, live format and published featured ensemble; the venue's current performances index corroborates that it is upcoming and links to the exact authorized AudienceView/OvationTix destination. Morley's official bio corroborates the album-in-progress context, and Apple Music verifies the exact Follow the Sound album page. No face-value ticket price is exposed in the retrievable authorized ticket page, so prices remain null rather than being inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/morley-meditations-on-the-gift-of-awe-record-release-celebration",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter page verifies November 7, 2026, 18:30 doors, 19:30 performance, the Record Premiere Celebration billing, vocal-trio/chamber-ensemble format, improvisational design and the ten named featured performers. The page template also shows a contradictory passed-event label, so the current venue index was checked separately."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/performances",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-05",
+          "note": "Current presenter performances index lists Morley — Meditations on The Gift of Awe Record Premiere Celebration for November 7, 2026 at 7:30 PM among upcoming performances and exposes a Buy Tickets action, resolving the stale passed-event label on the individual template."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280597",
+          "publisher": "AudienceView Professional / National Sawdust authorized ticketing",
+          "checked_on": "2026-09-05",
+          "note": "Exact authorized ticket destination linked directly from National Sawdust. The retrievable page does not expose a face-value price, so official price fields remain null."
+        },
+        {
+          "url": "https://www.morleymusic.org/bio/",
+          "publisher": "Morley Music",
+          "checked_on": "2026-09-05",
+          "note": "Official artist bio identifies Meditations On The Gift of Awe :: love songs for earth & survival as Morley's ninth album in progress and names Chris Bruce, Trina and Arun Ramamurthy, Justin Hicks, Kenita Miller and Levon Henry among contributors. Used to corroborate project context, not to infer additional live personnel beyond the presenter listing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/follow-the-sound/1762186611",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-05",
+          "note": "Exact Apple Music album page verifies Morley's Follow the Sound as a 12-song album and supplies the listening destination used here."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-authorized-ticket-and-apple-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts come from National Sawdust and its live performances index; authorized ticketing comes from the directly linked AudienceView/OvationTix destination; Morley's official bio corroborates the new-project context; Apple Music verifies the listening recommendation. Repository-wide searches for Morley, the event title, November 7, National Sawdust and the stable event ID found no prior RADAR record. Priority A+ was assigned only after Stage 1 admission: the record-premiere context and integrated vocal/chamber/improvisational ensemble make the night actively worth prioritizing, while the project remains active and lacks a verified terminal or singular scarcity fact that would justify S."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a generic record-launch set. Meditations is being built as a song cycle for vocal trio and chamber ensemble, with rhythm, improvisation and layered voices functioning as part of the architecture rather than decoration. The National Sawdust premiere celebration puts that idea in the room with a wide ten-person ensemble, making the live question how Morley's jazz, soul and folk language expands when it is given chamber scale without losing intimacy.",
+          "trip_verdict": "If New York is already in play on November 7, actively make room for National Sawdust and let this anchor the Brooklyn evening. From the DMV, I would pair it with another strong New York reason rather than make a dedicated round trip for this performance alone.",
+          "listen_before": "Morley — Follow the Sound"
+        },
+        "es": {
+          "why_it_matters": "No es una presentación genérica de disco. Meditations está concebido como un ciclo de canciones para trío vocal y ensamble de cámara, con ritmo, improvisación y voces superpuestas funcionando como parte de la arquitectura y no como adorno. La celebración de estreno en National Sawdust pone esa idea en la sala con un ensamble amplio de diez integrantes: la pregunta en vivo es cómo crece el lenguaje de jazz, soul y folk de Morley cuando adquiere escala de cámara sin perder intimidad.",
+          "trip_verdict": "Si Nueva York ya entra en el plan el 7 de noviembre, sí le haría espacio activamente a National Sawdust y dejaría que esta fecha ancle la noche en Brooklyn. Desde el DMV lo combinaría con otra razón fuerte para subir, en vez de hacer un viaje dedicado de ida y vuelta únicamente por esta función.",
+          "listen_before": "Morley — Follow the Sound"
+        }
+      }
+    }
+  ]
+}
