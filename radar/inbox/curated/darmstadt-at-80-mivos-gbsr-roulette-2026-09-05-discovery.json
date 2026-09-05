@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "darmstadt-at-80-mivos-gbsr-roulette-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources produced no additional verified unrecorded Yamamoto performance requiring a new RADAR record; already represented appearances were not duplicated. Stage 1 admits the December 10 Darmstadt at 80 program for a specific live construction: Mivos Quartet performs music by Rebecca Saunders and Herbert Brün, GBSR Duo makes its New York City debut, and Yaron Deutsch adds a solo/ensemble guitar voice inside a two-night 80th-anniversary frame for the Darmstadt Summer Course that also includes archival listening and talks. Stage 2 assigns A+ only after admission. The anniversary frame, exact cross-generational repertory logic and GBSR New York debut make this actively worth prioritizing, but A+ still captures the recommendation: no world or U.S. premiere, farewell, terminal lineup or singular one-off has been verified; GBSR's exact program remains TBA; and Roulette will livestream and archive the performance. Recent/current RADAR intake was checked as a distribution sanity check and remains centered on A/A+ with scarcity tiers treated as exceptions; no grade was changed to meet a quota. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "darmstadt-at-80-mivos-gbsr-yaron-deutsch-roulette-brooklyn-2026-12-10",
+      "artist": "Mivos Quartet plays Rebecca Saunders & Herbert Brün // GBSR Duo // Yaron Deutsch",
+      "subtitle": "Darmstadt at 80 Festival — Night One / GBSR Duo New York City debut",
+      "dates": {
+        "start": "2026-12-10",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Darmstadt 80th anniversary / contemporary experimental music",
+      "genres": [
+        "New Music",
+        "Experimental",
+        "Improvisation"
+      ],
+      "musical_axes": [
+        "Experimental / Metal",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Olivia De Prato — violin (Mivos Quartet)",
+        "William Overcash — violin (Mivos Quartet)",
+        "Victor Lowrie Tafoya — viola (Mivos Quartet)",
+        "Nathan Watts — cello (Mivos Quartet)",
+        "George Barton — percussion (GBSR Duo)",
+        "Siwan Rhys — piano (GBSR Duo)",
+        "Yaron Deutsch — guitar"
+      ],
+      "factual_description": "Roulette presents night one of the Darmstadt at 80 Festival on Thursday, December 10, 2026. Doors are at 7:00 PM and the performance begins at 8:00 PM. The program bills Mivos Quartet performing music by Rebecca Saunders and Herbert Brün, GBSR Duo making its New York City debut, and guitarist Yaron Deutsch, alongside archival listening sessions and lectures. Roulette frames the two-night festival around the 80th anniversary of the Internationales Musikinstitut Darmstadt Summer Course. Face-value admission is $25 advance, $30 at the door, and $20 student/senior with ID. Roulette states that a free livestream will be available at 8:00 PM and archived afterward. Exact composition titles beyond the billed Saunders/Brün composer attribution are not published on the presenter page, and GBSR lists its program as TBA.",
+      "links": {
+        "official_event": "https://roulette.org/event/darmstadt-at-80-festival-mivos-quartet-rebecca-saunders-herbert-brun-yaron-deutsch-gbsr-duo/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1283877"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 30,
+          "source_url": "https://ci.ovationtix.com/36368/production/1283877",
+          "checked_on": "2026-09-05"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music",
+          "complete_repertoire"
+        ],
+        "note": "Roulette verifies the exact date, doors/start time, 80th-anniversary frame, billed artists, complete announced personnel, face-value pricing, livestream/archive and authorized ticket destination. GBSR Duo independently verifies its December 10 Roulette appearance and New York City debut, while listing the program as TBA. Exact composition titles are therefore not inferred, and no Apple Music ID is invented."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/darmstadt-at-80-festival-mivos-quartet-rebecca-saunders-herbert-brun-yaron-deutsch-gbsr-duo/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter page verifies December 10, 2026; 19:00 doors; 20:00 performance; face-value admission; Darmstadt 80th-anniversary context; Mivos Quartet performing music by Rebecca Saunders and Herbert Brün; GBSR Duo's New York City debut; Yaron Deutsch; complete announced personnel; archival listening/talk framing; free livestream/archive; and the authorized ticket link."
+        },
+        {
+          "url": "https://www.gbsr.co.uk/concerts",
+          "publisher": "GBSR Duo",
+          "checked_on": "2026-09-05",
+          "note": "Primary participant schedule independently verifies Thursday, December 10 at Roulette, the Darmstadt at 80 Festival, GBSR Duo's New York City debut, Mivos Quartet and Yaron Deutsch; it lists the exact GBSR program as TBA."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1283877",
+          "publisher": "Roulette / AudienceView Professional",
+          "checked_on": "2026-09-05",
+          "note": "Authorized ticket destination linked by Roulette for this exact event."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-participant-and-authorized-ticket-sources",
+        "note": "Core performance facts were verified against Roulette, GBSR Duo and Roulette's authorized AudienceView ticket destination. Repository searches for the event title, principal artist combinations and proposed stable event ID returned no matching RADAR candidate before publication. Priority was assigned only after Stage 1 admission. The GBSR New York debut and Darmstadt anniversary frame were explicitly challenged against the S threshold; A+ remains sufficient because no world or U.S. premiere, farewell, terminal lineup or other singular scarcity fact has been verified, the exact GBSR repertoire is still TBA, and the performance will be livestreamed and archived."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Darmstadt's 80th-anniversary frame gives this concert a sharper live premise than a generic new-music sampler: Mivos puts the string-quartet tradition into contact with Rebecca Saunders and Herbert Brün, GBSR makes its New York City debut on percussion and piano, and Yaron Deutsch adds a guitar voice from the European experimental circuit. The point is hearing Darmstadt's postwar lineage and current experimental practice meet in one room, with archival listening and discussion extending the context beyond repertory display.",
+          "trip_verdict": "If New York is already in play on December 10, actively make room for Roulette and let the festival anchor the evening. From the DMV, pair it with another strong New York reason rather than make a dedicated round trip for night one alone.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El marco de los 80 años de Darmstadt le da a esta noche una razón en vivo más precisa que la de un muestrario genérico de música nueva: Mivos pone el cuarteto de cuerdas frente a Rebecca Saunders y Herbert Brün, GBSR debuta en Nueva York con percusión y piano, y Yaron Deutsch suma una voz de guitarra del circuito experimental europeo. Lo atractivo es oír cómo la herencia de Darmstadt y la práctica experimental actual se rozan en una misma sala, con sesiones de archivo y conversaciones ampliando el contexto más allá del repertorio.",
+          "trip_verdict": "Si Nueva York ya está en juego el 10 de diciembre, sí le haría espacio activamente a Roulette y dejaría que el festival ancle la noche. Desde el DMV lo combinaría con otra razón fuerte para subir, en vez de hacer un viaje dedicado sólo por la primera noche.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
