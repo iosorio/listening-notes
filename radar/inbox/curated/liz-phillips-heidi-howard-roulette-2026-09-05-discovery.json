@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "liz-phillips-heidi-howard-roulette-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before any research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A/current schedule traces, and credible Japanese-jazz sources. The surfaced BODY&SOUL September appearances and Space M&A September-November trio dates are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. A broader US-corridor pass found Live Processing Paint and Sound: Liz Phillips and Heidi Howard at Roulette on October 28, 2026. Stage 1 admits the event for a concrete live mechanism: Phillips processes aquatic recordings in real time through Mugic/light sensors, contact microphones, theremin, synthesizers and custom electronics while Howard paints with sensors, turning brushstrokes and fish activity into the source behavior of an immersive soundscape; the program is also part of Harvestworks' announced 50th-anniversary celebration. This is not admission by venue prestige or generic experimental-music reputation. Stage 2 assigns A after comparing the judgment with the recent/current RADAR shape: the event is distinctive enough to know about and attend if a New York trip aligns, but the free livestream/archive and absence of a verified premiere, farewell, singular collaboration claim, or other unusually strong reason to make room for the trip keep the behavioral recommendation at attend-if-convenient rather than A+. No priority_review is required at A. Repository searches for Liz Phillips, Heidi Howard, the exact title, Harvestworks 50th-anniversary phrasing, and the proposed stable event concept found no existing RADAR representation before publication. This batch adds A 1 / A+ 0 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "liz-phillips-heidi-howard-roulette-brooklyn-2026-10-28",
+      "artist": "Liz Phillips & Heidi Howard",
+      "subtitle": "Live Processing Paint and Sound — Harvestworks 50th anniversary",
+      "dates": {
+        "start": "2026-10-28",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Interactive sound art / live electronics / multimedia",
+      "genres": [
+        "Electronic",
+        "Improvisation",
+        "Multimedia",
+        "New Music"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Liz Phillips — synthesizers and custom electronics",
+        "Heidi Howard — sensors and live painting"
+      ],
+      "factual_description": "Harvestworks and Roulette co-present Live Processing Paint and Sound on Wednesday, October 28, 2026 at Roulette in Brooklyn. Doors are at 7:00 PM and the performance begins at 8:00 PM. The presenters list $25 advance, $30 at the door, and $20 student/senior admission. During Heidi Howard's live painting, Liz Phillips will process aquatic recordings in real time using Mugic and light sensors, contact microphones, a theremin, synthesizers and custom electronics, translating brushstrokes and fish activity into an immersive water soundscape; Howard is credited with sensors and live painting. Six camera/screen feeds provide live video synthesis on Roulette's projection screen. The program is presented as part of Harvestworks' 50th-anniversary celebration and also includes an introduction by Interim Director Ivana Dama and a conversation with e-flux Performance Curator Sanna Almajedi. Roulette states that a free livestream will be available at 8:00 PM and archived.",
+      "links": {
+        "official_event": "https://roulette.org/event/live-processing-paint-sound-liz-phillips-heidi-howard/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1283112"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 30,
+          "source_url": "https://roulette.org/event/live-processing-paint-sound-liz-phillips-heidi-howard/",
+          "checked_on": "2026-09-05"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette and Harvestworks verify the event, live mechanism, personnel, times, venue address, anniversary context and public prices; Roulette's Buy Tickets control resolves to the exact authorized AudienceView/OvationTix production. No exact Apple Music album/song/playlist was verified as a durable listening preparation for this multimedia performance, so none is invented."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/live-processing-paint-sound-liz-phillips-heidi-howard/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter page verifies October 28, 2026; 7:00 PM doors; 8:00 PM performance; $25 advance, $30 door and $20 student/senior prices; the Phillips/Howard credits; the live-processing mechanism; six-feed video synthesis; Harvestworks 50th-anniversary framing; Ivana Dama introduction; Sanna Almajedi conversation; and free livestream/archive."
+        },
+        {
+          "url": "https://www.harvestworks.org/event/live-processing-paint-and-sound-liz-phillips-and-heidi-howard/",
+          "publisher": "Harvestworks Digital Media Arts Center",
+          "checked_on": "2026-09-05",
+          "note": "Co-presenter's primary event page independently verifies October 28, 2026 at 8:00 PM, Roulette Intermedium at 509 Atlantic Ave in Brooklyn, the same public prices and 7:00 PM doors, Phillips and Howard's roles, the sensor/electronics/aquatic-recording mechanism, the 50th-anniversary context, and the livestream/archive plan."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1283112",
+          "publisher": "AudienceView Professional / OvationTix",
+          "checked_on": "2026-09-05",
+          "note": "Exact authorized ticket destination reached from Roulette's Buy Tickets control for this production."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-co-presenter-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts and performance mechanism are independently published by both co-presenters, Roulette and Harvestworks, and the authorized ticket destination was followed directly from Roulette. Repository-wide searches found no existing Liz Phillips / Heidi Howard RADAR representation before publication. Priority was assigned only after Stage 1 admission. A reflects a distinctive, live-specific sound-art event worth knowing about and attending if New York already aligns, without manufacturing active-prioritization or scarcity language. No Apple Music destination, unlisted musical personnel, resale price, or unsupported premiere claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The interesting instrument here is the feedback loop itself. Howard's brushstrokes and sensor data become active material while Phillips reshapes aquatic recordings through contact microphones, theremin, light sensing, synthesizers and custom electronics. That makes the room a live system rather than a playback surface, and the Harvestworks anniversary gives the experiment a useful historical frame around five decades of artists treating technology as part of the composition.",
+          "trip_verdict": "If a New York trip already falls around October 28, this is worth folding into the evening at Roulette. From the DMV, I would pair it with another strong reason to be in the city rather than build a dedicated trip around this one performance; the free livestream also preserves a good fallback if the geography does not work.",
+          "listen_before": "No exact Apple Music preparation was verified for this multimedia performance."
+        },
+        "es": {
+          "why_it_matters": "El instrumento interesante aquí es el propio circuito de retroalimentación. Las pinceladas y los sensores de Howard se vuelven material activo mientras Phillips transforma grabaciones acuáticas con micrófonos de contacto, theremin, sensores de luz, sintetizadores y electrónica propia. La sala funciona así como un sistema vivo y no como una simple superficie de reproducción; el aniversario de Harvestworks además coloca el experimento dentro de una historia de cinco décadas de artistas usando la tecnología como parte de la composición.",
+          "trip_verdict": "Si un viaje a Nueva York ya cae alrededor del 28 de octubre, vale incorporar esta noche en Roulette. Desde el DMV la combinaría con otra razón fuerte para estar en la ciudad, en vez de construir un viaje dedicado alrededor de una sola función; el livestream gratuito también deja una buena alternativa si la geografía no cuadra.",
+          "listen_before": "No verifiqué una preparación exacta en Apple Music para esta pieza multimedia."
+        }
+      }
+    }
+  ]
+}
