@@ -1,0 +1,128 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "orquesta-de-la-luz-saltmiya-meguro-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, KEYSTONE CLUB TOKYO, Space M&A, and credible Japanese-jazz sources. The verified future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Stage 1 admits the September 11 Tokyo Orquesta de la Luz / Satoru Shionoya / Kazufumi Miyazawa performance because it combines Orquesta de la Luz's 35th debut-anniversary year with a historically meaningful reconnection to former ten-year pianist Shionoya and an explicit live reworking of Miyazawa repertoire such as Shima Uta and Kaze ni Naritai into salsa/Latin language. Stage 2 assigns A+: the lineup, anniversary context and Japan-Latin repertoire exchange merit actively making room for the night. It is not promoted into a scarcity tier: the three acts first performed together at the Yamaha Jazz Festival in October 2025, and LIVE2026 is presented in both Tokyo and Osaka, so A+ captures the recommendation without manufacturing one-off scarcity. Repository-wide searches for Orquesta de la Luz, Saltmiya, the Japanese billing, Meguro Persimmon Hall on this date, and the exact September 11 combination returned no existing RADAR event. This batch adds one A+ and no S or S+ event; no priority_review gate is triggered and no grade was changed to satisfy a quota.",
+  "events": [
+    {
+      "id": "orquesta-de-la-luz-saltmiya-meguro-persimmon-tokyo-2026-09-11",
+      "artist": "Orquesta de la Luz / Satoru Shionoya / Kazufumi Miyazawa",
+      "subtitle": "Orquesta de la Luz & Saltmiya LIVE2026",
+      "dates": {
+        "start": "2026-09-11",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "meguro-persimmon-hall-tokyo",
+        "name": "Meguro Persimmon Hall — Main Hall",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / Salsa / Anniversary reunion / Cross-genre",
+      "genres": [
+        "Salsa",
+        "Latin",
+        "Japanese popular music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Latin"
+      ],
+      "lineup": [
+        "Orquesta de la Luz — salsa ensemble",
+        "Satoru Shionoya — piano",
+        "Kazufumi Miyazawa — vocal"
+      ],
+      "factual_description": "Orquesta de la Luz, Satoru Shionoya and Kazufumi Miyazawa present Orquesta de la Luz & Saltmiya LIVE2026 at Meguro Persimmon Hall Main Hall in Tokyo on Friday, September 11, 2026. Doors are at 18:00 and the performance starts at 18:30. The promoter and venue list reserved seats at ¥8,500 for S seats and ¥7,500 for A seats. The promoter identifies 2026 as Orquesta de la Luz's 35th debut-anniversary year, describes Shionoya as the pianist who supported the band's golden period and notes that he spent ten years in the group before leaving nearly thirty years ago. Miyazawa states that the three acts first performed together at the Yamaha Jazz Festival in October 2025 and that this reception led to the Tokyo and Osaka LIVE2026 concerts; the event explicitly anticipates his songs being transformed into salsa or other Latin arrangements, with Shima Uta and Kaze ni Naritai named in the promoter copy.",
+      "links": {
+        "official_event": "https://sunrisetokyo.com/detail/34865/",
+        "official_tickets": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2622719&rlsCd=001"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Orquesta De La Luz",
+          "title": "The Live ～“Lo Mejor 35 Aniversario”",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-live-lo-mejor-35-aniversario/6802975362"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "complete_live_orquesta_personnel"
+        ],
+        "note": "The complete announced billing, roles of Shionoya and Miyazawa, date, time, venue, seat prices, promoter page, authorized Pia destination and exact Apple Music listening destination are verified. The exact event sources do not publish a show-specific member-by-member Orquesta de la Luz roster, so no additional personnel are inferred."
+      },
+      "sources": [
+        {
+          "type": "official_promoter",
+          "name": "Sunrise Promotion Tokyo",
+          "url": "https://sunrisetokyo.com/detail/34865/",
+          "checked_on": "2026-09-05",
+          "note": "Exact promoter page verifies the Tokyo date, 18:00 doors/18:30 start, Meguro Persimmon Hall Main Hall, S/A seat prices, three-act billing, 35th debut-anniversary framing, Shionoya's historical connection, the October 2025 first three-way collaboration, the Tokyo/Osaka continuation and the planned Latin treatment of Miyazawa repertoire."
+        },
+        {
+          "type": "official_venue",
+          "name": "Meguro Persimmon Hall",
+          "url": "https://www.persimmon.or.jp/performance/public/2026071809363771288.html",
+          "checked_on": "2026-09-05",
+          "note": "First-party venue page independently verifies September 11, Main Hall, 18:00 doors/18:30 start, S ¥8,500 and A ¥7,500, and the Sunrise Promotion contact."
+        },
+        {
+          "type": "official_artist",
+          "name": "Orquesta De La Luz",
+          "url": "https://www.laluz.jp/info-list/2026/09/11-17/laluz-salt-miya",
+          "checked_on": "2026-09-05",
+          "note": "Primary band page verifies the September 11 Tokyo performance, billing, start time, venue, prices, the previous Yamaha Jazz Festival collaboration, and publishes the exact authorized Ticket Pia destination used here."
+        },
+        {
+          "type": "official_artist",
+          "name": "Satoru Shionoya / SALT",
+          "url": "https://www.earthbeat-salt.com/concert",
+          "checked_on": "2026-09-05",
+          "note": "Shionoya's official concert schedule independently lists the September 11 Tokyo event, billing, doors/start, venue and prices."
+        },
+        {
+          "type": "official_ticketing",
+          "name": "Ticket Pia",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2622719&rlsCd=001",
+          "checked_on": "2026-09-05",
+          "note": "Exact authorized ticket destination published by Orquesta de la Luz's official event page."
+        },
+        {
+          "type": "streaming",
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/the-live-lo-mejor-35-aniversario/6802975362",
+          "checked_on": "2026-09-05",
+          "note": "Exact Apple Music destination for Orquesta De La Luz's 2026 live anniversary album, selected as pre-show listening."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-promoter-venue-artist-ticket-and-streaming-sources",
+        "note": "Core date, start time, venue identity, prices, announced billing and event context were verified from the exact Sunrise Promotion event page, Meguro Persimmon Hall, Orquesta de la Luz and Shionoya first-party sources. The exact Ticket Pia destination is published by Orquesta de la Luz; Apple Music verifies the recommended listening release. Repository searches found no existing September 11 Saltmiya/Meguro event before publication. Priority was assigned only after RADAR admission: the 35th debut-anniversary frame, Shionoya's historically meaningful return to the orchestra's language and Miyazawa repertoire being recast as salsa make the event unusually compelling, while the October 2025 precedent and two-city LIVE2026 run keep the recommendation at A+ rather than a scarcity tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is where Japanese salsa history and Japanese songcraft meet onstage rather than in a retrospective. In Orquesta de la Luz's 35th debut-anniversary year, former ten-year pianist Satoru Shionoya reconnects with the band whose international rise helped shape his own musical foundation, while Kazufumi Miyazawa brings songs including Shima Uta and Kaze ni Naritai into a setting explicitly built to turn that repertoire toward salsa and Latin rhythm. The three-way collaboration has a recent precedent, but the combination is still unusual enough to make this a distinct Tokyo night rather than another anniversary stop.",
+          "trip_verdict": "If September 11 is open in Tokyo, actively make room for this one. The historical band connection and the chance to hear Miyazawa's repertoire rebuilt inside Orquesta de la Luz's salsa language give the evening a stronger reason to anchor a Tokyo night than a routine tour date; there is no need to chase the Osaka repeat if Tokyo fits.",
+          "listen_before": "Orquesta De La Luz — The Live ～“Lo Mejor 35 Aniversario”"
+        },
+        "es": {
+          "why_it_matters": "Aquí la historia de la salsa japonesa y el cancionero japonés se cruzan en el escenario, no en una retrospectiva. En el año del 35 aniversario del debut de Orquesta de la Luz, Satoru Shionoya —pianista del grupo durante diez años— vuelve a encontrarse con la banda cuyo ascenso internacional fue parte de su propia formación musical, mientras Kazufumi Miyazawa lleva canciones como Shima Uta y Kaze ni Naritai a un contexto pensado explícitamente para reconstruirlas desde la salsa y el ritmo latino. La colaboración entre los tres ya tuvo un antecedente reciente, pero la combinación sigue siendo lo bastante poco común para darle a esta noche en Tokio una identidad propia.",
+          "trip_verdict": "Si el 11 de septiembre está libre en Tokio, sí le haría espacio a esta noche. La conexión histórica con la banda y la posibilidad de oír el repertorio de Miyazawa reconstruido dentro del lenguaje salsero de Orquesta de la Luz le dan más peso que a una fecha rutinaria de gira; si Tokio acomoda, no hace falta perseguir la repetición de Osaka.",
+          "listen_before": "Orquesta De La Luz — The Live ～“Lo Mejor 35 Aniversario”"
+        }
+      }
+    }
+  ]
+}
