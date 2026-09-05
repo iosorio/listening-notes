@@ -1,0 +1,105 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sahba-motallebi-roulette-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources did not reveal a new verified future Yamamoto appearance not already represented in canonical/curated/processed intake. The broader US-corridor pass found Sahba Motallebi & Ensemble at Roulette on November 5. Stage 1 admits the specific performance because the announced concert is built around Motallebi's tar in a solo-to-ensemble arc, then adds Marjan Vahdat's voice, Reza Mohsenipour on tar/bass tar, and Hamid Mohsenipour on percussion/flute: a concrete instrumental and Persian-classical live context rather than a name- or venue-based inclusion. Stage 2 assigns A+. The current rubric supports actively making room for a tar-centered performance by a recognized master with this specifically announced ensemble, while the recent/current RADAR sanity check does not create any reason to inflate the event into a scarcity tier. No S or S+ is assigned: Motallebi has appeared at Roulette before and Marjan Vahdat's official schedule documents another Motallebi/Vahdat performance in May 2026, so this date is not treated as a singular or terminal opportunity.",
+  "events": [
+    {
+      "id": "sahba-motallebi-roulette-brooklyn-2026-11-05",
+      "artist": "Sahba Motallebi & Ensemble",
+      "subtitle": "Persian Music – an Evening of Solidarity and Harmony",
+      "dates": {
+        "start": "2026-11-05",
+        "end": "2026-11-05"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US",
+        "address": "509 Atlantic Avenue, Brooklyn, NY 11217"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Persian classical music / Tar / Living master",
+      "genres": [
+        "Persian classical music",
+        "Traditional Persian music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Sahba Motallebi — tar",
+        "Marjan Vahdat — vocals",
+        "Reza Mohsenipour — tar / bass tar",
+        "Hamid Mohsenipour — percussion / flute"
+      ],
+      "factual_description": "Roulette presents Sahba Motallebi & Ensemble: Persian Music – an Evening of Solidarity and Harmony on Thursday, November 5, 2026 at 8:00 PM, with doors at 7:00 PM. Roulette lists $35 advance admission, $40 at the door, and $30 student/senior admission with ID. The presenter states that Motallebi opens with a solo tar performance and is then joined by vocalist Marjan Vahdat, Reza Mohsenipour on tar and bass tar, and Hamid Mohsenipour on percussion and flute. The program is presented by Robert Browning Associates and Lotus Music & Dance in partnership with Roulette and is framed around Persian music and the expressive possibilities of the tar.",
+      "links": {
+        "official_event": "https://roulette.org/event/sahba-motallebi-persian-rba/",
+        "official_tickets": "https://ci.ovationtix.com/36368/performance/11846565?performanceId=11846565"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette embeds a Sahba Motallebi performance from The Secret Between Me and The Tar Vol. 2, but an exact Apple Music destination was not independently verified in this run, so no Apple Music ID or URL is invented."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/sahba-motallebi-persian-rba/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter page verifies the November 5 date, 8:00 PM showtime, 7:00 PM doors, advertised prices, solo-to-ensemble format, full published lineup, and presenting partners."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/performance/11846565?performanceId=11846565",
+          "publisher": "AudienceView Professional / Roulette authorized ticketing",
+          "checked_on": "2026-09-05",
+          "note": "Authorized purchase destination linked directly from Roulette's event page."
+        },
+        {
+          "url": "https://roulette.org/directions/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-05",
+          "note": "Primary venue page verifies Roulette's physical address at 509 Atlantic Avenue, Brooklyn, NY 11217."
+        },
+        {
+          "url": "https://marjanvahdat.com/concerts",
+          "publisher": "Marjan Vahdat",
+          "checked_on": "2026-09-05",
+          "note": "Primary artist schedule independently lists Marjan Vahdat with Sahba Motallebi & Ensemble in New York City on November 5, 2026 and also documents a May 24, 2026 Motallebi/Vahdat performance, supporting both the lineup and the non-singular scarcity judgment."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for the exact artist/title and proposed stable event ID found no existing representation of this November 5 Roulette performance before publication. Core performance facts come from Roulette; the authorized ticket destination is linked from the presenter page; venue identity comes from Roulette's own directions page; and Marjan Vahdat's official schedule independently confirms the date and collaboration. No additional personnel, Apple Music identifier, purchase destination, showtime, price, or scarcity claim was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The concert begins with Motallebi alone on tar, then expands the instrument into a Persian ensemble setting with Marjan Vahdat's voice, Reza Mohsenipour's tar and bass tar, and Hamid Mohsenipour's percussion and flute. That solo-to-ensemble arc makes the tar's sound and role unusually legible in the room, while the lineup places preservation and expansion of Persian classical language side by side.",
+          "trip_verdict": "Actively make room for Roulette if New York is already in the corridor plan. From the DMV, pair the Brooklyn evening with a broader city trip rather than making this single performance the sole reason for the journey.",
+          "listen_before": "Sahba Motallebi — The Secret Between Me and The Tar Vol. 2"
+        },
+        "es": {
+          "why_it_matters": "El concierto empieza con Motallebi sola al tar y después expande el instrumento a un ensamble persa con la voz de Marjan Vahdat, el tar y bajo tar de Reza Mohsenipour, y la percusión y flauta de Hamid Mohsenipour. Ese arco de solo a ensamble permite escuchar con especial claridad el sonido y la función del tar, mientras la alineación pone lado a lado la preservación y la expansión del lenguaje clásico persa.",
+          "trip_verdict": "Sí le haría espacio activamente a Roulette si Nueva York ya entra en el corredor. Desde el DMV, combinaría la noche en Brooklyn con un viaje más amplio a la ciudad en vez de convertir esta única función en toda la razón del recorrido.",
+          "listen_before": "Sahba Motallebi — The Secret Between Me and The Tar Vol. 2"
+        }
+      }
+    }
+  ]
+}
