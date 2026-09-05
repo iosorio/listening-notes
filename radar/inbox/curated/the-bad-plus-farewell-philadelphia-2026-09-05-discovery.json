@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-bad-plus-farewell-philadelphia-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A leads, and credible Japanese-jazz sources produced no additional verified unrepresented Yamamoto performance; the September 15 KEYSTONE Night, September 26 BODY&SOUL Final Groove with TOKU, and other known Yamamoto dates are already represented in canonical/curated/processed intake and were not duplicated. The broader US-corridor pass found The Bad Plus Farewell Tour at Perelman Theater in Philadelphia on November 14, 2026. Stage 1 admits the performance because The Bad Plus have formally announced that 2026 is the band's final year after 26 years, making this a definitive live-history context rather than an inclusion based on fame or venue prestige. Stage 2 assigns S only after a second scarcity challenge. The concrete non-recurring fact is the band's own decision to end: once the final-year tour is over, The Bad Plus will no longer exist as an active band. A+ would understate the genuine-regret-if-missed character for a listener who wants to hear the group before it ends. The grade is not S+ because this is a multi-city farewell tour rather than the singular last-ever performance, and nearby corridor alternatives already represented in RADAR include New York on November 12 and Baltimore on November 15. Recent/current intake remains weighted toward A and A+, so this single S does not make scarcity tiers common; distribution was used only as a challenge, never as a quota. Repository searches for The Bad Plus plus November 14, Philadelphia, Perelman Theater, and the proposed stable event ID returned no matching Philadelphia RADAR record before publication.",
+  "events": [
+    {
+      "id": "the-bad-plus-farewell-perelman-theater-philadelphia-2026-11-14",
+      "artist": "The Bad Plus",
+      "subtitle": "Farewell Tour",
+      "dates": {
+        "start": "2026-11-14",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "kimmel-center-perelman-theater-philadelphia",
+        "name": "Kimmel Center - Perelman Theater",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US",
+        "address": "250 South Broad Street, Philadelphia, PA 19102"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "category": "Farewell tour / Contemporary jazz / Post-genre",
+      "genres": [
+        "Contemporary Jazz",
+        "Avant-garde jazz",
+        "Experimental",
+        "Post-rock"
+      ],
+      "musical_axes": [
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Reid Anderson — bass",
+        "Dave King — drums",
+        "Ben Monder — guitar",
+        "Chris Speed — tenor saxophone"
+      ],
+      "factual_description": "AXS lists The Bad Plus at Kimmel Center - Perelman Theater in Philadelphia on Saturday, November 14, 2026 at 7:00 PM and gives the venue address as 250 South Broad Street, Philadelphia, PA 19102. The Bad Plus's official site states that 2026 is the band's final year after 26 years and identifies the current piano-less quartet as founding members Reid Anderson on bass and Dave King on drums with Ben Monder on guitar and Chris Speed on tenor saxophone. An exact event listing for the Perelman Theater date independently identifies the November 14 performance as part of the Farewell Tour and names the same current quartet. AXS currently exposes Marketplace inventory on the accessible event page; no face-value ticket price is recorded here.",
+      "links": {
+        "official_event": "https://www.axs.com/events/1520746/the-bad-plus-tickets",
+        "official_tickets": "https://www.axs.com/events/1520746/the-bad-plus-tickets"
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Bad Plus",
+          "title": "The Bad Plus",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-bad-plus/1622196477"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Date, start time, venue identity and address are verified from the exact AXS event page. The band's official site verifies both the final-year decision and current quartet, while the exact Philadelphia event listing independently ties the Farewell Tour to the same quartet. The 2022 self-titled album Apple Music destination is verified. No face-value ticket price, seat inventory, additional personnel, or set-specific repertoire is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.axs.com/events/1520746/the-bad-plus-tickets",
+          "publisher": "AXS",
+          "checked_on": "2026-09-05",
+          "note": "Exact authorized event/ticket page verifies Saturday, November 14, 2026 at 7:00 PM, The Bad Plus, Kimmel Center - Perelman Theater, Philadelphia, and the venue address. The accessible page currently foregrounds AXS Marketplace, so no face-value price is inferred."
+        },
+        {
+          "url": "https://www.thebadplus.com/",
+          "publisher": "The Bad Plus",
+          "checked_on": "2026-09-05",
+          "note": "Official band statement says The Bad Plus has been a band for 26 years, that 2026 will be its final year, and that the group will perform its final shows during the year."
+        },
+        {
+          "url": "https://www.thebadplus.com/home",
+          "publisher": "The Bad Plus",
+          "checked_on": "2026-09-05",
+          "note": "Official band site identifies the current piano-less quartet as Reid Anderson on bass, Dave King on drums, Ben Monder on guitar, and Chris Speed on tenor saxophone."
+        },
+        {
+          "url": "https://www.broadwayworld.com/philadelphia/regional/The-Bad-Plus-Farewell-Tour",
+          "publisher": "BroadwayWorld Philadelphia",
+          "checked_on": "2026-09-05",
+          "note": "Exact event listing independently verifies the November 14, 2026 Perelman Theater Farewell Tour date and names the current Anderson / King / Monder / Speed lineup. Used as authoritative corroboration, not as the sole source for the farewell context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-bad-plus/1622196477",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-05",
+          "note": "Exact Apple Music destination for The Bad Plus (2022), the first studio album by the current Anderson / King / Monder / Speed quartet."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-band-authorized-ticket-and-authoritative-event-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts come from AXS; final-year context and current quartet come from The Bad Plus's official site; the exact Philadelphia Farewell Tour listing corroborates the date and quartet; Apple Music verifies the listening destination. Repository searches for The Bad Plus plus November 14, Philadelphia, Perelman Theater, and the stable ID found no prior Philadelphia record. Existing New York November 12, Baltimore November 15, and Tokyo Farewell Tour records are distinct performances and were used explicitly to challenge scarcity rather than duplicated."
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-05",
+        "rationale": "The non-recurring fact is explicit and terminal: after 26 years, The Bad Plus has announced that 2026 is its final year and these are the band's final shows. A+ would understate the genuine-regret-if-missed character of hearing the active group before it ends. The Philadelphia date is not S+ because the farewell is a multi-city final-year tour, not the singular last-ever performance; nearby New York and Baltimore dates also reduce the need to alter travel plans around this specific city without changing the farewell's intrinsic scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The farewell is the live context. After 26 years, Anderson and King have formally decided to end The Bad Plus, so this Philadelphia stop is one of the last chances to hear the band's final piano-less configuration: the long-running bass-and-drums core with Monder's guitar and Speed's tenor keeping the music abrasive, open and textural. Perelman puts that closing chapter in a focused concert-hall setting rather than a generic festival slot.",
+          "trip_verdict": "Protect a Bad Plus farewell night if the band matters to you, but use the corridor intelligently. Philadelphia is an excellent choice if November 14 fits a Philly weekend; because New York on November 12 and Baltimore on November 15 are also documented final-tour opportunities, I would choose the date that best fits the trip rather than add unnecessary travel just to collect this specific city.",
+          "listen_before": "The Bad Plus — The Bad Plus (2022)"
+        },
+        "es": {
+          "why_it_matters": "La despedida es el contexto en vivo. Después de 26 años, Anderson y King decidieron formalmente cerrar The Bad Plus, así que esta parada en Filadelfia es una de las últimas oportunidades de escuchar la configuración final sin piano: el núcleo histórico de bajo y batería con la guitarra de Monder y el tenor de Speed manteniendo la música áspera, abierta y textural. Perelman coloca ese capítulo final en una sala de concierto enfocada en la música, no como un slot genérico de festival.",
+          "trip_verdict": "Sí protegería una noche para despedir a The Bad Plus si la banda importa, pero usaría el corredor con cabeza. Filadelfia es una gran opción si el 14 de noviembre embona con un fin de semana allá; como Nueva York el 12 y Baltimore el 15 también son oportunidades documentadas de la gira final, escogería la fecha que mejor encaje en el viaje en vez de agregar traslado innecesario sólo por completar esta ciudad.",
+          "listen_before": "The Bad Plus — The Bad Plus (2022)"
+        }
+      }
+    }
+  ]
+}
