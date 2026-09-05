@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "inti-figgis-vizueta-music-for-transitions-strathmore-2026-09-04-discovery",
+  "checked_on": "2026-09-04",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Tsuyoshi Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources; the future appearances that resurfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. Broader US-corridor research found the December 10, 2026 Strathmore Mansion performance of inti figgis-vizueta's Music for Transitions with Andrew Yee and Rothko String Quartet, absent from repository searches for the exact title, venue/date and proposed stable ID. Stage 1 admission clears for a performance-specific reason: this is the DMV stop of a six-year collaboration built around a string-quintet texture, collective improvisation and the 2026 debut-record project, not a generic contemporary-classical booking. Stage 2 is A. The same project is on an active multi-city run through Los Angeles, Minneapolis, North Bethesda and Brooklyn, and the existing December 11 National Sawdust candidate is also graded A; local convenience belongs in trip_verdict rather than inflating priority. A therefore captures the durable recommendation: worthy of RADAR and worth attending if convenient. Recent/current intake was spot-checked against the rubric and remains weighted toward A/A+ with scarcity tiers reserved for documented nonrecurring contexts. This batch adds A 1 / A+ 0 / S 0 / S+ 0. No S/S+ priority_review gate applies. Editorial review was performed by RADAR automation editorial review; no independent Codex or human review is claimed.",
+  "events": [
+    {
+      "id": "inti-figgis-vizueta-music-for-transitions-strathmore-north-bethesda-2026-12-10",
+      "artist": "inti figgis-vizueta with Andrew Yee and Rothko String Quartet",
+      "subtitle": "Music for Transitions — Strathmore Mansion",
+      "dates": {
+        "start": "2026-12-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "mansion-at-strathmore-north-bethesda-md",
+        "name": "The Mansion at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Contemporary chamber music / collaborative improvisation / debut-record tour",
+      "genres": [
+        "Contemporary classical",
+        "Chamber music",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Andrew Yee — cello",
+        "Rothko String Quartet — string quartet"
+      ],
+      "factual_description": "The Mansion at Strathmore presents inti figgis-vizueta's Music for Transitions in North Bethesda on Thursday, December 10, 2026 at 7:30 PM, featuring cellist Andrew Yee and the Rothko String Quartet. figgis-vizueta's official schedule independently confirms the December 10 Strathmore performance and places it between the project's December 8 Minneapolis stop and December 11 National Sawdust performance in Brooklyn. National Sawdust's primary project page documents Music for Transitions as figgis-vizueta's 2026 debut record, performed by Yee and the Germany-based Rothko String Quartet, and describes the program as the culmination of more than six years of collaboration centered on group improvisation and constant musical transformation. A separate stable Strathmore purchase destination and stable face-value price were not verified from primary static sources in this pass, so neither is inferred.",
+      "links": {
+        "official_event": "https://www.strathmore.org/events-tickets/whats-on-in-the-mansion/inti-figgis-vizueta-s-music-for-transitions/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "face_value_price",
+          "apple_music"
+        ],
+        "note": "The date, 7:30 PM start, Mansion venue and Yee/Rothko String Quartet billing are corroborated by the Strathmore engagement listing and figgis-vizueta's official schedule. National Sawdust and CAP UCLA primary pages for the same 2026 touring project verify the debut-record, group-improvisation and multi-city context. A separate stable event-specific purchase destination, stable face-value price and exact Apple Music destination were not verified and remain blank rather than being inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/events-tickets/whats-on-in-the-mansion/inti-figgis-vizueta-s-music-for-transitions/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-09-04",
+          "note": "Primary exact event page indexed for inti figgis-vizueta's Music for Transitions at The Mansion at Strathmore, with Andrew Yee and Rothko String Quartet."
+        },
+        {
+          "url": "https://www.inticomposes.com/events.html",
+          "publisher": "inti figgis-vizueta",
+          "checked_on": "2026-09-04",
+          "note": "Composer-controlled schedule confirms December 10, 2026 at Strathmore in Bethesda with Andrew Yee and Rothko String Quartet and documents the adjacent December 8 Minneapolis and December 11 Brooklyn stops."
+        },
+        {
+          "url": "https://dc-arts.com/e/PQnpxtDH900",
+          "publisher": "DC Arts Events",
+          "checked_on": "2026-09-04",
+          "note": "Authoritative local event listing corroborates Thursday, December 10, 2026 at 7:30 PM, The Mansion at Strathmore in North Bethesda, and the Andrew Yee / Rothko String Quartet billing. Price information from this secondary listing is not promoted into the factual ticket record without a stable primary purchase source."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/event/inti-figgis-vizuetas-music-for-transitions-with-andrew-yee-and-rothko-string-quartet",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-04",
+          "note": "Primary presenter page for the next-night Brooklyn stop verifies the 2026 debut-record project, Yee and Rothko String Quartet, more than six years of collaboration, group improvisation, and the cello-quintet performance concept."
+        },
+        {
+          "url": "https://cap.ucla.edu/event/inti-figgis-vizueta",
+          "publisher": "UCLA Center for the Art of Performance",
+          "checked_on": "2026-09-04",
+          "note": "Primary presenter page for the December 4 Los Angeles stop independently verifies the same touring Music for Transitions project with Andrew Yee and Rothko String Quartet and its debut-album context."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-presenter-and-authoritative-local-sources",
+        "note": "Repository searches for the exact proposed ID and for Music for Transitions at Strathmore/North Bethesda returned no matching canonical, curated or processed event before publication; the repository does contain a separate December 11 National Sawdust candidate for the same touring project, so the Strathmore performance is treated as a distinct date rather than a duplicate. Priority was assigned only after Stage 1 admission. The documented Los Angeles, Minneapolis, North Bethesda and Brooklyn run makes A the accurate recommendation and rules out manufactured scarcity. No ticket destination, price, Apple Music ID, additional performer or Strathmore-specific repertoire detail was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is the language built across six years between figgis-vizueta, Andrew Yee and the Rothko String Quartet: an extra cello expands the quartet into a string-quintet field where composed material, group improvisation and constant transformation can keep changing the weight of the ensemble. Bringing the Music for Transitions project to the Mansion gives the DMV a direct look at the collaboration behind the debut record rather than a generic new-music program.",
+          "trip_verdict": "If the local calendar is open, this is worth choosing in North Bethesda. The same project reaches Brooklyn the next night, so for a DMV listener the Mansion is the practical opportunity to hear it without inventing a corridor trip around the music.",
+          "listen_before": "Music for Transitions"
+        },
+        "es": {
+          "why_it_matters": "El atractivo está en el lenguaje construido durante seis años entre figgis-vizueta, Andrew Yee y el Rothko String Quartet: un chelo adicional expande al cuarteto hacia un campo de quinteto de cuerdas donde el material compuesto, la improvisación colectiva y la transformación constante pueden cambiar continuamente el peso del ensamble. Llevar Music for Transitions a The Mansion le da al DMV una mirada directa a la colaboración detrás del disco debut, no un programa genérico de música nueva.",
+          "trip_verdict": "Si el calendario local está abierto, ésta es una buena noche para escoger en North Bethesda. El mismo proyecto llega a Brooklyn al día siguiente, así que para alguien en el DMV The Mansion es la oportunidad práctica de escucharlo sin inventar un viaje por el corredor alrededor de la música.",
+          "listen_before": "Music for Transitions"
+        }
+      }
+    }
+  ]
+}
