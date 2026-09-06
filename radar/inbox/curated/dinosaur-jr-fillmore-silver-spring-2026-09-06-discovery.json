@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dinosaur-jr-fillmore-silver-spring-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO, and credible Japanese-jazz schedule sources found no newly unrepresented verified Yamamoto appearance; the Yamamoto dates surfaced in this pass were already represented in curated/processed intake. The broader US-corridor pass found Dinosaur Jr.'s February 16, 2027 Spring Tour stop with Starcrawler at The Fillmore Silver Spring. Stage 1 admits the specific performance because the date sits inside the band's current There Near cycle, following its first new studio album in five years, and because Dinosaur Jr.'s guitar/feedback-centered instrumental identity and long alternative-rock lineage are directly within the Listening Notes rock thread. Starcrawler adds a current younger guitar-rock counterpoint rather than a generic support slot. Stage 2 assigns A+: actively make room for the local DMV stop if guitar-heavy rock is in the listening thread. The same 2027 run also passes through Brooklyn and Philadelphia immediately beforehand, so the Silver Spring performance is not scarce enough for S. The recent/current intake remains centered on A and A+ with S/S+ reserved for narrower scarcity cases; this A+ does not expand the scarce tiers.",
+  "events": [
+    {
+      "id": "dinosaur-jr-starcrawler-fillmore-silver-spring-2027-02-16",
+      "artist": "Dinosaur Jr.",
+      "subtitle": "Spring Tour 2027 with special guest Starcrawler",
+      "dates": {
+        "start": "2027-02-16",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "fillmore-silver-spring-silver-spring-md",
+        "name": "The Fillmore Silver Spring",
+        "city": "Silver Spring",
+        "state": "MD",
+        "country": "US",
+        "address": "8656 Colesville Road, Silver Spring, MD 20910"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Culturally significant alternative rock / guitar identity / current-album tour",
+      "genres": [
+        "Alternative rock",
+        "Indie rock",
+        "Noise rock"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cultural context",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Dinosaur Jr. — headliner; individual touring personnel are not published on the current exact Live Nation event page",
+        "Starcrawler — special guest"
+      ],
+      "factual_description": "Live Nation lists Dinosaur Jr. Spring Tour 2027 with special guest Starcrawler at The Fillmore Silver Spring on Tuesday, February 16, 2027 at 8:00 PM. The venue's official visit page verifies the address as 8656 Colesville Road, Silver Spring, MD 20910. Jagjaguwar released Dinosaur Jr.'s There Near on August 28, 2026 and describes it as the band's first new studio album after the five years since Sweep It Into Space; the label says the record was made almost entirely by the core trio of Murph, Lou Barlow and J Mascis, with some piano and organ by Ken Mauri. Current tour-announcement coverage identifies the 2027 North American run as an extension of touring behind There Near and lists nearby Brooklyn and Philadelphia dates immediately before Silver Spring. The exact Silver Spring event page verifies Starcrawler as special guest; no ticket price, doors time, or individual Dinosaur Jr. touring personnel are inferred.",
+      "links": {
+        "official_event": "https://www.livenation.com/event/164Zkf4PNZAu65Fa/dinosaur-jr-spring-tour-2027-with-special-guest-starcrawler",
+        "official_tickets": "https://www.livenation.com/event/164Zkf4PNZAu65Fa/dinosaur-jr-spring-tour-2027-with-special-guest-starcrawler"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.livenation.com/event/164Zkf4PNZAu65Fa/dinosaur-jr-spring-tour-2027-with-special-guest-starcrawler",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Dinosaur Jr.",
+          "title": "There Near",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/there-near/6776004209"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Live Nation event page verifies the February 16, 2027 8:00 PM Silver Spring date, venue, Dinosaur Jr. billing, Starcrawler support, and active ticket destination. The Fillmore's official venue page verifies the full address. Jagjaguwar verifies There Near's August 28, 2026 release and recording context, and the exact Apple Music album page is verified. No ticket price, doors time, or unannounced touring personnel were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.livenation.com/event/164Zkf4PNZAu65Fa/dinosaur-jr-spring-tour-2027-with-special-guest-starcrawler",
+          "publisher": "Live Nation / The Fillmore Silver Spring",
+          "checked_on": "2026-09-06",
+          "note": "Exact authorized event page verifies Tuesday, February 16, 2027 at 8:00 PM at The Fillmore Silver Spring, the Dinosaur Jr. billing, Starcrawler as special guest, and the active purchase destination."
+        },
+        {
+          "url": "https://www.fillmoresilverspring.com/visit",
+          "publisher": "The Fillmore Silver Spring",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue page verifies the physical address as 8656 Colesville Road, Silver Spring, MD 20910."
+        },
+        {
+          "url": "https://jagjaguwar.com/release/jag480/",
+          "publisher": "Jagjaguwar",
+          "checked_on": "2026-09-06",
+          "note": "Official label page verifies There Near, its August 28, 2026 release date, the five-year gap since Sweep It Into Space, and that the album was recorded almost entirely by Murph, Lou Barlow and J Mascis with keyboard contributions from Ken Mauri."
+        },
+        {
+          "url": "https://pitchfork.com/story/dinosaur-jr-announce-2027-tour/",
+          "publisher": "Pitchfork",
+          "checked_on": "2026-09-06",
+          "note": "Current tour announcement identifies the 2027 North American dates as an extension of touring behind There Near and lists Brooklyn on February 11-12, Philadelphia on February 13, and Silver Spring on February 16, with Starcrawler on the marked support dates."
+        },
+        {
+          "url": "https://music.apple.com/us/album/there-near/6776004209",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-06",
+          "note": "Exact Apple Music page verifies There Near as a Dinosaur Jr. album released August 28, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-venue-label-and-apple-music-sources-with-authoritative-tour-context",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository search for Dinosaur Jr. returned no existing canonical, curated, or processed representation before publication. The exact performance facts come from Live Nation and The Fillmore Silver Spring; current-record facts come from Jagjaguwar and Apple Music; the nearby-tour context comes from current Pitchfork tour coverage. Nearby Brooklyn and Philadelphia stops are used as scarcity context rather than duplicated into RADAR in this batch. No ticket price, doors time, individual touring personnel, set list, purchase destination, Apple Music identifier, or source URL was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Dinosaur Jr. matters here less as an alt-rock institution than as a very specific live language: electric guitar used as melody, distortion field and feedback instrument, with songs sturdy enough to survive the volume around them. There Near gives the Silver Spring stop a current center after a five-year studio gap, while Starcrawler adds a younger, physical guitar-rock counterpoint. For Listening Notes, the draw is the continuity between a foundational noise-and-melody vocabulary and a band still issuing new material rather than touring only on its past.",
+          "trip_verdict": "Actively make room for the Silver Spring date if guitar-heavy rock is in the thread. The Fillmore makes this an easy DMV night; because the same run reaches Brooklyn and Philadelphia immediately beforehand, there is no reason to chase another city or treat this stop as a scarce regional one-off.",
+          "listen_before": "Dinosaur Jr. — There Near"
+        },
+        "es": {
+          "why_it_matters": "Dinosaur Jr. importa aquí menos como institución del alt-rock que como un lenguaje muy específico en vivo: la guitarra eléctrica usada a la vez como melodía, campo de distorsión e instrumento de feedback, con canciones lo bastante sólidas para sobrevivir al volumen que las rodea. There Near le da a Silver Spring un centro actual después de cinco años sin disco nuevo, mientras Starcrawler añade un contrapunto más joven y físico de rock de guitarras. Para Listening Notes, la gracia está en la continuidad entre un vocabulario fundacional de ruido y melodía y una banda que todavía publica material nuevo en vez de girar únicamente sobre su pasado.",
+          "trip_verdict": "Sí le haría espacio activamente a la fecha de Silver Spring si el rock de guitarras está en el hilo. The Fillmore la vuelve una noche fácil dentro del DMV; como la misma gira pasa por Brooklyn y Filadelfia inmediatamente antes, no hace falta perseguir otra ciudad ni tratar esta parada como una oportunidad regional escasa.",
+          "listen_before": "Dinosaur Jr. — There Near"
+        }
+      }
+    }
+  ]
+}
