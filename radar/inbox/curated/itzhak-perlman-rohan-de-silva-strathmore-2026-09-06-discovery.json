@@ -1,0 +1,89 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "itzhak-perlman-rohan-de-silva-strathmore-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before event research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources did not reveal a new verified future Yamamoto appearance not already represented in canonical/curated/processed intake. The broader DMV pass found Itzhak Perlman with Rohan De Silva at the Music Center at Strathmore on October 14, 2026. Stage 1 admits the specific performance because it places a major living master in a longstanding Washington Performing Arts relationship dating to the 1960s, within the organization's 60th-anniversary season, with longtime collaborator Rohan De Silva and a post-performance Linger Longer conversation with WPA President & CEO Jenny Bilfield; the local institutional context and live conversation are concrete to this appearance rather than fame-based inclusion. Stage 2 assigns A+. This is a strong local DMV performance worth actively making room for, but A+ captures the recommendation because the verified evidence does not establish a farewell, premiere, one-off repertoire, or other event-specific scarcity sufficient for protect-the-night urgency; Perlman and De Silva are an active recurring recital partnership and appeared together on a 2025/26 North American tour. The recent/current RADAR shape and current PRIORITIES rubric were sanity-checked before finalizing the grade; this batch adds no S or S+ event. Repository-wide searches for Itzhak Perlman and the exact date returned no prior Perlman representation before publication. Ticket face value is left unknown because the authorized Washington Performing Arts seat-selection page verifies an active purchase path but does not expose stable public prices in the checked output.",
+  "events": [
+    {
+      "id": "itzhak-perlman-rohan-de-silva-music-center-at-strathmore-north-bethesda-2026-10-14",
+      "artist": "Itzhak Perlman",
+      "subtitle": "with Rohan De Silva, piano",
+      "dates": {"start": "2026-10-14", "end": "2026-10-14"},
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US",
+        "address": "5301 Tuckerman Lane, North Bethesda, MD 20852"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / Violin recital / WPA 60th-anniversary context",
+      "genres": ["Classical", "Chamber music", "Violin recital"],
+      "musical_axes": ["Masters", "Instrumental identity", "DMV context", "Cultural context"],
+      "lineup": [
+        "Itzhak Perlman — violin",
+        "Rohan De Silva — piano"
+      ],
+      "factual_description": "Washington Performing Arts presents violinist Itzhak Perlman with pianist Rohan De Silva at the Music Center at Strathmore in North Bethesda on Wednesday, October 14, 2026 at 7:30 PM. Washington Performing Arts describes Perlman as a friend of the organization since the 1960s and identifies De Silva as a frequent musical collaborator. The program will be announced from the stage. The performance concludes with an onstage Linger Longer conversation with Perlman and Washington Performing Arts President & CEO Jenny Bilfield. The event falls in Washington Performing Arts's 60th-anniversary year. The authorized Washington Performing Arts ticket page confirms the October 14 date, 7:30 PM time, Music Center at Strathmore, and an active best-available/seat-selection purchase path, but the checked public page does not expose a stable face-value ticket price.",
+      "links": {
+        "official_event": "https://www.washingtonperformingarts.org/event/itzhak-perlman-26/",
+        "official_tickets": "https://my.washingtonperformingarts.org/4998"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {"minimum": null, "maximum": null, "source_url": "https://my.washingtonperformingarts.org/4998", "checked_on": "2026-09-06"},
+        "resale": {"minimum": null, "maximum": null, "url": null, "checked_on": null}
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_face_value_ticket_price"],
+        "note": "The exact Washington Performing Arts event page, authorized ticket page, and presenter venue page verify the date, showtime, venue, lineup, program-announced-from-stage format, post-performance conversation, and exact address. The checked authorized ticket page does not expose stable public face-value pricing, so no price is inferred. No recording is attached as recommended listening because this discovery pass did not verify an event-specific current recording that materially improves the candidate."
+      },
+      "sources": [
+        {
+          "url": "https://www.washingtonperformingarts.org/event/itzhak-perlman-26/",
+          "publisher": "Washington Performing Arts",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter event page verifies Itzhak Perlman with Rohan De Silva, October 14, 2026 at 7:30 PM, Music Center at Strathmore, program announced from stage, Perlman's relationship with Washington Performing Arts since the 1960s, and the concluding Linger Longer conversation with WPA President & CEO Jenny Bilfield. The page identifies the season as Washington Performing Arts's 60th-anniversary year."
+        },
+        {
+          "url": "https://my.washingtonperformingarts.org/4998",
+          "publisher": "Washington Performing Arts ticketing",
+          "checked_on": "2026-09-06",
+          "note": "Authorized event-specific ticket page verifies Perlman & De Silva, October 14, 2026 at 7:30 PM, Music Center at Strathmore, and active best-available/seat-selection purchase paths. Stable face-value prices are not exposed in the checked public page output."
+        },
+        {
+          "url": "https://www.washingtonperformingarts.org/venue/music-center-at-strathmore/",
+          "publisher": "Washington Performing Arts",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter venue page verifies the Music Center at Strathmore address as 5301 Tuckerman Lane, North Bethesda, MD 20852 and lists Itzhak Perlman with Rohan De Silva on October 14, 2026 at 7:30 PM among upcoming performances."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ticket-and-venue-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core North Bethesda performance facts come from the exact Washington Performing Arts event page; the authorized ticket page independently confirms the date, time, venue, and live purchase path; the presenter venue page verifies the exact address. Repository-wide searches found no prior Itzhak Perlman representation before publication. Priority A+ was assigned only after Stage 1 admission: the decades-long WPA relationship, 60th-anniversary-season context, established Perlman-De Silva partnership, and post-performance conversation create a concrete Listening Notes reason to make room locally, while the absence of a verified farewell, premiere, one-off repertoire, or comparable scarcity fact does not support S. No ticket price, announced repertoire, doors time, additional performer, or recording link is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more than a famous violinist passing through Strathmore. Perlman's Washington Performing Arts relationship reaches back to the 1960s, and the organization brings him back during its 60th-anniversary season with longtime pianist Rohan De Silva, a program chosen from the stage, and an onstage conversation after the recital. The useful Listening Notes thread is the continuity of a living master's instrumental voice inside a local presenting relationship that has lasted for most of his public career.",
+          "trip_verdict": "For the DMV, actively make room for North Bethesda if the October 14 night is open. The local history and post-recital conversation make this the right place to catch the partnership; the verified evidence does not create a reason to chase the duo to another city.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Esto es más que un violinista famoso pasando por Strathmore. La relación de Perlman con Washington Performing Arts se remonta a los años sesenta, y la organización lo trae de vuelta durante su temporada del 60 aniversario con su pianista de largo recorrido Rohan De Silva, un programa elegido desde el escenario y una conversación en vivo después del recital. El hilo útil para Listening Notes es la continuidad de la voz instrumental de un maestro vivo dentro de una relación local de presentación que ha acompañado casi toda su carrera pública.",
+          "trip_verdict": "Para el DMV, sí haría espacio activamente para North Bethesda si la noche del 14 de octubre está libre. La historia local y la conversación posterior al recital hacen que éste sea el lugar adecuado para escuchar esta sociedad; la evidencia verificada no crea una razón para perseguir al dúo a otra ciudad.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
