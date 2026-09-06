@@ -1,0 +1,108 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "miki-yamanaka-trio-paaff-barnes-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources did not reveal a new verified future Yamamoto appearance not already represented in canonical/curated/processed intake. The broader corridor pass found First Friday: Miki Yamanaka Trio & PAAFF at the Barnes Foundation on November 6. Stage 1 admits the specific performance because the current Miki Yamanaka trio of Tyrone Allen II and Jimmy Macbride, both heard on her August 2026 album Breathe, is being presented inside PAAFF's annual festival and alongside access to the Barnes exhibition Noguchi to Asawa: Designing Postwar America. The artist, festival partnership, and Japanese/Asian American cultural frame give this date a concrete reason beyond venue prestige or generic jazz quality. Stage 2 assigns A. The trio is active and the Barnes program does not establish a premiere, farewell, rare one-off lineup, or other scarcity fact; the event is useful to know and worth attending if convenient in Philadelphia, but the current rubric does not call for actively reorganizing a regional trip around it. This A grade also fits the intended broad-base shape of the current rubric without using distribution as a quota.",
+  "events": [
+    {
+      "id": "miki-yamanaka-trio-paaff-barnes-philadelphia-2026-11-06",
+      "artist": "Miki Yamanaka Trio",
+      "subtitle": "First Friday with PAAFF",
+      "dates": {
+        "start": "2026-11-06",
+        "end": "2026-11-06"
+      },
+      "showtimes": [
+        "18:30",
+        "19:45"
+      ],
+      "venue": {
+        "id": "barnes-foundation-philadelphia",
+        "name": "Barnes Foundation",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US",
+        "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Modern jazz / Piano trio / Asian American cultural program",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Modern jazz"
+      ],
+      "musical_axes": [
+        "Modern jazz",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Miki Yamanaka — piano",
+        "Tyrone Allen II — bass",
+        "Jimmy Macbride — drums"
+      ],
+      "factual_description": "The Barnes Foundation presents First Friday: Miki Yamanaka Trio & PAAFF on Friday, November 6, 2026, from 6:00 PM to 9:00 PM, with performances at 6:30 PM and 7:45 PM. The published trio is Japanese-born, New York-based pianist Miki Yamanaka with bassist Tyrone Allen II and drummer Jimmy Macbride. The Barnes states that Allen and Macbride also perform on Yamanaka's most recent album, Breathe, released in August; Yamanaka's official Bandcamp page identifies Breathe as released August 14, 2026 and credits Allen and Macbride alongside Nicole Glover. The Barnes program is presented in partnership with the Philadelphia Asian American Film Foundation during its annual festival, running November 5–15, and First Friday admission includes access to the Barnes collection and Noguchi to Asawa: Designing Postwar America. The Barnes lists general admission at $35; National, Patron, and Contributor members and students at $10; and Supporters and Sustainers free. Seating is limited.",
+      "links": {
+        "official_event": "https://www.barnesfoundation.org/whats-on/first-friday-november-2026?token=Pt",
+        "official_tickets": "https://buy.acmeticketing.com/orders/316/tickets?cdEventIds=60db645ea3b36b4029bcb0d7&date=2026-11-06T00:00:00-0500&eventId=60db645ea3b36b4029bcb0d7"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Breathe is verified through Miki Yamanaka's official Bandcamp page with release date and personnel, but no exact Apple Music destination was verified in this run, so no Apple Music ID or URL is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.barnesfoundation.org/whats-on/first-friday-november-2026?token=Pt",
+          "publisher": "Barnes Foundation",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page verifies event title, November 6 date, 6–9 PM program window, 6:30 and 7:45 PM performances, published trio, prices, limited seating, PAAFF partnership, festival dates, exhibition/collection access, and venue address."
+        },
+        {
+          "url": "https://www.barnesfoundation.org/exhibitions/noguchi-to-asawa-designing-postwar-america?token=Pt",
+          "publisher": "Barnes Foundation",
+          "checked_on": "2026-09-06",
+          "note": "Primary exhibition page independently places the November 6 Miki Yamanaka Trio & PAAFF First Friday within Noguchi to Asawa: Designing Postwar America and states that November's First Friday welcomes PAAFF screenings during the annual festival."
+        },
+        {
+          "url": "https://mikiyamanakamusic.bandcamp.com/album/breathe",
+          "publisher": "Miki Yamanaka",
+          "checked_on": "2026-09-06",
+          "note": "Artist-controlled release page verifies Breathe, its August 14, 2026 release date, and personnel including Miki Yamanaka, Tyrone Allen II, Jimmy Macbride, and Nicole Glover."
+        },
+        {
+          "url": "https://buy.acmeticketing.com/orders/316/tickets?cdEventIds=60db645ea3b36b4029bcb0d7&date=2026-11-06T00:00:00-0500&eventId=60db645ea3b36b4029bcb0d7",
+          "publisher": "ACME Ticketing / Barnes Foundation authorized ticketing",
+          "checked_on": "2026-09-06",
+          "note": "Authorized purchase destination linked directly from the Barnes event page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Miki Yamanaka, the November 6 date, the Barnes Foundation, and the proposed event context found no existing representation of this Barnes/PAAFF performance before publication. Core event facts and lineup come from the Barnes; the artist-controlled Bandcamp page verifies the current album and personnel; the ticket destination is linked directly by the Barnes. Miki Yamanaka's public itinerary had not yet listed November dates when checked, so no unsupported artist-schedule claim was added. No Apple Music identifier, unannounced repertoire, additional personnel, scarcity claim, or separate film schedule was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more than another Miki Yamanaka trio date: her current working rhythm section from Breathe lands inside PAAFF's annual festival while the Barnes is showing Noguchi to Asawa, placing a Japanese-born New York jazz voice in a wider Asian American cultural frame. The trio itself is compact and contemporary—Yamanaka's piano language with Tyrone Allen II and Jimmy Macbride gives the evening a clear instrumental identity without requiring an inflated rarity claim.",
+          "trip_verdict": "Attend if convenient in Philadelphia, especially if the PAAFF screenings or Noguchi to Asawa also matter to you. From the DMV, I would not build a dedicated regional trip around the trio alone, but it is a strong addition to an already-planned Philadelphia evening.",
+          "listen_before": "Breathe is the useful orientation: Allen and Macbride are the rhythm section on the record, and the Barnes specifically connects this trio to that recent album."
+        },
+        "es": {
+          "why_it_matters": "No es otra fecha cualquiera del trío de Miki Yamanaka: su sección rítmica actual de Breathe aparece dentro del festival anual de PAAFF mientras el Barnes presenta Noguchi to Asawa, colocando a una pianista nacida en Japón y formada en la escena neoyorquina dentro de un marco cultural asiático-americano mucho más amplio. El trío además tiene una identidad instrumental clara y contemporánea con Tyrone Allen II y Jimmy Macbride, sin necesidad de inventarle una rareza que la fecha no tiene.",
+          "trip_verdict": "La aprovecharía si ya estás en Filadelfia, sobre todo si también te interesan las proyecciones de PAAFF o Noguchi to Asawa. Desde el DMV no armaría un viaje regional dedicado sólo al trío, pero sí suma mucho a una noche de Philadelphia que ya esté en el calendario.",
+          "listen_before": "Breathe es la escucha útil: Allen y Macbride forman la sección rítmica del disco y el propio Barnes conecta este trío con ese álbum reciente."
+        }
+      }
+    }
+  ]
+}
