@@ -1,0 +1,127 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ami-taf-ra-kamasi-washington-keystone-korner-baltimore-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A/current schedule traces, and credible Japanese-jazz sources did not establish a new verified future Yamamoto appearance absent from canonical/curated/processed intake. The broader US-corridor pass found Ami Taf Ra & Kamasi Washington presenting The Prophet and The Madman at Keystone Korner Baltimore on November 10. Repository searches for Ami Taf Ra, Kamasi Washington, Baltimore, the exact date, and the proposed stable ID found the existing November 5 Philadelphia presentation of the same project but no representation of this Baltimore performance. Stage 1 admits the Baltimore performance because the specific live concept is the point: Taf Ra and Washington are presenting a cross-cultural album world that joins Moroccan Gnawa and Arabic traditions with gospel, soul, and spiritual jazz, with Washington serving as producer, arranger, saxophonist and ongoing collaborator, in an intimate Baltimore jazz-club setting. This is not admitted merely because Kamasi Washington is famous. Stage 2 assigns A+. The collaboration and room are strong enough to actively make room for from the DMV, but the project is touring multiple US cities in November, so the scarcity challenge fails and A+ captures the recommendation better than S. A prior processed Philadelphia candidate carries an older S assignment; this new event does not inherit that tier because the current durable PRIORITIES rubric and current multi-city evidence govern this pass. The recent/current RADAR shape was sanity-checked before finalizing; this batch adds A+ and no S/S+ pressure. Keystone Korner's venue calendar uses the typo 'The Profit & The Madman'; Ami Taf Ra's official site, Apple Music, and the authorized InstantSeats description establish the project title as The Prophet and The Madman, which is used here. The artist site's current tour grid lists several November City Winery dates but not Baltimore; the Baltimore performance itself is independently verified by Keystone Korner and its authorized InstantSeats listing.",
+  "events": [
+    {
+      "id": "ami-taf-ra-kamasi-washington-keystone-korner-baltimore-2026-11-10",
+      "artist": "Ami Taf Ra & Kamasi Washington",
+      "subtitle": "The Prophet and The Madman — album presentation",
+      "dates": {
+        "start": "2026-11-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US",
+        "address": "1350 Lancaster Street, Baltimore, MD 21231"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Spiritual jazz / Gnawa / cross-cultural album presentation",
+      "genres": [
+        "Jazz",
+        "Spiritual jazz",
+        "Gnawa",
+        "Soul"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ami Taf Ra — vocals, composer",
+        "Kamasi Washington — saxophone, composer, producer"
+      ],
+      "factual_description": "Keystone Korner Baltimore and its authorized InstantSeats listing present Ami Taf Ra & Kamasi Washington on Tuesday, November 10, 2026 at 7:00 PM for a live presentation celebrating Taf Ra's debut album The Prophet and The Madman. InstantSeats describes the project as an ongoing creative collaboration between Taf Ra and Washington and states that the Washington-produced Brainfeeder album brings together Moroccan Gnawa, Arabic musical traditions, gospel, soul, and spiritual jazz. The authorized listing gives in-person face-value tickets at $55-$65 plus fees and a separate $20 streaming pass; Keystone Korner's venue information states that doors open at 5:00 PM for Tuesday-Thursday 7:00 PM shows. The venue calendar labels the project 'The Profit & The Madman,' but the authorized ticket description, Ami Taf Ra's official site, and Apple Music all verify the album title as The Prophet and The Madman. No backing musicians beyond Taf Ra and Washington are announced on the sources checked for this specific Baltimore date, so none are inferred.",
+      "links": {
+        "official_event": "https://www.keystonekornerbaltimore.com/",
+        "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=39385&fuseaction=home.artist"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 55,
+          "maximum": 65,
+          "source_url": "https://www.instantseats.com/?VenueID=514&artistid=39385&fuseaction=home.artist",
+          "checked_on": "2026-09-05"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ami Taf Ra",
+          "title": "The Prophet and The Madman",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-prophet-and-the-madman/1816167839"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact authorized InstantSeats listing verifies the Baltimore date, showtime, in-person ticket range, streaming option, venue address and project framing. Apple Music verifies the exact album and its Kamasi Washington collaboration track. No unannounced sidemen, alternate showtimes or resale prices are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.keystonekornerbaltimore.com/",
+          "publisher": "Keystone Korner Baltimore",
+          "checked_on": "2026-09-05",
+          "note": "Primary venue calendar verifies Ami Taf Ra & Kamasi Washington on Tuesday, November 10 at 7:00 PM and links directly to the authorized InstantSeats event. The calendar contains a title typo, 'The Profit & The Madman,' documented in provenance rather than propagated into canonical editorial copy."
+        },
+        {
+          "url": "https://www.instantseats.com/?VenueID=514&artistid=39385&fuseaction=home.artist",
+          "publisher": "Keystone Korner Baltimore / InstantSeats",
+          "checked_on": "2026-09-05",
+          "note": "Authorized event and ticket page verifies the November 10 date, 7:00 PM show, $55-$65 in-person face-value tickets plus fees, separate $20 streaming pass, venue address, and the project-specific Taf Ra/Washington collaboration around The Prophet and the Madman."
+        },
+        {
+          "url": "https://amitafra.com/",
+          "publisher": "Ami Taf Ra",
+          "checked_on": "2026-09-05",
+          "note": "Primary artist site verifies The Prophet and The Madman as Taf Ra's Brainfeeder album and identifies How I Became a Madman as featuring Kamasi Washington. Its current tour grid also shows multiple November 2026 US dates for the project, supporting the scarcity review; Baltimore is not currently included in that grid, so this source is not used to establish the Baltimore date itself."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-prophet-and-the-madman/1816167839",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-05",
+          "note": "Exact Apple Music album page verifies Ami Taf Ra's The Prophet and The Madman, released August 22, 2025 on Brainfeeder, and lists How I Became a Madman with Ami Taf Ra and Kamasi Washington."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticket-artist-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "The Baltimore performance is independently verified by Keystone Korner Baltimore and its authorized InstantSeats page. Ami Taf Ra's official site and Apple Music verify the album identity and Taf Ra/Washington collaboration, while the current artist tour grid demonstrates that the project has multiple November US dates even though Baltimore is not yet listed there. Repository searches found an existing Philadelphia performance of the same project but no existing Baltimore November 10 representation before publication. The venue-calendar title typo is corrected using multiple authoritative sources; no unannounced backing musicians, alternate showtimes, resale prices or unsupported scarcity claims are added."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to go is the project, not Washington's name by itself. Taf Ra's voice and North African musical vocabulary sit inside a record world she built with Washington, where Gnawa and Arabic traditions meet gospel, soul, spiritual jazz and his broad saxophone language. In Keystone Korner's small room, that cross-cultural architecture should register at human scale rather than as a festival-sized Kamasi set.",
+          "trip_verdict": "From the DMV, I would actively make room for the Baltimore hop: this is the closest kind of room in which to hear the Taf Ra/Washington project take shape, and a single 7:00 PM set can anchor the night. I would not treat it as a scarcity chase because the collaboration is touring multiple US cities in November.",
+          "listen_before": "Ami Taf Ra — The Prophet and The Madman"
+        },
+        "es": {
+          "why_it_matters": "La razón para ir es el proyecto, no el nombre de Washington por sí solo. La voz de Taf Ra y su vocabulario musical norteafricano viven dentro de un mundo discográfico que construyó con Washington, donde Gnawa y tradiciones árabes se cruzan con gospel, soul, spiritual jazz y el lenguaje amplio de su saxofón. En una sala pequeña como Keystone Korner, esa arquitectura intercultural debería sentirse a escala humana y no como un set de Kamasi pensado para festival.",
+          "trip_verdict": "Desde el DMV sí haría espacio activamente para el brinco a Baltimore: es el tipo de sala cercana donde más sentido tiene escuchar cómo toma forma el proyecto Taf Ra/Washington, y el único set de las 7:00 PM puede sostener la noche. No lo trataría como persecución por escasez porque la colaboración está recorriendo varias ciudades de Estados Unidos en noviembre.",
+          "listen_before": "Ami Taf Ra — The Prophet and The Madman"
+        }
+      }
+    }
+  ]
+}
