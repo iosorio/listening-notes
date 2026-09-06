@@ -1,0 +1,146 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jeremy-pelt-pelt-at-50-blues-alley-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources produced no new future Yamamoto appearance that was both verifiable and unrepresented in canonical/curated/processed intake; a September 6 BODY&SOUL daytime appearance surfaced only after it had concluded locally and was therefore not published as a future considering event. The broader DMV pass found Jeremy Pelt's November 5–6 Blues Alley engagement, which Pelt's official schedule explicitly identifies as the Jeremy Pelt Quintet 'PELT@50' US Tour. Stage 1 admits the performance because this is not a generic club booking: the two-night Washington engagement begins immediately after Pelt's November 4 fiftieth birthday and is explicitly framed by the artist as the PELT@50 tour, giving the small-room trumpet engagement a concrete milestone context. Stage 2 assigns A+. This is a strong local performance worth actively making room for, but A+ fully captures the recommendation because the PELT@50 project is a multi-city US and European tour, Blues Alley offers four sets across two nights, and the same project continues at Dizzy's on November 7–8; there is no event-specific scarcity fact that warrants protect-the-night S treatment. Recent/current RADAR priority shape and the current rubric were sanity-checked before finalizing; this batch adds no S or S+ event. Repository search for Jeremy Pelt and the proposed Blues Alley/date/title combination found no existing representation of this engagement. Exact Blues Alley sidemen are not inferred: current adjacent-tour sources publish a PELT@50 quintet personnel list, but the checked primary Washington sources identify only Jeremy Pelt Quintet, so the DC record names only the verified leader and leaves complete local personnel pending.",
+  "events": [
+    {
+      "id": "jeremy-pelt-pelt-at-50-blues-alley-washington-dc-2026-11-05",
+      "artist": "Jeremy Pelt Quintet",
+      "subtitle": "PELT@50 US Tour",
+      "dates": {
+        "start": "2026-11-05",
+        "end": "2026-11-06"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "1073 Rear Wisconsin Ave NW, Washington, DC 20007"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Modern jazz / Trumpet / 50th-birthday tour",
+      "genres": [
+        "Jazz",
+        "Post-bop",
+        "Modern jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "DMV context"
+      ],
+      "lineup": [
+        "Jeremy Pelt — trumpet; Blues Alley billing is Jeremy Pelt Quintet, with additional Washington personnel not identified in the checked primary sources"
+      ],
+      "factual_description": "Jeremy Pelt's official appearances schedule lists November 5–6, 2026 at Blues Alley in Washington, D.C. as Jeremy Pelt Quintet: 'PELT@50' US Tour. The same artist schedule places the PELT@50 US tour from October 23 through November 7, followed by November 7–8 at Dizzy's in New York and a November 11–29 European PELT@50 tour. Blues Alley's authorized InstantSeats schedule verifies four Washington sets: November 5 at 7:00 PM and 9:30 PM, each $35 plus a $7 fee; November 6 at 7:00 PM for $60 plus a $7 fee and 9:30 PM for $50 plus a $7 fee. Blues Alley's official site gives the venue address as 1073 Rear Wisconsin Ave NW, Washington, D.C. 20007. Apple Music lists Pelt's birth date as November 4, 1976 and the November 5 Blues Alley concert among his upcoming dates, so the Washington engagement begins the day after his fiftieth birthday. The immediately following New York PELT@50 engagement is publicly billed as a 50th Birthday Celebration, but because the checked Blues Alley and artist pages do not publish the Washington sidemen, no adjacent-city personnel are copied into this event as if they were locally confirmed.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35,
+          "maximum": 60,
+          "source_url": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jeremy Pelt",
+          "title": "Our Community Will Not Be Erased",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/our-community-will-not-be-erased/1867254316"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "complete_blues_alley_lineup",
+          "per_set_official_ticket_urls"
+        ],
+        "note": "Core dates, all four set times, per-set face values and fees, venue identity, PELT@50 tour framing, leader, and current Apple Music listening are verified. InstantSeats exposes a separate Get Tickets control for each set, but the exact per-set destinations were not independently resolved in this pass, so official_tickets remains null rather than pointing the four-set engagement to one incomplete purchase URL. The checked primary Washington sources do not publish the other four quintet members, so adjacent-tour personnel are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.jeremypelt.net/appearances.html",
+          "publisher": "Jeremy Pelt",
+          "checked_on": "2026-09-06",
+          "note": "Primary artist schedule verifies November 5–6, 2026 at Blues Alley in Washington, D.C.; Jeremy Pelt Quintet billing; the exact 'PELT@50' US Tour title; the broader October 23–November 7 US tour; the November 7–8 Dizzy's continuation; and the November 11–29 PELT@50 European tour."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-06",
+          "note": "Authorized Blues Alley schedule verifies Jeremy Pelt on November 5 at 7:00 PM and 9:30 PM for $35 plus $7 fees per set, and November 6 at 7:00 PM for $60 plus $7 fees and 9:30 PM for $50 plus $7 fees, with active Get Tickets controls."
+        },
+        {
+          "url": "https://www.bluesalley.com/events",
+          "publisher": "Blues Alley",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue site verifies Blues Alley's address as 1073 Rear Wisconsin Ave NW, Washington, D.C. 20007."
+        },
+        {
+          "url": "https://music.apple.com/us/artist/jeremy-pelt/20836531",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-06",
+          "note": "Apple Music verifies Jeremy Pelt's birth date as November 4, 1976 and lists a November 5, 2026 7:00 PM Blues Alley Jazz concert in Washington among upcoming concerts."
+        },
+        {
+          "url": "https://jazzin.nyc/venue/dizzys",
+          "publisher": "Jazz in NYC",
+          "checked_on": "2026-09-06",
+          "note": "Authoritative New York jazz calendar bills the immediately following November 7–8 PELT@50 engagement at Dizzy's as Jeremy Pelt — 50th Birthday Celebration and publishes the New York personnel. It is used only to corroborate the birthday-tour context; those sidemen are not treated as confirmed for Washington."
+        },
+        {
+          "url": "https://jazzdor.com/en/jeremy-pelt-quintet-pelt50",
+          "publisher": "Jazzdor",
+          "checked_on": "2026-09-06",
+          "note": "Festival presenter page for the European PELT@50 tour explicitly describes the project as Pelt celebrating his half-century and documents a touring quintet. It corroborates the milestone concept without being used to invent Blues Alley-specific personnel."
+        },
+        {
+          "url": "https://music.apple.com/us/album/our-community-will-not-be-erased/1867254316",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-06",
+          "note": "Exact Apple Music page verifies Jeremy Pelt's 2026 album Our Community Will Not Be Erased, released February 27, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-venue-authorized-ticket-and-apple-music-sources-with-lineup-caveat",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core Washington facts come from Jeremy Pelt's official schedule, Blues Alley's authorized InstantSeats schedule, and Blues Alley's own site; Apple Music independently verifies the birthday date and a November 5 Blues Alley concert. Adjacent PELT@50 presenters corroborate the 50th-birthday framing. Repository search found no existing Jeremy Pelt PELT@50 / Blues Alley November 5–6 representation before publication. Priority was assigned only after Stage 1 admission. The project is deliberately A+ rather than S because it is a multi-city tour with four local sets and an immediate New York continuation, so A+ fully captures the recommendation without manufacturing scarcity. Exact Washington sidemen and per-set purchase URLs remain unresolved and are explicitly left pending rather than inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The milestone changes the meaning of what could otherwise look like a routine club return. Pelt starts this two-night Blues Alley engagement the day after his fiftieth birthday, and his own calendar explicitly names the run PELT@50. In a room this small, the useful thread is the trumpet itself: phrasing, attack, tone and the give-and-take of a working quintet, heard at the point where Pelt is deliberately marking a half-century rather than simply adding another tour date.",
+          "trip_verdict": "Actively make room for one of the four sets if the DMV calendar is open. Blues Alley is the right scale for this milestone stop, but there is no need to chase the tour up the corridor: the same PELT@50 project continues immediately in New York and then through Europe.",
+          "listen_before": "Jeremy Pelt — Our Community Will Not Be Erased"
+        },
+        "es": {
+          "why_it_matters": "El aniversario cambia el sentido de lo que, de otra forma, podría parecer simplemente otro regreso al club. Pelt empieza estas dos noches en Blues Alley un día después de cumplir cincuenta años y su propio calendario llama explícitamente PELT@50 a la gira. En una sala así de pequeña, el hilo está en la trompeta misma: fraseo, ataque, sonido y la conversación de un quinteto de trabajo, justo en el momento en que Pelt decide marcar medio siglo de vida en vez de sumar una fecha más al calendario.",
+          "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets si el calendario del DMV está abierto. Blues Alley tiene la escala correcta para esta parada de aniversario; no hace falta perseguir la gira por el corredor porque el mismo proyecto PELT@50 continúa inmediatamente en Nueva York y después por Europa.",
+          "listen_before": "Jeremy Pelt — Our Community Will Not Be Erased"
+        }
+      }
+    }
+  ]
+}
