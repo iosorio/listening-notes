@@ -1,0 +1,142 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "voices-of-hope-15-body-and-soul-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A-oriented searches, and credible Japanese-jazz sources produced no new verified future Yamamoto appearance that was not already represented; the September 6 Kimiko Ito + Tsuyoshi Yamamoto BODY&SOUL date and the September 26 TOKU with Tsuyoshi Yamamoto Group grand finale are already preserved in repository intake. Repository searches for Voices of Hope 15, Kengo Nakamura, the exact September 12 BODY&SOUL date, and the proposed stable event ID returned no existing canonical, curated, or processed representation. Stage 1 admits this performance because it is the fifteenth edition of Nakamura's long-running Great East Japan Earthquake charity concert, built as a two-set relay of ten vocalists over a named rhythm section, and it takes place during BODY&SOUL's documented final operational month. Stage 2 assigns A+: the combination of the benefit's sustained cultural purpose, the unusually broad vocal lineup, the Lambert-Nakamura-Jackson rhythm section, and the closing-month setting is actively worth making room for in Tokyo. The scarcity challenge does not support S: the benefit is explicitly an annual project now in its fifteenth edition, with no farewell or one-off claim for the musicians or the series; BODY&SOUL's closing month makes this room-and-date context meaningful, but A+ still captures the recommendation. The batch adds no S or S+ event and does not expand the scarcity tiers in the recent/current intake.",
+  "events": [
+    {
+      "id": "kengo-nakamura-voices-of-hope-15-body-and-soul-tokyo-2026-09-12",
+      "artist": "Kengo Nakamura Presents Voices of Hope 15",
+      "subtitle": "15th Great East Japan Earthquake Charity Live",
+      "dates": {
+        "start": "2026-09-12",
+        "end": null
+      },
+      "showtimes": [
+        "18:30",
+        "20:00"
+      ],
+      "venue": {
+        "id": "body-and-soul-shibuya-tokyo",
+        "name": "BODY&SOUL",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese vocal jazz / long-running disaster-relief benefit / BODY&SOUL final month",
+      "genres": [
+        "Jazz",
+        "Vocal jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Kaoru Mikami — vocals (1st set)",
+        "Rina Ogata — vocals (1st set)",
+        "Grace Mahya — vocals (1st set)",
+        "Charito — vocals (1st set)",
+        "Kimiko Ito — vocals (1st set)",
+        "Rena Toshimitsu — vocals (2nd set)",
+        "Remi — vocals (2nd set)",
+        "Lileth — vocals (2nd set)",
+        "Ema — vocals (2nd set)",
+        "Maya Hatch — vocals (2nd set)",
+        "Dennis Lambert — piano",
+        "Kengo Nakamura — bass",
+        "Gene Jackson — drums"
+      ],
+      "factual_description": "BODY&SOUL presents Kengo Nakamura Presents Voices of Hope 15 on Saturday, September 12, 2026, billed as the 15th Great East Japan Earthquake charity live. Doors open at 5:30 PM, with sets at 6:30 PM and 8:00 PM. The first set features Kaoru Mikami, Rina Ogata, Grace Mahya, Charito and Kimiko Ito; the second features Rena Toshimitsu, Remi, Lileth, Ema and Maya Hatch. Dennis Lambert on piano, Kengo Nakamura on bass and Gene Jackson on drums form the announced rhythm section. The music charge is ¥5,000 for one stage or ¥9,000 for both stages, tax included, and the venue asks for cash payment because it is a charity concert. BODY&SOUL's documentation of the preceding edition describes Voices of Hope as an annual benefit sustained to support children affected by the 2011 disaster. The club has separately announced September 26 as its grand finale in its 52nd year, placing this performance in BODY&SOUL's final operational month.",
+      "links": {
+        "official_event": "https://bodyandsoul.co.jp/event/260912",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 5000,
+          "maximum": 9000,
+          "source_url": "https://bodyandsoul.co.jp/event/260912",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact BODY&SOUL event page verifies the date, two-set lineup, rhythm section, showtimes, cash-only charity payment and ¥5,000/¥9,000 tax-included charges. Maya Hatch and Dennis Lambert independently list the September 12 Voices of Hope 15 date at BODY&SOUL. The venue page uses its own email reservation mechanism rather than a separate stable ticket destination, so official_tickets remains null. No Apple Music identifier or repertoire for the 2026 edition is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://bodyandsoul.co.jp/event/260912",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue page verifies the September 12, 2026 Voices of Hope 15 billing, all ten announced vocalists, Dennis Lambert/Kengo Nakamura/Gene Jackson rhythm section, 17:30 doors, 18:30 and 20:00 sets, and ¥5,000 one-stage / ¥9,000 both-stage tax-included cash-only charity charges."
+        },
+        {
+          "url": "https://www.mayahatch.com/",
+          "publisher": "Maya Hatch",
+          "checked_on": "2026-09-06",
+          "note": "Hatch's official current live schedule independently lists Kengo Nakamura Presents Voices of Hope 15 on Saturday, September 12 at Shibuya BODY&SOUL."
+        },
+        {
+          "url": "https://www.dennislambertpianist.com/",
+          "publisher": "Dennis Lambert",
+          "checked_on": "2026-09-06",
+          "note": "Lambert's official current schedule independently lists the September 12 Kengo Nakamura Voices of Hope 15 Charity Concert at BODY&SOUL in Shibuya."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/event/251018",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue page for Voices of Hope 14 documents Nakamura's statement that the benefit has been held annually to keep supporting children affected by the Great East Japan Earthquake and to carry hope forward through music."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/2025/10/157797",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-09-06",
+          "note": "BODY&SOUL's report on the 14th edition documents the recurring ten-singer format and describes the project's origin as support for children affected by the 2011 disaster."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/2026/08/175580",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-09-06",
+          "note": "Primary closure notice verifies September 26, 2026 as BODY&SOUL's grand finale in its 52nd year, with equipment clearing beginning the following week and building demolition scheduled for mid-October."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-artist-schedule-and-historical-venue-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Voices of Hope 15, Kengo Nakamura, September 12 at BODY&SOUL and the stable event ID found no canonical/curated/processed match before publication. Current performance facts follow BODY&SOUL's exact event page and are independently corroborated by Maya Hatch and Dennis Lambert; the series mission and closing-month context come from BODY&SOUL's own archive and closure notice. No separate ticket URL, Apple Music ID, 2026 repertoire, unannounced personnel or resale price was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Voices of Hope is not a generic vocal-jazz showcase. Nakamura has kept the benefit alive as a long-running musical response to the 2011 disaster, and this fifteenth edition moves ten singers through two sets over a compact Lambert-Nakamura-Jackson rhythm section. Hearing that sustained act of musical solidarity inside BODY&SOUL during the club's final month makes the room itself part of the meaning.",
+          "trip_verdict": "If September 12 overlaps a Tokyo stay, build the evening around both sets rather than treat this as a drop-in club date. The benefit's history and BODY&SOUL's closing month make this a particularly meaningful Shibuya night, even though the project itself is annual.",
+          "listen_before": "No single prerequisite: the point is the live relay of singers and the shared rhythm section."
+        },
+        "es": {
+          "why_it_matters": "Voices of Hope no es una pasarela genérica de jazz vocal. Nakamura ha sostenido este beneficio como una respuesta musical de largo aliento al desastre de 2011, y esta decimoquinta edición hace pasar a diez cantantes por dos sets sobre el núcleo compacto de Lambert, Nakamura y Jackson. Escuchar ese acto persistente de solidaridad musical dentro de BODY&SOUL durante el último mes del club hace que la propia sala sea parte del significado.",
+          "trip_verdict": "Si el 12 de septiembre coincide con una estancia en Tokio, armaría la noche alrededor de los dos sets en vez de tratarlo como una parada casual de club. La historia del beneficio y el último mes de BODY&SOUL vuelven esta una noche especialmente significativa en Shibuya, aunque el proyecto en sí sea anual.",
+          "listen_before": "No hace falta una escucha única: la gracia está en el relevo de voces y en el mismo trío acompañando toda la noche."
+        }
+      }
+    }
+  ]
+}
