@@ -1,0 +1,113 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "hayato-sumino-chopin-orbit-strathmore-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before event research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources did not reveal a new verified future Yamamoto appearance not already represented in canonical/curated/processed intake. The broader Japanese-artist/DMV pass found Hayato Sumino's Chopin Orbit recital at the Music Center at Strathmore on January 30, 2027. Stage 1 admits the specific performance because Washington Performing Arts currently programs Sumino across grand piano, upright piano, and electric keyboard in a designed sequence that places Chopin beside Sumino compositions, explicit improvisation, Thomas Ades, Saint-Saens, and Stravinsky/Agosti; the instrumental and improvisational architecture is concrete to this recital rather than a fame-based inclusion. Stage 2 assigns A+. This is an excellent local DMV performance worth actively making room for, but there is no verified farewell, premiere, one-off ensemble, or scarcity fact that supports protect-the-night urgency; Chopin Orbit is an active recording and touring thread in Sumino's current work. The recent/current RADAR shape and current PRIORITIES rubric were sanity-checked before finalizing the grade; this batch adds no S or S+ event. Repository-wide search for Hayato Sumino returned no existing canonical, curated, or processed representation before publication. Ticket face value is left unknown because the authorized Washington Performing Arts seat-selection page verifies that tickets are on sale but does not expose stable public prices in the checked page output.",
+  "events": [
+    {
+      "id": "hayato-sumino-chopin-orbit-music-center-at-strathmore-north-bethesda-2027-01-30",
+      "artist": "Hayato Sumino",
+      "subtitle": "Chopin Orbit",
+      "dates": {"start": "2027-01-30", "end": "2027-01-30"},
+      "showtimes": ["19:30"],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US",
+        "address": "5301 Tuckerman Lane, North Bethesda, MD 20852"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese pianist / Classical-improvisational crossover / Chopin Orbit",
+      "genres": ["Classical", "Classical crossover", "Contemporary classical"],
+      "musical_axes": ["Japan / Tokyo", "Instrumental identity", "Improvised", "Cross-genre"],
+      "lineup": [
+        "Hayato Sumino — grand piano / upright piano / electric keyboard"
+      ],
+      "factual_description": "Washington Performing Arts presents Hayato Sumino's Chopin Orbit at the Music Center at Strathmore in North Bethesda on Saturday, January 30, 2027 at 7:30 PM. The current event page says Sumino will perform across grand piano, upright piano, and electric keyboard. The published program includes Chopin's Scherzo No. 1, Etude Op. 25 No. 1, Piano Sonata No. 2, Mazurkas Op. 59 No. 1 and Op. 24 No. 2, and the Black Keys Etude; Sumino's Lydian Harp, Big Cat Waltz, White Keys, and Imaginary Polonaise; two explicitly billed improvisations, including one on the ostinato from Chopin's Berceuse; Thomas Ades's Mazurka Op. 27 No. 2; Saint-Saens's Danse Macabre in Sumino's arrangement; and the Stravinsky/Agosti Firebird Suite. Washington Performing Arts identifies this as its introduction of Sumino to D.C. audiences. The authorized Washington Performing Arts ticket page confirms the January 30 date, 7:30 PM time, Music Center at Strathmore, and active seat-selection path, but the checked public page does not expose a stable face-value price. Apple Music lists Chopin Orbit as Sumino's 2026 Classical Crossover album and describes its core idea as pairing Chopin with Sumino's improvisatory reflections and related keyboard works.",
+      "links": {
+        "official_event": "https://www.washingtonperformingarts.org/event/hayato-sumino/",
+        "official_tickets": "https://my.washingtonperformingarts.org/5028"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {"minimum": null, "maximum": null, "source_url": "https://my.washingtonperformingarts.org/5028", "checked_on": "2026-09-06"},
+        "resale": {"minimum": null, "maximum": null, "url": null, "checked_on": null}
+      },
+      "recommended_listening": [
+        {
+          "artist": "Hayato Sumino",
+          "title": "Chopin Orbit",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/chopin-orbit/1851536451"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": ["official_face_value_ticket_price"],
+        "note": "The exact Washington Performing Arts event and authorized ticket destinations verify the date, showtime, venue, active ticket path, performance format, and current program; the venue page verifies the exact Music Center address. Apple Music verifies the exact Chopin Orbit album. The checked authorized ticket page does not expose stable public face-value pricing, so no price is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.washingtonperformingarts.org/event/hayato-sumino/",
+          "publisher": "Washington Performing Arts",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter event page verifies January 30, 2027 at 7:30 PM, Music Center at Strathmore, Hayato Sumino billing, Chopin Orbit title, three-instrument performance format, D.C.-audience debut framing, and the current detailed repertoire including Sumino compositions and explicit improvisations."
+        },
+        {
+          "url": "https://my.washingtonperformingarts.org/5028",
+          "publisher": "Washington Performing Arts ticketing",
+          "checked_on": "2026-09-06",
+          "note": "Authorized event-specific ticket page verifies Hayato Sumino, January 30, 2027 at 7:30 PM, Music Center at Strathmore, and an active best-available/seat-selection purchase path. Stable face-value prices are not exposed in the checked public page output."
+        },
+        {
+          "url": "https://www.washingtonperformingarts.org/venue/music-center-at-strathmore/",
+          "publisher": "Washington Performing Arts",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter venue page verifies the Music Center at Strathmore address as 5301 Tuckerman Lane, North Bethesda, MD 20852 and lists Hayato Sumino — Chopin Orbit among upcoming performances."
+        },
+        {
+          "url": "https://hayatosum.com/archives/discography/4373",
+          "publisher": "Hayato Sumino Official Website",
+          "checked_on": "2026-09-06",
+          "note": "Primary artist discography page verifies Chopin Orbit as Sumino's current Sony Classical album project, released in January 2026."
+        },
+        {
+          "url": "https://hayatosum.com/archives/4357",
+          "publisher": "Hayato Sumino Official Website",
+          "checked_on": "2026-09-06",
+          "note": "Primary artist site documents a multi-date 2026 Japan tour built around Chopin Orbit, supporting the judgment that the project is an active touring thread rather than a singular one-off concept."
+        },
+        {
+          "url": "https://music.apple.com/us/album/chopin-orbit/1851536451",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-06",
+          "note": "Exact Apple Music album page verifies Chopin Orbit by Hayato Sumino as a 2026 Classical Crossover album and documents the album's dialogue between Chopin, Sumino's improvisatory reflections, and related keyboard works."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ticket-venue-artist-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core North Bethesda performance facts and the current repertoire come from the exact Washington Performing Arts event page; the authorized ticket page independently confirms the date, time, venue and live purchase path; the presenter venue page verifies the exact address; Sumino's official site and Apple Music verify Chopin Orbit as a current recording/touring thread. Repository-wide search found no prior Hayato Sumino representation before publication. Priority A+ was assigned only after Stage 1 admission: the three-keyboard design, explicit improvisation, and repertoire dialogue create a concrete Listening Notes reason to make room locally, while the absence of a verified premiere, farewell, one-off ensemble, or other scarcity fact does not support S. No face-value price, supporting musician, alternate ticket seller, or extra showtime is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Sumino is not treating Chopin as a sealed recital tradition. This program moves among grand piano, upright piano, and electric keyboard, places his own pieces beside Chopin, Ades, Saint-Saens, and Stravinsky, and makes improvisation an explicit part of the architecture. The useful Listening Notes thread is instrumental identity: a Japanese pianist using the classical canon as material for recomposition, timbral contrast, and live invention rather than simply presenting a virtuoso survey.",
+          "trip_verdict": "For the DMV, actively make room for North Bethesda if the January 30 night is open. This is exactly the sort of local appearance worth catching at Strathmore; there is no scarcity reason to turn it into a longer regional trip when the project is part of Sumino's active international orbit.",
+          "listen_before": "Hayato Sumino — Chopin Orbit"
+        },
+        "es": {
+          "why_it_matters": "Sumino no trata a Chopin como una tradición de recital cerrada. El programa se mueve entre piano de cola, piano vertical y teclado eléctrico, coloca sus propias piezas junto a Chopin, Ades, Saint-Saens y Stravinsky, y convierte la improvisación en una parte explícita de la arquitectura de la noche. El hilo útil para Listening Notes es la identidad instrumental: un pianista japonés que usa el canon clásico como material para recomposición, contraste tímbrico e invención en vivo, no simplemente como un recorrido de virtuosismo.",
+          "trip_verdict": "Para el DMV, sí haría espacio activamente para North Bethesda si la noche del 30 de enero está libre. Es exactamente el tipo de aparición local que vale agarrar en Strathmore; no hay una razón de escasez para convertirla en un viaje regional más largo cuando el proyecto forma parte de la órbita internacional activa de Sumino.",
+          "listen_before": "Hayato Sumino — Chopin Orbit"
+        }
+      }
+    }
+  ]
+}
