@@ -1,0 +1,225 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sixth-and-i-instrumental-february-2027-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A, current schedule traces, and credible Japanese-jazz sources did not reveal a new verified future Yamamoto appearance not already represented in canonical, curated, processed, or existing-update intake. Space M&A's September 29, October 30, and November 28 Yamamoto dates and KEYSTONE CLUB TOKYO's September 8 Trio +1 date are already represented. The broader Washington corridor pass found two previously unrepresented Sixth & I recital dates. Stage 1 admits Seth Parker Woods with Andrew Rosenblum because the exact program creates a concrete instrumental and repertoire arc from Fazil Say's city portraits through George Walker's 1956 cello-piano sonata to Rachmaninoff, led by a cellist whose contemporary practice is central to the performance's identity. Stage 2 assigns A+: this is an excellent local recital worth actively making room for, but no premiere, farewell, one-off formation, or other scarcity fact supports S. Stage 1 admits Balourdet Quartet because the exact program spans Monteverdi, Bartok, Ben Johnston's microtonal Fourth Quartet based on Amazing Grace, and Mendelssohn, giving the date a specific historical-to-experimental string-quartet logic rather than generic chamber-music prestige. Stage 2 assigns A: it is worthy of RADAR and useful to know locally, but the active touring quartet and ordinary recital-series context do not call for reorganizing plans around this particular date. The current/recent intake shape was sanity-checked against the durable rubric; this batch adds one A and one A+ and no scarcity tier. Repository searches for Seth Parker Woods, Andrew Rosenblum, Balourdet Quartet, and the exact February 2027 dates returned no existing RADAR representation before publication. For the Woods event, the current Washington Performing Arts event page names Andrew Rosenblum and gives the more specific Fazil Say movements; Sixth & I and the authorized ticketing page still retain the earlier Conor/Connor Hanick billing. The current exact presenter page governs the published lineup, while the discrepancy is preserved explicitly in provenance rather than silently merged.",
+  "events": [
+    {
+      "id": "seth-parker-woods-andrew-rosenblum-sixth-and-i-washington-dc-2027-02-18",
+      "artist": "Seth Parker Woods",
+      "subtitle": "Seth Parker Woods, cello / Andrew Rosenblum, piano",
+      "dates": {
+        "start": "2027-02-18",
+        "end": "2027-02-18"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "sixth-and-i-washington-dc",
+        "name": "Sixth & I",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US",
+        "address": "600 I Street NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Cello-piano recital / contemporary and American repertoire",
+      "genres": [
+        "Chamber music",
+        "Contemporary classical",
+        "Romantic classical"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Contemporary classical",
+        "American repertoire"
+      ],
+      "lineup": [
+        "Seth Parker Woods — cello",
+        "Andrew Rosenblum — piano"
+      ],
+      "factual_description": "Washington Performing Arts currently presents cellist Seth Parker Woods with pianist Andrew Rosenblum at Sixth & I in Washington, DC on Thursday, February 18, 2027 at 7:30 PM. The current presenter page programs I. Sivas and IV. Bodrum from Fazil Say's Four Cities, George Walker's Sonata for cello and piano (1956), and Sergei Rachmaninoff's Cello Sonata, op. 19. Sixth & I lists doors at 6:30 PM, general admission, and $60 admission. The authorized Washington Performing Arts ticket page lists $60 face value plus $10.50 in fees and currently shows Sold Out, but that ticketing record and the Sixth & I venue page still retain the earlier Conor/Connor Hanick billing. The current exact Washington Performing Arts event page names Andrew Rosenblum repeatedly, so Rosenblum is used as the current verified pianist while the stale-source discrepancy is preserved in provenance.",
+      "links": {
+        "official_event": "https://www.washingtonperformingarts.org/event/seth-parker-woods/",
+        "official_tickets": "https://my.washingtonperformingarts.org/5050"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 60,
+          "maximum": 60,
+          "source_url": "https://my.washingtonperformingarts.org/5050",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact event, current presenter lineup, program, venue facts, and authorized ticket destination are verified. No Apple Music destination was verified in this run, so none is inferred. The presenter/venue-ticket lineup discrepancy remains documented rather than normalized away."
+      },
+      "sources": [
+        {
+          "url": "https://www.washingtonperformingarts.org/event/seth-parker-woods/",
+          "publisher": "Washington Performing Arts",
+          "checked_on": "2026-09-06",
+          "note": "Primary current presenter page verifies February 18, 2027 at 7:30 PM, Sixth & I, Seth Parker Woods with Andrew Rosenblum, and the current detailed program: Sivas and Bodrum from Fazil Say's Four Cities, George Walker's 1956 Sonata, and Rachmaninoff's Cello Sonata."
+        },
+        {
+          "url": "https://www.sixthandi.org/event/seth-parker-woods-cello-and-connor-hanick-piano/",
+          "publisher": "Sixth & I",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue page verifies date, 7:30 PM showtime, 6:30 PM doors, $60 admission, general-admission format, venue identity and address. It still carries the earlier Conor Hanick billing, which conflicts with the current Washington Performing Arts exact event page and is retained as a documented stale-source discrepancy."
+        },
+        {
+          "url": "https://my.washingtonperformingarts.org/5050",
+          "publisher": "Washington Performing Arts ticketing",
+          "checked_on": "2026-09-06",
+          "note": "Authorized event-specific ticket page verifies February 18, 2027 at 7:30 PM, Sixth & I, $60 face value plus $10.50 fees, general admission, and current Sold Out status. Its event label still says Connor Hanick, so it is used for ticket facts rather than current personnel."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-venue-and-authorized-ticket-sources-with-documented-lineup-update",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Seth Parker Woods, Andrew Rosenblum, and the exact February 18, 2027 Sixth & I date returned no existing canonical, curated, or processed representation before publication. The current Washington Performing Arts exact event page is treated as authoritative for present billing because it names Andrew Rosenblum in the title, body, and recital-series listing; Sixth & I and the authorized ticketing record preserve the earlier Conor/Connor Hanick billing. No attempt was made to merge both pianists into the lineup. Ticket status and price come only from the authorized ticket page; doors and venue address come from Sixth & I. No unverified recording link or repertoire beyond the current presenter program is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the repertoire arc, not recital-series prestige: Woods takes the cello from Fazil Say's sharply drawn city portraits into George Walker's taut 1956 sonata and then the full sweep of Rachmaninoff. That puts a player identified with contemporary practice inside a program where color, attack, and the cello's changing identity carry the evening.",
+          "trip_verdict": "Actively make room for this one if a ticket reappears. It is local, the official allocation is currently sold out, and the program is strong enough to anchor a DC evening without turning the recommendation into a scarcity claim.",
+          "listen_before": "The George Walker Sonata is the useful hinge in the program; no specific streaming destination is recorded until one is verified."
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el arco del repertorio, no en el prestigio de una serie de recitales: Woods lleva al cello de las ciudades muy dibujadas de Fazil Say a la tensión de la sonata de George Walker de 1956 y después al gran despliegue de Rachmaninoff. Es un músico muy ligado a la práctica contemporánea metido en un programa donde el color, el ataque y la identidad cambiante del instrumento cargan la noche.",
+          "trip_verdict": "Sí le haría espacio activamente si reaparece un boleto. Es local, la venta oficial figura actualmente agotada y el programa alcanza para anclar una noche en DC sin inventarle una escasez que la fecha no tiene.",
+          "listen_before": "La Sonata de George Walker es la bisagra útil del programa; no queda un destino de streaming específico hasta verificarlo."
+        }
+      }
+    },
+    {
+      "id": "balourdet-quartet-sixth-and-i-washington-dc-2027-02-27",
+      "artist": "Balourdet Quartet",
+      "subtitle": null,
+      "dates": {
+        "start": "2027-02-27",
+        "end": "2027-02-27"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "sixth-and-i-washington-dc",
+        "name": "Sixth & I",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US",
+        "address": "600 I Street NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "String quartet / historical-to-microtonal repertoire",
+      "genres": [
+        "Chamber music",
+        "Contemporary classical",
+        "Classical"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Contemporary / microtonal"
+      ],
+      "lineup": [
+        "Angela Bae — violin",
+        "Justin DeFilippis — violin",
+        "Benjamin Zannoni — viola",
+        "Russell Houston — cello"
+      ],
+      "factual_description": "Washington Performing Arts presents the Balourdet Quartet at Sixth & I in Washington, DC on Saturday, February 27, 2027 at 7:30 PM. The program is Claudio Monteverdi madrigals arranged by Benjamin Zannoni, Bela Bartok's String Quartet No. 6, Ben Johnston's String Quartet No. 4, Amazing Grace, and Felix Mendelssohn's String Quartet No. 2 in A minor, op. 13. Sixth & I lists doors at 6:30 PM, general admission, and $50 admission. The authorized Washington Performing Arts ticket page lists $50 face value plus $9 in fees. The quartet's official current members page identifies Angela Bae and Justin DeFilippis on violins, Benjamin Zannoni on viola, and Russell Houston on cello.",
+      "links": {
+        "official_event": "https://www.washingtonperformingarts.org/event/balourdet-quartet/",
+        "official_tickets": "https://my.washingtonperformingarts.org/5015"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 50,
+          "maximum": 50,
+          "source_url": "https://my.washingtonperformingarts.org/5015",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact presenter, venue, ticket, program, and current quartet-member sources are verified. No exact Apple Music destination was verified in this run, so none is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.washingtonperformingarts.org/event/balourdet-quartet/",
+          "publisher": "Washington Performing Arts",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page verifies February 27, 2027 at 7:30 PM, Sixth & I, and the complete Monteverdi/Bartok/Ben Johnston/Mendelssohn program."
+        },
+        {
+          "url": "https://www.sixthandi.org/event/balourdet-quartet/",
+          "publisher": "Sixth & I",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue page verifies the date, showtime, 6:30 PM doors, $50 admission, general-admission format, venue identity/address, and the complete program."
+        },
+        {
+          "url": "https://my.washingtonperformingarts.org/5015",
+          "publisher": "Washington Performing Arts ticketing",
+          "checked_on": "2026-09-06",
+          "note": "Authorized event-specific ticket page verifies February 27, 2027 at 7:30 PM, Sixth & I, general admission, and $50 face value plus $9 fees."
+        },
+        {
+          "url": "https://www.balourdetquartet.com/members",
+          "publisher": "Balourdet Quartet",
+          "checked_on": "2026-09-06",
+          "note": "Artist-controlled current members page verifies Angela Bae and Justin DeFilippis on violin, Benjamin Zannoni on viola, and Russell Houston on cello."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-venue-authorized-ticket-and-artist-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Balourdet Quartet and the exact February 27, 2027 Sixth & I date returned no existing canonical, curated, or processed representation before publication. The exact program is independently consistent between Washington Performing Arts and Sixth & I; current member identities come from the quartet's own site; ticket price comes from the authorized ticket page. No premiere, special commission for this date, streaming identifier, or scarcity claim is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This program earns the slot because it treats the string quartet as a living machine across four centuries: Monteverdi reframed for four strings, Bartok's severe Sixth, Ben Johnston bending Amazing Grace through microtonal tuning, and Mendelssohn closing the arc. The Johnston is the disruptive center, but the reason to notice the night is how the entire program keeps changing what four strings can mean.",
+          "trip_verdict": "Attend if convenient in DC. The repertoire is unusually well built and worth knowing about, but this is an active touring quartet in a regular recital context, so I would not reorganize a regional weekend around this date alone.",
+          "listen_before": "Ben Johnston's String Quartet No. 4 is the useful point of entry; no specific streaming destination is recorded until one is verified."
+        },
+        "es": {
+          "why_it_matters": "Este programa entra porque trata al cuarteto de cuerdas como una máquina viva a través de cuatro siglos: Monteverdi rearmado para cuatro cuerdas, el severo Sexto de Bartok, Ben Johnston doblando Amazing Grace mediante afinación microtonal y Mendelssohn cerrando el arco. Johnston es el centro disruptivo, pero lo interesante de la noche es cómo todo el programa cambia una y otra vez lo que pueden significar cuatro cuerdas.",
+          "trip_verdict": "La aprovecharía si te queda cómoda en DC. El repertorio está armado de manera inusualmente buena y vale la pena tenerlo en el RADAR, pero es un cuarteto activo de gira dentro de una serie regular de recitales; no reorganizaría un fin de semana regional sólo por esta fecha.",
+          "listen_before": "El Cuarteto No. 4 de Ben Johnston es la entrada útil; no queda un destino de streaming específico hasta verificarlo."
+        }
+      }
+    }
+  ]
+}
