@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "blue-monday-blues-hamilton-era-farewell-westminster-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh checks of Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources resurfaced already represented future Yamamoto dates but did not reveal a new verified unrepresented appearance. The broader DMV pass found Westminster Presbyterian Church's September 21 20th Blue Monday Blues Anniversary & Farewell to Rev. Brian. Stage 1 admits this specific performance because it marks the 20th anniversary of Blue Monday Blues and the final event of the program's Rev. Brian Hamilton era; Hamilton's retirement after thirty years at Westminster is directly tied to the church's jazz-and-blues community-development ministry. This is a place-specific DC cultural transition, not a fame- or genre-based inclusion. Stage 2 assigns A+: actively make room locally for the closing chapter of a long-running Southwest DC music institution. The event is not elevated to S because Westminster explicitly frames it as a transition from one era to the next rather than the terminal end of Blue Monday Blues, and the announced musical lineup itself is not documented as a singular major-master or otherwise irreproducible ensemble. The recent/current RADAR shape and current PRIORITIES rubric were sanity-checked before finalizing; this batch adds no S or S+ event. Repository searches for the event title, Hamilton-era language, date, and full announced lineup returned no existing canonical, curated, or processed representation before publication.",
+  "events": [
+    {
+      "id": "blue-monday-blues-20th-anniversary-hamilton-era-farewell-westminster-dc-2026-09-21",
+      "artist": "Blue Monday Blues — 20th Anniversary & Farewell to Rev. Brian",
+      "subtitle": "Final Blue Monday Blues event of the Hamilton era",
+      "dates": {
+        "start": "2026-09-21",
+        "end": null
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "westminster-presbyterian-church-washington-dc",
+        "name": "Westminster Presbyterian Church",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "400 I Street SW, Washington, DC 20024"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "DMV music institution / Blues / Cultural transition",
+      "genres": [
+        "Blues"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Cultural context",
+        "DMV context"
+      ],
+      "lineup": [
+        "Brian Lenair — saxophone",
+        "Chuck Carthan — bass",
+        "Peter Frassrand — piano",
+        "Kenny Powell — drums",
+        "Tiya Ade — vocals"
+      ],
+      "factual_description": "Westminster Presbyterian Church's official Blue Monday Blues schedule lists '20th Blue Monday Blues Anniversary & Farewell to Rev. Brian' for Monday, September 21, 2026. The church states that Blue Monday runs from 6:00 to 9:00 PM with $10 admission payable by cash or credit card, and names Brian Lenair on saxophone, Chuck Carthan on bass, Peter Frassrand on piano, Kenny Powell on drums, and Tiya Ade on vocals. The same official schedule says this anniversary will be the final Blue Monday Blues event in the long-running program's Hamilton era and invites the community to celebrate the transition from one era to the next. Westminster identifies Rev. Brian Hamilton as pastor and as president of the Southwest Renaissance Development Corporation that runs the church's jazz and blues ministry. A September 1, 2026 Southwester report says Hamilton is retiring on September 27 after thirty years at Westminster and describes weekly Jazz Night and Blue Monday Blues as central parts of his community work.",
+      "links": {
+        "official_event": "https://westminsterdc.org/blue-monday-schedule",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 10,
+          "maximum": 10,
+          "source_url": "https://westminsterdc.org/blue-monday-schedule",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_ticket_purchase_url",
+          "recommended_listening"
+        ],
+        "note": "The exact official venue schedule verifies the date, 6:00-9:00 PM event window, $10 admission, complete announced lineup, anniversary/farewell title, and final-Hamilton-era context. Westminster advertises admission at the door and no event-specific online ticket destination was found, so official_tickets remains null. No Apple Music recommendation is added without an exact verified release URL."
+      },
+      "sources": [
+        {
+          "url": "https://westminsterdc.org/blue-monday-schedule",
+          "publisher": "Westminster Presbyterian Church",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue schedule verifies September 21, 2026, 6:00-9:00 PM Blue Monday format, $10 admission, the Lenair/Carthan/Frassrand/Powell/Ade lineup, the 20th-anniversary and Farewell to Rev. Brian billing, and that this is the final Blue Monday Blues event of the Hamilton era."
+        },
+        {
+          "url": "https://westminsterdc.org/our-pastor/f/our-partnership-in-the-gospel",
+          "publisher": "Westminster Presbyterian Church",
+          "checked_on": "2026-09-06",
+          "note": "Primary church page identifies Rev. Brian Hamilton and documents his role as president of the Southwest Renaissance Development Corporation running Westminster's Jazz and Blues ministry and his community-development work through the arts."
+        },
+        {
+          "url": "https://thesouthwester.com/2026/09/01/rev-brian-hamilton-to-retire-from-westminster-presbyterian-church/",
+          "publisher": "The Southwester",
+          "checked_on": "2026-09-06",
+          "note": "Local Southwest DC reporting documents Hamilton's September 27, 2026 retirement after thirty years at Westminster and describes Friday Jazz and Monday Blues as central parts of the community institution built during his tenure."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-local-context-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Primary Westminster sources establish the event, date, time window, price, lineup, anniversary/farewell framing, and Hamilton's role in the jazz-and-blues ministry; The Southwester independently documents his imminent retirement and three-decade tenure. Repository-wide searches for the event title, Hamilton-era phrasing, date and full lineup found no prior canonical, curated or processed representation. A+ was assigned only after Stage 1 admission: this is a meaningful local cultural transition worth making room for, while Westminster's explicit 'one era to the next' language argues against treating the program itself as terminal. No online ticket URL, alternate lineup member, separate set time, repertoire, or listening link is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "For two decades, Blue Monday Blues has made live blues part of Westminster's weekly civic rhythm in Southwest DC. This night matters because the music is carrying a real transition: the 20th anniversary is also the final Blue Monday of Rev. Brian Hamilton's era, closing the chapter of a pastor whose community work helped make Westminster's jazz-and-blues nights a local institution. The lineup gives that history a live soundtrack rather than turning the evening into a ceremony about the past.",
+          "trip_verdict": "If you are in the DMV, actively make room for this Monday at Westminster. The reason is local and cannot really be exported: the church, the Southwest community, and the end of the Hamilton chapter are part of the event itself. I would not turn it into a corridor trip from another city, because Westminster is explicitly carrying the program into a new era rather than ending Blue Monday altogether.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Durante dos décadas, Blue Monday Blues ha convertido el blues en parte del ritmo semanal y comunitario de Westminster en Southwest DC. Esta noche importa porque la música acompaña una transición real: el 20 aniversario coincide con el último Blue Monday de la etapa del Rev. Brian Hamilton, cerrando el capítulo de un pastor cuyo trabajo comunitario ayudó a volver las noches de jazz y blues de Westminster una institución local. El cartel le pone música viva a esa historia, en vez de convertir la noche en una ceremonia sobre el pasado.",
+          "trip_verdict": "Si estás en el DMV, sí le haría espacio activamente a ese lunes en Westminster. La razón es local y difícilmente se puede trasladar a otro lugar: la iglesia, la comunidad de Southwest y el cierre de la etapa de Hamilton forman parte del evento. No lo convertiría en un viaje por el corredor desde otra ciudad, porque Westminster habla explícitamente de pasar a una nueva era, no de terminar Blue Monday por completo.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
