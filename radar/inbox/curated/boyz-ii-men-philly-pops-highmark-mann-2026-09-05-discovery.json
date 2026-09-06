@@ -1,0 +1,106 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "boyz-ii-men-philly-pops-highmark-mann-2026-09-05-discovery",
+  "checked_on": "2026-09-05",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A and current Japanese-jazz sources did not reveal a new verified future Yamamoto appearance that was not already represented in canonical, curated or processed intake. The broader US-corridor pass found Boyz II Men with The Philly Pops at TD Pavilion at Highmark Mann on September 18. Stage 1 admits the performance for a specific live reason: a Philadelphia-born vocal group returns to Philadelphia to recast its harmony-driven R&B catalog with the city's Philly Pops under Anthony Parnther, making hometown identity, repertoire and orchestration part of the performance rather than relying on fame alone. Stage 2 assigns A+: this is an excellent Philadelphia event worth actively making room for, but no farewell, premiere, last performance, rare one-time lineup or other scarcity fact is verified, so A+ captures the recommendation without applying S-level urgency. The current/recent RADAR intake was sanity-checked against the durable rubric before finalizing the grade; this event does not justify adding to the intentionally sparse S/S+ tiers. Repository searches for the exact stable event ID and billing returned no matching canonical, curated or processed record before publication.",
+  "events": [
+    {
+      "id": "boyz-ii-men-philly-pops-highmark-mann-philadelphia-2026-09-18",
+      "artist": "Boyz II Men with The Philly Pops",
+      "subtitle": "Philadelphia homecoming with orchestra, conducted by Anthony Parnther",
+      "dates": {
+        "start": "2026-09-18",
+        "end": "2026-09-18"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "td-pavilion-highmark-mann-philadelphia",
+        "name": "TD Pavilion at Highmark Mann",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US",
+        "address": "5201 Parkside Avenue, Fairmount Park, Philadelphia, PA 19131"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Philadelphia R&B / vocal harmony / orchestral crossover",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Orchestral pop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Boyz II Men — billed vocal group",
+        "The Philly Pops — billed orchestra",
+        "Anthony Parnther — conductor"
+      ],
+      "factual_description": "Highmark Mann presents Boyz II Men with The Philly Pops at TD Pavilion in Philadelphia on Friday, September 18, 2026. Doors are at 18:00 and showtime is 20:00. Anthony Parnther is the announced conductor. The official event page says audiences can expect songs including 'End of the Road,' 'I'll Make Love to You,' 'One Sweet Day' and 'Motownphilly.' A current Highmark Mann feature on the Philly Pops collaborative concerts describes these programs as using the full 65-piece orchestra. Boyz II Men's official biography identifies the current group as Nathan Morris, Wanya Morris and Shawn Stockman and traces the group's origin to Philadelphia, but the event page does not publish member-level show billing, so the event lineup preserves the verified billed units rather than inferring individual attendance. Ticketmaster is the authorized purchase destination linked directly from Highmark Mann. Current event-ticket prices were not published in the factual sources checked in this pass; the $25/$30 figures on the venue page are parking prices and are not represented as concert-ticket prices.",
+      "links": {
+        "official_event": "https://highmarkmann.org/events/2026-09-18/boyz-ii-men",
+        "official_tickets": "https://www.ticketmaster.com/event/02006452DE4231E9"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Event, venue and authorized ticket links are verified. No exact Apple Music album URL was independently verified during this pass, so no Apple Music ID or destination is inferred. Concert-ticket prices are also left unreported because the primary sources checked do not expose stable event-ticket price values."
+      },
+      "sources": [
+        {
+          "url": "https://highmarkmann.org/events/2026-09-18/boyz-ii-men",
+          "publisher": "Highmark Mann",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter event page verifies Boyz II Men with The Philly Pops, TD Pavilion, September 18, 2026, 18:00 doors, 20:00 showtime, Anthony Parnther as conductor, expected repertoire including Motownphilly, venue address, and Ticketmaster as the authorized seller."
+        },
+        {
+          "url": "https://highmarkmann.org/pressroom/philly-pops-perform-aug-21-28-and-sept-18-highmark-mann-center",
+          "publisher": "Highmark Mann",
+          "checked_on": "2026-09-05",
+          "note": "Primary presenter feature corroborates the September 18 Boyz II Men collaboration, Anthony Parnther and TD Pavilion, and describes the Philly Pops collaborative concerts as using the full 65-piece orchestra."
+        },
+        {
+          "url": "https://boyziimen.com/about/",
+          "publisher": "Boyz II Men",
+          "checked_on": "2026-09-05",
+          "note": "Primary artist biography identifies the current group as Nathan Morris, Wanya Morris and Shawn Stockman and traces Boyz II Men's origin to Philadelphia. Member names are used only as artist-context verification, not as inferred show-specific member billing."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/02006452DE4231E9",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-05",
+          "note": "Authorized event-specific ticket page linked directly from Highmark Mann verifies Boyz II Men with The Philly Pops, Friday September 18, 2026 at 20:00, TD Pavilion at Highmark Mann, Philadelphia, and the two billed performing entities."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts are verified from Highmark Mann's exact event page and event-specific Ticketmaster page, with artist identity and Philadelphia origin verified from Boyz II Men's official biography. Repository searches for the exact stable ID and exact billing returned no existing canonical, curated or processed representation before publication. No individual show member roster, concert-ticket price, set order, extra guest, Apple Music identifier or secondary purchase destination is inferred. The parking prices shown by Highmark Mann are explicitly excluded from concert-ticket data."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Boyz II Men returning to Philadelphia with The Philly Pops turns hometown identity into part of the musical premise: one of the city's defining vocal groups puts its harmony-driven catalog—including the hometown-coded 'Motownphilly'—inside an orchestral frame under Anthony Parnther. The specific intersection of city, repertoire and orchestration is what makes this a RADAR performance, not the group's fame by itself.",
+          "trip_verdict": "If Philadelphia is a plausible trip, actively make room and let this anchor the evening. From the DMV, I would not make a dedicated round trip solely on scarcity grounds: this is an unusually resonant hometown pairing, not a farewell, premiere or verified one-off.",
+          "listen_before": "Boyz II Men — Cooleyhighharmony; focus on the vocal architecture of Motownphilly and End of the Road before hearing what the orchestral setting changes."
+        },
+        "es": {
+          "why_it_matters": "El regreso de Boyz II Men a Filadelfia con The Philly Pops convierte la identidad local en parte de la música: uno de los grupos vocales emblemáticos de la ciudad lleva su repertorio de armonías —incluido el guiño explícito de 'Motownphilly'— a un marco orquestal bajo Anthony Parnther. Lo que vuelve esta fecha una función RADAR es ese cruce entre ciudad, repertorio y orquestación, no la fama del grupo por sí sola.",
+          "trip_verdict": "Si un viaje a Filadelfia ya es razonable, sí le haría espacio activamente y dejaría que esta noche ancle el plan. Desde el DMV no haría un ida y vuelta dedicado sólo por escasez: es una combinación local especialmente resonante, no una despedida, un estreno ni una aparición única verificada.",
+          "listen_before": "Boyz II Men — Cooleyhighharmony; conviene fijarse en la arquitectura vocal de Motownphilly y End of the Road antes de escuchar qué cambia cuando entra el marco orquestal."
+        }
+      }
+    }
+  ]
+}
