@@ -1,0 +1,122 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "zhengtao-pan-jazz-orchestra-zankel-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources. The September 26 TOKU with Tsuyoshi Yamamoto Group BODY&SOUL Grand Finale was reverified from current first-party venue pages but is already represented in curated intake, so no duplicate was created; other verified Yamamoto dates were likewise already represented. A broader US-corridor scan surfaced Zhengtao Pan Jazz Orchestra featuring Chris Potter and Rufus Reid at Zankel Hall on October 10, 2026. Repository-wide searches for Zhengtao Pan and for Chris Potter + Rufus Reid + Zankel returned no matching RADAR record before publication. Stage 1 admits the performance because the announced program is built around new large-ensemble writing rather than generic venue prestige: it includes world premieres of Pan's Concerto for Jazz Orchestra and World Can be a Beautiful Place, a world-premiere Zhengtao Pan arrangement of Brad Mehldau's Unrequited, and a New York premiere arrangement of Nick Finzer's Visions or Mirage, with Chris Potter and Rufus Reid as named special guests. Stage 2 assigns A+: the combination is strong enough to actively make room for if New York is in play, but A+ captures the recommendation without manufacturing scarcity. Although several works are premieres, there is no verified farewell, final appearance, one-time-only claim, or broader historical circumstance that makes missing this particular date a protect-the-night event. The current intake remains visibly broad in A/A+ with S/S+ gated as scarcity tiers; this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "zhengtao-pan-jazz-orchestra-zankel-hall-new-york-2026-10-10",
+      "artist": "Zhengtao Pan Jazz Orchestra featuring Chris Potter and Rufus Reid",
+      "subtitle": "New large-ensemble works and premieres at Zankel Hall",
+      "dates": {
+        "start": "2026-10-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "zankel-hall-carnegie-hall-new-york-ny",
+        "name": "Zankel Hall at Carnegie Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Large-ensemble jazz / composer-arranger showcase / world premieres",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Contemporary classical"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Cross-genre",
+        "Premiere"
+      ],
+      "lineup": [
+        "Zhengtao Pan Jazz Orchestra",
+        "Zhengtao Pan — conductor",
+        "Rufus Reid — bass, special guest",
+        "Chris Potter — tenor saxophone and bass clarinet, special guest"
+      ],
+      "factual_description": "A current Carnegie Hall event listing mirrored by NYC Things identifies Zhengtao Pan Jazz Orchestra featuring Chris Potter and Rufus Reid at Zankel Hall on Saturday, October 10, 2026 at 7:30 PM, presented by Outside In Music. The announced performers are the Zhengtao Pan Jazz Orchestra with Zhengtao Pan conducting, Rufus Reid on bass, and Chris Potter on tenor saxophone and bass clarinet. The published program lists Pan's Endless Cycle, Everything Will Be Alright, World Can be a Beautiful Place (world premiere), Jade Dragonfly, Childhood, and Concerto for Jazz Orchestra (world premiere); Brad Mehldau's Unrequited arranged by Pan (world premiere); and Nick Finzer's Visions or Mirage arranged by Pan (New York premiere). Jeff Nelson's current professional performance schedule independently confirms the Zhengtao Pan Jazz Orchestra at Zankel Hall on October 10 at 7:30 PM, while AXS's current Zankel Hall calendar independently lists the event at the same date and time. The individual orchestra roster beyond the specifically announced conductor and guests, a stable official ticket purchase destination, and official face-value pricing were not published in the accessible verified materials reviewed here and are not inferred.",
+      "links": {
+        "official_event": "https://www.carnegiehall.org/Calendar/2026/10/10/Zhengtao-Pan-Jazz-Orchestra-featuring-Chris-Potter-and-Rufus-Reid-0730PM",
+        "official_tickets": null
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "full individual orchestra roster",
+          "official_tickets",
+          "official face-value ticket price",
+          "apple_music"
+        ],
+        "note": "The exact Carnegie Hall event destination was discovered through a current event index that links directly to it, but Carnegie Hall's safety-net redirect prevented the research client from rendering that page. Date/time/venue were independently corroborated by performer Jeff Nelson's current schedule and AXS's current Zankel Hall calendar; the current event mirror reproduces the Carnegie listing's billing and detailed premiere program. Zhengtao Pan's first-party site verifies his leadership of the Zhengtao Pan Jazz Orchestra and current catalog, but its events page does not yet list this October date. No stable official ticket link, official face value, full individual orchestra roster, or exact Apple Music destination is supplied."
+      },
+      "sources": [
+        {
+          "url": "https://www.carnegiehall.org/Calendar/2026/10/10/Zhengtao-Pan-Jazz-Orchestra-featuring-Chris-Potter-and-Rufus-Reid-0730PM",
+          "publisher": "Carnegie Hall",
+          "checked_on": "2026-09-06",
+          "note": "Exact first-party Carnegie Hall event destination discovered from the current event index's Source link. The research client was redirected through Carnegie Hall's safety-net layer and could not render the page, so no inaccessible-page-only fact is asserted."
+        },
+        {
+          "url": "https://www.nycthings.com/events/zhengtao-pan-jazz-orchestra-featuring-chris-potter-and-rufus-reid-20261010/",
+          "publisher": "NYC Things",
+          "checked_on": "2026-09-06",
+          "note": "Current event index links directly to the exact Carnegie Hall source and reproduces the October 10, 7:30 PM Zankel Hall billing, Outside In Music presenter, named performers/instruments, and detailed program with three world premieres plus one New York premiere."
+        },
+        {
+          "url": "https://www.jeffnelsontrb.com/performances",
+          "publisher": "Jeff Nelson",
+          "checked_on": "2026-09-06",
+          "note": "First-party professional performance schedule independently lists Zhengtao Pan Jazz Orchestra at Zankel Hall, 881 7th Ave, New York City, on Saturday October 10, 2026 at 7:30 PM."
+        },
+        {
+          "url": "https://www.axs.com/venues/132472/carnegie-hall-zankel-hall-new-york-tickets",
+          "publisher": "AXS",
+          "checked_on": "2026-09-06",
+          "note": "Current Zankel Hall calendar independently lists Zhengtao Pan Jazz Orchestra for Saturday October 10, 2026 at 7:30 PM and verifies the venue address."
+        },
+        {
+          "url": "https://www.zhengtaopan.com/about",
+          "publisher": "Zhengtao Pan",
+          "checked_on": "2026-09-06",
+          "note": "First-party biography verifies that Pan directs the Zhengtao Pan Jazz Orchestra and documents his work across contemporary jazz and concert music, including prior recording collaboration with Rufus Reid."
+        },
+        {
+          "url": "https://www.zhengtaopan.com/music",
+          "publisher": "Zhengtao Pan",
+          "checked_on": "2026-09-06",
+          "note": "First-party catalog verifies Pan's cross-genre body of work and leader recordings; no exact Apple Music destination is recorded here because one was not separately verified for this event."
+        }
+      ],
+      "provenance": {
+        "status": "verified-exact-carnegie-destination-performer-schedule-and-current-event-mirror",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "The exact Carnegie Hall source URL was discovered rather than guessed, but its page could not be rendered because of a Carnegie safety-net redirect. Core date/time/venue were independently verified by a participating musician's current schedule and AXS's current venue calendar; the detailed billing and program come from a current index that links to and reproduces the Carnegie listing. Repository searches for Zhengtao Pan and for the Potter/Reid/Zankel combination found no canonical, curated, or processed representation before publication. Priority A+ was assigned only after Stage 1 admission; the premiere context was explicitly considered but did not warrant S because no verified one-time-only or genuine-regret scarcity beyond normal premiere status was established."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is the writing, not the room by itself. Pan is putting a jazz orchestra through a program with three world premieres and a New York premiere, including a new Concerto for Jazz Orchestra and a first-performance arrangement of Brad Mehldau's Unrequited, then placing Chris Potter and Rufus Reid inside that machinery as featured improvising voices. It is a concrete chance to hear an emerging large-ensemble language tested in public rather than a prestige-venue recital built around familiar material.",
+          "trip_verdict": "If New York is already in play on October 10, actively make room for Zankel Hall and build the evening around the 7:30 set. From the DMV, I would pair it with another New York reason rather than make a dedicated one-night round trip solely for this date.",
+          "listen_before": "Zhengtao Pan Jazz Orchestra — Scenery In My Story"
+        },
+        "es": {
+          "why_it_matters": "Aquí el atractivo está en la escritura, no en la sala por sí sola. Pan lleva a su jazz orchestra un programa con tres estrenos mundiales y un estreno en Nueva York, incluido un nuevo Concerto for Jazz Orchestra y una primera versión pública de Unrequited de Brad Mehldau arreglada por Pan; después mete a Chris Potter y Rufus Reid dentro de esa maquinaria como voces improvisadoras destacadas. Es una oportunidad concreta para escuchar cómo se prueba en público un lenguaje emergente de gran ensamble, no un recital de prestigio construido alrededor de repertorio conocido.",
+          "trip_verdict": "Si Nueva York ya está en juego el 10 de octubre, sí le haría espacio a Zankel Hall y armaría la noche alrededor de la función de las 7:30. Desde el DMV, la combinaría con otra razón para subir a Nueva York en vez de hacer un viaje dedicado de una sola noche exclusivamente por esta fecha.",
+          "listen_before": "Zhengtao Pan Jazz Orchestra — Scenery In My Story"
+        }
+      }
+    }
+  ]
+}
