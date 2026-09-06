@@ -1,0 +1,135 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yuya-wakai-special-quartet-body-and-soul-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A, ALFIE traces, current musician schedules, and additional Tokyo schedule sources. The September 26 BODY&SOUL grand finale and September 15 KEYSTONE date were already represented in processed/curated intake. A Daiki Yasukagawa schedule trace that listed Yamamoto at Ginza Swing on October 10 was challenged against the current Ginza Swing primary schedule; Ginza Swing currently lists Junichiro Ohguchi on piano for that date, so no Yamamoto record was created from the conflicting trace. Repository searches for Yuya Wakai, the exact Special Quartet billing, and the stable event ID returned no existing representation. Stage 1 admits the September 19 BODY&SOUL performance because the specific quartet expands Wakai's current piano-trio axis with Riku Takahashi and Shun Ishiwaka by adding Chris Kazuki Jones on guitar, creating a distinct instrumental conversation in the club's documented final operational week. Stage 2 assigns A: the date is worth knowing about and catching if convenient in Tokyo, but the available evidence does not establish a premiere, farewell by the musicians, one-off lineup, or other scarcity fact that would justify active trip reshuffling. The current reservation form is closed, so the travel copy does not imply guaranteed admission. No S/S+ priority_review is required.",
+  "events": [
+    {
+      "id": "yuya-wakai-special-quartet-body-and-soul-tokyo-2026-09-19",
+      "artist": "Yuya Wakai Special Quartet",
+      "subtitle": "feat. Chris Kazuki Jones",
+      "dates": {
+        "start": "2026-09-19",
+        "end": null
+      },
+      "showtimes": [
+        "19:30",
+        "21:00"
+      ],
+      "venue": {
+        "id": "body-and-soul-shibuya-tokyo",
+        "name": "BODY&SOUL",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Contemporary Japanese jazz / special quartet / BODY&SOUL final week",
+      "genres": [
+        "Jazz",
+        "Modern jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Yuya Wakai — piano",
+        "Riku Takahashi — bass",
+        "Shun Ishiwaka — drums",
+        "Chris Kazuki Jones — guitar"
+      ],
+      "factual_description": "BODY&SOUL presents Yuya Wakai Special Quartet featuring Chris Kazuki Jones on Saturday, September 19, 2026. The announced lineup is Wakai on piano, Riku Takahashi on bass, Shun Ishiwaka on drums, and Jones on guitar. Doors are 6:30 PM, with sets at 7:30 PM and 9:00 PM. The music charge is ¥7,000 before tax / ¥7,700 tax included, and the venue currently marks reservations closed. Wakai's own September schedule and Ishiwaka's official schedule independently confirm the exact date, venue, lineup and 7:30 PM start. BODY&SOUL has separately announced September 26 as its grand finale after 52 years, placing this performance in the club's final operational week.",
+      "links": {
+        "official_event": "https://bodyandsoul.co.jp/event/260919",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 7700,
+          "maximum": 7700,
+          "source_url": "https://bodyandsoul.co.jp/event/260919",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yuya Wakai",
+          "title": "Poem",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/poem/1677585254"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact BODY&SOUL event page verifies date, lineup, showtimes, music charge and current closed-reservation status. The event page contains the venue's reservation mechanism rather than a separate stable ticket destination, so official_tickets remains null. Wakai and Ishiwaka independently confirm the performance on their own current schedules. An exact Apple Music destination for Wakai's 2023 album Poem is included."
+      },
+      "sources": [
+        {
+          "url": "https://bodyandsoul.co.jp/event/260919",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue page verifies September 19, 2026, Yuya Wakai Special Quartet featuring Chris Kazuki Jones, the full announced lineup, doors at 18:30, sets at 19:30 and 21:00, ¥7,000 / ¥7,700 tax-included music charge, and current reservation-closed status."
+        },
+        {
+          "url": "https://matheyoung.wordpress.com/",
+          "publisher": "Yuya Wakai",
+          "checked_on": "2026-09-06",
+          "note": "Wakai's own September 2026 schedule confirms the September 19 BODY&SOUL Special Quartet with Riku Takahashi, Shun Ishiwaka and Chris Kazuki Jones."
+        },
+        {
+          "url": "https://www.shun-ishiwaka.com/blog",
+          "publisher": "Shun Ishiwaka",
+          "checked_on": "2026-09-06",
+          "note": "Ishiwaka's official current schedule independently confirms the September 19 BODY&SOUL date, 18:30 doors, 19:30/21:00 sets and exact quartet lineup."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/2026/08/175580",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue closure notice confirms September 26, 2026 as BODY&SOUL's grand finale in its 52nd year, with venue clearing beginning the following week."
+        },
+        {
+          "url": "https://music.apple.com/us/album/poem/1677585254",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-06",
+          "note": "Exact Apple Music page verifies Yuya Wakai's 2023 jazz album Poem."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-two-artist-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Yuya Wakai, the Special Quartet billing and the stable event ID found no canonical/curated/processed representation before publication. Performance facts are grounded in BODY&SOUL plus independent current schedules from Wakai and Ishiwaka; final-week context is grounded in BODY&SOUL's closure notice. No separate ticket URL, resale price, unannounced personnel, set list or source URL was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The point is the quartet shape, not the names in isolation. Wakai's piano language and his ongoing rhythm-section connection with Ishiwaka are revoiced around Riku Takahashi's bass and Chris Kazuki Jones's guitar, turning a piano-trio axis into a four-way conversation with more harmonic and textural room to move. BODY&SOUL's final week adds real place-history, but the instrumental design is why the performance belongs in the first place.",
+          "trip_verdict": "If September 19 overlaps a Tokyo stay, this is a good final-week BODY&SOUL night to catch if a cancellation opens. With reservations currently closed, I would not rearrange a wider Kanto itinerary around uncertain admission.",
+          "listen_before": "Yuya Wakai — Poem"
+        },
+        "es": {
+          "why_it_matters": "La gracia está en la forma del cuarteto, no en los nombres por separado. El lenguaje pianístico de Wakai y su relación rítmica con Ishiwaka se reacomodan alrededor del bajo de Riku Takahashi y la guitarra de Chris Kazuki Jones: el eje de piano-trío se abre a una conversación de cuatro voces con más espacio armónico y de textura. Que ocurra en la última semana de BODY&SOUL añade historia del lugar, pero la razón para meterla al RADAR está primero en el diseño instrumental.",
+          "trip_verdict": "Si el 19 de septiembre coincide con una estancia en Tokio, es una muy buena noche para alcanzar BODY&SOUL en su última semana si aparece una cancelación. Con las reservas cerradas por ahora, no reorganizaría un itinerario más amplio por Kanto alrededor de una entrada incierta.",
+          "listen_before": "Yuya Wakai — Poem"
+        }
+      }
+    }
+  ]
+}
