@@ -1,0 +1,141 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kazuhiro-takemoto-the-real-veleria-body-and-soul-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A, ALFIE traces, current schedule sources, and the already represented October 3 Kawasaki finale; no new unrepresented Yamamoto appearance was found. Repository searches for Kazuhiro Takemoto, THE REAL Veleria, the September 23 BODY&SOUL billing, and the stable event ID returned no existing canonical/curated/processed representation. Stage 1 admits the September 23 performance because Takemoto's 2014-rooted piano trio is expanded by percussion, a full string quartet, and Ema, creating a chamber-sized jazz language with a specific instrumental identity; the performance also falls in BODY&SOUL's documented final operational week. Stage 2 assigns A: the full ensemble is distinctive and worth catching if convenient in Tokyo, but the same configuration was already presented at Cotton Club earlier in 2026 and the available evidence does not establish a premiere, farewell by the musicians, or singular one-off context. The current reservation form is closed, so travel copy does not imply guaranteed admission. Recent/current RADAR intake was checked as a priority-shape sanity check; no grade was changed to meet a numerical quota. No S/S+ priority_review is required.",
+  "events": [
+    {
+      "id": "kazuhiro-takemoto-the-real-veleria-body-and-soul-tokyo-2026-09-23",
+      "artist": "Kazuhiro Takemoto",
+      "subtitle": "THE REAL Veleria",
+      "dates": {
+        "start": "2026-09-23",
+        "end": null
+      },
+      "showtimes": [
+        "18:30",
+        "20:00"
+      ],
+      "venue": {
+        "id": "body-and-soul-shibuya-tokyo",
+        "name": "BODY&SOUL",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Contemporary Japanese jazz / piano-trio-plus-strings ensemble / BODY&SOUL final week",
+      "genres": [
+        "Jazz",
+        "Modern jazz",
+        "Chamber jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Improvised",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Kazuhiro Takemoto — piano",
+        "Junichi Sato — bass",
+        "Kunito Kitai — drums",
+        "Kenta Okamoto — percussion",
+        "Atsuki Yoshida — violin",
+        "Shiori Nishihara — violin",
+        "Sayaka Suehiro — viola",
+        "Kanato Iijima — cello",
+        "Ema — vocals"
+      ],
+      "factual_description": "BODY&SOUL presents Kazuhiro Takemoto THE REAL Veleria on Wednesday, September 23, 2026. Doors open at 5:30 PM, with sets at 6:30 PM and 8:00 PM. The tax-included music charge is ¥7,000 and the venue currently marks reservations closed. The announced nine-person lineup is Takemoto on piano, Junichi Sato on bass, Kunito Kitai on drums, Kenta Okamoto on percussion, Atsuki Yoshida and Shiori Nishihara on violins, Sayaka Suehiro on viola, Kanato Iijima on cello, and guest singer Ema. Cotton Club documented the same nine-person configuration for Takemoto's THE REAL Veleria BIRTH release performance on February 9, 2026, describing it as an expansion of the piano trio formed in 2014 with percussion, string quartet and Ema. BODY&SOUL separately identifies September 26 as the grand finale of its 52nd year and says equipment removal begins the following week, placing this performance in the club's final operational week.",
+      "links": {
+        "official_event": "https://bodyandsoul.co.jp/event/260923",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 7000,
+          "maximum": 7000,
+          "source_url": "https://bodyandsoul.co.jp/event/260923",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kazuhiro Takemoto",
+          "title": "Birth (feat. Ema)",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/jp/song/1853749836"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact BODY&SOUL event page verifies date, billing, Japanese-name lineup and instruments, doors, both set times, ¥7,000 tax-included music charge, and current reservation-closed status. The page contains the venue's reservation mechanism rather than a separate stable ticket destination, so official_tickets remains null. Cotton Club verifies the project's prior full-ensemble configuration and BIRTH context; HMV's label-supplied album metadata corroborates Romanized personnel spellings. An exact Apple Music destination for Birth (feat. Ema) is included."
+      },
+      "sources": [
+        {
+          "url": "https://bodyandsoul.co.jp/event/260923",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue page verifies September 23, 2026, THE REAL Veleria billing, the complete announced lineup and instruments, 17:30 doors, 18:30 and 20:00 sets, ¥7,000 tax-included music charge, and current reservation-closed status."
+        },
+        {
+          "url": "https://cottonclubjapan.co.jp/jp/sp/artists/kazuhiro-takemoto/",
+          "publisher": "Cotton Club Japan",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page for the February 9, 2026 BIRTH release performance documents the same nine-person configuration and describes the project as Takemoto's 2014 piano trio expanded with percussion, string quartet and guest vocalist Ema. It is used as project context, not to claim the September 23 date is a release show or premiere."
+        },
+        {
+          "url": "https://bodyandsoul.co.jp/2026/08/175580",
+          "publisher": "BODY&SOUL",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue closure notice confirms September 26, 2026 as the grand finale in BODY&SOUL's 52nd year, with equipment removal beginning the following week."
+        },
+        {
+          "url": "https://www.hmv.co.jp/artist_%E6%AD%A6%E6%9C%AC%E5%92%8C%E5%A4%A7_000000001006708/item_THE-REAL-Veleria-BIRTH-KAZUHIRO-TAKEMOTO_16276077",
+          "publisher": "HMV&BOOKS online",
+          "checked_on": "2026-09-06",
+          "note": "Authoritative retail metadata supplied by the label corroborates Romanized personnel spellings for the BIRTH ensemble; no event facts are taken from this source."
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1853749836",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-06",
+          "note": "Exact Apple Music page verifies Kazuhiro Takemoto's Birth (feat. Ema), released November 5, 2025."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-presenter-and-apple-music-sources-with-authoritative-romanization",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Kazuhiro Takemoto, THE REAL Veleria, the September 23 BODY&SOUL billing and the stable event ID found no canonical/curated/processed representation before publication. Performance facts are grounded in BODY&SOUL; project context comes from Cotton Club's prior BIRTH release performance; Romanized personnel spellings are corroborated by label-supplied HMV metadata; listening is an exact Apple Music destination. No separate ticket URL, resale price, unannounced personnel, set list, premiere claim or source URL was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Takemoto's core piano trio is stretched into a chamber-sized language here: percussion and a full string quartet surround the trio, while Ema adds the vocal voice tied to the BIRTH material. That orchestration gives the date an identity beyond an ordinary club set. Hearing the full configuration inside BODY&SOUL's final operational week adds real room-history without making the venue closure the only reason to care.",
+          "trip_verdict": "If September 23 overlaps a Tokyo stay and a cancellation opens, catch it. With reservations currently closed, I would not reorganize a wider Kanto itinerary around uncertain admission.",
+          "listen_before": "Kazuhiro Takemoto — Birth (feat. Ema)"
+        },
+        "es": {
+          "why_it_matters": "El trío base de Takemoto se expande aquí hasta volverse casi música de cámara: la percusión y un cuarteto completo de cuerdas rodean al piano, bajo y batería, mientras Ema incorpora la voz asociada al material de BIRTH. Esa orquestación le da a la fecha una identidad propia, muy distinta a un set ordinario de club. Escuchar la formación completa durante la última semana operativa de BODY&SOUL añade historia del lugar sin convertir el cierre en la única razón para estar ahí.",
+          "trip_verdict": "Si el 23 de septiembre coincide con una estancia en Tokio y se abre una cancelación, la agarraría. Con las reservas cerradas por ahora, no reorganizaría un itinerario más amplio por Kanto alrededor de una entrada incierta.",
+          "listen_before": "Kazuhiro Takemoto — Birth (feat. Ema)"
+        }
+      }
+    }
+  ]
+}
