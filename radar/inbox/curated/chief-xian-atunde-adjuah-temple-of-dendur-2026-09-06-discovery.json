@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "chief-xian-atunde-adjuah-temple-of-dendur-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. Space M&A's current July-December schedule reconfirmed Yamamoto dates already represented in repository intake, including September 29, October 30, November 28, and the December 28 trio-plus-Takuya-Osumi year-end date, so no duplicate Yamamoto event was created. Broader US-corridor research surfaced Chief Xian aTunde Adjuah: Sound Carved from Legend at The Metropolitan Museum of Art on February 8-9, 2027. Repository searches for Chief Xian aTunde Adjuah, Sound Carved from Legend, and Temple of Dendur returned no matching RADAR event. Stage 1 admits the performance because The Met explicitly identifies it as the premiere of a brand-new work written especially for the Temple of Dendur, exploring Black, Brown, and Maroon histories in the United States during Black History Month: artist, new work, cultural frame, and site are inseparable here. Stage 2 assigns S after the required scarcity challenge. The concrete scarcity fact is that this newly commissioned work is written for the Temple of Dendur and has only two announced performances, February 8 and 9; A+ was explicitly challenged and judged insufficient because the exact work-space conjunction is the event, not a repeatable tour stop, and missing both nights would plausibly create genuine regret. S+ is not warranted because there are two performances and no farewell, last appearance, or evidence that the work itself can never be presented again in another form. A scan of the current September 6 intake shows a broad run of A/A+ additions and no pressure toward making S routine; this batch adds A 0 / A+ 0 / S 1 / S+ 0.",
+  "events": [
+    {
+      "id": "chief-xian-atunde-adjuah-sound-carved-from-legend-temple-of-dendur-new-york-2027-02-08",
+      "artist": "Chief Xian aTunde Adjuah",
+      "subtitle": "Sound Carved from Legend — Met Live Arts commission",
+      "dates": {
+        "start": "2027-02-08",
+        "end": "2027-02-09"
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "temple-of-dendur-the-met-new-york-ny",
+        "name": "Temple of Dendur at The Metropolitan Museum of Art",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-06",
+        "rationale": "The scarcity is event-specific: The Metropolitan Museum of Art says Chief Xian aTunde Adjuah premieres a brand-new work written especially for the Temple of Dendur, with only two announced performances on February 8 and 9, 2027. A+ was explicitly challenged and judged insufficient because the commissioned work and the Temple are one live proposition rather than a normal tour stop; missing both performances means missing the verified premiere context itself. Protect-the-night language is therefore warranted. S+ would overstate the case because two performances are offered and there is no farewell, final appearance, or verified claim that the work can never recur in another form."
+      },
+      "category": "Commissioned premiere / site-specific jazz / Black History Month cultural context",
+      "genres": [
+        "Jazz",
+        "Experimental",
+        "Contemporary music"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Chief Xian aTunde Adjuah"
+      ],
+      "factual_description": "The Metropolitan Museum of Art presents Chief Xian aTunde Adjuah: Sound Carved from Legend on Monday, February 8 and Tuesday, February 9, 2027 at 7:00 PM in Gallery 131, the Temple of Dendur. The Met describes the performance as the premiere of a brand-new work written especially for the Temple of Dendur and, in its 2026-27 season announcement, calls it a newly commissioned project exploring Black, Brown, and Maroon histories in the United States as part of the museum's Black History Month programming. Tickets start at $70; the season announcement lists a $70 ticket price. The verified Met materials do not identify additional live personnel or a detailed instrumentation/repertoire list, so none is inferred here.",
+      "links": {
+        "official_event": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/chief-xian-atunde-adjuah/",
+        "official_tickets": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/chief-xian-atunde-adjuah/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 70,
+          "maximum": 70,
+          "source_url": "https://www.metmuseum.org/press-releases/mla-2026-7-season",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "additional live personnel",
+          "detailed instrumentation/repertoire",
+          "apple_music"
+        ],
+        "note": "The Met verifies both dates, 19:00 start, Temple of Dendur location, premiere/new-commission status, Black History Month context and $70 ticket price. Additional personnel, exact instrumentation, detailed repertoire and a directly relevant Apple Music destination for the new commissioned work are not published in the verified primary materials and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/press-releases/mla-2026-7-season",
+          "publisher": "The Metropolitan Museum of Art",
+          "checked_on": "2026-09-06",
+          "note": "Primary 2026-27 Met Live Arts season announcement verifies February 8-9, 2027 at 7:00 PM in the Temple of Dendur, identifies Sound Carved from Legend as a newly commissioned project, states that it explores Black, Brown, and Maroon histories in the United States during Black History Month, and lists the ticket price as $70."
+        },
+        {
+          "url": "https://www.metmuseum.org/zh/hubs/met-live-arts",
+          "publisher": "The Metropolitan Museum of Art",
+          "checked_on": "2026-09-06",
+          "note": "Current first-party Met Live Arts hub lists Chief Xian aTunde Adjuah: Sound Carved from Legend for Monday February 8 and Tuesday February 9, 2027 at 7:00 PM in Gallery 131, the Temple of Dendur, and explicitly describes it as the premiere of a brand-new work written especially for that space; tickets start at $70."
+        },
+        {
+          "url": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/chief-xian-atunde-adjuah/",
+          "publisher": "The Metropolitan Museum of Art",
+          "checked_on": "2026-09-06",
+          "note": "Exact first-party event/ticket destination linked from The Met's season materials. The event endpoint returned access restrictions to the research client in this pass, so factual claims are anchored to the accessible Met press release and current Met Live Arts hub rather than guessed from an inaccessible page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-met-season-and-live-arts-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts, commission/premiere framing, Temple of Dendur location, dates, time, Black History Month context and ticket price come from The Metropolitan Museum of Art's own current materials. Repository-wide searches for Chief Xian aTunde Adjuah, Sound Carved from Legend and Temple of Dendur found no canonical/curated/processed event before publication. Priority S was assigned only after Stage 1 admission and an explicit second scarcity challenge: the work is written for this space and has two announced performances, making the live context genuinely difficult to reproduce while stopping short of S+ because it is not a farewell or verified one-time-only final opportunity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the kind of commission where the room is part of the composition. Adjuah is premiering new music written specifically for the Temple of Dendur, using the Met's monumental Egyptian space to frame a work about Black, Brown, and Maroon histories in the United States. The attraction is not simply hearing a formidable improviser in a prestigious museum; it is hearing a new piece whose historical argument and physical setting were conceived together.",
+          "trip_verdict": "From the DMV, I would make New York the plan around one of these two nights rather than assume the same work-space encounter will surface later on tour. Choose February 8 or 9 early, then build the rest of the trip around the Met.",
+          "listen_before": "No direct prerequisite is published for the new commission; use Adjuah's recent work as orientation rather than a promised set list."
+        },
+        "es": {
+          "why_it_matters": "Ésta es una de esas comisiones en las que la sala forma parte de la obra. Adjuah estrenará música nueva escrita específicamente para el Templo de Dendur, usando el espacio monumental egipcio del Met para enmarcar una pieza sobre historias negras, brown y cimarronas en Estados Unidos. El atractivo no es simplemente escuchar a un improvisador formidable dentro de un museo prestigioso: es oír una obra nueva cuyo argumento histórico y espacio físico fueron concebidos juntos.",
+          "trip_verdict": "Desde el DMV, sí haría de Nueva York el plan alrededor de una de estas dos noches, en vez de asumir que el mismo encuentro entre obra y espacio aparecerá después en una gira. Escogería pronto el 8 o el 9 de febrero y construiría el resto del viaje alrededor del Met.",
+          "listen_before": "No hay una escucha previa directa publicada para la nueva comisión; usaría la obra reciente de Adjuah como orientación, no como promesa de repertorio."
+        }
+      }
+    }
+  ]
+}
