@@ -1,0 +1,113 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yo-yo-ma-emanuel-ax-philadelphia-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh Yamamoto checks surfaced already-represented September dates, including BODY&SOUL's September 26 grand finale, and no duplicate Yamamoto candidate was created. The broader US-corridor pass found Yo-Yo Ma and Emanuel Ax at Marian Anderson Hall in Philadelphia on December 6, 2026, absent from repository searches for both artists together, the date, the venue, and the proposed stable ID. Stage 1 admits the performance for the specific five-decade cello-piano partnership in a recital setting: the Philadelphia Orchestra's official page explicitly says the orchestra does not appear on the Spotlight Series. Stage 2 assigns A+: this is an unusually strong living-master chamber pairing worth actively making room for, but the same duo is on a multi-city December tour and Emanuel Ax lists the program as TBA, so there is no verified scarcity fact that would justify S. A review of the current September 6 curated intake again shows the recent shape concentrated in A and A+ rather than scarcity tiers, and this A+ adds no S/S+ inflation.",
+  "events": [
+    {
+      "id": "yo-yo-ma-emanuel-ax-marian-anderson-hall-philadelphia-2026-12-06",
+      "artist": "Yo-Yo Ma and Emanuel Ax",
+      "subtitle": "Brodsky Star Spotlight Series",
+      "dates": {
+        "start": "2026-12-06",
+        "end": null
+      },
+      "showtimes": [
+        "14:00"
+      ],
+      "venue": {
+        "id": "marian-anderson-hall-kimmel-center-philadelphia-pa",
+        "name": "Marian Anderson Hall at the Kimmel Center",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US",
+        "address": "300 S Broad St, Philadelphia, PA 19102"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living masters / chamber recital / long-running duo",
+      "genres": [
+        "Classical",
+        "Chamber music"
+      ],
+      "musical_axes": [
+        "Masters"
+      ],
+      "lineup": [
+        "Yo-Yo Ma — cello",
+        "Emanuel Ax — piano"
+      ],
+      "factual_description": "The Philadelphia Orchestra presents Yo-Yo Ma and Emanuel Ax in the Brodsky Star Spotlight Series at Marian Anderson Hall at the Kimmel Center on Sunday, December 6, 2026 at 2:00 PM. The official presenter identifies Ma on cello and Ax on piano, describes them as longtime friends and collaborators with five decades of musical chemistry, and explicitly notes that The Philadelphia Orchestra does not appear on the Spotlight Series. The venue address is 300 S Broad St, Philadelphia, PA 19102. Yo-Yo Ma's official calendar independently confirms the Philadelphia date and billing; Emanuel Ax's official tour page confirms the 2:00 PM Philadelphia stop with Ma and lists the program as TBA. No repertoire, face-value ticket price, or additional performer is inferred.",
+      "links": {
+        "official_event": "https://philorch.ensembleartsphilly.org/philadelphia-orchestra-series-and-subscriptions/spotlight-series/yo-yo-ma-and-emanuel-ax",
+        "official_tickets": "https://philorch.ensembleartsphilly.org/philadelphia-orchestra-series-and-subscriptions/spotlight-series/yo-yo-ma-and-emanuel-ax"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://philorch.ensembleartsphilly.org/philadelphia-orchestra-series-and-subscriptions/spotlight-series/yo-yo-ma-and-emanuel-ax",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "announced_program",
+          "public_face_value",
+          "apple_music"
+        ],
+        "note": "The exact Philadelphia Orchestra/Ensemble Arts page verifies date, 2:00 PM start, venue and address, cello/piano lineup, Spotlight Series context, and the absence of the orchestra from this recital. Yo-Yo Ma's official calendar independently confirms the Philadelphia billing, and Emanuel Ax's official tour page confirms the stop and states Program TBA. The official presenter page exposes a Buy Tickets action but not a stable public face-value range in the accessible page text, so no price is asserted. No exact Apple Music recommendation is supplied without an announced program."
+      },
+      "sources": [
+        {
+          "url": "https://philorch.ensembleartsphilly.org/philadelphia-orchestra-series-and-subscriptions/spotlight-series/yo-yo-ma-and-emanuel-ax",
+          "publisher": "The Philadelphia Orchestra / Ensemble Arts Philly",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page verifies December 6, 2026 at 2:00 PM, Marian Anderson Hall at the Kimmel Center, 300 S Broad St, Ma on cello, Ax on piano, their five-decade collaboration, and that The Philadelphia Orchestra does not perform on the Spotlight Series."
+        },
+        {
+          "url": "https://www.yo-yoma.com/events-archive/2026-12-06-philadelphia/",
+          "publisher": "Yo-Yo Ma",
+          "checked_on": "2026-09-06",
+          "note": "Official artist calendar independently confirms December 6, 2026 in Philadelphia billed as Yo-Yo Ma and Emanuel Ax and links to the official Philadelphia presenter."
+        },
+        {
+          "url": "https://emanuelax.com/tour/",
+          "publisher": "Emanuel Ax",
+          "checked_on": "2026-09-06",
+          "note": "Official artist tour page verifies December 6, 2026 at 2:00 PM at the Kimmel Center, with Yo-Yo Ma, and explicitly lists Program TBA."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-both-artist-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core factual details come from the exact Philadelphia Orchestra/Ensemble Arts page and are independently corroborated by both artists' official calendars. Repository searches for the duo, date, venue and stable ID returned no matching RADAR record before publication. The program and face-value price remain unasserted because the primary sources do not currently publish them in accessible text."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The point is the partnership, not star power in the abstract: Ma and Ax bring five decades of cello-piano chemistry into a recital where there is no orchestra to widen the frame. That puts touch, timing, phrasing, and the accumulated language between two living masters at the center of the afternoon.",
+          "trip_verdict": "Philadelphia is close enough to make this a purposeful day trip from the DMV if hearing this duo matters. Build the afternoon around Marian Anderson Hall rather than chasing another city on the tour; the same partnership has several December stops, so the geography should work for you.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La razón es la sociedad musical, no la fama en abstracto: Ma y Ax llevan cinco décadas construyendo un lenguaje de cello y piano, y aquí no hay orquesta que ensanche el cuadro. La tarde pone en primer plano el toque, el fraseo, el tiempo compartido y todo lo que dos maestros vivos han acumulado tocando juntos.",
+          "trip_verdict": "Filadelfia está lo bastante cerca para justificar un viaje de día desde el DMV si importa escuchar a este dúo. Armaría la tarde alrededor de Marian Anderson Hall en vez de perseguir otra ciudad de la gira; hay varias paradas en diciembre, así que conviene que la geografía juegue a favor.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
