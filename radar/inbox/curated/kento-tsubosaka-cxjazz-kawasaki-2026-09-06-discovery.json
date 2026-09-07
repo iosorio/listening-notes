@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kento-tsubosaka-cxjazz-kawasaki-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication. Fresh checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; surfaced Yamamoto dates were already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. Broader Greater Tokyo/Kanto research surfaced C × JAZZ Vol.2: Kento Tsubosaka × George Gershwin, a four-stop Kanagawa project built around a solo Gershwin first half and a piano-plus-string-quartet second half that includes a newly commissioned Kento Tsubosaka work. Repository searches for Kento Tsubosaka, 壷阪健登, C×JAZZ, and the Kawasaki venue returned no existing RADAR representation before publication. Stage 1 admits the December 13 Kawasaki performance because the concrete live proposition is the collision of Tsubosaka's jazz-improvising/composing identity with Gershwin's classical-jazz language, a specifically commissioned new piano-quintet work, and a string quartet of named young Japanese players; the Kawasaki date also sits in cooperation with Kawasaki Jazz 2026. Stage 2 assigns A+: actively make room for this program within Greater Tokyo/Kanto. S was explicitly challenged and rejected because the same announced program and ensemble tour four Kanagawa venues on December 4, 5, 12 and 13, so the commissioned work is new but this particular performance is not scarce enough for protect-the-night treatment. A scan of the current September 6 intake remains weighted toward A/A+ with isolated S assignments; this batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not make scarcity tiers more common.",
+  "events": [
+    {
+      "id": "kento-tsubosaka-cxjazz-shinyuri-kawasaki-2026-12-13",
+      "artist": "Kento Tsubosaka",
+      "subtitle": "C × JAZZ Vol.2 — Kento Tsubosaka × George Gershwin",
+      "dates": {
+        "start": "2026-12-13",
+        "end": null
+      },
+      "showtimes": [
+        "15:00"
+      ],
+      "venue": {
+        "id": "shinyuri-twenty-one-hall-kawasaki",
+        "name": "新百合トウェンティワンホール",
+        "city": "Kawasaki",
+        "state": "Kanagawa",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Commissioned chamber-jazz / Gershwin reimagining",
+      "genres": [
+        "Jazz",
+        "Classical",
+        "Contemporary music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Improvised",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Kento Tsubosaka — piano, composition",
+        "Honoka Kishimoto — 1st violin",
+        "Shuga Hayashi — 2nd violin",
+        "Kei Tojo — viola",
+        "Anri Tsukiji — cello"
+      ],
+      "factual_description": "Kanagawa Kenmin Hall presents C × JAZZ Vol.2: Kento Tsubosaka × George Gershwin at Shinyuri Twenty One Hall in Kawasaki on Sunday, December 13, 2026, with a 3:00 PM start and 2:30 PM doors. The first half is solo piano and lists Gershwin repertoire including Jasbo Brown Blues from Porgy and Bess, Fascinating Rhythm, Three Preludes, Someone to Watch Over Me, Rialto Ripples and Rhapsody in Blue. The second half adds a string quartet for the first movement of Gershwin's Piano Concerto in F, They Can't Take That Away from Me, I Got Rhythm and a new Kento Tsubosaka work commissioned by Kanagawa Kenmin Hall. The announced quartet is Honoka Kishimoto, Shuga Hayashi, Kei Tojo and Anri Tsukiji. The Kawasaki performance is the fourth announced stop of a Kanagawa tour also visiting Zama on December 4, Kamakura on December 5 and Kaisei on December 12, and is presented with cooperation from Kawasaki Jazz 2026. Reserved-seat face values are ¥3,000 general and ¥500 for U24. General sale begins September 12; KAme member presale runs August 22 through September 11.",
+      "links": {
+        "official_event": "https://www.kanagawa-kenminhall.com/d/jazz2026",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 500,
+          "maximum": 3000,
+          "source_url": "https://www.kanagawa-kenminhall.com/d/jazz2026",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kento Tsubosaka",
+          "title": "Lines",
+          "kind": "album"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The presenter verifies the exact Kawasaki date, doors/start time, venue, complete announced personnel, program, commissioned new work, Kawasaki Jazz cooperation, tour context and face values. Its purchase link resolves to the general Ticket Kanagawa account/purchase portal rather than a stable event-specific transactional destination, so official_tickets remains null. The artist's official site verifies Lines as a 2026 album, but no exact Apple Music destination was independently verified in this pass."
+      },
+      "sources": [
+        {
+          "url": "https://www.kanagawa-kenminhall.com/d/jazz2026",
+          "publisher": "Kanagawa Kenmin Hall / Kanagawa Arts Foundation",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page verifies the four-stop December 2026 Kanagawa tour, December 13 Kawasaki performance at 15:00 with 14:30 doors, Shinyuri Twenty One Hall, complete named personnel, detailed Gershwin program, the new Kento Tsubosaka work commissioned by Kanagawa Kenmin Hall, Kawasaki Jazz 2026 cooperation, ¥3,000 general and ¥500 U24 prices, and sale dates."
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000046.000140377.html",
+          "publisher": "Kanagawa Arts Foundation / Kanagawa Kenmin Hall via PR TIMES",
+          "checked_on": "2026-09-06",
+          "note": "Primary institutional press release independently describes the C × JAZZ concept, confirms Tsubosaka with the four named string players, identifies the new piano-quintet work as commissioned for this tour, and provides the same four dates, venues, repertoire and ticket values."
+        },
+        {
+          "url": "https://shinyuri21hall.jp/junnro/",
+          "publisher": "Shinyuri Twenty One Hall",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue page verifies the venue identity and address in Asao-ku, Kawasaki, Kanagawa, two minutes from Shin-Yurigaoka Station."
+        },
+        {
+          "url": "https://kentotsubosaka.com/en/news/new-release20260218/",
+          "publisher": "Kento Tsubosaka official site",
+          "checked_on": "2026-09-06",
+          "note": "Official artist page verifies the February 18, 2026 album Lines, produced by Makoto Ozone and recorded as a piano trio in New York; used only as a contextual recommended-listening reference, not as evidence of concert repertoire."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-venue-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository-wide searches for Kento Tsubosaka, 壷阪健登, C×JAZZ and Shinyuri Twenty One Hall found no canonical, curated or processed representation before publication. Stage 1 admission is grounded in the specific Gershwin-to-new-commission architecture and named piano/string lineup, not in genre or prestige. Priority A+ was assigned after admission: this is a program worth actively making room for within Kanto, while the verified four-stop Kanagawa run defeats an S-level scarcity claim. No event-specific ticket destination, Apple Music URL, unannounced repertoire, personnel, encore or resale price was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The shape of the program is the hook. Tsubosaka starts alone with Gershwin, including Rhapsody in Blue, then changes the acoustic problem completely by bringing in a string quartet for the second half and ending the written program with his own newly commissioned work. That makes the evening a live argument about where Gershwin's jazz-classical vocabulary can lead a young Japanese improviser-composer now, rather than a respectful standards recital.",
+          "trip_verdict": "If you are in Greater Tokyo/Kanto in mid-December, make room for the Kawasaki afternoon and use Shin-Yurigaoka as the anchor. The same ensemble and program have three earlier Kanagawa stops, so there is no need to chase another city unless December 13 does not fit.",
+          "listen_before": "Kento Tsubosaka — Lines"
+        },
+        "es": {
+          "why_it_matters": "La forma del programa es el gancho. Tsubosaka empieza solo con Gershwin, incluida Rhapsody in Blue, y después cambia por completo el problema acústico al sumar un cuarteto de cuerdas en la segunda mitad y cerrar el programa escrito con una obra nueva comisionada a él. La noche se vuelve así un argumento en vivo sobre hasta dónde puede llevar hoy el vocabulario jazz-clásico de Gershwin a un joven improvisador y compositor japonés, no un recital respetuoso de estándares.",
+          "trip_verdict": "Si estás en el área metropolitana de Tokio/Kanto a mediados de diciembre, haría espacio para la tarde de Kawasaki y usaría Shin-Yurigaoka como ancla. El mismo ensamble y programa tiene tres paradas previas en Kanagawa, así que no hace falta perseguir otra ciudad salvo que el 13 de diciembre no te funcione.",
+          "listen_before": "Kento Tsubosaka — Lines"
+        }
+      }
+    }
+  ]
+}
