@@ -1,0 +1,128 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kiefer-memory-bomb-songbyrd-dc-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before any web research or grading; docs/DATA_MODEL.md was also checked before publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources. The future Yamamoto appearances surfaced in this pass were already represented in canonical, curated, or processed intake, including BODY&SOUL's September 26 Final Groove and the current ALFIE/Keystone/Yokohama/Space M&A dates, so no duplicate Yamamoto event was created. Broader US-corridor research surfaced Kiefer with Shibo at Songbyrd Music House on October 3. Repository searches for Kiefer, Shibo, Songbyrd, the October 3 date, and the proposed event identity returned no existing RADAR representation before publication. Stage 1 admits this performance for a specific live reason: it falls eight days after Kiefer's Blue Note leader debut Memory Bomb, whose jazz-improvisation/hip-hop language was co-produced with Shibo, and Songbyrd places Shibo on the same bill as the supporting act. The editorial reason is the record-to-room relationship and Kiefer's instrumental/rhythmic identity, not label prestige or a generic claim that the artist is excellent. Stage 2 assigns A+: this is a local date actively worth making room for because the new-record moment and Kiefer/Shibo connection give the bill unusual coherence. A would understate that local recommendation. S is not warranted: Blue Note documents a multi-city North American tour, with New York the previous night and several dates afterward, and no farewell, premiere, one-off lineup, or other scarcity fact is verified. Recent/current intake remains centered on A and A+ with scarcity tiers rare; this batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "kiefer-shibo-songbyrd-washington-dc-2026-10-03",
+      "artist": "Kiefer",
+      "subtitle": "Memory Bomb tour — with Shibo",
+      "dates": {
+        "start": "2026-10-03",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "songbyrd-music-house-washington-dc",
+        "name": "Songbyrd Music House",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US",
+        "address": "540 Penn Street NE, Washington, DC"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz / hip-hop / Blue Note debut tour",
+      "genres": [
+        "Jazz",
+        "Hip-hop",
+        "Alternative"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Groove"
+      ],
+      "lineup": [
+        "Kiefer — headliner",
+        "Shibo — supporting act"
+      ],
+      "factual_description": "Songbyrd Music House presents Kiefer with Shibo on Saturday, October 3, 2026 at 540 Penn Street NE in Washington, DC. The venue lists doors at 7:00 PM and also displays 7:00 PM in its date-and-time field; because it does not distinguish a separate performance start, no showtime is inferred. Songbyrd identifies Shibo as the supporting act and lists $25 / $28 ticket prices. Blue Note Records independently confirms the October 3 Songbyrd date as part of Kiefer's fall North American tour and identifies Memory Bomb, due September 25, 2026, as Kiefer's solo leader debut for Blue Note. Blue Note says Kiefer produced the album with longtime collaborators Shibo and CARRTOONS and describes the project as a meeting point between jazz improvisation and hip-hop beat-making. Apple Music exposes an exact pre-release page for the 13-song Memory Bomb album dated September 25, 2026. No complete touring personnel or distinct performance start is currently published for the Songbyrd date, so neither is invented.",
+      "links": {
+        "official_event": "https://songbyrddc.com/event/kiefer/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 28,
+          "source_url": "https://songbyrddc.com/event/kiefer/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kiefer",
+          "title": "Memory Bomb",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/memory-bomb/6789770938"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "performance_start",
+          "complete_live_personnel"
+        ],
+        "note": "The exact Songbyrd event, date, doors, supporting billing and face-value range are verified, as are the Blue Note tour/date and Memory Bomb release context plus an exact Apple Music album destination. Songbyrd links to authorized DICE ticketing, but the stable event-specific DICE destination was not exposed reliably in this research pass, so official_tickets remains null rather than inferred. A distinct performance start and complete touring personnel are also not published on the primary event page."
+      },
+      "sources": [
+        {
+          "url": "https://songbyrddc.com/event/kiefer/",
+          "publisher": "Songbyrd Music House",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue page verifies Saturday, October 3, 2026, Songbyrd Music House at 540 Penn Street NE, Kiefer with Shibo, Shibo as supporting act, 7:00 PM doors, $25 / $28 prices, and the Memory Bomb / Over The Breaks context."
+        },
+        {
+          "url": "https://www.bluenote.com/kiefer-announces-fall-north-american-tour-dates/",
+          "publisher": "Blue Note Records",
+          "checked_on": "2026-09-07",
+          "note": "Primary label source independently verifies Kiefer's fall North American tour and the October 3 Songbyrd Music House date in Washington, DC."
+        },
+        {
+          "url": "https://www.bluenote.com/kiefer-announces-blue-note-debut-memory-bomb/",
+          "publisher": "Blue Note Records",
+          "checked_on": "2026-09-07",
+          "note": "Primary label source verifies Memory Bomb as Kiefer's September 25, 2026 solo Blue Note debut, produced with Shibo and CARRTOONS, and documents the album's jazz-improvisation / hip-hop collaboration context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/memory-bomb/6789770938",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music destination verifies the Memory Bomb pre-release page, Kiefer attribution, September 25, 2026 date and 13-song album identity; used as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository searches found no Kiefer/Shibo Songbyrd October 3 representation before publication. Core event facts come from Songbyrd and are independently corroborated by Blue Note's tour announcement; the record context comes from Blue Note and the exact Apple Music album page. Stage 1 admission is grounded in the specific record-to-room relationship, instrumental identity and same-bill connection to co-producer Shibo. Priority was assigned only after admission. A+ reflects a local date worth actively making room for; a broad multi-city tour and the absence of a farewell, premiere or one-off lineup rule out a scarcity tier. No distinct showtime, unannounced touring personnel, ticket destination or resale information was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This lands at a useful point between record and room: eight days after Memory Bomb, Kiefer brings the piano, improvisation and beat-making language he calls Over The Breaks to Songbyrd, with Shibo — the bassist-producer who co-produced the album — opening. The draw is not the Blue Note logo by itself; it is hearing jazz harmony reorganized around hip-hop rhythm while one of the record's closest collaborators is on the same bill.",
+          "trip_verdict": "If October 3 is open in DC, I would make room for Songbyrd and build the evening around it. There is no reason to chase another city on the same tour.",
+          "listen_before": "Kiefer — Memory Bomb"
+        },
+        "es": {
+          "why_it_matters": "Esta fecha cae en un punto muy bueno entre disco y escenario: ocho días después de Memory Bomb, Kiefer lleva a Songbyrd ese lenguaje de piano, improvisación y beatmaking que llama Over The Breaks, con Shibo — bajista, productor y coproductor del álbum — abriendo. La razón no es el logo de Blue Note, sino escuchar cómo la armonía del jazz se reorganiza alrededor del ritmo del hip-hop con uno de los colaboradores más cercanos del disco en la misma cartelera.",
+          "trip_verdict": "Si el 3 de octubre está libre en DC, sí le haría espacio y armaría la noche alrededor de Songbyrd. No hace falta perseguir otra ciudad de la misma gira.",
+          "listen_before": "Kiefer — Memory Bomb"
+        }
+      }
+    }
+  ]
+}
