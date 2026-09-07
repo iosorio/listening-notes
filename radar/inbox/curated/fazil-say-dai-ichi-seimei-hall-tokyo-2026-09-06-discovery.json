@@ -1,0 +1,118 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "fazil-say-dai-ichi-seimei-hall-tokyo-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. The October 3 Kawasaki Plaza Afternoon Jazz FINAL and other verified Yamamoto appearances surfaced again but were already represented in canonical/curated/processed intake, so no duplicate was created. A broader Greater Tokyo scan surfaced Fazıl Say at Dai-ichi Life Hall on October 13, 2026. Repository-wide searches for Fazıl Say, ファジル・サイ, Goldberg + Black Earth + Dai-ichi Life Hall, and the exact Tokyo date returned no existing RADAR representation before publication. Stage 1 admits the performance because the specific solo program places Bach's Goldberg Variations, Mozart's Piano Sonata No. 11 with the Turkish March, and Say's own Black Earth in the same recital, making his identity as both interpreter and composer the concrete live reason rather than fame or venue prestige. Stage 2 assigns A+: this is strong enough to actively make room for during a Tokyo stay, but the same announced program is part of a three-city Japan run in Nagoya, Tokyo, and Osaka, with no verified farewell, premiere, final appearance, or one-off scarcity that would make A+ insufficient. Recent/current RADAR intake was checked as a priority-shape sanity check; this batch adds A 0 / A+ 1 / S 0 / S+ 0, and no S/S+ priority_review is required.",
+  "events": [
+    {
+      "id": "fazil-say-dai-ichi-life-hall-tokyo-2026-10-13",
+      "artist": "Fazıl Say",
+      "subtitle": "Goldberg Variations × Turkish March × Black Earth",
+      "dates": {
+        "start": "2026-10-13",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "dai-ichi-life-hall-chuo-tokyo",
+        "name": "Dai-ichi Life Hall",
+        "city": "Chuo, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Solo piano recital / composer-performer / Bach–Mozart–Say program",
+      "genres": [
+        "Classical",
+        "Contemporary classical"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Fazıl Say — piano"
+      ],
+      "factual_description": "Dai-ichi Life Hall and the official Ticketspace presentation list Fazıl Say in a solo recital on Tuesday, October 13, 2026, with doors at 6:30 PM and the performance at 7:00 PM. The announced program is J.S. Bach's Goldberg Variations, Mozart's Piano Sonata No. 11 in A major with the Turkish March, Fazıl Say's Black Earth, and additional material to be announced. The official face value is ¥12,000 for reserved seating. Warner Music Japan's current announcement independently confirms the Tokyo date, time, venue and program, and identifies it as the middle stop of a three-city Japan sequence: Nagoya on October 12, Tokyo on October 13, and Osaka on October 14. No unannounced repertoire, encore material, or additional performer is inferred.",
+      "links": {
+        "official_event": "https://avex.jp/classics/fazilsay2026/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 12000,
+          "maximum": 12000,
+          "source_url": "https://www.ints.co.jp/fazilsay2026.html",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact date, doors, start time, solo performer, program and ¥12,000 face value are verified by the current first-party venue and promoter pages. Avex Classics provides the official event landing page, while Warner Music Japan independently confirms the three-city Japan itinerary and announced repertoire. A separate stable transactional ticket destination and exact Apple Music URL were not recorded because they were not independently verified in this pass."
+      },
+      "sources": [
+        {
+          "url": "https://www.dai-ichi-seimei-hall.jp/schedule/?month=10&y=2026",
+          "publisher": "Dai-ichi Life Hall",
+          "checked_on": "2026-09-06",
+          "note": "Primary venue calendar verifies October 13, 2026, 18:30 doors, 19:00 start, Fazıl Say as solo pianist, the announced Bach/Mozart/Say program, ¥12,000 reserved-seat face value, and Ticketspace as the contact."
+        },
+        {
+          "url": "https://www.ints.co.jp/fazilsay2026.html",
+          "publisher": "Ticketspace",
+          "checked_on": "2026-09-06",
+          "note": "Official promoter page independently verifies the Tokyo date, 18:30 doors, 19:00 start, Dai-ichi Life Hall, ¥12,000 price, solo billing and announced program."
+        },
+        {
+          "url": "https://wmg.jp/fazil-say/news/90949",
+          "publisher": "Warner Music Japan",
+          "checked_on": "2026-09-06",
+          "note": "Artist-label announcement confirms the October 12 Nagoya, October 13 Tokyo and October 14 Osaka Japan dates and the shared Goldberg Variations / Mozart Sonata No. 11 / Black Earth program."
+        },
+        {
+          "url": "https://avex.jp/classics/fazilsay2026/",
+          "publisher": "Avex Classics",
+          "checked_on": "2026-09-06",
+          "note": "Official Japanese event landing page for the Fazıl Say Goldberg × Turkish March × Black Earth tour; used as the stable official_event destination."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-promoter-label-and-official-event-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Fazıl Say, the Japanese billing, the Dai-ichi Life Hall program and the exact Tokyo date found no canonical, curated or processed representation before publication. Performance facts are grounded in the first-party venue and promoter pages and corroborated by the artist-label announcement. Priority A+ was assigned only after Stage 1 admission: the specific repertoire makes the recital unusually compelling, while the verified three-city Japan run means no scarcity claim was manufactured. No purchase URL, Apple Music ID, extra repertoire, additional performer or resale price was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The program is the reason to stop here. Say puts the Goldberg Variations, Mozart's Turkish March sonata and his own Black Earth into one solo recital, so the evening can move directly between his work as an interpreter and his voice as a composer. With nothing but the piano carrying that contrast, touch, architecture and personality become the whole argument rather than decoration around a famous name.",
+          "trip_verdict": "If October 13 overlaps a Tokyo stay, actively make room and build the evening around Dai-ichi Life Hall. There is no reason to chase the neighboring Nagoya or Osaka dates: Tokyo carries the same announced program.",
+          "listen_before": "Fazıl Say — Black Earth"
+        },
+        "es": {
+          "why_it_matters": "El programa es la razón para detenerse aquí. Say pone en un mismo recital las Variaciones Goldberg, la sonata de Mozart con la Marcha turca y su propio Black Earth, de modo que la noche puede pasar directamente entre su trabajo como intérprete y su voz como compositor. Con el piano solo sosteniendo ese contraste, el toque, la arquitectura y la personalidad son el argumento completo, no el adorno alrededor de un nombre famoso.",
+          "trip_verdict": "Si el 13 de octubre coincide con una estancia en Tokio, sí le haría espacio y armaría la noche alrededor de Dai-ichi Life Hall. No tiene sentido perseguir las fechas vecinas de Nagoya u Osaka: Tokio lleva el mismo programa anunciado.",
+          "listen_before": "Fazıl Say — Black Earth"
+        }
+      }
+    }
+  ]
+}
