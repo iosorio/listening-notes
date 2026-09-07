@@ -1,0 +1,127 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "lau-noah-a-decade-of-miracles-national-sawdust-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces and credible Japanese-jazz sources; verified dates encountered were already represented and were not duplicated. Repository searches for Lau Noah, A Decade of Miracles, the October 11 National Sawdust billing and the stable event ID returned no canonical/curated/processed representation. Stage 1 admits the October 11 performance because it is a specific public introduction to Noah's next project, built around a strict oral-transmission method: music is created, passed on and recorded by ear and memory without notation and explicitly without improvisation, and the evening combines a short film, an early listening and live performance. Stage 2 assigns A. The project concept is distinctive and worth catching if convenient in New York, but the available evidence does not establish a farewell, terminal performance, major-master scarcity or another context that warrants active trip reshuffling. Recent same-day curated intake was rechecked as a priority-shape sanity check; it contains many A+ discoveries and a smaller set of A/S decisions, so this event was specifically challenged against A+ and remains A on its own merits rather than being elevated by project-premiere language. This batch adds A 1 / A+ 0 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "lau-noah-a-decade-of-miracles-national-sawdust-new-york-2026-10-11",
+      "artist": "Lau Noah",
+      "subtitle": "A Decade of Miracles — A Folk Opera in Defense of Human Art",
+      "dates": {
+        "start": "2026-10-11",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-new-york",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "cross-genre folk opera / oral tradition / work-in-progress presentation",
+      "genres": [
+        "Folk",
+        "Contemporary classical",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Cross-genre",
+        "Cultural context",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Lau Noah — artist; live performance announced; event-specific instruments and additional performing personnel not yet specified"
+      ],
+      "factual_description": "National Sawdust presents Lau Noah's A Decade of Miracles — A Folk Opera in Defense of Human Art on Sunday, October 11, 2026 at 7:30 PM, with doors at 6:30 PM, at 80 North 6th Street in Brooklyn, New York. National Sawdust describes the evening as an introduction to Noah's next project, bringing classical, jazz and folk musicians together through oral tradition. The project rule is unusually explicit: music is created, passed on and recorded through human ear, memory and skill without being written down, while also not being improvised. The announced presentation includes a short film, an early listening to songs from the record and a live performance. The primary page does not yet identify additional live personnel or event-specific instruments, so none are inferred. National Sawdust links to an event-specific AudienceView/OvationTix purchase page but the accessible source does not expose a stable numeric face-value range, so price remains unrecorded.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/lau-noahs-a-decade-of-miracles---a-folk-opera-in-defense-of-human-art",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280499"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1280499",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Lau Noah",
+          "title": "If a tree falls in love with a river (feat. Jacob Collier)",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/song/1724882178"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "event_specific_price",
+          "complete_live_lineup"
+        ],
+        "note": "National Sawdust supplies the exact primary event page, date, showtime, doors, venue address, project premise and event-specific ticket destination. The event page does not name additional performing personnel, event-specific instruments or a numeric face-value range, so those fields are not invented. Lau Noah's current artist biography independently describes oral tradition and ear-based learning as central to her practice. An exact Apple Music track destination is included as listening context rather than as evidence for the October 11 performance."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/lau-noahs-a-decade-of-miracles---a-folk-opera-in-defense-of-human-art",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page verifies October 11, 2026 at 7:30 PM; 6:30 PM doors; National Sawdust's Brooklyn address; the A Decade of Miracles subtitle; the oral-transmission/no-notation/non-improvised project rule; and the announced short film, early listening and live performance. The page simultaneously carries a stale 'This event has passed' CMS string and an UPCOMING label; the explicit future October 11, 2026 date and active ticket link are retained as the event facts."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280499",
+          "publisher": "AudienceView Professional / National Sawdust ticket destination",
+          "checked_on": "2026-09-06",
+          "note": "Event-specific purchase destination reached directly from National Sawdust's BUY TICKETS link. No numeric face-value range was reliably exposed in the accessible source."
+        },
+        {
+          "url": "https://www.launoahmusic.com/about",
+          "publisher": "Lau Noah",
+          "checked_on": "2026-09-06",
+          "note": "Official artist biography corroborates Noah's advocacy of oral tradition, her practice of learning and teaching music by ear, and that her upcoming project is a folk opera in defense of human art. It is used for artist/project context, not for unannounced October 11 lineup claims."
+        },
+        {
+          "url": "https://music.apple.com/us/song/1724882178",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-06",
+          "note": "Exact Apple Music destination verifies Lau Noah's If a tree falls in love with a river (feat. Jacob Collier), associated with A Dos."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ticket-artist-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Lau Noah, A Decade of Miracles, the October 11 National Sawdust billing and the stable event ID found no canonical/curated/processed representation before publication. Core event facts come from National Sawdust and its linked event-specific ticket destination; artist practice is corroborated by Noah's official biography. No ticket price, additional live performer, event-specific instrument, premiere claim or source URL was invented. Priority was assigned only after Stage 1 admission. The A+ alternative was challenged because the project presentation is unusual, but the evidence supports useful-to-know/attend-if-convenient treatment rather than a stronger active-prioritization instruction.",
+        "reviewed_on": "2026-09-06"
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not simply Noah's songwriting; it is the method. The new folk-opera project treats ear, memory and oral transmission as compositional infrastructure, with the unusual constraint that the music is neither notated nor improvised. Folding a short film, an early listen and a live performance into one evening makes this a first public look at how that idea becomes music rather than a routine tour stop.",
+          "trip_verdict": "If you are already in New York and Sunday evening is open, this is worth the Williamsburg detour. I would not build a dedicated DMV-to-New York trip around it alone, but it is a strong choice for an otherwise flexible Brooklyn night.",
+          "listen_before": "Lau Noah — If a tree falls in love with a river (feat. Jacob Collier)"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente la escritura de Noah, sino el método. El nuevo proyecto de folk opera convierte el oído, la memoria y la transmisión oral en infraestructura compositiva, con una regla poco común: la música no se escribe y tampoco se improvisa. Juntar en una sola noche un cortometraje, una primera escucha y una presentación en vivo permite asomarse a cómo esa idea se vuelve música, en lugar de tratarse de otra parada normal de gira.",
+          "trip_verdict": "Si ya estás en Nueva York y tienes libre el domingo por la noche, sí vale el desvío a Williamsburg. No armaría un viaje dedicado desde el DMV únicamente por esta fecha, pero es una muy buena elección para una noche abierta en Brooklyn.",
+          "listen_before": "Lau Noah — If a tree falls in love with a river (feat. Jacob Collier)"
+        }
+      }
+    }
+  ]
+}
