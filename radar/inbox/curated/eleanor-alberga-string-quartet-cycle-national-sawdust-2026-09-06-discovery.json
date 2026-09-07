@@ -1,0 +1,133 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "eleanor-alberga-string-quartet-cycle-national-sawdust-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A/current schedule traces, and credible Japanese-jazz sources did not establish an additional verified unrecorded Yamamoto performance suitable for publication; already represented dates were not duplicated. Stage 1 admits Eleanor Alberga: The String Quartet Cycle at National Sawdust because the specific live proposition is unusually coherent: The Green Room Ensemble performs all three Alberga string quartets and expands to Piano Quintet No. 2 'Stark' with Alberga herself at the piano, placing a living composer's chamber language across several works in one sitting. Stage 2 assigns A+. This is actively worth making room for if New York is in play, but the scarcity challenge finds A+ sufficient: primary artist/presenter sources document the same ensemble and program on a North American tour available October 23 through November 1, with performances before and after Brooklyn. National Sawdust and several tour pages repeat U.S.-premiere/world-premiere language, but Brannan Center documents the same program on October 23; the Brooklyn record therefore does not treat that copied premiere wording as proof that October 30 itself is a singular first performance. The batch adds A 0 / A+ 1 / S 0 / S+ 0, consistent with the current broad-A / narrower-A+ / rare-S / exceptional-S+ editorial shape.",
+  "events": [
+    {
+      "id": "eleanor-alberga-green-room-ensemble-national-sawdust-brooklyn-2026-10-30",
+      "artist": "Eleanor Alberga & The Green Room Ensemble",
+      "subtitle": "The String Quartet Cycle — with support from Solaris",
+      "dates": {
+        "start": "2026-10-30",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "composer-led chamber cycle / contemporary classical",
+      "genres": [
+        "Contemporary classical",
+        "Chamber music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Eleanor Alberga — piano, composer",
+        "Thomas Bowes — violin",
+        "Nathan Meltzer — violin",
+        "Jordan Bak — viola",
+        "Sterling Elliott — cello",
+        "Solaris — support; individual performers not named on the primary event page"
+      ],
+      "factual_description": "National Sawdust presents Eleanor Alberga: The String Quartet Cycle with support from Solaris on Friday, October 30, 2026. Doors are at 18:30 and the seated performance begins at 19:30 at 80 North 6th St, Brooklyn. The Green Room Ensemble program centers on Alberga's String Quartets Nos. 1, 2 and 3 and Piano Quintet No. 2 'Stark,' with Alberga at the piano alongside Thomas Bowes and Nathan Meltzer on violins, Jordan Bak on viola, and Sterling Elliott on cello. National Sawdust describes the project using U.S.-premiere-cycle and world-premiere language. Primary tour and performer sources, however, document the same ensemble and program at multiple North American dates from October 23 through November 1, including an October 23 Brannan Center performance that uses the same premiere framing. This record therefore preserves the program and project context without asserting that the October 30 Brooklyn performance itself is the chronological world or U.S. premiere. National Sawdust's page also contains a stale 'This event has passed' line while labeling the event UPCOMING and listing it on the current future performances calendar.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/eleanor-alberga-the-string-quartet-cycle",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280505"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1280505",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "National Sawdust supplies the exact event page and authorized AudienceView ticket destination. The exact face-value price was not exposed in the checked primary text and remains null. No Apple Music album or track URL is inferred. Core personnel are independently confirmed by artist and performer schedules; Solaris is verified as support, but its individual performers are not named and are not invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/eleanor-alberga-the-string-quartet-cycle",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page verifies October 30, 2026; 18:30 doors; 19:30 seated performance; National Sawdust address; Eleanor Alberga / Green Room Ensemble project framing; Solaris support; and the authorized ticket link. The page contains stale 'event has passed' text but also labels the event UPCOMING."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280505",
+          "publisher": "AudienceView Professional / OvationTix",
+          "checked_on": "2026-09-06",
+          "note": "Authorized purchase destination linked directly from National Sawdust's exact event page."
+        },
+        {
+          "url": "https://www.concertartists.org/nathan-meltzer",
+          "publisher": "Concert Artists Guild",
+          "checked_on": "2026-09-06",
+          "note": "Official artist-management profile confirms The Green Room Ensemble's Eleanor Alberga String Quartet Cycle collaboration, the personnel, and North American tour availability from October 23 through November 1, 2026."
+        },
+        {
+          "url": "https://www.brannancenter.org/events/eleanor-alberga-the-green-room-ensemble",
+          "publisher": "Brannan Center",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page verifies an October 23, 2026 performance of the same quartet-cycle/Piano Quintet No. 2 program with the same musicians and uses the same U.S.-premiere/world-premiere framing, establishing that Brooklyn is part of a multi-date tour rather than sufficient evidence of a singular October 30 premiere."
+        },
+        {
+          "url": "https://jordanbak.com/schedule/2026/10/30/national-sawdust-eleanor-alberga-amp-the-green-room-ensemble",
+          "publisher": "Jordan Bak",
+          "checked_on": "2026-09-06",
+          "note": "Official performer schedule independently confirms the October 30 National Sawdust date, 19:30 start, venue address, and project billing."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-performer-and-authorized-ticket-sources",
+        "note": "Core facts are verified from National Sawdust, the authorized AudienceView destination, Concert Artists Guild, Brannan Center, and Jordan Bak's official schedule. Repository searches for Eleanor Alberga, Green Room Ensemble, the exact stable ID, and the National Sawdust date found no matching RADAR event before publication. Priority A+ was assigned only after Stage 1 admission. The scarcity challenge explicitly asked whether A+ still captures the recommendation despite premiere language; it does, because the same ensemble and program tour several North American cities between October 23 and November 1 and copied premiere wording cannot establish October 30 as a singular first or last opportunity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is hearing Alberga's chamber language as a body of work rather than a single piece: all three string quartets in one program, then the sound widened into a piano quintet with the composer herself at the keyboard. That makes the night a concentrated encounter with a living composer's instrumental voice, not a generic chamber recital.",
+          "trip_verdict": "If New York is already viable on October 30, actively make room for National Sawdust and build the Brooklyn evening around the cycle. From the DMV, pair it with another strong New York reason rather than make a dedicated trip for this date alone, especially because the same project is touring several North American cities.",
+          "listen_before": "Eleanor Alberga — String Quartets"
+        },
+        "es": {
+          "why_it_matters": "La clave es escuchar el lenguaje de cámara de Alberga como un cuerpo de obra y no como una pieza aislada: los tres cuartetos de cuerda en un mismo programa y, después, la expansión hacia el quinteto con piano con la propia compositora al teclado. Eso convierte la noche en un encuentro concentrado con la identidad instrumental de una compositora viva, no en un recital de cámara genérico.",
+          "trip_verdict": "Si Nueva York ya es viable el 30 de octubre, sí le haría espacio activamente a National Sawdust y armaría la noche en Brooklyn alrededor del ciclo. Desde el DMV lo combinaría con otra razón fuerte para subir, en vez de hacer un viaje dedicado únicamente por esta fecha, sobre todo porque el mismo proyecto recorre varias ciudades de Norteamérica.",
+          "listen_before": "Eleanor Alberga — String Quartets"
+        }
+      },
+      "priority_review": {
+        "decision": "actively_make_room",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-06",
+        "rationale": "The specific live value is the complete three-quartet cycle plus Piano Quintet No. 2 with Alberga herself at the piano. A second editorial challenge tested the premiere language against primary tour evidence. A+ remains sufficient: the same ensemble and program are documented on a North American run from October 23 through November 1, with dates before and after Brooklyn, so October 30 is not established as an unlikely-to-recur or terminal opportunity. Actively making room is warranted; protect-the-night scarcity is not."
+      }
+    }
+  ]
+}
