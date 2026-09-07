@@ -1,0 +1,137 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "akiko-wada-soul-power-blue-note-tokyo-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md and radar/inbox/README.md were read before research or grading; docs/DATA_MODEL.md was also checked before publication. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A traces and credible Japanese-jazz sources. No new verified, unrepresented Tsuyoshi Yamamoto appearance was found: the October 3 Kawasaki Plaza finale and other recurring Yamamoto dates surfaced in search but are already represented in canonical, curated or processed intake. Blue Note Tokyo's September 3 announcement of Akiko Wada's December SOUL POWER engagement was not represented anywhere in repository-wide searches for Akiko Wada, AKIKO WADA, SOUL POWER or the December 18-19 dates. Stage 1 admits the engagement for a concrete Japan-facing live context rather than fame alone: Wada is a foundational Japanese R&B/soul singer, and this edition uses a full eleven-person band with guitar, piano, bass, keyboards, drums, three horns and two backing vocalists in Blue Note Tokyo's intimate room, with only one show each day. The venue explicitly describes the engagement as its recurring Wada series in which she takes on new songs each year. Stage 2 assigns A. The specific ensemble and Japanese soul lineage make it worth RADAR admission and worth attending if convenient during a Tokyo stay, but the event is an annual Blue Note engagement and no premiere, farewell, anniversary, one-off reunion or other scarcity fact is verified for these dates. A+ would overstate the need to rearrange a Tokyo itinerary for this particular annual edition. The recent/current intake remains dominated by A/A+ recommendations with S/S+ scarcity-gated; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and does not expand scarcity tiers or use a quota to force the grade.",
+  "events": [
+    {
+      "id": "akiko-wada-soul-power-blue-note-tokyo-2026-12-18",
+      "artist": "Akiko Wada",
+      "subtitle": "SOUL POWER",
+      "dates": {
+        "start": "2026-12-18",
+        "end": "2026-12-19"
+      },
+      "showtimes": [
+        "19:00",
+        "18:00"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP",
+        "address": "6-3-16 Minami-Aoyama, Minato-ku, Tokyo"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese R&B / soul master",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Kayokyoku"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters"
+      ],
+      "lineup": [
+        "Akiko Wada — vocals",
+        "Eiji Yamaguchi — guitar",
+        "Takeshi Watanabe — piano",
+        "Yoshiyuki Kuriyama — bass",
+        "Ippei Anbo — keyboards",
+        "Yutaka Watanabe — drums",
+        "Yuya Yoneda — saxophone",
+        "Michihiro Hanebuchi — saxophone",
+        "Naohito Watanabe — trumpet",
+        "Yoko Anna — backing vocals",
+        "Atsuko Takezawa — backing vocals"
+      ],
+      "factual_description": "Blue Note Tokyo presents AKIKO WADA -SOUL POWER- on Friday, December 18 and Saturday, December 19, 2026. The December 18 performance opens at 17:30 and starts at 19:00; the December 19 performance opens at 16:30 and starts at 18:00, with one show per day. Blue Note Tokyo lists an ¥18,000 music charge. The announced eleven-person lineup is Akiko Wada on vocals with Eiji Yamaguchi on guitar, Takeshi Watanabe on piano, Yoshiyuki Kuriyama on bass, Ippei Anbo on keyboards, Yutaka Watanabe on drums, Yuya Yoneda and Michihiro Hanebuchi on saxophones, Naohito Watanabe on trumpet, and Yoko Anna and Atsuko Takezawa on backing vocals. Blue Note Tokyo describes this as Wada's recurring annual engagement at the club and says she takes on new songs in the series each year; no specific 2026 repertoire, anniversary, farewell or premiere is announced, so none is inferred.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/akiko-wada/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 18000,
+          "maximum": 18000,
+          "source_url": "https://www.bluenote.co.jp/jp/info/2026/09/03/akiko-wada--soul-power-.html",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Akiko Wada",
+          "title": "WADA AKIKO ALL TIME BEST",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/wada-akiko-all-time-best/1846046883"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Primary Blue Note Tokyo and Akiko Wada sources verify the engagement, showtimes, lineup, venue, price and reservation-opening dates. The official artist page exposes reservation controls, but no stable event-specific purchase destination was verified in this run, so official_tickets remains null rather than guessing. An exact Apple Music album destination is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/info/2026/09/03/akiko-wada--soul-power-.html",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue announcement verifies the December 18-19, 2026 engagement, the SOUL POWER title, the ¥18,000 music charge and reservation-opening dates."
+        },
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/akiko-wada/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue artist page verifies the one-show-per-day schedule, start times, full eleven-person lineup and the recurring-series context in which Wada takes on new songs each year."
+        },
+        {
+          "url": "https://www.wada-akiko.com/",
+          "publisher": "Akiko Wada official site",
+          "checked_on": "2026-09-07",
+          "note": "Primary artist live schedule independently verifies the December 18-19 dates, doors/start times, Blue Note Tokyo venue and Minami-Aoyama address."
+        },
+        {
+          "url": "https://music.apple.com/us/album/wada-akiko-all-time-best/1846046883",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music destination verifies WADA AKIKO ALL TIME BEST by Akiko Wada, released in 2025, for recommended listening."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-artist-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository-wide searches for Akiko Wada, AKIKO WADA, SOUL POWER and the December 18-19 dates returned no canonical, curated or processed representation before publication. Stage 1 admission rests on the specific full-band soul setting, the Japanese R&B lineage and the intimate Blue Note Tokyo context. Stage 2 assigns A only after admission because this is a recurring annual engagement and no event-specific scarcity fact is verified. No S/S+ priority_review is included."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Akiko Wada is not here as a generic legacy name. This is Japanese R&B history heard at close range: her voice in front of an eleven-person soul band with three horns, two backing singers and a full rhythm section, inside Blue Note Tokyo rather than a large hall. The club's annual series also gives her room to keep refreshing the repertoire instead of treating the catalog as a museum piece.",
+          "trip_verdict": "If December 18 or 19 fits naturally into a Tokyo stay, this is a strong evening option in Aoyama and worth choosing over a routine night out. I would not move a rarer Tokyo engagement or build travel around this annual edition alone.",
+          "listen_before": "Akiko Wada — WADA AKIKO ALL TIME BEST"
+        },
+        "es": {
+          "why_it_matters": "Akiko Wada no entra aquí sólo como un nombre histórico. Es una manera de escuchar de cerca una parte fundamental del R&B japonés: su voz frente a una banda de once músicos con tres metales, dos coristas y una sección rítmica completa, dentro de Blue Note Tokyo y no en un gran auditorio. Además, la serie anual del club le deja espacio para seguir renovando el repertorio en vez de convertir el catálogo en una pieza de museo.",
+          "trip_verdict": "Si el 18 o 19 de diciembre encaja naturalmente dentro de una estancia en Tokio, es una muy buena opción para construir la noche en Aoyama y escogerla sobre una salida rutinaria. No movería una fecha más rara en Tokio ni armaría un viaje alrededor de esta edición anual por sí sola.",
+          "listen_before": "Akiko Wada — WADA AKIKO ALL TIME BEST"
+        }
+      }
+    }
+  ]
+}
