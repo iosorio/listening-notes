@@ -1,0 +1,133 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "hania-rani-non-fiction-lincoln-center-2026-09-06-discovery",
+  "checked_on": "2026-09-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A/current schedule traces, and credible Japanese-jazz sources did not establish an additional verified unrecorded Yamamoto performance suitable for publication; already represented dates were not duplicated. Stage 1 admits Hania Rani Presents Non-Fiction because the October 23 Lincoln Center program is a specific live proposition rather than a prestige booking: Rani performs her first piano concerto with the 45-piece Sinfonia Varsovia plus Valentina Magaletti and Jack Wyllie, while Księżyc opens with The Eternal Circle, a rare performance built around the 30th anniversary of its 1996 debut. Stage 2 assigns A+. The scarcity challenge asks whether the one-night New York presentation, anniversary framing, and David Geffen Hall debut require S; A+ still captures the recommendation. Non-Fiction already received its world premiere in London in November 2025 and North American premiere at Big Ears in March 2026, so October 23 is not the first or terminal opportunity to hear the work, and no farewell or other non-repeatable claim is documented. This batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not expand the scarcity tiers, consistent with the current broad-A / narrower-A+ / rare-S / exceptional-S+ editorial shape.",
+  "events": [
+    {
+      "id": "hania-rani-non-fiction-david-geffen-hall-new-york-2026-10-23",
+      "artist": "Hania Rani",
+      "subtitle": "Non-Fiction — featuring Sinfonia Varsovia and Księżyc",
+      "dates": {
+        "start": "2026-10-23",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "wu-tsai-theater-david-geffen-hall-new-york",
+        "name": "Wu Tsai Theater, David Geffen Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "experimental orchestral / contemporary composition",
+      "genres": [
+        "Experimental",
+        "Contemporary classical"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Hania Rani — piano, composer",
+        "Sinfonia Varsovia — 45-piece orchestra",
+        "Valentina Magaletti — drums",
+        "Jack Wyllie — saxophone",
+        "Księżyc — opening set, The Eternal Circle; individual personnel and announced special guests not yet specified on the primary event page"
+      ],
+      "factual_description": "Lincoln Center Presents and Unsound New York present Hania Rani Presents Non-Fiction on Friday, October 23, 2026 at 19:30 in Wu Tsai Theater, David Geffen Hall, 10 Lincoln Center Plaza, New York. The program is the final night of Unsound New York's 2026 Lincoln Center residency. Księżyc opens with The Eternal Circle, a rare concert built around the 30th anniversary of the Polish group's self-titled 1996 debut; Lincoln Center notes that additional guests are still to be announced. Rani then performs Non-Fiction: Piano Concerto in Four Movements with the Warsaw-based 45-piece Sinfonia Varsovia and guests Valentina Magaletti on drums and Jack Wyllie on saxophone. Lincoln Center describes this as Rani's David Geffen Hall debut. The event uses Lincoln Center's Choose-What-You-Pay model; member presale began September 2 and general on-sale is scheduled for September 9, 2026, so no stable event-specific public purchase destination or numeric face-value range is recorded yet.",
+      "links": {
+        "official_event": "https://www.lincolncenter.org/series/lincoln-center-presents/hania-rani-presents-non-fiction",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.lincolncenter.org/series/lincoln-center-presents/hania-rani-presents-non-fiction",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Hania Rani, Manchester Collective, Jack Wyllie & Hugh Tieppo-Brunt",
+          "title": "Hania Rani: Non Fiction – Piano Concerto In Four Movements",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/hania-rani-non-fiction-piano-concerto-in-four-movements/1844993073"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "Lincoln Center supplies the exact primary event page, date, time, venue, program, 45-piece orchestra description, named guests and Choose-What-You-Pay policy. General public on-sale is scheduled for September 9, 2026, and no stable event-specific public purchase URL or numeric face-value range is exposed yet, so official_tickets remains null rather than storing a generic or premature destination. The exact Apple Music album URL for Non Fiction is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.lincolncenter.org/series/lincoln-center-presents/hania-rani-presents-non-fiction",
+          "publisher": "Lincoln Center",
+          "checked_on": "2026-09-06",
+          "note": "Primary presenter page verifies October 23, 2026 at 19:30; Wu Tsai Theater, David Geffen Hall; Księżyc's The Eternal Circle 30th-anniversary opening set; Hania Rani's David Geffen Hall debut; the 45-piece Sinfonia Varsovia; Valentina Magaletti and Jack Wyllie; Choose-What-You-Pay ticketing; September 2 member presale and September 9 general on-sale."
+        },
+        {
+          "url": "https://instytutpolski.pl/newyork/2026/08/10/unsound-new-york-2026/",
+          "publisher": "Polish Cultural Institute New York",
+          "checked_on": "2026-09-06",
+          "note": "Authoritative cultural-institute listing independently confirms the October 23 Hania Rani / Sinfonia Varsovia / Księżyc program at Wu Tsai Theater, David Geffen Hall, the 19:30 time, Choose-What-You-Pay access, and its place in the three-night Unsound New York residency."
+        },
+        {
+          "url": "https://www.universalmusic.ca/press-releases/award-winning-composer-hania-rani-releases-non-fiction-piano-concerto-in-four-movements/",
+          "publisher": "Universal Music Canada",
+          "checked_on": "2026-09-06",
+          "note": "Label press release verifies Non Fiction as Rani's piano concerto and documents its world premiere at the Barbican in November 2025 and North American premiere at Big Ears in March 2026, supporting the scarcity review that October 23 is not the work's first North American performance."
+        },
+        {
+          "url": "https://music.apple.com/us/album/hania-rani-non-fiction-piano-concerto-in-four-movements/1844993073",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-06",
+          "note": "Exact Apple Music album destination for Hania Rani: Non Fiction – Piano Concerto In Four Movements, released November 14, 2025."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-authoritative-cultural-institute-label-and-apple-music-sources",
+        "note": "Core event facts are verified from Lincoln Center and independently corroborated by the Polish Cultural Institute New York; the label source verifies the concerto's prior premiere history and Apple Music supplies the exact listening destination. Repository searches for Hania Rani, Non-Fiction, Księżyc/Unsound New York, the exact stable ID and the October 23 David Geffen Hall event found no matching RADAR event before publication. Priority A+ was assigned only after Stage 1 admission. The scarcity challenge explicitly asked whether the one-night New York context, anniversary framing and hall debut require protect-the-night treatment; A+ remains sufficient because the concerto has already had world and North American premieres and no farewell or singular terminal context is documented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is really two unusually coherent listening threads in one night. Księżyc revisits its cult 1996 debut after thirty years, then Rani takes her first piano concerto into a full orchestral setting with Sinfonia Varsovia while Magaletti and Wyllie keep the score connected to experimental and improvisational language. The attraction is the collision of memory, orchestral scale and unstable texture, not simply a well-known pianist in a major hall.",
+          "trip_verdict": "If New York is viable on October 23, actively make room for David Geffen Hall and let this anchor the evening. From the DMV, pair it with another strong New York reason or an overnight rather than turn the corridor into a rushed same-day run.",
+          "listen_before": "Hania Rani — Non Fiction: Piano Concerto in Four Movements"
+        },
+        "es": {
+          "why_it_matters": "En realidad son dos hilos de escucha muy bien amarrados en una sola noche. Księżyc vuelve a su disco de culto de 1996 treinta años después y, enseguida, Rani lleva su primer concierto para piano a una escala plenamente orquestal con Sinfonia Varsovia, mientras Magaletti y Wyllie mantienen la obra conectada con el lenguaje experimental y la improvisación. Lo interesante es el choque entre memoria, masa orquestal y textura inestable, no simplemente ver a una pianista conocida en una sala importante.",
+          "trip_verdict": "Si Nueva York es viable el 23 de octubre, sí le haría espacio activamente a David Geffen Hall y dejaría que esta función ancle la noche. Desde el DMV la combinaría con otra razón fuerte para subir o con una noche en la ciudad, en vez de convertir el corredor en una ida y vuelta apretada el mismo día.",
+          "listen_before": "Hania Rani — Non Fiction: Piano Concerto in Four Movements"
+        }
+      },
+      "priority_review": {
+        "decision": "actively_make_room",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-06",
+        "rationale": "The event earns active prioritization because it combines Księżyc's 30th-anniversary Eternal Circle set with Rani performing her first piano concerto using the 45-piece Sinfonia Varsovia plus Magaletti and Wyllie. A second editorial challenge tested whether the one-night New York presentation and anniversary language establish genuine-regret scarcity. They do not: Non Fiction already had its world premiere in London and North American premiere at Big Ears, and no farewell, last performance, or other terminal claim is documented. A+ captures the recommendation without inflating scarcity."
+      }
+    }
+  ]
+}
