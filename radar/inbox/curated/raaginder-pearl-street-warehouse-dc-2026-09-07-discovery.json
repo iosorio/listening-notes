@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "raaginder-pearl-street-warehouse-dc-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A traces, and credible Japanese-jazz sources; the currently verified Yamamoto dates encountered were already represented in canonical/curated/processed intake, so no duplicate was created. Stage 1 admits Raaginder at Pearl Street Warehouse because the specific performance centers a violinist trained in Indian classical raga who is using that instrumental language inside contemporary R&B, pop, hip-hop, and global-electronic textures, with a local Washington date tied to the current be:coming EP/tour. The reason is the violin-led cultural and instrumental synthesis, not genre or venue prestige. Stage 2 assigns A+: the combination is distinctive enough to actively make room for locally. A was challenged because A+ has been common in recent intake, but attend-if-convenient understates the value of hearing this violin-centered South Asian/contemporary synthesis in a compact local room. S is not warranted: Raaginder's official schedule documents a multi-city headline tour, including National Sawdust six days later, so this is not a farewell, premiere, or otherwise demonstrated one-off scarcity event. Repository-wide code search for Raaginder returned no existing RADAR candidate before publication. This batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "raaginder-pearl-street-warehouse-washington-dc-2026-10-03",
+      "artist": "Raaginder",
+      "subtitle": "be:coming USA Tour",
+      "dates": {
+        "start": "2026-10-03",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "pearl-street-warehouse-washington-dc",
+        "name": "Pearl Street Warehouse",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Indian classical / violin-led cross-genre",
+      "genres": [
+        "Indian classical",
+        "R&B",
+        "Hip-hop",
+        "Global electronic"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Raaginder — violin"
+      ],
+      "factual_description": "Union Stage Presents lists Raaginder's be:coming USA Tour at Pearl Street Warehouse in Washington, DC on Saturday, October 3, 2026, with doors at 6:00 PM and the show at 7:00 PM. The presenter and Raaginder's official site identify him as a San Francisco Bay Area violinist, composer, and songwriter rooted in Indian classical raga whose current music moves through R&B, pop, hip-hop, and global electronic production. Raaginder's official tour calendar independently confirms the October 3 Washington date and additional headline dates including National Sawdust in Brooklyn on October 9, 2026. Apple Music lists the four-track be:coming EP, released May 29, 2026. No additional live personnel or official face-value ticket price was announced in the primary sources checked for this record.",
+      "links": {
+        "official_event": "https://www.unionstagepresents.com/shows/raaginder-be-coming-usa-tour-03-oct",
+        "official_tickets": "https://app.opendate.io/confirms/725800/web_orders/new"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://app.opendate.io/confirms/725800/web_orders/new",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Raaginder",
+          "title": "be:coming",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/be-coming-ep/1895878242"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact presenter event page, event-specific authorized Opendate purchase destination, and exact Apple Music be:coming EP page are verified. Door/show times, venue, artist identity, tour context, and current musical framing are source-backed. The primary ticket sources checked do not expose a stable official numeric face-value price, so price remains null rather than inferred from third-party listings. No unannounced live personnel were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.unionstagepresents.com/shows/raaginder-be-coming-usa-tour-03-oct",
+          "publisher": "Union Stage Presents / Pearl Street Warehouse",
+          "checked_on": "2026-09-07",
+          "note": "Primary presenter page verifies Saturday, October 3, 2026 at Pearl Street Warehouse, all-ages status, 6:00 PM doors, 7:00 PM show, Washington address, and Raaginder's Indian-classical-trained violin / R&B-pop-hip-hop musical framing."
+        },
+        {
+          "url": "https://app.opendate.io/confirms/725800/web_orders/new",
+          "publisher": "Opendate / Pearl Street Warehouse authorized ticketing",
+          "checked_on": "2026-09-07",
+          "note": "Exact event-specific authorized purchase destination linked from the primary presenter page. No stable numeric face-value price was exposed in the checked page."
+        },
+        {
+          "url": "https://raaginder.com/",
+          "publisher": "Raaginder Official Website",
+          "checked_on": "2026-09-07",
+          "note": "Primary artist site identifies Raaginder as a violinist, composer, and songwriter rooted in Indian classical music and contemporary global electronic, R&B, pop, and hip-hop textures; it independently confirms the October 3 Washington date and the wider headline tour, including National Sawdust on October 9."
+        },
+        {
+          "url": "https://music.apple.com/us/album/be-coming-ep/1895878242",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music page verifies Raaginder's four-track be:coming EP, released May 29, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-ticket-and-apple-music-sources",
+        "note": "Date, doors, showtime, venue and artist framing were verified from the primary presenter; the event-specific purchase destination was followed from that page; the artist-owned site independently verifies the Washington date and broader headline tour; Apple Music verifies the current be:coming EP. Repository-wide search returned no Raaginder RADAR record before publication. Stage 1 admission rests on the specific violin-led Indian-classical/contemporary synthesis and local live context. Priority was assigned only after admission; A+ was retained after challenging whether A would adequately express the local recommendation, while the documented multi-city tour rules out scarcity-tier treatment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Raaginder makes the violin carry two histories at once: the phrasing and modal pull of Indian classical raga, and the pulse and production logic of contemporary R&B, hip-hop, and electronic music. The be:coming material makes that synthesis the center of the project rather than a decorative crossover move. In a compact Washington room, the appeal is hearing how much of that architecture can stay inside the bow, phrasing, and live rhythmic feel.",
+          "trip_verdict": "If the October 3 night is open in the DMV, actively make room for Pearl Street Warehouse. It is a local discovery date with enough instrumental identity to build the evening around, while the wider tour means there is no reason to chase another city if Washington works.",
+          "listen_before": "Raaginder — be:coming"
+        },
+        "es": {
+          "why_it_matters": "Raaginder hace que el violín cargue dos historias al mismo tiempo: el fraseo y la gravedad modal del raga clásico de India, y el pulso y la lógica de producción del R&B, el hip-hop y la electrónica contemporánea. El material de be:coming pone esa síntesis en el centro del proyecto, no como un simple adorno de crossover. En una sala compacta de Washington, el atractivo está en escuchar cuánto de esa arquitectura puede quedarse dentro del arco, el fraseo y la sensación rítmica en vivo.",
+          "trip_verdict": "Si la noche del 3 de octubre está libre en el DMV, sí le haría espacio a Pearl Street Warehouse. Tiene suficiente identidad instrumental para construir la noche alrededor de esta fecha local, y la gira amplia significa que no hace falta perseguir otra ciudad si Washington funciona.",
+          "listen_before": "Raaginder — be:coming"
+        }
+      }
+    }
+  ]
+}
