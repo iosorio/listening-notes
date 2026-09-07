@@ -1,0 +1,127 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "woong-san-30th-anniversary-jz-brat-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces and credible Japanese-jazz sources. BODY&SOUL and Space M&A reconfirmed Yamamoto dates already represented in the repository; no new event was created merely because Yamamoto appeared. Repository searches for Woong San, the 30th Anniversary Japan Tour billing, the October 15 JZ Brat date and the stable event ID returned no canonical/curated/processed representation. Stage 1 admits the October 15 performance because it is a specific 30th-anniversary release-live context: a Korean jazz vocalist with a long Japan performance history brings the anniversary project to Tokyo with a six-person lineup spanning piano, bass, drums, guitar and clarinet, and a participating musician's official site explicitly ties the tour to the new anniversary album and to long-running Japanese collaboration. Stage 2 assigns A+. This is an anniversary project with a defined Japan-tour ensemble and enough cross-cultural and instrumental identity to actively make room for if in Tokyo, but it does not warrant S: the same lineup and tour billing are also documented in Osaka on October 13, and the available evidence does not establish a farewell, premiere, final performance or other singular scarcity. Recent/current intake was checked as a priority-shape sanity check; the batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "woong-san-30th-anniversary-jz-brat-tokyo-2026-10-15",
+      "artist": "Woong San",
+      "subtitle": "30th Anniversary Japan Tour — Here's to Life release live",
+      "dates": {
+        "start": "2026-10-15",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "jz-brat-sound-of-tokyo-shibuya",
+        "name": "JZ Brat Sound of Tokyo",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Korean jazz / 30th-anniversary Japan tour / cross-cultural sextet",
+      "genres": [
+        "Jazz",
+        "Blues",
+        "Funk",
+        "Latin"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Cross-genre",
+        "Cultural context",
+        "Groove"
+      ],
+      "lineup": [
+        "Woong San — vocals",
+        "Shinji Akita — piano",
+        "Daiki Yasukagawa — bass",
+        "大槻カルタ英宜 — drums",
+        "Saza Choi — guitar",
+        "Takanori Suzuki — clarinet"
+      ],
+      "factual_description": "JZ Brat Sound of Tokyo presents Woong San's 30th Anniversary Japan Tour — Here's to Life release live on Thursday, October 15, 2026. Doors open at 6:00 PM and the performance starts at 7:00 PM; the venue lists an intermission and a planned 9:30 PM finish, with no audience turnover. The announced lineup is Woong San on vocals, Shinji Akita on piano, Daiki Yasukagawa on bass, 大槻カルタ英宜 on drums, Saza Choi on guitar and Takanori Suzuki on clarinet. JZ Brat lists a ¥7,000 reservation music charge and ¥7,500 same-day charge, tax included and service charge separate. Suzuki's official site independently confirms the same six-person Japan-tour lineup, says the tour accompanies Woong San's 30th-anniversary album, and lists only the October 13 Billboard Live Osaka and October 15 JZ Brat Tokyo performances in this Japan-tour announcement. Billboard Live's official October calendar independently confirms the October 13 Osaka performance under the same tour billing, providing recurrence context for priority review without turning the Tokyo date into a one-off claim.",
+      "links": {
+        "official_event": "https://www.jzbrat.com/liveinfo/2026/10/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 7000,
+          "maximum": 7500,
+          "source_url": "https://www.jzbrat.com/liveinfo/2026/10/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "exact_anniversary_album_apple_music_url"
+        ],
+        "note": "JZ Brat supplies the event billing, date, doors, start time, planned finish, complete announced lineup and official music-charge range. The accessible monthly schedule does not expose a separate stable event-specific reservation URL, so official_tickets remains null. Takanori Suzuki's official site independently confirms the tour lineup and anniversary-album context. Apple Music verifies Woong San's current artist catalog and an August 2026 release, but the accessible evidence does not establish an exact Apple Music URL for the anniversary release named by the tour, so no ID or listening destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.jzbrat.com/liveinfo/2026/10/",
+          "publisher": "JZ Brat Sound of Tokyo",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue schedule verifies the October 15, 2026 Woong San 30th Anniversary Japan Tour — Here's to Life release live billing; 18:00 doors; 19:00 start; planned 21:30 finish with an intermission and no turnover; complete six-person lineup and instruments; and ¥7,000 reservation / ¥7,500 same-day music charges, tax included with service charge separate."
+        },
+        {
+          "url": "https://www.takanorisuzuki.net/",
+          "publisher": "Takanori Suzuki",
+          "checked_on": "2026-09-07",
+          "note": "Official participating musician site confirms Suzuki's participation, the same six-person lineup, the 30th-anniversary album context, and the Japan-tour dates October 13 at Billboard Live Osaka and October 15 at JZ Brat Sound of Tokyo. It also documents Suzuki's long personal and musical connection to Woong San's work in Japan."
+        },
+        {
+          "url": "https://www.billboard-live.com/schedules?month=2026-10-01",
+          "publisher": "Billboard Live",
+          "checked_on": "2026-09-07",
+          "note": "Primary presenter calendar independently confirms the October 13, 2026 Osaka stop under the same Woong San 30th Anniversary Japan Tour — Here's to Life release live billing. It is used only to establish recurrence context for the Tokyo priority judgment."
+        },
+        {
+          "url": "https://music.apple.com/us/artist/woong-san/272402942",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music artist destination verifies Woong San's current catalog presence and 2026 releases. It is not used to infer an event-specific track, album ID or set list."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-participating-artist-and-tour-presenter-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Woong San, the anniversary-tour billing, the October 15 JZ Brat date and the stable event ID found no canonical/curated/processed representation before publication. Core Tokyo event facts come from JZ Brat; the participating clarinetist's official site independently confirms the same lineup, album-anniversary context and two-stop Japan announcement; Billboard Live corroborates the Osaka recurrence used to challenge scarcity. No separate ticket URL, exact anniversary-album Apple Music ID, set list, nationality for individual sidemen, or S-tier scarcity claim was invented. Priority was assigned only after Stage 1 admission, and A+ was retained because the anniversary project and defined Japan-tour ensemble merit actively making room within a Tokyo stay, while S was rejected because the same project recurs in Osaka and no terminal or singular context is documented.",
+        "reviewed_on": "2026-09-07"
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more than a routine vocal-jazz club date: Woong San is bringing her 30th-anniversary release project to Tokyo with a defined sextet whose palette reaches from the piano-bass-drums core to Saza Choi's guitar and Takanori Suzuki's clarinet. The anniversary frame matters because the Japan collaboration is part of the story, not decoration; Suzuki explicitly connects the new record and tour to a musical relationship that has been developing around Woong San's Japanese work for years.",
+          "trip_verdict": "If October 15 overlaps a Tokyo stay, build the Shibuya evening around JZ Brat. The Osaka performance two days earlier means there is no reason to chase this exact room if the Tokyo date does not fit, but within the city this is worth making room for rather than treating as a casual fallback.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Esto es más que una fecha rutinaria de jazz vocal en un club: Woong San lleva a Tokio su proyecto de 30 aniversario con un sexteto definido que expande el núcleo de piano, bajo y batería con la guitarra de Saza Choi y el clarinete de Takanori Suzuki. El aniversario importa porque la colaboración japonesa forma parte de la historia y no es simple decoración; Suzuki vincula explícitamente el nuevo disco y la gira con una relación musical que se ha construido durante años alrededor del trabajo de Woong San en Japón.",
+          "trip_verdict": "Si el 15 de octubre coincide con una estancia en Tokio, armaría la noche de Shibuya alrededor de JZ Brat. La función de Osaka dos días antes significa que no hace falta perseguir esta sala exacta si la fecha no encaja, pero dentro de la ciudad sí vale hacerle espacio en lugar de dejarla como plan de relleno.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
