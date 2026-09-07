@@ -1,0 +1,119 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "edmar-castaneda-library-of-congress-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A references, and credible Japanese-jazz sources; future Yamamoto dates that resurfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader DMV pass found Edmar Castaneda at the Library of Congress on November 5. Stage 1 admits this specific performance because Castaneda's harp technique gives the date a concrete instrumental identity: the Library describes a player who combines bass lines, harmony and melody on one instrument while bringing Colombian and global rhythmic language into jazz. The event is not admitted merely because Castaneda is excellent or because the Library is prestigious. Stage 2 assigns A+. This is an unusually distinctive local instrumental proposition worth actively making room for. The current priority distribution was sanity-checked before finalizing; recent A+ density does not justify lowering a genuinely strong local recommendation mechanically. The scarcity challenge does not support S: no farewell, premiere, final appearance, one-off commissioned repertoire or otherwise nonrecurring lineup is announced, and A+ fully captures the recommendation. The Library verifies that the concert is free but ticketed; the exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null. No unannounced program or additional personnel are inferred.",
+  "events": [
+    {
+      "id": "edmar-castaneda-library-of-congress-washington-dc-2026-11-05",
+      "artist": "Edmar Castañeda",
+      "subtitle": "Live! At the Library — jazz harp",
+      "dates": {
+        "start": "2026-11-05",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "library-of-congress-coolidge-auditorium-washington-dc",
+        "name": "Library of Congress — Coolidge Auditorium",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Latin jazz / instrumental innovation / harp",
+      "genres": [
+        "Jazz",
+        "Latin jazz",
+        "Colombian music"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Latin",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Edmar Castañeda (harp)"
+      ],
+      "factual_description": "The Library of Congress presents Edmar Castañeda on Thursday, November 5, 2026 from 20:00 to 22:00 in the Thomas Jefferson Building's Coolidge Auditorium in Washington, DC. The concert is free but ticketed, and the current event page lists no preconcert event. The Library describes the Colombian-born Castañeda as a leading virtuoso of jazz harp whose technique combines bass lines, harmony and melody while drawing on jazz and global musical styles. No additional personnel or detailed program are published in the primary sources checked for this batch.",
+      "links": {
+        "official_event": "https://www.loc.gov/item/event-422650/live-at-the-library-edmar-castaneda-harp/2026-11-05/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://www.loc.gov/item/event-422650/live-at-the-library-edmar-castaneda-harp/2026-11-05/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Edmar Castañeda",
+          "title": "Family",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/family/1576283791"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact_official_ticket_destination",
+          "published_program_or_additional_personnel"
+        ],
+        "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, Edmar Castañeda on harp and free-ticketed status. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. No detailed repertoire or additional personnel are currently published, so none are inferred. Apple Music verifies the exact Family album destination."
+      },
+      "sources": [
+        {
+          "url": "https://www.loc.gov/item/event-422650/live-at-the-library-edmar-castaneda-harp/2026-11-05/",
+          "publisher": "Library of Congress",
+          "checked_on": "2026-09-07",
+          "note": "Primary current event page verifies Thursday, November 5, 2026, 20:00-22:00, Coolidge Auditorium, free but ticket-required status, Edmar Castañeda on harp and no preconcert event; it also describes his jazz-harp technique and global stylistic language."
+        },
+        {
+          "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+          "publisher": "Library of Congress Newsroom",
+          "checked_on": "2026-09-07",
+          "note": "Primary 2026-27 season announcement independently confirms Edmar Castañeda, harp, on Thursday, November 5 at 20:00 as part of the free ticketed concert season."
+        },
+        {
+          "url": "https://music.apple.com/us/album/family/1576283791",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music page verifies Edmar Castañeda's Family as the recommended listening album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-library-and-apple-music-sources",
+        "note": "Core event facts are grounded in the current Library of Congress event page, the Library's season announcement and Apple Music. Repository searches for Edmar Castañeda together with Library of Congress and for the exact Live! At the Library billing returned no existing canonical, curated or processed RADAR record before publication; the only surfaced Edmar Castañeda RADAR item was a separate 2027 BEATrio event. Priority A+ was assigned only after Stage 1 admission because the unusually concentrated harp identity, Colombian/Latin rhythmic language and local Coolidge Auditorium setting make this worth actively prioritizing. A scarcity challenge found no event-specific basis for S."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Castañeda makes the harp behave like a rhythm section and a lead voice at once: bass lines, harmony and melody arrive from one instrument, with Colombian rhythmic language folded into jazz improvisation. In the Coolidge Auditorium, that instrument-first proposition is the reason to go; this is a chance to hear a player who has made jazz harp a language rather than a novelty.",
+          "trip_verdict": "Actively make room for this locally if November 5 is open. The Library makes it an easy DC night—free but ticketed—and the point is the concentrated instrument itself, not a once-only staging that should pull you into a regional trip.",
+          "listen_before": "Edmar Castañeda — Family"
+        },
+        "es": {
+          "why_it_matters": "El arpa de Castañeda funciona a la vez como sección rítmica y voz principal: bajo, armonía y melodía salen del mismo instrumento, con el lenguaje rítmico colombiano metido de lleno en la improvisación jazzística. En el Coolidge Auditorium, esa identidad instrumental es la razón para ir; no se trata de escuchar el arpa como curiosidad, sino a un músico que la convirtió en un idioma propio dentro del jazz.",
+          "trip_verdict": "Si el 5 de noviembre está libre, sí haría espacio para esta noche en DC. La Library of Congress la vuelve una salida local sencilla —gratuita, con boleto— y el atractivo está en escuchar de cerca esa voz instrumental, no en una puesta única que justifique un viaje regional.",
+          "listen_before": "Edmar Castañeda — Family"
+        }
+      }
+    }
+  ]
+}
