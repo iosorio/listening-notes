@@ -1,0 +1,116 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "bennewitz-kharitonov-library-of-congress-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading; docs/DATA_MODEL.md was also checked before publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, Space M&A traces, Yamamoto schedule references, and credible Japanese-jazz sources. The October 21 ALFIE trio, September 26 BODY&SOUL grand-finale appearance, Yokohama, Keystone, Otokichi MEG, and late-2026 Space M&A threads are already represented in canonical, curated, or processed intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found Bennewitz Quartet with Arsentiy Kharitonov at the Library of Congress on November 13. Stage 1 admits this specific performance because the program was developed with the Library and ties live performance directly to a newly held manuscript in the Music Division: the evening includes the Library of Congress premiere of Nikolai Medtner's posthumous Piano Quintet in C major, framed by Medtner, Josef Suk, and Dvorak, with an artist conversation beforehand. The event is not admitted merely because the ensemble is acclaimed or because the venue is prestigious. Stage 2 assigns A+. The manuscript/premiere context and full piano-quintet collaboration make this actively worth prioritizing locally. The current/recent RADAR shape was sanity-checked before finalizing; this batch adds A+ 1 and no scarcity-tier event. The scarcity challenge does not support S: the Library labels this a Library of Congress premiere rather than a world premiere, the Bennewitz Quartet and Kharitonov are on a broader US tour, and no farewell, final appearance, one-off commission, or otherwise irreproducible lineup is claimed. A+ fully captures the recommendation.",
+  "events": [
+    {
+      "id": "bennewitz-quartet-arsentiy-kharitonov-library-of-congress-washington-dc-2026-11-13",
+      "artist": "Bennewitz Quartet with Arsentiy Kharitonov",
+      "subtitle": "Medtner manuscript / Library of Congress premiere",
+      "dates": {
+        "start": "2026-11-13",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "library-of-congress-coolidge-auditorium-washington-dc",
+        "name": "Library of Congress — Coolidge Auditorium",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Chamber music / archival premiere / Czech repertoire",
+      "genres": [
+        "Classical",
+        "Chamber music"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jakub Fišer — violin",
+        "Štěpán Ježek — violin",
+        "Jiří Pinkas — viola",
+        "Štěpán Doležal — cello",
+        "Arsentiy Kharitonov — piano"
+      ],
+      "factual_description": "The Library of Congress presents the Bennewitz Quartet with pianist Arsentiy Kharitonov on Friday, November 13, 2026 from 20:00 to 22:30 in the Coolidge Auditorium, with a 18:30 preconcert conversation in the Whittall Pavilion. The program was developed with the Library and includes Nikolai Medtner's Canzona Serenata from Forgotten Melodies, the Library of Congress premiere of Medtner's posthumous Piano Quintet in C major, Josef Suk's Meditation on the Old Czech Hymn 'St. Wenceslas,' and Antonín Dvořák's Piano Quintet in A major, op. 81. The Library states that the manuscript of Medtner's piano quintet is now held in the Music Division's collections. The concert is free but ticketed. The quartet's official schedule independently places the ensemble on a United States tour from November 7 through 14, 2026.",
+      "links": {
+        "official_event": "https://www.loc.gov/item/event-421696/bennewitz-quartet-with-arsentiy-kharitonov/2026-11-13/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://www.loc.gov/item/event-421696/bennewitz-quartet-with-arsentiy-kharitonov/2026-11-13/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact_official_ticket_destination",
+          "apple_music"
+        ],
+        "note": "The Library of Congress verifies the complete program, personnel, date, concert time, preconcert conversation, venue, free-ticketed status, and the Medtner manuscript context. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. No exact Apple Music album, song, or playlist destination sufficiently tied to this program was verified, so recommended_listening remains empty."
+      },
+      "sources": [
+        {
+          "url": "https://www.loc.gov/item/event-421696/bennewitz-quartet-with-arsentiy-kharitonov/2026-11-13/",
+          "publisher": "Library of Congress",
+          "checked_on": "2026-09-07",
+          "note": "Primary event page verifies Friday, November 13, 2026, 20:00-22:30, Coolidge Auditorium, 18:30 artist conversation, complete lineup, full Medtner/Suk/Dvorak program, free-ticketed status, and that the Medtner piano-quintet manuscript is held by the Music Division; it explicitly identifies the performance as the Library of Congress premiere."
+        },
+        {
+          "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+          "publisher": "Library of Congress Newsroom",
+          "checked_on": "2026-09-07",
+          "note": "Primary season announcement independently confirms the Bennewitz Quartet with Arsentiy Kharitonov on November 13 at 20:00 as part of the 2026-27 season."
+        },
+        {
+          "url": "https://www.bennewitzquartet.com/concerts",
+          "publisher": "Bennewitz Quartet",
+          "checked_on": "2026-09-07",
+          "note": "The ensemble's official schedule independently places the quartet on a United States tour from November 7 through 14, 2026; this supports the scarcity assessment without inventing additional Washington-specific facts."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-library-and-artist-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository searches for Bennewitz Quartet with Arsentiy Kharitonov, the exact November 13 date, and the Medtner Library of Congress premiere returned no canonical, curated, or processed RADAR representation before publication. Stage 1 admission rests on the event-specific manuscript/premiere relationship and the chamber-music program developed with the Library. Stage 2 assigns A+ only after admission: this is a distinctive local cultural and instrumental context worth actively making room for, while the broader US tour and absence of a world-premiere, farewell, or one-off scarcity claim make S unnecessary."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is where the Library stops being a backdrop and becomes part of the music. The Bennewitz Quartet and Arsentiy Kharitonov bring Medtner's posthumous piano quintet into the room that now holds its manuscript, in a program built with the Library and surrounded by Suk and Dvořák. The archival connection gives a familiar chamber format a live historical charge: you are not just hearing a score, but hearing an institution activate something it has just taken into its own collection.",
+          "trip_verdict": "Actively make room for November 13 if you are in the DMV, and arrive for the 6:30 artist conversation before the concert. This is a particularly good use of a local night at the Library; it does not need a regional trip to justify itself.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí la Library deja de ser el fondo y se vuelve parte de la música. El Bennewitz Quartet y Arsentiy Kharitonov llevan el quinteto póstumo de Medtner a la institución que ahora conserva su manuscrito, dentro de un programa armado con la propia Library y rodeado por Suk y Dvořák. Esa conexión con el archivo le da una carga histórica concreta a un formato de cámara conocido: no sólo se escucha una partitura, sino a una institución activando en vivo algo que acaba de incorporar a su colección.",
+          "trip_verdict": "Si estás en el DMV el 13 de noviembre, sí le haría espacio a esta noche y llegaría a la conversación de las 6:30 antes del concierto. Es una muy buena razón para armar una salida local alrededor de la Library; no necesita convertirse en viaje regional para justificarla.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
