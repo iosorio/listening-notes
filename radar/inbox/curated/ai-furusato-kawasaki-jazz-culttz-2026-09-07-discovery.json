@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "ai-furusato-kawasaki-jazz-culttz-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before any event research or grading; docs/DATA_MODEL.md was also checked before publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces and credible Japanese-jazz sources; surfaced future Yamamoto dates were already represented in canonical, curated or processed intake, so no duplicate Yamamoto event was created. Broader Greater Tokyo/Kanto research surfaced Kawasaki Jazz 2026: Ai Furusato — Piano Solo & Trio. Repository-wide searches for Ai Furusato together with the November 3 date, Culttz Kawasaki, and the stable event identity returned no existing representation before publication. Stage 1 admits this performance because its live proposition is specific: a Kawasaki-raised 15-year-old pianist returns for a hometown concert that deliberately places a solo first set beside a trio second set, then adds vocalist akiko as a special collaborator. That lets the room hear Furusato's developing instrumental identity across two different ensemble problems rather than treating her as a generic young-jazz booking. Stage 2 assigns A: worth knowing about and attending if the Kanto afternoon is open. The same artist has had multiple substantial Japan appearances in 2026, and this event is not documented as a premiere, farewell, one-off lineup or similarly consequential moment requiring active reprioritization. A current/recent intake sanity check remains centered on A and A+ with scarcity tiers reserved for exceptional cases; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and does not pressure the scarcity tiers.",
+  "events": [
+    {
+      "id": "ai-furusato-piano-solo-trio-culttz-kawasaki-2026-11-03",
+      "artist": "Ai Furusato",
+      "subtitle": "Kawasaki Jazz 2026 — Piano Solo & Trio",
+      "dates": {
+        "start": "2026-11-03",
+        "end": null
+      },
+      "showtimes": [
+        "16:00"
+      ],
+      "venue": {
+        "id": "culttz-kawasaki-hall-kawasaki",
+        "name": "カルッツかわさき ホール",
+        "city": "Kawasaki",
+        "state": "Kanagawa",
+        "country": "JP",
+        "address": "〒210-0011 川崎市川崎区富士見1-1-4"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A",
+      "category": "Emerging Japanese jazz / Kawasaki homecoming",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Ai Furusato — piano, keyboard",
+        "Shunsuke Uehara — drums",
+        "Shin Sakaino — bass",
+        "akiko — vocals, special guest"
+      ],
+      "factual_description": "Kawasaki Jazz and Culttz Kawasaki present Ai Furusato — Piano Solo & Trio on Tuesday, November 3, 2026 at Culttz Kawasaki Hall, with doors at 3:00 PM and the performance starting at 4:00 PM. The presenters describe the concert as a Kawasaki homecoming for Furusato and specify a piano-solo first set followed by a trio second set, with vocalist akiko appearing as a special guest. The announced personnel are Ai Furusato on piano and keyboard, Shunsuke Uehara on drums, Shin Sakaino on bass and akiko on vocals. Culttz Kawasaki lists reserved-seat prices of ¥4,800 general, ¥4,000 for members and ¥3,000 U18. The venue and Kawasaki Jazz identify Furusato as a 15-year-old jazz pianist who began studying piano in Kawasaki and entered Berklee College of Music's regular program at age 12 on a Presidential Scholarship. Her four-track Rise EP was released May 26, 2026 and is available on Apple Music.",
+      "links": {
+        "official_event": "https://www.kawasakijazz.jp/program/detail2026/20261103.php",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3000,
+          "maximum": 4800,
+          "source_url": "https://culttz.city.kawasaki.jp/performance/45306/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Ai Furusato",
+          "title": "Rise EP - EP",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/rise-ep-ep/6769960536"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The co-presenter and venue verify the exact date, doors/start time, venue, complete announced lineup, solo-to-trio format, special guest and face values. The event page points to general venue, Kawasaki Jazz and e+ purchase systems rather than exposing a stable event-specific transactional destination, so official_tickets remains null. An exact Apple Music destination for Rise EP is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.kawasakijazz.jp/program/detail2026/20261103.php",
+          "publisher": "Kawasaki Jazz",
+          "checked_on": "2026-09-07",
+          "note": "Primary co-presenter page verifies November 3, 2026, 16:00 start with 15:00 doors, Culttz Kawasaki Hall, the piano-solo first set and trio second set, akiko as special guest, complete announced personnel, general and U18 face values, and the Kawasaki homecoming framing."
+        },
+        {
+          "url": "https://culttz.city.kawasaki.jp/performance/45306/",
+          "publisher": "Culttz Kawasaki",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue/presenter page independently verifies the date, doors/start time, hall, complete announced personnel, solo/trio structure, akiko guest appearance, ¥4,800 general / ¥4,000 member / ¥3,000 U18 prices, sales dates, and venue address."
+        },
+        {
+          "url": "https://music.apple.com/us/album/rise-ep-ep/6769960536",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music destination verifies Ai Furusato's four-track Rise EP and its May 26, 2026 release date; used only for listening preparation and release context."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-co-presenter-venue-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository searches found no Ai Furusato November 3, Culttz Kawasaki, or stable-ID representation before publication. Stage 1 admission is grounded in this performance's hometown return and deliberate solo-to-trio architecture with a named guest, not in age, venue prestige or a generic claim of talent. Priority was assigned only after admission. A reflects a worthwhile Kanto discovery to attend if convenient; the documented context does not require stronger trip-level behavior. No event-specific ticket destination, unannounced repertoire, additional personnel or resale information was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The useful thing about this homecoming is the format: Furusato opens alone, then has to solve the music again inside a trio before vocalist akiko enters the picture. For a pianist whose career has accelerated unusually early, hearing those changes of scale in one afternoon is a better reason to pay attention than the prodigy story by itself.",
+          "trip_verdict": "If November 3 is open while you are in Greater Tokyo/Kanto, this is a smart Kawasaki afternoon to catch. I would not reshape a Tokyo stay around it, but I would take the short regional detour if the schedule lines up.",
+          "listen_before": "Ai Furusato — Rise EP"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante de este regreso a casa está en el formato: Furusato empieza sola, después tiene que resolver la música de nuevo dentro de un trío y finalmente aparece la voz de akiko. Para una pianista cuya carrera se aceleró tan temprano, escuchar esos cambios de escala en una sola tarde dice mucho más que quedarse con la historia de la niña prodigio.",
+          "trip_verdict": "Si el 3 de noviembre está libre mientras estás en Tokio/Kanto, sí me daría una vuelta a Kawasaki. No reorganizaría una estancia en Tokio alrededor de esta fecha, pero el desvío regional vale la pena si cuadra con el itinerario.",
+          "listen_before": "Ai Furusato — Rise EP"
+        }
+      }
+    }
+  ]
+}
