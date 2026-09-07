@@ -1,0 +1,30 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "takuya-kuroda-blue-note-tokyo-lineup-material-update-2026-09-07-001",
+  "created_on": "2026-09-07",
+  "notes": "Material factual-update research for the existing November 26-27, 2026 Takuya Kuroda Blue Note Tokyo RADAR record. Blue Note Tokyo's current exact event page now identifies Jaylen Petinaud on drums, replacing the previously published TBA member and completing the announced quintet. The current enrichment contract explicitly forbids changing lineup, factual_description, priority, or editorial copy, so this handoff records current primary-source/provenance evidence without silently altering radar/events.json. A separate factual/editorial correction is required. The processed creation artifact still carries a legacy S priority, while a later current-rubric duplicate candidate assigns A; no priority mutation is attempted here because priority is outside the enrichment patch contract.",
+  "events": [
+    {
+      "id": "takuya-kuroda-blue-note-tokyo-2026-11-26",
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Existing official event/ticket and Apple Music destinations remain usable. Blue Note Tokyo now identifies the previously TBA drummer as Jaylen Petinaud; lineup and factual-description corrections are outside the enrichment patch contract and require separate factual/editorial review."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/takuya-kuroda/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-09-07",
+          "note": "Exact primary event page verifies November 26-27, 2026; 18:00 and 20:30 starts; ¥9,500 music charge; and the now-complete announced quintet: Takuya Kuroda (trumpet), Craig Hill (saxophone), Takahiro Izumikawa (piano/keyboards), Reuben Cainer (bass), and Jaylen Petinaud (drums). The earlier RADAR record preserved the fifth member as TBA."
+        }
+      ],
+      "provenance": {
+        "status": "material-factual-change-detected",
+        "note": "A current primary source supplies the drummer previously left TBA in the existing RADAR record. No canonical lineup or factual-description field is modified because the current existing-event enrichment workflow permits only links, listening, enrichment, sources and provenance; the lineup correction must proceed through a separate factual/editorial review.",
+        "recorded_on": "2026-09-07"
+      }
+    }
+  ]
+}
