@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tsuyoshi-yamamoto-trio-yokohama-jazz-first-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication. Fresh checks covered Tsuyoshi Yamamoto schedule traces, Jazz House ALFIE, BODY&SOUL, Space M&A and credible Japanese-jazz sources before widening to the Tokyo/Kanto and US-corridor scopes. Repository searches for the exact October 16 date and stable event ID returned no existing RADAR representation. Stage 1 admits this performance because it is a concrete variation on the current Yamamoto thread: the official YOKOHAMA JAZZ FIRST schedule explicitly states that longtime bassist Hiroshi Kagawa cannot appear and verifies veteran bassist Mitsuaki Furuno in his place with Yamamoto and Toshio Osumi. This changes the rhythm-section conversation in the same intimate Yokohama room where the classic trio is already part of the RADAR thread. Stage 2 assigns A+. The date is actively worth making room for in Greater Tokyo/Kanto, but it is not a scarcity-tier event: Yamamoto, Furuno and Osumi already shared the stage in Furuno's special quartet at Jazz Spot DOLPHY on August 15, 2026, and no farewell, premiere, last appearance or other singular circumstance is documented for October 16. A+ captures the recommendation without inflating S/S+. The current/recent intake was reviewed as a sanity check; this batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-trio-yokohama-jazz-first-2026-10-16",
+      "artist": "Tsuyoshi Yamamoto Trio",
+      "subtitle": "Yamamoto / Mitsuaki Furuno / Toshio Osumi at YOKOHAMA JAZZ FIRST",
+      "dates": {
+        "start": "2026-10-16",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "yokohama-jazz-first-yokohama",
+        "name": "YOKOHAMA JAZZ FIRST",
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "JP",
+        "address": "9-140 Chojamachi, Naka-ku, Yokohama, Kanagawa 231-0033"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Yamamoto / small-room trio variation",
+      "genres": [
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto — piano",
+        "Mitsuaki Furuno — bass",
+        "Toshio Osumi — drums"
+      ],
+      "factual_description": "YOKOHAMA JAZZ FIRST lists Tsuyoshi Yamamoto Trio on Friday, October 16, 2026, with doors at 18:30 and music at 19:30. The official venue schedule explicitly notes that Hiroshi Kagawa cannot appear on this date and lists Mitsuaki Furuno on bass with Yamamoto on piano and Toshio Osumi on drums. The venue lists a reservation charge of ¥4,000 and a same-day charge of ¥4,500, each subject to the club's separate two-order requirement. The official access page gives the venue address as 9-140 Chojamachi, Naka-ku, Yokohama, Kanagawa 231-0033. An authoritative current Yamamoto schedule independently matches the date, lineup change, doors, start time and prices.",
+      "links": {
+        "official_event": "https://jazz-first.com/?cid=mc-3d5a35dc491e7c24858a2c2a1c6047be&dy=&month=10&yr=2026",
+        "official_tickets": "https://jazz-first.com/contact/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 4000,
+          "maximum": 4500,
+          "source_url": "https://jazz-first.com/?cid=mc-3d5a35dc491e7c24858a2c2a1c6047be&dy=&month=10&yr=2026",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "event_specific_ticket_destination",
+          "apple_music"
+        ],
+        "note": "The exact date, lineup, substitution, doors, start time, venue identity/address and face-value charges are verified from the official venue schedule and access pages, with an authoritative Yamamoto schedule cross-check. The venue's generic official reservation form is linked, but no event-specific purchase/reservation URL or confidently verified Apple Music destination was established in this pass."
+      },
+      "sources": [
+        {
+          "url": "https://jazz-first.com/?cid=mc-3d5a35dc491e7c24858a2c2a1c6047be&dy=&month=10&yr=2026",
+          "publisher": "YOKOHAMA JAZZ FIRST",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue schedule verifies Friday, October 16, 2026; doors 18:30; start 19:30; Tsuyoshi Yamamoto on piano, Mitsuaki Furuno on bass and Toshio Osumi on drums; the explicit note that Hiroshi Kagawa cannot appear; and reservation/same-day charges of ¥4,000/¥4,500 with the separate two-order requirement."
+        },
+        {
+          "url": "https://jazz-first.com/access/",
+          "publisher": "YOKOHAMA JAZZ FIRST",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue access page verifies the club address at 9-140 Chojamachi, Naka-ku, Yokohama, Kanagawa 231-0033 and points to the venue's reservation/contact route."
+        },
+        {
+          "url": "https://naniaru.com/events/view/14844",
+          "publisher": "ナニアル・コム",
+          "checked_on": "2026-09-07",
+          "note": "Authoritative current Japanese live-music listing independently matches the October 16 Yamamoto Trio date, Furuno-for-Kagawa substitution, 18:30 doors, 19:30 start, YOKOHAMA JAZZ FIRST venue and ¥4,000/¥4,500 charges."
+        },
+        {
+          "url": "https://premier.twitcasting.tv/c%3Ajazzspotdolphy/shopcart/449061",
+          "publisher": "Jazz Spot DOLPHY official TwitCasting account",
+          "checked_on": "2026-09-07",
+          "note": "Authoritative venue-controlled stream listing documents Mitsuaki Furuno's special quartet with Tsuyoshi Yamamoto and Toshio Osumi on August 15, 2026, providing recurrence context for the A+ rather than S judgment."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authoritative-schedule-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository searches found no October 16 YOKOHAMA JAZZ FIRST Yamamoto event or stable-ID representation before publication. Core event facts come from the official venue schedule and access pages and are corroborated by a current Japanese live-music schedule. Priority was assigned only after Stage 1 admission. A+ reflects a Yamamoto-thread date whose verified bass substitution creates a specific lineup reason to attend; S is rejected because no terminal or singular circumstance is documented and Yamamoto/Furuno/Osumi already performed together in Yokohama in August 2026."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The familiar Yamamoto small-room thread takes a different turn here: Hiroshi Kagawa is unavailable, so veteran bassist Mitsuaki Furuno joins Yamamoto and Toshio Osumi. That changes the rhythm-section chemistry without turning the night into a novelty booking, and it gives this recurring Yokohama stop a concrete reason to hear this specific date.",
+          "trip_verdict": "If October 16 lands inside a Greater Tokyo/Kanto stay, build the evening around YOKOHAMA JAZZ FIRST. The lineup change makes this more interesting than a routine repeat, but it is not a standalone reason to cross the Pacific.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El hilo de Yamamoto en salas pequeñas toma aquí un giro distinto: Hiroshi Kagawa no puede tocar esta fecha y entra el veterano bajista Mitsuaki Furuno junto a Yamamoto y Toshio Osumi. Cambia la química de la sección rítmica sin convertir la noche en una ocurrencia, y le da a esta parada recurrente en Yokohama una razón concreta para escuchar precisamente esta fecha.",
+          "trip_verdict": "Si el 16 de octubre cae dentro de una estancia en Greater Tokyo/Kanto, sí armaría la noche alrededor de YOKOHAMA JAZZ FIRST. El cambio de formación la hace más interesante que una repetición rutinaria, pero no justifica por sí sola cruzar el Pacífico.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
