@@ -1,0 +1,143 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "sid-sriram-blue-note-new-york-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, and the current merge contract were read before grading or publication. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; verified Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Repository search for Sid Sriram, the exact November 5-6 Blue Note New York engagement, and the proposed stable event ID found no existing RADAR representation before publication. Stage 1 admits this engagement because the exact three-person billing creates a concrete cross-cultural and improvisational live context: Sid Sriram's Carnatic-trained vocal language meets Julius Rodriguez's genre-fluid jazz multi-instrumental practice and Austin Williamson's improvisational drums/percussion practice. Stage 2 assigns A+ only after admission: the interaction is strong enough to actively make room for if New York is in play, but it does not support a scarcity tier because Blue Note New York offers four sets across two nights and Blue Note Los Angeles independently bills the same trio one week later on November 13. This batch adds A 0 / A+ 1 / S 0 / S+ 0; distribution is treated as a sanity check, not a quota.",
+  "events": [
+    {
+      "id": "sid-sriram-blue-note-new-york-2026-11-05",
+      "artist": "Sid Sriram",
+      "subtitle": "with Julius Rodriguez & Austin Williamson",
+      "dates": {
+        "start": "2026-11-05",
+        "end": "2026-11-06"
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US",
+        "address": "131 W. 3rd St, New York, NY 10012"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Carnatic / alternative R&B / improvisational crossover",
+      "genres": [
+        "Carnatic",
+        "R&B",
+        "Alternative",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Improvised",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Sid Sriram",
+        "Julius Rodriguez",
+        "Austin Williamson"
+      ],
+      "factual_description": "Blue Note New York presents Sid Sriram with Julius Rodriguez and Austin Williamson on Thursday, November 5 and Friday, November 6, 2026, with 8:00 PM and 10:30 PM sets each night. The venue's event page describes Sriram's English-language work as drawing together his South Indian Carnatic background with R&B, indie rock, American pop, gospel, electronics and other contemporary vocabularies, and describes Rodriguez as a New York-born multi-instrumentalist, composer and producer whose work moves across jazz and other genres. Austin Williamson is part of the exact official billing; an authoritative Pace Gallery artist profile identifies his primary practice as drums and percussion shaped by improvisation and unconventional composition. Blue Note lists a $20 per-person food-and-beverage minimum, which is not treated here as a ticket price. The venue provides separate TicketWeb purchase links for each of the four sets rather than a single engagement-wide ticket destination.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/sid-sriram-6/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sid Sriram",
+          "title": "Sidharth",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/sidharth/1699442247"
+        },
+        {
+          "artist": "Julius Rodriguez",
+          "title": "Evergreen",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/evergreen/1742244703"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "single engagement-wide official ticket URL"
+        ],
+        "note": "The exact Blue Note New York event page verifies the full billing, venue, both dates and all four set times, and exposes separate authorized TicketWeb destinations for each individual set. Because there is no single engagement-wide purchase destination in the verified source, official_tickets remains null rather than selecting one set arbitrarily. Exact Apple Music album pages are verified for Sid Sriram's Sidharth and Julius Rodriguez's Evergreen. No ticket face value or event-specific instrument assignment is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/sid-sriram-6/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue page verifies Sid Sriram with Julius Rodriguez & Austin Williamson at Blue Note Jazz Club on November 5-6, 2026, with 8:00 PM and 10:30 PM sets both nights; it also supplies the artist/project context and states that Blue Note/TicketWeb are the only authorized ticket sources."
+        },
+        {
+          "url": "https://www.bluenotejazz.com/la/tm-event/sid-sriram/",
+          "publisher": "Blue Note Los Angeles",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue page independently bills the same Sid Sriram / Julius Rodriguez / Austin Williamson trio for November 13, 2026 in Los Angeles; used only to test recurrence/scarcity, not to describe the New York performance."
+        },
+        {
+          "url": "https://www.pacegallery.com/events/austin-williamson-brent-hayes-edwards-for-voice-and-drum/",
+          "publisher": "Pace Gallery",
+          "checked_on": "2026-09-07",
+          "note": "Authoritative institutional profile identifies Austin Williamson as a musician/composer whose primary focus is drums and percussion, improvisation and unconventional composition; used for artist identity, not as proof of a specific instrument assignment at Blue Note."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sidharth/1699442247",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music album page for Sid Sriram's Sidharth."
+        },
+        {
+          "url": "https://music.apple.com/us/album/evergreen/1742244703",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music album page for Julius Rodriguez's Evergreen."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-with-authoritative-artist-context",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Core billing, dates, set times and venue were verified from Blue Note New York; same-trio recurrence was checked against Blue Note Los Angeles; Austin Williamson's broader percussion/improvisation identity was checked against Pace Gallery; listening destinations were verified on Apple Music. Repository searches found no matching New York event before publication. Stage 1 rests on the specific three-way cultural and improvisational interaction. Stage 2 assigns A+ after admission because the engagement merits active prioritization if New York is in play, while four New York sets plus a same-trio Los Angeles date one week later make a scarcity-tier claim unsustainable."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to go is the three-way language exchange. Sriram brings a voice shaped by Carnatic technique into songs that also carry R&B, indie and electronic instincts; Rodriguez is a genre-fluid jazz multi-instrumentalist, while Williamson's percussion practice comes out of improvisation and experimental composition. In a three-person Blue Note billing, those languages have very little arranging cushion between them, so the interaction itself becomes the event.",
+          "trip_verdict": "If New York is already in the corridor plan on November 5 or 6, I would actively make room for one of the four sets. I would not build a standalone DC-to-New York trip solely around it: the same billed trio appears at Blue Note Los Angeles a week later, so the pull is the musical fit and the small-room setting rather than a one-time-only claim.",
+          "listen_before": "Sid Sriram — Sidharth; Julius Rodriguez — Evergreen"
+        },
+        "es": {
+          "why_it_matters": "La razón para ir está en el cruce de tres lenguajes. Sriram lleva una voz formada en la tradición carnática a canciones que también absorben R&B, indie y electrónica; Rodriguez es un multiinstrumentista de jazz que se mueve entre géneros, mientras que la práctica de percusión de Williamson nace de la improvisación y la composición experimental. En una formación de sólo tres nombres dentro de Blue Note, esos lenguajes tienen muy poco colchón de arreglo entre sí: la interacción misma se vuelve el acontecimiento.",
+          "trip_verdict": "Si Nueva York ya entra en el corredor el 5 o 6 de noviembre, sí le haría espacio activamente a uno de los cuatro sets. No armaría un viaje DC–Nueva York exclusivamente alrededor de esta fecha: el mismo trío aparece en Blue Note Los Angeles una semana después, así que el atractivo está en el encaje musical y el cuarto pequeño, no en venderla como una oportunidad de una sola vez.",
+          "listen_before": "Sid Sriram — Sidharth; Julius Rodriguez — Evergreen"
+        }
+      }
+    }
+  ]
+}
