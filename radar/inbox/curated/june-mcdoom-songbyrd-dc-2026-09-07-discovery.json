@@ -1,0 +1,120 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "june-mcdoom-songbyrd-dc-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources. ALFIE's October 21 Yamamoto trio date and other current Yamamoto dates surfaced in this pass are already represented in canonical, curated, or processed intake, so no duplicate Yamamoto event was created. Repository searches for June McDoom, Songbyrd Music House, the October 23 date, and the stable event ID returned no RADAR representation before publication. Stage 1 admits June McDoom at Songbyrd because this specific local date lands one week after the October 16 release of her debut full-length Follow The Light, whose folk-over-dub language is tied concretely to the Jamaican sound-system environment she grew up in and to her grandfather Colin Smith's mento practice. That lineage, the new-record moment, and the local DC setting make the performance a Listening Notes discovery rather than a generic rising-artist booking. Stage 2 assigns A. This is worth knowing about and catching if the DC evening is open, but A+ would overstate the live context currently documented: no rare lineup, premiere, farewell, one-off setting, or unusually consequential live circumstance is verified, and adjacent tour dates show an active release tour. The recent/current intake was reviewed as a sanity check; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "june-mcdoom-songbyrd-washington-dc-2026-10-23",
+      "artist": "June McDoom",
+      "subtitle": "Follow The Light release tour",
+      "dates": {
+        "start": "2026-10-23",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "songbyrd-music-house-washington-dc",
+        "name": "Songbyrd Music House",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US",
+        "address": "540 Penn Street NE, Washington, DC"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Folk / dub / debut-album tour",
+      "genres": [
+        "Folk",
+        "Dub",
+        "Alternative"
+      ],
+      "musical_axes": [
+        "Cross-genre",
+        "Cultural context",
+        "Groove"
+      ],
+      "lineup": [
+        "June McDoom — billed artist"
+      ],
+      "factual_description": "Songbyrd Music House presents June McDoom on Friday, October 23, 2026 at 540 Penn Street NE in Washington, DC. The venue lists doors at 7:00 PM and also displays 7:00 PM in its date-and-time field; because it does not distinguish a separate performance start, no showtime is inferred. Songbyrd lists $20 / $25 ticket prices and links directly to the authorized DICE purchase destination. The venue's artist text describes McDoom's debut full-length Follow The Light as placing folk harmony over dub rhythm, rooted in a Jamaican household shaped by bass and sound systems; it also identifies her grandfather Colin Smith as a mento musician who played banjo and guitar and built rumba boxes. Jagjaguwar independently verifies Follow The Light as a 12-track album released October 16, 2026, one week before the Washington date. No support act or complete touring personnel are currently identified on the primary event page, so none are invented.",
+      "links": {
+        "official_event": "https://songbyrddc.com/event/june-mcdoom/",
+        "official_tickets": "https://link.dice.fm/Pf12506e8f4d"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 25,
+          "source_url": "https://songbyrddc.com/event/june-mcdoom/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "June McDoom",
+          "title": "Without You",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/song/6795561604"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "performance_start",
+          "complete_live_personnel"
+        ],
+        "note": "The exact event, authorized DICE destination, face-value range, doors, album-release context, and an exact Apple Music listening destination are verified. Songbyrd does not publish a distinct performance start or complete touring personnel for this date, so those details remain unresolved rather than inferred."
+      },
+      "sources": [
+        {
+          "url": "https://songbyrddc.com/event/june-mcdoom/",
+          "publisher": "Songbyrd Music House",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue page verifies Friday, October 23, 2026, Songbyrd Music House at 540 Penn Street NE, 7:00 PM doors, $20 / $25 ticket prices, the authorized DICE ticket link, and the Follow The Light folk/dub and family-mento context."
+        },
+        {
+          "url": "https://jagjaguwar.com/release/jag475/",
+          "publisher": "Jagjaguwar",
+          "checked_on": "2026-09-07",
+          "note": "Official label page verifies June McDoom's debut full-length Follow The Light, its October 16, 2026 release date, and its 12-track sequence."
+        },
+        {
+          "url": "https://music.apple.com/us/song/6795561604",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music destination verifies Without You as a track from Follow The Light and is used only as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository searches found no June McDoom, Songbyrd, October 23, or stable-ID representation before publication. Core event facts and the authorized ticket destination come from Songbyrd; the album release is independently verified by Jagjaguwar; Apple Music supplies the exact listening link. No separate showtime, support act, touring-band personnel, resale price, or scarcity claim was inferred. Priority was assigned only after Stage 1 admission. A reflects a worthwhile local release-tour discovery whose specific musical lineage is compelling, while the currently documented live context does not require active reprioritization or a scarcity tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Follow The Light arrives only a week before this DC stop, and McDoom's folk-over-dub method has a real lineage behind it: the bass culture of the Jamaican household where she grew up and her grandfather Colin Smith's mento practice meet a harmony-first folk sensibility. That gives Songbyrd a concrete Listening Notes thread — groove, family transmission, and cross-genre songcraft — rather than just another emerging-artist date.",
+          "trip_verdict": "If October 23 is open in DC, this is worth catching at Songbyrd. It is a local discovery date, not a night to reorganize a regional trip around.",
+          "listen_before": "June McDoom — Without You"
+        },
+        "es": {
+          "why_it_matters": "Follow The Light sale apenas una semana antes de esta fecha en DC, y la mezcla de folk y dub de McDoom tiene una genealogía real detrás: la cultura de bajos del hogar jamaiquino donde creció y el mento de su abuelo Colin Smith se encuentran con una manera de componer guiada por la armonía. Eso le da a Songbyrd una razón concreta para entrar al RADAR: groove, transmisión familiar y canción híbrida, no sólo otra fecha de una artista emergente.",
+          "trip_verdict": "Si el 23 de octubre está libre en DC, sí vale caer a Songbyrd. Es una buena fecha local de descubrimiento, no una razón para reorganizar un viaje regional.",
+          "listen_before": "June McDoom — Without You"
+        }
+      }
+    }
+  ]
+}
