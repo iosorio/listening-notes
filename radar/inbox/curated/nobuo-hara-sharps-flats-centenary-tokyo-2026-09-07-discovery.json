@@ -1,0 +1,133 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "nobuo-hara-sharps-flats-centenary-tokyo-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before searching or grading. Fresh Yamamoto research checked Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A traces, and credible Japanese-jazz sources; verified dates encountered were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Stage 1 admits this November 27 event because the specific live context joins the 75th anniversary of a Japanese big band founded by Nobuo Hara in 1951 with the centenary of Hara's birth, after the ensemble was restarted in 2024 following his 2021 death. The reason is the historically specific transmission of a major Japanese big-band repertory and institution, not genre or venue prestige. Stage 2 assigns S after an explicit scarcity challenge. A+ was considered and judged insufficient: the official event is specifically framed around a conjunction that cannot recur — the band's 75th anniversary and its founder's 100th birth anniversary — so missing this date means missing the centenary performance context even though the revived band continues to play other engagements. This is protect-the-night scarcity, not an automatic reward for longevity. Recent passes have been dominated by A/A+ discoveries; the S assignment was challenged against the current rubric rather than used to shape percentages. Repository-wide searches for Nobuo Hara, Sharps & Flats, the 75th anniversary, the centenary wording, and the November 27 I'M A SHOW date returned no existing RADAR record before publication. This batch adds A 0 / A+ 0 / S 1 / S+ 0.",
+  "events": [
+    {
+      "id": "nobuo-hara-sharps-flats-75th-centenary-im-a-show-tokyo-2026-11-27",
+      "artist": "Nobuo Hara and Sharps & Flats",
+      "subtitle": "75th Anniversary — Nobuo Hara Centenary",
+      "dates": {
+        "start": "2026-11-27",
+        "end": null
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "im-a-show-yurakucho-tokyo",
+        "name": "I'M A SHOW",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "rationale": "Concrete scarcity: the November 27 concert is explicitly billed as both Sharps & Flats' 75th anniversary and founder Nobuo Hara's centenary. Hara founded the band in 1951 and died in 2021; HARA Music Japan restarted the ensemble in 2024 around veteran members and the surviving repertory. That exact 75-years/100-years historical conjunction cannot recur. A+ was explicitly challenged and judged insufficient because, for a listener already in Greater Tokyo/Kanto, missing this date means missing the centenary performance context itself, even though the revived band has other 2026 appearances. The recommendation is to protect the night because of the event-specific anniversary frame, not merely because the band is historically important."
+      },
+      "category": "Japanese jazz / Big-band legacy / Centennial",
+      "genres": [
+        "Jazz",
+        "Big band"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Sharps & Flats — big band"
+      ],
+      "factual_description": "Sunrise Promotion presents Nobuo Hara and Sharps & Flats' 75th Anniversary — Nobuo Hara Centenary at I'M A SHOW in Yurakucho, Tokyo, on Friday, November 27, 2026, with doors at 5:00 PM and the concert at 6:00 PM. The official event bills Sharps & Flats and lists reserved seating at ¥8,800 including tax, with a separate drink purchase required. HARA Music Japan documents that Nobuo Hara founded Sharps & Flats in September 1951, that Hara died in 2021, and that the project restarted the band in 2024 around former members and its surviving arrangements and repertory. The current band project describes a 17-player live big-band format; individual personnel for the November 27 performance are not separately enumerated on the exact event page, so no member names are inferred for this record.",
+      "links": {
+        "official_event": "https://sunrisetokyo.com/detail/35644/",
+        "official_tickets": "https://eplus.jp/sf/detail/0011800001"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 8800,
+          "maximum": 8800,
+          "source_url": "https://eplus.jp/sf/detail/0011800001",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Nobuo Hara and His Sharps & Flats",
+          "title": "Nobuo Hara And His Sharps & Flats Essentials",
+          "kind": "playlist",
+          "apple_music_url": "https://music.apple.com/us/playlist/nobuo-hara-and-his-sharps-flats-essentials/pl.dd7627acf2ad4ce094523937a930c672"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact presenter event page, authorized eplus ticket page, official band history/revival context, date, doors/start time, billed ensemble, face-value ticket price, and exact Apple Music editorial playlist are verified. The event page does not enumerate individual November 27 personnel, so no member-level lineup is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://sunrisetokyo.com/detail/35644/",
+          "publisher": "Sunrise Promotion",
+          "checked_on": "2026-09-07",
+          "note": "Exact primary presenter page verifies the November 27, 2026 date, 5:00 PM doors, 6:00 PM start, I'M A SHOW, Sharps & Flats billing, ¥8,800 reserved-seat price, separate drink requirement, and HARA Music Japan as organizer/planner."
+        },
+        {
+          "url": "https://haramusicjapan.com/haranobuo/profile/",
+          "publisher": "HARA Music Japan / Nobuo Hara and Sharps & Flats",
+          "checked_on": "2026-09-07",
+          "note": "Official band profile documents the September 1951 founding, Nobuo Hara's 2021 death, the 2023 preservation project, the 2024 restart, and the band's long Japanese and international jazz history."
+        },
+        {
+          "url": "https://haramusicjapan.com/haranobuo/message/",
+          "publisher": "HARA Music Japan / Nobuo Hara and Sharps & Flats",
+          "checked_on": "2026-09-07",
+          "note": "Official project statement documents the post-Hara revival around former members, original repertory and arrangements, and the current 17-player fully live big-band concept."
+        },
+        {
+          "url": "https://eplus.jp/sf/detail/0011800001",
+          "publisher": "eplus",
+          "checked_on": "2026-09-07",
+          "note": "Authorized ticketing page independently confirms the November 27 centenary/75th-anniversary event at I'M A SHOW, 5:00 PM doors, 6:00 PM start, Sharps & Flats billing, and active general sale."
+        },
+        {
+          "url": "https://music.apple.com/us/playlist/nobuo-hara-and-his-sharps-flats-essentials/pl.dd7627acf2ad4ce094523937a930c672",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music editorial playlist for Nobuo Hara and His Sharps & Flats."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-band-and-authorized-ticket-sources",
+        "note": "Event facts are verified against Sunrise Promotion and authorized eplus ticketing; the historical and revival context is verified against HARA Music Japan's official band pages. Repository-wide duplicate searches returned no Nobuo Hara / Sharps & Flats centenary or November 27 I'M A SHOW RADAR record before publication. Stage 1 admission rests on the specific centenary-plus-75th-anniversary live context. Priority was assigned only after admission; A+ was explicitly challenged and rejected because the anniversary conjunction itself cannot recur, supporting protect-the-night treatment without elevating the event to alter-plans status."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is Japanese jazz history being played rather than displayed. Hara started Sharps & Flats in 1951; after his death, the band was rebuilt around veteran players and the arrangements and repertory it had carried for decades. The November concert places that living inheritance inside two dates that meet only once: 75 years of the band and 100 years since Hara's birth. The appeal is hearing a big-band language that helped define postwar Japanese jazz passed forward by an ensemble deliberately built to keep it physical, acoustic, and collective.",
+          "trip_verdict": "If late November overlaps with Tokyo, protect the evening in Yurakucho and build the night around this concert. Within a Kanto itinerary, the centenary date is worth choosing over a routine club booking because the historical frame disappears once the anniversary passes; it does not need to become a stand-alone transpacific trip to matter that strongly on the ground.",
+          "listen_before": "Nobuo Hara And His Sharps & Flats Essentials"
+        },
+        "es": {
+          "why_it_matters": "Aquí la historia del jazz japonés no está en una vitrina: está tocando. Hara fundó Sharps & Flats en 1951 y, después de su muerte, la banda volvió a levantarse alrededor de músicos veteranos, arreglos y repertorio acumulados durante décadas. El concierto de noviembre junta dos fechas que sólo pueden coincidir una vez: 75 años de la banda y 100 años del nacimiento de Hara. Lo atractivo es escuchar cómo un lenguaje de big band que ayudó a construir el jazz japonés de posguerra se transmite en vivo, con una agrupación empeñada en conservarlo físico, acústico y colectivo.",
+          "trip_verdict": "Si finales de noviembre coincide con Tokio, protegería esa noche en Yurakucho y armaría la velada alrededor del concierto. Dentro de un itinerario en Kanto, escogería esta fecha por encima de una noche de club más rutinaria porque el marco del centenario desaparece cuando pasa el aniversario; no necesita justificar por sí sola un viaje transpacífico para tener ese peso una vez estando allá.",
+          "listen_before": "Nobuo Hara And His Sharps & Flats Essentials"
+        }
+      }
+    }
+  ]
+}
