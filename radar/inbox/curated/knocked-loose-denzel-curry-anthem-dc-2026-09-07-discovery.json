@@ -1,0 +1,132 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "knocked-loose-denzel-curry-anthem-dc-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication. Fresh Yamamoto research checked BODY&SOUL's current September schedule and current repository intake; the September 26 BODY&SOUL Grand Finale and other future Yamamoto appearances surfaced in this pass were already represented in canonical, curated, or processed intake, so no duplicate Yamamoto event was created. Broader US-corridor research surfaced Knocked Loose and Denzel Curry at The Anthem on October 3 with Superheaven and Boundaries. Repository searches for the artist pairing, venue/date, and proposed stable ID returned no existing RADAR representation before publication. Stage 1 admits the performance for a specific live-context reason: one local bill deliberately places contemporary hardcore/metal and hip-hop headliners together, with two additional heavy acts, making the genre collision and four-act room the event rather than fame or venue prestige. Stage 2 assigns A+: the bill is unusually coherent with Listening Notes' heavy/cross-genre thread and is actively worth making room for locally. A would understate the strength of the package; S is not warranted because the pairing is part of a multi-city North American run and no farewell, premiere, one-off reunion, or other concrete scarcity fact is verified. Recent/current intake remains centered on A and A+ with scarcity tiers reserved for rarer contexts; this batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "knocked-loose-denzel-curry-the-anthem-washington-dc-2026-10-03",
+      "artist": "Knocked Loose & Denzel Curry",
+      "subtitle": "with Superheaven and Boundaries",
+      "dates": {
+        "start": "2026-10-03",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "901 Wharf St SW, Washington, DC 20024"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Hardcore / hip-hop co-headline / heavy cross-genre bill",
+      "genres": [
+        "Hardcore",
+        "Metal",
+        "Hip-Hop/Rap"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Knocked Loose — co-headliner",
+        "Denzel Curry — co-headliner",
+        "Superheaven — support",
+        "Boundaries — support"
+      ],
+      "factual_description": "I.M.P. presents Knocked Loose and Denzel Curry with Superheaven and Boundaries at The Anthem in Washington, DC on Saturday, October 3, 2026, with doors at 5:30 PM and the show at 7:00 PM. Live Nation independently confirms the October 3, 7:00 PM Anthem date and the same four-act lineup. The exact Apple Music pages identify Knocked Loose's You Won't Go Before You're Supposed To as a 2024 metal album and Denzel Curry's Strictly 4 The Scythe as a 2026 hip-hop/rap release. No face-value ticket price is published in the verified primary/authorized pages used here, so price fields remain null rather than borrowing resale values.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/knocked-loose-denzel-curry/",
+        "official_tickets": "https://www.livenation.com/event/17A8v0G653lwaJA/knocked-loose-denzel-curry"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.livenation.com/event/17A8v0G653lwaJA/knocked-loose-denzel-curry",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Knocked Loose",
+          "title": "You Won't Go Before You're Supposed To",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/you-wont-go-before-youre-supposed-to/1732119298"
+        },
+        {
+          "artist": "Denzel Curry",
+          "title": "Strictly 4 The Scythe",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/strictly-4-the-scythe/1888625054"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact I.M.P. event, authorized Live Nation ticket destination, date, doors/show time, full announced bill and exact Apple Music listening destinations are verified. Official face-value price is not stated in the verified pages and is therefore left null; numeric price is not required for enrichment completeness."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/knocked-loose-denzel-curry/",
+          "publisher": "I.M.P.",
+          "checked_on": "2026-09-07",
+          "note": "Primary promoter page verifies Saturday, October 3, 2026 at The Anthem, 5:30 PM doors, 7:00 PM show, venue address, and the complete announced billing of Knocked Loose, Denzel Curry, Superheaven and Boundaries."
+        },
+        {
+          "url": "https://www.livenation.com/event/17A8v0G653lwaJA/knocked-loose-denzel-curry",
+          "publisher": "Live Nation",
+          "checked_on": "2026-09-07",
+          "note": "Authorized ticketing page independently verifies October 3, 2026, 7:00 PM, The Anthem in Washington, DC, and the same four-act lineup."
+        },
+        {
+          "url": "https://music.apple.com/us/album/you-wont-go-before-youre-supposed-to/1732119298",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music destination for Knocked Loose's You Won't Go Before You're Supposed To, identified as a 2024 metal album; used as listening preparation."
+        },
+        {
+          "url": "https://music.apple.com/us/album/strictly-4-the-scythe/1888625054",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music destination for Denzel Curry's 2026 Strictly 4 The Scythe; used as current listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-promoter-authorized-ticket-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository searches found no Knocked Loose/Denzel Curry Anthem October 3 representation or stable-ID collision before publication. Core event facts come from I.M.P. and are independently corroborated by Live Nation. Stage 1 admission is grounded in the specific four-act hardcore/hip-hop/heavy collision. Priority was assigned only after admission: A+ reflects a local package actively worth making room for, while the multi-city tour and absence of a unique scarcity fact rule out S/S+. No ticket price, additional personnel, or resale data was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason is the collision, not either name by itself. Knocked Loose's physical, fractured hardcore and Denzel Curry's high-impact Southern rap share a taste for pressure and release without pretending to be the same music; putting them on one co-headlining bill, then adding Superheaven and Boundaries, turns The Anthem into a deliberately heavy cross-genre room rather than a routine tour stop.",
+          "trip_verdict": "If October 3 is open in DC, I would actively make room for The Anthem and take the full four-act bill rather than cherry-picking a headliner. The same pairing is touring several cities, so there is no reason to chase it elsewhere.",
+          "listen_before": "Knocked Loose — You Won't Go Before You're Supposed To; Denzel Curry — Strictly 4 The Scythe"
+        },
+        "es": {
+          "why_it_matters": "La razón es el choque, no cualquiera de los dos nombres por separado. El hardcore físico y quebrado de Knocked Loose y el rap sureño de alto impacto de Denzel Curry trabajan la presión y la descarga desde lenguajes distintos; ponerlos como co-headliners y sumar a Superheaven y Boundaries convierte The Anthem en una noche deliberadamente pesada y cross-genre, no en una parada rutinaria de gira.",
+          "trip_verdict": "Si el 3 de octubre está libre en DC, sí le haría espacio a The Anthem y llegaría para vivir la cartelera completa en vez de escoger sólo un headliner. La misma pareja recorre varias ciudades, así que no hace falta perseguirla fuera de Washington.",
+          "listen_before": "Knocked Loose — You Won't Go Before You're Supposed To; Denzel Curry — Strictly 4 The Scythe"
+        }
+      }
+    }
+  ]
+}
