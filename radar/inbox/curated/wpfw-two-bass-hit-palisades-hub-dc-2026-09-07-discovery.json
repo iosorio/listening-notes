@@ -1,0 +1,104 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wpfw-two-bass-hit-palisades-hub-dc-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before web research or grading; docs/DATA_MODEL.md was checked before publication. Fresh Yamamoto research did not produce a new unrepresented appearance. Broader DMV research surfaced WPFW's fourth 50th-year benefit concert, Two Bass Hit, at Palisades Hub on September 13. Repository searches for WPFW, Two Bass Hit, Herman Burney and Kriss Funn returned no existing RADAR representation before publication. Stage 1 admits this performance for a specific local-music reason: WPFW has constructed a bass-centered Washington/Baltimore pairing with Herman Burney alongside trombonist Reginald Cyntje and Kris Funn reviving his DC JazzPrix-winning CornerStore group, explicitly framed as a tip of the hat to Ray Brown and as part of the station's 50th-year benefit series. The reason is the DMV bass dialogue and station-history context, not generic jazz programming. Stage 2 assigns A: this is worthy RADAR context and a useful local afternoon to catch if convenient, but the currently verified facts do not demand actively reorganizing the day around it. No scarcity tier is considered. Recent/current intake remains centered on A and A+ with S/S+ rare; this batch adds A 1 / A+ 0 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "wpfw-two-bass-hit-palisades-hub-washington-dc-2026-09-13",
+      "artist": "Herman Burney + Kris Funn / CornerStore",
+      "subtitle": "WPFW 50th-year benefit — Two Bass Hit",
+      "dates": {
+        "start": "2026-09-13",
+        "end": null
+      },
+      "showtimes": [
+        "16:00"
+      ],
+      "venue": {
+        "id": "palisades-hub-washington-dc",
+        "name": "Palisades Hub",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US",
+        "address": "5200 Cathedral Avenue NW, Washington, DC 20016"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV jazz / WPFW 50th-year benefit",
+      "genres": [
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cultural context",
+        "Groove"
+      ],
+      "lineup": [
+        "Herman Burney — bass",
+        "Reginald Cyntje — trombone",
+        "Kris Funn — bass",
+        "CornerStore — ensemble"
+      ],
+      "factual_description": "WPFW 89.3 FM presents its fourth 50th-year benefit concert, An Afternoon of Jazz & Justice: Two Bass Hit, on Sunday, September 13, 2026 from 4:00 PM to 6:00 PM at Palisades Hub, 5200 Cathedral Avenue NW in Washington, DC. WPFW describes the program as a tip of the hat to bassist Ray Brown and pairs Washington bassist Herman Burney with trombonist Reginald Cyntje while Baltimore bassist Kris Funn brings back his DC JazzPrix-winning group CornerStore. WPFW lists general admission at $35, a two-ticket bundle at $50, and student admission at $20 with valid ID. The primary page links directly to an authorized Eventbrite ticket destination. Individual CornerStore personnel beyond Funn are not identified on the event page and are not inferred.",
+      "links": {
+        "official_event": "https://sapphire-chicken-6way.squarespace.com/station-events/wpfw-4th-50th-year-benefit-concert-an-afternoon-of-jazz-justice",
+        "official_tickets": "https://www.eventbrite.com/e/wpfw-4th-50th-year-benefit-concert-an-afternoon-of-jazz-justice-tickets-1996315079141"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 20,
+          "maximum": 35,
+          "source_url": "https://sapphire-chicken-6way.squarespace.com/station-events/wpfw-4th-50th-year-benefit-concert-an-afternoon-of-jazz-justice",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact_apple_music_destination",
+          "complete_cornerstore_personnel"
+        ],
+        "note": "The primary WPFW event page verifies the exact date, time, venue, billing, Ray Brown framing, ticket prices and authorized Eventbrite destination. It does not identify every CornerStore member, and no exact Apple Music preparation link was verified in this pass, so those components remain pending rather than inferred."
+      },
+      "sources": [
+        {
+          "url": "https://sapphire-chicken-6way.squarespace.com/station-events/wpfw-4th-50th-year-benefit-concert-an-afternoon-of-jazz-justice",
+          "publisher": "WPFW 89.3 FM",
+          "checked_on": "2026-09-07",
+          "note": "Primary station/presenter page verifies Sunday, September 13, 2026, 4:00-6:00 PM at Palisades Hub; the Two Bass Hit / Ray Brown framing; Herman Burney with Reginald Cyntje and Kris Funn with CornerStore; $35 general, $50 two-ticket bundle and $20 student pricing; and the authorized Eventbrite ticket link."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-source",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository searches found no WPFW Two Bass Hit September 13 representation before publication. Core performance and pricing facts come from WPFW's own event page. Stage 1 admission is grounded in the specific DMV bass pairing, CornerStore return, Ray Brown reference and WPFW 50th-year benefit context. Priority was assigned only after admission. A captures a worthwhile local program to attend if convenient without overstating urgency. Unannounced CornerStore personnel and listening links were not inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The useful hook is not simply another Sunday jazz set: WPFW has built Two Bass Hit around a Washington/Baltimore bass conversation, with Herman Burney beside Reginald Cyntje and Kris Funn bringing back his DC JazzPrix-winning CornerStore group, all under a Ray Brown nod and the station's 50th-year benefit series. It is a compact piece of DMV jazz ecology — two cities, two bass voices and the community station that has documented this scene for decades.",
+          "trip_verdict": "If Sunday afternoon is open in DC, this is worth the short local detour to Palisades Hub. It is a good piece of DMV context to catch when convenient rather than a reason to reshape a regional trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente otro concierto de jazz en domingo: WPFW armó Two Bass Hit como una conversación de bajos entre Washington y Baltimore, con Herman Burney junto a Reginald Cyntje y Kris Funn recuperando a su grupo CornerStore, ganador del DC JazzPrix, todo bajo un guiño a Ray Brown y la serie de beneficios por los 50 años de la estación. Es una pieza compacta de la ecología jazzística del DMV — dos ciudades, dos voces de bajo y la radio comunitaria que lleva décadas documentando esta escena.",
+          "trip_verdict": "Si la tarde del domingo está libre en DC, vale la desviación corta a Palisades Hub. Es buen contexto del DMV para aprovechar si cuadra, no una razón para rearmar un viaje regional.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
