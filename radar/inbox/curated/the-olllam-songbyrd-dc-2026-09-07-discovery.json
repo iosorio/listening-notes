@@ -1,0 +1,122 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-olllam-songbyrd-dc-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources. Current Yamamoto dates surfaced in this pass, including the October 21 ALFIE trio date, are already represented in repository intake, so no duplicate Yamamoto event was created. Repository searches for the olllam, Songbyrd Music House, the November 6 date, and the stable event ID returned no RADAR representation before publication. Stage 1 admits the olllam at Songbyrd because the specific project has unusually strong instrumental identity: uilleann pipes and whistles, intricate drumming, cyclical trance-like composition, Irish traditional language, and a Detroit post-rock/psychedelic sensibility are not generic genre signals but the core mechanics of the ensemble's music. The local DC room makes that cross-Atlantic instrumental proposition especially useful to surface. Stage 2 assigns A+. This is a local night worth actively making room for because the instrumental concept is unusually aligned with Listening Notes, but it is not S: the artist's own current tour listing shows a broad North American run around the Washington date, including New York, Cambridge, Toronto, Detroit, Chicago and later western dates, and no farewell, premiere, unique one-off lineup or terminal circumstance is documented. The recent/current intake was reviewed as a sanity check; this batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "the-olllam-songbyrd-washington-dc-2026-11-06",
+      "artist": "the olllam",
+      "subtitle": "Transatlantic neo-acoustic Celtic post-rock collective",
+      "dates": {
+        "start": "2026-11-06",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "songbyrd-music-house-washington-dc",
+        "name": "Songbyrd Music House",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US",
+        "address": "540 Penn Street NE, Washington, DC"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Instrumental Celtic / post-rock / transatlantic collective",
+      "genres": [
+        "Folk",
+        "World",
+        "Post-rock",
+        "Alternative"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Cross-genre",
+        "Groove"
+      ],
+      "lineup": [
+        "the olllam — billed instrumental collective"
+      ],
+      "factual_description": "Songbyrd Music House presents the olllam on Friday, November 6, 2026 at 540 Penn Street NE in Washington, DC. The venue lists doors at 7:00 PM and also displays 7:00 PM in its date-and-time field; because it does not distinguish a separate performance start, no showtime is inferred. Songbyrd lists $27 / $32 ticket prices and links directly to the authorized DICE purchase destination. The venue describes the olllam as a transatlantic collective marrying instrumental virtuosity, Irish tradition and Detroit post-rock/psychedelic sensibility, with cyclical trance-like melodies and complex rhythmic writing; it identifies the project's compositional history around uilleann pipes/whistles and drums and notes more recent guitar, keyboards and additional piping in the live collective. Because the primary Washington event page does not explicitly lock a complete person-by-person touring lineup to November 6, only the billed collective is recorded as the verified lineup. The artist's own Bandcamp tour calendar independently lists Songbyrd on November 6 among a multi-city North American run, which is used as recurrence context rather than as a source for unverified personnel.",
+      "links": {
+        "official_event": "https://songbyrddc.com/event/the-olllam/",
+        "official_tickets": "https://link.dice.fm/I1e1fd2b61b6"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 27,
+          "maximum": 32,
+          "source_url": "https://songbyrddc.com/event/the-olllam/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "the olllam",
+          "title": "Elllegy",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/elllegy/1612633907"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "performance_start",
+          "complete_november_6_live_personnel"
+        ],
+        "note": "The exact event, authorized DICE destination, face-value range, doors, artist tour recurrence, project instrumentation/context, and exact Apple Music album destination are verified. Songbyrd does not publish a separate performance start or an event-specific complete touring lineup for November 6, so those details remain unresolved rather than inferred from other tour dates."
+      },
+      "sources": [
+        {
+          "url": "https://songbyrddc.com/event/the-olllam/",
+          "publisher": "Songbyrd Music House",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue page verifies Friday, November 6, 2026 at Songbyrd Music House, 540 Penn Street NE, 7:00 PM doors, $27 / $32 ticket prices, the authorized DICE purchase link, and the project's transatlantic Irish-trad / Detroit post-rock instrumental identity."
+        },
+        {
+          "url": "https://theolllam.bandcamp.com/",
+          "publisher": "the olllam",
+          "checked_on": "2026-09-07",
+          "note": "Artist-controlled Bandcamp page independently lists the November 6 Songbyrd date and surrounding North American tour stops, establishing that the Washington performance is part of an active tour rather than a singular one-off."
+        },
+        {
+          "url": "https://music.apple.com/us/album/elllegy/1612633907",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music destination verifies the olllam's 2022 album Elllegy, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-artist-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository searches found no the olllam, Songbyrd November 6, or stable-ID representation before publication. Core Washington facts and the authorized ticket destination come from Songbyrd; the artist-controlled Bandcamp calendar corroborates the date and active-tour recurrence; Apple Music supplies the exact listening destination. No distinct performance start, complete November 6 personnel, resale price, or scarcity claim was inferred. Priority was assigned only after Stage 1 admission. A+ reflects a local performance whose unusual instrumental language is worth actively making room for, while S is rejected because the project is touring broadly and no rare one-off live circumstance is documented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the sound itself: uilleann pipes and whistles moving through cyclical, trance-like writing while complex drums and a Detroit post-rock sensibility pull Irish traditional language somewhere else entirely. That combination of instrumental identity, groove, and progressive structure is unusually close to the center of Listening Notes, and Songbyrd puts it in a small local room instead of asking for a regional trip.",
+          "trip_verdict": "Make room for this one if November 6 is open in DC. The tour continues through several North American cities, so there is no reason to chase another stop if Washington works, but locally this is more than a convenient fallback.",
+          "listen_before": "the olllam — Elllegy"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el sonido mismo: uilleann pipes y whistles metidos en escritura cíclica, casi hipnótica, mientras una batería compleja y una sensibilidad de post-rock de Detroit llevan la tradición irlandesa hacia otro lugar. Esa mezcla de identidad instrumental, groove y estructura progresiva cae muy cerca del centro de Listening Notes, y Songbyrd la pone en una sala local pequeña sin pedir un viaje regional.",
+          "trip_verdict": "Si el 6 de noviembre está libre en DC, sí le haría espacio. La gira sigue por varias ciudades de Norteamérica, así que no hace falta perseguir otra parada si Washington funciona, pero localmente esto es bastante más que un plan de relleno.",
+          "listen_before": "the olllam — Elllegy"
+        }
+      }
+    }
+  ]
+}
