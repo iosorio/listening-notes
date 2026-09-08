@@ -1,0 +1,35 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "charles-lloyd-blue-note-new-york-bill-frisell-material-update-2026-09-08-001",
+  "created_on": "2026-09-08",
+  "notes": "Material factual-update research for the existing November 18-19, 2026 Charles Lloyd Quartet Blue Note New York RADAR record. Blue Note New York's current exact event page and Charles Lloyd's current official calendar now identify Bill Frisell as the previously TBA fourth member, completing the announced quartet with Larry Grenadier and Kweku Sumbry. The current existing-event enrichment contract forbids changing lineup, subtitle, factual_description, priority, or editorial copy, so this handoff records fresh primary-source/provenance evidence without silently altering radar/events.json. A separate factual/editorial correction is required. The existing processed creation artifact carries priority S; under the current scarcity rubric that priority should be explicitly re-reviewed during correction because the same quartet is also announced for Santa Barbara on November 12, Minneapolis on November 15, and NJPAC on November 21, while the Blue Note engagement itself offers four sets across two nights. No priority mutation is attempted here.",
+  "events": [
+    {
+      "id": "charles-lloyd-quartet-blue-note-new-york-2026-11-18",
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/charles-lloyd-quartet-featuring-tba-larry-grenadier-kweku-sumbry-3/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-08",
+          "note": "Exact primary event page now bills Charles Lloyd Quartet featuring Bill Frisell, Larry Grenadier & Kweku Sumbry and confirms four performances: November 18 and 19 at 8:00 PM and 10:30 PM each night. The legacy URL slug still contains 'tba', but the live page title and billing have been updated to Bill Frisell."
+        },
+        {
+          "url": "https://charleslloyd.com/calendar/",
+          "publisher": "Charles Lloyd official calendar",
+          "checked_on": "2026-09-08",
+          "note": "Official artist calendar lists November 18-19 at Blue Note New York as Charles Lloyd Quartet featuring Bill Frisell, Larry Grenadier and Kweku Sumbry. The same current calendar also lists this quartet at Lobero Theatre on November 12, Dakota Jazz on November 15 and NJPAC on November 21."
+        }
+      ],
+      "provenance": {
+        "status": "material-factual-change-detected",
+        "note": "Two current primary sources resolve the previously TBA fourth member as Bill Frisell. No canonical lineup, subtitle, factual-description, priority or editorial field is modified because the current existing-event enrichment workflow permits only links, listening recommendations, enrichment metadata, sources and provenance; the factual correction and any current-rubric priority recalibration require a separate factual/editorial review.",
+        "recorded_on": "2026-09-08"
+      }
+    }
+  ]
+}
