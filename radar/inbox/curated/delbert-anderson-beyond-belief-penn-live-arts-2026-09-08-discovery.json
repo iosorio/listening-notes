@@ -1,0 +1,133 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "delbert-anderson-beyond-belief-penn-live-arts-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Tsuyoshi Yamamoto checks covered BODY&SOUL's current September schedule, Jazz House ALFIE and schedule traces, Space M&A leads, Yamamoto schedule searches, KEYSTONE CLUB TOKYO and credible Japanese-jazz sources. The Yamamoto appearances resurfacing in this pass, including the September 9 Chika Toyoda date and September 26 Final Groove with TOKU at BODY&SOUL, are already represented in processed/current RADAR intake; no duplicate Yamamoto record was created. Broader US-corridor research surfaced Delbert Anderson Quartet at Penn Live Arts on January 24, 2027. Repository searches for Delbert Anderson, Beyond Belief, and the proposed stable ID returned no matching RADAR event. Stage 1 admits the performance because Penn Live Arts commissioned Beyond Belief as a multi-part meditation on Navajo history and the Navajo Nation's broken relationship with America, and presents its world premiere in Anderson's Philadelphia debut; the specific new work, Diné musical language, historical subject, quartet identity and live premiere context—not genre or venue prestige—are the reason for admission. Stage 2 assigns A+. An explicit S challenge was performed: the world-premiere status is genuinely one-time, but Penn does not announce the work as a farewell, final performance or otherwise non-repeatable after the premiere, and A+ still captures the recommendation to actively make room for the concert without inflating every commissioned premiere into a scarcity tier. Recent/current RADAR intake was checked as a shape sanity test; this addition strengthens the A/A+ base rather than making S/S+ routine. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "delbert-anderson-quartet-beyond-belief-harold-prince-theatre-2027-01-24",
+      "artist": "Delbert Anderson Quartet",
+      "subtitle": "World premiere of Beyond Belief",
+      "dates": {
+        "start": "2027-01-24",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "harold-prince-theatre-penn-live-arts-philadelphia",
+        "name": "Harold Prince Theatre",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Commissioned world premiere / Diné jazz / jazz-funk",
+      "genres": [
+        "Jazz",
+        "Funk",
+        "Indigenous jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Delbert Anderson — trumpet",
+        "Robert Muller — keys",
+        "Khalill Brown — drums",
+        "Evan Suiter — bass"
+      ],
+      "factual_description": "Penn Live Arts presents the Delbert Anderson Quartet on Sunday, January 24, 2027 at 7:00 PM in Harold Prince Theatre. The engagement is Anderson's Philadelphia debut and features the world premiere of the Penn Live Arts-commissioned Beyond Belief, described by the presenter as a multi-part meditation on Navajo history and the tribe's broken relationship with America. Penn describes Anderson's quartet language as a blend of traditional Diné spinning songs with jazz and funk. Anderson's current official quartet page names Delbert Anderson on trumpet, Robert Muller on keys, Khalill Brown on drums and Evan Suiter on bass. The current Penn ticketing page verifies the exact date, 7:00 PM time and Harold Prince Theatre; no stable face-value ticket price is exposed in the accessible page, so no price is recorded.",
+      "links": {
+        "official_event": "https://pennlivearts.org/event/DelbertAnderson27",
+        "official_tickets": "https://tickets.pennlivearts.org/0/97823"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://tickets.pennlivearts.org/0/97823",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Delbert Anderson Trio",
+          "title": "Manitou",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/manitou/937406798"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Penn Live Arts' exact event and ticketing pages verify January 24, 2027, 7:00 PM, Harold Prince Theatre, the Philadelphia-debut context, the commissioned world premiere and the Beyond Belief program framing. Delbert Anderson's official quartet page verifies the current quartet personnel, and the Apple Music destination is the exact album page for Manitou. No face-value price is inferred because the accessible ticketing page does not expose a stable amount."
+      },
+      "sources": [
+        {
+          "url": "https://pennlivearts.org/event/DelbertAnderson27",
+          "publisher": "Penn Live Arts",
+          "checked_on": "2026-09-08",
+          "note": "Exact primary event page verifies January 24, 2027 in Harold Prince Theatre, 7:00 PM, Delbert Anderson Quartet, Philadelphia debut, and the world premiere of Penn Live Arts-commissioned Beyond Belief, a multi-part meditation on Navajo history and the tribe's broken relationship with America."
+        },
+        {
+          "url": "https://tickets.pennlivearts.org/0/97823",
+          "publisher": "Penn Live Arts Ticketing",
+          "checked_on": "2026-09-08",
+          "note": "Exact authorized ticket page verifies January 24, 2027 at 7:00 PM in Harold Prince Theatre. No stable face-value price is exposed in the accessible page."
+        },
+        {
+          "url": "https://delbertanderson.com/delbert-anderson-quartet",
+          "publisher": "Delbert Anderson",
+          "checked_on": "2026-09-08",
+          "note": "Official artist quartet page identifies the current Delbert Anderson Quartet as Delbert Anderson (trumpet), Robert Muller (keys), Khalill Brown (drums), and Evan Suiter (bass), and describes the project's Diné/jazz/funk language."
+        },
+        {
+          "url": "https://delbertanderson.com/schedule",
+          "publisher": "Delbert Anderson",
+          "checked_on": "2026-09-08",
+          "note": "Official artist schedule independently lists Delbert Anderson Quartet at Annenberg Center for the Performing Arts in Philadelphia on January 24, 2027 at 7:00 PM."
+        },
+        {
+          "url": "https://music.apple.com/us/album/manitou/937406798",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page for The Delbert Anderson Trio's Manitou."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-and-ticketing-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts, world-premiere and commission status, historical subject, date, time and venue come from Penn Live Arts primary materials. The artist's own schedule independently confirms the engagement, and the artist's current quartet page supports the recorded personnel. Repository searches by artist, work title and proposed stable ID found no matching canonical, curated or processed RADAR event before publication. Priority was assigned only after Stage 1 admission. A+ was retained after explicitly challenging S: the premiere itself happens only once, but no verified farewell, final performance or non-repeatable post-premiere context makes protect-the-night language necessary."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is new work with a reason to exist in the room. Anderson brings Diné spinning-song practice into a quartet language already shaped by jazz and funk, then uses that vocabulary for Beyond Belief, a Penn-commissioned meditation on Navajo history and the damaged relationship between the Navajo Nation and the United States. The Philadelphia debut and world premiere make the date more than a tour stop: it is a culturally specific piece entering the live repertoire in public for the first time. Actively make room for it.",
+          "trip_verdict": "From the DMV, this is worth building a dedicated Philadelphia evening around if the January weekend is open. I would pair the concert with a Philadelphia day rather than reorganize a larger trip solely around the premiere.",
+          "listen_before": "The Delbert Anderson Trio — Manitou"
+        },
+        "es": {
+          "why_it_matters": "Aquí la obra nueva tiene una razón concreta para existir en esa sala. Anderson lleva la tradición de los Diné spinning songs a un lenguaje de cuarteto atravesado por jazz y funk, y usa ese vocabulario en Beyond Belief, una comisión de Penn que medita sobre la historia navajo y la relación dañada entre la Nación Navajo y Estados Unidos. El debut en Filadelfia y el estreno mundial hacen que la fecha sea más que otra parada de gira: es una obra culturalmente específica entrando por primera vez al repertorio en vivo y en público. Sí vale abrirle espacio.",
+          "trip_verdict": "Desde el DMV, sí armaría una salida dedicada a Filadelfia si ese fin de semana de enero está libre. La combinaría con un día en la ciudad en vez de reorganizar un viaje más grande únicamente alrededor del estreno.",
+          "listen_before": "The Delbert Anderson Trio — Manitou"
+        }
+      }
+    }
+  ]
+}
