@@ -1,0 +1,128 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kuniko-kato-reich90-merkin-hall-new-york-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before grading or publication. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; the future Yamamoto appearances surfaced were already represented in canonical/curated/processed intake, so no duplicate was created. Broader corridor research found REICH90 by Kuniko Kato & Musicians at Merkin Hall on October 14, 2026. Repository searches for REICH90, Kuniko Kato at Merkin Hall, and the proposed stable ID returned no matching RADAR record before publication. Stage 1 admits this performance for a specific live context: Kato leads a named group of younger Japanese musicians through an all-Steve-Reich percussion program during Reich's 90th-birthday cycle, and the Office of Kuniko Kato explicitly announces that Reich himself will attend the New York performance. Stage 2 assigns S only after a scarcity challenge. The REICH90 project tours multiple North American cities, so the repertoire and ensemble are not one-off; however, the New York date is the only currently announced stop with Reich in personal attendance, creating a historically bounded composer-interpreter-next-generation encounter in the city associated with his work. A+ would understate the genuine-regret-if-missed character of that exact corridor opportunity. S+ is not warranted because Reich is attending rather than performing, the repertoire is established rather than premiered, and the project continues on tour. Recent/current intake was used only as a sanity check: recent additions remain predominantly A/A+ with S uncommon, and this S assignment rests on the event-specific scarcity fact rather than a quota.",
+  "events": [
+    {
+      "id": "kuniko-kato-reich90-merkin-hall-new-york-2026-10-14",
+      "artist": "Kuniko Kato & Musicians",
+      "subtitle": "REICH90 — Steve Reich Project 2026",
+      "dates": {
+        "start": "2026-10-14",
+        "end": null
+      },
+      "showtimes": [
+        "14:00"
+      ],
+      "venue": {
+        "id": "merkin-hall-kaufman-music-center-new-york",
+        "name": "Merkin Hall at Kaufman Music Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US",
+        "address": "129 West 67th Street, New York, NY 10023"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "rationale": "Scarcity challenge: REICH90 is a multi-city North American tour, so neither this repertoire nor Kato's ensemble is unique to New York. The concrete non-recurring fact is that the Office of Kuniko Kato explicitly announces Steve Reich himself in personal attendance at the October 14 Merkin Hall performance during his 90th-birthday cycle, while the other announced tour stops do not carry that attendance billing. Would A+ still capture the recommendation? No: for an accessible corridor date, missing the exact conjunction of a major living composer at his 90th-birthday celebration, Kato's long Reich-interpreter relationship, and a younger Japanese percussion ensemble performing the work in front of him would create genuine regret. S is warranted; S+ is not, because Reich is attending rather than performing, no premiere or farewell is announced, and the project continues across several cities."
+      },
+      "category": "Living master / Japanese percussion / 90th-birthday cultural exchange",
+      "genres": [
+        "Contemporary classical",
+        "Minimalism",
+        "Percussion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Kuniko Kato",
+        "Koichi Hosono",
+        "Karin Tozaki",
+        "Haruka Aoyagi",
+        "Misaki Matsuno"
+      ],
+      "factual_description": "NPO Artsworks presents REICH90 by Kuniko Kato & Musicians at Merkin Hall at Kaufman Music Center on Wednesday, October 14, 2026 at 2:00 PM. Kaufman's exact event page names Kuniko Kato, Koichi Hosono, Karin Tozaki, Haruka Aoyagi, and Misaki Matsuno and lists an all-Steve-Reich program: Drumming Part I, Nagoya Marimbas, Piano Phase in Kato's vibraphone arrangement, and Mallet Quartet. General public tickets are listed at $55 regular and $75 prime, with a separate $35 senior/student discount available by telephone. The Office of Kuniko Kato's August 26 tour announcement states that Steve Reich will be in personal attendance at the New York performance; it also documents a broader REICH90 North American route through Nashville, New York, Los Angeles, Vancouver, and Indianapolis, so Reich's announced New York attendance—not the touring repertoire itself—is the specific scarcity fact used in the editorial priority review.",
+      "links": {
+        "official_event": "https://www.kaufmanmusiccenter.org/mch/event/reich90-by-kuniko-kato-musicians/",
+        "official_tickets": "https://tickets.kaufmanmusiccenter.org/6515/6516"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 55,
+          "maximum": 75,
+          "source_url": "https://tickets.kaufmanmusiccenter.org/6515/6516",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kuniko",
+          "title": "Kuniko Plays Reich II",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kuniko-plays-reich-ii/1733213035"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Kaufman Music Center event and ticket destinations are verified, including the date, 2:00 PM performance, named musicians, program, and $55-$75 standard ticket range; Kaufman separately lists a $35 senior/student telephone discount. The Office of Kuniko Kato supplies the artist-side verification that Steve Reich will attend the New York performance and documents the multi-city tour context. An exact Apple Music album destination is verified. No unlisted instruments, additional performers, or purchase destinations were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.kaufmanmusiccenter.org/mch/event/reich90-by-kuniko-kato-musicians/",
+          "publisher": "Kaufman Music Center",
+          "checked_on": "2026-09-08",
+          "note": "Primary presenter page verifies October 14, 2026 at 2:00 PM, Merkin Hall, the five named musicians, the all-Reich program, $55 regular and $75 prime tickets, the $35 senior/student discount, venue address, and the authorized Kaufman ticket destination."
+        },
+        {
+          "url": "https://www.einpresswire.com/article/937151077/kuniko-kato-announces-reich90-north-american-tour-bringing-steve-reich-s-90th-anniversary-to-new-york-la-more",
+          "publisher": "Office of Kuniko Kato, LLC via EIN Presswire",
+          "checked_on": "2026-09-08",
+          "note": "Artist-side tour announcement dated August 26, 2026 states that Steve Reich will attend the October 14 New York performance at Merkin Hall and documents the broader North American routing, supporting the event-specific scarcity challenge."
+        },
+        {
+          "url": "https://music.apple.com/us/album/kuniko-plays-reich-ii/1733213035",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page for Kuniko Plays Reich II, which includes Piano Phase, Nagoya Marimbas, and Mallet Quartet in Kato's Reich interpretations."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-side-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core date, time, venue, lineup, program, standard pricing, and ticket destination come from Kaufman Music Center. Reich's personal attendance and the multi-city tour context come from a release explicitly provided by the Office of Kuniko Kato. Repository-wide searches for REICH90, Kuniko Kato at Merkin Hall, and the exact proposed event ID found no existing canonical/curated/processed representation before publication. Priority was assigned only after Stage 1 admission and survived the explicit S scarcity challenge documented in priority_review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Kato's relationship with Reich's percussion writing has become a lineage: here she brings younger Japanese musicians into that repertoire during the composer's 90th-birthday cycle, with Reich himself announced to be in the room. Drumming Part I, Nagoya Marimbas, her vibraphone version of Piano Phase, and Mallet Quartet make the afternoon a handoff among composer, interpreter, and next generation rather than a generic anniversary tribute.",
+          "trip_verdict": "From the DMV, I would make the dedicated Wednesday trip to New York if the logistics work and build the day around the 2:00 PM Merkin performance. The afternoon start requires real planning, but the New York-only composer-attendance context is strong enough to protect the date; there is no reason to chase the same project farther along the tour.",
+          "listen_before": "Kuniko — Kuniko Plays Reich II"
+        },
+        "es": {
+          "why_it_matters": "La relación de Kato con la escritura de percusión de Reich ya funciona como un linaje: aquí lleva ese repertorio a músicos japoneses más jóvenes durante el ciclo del 90 cumpleaños del compositor, con el propio Reich anunciado en la sala. Drumming Part I, Nagoya Marimbas, su versión para vibráfono de Piano Phase y Mallet Quartet convierten la tarde en un relevo entre compositor, intérprete y nueva generación, no en un homenaje de aniversario genérico.",
+          "trip_verdict": "Desde el DMV sí haría la ida dedicada a Nueva York si la logística del miércoles funciona y armaría el día alrededor de la función de las 2:00 PM en Merkin Hall. El horario obliga a planearlo de verdad, pero el contexto neoyorquino con el compositor presente merece proteger la fecha; no hay razón para perseguir el mismo proyecto más adelante por la gira.",
+          "listen_before": "Kuniko — Kuniko Plays Reich II"
+        }
+      }
+    }
+  ]
+}
