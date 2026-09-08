@@ -1,0 +1,98 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tmg-sayonara-tokyo-garden-theater-2026-09-08-discovery",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-08",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese jazz sources; no newly verified unrepresented Yamamoto appearance was found. TMG LIVE 2026 ‘SAYONARA’ at Tokyo Garden Theater clears Stage 1 RADAR admission because the specific final date combines Tak Matsumoto's guitar-centered Japanese-rock identity with a rare multinational TMG lineup—Eric Martin, Jack Blades, Matt Sorum and Yukihide ‘YT’ Takiyama—and an officially stated possibility that the 2026 TMG tour may be the group's last, plus a verified opening set by -真天地開闢集団-ジグザグ. Stage 2 is A+: actively make room for the October 23 tour finale if Tokyo is in play. The scarcity challenge does not support S because a farewell is explicitly only a possibility, not confirmed, and the same TMG lineup has eight preceding tour dates including October 5-6 in Tokyo. A+ still captures the recommendation. Repository searches for TMG and Tokyo Garden Theater on 2026-10-23 returned no existing canonical/curated/processed match. Proposed batch shape: A 0, A+ 1, S 0, S+ 0; recent/current intake continues to use scarcity tiers selectively, and this candidate adds no S/S+ pressure.",
+  "events": [
+    {
+      "id": "tmg-sayonara-tokyo-garden-theater-2026-10-23",
+      "artist": "TMG (Tak Matsumoto Group)",
+      "subtitle": "TMG LIVE 2026 “SAYONARA” — tour finale with -真天地開闢集団-ジグザグ",
+      "dates": {
+        "start": "2026-10-23",
+        "end": "2026-10-23"
+      },
+      "showtimes": [
+        "18:00"
+      ],
+      "venue": {
+        "id": "tokyo-garden-theater-koto-tokyo",
+        "name": "Tokyo Garden Theater",
+        "city": "Koto, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese guitar rock / multinational hard-rock supergroup / tour finale",
+      "genres": [
+        "Hard Rock",
+        "Rock",
+        "Guitar rock"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Tak Matsumoto — guitar",
+        "Jack Blades — bass, vocals",
+        "Eric Martin — vocals",
+        "Matt Sorum — drums",
+        "Yukihide ‘YT’ Takiyama — guitar",
+        "-真天地開闢集団-ジグザグ — opening act"
+      ],
+      "factual_description": "TMG LIVE 2026 “SAYONARA” closes its announced 2026 national run at Tokyo Garden Theater on Friday, October 23, 2026. Doors are at 17:00 and the show starts at 18:00. The official TMG page lists Tak Matsumoto (guitar), Jack Blades (bass/vocals), Eric Martin (vocals), Matt Sorum (drums), and Yukihide ‘YT’ Takiyama (guitar), with -真天地開闢集団-ジグザグ as opening act for the Tokyo Garden Theater date. The same page says the 2026 TMG tour may be the group's last; it does not announce a confirmed farewell. Tokyo Garden Theater lists face values of ¥16,000 for A seats, ¥20,000 for S seats, ¥25,000 for B'z PARTY-only SS seats, and now-closed fan-club merchandise-seat packages at ¥24,000 and ¥29,000. The venue is at 2-1-6 Ariake, Koto-ku, Tokyo 135-0063.",
+      "links": {
+        "official_event": "https://bz-vermillion.com/tmg/2026/",
+        "official_tickets": "https://w.pia.jp/t/tmg/"
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact official TMG event page and Tokyo Garden Theater listing verify the date, doors/start time, full TMG personnel, opening act, ticket tiers, and authorized Ticket Pia destination. No exact Apple Music album or track was selected in this pass rather than guessing at a representative TMG release while the official page also says new material is forthcoming."
+      },
+      "sources": [
+        {
+          "url": "https://bz-vermillion.com/tmg/2026/",
+          "publisher": "B'z Official / VERMILLION RECORDS — TMG LIVE 2026",
+          "checked_on": "2026-09-08",
+          "note": "Primary TMG tour page verifying the five-member TMG lineup, all announced 2026 tour dates, October 23 Tokyo Garden Theater finale, doors 17:00/start 18:00, -真天地開闢集団-ジグザグ as opening act, ticket tiers, authorized Ticket Pia link, and the carefully worded statement that the 2026 TMG tour may be the group's last."
+        },
+        {
+          "url": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/schedule/5484/",
+          "publisher": "Tokyo Garden Theater",
+          "checked_on": "2026-09-08",
+          "note": "Official venue event page confirming TMG LIVE 2026 ‘SAYONARA’ on October 23, doors 17:00/start 18:00, opening act, ticket tiers, Live Nation H.I.P. as contact, Ticket Pia as purchase channel, and the venue identity/address at 2-1-6 Ariake, Koto-ku, Tokyo."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Event facts are verified from the official TMG/B'z tour page and the exact Tokyo Garden Theater event listing. Repository searches for ‘TMG’ and ‘Tokyo Garden Theater 2026-10-23’ returned no existing matching RADAR record before publication. The official wording says the tour may be the group's last; this batch deliberately does not convert that possibility into a confirmed farewell. No unannounced personnel or release metadata are inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Tak Matsumoto puts his guitar at the center of an unusually durable Japan-to-American-hard-rock bridge with Eric Martin, Jack Blades, Matt Sorum and YT, and the final night of the ‘SAYONARA’ run gives that lineup a concrete live frame rather than mere supergroup nostalgia. The official TMG site says this tour could be the group's last, which adds real weight without pretending a farewell has been confirmed; the Zigzag opening set makes the Tokyo finale more specific still.",
+          "trip_verdict": "If Tokyo overlaps October 23, actively make room for the Garden Theater finale. The October 5-6 Haneda dates provide alternatives for hearing the same TMG lineup, so I would not rebuild a broader Japan itinerary solely around this night.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Tak Matsumoto pone la guitarra al centro de un puente poco común y sorprendentemente durable entre el rock japonés y el hard rock estadounidense junto a Eric Martin, Jack Blades, Matt Sorum y YT; cerrar la gira ‘SAYONARA’ le da a esa formación un contexto en vivo concreto y no sólo nostalgia de supergrupo. El sitio oficial de TMG dice que ésta podría ser la última gira del grupo, lo que añade peso real sin convertir una posibilidad en despedida confirmada; el set de apertura de Zigzag vuelve todavía más específica la última noche de Tokio.",
+          "trip_verdict": "Si Tokio coincide con el 23 de octubre, sí le haría espacio al cierre en Garden Theater. Las fechas del 5 y 6 en Haneda dejan alternativas para escuchar la misma formación de TMG, así que no reconstruiría un itinerario más amplio por Japón sólo alrededor de esta noche.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
