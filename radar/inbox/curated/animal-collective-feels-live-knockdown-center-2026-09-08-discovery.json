@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "animal-collective-feels-live-knockdown-center-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-08",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before searching, grading, or publication. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. The October 3 Kawasaki Civic Plaza finale that resurfaced is already represented in processed RADAR data, and no new verified unrecorded future Yamamoto appearance was found. Broader corridor monitoring found Animal Collective's newly announced FEELS LIVE performance at Knockdown Center on October 22, 2026. Repository-wide searches for Animal Collective, FEELS LIVE, Knockdown Center, and the proposed stable event ID returned no existing canonical/curated/processed match before publication. Stage 1 admits the event for a specific live context: the band will reconstruct its 2005 album Feels in full, plus period extras, for one of only two announced shows, after a four-year gap in playing together; Domino's announcement specifically describes retrieving old loops, tunings, pedals, and a working MiniDisc player to recover the record's period sound. Stage 2 assigns S only after an explicit scarcity challenge. The concrete scarcity is not album prestige alone: the band says schedules rarely align, a short window has opened, and only New York and Los Angeles shows are planned. A+ would understate the genuine-regret-if-missed character of the only East Coast date in that short reunion window. S+ is not warranted because there are two performances, no farewell is announced, and the band explicitly leaves its future open. The recent/current RADAR shape was treated only as a sanity check; recent intake remains weighted toward A/A+, and this S rests on the two-show, first-full-band-in-four-years context rather than tier inflation.",
+  "events": [
+    {
+      "id": "animal-collective-feels-live-knockdown-center-queens-2026-10-22",
+      "artist": "Animal Collective",
+      "subtitle": "FEELS LIVE — Feels in full",
+      "dates": {
+        "start": "2026-10-22",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "knockdown-center-queens",
+        "name": "Knockdown Center",
+        "city": "Queens",
+        "state": "NY",
+        "country": "US",
+        "address": "52-19 Flushing Ave, Queens, NY 11378"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "rationale": "Scarcity challenge: the fact that Feels is a celebrated album is not enough for S. The event-specific scarcity is that Animal Collective says its members' schedules had not lined up, that only a short window opened, and that it will play just two FEELS LIVE shows—Queens on October 22 and Los Angeles on October 24—marking the first time the full band has played together in four years. Would A+ still capture the recommendation? No: for the US corridor, Queens is the only East Coast opportunity to hear the reunited group rebuild Feels in sequence with recovered period loops, tunings, pedals, and MiniDisc sounds, plus extras from that era. Missing that exact short-window encounter would create genuine regret. S is warranted; S+ is not, because a second performance exists in Los Angeles, no farewell or final performance is announced, and the band leaves open what may happen later."
+      },
+      "category": "Culturally significant experimental rock / Album-in-full / Rare full-band return",
+      "genres": [
+        "Experimental rock",
+        "Psychedelic pop",
+        "Indie rock"
+      ],
+      "musical_axes": [
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Animal Collective"
+      ],
+      "factual_description": "Animal Collective will perform FEELS LIVE at Knockdown Center in Queens, New York on Thursday, October 22, 2026. AXS lists doors at 7:00 PM, showtime at 8:00 PM, an 18+ age restriction, and general on-sale beginning Friday, September 11 at 10:00 AM local time. Domino's September 8 announcement states that the band will play its 2005 album Feels in full plus extras from the same period, and that the Queens show and an October 24 Fonda Theatre show in Los Angeles are the only two announced FEELS LIVE performances. Domino says these concerts mark the first time Animal Collective has played together in four years and quotes the band describing a short scheduling window and the process of recovering old loops, tunings, pedals, and a working MiniDisc player for the performances. A separate Domino live-calendar entry currently labels a September 15 Sid The Cat Auditorium date as Animal Collective, but KCRW's exact event page identifies that September 15 performance as Croz Boyce, the duo of Animal Collective members Dave Portner (Avey Tare) and Brian Weitz (Geologist); it is therefore not treated as a contradictory full-band performance.",
+      "links": {
+        "official_event": "https://www.dominomusic.com/news/us/animal-collective-announce-feels-live-shows-in-ny-la",
+        "official_tickets": "https://www.axs.com/events/1591331/animal-collective-performs-feels-live-tickets"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.axs.com/events/1591331/animal-collective-performs-feels-live-tickets",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Animal Collective",
+          "title": "Feels",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/feels/1484069740"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Domino's exact announcement verifies the full-album concept, two-show routing, four-year full-band gap, short-window context, and period-sound reconstruction. AXS verifies the exact Queens event, venue address, doors, showtime, age policy, and on-sale date. The exact Apple Music album destination for Feels is verified. No ticket face value, additional support act, or unannounced live personnel is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.dominomusic.com/news/us/animal-collective-announce-feels-live-shows-in-ny-la",
+          "publisher": "Domino",
+          "checked_on": "2026-09-08",
+          "note": "Official label announcement dated September 8, 2026 verifies FEELS LIVE at Knockdown Center on October 22 and Fonda Theatre on October 24; Feels performed in full plus period extras; the first Animal Collective performances together in four years; and the band's statement that only a short scheduling window allows these two shows."
+        },
+        {
+          "url": "https://www.axs.com/events/1591331/animal-collective-performs-feels-live-tickets",
+          "publisher": "AXS",
+          "checked_on": "2026-09-08",
+          "note": "Authorized event/ticket page verifies October 22, 2026 at Knockdown Center, Queens; doors 7:00 PM; show 8:00 PM; 18+; 52-19 Flushing Ave; and general on-sale September 11 at 10:00 AM. No stable face-value ticket price is currently exposed."
+        },
+        {
+          "url": "https://www.kcrw.com/events/croz-boyce",
+          "publisher": "KCRW",
+          "checked_on": "2026-09-08",
+          "note": "Exact KCRW-presented September 15 event page identifies the Sid The Cat Auditorium performance as Croz Boyce, the duo of Dave Portner (Avey Tare) and Brian Weitz (Geologist), resolving a misleading Animal Collective label on a separate Domino live-calendar listing and preserving the official FEELS LIVE announcement's full-band four-year-gap claim."
+        },
+        {
+          "url": "https://music.apple.com/us/album/feels/1484069740",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page for Animal Collective's Feels."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-label-authorized-ticketing-presenter-and-apple-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "note": "Core concept and scarcity facts come from Domino's same-day official announcement; event logistics come from the authorized AXS listing; KCRW resolves the September 15 Croz Boyce metadata ambiguity; Apple Music provides the exact listening destination. Repository searches found no prior Animal Collective / FEELS LIVE / Knockdown Center RADAR representation before publication. Priority was assigned only after Stage 1 admission and survived the explicit S scarcity challenge recorded in priority_review. No ticket price, support act, or unannounced member-level live lineup was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just an anniversary-album play. Animal Collective is using a rare window when the full group can be together to rebuild Feels from its old loops, tunings, pedals, and MiniDisc-era textures, then add material from the same period. That makes the Queens night a live reconstruction of a particular experimental language—and the band's first shared stage in four years—rather than a routine catalog tour.",
+          "trip_verdict": "From the DMV, I would protect October 22 and make the New York trip if this branch of experimental rock matters to the listening thread. Queens is the only East Coast date in a two-show window, so there is no nearby fallback; the Los Angeles performance two days later is the only announced alternative.",
+          "listen_before": "Animal Collective — Feels"
+        },
+        "es": {
+          "why_it_matters": "Esto no es simplemente tocar un disco de aniversario. Animal Collective está aprovechando una ventana poco común en la que el grupo completo puede coincidir para reconstruir Feels desde sus loops, afinaciones, pedales y texturas de MiniDisc de aquella época, y después sumar material del mismo periodo. La noche de Queens funciona así como la reconstrucción en vivo de un lenguaje experimental muy específico —y como el primer escenario compartido de la banda en cuatro años—, no como una gira rutinaria de catálogo.",
+          "trip_verdict": "Desde el DMV protegería el 22 de octubre y haría el viaje a Nueva York si este hilo del rock experimental pesa en la escucha. Queens es la única fecha de la Costa Este dentro de una ventana de sólo dos conciertos, así que no hay un reemplazo cercano; la única alternativa anunciada es Los Ángeles dos días después.",
+          "listen_before": "Animal Collective — Feels"
+        }
+      }
+    }
+  ]
+}
