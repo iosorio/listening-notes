@@ -1,0 +1,134 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "danny-elfman-fillmore-silver-spring-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks of Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A and credible Japanese-jazz schedule sources found no newly unrepresented verified Yamamoto appearance; the Yamamoto dates surfaced in this pass were already represented in canonical, curated, or processed intake. The broader US-corridor pass found Danny Elfman's September 14, 2026 indoor stop at The Fillmore Silver Spring. Stage 1 admits the specific performance because Elfman's official tour framing makes the indoor dates all-rock performances spanning his forthcoming album, Big Mess, Oingo Boingo and solo work, and because the announced band of Nili Brosh, Robin Finck, Josh Freese and Matt McJunkins gives this date a concrete guitar-and-rhythm-section identity rather than a generic film-score or nostalgia context. Stage 2 assigns A+: actively make room for the local DMV stop. The same tour reaches New York on September 15 and Philadelphia on September 16, with no farewell, premiere or one-off lineup claim, so S is not warranted. Recent/current intake remains centered on A and A+ while S/S+ stay reserved for narrower scarcity cases; this A+ was also challenged against A and retained because the all-rock repertoire frame plus this exact touring band makes the local date something to prioritize rather than merely attend if convenient.",
+  "events": [
+    {
+      "id": "danny-elfman-fillmore-silver-spring-2026-09-14",
+      "artist": "Danny Elfman",
+      "subtitle": "Fall Tour 2026 — all-rock indoor performance",
+      "dates": {
+        "start": "2026-09-14",
+        "end": null
+      },
+      "showtimes": [
+        "20:30"
+      ],
+      "venue": {
+        "id": "fillmore-silver-spring-silver-spring-md",
+        "name": "The Fillmore Silver Spring",
+        "city": "Silver Spring",
+        "state": "MD",
+        "country": "US",
+        "address": "8656 Colesville Road, Silver Spring, MD 20910"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Culturally significant rock / composer-to-rock crossover / distinctive touring band",
+      "genres": [
+        "Rock",
+        "Alternative rock",
+        "New wave"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cultural context",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Danny Elfman",
+        "Nili Brosh — guitar",
+        "Robin Finck — guitar",
+        "Josh Freese — drums",
+        "Matt McJunkins — bass"
+      ],
+      "factual_description": "Live Nation lists Danny Elfman at The Fillmore Silver Spring on Monday, September 14, 2026 at 8:30 PM. Elfman's official Fall Tour 2026 page says the indoor concerts will be all rock and will feature material from his forthcoming album, his 2021 album Big Mess, Oingo Boingo and selections from his solo catalog. The same official page names the touring band as Nili Brosh on guitar, Robin Finck on guitar, Josh Freese on drums and Matt McJunkins on bass. The Fillmore Silver Spring's official visit page verifies the venue address as 8656 Colesville Road, Silver Spring, MD 20910. Current tour-announcement coverage lists the following two dates as New York on September 15 and Philadelphia on September 16. No ticket price, doors time, unannounced support act, film-score repertoire, orchestra or choir is inferred for the Silver Spring indoor performance.",
+      "links": {
+        "official_event": "https://www.livenation.com/event/17A8v0G6uDA4Jqp/danny-elfman",
+        "official_tickets": "https://www.livenation.com/event/17A8v0G6uDA4Jqp/danny-elfman"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.livenation.com/event/17A8v0G6uDA4Jqp/danny-elfman",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Danny Elfman",
+          "title": "Big Mess",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/big-mess/1558693842"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Live Nation event page verifies the September 14, 2026 8:30 PM Silver Spring performance and active official purchase destination. Danny Elfman's official tour page verifies the indoor all-rock repertoire frame and the announced touring band. The Fillmore Silver Spring verifies the full address, and the exact Apple Music page verifies Big Mess. No ticket price, doors time, unannounced support act, film-score selections, orchestra or choir was inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.livenation.com/event/17A8v0G6uDA4Jqp/danny-elfman",
+          "publisher": "Live Nation / The Fillmore Silver Spring",
+          "checked_on": "2026-09-07",
+          "note": "Exact authorized event page verifies Monday, September 14, 2026 at 8:30 PM at The Fillmore Silver Spring and provides the active official purchase destination."
+        },
+        {
+          "url": "https://www.dannyelfman.com/events",
+          "publisher": "Danny Elfman",
+          "checked_on": "2026-09-07",
+          "note": "Official artist tour page verifies that the indoor Fall Tour 2026 concerts are all rock, spanning the forthcoming album, Big Mess, Oingo Boingo and solo work, and names Nili Brosh, Robin Finck, Josh Freese and Matt McJunkins as band members with their instruments."
+        },
+        {
+          "url": "https://www.fillmoresilverspring.com/visit",
+          "publisher": "The Fillmore Silver Spring",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue page verifies the physical address as 8656 Colesville Road, Silver Spring, MD 20910."
+        },
+        {
+          "url": "https://www.brooklynvegan.com/danny-elfman-preparing-new-album-announces-fall-tour/",
+          "publisher": "BrooklynVegan",
+          "checked_on": "2026-09-07",
+          "note": "Current tour-announcement coverage lists the routing as Silver Spring September 14, New York September 15 and Philadelphia September 16; used only for scarcity and trip-context judgment."
+        },
+        {
+          "url": "https://music.apple.com/us/album/big-mess/1558693842",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music page verifies Big Mess as a Danny Elfman album released in 2021."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-promoter-venue-and-apple-music-sources-with-authoritative-tour-context",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository search found no existing Danny Elfman representation before publication. The exact performance facts come from Live Nation and The Fillmore Silver Spring; the all-rock repertoire frame and band lineup come from Danny Elfman's official tour page; the exact recommended-listening link comes from Apple Music. Current tour coverage is used only to establish nearby New York and Philadelphia dates for scarcity context. The stable Fillmore Silver Spring venue ID is reused from an existing curated RADAR record. No ticket price, doors time, support act, film-score repertoire, orchestra, choir, Apple Music identifier, purchase destination or source URL was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The interesting version of Elfman here is not the Hollywood composer with an orchestra behind him. The indoor tour is explicitly all rock: forthcoming material, Big Mess, Oingo Boingo and solo work, driven by a band with Nili Brosh and Robin Finck on guitars, Josh Freese on drums and Matt McJunkins on bass. That puts his strange, theatrical writing into a hard-edged band setting with a very specific instrumental identity, making the Silver Spring stop more than a soundtrack-nostalgia date.",
+          "trip_verdict": "Make the Silver Spring show the night's destination if you're in the DMV. The same run reaches New York and Philadelphia on the next two nights, so this is a strong local opportunity rather than something to chase up and down the corridor.",
+          "listen_before": "Danny Elfman — Big Mess"
+        },
+        "es": {
+          "why_it_matters": "La versión interesante de Elfman aquí no es la del compositor de Hollywood con una orquesta detrás. La gira de salas está planteada explícitamente como rock: material próximo, Big Mess, Oingo Boingo y trabajo solista, empujado por una banda con Nili Brosh y Robin Finck en guitarras, Josh Freese en batería y Matt McJunkins en bajo. Eso pone su escritura rara y teatral dentro de una formación dura y con identidad instrumental muy concreta, y vuelve la fecha de Silver Spring algo bastante más interesante que una noche de nostalgia por las bandas sonoras.",
+          "trip_verdict": "Si estás en el DMV, haría de Silver Spring el destino musical de la noche. La misma gira pasa por Nueva York y Filadelfia en las dos noches siguientes, así que es una oportunidad local fuerte y no algo que haya que perseguir por todo el corredor.",
+          "listen_before": "Danny Elfman — Big Mess"
+        }
+      }
+    }
+  ]
+}
