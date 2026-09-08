@@ -1,0 +1,126 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "kruder-dorfmeister-howard-theatre-dc-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read from main before grading or publication. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. The verified future Yamamoto dates surfaced in those checks were already represented in canonical/curated/processed intake, including the October 21 ALFIE trio date and recurring late-2026 Space M&A trio dates, so no duplicate Yamamoto event was created. Repository-wide searches for Kruder & Dorfmeister and K&D Kicks 30 returned no existing RADAR representation before publication. Stage 1 admits the October 3 Howard Theatre performance because the duo is not merely touring a catalog: the official artist framing presents K&D KICKS 30 as a live DJ/AV continuation of the 1996 DJ-Kicks legacy, tying a specific anniversary, audiovisual setting, groove language and cross-genre electronic history to this performance. Stage 2 assigns A+. The anniversary concept and the duo's specific cultural/instrumental identity are actively worth making room for in a local DC night. S is not warranted: the official and authorized schedules document a multi-city North American run, including New York on October 1 and Washington on October 3, so the Washington performance is not a one-off, farewell, premiere or otherwise scarce enough for protect-the-night status. Recent/current RADAR intake remains weighted toward A and A+, with S/S+ reserved for scarcity; adding this A+ does not create scarcity-tier inflation and is not quota-driven. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "kruder-dorfmeister-kd-kicks-30-howard-theatre-washington-dc-2026-10-03",
+      "artist": "Kruder & Dorfmeister",
+      "subtitle": "K&D Kicks 30 Anniversary Tour — DJ/AV show",
+      "dates": {
+        "start": "2026-10-03",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "howard-theatre-washington-dc",
+        "name": "Howard Theatre",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "620 T Street NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Electronic lineage / DJ-Kicks 30th anniversary / live AV",
+      "genres": [
+        "Electronic",
+        "Downtempo",
+        "Dub",
+        "Hip-Hop"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Kruder & Dorfmeister — DJ/AV performance"
+      ],
+      "factual_description": "Howard Theatre / Union Stage lists Kruder & Dorfmeister's K&D Kicks 30 Anniversary Tour in Washington, DC on Saturday, October 3, 2026, with doors at 7:00 PM and the show at 8:00 PM. Live Nation independently confirms the same artist, date, venue and 8:00 PM start. Kruder & Dorfmeister's official site describes K+D KICKS 30 as a living continuation of their DJ-Kicks legacy rather than a retrospective, presented as a DJ/AV performance, and lists the Washington stop at Howard Theatre after the October 1 New York date. Apple Music identifies the original DJ-Kicks (Kruder & Dorfmeister) mix as an electronic release from August 19, 1996. No face-value ticket price is copied because the authorized ticket destination did not expose a stable price in the consulted text.",
+      "links": {
+        "official_event": "https://www.livenation.com/event/rZ7HnEZ1Afq9FS/kruder-dorfmeister-k-d-kicks-30-anniversary-tour",
+        "official_tickets": "https://www.ticketweb.com/event/kruder-dorfmeister-howard-theatre-tickets/14757233?pl=howardtheatre&refid=site"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketweb.com/event/kruder-dorfmeister-howard-theatre-tickets/14757233?pl=howardtheatre&refid=site",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kruder & Dorfmeister",
+          "title": "DJ-Kicks (Kruder & Dorfmeister) [DJ Mix]",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/dj-kicks-kruder-dorfmeister-dj-mix/1804169716"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Live Nation event, authorized Howard Theatre/Ticketweb purchase destination and exact Apple Music DJ-Kicks album destination are verified. Face-value price remains null because no stable official price was exposed in the consulted page text; no additional support act or personnel is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://kruderdorfmeister.com/",
+          "publisher": "Kruder & Dorfmeister official site",
+          "checked_on": "2026-09-08",
+          "note": "Primary artist site frames K+D KICKS 30 as a living continuation of the DJ-Kicks legacy, describes the show as a DJ/AV performance, and lists the October 3 Washington, DC stop at Howard Theatre along with the surrounding North American itinerary."
+        },
+        {
+          "url": "https://www.unionstagepresents.com/the-howard/shows",
+          "publisher": "Howard Theatre / Union Stage",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue/promoter schedule verifies Saturday, October 3, 2026, Howard Theatre, 7:00 PM doors and 8:00 PM show, and links the exact authorized Ticketweb purchase destination."
+        },
+        {
+          "url": "https://www.livenation.com/event/rZ7HnEZ1Afq9FS/kruder-dorfmeister-k-d-kicks-30-anniversary-tour",
+          "publisher": "Live Nation",
+          "checked_on": "2026-09-08",
+          "note": "Authorized exact event page corroborates Kruder & Dorfmeister, K&D Kicks 30 Anniversary Tour, Howard Theatre, Washington, DC, October 3, 2026 at 8:00 PM."
+        },
+        {
+          "url": "https://music.apple.com/us/album/dj-kicks-kruder-dorfmeister-dj-mix/1804169716",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page verifies DJ-Kicks (Kruder & Dorfmeister) [DJ Mix] as an electronic release dated August 19, 1996; used for listening preparation and anniversary context."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-venue-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "note": "Core date, time, venue, anniversary framing and DJ/AV context were verified from the artist's official site, Howard Theatre/Union Stage and Live Nation. The authorized ticket destination comes directly from the venue schedule, and the listening destination is exact on Apple Music. Repository searches for Kruder & Dorfmeister, K&D Kicks 30 and the proposed event identity found no existing canonical/curated/processed representation before publication. Stage 1 rests on the specific 30th-anniversary live AV continuation of the DJ-Kicks legacy. Stage 2 assigns A+ only after admission; no priority_review is included because no S/S+ scarcity tier is claimed."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just a legacy electronic act passing through. Kruder & Dorfmeister are taking the 1996 DJ-Kicks vocabulary that helped define their downtempo world and rebuilding it as a present-tense DJ/AV performance thirty years later. The appeal is the continuum: dub weight, hip-hop pacing, jazz-adjacent texture and club music treated as one long-form listening language rather than a nostalgia set.",
+          "trip_verdict": "If October 3 is open in DC, actively make room for the Howard Theatre date and treat the AV show as the night's main event. The same anniversary run reaches New York two days earlier, so there is no reason to chase it up the corridor if the local date works.",
+          "listen_before": "Kruder & Dorfmeister — DJ-Kicks (Kruder & Dorfmeister) [DJ Mix]"
+        },
+        "es": {
+          "why_it_matters": "No es simplemente un acto electrónico de catálogo pasando por Washington. Kruder & Dorfmeister están tomando el lenguaje de su DJ-Kicks de 1996 —parte central del mundo downtempo que ayudaron a definir— y reconstruyéndolo treinta años después como una experiencia DJ/AV en presente. Lo interesante es la continuidad: peso de dub, pulso de hip-hop, texturas cercanas al jazz y música de club entendidos como un solo lenguaje de escucha larga, no como un set de nostalgia.",
+          "trip_verdict": "Si el 3 de octubre está libre en DC, sí le haría espacio activamente a la fecha del Howard Theatre y tomaría el show audiovisual como la música principal de la noche. La misma gira de aniversario pasa por Nueva York dos días antes, así que no hace falta perseguirla por el corredor si funciona la fecha local.",
+          "listen_before": "Kruder & Dorfmeister — DJ-Kicks (Kruder & Dorfmeister) [DJ Mix]"
+        }
+      }
+    }
+  ]
+}
