@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "jonny-greenwood-112-years-reverb-met-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; the future appearances that resurfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Broader US-corridor research found Jonny Greenwood: 112 Years of Reverb at The Metropolitan Museum of Art on February 27, 2027. Repository-wide searches for the title, artist/date, and proposed stable ID returned no matching RADAR event. Stage 1 admits the performance for a concrete performance-level reason: Greenwood's eight-hour organ work is being realized as a one-day 112 Years of Reverb edition on The Met's Appleton organ inside Gallery 371, Arms and Armor, making instrument, duration, room, and the composition's site-responsive premise inseparable. Stage 2 assigns S after the required scarcity challenge. The concrete scarcity fact is that this exact 112 Years edition is announced for one day only and is tied to The Met's Appleton organ and Arms and Armor gallery; A+ was explicitly challenged and judged insufficient because missing February 27 means missing this specific work-instrument-room configuration, not merely another stop on a conventional tour. S+ is not warranted: X Years of Reverb premiered in 2024 and has had other site-numbered realizations, so the broader work is demonstrably repeatable even though this Met edition is not. A scan of the most recent intake remains dominated by A and A+ additions, so this isolated S does not make the scarcity tier routine.",
+  "events": [
+    {
+      "id": "jonny-greenwood-112-years-reverb-met-new-york-2027-02-27",
+      "artist": "Jonny Greenwood",
+      "subtitle": "112 Years of Reverb — X Years of Reverb at The Met",
+      "dates": {
+        "start": "2027-02-27",
+        "end": null
+      },
+      "showtimes": [
+        "12:00"
+      ],
+      "venue": {
+        "id": "gallery-371-arms-and-armor-the-met-new-york-ny",
+        "name": "Gallery 371, Arms and Armor at The Metropolitan Museum of Art",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "rationale": "The scarcity is specific to this realization: The Metropolitan Museum of Art lists a single February 27, 2027 performance window from 12:00 to 20:00 for 112 Years of Reverb in Gallery 371, Arms and Armor, performed on The Met's Appleton organ. Faber Music independently identifies the Met edition and James McVinnie and Eliza McCarthy. A+ was explicitly challenged and judged insufficient because the composition is designed to respond to the history and acoustics of its site, so missing this date means missing the verified Appleton-organ/Arms-and-Armor realization itself. Protect-the-night language is warranted. S+ would overstate the case because X Years of Reverb premiered in 2024 and Faber documents multiple other site-numbered versions, including a 605 Years of Reverb performance one month earlier in Manchester."
+      },
+      "category": "Site-responsive durational organ work / experimental composition",
+      "genres": [
+        "Contemporary Classical",
+        "Experimental",
+        "Organ"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Jonny Greenwood — composer",
+        "James McVinnie — performer",
+        "Eliza McCarthy — performer"
+      ],
+      "factual_description": "The Metropolitan Museum of Art presents Jonny Greenwood: 112 Years of Reverb on Saturday, February 27, 2027 from 12:00 PM to 8:00 PM in Gallery 371, Arms and Armor. The Met describes it as Greenwood's meditative eight-hour work performed on the museum's Appleton organ and lists tickets starting at $65. Faber Music identifies the work as X Years of Reverb, gives its duration as 480 minutes and genre as organ, and independently lists the February 27 Met realization with James McVinnie and Eliza McCarthy. Faber records the work's first performance on May 18, 2024 at Octagon Chapel in Norwich and documents other site-numbered realizations, so this Met performance is not described here as the world premiere.",
+      "links": {
+        "official_event": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/jonny-greenwood-112-years-of-reverb/",
+        "official_tickets": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/jonny-greenwood-112-years-of-reverb/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 65,
+          "maximum": null,
+          "source_url": "https://www.metmuseum.org/zh/hubs/met-live-arts",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music",
+          "more detailed performance-role/instrumentation breakdown"
+        ],
+        "note": "The Met and Faber verify the date, eight-hour duration, Gallery 371 / Arms and Armor setting, Appleton organ, $65 starting ticket price, and McVinnie/McCarthy billing. The exact division of performance roles between McVinnie and McCarthy is not stated in the accessible exact Met page or Faber listing, so no instrument is assigned to either person. No exact Apple Music recording of this site-responsive work was verified, so no Apple Music ID or URL is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/zh/hubs/met-live-arts",
+          "publisher": "The Metropolitan Museum of Art",
+          "checked_on": "2026-09-07",
+          "note": "Current first-party Met Live Arts hub verifies Saturday February 27, 2027, 12:00 PM-8:00 PM, Gallery 371 in Arms and Armor, the eight-hour format, performance on The Met's Appleton organ, and tickets starting at $65."
+        },
+        {
+          "url": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/jonny-greenwood-112-years-of-reverb/",
+          "publisher": "The Metropolitan Museum of Art",
+          "checked_on": "2026-09-07",
+          "note": "Exact first-party event destination reached from Faber Music's authoritative performance listing. The research client exposes the endpoint but not its iframe content, so factual claims are anchored to the accessible Met Live Arts hub rather than inferred from inaccessible ticket-page details."
+        },
+        {
+          "url": "https://www.fabermusic.com/music/x-years-of-reverb",
+          "publisher": "Faber Music",
+          "checked_on": "2026-09-07",
+          "note": "Greenwood's music publisher identifies X Years of Reverb as a 480-minute organ work by Jonny Greenwood, records its 2024 first performance, and lists 112 Years of Reverb at The Metropolitan Museum of Art on February 27, 2027 with James McVinnie and Eliza McCarthy."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-met-and-authoritative-composer-publisher-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core date, duration, gallery, Appleton-organ and ticket-start facts come from The Met's current first-party Live Arts material; Faber Music independently verifies the work identity, duration, composer, Met date and McVinnie/McCarthy billing. Repository searches for Jonny Greenwood plus the event title and proposed stable ID returned no canonical, curated or processed match before publication. Priority S was assigned only after Stage 1 admission and an explicit scarcity challenge. No instrument assignment for McVinnie or McCarthy, face-value maximum, resale price, unannounced personnel, or Apple Music destination was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not Radiohead repertory moved into a museum. Greenwood's eight-hour organ piece is built around the idea that a room stores musical memory, and at The Met that premise lands on the Appleton organ inside Arms and Armor. The duration matters as much as the instrument: it turns listening into a slow occupation of the gallery, with McVinnie and McCarthy realizing a work whose identity changes with the age and history of the place that receives it.",
+          "trip_verdict": "From the DMV, this is one New York date I would build a day around rather than squeeze between other plans. The noon-to-eight format is the commitment: arrive ready to give the Met the day and treat anything else in the city as secondary.",
+          "listen_before": "There is no verified recording of this Met realization; approach X Years of Reverb as a durational work rather than using a Radiohead record as a promised set-list proxy."
+        },
+        "es": {
+          "why_it_matters": "Esto no es repertorio de Radiohead trasladado a un museo. La pieza de órgano de ocho horas de Greenwood parte de la idea de que una sala guarda memoria sonora, y en el Met esa idea cae sobre el órgano Appleton dentro de Arms and Armor. La duración importa tanto como el instrumento: convierte la escucha en una ocupación lenta de la galería, con McVinnie y McCarthy realizando una obra cuya identidad cambia con la edad y la historia del lugar que la recibe.",
+          "trip_verdict": "Desde el DMV, ésta sí es una fecha de Nueva York alrededor de la cual construiría el día, no algo que intentaría meter entre otros planes. El formato de mediodía a ocho de la noche es el compromiso: llegaría dispuesto a darle el día al Met y dejaría cualquier otra cosa en la ciudad en segundo plano.",
+          "listen_before": "No hay una grabación verificada de esta realización en el Met; entraría a X Years of Reverb como obra de duración extendida y no usaría un disco de Radiohead como promesa de repertorio."
+        }
+      }
+    }
+  ]
+}
