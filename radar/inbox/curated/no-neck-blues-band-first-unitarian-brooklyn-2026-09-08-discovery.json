@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "no-neck-blues-band-first-unitarian-brooklyn-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-08",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before searching, grading, or publication. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; no new verified unrecorded future Yamamoto appearance was found. Broader US-corridor monitoring found No-Neck Blues Band's September 12, 2026 return, presented by ISSUE Project Room at First Unitarian Congregational Society in Brooklyn. Repository-wide searches for No-Neck Blues Band and the proposed stable event ID returned no canonical/curated/processed match before publication. Stage 1 admits the performance for an event-specific live context: ISSUE states that this is the improvising collective's first performance in thirteen years, for one night only, opening ISSUE's fall season during the 20th-anniversary year of its Artists-In-Residence program; ISSUE also describes the performance as an approximately one-hour non-idiomatic collective improvisation. Stage 2 assigns S only after an explicit scarcity challenge. Recent/current RADAR intake was treated as a sanity check, and the presence of several recent S-tier discoveries made the A+ challenge deliberately strict rather than automatic. The concrete scarcity here survives that challenge: this is a single announced performance after a thirteen-year live absence, not merely a prestigious artist or venue booking. A+ would understate the genuine-regret-if-missed character of the return for the experimental/improvisational thread. S+ is not warranted because the performance is a return, not a farewell or final performance, the group is back at work on another album, and no evidence says another performance can never follow.",
+  "events": [
+    {
+      "id": "no-neck-blues-band-first-unitarian-brooklyn-2026-09-12",
+      "artist": "No-Neck Blues Band",
+      "subtitle": "First performance in thirteen years — one-night-only return",
+      "dates": {
+        "start": "2026-09-12",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "first-unitarian-congregational-society-brooklyn",
+        "name": "First Unitarian Congregational Society in Brooklyn",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US",
+        "address": "119 Pierrepont St, Brooklyn, NY 11201"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "rationale": "Scarcity challenge: the band's reputation, experimental pedigree, and ISSUE's curatorial prestige are not enough for S. The performance-specific fact is that ISSUE bills September 12 as No-Neck Blues Band's first performance in thirteen years and explicitly says it will happen for one night only. Would A+ still capture the recommendation? No: for the US corridor there is a single announced chance, after a thirteen-year absence, to hear the collective return to approximately one hour of non-idiomatic group improvisation. Missing that exact return would create genuine regret for this Listening Notes thread, so protecting the night is warranted. S+ is not warranted because ISSUE describes a return rather than a farewell or final performance, and the presenter says the group is presently working on its thirty-sixth album; another future performance is therefore possible even though none is announced here."
+      },
+      "category": "Rare experimental-improvisation return",
+      "genres": [
+        "Free improvisation",
+        "Experimental music",
+        "Free jazz"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "No-Neck Blues Band"
+      ],
+      "factual_description": "ISSUE Project Room presents No-Neck Blues Band at First Unitarian Congregational Society in Brooklyn on Saturday, September 12, 2026 at 8:00 PM. ISSUE states that the group will perform for the first time in thirteen years, for one night only, and describes the set as an approximately one-hour non-idiomatic collective improvisation. The event opens ISSUE's fall season during the 20th-anniversary year of its Artists-In-Residence program. ISSUE identifies No-Neck Blues Band as an improvising collective formed in New York City in 1993, notes founding member Keith Connolly's connection as a 2016 ISSUE Artist-In-Residence, and says the group is presently at work on what will be its thirty-sixth album. The authorized TicketSpice page lists general admission at $25 face value plus a $1 fee and verifies the venue address as 119 Pierrepont St, Brooklyn, NY 11201.",
+      "links": {
+        "official_event": "https://issueprojectroom.org/event/no-neck-blues-band",
+        "official_tickets": "https://issueprojectroom.ticketspice.com/no-neck-blues-band"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 25,
+          "source_url": "https://issueprojectroom.ticketspice.com/no-neck-blues-band",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "No-Neck Blues Band",
+          "title": "Sticks and Stones May Break My Bones But Names Will Never Hurt Me.",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/sticks-and-stones-may-break-my-bones-but-names-will/615647830"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "ISSUE's exact event page verifies the date, 8:00 PM showtime, one-night-only framing, thirteen-year performance gap, approximately one-hour improvisational format, presenter context, and Keith Connolly/AIR connection. The authorized TicketSpice page verifies the venue identity, street address, and $25 base general-admission price plus $1 fee. The exact Apple Music album destination is verified. Individual member-level personnel beyond the presenter-named founding member are not enumerated in the lineup because the current presenter page does not publish a complete performing roster."
+      },
+      "sources": [
+        {
+          "url": "https://issueprojectroom.org/event/no-neck-blues-band",
+          "publisher": "ISSUE Project Room",
+          "checked_on": "2026-09-08",
+          "note": "Primary presenter page verifies September 12, 2026 at 8:00 PM; First Unitarian Congregational Society; the first No-Neck Blues Band performance in thirteen years; one-night-only framing; an approximately one-hour non-idiomatic collective improvisation; the 2026 AIR-anniversary context; and the group's ongoing work on a thirty-sixth album."
+        },
+        {
+          "url": "https://issueprojectroom.ticketspice.com/no-neck-blues-band",
+          "publisher": "ISSUE Project Room / TicketSpice",
+          "checked_on": "2026-09-08",
+          "note": "Authorized ticket page verifies the event, venue address at 119 Pierrepont St, Brooklyn, NY 11201, and general admission at $25 plus a $1 fee."
+        },
+        {
+          "url": "https://www.fuub.org/about-us/",
+          "publisher": "First Unitarian Congregational Society in Brooklyn",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue site verifies the Brooklyn Heights location and sanctuary address on Pierrepont Street."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sticks-and-stones-may-break-my-bones-but-names-will/615647830",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page for No-Neck Blues Band's Sticks and Stones May Break My Bones But Names Will Never Hurt Me."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ticketing-venue-and-apple-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "note": "Event and scarcity facts come from ISSUE Project Room's current primary event page; logistics and face value come from ISSUE's authorized TicketSpice page; the venue address is corroborated by First Unitarian's primary site; Apple Music provides the exact listening destination. Repository searches found no prior No-Neck Blues Band representation before publication. Priority was assigned only after Stage 1 admission and survived the explicit S scarcity challenge recorded in priority_review. No unverified personnel, price, time, purchase destination, or streaming identifier was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Thirteen years without a No-Neck Blues Band performance turns this into more than another experimental booking. The collective is returning for one night to the open-form group improvisation that made its New York presence so distinctive, in a room presented by ISSUE during the anniversary season of its artist-residency program. The long silence and the one-night frame make the performance itself the reason to be there.",
+          "trip_verdict": "From the DMV, I would protect Saturday night and make the dedicated New York trip if this experimental-improvisation thread matters. There is no nearby substitute date announced, and the thirteen-year gap makes waiting for a more convenient return a real gamble.",
+          "listen_before": "No-Neck Blues Band — Sticks and Stones May Break My Bones But Names Will Never Hurt Me."
+        },
+        "es": {
+          "why_it_matters": "Trece años sin una actuación de No-Neck Blues Band convierten esta fecha en algo muy distinto de otra noche de música experimental. El colectivo vuelve por una sola noche a esa improvisación grupal abierta que marcó su presencia en Nueva York, presentado por ISSUE en la temporada de aniversario de su programa de residencias. La pausa larga y el carácter único de la fecha hacen que la función misma sea la razón para estar ahí.",
+          "trip_verdict": "Desde el DMV protegería la noche del sábado y sí haría el viaje dedicado a Nueva York si este hilo de improvisación experimental pesa en la escucha. No hay una fecha cercana que sirva de reemplazo y, después de trece años de silencio en vivo, apostar a que pronto habrá otra oportunidad sería arriesgado.",
+          "listen_before": "No-Neck Blues Band — Sticks and Stones May Break My Bones But Names Will Never Hurt Me."
+        }
+      }
+    }
+  ]
+}
