@@ -1,0 +1,126 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "robyn-sexistential-tour-anthem-washington-dc-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-08",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching, grading, or publication. Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources were checked first; future Yamamoto dates surfaced in those checks were already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. Broader US-corridor monitoring then found Robyn's two-night Sexistential Tour stop at The Anthem. Repository searches for Robyn, Sexistential Tour, and the September 8-9 Anthem dates returned no matching RADAR record before publication. Stage 1 admits the performance because it captures a specific new creative chapter: Robyn is touring around Sexistential, her first studio album since 2018's Honey, and Washington demand was sufficient for the first night to sell out and a second night to be added; Nourished by Time adds a current opening voice to the bill. Stage 2 assigns A+: this is actively worth making room for, but the two Washington performances and broader tour context make A+ sufficient; there is no farewell, one-off, premiere, scarce lineup, or other event-specific fact that would support S. The current priority sanity check therefore favors A+ without upper-tier inflation.",
+  "events": [
+    {
+      "id": "robyn-sexistential-tour-anthem-washington-dc-2026-09-08-09",
+      "artist": "Robyn",
+      "subtitle": "The Sexistential Tour — with Nourished by Time",
+      "dates": {
+        "start": "2026-09-08",
+        "end": "2026-09-09"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-anthem-washington-dc",
+        "name": "The Anthem",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Culturally significant pop / Electronic dance / Current album era",
+      "genres": [
+        "Pop",
+        "Dance-pop",
+        "Electronic pop"
+      ],
+      "musical_axes": [
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Robyn",
+        "Nourished by Time"
+      ],
+      "factual_description": "The Anthem presents Robyn's Sexistential Tour with Nourished by Time on September 8 and 9, 2026 in Washington, DC. Both nights list doors at 6:30 PM and showtime at 8:00 PM. The September 8 performance is sold out; The Anthem explicitly says the September 9 performance was added after the first night sold out. The venue identifies Sexistential as Robyn's ninth studio album and her follow-up to 2018's Honey; Apple Music lists Sexistential as released March 27, 2026 via Konichiwa / Young.",
+      "links": {
+        "official_event": "https://theanthemdc.com/event/robyn-the-sexistential-tour-2/",
+        "official_tickets": "https://www.ticketmaster.com/robyn-the-sexistential-tour-washington-district-of-columbia-09-09-2026/event/15006451B331B296"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/robyn-the-sexistential-tour-washington-district-of-columbia-09-09-2026/event/15006451B331B296",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Robyn",
+          "title": "Sexistential",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/sexistential/1852752613"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact official venue pages verify both Washington dates, door/show times, opener, first-night sellout and second-night addition. The authorized Ticketmaster page for September 9 is verified, as is the exact Apple Music album destination. Ticketmaster did not expose a stable face-value price in the accessible event page, so price fields remain null rather than inferred."
+      },
+      "sources": [
+        {
+          "url": "https://theanthemdc.com/event/robyn-the-sexistential-tour/",
+          "publisher": "The Anthem",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue page verifies September 8, 2026; doors 6:30 PM; show 8:00 PM; Nourished by Time; sold-out status; and the Sexistential album/tour context."
+        },
+        {
+          "url": "https://theanthemdc.com/event/robyn-the-sexistential-tour-2/",
+          "publisher": "The Anthem",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue page verifies the added September 9, 2026 performance, doors 6:30 PM, show 8:00 PM, Nourished by Time, and explicitly states that the first night sold out and the second night was added."
+        },
+        {
+          "url": "https://www.ticketmaster.com/robyn-the-sexistential-tour-washington-district-of-columbia-09-09-2026/event/15006451B331B296",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-08",
+          "note": "Authorized ticket destination linked from The Anthem; verifies Robyn at The Anthem in Washington, DC on September 9, 2026 at 8:00 PM. No stable face-value price was exposed in the accessible page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sexistential/1852752613",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page verifies Sexistential by Robyn, released March 27, 2026, and provides the stable recommended-listening destination."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "note": "Dates, showtimes, billing, opener, venue, first-night sellout, second-night addition and tour/album context were verified from The Anthem's exact event pages. Authorized Ticketmaster ticketing and the exact Apple Music album page were cross-checked. Repository-wide searches found no existing Robyn/Sexistential Anthem record before publication. No ticket price, backing-band personnel, set list, or other unannounced detail was inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to flag this is the specific Sexistential chapter, not celebrity: The Anthem catches Robyn in the tour cycle for her first new studio album since Honey, with enough Washington demand to sell out the first night and add a second. Nourished by Time keeps the bill connected to a current, left-of-center pop/R&B voice, so this is a useful snapshot of where Robyn's dance-pop language sits now rather than a generic legacy booking.",
+          "trip_verdict": "If you're in the DMV, target the added September 9 night: September 8 is sold out, and the second show makes this easy to prioritize without turning it into a travel project. Build the evening around The Anthem while primary tickets remain available through the official link.",
+          "listen_before": "Robyn — Sexistential"
+        },
+        "es": {
+          "why_it_matters": "La razón para marcarla es el capítulo específico de Sexistential, no la fama: The Anthem recibe a Robyn en la gira de su primer álbum de estudio desde Honey, con suficiente demanda en Washington para agotar la primera noche y añadir una segunda. Nourished by Time mantiene el cartel conectado con una voz actual y lateral del pop/R&B, así que la fecha funciona como una foto de dónde está hoy el lenguaje dance-pop de Robyn y no como una contratación genérica de catálogo.",
+          "trip_verdict": "Si estás en el DMV, apuntaría a la fecha añadida del 9 de septiembre: la del 8 está agotada y la segunda noche permite priorizarla sin convertirla en un viaje. Armaría la noche alrededor de The Anthem mientras siga disponible la venta primaria en el enlace oficial.",
+          "listen_before": "Robyn — Sexistential"
+        }
+      }
+    }
+  ]
+}
