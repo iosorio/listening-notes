@@ -1,0 +1,121 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "button-masher-super-button-masher-blue-note-new-york-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research, grading, or publication. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, KEYSTONE CLUB TOKYO, Yokohama Jazz First, and credible Japanese-jazz sources. Verified future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake; a weak social-search trace for a possible November 20 Keystone appearance was not published because an exact authoritative event page could not be verified. Repository-wide searches for Button Masher, Jake Silverman, and the proposed stable event ID returned no matching RADAR representation before publication. Stage 1 admits this specific performance because it is the New York album-release show for Super Button Masher, released four days earlier on Brainfeeder, and the project has a concrete instrumental/compositional identity: jazz-fusion harmony and arranging fused with reconstructed 8-bit and 16-bit electronic textures. Stage 2 assigns A+ only after admission. The grade was challenged against A because current/recent RADAR intake already contains many A+ candidates; the album-release timing, Blue Note small-room setting, and unusually specific fusion/chiptune language still make this a night worth actively making room for if New York is already in play, rather than merely an attend-if-convenient listing. An explicit scarcity challenge rejects S: Blue Note offers two sets tonight, Apple Music lists another Button Masher date in Los Angeles on September 16 and further October dates, and no farewell, singular premiere, or historically one-off context is documented. A+ captures the recommendation without inflating the scarcity tiers. Batch distribution: A 0, A+ 1, S 0, S+ 0; distribution is a sanity check, not a quota.",
+  "events": [
+    {
+      "id": "button-masher-super-button-masher-blue-note-new-york-2026-09-08",
+      "artist": "Button Masher",
+      "subtitle": "Super Button Masher Album Release Show",
+      "dates": {
+        "start": "2026-09-08",
+        "end": null
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US",
+        "address": "131 W. 3rd St, New York, NY 10012"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Jazz-fusion / chiptune album-release show",
+      "genres": [
+        "Jazz fusion",
+        "Chiptune",
+        "Electronic"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Button Masher (Jake Silverman)"
+      ],
+      "factual_description": "Blue Note New York presents Button Masher: Super Button Masher Album Release Show on Tuesday, September 8, 2026, with sets at 8:00 PM and 10:30 PM; doors are at 6:00 PM and 10:00 PM respectively. The venue identifies Button Masher as Jake Silverman, a GRAMMY-winning arranger, electronic musician, composer and educator whose project has combined jazz fusion with chiptune since 2018. Brainfeeder/Ninja Tune released Super Button Masher on September 4, 2026 and describes the album as cross-genre compositions that merge sophisticated harmonies with reconstructed 8-bit and 16-bit soundscapes. Blue Note lists a $20 per-person food-and-beverage minimum, which is not treated as a ticket face value. The venue exposes separate authorized TicketWeb purchase links for the two sets rather than one engagement-wide ticket destination.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/button-masher-super-button-masher-album-release-show/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Button Masher",
+          "title": "Super Button Masher",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/super-button-masher/6770559420"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "single engagement-wide official ticket URL",
+          "verified ticket face value"
+        ],
+        "note": "The exact Blue Note New York event page verifies the billing, venue, two set times, doors and separate authorized TicketWeb purchase buttons. Because each set has its own TicketWeb destination, official_tickets remains null rather than selecting one set arbitrarily. Blue Note's $20 minimum is a per-person food-and-beverage minimum, not a verified ticket face value. The exact Apple Music album page for Super Button Masher is verified. No unlisted live personnel or instrument assignments are inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/button-masher-super-button-masher-album-release-show/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue event page verifies the September 8, 2026 album-release billing, Blue Note Jazz Club address, 8:00 PM and 10:30 PM sets with 6:00 PM and 10:00 PM doors, Button Masher/Jake Silverman identity and jazz-fusion/chiptune context, and states that Blue Note/TicketWeb are the authorized ticket sources."
+        },
+        {
+          "url": "https://ninjatune.net/release/button-masher/super-button-masher",
+          "publisher": "Brainfeeder / Ninja Tune",
+          "checked_on": "2026-09-08",
+          "note": "Authoritative label/distributor release page verifies Super Button Masher's September 4, 2026 Brainfeeder release and the project's fusion of sophisticated harmony with 8-bit and 16-bit soundscapes."
+        },
+        {
+          "url": "https://music.apple.com/us/album/super-button-masher/6770559420",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page verifies Super Button Masher, Button Masher, September 4, 2026, 10 songs, and Brainfeeder."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-and-apple-music-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "note": "Core event facts come from Blue Note New York; album-release identity and sonic concept are independently supported by Brainfeeder/Ninja Tune; the exact listening destination is verified on Apple Music. Repository searches by artist name, legal name and stable event ID found no matching RADAR event before publication. Stage 1 rests on the specific album-release context and fusion/chiptune compositional identity, not on venue prestige. Stage 2 assigns A+ after challenging both A and S: the combination is strong enough to make room for if New York is already in play, while multiple sets and subsequent tour dates make scarcity treatment unsustainable."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Four days after Super Button Masher arrived on Brainfeeder, Silverman brings its jazz-fusion/chiptune language into Blue Note: not video-game nostalgia as a novelty, but 8-bit and 16-bit timbres used as compositional material inside harmonically dense electronic writing. The collision of arranging craft, synthetic texture and an actual album-release night gives this specific performance a reason to exist on RADAR beyond the room or the genre label.",
+          "trip_verdict": "If you are already in New York today, choose one of the two sets and build the evening around the Village club. From the DMV, I would not make a same-day dedicated trip solely for this show; the recommendation is strongest inside an existing New York day rather than as a last-minute corridor run.",
+          "listen_before": "Button Masher — Super Button Masher"
+        },
+        "es": {
+          "why_it_matters": "Cuatro días después de que Super Button Masher saliera en Brainfeeder, Silverman lleva a Blue Note ese lenguaje de jazz fusion y chiptune: no la nostalgia de los videojuegos como truco, sino timbres de 8 y 16 bits usados como material compositivo dentro de una escritura electrónica armónicamente densa. El cruce entre oficio de arreglo, textura sintética y una verdadera noche de lanzamiento le da a esta función una razón concreta para estar en RADAR más allá del prestigio del lugar o de la etiqueta de género.",
+          "trip_verdict": "Si ya estás en Nueva York hoy, escogería uno de los dos sets y armaría la noche alrededor del club en Greenwich Village. Desde el DMV no haría un viaje dedicado de último minuto sólo por esta función; la recomendación es mucho más fuerte dentro de un día que ya estuviera planteado en Nueva York que como una corrida improvisada por el corredor.",
+          "listen_before": "Button Masher — Super Button Masher"
+        }
+      }
+    }
+  ]
+}
