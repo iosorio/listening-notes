@@ -1,0 +1,113 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "raven-chacon-artists-studio-park-avenue-armory-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, KEYSTONE CLUB TOKYO and credible Japanese-jazz sources; the future Yamamoto appearances resurfacing in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Broader New York research surfaced Artists Studio: Raven Chacon at Park Avenue Armory on October 7-8, 2026. Repository-wide searches for the exact artist/venue/date combination and the proposed stable ID returned no matching RADAR event. Stage 1 admits the performance because the engagement is built around two fully improvised nights in the Veterans Room using acoustic, electric, electronic and some homemade instruments, with voices, noise and found sound: the specific instrumentation, improvisational construction and room are the live context rather than generic artist or venue prestige. Stage 2 assigns A+. The two-night format, absence of a documented farewell or singular final appearance, and the lack of a one-time historical deadline mean A+ still captures the recommendation after an explicit S challenge; each set may be unique, but the engagement offers two chances and does not warrant protect-the-night scarcity language. Recent/current intake was checked as a sanity test; adding an A+ strengthens the non-scarcity base rather than making S/S+ routine. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "raven-chacon-artists-studio-park-avenue-armory-2026-10-07",
+      "artist": "Raven Chacon",
+      "subtitle": "Artists Studio: Raven Chacon",
+      "dates": {
+        "start": "2026-10-07",
+        "end": "2026-10-08"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "park-avenue-armory-new-york-ny",
+        "name": "Park Avenue Armory",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental / fully improvised sound / site-responsive performance",
+      "genres": [
+        "Experimental",
+        "Improvisation",
+        "Avant-garde",
+        "Contemporary classical"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Raven Chacon"
+      ],
+      "factual_description": "Park Avenue Armory presents Raven Chacon in the Veterans Room on October 7-8, 2026 as part of the Artists Studio series curated by Jason Moran. The current primary event page says Chacon will present two nights of fully improvised sets using acoustic, electric and electronic instruments, some homemade, ranging from sparse minimal soundscapes to layered works incorporating voices, noise and found sounds. The page lists tickets at $55 including fees. The Armory describes the Veterans Room as a major surviving interior by Louis C. Tiffany and Associated Artists and frames Artists Studio interventions around artists with distinctive relationships to sound and visual aesthetics. The accessible primary event page does not expose exact nightly start times or name additional performers, so no showtime or additional personnel is inferred.",
+      "links": {
+        "official_event": "https://www.armoryonpark.org/season-events/2026-season/artists-studio/raven-chacon/",
+        "official_tickets": "https://www.armoryonpark.org/season-events/2026-season/artists-studio/raven-chacon/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 55,
+          "maximum": 55,
+          "source_url": "https://www.armoryonpark.org/season-events/2026-season/artists-studio/raven-chacon/",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact nightly showtimes",
+          "additional performer personnel if any",
+          "apple_music"
+        ],
+        "note": "The current Park Avenue Armory primary page verifies the October 7-8 date range, Veterans Room, two-night fully improvised format, instrumentation, Artists Studio context and $55 ticket price including fees. The accessible page does not expose exact nightly start times or additional performer personnel; no Apple Music destination is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.armoryonpark.org/season-events/2026-season/artists-studio/raven-chacon/",
+          "publisher": "Park Avenue Armory",
+          "checked_on": "2026-09-08",
+          "note": "Primary event page verifies October 7-8, 2026 in the Veterans Room, two nights of fully improvised sets using acoustic, electric, electronic and some homemade instruments, the soundscape/voices/noise/found-sound description, Artists Studio context, and $55 tickets including fees. Exact nightly start times are not exposed in the accessible page."
+        },
+        {
+          "url": "https://www.armoryonpark.org/season-events/event-series/artists-studio/",
+          "publisher": "Park Avenue Armory",
+          "checked_on": "2026-09-08",
+          "note": "Primary series page verifies Jason Moran as curator, the series' focus on artists who blur performance categories and explore distinct relationships to sound and visual form, and the Veterans Room setting."
+        },
+        {
+          "url": "https://www.armoryonpark.org/about/about-the-building/veterans-room/",
+          "publisher": "Park Avenue Armory",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue page documents the Veterans Room as a landmark interior by Louis C. Tiffany and Associated Artists and as the intimate setting for Artists Studio programming."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-source-partial-showtime-enrichment",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts, dates, room, fully improvised format, instrumentation, series context and ticket price come from current Park Avenue Armory primary materials. Repository searches by artist/venue/date and stable ID found no matching canonical, curated or processed event before publication. Priority was assigned only after Stage 1 admission. A+ was retained after explicitly challenging S: the improvised sets are unique in content, but the engagement spans two nights and there is no verified farewell, final appearance or singular historical deadline that makes protect-the-night language necessary. Exact nightly showtimes remain unresolved rather than inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Chacon turns the Veterans Room into an improvisational laboratory: two nights built from acoustic, electric, electronic and homemade sound sources, with voices, noise and found sound allowed to move from sparse space to dense layering. The point is not a fixed repertoire but the collision between his way of making sound and a room whose own material history is unusually present. This is the kind of New York engagement worth actively making room for.",
+          "trip_verdict": "If New York is already in play that week, choose one of the two nights and make the Veterans Room the anchor of the evening. From the DMV, I would pair it with another strong New York reason rather than build a dedicated up-and-back trip around this engagement alone.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Chacon convierte el Veterans Room en un laboratorio de improvisación: dos noches construidas con fuentes acústicas, eléctricas, electrónicas y de fabricación casera, donde voces, ruido y sonidos encontrados pueden pasar de espacios mínimos a capas densas. El centro no es un repertorio fijo, sino el choque entre su manera de producir sonido y una sala cuya historia material se siente de forma poco común. Es una de esas funciones de Nueva York a las que sí vale abrirles espacio.",
+          "trip_verdict": "Si Nueva York ya entra en el plan esa semana, escogería una de las dos noches y haría del Veterans Room el centro de la velada. Desde el DMV, la combinaría con otra razón fuerte para subir en vez de armar un viaje dedicado de ida y vuelta únicamente por esta función.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
