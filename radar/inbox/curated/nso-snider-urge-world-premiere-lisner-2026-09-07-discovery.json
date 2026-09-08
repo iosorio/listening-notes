@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "nso-snider-urge-world-premiere-lisner-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before grading or publication. Fresh Yamamoto-first research covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources; no new verified, unrepresented Tsuyoshi Yamamoto appearance was found beyond dates already present in canonical, curated or processed intake. Repository searches for Sarah Kirkland Snider, Urge, and Serenades & Simple Songs returned no existing RADAR representation. Stage 1 admits the November 12 performance because it is the world premiere of Sarah Kirkland Snider's Urge, an NSO/Boston Symphony/Aspen co-commission written for Will Liverman on a new Tracy K. Smith text for the United States' 250th anniversary, embedded in a program that pairs new American work with Stravinsky, Michael Tilson Thomas and Tchaikovsky. Stage 2 assigns A+: a local world premiere with a major contemporary composer, a leading bass-baritone and the NSO is actively worth making room for. The same program is repeated at Lisner Auditorium on November 14, so the facts do not support S-level scarcity or a protect-the-night claim for the November 12 premiere. This batch adds A 0 / A+ 1 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "nso-snider-urge-world-premiere-lisner-washington-dc-2026-11-12",
+      "artist": "National Symphony Orchestra",
+      "subtitle": "Serenades & Simple Songs — World Premiere of Sarah Kirkland Snider's Urge",
+      "dates": {
+        "start": "2026-11-12",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "lisner-auditorium-washington-dc",
+        "name": "Lisner Auditorium",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "730 21st Street NW, Washington, DC 20052"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary classical / World premiere",
+      "genres": [
+        "Contemporary classical",
+        "Orchestral"
+      ],
+      "musical_axes": [
+        "Cultural context"
+      ],
+      "lineup": [
+        "National Symphony Orchestra",
+        "Teddy Abrams — conductor",
+        "Will Liverman — bass-baritone"
+      ],
+      "factual_description": "The National Symphony Orchestra presents Serenades & Simple Songs at Lisner Auditorium on Thursday, November 12, 2026 at 7:00 PM. Teddy Abrams conducts, with bass-baritone Will Liverman joining for the world premiere of Sarah Kirkland Snider's Urge, an NSO co-commission setting a new text by poet Tracy K. Smith. Snider's official work page identifies the commissioners as the National Symphony Orchestra, Boston Symphony Orchestra, and Aspen Music Festival and School, says the work was written for Liverman to mark the United States' 250th anniversary, and lists the NSO and Liverman as the premiere performers. The program also includes Stravinsky's Symphonies of Wind Instruments, Michael Tilson Thomas's Street Song, and Tchaikovsky's Serenade for Strings. The NSO lists a second performance of the same program at Lisner Auditorium on Saturday, November 14 at 8:00 PM.",
+      "links": {
+        "official_event": "https://calendar.gwu.edu/event/national-symphony-orchestra-serenades-simple-songs",
+        "official_tickets": "https://www.ticketmaster.com/national-symphony-orchestra-serenades-simple-songs-washington-district-of-columbia-11-12-2026/event/15006513A48B809D"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/national-symphony-orchestra-serenades-simple-songs-washington-district-of-columbia-11-12-2026/event/15006513A48B809D",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Sarah Kirkland Snider",
+          "title": "Forward Into Light",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/eye-of-mnemosyne-ii-mnemonic-wheel-of-the-muses/1854849809"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact primary venue event and authorized Ticketmaster purchase destinations are verified for the November 12 performance, and an exact Apple Music album destination is verified. Ticketmaster does not expose a stable face-value price in the accessible event text, so price remains null rather than inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsymphony.org/",
+          "publisher": "National Symphony Orchestra",
+          "checked_on": "2026-09-07",
+          "note": "Primary NSO 2026–2027 season page verifies Serenades & Simple Songs on November 12 at 7:00 PM and November 14 at 8:00 PM at Lisner Auditorium; Teddy Abrams, Will Liverman, the complete program, and Urge as an NSO co-commission/world premiere are listed."
+        },
+        {
+          "url": "https://www.sarahkirklandsnider.com/works/urge",
+          "publisher": "Sarah Kirkland Snider",
+          "checked_on": "2026-09-07",
+          "note": "Primary composer work page verifies Urge's instrumentation and 20-minute duration, the NSO/Boston Symphony/Aspen commissioning consortium, Will Liverman as the intended baritone, Tracy K. Smith's new text, the U.S. 250th-anniversary context, and the NSO/Liverman premiere."
+        },
+        {
+          "url": "https://calendar.gwu.edu/event/national-symphony-orchestra-serenades-simple-songs",
+          "publisher": "George Washington University",
+          "checked_on": "2026-09-07",
+          "note": "Primary venue calendar verifies the November 12, 2026 7:00 PM performance at Lisner Auditorium, the venue address, Abrams/Liverman context, and the world-premiere description."
+        },
+        {
+          "url": "https://www.ticketmaster.com/national-symphony-orchestra-serenades-simple-songs-washington-district-of-columbia-11-12-2026/event/15006513A48B809D",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-07",
+          "note": "Authorized event-specific purchase page verifies the November 12, 2026 7:00 PM performance at Lisner Auditorium. No face-value price is copied because the accessible page does not expose one."
+        },
+        {
+          "url": "https://music.apple.com/us/album/eye-of-mnemosyne-ii-mnemonic-wheel-of-the-muses/1854849809",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music destination for Sarah Kirkland Snider: Forward Into Light, released in 2026, used as recommended listening for the composer's current orchestral language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-nso-composer-venue-and-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-07",
+        "note": "Repository-wide searches for Sarah Kirkland Snider, Urge and Serenades & Simple Songs returned no matching canonical, curated or processed event before publication. Priority was assigned only after Stage 1 admission. A+ reflects an actively worth-prioritizing local world premiere; the same program's November 14 repeat is a concrete reason not to claim S-level scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to go is not simply an NSO program with a new piece tucked inside it. Sarah Kirkland Snider's Urge is being born here: a new orchestral work written for Will Liverman on a Tracy K. Smith text, co-commissioned for the country's 250th anniversary and placed between Stravinsky, Michael Tilson Thomas and Tchaikovsky. That combination makes the premiere a live document of contemporary American concert music rather than a routine repertory night.",
+          "trip_verdict": "Make room for the Thursday premiere if you are in the DMV and want to hear a major new work at the moment it enters the repertoire. The Saturday repeat gives a useful fallback, so there is no need to turn the premiere into a regional trip or displace a genuinely one-chance-only date.",
+          "listen_before": "Sarah Kirkland Snider — Forward Into Light"
+        },
+        "es": {
+          "why_it_matters": "La razón para ir no es simplemente que la NSO meta una obra nueva dentro de un programa. Urge, de Sarah Kirkland Snider, nace aquí: una obra orquestal escrita para Will Liverman sobre un texto de Tracy K. Smith, co-comisionada para los 250 años de Estados Unidos y colocada entre Stravinsky, Michael Tilson Thomas y Tchaikovsky. Esa combinación vuelve el estreno un documento vivo de la música de concierto estadounidense actual, no una noche rutinaria de repertorio.",
+          "trip_verdict": "Sí le haría espacio al estreno del jueves si estás en el DMV y te interesa escuchar una obra importante justo cuando entra al repertorio. La repetición del sábado funciona como muy buen plan B, así que no hace falta convertir el estreno en un viaje regional ni mover una fecha verdaderamente de una sola oportunidad.",
+          "listen_before": "Sarah Kirkland Snider — Forward Into Light"
+        }
+      }
+    }
+  ]
+}
