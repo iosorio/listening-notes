@@ -1,0 +1,132 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "body-head-jim-orourke-scaffold-3-shibuya-club-quattro-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, KEYSTONE CLUB TOKYO and credible Japanese-jazz sources; no newly verified unrepresented Yamamoto appearance was found, so no duplicate Yamamoto record was created. Broader Greater Tokyo research surfaced Scaffold #3 at SHIBUYA CLUB QUATTRO on October 13, 2026, billing BODY/HEAD (Kim Gordon and Bill Nace) with a Jim O'Rourke solo set. Repository-wide searches for BODY/HEAD, Jim O'Rourke and the proposed stable ID returned no matching RADAR event. Stage 1 admits the performance because the specific bill joins BODY/HEAD's two-guitar, voice, drone/noise and improvisational language with a comparatively uncommon Jim O'Rourke solo appearance inside Scaffold, a recurring experimental-performance context developed through Jim O'Rourke, Eiko Ishibashi and CLUB QUATTRO. Stage 2 assigns A+: this is an unusually strong experimental-guitar and Japan-context bill worth actively making room for in Tokyo. An explicit S challenge does not support scarcity treatment: the same Scaffold #3 bill is also announced for UMEDA CLUB QUATTRO in Osaka on October 15, and no farewell, premiere or singular final appearance is documented. A+ still captures the recommendation. Recent/current RADAR intake was checked as a shape sanity test; this candidate adds to the non-scarcity A/A+ base and does not make S/S+ more common. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "body-head-jim-orourke-scaffold-3-shibuya-club-quattro-2026-10-13",
+      "artist": "BODY/HEAD + Jim O'Rourke",
+      "subtitle": "Scaffold #3",
+      "dates": {
+        "start": "2026-10-13",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "shibuya-club-quattro-tokyo",
+        "name": "SHIBUYA CLUB QUATTRO",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental guitar / improvisation / curated double bill",
+      "genres": [
+        "Experimental",
+        "Noise rock",
+        "Improvisation",
+        "Drone",
+        "Avant-rock"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "BODY/HEAD — Kim Gordon (guitar, vocals), Bill Nace (guitar)",
+        "Jim O'Rourke — solo set"
+      ],
+      "factual_description": "SHIBUYA CLUB QUATTRO presents Scaffold #3 on Tuesday, October 13, 2026, billing BODY/HEAD (Kim Gordon and Bill Nace) with Jim O'Rourke performing solo. Doors are at 18:00 and the performance starts at 19:00. The venue lists an advance standing price of ¥10,000, with a separate ¥600 drink charge, and general ticket sales beginning September 11, 2026 at 10:00. CLUB QUATTRO describes Scaffold as an event for experimental expression in the raw, fresh atmosphere of a live venue. Eplus-owned SPICE describes the series as developed through Jim O'Rourke, Eiko Ishibashi and CLUB QUATTRO, identifies BODY/HEAD as Gordon and experimental guitarist/improviser Bill Nace, notes the duo's guitar/voice, drone, noise and improvisational language, and describes O'Rourke's appearance as a return to solo performance after some time. The same Scaffold #3 bill is announced for UMEDA CLUB QUATTRO in Osaka on October 15, 2026.",
+      "links": {
+        "official_event": "https://www.club-quattro.com/shibuya/schedule/detail/?cd=018674",
+        "official_tickets": "https://eplus.jp/scaffold-3/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 10000,
+          "maximum": 10000,
+          "source_url": "https://www.club-quattro.com/shibuya/schedule/detail/?cd=018674",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Body/Head",
+          "title": "The Switch",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-switch/1586496963"
+        },
+        {
+          "artist": "Jim O'Rourke",
+          "title": "Simple Songs",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/simple-songs/1610294579"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact SHIBUYA CLUB QUATTRO event page verifies the Tokyo date, venue, billing, doors/start time, advance price, separate drink charge and general-sale date. Eplus-owned SPICE independently verifies the Tokyo and Osaka Scaffold #3 dates, performers, series context and authorized Eplus campaign destination. Exact Apple Music album pages are recorded for Body/Head's The Switch and Jim O'Rourke's Simple Songs."
+      },
+      "sources": [
+        {
+          "url": "https://www.club-quattro.com/shibuya/schedule/detail/?cd=018674",
+          "publisher": "SHIBUYA CLUB QUATTRO",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue event page verifies October 13, 2026, SHIBUYA CLUB QUATTRO, BODY/HEAD (Kim Gordon and Bill Nace) plus Jim O'Rourke, Scaffold #3, doors 18:00/start 19:00, ¥10,000 advance price, separate ¥600 drink charge and September 11 general-sale date."
+        },
+        {
+          "url": "https://spice.eplus.jp/articles/348695",
+          "publisher": "SPICE / Eplus",
+          "checked_on": "2026-09-08",
+          "note": "Authoritative Eplus-owned announcement independently verifies the October 13 Tokyo and October 15 Osaka dates, BODY/HEAD and Jim O'Rourke billing, the Scaffold context developed through Jim O'Rourke, Eiko Ishibashi and CLUB QUATTRO, O'Rourke's solo appearance, ¥10,000 advance price and the authorized Eplus ticket campaign URL."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-switch/1586496963",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page for Body/Head's The Switch."
+        },
+        {
+          "url": "https://music.apple.com/us/album/simple-songs/1610294579",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page for Jim O'Rourke's Simple Songs."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authoritative-eplus-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core Tokyo event facts come from the exact current SHIBUYA CLUB QUATTRO page; the Eplus-owned SPICE announcement independently supports the two-city Scaffold #3 context, performer identities and ticket campaign. Repository searches by artist names and proposed stable ID found no matching canonical, curated or processed RADAR event before publication. Priority was assigned only after Stage 1 admission. A+ was retained after explicitly challenging S: the Jim O'Rourke solo context and BODY/HEAD pairing are unusual, but the same bill repeats in Osaka two days later and there is no verified farewell, premiere or singular final appearance requiring protect-the-night scarcity language."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Scaffold #3 puts BODY/HEAD's tense two-guitar language—drone, noise, voice and improvisation—beside a comparatively uncommon Jim O'Rourke solo set, inside a series built to let experimental music breathe in a live-house setting rather than a formal concert frame. Gordon and Nace bring an American no-wave/improvisational lineage into direct contact with O'Rourke's long Japan-based practice. This is the kind of Tokyo bill worth actively making room for.",
+          "trip_verdict": "If Tokyo overlaps October 13, build the evening around Shibuya Club Quattro. The same bill reaches Osaka on October 15, so I would keep the Tokyo date flexible within a broader Japan itinerary rather than reshape the trip solely to force this particular night.",
+          "listen_before": "Body/Head — The Switch; Jim O'Rourke — Simple Songs"
+        },
+        "es": {
+          "why_it_matters": "Scaffold #3 pone el lenguaje tenso de dos guitarras de BODY/HEAD —drone, ruido, voz e improvisación— junto a una aparición solista poco frecuente de Jim O'Rourke, dentro de una serie pensada para que la música experimental respire en el contexto directo de un live house y no en un marco de concierto formal. Gordon y Nace llevan una línea estadounidense de no wave e improvisación al encuentro de la práctica que O'Rourke ha desarrollado desde hace años en Japón. Es una de esas noches de Tokio a las que sí vale abrirles espacio.",
+          "trip_verdict": "Si Tokio coincide con el 13 de octubre, armaría la noche alrededor de Shibuya Club Quattro. El mismo cartel llega a Osaka el 15, así que mantendría flexible la fecha dentro de un itinerario más amplio por Japón en vez de reconstruir el viaje sólo para forzar esta noche en particular.",
+          "listen_before": "Body/Head — The Switch; Jim O'Rourke — Simple Songs"
+        }
+      }
+    }
+  ]
+}
