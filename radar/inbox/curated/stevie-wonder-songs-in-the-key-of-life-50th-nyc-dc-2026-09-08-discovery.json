@@ -1,0 +1,226 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "stevie-wonder-songs-in-the-key-of-life-50th-nyc-dc-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources; the Yamamoto performances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Broader corridor research found Stevie Wonder's newly announced Songs In The Key of Life Performances 50th Anniversary Tour at Madison Square Garden on November 19 and Capital One Arena on November 23. Repository searches for Stevie Wonder, both exact dates/venues and the proposed IDs found no matching RADAR event. Stage 1 admits both performances because the specific live context is a major living master performing Songs In The Key of Life in its entirety during the album's exact 50th-anniversary cycle, not simply a famous artist on a routine arena tour. Stage 2 assigns S after an explicit scarcity challenge. The counterargument is substantial: the production has 18 announced performances worldwide, including six U.S. shows, and Wonder previously toured the album in full in 2014-15. Even so, A+ would understate the recommendation for this historically bounded 50th-anniversary return by Wonder to the complete album: missing the available corridor performance would create genuine regret, while the repetition across the tour and the 2014-15 precedent keep it clearly below S+. Recent/current discovery intake was checked as a shape sanity test; recent newly published candidates have been predominantly A+, with S comparatively uncommon, and both S assignments here were challenged independently rather than used as an admission filter. Batch distribution: A 0, A+ 0, S 2, S+ 0.",
+  "events": [
+    {
+      "id": "stevie-wonder-songs-in-the-key-of-life-madison-square-garden-2026-11-19",
+      "artist": "Stevie Wonder",
+      "subtitle": "Songs In The Key of Life Performances — 50th Anniversary Tour",
+      "dates": {
+        "start": "2026-11-19",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "madison-square-garden-new-york-ny",
+        "name": "Madison Square Garden",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "rationale": "Scarcity challenge: this is one of six announced U.S. performances in the exact 50th-anniversary cycle, with Wonder performing Songs In The Key of Life in its entirety. The strongest argument for A+ is that the production repeats across 18 worldwide dates and Wonder previously toured the album in full in 2014-15. A+ still undersells the specific historical window: a major living master returning to the complete landmark album for its 50th anniversary is a protect-the-night context where missing the accessible corridor performance would create genuine regret. The repeated tour dates and prior full-album tour are exactly why this is S rather than S+."
+      },
+      "category": "Living master / landmark-album anniversary / soul",
+      "genres": [
+        "Soul",
+        "R&B",
+        "Funk",
+        "Pop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Stevie Wonder"
+      ],
+      "factual_description": "Stevie Wonder brings the Songs In The Key of Life Performances 50th Anniversary Tour to Madison Square Garden in New York on Thursday, November 19, 2026. The venue lists doors at 7:00 PM and the concert at 8:00 PM. The anniversary production is promoted by Live Nation and produced by Wonder Productions, Inc.; the tour announcement states that Wonder will perform the 1976 album Songs In The Key of Life in its entirety. The New York performance opens the announced six-show U.S. leg of an 18-performance international tour. No additional performers or backing-band members are announced on the current venue or authorized ticket pages.",
+      "links": {
+        "official_event": "https://www.msg.com/events-tickets/stevie-wonder-madison-square-garden-november-2026/3B0064C5A0CF3D01",
+        "official_tickets": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-new-york-new-york-11-19-2026/event/3B0064C5A0CF3D01?camefrom=CFC_MSG"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-new-york-new-york-11-19-2026/event/3B0064C5A0CF3D01?camefrom=CFC_MSG",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact MSG and authorized Ticketmaster pages verify the date, venue, 8:00 PM showtime, 7:00 PM doors, tour billing and Stevie Wonder as the announced lineup. The authoritative tour announcement verifies the full-album 50th-anniversary format and the international/U.S. routing. Face-value prices were not published on the checked pages and are therefore left null; no unannounced backing musicians or listening IDs were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.msg.com/events-tickets/stevie-wonder-madison-square-garden-november-2026/3B0064C5A0CF3D01",
+          "publisher": "Madison Square Garden",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue event page verifies Stevie Wonder, the Songs In The Key of Life Performances 50th Anniversary Tour billing, November 19, 2026, Madison Square Garden, 8:00 PM showtime, 7:00 PM doors and the authorized Ticketmaster sale destination."
+        },
+        {
+          "url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-new-york-new-york-11-19-2026/event/3B0064C5A0CF3D01?camefrom=CFC_MSG",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-08",
+          "note": "Authorized ticket page independently verifies November 19, 2026 at 8:00 PM, Madison Square Garden and Stevie Wonder as the announced lineup; face-value inventory was not yet available at check time."
+        },
+        {
+          "url": "https://news.pollstar.com/2026/09/08/stevie-wonder-announces-songs-in-the-key-of-life-performances-tour-for-50th-anniversary/",
+          "publisher": "Pollstar",
+          "checked_on": "2026-09-08",
+          "note": "Authoritative same-day tour announcement reports the Live Nation/Wonder Productions production, the 50th-anniversary context, that Songs In The Key of Life will be performed in its entirety, and the announced international routing including New York and Washington."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-and-authoritative-tour-announcement-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core New York event facts come from Madison Square Garden and its authorized Ticketmaster event page; the full-album anniversary context is supported by the authoritative same-day tour announcement. Repository searches by artist, exact date/venue and proposed stable ID found no matching canonical, curated or processed RADAR event before publication. Priority was assigned only after Stage 1 admission and survived an explicit S challenge against the 18-date routing and the 2014-15 full-album tour precedent."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Wonder is not simply taking a greatest-hits show back to arenas: he is returning to Songs In The Key of Life as a complete work at the precise 50-year mark. The album's sweep across soul, funk, pop, jazz-inflected harmony and social writing makes the full performance a rare chance to hear one of the central living architects of modern popular music inhabit his most expansive statement again. This is a night to protect rather than squeeze between other plans.",
+          "trip_verdict": "If New York is already in the picture, center November 19 on the Garden. From the DMV, the Washington performance four days later is the practical corridor alternative, so I would travel north for this one only if the New York date itself fits the trip better or Madison Square Garden matters to the experience.",
+          "listen_before": "Stevie Wonder — Songs In The Key of Life"
+        },
+        "es": {
+          "why_it_matters": "Wonder no está regresando a las arenas con un simple recorrido de éxitos: vuelve a Songs In The Key of Life como obra completa justo al cumplirse cincuenta años. La amplitud del disco —soul, funk, pop, armonía con lenguaje de jazz y escritura social— convierte la interpretación íntegra en una oportunidad poco común de escuchar a uno de los grandes arquitectos vivos de la música popular volver a habitar su obra más expansiva. Es una noche para proteger, no para meter entre otros planes.",
+          "trip_verdict": "Si Nueva York ya entra en el plan, armaría el 19 de noviembre alrededor del Garden. Desde el DMV, la función de Washington cuatro días después es la alternativa lógica dentro del corredor, así que subiría por ésta sólo si la fecha de Nueva York encaja mejor en el viaje o si el Madison Square Garden forma parte del atractivo.",
+          "listen_before": "Stevie Wonder — Songs In The Key of Life"
+        }
+      }
+    },
+    {
+      "id": "stevie-wonder-songs-in-the-key-of-life-capital-one-arena-2026-11-23",
+      "artist": "Stevie Wonder",
+      "subtitle": "Songs In The Key of Life Performances — 50th Anniversary Tour",
+      "dates": {
+        "start": "2026-11-23",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "capital-one-arena-washington-dc",
+        "name": "Capital One Arena",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "rationale": "Scarcity challenge: this is one of six announced U.S. performances in the exact 50th-anniversary cycle, with Wonder performing Songs In The Key of Life in its entirety. The strongest argument for A+ is that the production repeats across 18 worldwide dates and Wonder previously toured the album in full in 2014-15. A+ still undersells the specific historical window: a major living master returning to the complete landmark album for its 50th anniversary is a protect-the-night context where missing the accessible corridor performance would create genuine regret. The repeated tour dates and prior full-album tour are exactly why this is S rather than S+."
+      },
+      "category": "Living master / landmark-album anniversary / soul",
+      "genres": [
+        "Soul",
+        "R&B",
+        "Funk",
+        "Pop"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Stevie Wonder"
+      ],
+      "factual_description": "Stevie Wonder brings the Songs In The Key of Life Performances 50th Anniversary Tour to Capital One Arena in Washington, D.C. on Monday, November 23, 2026. The venue lists doors at 7:00 PM and the concert at 8:00 PM. The anniversary production is promoted by Live Nation and produced by Wonder Productions, Inc.; the tour announcement states that Wonder will perform the 1976 album Songs In The Key of Life in its entirety. Washington is one of six announced U.S. performances in an 18-performance international tour. No additional performers or backing-band members are announced on the current venue or authorized ticket pages.",
+      "links": {
+        "official_event": "https://www.capitalonearena.com/events/detail/stevie-wonder",
+        "official_tickets": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389?tt_scene=anchor_view"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389?tt_scene=anchor_view",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Capital One Arena and authorized Ticketmaster pages verify the date, venue, 8:00 PM showtime, 7:00 PM doors, tour billing and Stevie Wonder as the announced lineup. The authoritative tour announcement verifies the full-album 50th-anniversary format and the international/U.S. routing. Face-value prices were not published on the checked pages and are therefore left null; no unannounced backing musicians or listening IDs were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.capitalonearena.com/events/detail/stevie-wonder",
+          "publisher": "Capital One Arena",
+          "checked_on": "2026-09-08",
+          "note": "Primary venue event page verifies November 23, 2026 at Capital One Arena, 8:00 PM showtime, 7:00 PM doors, the Songs In The Key of Life Performances 50th Anniversary billing, and states that the album will be performed in its entirety."
+        },
+        {
+          "url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389?tt_scene=anchor_view",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-08",
+          "note": "Authorized ticket page independently verifies November 23, 2026 at 8:00 PM, Capital One Arena and Stevie Wonder as the announced lineup; face-value inventory was not yet available at check time."
+        },
+        {
+          "url": "https://news.pollstar.com/2026/09/08/stevie-wonder-announces-songs-in-the-key-of-life-performances-tour-for-50th-anniversary/",
+          "publisher": "Pollstar",
+          "checked_on": "2026-09-08",
+          "note": "Authoritative same-day tour announcement reports the Live Nation/Wonder Productions production, the 50th-anniversary context, that Songs In The Key of Life will be performed in its entirety, and the announced international routing including New York and Washington."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-and-authoritative-tour-announcement-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core Washington event facts come from Capital One Arena and its authorized Ticketmaster event page; the full-album anniversary context is supported by the authoritative same-day tour announcement. Repository searches by artist, exact date/venue and proposed stable ID found no matching canonical, curated or processed RADAR event before publication. Priority was assigned only after Stage 1 admission and survived an explicit S challenge against the 18-date routing and the 2014-15 full-album tour precedent."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Wonder is not simply taking a greatest-hits show back to arenas: he is returning to Songs In The Key of Life as a complete work at the precise 50-year mark. The album's sweep across soul, funk, pop, jazz-inflected harmony and social writing makes the full performance a rare chance to hear one of the central living architects of modern popular music inhabit his most expansive statement again. This is a night to protect rather than squeeze between other plans.",
+          "trip_verdict": "For the DMV, keep November 23 centered on Capital One Arena; this is the corridor stop that removes any need to chase the production to New York. If Thanksgiving-week logistics become difficult, the Madison Square Garden date four days earlier is the closest announced fallback.",
+          "listen_before": "Stevie Wonder — Songs In The Key of Life"
+        },
+        "es": {
+          "why_it_matters": "Wonder no está regresando a las arenas con un simple recorrido de éxitos: vuelve a Songs In The Key of Life como obra completa justo al cumplirse cincuenta años. La amplitud del disco —soul, funk, pop, armonía con lenguaje de jazz y escritura social— convierte la interpretación íntegra en una oportunidad poco común de escuchar a uno de los grandes arquitectos vivos de la música popular volver a habitar su obra más expansiva. Es una noche para proteger, no para meter entre otros planes.",
+          "trip_verdict": "Para el DMV, dejaría el 23 de noviembre centrado en Capital One Arena; esta parada del corredor elimina la necesidad de perseguir la producción hasta Nueva York. Si la semana de Thanksgiving complica la logística, la fecha del Madison Square Garden cuatro días antes es la alternativa anunciada más cercana.",
+          "listen_before": "Stevie Wonder — Songs In The Key of Life"
+        }
+      }
+    }
+  ]
+}
