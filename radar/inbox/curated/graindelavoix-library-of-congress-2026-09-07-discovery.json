@@ -1,0 +1,124 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "graindelavoix-library-of-congress-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed only after reading the current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md and docs/DATA_MODEL.md. Fresh checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources. Verified future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found Graindelavoix at the Library of Congress on November 20, 2026, and repository searches for the artist and stable event ID returned no existing RADAR record before publication. Stage 1 admits this specific performance because the Library commissioned a bespoke program built from the Laborde Chansonnier and other Renaissance holdings for presentation in the Great Hall, while Graindelavoix explicitly approaches historical vocal repertoire through contemporary and critical interpretation. That is a concrete repertoire/archive/setting reason, not venue prestige or generic excellence. Stage 2 assigns A+: the archive-specific program and ensemble language are actively worth making room for locally. The scarcity challenge does not support S because no farewell, premiere, one-off lineup or other demonstrated nonrecurring fact is announced; A+ still captures the recommendation. Recent/current intake reviewed for the distribution sanity check remains centered on A/A+, and this batch adds A+=1, S=0, S+=0 without grading to a quota.",
+  "events": [
+    {
+      "id": "graindelavoix-library-of-congress-washington-dc-2026-11-20",
+      "artist": "Graindelavoix",
+      "subtitle": "Bespoke Laborde Chansonnier program in the Great Hall",
+      "dates": {
+        "start": "2026-11-20",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "library-of-congress-great-hall-washington-dc",
+        "name": "Library of Congress — Great Hall",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental early music / archival program",
+      "genres": [
+        "Early music",
+        "Renaissance polyphony",
+        "Experimental vocal music"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Graindelavoix (period vocal ensemble)"
+      ],
+      "factual_description": "The Library of Congress presents Antwerp-based period vocal ensemble Graindelavoix on Friday, November 20, 2026 at 20:00 in the Thomas Jefferson Building's Great Hall, with a 18:30 preconcert conversation with the artists in the Whittall Pavilion. The concert is free but ticketed. The Library describes a bespoke program dramatizing the dawn of print culture through works drawn from the Music Division's Renaissance collections, including the Laborde Chansonnier. Graindelavoix's official site describes the ensemble, founded in 1999 and helmed by founder-director Björn Schmelzer, as committed to contemporary and critical interpretation of mainly historical vocal repertoires. The date-specific individual singers are not named in the checked event source and are therefore not inferred.",
+      "links": {
+        "official_event": "https://www.loc.gov/item/event-421766/graindelavoix/2026-11-20/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://www.loc.gov/item/event-421766/graindelavoix/2026-11-20/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Björn Schmelzer & Graindelavoix",
+          "title": "Ex nihilo: Polyphony Beyond the Order of Things",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/ex-nihilo-polyphony-beyond-the-order-of-things/1768043115"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact_official_ticket_destination",
+          "date_specific_individual_personnel"
+        ],
+        "note": "The Library verifies the free-ticketed event, venue, 20:00 concert in its season announcement, 18:30 preconcert conversation, and the bespoke Laborde Chansonnier/Renaissance-collections program. The current event detail page exposes a Get Tickets action but its exact authorized ticket destination was not recovered, so official_tickets remains null. The event bills Graindelavoix without naming the date-specific singers, so individual personnel remain unresolved rather than invented. Apple Music verifies the exact Ex nihilo album destination."
+      },
+      "sources": [
+        {
+          "url": "https://www.loc.gov/item/event-421766/graindelavoix/2026-11-20/",
+          "publisher": "Library of Congress",
+          "checked_on": "2026-09-07",
+          "note": "Primary event page verifies Friday, November 20, 2026, the Great Hall, free-but-ticketed status, a 18:30 artist conversation, Graindelavoix billing, and the bespoke program drawing on the Laborde Chansonnier and other Renaissance holdings. The page's top-level time display is malformed, so the verified 20:00 concert time is taken from the Library's current season announcement."
+        },
+        {
+          "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+          "publisher": "Library of Congress Newsroom",
+          "checked_on": "2026-09-07",
+          "note": "Primary 2026-27 season announcement verifies the Friday, November 20, 20:00 concert, bespoke Laborde Chansonnier/Renaissance collections program and 18:30 Whittall Pavilion preconcert conversation."
+        },
+        {
+          "url": "https://www.graindelavoix.be/about",
+          "publisher": "Graindelavoix",
+          "checked_on": "2026-09-07",
+          "note": "Primary ensemble page verifies the Antwerp ensemble's 1999 founding, founder-director Björn Schmelzer and its contemporary, critical approach to mainly historical vocal repertoires; it is contextual evidence, not a date-specific personnel list."
+        },
+        {
+          "url": "https://music.apple.com/us/album/ex-nihilo-polyphony-beyond-the-order-of-things/1768043115",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music page verifies the 2024 album Ex nihilo: Polyphony Beyond the Order of Things by Björn Schmelzer and Graindelavoix."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-library-artist-and-apple-music-sources",
+        "note": "Core event facts are grounded in current Library of Congress primary sources, the ensemble's official site and Apple Music. Repository searches for Graindelavoix and the stable event ID returned no existing canonical, curated or processed RADAR record before publication. Priority A+ was assigned after Stage 1 admission: the bespoke archive program and Graindelavoix's unusual interpretive identity make the local date actively worth prioritizing, while the explicit scarcity challenge found no event-specific fact strong enough to require a protect-the-night tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The archive is part of the music here, not background scenery. Graindelavoix is bringing its deliberately contemporary, critical way of singing historical repertoire into a bespoke program built from the Library's Laborde Chansonnier and other Renaissance treasures, then putting that material into the Great Hall rather than treating it as a museum exercise. It is an unusually direct collision between old source material, a living interpretive philosophy and the room that holds the collection.",
+          "trip_verdict": "Actively make room for this if November 20 is open and get there for the 6:30 conversation if possible. It is a local Washington night with enough archive and performance identity to build the evening around; there is no need to turn it into a regional trip.",
+          "listen_before": "Graindelavoix — Ex nihilo: Polyphony Beyond the Order of Things"
+        },
+        "es": {
+          "why_it_matters": "Aquí el archivo sí forma parte de la música. Graindelavoix llega con una manera deliberadamente contemporánea y crítica de cantar repertorio histórico y con un programa armado a partir del Laborde Chansonnier y otros tesoros renacentistas de la propia Library. La gracia no es escuchar 'música antigua' como pieza de museo, sino oír cómo un ensamble vivo y bastante incómodo con las convenciones se enfrenta al material en el edificio que lo conserva.",
+          "trip_verdict": "Si el 20 de noviembre está libre, sí haría espacio y trataría de llegar a la conversación de las 6:30. Es una noche local en Washington con suficiente identidad de archivo y de interpretación para construir la tarde alrededor de ella; no hace falta convertirla en viaje regional.",
+          "listen_before": "Graindelavoix — Ex nihilo: Polyphony Beyond the Order of Things"
+        }
+      }
+    }
+  ]
+}
