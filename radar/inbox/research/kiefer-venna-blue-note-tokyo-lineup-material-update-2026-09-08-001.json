@@ -1,0 +1,53 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "kiefer-venna-blue-note-tokyo-lineup-material-update-2026-09-08-001",
+  "created_on": "2026-09-08",
+  "notes": "Material factual-update research for the existing November 1-3, 2026 Kiefer and November 15, 2026 Venna Blue Note Tokyo RADAR records. Both processed creation records were published while Blue Note Tokyo still listed additional personnel as TBA. The current exact Blue Note Tokyo event pages now identify complete quartets: Kiefer with Parijita, Erik Shiboski and Estratos; Venna with Jack Kuelling, Maurice Allen Jr. and Dominique Gervais. The current existing-event enrichment contract forbids changing lineup, factual_description, priority or editorial copy, so this handoff records fresh primary-source and provenance evidence without silently altering radar/events.json. A separate factual/editorial correction is required. No priority mutation is proposed: Kiefer remains A+ and Venna remains A under the current durable rubric; completing the personnel strengthens the factual record but does not create new scarcity or another event-specific reason to change either recommendation.",
+  "events": [
+    {
+      "id": "kiefer-blue-note-tokyo-2026-11-01",
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The lineup completion is outside the enrichment patch scope. The existing canonical official-ticket-link gap remains unchanged rather than being fabricated or silently reclassified."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/kiefer/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-09-08",
+          "note": "Current exact primary event page confirms November 1-3, 2026 and now lists the full performing personnel as Kiefer (keyboards/piano), Parijita (vocals), Erik Shiboski (bass) and Estratos (drums). The original processed RADAR creation artifact listed only Kiefer and stated that additional members were TBA."
+        }
+      ],
+      "provenance": {
+        "status": "material-factual-change-detected",
+        "note": "Blue Note Tokyo has resolved the previously TBA additional personnel for the Kiefer engagement. No canonical lineup, factual-description, priority or editorial field is modified because the current existing-event enrichment workflow permits only links, listening recommendations, enrichment metadata, sources and provenance; the lineup correction requires a separate factual/editorial review.",
+        "recorded_on": "2026-09-08"
+      }
+    },
+    {
+      "id": "venna-blue-note-tokyo-2026-11-15",
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The lineup completion is outside the enrichment patch scope. Existing event, ticket and listening enrichment remains complete and unchanged."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/venna/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-09-08",
+          "note": "Current exact primary event page confirms November 15, 2026 and now lists the full performing personnel as Venna (saxophone), Jack Kuelling (guitar), Maurice Allen Jr. (bass) and Dominique Gervais (drums). The original processed RADAR creation artifact listed only Venna and stated that additional members were TBA."
+        }
+      ],
+      "provenance": {
+        "status": "material-factual-change-detected",
+        "note": "Blue Note Tokyo has resolved the previously TBA additional personnel for the Venna engagement. No canonical lineup, factual-description, priority or editorial field is modified because the current existing-event enrichment workflow permits only links, listening recommendations, enrichment metadata, sources and provenance; the lineup correction requires a separate factual/editorial review.",
+        "recorded_on": "2026-09-08"
+      }
+    }
+  ]
+}
