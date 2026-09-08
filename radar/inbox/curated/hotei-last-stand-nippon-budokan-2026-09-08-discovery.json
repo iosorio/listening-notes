@@ -1,0 +1,111 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "hotei-last-stand-nippon-budokan-2026-09-08-discovery",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-08",
+  "notes": "Yamamoto-first discovery pass under the current durable repository rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Current Yamamoto/ALFIE/BODY&SOUL/Space M&A threads were checked first and no newly announced unrepresented Yamamoto performance was verified. Tomoyasu Hotei's newly announced Nippon Budokan finale clears RADAR admission for a specific 45th-career-anniversary context: after a 27-show nationwide STAY WILD TOUR, Hotei closes the Celebration Year with three THE LAST STAND arena dates, including December 30-31 at Budokan. Priority is A+ rather than S: the anniversary-finale framing and guitar-centered Japanese-rock lineage merit actively making room, but the same finale concept has three performances, two on consecutive Budokan nights, and is not announced as a farewell or other singular final performance. Proposed batch shape: A 0, A+ 1, S 0, S+ 0; this is a sanity check, not a quota.",
+  "events": [
+    {
+      "id": "hotei-last-stand-nippon-budokan-2026-12-30",
+      "artist": "Tomoyasu Hotei",
+      "subtitle": "45th CELEBRATION GIGS “STAY WILD TOUR” — THE LAST STAND",
+      "dates": {
+        "start": "2026-12-30",
+        "end": "2026-12-31"
+      },
+      "showtimes": [
+        "18:00",
+        "16:00"
+      ],
+      "venue": {
+        "id": "nippon-budokan-chiyoda-tokyo",
+        "name": "Nippon Budokan",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Culturally significant Japanese rock / 45th-anniversary finale",
+      "genres": [
+        "Rock",
+        "J-Rock",
+        "Guitar rock"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Tomoyasu Hotei"
+      ],
+      "factual_description": "HOTEI.COM presents HOTEI 45th CELEBRATION GIGS “STAY WILD TOUR” — THE LAST STAND at Nippon Budokan on December 30 and 31, 2026, as the Tokyo climax and finale of Hotei's 45th-anniversary Celebration Year after the 27-show nationwide STAY WILD TOUR. December 30 opens at 17:00 and starts at 18:00; December 31 opens at 15:00 and starts at 16:00. The official listing gives general reserved-seat face value as ¥13,000 and describes these two Budokan performances, together with the December 27 Osaka-jo Hall date, as the three THE LAST STAND finale concerts. No backing-band personnel are named on the official pages checked, so none are inferred.",
+      "links": {
+        "official_event": "https://jp.hotei.com/special/staywildtour_final/",
+        "official_tickets": null
+      },
+      "recommended_listening": [
+        {
+          "artist": "Hotei",
+          "title": "Guitarhythm Vlll",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/guitarhythm-vlll/1804480978"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact HOTEI.COM event and live pages verify the finale framing, dates, doors/start times and listed face value, and the current Apple Music album destination is exact. The official pages currently describe fan-club lottery access but do not expose a stable exact public purchase destination, so official_tickets remains null."
+      },
+      "sources": [
+        {
+          "url": "https://jp.hotei.com/special/staywildtour_final/",
+          "publisher": "HOTEI.COM",
+          "checked_on": "2026-09-08",
+          "note": "Primary artist event page verifying THE LAST STAND as the finale of the 45th-anniversary Celebration Year after the nationwide STAY WILD TOUR, with December 30-31 Nippon Budokan dates and current fan-club advance context."
+        },
+        {
+          "url": "https://jp.hotei.com/lives/",
+          "publisher": "HOTEI.COM",
+          "checked_on": "2026-09-08",
+          "note": "Primary artist live schedule verifying December 30 doors 17:00/start 18:00, December 31 doors 15:00/start 16:00, Nippon Budokan, and ¥13,000 general reserved-seat face value."
+        },
+        {
+          "url": "https://www.nipponbudokan.or.jp/about/access",
+          "publisher": "Nippon Budokan",
+          "checked_on": "2026-09-08",
+          "note": "Official venue page verifying the Kitanomaru Park, Chiyoda, Tokyo venue identity."
+        },
+        {
+          "url": "https://music.apple.com/us/album/guitarhythm-vlll/1804480978",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page for Hotei's 2025 Guitarhythm Vlll."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-sources",
+        "note": "Event facts are verified from Hotei's official event/live pages, venue identity from Nippon Budokan, and listening from the exact Apple Music page. Repository searches for Hotei/Tomoyasu Hotei, THE LAST STAND and the Budokan finale returned no existing matching RADAR candidate before publication. No unannounced backing musicians or public ticket URL are inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The anniversary frame is the live argument here: after a full national tour, Hotei brings a 45-year Japanese-rock career built around an unmistakable guitar voice to Budokan for the final two nights of his Celebration Year. The combination of instrumental identity, long cultural reach and a deliberately staged year-end climax makes this more than another arena stop.",
+          "trip_verdict": "If a Tokyo stay reaches December 30 or 31, actively make room for one Budokan night; December 31 is the literal final date, while the adjacent December 30 show gives useful flexibility. I would build an evening around it in Tokyo rather than reorganize a broader Japan trip solely around New Year's Eve.",
+          "listen_before": "Hotei — Guitarhythm Vlll"
+        },
+        "es": {
+          "why_it_matters": "Aquí el aniversario sí es el argumento en vivo: después de una gira nacional completa, Hotei lleva al Budokan una trayectoria de 45 años en el rock japonés construida alrededor de una voz de guitarra inconfundible y cierra ahí las dos últimas noches de su Celebration Year. La mezcla de identidad instrumental, peso cultural y un cierre de año deliberadamente planteado como clímax vuelve estas fechas algo más que otra parada de arena.",
+          "trip_verdict": "Si una estancia en Tokio alcanza el 30 o 31 de diciembre, sí le haría espacio a una noche en el Budokan; el 31 es el cierre literal y el 30 deja una alternativa muy útil. Armaría una noche de Tokio alrededor del concierto, pero no reorganizaría por completo un viaje más amplio a Japón sólo por Año Nuevo.",
+          "listen_before": "Hotei — Guitarhythm Vlll"
+        }
+      }
+    }
+  ]
+}
