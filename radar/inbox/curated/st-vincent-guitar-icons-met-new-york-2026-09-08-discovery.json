@@ -1,0 +1,127 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "st-vincent-guitar-icons-met-new-york-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, KEYSTONE CLUB TOKYO and credible Japanese-jazz sources. The September 8 and September 15 KEYSTONE appearances and the other future Yamamoto dates surfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. Broader US-corridor research surfaced Guitar Icons: St. Vincent at The Metropolitan Museum of Art on February 20, 2027. Repository-wide searches for St. Vincent, Rachel Eckroth, Guitar Icons and the February 20 Met engagement returned no matching RADAR event. Stage 1 admits the performance because The Met is framing St. Vincent's guitar language inside its Guitar Icons series ahead of a new American-guitar gallery, with a historical instrument from the museum collection and keyboardist Rachel Eckroth: artist, instrument history, collaborator and museum context are specific to this engagement rather than generic venue prestige. Stage 2 assigns A+. The one-night format and historical-instrument context make it actively worth prioritizing, but the scarcity challenge did not justify S: this is not announced as a farewell, premiere, final appearance or singular new work, St. Vincent remains an active performer, and A+ still captures the strength of the recommendation. Recent/current intake was checked as a sanity test; adding an A+ broadens the non-scarcity base rather than making S/S+ routine. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+  "events": [
+    {
+      "id": "st-vincent-guitar-icons-met-new-york-2027-02-20",
+      "artist": "St. Vincent",
+      "subtitle": "Guitar Icons: St. Vincent",
+      "dates": {
+        "start": "2027-02-20",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "grace-rainey-rogers-auditorium-the-met-new-york-ny",
+        "name": "Grace Rainey Rogers Auditorium at The Metropolitan Museum of Art",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Art rock / guitar history / museum-specific collaboration",
+      "genres": [
+        "Art rock",
+        "Alternative",
+        "Experimental rock"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Experimental / Metal",
+        "Cultural context"
+      ],
+      "lineup": [
+        "St. Vincent — guitar, vocals",
+        "Rachel Eckroth — keyboards"
+      ],
+      "factual_description": "The Metropolitan Museum of Art presents Guitar Icons: St. Vincent on Saturday, February 20, 2027 at 7:00 PM in the Grace Rainey Rogers Auditorium. The Met says the one-night performance will feature a historical instrument from its collection as part of the Guitar Icons series connected to the museum's forthcoming gallery celebrating the American guitar. The Met's 2026-27 season announcement also states that St. Vincent will be joined by keyboardist Rachel Eckroth for the performance. Tickets are listed at $35-$155 in the season announcement, while the current Met Live Arts hub lists tickets starting at $35. The exact historical instrument and detailed repertoire are not identified in the accessible primary materials, so neither is inferred here.",
+      "links": {
+        "official_event": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/guitar-icons-st-vincent/",
+        "official_tickets": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/guitar-icons-st-vincent/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35,
+          "maximum": 155,
+          "source_url": "https://www.metmuseum.org/press-releases/mla-2026-7-season",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "St. Vincent",
+          "title": "All Born Screaming",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/all-born-screaming/1729549170"
+        }
+      ],
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "exact historical instrument",
+          "detailed repertoire"
+        ],
+        "note": "The Met verifies the date, 19:00 start, venue, Guitar Icons framing, historical-instrument context, Rachel Eckroth collaboration and $35-$155 ticket range. The accessible first-party materials do not yet identify the specific historical instrument or detailed repertoire, so those fields remain unresolved. An exact Apple Music album destination is verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/press-releases/mla-2026-7-season",
+          "publisher": "The Metropolitan Museum of Art",
+          "checked_on": "2026-09-08",
+          "note": "Primary 2026-27 Met Live Arts season announcement verifies February 20, 2027 at 7:00 PM in the Grace Rainey Rogers Auditorium, the one-night Guitar Icons context, a historical instrument from The Met collection, the connection to the new American-guitar gallery, Rachel Eckroth on keyboards, and the $35-$155 ticket range."
+        },
+        {
+          "url": "https://www.metmuseum.org/zh/hubs/met-live-arts",
+          "publisher": "The Metropolitan Museum of Art",
+          "checked_on": "2026-09-08",
+          "note": "Current first-party Met Live Arts hub lists Guitar Icons: St. Vincent for Saturday, February 20, 2027 at 7:00 PM in the Grace Rainey Rogers Auditorium, describes a show featuring an instrument from The Met collection, and lists tickets starting at $35."
+        },
+        {
+          "url": "https://engage.metmuseum.org/events/metlivearts/2026-27-season/guitar-icons-st-vincent/",
+          "publisher": "The Metropolitan Museum of Art",
+          "checked_on": "2026-09-08",
+          "note": "Exact first-party event/ticket destination linked by The Met. The research client received an access restriction on the endpoint, so factual claims are anchored to the accessible Met press release and current Met Live Arts hub rather than inferred from the restricted page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/all-born-screaming/1729549170",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page for St. Vincent's All Born Screaming."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-met-season-and-live-arts-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts, date, time, venue, historical-instrument framing, Guitar Icons/new American-guitar-gallery context, Rachel Eckroth collaboration and ticket range come from The Metropolitan Museum of Art's own current materials; the listening destination was verified on Apple Music. Repository-wide searches for St. Vincent, Rachel Eckroth, Guitar Icons and the February 20 Met engagement found no existing RADAR event before publication. Priority was assigned only after Stage 1 admission. A+ was retained after explicitly challenging S: the one-night museum context is unusual and worth making room for, but there is no verified farewell, premiere, final appearance or singular new work that would make protect-the-night scarcity language necessary."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just St. Vincent in a smaller New York room. The Met is putting one of contemporary art-rock's most distinctive guitar voices inside a series about the cultural history of the American guitar, handing the performance a historical instrument from its own collection and pairing Clark with Rachel Eckroth on keyboards. The instrument is part of the idea of the night: a modern player known for reshaping electric-guitar language is being asked to put that language in direct contact with the museum's material history.",
+          "trip_verdict": "If New York is already in play that weekend, actively build Saturday around The Met; this museum-and-instrument framing will not behave like a normal tour stop. From the DMV, I would pair it with another strong New York reason rather than make a dedicated up-and-back trip solely for this engagement.",
+          "listen_before": "St. Vincent — All Born Screaming"
+        },
+        "es": {
+          "why_it_matters": "No es simplemente St. Vincent en una sala más pequeña de Nueva York. The Met coloca una de las voces más reconocibles de la guitarra en el art rock contemporáneo dentro de una serie sobre la historia cultural de la guitarra estadounidense, incorpora un instrumento histórico de su propia colección y suma a Rachel Eckroth en teclados. El instrumento forma parte de la idea de la noche: una guitarrista que lleva años deformando y expandiendo el lenguaje eléctrico entra en contacto directo con la historia material que conserva el museo.",
+          "trip_verdict": "Si Nueva York ya entra en el plan ese fin de semana, sí armaría el sábado alrededor de The Met; este cruce entre museo e instrumento no se comporta como una parada normal de gira. Desde el DMV, lo combinaría con otra razón fuerte para subir en vez de hacer un viaje dedicado de ida y vuelta únicamente por esta función.",
+          "listen_before": "St. Vincent — All Born Screaming"
+        }
+      }
+    }
+  ]
+}
