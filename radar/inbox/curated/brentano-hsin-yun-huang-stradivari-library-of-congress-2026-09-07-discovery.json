@@ -1,0 +1,125 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "brentano-hsin-yun-huang-stradivari-library-of-congress-2026-09-07-discovery",
+  "checked_on": "2026-09-07",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass completed only after reading the current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md and docs/DATA_MODEL.md. Fresh checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources. Verified future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found the Brentano Quartet with Hsin-Yun Huang at the Library of Congress on December 18-19, 2026, and repository searches for the billing and stable event ID returned no existing RADAR record before publication. Stage 1 admits the performance because the ensemble will play four original Whittall Stradivari instruments plus the Library's recently acquired 1690 Fulton ex-Baird Tuscan-Medici Stradivari viola, with Hsin-Yun Huang joining for Mozart's K.515 quintet whose manuscript is held by the Music Division. This is an instrument/repertoire/archive reason specific to the performance. Stage 2 assigns A+: the five-Stradivari setting and manuscript connection merit actively making room locally. The scarcity challenge does not support S because the complete program repeats on two consecutive nights and the Stradivari Anniversary is a recurring institutional frame; A+ captures the recommendation without claiming genuine-regret scarcity. Recent/current intake reviewed for the distribution sanity check remains centered on A/A+, and this batch adds A+=1, S=0, S+=0 without grading to a quota.",
+  "events": [
+    {
+      "id": "brentano-quartet-hsin-yun-huang-library-of-congress-washington-dc-2026-12-18",
+      "artist": "Brentano Quartet with Hsin-Yun Huang",
+      "subtitle": "Stradivari Anniversary",
+      "dates": {
+        "start": "2026-12-18",
+        "end": "2026-12-19"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "library-of-congress-coolidge-auditorium-washington-dc",
+        "name": "Library of Congress — Coolidge Auditorium",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Stradivari anniversary / chamber music",
+      "genres": [
+        "Classical chamber music"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Mark Steinberg (violin)",
+        "Serena Canin (violin)",
+        "Misha Amory (viola)",
+        "Nina Lee (cello)",
+        "Hsin-Yun Huang (viola)"
+      ],
+      "factual_description": "The Library of Congress presents the Brentano Quartet with violist Hsin-Yun Huang on Friday, December 18 and Saturday, December 19, 2026 at 20:00 in the Coolidge Auditorium, with a 18:30 preconcert conversation in the Whittall Pavilion each night. The second concert repeats the first program: Beethoven's String Quartet in E-flat major, op. 74 ('Harp'); Mozart's String Quintet in C major, K.515; and Beethoven's String Quartet in E minor, op. 59/2. The artists will perform on four of the Library's original Whittall Stradivari instruments and the recently acquired 1690 Fulton ex-Baird Tuscan-Medici Stradivari viola. The Library notes that the manuscript of Mozart's K.515 is held among the Music Division's treasures. Both concerts are free but ticketed.",
+      "links": {
+        "official_event": "https://www.loc.gov/item/event-421825/stradivari-anniversary-brentano-quartet-with-hsin-yun-huang-concert-1/2026-12-18/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://www.loc.gov/item/event-421825/stradivari-anniversary-brentano-quartet-with-hsin-yun-huang-concert-1/2026-12-18/",
+          "checked_on": "2026-09-07"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Brentano String Quartet",
+          "title": "Mozart: String Quartets Nos. 19 & 16, K. 465 & 428",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/mozart-string-quartets-nos-19-16-k-465-428/1482834048"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact_official_ticket_destination"
+        ],
+        "note": "The Library verifies both December 18 and December 19 performances at 20:00, the repeated program, full personnel, five-Stradivari instrument context, 18:30 preconcert conversations and free-ticketed status. The event page exposes a Get Tickets action, but the exact authorized ticket destination was not recovered in this pass, so official_tickets remains null. Apple Music verifies the exact recommended album URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.loc.gov/item/event-421825/stradivari-anniversary-brentano-quartet-with-hsin-yun-huang-concert-1/2026-12-18/",
+          "publisher": "Library of Congress",
+          "checked_on": "2026-09-07",
+          "note": "Primary Concert 1 page verifies December 18, 2026, 20:00-22:00, Coolidge Auditorium/Whittall Pavilion, free-but-ticketed status, 18:30 preconcert discussion, full lineup, Beethoven-Mozart-Beethoven program, four Whittall Stradivari instruments plus the recently acquired 1690 Fulton ex-Baird Tuscan-Medici Stradivari viola, and the Library's Mozart K.515 manuscript connection."
+        },
+        {
+          "url": "https://www.loc.gov/item/event-421829/stradivari-anniversary-brentano-quartet-with-hsin-yun-huang-concert-2/2026-12-19/",
+          "publisher": "Library of Congress",
+          "checked_on": "2026-09-07",
+          "note": "Primary Concert 2 destination is linked from the Library's current season announcement for Saturday, December 19, 2026."
+        },
+        {
+          "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+          "publisher": "Library of Congress Newsroom",
+          "checked_on": "2026-09-07",
+          "note": "Primary 2026-27 season announcement verifies 20:00 concerts on December 18 and 19, states that Concert 2 repeats the complete first-night program, and confirms the Stradivari and Mozart-manuscript context plus 18:30 preconcert conversations."
+        },
+        {
+          "url": "https://music.apple.com/us/album/mozart-string-quartets-nos-19-16-k-465-428/1482834048",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-07",
+          "note": "Exact Apple Music page verifies the Brentano String Quartet's 2019 Mozart album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-library-and-apple-music-sources",
+        "note": "Core performance facts are grounded in current Library of Congress primary sources and Apple Music. Repository searches for the Brentano/Huang billing and stable event ID returned no existing canonical, curated or processed RADAR record before publication. Priority A+ was assigned after Stage 1 admission: the five-Stradivari instrument setting, Hsin-Yun Huang collaboration and K.515 manuscript connection make the local date actively worth prioritizing, while the explicit scarcity challenge concluded that two consecutive performances of the same program are sufficiently repeatable for A+ to capture the recommendation."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is not simply a first-rate quartet playing Beethoven and Mozart. Brentano and Hsin-Yun Huang will put the program through five Stradivari instruments from the Library's collection, including its recently acquired 1690 viola, and the Mozart quintet sits beside the institution's own K.515 manuscript. That makes the anniversary a real encounter between players, instruments, score and archive rather than a ceremonial label.",
+          "trip_verdict": "Actively make room for either December 18 or 19 if the weekend is open, and use the repeated program to choose the night that fits best. This is a local Coolidge Auditorium destination; the two-night run means there is no reason to reorganize regional travel around a single performance.",
+          "listen_before": "Brentano String Quartet — Mozart: String Quartets Nos. 19 & 16, K. 465 & 428"
+        },
+        "es": {
+          "why_it_matters": "La gracia no es solamente escuchar a un gran cuarteto tocar Beethoven y Mozart. Brentano y Hsin-Yun Huang van a pasar el programa por cinco instrumentos Stradivari de la colección de la Library, incluida la viola de 1690 adquirida recientemente, y el quinteto de Mozart se toca en la institución que conserva el manuscrito de K.515. Ahí sí se encuentran intérpretes, instrumentos, partitura y archivo; el aniversario deja de ser una etiqueta ceremonial.",
+          "trip_verdict": "Si el fin de semana está libre, haría espacio para el 18 o el 19 de diciembre y aprovecharía que el programa se repite para escoger la noche que mejor cuadre. Es una salida local al Coolidge Auditorium; las dos funciones quitan cualquier necesidad de reorganizar un viaje regional alrededor de una sola fecha.",
+          "listen_before": "Brentano String Quartet — Mozart: String Quartets Nos. 19 & 16, K. 465 & 428"
+        }
+      }
+    }
+  ]
+}
