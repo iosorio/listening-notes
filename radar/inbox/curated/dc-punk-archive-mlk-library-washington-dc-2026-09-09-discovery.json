@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "dc-punk-archive-mlk-library-washington-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before searching or grading. Fresh Yamamoto-first research checked Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. The schedule traces that resurfaced were already represented in repository intake/history, including current Yamamoto Tokyo/Kanto candidates; no duplicate Yamamoto event was created. The broader US-corridor pass found the closing September date of the 12th annual DC Punk Archive rooftop series at the Martin Luther King Jr. Memorial Library on September 9, 2026. Repository-wide searches for the exact billing, the three-band combination, and the proposed stable ID returned no matching RADAR event before publication. Stage 1 admits the performance for a specific DMV cultural reason: the show is produced through the DC Punk Archive, a DC Public Library collection established in 2014 to document Washington's influential punk scene from 1976 to the present, and the live series is explicitly designed to bring that archive to life through current local bands. This is not admission by genre alone. Stage 2 assigns A: it is worthy of RADAR and unusually useful to know about locally, especially as a free same-day closing show, but it is the third date in a recurring annual summer series and there is no premiere, farewell, rare one-off lineup, or other scarcity fact that would justify A+ or S. Recent/current curated intake was checked as a shape sanity test; adding an A strengthens the intended broad base without using distribution as a quota. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "dc-punk-archive-mlk-library-washington-dc-2026-09-09",
+      "artist": "DC Punk Archive 2026 Summer Rooftop Shows",
+      "subtitle": "Featuring Loose Leash, Truth or Dare, and Mac N' Toss",
+      "dates": {
+        "start": "2026-09-09",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "martin-luther-king-jr-memorial-library-washington-dc",
+        "name": "Martin Luther King Jr. Memorial Library",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "901 G Street NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DC punk / archive-linked local scene",
+      "genres": [
+        "Punk"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "Loose Leash",
+        "Truth or Dare",
+        "Mac N' Toss"
+      ],
+      "factual_description": "DC Public Library lists the closing September installment of the 12th annual DC Punk Archive Rooftop Concert Series for Wednesday, September 9, 2026 at the Martin Luther King Jr. Memorial Library. Doors open at 6:00 PM and the show starts at 6:30 PM on the fifth floor, rain or shine. The three listed local bands are Truth or Dare, Loose Leash, and Mac N' Toss. Admission is free, all ages, and the official event page does not require registration. The DC Punk Archive was established by DC Public Library in 2014 to document Washington's punk and related local music from 1976 to the present, including musicians, venues, festivals, record shops, radio stations, houses, tours, recordings, photographs, zines, flyers, set lists, and other ephemera.",
+      "links": {
+        "official_event": "https://dclibrary.libnet.info/event/16767654",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://dclibrary.libnet.info/event/16767654",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact DC Public Library event page verifies the date, doors, 6:30 PM show start, fifth-floor location, free all-ages admission and all three band names. There is no separate ticket destination because the event is free and the primary listing does not require registration. No exact Apple Music album, track or playlist destination for the three-band bill was independently verified in this run."
+      },
+      "sources": [
+        {
+          "url": "https://dclibrary.libnet.info/event/16767654",
+          "publisher": "DC Public Library",
+          "checked_on": "2026-09-09",
+          "note": "Exact primary event page verifies Wednesday, September 9, 2026, doors at 6:00 PM, show at 6:30 PM, fifth-floor MLK Library setting, free all-ages admission, and the Loose Leash / Truth or Dare / Mac N' Toss lineup."
+        },
+        {
+          "url": "https://www.dclibrary.org/plan-visit/overview-collections-peoples-archive",
+          "publisher": "DC Public Library",
+          "checked_on": "2026-09-09",
+          "note": "Primary archive overview states that the DC Punk Archive was established in 2014 to document Washington's influential punk scene and broadly covers punk and related local music from 1976 to the present."
+        },
+        {
+          "url": "https://www.dclibrary.org/news/rooftop-concert-series-mlk-library",
+          "publisher": "DC Public Library",
+          "checked_on": "2026-09-09",
+          "note": "Primary DC Public Library background explains that the rooftop concert series brings the library's local music archives to life through live performances and connects audiences to the preserved scene history."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-library-event-and-archive-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event and cultural-context facts come from DC Public Library. Repository-wide searches for the exact event billing, the three-band combination and the proposed stable ID found no existing canonical, curated or processed RADAR representation before publication. Stage 1 rests on the live/archive continuity of Washington's punk scene, not on punk as a genre label. Stage 2 assigns A only after admission; no priority_review is required because the event does not claim S or S+ status."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is local music history happening in the same institution that is preserving it. The DC Punk Archive documents Washington's scene from 1976 forward, and its rooftop series turns that archive back into a living circuit by putting current local bands onstage above MLK Library. Loose Leash, Truth or Dare, and Mac N' Toss make the closing September date a useful snapshot of what the archive is still becoming, not a nostalgia exercise.",
+          "trip_verdict": "If tonight is open, this is an easy local drop-in: doors at 6:00, music at 6:30, free and all ages at MLK Library. Go because the live/archive connection is unusually D.C.; there is no reason to contort the evening if the timing does not work.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí la historia musical local está ocurriendo dentro de la misma institución que la conserva. El DC Punk Archive documenta la escena de Washington desde 1976, y la serie en la azotea vuelve a convertir ese archivo en un circuito vivo al poner bandas actuales de la ciudad sobre el escenario del MLK Library. Loose Leash, Truth or Dare y Mac N' Toss hacen de la fecha de cierre de septiembre una fotografía de lo que el archivo todavía está llegando a ser, no un ejercicio de nostalgia.",
+          "trip_verdict": "Si esta tarde está libre, es una salida local facilísima: puertas a las 6:00, música a las 6:30, gratis y para todas las edades en el MLK Library. Iría por esa conexión tan de D.C. entre archivo y escena viva; si el horario no embona, tampoco torcería toda la noche para llegar.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
