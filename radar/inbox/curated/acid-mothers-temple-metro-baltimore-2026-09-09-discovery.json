@@ -1,0 +1,134 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "acid-mothers-temple-metro-baltimore-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources; verified dates that resurfaced were already represented in canonical/inbox history, including the September BODY&SOUL dates and the October Kawasaki Plaza Afternoon Jazz finale, so no duplicate Yamamoto record was created. The broader US-corridor pass found Acid Mothers Temple & The Melting Paraiso U.F.O. with Magick Potion at Metro Baltimore on October 19, 2026. Repository-wide searches for Acid Mothers Temple, Metro Baltimore/Metro Gallery, and the proposed stable ID returned no matching RADAR event before publication. Stage 1 admits the performance because the specific bill joins a Japanese psychedelic group whose official history begins with improvised jam sessions and whose current touring identity centers Kawabata Makoto's guitar/electronics and Higashi Hiroshi's synthesizer with a Baltimore-area heavy psychedelic trio as local support. Stage 2 assigns A+: this is an unusually strong Japan/experimental/heavy crossover worth actively making room for on a short Baltimore trip. An explicit scarcity challenge does not support S: the official tour is extensive and includes Queens on October 17 and Philadelphia on October 18 immediately before Baltimore, with no farewell, premiere, one-off lineup or singular final appearance documented. A+ fully captures the recommendation. Recent/current curated intake was checked as a shape sanity test; the sequence remains centered on A/A+ with only isolated scarcity-tier events, and this batch adds one A+ with no S/S+.",
+  "events": [
+    {
+      "id": "acid-mothers-temple-metro-baltimore-2026-10-19",
+      "artist": "Acid Mothers Temple & The Melting Paraiso U.F.O.",
+      "subtitle": "Survive to Metaverse Tour 2026 — with Magick Potion",
+      "dates": {
+        "start": "2026-10-19",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "metro-baltimore-baltimore-md",
+        "name": "Metro Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese psychedelic / experimental rock",
+      "genres": [
+        "Psychedelic rock",
+        "Experimental rock",
+        "Space rock",
+        "Improvisation",
+        "Heavy rock"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Acid Mothers Temple & The Melting Paraiso U.F.O. — Kawabata Makoto (guitar, electronics), Higashi Hiroshi (synthesizer), Jyonson Tsu (voice, guitar, bouzouki), Satoshima Nani (drums), Sawano Shozo (bass)",
+        "Magick Potion — support"
+      ],
+      "factual_description": "Acid Mothers Temple's official Survive to Metaverse Tour 2026 itinerary lists Monday, October 19, 2026 at Metro Gallery Baltimore, between TV Eye in Queens on October 17, MilkBoy Philadelphia on October 18 and Richmond Music Hall on October 20. The official tour lineup for the Baltimore portion is Kawabata Makoto on guitar/electronics, Higashi Hiroshi on synthesizer, Jyonson Tsu on voice/guitar/bouzouki, Satoshima Nani on drums and Sawano Shozo on bass; Cotton Casino is explicitly limited to October 1-7 and is therefore not included in the Baltimore lineup. Metro Baltimore's verified official Linktree lists '10/19 Acid Mothers Temple w/ Magick Potion' and points to the exact authorized DICE ticket destination. The current Bandsintown event listing gives doors at 7:00 PM, show at 8:00 PM and all-ages admission. Magick Potion's official Bandcamp identifies the trio as from the Baltimore area and independently lists the October 19 Metro Baltimore date.",
+      "links": {
+        "official_event": "https://acidmothers.com/acid-mothers-temple-the-melting-paraiso-u-f-o-us-tour-2026-survive-to-metaverse-tour-2026.html",
+        "official_tickets": "https://link.dice.fm/w685873bad5e"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://link.dice.fm/w685873bad5e",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Acid Mothers Temple & The Melting Paraiso U.F.O.",
+          "title": "New Geocentric World of Acid Mothers Temple",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/new-geocentric-world-of-acid-mothers-temple/1537478588"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The official Acid Mothers Temple tour page verifies the Baltimore date, current touring personnel and adjacent Queens/Philadelphia/Richmond dates. Metro Baltimore's verified official Linktree verifies current venue identity, street address, Magick Potion support billing and the exact authorized DICE ticket destination. The DICE short link itself did not render in the research environment, so no face-value price was inferred; unknown price remains null. Bandsintown's current event record supplies the separately stated 8:00 PM show time, while Magick Potion's official Bandcamp independently verifies the Baltimore-area support identity and October 19 Metro date. Apple Music provides the exact recommended-listening album page."
+      },
+      "sources": [
+        {
+          "url": "https://acidmothers.com/acid-mothers-temple-the-melting-paraiso-u-f-o-us-tour-2026-survive-to-metaverse-tour-2026.html",
+          "publisher": "Acid Mothers Temple",
+          "checked_on": "2026-09-09",
+          "note": "Official artist tour page verifies Survive to Metaverse Tour 2026, the current touring lineup, October 19 Metro Gallery Baltimore date, and adjacent Queens, Philadelphia and Richmond stops."
+        },
+        {
+          "url": "https://linktr.ee/Metro_Baltimore",
+          "publisher": "Metro Baltimore",
+          "checked_on": "2026-09-09",
+          "note": "Verified official venue Linktree gives 1700 N. Charles St., Baltimore, lists '10/19 Acid Mothers Temple w/ Magick Potion', and points that event to the exact authorized DICE ticket destination https://link.dice.fm/w685873bad5e."
+        },
+        {
+          "url": "https://www.bandsintown.com/e/1038715212-acid-mothers-temple-and-the-melting-paraiso-u.f.o.-%28official%29-at-metro-baltimore?came_from=252",
+          "publisher": "Bandsintown",
+          "checked_on": "2026-09-09",
+          "note": "Current authoritative event listing verifies Monday, October 19, 2026, Metro Baltimore, 1700 N Charles St., Acid Mothers Temple with Magick Potion, doors at 7:00 PM, show at 8:00 PM and all-ages admission."
+        },
+        {
+          "url": "https://magickpotionband.bandcamp.com/",
+          "publisher": "Magick Potion",
+          "checked_on": "2026-09-09",
+          "note": "Official artist Bandcamp identifies Magick Potion as a Baltimore, Maryland hard-rock trio and lists October 19 at Metro Baltimore among its current shows."
+        },
+        {
+          "url": "https://music.apple.com/us/album/new-geocentric-world-of-acid-mothers-temple/1537478588",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music page for New Geocentric World of Acid Mothers Temple, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-venue-ticketing-and-authoritative-event-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core date and touring-personnel facts come from Acid Mothers Temple's official site; current venue identity, support billing and authorized DICE destination come from Metro Baltimore's verified official Linktree. The separately stated performance start time is supported by the current Bandsintown event record. Repository searches by artist, venue and proposed stable ID found no matching canonical, curated or processed RADAR event before publication. Priority was assigned only after Stage 1 admission. A+ was retained after explicitly challenging S: the Japanese psychedelic/improvisational lineage and Baltimore-local pairing are highly compelling, but the official itinerary documents a long tour with adjacent Queens and Philadelphia opportunities and no scarcity circumstance requiring protect-the-night treatment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Acid Mothers Temple began from improvised jam sessions in 1995, and the current road band still puts Kawabata Makoto's guitar and electronics against Higashi Hiroshi's synthesizer inside a deliberately unstable psychedelic language. Baltimore sharpens the bill: local trio Magick Potion answers that Japanese freak-out lineage with heavy late-60s/70s riffing and groove. The attraction is the collision between two forms of psychedelic weight, not simply a cult band passing through town.",
+          "trip_verdict": "From the DMV, make the short trip to Baltimore and build Monday night around Metro if this psychedelic/experimental thread matters. The tour hits Queens and Philadelphia immediately beforehand, so there is little reason to chase a farther corridor date unless Baltimore logistics fail.",
+          "listen_before": "Acid Mothers Temple & The Melting Paraiso U.F.O. — New Geocentric World of Acid Mothers Temple"
+        },
+        "es": {
+          "why_it_matters": "Acid Mothers Temple nació de sesiones de improvisación en 1995, y la banda actual todavía pone la guitarra y la electrónica de Kawabata Makoto contra los sintetizadores de Higashi Hiroshi dentro de un lenguaje psicodélico deliberadamente inestable. Baltimore afila todavía más el cartel: el trío local Magick Potion responde a esa tradición japonesa de freak-out con riffs pesados, groove y una imaginación clavada en el hard rock de finales de los sesenta y los setenta. Lo interesante es el choque entre dos formas de peso psicodélico, no simplemente que pase por la ciudad una banda de culto.",
+          "trip_verdict": "Desde el DMV, haría el viaje corto a Baltimore y armaría el lunes alrededor de Metro si este hilo psicodélico y experimental te interesa. La gira pasa por Queens y Filadelfia justo antes, así que no hay mucha razón para perseguir una fecha más lejana del corredor salvo que Baltimore se complique.",
+          "listen_before": "Acid Mothers Temple & The Melting Paraiso U.F.O. — New Geocentric World of Acid Mothers Temple"
+        }
+      }
+    }
+  ]
+}
