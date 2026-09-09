@@ -1,0 +1,129 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "devotchka-little-miss-sunshine-atlantis-washington-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md and docs/DATA_MODEL.md were reread before publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources; no new verified, duplicate-free Yamamoto appearance was found beyond dates already represented in canonical/intake data. The broader US-corridor pass found DeVotchKa at The Atlantis in Washington, DC on September 9, 2026. Stage 1 admits the performance for an event-specific reason: the band is revisiting the soundtrack and score of Little Miss Sunshine on a special 20th-anniversary tour, bringing a culturally specific film-music collaboration back to the stage rather than presenting a routine catalog set. Stage 2 assigns A+ after an explicit challenge against A and a sanity check against recent intake. The anniversary program, DeVotchKa's distinctive multi-instrumental identity and the small local Atlantis setting make this actively worth making room for in the DMV. It does not clear the S scarcity gate because this is a multi-date anniversary tour rather than a one-off, farewell, premiere or otherwise demonstrated unlikely-to-recur configuration. Recent intake already contains several A+ discoveries, so A was reconsidered rather than allowing grade drift; the event-specific anniversary program still supports A+. Batch distribution: A 0, A+ 1, S 0, S+ 0; no priority_review is required.",
+  "events": [
+    {
+      "id": "devotchka-little-miss-sunshine-atlantis-washington-dc-2026-09-09",
+      "artist": "DeVotchKa",
+      "subtitle": "A Tribute to the Music of Little Miss Sunshine — 20th anniversary tour",
+      "dates": {
+        "start": "2026-09-09",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Soundtrack anniversary / culturally significant rock / cross-genre",
+      "genres": [
+        "Alternative",
+        "Soundtrack",
+        "Indie Rock"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "DeVotchKa",
+        "Brian Lopez — support"
+      ],
+      "factual_description": "The Atlantis lists DeVotchKa with support from Brian Lopez on Wednesday, September 9, 2026 and presents the performance as A Tribute to the Music of Little Miss Sunshine. The venue describes the run as a special 20th-anniversary tour revisiting the soundtrack and score DeVotchKa created for the 2006 film with Mychael Danna. I.M.P., the venue's promoter, verifies doors at 6:30 PM. Ticketmaster displays 6:30 PM as the event time, but because the primary promoter identifies that time specifically as doors and no separate performance start is exposed by the accessible primary sources, showtimes is intentionally left empty rather than converting a door time into a guessed showtime. The accessible primary ticketing view did not expose a stable face-value price, so the official ticket price remains null.",
+      "links": {
+        "official_event": "https://theatlantis.com/e/devotchka/",
+        "official_tickets": "https://www.ticketmaster.com/devotchka-washington-district-of-columbia-09-09-2026/event/15006436C16AAA55"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/devotchka-washington-district-of-columbia-09-09-2026/event/15006436C16AAA55",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "DeVotchKa & Mychael Danna",
+          "title": "Little Miss Sunshine (Original Motion Picture Soundtrack) - EP",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/little-miss-sunshine-original-motion-picture-soundtrack/1589310643"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://theatlantis.com/e/devotchka/",
+          "publisher": "The Atlantis",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue page verifies the September 9, 2026 date, DeVotchKa billing, Brian Lopez support, The Atlantis venue and the Little Miss Sunshine 20th-anniversary soundtrack/score tour context."
+        },
+        {
+          "url": "https://impconcerts.com/event/devotchka/",
+          "publisher": "I.M.P.",
+          "checked_on": "2026-09-09",
+          "note": "Primary promoter page verifies the same billing, date, venue and explicitly labels 6:30 PM as doors. No separate showtime is exposed in the accessible page."
+        },
+        {
+          "url": "https://www.ticketmaster.com/devotchka-washington-district-of-columbia-09-09-2026/event/15006436C16AAA55",
+          "publisher": "Ticketmaster / The Atlantis",
+          "checked_on": "2026-09-09",
+          "note": "Exact official ticket destination linked by The Atlantis. It verifies the September 9 event at The Atlantis and displays 6:30 PM; because I.M.P. identifies 6:30 PM specifically as doors, the batch does not treat it as a verified performance start. The accessible page did not expose a stable face-value price."
+        },
+        {
+          "url": "https://music.apple.com/us/album/little-miss-sunshine-original-motion-picture-soundtrack/1589310643",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album page verifies the six-track Little Miss Sunshine Original Motion Picture Soundtrack EP by DeVotchKa and Mychael Danna, dated July 11, 2006."
+        },
+        {
+          "url": "https://music.apple.com/us/artist/devotchka/22096224",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Artist page identifies DeVotchKa as an Alternative act formed by multi-instrumentalists and notes the band's 2006 Little Miss Sunshine score work and Grammy nomination, supporting instrumental and cross-genre context without supplying unverified current personnel."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-promoter-ticketing-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts were verified against The Atlantis, I.M.P. and the exact official Ticketmaster destination; the exact recommended-listening record was verified on Apple Music. Repository searches for DeVotchKa, The Atlantis and the proposed stable ID returned no existing RADAR representation before publication. Door time was preserved in provenance but not promoted to showtime, and no face-value price or backing-band personnel were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just a DeVotchKa catalog stop. Twenty years after Little Miss Sunshine, the band is returning specifically to the soundtrack and score that fused its eccentric multi-instrumental language to one of the defining independent films of its era. In The Atlantis, that cinematic material gets a compact-room setting where the arrangements and instrumental character are the point rather than background nostalgia.",
+          "trip_verdict": "From the DMV, make this a dedicated night at The Atlantis rather than adding travel complexity: get to Shaw/U Street early enough for the 6:30 doors and build the evening around the room. There is no reason to chase another city on the tour when the anniversary program is landing locally.",
+          "listen_before": "Little Miss Sunshine (Original Motion Picture Soundtrack) - EP"
+        },
+        "es": {
+          "why_it_matters": "No es simplemente otra parada del catálogo de DeVotchKa. Veinte años después de Little Miss Sunshine, la banda vuelve específicamente a la banda sonora y al score que amarraron su lenguaje multiinstrumental y excéntrico con una de las películas independientes definitorias de su época. En The Atlantis, ese material cinematográfico llega a un cuarto compacto donde los arreglos y la identidad instrumental pueden estar al frente, no sólo como nostalgia de fondo.",
+          "trip_verdict": "Desde el DMV, haría de The Atlantis la noche completa sin complicar la geografía: llegar a Shaw/U Street con margen para las puertas de las 6:30 y armar la salida alrededor del venue. No hay razón para perseguir otra ciudad de la gira cuando el programa de aniversario cae localmente.",
+          "listen_before": "Little Miss Sunshine (Original Motion Picture Soundtrack) - EP"
+        }
+      }
+    }
+  ]
+}
