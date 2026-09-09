@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "carr-keys-hillwood-jazz-gardens-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were reread before grading or publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; no new verified, duplicate-free Yamamoto appearance was found beyond dates already represented in canonical/intake data. The broader US-corridor pass found Carr/Keys at Hillwood Estate, Museum & Gardens in Washington, DC on September 9, 2026. Stage 1 admits the performance for a specific DMV and instrumental reason: tenor saxophonist Paul Carr and alto saxophonist Marshall Keys bring their ongoing straight-ahead-jazz/soul collaboration to Hillwood's outdoor Lunar Lawn series; Keys is a Washington, DC native and Carr is the new Director of the Howard University Jazz Ensemble. Stage 2 assigns A. The project is worth RADAR and useful to know locally, but A+ would overstate the urgency: Carr/Keys is an ongoing collaboration rather than a premiere, farewell, rare one-off, or otherwise scarce configuration, and another Carr/Keys performance is publicly listed for October 25, 2026. The broad-base A grade also fits the current priority sanity check without using distribution as a quota. Hillwood's current secure ticketing overview marks the September 9 event sold out. Batch distribution: A 1, A+ 0, S 0, S+ 0; no priority_review is required.",
+  "events": [
+    {
+      "id": "carr-keys-hillwood-jazz-gardens-washington-dc-2026-09-09",
+      "artist": "Carr/Keys — Paul Carr & Marshall Keys",
+      "subtitle": "Jazz in the Gardens | An Evening with Two Saxophone Titans",
+      "dates": {
+        "start": "2026-09-09",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "hillwood-estate-museum-gardens-washington-dc",
+        "name": "Hillwood Estate, Museum & Gardens",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV jazz / saxophone collaboration / straight-ahead soul",
+      "genres": [
+        "Jazz",
+        "Soul Jazz"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Paul Carr — tenor saxophone",
+        "Marshall Keys — alto saxophone"
+      ],
+      "factual_description": "Hillwood presents Carr/Keys, the collaboration between tenor saxophonist Paul Carr and alto saxophonist Marshall Keys, on Wednesday, September 9, 2026. The program timeline lists 5:30-6:30 PM for exploring Hillwood, a 6:30-7:30 PM concert on the Lunar Lawn, and an 8:00 PM close. Hillwood describes the duo's project as merging straight-ahead jazz with soul and says the evening also includes a quintet of musicians from throughout the DC area; those additional players are not named on the accessible primary event page, so they are not inferred into the lineup. Hillwood identifies Keys as a Washington, DC native and Carr as the new Director of the Howard University Jazz Ensemble. The official 2026 series page lists a $0-$30 ticket range. Hillwood's current secure ticketing overview marks the September 9 event sold out. The exact secure item-level ticket URL was not exposed by the accessible primary pages, so enrichment remains pending rather than being declared complete.",
+      "links": {
+        "official_event": "https://hillwoodmuseum.org/events/jazz-gardens-evening-two-saxophone-titans",
+        "official_tickets": "https://secure.hillwoodmuseum.org/overview/40996"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 30,
+          "source_url": "https://hillwoodmuseum.org/node/2101",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Paul Carr",
+          "title": "Straight Ahead Soul",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/straight-ahead-soul/377971341"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "exact_official_ticket_destination"
+        ],
+        "note": "The exact Hillwood event page and exact Apple Music album are verified. Hillwood's official secure program overview verifies the event's sold-out ticket status, but the accessible primary pages do not expose a stable item-level purchase URL for this sold-out event; the collection-level official ticketing destination is retained without fabricating a deeper URL."
+      },
+      "sources": [
+        {
+          "url": "https://hillwoodmuseum.org/events/jazz-gardens-evening-two-saxophone-titans",
+          "publisher": "Hillwood Estate, Museum & Gardens",
+          "checked_on": "2026-09-09",
+          "note": "Primary event page verifies the September 9 date, 6:30-7:30 PM Lunar Lawn concert time, Carr/Keys billing, Carr on tenor saxophone, Keys on alto saxophone, straight-ahead-jazz/soul description, additional unnamed DC-area musicians, and the artists' DC/Howard context."
+        },
+        {
+          "url": "https://hillwoodmuseum.org/node/2101",
+          "publisher": "Hillwood Estate, Museum & Gardens",
+          "checked_on": "2026-09-09",
+          "note": "Primary 2026 Jazz in the Gardens series page verifies the September 9 Carr/Keys program, sixth-summer series context, Hillwood address, and $0-$30 listed ticket range."
+        },
+        {
+          "url": "https://secure.hillwoodmuseum.org/overview/40996",
+          "publisher": "Hillwood Estate, Museum & Gardens secure ticketing",
+          "checked_on": "2026-09-09",
+          "note": "Official Hillwood ticketing overview currently lists the September 9, 2026 5:30 PM program and marks it Sold Out. This is a collection-level secure ticketing page; no stable exact item-level URL was exposed in the accessible primary interface."
+        },
+        {
+          "url": "https://music.apple.com/us/album/straight-ahead-soul/377971341",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album page verifies Paul Carr's Straight Ahead Soul, released May 25, 2010."
+        },
+        {
+          "url": "https://yellowdoorconcertseries.com/",
+          "publisher": "Yellow Door Concert Series",
+          "checked_on": "2026-09-09",
+          "note": "Current presenter calendar lists another Carr/Keys performance on October 25, 2026, supporting the editorial judgment that the collaboration is ongoing rather than demonstrably scarce."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts were verified from Hillwood's exact event page, 2026 series page, and official secure ticketing overview; the recommended-listening album was verified on Apple Music. Repository searches for Hillwood Jazz in the Gardens, Carr/Keys, and the proposed stable ID returned no existing RADAR representation before publication. The source names only Carr and Keys individually; the additional DC-area quintet was left unnamed in lineup. Exact item-level ticketing remains pending rather than inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Carr/Keys gives this Hillwood night a specific local identity: Paul Carr's tenor and Marshall Keys's alto meet at the seam between straight-ahead jazz and soul, with Keys rooted in Washington and Carr now leading Howard University's jazz ensemble. On the Lunar Lawn, the point is not venue prestige but a distinctly DMV saxophone conversation in a setting built for listening closely without turning the evening into a formal club date.",
+          "trip_verdict": "If you already have a Hillwood ticket, arrive with time to settle in before the 6:30 Lunar Lawn set and let the gardens carry the early evening. If you do not, do not contort the night around unofficial access: Hillwood's official ticketing page currently shows the program sold out.",
+          "listen_before": "Straight Ahead Soul"
+        },
+        "es": {
+          "why_it_matters": "Carr/Keys le da a esta noche en Hillwood una identidad local muy concreta: el tenor de Paul Carr y el alto de Marshall Keys se encuentran entre el jazz straight-ahead y el soul, con Keys profundamente ligado a Washington y Carr ahora al frente del ensamble de jazz de Howard University. En el Lunar Lawn, el atractivo no es el prestigio del venue sino una conversación de saxofones muy del DMV, en un espacio para escucharla sin convertir la noche en una cita formal de club.",
+          "trip_verdict": "Si ya tienes boleto para Hillwood, llegaría con tiempo para instalarme antes del set de las 6:30 y dejaría que los jardines armen la primera parte de la noche. Si no lo tienes, no torcería el plan buscando acceso por vías no oficiales: la boletera oficial de Hillwood marca actualmente el programa como agotado.",
+          "listen_before": "Straight Ahead Soul"
+        }
+      }
+    }
+  ]
+}
