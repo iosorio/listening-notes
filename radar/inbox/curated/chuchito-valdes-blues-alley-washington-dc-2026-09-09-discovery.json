@@ -1,0 +1,125 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "chuchito-valdes-blues-alley-washington-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication. Fresh research began with Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. The Yamamoto dates and special contexts that resurfaced were already represented in canonical/inbox history, including the September 26 BODY&SOUL grand finale and October 3 Kawasaki Plaza Afternoon Jazz finale, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found Chuchito Valdés at Blues Alley on October 15-16, 2026. Repository-wide searches for Chuchito, the venue/date combination, and the proposed stable ID returned no matching RADAR record before publication. Stage 1 admits the engagement for a concrete musical and cultural reason: Blues Alley bills it as part of its Cuban Jazz Series, and Valdés's own artist materials document a piano language that moves among Cuban son, danzón, timba, guaguancó, Afro-Cuban jazz, bebop and classical harmonic thinking, extending the Bebo-Chucho-Valdés piano lineage in an intimate four-set club context. Stage 2 assigns A: it is a strong local Latin-jazz performance worth knowing about and attending if convenient, but the evidence shows a regular two-night four-set engagement within an active North American touring schedule rather than a rare lineup, premiere, farewell or singular context that would justify stronger behavioral urgency. Recent/current RADAR intake was used only as a shape sanity check; this batch adds no scarcity-tier event.",
+  "events": [
+    {
+      "id": "chuchito-valdes-blues-alley-washington-dc-2026-10-15",
+      "artist": "Chuchito Valdés",
+      "subtitle": "Cuban Jazz Series",
+      "dates": {
+        "start": "2026-10-15",
+        "end": "2026-10-16"
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Cuban jazz piano / Valdés lineage / club residency",
+      "genres": [
+        "Latin jazz",
+        "Afro-Cuban jazz",
+        "Cuban music"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Chuchito Valdés — piano"
+      ],
+      "factual_description": "Blues Alley's authorized InstantSeats calendar lists Chuchito Valdés in the Cuban Jazz Series on Thursday-Friday, October 15-16, 2026, with 7:00 PM and 9:30 PM sets on both nights. The calendar lists $35 face value for both October 15 sets, $60 for the October 16 7:00 PM set, and $50 for the October 16 9:30 PM set, each plus a $7 fee. The exact opening-set page identifies Blues Alley at 1073 Wisconsin Ave. NW, Washington, DC 20007 and identifies Valdés as pianist, arranger, composer and bandleader. Chuchito Valdés's official site independently lists October 15-16 at Blues Alley on his 2026 tour schedule and describes his performance language as drawing on Cuban son, danzón, timba and guaguancó alongside Afro-Cuban jazz, bebop and classical harmonic and structural techniques. Primary sources checked do not publish date-specific sidemen for the Blues Alley engagement, so no additional personnel are inferred.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=575523CE-FB1D-6ACA-497E0DB7C8070660&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=575523CE-FB1D-6ACA-497E0DB7C8070660&fuseaction=buy.event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35,
+          "maximum": 60,
+          "source_url": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Chuchito Valdes",
+          "title": "La Timba",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/la-timba/27067359"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The authorized Blues Alley/InstantSeats venue calendar verifies the complete two-night, four-set schedule and face-value range. The canonical official-event and ticket links point to the opening October 15 7:00 PM set because InstantSeats assigns separate event and checkout URLs to each set; the same primary venue calendar exposes the remaining three authorized purchase destinations. Chuchito Valdés's official site independently verifies the October 15-16 Blues Alley stop, and an exact Apple Music album destination is supplied. Date-specific sidemen are not published and are intentionally not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?fuseaction=home.venue&venueid=3",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-09",
+          "note": "Primary authorized venue calendar verifies Chuchito Valdés on October 15-16, with 7:00 PM and 9:30 PM sets on both nights and face values of $35/$35 on October 15 and $60/$50 on October 16, each plus a $7 fee."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=575523CE-FB1D-6ACA-497E0DB7C8070660&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-09",
+          "note": "Exact primary event page for the opening October 15 7:00 PM set verifies the Cuban Jazz Series billing, Blues Alley address, $35 face value plus $7 fee, and Chuchito Valdés as pianist, arranger, composer and bandleader."
+        },
+        {
+          "url": "https://www.chuchitovaldes.com/",
+          "publisher": "Chuchito Valdés",
+          "checked_on": "2026-09-09",
+          "note": "Official artist site independently lists October 15-16, 2026 at Blues Alley and documents Valdés's Cuban piano lineage, Irakere experience, and performance vocabulary spanning Cuban forms, Afro-Cuban jazz, bebop and classical harmonic thinking."
+        },
+        {
+          "url": "https://music.apple.com/us/album/la-timba/27067359",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album page for Chuchito Valdes's La Timba, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event dates, set times, venue, face-value prices and Cuban Jazz Series billing are verified from Blues Alley's authorized InstantSeats pages; the artist's official site independently verifies the tour stop and musical identity. Repository-wide searches for Chuchito and the exact Blues Alley/date combination returned no matching canonical, curated or processed RADAR record before publication. Priority was assigned only after Stage 1 admission. A was selected because the event has a concrete Latin-piano and cultural-lineage reason to belong in RADAR while remaining a recurring, multi-set touring engagement without a documented premiere, farewell, rare one-off lineup or scarcity fact that would require stronger behavioral language."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The Valdés name is only the starting point. Chuchito's own piano language moves through son, danzón, timba and guaguancó while keeping bebop and classical harmonic thinking in the same frame, and Blues Alley's Cuban Jazz Series puts that vocabulary at club distance across four sets. It is a useful local chance to hear a living branch of one of Cuban jazz's defining piano lineages without pretending the engagement is rarer than it is.",
+          "trip_verdict": "If one of the four Georgetown sets fits the week, go; the local two-night run gives enough flexibility to choose the time that works rather than reorganize travel around it.",
+          "listen_before": "Chuchito Valdes — La Timba"
+        },
+        "es": {
+          "why_it_matters": "El apellido Valdés es apenas el punto de partida. El lenguaje pianístico de Chuchito pasa por son, danzón, timba y guaguancó sin sacar del cuadro el bebop ni la armonía clásica, y la Cuban Jazz Series de Blues Alley pone ese vocabulario a distancia de club durante cuatro sets. Es una buena oportunidad local para escuchar una rama viva de una de las grandes genealogías del piano cubano sin fingir que la fecha es más rara de lo que realmente es.",
+          "trip_verdict": "Si alguno de los cuatro sets en Georgetown embona con la semana, iría; las dos noches dan suficiente flexibilidad para escoger horario sin reorganizar viajes alrededor de la fecha.",
+          "listen_before": "Chuchito Valdes — La Timba"
+        }
+      }
+    }
+  ]
+}
