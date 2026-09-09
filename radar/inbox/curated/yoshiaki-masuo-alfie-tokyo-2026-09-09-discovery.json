@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "yoshiaki-masuo-alfie-tokyo-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before grading or publication. Fresh primary-source checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule traces, and credible Japanese-jazz sources. The Yamamoto dates surfaced in this pass — including October 21 at ALFIE, late-2026 Space M&A dates, and the BODY&SOUL finale context — were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader ALFIE/Tokyo-circle pass found Yoshiaki Masuo Group at Jazz House ALFIE on October 6, 2026. Repository searches for Yoshiaki Masuo / 増尾好秋 with ALFIE and the exact date returned no existing RADAR representation. Stage 1 admits the specific performance because it places a veteran Japanese guitarist with a long Sonny Rollins history in a small Roppongi room with his current working quartet; the event has a concrete instrumental and Tokyo-jazz lineage beyond generic venue prestige. Stage 2 assigns A+: the guitar-led quartet is actively worth making room for within a Tokyo stay, but there is no farewell, premiere, one-off lineup, or other documented scarcity that makes A+ insufficient. Masuo's own site describes recurring spring and autumn Japan tours, and pianist Mikiko Nagatake's current schedule lists the same quartet at cooljojo the previous night, reinforcing the non-scarcity judgment. No S/S+ tier is proposed in this batch.",
+  "events": [
+    {
+      "id": "yoshiaki-masuo-group-jazz-house-alfie-tokyo-2026-10-06",
+      "artist": "Yoshiaki Masuo Group",
+      "subtitle": "Masuo's current quartet at ALFIE",
+      "dates": {
+        "start": "2026-10-06",
+        "end": null
+      },
+      "showtimes": [
+        "19:15"
+      ],
+      "venue": {
+        "id": "jazz-house-alfie-roppongi",
+        "name": "Jazz House ALFIE",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP",
+        "address": "Hama Roppongi Building 5F, 6-2-35 Roppongi, Minato-ku, Tokyo"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living Japanese jazz master / guitar-led quartet / ALFIE",
+      "genres": [
+        "Jazz",
+        "Jazz fusion"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Yoshiaki Masuo — guitar, vocals",
+        "Mikiko Nagatake — piano",
+        "Kunpei Nakabayashi — bass",
+        "Takato Kitai — drums"
+      ],
+      "factual_description": "Jazz House ALFIE's official October 2026 schedule lists Yoshiaki Masuo on guitar and vocals with Mikiko Nagatake on piano, Kunpei Nakabayashi on bass, and Takato Kitai on drums on Tuesday, October 6, 2026. ALFIE states its October operating pattern as doors at 18:45, performance from 19:15 to 20:45, and closing at 23:30; the October 6 listing carries a ¥5,500 music charge. Masuo's current official fan site, endorsed by the artist and management, describes him as a Japanese-born jazz guitarist, composer, arranger and producer who played as Sonny Rollins's guitarist for seven years in total, and says he continues to return to Japan for spring and autumn performance periods with the Yoshiaki Masuo Band active in 2026. Pianist Mikiko Nagatake's October schedule independently lists the same Masuo/Nagatake/Nakabayashi/Kitai quartet at ALFIE on October 6 and at cooljojo on October 5.",
+      "links": {
+        "official_event": "https://alfie.tokyo/schedule/202610.html",
+        "official_artist": "https://www.ymasuo.com/eng/",
+        "official_tickets": null,
+        "apple_music": "https://music.apple.com/us/album/24/1537299378"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 5500,
+          "maximum": 5500,
+          "source_url": "https://alfie.tokyo/schedule/202610.html",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Yoshiaki Masuo",
+          "title": "24",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/24/1537299378"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "ALFIE verifies the exact date, quartet personnel, music charge and its October performance hours. The venue's reservation guidance directs customers to telephone the club rather than an event-specific web purchase or reservation destination, so no official ticket URL is invented. An exact Apple Music album page for Yoshiaki Masuo's 24 is verified."
+      },
+      "sources": [
+        {
+          "url": "https://alfie.tokyo/schedule/202610.html",
+          "publisher": "Jazz House ALFIE",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue schedule verifies October 6, 2026; Yoshiaki Masuo on guitar/vocals, Mikiko Nagatake on piano, Kunpei Nakabayashi on bass and Takato Kitai on drums; ¥5,500 music charge; and ALFIE's October operating pattern of 18:45 doors and 19:15-20:45 performance."
+        },
+        {
+          "url": "https://www.ymasuo.com/eng/",
+          "publisher": "Yoshiaki Masuo Website",
+          "checked_on": "2026-09-09",
+          "note": "Artist-endorsed official fan site verifies Masuo's identity as a Japanese-born jazz guitarist/composer/arranger/producer, his seven total years as a Sonny Rollins guitarist, his recurring spring/autumn Japan performance periods, and the Yoshiaki Masuo Band as active in 2026."
+        },
+        {
+          "url": "https://ameblo.jp/micco762/",
+          "publisher": "Mikiko Nagatake",
+          "checked_on": "2026-09-09",
+          "note": "Current pianist schedule independently lists Yoshiaki Masuo Group at ALFIE on October 6 with Masuo, Nagatake, Nakabayashi and Kitai, and the same quartet at cooljojo on October 5; used as a cross-check and as evidence against scarcity-tier inflation."
+        },
+        {
+          "url": "https://music.apple.com/us/album/24/1537299378",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album page verifies Yoshiaki Masuo's 24, listed as a jazz album from 1970."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for Yoshiaki Masuo / 増尾好秋 with ALFIE and October 6 returned no existing canonical, curated or processed representation before publication. Core event facts come from ALFIE's official October schedule and are independently cross-checked against pianist Mikiko Nagatake's current schedule. Career context comes from Masuo's artist-endorsed site; listening metadata comes from Apple Music. Priority was assigned only after Stage 1 admission. No ticket URL, repertoire, special-event claim, or scarcity fact was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Masuo is not here as historical wallpaper. The guitarist who spent years inside Sonny Rollins's band is still bringing a current working quartet back into Tokyo rooms, and ALFIE puts that guitar-piano-bass-drums conversation at close range. The appeal is the continuity: a player tied directly to the transpacific jazz language of the 1970s, heard through an active 2026 band rather than a repertory tribute. If that lineage and a strong guitar-led rhythm section are in your lane, actively make room for this one.",
+          "trip_verdict": "If October 6 falls inside a Tokyo stay, I would build the Roppongi evening around ALFIE. The room and Masuo's current quartet make the cross-city effort worthwhile, but his recurring Japan seasons and the same quartet's October 5 date nearby mean there is no reason to reshape an entire Japan itinerary around this single night.",
+          "listen_before": "Yoshiaki Masuo — 24"
+        },
+        "es": {
+          "why_it_matters": "Masuo no entra aquí como pieza de museo. El guitarrista que pasó años dentro de la banda de Sonny Rollins sigue llevando un cuarteto de trabajo actual a las salas de Tokio, y ALFIE pone esa conversación de guitarra, piano, bajo y batería a pocos metros del público. Lo atractivo es la continuidad: un músico conectado directamente con el lenguaje transpacifico del jazz de los setenta, escuchado a través de una banda activa en 2026 y no de un homenaje de repertorio. Si te interesa esa genealogía y una sección rítmica guiada por la guitarra, sí le haría espacio activamente.",
+          "trip_verdict": "Si el 6 de octubre cae dentro de una estancia en Tokio, armaría la noche de Roppongi alrededor de ALFIE. La sala y el cuarteto actual de Masuo justifican cruzar la ciudad, pero sus temporadas recurrentes en Japón y la fecha del mismo cuarteto el 5 de octubre en otra sala cercana son razones para no reorganizar todo un itinerario por Japón alrededor de esta única noche.",
+          "listen_before": "Yoshiaki Masuo — 24"
+        }
+      }
+    }
+  ]
+}
