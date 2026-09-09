@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "seeing-in-the-dark-roulette-brooklyn-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before grading or publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, Keystone Club Tokyo, and credible Japanese-jazz sources; the verified upcoming Yamamoto dates surfaced in this pass were already represented in canonical/curated/processed intake, including the September 15 Keystone Club Tokyo event, September 26 BODY&SOUL event, October 3 Kawasaki Plaza final event, October 10 A-Train duo, and October 21 ALFIE trio. The broader US-corridor pass found Seeing in the Dark at Roulette on October 20, 2026, with no repository match for the title or proposed stable ID. Stage 1 admits the performance for an event-specific reason: it is Contemporaneous's 2026-27 season opener, co-presented with Mantra Percussion and Recap Percussion, built around two world premieres—a new chamber-orchestral arrangement of Brendon Randall-Myers and Annie Blythe's Only in the Dark and Paul Pinto's America: Book Two—alongside Lila Meretzky's to crave and to have. Stage 2 assigns A+: the premiere architecture, percussion/chamber-orchestra identity, and three-ensemble collaboration make it actively worth prioritizing if New York is workable. It does not rise to S because the sources do not establish a farewell, major-master scarcity context, or historically singular circumstance for which A+ would understate the recommendation; premiere status alone is not treated as automatic scarcity. Batch distribution: A 0, A+ 1, S 0, S+ 0; no priority_review is required.",
+  "events": [
+    {
+      "id": "seeing-in-the-dark-roulette-brooklyn-2026-10-20",
+      "artist": "Contemporaneous / Mantra Percussion / Recap Percussion",
+      "subtitle": "Seeing in the Dark — two world premieres",
+      "dates": {
+        "start": "2026-10-20",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Regional",
+      "status": "considering",
+      "priority": "A+",
+      "category": "New music / world premieres / large ensemble",
+      "genres": [
+        "New Music",
+        "Contemporary classical",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Contemporaneous — chamber orchestral ensemble",
+        "Annie Blythe — cello",
+        "Mantra Percussion — percussion ensemble",
+        "Recap Percussion — percussion ensemble",
+        "Brendon Randall-Myers — composer",
+        "Lila Meretzky — composer",
+        "Paul Pinto — composer"
+      ],
+      "factual_description": "Roulette presents Contemporaneous, Mantra Percussion, and Recap Percussion in Seeing in the Dark on Tuesday, October 20, 2026 at 8:00 PM, with doors at 7:00 PM and free admission with RSVP. Contemporaneous identifies the event as its 2026-27 season opener. The program includes Lila Meretzky's to crave and to have; the world premiere of a chamber-orchestral arrangement of Brendon Randall-Myers and Annie Blythe's cello concerto Only in the Dark, with Blythe as soloist; and the world premiere of Paul Pinto's America: Book Two, performed with Mantra Percussion and Recap Percussion. Roulette describes Pinto's work as the next book in his years-in-the-making meta-opera Estabanico. The primary event pages announce the ensembles, composers, and Blythe but do not publish complete individual personnel rosters for Contemporaneous, Mantra Percussion, or Recap Percussion, so no additional musicians are inferred.",
+      "links": {
+        "official_event": "https://roulette.org/event/contemporaneous-mantra-percussion-recap-percussion-seeing-in-the-dark/",
+        "official_tickets": "https://www.eventbrite.com/e/contemporaneous-recap-mantra-present-seeing-in-the-dark-tickets-1999537777318"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://roulette.org/event/contemporaneous-mantra-percussion-recap-percussion-seeing-in-the-dark/",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette verifies the exact event, date, doors, showtime, free-with-RSVP status, program framing, announced artists, and ticket action. Contemporaneous independently verifies the season-opener context, program, two world premieres, venue, time, and exact Eventbrite destination. No exact Apple Music album, track, or playlist is supplied without verification."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/contemporaneous-mantra-percussion-recap-percussion-seeing-in-the-dark/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-09",
+          "note": "Primary event page verifies October 20, 2026, 8:00 PM performance, 7:00 PM doors, free-with-RSVP status, Contemporaneous/Mantra/Recap presentation, Annie Blythe, Brendon Randall-Myers, Lila Meretzky and Paul Pinto, and the world-premiere framing and narrative context of the program."
+        },
+        {
+          "url": "https://www.contemporaneous.org/upcoming-events/2026/10/seeing-in-the-dark",
+          "publisher": "Contemporaneous",
+          "checked_on": "2026-09-09",
+          "note": "Primary ensemble page independently verifies the October 20 date, 8:00-10:00 PM time, Roulette address, 2026-27 season-opener status, program titles, two world premieres, Annie Blythe on cello, Mantra Percussion and Recap Percussion, and the exact Eventbrite ticket destination."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ensemble-and-ticketing-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts were verified from Roulette's exact event page and Contemporaneous's exact season event page. Repository-wide searches for Seeing in the Dark, the exact proposed stable ID, and the principal billing returned no existing RADAR representation before publication. Individual ensemble rosters were not inferred because the primary pages do not enumerate them. Apple Music enrichment remains pending rather than fabricated."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not simply another new-music bill at Roulette. Contemporaneous opens its season by putting chamber-orchestral color and two percussion ensembles around two premieres: Annie Blythe's cello voice pushed into the larger architecture of Only in the Dark, and the next stage of Paul Pinto's long-form historical meta-opera. The scale and contrast make the program feel like a composed argument about how contemporary music can carry private sensory experience and contested history in the same room.",
+          "trip_verdict": "If New York is already workable on October 20, actively make room for this Roulette night and let it anchor the evening. From the DMV, I would pair the Brooklyn trip with another strong New York reason rather than make the round trip solely for this program.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "No es simplemente otra noche de música nueva en Roulette. Contemporaneous abre su temporada poniendo color orquestal de cámara y dos ensambles de percusión alrededor de dos estrenos: la voz del cello de Annie Blythe expandida en la arquitectura de Only in the Dark y el siguiente tramo de la meta-ópera histórica de largo aliento de Paul Pinto. La escala y el contraste hacen que el programa funcione como un argumento compuesto sobre cómo la música contemporánea puede cargar experiencia sensorial íntima e historia disputada dentro del mismo espacio.",
+          "trip_verdict": "Si Nueva York ya es viable el 20 de octubre, le abriría espacio activamente a esta noche en Roulette y dejaría que ancle la salida. Desde el DMV, juntaría el viaje a Brooklyn con otra razón fuerte en Nueva York en vez de hacer toda la ida y vuelta únicamente por este programa.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
