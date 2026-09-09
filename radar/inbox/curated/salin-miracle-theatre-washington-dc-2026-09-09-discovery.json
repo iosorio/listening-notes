@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "salin-miracle-theatre-washington-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks began with Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; the Yamamoto dates that resurfaced were already represented in canonical/inbox history or did not establish a new duplicate-free candidate. The broader US-corridor pass found Salin at The Miracle Theatre in Washington, DC on October 18, 2026. Repository-wide searches for Salin, the venue/date combination, and the proposed stable ID returned no matching RADAR event before publication. Stage 1 admits the performance for its specific drummer-led musical identity: Salin builds her self-described Afro Isan Soul from Northeast Thai traditions, 1970s West African psychedelia, jazz, funk and soul, making cultural exchange and percussion central to the live proposition rather than incidental genre tags. Stage 2 assigns A+: the combination is unusually aligned with Listening Notes' groove, instrumental-identity and cross-genre threads and is worth actively making room for locally. The current tour is active across multiple US cities, so there is no scarcity case for S; A+ fully captures the recommendation. Recent/current intake was used only as a shape sanity check, and this batch adds no scarcity-tier event.",
+  "events": [
+    {
+      "id": "salin-miracle-theatre-washington-dc-2026-10-18",
+      "artist": "Salin",
+      "subtitle": "Afro Isan Soul",
+      "dates": {
+        "start": "2026-10-18",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "miracle-theatre-washington-dc",
+        "name": "The Miracle Theatre",
+        "city": "Washington",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Drummer-led Afro Isan Soul / global jazz-funk",
+      "genres": [
+        "Jazz",
+        "Funk",
+        "Soul",
+        "Psychedelia",
+        "Northeast Thai folk traditions",
+        "West African psychedelic influences"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Cultural exchange"
+      ],
+      "lineup": [
+        "Salin — drums, bandleader"
+      ],
+      "factual_description": "Union Stage Presents lists Salin at The Miracle Theatre, 535 8th St SE, Washington, DC, on Sunday, October 18, 2026, with doors at 7:00 PM and the show at 8:00 PM; the event is all ages. The authorized Opendate ticket page independently confirms the same date, venue, address, doors and show time. Salin's official site identifies her as a Thai-born drummer, Juno-nominated producer and composer and describes Rammana as a project merging afro-jazz, funk and indigenous Thai instruments. The presenter describes her current music as 'Afro Isan Soul,' drawing on Northeast Thailand and 1970s West African psychedelia. Primary sources do not publish the names of the touring sidemen for the Washington performance, so no additional personnel are inferred.",
+      "links": {
+        "official_event": "https://www.unionstagepresents.com/shows/salin-18-oct",
+        "official_tickets": "https://app.opendate.io/e/salin-october-18-2026-728884"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://app.opendate.io/e/salin-october-18-2026-728884",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Salin",
+          "title": "Rammana",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/rammana/1798912775"
+        }
+      ],
+      "enrichment": {
+        "status": "partial",
+        "missing": [
+          "Touring sidemen for the Washington performance are not published by the primary sources checked."
+        ],
+        "note": "Date, venue, address, doors, show time, all-ages status and authorized ticket destination are verified by Union Stage Presents and Opendate. Salin's official site verifies her drummer/composer/producer identity and Rammana's Thai/Afro-jazz/funk concept. The event page does not expose a stable face-value ticket price in the accessible research view, so official price remains null. No unverified touring personnel are added."
+      },
+      "sources": [
+        {
+          "url": "https://www.unionstagepresents.com/shows/salin-18-oct",
+          "publisher": "Union Stage Presents",
+          "checked_on": "2026-09-09",
+          "note": "Primary presenter page verifies Sunday, October 18, 2026 at The Miracle Theatre, all-ages admission, doors at 7:00 PM, show at 8:00 PM, and the Afro Isan Soul framing."
+        },
+        {
+          "url": "https://app.opendate.io/e/salin-october-18-2026-728884",
+          "publisher": "Opendate",
+          "checked_on": "2026-09-09",
+          "note": "Authorized ticket page confirms date, 8:00 PM performance, 7:00 PM doors, all-ages admission, and 535 8th St SE, Washington, DC 20003."
+        },
+        {
+          "url": "https://salinmusic.com/",
+          "publisher": "Salin",
+          "checked_on": "2026-09-09",
+          "note": "Official artist site identifies Salin as a Thai-born drummer, Juno-nominated producer and composer; documents the Rammana project and its blend of afro-jazz, funk and indigenous Thai instruments; and lists her ongoing 2026 shows."
+        },
+        {
+          "url": "https://music.apple.com/us/album/rammana/1798912775",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album page for Rammana, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-authorized-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts come from Union Stage Presents and its authorized Opendate destination; artist identity and project context come from Salin's official site. Repository-wide searches by artist, venue/date and proposed stable ID found no matching canonical, curated or processed RADAR event before publication. Priority was assigned only after Stage 1 admission. A+ was retained after challenging whether A was sufficient: the local appearance puts a drummer-bandleader's distinctive Thai/West-African groove language directly inside Listening Notes' instrumental-identity and cultural-exchange threads, making it worth actively making room for. S was rejected because the artist is on an active multi-city tour and no farewell, premiere, one-off lineup or singular final appearance is documented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Salin puts the drum kit at the center of a genuinely cross-cultural language: Northeast Thai traditions meet 1970s West African psychedelia, jazz, funk and soul in the music she calls Afro Isan Soul. The draw is not novelty by geography; it is hearing a drummer-bandleader turn groove, indigenous Thai timbres and psychedelic color into one coherent live vocabulary. That makes this a strong local date to actively make room for.",
+          "trip_verdict": "Take the Washington date rather than chasing the tour elsewhere. The Miracle Theatre is local, and the point here is to catch this percussion-led cross-cultural project when it lands in the DMV.",
+          "listen_before": "Salin — Rammana"
+        },
+        "es": {
+          "why_it_matters": "Salin pone la batería en el centro de un lenguaje de verdad híbrido: tradiciones del noreste de Tailandia se cruzan con la psicodelia de África Occidental de los setenta, jazz, funk y soul en lo que ella llama Afro Isan Soul. El gancho no es la novedad geográfica, sino escuchar a una baterista y bandleader convertir groove, timbres tradicionales tailandeses y color psicodélico en un solo vocabulario en vivo. Es una fecha local a la que sí le abriría espacio.",
+          "trip_verdict": "Tomaría la fecha de Washington y no perseguiría la gira en otra ciudad. The Miracle Theatre queda local; lo interesante es aprovechar que este proyecto de percusión y cruce cultural aterriza en el DMV.",
+          "listen_before": "Salin — Rammana"
+        }
+      }
+    }
+  ]
+}
