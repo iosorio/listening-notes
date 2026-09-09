@@ -1,0 +1,141 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "brandon-seabrook-utility-modern-public-records-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading, and docs/DATA_MODEL.md was checked before publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources. The September 9 Chika Toyoda with Swingy Trio / Tsuyoshi Yamamoto BODY&SOUL appearance, September 15 KEYSTONE CLUB TOKYO night, September 26 BODY&SOUL finale and October 21 ALFIE trio date are already represented in the repository intake, so no Yamamoto duplicate was created. The broader US-corridor pass found Brandon Seabrook's Utility Modern album-release show at Public Records in Brooklyn on September 9. Stage 1 admits the performance for an event-specific reason: Seabrook is launching a new double-guitar quartet with the exact recording lineup of Bill Frisell, Rashaan Carter and Marcus Gilmore before the album's October 2 release; Public Records separately bills Zeena Parkins on the same night. Admission is based on the release context, instrumental design, exact lineup and Seabrook's experimental guitar identity rather than venue prestige or fame. Stage 2 assigns A+ after comparison with the current rubric and recent intake. This is actively worth making room for, but it does not clear the scarcity gate for S: the project is a newly formed recording quartet and current sources do not establish that this is a one-off, farewell or otherwise unlikely-to-recur configuration. Batch distribution: A 0, A+ 1, S 0, S+ 0; no priority_review is required.",
+  "events": [
+    {
+      "id": "brandon-seabrook-utility-modern-public-records-brooklyn-2026-09-09",
+      "artist": "Brandon Seabrook",
+      "subtitle": "Utility Modern Album Release Show — with Bill Frisell, Rashaan Carter, Marcus Gilmore; Zeena Parkins separately billed",
+      "dates": {
+        "start": "2026-09-09",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "public-records-brooklyn",
+        "name": "Public Records",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Album release / double-guitar quartet / experimental jazz",
+      "genres": [
+        "Experimental Jazz",
+        "Jazz Fusion",
+        "Avant-Garde",
+        "Experimental Rock"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Brandon Seabrook — guitar",
+        "Bill Frisell — guitar",
+        "Rashaan Carter — bass",
+        "Marcus Gilmore — drums",
+        "Zeena Parkins — separately billed by Public Records"
+      ],
+      "factual_description": "Brandon Seabrook's official schedule lists the Utility Modern Album Release Show at Public Records in Brooklyn on Wednesday, September 9, 2026 from 7:30 PM to 10:00 PM and names Seabrook on guitar, Bill Frisell on guitar, Rashaan Carter on bass and Marcus Gilmore on drums. Public Records lists the same night in the Sound Room at 7:00 PM and separately bills Zeena Parkins. The event record uses Seabrook's 7:30 PM performance time while preserving the venue's 7:00 PM event-calendar listing in the source record rather than guessing that it represents doors. Seabrook's artist-controlled Bandcamp page verifies Utility Modern as an October 2, 2026 release by the same quartet, with Seabrook on electric and acoustic guitars and banjo, Frisell on electric and acoustic guitars, Carter on bass and Gilmore on drums. Apple Music independently lists Utility Modern as an October 2 pre-release with eight tracks.",
+      "links": {
+        "official_event": "https://www.brandonseabrook.com/shows",
+        "official_tickets": "https://link.dice.fm/V34c5d305fb7"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://link.dice.fm/V34c5d305fb7",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Brandon Seabrook",
+          "title": "Utility Modern (feat. Bill Frisell, Rashaan Carter & Marcus Gilmore)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/utility-modern-feat-bill-frisell-rashaan-carter-marcus/6795225584"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.brandonseabrook.com/shows",
+          "publisher": "Brandon Seabrook",
+          "checked_on": "2026-09-09",
+          "note": "Artist-controlled schedule verifies the Utility Modern Album Release Show at Public Records on September 9, 2026, 7:30 PM-10:00 PM and the exact quartet: Brandon Seabrook, Bill Frisell, Rashaan Carter and Marcus Gilmore."
+        },
+        {
+          "url": "https://publicrecords.nyc/",
+          "publisher": "Public Records",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue calendar verifies the September 9 live event in the Sound Room, lists it at 7:00 PM, bills Brandon Seabrook - Utility Modern with Bill Frisell, Marcus Gilmore and Rashaan Carter plus Zeena Parkins, provides the venue address, and links to the official DICE ticket destination."
+        },
+        {
+          "url": "https://link.dice.fm/V34c5d305fb7",
+          "publisher": "DICE / Public Records",
+          "checked_on": "2026-09-09",
+          "note": "Exact official ticket destination linked by the primary Public Records calendar. The destination returned an access restriction to automated retrieval, so no ticket price was inferred or recorded."
+        },
+        {
+          "url": "https://brandonseabrook.bandcamp.com/album/utility-modern",
+          "publisher": "Brandon Seabrook / Bandcamp",
+          "checked_on": "2026-09-09",
+          "note": "Artist-controlled release page verifies Utility Modern's October 2, 2026 release date and the recording lineup: Seabrook, Bill Frisell, Rashaan Carter and Marcus Gilmore."
+        },
+        {
+          "url": "https://music.apple.com/us/album/utility-modern-feat-bill-frisell-rashaan-carter-marcus/6795225584",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music pre-release album page verifies Utility Modern, the featured Frisell/Carter/Gilmore billing, October 2, 2026 date and eight-track album entry."
+        },
+        {
+          "url": "https://www.brandonseabrook.com/about",
+          "publisher": "Brandon Seabrook",
+          "checked_on": "2026-09-09",
+          "note": "Artist-controlled biography describes Seabrook's guitar/banjo work across punk, jazz, pop and metal and identifies Utility Modern as a new 2026 double-guitar quartet with Bill Frisell, Marcus Gilmore and Rashaan Carter."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-artist-venue-ticketing-release-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts were verified against Brandon Seabrook's artist-controlled schedule and Public Records' current calendar. The venue's official DICE destination was preserved without inventing a price after automated access was blocked. The exact recording quartet and release date were verified from Seabrook's Bandcamp, and an exact Apple Music album destination was verified. Repository searches for Brandon Seabrook, Utility Modern and the proposed stable ID returned no existing RADAR representation before publication. The 7:00 PM venue listing and 7:30 PM artist performance time were not conflated; the event stores the artist's verified 7:30 PM showtime and records the discrepancy transparently in factual provenance."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is not simply Bill Frisell appearing on somebody else's bill. Seabrook is putting the exact Utility Modern recording quartet onstage for the album-release show: two radically different guitar imaginations facing each other, with Rashaan Carter and Marcus Gilmore underneath, before the record itself arrives. It turns Seabrook's hyper-physical, genre-collision approach to guitar into a live conversation with one of the instrument's great living voices.",
+          "trip_verdict": "If New York is already within reach today, build the evening around Public Records. From the DMV, make room for the Brooklyn run only if the same-day logistics are sane; the exact release-lineup is a real draw, but the current evidence does not make this a one-night emergency worth contorting the whole day around.",
+          "listen_before": "Utility Modern (pre-release)"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es simplemente que Bill Frisell aparezca en el cartel de alguien más. Seabrook sube al escenario al cuarteto exacto que grabó Utility Modern para la noche de lanzamiento: dos imaginaciones de guitarra radicalmente distintas frente a frente, con Rashaan Carter y Marcus Gilmore sosteniendo la arquitectura, antes de que salga el disco. Es la manera hiperbólica, física y sin fronteras de Seabrook de tocar la guitarra puesta en conversación con una de las grandes voces vivas del instrumento.",
+          "trip_verdict": "Si Nueva York ya está al alcance hoy, armaría la noche alrededor de Public Records. Desde el DMV, haría espacio para la corrida a Brooklyn sólo si la logística del mismo día es sensata; el lineup exacto del disco sí jala, pero la evidencia actual no convierte esta fecha en una emergencia de una sola noche que obligue a torcer todo el día.",
+          "listen_before": "Utility Modern (pre-release)"
+        }
+      }
+    }
+  ]
+}
