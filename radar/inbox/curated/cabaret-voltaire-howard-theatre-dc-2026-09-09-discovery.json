@@ -1,0 +1,131 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "cabaret-voltaire-howard-theatre-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before searching, grading, or publication. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; the verified future Yamamoto appearances that resurfaced were already represented in canonical/curated/processed RADAR data, so no duplicate Yamamoto candidate was created. Broader US-corridor monitoring found Cabaret Voltaire's Final USA + Canada Tour at the Howard Theatre in Washington, DC on September 23, 2026. Repository-wide searches for Cabaret Voltaire and the proposed stable event ID returned no existing canonical/curated/processed match before publication. Stage 1 admits the event for its specific farewell live context: the Washington performance is explicitly billed by the official presenter as part of Cabaret Voltaire's Final USA + Canada Tour, placing a foundational industrial/electronic project in a terminal North American touring chapter rather than a routine catalog appearance. Stage 2 assigns S only after an explicit scarcity challenge. The concrete scarcity is the announced final North American tour itself; A+ would understate the genuine-regret-if-missed character of the local Washington farewell stop. S+ is not warranted because this is one date in a multi-city final North American run, with nearby corridor alternatives in New York and Philadelphia, and it is not the final-ever performance. The recent/current RADAR distribution was treated only as a sanity check; S remains reserved here for the explicit farewell condition, not for artist stature alone.",
+  "events": [
+    {
+      "id": "cabaret-voltaire-howard-theatre-washington-dc-2026-09-23",
+      "artist": "Cabaret Voltaire",
+      "subtitle": "Final USA + Canada Tour — with I Speak Machine",
+      "dates": {
+        "start": "2026-09-23",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "howard-theatre-washington-dc",
+        "name": "Howard Theatre",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "620 T Street NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "rationale": "Scarcity challenge: Cabaret Voltaire's foundational status and genre influence are not enough for S. The event-specific fact is that the official Washington billing explicitly identifies this as the Final USA + Canada Tour, and independent tour reporting likewise describes the 2026 North American run as the group's final tour. Would A+ still capture the recommendation? No: for a listener following the industrial/electronic and experimental thread, the local Howard Theatre stop is an announced farewell opportunity, so missing it would create genuine regret rather than merely losing a strong touring show. S is warranted. S+ is not: the farewell run contains multiple North American dates, including New York on September 25 and Philadelphia on September 26, and Washington is not presented as the final-ever performance."
+      },
+      "category": "Foundational industrial/electronic / Farewell tour",
+      "genres": [
+        "Industrial",
+        "Electronic",
+        "Post-punk"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Cabaret Voltaire",
+        "I Speak Machine"
+      ],
+      "factual_description": "Cabaret Voltaire will bring its Final USA + Canada Tour to the Howard Theatre in Washington, DC on Wednesday, September 23, 2026, with I Speak Machine. Union Stage Presents lists the event as all ages, with doors at 7:00 PM and showtime at 8:00 PM, at 620 T Street NW. The official presenter routes ticket purchases to TicketWeb. Independent 2026 tour reporting describes Cabaret Voltaire's North American itinerary as the group's final tour. The same routing includes New York on September 25 and Philadelphia on September 26. No member-level touring personnel or ticket face value is recorded because those details were not verified from an accessible authoritative source in this pass.",
+      "links": {
+        "official_event": "https://www.unionstagepresents.com/shows/cabaret-voltaire-final-usa-canada-tour-23-sep",
+        "official_tickets": "https://www.ticketweb.com/event/cabaret-voltaire-howard-theatre-tickets/14169644"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketweb.com/event/cabaret-voltaire-howard-theatre-tickets/14169644",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Cabaret Voltaire",
+          "title": "The Crackdown (Remastered)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-crackdown-remastered/825388934"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Union Stage Presents verifies the exact Washington event, farewell-tour billing, support billing, venue, address, age policy, doors, showtime, and authorized TicketWeb destination. Independent tour reporting corroborates the final-tour context and nearby New York/Philadelphia routing. The exact Apple Music destination for The Crackdown (Remastered) is verified. No face-value price or unverified member-level touring personnel is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.unionstagepresents.com/shows/cabaret-voltaire-final-usa-canada-tour-23-sep",
+          "publisher": "Union Stage Presents",
+          "checked_on": "2026-09-09",
+          "note": "Official presenter page verifies Cabaret Voltaire: Final USA + Canada Tour with I Speak Machine at the Howard Theatre on September 23, 2026; all ages; doors 7:00 PM; show 8:00 PM; 620 T Street NW; and the authorized TicketWeb purchase link."
+        },
+        {
+          "url": "https://www.ticketweb.com/event/cabaret-voltaire-howard-theatre-tickets/14169644",
+          "publisher": "TicketWeb",
+          "checked_on": "2026-09-09",
+          "note": "Authorized ticket destination reached directly from the official Union Stage Presents event page. The ticket page was not reliably machine-readable in this pass, so no face value or inventory claim is inferred."
+        },
+        {
+          "url": "https://exclaim.ca/music/article/cabaret-voltaire-announce-final-north-american-tour",
+          "publisher": "Exclaim!",
+          "checked_on": "2026-09-09",
+          "note": "Authoritative tour reporting describes Cabaret Voltaire's 2026 North American run as the group's final tour and documents the East Coast routing, including New York and Philadelphia dates."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-crackdown-remastered/825388934",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album page for Cabaret Voltaire's The Crackdown (Remastered)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-authorized-ticketing-streaming-and-authoritative-tour-context",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "The official presenter supplies the exact event logistics and explicitly labels the engagement Final USA + Canada Tour; its direct TicketWeb link establishes the authorized purchase destination. Exclaim corroborates the final-tour context and routing. Apple Music provides the exact listening destination. Repository searches found no prior Cabaret Voltaire / Howard Theatre September 23 RADAR representation before publication. Priority was assigned only after Stage 1 admission and survived the explicit S scarcity challenge recorded in priority_review. No ticket price or unverified member-level touring lineup is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a legacy-act checkbox. The Washington date belongs to Cabaret Voltaire's explicitly announced final North American tour, turning a foundational industrial/electronic language into a farewell live encounter rather than another catalog pass. The importance is the terminal context: one more chance to hear that severe collision of electronics, rhythm, repetition, and post-punk abrasion in the room before this touring chapter closes.",
+          "trip_verdict": "Protect September 23 locally and take the Howard Theatre date rather than chasing the corridor. If Washington becomes impossible, New York on September 25 or Philadelphia on September 26 are the nearest fallback opportunities within the same final North American run.",
+          "listen_before": "Cabaret Voltaire — The Crackdown (Remastered)"
+        },
+        "es": {
+          "why_it_matters": "Esto no es tachar de la lista a una banda histórica. La fecha de Washington forma parte de la gira norteamericana anunciada explícitamente como final de Cabaret Voltaire, así que ese lenguaje fundacional entre electrónica, industrial y post-punk aparece aquí como una despedida en vivo y no como otra vuelta de catálogo. Lo decisivo es el contexto terminal: una oportunidad más de escuchar en la sala ese choque de electrónica, ritmo, repetición y abrasión antes de que cierre este capítulo de gira.",
+          "trip_verdict": "Protegería el 23 de septiembre aquí mismo y aprovecharía el Howard Theatre en vez de perseguir la gira por el corredor. Si Washington se vuelve imposible, Nueva York el 25 o Filadelfia el 26 son las alternativas cercanas dentro de la misma gira norteamericana final.",
+          "listen_before": "Cabaret Voltaire — The Crackdown (Remastered)"
+        }
+      }
+    }
+  ]
+}
