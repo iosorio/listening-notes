@@ -1,0 +1,136 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "slift-atlantis-washington-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before searching or grading. Fresh Yamamoto research checked Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources. The October 21 ALFIE trio date and other currently visible Yamamoto dates are already represented in curated or processed repository data, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found SLIFT with Rhododendron at The Atlantis on October 8, 2026. Stage 1 admits the event for a specific repertoire and live-context reason: Fantasia deliberately changes the French trio's established long-form heavy-psychedelic method into a leaner, tighter and more direct song language, and the October North American run is the first local opportunity to hear that changed trio language in the intimate Atlantis setting. This is not admission by genre or venue prestige alone. Stage 2 assigns A: this is a worthy local RADAR date and a strong fit for the heavy/progressive thread, but it is one stop on a multi-city North American tour supporting an active band and new album, with no premiere, farewell, rare one-off lineup or other scarcity fact that calls for active-plan protection. The intended broad A base was used only as a sanity check, not as a quota. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "slift-atlantis-washington-dc-2026-10-08",
+      "artist": "SLIFT",
+      "subtitle": "with Rhododendron — Fantasia North American tour",
+      "dates": {
+        "start": "2026-10-08",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "2047 9th St NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Heavy psych / progressive rock / new-album tour",
+      "genres": [
+        "Heavy Psychedelic Rock",
+        "Progressive Rock",
+        "Space Rock"
+      ],
+      "musical_axes": [
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "SLIFT",
+        "Rhododendron"
+      ],
+      "factual_description": "The Atlantis and I.M.P. list SLIFT with Rhododendron for Thursday, October 8, 2026 at The Atlantis, 2047 9th St NW in Washington, DC. I.M.P. identifies 6:30 PM specifically as the door time, so no performance start time is inferred into showtimes. Ticketmaster is the authorized ticket destination linked by The Atlantis and displays the same date, venue and 6:30 PM event listing, but its accessible page does not expose a stable face-value price. Sub Pop lists Washington as the October 8 stop in SLIFT's October 6-24 North American tour supporting Fantasia. The label describes Fantasia as the trio's leanest and most direct record, contrasting it with the band's earlier long-form improvisational approach; Sub Pop also notes that 2026 marks a decade for Jean Fossat, Rémi Fossat and Canek Flores as this trio, and that most Fantasia tracks were recorded in a single take.",
+      "links": {
+        "official_event": "https://theatlantis.com/e/slift/",
+        "official_tickets": "https://www.ticketmaster.com/slift-washington-district-of-columbia-10-08-2026/event/1500648F9A737107"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/slift-washington-district-of-columbia-10-08-2026/event/1500648F9A737107",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "SLIFT",
+          "title": "Fantasia",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/fantasia/1881769864"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact official event, authorized Ticketmaster destination and exact Apple Music album URL were independently verified. The official face value remains null because the accessible Ticketmaster page does not expose a stable primary price. The only verified clock time is identified by I.M.P. as doors, so showtimes remains empty rather than inventing a set time."
+      },
+      "sources": [
+        {
+          "url": "https://theatlantis.com/e/slift/",
+          "publisher": "The Atlantis",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue page verifies SLIFT with Rhododendron on October 8, 2026 and links directly to the authorized Ticketmaster destination."
+        },
+        {
+          "url": "https://impconcerts.com/event/slift/",
+          "publisher": "I.M.P.",
+          "checked_on": "2026-09-09",
+          "note": "Primary presenter page verifies October 8, 2026, Rhododendron, The Atlantis, Washington, DC, the venue address, and identifies 6:30 PM specifically as doors."
+        },
+        {
+          "url": "https://www.ticketmaster.com/slift-washington-district-of-columbia-10-08-2026/event/1500648F9A737107",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-09",
+          "note": "Authorized ticket page verifies the October 8, 2026 event at The Atlantis. The accessible page does not expose a stable face-value price, so structured price fields remain null."
+        },
+        {
+          "url": "https://www.subpop.com/artists/slift",
+          "publisher": "Sub Pop Records",
+          "checked_on": "2026-09-09",
+          "note": "Primary label artist page supplies the Fantasia repertoire context: the album is intentionally leaner and more direct than SLIFT's earlier long-form improvisational work, 2026 marks a decade for the current trio, most tracks were recorded in a single take, and The Atlantis appears in the official tour dates."
+        },
+        {
+          "url": "https://www.subpop.com/news/2026/05/05/watch_slifts_new_animated_lyric_video_for_the_day_of_execution",
+          "publisher": "Sub Pop Records",
+          "checked_on": "2026-09-09",
+          "note": "Primary label announcement verifies that the October 6-24 North American dates support Fantasia and include a Washington, DC stop."
+        },
+        {
+          "url": "https://music.apple.com/us/album/fantasia/1881769864",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact streaming destination verifies SLIFT's Fantasia, released June 5, 2026 on Sub Pop Records."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-presenter-ticketing-label-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts were verified against The Atlantis, I.M.P., the directly linked Ticketmaster page, Sub Pop and Apple Music. Repository searches for SLIFT and the proposed stable event ID returned no existing canonical/curated/processed representation before publication. Stage 1 rests on the specific change in SLIFT's compositional language on Fantasia and the chance to hear that current trio language in a small local room. Stage 2 assigns A after admission; no priority_review is required because the event does not claim S or S+ status."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not simply that SLIFT plays heavy psychedelic rock. Fantasia compresses a band known for long, exploratory pieces into a tighter and more direct form without losing the trio's physical guitar-bass-drums identity. Hearing that revised language in The Atlantis gives the DMV a compact local window into where the band has moved after a decade together.",
+          "trip_verdict": "If this heavy/progressive thread fits your Thursday, take the local date at The Atlantis rather than chasing the New York stop the night before. The tour offers plenty of other chances elsewhere, so the value here is having this version of SLIFT in a small Washington room.",
+          "listen_before": "SLIFT — Fantasia"
+        },
+        "es": {
+          "why_it_matters": "La razón no es simplemente que SLIFT toque rock psicodélico pesado. Fantasia comprime a una banda acostumbrada a piezas largas y exploratorias en una forma más cerrada y directa sin perder la identidad física del trío de guitarra, bajo y batería. Escuchar ese lenguaje renovado en The Atlantis le da al DMV una ventana pequeña y muy concreta a dónde llegó la banda después de una década junta.",
+          "trip_verdict": "Si este hilo pesado y progresivo te cuadra ese jueves, aprovecharía la fecha local en The Atlantis en vez de perseguir la parada de Nueva York la noche anterior. La gira ofrece otras oportunidades, así que el valor aquí está precisamente en tener esta versión de SLIFT en una sala pequeña de Washington.",
+          "listen_before": "SLIFT — Fantasia"
+        }
+      }
+    }
+  ]
+}
