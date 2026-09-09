@@ -1,0 +1,130 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "nice-strong-arm-quarry-house-silver-spring-2026-09-08-discovery",
+  "checked_on": "2026-09-08",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-08",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading; docs/DATA_MODEL.md was checked before publication. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources. The verified September 15 KEYSTONE CLUB TOKYO night, September 26 BODY&SOUL finale and October 21 ALFIE trio date are already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found Nice Strong Arm at Quarry House Tavern on September 9. Stage 1 admits the performance for a concrete live-context reason: the current three-piece Nice Strong Arm has reunited in 2026 after splitting in 1990, is touring again and recording new material, and the Silver Spring stop places that long-gap return in a local DMV room with Bed Maker and Mark Robinson. Admission is based on the reunion context, instrumental identity and local setting rather than fame or genre. Stage 2 assigns A+ after comparison with the current rubric and the recent RADAR intake, which already contains several scarcity-tier additions. This is actively worth making room for locally, but A+ captures the recommendation: the reunion is a multi-date U.S. tour and the band is recording again, so the three-decade gap does not by itself make this particular Silver Spring night an S-tier one-off. Batch distribution: A 0, A+ 1, S 0, S+ 0; no priority_review is required.",
+  "events": [
+    {
+      "id": "nice-strong-arm-quarry-house-silver-spring-2026-09-09",
+      "artist": "Nice Strong Arm",
+      "subtitle": "2026 reunion tour with Bed Maker and Mark Robinson",
+      "dates": {
+        "start": "2026-09-09",
+        "end": null
+      },
+      "showtimes": [
+        "20:30"
+      ],
+      "venue": {
+        "id": "quarry-house-tavern-silver-spring",
+        "name": "Quarry House Tavern",
+        "city": "Silver Spring",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Cult reunion / noise rock / DMV",
+      "genres": [
+        "Noise Rock",
+        "Post-Punk",
+        "Experimental Rock"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Nice Strong Arm — Kevin R Thomson (electric guitar, vocals); Jason Asnes (electric bass, vocals); Jeffrey Kent Hoskins (drums, timbales)",
+        "Bed Maker — support",
+        "Mark Robinson — support"
+      ],
+      "factual_description": "Rediscover Fire Booking presents Nice Strong Arm with Bed Maker and Mark Robinson at Quarry House Tavern in Silver Spring on September 9, 2026 at 8:30 PM. The show is all ages; the primary event page lists a $15 cash door price if not sold out and an official online ticket destination. Nice Strong Arm's current 2026 lineup is Kevin R Thomson on electric guitar and vocals, Jason Asnes on electric bass and vocals, and Jeffrey Kent Hoskins on drums and timbales. An authoritative venue biography for the reunion states that the band split in 1990, reunited in 2026, is touring again and is recording a new record. The band's own Bandcamp page independently lists the same current trio.",
+      "links": {
+        "official_event": "https://calendar.rediscoverfirebooking.com/shows/nice-arm-strong-bed-maker-09-sep",
+        "official_tickets": "https://app.opendate.io/confirms/680116/web_orders/new"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 15,
+          "maximum": 15,
+          "source_url": "https://calendar.rediscoverfirebooking.com/shows/nice-arm-strong-bed-maker-09-sep",
+          "checked_on": "2026-09-08"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Nice Strong Arm",
+          "title": "Stress City",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/stress-city/1724253775"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://calendar.rediscoverfirebooking.com/shows/nice-arm-strong-bed-maker-09-sep",
+          "publisher": "Rediscover Fire Booking",
+          "checked_on": "2026-09-08",
+          "note": "Primary presenter event page verifies Nice Strong Arm + Bed Maker + Mark Robinson, Quarry House Tavern, September 9, 2026, 8:30 PM, all-ages status, $15 cash door price if not sold out, and the official purchase path."
+        },
+        {
+          "url": "https://app.opendate.io/confirms/680116/web_orders/new",
+          "publisher": "OpenDate / Rediscover Fire Booking",
+          "checked_on": "2026-09-08",
+          "note": "Exact official ticket destination reached from the Rediscover Fire Booking event page."
+        },
+        {
+          "url": "https://johnnybrendas.com/event/nice-strong-arm/johnny-brendas/philadelphia-pennsylvania/",
+          "publisher": "Johnny Brenda's",
+          "checked_on": "2026-09-08",
+          "note": "Authoritative venue page for the adjacent reunion-tour date verifies that Nice Strong Arm split in 1990, reunited in 2026, is touring and recording a new record, and names the current trio as Jason Asnes, Jeffrey Kent Hoskins and Kevin R Thomson with their instruments."
+        },
+        {
+          "url": "https://nicestrongarm.bandcamp.com/",
+          "publisher": "Nice Strong Arm",
+          "checked_on": "2026-09-08",
+          "note": "Artist-controlled Bandcamp page independently verifies the current trio: Kevin Thomson on guitar/vocals, Jason Asnes on bass/vocals and Jeff Hoskins on drums."
+        },
+        {
+          "url": "https://music.apple.com/us/album/stress-city/1724253775",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-08",
+          "note": "Exact Apple Music album page verifies Nice Strong Arm's Stress City as a 1990 album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-08",
+        "note": "Core event facts and purchase destination were verified from Rediscover Fire Booking/OpenDate. The reunion history and current lineup were cross-checked against an authoritative venue page and the band's artist-controlled Bandcamp. Exact Apple Music listening was verified. Repository searches for Nice Strong Arm, Quarry House Tavern and the proposed stable event ID returned no existing RADAR representation before publication. The $15 value records the stated cash door face price; higher online totals that include processing charges were not converted into face value."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Nice Strong Arm's return is not nostalgia by default: the current trio is back onstage after a break stretching to 1990, carrying the abrasive Austin-to-Homestead noise-rock language into a new recording chapter. Catching that return in Silver Spring, with Bed Maker and Mark Robinson on the same local bill, turns a three-decade discontinuity into exactly the kind of small-room live context RADAR should notice.",
+          "trip_verdict": "Make room for Wednesday night if this reunion thread lands. The advantage is geographic as much as musical: a long-gap return is coming to Silver Spring, so there is no reason to chase the later Brooklyn date unless New York already has another strong pull.",
+          "listen_before": "Stress City"
+        },
+        "es": {
+          "why_it_matters": "El regreso de Nice Strong Arm no entra por nostalgia automática: el trío actual vuelve al escenario después de una pausa que se remonta a 1990 y lleva ese lenguaje abrasivo de noise rock entre Austin y Homestead hacia un nuevo capítulo de grabación. Poder ver ese regreso en Silver Spring, con Bed Maker y Mark Robinson en el mismo cartel local, convierte una discontinuidad de más de tres décadas en justo el tipo de contexto de cuarto pequeño que RADAR debe registrar.",
+          "trip_verdict": "Haría espacio el miércoles si este hilo de reunión te prende. La ventaja es tan geográfica como musical: un regreso después de décadas llega a Silver Spring, así que no hay razón para perseguir después la fecha de Brooklyn salvo que Nueva York ya tenga otro imán fuerte.",
+          "listen_before": "Stress City"
+        }
+      }
+    }
+  ]
+}
