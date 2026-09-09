@@ -1,0 +1,136 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wooten-brothers-hamilton-washington-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources. Verified Yamamoto dates that resurfaced were already represented in canonical/inbox history, including the October 8 Otokichi! MEG trio and the September BODY&SOUL finale context, so no duplicate Yamamoto record was created. The broader US-corridor pass found The Wooten Brothers at The Hamilton Live on September 13, 2026. Repository-wide searches for The Wooten Brothers and the proposed stable ID returned no matching RADAR event before publication. Stage 1 admits the performance because the exact four-brother lineup has unusually strong instrumental identity: Regi Wooten on guitar, Roy Wooten on drums, Joseph Wooten on keyboards, and Victor Wooten on bass, with a family musical language documented back to their first public performance in 1966 and a current repertoire spanning funk, jazz fusion, R&B, soul and rock. Stage 2 assigns A+: the lineup is unusually aligned with Listening Notes' virtuosity, bass, groove and fusion threads and merits actively making room locally. No scarcity challenge is needed at A+, and the event does not warrant S: the current tour includes multiple U.S. dates, including Brooklyn on September 17, with no farewell, premiere, one-off lineup or singular final appearance documented. Recent/current 2026-09-09 curated intake was reviewed as a shape sanity check; this batch adds one A+ and no S/S+, preserving the intended distinction between active-priority and scarcity tiers without using distribution as a quota.",
+  "events": [
+    {
+      "id": "wooten-brothers-hamilton-washington-dc-2026-09-13",
+      "artist": "The Wooten Brothers",
+      "subtitle": "Victor Wooten and the Wooten Brothers — fall 2026 tour",
+      "dates": {
+        "start": "2026-09-13",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "600 14th Street NW, Washington, DC 20005"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Funk / jazz fusion / virtuoso family ensemble",
+      "genres": [
+        "Funk",
+        "Jazz fusion",
+        "R&B",
+        "Soul",
+        "Rock"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Regi Wooten — guitar, vocals",
+        "Roy Wooten — drums, vocals",
+        "Joseph Wooten — keyboards, vocals",
+        "Victor Wooten — bass, vocals"
+      ],
+      "factual_description": "The Hamilton Live's current official listing places The Wooten Brothers in Washington, DC on Sunday, September 13, 2026 at 8:00 PM and displays an official ticket range of $45-$55. All Good Presents' exact event page confirms doors at 6:30 PM, all-ages admission, the Hamilton address and the September 13 date. The authorized EVENTIM page independently confirms doors at 6:30 PM and show at 8:00 PM and currently displays a GA Standing ticket at $53.61. The Wooten Brothers' official site identifies the active four-brother lineup as Regi Wooten on guitar/vocals, Roy Wooten on drums/vocals, Joseph Wooten on keyboards/vocals and Victor Wooten on bass/vocals, and describes the current group as touring while releasing newly recorded material alongside archival compositions. Presenter materials document the brothers' first public performance in Hawaii in 1966. The current tour also includes Brooklyn Bowl on September 17, confirming that this is part of a multi-date run rather than a one-off Washington appearance.",
+      "links": {
+        "official_event": "https://www.allgoodpresentslivemusic.com/events/the-wooten-brothers/",
+        "official_tickets": "https://www.eventim.us/event/the-wooten-brothers/696220"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 45,
+          "maximum": 55,
+          "source_url": "https://live.thehamiltondc.com/listing/",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Wooten Brothers",
+          "title": "Sweat (Version B)",
+          "kind": "single",
+          "apple_music_url": "https://music.apple.com/us/album/sweat-version-b-single/1706177278"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The Hamilton Live verifies date, showtime, venue and current official ticket range. All Good Presents verifies doors, all-ages status and exact event identity. Authorized EVENTIM independently confirms doors/showtime and the current purchase destination. The Wooten Brothers' official site verifies the current four-brother lineup and roles. Apple Music verifies the exact recommended-listening single. No support act is named on the exact primary pages, so none is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/listing/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue listing verifies Sunday, September 13, 2026, 8:00 PM, The Wooten Brothers, The Hamilton Live, and the displayed $45-$55 official ticket range."
+        },
+        {
+          "url": "https://www.allgoodpresentslivemusic.com/events/the-wooten-brothers/",
+          "publisher": "All Good Presents",
+          "checked_on": "2026-09-09",
+          "note": "Exact primary presenter event page verifies September 13, 2026, doors at 6:30 PM, all-ages admission, The Hamilton Live and 600 14th Street NW; presenter biography documents the brothers' first public performance in Hawaii in 1966."
+        },
+        {
+          "url": "https://www.eventim.us/event/the-wooten-brothers/696220",
+          "publisher": "The Hamilton Live authorized ticketing / EVENTIM",
+          "checked_on": "2026-09-09",
+          "note": "Exact authorized ticket page confirms Sunday, September 13, 2026, doors at 6:30 PM, show at 8:00 PM, The Hamilton Live address and current GA Standing availability at $53.61. The venue's own $45-$55 display is preserved as the canonical ticket range rather than treating the single rendered ticket type as the whole price range."
+        },
+        {
+          "url": "https://www.thewootenbrothers.com/brothers",
+          "publisher": "The Wooten Brothers",
+          "checked_on": "2026-09-09",
+          "note": "Official artist page verifies the active lineup and roles: Regi on guitar/vocals, Roy on drums/vocals, Joseph on keyboards/vocals and Victor on bass/vocals, and describes the group as currently touring and releasing new and archival material."
+        },
+        {
+          "url": "https://music.apple.com/us/album/sweat-version-b-single/1706177278",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music page for The Wooten Brothers' Sweat (Version B), selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-venue-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts were verified against The Hamilton Live, All Good Presents and the authorized EVENTIM destination; current personnel and instrumental roles come from The Wooten Brothers' official site. Repository searches for 'The Wooten Brothers', the Hamilton date and the proposed stable ID found no matching canonical, curated or processed RADAR event before publication. Priority was assigned only after Stage 1 admission. A+ is based on the specific four-brother instrumental lineup, deep shared performance history and exceptional bass/guitar/keyboard/drum identity in a local club setting; the extensive current tour makes S unnecessary and A+ fully captures the recommendation."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The attraction is not Victor Wooten dropped into another virtuoso showcase; it is hearing the bass language he became famous for back inside the family unit that helped form it. Regi's guitar, Roy's drums, Joseph's keyboards and Victor's bass create a four-brother rhythm-and-harmony machine with a shared history that reaches back to their first public performances in 1966. Six decades later, they still move freely through funk, jazz fusion, R&B and rock, with the technical fireworks serving the groove instead of replacing it. That combination of instrumental identity, family time and sheer rhythmic intelligence makes this much more than a bass-head cameo.",
+          "trip_verdict": "Make room for Sunday at The Hamilton if the groove and virtuoso thread is open. It is an easy local night with an 8:00 PM show, and Washington is the right place to catch this tour rather than chasing the Brooklyn stop four days later.",
+          "listen_before": "The Wooten Brothers — Sweat (Version B)"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante no es sacar a Victor Wooten de contexto y verlo como otro escaparate de virtuosismo; es escuchar el lenguaje de bajo que lo hizo famoso de vuelta dentro de la familia que ayudó a formarlo. La guitarra de Regi, la batería de Roy, los teclados de Joseph y el bajo de Victor arman una máquina rítmica y armónica de cuatro hermanos cuya historia compartida se remonta a sus primeras presentaciones públicas en 1966. Seis décadas después siguen pasando con naturalidad por funk, jazz fusion, R&B y rock, con la pirotecnia técnica al servicio del groove y no al revés. Esa mezcla de identidad instrumental, tiempo familiar y una inteligencia rítmica cabrona hace que sea mucho más que una aparición para fans del bajo.",
+          "trip_verdict": "Le haría espacio al domingo en The Hamilton si está abierto el hilo de groove y virtuosismo. Es una noche local fácil, con show a las 8:00, y Washington es la fecha correcta para esta gira; no hace falta perseguir la parada de Brooklyn cuatro días después.",
+          "listen_before": "The Wooten Brothers — Sweat (Version B)"
+        }
+      }
+    }
+  ]
+}
