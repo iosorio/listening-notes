@@ -1,0 +1,135 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "tetsuo-sakurai-jin-oki-ebisu-jam-tokyo-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first Listening Notes discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Space M&A, current Yamamoto schedule traces, and credible Japanese-jazz sources. The Yamamoto/BODY&SOUL Grand Finale on September 26 and the Jaco Pastorius tribute by Tetsuo Sakurai on September 21 were already represented in processed intake, so no duplicates were created. The broader Japanese instrumental thread surfaced the October 9 EBISU JAM collaboration between Tetsuo Sakurai and Jin Oki with Rie Akagi and Kan. Repository searches for EBISU JAM 2026, the exact artist pairing, and the exact date returned no existing RADAR representation. Stage 1 admits the performance because its specific musical architecture puts Sakurai's electric-bass fusion language against Oki's flamenco guitar, with flute and percussion completing a deliberately cross-genre quartet and a program spanning the leaders' originals and flamenco repertoire. Stage 2 assigns A+: this is actively worth making room for within a Tokyo stay because the unusual bass/flamenco pairing and lineup create a distinct live proposition. Although the presenters frame it as a special one-night collaboration, A+ still captures the recommendation: there is no farewell, premiere, final performance, or other documented circumstance requiring protect-the-night scarcity. No S/S+ tier is proposed in this batch.",
+  "events": [
+    {
+      "id": "tetsuo-sakurai-jin-oki-ebisu-garden-hall-tokyo-2026-10-09",
+      "artist": "Tetsuo Sakurai with Jin Oki featuring Rie Akagi, Kan",
+      "subtitle": "EBISU JAM 2026 — bass, flamenco guitar, flute and percussion",
+      "dates": {
+        "start": "2026-10-09",
+        "end": null
+      },
+      "showtimes": [
+        "18:30"
+      ],
+      "venue": {
+        "id": "ebisu-the-garden-hall-tokyo",
+        "name": "The Garden Hall",
+        "city": "Meguro, Tokyo",
+        "state": "Tokyo",
+        "country": "JP",
+        "address": "1-13-2 Mita, Meguro-ku, Tokyo 153-0062"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese fusion / flamenco crossover / bass-guitar-led collaboration",
+      "genres": [
+        "Jazz fusion",
+        "Flamenco",
+        "Instrumental",
+        "World"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Instrumental identity",
+        "Fusion / Prog",
+        "Cross-genre",
+        "Groove"
+      ],
+      "lineup": [
+        "Tetsuo Sakurai — bass",
+        "Jin Oki — flamenco guitar",
+        "Rie Akagi — flute",
+        "Kan — percussion"
+      ],
+      "factual_description": "EBISU JAM 2026 and Jin Oki's official site list Tetsuo Sakurai with Jin Oki featuring Rie Akagi and Kan at The Garden Hall in Ebisu on Friday, October 9, 2026. Doors are at 17:45 and the performance starts at 18:30. The announced lineup is Sakurai on bass, Oki on guitar, Akagi on flute, and Kan on percussion. Jin Oki's event page describes the billing as a long-awaited collaboration and says the program will range from original pieces by Sakurai and Oki to flamenco numbers. The official ticket price is ¥8,800 for a reserved seat, with a separate drink charge. Sakurai's official schedule independently confirms the same date, venue, and four-person lineup.",
+      "links": {
+        "official_event": "https://ebisujam.com/",
+        "official_artist": "https://jinoki.info/live/7723",
+        "official_tickets": null,
+        "apple_music": "https://music.apple.com/jp/album/nothin-but-the-bass/995151473?l=en-US"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 8800,
+          "maximum": 8800,
+          "source_url": "https://jinoki.info/live/7723",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tetsuo Sakurai",
+          "title": "Nothin' but the Bass",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/nothin-but-the-bass/995151473?l=en-US"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The official EBISU JAM site and Jin Oki event page verify the date, venue, start time, lineup, program framing and ¥8,800 reserved-seat price; Tetsuo Sakurai's official schedule independently corroborates the date, venue and personnel. The artist page names ePlus, Ticket Pia and Lawson Ticket as playguides but does not expose a stable event-specific purchase URL, so official_tickets remains pending rather than storing an inferred destination. The exact Apple Music album page for Tetsuo Sakurai's Nothin' but the Bass is verified."
+      },
+      "sources": [
+        {
+          "url": "https://ebisujam.com/",
+          "publisher": "EBISU JAM 2026",
+          "checked_on": "2026-09-09",
+          "note": "Official festival page confirms the October 9 billing at The Garden Hall and the Sakurai/Oki/Akagi/Kan lineup, framing the program as a special collaboration between Sakurai's bass and Oki's flamenco guitar."
+        },
+        {
+          "url": "https://jinoki.info/live/7723",
+          "publisher": "Jin Oki",
+          "checked_on": "2026-09-09",
+          "note": "Official artist event page confirms October 9, 2026; 17:45 doors and 18:30 start; The Garden Hall address; full four-person lineup; ¥8,800 reserved-seat price; and a program spanning Sakurai/Oki originals and flamenco numbers."
+        },
+        {
+          "url": "https://tetsuosakurai.com/shows",
+          "publisher": "Tetsuo Sakurai",
+          "checked_on": "2026-09-09",
+          "note": "Official artist schedule independently lists the October 9 EBISU JAM performance at The Garden Hall with Tetsuo Sakurai, Jin Oki, Rie Akagi and Kan."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/nothin-but-the-bass/995151473?l=en-US",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music page verifies Tetsuo Sakurai's 2015 album Nothin' but the Bass."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-festival-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for EBISU JAM 2026, Tetsuo Sakurai with Jin Oki, the Japanese artist pairing, and the exact October 9 date returned no existing canonical, curated or processed representation before publication. Core event facts were verified against the official festival and Jin Oki event pages and independently cross-checked against Tetsuo Sakurai's official schedule. Apple Music verifies the listening recommendation. Priority was assigned only after Stage 1 admission. No unannounced personnel, direct purchase URL, or scarcity claim was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the collision of instrumental languages. Sakurai brings the attack, harmonic mobility and groove of Japanese electric-bass fusion; Oki answers with flamenco guitar, while Rie Akagi's flute and Kan's percussion keep the quartet from settling into a standard fusion-band shape. The announced program moves between the two leaders' originals and flamenco material, so this is a real cross-genre working session rather than a guest spot pasted onto somebody else's set. If bass, guitar and rhythmic dialogue are part of the Tokyo thread, actively make room for it.",
+          "trip_verdict": "If October 9 falls inside a Tokyo stay, I would build the Ebisu evening around this performance. The lineup is unusual enough to justify crossing the city, but I would not reshape an entire Japan itinerary solely around it; the special collaboration is strong without needing artificial travel urgency.",
+          "listen_before": "Tetsuo Sakurai — Nothin' but the Bass"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el choque de lenguajes instrumentales. Sakurai trae el ataque, la movilidad armónica y el groove de la fusión japonesa de bajo eléctrico; Oki responde desde la guitarra flamenca, mientras la flauta de Rie Akagi y la percusión de Kan evitan que el cuarteto termine sonando como una banda de fusión convencional. El programa anunciado se mueve entre originales de los dos líderes y repertorio flamenco, así que esto funciona como una sesión de cruce real y no como un invitado pegado al set de otro músico. Si el hilo de Tokio trae bajo, guitarra y conversación rítmica, sí le haría espacio activamente.",
+          "trip_verdict": "Si el 9 de octubre cae dentro de una estancia en Tokio, armaría la noche de Ebisu alrededor de esta función. La formación es suficientemente inusual para justificar cruzar la ciudad, pero no reordenaría todo un itinerario por Japón únicamente por ella; la colaboración especial ya es fuerte sin fabricar urgencia de viaje.",
+          "listen_before": "Tetsuo Sakurai — Nothin' but the Bass"
+        }
+      }
+    }
+  ]
+}
