@@ -1,0 +1,129 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "wu-tang-final-chamber-holmdel-nj-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, and docs/RADAR_ENRICHMENT.md were read before publication. Fresh Tsuyoshi Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources; the future Yamamoto appearances that resurfaced were already represented in canonical/curated/processed history, so no duplicate Yamamoto event was created. The broader US-corridor pass found Wu-Tang Forever: The Final Chamber at PNC Bank Arts Center in Holmdel, New Jersey on September 11, 2026, with Bone Thugs-N-Harmony. Repository-wide searches for Wu-Tang and for the exact Holmdel/date combination returned no existing RADAR representation before publication. Stage 1 admits the performance for a specific live and historical context: the 2026 run is an encore/extension of Wu-Tang Clan's announced Final Chamber farewell chapter, and this exact New Jersey date pairs the Clan with Bone Thugs-N-Harmony. Stage 2 assigns A+ after an explicit scarcity challenge. S was considered because the tour remains framed as a farewell and RZA originally described the run as the group going around the world together one more time, but A+ still captures the recommendation for this specific performance: the farewell has already been extended into a 26-city 2026 encore, and the same run offers nearby corridor alternatives at Jones Beach on September 13 and Bristow on September 15. The event is therefore actively worth making room for without treating the Holmdel stop itself as a scarce protect-the-night occurrence. Recent/current curated intake was compared as a shape sanity check; this batch adds an A+ rather than inflating the S scarcity tier.",
+  "events": [
+    {
+      "id": "wu-tang-final-chamber-pnc-bank-arts-center-holmdel-2026-09-11",
+      "artist": "Wu-Tang Clan",
+      "subtitle": "Wu-Tang Forever: The Final Chamber — with Bone Thugs-N-Harmony",
+      "dates": {
+        "start": "2026-09-11",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "pnc-bank-arts-center-holmdel-nj",
+        "name": "PNC Bank Arts Center",
+        "city": "Holmdel",
+        "state": "NJ",
+        "country": "US",
+        "address": "Exit 116, Garden State Parkway, Holmdel, NJ 07733"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Farewell chapter / culturally significant hip-hop",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "musical_axes": [
+        "Masters"
+      ],
+      "lineup": [
+        "Wu-Tang Clan",
+        "Bone Thugs-N-Harmony — special guest"
+      ],
+      "factual_description": "Live Nation and Ticketmaster list Wu-Tang Forever: The Final Chamber at PNC Bank Arts Center in Holmdel, New Jersey on Friday, September 11, 2026 at 7:30 PM, with Wu-Tang Clan and Bone Thugs-N-Harmony. Live Nation's March 24 announcement describes the 2026 North American run as a 26-city return due to popular demand with Bone Thugs-N-Harmony as special guest. Authoritative coverage of the tour's continuation identifies it as an extension of the Final Chamber farewell run and preserves RZA's original framing of the chapter as a chance for the Wu brothers to travel together one more time. The same 2026 routing includes nearby dates at Jones Beach on September 13 and Jiffy Lube Live in Bristow on September 15. No face-value ticket price or member-level touring personnel is recorded because those details were not verified from the accessible exact event and ticket pages in this pass.",
+      "links": {
+        "official_event": "https://www.livenation.com/event/vv1AeZkowGkewwu7w/wu-tang-forever-the-final-chamber",
+        "official_tickets": "https://www.ticketmaster.com/wutang-forever-the-final-chamber-holmdel-new-jersey-09-11-2026/event/02006472B2C8D132"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/wutang-forever-the-final-chamber-holmdel-new-jersey-09-11-2026/event/02006472B2C8D132",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Wu-Tang Clan",
+          "title": "Enter the Wu-Tang (36 Chambers)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/enter-the-wu-tang-36-chambers/1746566237"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Live Nation and Ticketmaster verify the exact Holmdel event, date, showtime, venue and Wu-Tang Clan/Bone Thugs-N-Harmony billing. Live Nation's tour announcement verifies the 26-city 2026 return and Bone Thugs-N-Harmony special-guest status; authoritative farewell coverage preserves the Final Chamber farewell framing. Apple Music provides an exact album destination for Enter the Wu-Tang (36 Chambers). No unverified face value, doors time, or member-level touring lineup is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.livenation.com/event/vv1AeZkowGkewwu7w/wu-tang-forever-the-final-chamber",
+          "publisher": "Live Nation",
+          "checked_on": "2026-09-09",
+          "note": "Exact authorized event page verifies Friday, September 11, 2026 at 7:30 PM, PNC Bank Arts Center in Holmdel, New Jersey, and the billing of Wu-Tang Clan with Bone Thugs-N-Harmony."
+        },
+        {
+          "url": "https://www.ticketmaster.com/wutang-forever-the-final-chamber-holmdel-new-jersey-09-11-2026/event/02006472B2C8D132",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-09",
+          "note": "Exact authorized ticket destination independently verifies the event title, September 11 date, 7:30 PM showtime and PNC Bank Arts Center. The accessible listing did not expose a stable face-value range, so official price remains null."
+        },
+        {
+          "url": "https://news.livenationentertainment.com/news/wu-tang-clan-return-to-north-america-for-wu-tang-forever-the-final-chamber-tour-due-to-popular-demand",
+          "publisher": "Live Nation Entertainment",
+          "checked_on": "2026-09-09",
+          "note": "Primary tour announcement verifies the 26-city 2026 North American return, Bone Thugs-N-Harmony as special guest, and the tour's Final Chamber identity."
+        },
+        {
+          "url": "https://www.wbls.com/news/wu-tang-clan-taps-bone-thugs-n-harmony-to-join-final-chamber-tour/",
+          "publisher": "WBLS",
+          "checked_on": "2026-09-09",
+          "note": "Authoritative coverage identifies the run as a continuation of Wu-Tang Clan's announced farewell tour and quotes RZA's original one-more-time framing for the group touring together."
+        },
+        {
+          "url": "https://music.apple.com/us/album/enter-the-wu-tang-36-chambers/1746566237",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album page for Enter the Wu-Tang (36 Chambers), selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-authorized-promoter-ticketing-streaming-and-authoritative-farewell-context",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "The exact event logistics and billing come from Live Nation and Ticketmaster. Live Nation's corporate tour announcement verifies the 2026 return and support billing; WBLS provides authoritative farewell context and RZA's original framing; Apple Music supplies the exact listening destination. Repository searches for Wu-Tang and the exact Holmdel/date identity found no existing canonical, curated or processed RADAR record before publication. Priority was assigned only after Stage 1 admission. The S scarcity challenge was explicitly rejected: although this remains a farewell chapter, the 2026 run is itself an extended 26-city encore and nearby Jones Beach and Bristow dates mean A+ adequately captures this specific Holmdel recommendation without inflating the scarcity tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The Final Chamber matters because the context is bigger than a legacy package: Wu-Tang is still treating group touring as a closing chapter, and the 2026 encore puts the Clan on the same bill as Bone Thugs-N-Harmony, another collective that helped redraw 1990s hip-hop. Holmdel is an actively worth-making-room-for chance to hear that history in the room while the farewell narrative is still live, even if the extended routing makes this particular stop less scarce than the tour name suggests.",
+          "trip_verdict": "For a New Jersey or New York weekend, build Friday around Holmdel. From the DMV, I would not drive past a nearer option just to make this venue: the same run reaches Bristow on September 15, so use Holmdel when the Friday date or a corridor trip already fits the plan.",
+          "listen_before": "Wu-Tang Clan — Enter the Wu-Tang (36 Chambers)"
+        },
+        "es": {
+          "why_it_matters": "The Final Chamber importa porque el contexto rebasa el simple paquete de legado: Wu-Tang sigue tratando sus giras como un capítulo de cierre, y este encore de 2026 pone al Clan en el mismo cartel que Bone Thugs-N-Harmony, otro colectivo que ayudó a redibujar el hip-hop de los noventa. Holmdel sí merece que le hagas espacio para escuchar esa historia todavía viva en un escenario, aunque la extensión de la gira vuelva esta parada concreta menos escasa de lo que sugiere el nombre.",
+          "trip_verdict": "Si ya vas a estar en Nueva Jersey o Nueva York ese fin de semana, armaría el viernes alrededor de Holmdel. Desde el DMV no manejaría de más sólo por este venue: la misma gira llega a Bristow el 15 de septiembre, así que Holmdel tiene más sentido cuando el viernes o el viaje por el corredor ya embonan.",
+          "listen_before": "Wu-Tang Clan — Enter the Wu-Tang (36 Chambers)"
+        }
+      }
+    }
+  ]
+}
