@@ -1,0 +1,125 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "washington-ballet-black-alley-gogo-50-warner-theatre-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, scripts/merge_inbox.py, and scripts/validate_events.py were read before final grading/publication. Fresh Yamamoto research checked Jazz House ALFIE, BODY&SOUL, Space M&A, Jazz Shiryokan/current schedule traces and repository representations; no new duplicate-free Yamamoto performance was verified in this pass. The broader DMV pass found The Washington Ballet's Go-Go 50 at Warner Theatre, October 30-November 1, 2026. Stage 1 admits the event for a specific Washington cultural context: the 50th-season opener includes a Chanel DaSilva world premiere with live music by D.C.'s Black Alley, explicitly bridging classical ballet and Go-Go. Stage 2 assigns A+ because the world premiere, live local band, and 50th-season setting make it actively worth making room for, while four performances across a three-day run and no verified farewell or singular one-off scarcity make A+ sufficient rather than S. Recent/current intake was checked as a sanity test; the proposed grade does not invoke a scarcity tier and no quota was used. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "washington-ballet-black-alley-gogo-50-warner-theatre-washington-dc-2026",
+      "artist": "The Washington Ballet / Black Alley",
+      "subtitle": "Go-Go 50 — Chanel DaSilva world premiere with live Black Alley",
+      "dates": {
+        "start": "2026-10-30",
+        "end": "2026-11-01"
+      },
+      "showtimes": [
+        "19:30",
+        "14:00"
+      ],
+      "venue": {
+        "id": "warner-theatre-washington-dc",
+        "name": "Warner Theatre",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "513 13th Street NW, Washington, DC 20004"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "DMV cultural crossover / world premiere / 50th-season opener",
+      "genres": [
+        "Go-Go",
+        "Funk",
+        "R&B",
+        "Contemporary ballet"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "The Washington Ballet",
+        "Black Alley — live music for the Chanel DaSilva world premiere"
+      ],
+      "factual_description": "The Washington Ballet presents Go-Go 50 at Warner Theatre in Washington, DC from Friday, October 30 through Sunday, November 1, 2026. The official calendar lists four performances: October 30 at 7:30 PM, October 31 at 2:00 PM and 7:30 PM, and November 1 at 2:00 PM. The mixed program opens The Washington Ballet's 50th season and includes Trey McIntyre's Blue Until June to music by Etta James, Choo San Goh's Configurations to music by Samuel Barber, Edwaard Liang's The Art of War to music by Michael Torke, and a world premiere by Chanel DaSilva featuring live music by D.C.'s Black Alley. The Washington Ballet describes the new work as bridging classical ballet with the legacy of Go-Go and rooting the collaboration in Washington's culture and sound. Ticketmaster independently lists all four performances and confirms Warner Theatre; the October 30 event page states 6:30 PM doors and a 7:30 PM show. Accessible Ticketmaster pages do not expose a stable numeric single-ticket face value, so official price fields remain null rather than using group-sales pricing.",
+      "links": {
+        "official_event": "https://www.washingtonballet.org/events/gogo-50/",
+        "official_tickets": "https://www.ticketmaster.com/washington-ballet-tickets/artist/888836"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/washington-ballet-tickets/artist/888836",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Black Alley",
+          "title": "Recycle Bin, Vol. 5",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/recycle-bin-vol-5/1888902059"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Washington Ballet event page, the authorized Ticketmaster destination enumerating all four Go-Go 50 performances, and an exact Apple Music album page for Black Alley are verified. Single-ticket face values remain null because the accessible Ticketmaster pages do not expose stable numeric prices."
+      },
+      "sources": [
+        {
+          "url": "https://www.washingtonballet.org/events/gogo-50/",
+          "publisher": "The Washington Ballet",
+          "checked_on": "2026-09-09",
+          "note": "Primary presenter page verifies October 30-November 1, 2026 at Warner Theatre; all four performance times; the 50th-season opening context; the mixed-program repertoire; and Chanel DaSilva's world premiere with live music by D.C.'s Black Alley."
+        },
+        {
+          "url": "https://www.ticketmaster.com/washington-ballet-tickets/artist/888836",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-09",
+          "note": "Authorized ticketing destination linked by The Washington Ballet lists the four Go-Go 50 performances at Warner Theatre: October 30 at 7:30 PM; October 31 at 2:00 PM and 7:30 PM; and November 1 at 2:00 PM."
+        },
+        {
+          "url": "https://www.ticketmaster.com/the-washington-ballets-gogo-50-washington-district-of-columbia-10-30-2026/event/150064FE1999A62E",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-09",
+          "note": "Exact October 30 authorized ticket page confirms the 7:30 PM performance at Warner Theatre and states doors at 6:30 PM. The accessible page does not expose a stable numeric single-ticket price."
+        },
+        {
+          "url": "https://music.apple.com/us/album/recycle-bin-vol-5/1888902059",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music page for Black Alley's Recycle Bin, Vol. 5, released March 27, 2026."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-authorized-ticketing-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts come from The Washington Ballet and its authorized Ticketmaster destination; listening is an exact Apple Music page. Repository searches for Go-Go 50, The Washington Ballet, the proposed stable event ID, and Warner Theatre found no existing matching event representation before publication. The Warner Theatre venue ID follows an existing repository ID while the city spelling follows the current validator requirement for District venues. Stage 1 rests on the specific Washington Ballet / live Go-Go world-premiere collaboration and 50th-season context. Stage 2 assigns A+ after admission. A priority_review is not required because the event does not claim S or S+ status."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is one of those D.C. ideas that becomes more interesting because the city itself is part of the instrumentation: The Washington Ballet is opening its 50th season with a Chanel DaSilva world premiere powered live by Black Alley, putting classical movement in direct conversation with Go-Go rather than using Washington culture as decoration. The anniversary frame matters, but the live collision of forms is the real reason to make room for it.",
+          "trip_verdict": "For the DMV, make room for one of the four Warner Theatre performances and choose the time that fits the weekend; there is no reason to chase geography when the cultural point of the piece is Washington itself. The three-day run also gives enough flexibility to treat this as a strong local plan rather than a brittle one-night scramble.",
+          "listen_before": "Black Alley — Recycle Bin, Vol. 5"
+        },
+        "es": {
+          "why_it_matters": "Ésta es una de esas ideas de D.C. que se vuelve más interesante porque la ciudad misma forma parte de la instrumentación: The Washington Ballet abre su temporada 50 con un estreno mundial de Chanel DaSilva impulsado en vivo por Black Alley, poniendo el movimiento clásico en conversación directa con el Go-Go en vez de usar la cultura de Washington como decoración. El aniversario importa, pero el verdadero motivo para hacerle espacio es el choque vivo entre esos dos lenguajes.",
+          "trip_verdict": "Desde el DMV, le haría espacio a una de las cuatro funciones del Warner Theatre y escogería la que mejor embone con el fin de semana; no tiene sentido perseguir otra geografía cuando el punto cultural de la pieza es precisamente Washington. Las cuatro funciones en tres días dan además suficiente flexibilidad para convertirlo en un buen plan local sin volverlo una carrera por una sola noche.",
+          "listen_before": "Black Alley — Recycle Bin, Vol. 5"
+        }
+      }
+    }
+  ]
+}
