@@ -1,0 +1,128 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "miya-aga-shio-soka-saitama-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, and docs/RADAR_ENRICHMENT.md were read before publication. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; the Yamamoto appearances that resurfaced were already represented in canonical/curated/processed history or did not establish a new duplicate-free candidate. The broader Greater Tokyo/Kanto pass found the September 23, 2026 MIYA to AGA-SHIO concert at Soka City Culture Hall. Repository searches for the proposed stable ID, the Japanese billing/date, and the venue/artist/date combination returned no matching RADAR record before publication. Stage 1 admits the performance for a specific live proposition: AGA-SHIO's Tsugaru-shamisen/piano language is expanded by Kazufumi Miyazawa on vocals and special guest Lisa Ono, making Japanese traditional timbre, arrangement, and Brazilian/bossa-nova vocal identity part of one special lineup rather than a generic prestige bill. Stage 2 assigns A+: this is unusually aligned with Listening Notes' instrumental-identity, Japan/Kanto and Latin/cultural-exchange threads and is worth actively making room for. A was challenged as too passive for the four-artist configuration. S was rejected because the primary sources do not document a farewell, premiere, final performance, anniversary, or other concrete scarcity fact that would make A+ inadequate; a single currently announced date is not by itself proof of irreproducibility. Recent/current intake was used only as a shape sanity check, and this batch adds no S/S+ event.",
+  "events": [
+    {
+      "id": "miyazawa-aga-shio-lisa-ono-soka-2026-09-23",
+      "artist": "Kazufumi Miyazawa + AGA-SHIO + Lisa Ono",
+      "subtitle": "MIYA to AGA-SHIO Concert 2026",
+      "dates": {
+        "start": "2026-09-23",
+        "end": null
+      },
+      "showtimes": [
+        "16:30"
+      ],
+      "venue": {
+        "id": "soka-city-culture-hall-saitama",
+        "name": "Soka City Culture Hall",
+        "city": "Soka",
+        "state": "Saitama",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japan / shamisen-piano cultural crossover / special lineup",
+      "genres": [
+        "Japanese traditional",
+        "World",
+        "Bossa nova",
+        "Cross-genre"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Latin"
+      ],
+      "lineup": [
+        "Kazufumi Miyazawa — vocals",
+        "Hiromitsu Agatsuma — Tsugaru-shamisen",
+        "Satoru Shionoya — piano",
+        "Lisa Ono — vocals, special guest"
+      ],
+      "factual_description": "Soka City Culture Hall (草加市文化会館ホール) presents Kazufumi Miyazawa, Hiromitsu Agatsuma and Satoru Shionoya in 'MIYA to AGA-SHIO' Concert 2026 on Wednesday, September 23, 2026, with special guest Lisa Ono. Doors are at 15:45, the concert starts at 16:30, and the venue lists an expected end at 18:30. Agatsuma's official event page describes AGA-SHIO as the unit formed by Tsugaru-shamisen player Agatsuma and pianist/composer/arranger Shionoya, combining the strong energy of traditional music with the structural language of Western music; it identifies Miyazawa as the added vocalist and Ono as the special guest. The venue lists reserved-seat prices of ¥6,000 general and ¥2,500 U25, with the U25 ticket restricted to attendees age 25 or younger on the performance date.",
+      "links": {
+        "official_event": "https://soka-bunka.jp/pages/359/",
+        "official_tickets": "https://ticket.pia.jp/pia/event.ds?eventCd=2618603"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 2500,
+          "maximum": 6000,
+          "source_url": "https://ticket.pia.jp/pia/event.ds?eventCd=2618603",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "AGA-SHIO",
+          "title": "AGA-SHIO",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/jp/album/aga-shio/1474199640"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The primary venue and artist pages verify the date, venue, doors, start time, expected end time, complete announced lineup, special-guest status, musical concept and face-value ticket categories. The venue page directly links the exact Ticket Pia event destination used here as official_tickets. An exact Apple Music album destination for AGA-SHIO is verified. No repertoire beyond the documented project identity is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://soka-bunka.jp/pages/359/",
+          "publisher": "Soka City Culture Hall",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue page verifies September 23, 2026; 15:45 doors, 16:30 start and planned 18:30 end; Soka City Culture Hall; general ¥6,000 and U25 ¥2,500 reserved-seat prices; U25 eligibility; and authorized ticket outlets including the exact Ticket Pia purchase link."
+        },
+        {
+          "url": "https://agatsuma.tv/contents/1071205",
+          "publisher": "Hiromitsu Agatsuma official website",
+          "checked_on": "2026-09-09",
+          "note": "Primary artist page verifies the MIYA to AGA-SHIO billing, date and times, and identifies Kazufumi Miyazawa on vocals, Hiromitsu Agatsuma on shamisen, Satoru Shionoya on piano and Lisa Ono as the special guest vocalist. It also documents AGA-SHIO's traditional-music/Western-music crossover concept."
+        },
+        {
+          "url": "https://ticket.pia.jp/pia/event.ds?eventCd=2618603",
+          "publisher": "Ticket Pia",
+          "checked_on": "2026-09-09",
+          "note": "Exact authorized event-specific purchase destination linked directly by Soka City Culture Hall. The research fetch encountered a redirect loop, so no ticket facts beyond the venue-verified authorization and published face values are inferred from the checkout page itself."
+        },
+        {
+          "url": "https://music.apple.com/jp/album/aga-shio/1474199640",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album destination for AGA-SHIO's self-titled album, originally released November 11, 2009."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-artist-ticketing-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core facts come from Soka City Culture Hall and Hiromitsu Agatsuma's official event page. The exact Ticket Pia purchase destination is linked by the primary venue page; the listening recommendation is verified on Apple Music. Repository-wide duplicate searches by stable ID, Japanese billing/date and venue/artist/date found no matching canonical, curated or processed RADAR record before publication. Priority was assigned only after Stage 1 admission. A+ was retained after challenging whether A would suffice: the special lineup puts Tsugararu-shamisen and piano beside Miyazawa's vocal presence and Lisa Ono's bossa-nova identity in one specifically framed Kanto performance, making it worth actively making room for. S was rejected because no primary source establishes a farewell, premiere, anniversary, final performance or other concrete scarcity fact; the existence of one announced date alone does not justify protect-the-night language."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "AGA-SHIO already makes a strong instrumental argument: Hiromitsu Agatsuma's Tsugaru-shamisen meets Satoru Shionoya's piano in a language built deliberately between Japanese tradition and Western arrangement. Bringing Kazufumi Miyazawa into that frame and adding Lisa Ono as the special guest widens the exchange toward song and bossa nova without reducing the night to an all-star bill. The specific four-artist configuration is the reason to actively make room for this Kanto date.",
+          "trip_verdict": "If a Greater Tokyo/Kanto stay overlaps September 23, make the Soka afternoon a deliberate outing and build the day around the 16:30 performance. I would not distort an entire Japan itinerary for it, but within Kanto this lineup is strong enough to choose over a routine club date.",
+          "listen_before": "AGA-SHIO — AGA-SHIO"
+        },
+        "es": {
+          "why_it_matters": "AGA-SHIO ya parte de una idea instrumental muy fuerte: el tsugaru-shamisen de Hiromitsu Agatsuma se encuentra con el piano de Satoru Shionoya en un lenguaje construido deliberadamente entre tradición japonesa y arreglo occidental. Meter a Kazufumi Miyazawa en ese marco y sumar a Lisa Ono como invitada especial amplía el intercambio hacia la canción y la bossa nova sin convertir la noche en un simple cartel de nombres. Esa formación concreta de cuatro artistas es la razón para abrirle espacio activamente a esta fecha en Kanto.",
+          "trip_verdict": "Si una estancia en Tokio/Kanto coincide con el 23 de septiembre, haría de la tarde en Soka una salida deliberada y armaría el día alrededor de la función de las 16:30. No deformaría todo un itinerario por Japón para forzarla, pero dentro de Kanto esta alineación sí merece ganar la tarde frente a una fecha de club más rutinaria.",
+          "listen_before": "AGA-SHIO — AGA-SHIO"
+        }
+      }
+    }
+  ]
+}
