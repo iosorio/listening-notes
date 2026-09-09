@@ -1,0 +1,112 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "the-experience-band-and-show-barrel-house-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before searching or grading. Fresh Yamamoto research checked Jazz House ALFIE, BODY&SOUL, Space M&A, Jazz Shiryokan and current schedule traces; no new duplicate-free Yamamoto performance was found beyond dates already represented in canonical/intake data, including the October 21 ALFIE trio date already staged in curated. The broader US-corridor pass found The Experience Band and Show at Barrel House Cafe & Bar in Washington, DC on September 9, 2026. Stage 1 admits the event for a specific local-cultural reason: Washington Performing Arts explicitly frames the band as combining New Orleans second-line jazz sensibility and brass with D.C. Go-Go, funk and R&B, inside a new Mars Arts D.C. series built to spotlight the DMV scene. This is not admission by venue prestige or genre alone. Stage 2 assigns A: the performance is worthy of RADAR and useful to know locally, but there is no premiere, farewell, rare one-off lineup or other scarcity fact that would warrant A+ or an S-tier judgment. The official ticketing page currently marks the event sold out and describes the offer as pay-what-you-choose, requiring an amount greater than $3.50 plus a $1.50 facility fee; because there is no fixed face value, numeric official price fields remain null rather than inventing a minimum. The proposed A reinforces the intended broad base of the current priority shape without using distribution as a quota. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "the-experience-band-and-show-barrel-house-washington-dc-2026-09-09",
+      "artist": "The Experience Band and Show",
+      "subtitle": "Mars Arts D.C. After Hours at Barrel House Cafe & Bar",
+      "dates": {
+        "start": "2026-09-09",
+        "end": null
+      },
+      "showtimes": [
+        "20:30"
+      ],
+      "venue": {
+        "id": "barrel-house-cafe-bar-washington-dc",
+        "name": "Barrel House Cafe & Bar",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "1341 14th Street NW, Washington, DC 20005"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV Go-Go / second-line brass / local cultural crossover",
+      "genres": [
+        "Go-Go",
+        "Funk",
+        "R&B",
+        "Brass Band"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "The Experience Band and Show"
+      ],
+      "factual_description": "Washington Performing Arts presents The Experience Band and Show on Wednesday, September 9, 2026 at 8:30 PM at Barrel House Cafe & Bar, 1341 14th Street NW in Washington, DC. The primary event page describes the band's sound as bringing a New Orleans second-line jazz sensibility to brass, funk, R&B and the bounce of Go-Go, and identifies this performance as the opening event in the Mars Arts D.C. After Hours series at Barrel House. Washington Performing Arts describes the venue series as an intimate platform for DMV artists and global sounds. The exact official ticketing page currently marks the event Sold Out. Its price interface is pay-what-you-choose and instructs buyers to enter an amount greater than $3.50; it also states a $1.50 per-ticket facility fee. Because the ticket does not have a fixed face value and the lower bound is expressed as a strict inequality, no numeric minimum or maximum is inferred into the structured ticket fields.",
+      "links": {
+        "official_event": "https://www.washingtonperformingarts.org/event/the-experience-band-and-show/",
+        "official_tickets": "https://my.washingtonperformingarts.org/5090"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://my.washingtonperformingarts.org/5090",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact official event page and exact Washington Performing Arts ticket destination are verified. The ticketing interface is pay-what-you-choose and currently sold out, so fixed numeric face-value fields remain null. No exact Apple Music album, track or playlist destination was independently verified in this run."
+      },
+      "sources": [
+        {
+          "url": "https://www.washingtonperformingarts.org/event/the-experience-band-and-show/",
+          "publisher": "Washington Performing Arts",
+          "checked_on": "2026-09-09",
+          "note": "Primary presenter page verifies the September 9, 2026 date, 8:30 PM time, Barrel House venue, Mars Arts D.C. After Hours context, and the second-line brass / Go-Go / funk / R&B description."
+        },
+        {
+          "url": "https://www.washingtonperformingarts.org/venue/barrel-house-cafe-bar/",
+          "publisher": "Washington Performing Arts",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue page verifies Barrel House Cafe & Bar at 1341 14th Street NW, Washington, DC 20005 and describes the Mars Arts D.C. series as spotlighting the DMV music scene in an intimate setting."
+        },
+        {
+          "url": "https://my.washingtonperformingarts.org/5090",
+          "publisher": "Washington Performing Arts ticketing",
+          "checked_on": "2026-09-09",
+          "note": "Exact official ticketing page verifies the event date/time and venue, currently marks the performance Sold Out, and describes the offer as Pay-What-You-Choose with an amount greater than $3.50 plus a $1.50 per-ticket facility fee."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-ticketing-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Core event facts come from Washington Performing Arts and its exact official ticketing page. Repository searches for The Experience Band and Show, Barrel House Cafe & Bar, and the proposed stable event ID returned no existing canonical/curated/processed representation before publication. Stage 1 rests on the specific New Orleans-second-line / D.C.-Go-Go cultural synthesis and DMV series context. Stage 2 assigns A only after admission. No priority_review is required because the event does not claim S or S+ status."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a distinctly D.C. collision rather than a generic bar-band night: The Experience Band and Show folds second-line brass language into Go-Go, funk and R&B, putting New Orleans street-music energy in conversation with Washington's own rhythmic vernacular. In a small 14th Street room, that local crossover is the reason to notice it.",
+          "trip_verdict": "If you already have a ticket, make it an easy 14th Street night and get there for the 8:30 set. If you do not, do not chase unofficial access: Washington Performing Arts currently marks the show sold out, and this is better treated as a local discovery than a reason to contort the evening.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Esto tiene una identidad muy de D.C. y no es simplemente una banda tocando en un bar: The Experience Band and Show cruza el lenguaje de metales del second line con Go-Go, funk y R&B, poniendo la energía callejera de Nueva Orleans en conversación con el pulso propio de Washington. En una sala pequeña de 14th Street, ese cruce local es precisamente la razón para ponerle atención.",
+          "trip_verdict": "Si ya tienes boleto, haría de ésta una noche sencilla por 14th Street y llegaría para el set de las 8:30. Si no lo tienes, no perseguiría acceso por vías no oficiales: Washington Performing Arts marca actualmente la función como agotada, y esto funciona mejor como descubrimiento local que como motivo para torcer toda la noche.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
