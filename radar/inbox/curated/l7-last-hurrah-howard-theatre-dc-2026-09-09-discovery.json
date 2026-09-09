@@ -1,0 +1,138 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "l7-last-hurrah-howard-theatre-dc-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-09",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources. Future Yamamoto dates that resurfaced were already represented in canonical/inbox history, including existing ALFIE, BODY&SOUL, Keystone Club Tokyo, Otokichi MEG, Cotton Club and Space M&A records, so no duplicate Yamamoto event was created. The broader US-corridor pass found L7's The Last Hurrah Tour 2026 at the Howard Theatre in Washington, DC on October 21, 2026. Repository-wide searches for the exact tour title and proposed event identity returned no matching RADAR record before publication. Stage 1 admits the event because this is explicitly the Washington stop of L7's announced farewell world-tour chapter, giving a culturally significant punk/alternative band a terminal local live context rather than a routine legacy appearance. Stage 2 assigns S only after the required scarcity challenge: the concrete unlikely-to-recur fact is the farewell itself. A+ would understate the genuine-regret-if-missed character of the final-tour Washington opportunity. S+ is not warranted because this is one stop on a multi-city farewell run, with Philadelphia on October 22 and New York on October 24, and Washington is not the final performance of the tour. The current priority rubric was re-read and recent curated intake was treated only as a shape sanity check; S is used here for the documented farewell condition, not for fame or historical stature alone.",
+  "events": [
+    {
+      "id": "l7-last-hurrah-howard-theatre-washington-dc-2026-10-21",
+      "artist": "L7",
+      "subtitle": "The Last Hurrah Tour 2026 — with VIAL",
+      "dates": {
+        "start": "2026-10-21",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "howard-theatre-washington-dc",
+        "name": "Howard Theatre",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "620 T Street NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "rationale": "Scarcity challenge: L7's influence and longevity are not sufficient for S. The event-specific fact is that The Last Hurrah is the band's announced farewell world-tour chapter, and the official Washington presenter bills this exact date under that tour name. Would A+ still capture the recommendation? No: the Howard Theatre date is a local opportunity inside an explicitly final touring chapter, so missing it would carry genuine regret rather than merely mean passing on a strong active-tour show. S is warranted. S+ is not: the farewell run contains many dates, including Philadelphia the following night and New York two nights later, and Washington is not presented as the final-ever performance."
+      },
+      "category": "Culturally significant rock / Farewell tour",
+      "genres": [
+        "Punk rock",
+        "Alternative rock",
+        "Noise rock",
+        "Grunge"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "L7",
+        "VIAL — support"
+      ],
+      "factual_description": "Union Stage Presents lists L7: The Last Hurrah Tour 2026 at the Howard Theatre in Washington, DC on Wednesday, October 21, 2026, with VIAL. The event is all ages, with doors at 7:00 PM and showtime at 8:00 PM, at 620 T Street NW. The official presenter routes purchases to an exact Opendate order page. L7's official site currently markets tour-specific VIP packages that include a limited-edition farewell L7 tour poster. Pitchfork's May 7, 2026 tour announcement reports that L7 describes The Last Hurrah as the first leg of its farewell world tour and lists Washington on October 21, Philadelphia on October 22, New York on October 24 and the Los Angeles tour finale on November 14. No member-level touring personnel or face-value ticket price is recorded because those details were not verified from the accessible exact event/ticket sources in this pass.",
+      "links": {
+        "official_event": "https://www.unionstagepresents.com/shows/l7-the-last-hurrah-tour-2026-21-oct",
+        "official_tickets": "https://app.opendate.io/confirms/680328/web_orders/new"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://app.opendate.io/confirms/680328/web_orders/new",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "L7",
+          "title": "Bricks Are Heavy",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/bricks-are-heavy/309736061"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Union Stage Presents verifies the exact Washington event, tour billing, VIAL support, venue/address, age policy, doors, showtime and the exact authorized Opendate purchase destination. L7's official site independently uses farewell-tour language in its current VIP package materials. Pitchfork corroborates the farewell-world-tour context and the Washington/Philadelphia/New York routing. Apple Music provides the exact Bricks Are Heavy album destination. No ticket face value or unverified member-level touring lineup is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.unionstagepresents.com/shows/l7-the-last-hurrah-tour-2026-21-oct",
+          "publisher": "Union Stage Presents",
+          "checked_on": "2026-09-09",
+          "note": "Official presenter page verifies L7: The Last Hurrah Tour 2026 with VIAL at the Howard Theatre on October 21, 2026; all ages; doors 7:00 PM; show 8:00 PM; 620 T Street NW; and the direct authorized Opendate ticket destination."
+        },
+        {
+          "url": "https://app.opendate.io/confirms/680328/web_orders/new",
+          "publisher": "Opendate",
+          "checked_on": "2026-09-09",
+          "note": "Exact authorized ticket destination reached directly from the official Union Stage Presents event page. The accessible page did not expose a stable face value, so official price remains null."
+        },
+        {
+          "url": "https://www.l7theband.com/",
+          "publisher": "L7",
+          "checked_on": "2026-09-09",
+          "note": "Official artist site currently markets tour VIP packages including a limited-edition farewell L7 tour poster, corroborating the farewell framing from a primary artist source."
+        },
+        {
+          "url": "https://pitchfork.com/news/l7-map-2026-farewell-tour-dates/",
+          "publisher": "Pitchfork",
+          "checked_on": "2026-09-09",
+          "note": "Authoritative May 7, 2026 tour announcement reports L7's description of The Last Hurrah as the first leg of its farewell world tour and lists October 21 Washington, October 22 Philadelphia, October 24 New York, and November 14 Los Angeles."
+        },
+        {
+          "url": "https://music.apple.com/us/album/bricks-are-heavy/309736061",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music album page for L7's Bricks Are Heavy, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-authorized-ticketing-artist-streaming-and-authoritative-farewell-context",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "The exact event logistics and support billing come from the official presenter, whose direct link establishes the authorized Opendate purchase destination. The official L7 site supplies primary farewell-tour language; Pitchfork corroborates the explicit farewell-world-tour framing and corridor routing; Apple Music supplies the exact listening destination. Repository searches found no prior L7 Last Hurrah / Howard Theatre October 21 RADAR representation before publication. Priority was assigned only after Stage 1 admission and survived the explicit S scarcity challenge recorded in priority_review. No price or member-level touring personnel is inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The point is not simply that L7 remains a foundational bridge between Los Angeles punk, heavy alternative rock and the grunge era. The Washington date belongs to The Last Hurrah, the band's announced farewell touring chapter. That turns the Howard Theatre show into a closing encounter with a band whose abrasive guitars, pop instincts and physical live attack helped define a whole strain of American rock.",
+          "trip_verdict": "Keep October 21 clear and take the Howard Theatre date rather than chasing the corridor. If Washington becomes impossible, Philadelphia the next night or New York on October 24 are the nearest fallbacks inside the same farewell run.",
+          "listen_before": "L7 — Bricks Are Heavy"
+        },
+        "es": {
+          "why_it_matters": "El punto no es simplemente que L7 siga siendo un puente fundamental entre el punk de Los Ángeles, el rock alternativo pesado y la era del grunge. La fecha de Washington forma parte de The Last Hurrah, el capítulo de despedida anunciado por la banda. Eso convierte la noche del Howard Theatre en un encuentro de cierre con un grupo cuya mezcla de guitarras abrasivas, instinto pop y ataque físico en vivo ayudó a definir toda una veta del rock estadounidense.",
+          "trip_verdict": "Dejaría libre el 21 de octubre y aprovecharía el Howard Theatre en vez de perseguir la gira por el corredor. Si Washington se vuelve imposible, Filadelfia al día siguiente o Nueva York el 24 son las alternativas cercanas dentro de la misma despedida.",
+          "listen_before": "L7 — Bricks Are Heavy"
+        }
+      }
+    }
+  ]
+}
