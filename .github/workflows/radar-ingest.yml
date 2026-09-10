@@ -11,6 +11,7 @@ on:
       - 'scripts/merge_enrichment_patches.py'
       - 'scripts/validate_events.py'
       - 'tests/*.py'
+      - '.github/workflows/radar-ingest.yml'
 
 concurrency:
   group: radar-ingest
