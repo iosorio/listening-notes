@@ -1,0 +1,140 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "plini-night-verses-portraits-baltimore-soundstage-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, and scripts/merge_inbox.py were read before grading or publication. Fresh Yamamoto research checked Jazz House ALFIE, BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A/current Japanese-jazz schedule traces, and other credible Japanese sources before expanding to the US corridor. Repository-wide searches for Plini, the exact Baltimore date, and the proposed stable event ID found no existing canonical/curated/processed representation before publication. Stage 1 admits the Baltimore performance for the exact live package and instrumental identity rather than artist reputation alone: Plini is touring the 2026 album An Unnameable Desire with Night Verses and Portraits, and Night Verses' current instrumental-trio identity puts the bill squarely in the guitar/drums/virtuosity/improvisational-performance thread that Listening Notes follows. Stage 2 assigns A+: the combination is actively worth making room for in Baltimore, but the same three-act package is documented on multiple North American dates, including New York on October 18 and Toronto on October 22, so no event-specific scarcity fact makes A+ inadequate. The recent/current intake shape was sanity-checked against the latest repository commits and remains centered on A/A+; this batch adds no scarcity tier. No automated self-check is represented as independent Codex or human review. Baltimore Soundstage verifies doors at 6:00 PM and show at 7:00 PM and links directly to the authorized Ticketmaster event. No stable face-value price is recorded because the accessible primary/authorized ticket surfaces do not expose one.",
+  "events": [
+    {
+      "id": "plini-night-verses-portraits-baltimore-soundstage-2026-10-16",
+      "artist": "Plini",
+      "subtitle": "An Unnameable Desire North American Tour — with Night Verses and Portraits",
+      "dates": {
+        "start": "2026-10-16",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "baltimore-soundstage",
+        "name": "Baltimore Soundstage",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US",
+        "address": "124 Market Place, Baltimore, MD 21202"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Progressive instrumental / virtuoso guitar and rhythm",
+      "genres": [
+        "Progressive metal",
+        "Instrumental rock",
+        "Progressive rock",
+        "Post-rock"
+      ],
+      "musical_axes": [
+        "Fusion / Prog",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Plini",
+        "Night Verses",
+        "Portraits"
+      ],
+      "factual_description": "Baltimore Soundstage lists Plini's An Unnameable Desire North American Tour with Night Verses and Portraits on Friday, October 16, 2026, with doors at 6:00 PM and the show at 7:00 PM at 124 Market Place in Baltimore. The venue's exact event page links directly to Ticketmaster, whose authorized event page independently confirms Plini at Baltimore Soundstage on October 16 at 7:00 PM. Live Nation also lists the same Plini/Night Verses/Portraits package in Baltimore and on later tour stops including New York and Toronto. Apple Music verifies Plini's An Unnameable Desire as a 2026 album and identifies Night Verses' current live activity and instrumental-trio phase.",
+      "links": {
+        "official_event": "https://www.baltimoresoundstage.com/events/plini-an-unnameable-desire-north-american-tour/",
+        "official_tickets": "https://www.ticketmaster.com/plini-an-unnameable-desire-north-american-baltimore-maryland-10-16-2026/event/150064BCC325D827"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/plini-an-unnameable-desire-north-american-baltimore-maryland-10-16-2026/event/150064BCC325D827",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Plini",
+          "title": "An Unnameable Desire",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/an-unnameable-desire/1893487344"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Baltimore Soundstage and authorized Ticketmaster destinations are verified, as are venue address, doors, showtime, three-act billing, the current tour identity, and an exact Apple Music destination for Plini's An Unnameable Desire. Stable face-value pricing is not exposed on the accessible primary/authorized ticket surfaces, so ticket minimum/maximum remain null without affecting the enrichment contract."
+      },
+      "sources": [
+        {
+          "url": "https://www.baltimoresoundstage.com/events/plini-an-unnameable-desire-north-american-tour/",
+          "publisher": "Baltimore Soundstage",
+          "checked_on": "2026-09-10",
+          "note": "Exact primary venue page verifies Friday, October 16, 2026; Plini, Night Verses and Portraits; doors at 6:00 PM; show at 7:00 PM; venue address; and the direct authorized Ticketmaster link."
+        },
+        {
+          "url": "https://www.ticketmaster.com/plini-an-unnameable-desire-north-american-baltimore-maryland-10-16-2026/event/150064BCC325D827",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-10",
+          "note": "Authorized ticket destination reached directly from Baltimore Soundstage verifies Plini's An Unnameable Desire North American Tour at Baltimore Soundstage on October 16, 2026 at 7:00 PM."
+        },
+        {
+          "url": "https://www.livenation.com/event/17A8v0G65SdaqOE/plini-an-unnameable-desire-north-american-tour",
+          "publisher": "Live Nation",
+          "checked_on": "2026-09-10",
+          "note": "Authorized promoter page independently verifies the Baltimore date and the Plini/Night Verses/Portraits lineup. Other Live Nation tour pages document the same package on additional North American stops, supporting the non-scarcity judgment."
+        },
+        {
+          "url": "https://music.apple.com/us/album/an-unnameable-desire/1893487344",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music destination verifies Plini's An Unnameable Desire as a 2026 album."
+        },
+        {
+          "url": "https://music.apple.com/us/artist/night-verses/564653405",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Apple Music artist page verifies Night Verses' October 16 Baltimore appearance and describes the band's current instrumental-trio phase."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticketing-promoter-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "New-event discovery. Core event facts come from Baltimore Soundstage and its direct authorized Ticketmaster destination, with Live Nation and Apple Music providing independent tour/current-cycle context. Repository searches found no existing Plini representation before publication. Stage 1 rests on the exact three-act progressive/instrumental package and live instrumental identity. Stage 2 assigns A+ because the Baltimore stop merits actively making room, while the same package is touring multiple cities and no premiere, farewell, one-off, or singular scarcity condition is verified. No scarcity-tier priority_review is included because the event is not S or S+."
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This bill is built around instrumental command rather than spectacle: Plini's melodic, harmonically dense guitar writing meets Night Verses' rhythm-first instrumental attack, with Portraits completing a night aimed squarely at players who make complexity feel physical. The new An Unnameable Desire cycle gives the headlining set a current repertoire reason to hear it now rather than treating this as another prog-tour date.",
+          "trip_verdict": "From the DMV, Baltimore is an easy enough short trip to make the Friday night its own destination. If virtuosic instrumental music is the thread, this is worth building the evening around rather than waiting for a larger Northeast itinerary.",
+          "listen_before": "Plini — An Unnameable Desire"
+        },
+        "es": {
+          "why_it_matters": "El cartel está armado alrededor del dominio instrumental, no del espectáculo: la guitarra melódica y armónicamente densa de Plini se cruza con el ataque rítmico e instrumental de Night Verses, y Portraits completa una noche hecha para músicos que logran que la complejidad se sienta física. El ciclo nuevo de An Unnameable Desire le da además una razón de repertorio actual para escucharlo ahora y no tratarlo como otra fecha prog de gira.",
+          "trip_verdict": "Desde el DMV, Baltimore queda lo bastante cerca como para volver el viernes una salida dedicada. Si el hilo es la música instrumental virtuosa, vale armar la noche alrededor de Soundstage en vez de esperar a que coincida con un itinerario más grande por el noreste.",
+          "listen_before": "Plini — An Unnameable Desire"
+        }
+      }
+    }
+  ]
+}
