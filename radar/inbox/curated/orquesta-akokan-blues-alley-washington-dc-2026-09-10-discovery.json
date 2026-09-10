@@ -1,0 +1,136 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "orquesta-akokan-blues-alley-washington-dc-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before grading or publication. Fresh research began with Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. Verified Yamamoto dates that resurfaced were already represented in canonical, curated, processed, or existing-update history, including October 16 at Yokohama Jazz First, October 21 at ALFIE, October 30 and November 28 at Space M&A, and the September 26 BODY&SOUL finale, so no duplicate Yamamoto candidate was created. The broader US-corridor pass found Orquesta Akokán at Blues Alley on October 10, 2026. Repository-wide searches for Orquesta Akokán, Akokan, the venue/date combination, and the proposed stable ID returned no matching RADAR record before publication. Stage 1 admits this specific performance because Blues Alley explicitly co-presents it with the Embassy of Cuba, placing a Cuban-American large ensemble built from musicians with Los Van Van and Irakere connections into the Cuban Jazz Series at intimate club scale, while the band's new 2026 América! cycle broadens its classic mambo language toward migration, diaspora, jazz and pan-Latin identity. Stage 2 assigns A+: this is a local date actively worth making room for because the ensemble scale, cultural-exchange framing and current repertoire context make the night unusually compelling. A+ still captures the recommendation: there are two sets on the same evening and the available evidence does not establish a farewell, premiere, one-off lineup, or other scarcity fact that warrants S. Recent/current RADAR intake was used as a shape sanity check; this batch adds no scarcity-tier event.",
+  "events": [
+    {
+      "id": "orquesta-akokan-blues-alley-washington-dc-2026-10-10",
+      "artist": "Orquesta Akokán",
+      "subtitle": "Cuban Jazz Series — co-presented with the Embassy of Cuba",
+      "dates": {
+        "start": "2026-10-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Cuban mambo / large ensemble / cultural exchange",
+      "genres": [
+        "Mambo",
+        "Cuban music",
+        "Latin jazz"
+      ],
+      "musical_axes": [
+        "Latin"
+      ],
+      "lineup": [
+        "Orquesta Akokán — ensemble"
+      ],
+      "factual_description": "Blues Alley's authorized InstantSeats calendar lists Orquesta Akokán in the Cuban Jazz Series on Saturday, October 10, 2026, with 7:00 PM and 9:30 PM sets. The 7:00 PM set is $60 face value plus a $7 fee and the 9:30 PM set is $50 face value plus a $7 fee. Both exact event pages identify Blues Alley at 1073 Wisconsin Ave. NW, Washington, DC 20007 and state that the performance is co-presented with the Embassy of Cuba. Blues Alley's event copy describes Orquesta Akokán as an ensemble formed with players from Cuban groups including Los Van Van and Irakere and led across its recorded work by producer Jacob Plasse and pianist-arranger Michael Eckroth. The band's official site documents its 2026 album América! as a turn from its earlier 'capital-M Mambo' emphasis toward a broader treatment of migration, loss, Latinidad, American jazz and diasporic memory. Date-specific touring personnel are not published on the verified event surface, so no individual performers are inferred.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=10F661AE-CAE4-C030-E54BB5562808A4B4&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=10F661AE-CAE4-C030-E54BB5562808A4B4&fuseaction=buy.event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 50,
+          "maximum": 60,
+          "source_url": "https://www.instantseats.com/index.cfm?VenueID=3&fuseaction=home.venue",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Orquesta Akokán",
+          "title": "América!",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/am%C3%A9rica/1895688521"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Blues Alley/InstantSeats supplies exact authorized event and purchase destinations for the opening set and verifies both sets and their face values on the venue calendar; the later set has its own exact InstantSeats event and purchase pages. The official Orquesta Akokán site supplies current artistic context, and the exact Apple Music destination for América! is verified. Date-specific touring personnel are not published and are intentionally not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?VenueID=3&fuseaction=home.venue",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-10",
+          "note": "Primary authorized venue calendar verifies Orquesta Akokán on October 10, 2026 at 7:00 PM and 9:30 PM, with face values of $60 and $50 respectively, each plus a $7 fee."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=10F661AE-CAE4-C030-E54BB5562808A4B4&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-10",
+          "note": "Exact primary event page for the 7:00 PM set verifies the Cuban Jazz Series billing, Blues Alley address, $60 face value plus $7 fee, ensemble background, and co-presentation with the Embassy of Cuba."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=10F662C7-9331-9385-AD73FAF4A0CCF0BD&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-09-10",
+          "note": "Exact primary event page for the 9:30 PM set verifies the same billing and co-presentation and a $50 face value plus $7 fee."
+        },
+        {
+          "url": "https://www.orquestaakokan.com/",
+          "publisher": "Orquesta Akokán",
+          "checked_on": "2026-09-10",
+          "note": "Official artist site documents the ensemble's Cuban lineage and the 2026 América! album's expanded focus on migration, diaspora, Latinidad and the relationship between Cuban music and American jazz."
+        },
+        {
+          "url": "https://daptonerecords.com/news/",
+          "publisher": "Daptone Records",
+          "checked_on": "2026-09-10",
+          "note": "Official label news confirms América! was released July 17, 2026 and introduces its new vocal collaborators."
+        },
+        {
+          "url": "https://music.apple.com/us/album/am%C3%A9rica/1895688521",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album page verifies Orquesta Akokán's América!, released July 17, 2026 on Daptone Records, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-artist-label-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-10",
+        "note": "Core date, set times, venue, face values, Cuban Jazz Series billing and Embassy of Cuba co-presentation are verified from Blues Alley's authorized InstantSeats pages; the artist's official site and Daptone document the current América! context, and Apple Music verifies the exact listening destination. Repository-wide searches for accented and unaccented artist names and the exact proposed event ID returned no matching canonical, curated or processed RADAR record before publication. Priority was assigned only after Stage 1 admission. A+ was selected because the local club-scale large-ensemble setting, explicit cultural-exchange framing and current repertoire cycle merit making room for the performance; the two-set evening and absence of a documented farewell, premiere, rare one-off lineup or other nonrecurrence fact make A+ sufficient without invoking an S scarcity tier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just a good Cuban band passing through Georgetown. Orquesta Akokán brings a large, brass-and-rhythm-section mambo language shaped by musicians with Los Van Van and Irakere connections into Blues Alley's close quarters, and the Embassy of Cuba co-presentation gives the date a real cultural-exchange frame. The timing matters too: América! opens that language outward toward migration, diaspora and the conversation between Cuban music and American jazz. Make room for the night if you can.",
+          "trip_verdict": "This is local: pick the 7:00 or 9:30 set and build the Georgetown evening around it rather than turning the date into a travel problem.",
+          "listen_before": "Orquesta Akokán — América!"
+        },
+        "es": {
+          "why_it_matters": "No es simplemente una buena banda cubana de paso por Georgetown. Orquesta Akokán mete a la escala íntima de Blues Alley un lenguaje de mambo de metales y sección rítmica construido con músicos ligados a Los Van Van e Irakere, y la copresentación de la Embajada de Cuba le da a la fecha un contexto real de intercambio cultural. Además llega en pleno ciclo de América!, un disco que abre ese lenguaje hacia migración, diáspora y el diálogo entre la música cubana y el jazz estadounidense. Vale hacerle espacio a la noche.",
+          "trip_verdict": "Es local: escogería el set de 7:00 o el de 9:30 y armaría la noche de Georgetown alrededor del concierto, sin convertir la fecha en un problema de viaje.",
+          "listen_before": "Orquesta Akokán — América!"
+        }
+      }
+    }
+  ]
+}
