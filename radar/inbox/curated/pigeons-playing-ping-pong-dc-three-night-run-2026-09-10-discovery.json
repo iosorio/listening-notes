@@ -1,0 +1,360 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "pigeons-playing-ping-pong-dc-three-night-run-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto-first checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A and credible Japanese-jazz sources. The future Yamamoto dates that resurfaced were already represented in canonical, curated, or processed intake, including October 21 at ALFIE, October 30 and November 28 at Space M&A, so no duplicate Yamamoto event was created. The broader pass found a newly announced three-night Washington run by Baltimore-based Pigeons Playing Ping Pong: December 3 at The Atlantis followed by December 4-5 at 9:30 Club, with Fireside Collective on December 4 and Dizgo on December 5. Repository-wide searches for the artist and all three proposed stable IDs returned no existing representation before publication. Stage 1 admits the three individual performances because they form one unusually local live context rather than three generic tour stops: a Baltimore psychedelic-funk/jam band opens the run in the smaller Atlantis room and then moves next door to two consecutive 9:30 Club nights with different groove-oriented support acts. The band's current official material centers Feed The Fire and identifies its Baltimore roots; the album was recorded in Baltimore. Stage 2 assigns A+ to the Atlantis opener because the small-room opening night is the most distinctive part of the run and is worth actively making room for if the three-night concept appeals. The two 9:30 Club dates are A: both belong on RADAR and are useful local choices, but multiple consecutive opportunities mean either can be attended if convenient without treating one as scarce. No S/S+ scarcity review is required. Recent/current intake was checked as a shape sanity check; this batch adds two A, one A+, and no S/S+, preserving the broad-base/narrower-priority shape without using distribution as a quota. Official promoter pages currently disagree on the Atlantis access wording: The Atlantis says December 3 can only be purchased through the 3-day pass, while 9:30 Club also lists a 2-night December 3-4 pass. The batch therefore links the fully verified 3-night pass for the Atlantis event and records the discrepancy rather than claiming exclusivity beyond what is consistent across sources.",
+  "events": [
+    {
+      "id": "pigeons-playing-ping-pong-atlantis-washington-dc-2026-12-03",
+      "artist": "Pigeons Playing Ping Pong",
+      "subtitle": "Washington three-night run — opening night at The Atlantis",
+      "dates": {
+        "start": "2026-12-03",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "the-atlantis-washington-dc",
+        "name": "The Atlantis",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "2047 9th St NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Psychedelic funk / jam / DMV home-region run",
+      "genres": [
+        "Psychedelic funk",
+        "Jam band",
+        "Rock",
+        "Funk"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Greg Ormont — vocals, guitar",
+        "Jeremy Schon — guitar, vocals",
+        "Ben Carrey — bass, vocals",
+        "Alex Petropulos — drums, vocals",
+        "Jon Brady — keyboards, vocals"
+      ],
+      "factual_description": "The Atlantis lists Pigeons Playing Ping Pong on Thursday, December 3, 2026 as the opening night of a three-night Washington run. The Atlantis calendar lists doors at 6:30 PM. The 9:30 Club three-night-pass page confirms the run structure: December 3 at The Atlantis, then December 4 and 5 at 9:30 Club. Ticketmaster independently lists the same three-night pass. The Atlantis event page says its December 3 ticket can only be purchased as part of the 3-day pass, while 9:30 Club also currently advertises a separate two-night December 3-4 pass; the exact 3-night pass is retained here as the unambiguous verified purchase destination. The band's official About page identifies the current personnel and frames the project around Baltimore roots and psychedelic funk. Feed The Fire was released in 2025 and its official Bandcamp credits say it was recorded at Wright Way Studios in Baltimore.",
+      "links": {
+        "official_event": "https://theatlantis.com/e/pigeons-playing-ping-pong-3/",
+        "official_tickets": "https://www.ticketmaster.com/event/150064FEAE928562"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/event/150064FEAE928562",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Pigeons Playing Ping Pong",
+          "title": "Feed The Fire",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/hit-the-ground-runnin/1822311120"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The Atlantis verifies date, venue and its current access wording; 9:30 Club and Ticketmaster verify the three-night run/pass structure; the official band page verifies current personnel; Apple Music verifies the exact recommended-listening album. No ticket price or performance start time is encoded because the accessible primary surfaces do not expose a stable face value or an unambiguous showtime distinct from doors. The promoter's 2-night-versus-3-night access wording conflict is documented rather than normalized away."
+      },
+      "sources": [
+        {
+          "url": "https://theatlantis.com/e/pigeons-playing-ping-pong-3/",
+          "publisher": "The Atlantis",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue event page verifies Pigeons Playing Ping Pong at The Atlantis on Thursday, December 3, 2026 and states that the Atlantis date is sold through a multi-night pass."
+        },
+        {
+          "url": "https://www.930.com/e/pigeons-playing-ping-pong-3-night-pass/",
+          "publisher": "9:30 Club / I.M.P.",
+          "checked_on": "2026-09-10",
+          "note": "Primary promoter page verifies the three-night sequence: December 3 at The Atlantis and December 4-5 at 9:30 Club."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/150064FEAE928562",
+          "publisher": "Ticketmaster / authorized I.M.P. ticketing",
+          "checked_on": "2026-09-10",
+          "note": "Authorized ticket page verifies the three-night pass covering December 3-5, 2026."
+        },
+        {
+          "url": "https://www.pigeonsplayingpingpong.com/about",
+          "publisher": "Pigeons Playing Ping Pong",
+          "checked_on": "2026-09-10",
+          "note": "Official artist page verifies the current named personnel and the band's Baltimore identity and current Feed The Fire context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/hit-the-ground-runnin/1822311120",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album page verifies Pigeons Playing Ping Pong's Feed The Fire, released October 3, 2025."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-promoter-authorized-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-10",
+        "note": "Core facts are verified from The Atlantis, 9:30 Club/I.M.P., authorized Ticketmaster, the band's official site and Apple Music. Repository searches for the artist and stable event ID found no prior canonical, curated or processed RADAR representation before publication. Priority was assigned only after Stage 1 admission. A+ reflects the unusually local three-night context and the smaller-room Atlantis opening night; repeated opportunities across the run make a scarcity tier unnecessary."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the interesting night of the run because the geography tells part of the story. A Baltimore-born psychedelic-funk band starts three consecutive Washington shows in the much smaller Atlantis room before moving next door to 9:30 Club for two nights. The appeal is the compression: guitar-led jam language, deep-pocket funk and a hometown-region crowd packed into the first room before the run expands. Feed The Fire also keeps the Baltimore connection literal—the record was made there—so this feels less like a random tour stop than a local return with a three-night arc.",
+          "trip_verdict": "If the idea of the full run appeals, make room for the Atlantis opener and let the smaller room be the reason to commit. It is local, but the ticketing is tied to a multi-night package, so choose it only if at least one of the 9:30 Club nights is also attractive.",
+          "listen_before": "Pigeons Playing Ping Pong — Feed The Fire"
+        },
+        "es": {
+          "why_it_matters": "Ésta es la noche más interesante de la corrida porque la geografía cuenta parte de la historia. Una banda de funk psicodélico nacida en Baltimore arranca tres conciertos consecutivos en Washington dentro del cuarto mucho más chico de The Atlantis antes de cruzarse al 9:30 Club por dos noches. El atractivo está en esa compresión: guitarras de jam, funk de bolsillo profundo y público de la región metidos en la primera sala antes de que la corrida se expanda. Feed The Fire también mantiene literal el vínculo con Baltimore —el disco se grabó ahí—, así que esto se siente más como regreso local con arco de tres noches que como una parada cualquiera de gira.",
+          "trip_verdict": "Si late la idea de la corrida completa, le haría espacio a la apertura en The Atlantis y dejaría que el cuarto pequeño sea la razón para comprometerse. Es local, pero la entrada está ligada a un paquete de varias noches, así que la escogería sólo si también atrae al menos una de las fechas del 9:30 Club.",
+          "listen_before": "Pigeons Playing Ping Pong — Feed The Fire"
+        }
+      }
+    },
+    {
+      "id": "pigeons-playing-ping-pong-930-club-washington-dc-2026-12-04",
+      "artist": "Pigeons Playing Ping Pong",
+      "subtitle": "Washington three-night run — night two with Fireside Collective",
+      "dates": {
+        "start": "2026-12-04",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "815 V St NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Psychedelic funk / jam / DMV home-region run",
+      "genres": [
+        "Psychedelic funk",
+        "Jam band",
+        "Funk",
+        "Newgrass"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Pigeons Playing Ping Pong — headliner",
+        "Fireside Collective — support"
+      ],
+      "factual_description": "9:30 Club lists Pigeons Playing Ping Pong with Fireside Collective on Friday, December 4, 2026, with doors at 7:00 PM. The date is night two of a three-night Washington run that begins at The Atlantis on December 3 and continues at 9:30 Club on December 5. The exact 9:30 Club page describes Pigeons as a Baltimore psychedelic-funk project and Fireside Collective as an eclectic newgrass/jam band whose live language now incorporates improvisation, funk, rock, techno and world-music elements. Ticketmaster independently verifies the December 4 event at 9:30 Club. No performance start time or stable face-value range is exposed on the accessible primary surfaces, so neither is inferred.",
+      "links": {
+        "official_event": "https://www.930.com/e/pigeons-playing-ping-pong/",
+        "official_tickets": "https://www.ticketmaster.com/pigeons-playing-ping-pong-washington-district-of-columbia-12-04-2026/event/150064FEAA5D7E00"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/pigeons-playing-ping-pong-washington-district-of-columbia-12-04-2026/event/150064FEAA5D7E00",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Pigeons Playing Ping Pong",
+          "title": "Feed The Fire",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/hit-the-ground-runnin/1822311120"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "9:30 Club verifies the date, doors, venue, headliner and Fireside Collective support; Ticketmaster verifies the authorized event-specific purchase destination; Apple Music verifies the listening link. No showtime or ticket price is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.930.com/e/pigeons-playing-ping-pong/",
+          "publisher": "9:30 Club / I.M.P.",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue page verifies Friday, December 4, 2026, doors at 7:00 PM, Pigeons Playing Ping Pong and Fireside Collective at 9:30 Club."
+        },
+        {
+          "url": "https://www.ticketmaster.com/pigeons-playing-ping-pong-washington-district-of-columbia-12-04-2026/event/150064FEAA5D7E00",
+          "publisher": "Ticketmaster / authorized I.M.P. ticketing",
+          "checked_on": "2026-09-10",
+          "note": "Authorized event page independently verifies Pigeons Playing Ping Pong at 9:30 Club on December 4, 2026."
+        },
+        {
+          "url": "https://www.pigeonsplayingpingpong.com/about",
+          "publisher": "Pigeons Playing Ping Pong",
+          "checked_on": "2026-09-10",
+          "note": "Official artist page verifies the Baltimore identity and current psychedelic-funk / Feed The Fire context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/hit-the-ground-runnin/1822311120",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album page for Feed The Fire."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-10",
+        "note": "Repository searches for the artist and stable event ID returned no prior representation. Stage 1 admits the performance as the middle chapter of a Baltimore-rooted three-night DC run with a support bill that widens the improvisational groove thread. Stage 2 assigns A: it is a worthy local option, but the consecutive December 3 and 5 opportunities mean convenience can decide without implying scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Night two changes the texture rather than simply repeating the first show. Pigeons bring their Baltimore psychedelic-funk/jam language into the 9:30 Club, while Fireside Collective pulls the bill toward newgrass, improvisation and roots music without giving up the groove. As the middle chapter of the three-night Washington run, it is a useful cross-genre option for hearing how jam-band vocabulary stretches between funk and acoustic-derived forms.",
+          "trip_verdict": "Attend if Friday is the convenient night, especially if the newgrass-to-funk bridge is the part of the run that sounds most interesting. There is no need to bend the weekend around it because the same headliner plays Washington the night before and again on Saturday.",
+          "listen_before": "Pigeons Playing Ping Pong — Feed The Fire"
+        },
+        "es": {
+          "why_it_matters": "La segunda noche cambia la textura en vez de repetir simplemente el primer concierto. Pigeons mete su lenguaje de funk psicodélico y jam de raíz baltimoriana al 9:30 Club, mientras Fireside Collective jala el cartel hacia newgrass, improvisación y música de raíces sin soltar el groove. Como capítulo intermedio de la corrida de tres noches en Washington, es una buena opción de cruce para escuchar cómo el vocabulario jam se estira entre funk y formas de origen acústico.",
+          "trip_verdict": "Iría si el viernes es la noche que mejor acomoda, sobre todo si el puente entre newgrass y funk es la parte de la corrida que más atrae. No hace falta doblar el fin de semana alrededor de ésta porque el mismo headliner toca en Washington la noche anterior y otra vez el sábado.",
+          "listen_before": "Pigeons Playing Ping Pong — Feed The Fire"
+        }
+      }
+    },
+    {
+      "id": "pigeons-playing-ping-pong-930-club-washington-dc-2026-12-05",
+      "artist": "Pigeons Playing Ping Pong",
+      "subtitle": "Washington three-night run — finale with Dizgo",
+      "dates": {
+        "start": "2026-12-05",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "815 V St NW, Washington, DC 20001"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Psychedelic funk / jam / DMV home-region run",
+      "genres": [
+        "Psychedelic funk",
+        "Jam band",
+        "Jamtronica",
+        "Funk",
+        "Rock"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Pigeons Playing Ping Pong — headliner",
+        "Dizgo — support"
+      ],
+      "factual_description": "9:30 Club lists Pigeons Playing Ping Pong with Dizgo on Saturday, December 5, 2026, with doors at 7:00 PM. This is the third and final night of the Washington run after December 3 at The Atlantis and December 4 at 9:30 Club. The venue describes Dizgo as combining jamtronica, funk, soul, psychedelic rock, analog synths, guitar and extended improvisation, making the support pairing the most electronic/psychedelic variant of the three nights. Ticketmaster independently verifies the December 5 event at 9:30 Club. No performance start time or stable face-value range is exposed on the accessible primary surfaces, so neither is inferred.",
+      "links": {
+        "official_event": "https://www.930.com/e/pigeons-playing-ping-pong-2/",
+        "official_tickets": "https://www.ticketmaster.com/pigeons-playing-ping-pong-washington-district-of-columbia-12-05-2026/event/150064FEAA607E04"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/pigeons-playing-ping-pong-washington-district-of-columbia-12-05-2026/event/150064FEAA607E04",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Pigeons Playing Ping Pong",
+          "title": "Feed The Fire",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/hit-the-ground-runnin/1822311120"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "9:30 Club verifies the date, doors, venue, headliner and Dizgo support; Ticketmaster verifies the authorized event-specific purchase destination; Apple Music verifies the listening link. No showtime or ticket price is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.930.com/e/pigeons-playing-ping-pong-2/",
+          "publisher": "9:30 Club / I.M.P.",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue page verifies Saturday, December 5, 2026, doors at 7:00 PM, Pigeons Playing Ping Pong and Dizgo at 9:30 Club."
+        },
+        {
+          "url": "https://www.ticketmaster.com/pigeons-playing-ping-pong-washington-district-of-columbia-12-05-2026/event/150064FEAA607E04",
+          "publisher": "Ticketmaster / authorized I.M.P. ticketing",
+          "checked_on": "2026-09-10",
+          "note": "Authorized event page independently verifies Pigeons Playing Ping Pong at 9:30 Club on December 5, 2026."
+        },
+        {
+          "url": "https://www.pigeonsplayingpingpong.com/about",
+          "publisher": "Pigeons Playing Ping Pong",
+          "checked_on": "2026-09-10",
+          "note": "Official artist page verifies the Baltimore identity and current psychedelic-funk / Feed The Fire context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/hit-the-ground-runnin/1822311120",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album page for Feed The Fire."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-10",
+        "note": "Repository searches for the artist and stable event ID returned no prior representation. Stage 1 admits the finale because the three-night local arc and the Dizgo pairing create a specific groove/improvisation context rather than a generic tour date. Stage 2 assigns A: the finale is worth knowing and attending if it suits the weekend, but repeated Washington opportunities make a higher urgency unnecessary."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The finale is the most overtly psychedelic/electronic version of the run. Pigeons' guitar-driven funk sits beside Dizgo's jamtronica, analog synths and extended improvisation, giving the third night a distinct rhythmic and textural identity rather than turning the weekend into three interchangeable sets on paper. The hometown-region connection remains the spine, but the support pairing is what makes Saturday its own RADAR entry.",
+          "trip_verdict": "Attend if Saturday is easiest or if the jamtronica/funk edge is the preferred version of the weekend. As the third local opportunity in three days, it should fit the schedule rather than control it.",
+          "listen_before": "Pigeons Playing Ping Pong — Feed The Fire"
+        },
+        "es": {
+          "why_it_matters": "El cierre es la versión más abiertamente psicodélica y electrónica de la corrida. El funk de guitarras de Pigeons queda junto al jamtronica, los sintetizadores analógicos y la improvisación extendida de Dizgo, de modo que la tercera noche sí tiene una identidad rítmica y tímbrica propia en vez de convertir el fin de semana en tres sets intercambiables sobre el papel. El vínculo con la región sigue siendo la columna vertebral, pero el acompañante es lo que vuelve al sábado una entrada propia del RADAR.",
+          "trip_verdict": "Iría si el sábado es lo más fácil o si el filo jamtronica/funk es la versión preferida del fin de semana. Al ser la tercera oportunidad local en tres días, debe acomodarse al calendario y no gobernarlo.",
+          "listen_before": "Pigeons Playing Ping Pong — Feed The Fire"
+        }
+      }
+    }
+  ]
+}
