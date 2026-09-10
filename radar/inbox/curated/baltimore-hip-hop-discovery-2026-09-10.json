@@ -1,0 +1,260 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "baltimore-hip-hop-discovery-2026-09-10",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, scripts/merge_inbox.py, and scripts/validate_events.py were read before final publication. Fresh Tsuyoshi Yamamoto research checked Jazz House ALFIE, BODY&SOUL, Yamamoto's current schedule surfaces, Space M&A, KEYSTONE CLUB TOKYO and credible Japanese-jazz sources; the future Yamamoto appearances surfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto event was created. Repository searches for both proposed stable IDs returned no existing representation before publication. Stage 1 admits Deltron 3030 because Baltimore receives one of six separately announced headline shows inserted into a much larger run otherwise supporting Gorillaz, putting the original Del/Dan/Kid Koala concept-rap, production and turntablism architecture in a standalone club setting. Stage 2 assigns A+: actively make room for the Baltimore headliner, while six headline dates and the surrounding arena-support run mean there is no singular scarcity case. Stage 1 admits Jeru the Damaja because the exact event is explicitly framed as the 30th anniversary of Wrath of the Math, giving the performance a defined repertoire/historical reason beyond artist reputation. Stage 2 assigns A: the anniversary context is useful and specific, but the same anniversary presentation is also booked in Brooklyn two days earlier and primary sources do not promise an album-in-full performance, premiere, farewell or one-off configuration. Recent September 10 curated intake is A+-heavy, so both grades were explicitly challenged against the current rubric without using distribution as a quota; Deltron still warrants make-room behavior, while Jeru is better captured by attend-if-convenient behavior. Neither event enters the S/S+ scarcity gate. No automated self-check is represented as independent Codex or human review. Stable face-value prices are not recorded because accessible primary/authorized ticket surfaces do not expose them reliably.",
+  "events": [
+    {
+      "id": "deltron-3030-baltimore-soundstage-2026-09-25",
+      "artist": "Deltron 3030",
+      "subtitle": "Standalone headline show during the 2026 Gorillaz support run",
+      "dates": {
+        "start": "2026-09-25",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "baltimore-soundstage",
+        "name": "Baltimore Soundstage",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US",
+        "address": "124 Market Place, Baltimore, MD 21202"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Conceptual hip-hop / production / turntablism",
+      "genres": [
+        "Alternative hip-hop",
+        "Conceptual hip-hop"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "Del the Funky Homosapien",
+        "Dan the Automator",
+        "Kid Koala"
+      ],
+      "factual_description": "Baltimore Soundstage lists Deltron 3030 on Friday, September 25, 2026, with doors at 7:00 PM and show at 8:00 PM at 124 Market Place in Baltimore. The venue identifies the project as Del the Funky Homosapien, producer Dan the Automator and turntablist Kid Koala, and its exact event page links directly to the authorized Ticketmaster event destination, which independently confirms September 25 at 8:00 PM. Contemporary tour coverage documents Baltimore as one of six Deltron 3030 headline dates added between dates on Gorillaz's 2026 North American Mountain Tour, where Deltron 3030 is otherwise appearing as support alongside Little Simz. Apple Music verifies the exact self-titled Deltron 3030 album destination and describes the collaboration around Del, Dan and Kid Koala's conceptual writing, production and turntable work.",
+      "links": {
+        "official_event": "https://www.baltimoresoundstage.com/events/deltron-3030/",
+        "official_tickets": "https://www.ticketmaster.com/deltron-3030-baltimore-maryland-09-25-2026/event/150064C200B9D0D6"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/deltron-3030-baltimore-maryland-09-25-2026/event/150064C200B9D0D6",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Deltron 3030",
+          "title": "Deltron 3030",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/deltron-3030/288544306"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Baltimore Soundstage and authorized Ticketmaster event destinations are verified, as are the venue address, doors, showtime, original-trio project identity, and exact Apple Music album destination. Stable face-value pricing is not exposed on the accessible primary/authorized ticket surfaces, so official price fields remain null without affecting the enrichment contract."
+      },
+      "sources": [
+        {
+          "url": "https://www.baltimoresoundstage.com/events/deltron-3030/",
+          "publisher": "Baltimore Soundstage",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue page verifies Friday, September 25, 2026; doors at 7:00 PM; show at 8:00 PM; venue address; direct authorized Ticketmaster link; and project membership of Del the Funky Homosapien, Dan the Automator and Kid Koala."
+        },
+        {
+          "url": "https://www.ticketmaster.com/deltron-3030-baltimore-maryland-09-25-2026/event/150064C200B9D0D6",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-10",
+          "note": "Authorized ticket destination reached directly from Baltimore Soundstage verifies Deltron 3030 at Baltimore Soundstage on September 25, 2026 at 8:00 PM."
+        },
+        {
+          "url": "https://parade.com/news/deltron-3030-supergroup-announces-dates-for-2026-tour-with-special-guests",
+          "publisher": "Parade",
+          "checked_on": "2026-09-10",
+          "note": "Contemporary report quoting the project's announcement documents six added Deltron 3030 headline dates, including Baltimore on September 25, inserted between dates supporting Gorillaz."
+        },
+        {
+          "url": "https://pitchfork.com/news/gorillaz-announce-2026-north-american-tour/",
+          "publisher": "Pitchfork",
+          "checked_on": "2026-09-10",
+          "note": "Contemporary tour report confirms that most dates on Gorillaz's 2026 North American tour feature Little Simz and Deltron 3030 as support, providing the surrounding live-context contrast for the Baltimore headliner."
+        },
+        {
+          "url": "https://music.apple.com/us/album/deltron-3030/288544306",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album destination verifies the self-titled Deltron 3030 release and identifies the Del/Dan/Kid Koala collaboration and its production/turntablism identity."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticketing-streaming-and-contemporary-tour-context-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "New-event discovery. Core event facts come from Baltimore Soundstage and its direct authorized Ticketmaster destination; Apple Music verifies the listening destination and project identity, while current tour reporting establishes the unusual standalone-headliner context. Repository searches found no existing stable-ID representation before publication. Stage 1 rests on the original trio's standalone club presentation inside a broader arena-support run. Stage 2 assigns A+ because that context merits actively making room, while the six-date headline series means there is no S/S+ scarcity case."
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The standalone room is the point. Del, Dan the Automator and Kid Koala spend most of this fall run supporting Gorillaz in arenas, but Baltimore gets one of the separately announced headline dates, putting the project's full concept-rap, production and turntable architecture in the foreground. That makes Soundstage a much more revealing way to hear this trio than a shortened support slot.",
+          "trip_verdict": "From the DMV, this is worth a dedicated Baltimore night if the original trio's production-and-turntablism thread is the draw. The club-headliner format is the reason to choose Soundstage rather than simply catching Deltron 3030 in arena support the following night in Washington.",
+          "listen_before": "Deltron 3030 — Deltron 3030"
+        },
+        "es": {
+          "why_it_matters": "El cuarto como headliner es la clave. Del, Dan the Automator y Kid Koala pasan buena parte de esta gira de otoño abriendo para Gorillaz en arenas, pero Baltimore recibe una de las fechas propias anunciadas aparte, con toda la arquitectura de rap conceptual, producción y tornamesas del proyecto al frente. Soundstage ofrece una forma mucho más reveladora de escuchar al trío que un set recortado de soporte.",
+          "trip_verdict": "Desde el DMV, sí da para una salida dedicada a Baltimore si el hilo que importa es el trío original y su trabajo de producción y turntablism. El formato de club como headliner es la razón para escoger Soundstage en vez de limitarse a ver a Deltron 3030 como soporte en Washington la noche siguiente.",
+          "listen_before": "Deltron 3030 — Deltron 3030"
+        }
+      }
+    },
+    {
+      "id": "jeru-the-damaja-wrath-of-the-math-30th-anniversary-baltimore-soundstage-2026-10-04",
+      "artist": "Jeru the Damaja",
+      "subtitle": "Wrath of the Math 30th Anniversary with Jay Royale, Eze Jackson and DJ Excel",
+      "dates": {
+        "start": "2026-10-04",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "baltimore-soundstage",
+        "name": "Baltimore Soundstage",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US",
+        "address": "124 Market Place, Baltimore, MD 21202"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Golden-era hip-hop / 30th-anniversary repertoire context",
+      "genres": [
+        "Hip-Hop/Rap",
+        "East Coast hip-hop"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "Jeru the Damaja",
+        "Jay Royale",
+        "Eze Jackson",
+        "DJ Excel"
+      ],
+      "factual_description": "Baltimore Soundstage lists Jeru The Damaja — Wrath Of The Math 30th Anniversary on Sunday, October 4, 2026, with Jay Royale, Eze Jackson and DJ Excel, doors at 7:00 PM and show at 8:00 PM at 124 Market Place in Baltimore. The primary venue page links directly to Ticketmaster. Live Nation independently verifies Jeru the Damaja and Jay Royale at Baltimore Soundstage on October 4 at 8:00 PM under the same 30th-anniversary title. Brooklyn Bowl lists Jeru The Damaja — 30th Anniversary of Wrath of the Math on October 2, 2026, establishing that the anniversary presentation is not unique to Baltimore. No checked primary source promises a full-album performance. Apple Music verifies Wrath of the Math as Jeru the Damaja's 1996 album.",
+      "links": {
+        "official_event": "https://www.baltimoresoundstage.com/events/jeru-the-damaja-wrath-of-the-math-30th-anniversary/",
+        "official_tickets": "https://www.ticketmaster.com/jeru-the-damaja-wrath-of-the-baltimore-maryland-10-04-2026/event/1500650DF9727919"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/jeru-the-damaja-wrath-of-the-baltimore-maryland-10-04-2026/event/1500650DF9727919",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Jeru the Damaja",
+          "title": "Wrath of the Math",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/wrath-of-the-math/1443468931"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Baltimore Soundstage, authorized Ticketmaster, Live Nation, Brooklyn Bowl and Apple Music destinations are verified. Venue address, doors, showtime and the full Baltimore billing are verified on the primary venue page. Stable face-value pricing is not exposed on the accessible primary/authorized ticket surfaces, so official price fields remain null without affecting the enrichment contract."
+      },
+      "sources": [
+        {
+          "url": "https://www.baltimoresoundstage.com/events/jeru-the-damaja-wrath-of-the-math-30th-anniversary/",
+          "publisher": "Baltimore Soundstage",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue page verifies Sunday, October 4, 2026; the Wrath Of The Math 30th Anniversary framing; Jay Royale, Eze Jackson and DJ Excel; doors at 7:00 PM; show at 8:00 PM; address; and direct Ticketmaster purchase link."
+        },
+        {
+          "url": "https://www.ticketmaster.com/jeru-the-damaja-wrath-of-the-baltimore-maryland-10-04-2026/event/1500650DF9727919",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-10",
+          "note": "Exact authorized ticket destination reached from Baltimore Soundstage. Its accessible endpoint is access-restricted in the research client, so no price is inferred from it."
+        },
+        {
+          "url": "https://www.livenation.com/event/1AvfZ_8GkMyjE0_/jeru-the-damaja-wrath-of-the-math-30th-anniversary",
+          "publisher": "Live Nation",
+          "checked_on": "2026-09-10",
+          "note": "Authorized event page independently verifies the anniversary title, Baltimore Soundstage, October 4, 2026 at 8:00 PM, and lists Jeru the Damaja and Jay Royale."
+        },
+        {
+          "url": "https://www.brooklynbowl.com/brooklyn/events/detail/jeru-the-damaja-30th-anniversary-of-wrath-of-the-math-k7vgf_on_uqgf",
+          "publisher": "Brooklyn Bowl",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue page verifies another Wrath of the Math 30th Anniversary presentation in Brooklyn on October 2, 2026, supporting the judgment that Baltimore is not a one-off anniversary event."
+        },
+        {
+          "url": "https://music.apple.com/us/album/wrath-of-the-math/1443468931",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album destination verifies Wrath of the Math as a 1996 Jeru the Damaja album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticketing-streaming-and-anniversary-context-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "New-event discovery. Core event facts and complete Baltimore billing come from Baltimore Soundstage, with Live Nation and the direct Ticketmaster destination providing authorized confirmation. Brooklyn Bowl verifies that the same 30th-anniversary concept appears two days earlier in New York, while Apple Music verifies the 1996 album. Repository searches found no existing stable-ID representation before publication. Stage 1 rests on the explicit album-anniversary framing rather than fame. Stage 2 assigns A: worth having on RADAR and attending if convenient, but no full-album promise, one-off configuration, premiere, farewell or other fact creates stronger urgency."
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The anniversary framing gives this date a real reason to exist on RADAR: Wrath of the Math turns thirty, and Soundstage is explicitly presenting Jeru around that record rather than as a generic legacy booking. The historical thread is strong enough to notice, while the sources stop short of promising a full-album performance or a unique one-night configuration.",
+          "trip_verdict": "If Baltimore is convenient, this is worth catching for the anniversary context and the local supporting bill. From farther down the DMV, I would not reorganize a weekend around it alone because the same anniversary presentation is also traveling.",
+          "listen_before": "Jeru the Damaja — Wrath of the Math"
+        },
+        "es": {
+          "why_it_matters": "El marco de aniversario le da a esta fecha una razón concreta para entrar al RADAR: Wrath of the Math cumple treinta años y Soundstage presenta a Jeru explícitamente alrededor de ese disco, no como una contratación genérica de catálogo. El hilo histórico alcanza para poner atención, aunque las fuentes no prometen tocar el álbum completo ni una configuración única de una sola noche.",
+          "trip_verdict": "Si Baltimore queda cómodo, vale la pena aprovecharla por el contexto del aniversario y el cartel de apoyo local. Desde más abajo del DMV, no reorganizaría un fin de semana sólo por esta fecha porque la misma presentación de aniversario también está viajando.",
+          "listen_before": "Jeru the Damaja — Wrath of the Math"
+        }
+      }
+    }
+  ]
+}
