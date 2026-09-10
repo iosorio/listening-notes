@@ -1,0 +1,251 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "beirut-north-american-return-brooklyn-dc-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md and radar/inbox/README.md were read before research or grading, and docs/DATA_MODEL.md was checked before publication. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources; surfaced future Yamamoto dates were already represented in canonical/curated/processed repository intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found Beirut's newly announced 2027 North American return. Stage 1 admits the Brooklyn engagement and Washington date for a concrete live-history reason: Pitchfork documents this as Beirut's first North American tour in eight years and only six concerts total, while primary promoter pages verify the exact corridor dates. The current cycle also carries A Study of Losses, an 18-track project originally commissioned by Swedish troupe Kompani Giraff and built around choral, ambient and early-music colors, giving the return a specific cross-disciplinary repertoire context rather than fame alone. Stage 2 assigns A+ to both corridor stops. The September 10 intake is A+-heavy, so both grades were challenged: the eight-year North American absence and unusually short six-show return still justify actively making room. Neither clears S scarcity because this is a multi-city tour, Brooklyn has two consecutive performances, Washington follows three days later, and no farewell, one-off lineup or singular final opportunity is announced. Batch distribution: A 0, A+ 2, S 0, S+ 0; no priority_review is required.",
+  "events": [
+    {
+      "id": "beirut-brooklyn-steel-brooklyn-2027-04-02",
+      "artist": "Beirut",
+      "subtitle": "Spring Tour 2027 — two-night Brooklyn engagement",
+      "dates": {
+        "start": "2027-04-02",
+        "end": "2027-04-03"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "brooklyn-steel-brooklyn-ny",
+        "name": "Brooklyn Steel",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Eight-year North American return / orchestral indie-folk",
+      "genres": [
+        "Indie-folk",
+        "Orchestral pop",
+        "Alternative"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "Beirut"
+      ],
+      "factual_description": "The Bowery Presents and AXS list Beirut at Brooklyn Steel on Friday, April 2 and Saturday, April 3, 2027. Both nights have 7:00 PM doors and an 8:00 PM show and are 16+. AXS identifies the April 2 date as Spring Tour 2027, and The Bowery Presents lists both dates as going on general sale September 11, 2026. Pitchfork reports that these are the opening two performances of Beirut's first North American tour in eight years, a six-concert run covering Brooklyn, Boston, Washington, Chicago and Toronto. The current album A Study of Losses was released April 18, 2025; Apple Music and I.M.P. describe it as an 18-track work originally commissioned by Swedish troupe Kompani Giraff, with choral, ambient and early-music colors.",
+      "links": {
+        "official_event": "https://origin.bowerypresents.com/new-york-metro/shows/detail/1598820-beirut",
+        "official_tickets": "https://www.axs.com/events/1598820/beirut-tickets"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.axs.com/events/1598820/beirut-tickets",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Beirut",
+          "title": "A Study of Losses",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/a-study-of-losses/1781068670"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Primary promoter pages verify both Brooklyn dates and showtimes. AXS verifies exact authorized ticket destinations; the event-level official_tickets field points to the April 2 AXS page, while the April 3 AXS destination is preserved in sources. Apple Music provides an exact current-album destination. No ticket price or individual touring personnel are inferred before sale and fuller lineup disclosure."
+      },
+      "sources": [
+        {
+          "url": "https://origin.bowerypresents.com/new-york-metro/shows/detail/1598820-beirut",
+          "publisher": "The Bowery Presents",
+          "checked_on": "2026-09-10",
+          "note": "Primary promoter page verifies Beirut at Brooklyn Steel on Friday April 2, 2027, doors 7:00 PM / show 8:00 PM, 16+, with general sale September 11."
+        },
+        {
+          "url": "https://origin.bowerypresents.com/new-york-metro/shows/detail/1600686-beirut",
+          "publisher": "The Bowery Presents",
+          "checked_on": "2026-09-10",
+          "note": "Primary promoter page verifies the second Beirut night at Brooklyn Steel on Saturday April 3, 2027, doors 7:00 PM / show 8:00 PM, 16+, with general sale September 11."
+        },
+        {
+          "url": "https://www.axs.com/events/1598820/beirut-tickets",
+          "publisher": "AXS / Brooklyn Steel",
+          "checked_on": "2026-09-10",
+          "note": "Exact authorized ticket destination for April 2 verifies Beirut Spring Tour 2027 at Brooklyn Steel, 8:00 PM with doors at 7:00 PM. No face-value price was exposed before sale, so none is recorded."
+        },
+        {
+          "url": "https://www.axs.com/se/events/1600686/beirut-tickets",
+          "publisher": "AXS / Brooklyn Steel",
+          "checked_on": "2026-09-10",
+          "note": "Exact authorized AXS event page surfaced for the April 3 Brooklyn Steel performance and verifies 8:00 PM with doors at 7:00 PM."
+        },
+        {
+          "url": "https://pitchfork.com/story/beirut-plots-first-north-american-tour-in-eight-years/",
+          "publisher": "Pitchfork",
+          "checked_on": "2026-09-10",
+          "note": "Authoritative contemporary announcement dated September 9, 2026 documents Beirut's first North American tour in eight years, only six concerts total, and the complete April 2027 itinerary including two Brooklyn nights."
+        },
+        {
+          "url": "https://music.apple.com/us/album/a-study-of-losses/1781068670",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album destination verifies A Study of Losses by Beirut, released April 18, 2025, 18 tracks."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-promoter-authorized-ticket-contemporary-news-and-streaming-sources",
+        "note": "Dates, venue and showtimes are verified by The Bowery Presents and AXS; the eight-year North American return and six-show scope are documented by Pitchfork; the listening destination is exact Apple Music. Repository searches for Beirut, the Brooklyn Steel engagement and the proposed stable ID found no existing RADAR record."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Beirut has not toured North America since 2019, and the return is deliberately small: six concerts, beginning with these two Brooklyn nights. That gap matters because the live vocabulary has changed underneath it—A Study of Losses grew from a Swedish performance commission and folds choral, ambient and early-music textures into Zach Condon's brass-and-chamber instinct. This is a return with an actual musical chapter attached to it, not a nostalgia booking.",
+          "trip_verdict": "If New York is in play in early April, choose either Brooklyn night and build the evening around Brooklyn Steel. From the DMV, I would not make a separate New York trip solely for it because the same short return reaches 9:30 Club three days later.",
+          "listen_before": "Beirut — A Study of Losses"
+        },
+        "es": {
+          "why_it_matters": "Beirut no gira por Norteamérica desde 2019 y el regreso es deliberadamente pequeño: seis conciertos, empezando con estas dos noches en Brooklyn. El hueco importa porque el lenguaje en vivo cambió mientras tanto: A Study of Losses nació de un encargo escénico sueco y mete texturas corales, ambientales y de música antigua en el instinto de metales y cámara de Zach Condon. Es un regreso con un capítulo musical propio, no una fecha de nostalgia.",
+          "trip_verdict": "Si Nueva York entra en juego a principios de abril, escogería cualquiera de las dos noches y armaría la velada alrededor de Brooklyn Steel. Desde el DMV no haría un viaje separado sólo por ésta, porque el mismo regreso corto llega al 9:30 Club tres días después.",
+          "listen_before": "Beirut — A Study of Losses"
+        }
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "beirut-930-club-washington-dc-2027-04-06",
+      "artist": "Beirut",
+      "subtitle": "Spring Tour 2027 — first North American tour in eight years",
+      "dates": {
+        "start": "2027-04-06",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "930-club-washington-dc",
+        "name": "9:30 Club",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Eight-year North American return / orchestral indie-folk",
+      "genres": [
+        "Indie-folk",
+        "Orchestral pop",
+        "Alternative"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "Beirut"
+      ],
+      "factual_description": "I.M.P. presents Beirut at 9:30 Club in Washington, DC on Tuesday, April 6, 2027 and explicitly lists doors at 7:00 PM. Ticketmaster independently verifies Beirut at 9:30 Club on the same date and lists the ticketed event time as 7:00 PM, but because I.M.P. identifies that clock time specifically as doors, this record leaves showtimes empty rather than treating doors as a verified music-start time. Ticketmaster lists the artist presale for September 10, 2026 at 10:00 AM EDT and general sale for September 11 at 10:00 AM EDT; no stable face-value price is exposed before sale. Pitchfork documents the date as part of Beirut's first North American tour in eight years, with only six concerts total. I.M.P. describes A Study of Losses as an 18-track 2025 album commissioned by Swedish troupe Kompani Giraff and inspired by Judith Schalansky's An Inventory of Losses, expanding the project into choral, ambient and early-music tones.",
+      "links": {
+        "official_event": "https://impconcerts.com/event/beirut/",
+        "official_tickets": "https://www.ticketmaster.com/beirut-washington-district-of-columbia-04-06-2027/event/15006523D588CFC9"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/beirut-washington-district-of-columbia-04-06-2027/event/15006523D588CFC9",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Beirut",
+          "title": "A Study of Losses",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/a-study-of-losses/1781068670"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "I.M.P. and Ticketmaster verify the exact event and authorized purchase destination, and Apple Music provides an exact current-album link. I.M.P. verifies 7:00 PM as doors while Ticketmaster labels 7:00 PM as the ticketed event time; no separate music-start time is recorded. Individual touring personnel and face-value price remain unannounced or unavailable and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://impconcerts.com/event/beirut/",
+          "publisher": "I.M.P. / 9:30 Club",
+          "checked_on": "2026-09-10",
+          "note": "Primary promoter page verifies Tuesday April 6, 2027, Beirut at 9:30 Club in Washington, DC, doors at 7:00 PM, on-sale timing, venue address and the current A Study of Losses project description."
+        },
+        {
+          "url": "https://www.ticketmaster.com/beirut-washington-district-of-columbia-04-06-2027/event/15006523D588CFC9",
+          "publisher": "Ticketmaster / I.M.P.",
+          "checked_on": "2026-09-10",
+          "note": "Exact authorized ticket destination verifies Beirut, April 6, 2027 at 9:30 Club, general admission, and presale/general-sale timing. It labels the ticketed event time 7:00 PM; the primary I.M.P. page calls 7:00 PM doors, so this record does not infer a music-start time."
+        },
+        {
+          "url": "https://pitchfork.com/story/beirut-plots-first-north-american-tour-in-eight-years/",
+          "publisher": "Pitchfork",
+          "checked_on": "2026-09-10",
+          "note": "Authoritative contemporary announcement dated September 9, 2026 documents Beirut's first North American tour in eight years, only six concerts total, and the April 6 Washington stop."
+        },
+        {
+          "url": "https://music.apple.com/us/album/a-study-of-losses/1781068670",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album destination verifies A Study of Losses by Beirut, released April 18, 2025, 18 tracks."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-promoter-authorized-ticket-contemporary-news-and-streaming-sources",
+        "note": "Core Washington event facts come from I.M.P. and Ticketmaster; the eight-year North American return and six-show scope are documented by Pitchfork; listening destination is exact Apple Music. Repository searches for Beirut and the proposed stable Washington ID found no existing RADAR record."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The local significance is unusually clean: Beirut returns to North American stages after eight years, and Washington is one of only five cities on a six-show run. The new chapter is not just time away—A Study of Losses came from a Swedish stage commission and pushes the project toward choral, ambient and early-music textures while keeping Zach Condon's brass-and-chamber identity intact.",
+          "trip_verdict": "Make room for the local 9:30 Club night rather than chasing the Brooklyn dates. The short tour is scarce enough to matter, but Washington already gets its own stop, so this is the corridor date to build around from the DMV.",
+          "listen_before": "Beirut — A Study of Losses"
+        },
+        "es": {
+          "why_it_matters": "La importancia local está clarísima: Beirut vuelve a los escenarios norteamericanos después de ocho años y Washington es una de sólo cinco ciudades dentro de una gira de seis conciertos. El capítulo nuevo no es únicamente el tiempo fuera: A Study of Losses nació de un encargo escénico sueco y lleva al proyecto hacia texturas corales, ambientales y de música antigua sin perder la identidad de metales y cámara de Zach Condon.",
+          "trip_verdict": "Le haría espacio a la noche local del 9:30 Club en vez de perseguir las fechas de Brooklyn. La gira es lo bastante corta para importar, pero Washington ya tiene su propia parada; desde el DMV ésta es la fecha alrededor de la cual armaría el plan.",
+          "listen_before": "Beirut — A Study of Losses"
+        }
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    }
+  ]
+}
