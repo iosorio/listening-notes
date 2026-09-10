@@ -1,0 +1,154 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "phaze-ii-crusaders-keystone-korner-baltimore-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources; no new unrepresented verified Yamamoto appearance was found in this pass. Repository-wide searches for Phaze II and the proposed stable event ID returned no canonical/curated/processed representation before publication. Stage 1 admits this event because it is a repertoire-specific DMV-to-Baltimore groove/fusion thread rather than a generic jazz booking: long-running Washington-area band Phaze II presents an expanded eight-person lineup devoted to the music of The Crusaders, explicitly connecting jazz with R&B, soul, funk and electric fusion. Stage 2 assigns A after admission. The performance is useful to know about and worth attending if convenient, but there is no announced surviving Crusaders member, farewell, premiere, anniversary, one-off collaboration, or other event-specific scarcity fact that calls for active-prioritization or protect-the-night language. The current priority rubric and recent/current RADAR shape were sanity-checked; A is appropriate on the event's own merits, not as a quota adjustment. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "phaze-ii-crusaders-keystone-korner-baltimore-2026-10-15",
+      "artist": "Phaze II",
+      "subtitle": "The Music of The Crusaders",
+      "dates": {
+        "start": "2026-10-15",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "keystone-korner-baltimore",
+        "name": "Keystone Korner Baltimore",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US",
+        "address": "1350 Lancaster Street, Baltimore, MD 21231"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "DMV groove / Crusaders repertoire / jazz-funk",
+      "genres": [
+        "Jazz-funk",
+        "Fusion",
+        "Soul jazz",
+        "Smooth jazz"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Karen Linette — vocals",
+        "Adrian \"Egg\" Norton — bass",
+        "Steve Perkins — percussion",
+        "Brent Birckhead — saxophone",
+        "Trendle Thomas — keyboards",
+        "David Suggs Sr. — drums",
+        "Kenny Saunders — guitar",
+        "Curtis Jones — trombone"
+      ],
+      "factual_description": "Keystone Korner Baltimore and its authorized InstantSeats page present Phaze II: The Music of The Crusaders on Thursday, October 15, 2026 at 7:00 PM. The exact event page lists Karen Linette on vocals, Adrian \"Egg\" Norton on bass, Steve Perkins on percussion, Brent Birckhead on saxophone, Trendle Thomas on keyboards, David Suggs Sr. on drums, Kenny Saunders on guitar and Curtis Jones on trombone. InstantSeats lists live tickets at $30-$35 plus fees, while Visit Baltimore independently lists the event from 7:00 to 8:30 PM and describes Phaze II as a Washington, DC-area smooth/funky jazz band active since 1997. The event framing centers The Crusaders' electric jazz/R&B/soul/fusion period and specifically references catalog touchstones including Street Life, Soul Shadows, Keep That Same Old Feeling and Way Back Home; this description records the presenter's framing and does not infer a performed setlist.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=417D717D-0779-FB93-E97DB81A09A5A65C&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?b=1&eventID=417D717D-0779-FB93-E97DB81A09A5A65C&fuseaction=buy.event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 30,
+          "maximum": 35,
+          "source_url": "https://www.instantseats.com/index.cfm?b=1&eventID=417D717D-0779-FB93-E97DB81A09A5A65C&fuseaction=buy.event",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "The Crusaders",
+          "title": "Street Life",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/street-life/1440743777"
+        },
+        {
+          "artist": "Phaze II",
+          "title": "Live N Uncut",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/live-n-uncut/351283889"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact authorized event and purchase destinations are recorded, official live-ticket face values are verified, and exact Apple Music destinations are available for both The Crusaders repertoire thread and Phaze II. The separate $15 streaming pass is verified by InstantSeats but is not mixed into the live face-value ticket fields."
+      },
+      "sources": [
+        {
+          "url": "https://www.keystonekornerbaltimore.com/",
+          "publisher": "Keystone Korner Baltimore",
+          "checked_on": "2026-09-09",
+          "note": "Official venue calendar verifies Phaze II: The Music of The Crusaders on Thursday, October 15 at 7:00 PM and names Karen Linette, Adrian Egg Norton, Steve Perkins, Brent Birckhead, Trendle Thomas, David Suggs Sr., Kenny Saunders and Curtis Jones."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=417D717D-0779-FB93-E97DB81A09A5A65C&fuseaction=home.event",
+          "publisher": "InstantSeats / Keystone Korner Baltimore",
+          "checked_on": "2026-09-09",
+          "note": "Exact authorized event page verifies October 15, 2026 at 7:00 PM, Keystone Korner Baltimore, the eight-person lineup, $30-$35 live-ticket range, venue address, Phaze II's Washington-area identity, and the Crusaders repertoire framing."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?b=1&eventID=417D717D-0779-FB93-E97DB81A09A5A65C&fuseaction=buy.event",
+          "publisher": "InstantSeats / Keystone Korner Baltimore",
+          "checked_on": "2026-09-09",
+          "note": "Exact authorized purchase destination verifies the Phaze II event, date, 7:00 PM showtime, venue and active ticket-buy flow."
+        },
+        {
+          "url": "https://www.phaze2jazz.com/",
+          "publisher": "Phaze II",
+          "checked_on": "2026-09-09",
+          "note": "Official artist site identifies Phaze II as a long-running Washington, DC-area smooth/funky jazz group and documents its history backing visiting national artists."
+        },
+        {
+          "url": "https://baltimore.org/event/phaze-ii-the-music-of-the-crusaders/",
+          "publisher": "Visit Baltimore",
+          "checked_on": "2026-09-09",
+          "note": "Destination organization's event listing independently verifies October 15, 2026, 7:00-8:30 PM, Keystone Korner Baltimore, $30 regular / $35 premium live prices, $15 streaming, venue address, and the Crusaders/Phaze II framing."
+        },
+        {
+          "url": "https://music.apple.com/us/album/street-life/1440743777",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music destination verifies The Crusaders' 1979 album Street Life as repertoire-context listening."
+        },
+        {
+          "url": "https://music.apple.com/us/album/live-n-uncut/351283889",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music destination verifies Phaze II's 2010 album Live N Uncut as artist-context listening."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticketing-artist-streaming-and-destination-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event details and lineup are verified from Keystone Korner Baltimore and its authorized InstantSeats surface, with active purchase destination, live face values and independent Visit Baltimore corroboration. Repository searches found no existing Phaze II representation before publication. Stage 1 rests on the specific Crusaders repertoire project, expanded instrumental palette and DMV groove lineage; Stage 2 assigns A. No scarcity-tier priority_review is included because this performance does not claim S or S+."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more specific than a smooth-jazz club date: a long-running Washington-area groove band is taking an expanded eight-person lineup into The Crusaders' electric language, where jazz met R&B, soul and funk without giving up instrumental interplay. Bass, percussion, drums, guitar, keys, saxophone, trombone and vocals give Phaze II the palette to approach that catalog as living band music rather than museum tribute. It is a useful Baltimore night for anyone following the groove-and-fusion thread.",
+          "trip_verdict": "If a Thursday run to Baltimore fits the week, this is worth the short trip and an easy event to pair with dinner at the club. I would not restructure a corridor weekend around it: the appeal is the repertoire-specific DMV groove connection, not a scarce appearance by surviving Crusaders personnel.",
+          "listen_before": "The Crusaders — Street Life; Phaze II — Live N Uncut"
+        },
+        "es": {
+          "why_it_matters": "Esto es más concreto que una fecha cualquiera de smooth jazz: una banda del área de Washington con casi tres décadas de groove lleva una formación ampliada de ocho músicos al lenguaje eléctrico de The Crusaders, donde jazz, R&B, soul y funk se cruzaban sin perder el juego instrumental. Bajo, percusión, batería, guitarra, teclados, sax, trombón y voz le dan a Phaze II una paleta suficiente para tratar ese repertorio como música viva de banda y no como pieza de museo. Es una buena parada en Baltimore para seguir el hilo de groove y fusión.",
+          "trip_verdict": "Si el jueves permite la escapada a Baltimore, vale el viaje corto y se presta para combinarlo con cena en el club. No reorganizaría un fin de semana del corredor alrededor de esta fecha: el atractivo está en el cruce entre repertorio de The Crusaders y una banda del DMV, no en una aparición escasa de integrantes históricos del grupo.",
+          "listen_before": "The Crusaders — Street Life; Phaze II — Live N Uncut"
+        }
+      }
+    }
+  ]
+}
