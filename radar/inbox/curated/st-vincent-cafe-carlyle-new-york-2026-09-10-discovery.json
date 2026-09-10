@@ -1,0 +1,129 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "st-vincent-cafe-carlyle-new-york-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before grading or publication. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources. The October 21 ALFIE trio, October 10 A-TRAIN duo, BODY&SOUL finale, and other Yamamoto dates surfaced in this pass were already represented in canonical/curated/processed intake; the known Ginza Swing October 10 lineup correction is already documented in the existing-event research workflow, so no duplicate or repeated update was created. The wider corridor pass found St. Vincent returning to Cafe Carlyle for October 27-29, 2026. Repository searches for the proposed stable ID and for St. Vincent/Cafe Carlyle returned no existing RADAR representation before publication. Stage 1 admits the engagement because the live context is unusually specific: an art-rock guitarist/songwriter whose normal performance language is built around electric-guitar texture and controlled production returns to an intimate classic New York cabaret room for three nights of career-spanning favorites and deep cuts. This is a setting-and-repertoire decision, not admission by fame or venue prestige alone. Stage 2 assigns A+: the room-scale translation of St. Vincent's catalogue is actively worth making room for if New York is in play. S was explicitly unnecessary: this is a three-night engagement and a return after a 2025 three-night Carlyle run, so A+ fully captures the recommendation without manufacturing scarcity. Current/recent RADAR intake reviewed in this pass remains concentrated in A and A+; adding another A+ does not introduce S/S+ inflation.",
+  "events": [
+    {
+      "id": "st-vincent-cafe-carlyle-new-york-2026-10-27",
+      "artist": "St. Vincent",
+      "subtitle": "Three-night Cafe Carlyle engagement",
+      "dates": {
+        "start": "2026-10-27",
+        "end": "2026-10-29"
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "cafe-carlyle-new-york-ny",
+        "name": "Café Carlyle",
+        "city": "New York",
+        "state": "NY",
+        "country": "US",
+        "address": "35 East 76th St., New York, NY 10021"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Art rock / intimate cabaret residency",
+      "genres": [
+        "Art rock",
+        "Alternative",
+        "Experimental pop"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "St. Vincent (Annie Clark) — artist; event-specific accompanying personnel not announced on the verified event page"
+      ],
+      "factual_description": "The Carlyle, A Rosewood Hotel presents St. Vincent at Café Carlyle for a special three-night engagement from October 27 through October 29, 2026. The primary event page says the program will draw from throughout her career and include acclaimed favorites and deep cuts. It identifies Café Carlyle at 35 East 76th St., New York, NY 10021 and links its Reserve Now action to the venue's authorized Tock booking surface. The artist's Bandcamp show module independently lists Café Carlyle appearances on October 27, 28, and 29. Café Carlyle's current calendar describes its normal performance start as 8:45 PM for listed engagements, but the St. Vincent event-specific page does not itself state a showtime, so no time is promoted into the canonical showtimes field. No event-specific accompanying personnel or stable public face-value ticket price are exposed on the verified surfaces, so none are inferred.",
+      "links": {
+        "official_event": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/experiences/calendar/st-vincent",
+        "official_artist": "https://ilovestvincent.com/",
+        "official_tickets": "https://www.exploretock.com/cafecarlyle",
+        "apple_music": "https://music.apple.com/us/album/all-born-screaming/1729549170"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.exploretock.com/cafecarlyle",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "St. Vincent",
+          "title": "All Born Screaming",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/all-born-screaming/1729549170"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact Rosewood/Café Carlyle event page verifies the October 27-29 engagement, career-spanning favorites/deep-cuts framing, venue identity and address, and links its Reserve Now action to Café Carlyle's authorized Tock booking surface. The artist's Bandcamp show module independently lists all three dates. Apple Music provides an exact album destination for All Born Screaming. No ticket price, event-specific showtime, or accompanying personnel are inferred where the verified event surface does not state them."
+      },
+      "sources": [
+        {
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/experiences/calendar/st-vincent",
+          "publisher": "Café Carlyle / The Carlyle, A Rosewood Hotel",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue event page verifies the special October 27-29, 2026 engagement, St. Vincent billing, career-spanning favorites and deep cuts, venue address, and the authorized Reserve Now link to Tock."
+        },
+        {
+          "url": "https://www.exploretock.com/cafecarlyle",
+          "publisher": "Tock / Café Carlyle",
+          "checked_on": "2026-09-10",
+          "note": "Authorized Café Carlyle booking destination reached directly from the Reserve Now action on the exact Rosewood event page. The accessible surface does not expose a stable public face-value price in this check."
+        },
+        {
+          "url": "https://stvincent.bandcamp.com/track/slow-disco",
+          "publisher": "St. Vincent / Bandcamp",
+          "checked_on": "2026-09-10",
+          "note": "Artist-associated show module independently lists St. Vincent at Café Carlyle on October 27, October 28, and October 29, 2026."
+        },
+        {
+          "url": "https://relix.com/news/detail/st-vincent-confirms-another-cafe-carlyle-residency",
+          "publisher": "Relix",
+          "checked_on": "2026-09-10",
+          "note": "Current music press independently confirms the October 27-29 return and documents that St. Vincent also played a three-night Café Carlyle run in 2025, with a different cover each night; used as context and as evidence against scarcity-tier inflation, not as a claim about the 2026 set list."
+        },
+        {
+          "url": "https://music.apple.com/us/album/all-born-screaming/1729549170",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album destination for St. Vincent's All Born Screaming, released April 26, 2024."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticket-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository searches for the proposed stable ID, St. Vincent with Café Carlyle, and Cafe Carlyle references returned no existing canonical, curated, or processed representation before publication. Core event facts come from the exact Rosewood/Café Carlyle event page and are independently supported by the artist-associated Bandcamp show listing. Relix supplies 2025-return context used specifically to avoid false scarcity. No ticket price, event-specific showtime, backing musician, 2026 cover repertoire, or scarcity claim was invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The interesting move is the change of scale. St. Vincent takes a catalogue built on serrated guitar, obsessive arrangement and art-rock control into the close-range language of Café Carlyle, where the room itself pushes songs toward cabaret intimacy rather than arena mechanics. The venue promises favorites and deep cuts across the catalogue, and last year's first three-night run showed that this setting can pull unexpected standards and covers into her orbit. The return makes the collision a real New York thread rather than a novelty; if the city is in play, actively make room for one of the three nights.",
+          "trip_verdict": "If New York is already plausible that week, build one Upper East Side evening around the Carlyle. From the DMV, combine it with another strong New York reason rather than making a dedicated round trip solely for this engagement; three consecutive nights give enough flexibility to fit it into a wider trip.",
+          "listen_before": "St. Vincent — All Born Screaming"
+        },
+        "es": {
+          "why_it_matters": "Lo interesante es el cambio de escala. St. Vincent lleva un catálogo construido con guitarra filosa, arreglos obsesivos y control de art rock al lenguaje de cercanía del Café Carlyle, donde la sala empuja las canciones hacia la intimidad de cabaret y no hacia la mecánica de un recinto grande. El venue promete favoritas y cortes profundos de toda la carrera, y la primera estancia de tres noches del año pasado mostró que este formato puede abrir la puerta a standards y covers inesperados. El regreso convierte ese choque en un hilo neoyorquino real y no en una curiosidad de una sola vez; si Nueva York está en juego, sí le haría espacio a una de las tres noches.",
+          "trip_verdict": "Si Nueva York ya es una posibilidad esa semana, armaría una noche del Upper East Side alrededor del Carlyle. Desde el DMV lo combinaría con otra razón fuerte para subir, en vez de hacer un viaje dedicado sólo por esta estancia; tres noches consecutivas dan suficiente flexibilidad para meterla en un viaje más amplio.",
+          "listen_before": "St. Vincent — All Born Screaming"
+        }
+      }
+    }
+  ]
+}
