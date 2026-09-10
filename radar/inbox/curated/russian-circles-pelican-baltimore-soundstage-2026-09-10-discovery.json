@@ -1,0 +1,150 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "russian-circles-pelican-baltimore-soundstage-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, and scripts/merge_inbox.py were read before grading or publication. Fresh Yamamoto research checked Jazz House ALFIE, BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A/current Japanese-jazz schedule traces, and other credible Japanese sources. KEYSTONE CLUB TOKYO now verifies a Tsuyoshi Yamamoto TRIO+1 date on October 6, 2026, but the exact primary listing names only the recurring Yamamoto/Kagawa/Osumi trio and does not identify the '+1'; without a more distinctive verified live-context fact, that date was researched but not admitted in this pass. Repository-wide searches for Russian Circles, the exact Baltimore date, and the proposed stable event ID found no existing canonical/curated/processed representation before publication. Stage 1 admits the Baltimore performance for the exact instrumental-heavy double bill rather than fame or venue prestige: Russian Circles is touring behind the newly released Nine, while Pelican is the direct support on this first tour leg after returning to record with founding guitarist Laurent Schroeder-Lebec on Flickering Resonance. Two long-running instrumental/post-metal groups sharing one stage makes the night unusually concentrated around guitar-bass-drums architecture, dynamics, texture, and live volume. Stage 2 assigns A+: this exact package is actively worth making room for in Baltimore, but Russian Circles' official tour announcement documents Pelican on a multi-city September 25-October 13 leg, including Queens and Philadelphia immediately before Baltimore, so there is no event-specific scarcity fact that makes A+ inadequate. The recent/current intake shape was sanity-checked against the latest repository commits and remains centered on A/A+ with no reason to invoke S/S+ here. No automated self-check is represented as independent Codex or human review. Baltimore Soundstage verifies doors at 7:00 PM and show at 8:00 PM and links directly to the authorized Ticketmaster event. No stable face-value price is recorded because the accessible primary/authorized ticket surfaces do not expose one.",
+  "events": [
+    {
+      "id": "russian-circles-pelican-baltimore-soundstage-2026-10-05",
+      "artist": "Russian Circles",
+      "subtitle": "with Pelican — Nine North American tour",
+      "dates": {
+        "start": "2026-10-05",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "baltimore-soundstage",
+        "name": "Baltimore Soundstage",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US",
+        "address": "124 Market Place, Baltimore, MD 21202"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Instrumental heavy / post-metal double bill",
+      "genres": [
+        "Instrumental rock",
+        "Post-metal",
+        "Post-rock",
+        "Metal"
+      ],
+      "musical_axes": [
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Russian Circles",
+        "Pelican"
+      ],
+      "factual_description": "Baltimore Soundstage lists Russian Circles with Pelican on Monday, October 5, 2026, with doors at 7:00 PM and the show at 8:00 PM at 124 Market Place in Baltimore. The venue's exact event page links directly to Ticketmaster, whose authorized event page independently confirms Russian Circles at Baltimore Soundstage on October 5 at 8:00 PM. Russian Circles' official site says the North American headline tour supports the album Nine, released August 28, 2026, with Pelican supporting the first leg from September 25 through October 13. The official Russian Circles album page identifies the trio as Mike Sullivan, Dave Turncrantz and Brian Cook. Apple Music verifies Nine as a 2026 Russian Circles album and Flickering Resonance as Pelican's 2025 album.",
+      "links": {
+        "official_event": "https://www.baltimoresoundstage.com/events/russian-circles/",
+        "official_tickets": "https://www.ticketmaster.com/russian-circles-baltimore-maryland-10-05-2026/event/150064D1C8E1E922"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/russian-circles-baltimore-maryland-10-05-2026/event/150064D1C8E1E922",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Russian Circles",
+          "title": "Nine",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/nine/6769518236"
+        },
+        {
+          "artist": "Pelican",
+          "title": "Flickering Resonance",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/flickering-resonance/1790454812"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact Baltimore Soundstage and authorized Ticketmaster destinations are verified, as are venue address, doors, showtime, two-act billing, Russian Circles' current Nine tour context, and exact Apple Music destinations for Nine and Flickering Resonance. Stable face-value pricing is not exposed on the accessible primary/authorized ticket surfaces, so ticket minimum/maximum remain null without affecting the enrichment contract."
+      },
+      "sources": [
+        {
+          "url": "https://www.baltimoresoundstage.com/events/russian-circles/",
+          "publisher": "Baltimore Soundstage",
+          "checked_on": "2026-09-10",
+          "note": "Exact primary venue page verifies Monday, October 5, 2026; Russian Circles with Pelican; doors at 7:00 PM; show at 8:00 PM; venue address; and the direct authorized Ticketmaster link."
+        },
+        {
+          "url": "https://www.ticketmaster.com/russian-circles-baltimore-maryland-10-05-2026/event/150064D1C8E1E922",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-10",
+          "note": "Authorized ticket destination reached directly from Baltimore Soundstage verifies Russian Circles at Baltimore Soundstage on October 5, 2026 at 8:00 PM."
+        },
+        {
+          "url": "https://russiancircles.com/",
+          "publisher": "Russian Circles",
+          "checked_on": "2026-09-10",
+          "note": "Official artist site states that the North American headline tour supports Nine and that Pelican supports the first leg from September 25 through October 13, establishing both current album context and the multi-city non-scarcity condition."
+        },
+        {
+          "url": "https://russiancircles.com/nine-2026",
+          "publisher": "Russian Circles",
+          "checked_on": "2026-09-10",
+          "note": "Official album page verifies Nine, its August 28, 2026 release, and the current Russian Circles trio of Mike Sullivan, Dave Turncrantz and Brian Cook."
+        },
+        {
+          "url": "https://music.apple.com/us/album/nine/6769518236",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music destination verifies Russian Circles' Nine (2026) and its instrumental trio context."
+        },
+        {
+          "url": "https://music.apple.com/us/album/flickering-resonance/1790454812",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music destination verifies Pelican's Flickering Resonance (2025)."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "New-event discovery. Core event facts come from Baltimore Soundstage and its direct authorized Ticketmaster destination; current tour and album context comes from Russian Circles' official site, with exact streaming destinations independently verified. Repository searches found no existing Russian Circles representation before publication. Stage 1 rests on the exact two-band instrumental/post-metal package and current album cycles. Stage 2 assigns A+ because the Baltimore stop merits actively making room, while the same package is touring multiple cities and no premiere, farewell, one-off, or singular scarcity condition is verified. No scarcity-tier priority_review is included because the event is not S or S+."
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is an unusually concentrated night of instrumental heavy music: Russian Circles bring the new Nine material into the same room as Pelican, putting two different approaches to riff, texture, dynamics and long-form tension on one bill. The appeal is the architecture of the whole night — guitars, bass and drums doing almost all the storytelling — rather than a generic metal-tour stop.",
+          "trip_verdict": "From the DMV, Baltimore is close enough to make this a dedicated Monday-night run. If instrumental heavy music is the draw, build the evening around Soundstage; there is no need to save the idea for a larger Northeast trip.",
+          "listen_before": "Russian Circles — Nine; Pelican — Flickering Resonance"
+        },
+        "es": {
+          "why_it_matters": "Es una noche inusualmente concentrada de música heavy instrumental: Russian Circles trae el material nuevo de Nine al mismo escenario que Pelican, poniendo frente a frente dos maneras distintas de construir riff, textura, dinámica y tensión larga. Lo que importa es la arquitectura de toda la noche —guitarras, bajo y batería contando casi toda la historia—, no una parada genérica de una gira de metal.",
+          "trip_verdict": "Desde el DMV, Baltimore queda lo bastante cerca como para hacer la salida dedicada en lunes. Si el gancho es la música heavy instrumental, armaría la noche alrededor de Soundstage; no hace falta guardarla para un viaje más grande por el noreste.",
+          "listen_before": "Russian Circles — Nine; Pelican — Flickering Resonance"
+        }
+      }
+    }
+  ]
+}
