@@ -1,0 +1,125 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "pablo-ferrandez-shriver-hall-baltimore-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before grading or publication. Fresh Yamamoto checks found no new unrepresented verified appearance: the October 21 Jazz House ALFIE trio date is already represented in curated intake, and other current Yamamoto/BODY&SOUL/Space M&A threads were already represented. Repository searches for Pablo Ferrandez, Pablo Ferrández, Shriver Hall, and the proposed event identity returned no existing canonical/curated/processed representation. Stage 1 admits the October 11 Shriver Hall recital because the specific live design is unusually focused: Ferrández alone on cello, moving through Bach Suites Nos. 3 and 1, Cassadó's solo Cello Suite, and Britten's Cello Suite No. 1, in the Gregor Piatigorsky Memorial Concert and his current Baltimore recital debut. Stage 2 assigns A. The program and instrumental identity clearly belong in RADAR, but the same Bach/Cassadó/Britten solo-recital program is on Ferrández's official schedule in Toronto three days earlier and his 2026-27 calendar is active internationally; there is no premiere, farewell, rare lineup, or other event-specific context that requires active-prioritization or scarcity language. Recent/current intake was sanity-checked against the durable rubric and visible current curated/processed material: S/S+ remain scarcity cases, while this event fits the broad A base on its own merits rather than as a quota adjustment. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "pablo-ferrandez-shriver-hall-baltimore-2026-10-11",
+      "artist": "Pablo Ferrández",
+      "subtitle": "Baltimore Recital Debut — Gregor Piatigorsky Memorial Concert",
+      "dates": {
+        "start": "2026-10-11",
+        "end": null
+      },
+      "showtimes": [
+        "17:30"
+      ],
+      "venue": {
+        "id": "shriver-hall-baltimore",
+        "name": "Shriver Hall",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "US",
+        "address": "3400 N. Charles St, Baltimore, MD 21218"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Short trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Instrumental identity / solo cello recital",
+      "genres": [
+        "Classical",
+        "Solo cello"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "Pablo Ferrández — cello"
+      ],
+      "factual_description": "Shriver Hall Concert Series presents Pablo Ferrández in his Baltimore recital debut on Sunday, October 11, 2026 at 5:30 PM at Shriver Hall on the Johns Hopkins University Homewood Campus. A 4:30 PM pre-concert talk with Peabody Institute scholar Anna Celenza precedes the approximately two-hour concert. The announced solo-cello program is J.S. Bach's Cello Suite No. 3 in C major, BWV 1009; Gaspar Cassadó's Cello Suite; J.S. Bach's Cello Suite No. 1 in G major, BWV 1007; and Benjamin Britten's Cello Suite No. 1, Op. 72. The recital opens Shriver Hall Concert Series' 61st season and is designated the Gregor Piatigorsky Memorial Concert. Ferrández's official artist calendar independently confirms an October 11 Shriver Hall solo recital in Baltimore featuring works by Bach, Cassadó and Britten; it also lists the same repertoire family for a Toronto solo recital on October 8, supporting the non-scarcity priority judgment.",
+      "links": {
+        "official_event": "https://www.shriverconcerts.org/ferrandez",
+        "official_tickets": "https://shriverhallconcertseries.easy-ware-ticketing.com/assignedseating/NGW6etcY0DMB7ULleM0AqA"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://shriverhallconcertseries.easy-ware-ticketing.com/assignedseating/NGW6etcY0DMB7ULleM0AqA",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Pablo Ferrández",
+          "title": "Moonlight Variations",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/variations-on-a-rococo-theme-op-33-var-6-andante/1792797873"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Exact primary presenter event and authorized ticket destinations are recorded, along with an exact Apple Music album destination. The authorized ticket surface did not expose a stable parseable face value during this check, so official ticket prices remain null rather than inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.shriverconcerts.org/ferrandez",
+          "publisher": "Shriver Hall Concert Series",
+          "checked_on": "2026-09-09",
+          "note": "Primary presenter page verifies the Baltimore recital debut, solo-cello framing, 4:30 PM pre-concert talk, approximate two-hour duration, complete Bach/Cassadó/Bach/Britten program, 61st-season opening context, and Gregor Piatigorsky Memorial Concert designation."
+        },
+        {
+          "url": "https://www.shriverconcerts.org/concert/tickets",
+          "publisher": "Shriver Hall Concert Series",
+          "checked_on": "2026-09-09",
+          "note": "Primary presenter ticket index verifies Sunday, October 11, 2026 at 5:30 PM, Shriver Hall, and provides the authorized ticket destination."
+        },
+        {
+          "url": "https://www.shriverconcerts.org/places?category=directions",
+          "publisher": "Shriver Hall Concert Series",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue guidance verifies Shriver Hall at 3400 North Charles Street, Baltimore, Maryland 21218, on the Johns Hopkins Homewood Campus."
+        },
+        {
+          "url": "https://www.pabloferrandez.com/",
+          "publisher": "Pablo Ferrández",
+          "checked_on": "2026-09-09",
+          "note": "Official artist calendar independently verifies the October 11, 2026 Shriver Hall solo recital in Baltimore with works by Bach, Cassadó and Britten, and shows a Toronto solo recital with the same repertoire family on October 8."
+        },
+        {
+          "url": "https://music.apple.com/us/album/variations-on-a-rococo-theme-op-33-var-6-andante/1792797873",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-09",
+          "note": "Exact Apple Music destination verifies Pablo Ferrández's 2025 album Moonlight Variations."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-artist-ticketing-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event details are verified from Shriver Hall Concert Series and independently cross-checked against Ferrández's official calendar. Repository-wide searches found no existing Pablo Ferrández or Shriver Hall event representation before publication. Stage 1 admission rests on the specific unaccompanied-cello program, Piatigorsky memorial context and Baltimore recital debut. Stage 2 assigns A after admission; no scarcity-tier priority_review is included because the performance does not claim S or S+."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "One cello carries the whole argument: two Bach suites framing Cassadó's Spanish, dance-charged suite and Britten's first Rostropovich-inspired suite. Ferrández's Baltimore debut puts technique, tone and the instrument's ability to imply an entire harmonic world under a spotlight, while the Piatigorsky Memorial context gives the recital a lineage specific to the cello rather than generic classical prestige.",
+          "trip_verdict": "If a Baltimore afternoon is already plausible, this is a strong reason to choose October 11 and make the short trip north. I would not restructure a corridor itinerary around this date alone; the solo program is also being performed in Toronto three days earlier and belongs to an active recital season.",
+          "listen_before": "Pablo Ferrández — Moonlight Variations"
+        },
+        "es": {
+          "why_it_matters": "Un solo violonchelo carga con todo el argumento: dos suites de Bach enmarcan la suite española y cargada de danza de Cassadó y la primera suite de Britten escrita para Rostropóvich. El debut de Ferrández en Baltimore pone bajo la lupa la técnica, el sonido y la capacidad del instrumento para insinuar un mundo armónico entero; el contexto del Memorial Piatigorsky le da además una genealogía específicamente chelista, no sólo prestigio clásico genérico.",
+          "trip_verdict": "Si una tarde en Baltimore ya es viable, ésta es una buena razón para escoger el 11 de octubre y hacer el viaje corto hacia el norte. No reorganizaría un itinerario del corredor únicamente por esta fecha: el mismo programa de recital aparece en Toronto tres días antes y forma parte de una temporada activa.",
+          "listen_before": "Pablo Ferrández — Moonlight Variations"
+        }
+      }
+    }
+  ]
+}
