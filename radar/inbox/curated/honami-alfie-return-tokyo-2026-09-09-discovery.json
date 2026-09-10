@@ -1,0 +1,123 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "honami-alfie-return-tokyo-2026-09-09-discovery",
+  "checked_on": "2026-09-09",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before web research or grading; docs/DATA_MODEL.md was checked before publication. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A-related intake, and credible Japanese-jazz sources. The future Yamamoto appearances surfaced in this pass, including the October 21 ALFIE trio and previously documented September/late-2026 threads, were already represented in canonical, curated, or processed intake, so no duplicate Yamamoto record was created. The broader ALFIE/Tokyo-circle pass found Honami with Naoto Suzuki, Akiyoshi Shimizu, and Yuto Maseki at Jazz House ALFIE on October 9, 2026. Repository-wide searches for Honami / 帆南 with ALFIE and the exact date returned no existing RADAR representation. Stage 1 admits this specific performance because it is the exact quartet and exact Roppongi room from the June 23, 2026 ALFIE night that docs/EDITORIAL.md identifies as a lived part of the Listening Notes archive and origin story; the return therefore carries concrete archive continuity rather than generic venue or genre prestige. Stage 2 assigns A+: within a Tokyo stay, the opportunity to return to the same room for the same quartet is actively worth making room for. It does not merit S: the October return itself demonstrates recurrence, and no farewell, premiere, anniversary, one-off repertoire, or other scarcity fact is verified. A+ fully captures the recommendation. Recent/current RADAR intake was challenged before finalizing; this batch adds A+ 1 / S 0 / S+ 0 and does not expand the scarcity tiers.",
+  "events": [
+    {
+      "id": "honami-quartet-jazz-house-alfie-tokyo-2026-10-09",
+      "artist": "Honami",
+      "subtitle": "with Naoto Suzuki, Akiyoshi Shimizu and Yuto Maseki — return to ALFIE",
+      "dates": {
+        "start": "2026-10-09",
+        "end": null
+      },
+      "showtimes": [
+        "19:15"
+      ],
+      "venue": {
+        "id": "jazz-house-alfie-roppongi",
+        "name": "Jazz House ALFIE",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP",
+        "address": "Hama Roppongi Building 5F, 6-2-35 Roppongi, Minato-ku, Tokyo"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Greater Tokyo / Kanto",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese vocal jazz / ALFIE archive return",
+      "genres": [
+        "Jazz",
+        "Vocal jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Honami — vocals",
+        "Naoto Suzuki — guitar",
+        "Akiyoshi Shimizu — bass",
+        "Yuto Maseki — drums"
+      ],
+      "factual_description": "Jazz House ALFIE's official October 2026 schedule lists Honami on vocals with Naoto Suzuki on guitar, Akiyoshi Shimizu on bass, and Yuto Maseki on drums on Friday, October 9, 2026. ALFIE states its October operating pattern as doors at 18:45 and performance from 19:15 to 20:45, and the October 9 listing carries a ¥5,500 music charge. Naoto Suzuki's current artist-maintained schedule independently lists the same October 9 ALFIE engagement with the same four musicians. ALFIE's archived June 2026 schedule verifies that this exact quartet also performed in the same room on June 23, 2026. Honami's official profile identifies her as a Tokyo-based jazz vocalist who began full-time musical activity in 2019 and whose listening background includes jazz, bossa nova, and pop.",
+      "links": {
+        "official_event": "https://alfie.tokyo/schedule/202610.html",
+        "official_artist": "https://www.honami-singer.com/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 5500,
+          "maximum": 5500,
+          "source_url": "https://alfie.tokyo/schedule/202610.html",
+          "checked_on": "2026-09-09"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "ALFIE verifies the exact date, lineup, music charge, and October performance hours. The venue handles reservations by telephone rather than through an event-specific web purchase destination, so no official ticket URL is invented. Search surfaced multiple Apple Music artists/releases named Honami, but none could be identity-matched safely to this jazz vocalist from authoritative sources in this run; recommended_listening therefore remains empty instead of guessing."
+      },
+      "sources": [
+        {
+          "url": "https://alfie.tokyo/schedule/202610.html",
+          "publisher": "Jazz House ALFIE",
+          "checked_on": "2026-09-09",
+          "note": "Primary venue schedule verifies Friday, October 9, 2026; Honami on vocals, Naoto Suzuki on guitar, Akiyoshi Shimizu on bass, Yuto Maseki on drums; ¥5,500 music charge; and ALFIE's October operating pattern of 18:45 doors and 19:15-20:45 performance."
+        },
+        {
+          "url": "https://ameblo.jp/naotothebomb/",
+          "publisher": "Naoto Suzuki",
+          "checked_on": "2026-09-09",
+          "note": "Artist-maintained current schedule independently lists the October 9 ALFIE date and the same Honami / Suzuki / Shimizu / Maseki quartet."
+        },
+        {
+          "url": "https://alfie.tokyo/schedule/202606.html",
+          "publisher": "Jazz House ALFIE",
+          "checked_on": "2026-09-09",
+          "note": "Archived primary venue schedule verifies the exact same four-person lineup at ALFIE on June 23, 2026, establishing the factual recurrence used in the archive-continuity editorial judgment."
+        },
+        {
+          "url": "https://www.honami-singer.com/profile/",
+          "publisher": "Honami",
+          "checked_on": "2026-09-09",
+          "note": "Official artist profile identifies Honami as a Tokyo-based jazz vocalist, active professionally since 2019, with a listening background spanning jazz, bossa nova, and pop."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-artist-schedule-with-archive-continuity",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-09",
+        "note": "Repository-wide searches for Honami / 帆南, the October 9 date, ALFIE, and the proposed event identity returned no canonical, curated, or processed representation before publication. Event facts are anchored in ALFIE's official October schedule and independently cross-checked against Naoto Suzuki's current artist-maintained schedule. The exact-quartet recurrence is verified against ALFIE's June schedule, while the reason this recurrence matters editorially comes from the current docs/EDITORIAL.md origin-story record of the June 23 night as lived archive. Priority was assigned only after Stage 1 admission. No ticket URL, repertoire claim, streaming identity, or scarcity fact was invented, and no S/S+ priority_review is included because the final grade is A+."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just another vocal-jazz date on ALFIE's calendar. It is the exact quartet from the June 23 night that became part of Listening Notes' lived archive, returning to the same Roppongi room: Honami's voice with Naoto Suzuki's guitar, Akiyoshi Shimizu's bass, and Yuto Maseki's drums. That continuity gives the performance a real thread to follow — a chance to hear the same chemistry again after the room itself became part of the story. If Tokyo is already in play, actively make room for the return.",
+          "trip_verdict": "If October 9 falls inside a Tokyo stay, I would go back to ALFIE and build the Roppongi evening around this quartet. The personal and musical continuity makes the cross-city effort worthwhile, but the fact that the exact group has returned within a few months is also evidence not to reshape an entire Japan itinerary around this single date.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Ésta no es simplemente otra fecha de jazz vocal en el calendario de ALFIE. Es exactamente el cuarteto de la noche del 23 de junio que quedó incorporada al archivo vivido de Listening Notes, de regreso en la misma sala de Roppongi: la voz de Honami con la guitarra de Naoto Suzuki, el bajo de Akiyoshi Shimizu y la batería de Yuto Maseki. Esa continuidad sí abre un hilo real que seguir: volver a escuchar la misma química después de que la propia sala se volvió parte de la historia. Si Tokio ya está en juego, sí le haría espacio activamente.",
+          "trip_verdict": "Si el 9 de octubre cae dentro de una estancia en Tokio, volvería a ALFIE y armaría la noche de Roppongi alrededor de este cuarteto. La continuidad personal y musical justifica cruzar la ciudad, pero que el grupo exacto regrese apenas unos meses después también es evidencia para no reorganizar todo un itinerario por Japón alrededor de esta única fecha.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
