@@ -1,0 +1,147 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "rare-essence-black-alley-hamilton-2026-09-10-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current Tsuyoshi Yamamoto schedule traces and credible Japanese-jazz sources; surfaced future Yamamoto appearances were already represented in canonical/curated/processed intake, so no duplicate was created. The broader DMV pass found Rare Essence with Black Alley at The Hamilton Live on January 17, 2027. Stage 1 admits the performance for a specific local cultural reason: one of Washington go-go's foundational live institutions shares a home-city bill with a later DC band that explicitly bends go-go through rock and trap under its Hood Rock identity. Stage 2 assigns A. The recommendation is useful and distinctly Listening Notes, but the exact Rare Essence + Black Alley pairing has recurred at The Hamilton in recent January/February seasons and both groups remain active, so this is continuity rather than scarcity and does not require active-prioritization language. No S/S+ priority review is required.",
+  "events": [
+    {
+      "id": "rare-essence-black-alley-hamilton-washington-dc-2027-01-17",
+      "artist": "Rare Essence",
+      "subtitle": "with Black Alley",
+      "dates": {
+        "start": "2027-01-17",
+        "end": null
+      },
+      "showtimes": [
+        "20:30"
+      ],
+      "venue": {
+        "id": "the-hamilton-live-washington-dc",
+        "name": "The Hamilton Live",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "DC go-go / Cultural continuity",
+      "genres": [
+        "Go-go",
+        "Funk",
+        "Rock"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "Rare Essence",
+        "Black Alley"
+      ],
+      "factual_description": "The Hamilton Live lists Rare Essence with opener Black Alley for Sunday, January 17, 2027 at 8:30 PM in Washington, DC, age 21+, with advertised ticket prices of $35-$50 and an event-specific outbound ticket link. Rare Essence's official site describes the Washington band as an early and enduring progeny of Chuck Brown's go-go lineage, formed in 1976, with its reputation built around live performance. Black Alley's official site confirms the active DC project, while the Greater Washington DC Black Chamber of Commerce describes the band's self-defined Hood Rock approach as a blend of trap, rock and go-go. Event-specific personnel beyond the billed groups are not published by The Hamilton and were not inferred.",
+      "links": {
+        "official_event": "https://live.thehamiltondc.com/calendar/",
+        "official_tickets": "https://wl.seetickets.us/event/rare-essence/702180?afflky=TheHamiltonDC"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35.0,
+          "maximum": 50.0,
+          "source_url": "https://wl.seetickets.us/event/rare-essence/702180?afflky=TheHamiltonDC",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Rare Essence",
+          "title": "The Official Sounds of the Capital - EP",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-official-sounds-of-the-capital-ep/1583305672"
+        },
+        {
+          "artist": "Black Alley",
+          "title": "Dirty Laundry",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/dirty-laundry/1426503437"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The Hamilton Live verifies the 2027 date, billing, showtime, age restriction, advertised face-value range and event-specific authorized ticket destination. Rare Essence's official site verifies the band's DC go-go lineage and continuing live identity; Black Alley's official site verifies the active project, and the Greater Washington DC Black Chamber of Commerce documents the band's Hood Rock framing. Exact event personnel beyond the billed groups were not announced and were not inferred. Exact Apple Music destinations for representative recordings by both artists were verified."
+      },
+      "sources": [
+        {
+          "url": "https://live.thehamiltondc.com/calendar/",
+          "publisher": "The Hamilton Live",
+          "checked_on": "2026-09-10",
+          "note": "Official venue calendar lists Rare Essence with opener Black Alley on January 17, 2027 at 8:30 PM, age 21+, $35-$50, with active ticketing."
+        },
+        {
+          "url": "https://wl.seetickets.us/event/rare-essence/702180?afflky=TheHamiltonDC",
+          "publisher": "The Hamilton Live authorized ticketing / See Tickets",
+          "checked_on": "2026-09-10",
+          "note": "Event-specific outbound ticket destination linked directly from The Hamilton Live calendar; the endpoint redirects into the venue's EVENTIM ticketing flow."
+        },
+        {
+          "url": "https://www.rareessence.com/",
+          "publisher": "Rare Essence",
+          "checked_on": "2026-09-10",
+          "note": "Official artist site documents Rare Essence's formation in 1976, direct Chuck Brown/go-go lineage and live-performance identity."
+        },
+        {
+          "url": "https://www.blackalleyband.com/",
+          "publisher": "Black Alley",
+          "checked_on": "2026-09-10",
+          "note": "Official Black Alley site verifies the active Washington project and its current music/tour presence."
+        },
+        {
+          "url": "https://business.gwbcc.org/member-directory/Details/black-alley-band-3566213",
+          "publisher": "Greater Washington DC Black Chamber of Commerce",
+          "checked_on": "2026-09-10",
+          "note": "Local chamber member profile describes Black Alley's Hood Rock blend of trap, rock and go-go and its work around DC go-go culture."
+        },
+        {
+          "url": "https://www.concertarchives.org/bands/black-alley",
+          "publisher": "Concert Archives",
+          "checked_on": "2026-09-10",
+          "note": "Secondary historical context only: lists prior Rare Essence + Black Alley pairings at The Hamilton in January 2026, February 2025, January 2024 and January 2023; used to challenge scarcity/priority, not to establish the 2027 event facts."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-official-sounds-of-the-capital-ep/1583305672",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music page for Rare Essence's The Official Sounds of the Capital - EP."
+        },
+        {
+          "url": "https://music.apple.com/us/album/dirty-laundry/1426503437",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music page for Black Alley's Dirty Laundry."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "note": "Core 2027 date, billing, time, age restriction and advertised face-value range were verified against The Hamilton Live, with the exact authorized outbound ticket destination recorded. Artist/local-authority sources establish the event-specific DC go-go cultural thread. Repository-wide searches for the proposed stable ID and the Rare Essence + Black Alley pairing returned no existing canonical, curated or processed RADAR representation before publication. Prior same-bill Hamilton appearances are secondary archival context used only to keep the priority judgment at A rather than manufacture scarcity or urgency. Editorial review in this batch was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is Washington music talking across generations on its own turf. Rare Essence carries one of go-go's foundational live lineages; Black Alley pushes the same homegrown rhythmic language through rock and trap. The point is not nostalgia or venue prestige but hearing continuity and mutation of DC's groove culture on one bill.",
+          "trip_verdict": "Attend if the Sunday fits and you want a concentrated local go-go night downtown. I would not reorganize a weekend around it: this exact pairing has returned to The Hamilton in recent winter seasons, so the value is a living local tradition rather than a one-off encounter.",
+          "listen_before": "Rare Essence — The Official Sounds of the Capital - EP; Black Alley — Dirty Laundry"
+        },
+        "es": {
+          "why_it_matters": "Aquí la música de Washington conversa entre generaciones y en su propio territorio. Rare Essence carga uno de los linajes en vivo fundacionales del go-go; Black Alley empuja ese mismo lenguaje rítmico local hacia el rock y el trap. No entra por nostalgia ni por prestigio de la sala, sino por escuchar continuidad y mutación de la cultura del groove de DC en un mismo cartel.",
+          "trip_verdict": "Iría si ese domingo acomoda y quieres una noche concentrada de go-go local en el centro de DC. No reorganizaría el fin de semana alrededor del concierto: este mismo cruce ha regresado a The Hamilton en temporadas recientes de invierno, así que su fuerza está en ser una tradición local viva y no un encuentro irrepetible.",
+          "listen_before": "Rare Essence — The Official Sounds of the Capital - EP; Black Alley — Dirty Laundry"
+        }
+      }
+    }
+  ]
+}
