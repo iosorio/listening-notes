@@ -1,0 +1,138 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "josh-johnson-animative-public-records-brooklyn-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md and radar/inbox/README.md were read before searching or grading; docs/DATA_MODEL.md was checked before publication. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources. The Yamamoto dates surfaced in this pass, including the October 3 Kawasaki Shimin Plaza finale, September 26 BODY&SOUL finale, October 10 A-TRAIN duo, October 30 Space M&A date and other current intake, were already represented in canonical/curated/processed repository paths, so no duplicate Yamamoto event was created. The broader pass found Josh Johnson's newly announced ANIMATIVE album-release show at Public Records. Stage 1 admits it for the exact album-release trio with Anna Butterss and Ben Lumsdaine and for Johnson's specific electro-acoustic instrumental design: saxophone, sampler/drum-machine control, post-bop, soul-jazz and electronic minimalism are part of the current project rather than generic genre prestige. Stage 2 assigns A+. The recent September 10 intake is A+-heavy, so the grade was explicitly challenged rather than treated as automatic; this still merits actively making room because it is an album-release performance by the announced working trio in the Public Records Sound Room. S is not warranted: Nonesuch announces the same trio for release shows in Los Angeles and Minneapolis as well as Brooklyn, with more dates TBA, so the configuration is not scarce enough for protect-the-night treatment. Batch distribution: A 0, A+ 1, S 0, S+ 0; no priority_review is required.",
+  "events": [
+    {
+      "id": "josh-johnson-animative-public-records-brooklyn-2026-12-10",
+      "artist": "Josh Johnson",
+      "subtitle": "ANIMATIVE — album-release trio with Anna Butterss & Ben Lumsdaine",
+      "dates": {
+        "start": "2026-12-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "public-records-brooklyn",
+        "name": "Public Records",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Album release / electro-acoustic creative jazz trio",
+      "genres": [
+        "Jazz",
+        "Soul-jazz",
+        "Post-bop",
+        "Electronic minimalism",
+        "Ambient"
+      ],
+      "musical_axes": [
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Josh Johnson — trio leader; saxophonist, keyboardist and synthesist",
+        "Anna Butterss — bass",
+        "Ben Lumsdaine — drums"
+      ],
+      "factual_description": "Public Records' official calendar lists 'International Anthem presents Josh Johnson – ANIMATIVE with Anna Butterss & Ben Lumsdaine' in the Sound Room on Thursday, December 10, 2026 at 7:00 PM and links directly to the authorized DICE ticket destination. Nonesuch Records independently announces the Brooklyn date as one of Johnson's Animative album-release shows and specifies that the live ensemble for these shows is a trio with bassist Anna Butterss and drummer Ben Lumsdaine. Nonesuch describes Animative, due October 23, 2026 on physical formats and digital download with streaming November 10, as blending skeletal soul-jazz, post-bop, electronic minimalism and dreamy ambience; Johnson uses saxophone to control a sampler or drum machine as part of the project's instrumental language. Public Records is at 233 Butler St in Brooklyn's Gowanus neighborhood.",
+      "links": {
+        "official_event": "https://publicrecords.nyc/",
+        "official_tickets": "https://link.dice.fm/a5f37a42c194"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://link.dice.fm/a5f37a42c194",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Josh Johnson",
+          "title": "Unusual Object",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/unusual-object/1720457899"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The primary Public Records calendar verifies the exact date, Sound Room, 7:00 PM listing, billing and authorized DICE destination. Nonesuch verifies the release-show context and exact trio. An exact Apple Music destination is verified for Johnson's prior solo album Unusual Object; no Apple Music URL is invented for Animative before its announced streaming release."
+      },
+      "sources": [
+        {
+          "url": "https://publicrecords.nyc/",
+          "publisher": "Public Records",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue calendar verifies Thursday December 10, 2026, 7:00 PM, Sound Room, 'International Anthem presents Josh Johnson – ANIMATIVE with Anna Butterss & Ben Lumsdaine,' and links the authorized DICE ticket destination; venue information gives 233 Butler St, Brooklyn, NY 11217."
+        },
+        {
+          "url": "https://link.dice.fm/a5f37a42c194",
+          "publisher": "DICE / Public Records",
+          "checked_on": "2026-09-10",
+          "note": "Exact authorized ticket destination linked directly from the primary Public Records calendar. Automated retrieval returned an access restriction, so no ticket price was inferred."
+        },
+        {
+          "url": "https://www.nonesuch.com/journal/josh-johnson-album-animative-due-october-23-international-anthem-nonesuch-records-2026-09-09",
+          "publisher": "Nonesuch Records",
+          "checked_on": "2026-09-10",
+          "note": "Official label announcement verifies the Animative album-release shows, including Public Records in Brooklyn on December 10, and states that the live ensemble is Josh Johnson with bassist Anna Butterss and drummer Ben Lumsdaine. It also documents Johnson's Maryland childhood and current project context."
+        },
+        {
+          "url": "https://www.nonesuch.com/albums/animative",
+          "publisher": "Nonesuch Records",
+          "checked_on": "2026-09-10",
+          "note": "Official album page verifies the October 23, 2026 physical/digital-download release, November 10 streaming release, contributors and the album's soul-jazz, post-bop, electronic-minimalist and ambient language, including Johnson using saxophone to control sampler/drum-machine processes."
+        },
+        {
+          "url": "https://music.apple.com/us/album/unusual-object/1720457899",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music destination for Josh Johnson's 2024 solo album Unusual Object."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticket-label-and-streaming-sources",
+        "note": "Core event facts are verified by Public Records and Nonesuch; the ticket destination is linked by Public Records; project context is verified by Nonesuch; listening destination is exact Apple Music. Repository searches for Josh Johnson/Public Records and the stable proposed event ID found no existing event record; an existing Jeff Parker-related batch mentions Johnson only as a collaborator and is not this performance."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not just another Josh Johnson booking: Public Records gets the ANIMATIVE release trio itself, with Anna Butterss and Ben Lumsdaine. The project turns Johnson's saxophone into an interface with loops, samplers and drum-machine processes without surrendering the physical feel of improvisation, which makes the exact trio a strong Listening Notes intersection of instrumental identity, rhythm and electronics.",
+          "trip_verdict": "If New York is in play in December, build the Brooklyn evening around the Sound Room and make room for this trio. From the DMV, I would pair the trip with another New York reason rather than make the train ride depend on this show alone.",
+          "listen_before": "Josh Johnson — Unusual Object"
+        },
+        "es": {
+          "why_it_matters": "No es simplemente otra fecha de Josh Johnson: Public Records recibe al trío de lanzamiento de ANIMATIVE, con Anna Butterss y Ben Lumsdaine. El proyecto convierte el saxofón de Johnson en una interfaz con loops, samplers y procesos de drum machine sin perder la sensación física de la improvisación; ese cruce preciso entre identidad instrumental, ritmo y electrónica es muy Listening Notes.",
+          "trip_verdict": "Si Nueva York entra en juego en diciembre, armaría la noche de Brooklyn alrededor del Sound Room y sí le haría espacio a este trío. Desde el DMV lo combinaría con otra razón para subir, en vez de hacer que todo el viaje dependa de esta función.",
+          "listen_before": "Josh Johnson — Unusual Object"
+        }
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    }
+  ]
+}
