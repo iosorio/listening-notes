@@ -1,0 +1,134 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "gregory-porter-madeleine-peyroux-njpac-newark-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before any searching or grading. Fresh Yamamoto research covered Jazz House ALFIE, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz sources. The October 21 ALFIE trio date, October 30 Space M&A date, and October 3 Kawasaki Plaza Afternoon Jazz finale surfaced during checking but are already represented in curated or processed RADAR intake, so no Yamamoto duplicate was created. Repository searches for Gregory Porter with Madeleine Peyroux at NJPAC on November 13, 2026 and for the proposed stable ID returned no existing RADAR representation before publication. Stage 1 admits this performance for its specific dual-anniversary context: NJPAC explicitly frames Porter around the tenth anniversary of Take Me to the Alley and Peyroux around the tenth anniversary of Secular Hymns on the same TD James Moody Jazz Festival bill. Stage 2 assigns A. The historical/repertoire framing makes the date useful to know and worthwhile if it fits a Newark/NYC trip, but the presenter does not bill a complete-album performance, premiere, farewell, rare reunion, or unique onstage collaboration, and Porter appears in Washington, DC three days later. A captures the recommendation without using travel distance as a mechanical grade or inflating the narrower A+/scarcity tiers. Recent/current intake remains centered on A and A+; this addition invokes no S/S+ scarcity tier. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "gregory-porter-madeleine-peyroux-njpac-newark-2026-11-13",
+      "artist": "Gregory Porter with special guest Madeleine Peyroux",
+      "subtitle": "Two 2016 albums, ten years later",
+      "dates": {
+        "start": "2026-11-13",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "prudential-hall-njpac-newark",
+        "name": "Prudential Hall at NJPAC",
+        "city": "Newark",
+        "state": "NJ",
+        "country": "US",
+        "address": "1 Center Street, Newark, NJ 07102"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Jazz vocals / dual 10th-anniversary context",
+      "genres": [
+        "Jazz",
+        "R&B"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Gregory Porter",
+        "Madeleine Peyroux — special guest"
+      ],
+      "factual_description": "NJPAC presents Gregory Porter with special guest Madeleine Peyroux on Friday, November 13, 2026 at 8:00 PM in Prudential Hall as part of the TD James Moody Jazz Festival. NJPAC explicitly frames Porter's appearance around the tenth anniversary of his 2016 album Take Me to the Alley and says Peyroux is likewise celebrating ten years of her 2016 album Secular Hymns, her self-produced collaboration with guitarist Jon Herington and bassist Barak Mori. The presenter does not state that either artist will perform an album in full, so no complete-album set claim is made. Ticketmaster, reached directly from NJPAC, independently confirms the date, 8:00 PM time, Newark venue, and billing of Porter and Peyroux. No stable public face-value ticket price or additional performing personnel are exposed on the verified event/ticket surfaces, so none are inferred.",
+      "links": {
+        "official_event": "https://www.njpac.org/event/gregory-porter/",
+        "official_tickets": "https://www.ticketmaster.com/event/000064AFC5AD6A81?brand=njpac&camefrom=cfc_njpac_NJPACWebsite"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketmaster.com/event/000064AFC5AD6A81?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gregory Porter",
+          "title": "Take Me to the Alley",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/take-me-to-the-alley/1440838767"
+        },
+        {
+          "artist": "Madeleine Peyroux",
+          "title": "Secular Hymns",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/secular-hymns/1440870200"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "NJPAC verifies the exact event, date, time, venue, festival placement, dual 2016-album anniversary framing and authorized Ticketmaster destination. Ticketmaster independently verifies the billing, date, time and Newark venue. Exact Apple Music destinations are verified for Take Me to the Alley and Secular Hymns. No ticket price, additional sidemen, full-album performance or onstage collaboration is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.njpac.org/event/gregory-porter/",
+          "publisher": "New Jersey Performing Arts Center",
+          "checked_on": "2026-09-10",
+          "note": "Primary presenter page verifies Gregory Porter with special guest Madeleine Peyroux, Friday November 13, 2026 at 8:00 PM in Prudential Hall, TD James Moody Jazz Festival placement, and the ten-year framing for Take Me to the Alley and Secular Hymns."
+        },
+        {
+          "url": "https://www.ticketmaster.com/event/000064AFC5AD6A81?brand=njpac&camefrom=cfc_njpac_NJPACWebsite",
+          "publisher": "Ticketmaster",
+          "checked_on": "2026-09-10",
+          "note": "Authorized ticket destination linked directly by NJPAC; independently verifies Porter/Peyroux billing, Friday November 13, 2026 at 8:00 PM, and Newark venue. No stable public face-value price is exposed in the checked surface."
+        },
+        {
+          "url": "https://music.apple.com/us/album/take-me-to-the-alley/1440838767",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Verified Apple Music album page for Gregory Porter's Take Me to the Alley, dated May 6, 2016."
+        },
+        {
+          "url": "https://music.apple.com/us/album/secular-hymns/1440870200",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Verified Apple Music album page for Madeleine Peyroux's Secular Hymns, dated September 16, 2016."
+        },
+        {
+          "url": "https://madeleinepeyroux.com/secular-hymns/",
+          "publisher": "Madeleine Peyroux",
+          "checked_on": "2026-09-10",
+          "note": "Official artist album page documents Secular Hymns as a 2016 release recorded in a live setting with guitarist Jon Herington and bassist Barak Mori and describes its funk, blues and jazz language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-authorized-ticketing-artist-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository duplicate searches returned no existing RADAR representation for this November 13 Porter/Peyroux NJPAC event or the proposed stable ID before publication. Core event facts and anniversary context come from NJPAC; the exact authorized Ticketmaster destination cross-checks billing/date/time; album metadata comes from Apple Music and Peyroux's official site. No prices, sidemen, set list, complete-album performance, premiere, scarcity claim or collaboration beyond the shared billing were invented."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is the double anniversary rather than the names alone. NJPAC frames Porter around ten years of Take Me to the Alley and Peyroux around ten years of Secular Hymns, putting two very different 2016 ideas of jazz song on the same festival bill: Porter's gospel- and soul-rooted original writing alongside Peyroux's spare, eclectic act of reinterpretation. That parallel makes the evening worth knowing about even without pretending it is a one-off summit or a full-album recreation.",
+          "trip_verdict": "If a Newark or New York weekend is already in play, this is a good Friday-night anchor at NJPAC. From the DMV I would fold it into a broader trip rather than travel solely for Porter here, particularly with another Porter appearance in Washington three days later; the reason to choose Newark is the pairing and anniversary frame.",
+          "listen_before": "Gregory Porter — Take Me to the Alley; Madeleine Peyroux — Secular Hymns"
+        },
+        "es": {
+          "why_it_matters": "El gancho está en el doble aniversario, no sólo en los nombres. NJPAC enmarca a Porter a diez años de Take Me to the Alley y a Peyroux a diez años de Secular Hymns, poniendo en la misma noche del festival dos ideas muy distintas de la canción de jazz en 2016: la escritura original de Porter, atravesada por gospel y soul, junto a la reinterpretación sobria y ecléctica de Peyroux. Ese paralelo basta para que valga la pena tener la fecha en el RADAR sin fingir que es una cumbre irrepetible ni una recreación completa de los discos.",
+          "trip_verdict": "Si ya está en juego un fin de semana en Newark o Nueva York, funciona muy bien como ancla del viernes en NJPAC. Desde el DMV la integraría a un viaje más amplio en lugar de subir sólo por Porter, sobre todo porque aparece en Washington tres días después; la razón para escoger Newark es la pareja artística y el marco de los aniversarios.",
+          "listen_before": "Gregory Porter — Take Me to the Alley; Madeleine Peyroux — Secular Hymns"
+        }
+      }
+    }
+  ]
+}
