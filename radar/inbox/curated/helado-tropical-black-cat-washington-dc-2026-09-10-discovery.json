@@ -1,0 +1,118 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "helado-tropical-black-cat-washington-dc-2026-09-10-discovery",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, current Tsuyoshi Yamamoto schedule traces and credible Japanese-jazz sources; surfaced future Yamamoto appearances were already represented in canonical/curated/processed intake, so no duplicate was created. The broader US-corridor pass found Helado Negro and Reyna Tropical presenting their joint project Helado Tropical at Black Cat on October 23, 2026. Stage 1 admits the performance for the exact collaborative context: this is the duo's new shared project and debut collaborative album carried into a headline live setting, with a Latin-diasporic, guitar/drum-machine/synth language that is directly relevant to Listening Notes' Latin and cross-genre threads. Stage 2 assigns A+. Recent intake is already A+-heavy, so A was explicitly considered; A+ still fits because the newly formed joint identity and first headline-tour cycle make the local Friday actively worth making room for. The multi-city North American tour removes any S-level scarcity claim. No S/S+ priority review is required.",
+  "events": [
+    {
+      "id": "helado-tropical-black-cat-washington-dc-2026-10-23",
+      "artist": "Helado Tropical",
+      "subtitle": "Helado Negro and Reyna Tropical present Helado Tropical",
+      "dates": {
+        "start": "2026-10-23",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "black-cat-washington-dc",
+        "name": "Black Cat",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Latin alternative / New collaborative project / Album-tour context",
+      "genres": [
+        "Latin alternative",
+        "Electronic pop",
+        "Ambient pop",
+        "Tropical"
+      ],
+      "musical_axes": [
+        "Latin"
+      ],
+      "lineup": [
+        "Helado Negro",
+        "Reyna Tropical"
+      ],
+      "factual_description": "Black Cat lists Helado Negro and Reyna Tropical presenting Helado Tropical on Friday, October 23, 2026 in Washington, DC, with doors at 7:00 PM; the venue does not publish a separate performance start time on the accessible event page, so no showtime is inferred. Psychic Hotline identifies Helado Tropical as the debut collaborative album by Helado Negro and Reyna Tropical, released July 17, 2026, and describes the project as built from guitars, drum machines and synthesizers. Pitchfork identifies the 2026 itinerary as the new project's first North American headline tour. Exact touring personnel beyond the two billed artists are not published by the verified event source and were not inferred.",
+      "links": {
+        "official_event": "https://www.blackcatdc.com/shows/helado-negro.html",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Helado Tropical",
+          "title": "Helado Tropical",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/helado-tropical/1892412012"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Black Cat verifies the date, exact billing and 7:00 PM door time but does not expose a separate showtime or stable event-specific authorized ticket URL in the accessible page; those fields remain unset rather than inferred. Psychic Hotline verifies the collaborative album, release date and core sonic construction; Pitchfork verifies the first headline-tour context. Exact touring personnel beyond Helado Negro and Reyna Tropical were not announced by the verified event source. The exact Apple Music destination for the collaborative album was verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.blackcatdc.com/shows/helado-negro.html",
+          "publisher": "Black Cat",
+          "checked_on": "2026-09-10",
+          "note": "Official venue event page lists Helado Negro and Reyna Tropical presenting Helado Tropical on Friday, October 23, 2026, with doors at 7:00 PM."
+        },
+        {
+          "url": "https://psychic-hotline.net/releases/helado-tropical/",
+          "publisher": "Psychic Hotline",
+          "checked_on": "2026-09-10",
+          "note": "Official label release page identifies Helado Tropical as the debut collaborative album by Helado Negro and Reyna Tropical, released July 17, 2026, and describes its guitar, drum-machine and synthesizer construction."
+        },
+        {
+          "url": "https://pitchfork.com/news/helado-tropical-to-embark-on-debut-tour/",
+          "publisher": "Pitchfork",
+          "checked_on": "2026-09-10",
+          "note": "Contemporary tour announcement identifies Helado Tropical as the new joint project and the 2026 North American run as its first headline tour; used for live-context and scarcity review."
+        },
+        {
+          "url": "https://music.apple.com/us/album/helado-tropical/1892412012",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music page for the self-titled Helado Tropical album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-streaming-and-contemporary-tour-context-sources",
+        "note": "Core date, billing and door time were verified from Black Cat; collaborative-project and album facts were verified from Psychic Hotline, with Pitchfork used for current first-headline-tour context. Repository-wide searches for the proposed stable ID and the Helado Negro/Reyna Tropical Black Cat pairing returned no existing canonical, curated or processed RADAR representation before publication. No unverified showtime, price, touring personnel or ticket destination was invented. Editorial review in this batch was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is not a Helado Negro show with Reyna Tropical attached to the bill; the point is the new shared language they built as Helado Tropical. A studio meeting that was supposed to yield one song became a full collaborative project shaped by guitar, drum machines and synths. Hearing that still-new identity carried into its first headline-tour cycle gives the Black Cat date a concrete reason to exist in RADAR.",
+          "trip_verdict": "Make room for the Friday if this Latin-electronic thread is calling: it is a local Black Cat night, so the decision is about setting aside the evening rather than travel. The project is touring widely enough that there is no need to treat Washington as a once-only chance.",
+          "listen_before": "Helado Tropical — Helado Tropical"
+        },
+        "es": {
+          "why_it_matters": "Esto no es un concierto de Helado Negro con Reyna Tropical pegada al cartel; el punto es el lenguaje nuevo que construyeron juntos como Helado Tropical. Una sesión que iba a producir una sola canción terminó convertida en un proyecto colaborativo completo, armado con guitarra, cajas de ritmos y sintetizadores. Escuchar esa identidad todavía nueva dentro de su primer ciclo de gira propia le da a la fecha del Black Cat una razón concreta para entrar al RADAR.",
+          "trip_verdict": "Haría espacio para ese viernes si te jala este hilo latino-electrónico: es una noche local en el Black Cat, así que la decisión es apartar la noche, no justificar un viaje. El proyecto está girando lo suficiente como para no tratar Washington como una oportunidad única.",
+          "listen_before": "Helado Tropical — Helado Tropical"
+        }
+      }
+    }
+  ]
+}
