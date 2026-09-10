@@ -1,0 +1,123 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "nice-as-fuck-black-cat-washington-dc-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, docs/DATA_MODEL.md, and scripts/merge_inbox.py were read before final grading/publication. Fresh Tsuyoshi Yamamoto research checked Jazz House ALFIE, BODY&SOUL, Yamamoto schedule traces, Space M&A, and credible Japanese-jazz sources. The surfaced Yamamoto dates and the BODY&SOUL finale were already represented in curated/processed intake, so no duplicate Yamamoto event was created. Fresh U.S.-corridor monitoring found Nice As Fuck newly listed at Black Cat in Washington for October 26, 2026. Repository-wide search returned no existing Nice As Fuck / Black Cat representation before publication. Stage 1 admits the performance for a specific lineup-and-history reason: Black Cat is billing the Jenny Lewis, Tennessee Thomas, and Erika Spring Forster side project itself in 2026, ten years after its one-album 2016 launch; the original announcement also documents a May 1, 2016 Washington date at 9:30 Club, giving the new local appearance a concrete decade-spanning DMV thread. Stage 2 assigns A+: the exact side-project lineup and long catalog gap make the show actively worth making room for locally, while no primary source establishes a farewell, one-off final performance, premiere, or other scarcity condition that would make A+ inadequate. A recent/current priority sanity check was performed; this batch adds one A+ and no S/S+ scarcity tier. Black Cat currently verifies a 9:00 PM door time but does not publish a separate performance start time on the accessible surface, so showtimes remains empty rather than converting doors into a showtime. The venue page's ticket-onsale weekday/date wording is internally inconsistent, so that wording is not copied into factual fields.",
+  "events": [
+    {
+      "id": "nice-as-fuck-black-cat-washington-dc-2026-10-26",
+      "artist": "Nice As Fuck",
+      "subtitle": "Jenny Lewis / Tennessee Thomas / Erika Spring Forster",
+      "dates": {
+        "start": "2026-10-26",
+        "end": null
+      },
+      "showtimes": [],
+      "venue": {
+        "id": "black-cat-washington-dc",
+        "name": "Black Cat",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US",
+        "address": "1811 14th St NW, Washington, DC 20009"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Rare side-project return / Indie rock / DMV continuity",
+      "genres": [
+        "Indie rock",
+        "Post-punk"
+      ],
+      "musical_axes": [],
+      "lineup": [
+        "Jenny Lewis",
+        "Tennessee Thomas",
+        "Erika Spring Forster"
+      ],
+      "factual_description": "Black Cat lists Nice As Fuck for Monday, October 26, 2026, with doors at 9:00 PM at 1811 14th St NW in Washington, DC. The venue's event bio identifies the trio as Jenny Lewis, Tennessee Thomas, and Erika Spring; Apple Music identifies the project as Lewis, Erika Forster, and Thomas and lists its self-titled album as a nine-song 2016 release. Pitchfork's April 2016 formation announcement identifies the same three musicians and documents an original Washington appearance at 9:30 Club on May 1, 2016. The accessible Black Cat surface does not state a separate performance start time, so only the verified door time is described here and the showtimes array remains empty.",
+      "links": {
+        "official_event": "https://www.blackcatdc.com/shows/nice-as-fuck.html",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Nice As Fuck",
+          "title": "Nice as F**k",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/nice-as-f-k/1126540224"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact Black Cat event page and exact Apple Music album destination are verified. An Etix result confirms an authorized listing exists, but the accessible surface redirects to a generic JavaScript gate and does not expose the event-specific stable purchase URL; official_tickets therefore remains null rather than inventing or guessing a destination. Face-value pricing and a separate performance start time are not published on the accessible primary venue surface."
+      },
+      "sources": [
+        {
+          "url": "https://www.blackcatdc.com/shows/nice-as-fuck.html",
+          "publisher": "Black Cat",
+          "checked_on": "2026-09-10",
+          "note": "Exact primary venue event page verifies Nice As Fuck on Monday, October 26, 2026, doors at 9:00 PM, and the current billing; its event bio names Jenny Lewis, Tennessee Thomas, and Erika Spring."
+        },
+        {
+          "url": "https://pitchfork.com/news/64629-jenny-lewis-forms-new-band-naf-nice-as-fuck-with-au-revoir-simones-erika-forster-and-the-likes-tennessee-thomas/",
+          "publisher": "Pitchfork",
+          "checked_on": "2026-09-10",
+          "note": "Contemporaneous 2016 formation coverage identifies Jenny Lewis, Erika Forster, and Tennessee Thomas as the trio and lists their May 1, 2016 Washington, DC performance at 9:30 Club."
+        },
+        {
+          "url": "https://music.apple.com/us/album/nice-as-f-k/1126540224",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music album page verifies the self-titled nine-song 2016 album and identifies the project as the Lewis / Forster / Thomas trio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-historical-press-and-streaming-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "New-event discovery. Black Cat is the primary source for the 2026 performance and venue details; Pitchfork supplies contemporaneous formation and 2016 DC-tour context; Apple Music verifies the project's sole catalog anchor used for listening enrichment. Stage 1 rests on the exact trio reappearing in its ten-year project anniversary year with a documented DMV thread, not on Jenny Lewis's fame. Stage 2 assigns A+ because this unusual side-project configuration merits making room locally; no scarcity-tier review is included because no verified source establishes a farewell, premiere, final show, or singular one-off condition."
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Nice As Fuck is not just another Jenny Lewis date. Black Cat is billing the Lewis–Thomas–Forster trio itself in 2026, ten years after the project's compact one-album burst, and the original run already passed through Washington at 9:30 Club in May 2016. The attraction is the exact side-project chemistry: a stripped, rhythm-first post-punk/indie language that exists apart from Lewis's solo catalog and from the members' better-known bands. For a local night, that is unusual enough to make room for.",
+          "trip_verdict": "Keep Monday, October 26 available if the calendar can absorb it and build the local evening around Black Cat. There is no corridor travel problem to solve here; the value is catching an uncommon side-project lineup in a small Washington room rather than saving it for a New York trip.",
+          "listen_before": "Nice As Fuck — Nice as F**k"
+        },
+        "es": {
+          "why_it_matters": "Esto no es simplemente otra fecha de Jenny Lewis. Black Cat está anunciando al trío Lewis–Thomas–Forster como Nice As Fuck en 2026, diez años después de aquel proyecto breve de un solo disco; además, la primera vuelta ya había pasado por Washington, en el 9:30 Club, en mayo de 2016. La razón para ir es esa química exacta de proyecto paralelo: una música indie/post-punk reducida al pulso y muy distinta tanto del catálogo solista de Lewis como de las bandas más conocidas de sus integrantes. Para una noche local, sí merece hacerle espacio.",
+          "trip_verdict": "Si el lunes 26 de octubre está libre, armaría la noche local alrededor de Black Cat. Aquí no hay que justificar carretera ni tren: el valor está en agarrar una alineación poco común en un cuarto pequeño de Washington, en vez de dejarla para cuando aparezca otra razón de viaje.",
+          "listen_before": "Nice As Fuck — Nice as F**k"
+        }
+      }
+    }
+  ]
+}
