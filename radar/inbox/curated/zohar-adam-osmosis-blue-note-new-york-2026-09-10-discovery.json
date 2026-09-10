@@ -1,0 +1,136 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_candidates",
+  "batch_id": "zohar-adam-osmosis-blue-note-new-york-2026-09-10-discovery",
+  "checked_on": "2026-09-10",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-10",
+  "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before publication. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A and credible Japanese-jazz sources; the future dates surfaced in those threads were already represented in canonical/curated/processed intake, including BODY&SOUL's September 26 finale and Space M&A dates, so no duplicate Yamamoto record was created. The broader US-corridor pass found Zohar & Adam's Osmosis album-release show at Blue Note New York on November 30, 2026. Repository-wide searches for the proposed stable ID and the Zohar & Adam/Blue Note pairing returned no existing RADAR representation. Stage 1 admits the performance for the exact live context: the keyboard-and-drums brother duo is using its Blue Note engagement as the release show for debut album Osmosis, a project explicitly built across progressive jazz, Latin rhythms, hip-hop and world-music influences. Stage 2 assigns A. The release-show framing and strong instrumental identity make it useful RADAR intelligence, but the duo is active internationally and the available primary sources do not establish a one-off lineup, premiere, farewell or other scarcity that would require making room at A+ or protecting the night at S. Recent/current intake remains concentrated in A/A+ with scarcity tiers rare; adding an A event is consistent with the current rubric without using distribution as a quota. No S/S+ priority review is required.",
+  "events": [
+    {
+      "id": "zohar-adam-blue-note-new-york-2026-11-30",
+      "artist": "Zohar & Adam",
+      "subtitle": "The Osmosis Album Release Show",
+      "dates": {
+        "start": "2026-11-30",
+        "end": null
+      },
+      "showtimes": [
+        "20:00",
+        "22:30"
+      ],
+      "venue": {
+        "id": "blue-note-jazz-club-new-york",
+        "name": "Blue Note Jazz Club",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Debut album release / Post-jazz duo",
+      "genres": [
+        "Progressive jazz",
+        "Latin jazz",
+        "Hip-hop-influenced jazz"
+      ],
+      "musical_axes": [
+        "Fusion / Prog",
+        "Latin"
+      ],
+      "lineup": [
+        "Zohar Cabo — keyboards",
+        "Adam Cabo — drums"
+      ],
+      "factual_description": "Blue Note New York presents Zohar & Adam's The Osmosis Album Release Show on Monday, November 30, 2026, with sets at 8:00 PM and 10:30 PM. The venue identifies the brothers' performing configuration as Zohar on keyboards and Adam on drums and describes their debut album Osmosis as combining progressive jazz, Latin rhythms, hip-hop and world-music influences. Mack Avenue Music Group lists Osmosis for release on November 6, 2026. The verified event sources do not announce additional live personnel, so album guests are not treated as part of the concert lineup.",
+      "links": {
+        "official_event": "https://www.bluenotejazz.com/nyc/tm-event/zohar-adam/",
+        "official_tickets": "https://www.ticketweb.com/event/zohar-adam-blue-note-jazz-club-tickets/15031733?pl=bluenoteny"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://www.ticketweb.com/event/zohar-adam-blue-note-jazz-club-tickets/15031733?pl=bluenoteny",
+          "checked_on": "2026-09-10"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Zohar & Adam",
+          "title": "reintegration sickness/latency - Single",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/reintegration-sickness-latency-single/6798411826"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Blue Note New York provides an exact event page and separate authorized TicketWeb controls for both sets; the first set's exact TicketWeb destination is stored in the single official_tickets field, while the second set destination is preserved in sources. Mack Avenue verifies the Osmosis release date. The exact Apple Music destination for the duo's current Mack Avenue single reintegration sickness/latency is verified. Ticket face value is not exposed on the accessible verified surfaces and remains null. No additional live personnel are inferred from the album's guest credits."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenotejazz.com/nyc/tm-event/zohar-adam/",
+          "publisher": "Blue Note New York",
+          "checked_on": "2026-09-10",
+          "note": "Primary venue event page verifies November 30, 2026, the Osmosis album-release framing, 8:00 PM and 10:30 PM sets, door times, the Zohar-keyboards/Adam-drums configuration, and that Blue Note/TicketWeb are the authorized ticket sources."
+        },
+        {
+          "url": "https://www.ticketweb.com/event/zohar-adam-blue-note-jazz-club-tickets/15031733?pl=bluenoteny",
+          "publisher": "TicketWeb / Blue Note New York authorized ticketing",
+          "checked_on": "2026-09-10",
+          "note": "Exact authorized purchase destination linked by Blue Note for the 8:00 PM set."
+        },
+        {
+          "url": "https://www.ticketweb.com/event/zohar-adam-blue-note-jazz-club-tickets/15031743?pl=bluenoteny",
+          "publisher": "TicketWeb / Blue Note New York authorized ticketing",
+          "checked_on": "2026-09-10",
+          "note": "Exact authorized purchase destination linked by Blue Note for the 10:30 PM set."
+        },
+        {
+          "url": "https://mackavenue.com/products/zohar-adam-osmosis",
+          "publisher": "Mack Avenue Music Group",
+          "checked_on": "2026-09-10",
+          "note": "Official label product page verifies Zohar & Adam's debut album Osmosis and its November 6, 2026 release date."
+        },
+        {
+          "url": "https://www.zoharandadam.com/",
+          "publisher": "Zohar & Adam",
+          "checked_on": "2026-09-10",
+          "note": "Official artist site describes the brother duo, its keyboard-and-drums identity, and Osmosis as a blend of progressive jazz, Latin rhythms, hip-hop and world-music influences."
+        },
+        {
+          "url": "https://music.apple.com/us/album/reintegration-sickness-latency-single/6798411826",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-10",
+          "note": "Exact Apple Music page for Zohar & Adam's August 27, 2026 Mack Avenue release reintegration sickness/latency."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-authorized-ticket-label-artist-and-streaming-sources",
+        "note": "Core event facts, exact billing, set times and performing configuration were verified from Blue Note New York, with the venue's exact TicketWeb destinations recorded. Mack Avenue verifies the debut-album release date; the duo's official site verifies its musical and instrumental identity; Apple Music provides an exact current listening destination. Repository-wide searches for the stable event ID and artist/venue pairing returned no existing canonical, curated, processed or review representation before publication. No ticket price or unannounced live guest was invented. Editorial review in this batch was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The reason to notice this one is the format meeting the moment: two brothers reducing a post-jazz language to keyboards and drums, then using the Blue Note date as the release show for their first album. Osmosis reaches across progressive jazz, Latin rhythm and hip-hop without turning the duo into a genre checklist; the tension is in how much harmonic and rhythmic information two players can carry together. That makes the release night a useful Listening Notes marker for a young project at the point where its recorded identity becomes public.",
+          "trip_verdict": "If New York is already in play that Monday, this is a sharp club option and worth fitting into the night. From the DMV I would not build a dedicated trip around it: the duo is active beyond this date, and the value here is catching the album-release moment rather than a demonstrably singular performance.",
+          "listen_before": "Zohar & Adam — reintegration sickness/latency; Osmosis after its November 6 release"
+        },
+        "es": {
+          "why_it_matters": "Aquí importa el cruce entre formato y momento: dos hermanos reducen un lenguaje post-jazz a teclados y batería y usan la fecha del Blue Note como presentación de su primer álbum. Osmosis cruza jazz progresivo, ritmo latino y hip-hop sin convertir al dúo en una lista de géneros; la tensión está en cuánta información armónica y rítmica pueden cargar dos músicos juntos. La noche de lanzamiento funciona así como una buena marca para Listening Notes: un proyecto joven justo cuando su identidad grabada sale al mundo.",
+          "trip_verdict": "Si ya vas a estar en Nueva York ese lunes, es una muy buena opción de club para meter en la noche. Desde el DMV no haría un viaje dedicado sólo por esta fecha: el dúo está activo más allá de este concierto y el atractivo está en alcanzar el momento de lanzamiento, no en una función demostrablemente irrepetible.",
+          "listen_before": "Zohar & Adam — reintegration sickness/latency; Osmosis después de su lanzamiento del 6 de noviembre"
+        }
+      }
+    }
+  ]
+}
