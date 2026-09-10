@@ -206,6 +206,26 @@ class MergeInboxTest(unittest.TestCase):
             self.assertEqual(report["added"], [])
             self.assertEqual(report["semantic_conflicts"][0]["conflict_with"], "beat-2099")
 
+    def test_review_queued_historical_conflict_does_not_block_unrelated_batch(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            canonical, curated, processed = self._paths(root)
+            canonical.write_text(json.dumps({"schema_version": 3, "events": [self._event("beat-2099", artist="BEAT")]}))
+            historical = curated / "historical-conflict.json"
+            historical.write_text(json.dumps(self._batch(self._event("beat-expanded-2099", artist="BEAT: Belew/Vai/Levin/Bozzio"))))
+            review = root / "radar/inbox/review/curated"
+            review.mkdir(parents=True)
+            shutil.move(historical, review / historical.name)
+            valid = curated / "new-unrelated.json"
+            valid.write_text(json.dumps(self._batch(self._event("new-artist-2099", artist="New Artist"))))
+
+            report = merge(sorted(curated.glob("*.json")), True, canonical, curated, processed)
+
+            self.assertEqual(report["added"], ["new-artist-2099"])
+            self.assertFalse(report["conflicts"])
+            self.assertFalse(report["semantic_conflicts"])
+            self.assertTrue((review / historical.name).exists())
+
     def test_same_venue_and_date_with_different_artist_is_not_a_duplicate(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)

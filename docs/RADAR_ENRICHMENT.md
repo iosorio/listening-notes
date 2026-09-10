@@ -168,6 +168,24 @@ The ingest workflow routes direct `curated/*.json` creation batches to
 archiving, and the resulting commit happen in one serial job. A bot-actor guard
 and GitHub's `GITHUB_TOKEN` recursion protection prevent workflow loops.
 
+### Historical curated conflicts
+
+An exact ID collision or a conservative semantic collision is never merged
+automatically. New batches still fail their own targeted check so a real
+duplicate cannot be silently accepted. Historical batches that have already
+been identified as collisions are retained byte-for-byte in
+`radar/inbox/review/curated/`, with their SHA-256, original active path, and
+conflict details in `radar/inbox/review/curated/conflicts.json`. They are not
+eligible for automated ingestion until a human resolves the canonical record
+or prepares a corrected curated batch.
+
+Run `python3 scripts/quarantine_curated_conflicts.py --all` to produce the
+review manifest without writing. `--apply` is an explicit one-time migration:
+it refuses to overwrite any review evidence and moves only batches named in
+that manifest. The scheduled/manual backlog audit publishes the active merge
+report together with this queue; normal push and PR checks inspect only the
+changed active batch.
+
 No repository secret is required. Do not create an `OPENAI_API_KEY`, personal
 access token, Apple Music credential, or deploy key. The job requests only
 `contents: write` and uses its automatically generated `GITHUB_TOKEN`. Keep the

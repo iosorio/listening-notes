@@ -124,6 +124,12 @@ class EnrichmentContractTest(unittest.TestCase):
         with self.assertRaisesRegex(EnrichmentError, "claims complete"):
             self.validate(patch)
 
+    def test_complete_enrichment_rejects_an_explanatory_note(self):
+        patch = complete_patch()
+        patch["enrichment"]["note"] = "This note belongs in provenance, not complete enrichment."
+        with self.assertRaisesRegex(EnrichmentError, r"complete requires missing=\[\] and no note"):
+            self.validate(patch)
+
     def test_valid_pending_and_unavailable_are_accepted(self):
         for status in ("pending", "unavailable"):
             patch = {

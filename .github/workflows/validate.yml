@@ -2,8 +2,29 @@ name: Validate static site data
 
 on:
   pull_request:
+    paths:
+      - 'radar/events.json'
+      - 'radar/signals.json'
+      - 'radar/inbox/curated/*.json'
+      - 'radar/inbox/curated/enrichment/*.json'
+      - 'radar/inbox/research/*.json'
+      - 'scripts/*.py'
+      - 'tests/**'
+      - '.github/workflows/validate.yml'
   push:
     branches: [main]
+    paths:
+      - 'radar/events.json'
+      - 'radar/signals.json'
+      - 'radar/inbox/curated/*.json'
+      - 'radar/inbox/curated/enrichment/*.json'
+      - 'radar/inbox/research/*.json'
+      - 'scripts/*.py'
+      - 'tests/**'
+      - '.github/workflows/validate.yml'
+  schedule:
+    - cron: '23 5 * * 1'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -13,6 +34,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -20,11 +43,58 @@ jobs:
         run: python scripts/validate_events.py radar/events.json
       - name: Validate canonical Signal history
         run: python scripts/validate_signals.py radar/signals.json radar/events.json
-      - name: Validate unreviewed enrichment research
-        run: python scripts/validate_research_enrichment.py --all-unprocessed
-      - name: Dry-run reviewed enrichment patches
-        run: python scripts/merge_enrichment_patches.py --all --dry-run
-      - name: Dry-run new-event candidates
-        run: python scripts/merge_inbox.py --all --dry-run
+      - name: Validate changed unreviewed enrichment research
+        if: github.event_name == 'pull_request' || github.event_name == 'push'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/research \
+            | grep -E '^radar/inbox/research/[^/]+\.json$' \
+            | while IFS= read -r batch; do
+                [ -f "$batch" ] && python scripts/validate_research_enrichment.py "$batch"
+              done
+      - name: Dry-run changed reviewed enrichment patches
+        if: github.event_name == 'pull_request' || github.event_name == 'push'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/curated/enrichment \
+            | grep -E '^radar/inbox/curated/enrichment/[^/]+\.json$' \
+            | while IFS= read -r batch; do
+                [ -f "$batch" ] && python scripts/merge_enrichment_patches.py --batch "$batch" --dry-run
+              done
+      - name: Dry-run changed new-event candidates
+        if: github.event_name == 'pull_request' || github.event_name == 'push'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/curated \
+            | grep -E '^radar/inbox/curated/[^/]+\.json$' \
+            | while IFS= read -r batch; do
+                [ -f "$batch" ] && python scripts/merge_inbox.py --batch "$batch" --dry-run
+              done
+      - name: Audit the complete RADAR backlog
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          mkdir -p radar-audit
+          for audit in \
+            'research:python scripts/validate_research_enrichment.py --all-unprocessed' \
+            'enrichment:python scripts/merge_enrichment_patches.py --all --dry-run' \
+            'curated:python scripts/quarantine_curated_conflicts.py --all'; do
+            name="${audit%%:*}"
+            command="${audit#*:}"
+            set +e
+            eval "$command" > "radar-audit/$name.json" 2>&1
+            code=$?
+            set -e
+            printf '%s exit=%s\n' "$name" "$code" >> radar-audit/summary.txt
+          done
+          cp radar/inbox/review/curated/conflicts.json radar-audit/historical-conflicts.json
+      - name: Upload RADAR backlog audit
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-backlog-audit
+          path: radar-audit
       - name: Run repository tests
         run: python -m unittest discover -s tests -v

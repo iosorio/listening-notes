@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-09-10",
+  "policy": "Historical conflicts are retained unchanged for explicit human review and are excluded from automated ingestion.",
+  "review_batches": [
+    {
+      "batch_id": "ai-furusato-kenny-barron-tokyo-2026-08-27-catchup",
+      "source_path": "radar/inbox/curated/ai-furusato-kenny-barron-tokyo-2026-08-27-catchup.json",
+      "review_path": "radar/inbox/review/curated/ai-furusato-kenny-barron-tokyo-2026-08-27-catchup.json",
+      "sha256": "fce1fad3ee4663536cc862d6fa782479172f252b2a793b7abc20c91d38b24ae9",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "kenny-barron-trio-cotton-club-tokyo-2026-11-20",
+          "batch": "ai-furusato-kenny-barron-tokyo-2026-08-27-catchup",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "conflicts",
+          "id": "kenny-barron-trio-blue-note-tokyo-2026-11-23",
+          "batch": "ai-furusato-kenny-barron-tokyo-2026-08-27-catchup",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "anatole-la-reserve-benny-green-solo-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/anatole-la-reserve-benny-green-solo-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/anatole-la-reserve-benny-green-solo-2026-08-29-discovery.json",
+      "sha256": "c5abe240f128899b9a272ba058359c40c046e7e5c0670e29b20bb496598ec007",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "anatole-muster-cotton-club-tokyo-2026-11-06",
+          "batch": "anatole-la-reserve-benny-green-solo-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "anoushka-shankar-blue-note-tokyo-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/anoushka-shankar-blue-note-tokyo-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/anoushka-shankar-blue-note-tokyo-2026-08-29-discovery.json",
+      "sha256": "db6e082503eefda0baa1fd1ae9062e9055a8bda36f3f2ae17a5f24b1f9b07eb3",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "anoushka-shankar-blue-note-tokyo-2026-10-09",
+          "batch": "anoushka-shankar-blue-note-tokyo-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "anoushka-shankar-christian-mcbride-blue-note-tokyo-2026-08-23-catchup",
+      "source_path": "radar/inbox/curated/anoushka-shankar-christian-mcbride-blue-note-tokyo-2026-08-23-catchup.json",
+      "review_path": "radar/inbox/review/curated/anoushka-shankar-christian-mcbride-blue-note-tokyo-2026-08-23-catchup.json",
+      "sha256": "48278e8aadf93834d46d6691ef7f3432f550873986e9892b88a61bf376741296",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "anoushka-shankar-blue-note-tokyo-2026-10-09",
+          "batch": "anoushka-shankar-christian-mcbride-blue-note-tokyo-2026-08-23-catchup",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "conflicts",
+          "id": "christian-mcbride-ursa-major-blue-note-tokyo-2026-09-16",
+          "batch": "anoushka-shankar-christian-mcbride-blue-note-tokyo-2026-08-23-catchup",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "aziza-philly-newark-contexts-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/aziza-philly-newark-contexts-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/aziza-philly-newark-contexts-2026-08-29-discovery.json",
+      "sha256": "6ee77d6deaa1a83e02af5c71007f5052e10b5a1e88665375ad712990bdcfc6b3",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "gary-bartz-ntu-blue-note-tokyo-2026-11-30",
+          "batch": "aziza-philly-newark-contexts-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "semantic_conflicts",
+          "id": "aziza-dave-holland-blue-note-tokyo-2026-11-04",
+          "conflict_with": "aziza-blue-note-tokyo-2026-11-04",
+          "batch": "aziza-philly-newark-contexts-2026-08-29-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "baltimore-nyc-fall-2026-2026-08-28-discovery",
+      "source_path": "radar/inbox/curated/baltimore-nyc-fall-2026-2026-08-28-discovery.json",
+      "review_path": "radar/inbox/review/curated/baltimore-nyc-fall-2026-2026-08-28-discovery.json",
+      "sha256": "055fd4ae33040016f78fd1ffaa0a2076cbb95e71cb1d2da2b0421eb7c2726301",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "cindy-blackman-santana-coherence-keystone-korner-baltimore-2026-10-24",
+          "batch": "baltimore-nyc-fall-2026-2026-08-28-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "camille-beck-gregory-2026-08-23-catchup",
+      "source_path": "radar/inbox/curated/camille-beck-gregory-2026-08-23-catchup.json",
+      "review_path": "radar/inbox/review/curated/camille-beck-gregory-2026-08-23-catchup.json",
+      "sha256": "fe9d761bd24921efae2c73270c742f0f539f7e6659ccdfffb09be80837fa0912",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "beck-ride-lonesome-anthem-washington-dc-2026-10-25",
+          "conflict_with": "beck-ride-lonesome-the-anthem-2026-10-25",
+          "batch": "camille-beck-gregory-2026-08-23-catchup",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "chihiro-yamanaka-blue-note-tokyo-2026-08-30-discovery",
+      "source_path": "radar/inbox/curated/chihiro-yamanaka-blue-note-tokyo-2026-08-30-discovery.json",
+      "review_path": "radar/inbox/review/curated/chihiro-yamanaka-blue-note-tokyo-2026-08-30-discovery.json",
+      "sha256": "7a54d5e26185cf6313ed7da78c0883c83068ac49caf213ea64e0f5f4eec5c0da",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "chihiro-yamanaka-blue-note-tokyo-2026-10-15",
+          "conflict_with": "chihiro-yamanaka-new-york-trio-blue-note-tokyo-2026-10-15",
+          "batch": "chihiro-yamanaka-blue-note-tokyo-2026-08-30-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "chris-dave-meshell-eric-gales-blue-note-new-york-2026-09-18-catchup",
+      "source_path": "radar/inbox/curated/chris-dave-meshell-eric-gales-blue-note-new-york-2026-09-18-catchup.json",
+      "review_path": "radar/inbox/review/curated/chris-dave-meshell-eric-gales-blue-note-new-york-2026-09-18-catchup.json",
+      "sha256": "a770e0dabbd0c3b67940ed13044dbe175ab36e3a50fc20444b48c59ec7a64d82",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "chris-dave-meshell-ndegeocello-eric-gales-blue-note-new-york-2026-09-18",
+          "conflict_with": "chris-dave-meshell-ndegeocello-eric-gales-blue-note-nyc-2026-09-18",
+          "batch": "chris-dave-meshell-eric-gales-blue-note-new-york-2026-09-18-catchup",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "days-of-delight-njpac-crossgenre-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/days-of-delight-njpac-crossgenre-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/days-of-delight-njpac-crossgenre-2026-08-29-discovery.json",
+      "sha256": "b7fd7da73a4c51f4b1df2e84fdf2be434b59cf437ed7f3c0335c457e82e5615a",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "days-of-delight-all-stars-body-and-soul-tokyo-2026-09-15",
+          "batch": "days-of-delight-njpac-crossgenre-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "dc-jazzfest-overlooked-contexts-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/dc-jazzfest-overlooked-contexts-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/dc-jazzfest-overlooked-contexts-2026-08-29-discovery.json",
+      "sha256": "0c88b95740415581f6f6d94442ef47c4a14cb413446b60f77722d7d25caf679a",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "michele-rosewoman-quintessence-dc-jazzfest-2026-09-06",
+          "batch": "dc-jazzfest-overlooked-contexts-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "semantic_conflicts",
+          "id": "african-rhythms-alumni-quintet-randy-weston-dc-jazzfest-2026-09-06",
+          "conflict_with": "african-rhythms-alumni-randy-weston-centennial-dc-jazzfest-2026-09-06",
+          "batch": "dc-jazzfest-overlooked-contexts-2026-08-29-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "diles-que-no-me-maten-pie-shop-2026-09-05-discovery",
+      "source_path": "radar/inbox/curated/diles-que-no-me-maten-pie-shop-2026-09-05-discovery.json",
+      "review_path": "radar/inbox/review/curated/diles-que-no-me-maten-pie-shop-2026-09-05-discovery.json",
+      "sha256": "503e3783e677b31573821f1ee292f0d2a25ebbc230ce91d672afac3be605dbd0",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "diles-que-no-me-maten-pie-shop-washington-2026-11-14",
+          "conflict_with": "diles-que-no-me-maten-pie-shop-washington-dc-2026-11-14",
+          "batch": "diles-que-no-me-maten-pie-shop-2026-09-05-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "gretchen-parlato-blue-note-tokyo-2027-01-31-discovery",
+      "source_path": "radar/inbox/curated/gretchen-parlato-blue-note-tokyo-2027-01-31-discovery.json",
+      "review_path": "radar/inbox/review/curated/gretchen-parlato-blue-note-tokyo-2027-01-31-discovery.json",
+      "sha256": "0ac145d4871395ae1b7c576fab46923aa17c6b272323a30ca2d083d6b19c8e95",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "gretchen-parlato-blue-note-tokyo-2027-01-31",
+          "conflict_with": "gretchen-parlato-wise-ones-blue-note-tokyo-2027-01-31",
+          "batch": "gretchen-parlato-blue-note-tokyo-2027-01-31-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "hiromi-publiquartet-new-york-2026-08-23-catchup",
+      "source_path": "radar/inbox/curated/hiromi-publiquartet-new-york-2026-08-23-catchup.json",
+      "review_path": "radar/inbox/review/curated/hiromi-publiquartet-new-york-2026-08-23-catchup.json",
+      "sha256": "995e74cb7e338c25078fcec9093cbfd177c913872dfeb28901c7bcfc3826565e",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "hiromi-piano-quintet-publiquartet-blue-note-new-york-2026-08-20",
+          "conflict_with": "hiromi-piano-quintet-publiquartet-blue-note-nyc-2026",
+          "batch": "hiromi-publiquartet-new-york-2026-08-23-catchup",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "jazz-fusion-summit-resavoir-kuroda-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/jazz-fusion-summit-resavoir-kuroda-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/jazz-fusion-summit-resavoir-kuroda-2026-08-29-discovery.json",
+      "sha256": "d256e1dcf8a2d2743f598827fd89065ab769f3336b0a1295ec49a5e5db5d4153",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "takuya-kuroda-blue-note-tokyo-2026-11-26",
+          "batch": "jazz-fusion-summit-resavoir-kuroda-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "junko-yagami-birdland-2026-11-15-discovery",
+      "source_path": "radar/inbox/curated/junko-yagami-birdland-2026-11-15-discovery.json",
+      "review_path": "radar/inbox/review/curated/junko-yagami-birdland-2026-11-15-discovery.json",
+      "sha256": "ebf692aba7237e344125ed7f62ab09d5f426d8245dcd9ad25cb20e4f3c1238a4",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "junko-yagami-pop-meets-jazz-birdland-2026-11-15",
+          "batch": "junko-yagami-birdland-2026-11-15-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "kiefer-blue-note-tokyo-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/kiefer-blue-note-tokyo-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/kiefer-blue-note-tokyo-2026-08-29-discovery.json",
+      "sha256": "4412e1d220346199289f707ec3133ab699c9f56e40801d946bff59bd9c31d7bf",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "kiefer-blue-note-tokyo-2026-11-01",
+          "batch": "kiefer-blue-note-tokyo-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "makoto-ozone-remembering-kiyoshi-kitagawa-birdland-2026-08-25-discovery",
+      "source_path": "radar/inbox/curated/makoto-ozone-remembering-kiyoshi-kitagawa-birdland-2026-08-25-discovery.json",
+      "review_path": "radar/inbox/review/curated/makoto-ozone-remembering-kiyoshi-kitagawa-birdland-2026-08-25-discovery.json",
+      "sha256": "a6102cd66dbf9d0afbe6404932f11fb449625396acf485c1d5d777ebb0520662",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "makoto-ozone-remembering-kiyoshi-kitagawa-birdland-2026-08-25",
+          "conflict_with": "makoto-ozone-trio-birdland-2026",
+          "batch": "makoto-ozone-remembering-kiyoshi-kitagawa-birdland-2026-08-25-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "marty-la-reserve-cotton-club-2026-08-26-discovery",
+      "source_path": "radar/inbox/curated/marty-la-reserve-cotton-club-2026-08-26-discovery.json",
+      "review_path": "radar/inbox/review/curated/marty-la-reserve-cotton-club-2026-08-26-discovery.json",
+      "sha256": "4e70339d3653290639e8ab74825fd5306ace2019a1c40b3ec41a3be0ce0ee27b",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "la-reserve-asia-tour-cotton-club-tokyo-2026-11-11",
+          "batch": "marty-la-reserve-cotton-club-2026-08-26-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "mastodon-deafheaven-alcest-anthem-2026-09-25-discovery",
+      "source_path": "radar/inbox/curated/mastodon-deafheaven-alcest-anthem-2026-09-25-discovery.json",
+      "review_path": "radar/inbox/review/curated/mastodon-deafheaven-alcest-anthem-2026-09-25-discovery.json",
+      "sha256": "029713cdc64fc99ac30508eb58742a6c7978a0afb56180d614413dce88579b16",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "mastodon-deafheaven-alcest-the-anthem-washington-dc-2026-09-25",
+          "conflict_with": "mastodon-deafheaven-alcest-anthem-washington-dc-2026-09-25",
+          "batch": "mastodon-deafheaven-alcest-anthem-2026-09-25-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "mcbride-ursa-wyclef-pjo-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/mcbride-ursa-wyclef-pjo-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/mcbride-ursa-wyclef-pjo-2026-08-29-discovery.json",
+      "sha256": "9809b060d90d3cd33128f3021719697b6dd40fd3a1123f98f732364000ec1211",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "christian-mcbride-ursa-major-blue-note-tokyo-2026-09-16",
+          "batch": "mcbride-ursa-wyclef-pjo-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "minyo-crusaders-hamilton-washington-dc-2026-09-24-discovery",
+      "source_path": "radar/inbox/curated/minyo-crusaders-hamilton-washington-dc-2026-09-24-discovery.json",
+      "review_path": "radar/inbox/review/curated/minyo-crusaders-hamilton-washington-dc-2026-09-24-discovery.json",
+      "sha256": "a485763c804b3f7507c1d8f601f7c9d4e7656834da9daf56bd234b7965c155c4",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "minyo-crusaders-hamilton-washington-dc-2026-09-24",
+          "conflict_with": "minyo-crusaders-2026",
+          "batch": "minyo-crusaders-hamilton-washington-dc-2026-09-24-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "one-park-sirup-rodgab-2026-08-23-discovery",
+      "source_path": "radar/inbox/curated/one-park-sirup-rodgab-2026-08-23-discovery.json",
+      "review_path": "radar/inbox/review/curated/one-park-sirup-rodgab-2026-08-23-discovery.json",
+      "sha256": "e2d4f128d3efb65f7c88ed229c3083aa3d6c8421e38a023139b9ccd213ee26ef",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "rodrigo-y-gabriela-ourhome-anthem-washington-dc-2026-10-20",
+          "conflict_with": "rodrigo-y-gabriela-the-anthem-2026-10-20",
+          "batch": "one-park-sirup-rodgab-2026-08-23-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "patitucci-osby-new-york-2026-08-30-discovery",
+      "source_path": "radar/inbox/curated/patitucci-osby-new-york-2026-08-30-discovery.json",
+      "review_path": "radar/inbox/review/curated/patitucci-osby-new-york-2026-08-30-discovery.json",
+      "sha256": "6c3984c57688a690a8873a9372118b4889f02d42b2eb0bd6678dd28b7c596a93",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "greg-osby-dancing-with-duke-birdland-new-york-2026-09-01",
+          "conflict_with": "greg-osby-dancing-with-duke-birdland-2026-09-01",
+          "batch": "patitucci-osby-new-york-2026-08-30-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "pigeons-playing-ping-pong-dc-three-night-run-2026-12-03-catchup",
+      "source_path": "radar/inbox/curated/pigeons-playing-ping-pong-dc-three-night-run-2026-12-03-catchup.json",
+      "review_path": "radar/inbox/review/curated/pigeons-playing-ping-pong-dc-three-night-run-2026-12-03-catchup.json",
+      "sha256": "7c3c990f21e4f02f913526ec8d946f294b3a9add3150b86123fc532188a439ab",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "pigeons-playing-ping-pong-the-atlantis-washington-dc-2026-12-03",
+          "conflict_with": "pigeons-playing-ping-pong-atlantis-washington-dc-2026-12-03",
+          "batch": "pigeons-playing-ping-pong-dc-three-night-run-2026-12-03-catchup",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "sadao-last-waltz-venna-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/sadao-last-waltz-venna-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/sadao-last-waltz-venna-2026-08-29-discovery.json",
+      "sha256": "788c1246ee44aee080e889bc087f6d3b7468f376475b42b92846abee01710dcc",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "venna-blue-note-tokyo-2026-11-15",
+          "batch": "sadao-last-waltz-venna-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "semantic_conflicts",
+          "id": "sadao-watanabe-new-japan-philharmonic-sumida-tokyo-2026-09-08",
+          "conflict_with": "sadao-watanabe-new-japan-philharmonic-sumida-triphony-2026-09-08",
+          "batch": "sadao-last-waltz-venna-2026-08-29-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "strathmore-four-additions-2026-08-30-discovery",
+      "source_path": "radar/inbox/curated/strathmore-four-additions-2026-08-30-discovery.json",
+      "review_path": "radar/inbox/review/curated/strathmore-four-additions-2026-08-30-discovery.json",
+      "sha256": "e1b82e59a592cb6bd04b40113e31cb044eab9002e1e4352fbbefe685976664f0",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "gustavo-santaolalla-ronroco-tour-strathmore-north-bethesda-2027-04-15",
+          "conflict_with": "gustavo-santaolalla-ronroco-strathmore-2027-04-15",
+          "batch": "strathmore-four-additions-2026-08-30-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        },
+        {
+          "kind": "semantic_conflicts",
+          "id": "beatrio-fleck-castaneda-sanchez-strathmore-north-bethesda-2027-05-16",
+          "conflict_with": "beatrio-strathmore-2027-05-16",
+          "batch": "strathmore-four-additions-2026-08-30-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "tank-and-the-bangas-blue-note-tokyo-2026-08-30-discovery",
+      "source_path": "radar/inbox/curated/tank-and-the-bangas-blue-note-tokyo-2026-08-30-discovery.json",
+      "review_path": "radar/inbox/review/curated/tank-and-the-bangas-blue-note-tokyo-2026-08-30-discovery.json",
+      "sha256": "d9f39ac3766bcbc54df44b5846b4b58022109c74605bbe6ee3b46637947442ba",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "tank-and-the-bangas-blue-note-tokyo-2026-12-11",
+          "conflict_with": "tank-and-the-bangas-last-balloon-blue-note-tokyo-2026-12-11",
+          "batch": "tank-and-the-bangas-blue-note-tokyo-2026-08-30-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "the-bad-plus-blue-note-tokyo-2026-08-30-discovery",
+      "source_path": "radar/inbox/curated/the-bad-plus-blue-note-tokyo-2026-08-30-discovery.json",
+      "review_path": "radar/inbox/review/curated/the-bad-plus-blue-note-tokyo-2026-08-30-discovery.json",
+      "sha256": "a28f9e49afcaea3763020cc15431cc0c88cd1c24d8a9c412daa9042478227651",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "the-bad-plus-blue-note-tokyo-2026-10-17",
+          "conflict_with": "the-bad-plus-farewell-blue-note-tokyo-2026-10-17",
+          "batch": "the-bad-plus-blue-note-tokyo-2026-08-30-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "three-visitors-clarke-hiromi-2026-08-26-discovery",
+      "source_path": "radar/inbox/curated/three-visitors-clarke-hiromi-2026-08-26-discovery.json",
+      "review_path": "radar/inbox/review/curated/three-visitors-clarke-hiromi-2026-08-26-discovery.json",
+      "sha256": "35db6c8e3ba956d103ffa58ec274ccdd0b4f63b942d49128363de6b2b5d0f6c5",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "three-visitors-cotton-club-tokyo-2026-12-13",
+          "batch": "three-visitors-clarke-hiromi-2026-08-26-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "conflicts",
+          "id": "three-visitors-blue-note-tokyo-2026-12-15",
+          "batch": "three-visitors-clarke-hiromi-2026-08-26-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "tigran-senri-shag-clarice-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/tigran-senri-shag-clarice-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/tigran-senri-shag-clarice-2026-08-29-discovery.json",
+      "sha256": "aefb6595defd837e3263ac620d370070dce02e5f19914fbf2cb92e5b81f96254",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "tigran-hamasyan-billboard-live-tokyo-2026-10-18",
+          "batch": "tigran-senri-shag-clarice-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "tokyo-dmv-crossgenre-2026-08-28-discovery",
+      "source_path": "radar/inbox/curated/tokyo-dmv-crossgenre-2026-08-28-discovery.json",
+      "review_path": "radar/inbox/review/curated/tokyo-dmv-crossgenre-2026-08-28-discovery.json",
+      "sha256": "0398c7c5c102d96c19d539395111c4871cd91fb817f82625c47e34aedc1d14cd",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "mike-stern-band-blue-note-tokyo-2026-09-01",
+          "batch": "tokyo-dmv-crossgenre-2026-08-28-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "conflicts",
+          "id": "the-residents-eskimo-blue-note-tokyo-2026-09-07",
+          "batch": "tokyo-dmv-crossgenre-2026-08-28-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "conflicts",
+          "id": "three-visitors-cotton-club-tokyo-2026-12-13",
+          "batch": "tokyo-dmv-crossgenre-2026-08-28-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "semantic_conflicts",
+          "id": "marty-friedman-cotton-club-tokyo-2026-09-28",
+          "conflict_with": "marty-friedman-asterism-nanase-cotton-club-tokyo-2026-09-28",
+          "batch": "tokyo-dmv-crossgenre-2026-08-28-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        },
+        {
+          "kind": "semantic_conflicts",
+          "id": "the-residents-eskimo-930-club-washington-dc-2026-10-17",
+          "conflict_with": "the-residents-eskimo-live-930-club-washington-dc-2026-10-17",
+          "batch": "tokyo-dmv-crossgenre-2026-08-28-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "tokyo-murata-pjo-2026-08-22-catchup",
+      "source_path": "radar/inbox/curated/tokyo-murata-pjo-2026-08-22-catchup.json",
+      "review_path": "radar/inbox/review/curated/tokyo-murata-pjo-2026-08-22-catchup.json",
+      "sha256": "b2a1828ebc0f530726865d03a2ae60373b227979e22fdc868f37a73c8daebc75",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "pacific-jazz-orchestra-blue-note-tokyo-2026-11-20",
+          "batch": "tokyo-murata-pjo-2026-08-22-catchup",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "us-v-them-platina-jazz-2026-08-30-discovery",
+      "source_path": "radar/inbox/curated/us-v-them-platina-jazz-2026-08-30-discovery.json",
+      "review_path": "radar/inbox/review/curated/us-v-them-platina-jazz-2026-08-30-discovery.json",
+      "sha256": "106f810d70cb20c21c113714ce724815688351b8f8342b7f31a62447e9d30229",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "platina-jazz-cotton-club-tokyo-2026-11-29",
+          "batch": "us-v-them-platina-jazz-2026-08-30-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        }
+      ]
+    },
+    {
+      "batch_id": "wooten-brothers-hamilton-washington-dc-2026-09-09-discovery",
+      "source_path": "radar/inbox/curated/wooten-brothers-hamilton-washington-dc-2026-09-09-discovery.json",
+      "review_path": "radar/inbox/review/curated/wooten-brothers-hamilton-washington-dc-2026-09-09-discovery.json",
+      "sha256": "73fce899bb5edcba8921433f9d3d6a882c87b1dfaecc45d154abced21857e607",
+      "conflicts": [
+        {
+          "kind": "semantic_conflicts",
+          "id": "wooten-brothers-hamilton-washington-dc-2026-09-13",
+          "conflict_with": "wooten-brothers-2026",
+          "batch": "wooten-brothers-hamilton-washington-dc-2026-09-09-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "yamamoto-bodyandsoul-finale-dmv-philly-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/yamamoto-bodyandsoul-finale-dmv-philly-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/yamamoto-bodyandsoul-finale-dmv-philly-2026-08-29-discovery.json",
+      "sha256": "ca4a99dc9c952a9b6c75f742029840df70eaa3dd7006d7ec0e6d3056729db347",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "surprise-chef-hamilton-washington-dc-2026-11-11",
+          "batch": "yamamoto-bodyandsoul-finale-dmv-philly-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "conflicts",
+          "id": "daniel-lanois-trio-hamilton-washington-dc-2026-11-12",
+          "batch": "yamamoto-bodyandsoul-finale-dmv-philly-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "semantic_conflicts",
+          "id": "toku-tsuyoshi-yamamoto-body-and-soul-tokyo-2026-09-26",
+          "conflict_with": "toku-tsuyoshi-yamamoto-group-body-and-soul-2026-09-26",
+          "batch": "yamamoto-bodyandsoul-finale-dmv-philly-2026-08-29-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    },
+    {
+      "batch_id": "yamamoto-bodyandsoul-strathmore-mcbride-2026-08-29-discovery",
+      "source_path": "radar/inbox/curated/yamamoto-bodyandsoul-strathmore-mcbride-2026-08-29-discovery.json",
+      "review_path": "radar/inbox/review/curated/yamamoto-bodyandsoul-strathmore-mcbride-2026-08-29-discovery.json",
+      "sha256": "538b2f18ca3c592c0652bbcc98c1364c0fd475e9fe8295b60e599f310644e718",
+      "conflicts": [
+        {
+          "kind": "conflicts",
+          "id": "banksia-trio-body-and-soul-tokyo-2026-09-08",
+          "batch": "yamamoto-bodyandsoul-strathmore-mcbride-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "conflicts",
+          "id": "terence-blanchard-ravi-coltrane-strathmore-2026-11-21",
+          "batch": "yamamoto-bodyandsoul-strathmore-mcbride-2026-08-29-discovery",
+          "reason": "canonical or earlier batch already has this id"
+        },
+        {
+          "kind": "semantic_conflicts",
+          "id": "kimiko-ito-tsuyoshi-yamamoto-body-and-soul-tokyo-2026-09-06",
+          "conflict_with": "kimiko-ito-tsuyoshi-yamamoto-body-and-soul-2026-09-06",
+          "batch": "yamamoto-bodyandsoul-strathmore-mcbride-2026-08-29-discovery",
+          "reason": "same venue, overlapping dates, and normalized artist/project identity"
+        }
+      ]
+    }
+  ],
+  "active_summary": {
+    "added": 550,
+    "blocked": 1,
+    "conflicts": 28,
+    "semantic_conflicts": 24
+  }
+}

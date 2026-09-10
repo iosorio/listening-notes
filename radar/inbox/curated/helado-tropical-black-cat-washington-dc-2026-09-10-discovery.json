@@ -66,9 +66,11 @@
           "apple_music_url": "https://music.apple.com/us/album/helado-tropical/1892412012"
         }
       ],
-      "enrichment": {
-        "status": "complete",
-        "missing": [],
+    "enrichment": {
+      "status": "pending",
+      "missing": [
+        "official_tickets"
+      ],
         "note": "Black Cat verifies the date, exact billing and 7:00 PM door time but does not expose a separate showtime or stable event-specific authorized ticket URL in the accessible page; those fields remain unset rather than inferred. Psychic Hotline verifies the collaborative album, release date and core sonic construction; Pitchfork verifies the first headline-tour context. Exact touring personnel beyond Helado Negro and Reyna Tropical were not announced by the verified event source. The exact Apple Music destination for the collaborative album was verified."
       },
       "sources": [
