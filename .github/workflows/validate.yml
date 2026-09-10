@@ -51,7 +51,9 @@ jobs:
           git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/research \
             | grep -E '^radar/inbox/research/[^/]+\.json$' \
             | while IFS= read -r batch; do
-                [ -f "$batch" ] && python scripts/validate_research_enrichment.py "$batch"
+                if [ -f "$batch" ]; then
+                  python scripts/validate_research_enrichment.py "$batch"
+                fi
               done
       - name: Dry-run changed reviewed enrichment patches
         if: github.event_name == 'pull_request' || github.event_name == 'push'
@@ -61,7 +63,9 @@ jobs:
           git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/curated/enrichment \
             | grep -E '^radar/inbox/curated/enrichment/[^/]+\.json$' \
             | while IFS= read -r batch; do
-                [ -f "$batch" ] && python scripts/merge_enrichment_patches.py --batch "$batch" --dry-run
+                if [ -f "$batch" ]; then
+                  python scripts/merge_enrichment_patches.py --batch "$batch" --dry-run
+                fi
               done
       - name: Dry-run changed new-event candidates
         if: github.event_name == 'pull_request' || github.event_name == 'push'
@@ -71,7 +75,9 @@ jobs:
           git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/curated \
             | grep -E '^radar/inbox/curated/[^/]+\.json$' \
             | while IFS= read -r batch; do
-                [ -f "$batch" ] && python scripts/merge_inbox.py --batch "$batch" --dry-run
+                if [ -f "$batch" ]; then
+                  python scripts/merge_inbox.py --batch "$batch" --dry-run
+                fi
               done
       - name: Audit the complete RADAR backlog
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'

@@ -40,7 +40,9 @@ jobs:
           git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/curated/enrichment \
             | grep -E '^radar/inbox/curated/enrichment/[^/]+\.json$' \
             | while IFS= read -r batch; do
-                [ -f "$batch" ] && python scripts/merge_enrichment_patches.py --batch "$batch"
+                if [ -f "$batch" ]; then
+                  python scripts/merge_enrichment_patches.py --batch "$batch"
+                fi
               done
 
       - name: Merge curated RADAR inbox
@@ -50,7 +52,9 @@ jobs:
           git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/curated \
             | grep -E '^radar/inbox/curated/[^/]+\.json$' \
             | while IFS= read -r batch; do
-                [ -f "$batch" ] && python scripts/merge_inbox.py --batch "$batch"
+                if [ -f "$batch" ]; then
+                  python scripts/merge_inbox.py --batch "$batch"
+                fi
               done
 
       - name: Validate canonical RADAR dataset
