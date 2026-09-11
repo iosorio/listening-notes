@@ -1,0 +1,1165 @@
+{
+  "schema_version": 1,
+  "policy": "Venue identity is declarative. Events and active candidates must use only canonical IDs and identity fields; aliases are retained for normalization and audit.",
+  "venues": {
+    "blues-alley-washington-dc": {
+      "name": "Blues Alley",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "jazz-house-alfie-roppongi": {
+      "name": "Jazz House ALFIE",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "keystone-korner-baltimore": {
+      "name": "Keystone Korner Baltimore",
+      "city": "Baltimore",
+      "state": "MD",
+      "country": "US",
+      "aliases": {
+        "ids": [
+          "keystone-korner-baltimore-md"
+        ],
+        "names": [
+          "Keystone Korner"
+        ],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Keystone Korner Baltimore is the canonical venue identity.",
+        "source": "Canonical RADAR identity reconciliation",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "blue-note-tokyo-minamiaoyama": {
+      "name": "Blue Note Tokyo",
+      "city": "Minato, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [
+          "blue-note-tokyo-aoyama",
+          "blue-note-tokyo-minami-aoyama",
+          "blue-note-tokyo"
+        ],
+        "names": [
+          "Blue Note Tokyo"
+        ],
+        "cities": [
+          "Tokyo",
+          "Minami-Aoyama, Tokyo"
+        ]
+      },
+      "normalization": {
+        "reason": "Legacy Blue Note Tokyo IDs and city spellings identify the same Minami-Aoyama venue.",
+        "source": "https://www.bluenote.co.jp/jp/",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "nationals-park-washington-dc": {
+      "name": "Nationals Park",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "kichijoji-sometime-tokyo": {
+      "name": "吉祥寺 SOMETIME",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "village-vanguard-new-york": {
+      "name": "Village Vanguard",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [
+          "village-vanguard-new-york-ny"
+        ],
+        "names": [],
+        "cities": [
+          "NYC"
+        ]
+      },
+      "normalization": {
+        "reason": "Village Vanguard uses the canonical New York location.",
+        "source": "Canonical RADAR identity reconciliation",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "smoke-jazz-club-new-york": {
+      "name": "Smoke Jazz Club",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "blue-note-jazz-club-new-york": {
+      "name": "Blue Note Jazz Club",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "the-rooftop-at-pier-17-new-york": {
+      "name": "The Rooftop at Pier 17",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "filene-center-wolf-trap-vienna-va": {
+      "name": "Filene Center at Wolf Trap",
+      "city": "Vienna",
+      "state": "VA",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "the-stone-at-the-new-school-new-york": {
+      "name": "The Stone at The New School",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "xfinity-mobile-arena-philadelphia": {
+      "name": "Xfinity Mobile Arena",
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "richard-rodgers-amphitheater-marcus-garvey-park-new-york": {
+      "name": "Richard Rodgers Amphitheater at Marcus Garvey Park",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "a-train-gakugei-daigaku-tokyo": {
+      "name": "A-TRAIN",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "cotton-club-marunouchi-tokyo": {
+      "name": "COTTON CLUB",
+      "city": "Chiyoda, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [
+          "cotton-club-tokyo-marunouchi",
+          "cotton-club-tokyo"
+        ],
+        "names": [
+          "Cotton Club"
+        ],
+        "cities": [
+          "Tokyo",
+          "Marunouchi, Tokyo"
+        ]
+      },
+      "normalization": {
+        "reason": "COTTON CLUB is the official styling; Chiyoda, Tokyo distinguishes its venue location.",
+        "source": "https://www.cottonclubjapan.co.jp/",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "birdland-jazz-club-new-york": {
+      "name": "Birdland Jazz Club",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "space-ma-hachioji-tokyo": {
+      "name": "Space M&A",
+      "city": "Hachioji",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "www-x-shibuya-tokyo": {
+      "name": "WWW X",
+      "city": "Shibuya, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "yokohama-jazz-first-yokohama": {
+      "name": "YOKOHAMA JAZZ FIRST",
+      "city": "Yokohama",
+      "state": "Kanagawa",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "billboard-live-tokyo-roppongi": {
+      "name": "Billboard Live Tokyo",
+      "city": "Minato, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "the-wharf-washington-dc": {
+      "name": "The Wharf",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "body-and-soul-shibuya-tokyo": {
+      "name": "BODY&SOUL",
+      "city": "Shibuya, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "arena-stage-washington-dc": {
+      "name": "Arena Stage",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "sumida-triphony-hall-tokyo": {
+      "name": "Sumida Triphony Hall — Main Hall",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "the-hamilton-live-washington-dc": {
+      "name": "The Hamilton Live",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "keystone-club-tokyo-roppongi": {
+      "name": "KEYSTONE CLUB TOKYO",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "music-center-at-strathmore-north-bethesda": {
+      "name": "The Music Center at Strathmore",
+      "city": "North Bethesda",
+      "state": "MD",
+      "country": "US",
+      "aliases": {
+        "ids": [
+          "strathmore-north-bethesda"
+        ],
+        "names": [
+          "Strathmore"
+        ],
+        "cities": [
+          "Bethesda"
+        ]
+      },
+      "normalization": {
+        "reason": "The Music Center at Strathmore is in North Bethesda.",
+        "source": "Canonical RADAR identity reconciliation",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "rose-theater-jazz-at-lincoln-center-new-york": {
+      "name": "Rose Theater at Jazz at Lincoln Center",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [
+          "rose-theater-frederick-p-rose-hall-new-york",
+          "rose-theater-frederick-p-rose-hall-nyc",
+          "rose-theater-jazz-at-lincoln-center-new-york-ny"
+        ],
+        "names": [
+          "Rose Theater at Frederick P. Rose Hall",
+          "Rose Theater, Frederick P. Rose Hall"
+        ],
+        "cities": [
+          "New York City"
+        ]
+      },
+      "normalization": {
+        "reason": "Jazz at Lincoln Center's official pages identify Rose Theater at Frederick P. Rose Hall in New York; observed IDs and display variants refer to it.",
+        "source": "https://jazz.org/concert/paquito-drivera-plays-the-music-of-chick-corea-with-symphony-orchestra-featuring-josep-vicent-and-emilio-solla-trio/",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "adler-hall-new-york-society-ethical-culture-new-york": {
+      "name": "New York Society for Ethical Culture — Adler Hall",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "howard-theatre-washington-dc": {
+      "name": "Howard Theatre",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "dizzys-club-new-york": {
+      "name": "Dizzy's Club at Jazz at Lincoln Center",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "td-pavilion-highmark-mann-philadelphia": {
+      "name": "TD Pavilion at Highmark Mann",
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "the-anthem-washington-dc": {
+      "name": "The Anthem",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [
+          "anthem-washington-dc"
+        ],
+        "names": [
+          "Anthem"
+        ],
+        "cities": [
+          "Washington"
+        ]
+      },
+      "normalization": {
+        "reason": "The official venue styles its name as The Anthem and the District city as Washington, DC.",
+        "source": "Canonical RADAR identity reconciliation",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "philadelphia-clef-club-philadelphia": {
+      "name": "Philadelphia Clef Club of Jazz & Performing Arts",
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "kawasaki-shimin-plaza-furusato-theater-kawasaki": {
+      "name": "Kawasaki Shimin Plaza — Furusato Theater",
+      "city": "Kawasaki",
+      "state": "Kanagawa",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "merriweather-post-pavilion-columbia-md": {
+      "name": "Merriweather Post Pavilion",
+      "city": "Columbia",
+      "state": "MD",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "dai-ichi-seimei-hall-tokyo": {
+      "name": "Dai-ichi Seimei Hall",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "sixth-and-i-washington-dc": {
+      "name": "Sixth & I",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "ginza-swing-tokyo": {
+      "name": "Ginza Swing",
+      "city": "Chuo-ku, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "prudential-hall-njpac-newark": {
+      "name": "Prudential Hall at NJPAC",
+      "city": "Newark",
+      "state": "NJ",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "930-club-washington-dc": {
+      "name": "9:30 Club",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "carnegie-hall-stern-auditorium-new-york": {
+      "name": "Carnegie Hall — Stern Auditorium / Perelman Stage",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "capital-one-arena-washington-dc": {
+      "name": "Capital One Arena",
+      "city": "Washington, DC",
+      "state": "DC",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "zellerbach-theatre-annenberg-center-philadelphia": {
+      "name": "Zellerbach Theatre at the Annenberg Center",
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "kanadevia-hall-bunkyo-tokyo": {
+      "name": "Kanadevia Hall",
+      "city": "Bunkyo, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [
+          "kanadevia-hall-tokyo"
+        ],
+        "names": [],
+        "cities": [
+          "Tokyo"
+        ]
+      },
+      "normalization": {
+        "reason": "Kanadevia Hall is located in Bunkyo, Tokyo.",
+        "source": "Canonical RADAR identity reconciliation",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "city-winery-philadelphia": {
+      "name": "City Winery Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "victoria-theater-njpac-newark": {
+      "name": "Victoria Theater at NJPAC",
+      "city": "Newark",
+      "state": "NJ",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "musashino-civic-cultural-hall-musashino-tokyo": {
+      "name": "Musashino Civic Cultural Hall",
+      "city": "Musashino",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "the-theater-at-mgm-national-harbor-oxon-hill": {
+      "name": "The Theater at MGM National Harbor",
+      "city": "Oxon Hill",
+      "state": "MD",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "temple-performing-arts-center-philadelphia": {
+      "name": "Temple Performing Arts Center",
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "le-poisson-rouge-new-york": {
+      "name": "Le Poisson Rouge",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "muza-kawasaki-symphony-hall-kawasaki": {
+      "name": "Muza Kawasaki Symphony Hall",
+      "city": "Kawasaki",
+      "state": "Kanagawa",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "birdland-theater-new-york": {
+      "name": "Birdland Theater",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "bunkamura-orchard-hall-shibuya-tokyo": {
+      "name": "Bunkamura Orchard Hall",
+      "city": "Shibuya, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "meguro-persimmon-hall-tokyo": {
+      "name": "Meguro Persimmon Hall — Main Hall",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "suntory-hall-tokyo": {
+      "name": "Suntory Hall — Main Hall",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "the-barns-wolf-trap-vienna-va": {
+      "name": "The Barns at Wolf Trap",
+      "city": "Vienna",
+      "state": "VA",
+      "country": "US",
+      "aliases": {
+        "ids": ["the-barns-at-wolf-trap-vienna-va"],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Wolf Trap identifies The Barns at Wolf Trap in Vienna, Virginia; the active inbox used the observed ID alias.",
+        "source": "https://www.wolftrap.org/shows/venues/the-barns/",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "tokyo-international-forum-hall-a": {
+      "name": "Tokyo International Forum Hall A",
+      "city": "Chiyoda, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "baltimore-soundstage": {
+      "name": "Baltimore Soundstage",
+      "city": "Baltimore",
+      "state": "MD",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "the-appel-room-jazz-at-lincoln-center-new-york": {
+      "name": "The Appel Room at Jazz at Lincoln Center",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "national-sawdust-brooklyn-ny": {
+      "name": "National Sawdust",
+      "city": "Brooklyn",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    },
+    "blues-alley-japan-meguro": {
+      "name": "BLUES ALLEY JAPAN",
+      "city": "Meguro, Tokyo",
+      "state": "Tokyo",
+      "country": "JP",
+      "aliases": {"ids": ["blues-alley-japan-meguro-tokyo"], "names": [], "cities": []},
+      "normalization": {"reason": "The venue's official access page gives its Meguro, Tokyo address; both observed IDs identify that venue.", "source": "https://www.bluesalley.co.jp/aboutus/access.html", "recorded_on": "2026-09-10"}
+    },
+    "roulette-brooklyn": {
+      "name": "Roulette",
+      "city": "Brooklyn",
+      "state": "NY",
+      "country": "US",
+      "aliases": {"ids": ["roulette-brooklyn-ny"], "names": [], "cities": []},
+      "normalization": {"reason": "Roulette's official contact page gives its Brooklyn, New York physical address; both observed IDs identify that venue.", "source": "https://roulette.org/contact/", "recorded_on": "2026-09-10"}
+    },
+    "music-center-at-strathmore-north-bethesda-md": {
+      "name": "Music Center at Strathmore", "city": "North Bethesda", "state": "MD", "country": "US",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "Strathmore's official event pages identify its Music Center in North Bethesda, Maryland.", "source": "https://www.strathmore.org/", "recorded_on": "2026-09-10"}
+    },
+    "billboard-live-yokohama": {
+      "name": "Billboard Live YOKOHAMA", "city": "Yokohama", "state": "Kanagawa", "country": "JP",
+      "aliases": {"ids": ["billboard-live-yokohama-kitanaka"], "names": ["Billboard Live Yokohama"], "cities": []},
+      "normalization": {"reason": "The official site styles the venue Billboard Live YOKOHAMA and identifies the Kitanaka area in Yokohama, Kanagawa.", "source": "https://www.billboard-live.com/en/yokohama", "recorded_on": "2026-09-10"}
+    },
+    "shinjuku-pit-inn-tokyo": {
+      "name": "Shinjuku PIT INN", "city": "Shinjuku, Tokyo", "state": "Tokyo", "country": "JP",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "Official PIT INN performance pages identify the Shinjuku venue.", "source": "https://pit-inn.com/", "recorded_on": "2026-09-10"}
+    },
+    "billboard-live-tokyo": {
+      "name": "Billboard Live Tokyo", "city": "Tokyo", "state": "Tokyo", "country": "JP",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "Official Billboard Live Tokyo event pages identify this Tokyo venue.", "source": "https://www.billboard-live.com/tokyo/", "recorded_on": "2026-09-10"}
+    },
+    "solar-myth-philadelphia": {
+      "name": "Solar Myth", "city": "Philadelphia", "state": "PA", "country": "US",
+      "aliases": {"ids": ["solar-myth-philadelphia-pa"], "names": [], "cities": []},
+      "normalization": {"reason": "Ars Nova Workshop's official program pages identify Solar Myth in Philadelphia, Pennsylvania.", "source": "https://www.arsnovaworkshop.org/", "recorded_on": "2026-09-10"}
+    },
+    "rhizome-dc-washington-dc": {
+      "name": "Rhizome DC", "city": "Washington, DC", "state": "DC", "country": "US",
+      "aliases": {"ids": [], "names": [], "cities": ["Washington"]},
+      "normalization": {"reason": "Rhizome DC's official event pages identify the Washington, DC venue; Washington is an observed legacy city spelling.", "source": "https://www.rhizomedc.org/", "recorded_on": "2026-09-10"}
+    },
+    "the-jazz-gallery-new-york-ny": {
+      "name": "The Jazz Gallery", "city": "New York", "state": "NY", "country": "US",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "The Jazz Gallery's official contact page gives its New York, NY address.", "source": "https://jazzgallery.org/contact", "recorded_on": "2026-09-10"}
+    },
+    "birchmere-alexandria-va": {
+      "name": "The Birchmere", "city": "Alexandria", "state": "VA", "country": "US",
+      "aliases": {"ids": [], "names": ["Birchmere"], "cities": []},
+      "normalization": {"reason": "The venue's official event listings identify The Birchmere in Alexandria, Virginia.", "source": "https://www.birchmere.com/", "recorded_on": "2026-09-10"}
+    },
+    "library-of-congress-coolidge-auditorium-washington-dc": {"name":"Library of Congress — Coolidge Auditorium","city":"Washington, DC","state":"DC","country":"US","aliases":{"ids":[],"names":[],"cities":[]},"normalization":{"reason":"Official Library of Congress event page identifies Coolidge Auditorium in Washington, DC.","source":"https://www.loc.gov/item/event-421696/bennewitz-quartet-with-arsentiy-kharitonov/2026-11-13/","recorded_on":"2026-09-10"}},
+    "mandell-theater-drexel-philadelphia-pa": {"name":"Mandell Theater","city":"Philadelphia","state":"PA","country":"US","aliases":{"ids":[],"names":[],"cities":[]},"normalization":{"reason":"Official Drexel-hosted program identifies Mandell Theater in Philadelphia.","source":"https://www.arsnovaworkshop.org/programs/sun-ra-arkestra-performs-the-music-of-john-coltrane/","recorded_on":"2026-09-10"}},
+    "mansion-at-strathmore-north-bethesda-md": {"name":"The Mansion at Strathmore","city":"North Bethesda","state":"MD","country":"US","aliases":{"ids":[],"names":[],"cities":[]},"normalization":{"reason":"Official Strathmore event page identifies The Mansion at Strathmore in North Bethesda, Maryland.","source":"https://www.strathmore.org/events-tickets/whats-on-in-the-mansion/inti-figgis-vizueta-s-music-for-transitions/","recorded_on":"2026-09-10"}},
+    "perelman-theater-kimmel-center-philadelphia-pa": {"name":"Perelman Theater, Kimmel Center","city":"Philadelphia","state":"PA","country":"US","aliases":{"ids":["kimmel-center-perelman-theater-philadelphia"],"names":["Kimmel Center - Perelman Theater"],"cities":[]},"normalization":{"reason":"Official Kimmel Center presenter material identifies Perelman Theater in Philadelphia.","source":"https://www.pcmsconcerts.org/concerts/don-liuzzi-and-friends/","recorded_on":"2026-09-10"}},
+    "the-atlantis-washington-dc": {"name":"The Atlantis","city":"Washington, DC","state":"DC","country":"US","aliases":{"ids":[],"names":[],"cities":["Washington"]},"normalization":{"reason":"The Atlantis official event pages identify the Washington, DC venue; Washington is an observed legacy city spelling.","source":"https://theatlantis.com/e/devotchka/","recorded_on":"2026-09-10"}},
+    "blue-note-place-ebisu-tokyo": {
+      "name": "Blue Note Place", "city": "Shibuya, Tokyo", "state": "Tokyo", "country": "JP",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "BLUE NOTE PLACE's official guide gives its Ebisu, Shibuya, Tokyo address.", "source": "https://www.bluenoteplace.jp/guide/", "recorded_on": "2026-09-10"}
+    },
+    "fillmore-silver-spring-silver-spring-md": {
+      "name": "The Fillmore Silver Spring", "city": "Silver Spring", "state": "MD", "country": "US",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "Live Nation's official venue page identifies The Fillmore Silver Spring in Silver Spring, Maryland.", "source": "https://premium.livenation.com/venue/the-fillmore-silver-spring", "recorded_on": "2026-09-10"}
+    },
+    "keystone-club-tokyo": {
+      "name": "KEYSTONE CLUB TOKYO", "city": "Minato, Tokyo", "state": "Tokyo", "country": "JP",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "The venue's official access page gives its Roppongi, Minato, Tokyo address.", "source": "https://keystoneclubtokyo.com/html/access/", "recorded_on": "2026-09-10"}
+    },
+    "songbyrd-music-house-washington-dc": {
+      "name": "Songbyrd Music House", "city": "Washington, DC", "state": "DC", "country": "US",
+      "aliases": {"ids": [], "names": [], "cities": ["Washington"]},
+      "normalization": {"reason": "Songbyrd's official site identifies the venue in Washington, DC; Washington is an observed inbox city variant.", "source": "https://songbyrddc.com/contact/", "recorded_on": "2026-09-10"}
+    },
+    "the-pocket-new-york": {
+      "name": "The Pocket", "city": "New York", "state": "NY", "country": "US",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "The Pocket's official site gives its New York City address.", "source": "https://thepocketnyc.com/", "recorded_on": "2026-09-10"}
+    },
+    "toyosu-pit-tokyo": {
+      "name": "Toyosu PIT", "city": "Koto, Tokyo", "state": "Tokyo", "country": "JP",
+      "aliases": {"ids": [], "names": [], "cities": ["Tokyo"]},
+      "normalization": {"reason": "Toyosu PIT's official access information gives its Toyosu, Koto, Tokyo address; Tokyo is the observed inbox city form.", "source": "https://toyosu.pia-pit.jp/", "recorded_on": "2026-09-10"}
+    },
+    "victoria-theater-njpac-newark-nj": {
+      "name": "Victoria Theater at NJPAC", "city": "Newark", "state": "NJ", "country": "US",
+      "aliases": {"ids": [], "names": ["Victoria Theater, New Jersey Performing Arts Center"], "cities": []},
+      "normalization": {"reason": "NJPAC's official venue page identifies Victoria Theater at its Newark, New Jersey campus.", "source": "https://www.njpac.org/venue-rentals/", "recorded_on": "2026-09-10"}
+    },
+    "wu-tsai-theater-david-geffen-hall-new-york": {
+      "name": "Wu Tsai Theater, David Geffen Hall", "city": "New York", "state": "NY", "country": "US",
+      "aliases": {"ids": [], "names": [], "cities": []},
+      "normalization": {"reason": "Lincoln Center identifies Wu Tsai Theater inside David Geffen Hall at 10 Lincoln Center Plaza, New York, NY.", "source": "https://www.lincolncenter.org/series/american-songbook/v/visit", "recorded_on": "2026-09-10"}
+    },
+    "zankel-hall-carnegie-hall-new-york": {
+      "name": "Zankel Hall at Carnegie Hall",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "aliases": {
+        "ids": [],
+        "names": [],
+        "cities": []
+      },
+      "normalization": {
+        "reason": "Canonical baseline imported from radar/events.json during the reproducible venue-identity migration.",
+        "source": "radar/events.json",
+        "recorded_on": "2026-09-10"
+      }
+    }
+  }
+}

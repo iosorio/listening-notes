@@ -192,3 +192,30 @@ access token, Apple Music credential, or deploy key. The job requests only
 repository-wide Actions default at read access and keep “Allow GitHub Actions
 to create and approve pull requests” disabled. GitHub Pages continues to serve
 `main` from the repository root without a deployment secret.
+
+## Deterministic venue identity and pre-ingest decisions
+
+`radar/venue_identities.json` is the versioned source for canonical venue IDs,
+display identities, retired aliases, and normalization rationale. The canonical
+dataset and each active candidate must use its canonical values. Do not add a
+venue alias in Python.
+
+Before a migration, generate a read-only decision manifest:
+
+```sh
+python3 scripts/plan_radar_intake.py --wip-ref 'stash@{0}' > radar-audit/intake-plan.json
+```
+
+The planner records each input hash, route, candidate diff, match evidence, and
+one of `create`, `merge`, `replace`, `archive_duplicate`, or `review`. An
+identical ID, an exact official-event URL, or an exact ticket URL paired with
+identical artist identity, canonical venue, and overlapping date is the only
+automatically permitted duplicate archive. Similar artist, venue, and date records remain in
+`review`, particularly when official URLs, times, lineup, or source evidence
+may describe separate performances. A `replace` needs separately documented
+official evidence, old and new values, rationale, and date.
+
+`materialize_radar_intake.py` never consumes WIP directly. It only splits
+active batches when their plan and source hashes still match; it validates the
+residual candidates in a temporary directory before writing and preserves
+duplicate JSON under `radar/inbox/review/decisions/`.

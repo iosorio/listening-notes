@@ -26,7 +26,7 @@ def event(event_id="test-artist-2026"):
         "subtitle": None,
         "dates": {"start": "2026-09-01", "end": None},
         "showtimes": [],
-        "venue": {"id": "test-venue-city", "name": "Test Venue", "city": "City", "state": "State", "country": "US"},
+        "venue": {"id": "the-anthem-washington-dc", "name": "The Anthem", "city": "Washington, DC", "state": "DC", "country": "US"},
         "geographic_domain": "us_corridor",
         "geography": "Local",
         "priority": "S",

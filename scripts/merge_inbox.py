@@ -15,6 +15,11 @@ from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+try:
+    from .venue_identity import VenueIdentityError, canonicalize_venue, load_registry
+except ImportError:  # Direct script execution.
+    from venue_identity import VenueIdentityError, canonicalize_venue, load_registry
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CANONICAL = ROOT / "radar/events.json"
@@ -161,6 +166,14 @@ def normalize(candidate: dict) -> tuple[dict, list[str]]:
     attendance.setdefault("notes", None)
     attendance.setdefault("setlist", None)
     attendance.setdefault("photo_paths", [])
+    try:
+        event["venue"], venue_changes = canonicalize_venue(event.get("venue", {}), load_registry())
+    except VenueIdentityError as error:
+        fail(f"{event.get('id', '<unknown>')}: {error}")
+    changes.extend(
+        f"{change['field']}={change['after']!r} (was {change['before']!r})"
+        for change in venue_changes
+    )
     return event, changes
 
 

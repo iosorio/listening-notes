@@ -5,6 +5,7 @@ on:
     paths:
       - 'radar/events.json'
       - 'radar/signals.json'
+      - 'radar/venue_identities.json'
       - 'radar/inbox/curated/*.json'
       - 'radar/inbox/curated/enrichment/*.json'
       - 'radar/inbox/research/*.json'
@@ -95,6 +96,7 @@ jobs:
             set -e
             printf '%s exit=%s\n' "$name" "$code" >> radar-audit/summary.txt
           done
+          python scripts/plan_radar_intake.py > radar-audit/intake-plan.json
           cp radar/inbox/review/curated/conflicts.json radar-audit/historical-conflicts.json
       - name: Upload RADAR backlog audit
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'

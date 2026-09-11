@@ -10,6 +10,8 @@ on:
       - 'scripts/enrichment_common.py'
       - 'scripts/merge_enrichment_patches.py'
       - 'scripts/validate_events.py'
+      - 'scripts/venue_identity.py'
+      - 'radar/venue_identities.json'
       - 'tests/*.py'
       - '.github/workflows/radar-ingest.yml'
 

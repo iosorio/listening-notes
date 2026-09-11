@@ -8,6 +8,11 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
+try:
+    from .venue_identity import VenueIdentityError, load_registry, validate_venue
+except ImportError:  # Direct script execution.
+    from venue_identity import VenueIdentityError, load_registry, validate_venue
+
 PRIORITIES = {"S+", "S", "A+", "A"}
 STATUSES = {"considering", "going", "attended", "passed"}
 DOMAINS = {"tokyo_kanto", "us_corridor", "north_america", "rest_of_world"}
@@ -17,23 +22,6 @@ ATTENDANCE_EVIDENCE = {"user_confirmed", "personal_photo", "ticket_purchase", "l
 ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}(?:-\d{2}-\d{2})?$")
 ENRICHMENT_STATUSES = {"complete", "pending", "unavailable"}
 ENRICHMENT_FIELDS = {"official_event", "official_tickets", "apple_music"}
-CANONICAL_VENUES = {
-    "billboard-live-tokyo-roppongi": ("Billboard Live Tokyo", "Minato, Tokyo", "Tokyo", "JP"),
-    "blue-note-tokyo-minamiaoyama": ("Blue Note Tokyo", "Minato, Tokyo", "Tokyo", "JP"),
-    "carnegie-hall-stern-auditorium-new-york": ("Carnegie Hall — Stern Auditorium / Perelman Stage", "New York", "NY", "US"),
-    "cotton-club-marunouchi-tokyo": ("COTTON CLUB", "Chiyoda, Tokyo", "Tokyo", "JP"),
-    "keystone-korner-baltimore": ("Keystone Korner Baltimore", "Baltimore", "MD", "US"),
-    "rose-theater-jazz-at-lincoln-center-new-york": ("Rose Theater at Jazz at Lincoln Center", "New York", "NY", "US"),
-    "the-barns-wolf-trap-vienna-va": ("The Barns at Wolf Trap", "Vienna", "VA", "US"),
-}
-RETIRED_VENUE_IDS = {
-    "blue-note-tokyo-minami-aoyama",
-    "carnegie-hall-new-york",
-    "cotton-club-tokyo-marunouchi",
-    "rose-theater-frederick-p-rose-hall-new-york",
-    "stern-auditorium-perelman-stage-carnegie-hall-new-york",
-    "the-barns-at-wolf-trap-vienna-va",
-}
 NEGATED_TIER_COMPARISON = re.compile(
     r"\b(?:stays?\s+below|remains?\s+below|stops?\s+short\s+of|does\s+not\s+(?:reach|rise\s+to)|not|"
     r"no\s+(?:llega|alcanza)\s+a|no\s+es|(?:por\s+)?debajo\s+de)\s+(?:S\+|A\+|S)(?![\w+])",
@@ -92,7 +80,7 @@ def validate_enrichment(event: dict, event_id: str) -> None:
     if not isinstance(missing, list) or any(field not in ENRICHMENT_FIELDS for field in missing) or len(set(missing)) != len(missing):
         fail(f"{event_id}.enrichment.missing must be a unique list of known enrichment fields")
     if enrichment["status"] == "complete":
-        if missing or not links.get("official_event") or not links.get("official_tickets") or not apple_urls:
+        if missing or enrichment.get("note") not in {None, ""} or not links.get("official_event") or not links.get("official_tickets") or not apple_urls:
             fail(f"{event_id} claims complete enrichment but required links or Apple Music are missing")
     else:
         if not missing or not isinstance(enrichment.get("note"), str) or not enrichment["note"].strip():
@@ -163,6 +151,10 @@ def main(path: Path) -> None:
     events = data.get("events")
     if not isinstance(events, list):
         fail("events must be an array")
+    try:
+        venue_registry = load_registry()
+    except VenueIdentityError as error:
+        fail(str(error))
 
     ids = set()
     venue_identity_by_id = {}
@@ -188,13 +180,10 @@ def main(path: Path) -> None:
             fail(f"{event_id} requires a start date and named venue location")
         venue_id = venue["id"]
         venue_identity = tuple(venue[key] for key in ("name", "city", "state", "country"))
-        if venue_id in RETIRED_VENUE_IDS:
-            fail(f"{event_id}.venue.id uses retired alias {venue_id}")
-        expected_venue = CANONICAL_VENUES.get(venue_id)
-        if expected_venue is not None and venue_identity != expected_venue:
-            fail(f"{event_id}.venue must use the canonical identity for {venue_id}")
-        if venue["country"] == "US" and venue["state"] == "DC" and venue["city"] != "Washington, DC":
-            fail(f"{event_id}.venue.city must use Washington, DC for District of Columbia venues")
+        try:
+            validate_venue(venue, venue_registry)
+        except VenueIdentityError as error:
+            fail(f"{event_id}.{error}")
         previous_identity = venue_identity_by_id.setdefault(venue_id, venue_identity)
         if previous_identity != venue_identity:
             fail(f"{event_id}.venue.id {venue_id} maps to more than one venue identity")

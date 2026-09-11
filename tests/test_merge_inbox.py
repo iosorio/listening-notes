@@ -247,7 +247,7 @@ class MergeInboxTest(unittest.TestCase):
     def _event(event_id, artist="Test Artist"):
         return {
             "id": event_id, "artist": artist, "subtitle": None, "dates": {"start": "2099-01-01", "end": None}, "showtimes": [],
-            "venue": {"id": "test-venue", "name": "Test Venue", "city": "Test City", "state": "TS", "country": "US"},
+            "venue": {"id": "the-anthem-washington-dc", "name": "The Anthem", "city": "Washington, DC", "state": "DC", "country": "US"},
             "geographic_domain": "us_corridor", "geography": "Local", "priority": "A", "category": "Test", "genres": [], "musical_axes": [], "status": "passed", "lineup": [], "factual_description": None,
             "editorial": {"en": {}, "es": {}}, "links": {"official_event": None, "official_tickets": None},
             "tickets": {"currency": "USD", "official": {"minimum": None, "maximum": None, "source_url": None, "checked_on": None}, "resale": {"minimum": None, "maximum": None, "url": None, "checked_on": None}},
