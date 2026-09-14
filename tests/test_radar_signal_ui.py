@@ -3,7 +3,10 @@ import shutil
 import subprocess
 import unittest
 from html.parser import HTMLParser
+from itertools import combinations
 from pathlib import Path
+
+from scripts.merge_inbox import semantic_duplicate
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -60,7 +63,13 @@ const today = '2026-08-25';
 const base = {city: '', venue: '', priority: '', view: 'upcoming'};
 const report = state => {
   const model = logic.deriveRadarView(events, state, resolved.current && resolved.current.event, today);
-  return {signalVisible: model.signalVisible, count: model.results.length, ids: model.results.map(event => event.id), artists: model.results.map(event => event.artist)};
+  return {
+    signalVisible: model.signalVisible,
+    count: model.results.length,
+    ids: model.results.map(event => event.id),
+    artists: model.results.map(event => event.artist),
+    events: model.results.map(({id, artist, subtitle, dates, venue}) => ({id, artist, subtitle, dates, venue})),
+  };
 };
 const failed = logic.resolveSignalState(null, events);
 const failedModel = logic.deriveRadarView(events, base, failed.current, today);
@@ -94,10 +103,34 @@ console.log(JSON.stringify({
         self.assertFalse(report["failed"]["signalVisible"])
         self.assertIn(current, report["failed"]["ids"])
 
-    def test_blues_alley_filter_returns_all_eight_as_normal_results(self):
+    def test_blues_alley_filter_accepts_only_declared_alias_normalization(self):
         report = self.model_report()["bluesAlley"]
+        published = {
+            "nanny-assis-afro-jobim-toninho-horta-blues-alley-2026-09-08",
+            "trio-da-paz-2026",
+            "brazilian-guitars-2026",
+            "claudia-acuna-2026",
+            "camila-meza-2026",
+            "nicholas-payton-a-supreme-blue-blues-alley-2026-09-26",
+            "benito-gonzalez-buster-williams-lenny-white-blues-alley-2026-10-01",
+            "arturo-ofarrill-quintet-blues-alley-2026-10-03",
+        }
+        authorized_materialization = {
+            "emilio-solla-bien-sur-blues-alley-dc-2026-09-24",
+            "jeremy-pelt-pelt-at-50-blues-alley-washington-dc-2026-11-05",
+            "mario-wellmann-ecos-del-sur-blues-alley-washington-dc-2026-09-15",
+        }
+        ids = set(report["ids"])
         self.assertFalse(report["signalVisible"])
-        self.assertEqual(report["count"], 8)
+        self.assertIn(ids, (published, published | authorized_materialization))
+        self.assertEqual(report["count"], len(ids))
+        self.assertEqual(len(report["ids"]), len(ids))
+        self.assertTrue(all(event["venue"]["id"] == "blues-alley-washington-dc" for event in report["events"]))
+        for left, right in combinations(report["events"], 2):
+            self.assertFalse(
+                semantic_duplicate(left, right),
+                f"Blues Alley filter contains a semantic duplicate: {left['id']} / {right['id']}",
+            )
         self.assertIn("Nanny Assis ‘Afro-Jobim’ feat. Toninho Horta", report["artists"])
 
     def test_the_wharf_filter_returns_its_single_normal_result(self):

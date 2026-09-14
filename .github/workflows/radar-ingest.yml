@@ -11,6 +11,10 @@ on:
       - 'scripts/merge_enrichment_patches.py'
       - 'scripts/validate_events.py'
       - 'scripts/venue_identity.py'
+      - 'scripts/radar_verification.py'
+      - 'scripts/remediate_radar_intake.py'
+      - 'scripts/verify_radar_duplicate_resolution.py'
+      - 'scripts/verify_radar_residual_repairs.py'
       - 'radar/venue_identities.json'
       - 'tests/*.py'
       - '.github/workflows/radar-ingest.yml'
@@ -35,6 +39,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Verify published RADAR migration history
+        run: |
+          python scripts/remediate_radar_intake.py --verify radar/inbox/review/intake-validation-remediation-2026-09-11.json
+          python scripts/verify_radar_duplicate_resolution.py radar/inbox/review/duplicate-resolution-2026-09-11.json
+          python scripts/verify_radar_residual_repairs.py radar/inbox/review/residual-repair-2026-09-11.json radar/inbox/review/residual-duplicates-2026-09-11.json
 
       - name: Merge reviewed enrichment patches
         env:
@@ -66,7 +76,15 @@ jobs:
       - name: Validate canonical Signal history
         run: python scripts/validate_signals.py radar/signals.json radar/events.json
 
+      - name: Verify temporary RADAR materialization
+        run: |
+          python scripts/remediate_radar_intake.py --verify radar/inbox/review/intake-validation-remediation-2026-09-11.json --verification-mode temporary_materialization
+          python scripts/verify_radar_duplicate_resolution.py radar/inbox/review/duplicate-resolution-2026-09-11.json --verification-mode temporary_materialization
+          python scripts/verify_radar_residual_repairs.py radar/inbox/review/residual-repair-2026-09-11.json radar/inbox/review/residual-duplicates-2026-09-11.json --verification-mode temporary_materialization
+
       - name: Run repository tests
+        env:
+          RADAR_VERIFICATION_MODE: temporary_materialization
         run: python -m unittest discover -s tests -v
 
       - name: Enforce expected ingest changes

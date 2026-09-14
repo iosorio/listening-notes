@@ -1,6 +1,8 @@
 """Safety and reproducibility tests for active intake validation remediation."""
 
 import json
+import os
+import subprocess
 import unittest
 from copy import deepcopy
 from pathlib import Path
@@ -8,6 +10,8 @@ from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 from scripts import remediate_radar_intake as remediation
+from scripts.merge_inbox import merge
+from scripts.radar_verification import require_base_ancestor, verify_temporary_materialization
 from scripts.verify_radar_duplicate_resolution import verify as verify_duplicate_resolution
 from scripts.verify_radar_residual_repairs import verify as verify_residual_repairs
 
@@ -180,7 +184,10 @@ class MaterializationTest(unittest.TestCase):
 class HistoricalChainTest(unittest.TestCase):
     def test_duplicate_verifier_reaches_current_validation_state(self):
         manifest = json.loads((ROOT / "radar/inbox/review/duplicate-resolution-2026-09-11.json").read_text())
-        report = verify_duplicate_resolution(manifest)
+        mode = os.environ.get("RADAR_VERIFICATION_MODE", "published")
+        report = verify_duplicate_resolution(manifest, mode)
+        if mode == "temporary_materialization":
+            report = report["published"]
         self.assertEqual(len(report["archived_candidates"]), 11)
         self.assertEqual(report["reviews"], ["eddie-palmieri-2019-user-confirmed"])
         self.assertEqual(report["later_remediation"]["report"]["ingestible_candidates"], 270)
@@ -188,10 +195,74 @@ class HistoricalChainTest(unittest.TestCase):
     def test_residual_verifier_reaches_current_validation_state(self):
         repairs = json.loads((ROOT / "radar/inbox/review/residual-repair-2026-09-11.json").read_text())
         decisions = json.loads((ROOT / "radar/inbox/review/residual-duplicates-2026-09-11.json").read_text())
-        report = verify_residual_repairs(repairs, decisions)
+        mode = os.environ.get("RADAR_VERIFICATION_MODE", "published")
+        report = verify_residual_repairs(repairs, decisions, verification_mode=mode)
+        if mode == "temporary_materialization":
+            report = report["published"]
         self.assertEqual(len(report["residuals"]), 4)
         self.assertEqual(len(report["archives"]["archived_candidates"]), 3)
         self.assertEqual(report["archives"]["reviews"], ["eddie-palmieri-2019-user-confirmed"])
+
+
+class VerificationModeTest(unittest.TestCase):
+    def setUp(self):
+        self.temporary = TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root = Path(self.temporary.name).resolve()
+        subprocess.run(["git", "init", "-q", "-b", "main"], cwd=self.root, check=True)
+        subprocess.run(["git", "config", "user.name", "RADAR Test"], cwd=self.root, check=True)
+        subprocess.run(["git", "config", "user.email", "radar@example.invalid"], cwd=self.root, check=True)
+
+    def commit(self, message):
+        subprocess.run(["git", "add", "-A"], cwd=self.root, check=True)
+        subprocess.run(["git", "commit", "-q", "-m", message], cwd=self.root, check=True)
+        return subprocess.run(
+            ["git", "rev-parse", "HEAD"], cwd=self.root, text=True, capture_output=True, check=True
+        ).stdout.strip()
+
+    def test_recorded_base_is_valid_on_a_legitimate_descendant(self):
+        marker = self.root / "marker.txt"
+        marker.write_text("base\n")
+        base = self.commit("base")
+        marker.write_text("descendant\n")
+        head = self.commit("descendant")
+        self.assertEqual(
+            require_base_ancestor(self.root, base),
+            {"base_commit": base, "head_commit": head},
+        )
+
+    def test_branch_without_recorded_base_is_rejected(self):
+        marker = self.root / "marker.txt"
+        marker.write_text("base\n")
+        base = self.commit("base")
+        subprocess.run(["git", "switch", "--orphan", "unrelated"], cwd=self.root, check=True, capture_output=True)
+        marker.write_text("unrelated\n")
+        self.commit("unrelated")
+        with self.assertRaisesRegex(ValueError, "is not an ancestor of HEAD"):
+            require_base_ancestor(self.root, base)
+
+    def test_temporary_materialization_matches_committed_inputs_exactly(self):
+        canonical = self.root / "radar/events.json"
+        curated = self.root / "radar/inbox/curated"
+        processed = self.root / "radar/inbox/processed"
+        curated.mkdir(parents=True)
+        canonical.write_text(json.dumps({"schema_version": 3, "events": []}, indent=2) + "\n")
+        batch = curated / "one.json"
+        batch.write_text(json.dumps({
+            "batch_version": 1,
+            "kind": "curated_event_candidates",
+            "batch_id": "temporary-verification",
+            "events": [event()],
+        }, ensure_ascii=False, indent=2) + "\n")
+        self.commit("published inputs")
+        merge([batch], False, canonical, curated, processed)
+        report = verify_temporary_materialization(self.root)
+        self.assertEqual(report["source_batches"], 1)
+        self.assertEqual(report["added_candidates"], 1)
+        self.assertNotEqual(
+            report["published_canonical_sha256"],
+            report["materialized_canonical_sha256"],
+        )
 
 
 class PortableProvenanceTest(unittest.TestCase):

@@ -9,9 +9,25 @@ from pathlib import Path
 
 try:
     from .merge_inbox import normalize, validate_batch, validate_canonical
+    from .radar_verification import (
+        PUBLISHED,
+        TEMPORARY_MATERIALIZATION,
+        VERIFICATION_MODES,
+        require_base_ancestor,
+        verify_published_at_head,
+        verify_temporary_materialization,
+    )
     from .verify_radar_duplicate_resolution import verify as verify_archives, verify_stage_or_later, require
 except ImportError:
     from merge_inbox import normalize, validate_batch, validate_canonical
+    from radar_verification import (
+        PUBLISHED,
+        TEMPORARY_MATERIALIZATION,
+        VERIFICATION_MODES,
+        require_base_ancestor,
+        verify_published_at_head,
+        verify_temporary_materialization,
+    )
     from verify_radar_duplicate_resolution import verify as verify_archives, verify_stage_or_later, require
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,9 +39,10 @@ ALLOWED = {
     "interpretations-hemingway-andonovska-howard-roulette-brooklyn-2026-12-03": {"enrichment"},
 }
 HISTORICAL_VERIFIER_SHA256 = {
-    # This was the verifier bound into the repair manifest. Its successor adds
-    # read-only traversal of the later validation archive chain.
+    # These versions were bound into the repair manifest. Their successors add
+    # read-only ancestry/materialization checks and stronger UI regressions.
     "scripts/verify_radar_duplicate_resolution.py": "5da1e965a8d299c76b1be17d0d972c934f7c35f284057c27927bb5ebd9aac8c7",
+    "tests/test_radar_signal_ui.py": "bf379cff2a06a1316174acf4aec31e6daab172f5f45b61ee1b561c8c55a93023",
 }
 
 
@@ -33,8 +50,34 @@ def sha(text):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
-def verify(repairs, decisions, before_archive=False):
-    report = {"stage": "before_archive" if before_archive else "after_archive", "residuals": [], "batches": []}
+def verify(repairs, decisions, before_archive=False, verification_mode=PUBLISHED):
+    if verification_mode == TEMPORARY_MATERIALIZATION:
+        return {
+            "verification_mode": verification_mode,
+            "published": verify_published_at_head(
+                ROOT,
+                "scripts/verify_radar_residual_repairs.py",
+                [
+                    "radar/inbox/review/residual-repair-2026-09-11.json",
+                    "radar/inbox/review/residual-duplicates-2026-09-11.json",
+                ],
+            ),
+            "temporary_materialization": verify_temporary_materialization(ROOT),
+        }
+    if verification_mode != PUBLISHED:
+        raise ValueError(f"unsupported verification mode: {verification_mode}")
+    require(
+        repairs.get("base_commit") == decisions.get("base_commit"),
+        "repair and duplicate manifests record different base commits",
+    )
+    ancestry = require_base_ancestor(ROOT, repairs.get("base_commit"))
+    report = {
+        "verification_mode": verification_mode,
+        "ancestry": ancestry,
+        "stage": "before_archive" if before_archive else "after_archive",
+        "residuals": [],
+        "batches": [],
+    }
     changed = set()
     for record in repairs["batches"]:
         label = record["path"]
@@ -102,8 +145,18 @@ def main():
     parser.add_argument("repairs", type=Path)
     parser.add_argument("decisions", type=Path)
     parser.add_argument("--before-archive", action="store_true")
+    parser.add_argument("--verification-mode", choices=VERIFICATION_MODES, default=PUBLISHED)
     args = parser.parse_args()
-    print(json.dumps(verify(json.loads(args.repairs.read_text()), json.loads(args.decisions.read_text()), args.before_archive), indent=2))
+    try:
+        report = verify(
+            json.loads(args.repairs.read_text()),
+            json.loads(args.decisions.read_text()),
+            args.before_archive,
+            args.verification_mode,
+        )
+        print(json.dumps(report, indent=2))
+    except ValueError as error:
+        parser.exit(2, f"verify RADAR residual repairs: {error}\n")
 
 
 if __name__ == "__main__":

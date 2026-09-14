@@ -11,6 +11,14 @@ try:
     from .materialize_radar_intake import data_digest, digest
     from .merge_inbox import normalize, validate_batch, validate_canonical
     from .plan_radar_intake import plan
+    from .radar_verification import (
+        PUBLISHED,
+        TEMPORARY_MATERIALIZATION,
+        VERIFICATION_MODES,
+        require_base_ancestor,
+        verify_published_at_head,
+        verify_temporary_materialization,
+    )
     from .remediate_radar_intake import (
         data_sha256,
         desired_batch,
@@ -20,6 +28,14 @@ except ImportError:
     from materialize_radar_intake import data_digest, digest
     from merge_inbox import normalize, validate_batch, validate_canonical
     from plan_radar_intake import plan
+    from radar_verification import (
+        PUBLISHED,
+        TEMPORARY_MATERIALIZATION,
+        VERIFICATION_MODES,
+        require_base_ancestor,
+        verify_published_at_head,
+        verify_temporary_materialization,
+    )
     from remediate_radar_intake import (
         data_sha256,
         desired_batch,
@@ -31,7 +47,10 @@ ACTIVE = ROOT / "radar/inbox/curated"
 ARCHIVE = ROOT / "radar/inbox/review/decisions"
 VALIDATION_ARCHIVE = ROOT / "radar/inbox/review/validation-decisions"
 VALIDATION_MANIFESTS = ROOT / "radar/inbox/review"
-HISTORICAL_SELF_SHA256 = "5da1e965a8d299c76b1be17d0d972c934f7c35f284057c27927bb5ebd9aac8c7"
+HISTORICAL_PROTECTED_SHA256 = {
+    "scripts/verify_radar_duplicate_resolution.py": "5da1e965a8d299c76b1be17d0d972c934f7c35f284057c27927bb5ebd9aac8c7",
+    "tests/test_radar_signal_ui.py": "bf379cff2a06a1316174acf4aec31e6daab172f5f45b61ee1b561c8c55a93023",
+}
 
 
 def require(condition, message):
@@ -136,10 +155,23 @@ def verify_later_remediation():
     }
 
 
-def verify(manifest):
+def verify(manifest, verification_mode=PUBLISHED):
+    if verification_mode == TEMPORARY_MATERIALIZATION:
+        return {
+            "verification_mode": verification_mode,
+            "published": verify_published_at_head(
+                ROOT,
+                "scripts/verify_radar_duplicate_resolution.py",
+                ["radar/inbox/review/duplicate-resolution-2026-09-11.json"],
+            ),
+            "temporary_materialization": verify_temporary_materialization(ROOT),
+        }
+    if verification_mode != PUBLISHED:
+        raise ValueError(f"unsupported verification mode: {verification_mode}")
+    ancestry = require_base_ancestor(ROOT, manifest.get("base_commit"))
     for label, expected in manifest["protected_files"].items():
-        if label == "scripts/verify_radar_duplicate_resolution.py":
-            require(expected == HISTORICAL_SELF_SHA256, f"unexpected historical verifier identity: {label}")
+        if label in HISTORICAL_PROTECTED_SHA256:
+            require(expected == HISTORICAL_PROTECTED_SHA256[label], f"unexpected historical protected identity: {label}")
         else:
             require(digest(ROOT / label) == expected, f"protected file changed: {label}")
     selected = {}
@@ -156,7 +188,15 @@ def verify(manifest):
             later_archives.extend(verify_stage_or_later(label, expected))
     current_paths = {str(p.relative_to(ROOT)) for p in ACTIVE.glob("*.json")}
     require(not current_paths - set(originals), "unexpected active batches were introduced")
-    report = {"protected_files": list(manifest["protected_files"]), "archived_candidates": [], "split_batches": [], "removed_active_batches": [], "residual_candidates_validated": 0}
+    report = {
+        "verification_mode": verification_mode,
+        "ancestry": ancestry,
+        "protected_files": list(manifest["protected_files"]),
+        "archived_candidates": [],
+        "split_batches": [],
+        "removed_active_batches": [],
+        "residual_candidates_validated": 0,
+    }
     for label, decisions in selected.items():
         path = ROOT / label
         archive = ARCHIVE / f"{decisions[0]['sha256']}-{path.name}"
@@ -213,9 +253,10 @@ def verify(manifest):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("manifest", type=Path)
+    parser.add_argument("--verification-mode", choices=VERIFICATION_MODES, default=PUBLISHED)
     args = parser.parse_args()
     try:
-        print(json.dumps(verify(json.loads(args.manifest.read_text())), ensure_ascii=False, indent=2))
+        print(json.dumps(verify(json.loads(args.manifest.read_text()), args.verification_mode), ensure_ascii=False, indent=2))
     except ValueError as error:
         parser.exit(2, f"verify RADAR duplicates: {error}\n")
 

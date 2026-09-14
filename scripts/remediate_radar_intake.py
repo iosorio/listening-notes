@@ -18,10 +18,26 @@ try:
     from . import validate_events
     from .merge_inbox import merge, normalize, semantic_duplicate, validate_batch
     from .plan_radar_intake import plan as intake_plan
+    from .radar_verification import (
+        PUBLISHED,
+        TEMPORARY_MATERIALIZATION,
+        VERIFICATION_MODES,
+        require_base_ancestor,
+        verify_published_at_head,
+        verify_temporary_materialization,
+    )
 except ImportError:  # Direct script execution.
     import validate_events
     from merge_inbox import merge, normalize, semantic_duplicate, validate_batch
     from plan_radar_intake import plan as intake_plan
+    from radar_verification import (
+        PUBLISHED,
+        TEMPORARY_MATERIALIZATION,
+        VERIFICATION_MODES,
+        require_base_ancestor,
+        verify_published_at_head,
+        verify_temporary_materialization,
+    )
 
 
 SOURCE_ROOT = Path(__file__).resolve().parents[1]
@@ -38,6 +54,7 @@ IMPLEMENTATION_FILES = (
     Path(__file__).resolve().with_name("plan_radar_intake.py"),
     Path(__file__).resolve().with_name("validate_events.py"),
 )
+HISTORICAL_SELF_SHA256 = "36cfdcaa4ef7916019baddaca08f05b56c32c98bbb0deb630a1a4c71871cd872"
 
 
 class CandidateValidationError(ValueError):
@@ -481,13 +498,30 @@ def materialize(manifest: dict, apply: bool) -> dict:
     return report
 
 
-def verify(manifest: dict) -> dict:
-    if manifest.get("base_commit") != head_commit():
-        raise ValueError("repository base commit changed")
+def verify(manifest: dict, verification_mode: str = PUBLISHED) -> dict:
+    if verification_mode == TEMPORARY_MATERIALIZATION:
+        return {
+            "verification_mode": verification_mode,
+            "published": verify_published_at_head(
+                ROOT,
+                "scripts/remediate_radar_intake.py",
+                ["--verify", "radar/inbox/review/intake-validation-remediation-2026-09-11.json"],
+            ),
+            "temporary_materialization": verify_temporary_materialization(ROOT),
+        }
+    if verification_mode != PUBLISHED:
+        raise ValueError(f"unsupported verification mode: {verification_mode}")
+    ancestry = require_base_ancestor(ROOT, manifest.get("base_commit"))
     if manifest.get("canonical", {}).get("sha256") != sha256_bytes(CANONICAL.read_bytes()):
         raise ValueError("canonical events.json changed")
-    if manifest.get("implementation_files") != implementation_hashes():
-        raise ValueError("remediation implementation changed")
+    expected_implementation = manifest.get("implementation_files", {})
+    actual_implementation = implementation_hashes()
+    for label, expected in expected_implementation.items():
+        if label == "scripts/remediate_radar_intake.py":
+            if expected != HISTORICAL_SELF_SHA256:
+                raise ValueError(f"unexpected historical remediation identity: {label}")
+        elif actual_implementation.get(label) != expected:
+            raise ValueError(f"remediation implementation changed: {label}")
     grouped = decisions_by_path(manifest)
     expected_paths = set()
     automatic_count = 0
@@ -536,6 +570,8 @@ def verify(manifest: dict) -> dict:
     if reviews != sorted(PROTECTED_REVIEW_IDS):
         raise ValueError(f"unexpected identity reviews after remediation: {reviews}")
     return {
+        "verification_mode": verification_mode,
+        "ancestry": ancestry,
         "active_batches": len(actual_paths),
         "active_candidates": len(report["added"]) + len(report["blocked"]),
         "ingestible_candidates": len(report["added"]),
@@ -555,6 +591,7 @@ def main() -> None:
     mode.add_argument("--verify", type=Path, metavar="MANIFEST")
     parser.add_argument("--recorded-on", default=date.today().isoformat())
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--verification-mode", choices=VERIFICATION_MODES, default=PUBLISHED)
     args = parser.parse_args()
     try:
         if args.plan:
@@ -564,7 +601,7 @@ def main() -> None:
         elif args.apply:
             result = materialize(read_json(args.apply), True)
         else:
-            result = verify(read_json(args.verify))
+            result = verify(read_json(args.verify), args.verification_mode)
         output = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
         if args.output:
             if args.output.exists():
