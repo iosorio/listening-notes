@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/poison-girl-friend-howard-theatre-dc-2026-09-09-discovery.json",
+    "sha256": "4c6e92273a506d5b56250bb66f9f677f84be085f70e6d50429fbdb6b83ad7d15",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"poison-girl-friend-howard-theatre-dc-2026-09-09-discovery\",\n  \"checked_on\": \"2026-09-09\",\n  \"reviewed_by\": \"RADAR automation editorial review\",\n  \"reviewed_on\": \"2026-09-09\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before searching, grading, or publication. Fresh Tsuyoshi Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources. The October 3 Kawasaki Shimin Plaza series finale and other relevant Yamamoto appearances that resurfaced were already represented in canonical/curated/processed RADAR data, so no duplicate Yamamoto candidate was created. Broader US-corridor monitoring found POiSON GiRL FRiEND at the Howard Theatre in Washington, DC on September 10, 2026 with Operelly. Exact repository searches for the proposed stable event ID and for POiSON GiRL FRiEND + Howard Theatre returned no prior canonical/curated/processed match before publication. Stage 1 admits the performance for a specific historical and cross-cultural live context: a veteran Tokyo electronic project whose early-1990s ambient-techno/trip-hop/French-pop language is undergoing a documented international reappraisal is returning to a local DMV stage while still releasing new work in 2026. This is not admission by Japanese identity, genre, or venue prestige alone. Stage 2 assigns A: the event is useful and compelling enough for RADAR and worth attending if convenient, but the artist already completed a ten-show North American run in 2024 and the 2026 itinerary includes multiple nearby US dates, so there is no event-specific scarcity, farewell, premiere, or rare lineup that warrants A+, S, or S+. The proposed A also preserves the repository's intended broad-base shape without using distribution as a quota.\",\n  \"events\": [\n    {\n      \"id\": \"poison-girl-friend-howard-theatre-washington-dc-2026-09-10\",\n      \"artist\": \"POiSON GiRL FRiEND\",\n      \"subtitle\": \"with Operelly\",\n      \"dates\": {\n        \"start\": \"2026-09-10\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"20:00\"\n      ],\n      \"venue\": {\n        \"id\": \"howard-theatre-washington-dc\",\n        \"name\": \"Howard Theatre\",\n        \"city\": \"Washington, DC\",\n        \"state\": \"DC\",\n        \"country\": \"US\",\n        \"address\": \"620 T Street NW, Washington, DC 20001\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Local\",\n      \"status\": \"considering\",\n      \"priority\": \"A\",\n      \"category\": \"Japanese electronic / Cross-cultural pop\",\n      \"genres\": [\n        \"Electronic\",\n        \"Ambient techno\",\n        \"Trip-hop\",\n        \"French pop\"\n      ],\n      \"musical_axes\": [\n        \"Japan / Tokyo\"\n      ],\n      \"lineup\": [\n        \"POiSON GiRL FRiEND\",\n        \"Operelly\"\n      ],\n      \"factual_description\": \"Union Stage Presents lists POiSON GiRL FRiEND with Operelly at the Howard Theatre in Washington, DC on Thursday, September 10, 2026. The event is all ages, with doors at 7:00 PM and showtime at 8:00 PM, at 620 T Street NW. The presenter links directly to TicketWeb as the authorized ticket destination. Nippon Columbia describes POiSON GiRL FRiEND's music as a blend of ambient techno/trip-hop and French pop and traces her regular DJ work in Roppongi and Shiroganedai to 1990. The label also documents a ten-show North American tour in 2024 and the renewed international attention to her early-1990s work. Apple Music lists Reprises as her latest release, dated August 25, 2026, and lists nearby 2026 shows in Philadelphia, Washington, and New York. No face-value ticket price or additional touring personnel beyond the official billing is recorded because those details were not verified from an accessible authoritative source in this pass.\",\n      \"links\": {\n        \"official_event\": \"https://www.unionstagepresents.com/shows/poison-girl-friend-10-sep\",\n        \"official_tickets\": \"https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre\"\n      },\n      \"tickets\": {\n        \"currency\": \"USD\",\n        \"official\": {\n          \"minimum\": null,\n          \"maximum\": null,\n          \"source_url\": \"https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre\",\n          \"checked_on\": \"2026-09-09\"\n        },\n        \"resale\": {\n          \"minimum\": null,\n          \"maximum\": null,\n          \"url\": null,\n          \"checked_on\": null\n        }\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"POiSON GiRL FRiEND\",\n          \"title\": \"Melting Moment\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/melting-moment/1547970477\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"complete\",\n        \"missing\": [],\n        \"note\": \"The official presenter verifies the exact Washington event, support billing, venue, address, age policy, doors, showtime, and direct authorized TicketWeb destination. Nippon Columbia provides authoritative artist/history context, and Apple Music provides an exact album destination plus the current 2026 release/tour context. TicketWeb did not render reliably in the automated pass, so no face-value price or inventory claim is inferred.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.unionstagepresents.com/shows/poison-girl-friend-10-sep\",\n          \"publisher\": \"Union Stage Presents\",\n          \"checked_on\": \"2026-09-09\",\n          \"note\": \"Official presenter page verifies POiSON GiRL FRiEND with Operelly at the Howard Theatre on September 10, 2026; all ages; doors 7:00 PM; show 8:00 PM; 620 T Street NW; and the direct TicketWeb purchase destination.\"\n        },\n        {\n          \"url\": \"https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre\",\n          \"publisher\": \"TicketWeb\",\n          \"checked_on\": \"2026-09-09\",\n          \"note\": \"Authorized ticket destination linked directly by Union Stage Presents. The ticket page did not render reliably in this pass, so no face value or availability claim is inferred.\"\n        },\n        {\n          \"url\": \"https://columbia.jp/j-digs/artists/poisongirlfriend.html\",\n          \"publisher\": \"Nippon Columbia / J-DIGS\",\n          \"checked_on\": \"2026-09-09\",\n          \"note\": \"Official label profile describes the ambient-techno/trip-hop and French-pop blend, Rio childhood, regular Tokyo DJ work beginning in 1990, and recent global activity.\"\n        },\n        {\n          \"url\": \"https://columbia.jp/artist-info/poisongirlfriend/info/90181.html\",\n          \"publisher\": \"Nippon Columbia\",\n          \"checked_on\": \"2026-09-09\",\n          \"note\": \"Official label information documents the ten-show 2024 North American tour and the renewed international attention to POiSON GiRL FRiEND's early-1990s catalog.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/artist/poison-girl-friend/1150337276\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-09-09\",\n          \"note\": \"Artist page lists Reprises as the latest release on August 25, 2026 and current concert routing including Philadelphia September 9, Washington September 10, and New York September 13.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/melting-moment/1547970477\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-09-09\",\n          \"note\": \"Exact Apple Music album page for Melting Moment (1992), used as the recommended listening entry point.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-presenter-authorized-ticketing-label-and-streaming-sources\",\n        \"reviewed_by\": \"RADAR automation editorial review\",\n        \"reviewed_on\": \"2026-09-09\",\n        \"note\": \"Official presenter evidence supplies exact event logistics and the authorized ticket destination; Nippon Columbia supplies artist-history and reappraisal context; Apple Music supplies exact listening and current release/routing context. Repository searches found no prior POiSON GiRL FRiEND / Howard Theatre September 10 RADAR representation before publication. Priority was assigned only after Stage 1 admission; A is deliberate because this is a multi-date touring context without a verified scarcity condition. No ticket face value, availability claim, or unverified touring personnel is inferred.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"POiSON GiRL FRiEND arrives in Washington at an interesting second life: the Tokyo club-world hybrid of ambient techno, trip-hop and French pop that she was shaping in the early 1990s is being heard by a new international audience while she is still making new work. The Howard date turns that rediscovery into a local live encounter rather than a reissue-only story.\",\n          \"trip_verdict\": \"If Thursday is open, the Howard Theatre is the sensible place to catch this thread locally. There is no need to chase the surrounding Philadelphia or New York dates unless Washington no longer works.\",\n          \"listen_before\": \"POiSON GiRL FRiEND — Melting Moment\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"POiSON GiRL FRiEND llega a Washington en una segunda vida particularmente interesante: ese cruce de ambient techno, trip-hop y pop francés que venía armando desde la escena de clubes de Tokio a principios de los noventa está encontrando una nueva audiencia internacional mientras ella sigue publicando música. La fecha del Howard convierte ese redescubrimiento en una experiencia local en vivo, no sólo en una historia de reediciones.\",\n          \"trip_verdict\": \"Si el jueves está libre, aprovecharía el Howard Theatre para seguir este hilo aquí mismo. No hace falta perseguir las fechas cercanas de Filadelfia o Nueva York salvo que Washington deje de funcionar.\",\n          \"listen_before\": \"POiSON GiRL FRiEND — Melting Moment\"\n        }\n      }\n    }\n  ]\n}",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "poison-girl-friend-howard-theatre-dc-2026-09-09-discovery",
+      "checked_on": "2026-09-09",
+      "reviewed_by": "RADAR automation editorial review",
+      "reviewed_on": "2026-09-09",
+      "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before searching, grading, or publication. Fresh Tsuyoshi Yamamoto research covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources. The October 3 Kawasaki Shimin Plaza series finale and other relevant Yamamoto appearances that resurfaced were already represented in canonical/curated/processed RADAR data, so no duplicate Yamamoto candidate was created. Broader US-corridor monitoring found POiSON GiRL FRiEND at the Howard Theatre in Washington, DC on September 10, 2026 with Operelly. Exact repository searches for the proposed stable event ID and for POiSON GiRL FRiEND + Howard Theatre returned no prior canonical/curated/processed match before publication. Stage 1 admits the performance for a specific historical and cross-cultural live context: a veteran Tokyo electronic project whose early-1990s ambient-techno/trip-hop/French-pop language is undergoing a documented international reappraisal is returning to a local DMV stage while still releasing new work in 2026. This is not admission by Japanese identity, genre, or venue prestige alone. Stage 2 assigns A: the event is useful and compelling enough for RADAR and worth attending if convenient, but the artist already completed a ten-show North American run in 2024 and the 2026 itinerary includes multiple nearby US dates, so there is no event-specific scarcity, farewell, premiere, or rare lineup that warrants A+, S, or S+. The proposed A also preserves the repository's intended broad-base shape without using distribution as a quota.",
+      "events": [
+        {
+          "id": "poison-girl-friend-howard-theatre-washington-dc-2026-09-10",
+          "artist": "POiSON GiRL FRiEND",
+          "subtitle": "with Operelly",
+          "dates": {
+            "start": "2026-09-10",
+            "end": null
+          },
+          "showtimes": [
+            "20:00"
+          ],
+          "venue": {
+            "id": "howard-theatre-washington-dc",
+            "name": "Howard Theatre",
+            "city": "Washington, DC",
+            "state": "DC",
+            "country": "US",
+            "address": "620 T Street NW, Washington, DC 20001"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Local",
+          "status": "considering",
+          "priority": "A",
+          "category": "Japanese electronic / Cross-cultural pop",
+          "genres": [
+            "Electronic",
+            "Ambient techno",
+            "Trip-hop",
+            "French pop"
+          ],
+          "musical_axes": [
+            "Japan / Tokyo"
+          ],
+          "lineup": [
+            "POiSON GiRL FRiEND",
+            "Operelly"
+          ],
+          "factual_description": "Union Stage Presents lists POiSON GiRL FRiEND with Operelly at the Howard Theatre in Washington, DC on Thursday, September 10, 2026. The event is all ages, with doors at 7:00 PM and showtime at 8:00 PM, at 620 T Street NW. The presenter links directly to TicketWeb as the authorized ticket destination. Nippon Columbia describes POiSON GiRL FRiEND's music as a blend of ambient techno/trip-hop and French pop and traces her regular DJ work in Roppongi and Shiroganedai to 1990. The label also documents a ten-show North American tour in 2024 and the renewed international attention to her early-1990s work. Apple Music lists Reprises as her latest release, dated August 25, 2026, and lists nearby 2026 shows in Philadelphia, Washington, and New York. No face-value ticket price or additional touring personnel beyond the official billing is recorded because those details were not verified from an accessible authoritative source in this pass.",
+          "links": {
+            "official_event": "https://www.unionstagepresents.com/shows/poison-girl-friend-10-sep",
+            "official_tickets": "https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre"
+          },
+          "tickets": {
+            "currency": "USD",
+            "official": {
+              "minimum": null,
+              "maximum": null,
+              "source_url": "https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre",
+              "checked_on": "2026-09-09"
+            },
+            "resale": {
+              "minimum": null,
+              "maximum": null,
+              "url": null,
+              "checked_on": null
+            }
+          },
+          "recommended_listening": [
+            {
+              "artist": "POiSON GiRL FRiEND",
+              "title": "Melting Moment",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/melting-moment/1547970477"
+            }
+          ],
+          "enrichment": {
+            "status": "complete",
+            "missing": [],
+            "note": "The official presenter verifies the exact Washington event, support billing, venue, address, age policy, doors, showtime, and direct authorized TicketWeb destination. Nippon Columbia provides authoritative artist/history context, and Apple Music provides an exact album destination plus the current 2026 release/tour context. TicketWeb did not render reliably in the automated pass, so no face-value price or inventory claim is inferred."
+          },
+          "sources": [
+            {
+              "url": "https://www.unionstagepresents.com/shows/poison-girl-friend-10-sep",
+              "publisher": "Union Stage Presents",
+              "checked_on": "2026-09-09",
+              "note": "Official presenter page verifies POiSON GiRL FRiEND with Operelly at the Howard Theatre on September 10, 2026; all ages; doors 7:00 PM; show 8:00 PM; 620 T Street NW; and the direct TicketWeb purchase destination."
+            },
+            {
+              "url": "https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre",
+              "publisher": "TicketWeb",
+              "checked_on": "2026-09-09",
+              "note": "Authorized ticket destination linked directly by Union Stage Presents. The ticket page did not render reliably in this pass, so no face value or availability claim is inferred."
+            },
+            {
+              "url": "https://columbia.jp/j-digs/artists/poisongirlfriend.html",
+              "publisher": "Nippon Columbia / J-DIGS",
+              "checked_on": "2026-09-09",
+              "note": "Official label profile describes the ambient-techno/trip-hop and French-pop blend, Rio childhood, regular Tokyo DJ work beginning in 1990, and recent global activity."
+            },
+            {
+              "url": "https://columbia.jp/artist-info/poisongirlfriend/info/90181.html",
+              "publisher": "Nippon Columbia",
+              "checked_on": "2026-09-09",
+              "note": "Official label information documents the ten-show 2024 North American tour and the renewed international attention to POiSON GiRL FRiEND's early-1990s catalog."
+            },
+            {
+              "url": "https://music.apple.com/us/artist/poison-girl-friend/1150337276",
+              "publisher": "Apple Music",
+              "checked_on": "2026-09-09",
+              "note": "Artist page lists Reprises as the latest release on August 25, 2026 and current concert routing including Philadelphia September 9, Washington September 10, and New York September 13."
+            },
+            {
+              "url": "https://music.apple.com/us/album/melting-moment/1547970477",
+              "publisher": "Apple Music",
+              "checked_on": "2026-09-09",
+              "note": "Exact Apple Music album page for Melting Moment (1992), used as the recommended listening entry point."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-presenter-authorized-ticketing-label-and-streaming-sources",
+            "reviewed_by": "RADAR automation editorial review",
+            "reviewed_on": "2026-09-09",
+            "note": "Official presenter evidence supplies exact event logistics and the authorized ticket destination; Nippon Columbia supplies artist-history and reappraisal context; Apple Music supplies exact listening and current release/routing context. Repository searches found no prior POiSON GiRL FRiEND / Howard Theatre September 10 RADAR representation before publication. Priority was assigned only after Stage 1 admission; A is deliberate because this is a multi-date touring context without a verified scarcity condition. No ticket face value, availability claim, or unverified touring personnel is inferred."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "POiSON GiRL FRiEND arrives in Washington at an interesting second life: the Tokyo club-world hybrid of ambient techno, trip-hop and French pop that she was shaping in the early 1990s is being heard by a new international audience while she is still making new work. The Howard date turns that rediscovery into a local live encounter rather than a reissue-only story.",
+              "trip_verdict": "If Thursday is open, the Howard Theatre is the sensible place to catch this thread locally. There is no need to chase the surrounding Philadelphia or New York dates unless Washington no longer works.",
+              "listen_before": "POiSON GiRL FRiEND — Melting Moment"
+            },
+            "es": {
+              "why_it_matters": "POiSON GiRL FRiEND llega a Washington en una segunda vida particularmente interesante: ese cruce de ambient techno, trip-hop y pop francés que venía armando desde la escena de clubes de Tokio a principios de los noventa está encontrando una nueva audiencia internacional mientras ella sigue publicando música. La fecha del Howard convierte ese redescubrimiento en una experiencia local en vivo, no sólo en una historia de reediciones.",
+              "trip_verdict": "Si el jueves está libre, aprovecharía el Howard Theatre para seguir este hilo aquí mismo. No hace falta perseguir las fechas cercanas de Filadelfia o Nueva York salvo que Washington deje de funcionar.",
+              "listen_before": "POiSON GiRL FRiEND — Melting Moment"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/poison-girl-friend-howard-theatre-dc-2026-09-09-discovery.json",
+      "batch_sha256": "4c6e92273a506d5b56250bb66f9f677f84be085f70e6d50429fbdb6b83ad7d15",
+      "batch_id": "poison-girl-friend-howard-theatre-dc-2026-09-09-discovery",
+      "event_index": 0,
+      "candidate_event_id": "poison-girl-friend-howard-theatre-washington-dc-2026-09-10",
+      "candidate_sha256": "54479adf31134bf6930cf11f0098612b8d255a244a114b4027f1de7d494eb4bc",
+      "errors": [
+        "poison-girl-friend-howard-theatre-washington-dc-2026-09-10 claims complete enrichment but required links or Apple Music are missing"
+      ],
+      "action": "review_validation",
+      "proposed_diff": [],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "poison-girl-friend-howard-theatre-washington-dc-2026-09-10 claims complete enrichment but required links or Apple Music are missing"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": true,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "complete",
+          "missing": [],
+          "note": "The official presenter verifies the exact Washington event, support billing, venue, address, age policy, doors, showtime, and direct authorized TicketWeb destination. Nippon Columbia provides authoritative artist/history context, and Apple Music provides an exact album destination plus the current 2026 release/tour context. TicketWeb did not render reliably in the automated pass, so no face-value price or inventory claim is inferred."
+        }
+      ],
+      "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+      "can_remain_active": false,
+      "materialization": "apply"
+    }
+  ],
+  "automatic_repairs": [],
+  "review_candidates": [
+    {
+      "original_event": {
+        "id": "poison-girl-friend-howard-theatre-washington-dc-2026-09-10",
+        "artist": "POiSON GiRL FRiEND",
+        "subtitle": "with Operelly",
+        "dates": {
+          "start": "2026-09-10",
+          "end": null
+        },
+        "showtimes": [
+          "20:00"
+        ],
+        "venue": {
+          "id": "howard-theatre-washington-dc",
+          "name": "Howard Theatre",
+          "city": "Washington, DC",
+          "state": "DC",
+          "country": "US",
+          "address": "620 T Street NW, Washington, DC 20001"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Local",
+        "status": "considering",
+        "priority": "A",
+        "category": "Japanese electronic / Cross-cultural pop",
+        "genres": [
+          "Electronic",
+          "Ambient techno",
+          "Trip-hop",
+          "French pop"
+        ],
+        "musical_axes": [
+          "Japan / Tokyo"
+        ],
+        "lineup": [
+          "POiSON GiRL FRiEND",
+          "Operelly"
+        ],
+        "factual_description": "Union Stage Presents lists POiSON GiRL FRiEND with Operelly at the Howard Theatre in Washington, DC on Thursday, September 10, 2026. The event is all ages, with doors at 7:00 PM and showtime at 8:00 PM, at 620 T Street NW. The presenter links directly to TicketWeb as the authorized ticket destination. Nippon Columbia describes POiSON GiRL FRiEND's music as a blend of ambient techno/trip-hop and French pop and traces her regular DJ work in Roppongi and Shiroganedai to 1990. The label also documents a ten-show North American tour in 2024 and the renewed international attention to her early-1990s work. Apple Music lists Reprises as her latest release, dated August 25, 2026, and lists nearby 2026 shows in Philadelphia, Washington, and New York. No face-value ticket price or additional touring personnel beyond the official billing is recorded because those details were not verified from an accessible authoritative source in this pass.",
+        "links": {
+          "official_event": "https://www.unionstagepresents.com/shows/poison-girl-friend-10-sep",
+          "official_tickets": "https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre"
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": null,
+            "maximum": null,
+            "source_url": "https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre",
+            "checked_on": "2026-09-09"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [
+          {
+            "artist": "POiSON GiRL FRiEND",
+            "title": "Melting Moment",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/melting-moment/1547970477"
+          }
+        ],
+        "enrichment": {
+          "status": "complete",
+          "missing": [],
+          "note": "The official presenter verifies the exact Washington event, support billing, venue, address, age policy, doors, showtime, and direct authorized TicketWeb destination. Nippon Columbia provides authoritative artist/history context, and Apple Music provides an exact album destination plus the current 2026 release/tour context. TicketWeb did not render reliably in the automated pass, so no face-value price or inventory claim is inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.unionstagepresents.com/shows/poison-girl-friend-10-sep",
+            "publisher": "Union Stage Presents",
+            "checked_on": "2026-09-09",
+            "note": "Official presenter page verifies POiSON GiRL FRiEND with Operelly at the Howard Theatre on September 10, 2026; all ages; doors 7:00 PM; show 8:00 PM; 620 T Street NW; and the direct TicketWeb purchase destination."
+          },
+          {
+            "url": "https://www.ticketweb.com/event/poison-girl-friend-howard-theatre-tickets/14214894?pl=howardtheatre",
+            "publisher": "TicketWeb",
+            "checked_on": "2026-09-09",
+            "note": "Authorized ticket destination linked directly by Union Stage Presents. The ticket page did not render reliably in this pass, so no face value or availability claim is inferred."
+          },
+          {
+            "url": "https://columbia.jp/j-digs/artists/poisongirlfriend.html",
+            "publisher": "Nippon Columbia / J-DIGS",
+            "checked_on": "2026-09-09",
+            "note": "Official label profile describes the ambient-techno/trip-hop and French-pop blend, Rio childhood, regular Tokyo DJ work beginning in 1990, and recent global activity."
+          },
+          {
+            "url": "https://columbia.jp/artist-info/poisongirlfriend/info/90181.html",
+            "publisher": "Nippon Columbia",
+            "checked_on": "2026-09-09",
+            "note": "Official label information documents the ten-show 2024 North American tour and the renewed international attention to POiSON GiRL FRiEND's early-1990s catalog."
+          },
+          {
+            "url": "https://music.apple.com/us/artist/poison-girl-friend/1150337276",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-09",
+            "note": "Artist page lists Reprises as the latest release on August 25, 2026 and current concert routing including Philadelphia September 9, Washington September 10, and New York September 13."
+          },
+          {
+            "url": "https://music.apple.com/us/album/melting-moment/1547970477",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-09",
+            "note": "Exact Apple Music album page for Melting Moment (1992), used as the recommended listening entry point."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-presenter-authorized-ticketing-label-and-streaming-sources",
+          "reviewed_by": "RADAR automation editorial review",
+          "reviewed_on": "2026-09-09",
+          "note": "Official presenter evidence supplies exact event logistics and the authorized ticket destination; Nippon Columbia supplies artist-history and reappraisal context; Apple Music supplies exact listening and current release/routing context. Repository searches found no prior POiSON GiRL FRiEND / Howard Theatre September 10 RADAR representation before publication. Priority was assigned only after Stage 1 admission; A is deliberate because this is a multi-date touring context without a verified scarcity condition. No ticket face value, availability claim, or unverified touring personnel is inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "POiSON GiRL FRiEND arrives in Washington at an interesting second life: the Tokyo club-world hybrid of ambient techno, trip-hop and French pop that she was shaping in the early 1990s is being heard by a new international audience while she is still making new work. The Howard date turns that rediscovery into a local live encounter rather than a reissue-only story.",
+            "trip_verdict": "If Thursday is open, the Howard Theatre is the sensible place to catch this thread locally. There is no need to chase the surrounding Philadelphia or New York dates unless Washington no longer works.",
+            "listen_before": "POiSON GiRL FRiEND — Melting Moment"
+          },
+          "es": {
+            "why_it_matters": "POiSON GiRL FRiEND llega a Washington en una segunda vida particularmente interesante: ese cruce de ambient techno, trip-hop y pop francés que venía armando desde la escena de clubes de Tokio a principios de los noventa está encontrando una nueva audiencia internacional mientras ella sigue publicando música. La fecha del Howard convierte ese redescubrimiento en una experiencia local en vivo, no sólo en una historia de reediciones.",
+            "trip_verdict": "Si el jueves está libre, aprovecharía el Howard Theatre para seguir este hilo aquí mismo. No hace falta perseguir las fechas cercanas de Filadelfia o Nueva York salvo que Washington deje de funcionar.",
+            "listen_before": "POiSON GiRL FRiEND — Melting Moment"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/poison-girl-friend-howard-theatre-dc-2026-09-09-discovery.json",
+        "batch_sha256": "4c6e92273a506d5b56250bb66f9f677f84be085f70e6d50429fbdb6b83ad7d15",
+        "batch_id": "poison-girl-friend-howard-theatre-dc-2026-09-09-discovery",
+        "event_index": 0,
+        "candidate_event_id": "poison-girl-friend-howard-theatre-washington-dc-2026-09-10",
+        "candidate_sha256": "54479adf31134bf6930cf11f0098612b8d255a244a114b4027f1de7d494eb4bc",
+        "errors": [
+          "poison-girl-friend-howard-theatre-washington-dc-2026-09-10 claims complete enrichment but required links or Apple Music are missing"
+        ],
+        "action": "review_validation",
+        "proposed_diff": [],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "poison-girl-friend-howard-theatre-washington-dc-2026-09-10 claims complete enrichment but required links or Apple Music are missing"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": true,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "complete",
+            "missing": [],
+            "note": "The official presenter verifies the exact Washington event, support billing, venue, address, age policy, doors, showtime, and direct authorized TicketWeb destination. Nippon Columbia provides authoritative artist/history context, and Apple Music provides an exact album destination plus the current 2026 release/tour context. TicketWeb did not render reliably in the automated pass, so no face-value price or inventory claim is inferred."
+          }
+        ],
+        "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+        "can_remain_active": false,
+        "materialization": "apply"
+      }
+    }
+  ],
+  "result": {
+    "active_path": null,
+    "active_events": []
+  }
+}

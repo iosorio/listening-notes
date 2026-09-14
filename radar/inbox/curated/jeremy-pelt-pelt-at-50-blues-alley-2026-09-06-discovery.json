@@ -75,10 +75,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "complete_blues_alley_lineup",
-          "per_set_official_ticket_urls"
+          "official_tickets"
         ],
-        "note": "Core dates, all four set times, per-set face values and fees, venue identity, PELT@50 tour framing, leader, and current Apple Music listening are verified. InstantSeats exposes a separate Get Tickets control for each set, but the exact per-set destinations were not independently resolved in this pass, so official_tickets remains null rather than pointing the four-set engagement to one incomplete purchase URL. The checked primary Washington sources do not publish the other four quintet members, so adjacent-tour personnel are not inferred."
+        "note": "Core dates, all four set times, per-set face values and fees, venue identity, PELT@50 tour framing, leader, and current Apple Music listening are verified. InstantSeats exposes a separate Get Tickets control for each set, but the exact per-set destinations were not independently resolved in this pass, so official_tickets remains null rather than pointing the four-set engagement to one incomplete purchase URL. The checked primary Washington sources do not publish the other four quintet members, so adjacent-tour personnel are not inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: complete_blues_alley_lineup, per_set_official_ticket_urls. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

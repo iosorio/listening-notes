@@ -8,8 +8,13 @@
       "id": "chucho-valdes-85th-jalc-rose-theater-nyc-2026-10-16",
       "artist": "Chucho Valdés",
       "subtitle": "85th Birthday Celebration with Joe Lovano and Terence Blanchard",
-      "dates": {"start": "2026-10-16", "end": "2026-10-17"},
-      "showtimes": ["19:30"],
+      "dates": {
+        "start": "2026-10-16",
+        "end": "2026-10-17"
+      },
+      "showtimes": [
+        "19:30"
+      ],
       "venue": {
         "id": "rose-theater-frederick-p-rose-hall-nyc",
         "name": "Rose Theater at Frederick P. Rose Hall",
@@ -22,8 +27,19 @@
       "status": "considering",
       "priority": "A+",
       "category": "Living master / 85th-birthday program / all-star Afro-Cuban jazz lineup",
-      "genres": ["Jazz", "Afro-Cuban jazz", "Latin jazz"],
-      "musical_axes": ["Masters", "Latin", "Acoustic Jazz", "Instrumental identity", "Improvised", "Cultural context"],
+      "genres": [
+        "Jazz",
+        "Afro-Cuban jazz",
+        "Latin jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Latin",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised",
+        "Cultural context"
+      ],
       "lineup": [
         "Chucho Valdés — piano",
         "Terence Blanchard — trumpet",
@@ -39,9 +55,11 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "partial",
-        "missing": ["apple_music"],
-        "note": "Dates, both 7:30 PM performances, Rose Theater, complete six-person lineup, 85th-birthday framing and authorized ticketing were verified from Jazz at Lincoln Center. No Apple Music destination is stored without exact verification."
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Dates, both 7:30 PM performances, Rose Theater, complete six-person lineup, 85th-birthday framing and authorized ticketing were verified from Jazz at Lincoln Center. No Apple Music destination is stored without exact verification. Structural normalization on 2026-09-11: status 'partial' normalized to pending. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -87,8 +105,13 @@
       "id": "linda-sikhakhane-solar-myth-philadelphia-2026-10-29",
       "artist": "Linda Sikhakhane",
       "subtitle": "Solar Myth — current Blue Note period",
-      "dates": {"start": "2026-10-29", "end": null},
-      "showtimes": ["20:00"],
+      "dates": {
+        "start": "2026-10-29",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
       "venue": {
         "id": "solar-myth-philadelphia",
         "name": "Solar Myth",
@@ -101,9 +124,21 @@
       "status": "considering",
       "priority": "A",
       "category": "South African jazz / saxophone-led current Blue Note period",
-      "genres": ["Jazz", "South African jazz", "Spiritual jazz", "Contemporary jazz"],
-      "musical_axes": ["Instrumental identity", "Improvised", "Cross-genre", "Cultural context"],
-      "lineup": ["Linda Sikhakhane — saxophone"],
+      "genres": [
+        "Jazz",
+        "South African jazz",
+        "Spiritual jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Improvised",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Linda Sikhakhane — saxophone"
+      ],
       "factual_description": "Ars Nova Workshop presents South African saxophonist Linda Sikhakhane and his band at Solar Myth in Philadelphia on Thursday, October 29, 2026 at 8:00 PM. The presenter lists the supporting personnel as TBA and prices the seated 21+ show at $30 advance / $35 day of show. Blue Note Records identifies Sikhakhane as a saxophonist and composer and announces his self-titled fifth album LINDA for September 4, 2026, produced with guidance from Nduduzo Makhathini and rooted in South African jazz while incorporating contemporary inflections including hip-hop, mzansi neo-soul and amapiano.",
       "links": {
         "official_event": "https://www.arsnovaworkshop.org/programs/linda-sikhakhane/",
@@ -111,9 +146,11 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "partial",
-        "missing": ["full supporting lineup", "apple_music"],
-        "note": "Date, 8:00 PM start, Solar Myth, seated 21+ format, $30 advance / $35 day-of-show pricing and authorized DICE destination are verified from Ars Nova Workshop. Sikhakhane's saxophone identity and current LINDA album context are verified from Blue Note Records. Supporting personnel remain TBA and are not inferred."
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Date, 8:00 PM start, Solar Myth, seated 21+ format, $30 advance / $35 day-of-show pricing and authorized DICE destination are verified from Ars Nova Workshop. Sikhakhane's saxophone identity and current LINDA album context are verified from Blue Note Records. Supporting personnel remain TBA and are not inferred. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: full supporting lineup. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

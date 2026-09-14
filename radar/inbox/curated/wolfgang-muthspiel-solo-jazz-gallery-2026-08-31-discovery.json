@@ -63,9 +63,11 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "complete",
-        "missing": [],
-        "note": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred."
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred. Structural normalization on 2026-09-11: complete normalized to pending because required components are absent; missing recalculated from the links and Apple Music URLs already present. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

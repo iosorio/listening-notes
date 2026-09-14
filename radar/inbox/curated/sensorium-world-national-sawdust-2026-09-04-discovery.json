@@ -65,12 +65,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "performance_start_time",
-          "official_ticket_price",
-          "complete_current_performing_ensemble_personnel",
           "apple_music"
         ],
-        "note": "Date, doors, venue, named current cast/cello credit, principal creative team and live Sensorium AI mechanism are verified from National Sawdust’s exact current event page. VisionIntoArt verifies the active-project status and May 2025 world premiere. National Sawdust’s page uses 6:30 PM both as doors and as its displayed event time, so the exact performance start remains unresolved rather than being inferred. No ticket price, unlisted current ensemble personnel or Apple Music destination is invented."
+        "note": "Date, doors, venue, named current cast/cello credit, principal creative team and live Sensorium AI mechanism are verified from National Sawdust’s exact current event page. VisionIntoArt verifies the active-project status and May 2025 world premiere. National Sawdust’s page uses 6:30 PM both as doors and as its displayed event time, so the exact performance start remains unresolved rather than being inferred. No ticket price, unlisted current ensemble personnel or Apple Music destination is invented. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: performance_start_time, official_ticket_price, complete_current_performing_ensemble_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

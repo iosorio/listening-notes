@@ -67,10 +67,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "event_specific_ticket_destination",
           "apple_music"
         ],
-        "note": "The exact date, lineup, substitution, doors, start time, venue identity/address and face-value charges are verified from the official venue schedule and access pages, with an authoritative Yamamoto schedule cross-check. The venue's generic official reservation form is linked, but no event-specific purchase/reservation URL or confidently verified Apple Music destination was established in this pass."
+        "note": "The exact date, lineup, substitution, doors, start time, venue identity/address and face-value charges are verified from the official venue schedule and access pages, with an authoritative Yamamoto schedule cross-check. The venue's generic official reservation form is linked, but no event-specific purchase/reservation URL or confidently verified Apple Music destination was established in this pass. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: event_specific_ticket_destination. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

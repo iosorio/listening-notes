@@ -51,11 +51,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "full_commission_program",
-          "additional_lineup_if_any",
-          "exact_recommended_listening"
+          "apple_music"
         ],
-        "note": "The Jazz Gallery verifies the two-night commission presentation, set times, prices, and authorized set-specific AudienceView ticket destinations. The Jazz Gallery fellowship page verifies that the 2026 fellow is Michael Rodriguez and that the fellowship is designed to support new compositional projects. Juilliard verifies Rodriguez as a trumpeter/composer. No additional personnel, specific commission title/program, or exact pre-listen tied to this new commission has been announced, so those fields are left unresolved rather than inferred."
+        "note": "The Jazz Gallery verifies the two-night commission presentation, set times, prices, and authorized set-specific AudienceView ticket destinations. The Jazz Gallery fellowship page verifies that the 2026 fellow is Michael Rodriguez and that the fellowship is designed to support new compositional projects. Juilliard verifies Rodriguez as a trumpeter/composer. No additional personnel, specific commission title/program, or exact pre-listen tied to this new commission has been announced, so those fields are left unresolved rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: full_commission_program, additional_lineup_if_any, exact_recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -150,10 +148,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_debut_album_release_metadata",
-          "exact_recommended_listening"
+          "apple_music"
         ],
-        "note": "The Jazz Gallery verifies the release-show billing, date, two set times, complete trio personnel, prices, project framing, and authorized set-specific AudienceView ticket destinations. NYU independently verifies the active VEN Trio lineup/context and its Brazilian/jazz/indie blend. No exact digital release page for the debut album was confidently verified in this pass, so no title, release date, Apple Music ID, or pre-listen link is inferred."
+        "note": "The Jazz Gallery verifies the release-show billing, date, two set times, complete trio personnel, prices, project framing, and authorized set-specific AudienceView ticket destinations. NYU independently verifies the active VEN Trio lineup/context and its Brazilian/jazz/indie blend. No exact digital release page for the debut album was confidently verified in this pass, so no title, release date, Apple Music ID, or pre-listen link is inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_debut_album_release_metadata, exact_recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

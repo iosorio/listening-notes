@@ -57,10 +57,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "links.official_tickets",
-          "recommended_listening.apple_music_url"
+          "official_tickets",
+          "apple_music"
         ],
-        "note": "The exact Hank Dietle's event page, date, 8:00 PM start, $10 cover and current billing are verified. The event page does not expose a separate official purchase destination, and no exact Apple Music page for Live in Captivity was verified in this pass. Rick Whitehead's official music page verifies the album and trio history. No ticket URL or streaming URL was invented."
+        "note": "The exact Hank Dietle's event page, date, 8:00 PM start, $10 cover and current billing are verified. The event page does not expose a separate official purchase destination, and no exact Apple Music page for Live in Captivity was verified in this pass. Rick Whitehead's official music page verifies the album and trio history. No ticket URL or streaming URL was invented. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_tickets, recommended_listening.apple_music_url. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

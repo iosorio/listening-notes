@@ -69,12 +69,11 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "partial",
+        "status": "pending",
         "missing": [
-          "verified face-value ticket price",
           "apple_music"
         ],
-        "note": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred."
+        "note": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: verified face-value ticket price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

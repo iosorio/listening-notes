@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/tania-leon-imagenes-mestizas-nyphil-2026-09-24-discovery.json",
+    "sha256": "1211e256129e894619b7bbb3aecd5ce813891d3c65f2310888af130ba21b7d22",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"tania-leon-imagenes-mestizas-nyphil-2026-08-28-discovery\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before admission and grading. Current Yamamoto/ALFIE/BODY&SOUL/Space M&A and Japanese jazz checks produced no new verified, unrecorded Tsuyoshi Yamamoto appearance. Tania León's Imágenes mestizas clears RADAR admission because this is a New York Philharmonic world-premiere commission by a major living composer, framed by the Philharmonic as an exploration of sounds from across the Americas, conducted by Gustavo Dudamel during his inaugural New York Philharmonic season and paired with Mahler's Fifth. The final grade is A+: actively make room for one performance. The scarcity challenge does not support S because the premiere program is presented across a multi-performance Sep 24-29 run rather than as a singular one-night event. Repository searches found no existing Imágenes mestizas / Tania León / Sep 24 New York Philharmonic RADAR record or matching stable event ID.\",\n  \"events\": [\n    {\n      \"id\": \"tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24\",\n      \"artist\": \"Tania León / New York Philharmonic\",\n      \"subtitle\": \"Dudamel Conducts Mahler & Tania León — Imágenes mestizas World Premiere\",\n      \"dates\": {\n        \"start\": \"2026-09-24\",\n        \"end\": \"2026-09-29\"\n      },\n      \"showtimes\": [\n        \"19:30\",\n        \"14:00\"\n      ],\n      \"venue\": {\n        \"id\": \"wu-tsai-theater-david-geffen-hall-new-york\",\n        \"name\": \"Wu Tsai Theater, David Geffen Hall\",\n        \"city\": \"New York\",\n        \"state\": \"NY\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Trip\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Classical / Contemporary orchestral world premiere\",\n      \"genres\": [\n        \"Classical\",\n        \"Contemporary classical\",\n        \"Orchestral\"\n      ],\n      \"musical_axes\": [\n        \"Masters\",\n        \"Latin\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"Gustavo Dudamel — conductor\",\n        \"New York Philharmonic — orchestra\"\n      ],\n      \"factual_description\": \"The New York Philharmonic's current event page lists Sep 24-29, 2026 at Wu Tsai Theater, David Geffen Hall, conducted by Gustavo Dudamel, with the World Premiere of Tania León's Imágenes mestizas, a New York Philharmonic commission, paired with Mahler's Symphony No. 5. The Philharmonic describes León's new work as an exploration of sounds from across the Americas and notes that the Sep 24 performance was added because of audience demand. Authorized Ticketmaster listings verify 7:30 PM performances on Sep 25 and Sep 26, a 2:00 PM performance on Sep 27, and a 7:30 PM performance on Sep 29. The exact curtain time for the newly added Sep 24 performance is not surfaced in the static official New York Philharmonic page or the authorized Ticketmaster listings checked on Aug 28, so it is intentionally left pending rather than inferred.\",\n      \"links\": {\n        \"official_event\": \"https://www.nyphil.org/concerts-tickets/2627/dudamel-conducts-mahler-and-tania-leon/\",\n        \"official_tickets\": null\n      },\n      \"recommended_listening\": [],\n      \"enrichment\": {\n        \"status\": \"pending\",\n        \"missing\": [\n          \"official_tickets\",\n          \"apple_music\",\n          \"sep_24_showtime\"\n        ],\n        \"note\": \"Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.nyphil.org/concerts-tickets/2627/dudamel-conducts-mahler-and-tania-leon/\",\n          \"publisher\": \"New York Philharmonic\",\n          \"checked_on\": \"2026-08-28\",\n          \"note\": \"Primary official event page confirms Sep 24-29, Wu Tsai Theater at David Geffen Hall, Gustavo Dudamel, the New York Philharmonic, Imágenes mestizas as a World Premiere and New York Philharmonic Commission, Mahler Symphony No. 5, and the added Sep 24 performance.\"\n        },\n        {\n          \"url\": \"https://www.tanialeon.com/schedule\",\n          \"publisher\": \"Tania León\",\n          \"checked_on\": \"2026-08-28\",\n          \"note\": \"Composer's official schedule independently confirms the title Imágenes mestizas, world-premiere and New York Philharmonic commission framing, Gustavo Dudamel and the New York Philharmonic. Its older Sep 25-29 date range is superseded for current scheduling by the Philharmonic's newly added Sep 24 performance.\"\n        },\n        {\n          \"url\": \"https://www.ticketmaster.com/lincoln-centers-david-geffen-hall-tickets-new-york/venue/1406\",\n          \"publisher\": \"Ticketmaster\",\n          \"checked_on\": \"2026-08-28\",\n          \"note\": \"Authorized venue ticket listing verifies 7:30 PM on Sep 25 and Sep 26, 2:00 PM on Sep 27, and 7:30 PM on Sep 29. The newly added Sep 24 performance was not yet surfaced in the checked Ticketmaster listing.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-sources\",\n        \"note\": \"Program, current date range, venue, premiere/commission status and artists were verified directly with the New York Philharmonic and corroborated by Tania León's official schedule. Exact published curtain times for Sep 25-29 were corroborated through Ticketmaster. Repository search found no existing Imágenes mestizas / Tania León / Sep 24, 2026 New York Philharmonic RADAR record or matching stable event ID. The Sep 24 curtain, official purchase destination and Apple Music enrichment were not inferred.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"The specific reason to care is the premiere itself: a new New York Philharmonic commission from Tania León, opening the program under Gustavo Dudamel with a work the orchestra describes as an exploration of sounds from across the Americas. Imágenes mestizas places León's orchestral imagination and a living cross-American musical conversation at the center of one of the Philharmonic's first programs of Dudamel's inaugural season, with Mahler Five on the other side of the frame.\",\n          \"trip_verdict\": \"If New York is reachable during this run, actively make room for one performance. The Sep 24-29 window gives enough flexibility to fold it into a broader New York trip rather than treating a single curtain as an all-or-nothing journey.\",\n          \"listen_before\": null\n        },\n        \"es\": {\n          \"why_it_matters\": \"La razón concreta para ponerlo en el RADAR es el estreno mismo: una nueva comisión de la New York Philharmonic de Tania León que abre el programa bajo Gustavo Dudamel con una obra que la orquesta describe como una exploración de sonidos de distintas partes de las Américas. Imágenes mestizas pone la imaginación orquestal de León y una conversación musical viva entre las Américas en el centro de uno de los primeros programas de la temporada inaugural de Dudamel, con la Quinta de Mahler al otro lado del marco.\",\n          \"trip_verdict\": \"Si Nueva York está al alcance durante esta corrida, sí le haría espacio activamente a una función. La ventana del 24 al 29 de septiembre permite integrarla a un viaje más amplio por Nueva York en vez de convertir una sola función en una decisión de todo o nada.\",\n          \"listen_before\": null\n        }\n      }\n    }\n  ]\n}",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "tania-leon-imagenes-mestizas-nyphil-2026-08-28-discovery",
+      "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before admission and grading. Current Yamamoto/ALFIE/BODY&SOUL/Space M&A and Japanese jazz checks produced no new verified, unrecorded Tsuyoshi Yamamoto appearance. Tania León's Imágenes mestizas clears RADAR admission because this is a New York Philharmonic world-premiere commission by a major living composer, framed by the Philharmonic as an exploration of sounds from across the Americas, conducted by Gustavo Dudamel during his inaugural New York Philharmonic season and paired with Mahler's Fifth. The final grade is A+: actively make room for one performance. The scarcity challenge does not support S because the premiere program is presented across a multi-performance Sep 24-29 run rather than as a singular one-night event. Repository searches found no existing Imágenes mestizas / Tania León / Sep 24 New York Philharmonic RADAR record or matching stable event ID.",
+      "events": [
+        {
+          "id": "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24",
+          "artist": "Tania León / New York Philharmonic",
+          "subtitle": "Dudamel Conducts Mahler & Tania León — Imágenes mestizas World Premiere",
+          "dates": {
+            "start": "2026-09-24",
+            "end": "2026-09-29"
+          },
+          "showtimes": [
+            "19:30",
+            "14:00"
+          ],
+          "venue": {
+            "id": "wu-tsai-theater-david-geffen-hall-new-york",
+            "name": "Wu Tsai Theater, David Geffen Hall",
+            "city": "New York",
+            "state": "NY",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Trip",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Classical / Contemporary orchestral world premiere",
+          "genres": [
+            "Classical",
+            "Contemporary classical",
+            "Orchestral"
+          ],
+          "musical_axes": [
+            "Masters",
+            "Latin",
+            "Cultural context"
+          ],
+          "lineup": [
+            "Gustavo Dudamel — conductor",
+            "New York Philharmonic — orchestra"
+          ],
+          "factual_description": "The New York Philharmonic's current event page lists Sep 24-29, 2026 at Wu Tsai Theater, David Geffen Hall, conducted by Gustavo Dudamel, with the World Premiere of Tania León's Imágenes mestizas, a New York Philharmonic commission, paired with Mahler's Symphony No. 5. The Philharmonic describes León's new work as an exploration of sounds from across the Americas and notes that the Sep 24 performance was added because of audience demand. Authorized Ticketmaster listings verify 7:30 PM performances on Sep 25 and Sep 26, a 2:00 PM performance on Sep 27, and a 7:30 PM performance on Sep 29. The exact curtain time for the newly added Sep 24 performance is not surfaced in the static official New York Philharmonic page or the authorized Ticketmaster listings checked on Aug 28, so it is intentionally left pending rather than inferred.",
+          "links": {
+            "official_event": "https://www.nyphil.org/concerts-tickets/2627/dudamel-conducts-mahler-and-tania-leon/",
+            "official_tickets": null
+          },
+          "recommended_listening": [],
+          "enrichment": {
+            "status": "pending",
+            "missing": [
+              "official_tickets",
+              "apple_music",
+              "sep_24_showtime"
+            ],
+            "note": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending."
+          },
+          "sources": [
+            {
+              "url": "https://www.nyphil.org/concerts-tickets/2627/dudamel-conducts-mahler-and-tania-leon/",
+              "publisher": "New York Philharmonic",
+              "checked_on": "2026-08-28",
+              "note": "Primary official event page confirms Sep 24-29, Wu Tsai Theater at David Geffen Hall, Gustavo Dudamel, the New York Philharmonic, Imágenes mestizas as a World Premiere and New York Philharmonic Commission, Mahler Symphony No. 5, and the added Sep 24 performance."
+            },
+            {
+              "url": "https://www.tanialeon.com/schedule",
+              "publisher": "Tania León",
+              "checked_on": "2026-08-28",
+              "note": "Composer's official schedule independently confirms the title Imágenes mestizas, world-premiere and New York Philharmonic commission framing, Gustavo Dudamel and the New York Philharmonic. Its older Sep 25-29 date range is superseded for current scheduling by the Philharmonic's newly added Sep 24 performance."
+            },
+            {
+              "url": "https://www.ticketmaster.com/lincoln-centers-david-geffen-hall-tickets-new-york/venue/1406",
+              "publisher": "Ticketmaster",
+              "checked_on": "2026-08-28",
+              "note": "Authorized venue ticket listing verifies 7:30 PM on Sep 25 and Sep 26, 2:00 PM on Sep 27, and 7:30 PM on Sep 29. The newly added Sep 24 performance was not yet surfaced in the checked Ticketmaster listing."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-sources",
+            "note": "Program, current date range, venue, premiere/commission status and artists were verified directly with the New York Philharmonic and corroborated by Tania León's official schedule. Exact published curtain times for Sep 25-29 were corroborated through Ticketmaster. Repository search found no existing Imágenes mestizas / Tania León / Sep 24, 2026 New York Philharmonic RADAR record or matching stable event ID. The Sep 24 curtain, official purchase destination and Apple Music enrichment were not inferred."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "The specific reason to care is the premiere itself: a new New York Philharmonic commission from Tania León, opening the program under Gustavo Dudamel with a work the orchestra describes as an exploration of sounds from across the Americas. Imágenes mestizas places León's orchestral imagination and a living cross-American musical conversation at the center of one of the Philharmonic's first programs of Dudamel's inaugural season, with Mahler Five on the other side of the frame.",
+              "trip_verdict": "If New York is reachable during this run, actively make room for one performance. The Sep 24-29 window gives enough flexibility to fold it into a broader New York trip rather than treating a single curtain as an all-or-nothing journey.",
+              "listen_before": null
+            },
+            "es": {
+              "why_it_matters": "La razón concreta para ponerlo en el RADAR es el estreno mismo: una nueva comisión de la New York Philharmonic de Tania León que abre el programa bajo Gustavo Dudamel con una obra que la orquesta describe como una exploración de sonidos de distintas partes de las Américas. Imágenes mestizas pone la imaginación orquestal de León y una conversación musical viva entre las Américas en el centro de uno de los primeros programas de la temporada inaugural de Dudamel, con la Quinta de Mahler al otro lado del marco.",
+              "trip_verdict": "Si Nueva York está al alcance durante esta corrida, sí le haría espacio activamente a una función. La ventana del 24 al 29 de septiembre permite integrarla a un viaje más amplio por Nueva York en vez de convertir una sola función en una decisión de todo o nada.",
+              "listen_before": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/tania-leon-imagenes-mestizas-nyphil-2026-09-24-discovery.json",
+      "batch_sha256": "1211e256129e894619b7bbb3aecd5ce813891d3c65f2310888af130ba21b7d22",
+      "batch_id": "tania-leon-imagenes-mestizas-nyphil-2026-08-28-discovery",
+      "event_index": 0,
+      "candidate_event_id": "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24",
+      "candidate_sha256": "7e717c9eae08b32e55967cdd1b245d4fe3d9fb6503e22b1553d771a6087c3e58",
+      "errors": [
+        "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24.enrichment.missing must be a unique list of known enrichment fields"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.missing",
+          "before": [
+            "official_tickets",
+            "apple_music",
+            "sep_24_showtime"
+          ],
+          "after": [
+            "official_tickets",
+            "apple_music"
+          ]
+        },
+        {
+          "field": "enrichment.note",
+          "before": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending.",
+          "after": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: sep_24_showtime. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24.enrichment.missing must be a unique list of known enrichment fields"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": false,
+          "apple_music": false
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "pending",
+          "missing": [
+            "official_tickets",
+            "apple_music",
+            "sep_24_showtime"
+          ],
+          "note": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "missing recalculated from the links and Apple Music URLs already present",
+        "non-standard missing labels preserved here: sep_24_showtime"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "41b15368ba53521580789754ee3a7d757c8dbab8dc9a96495614f3fe8cea9a8e"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24",
+        "artist": "Tania León / New York Philharmonic",
+        "subtitle": "Dudamel Conducts Mahler & Tania León — Imágenes mestizas World Premiere",
+        "dates": {
+          "start": "2026-09-24",
+          "end": "2026-09-29"
+        },
+        "showtimes": [
+          "19:30",
+          "14:00"
+        ],
+        "venue": {
+          "id": "wu-tsai-theater-david-geffen-hall-new-york",
+          "name": "Wu Tsai Theater, David Geffen Hall",
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Trip",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Classical / Contemporary orchestral world premiere",
+        "genres": [
+          "Classical",
+          "Contemporary classical",
+          "Orchestral"
+        ],
+        "musical_axes": [
+          "Masters",
+          "Latin",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Gustavo Dudamel — conductor",
+          "New York Philharmonic — orchestra"
+        ],
+        "factual_description": "The New York Philharmonic's current event page lists Sep 24-29, 2026 at Wu Tsai Theater, David Geffen Hall, conducted by Gustavo Dudamel, with the World Premiere of Tania León's Imágenes mestizas, a New York Philharmonic commission, paired with Mahler's Symphony No. 5. The Philharmonic describes León's new work as an exploration of sounds from across the Americas and notes that the Sep 24 performance was added because of audience demand. Authorized Ticketmaster listings verify 7:30 PM performances on Sep 25 and Sep 26, a 2:00 PM performance on Sep 27, and a 7:30 PM performance on Sep 29. The exact curtain time for the newly added Sep 24 performance is not surfaced in the static official New York Philharmonic page or the authorized Ticketmaster listings checked on Aug 28, so it is intentionally left pending rather than inferred.",
+        "links": {
+          "official_event": "https://www.nyphil.org/concerts-tickets/2627/dudamel-conducts-mahler-and-tania-leon/",
+          "official_tickets": null
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "official_tickets",
+            "apple_music",
+            "sep_24_showtime"
+          ],
+          "note": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending."
+        },
+        "sources": [
+          {
+            "url": "https://www.nyphil.org/concerts-tickets/2627/dudamel-conducts-mahler-and-tania-leon/",
+            "publisher": "New York Philharmonic",
+            "checked_on": "2026-08-28",
+            "note": "Primary official event page confirms Sep 24-29, Wu Tsai Theater at David Geffen Hall, Gustavo Dudamel, the New York Philharmonic, Imágenes mestizas as a World Premiere and New York Philharmonic Commission, Mahler Symphony No. 5, and the added Sep 24 performance."
+          },
+          {
+            "url": "https://www.tanialeon.com/schedule",
+            "publisher": "Tania León",
+            "checked_on": "2026-08-28",
+            "note": "Composer's official schedule independently confirms the title Imágenes mestizas, world-premiere and New York Philharmonic commission framing, Gustavo Dudamel and the New York Philharmonic. Its older Sep 25-29 date range is superseded for current scheduling by the Philharmonic's newly added Sep 24 performance."
+          },
+          {
+            "url": "https://www.ticketmaster.com/lincoln-centers-david-geffen-hall-tickets-new-york/venue/1406",
+            "publisher": "Ticketmaster",
+            "checked_on": "2026-08-28",
+            "note": "Authorized venue ticket listing verifies 7:30 PM on Sep 25 and Sep 26, 2:00 PM on Sep 27, and 7:30 PM on Sep 29. The newly added Sep 24 performance was not yet surfaced in the checked Ticketmaster listing."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Program, current date range, venue, premiere/commission status and artists were verified directly with the New York Philharmonic and corroborated by Tania León's official schedule. Exact published curtain times for Sep 25-29 were corroborated through Ticketmaster. Repository search found no existing Imágenes mestizas / Tania León / Sep 24, 2026 New York Philharmonic RADAR record or matching stable event ID. The Sep 24 curtain, official purchase destination and Apple Music enrichment were not inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The specific reason to care is the premiere itself: a new New York Philharmonic commission from Tania León, opening the program under Gustavo Dudamel with a work the orchestra describes as an exploration of sounds from across the Americas. Imágenes mestizas places León's orchestral imagination and a living cross-American musical conversation at the center of one of the Philharmonic's first programs of Dudamel's inaugural season, with Mahler Five on the other side of the frame.",
+            "trip_verdict": "If New York is reachable during this run, actively make room for one performance. The Sep 24-29 window gives enough flexibility to fold it into a broader New York trip rather than treating a single curtain as an all-or-nothing journey.",
+            "listen_before": null
+          },
+          "es": {
+            "why_it_matters": "La razón concreta para ponerlo en el RADAR es el estreno mismo: una nueva comisión de la New York Philharmonic de Tania León que abre el programa bajo Gustavo Dudamel con una obra que la orquesta describe como una exploración de sonidos de distintas partes de las Américas. Imágenes mestizas pone la imaginación orquestal de León y una conversación musical viva entre las Américas en el centro de uno de los primeros programas de la temporada inaugural de Dudamel, con la Quinta de Mahler al otro lado del marco.",
+            "trip_verdict": "Si Nueva York está al alcance durante esta corrida, sí le haría espacio activamente a una función. La ventana del 24 al 29 de septiembre permite integrarla a un viaje más amplio por Nueva York en vez de convertir una sola función en una decisión de todo o nada.",
+            "listen_before": null
+          }
+        }
+      },
+      "after": {
+        "id": "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24",
+        "artist": "Tania León / New York Philharmonic",
+        "subtitle": "Dudamel Conducts Mahler & Tania León — Imágenes mestizas World Premiere",
+        "dates": {
+          "start": "2026-09-24",
+          "end": "2026-09-29"
+        },
+        "showtimes": [
+          "19:30",
+          "14:00"
+        ],
+        "venue": {
+          "id": "wu-tsai-theater-david-geffen-hall-new-york",
+          "name": "Wu Tsai Theater, David Geffen Hall",
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Trip",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Classical / Contemporary orchestral world premiere",
+        "genres": [
+          "Classical",
+          "Contemporary classical",
+          "Orchestral"
+        ],
+        "musical_axes": [
+          "Masters",
+          "Latin",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Gustavo Dudamel — conductor",
+          "New York Philharmonic — orchestra"
+        ],
+        "factual_description": "The New York Philharmonic's current event page lists Sep 24-29, 2026 at Wu Tsai Theater, David Geffen Hall, conducted by Gustavo Dudamel, with the World Premiere of Tania León's Imágenes mestizas, a New York Philharmonic commission, paired with Mahler's Symphony No. 5. The Philharmonic describes León's new work as an exploration of sounds from across the Americas and notes that the Sep 24 performance was added because of audience demand. Authorized Ticketmaster listings verify 7:30 PM performances on Sep 25 and Sep 26, a 2:00 PM performance on Sep 27, and a 7:30 PM performance on Sep 29. The exact curtain time for the newly added Sep 24 performance is not surfaced in the static official New York Philharmonic page or the authorized Ticketmaster listings checked on Aug 28, so it is intentionally left pending rather than inferred.",
+        "links": {
+          "official_event": "https://www.nyphil.org/concerts-tickets/2627/dudamel-conducts-mahler-and-tania-leon/",
+          "official_tickets": null
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "official_tickets",
+            "apple_music"
+          ],
+          "note": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: sep_24_showtime. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.nyphil.org/concerts-tickets/2627/dudamel-conducts-mahler-and-tania-leon/",
+            "publisher": "New York Philharmonic",
+            "checked_on": "2026-08-28",
+            "note": "Primary official event page confirms Sep 24-29, Wu Tsai Theater at David Geffen Hall, Gustavo Dudamel, the New York Philharmonic, Imágenes mestizas as a World Premiere and New York Philharmonic Commission, Mahler Symphony No. 5, and the added Sep 24 performance."
+          },
+          {
+            "url": "https://www.tanialeon.com/schedule",
+            "publisher": "Tania León",
+            "checked_on": "2026-08-28",
+            "note": "Composer's official schedule independently confirms the title Imágenes mestizas, world-premiere and New York Philharmonic commission framing, Gustavo Dudamel and the New York Philharmonic. Its older Sep 25-29 date range is superseded for current scheduling by the Philharmonic's newly added Sep 24 performance."
+          },
+          {
+            "url": "https://www.ticketmaster.com/lincoln-centers-david-geffen-hall-tickets-new-york/venue/1406",
+            "publisher": "Ticketmaster",
+            "checked_on": "2026-08-28",
+            "note": "Authorized venue ticket listing verifies 7:30 PM on Sep 25 and Sep 26, 2:00 PM on Sep 27, and 7:30 PM on Sep 29. The newly added Sep 24 performance was not yet surfaced in the checked Ticketmaster listing."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Program, current date range, venue, premiere/commission status and artists were verified directly with the New York Philharmonic and corroborated by Tania León's official schedule. Exact published curtain times for Sep 25-29 were corroborated through Ticketmaster. Repository search found no existing Imágenes mestizas / Tania León / Sep 24, 2026 New York Philharmonic RADAR record or matching stable event ID. The Sep 24 curtain, official purchase destination and Apple Music enrichment were not inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The specific reason to care is the premiere itself: a new New York Philharmonic commission from Tania León, opening the program under Gustavo Dudamel with a work the orchestra describes as an exploration of sounds from across the Americas. Imágenes mestizas places León's orchestral imagination and a living cross-American musical conversation at the center of one of the Philharmonic's first programs of Dudamel's inaugural season, with Mahler Five on the other side of the frame.",
+            "trip_verdict": "If New York is reachable during this run, actively make room for one performance. The Sep 24-29 window gives enough flexibility to fold it into a broader New York trip rather than treating a single curtain as an all-or-nothing journey.",
+            "listen_before": null
+          },
+          "es": {
+            "why_it_matters": "La razón concreta para ponerlo en el RADAR es el estreno mismo: una nueva comisión de la New York Philharmonic de Tania León que abre el programa bajo Gustavo Dudamel con una obra que la orquesta describe como una exploración de sonidos de distintas partes de las Américas. Imágenes mestizas pone la imaginación orquestal de León y una conversación musical viva entre las Américas en el centro de uno de los primeros programas de la temporada inaugural de Dudamel, con la Quinta de Mahler al otro lado del marco.",
+            "trip_verdict": "Si Nueva York está al alcance durante esta corrida, sí le haría espacio activamente a una función. La ventana del 24 al 29 de septiembre permite integrarla a un viaje más amplio por Nueva York en vez de convertir una sola función en una decisión de todo o nada.",
+            "listen_before": null
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/tania-leon-imagenes-mestizas-nyphil-2026-09-24-discovery.json",
+        "batch_sha256": "1211e256129e894619b7bbb3aecd5ce813891d3c65f2310888af130ba21b7d22",
+        "batch_id": "tania-leon-imagenes-mestizas-nyphil-2026-08-28-discovery",
+        "event_index": 0,
+        "candidate_event_id": "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24",
+        "candidate_sha256": "7e717c9eae08b32e55967cdd1b245d4fe3d9fb6503e22b1553d771a6087c3e58",
+        "errors": [
+          "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24.enrichment.missing must be a unique list of known enrichment fields"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.missing",
+            "before": [
+              "official_tickets",
+              "apple_music",
+              "sep_24_showtime"
+            ],
+            "after": [
+              "official_tickets",
+              "apple_music"
+            ]
+          },
+          {
+            "field": "enrichment.note",
+            "before": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending.",
+            "after": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: sep_24_showtime. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24.enrichment.missing must be a unique list of known enrichment fields"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": false,
+            "apple_music": false
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "pending",
+            "missing": [
+              "official_tickets",
+              "apple_music",
+              "sep_24_showtime"
+            ],
+            "note": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "missing recalculated from the links and Apple Music URLs already present",
+          "non-standard missing labels preserved here: sep_24_showtime"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "41b15368ba53521580789754ee3a7d757c8dbab8dc9a96495614f3fe8cea9a8e"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/tania-leon-imagenes-mestizas-nyphil-2026-09-24-discovery.json",
+    "active_events": [
+      {
+        "id": "tania-leon-imagenes-mestizas-nyphil-new-york-2026-09-24",
+        "sha256": "41b15368ba53521580789754ee3a7d757c8dbab8dc9a96495614f3fe8cea9a8e"
+      }
+    ]
+  }
+}

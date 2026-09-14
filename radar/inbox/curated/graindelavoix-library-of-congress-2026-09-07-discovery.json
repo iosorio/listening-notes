@@ -72,10 +72,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_official_ticket_destination",
-          "date_specific_individual_personnel"
+          "official_tickets"
         ],
-        "note": "The Library verifies the free-ticketed event, venue, 20:00 concert in its season announcement, 18:30 preconcert conversation, and the bespoke Laborde Chansonnier/Renaissance-collections program. The current event detail page exposes a Get Tickets action but its exact authorized ticket destination was not recovered, so official_tickets remains null. The event bills Graindelavoix without naming the date-specific singers, so individual personnel remain unresolved rather than invented. Apple Music verifies the exact Ex nihilo album destination."
+        "note": "The Library verifies the free-ticketed event, venue, 20:00 concert in its season announcement, 18:30 preconcert conversation, and the bespoke Laborde Chansonnier/Renaissance-collections program. The current event detail page exposes a Get Tickets action but its exact authorized ticket destination was not recovered, so official_tickets remains null. The event bills Graindelavoix without naming the date-specific singers, so individual personnel remain unresolved rather than invented. Apple Music verifies the exact Ex nihilo album destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, date_specific_individual_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

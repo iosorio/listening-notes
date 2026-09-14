@@ -1,0 +1,507 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/trio-imagination-close-up-nyc-2026-09-06-discovery.json",
+    "sha256": "7d7feea821a2cc14bea6f3bb0d4e0d40dce529502c4beb5f368f6a969898bb2f",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"trio-imagination-close-up-nyc-2026-09-06-discovery\",\n  \"checked_on\": \"2026-09-06\",\n  \"reviewed_by\": \"RADAR automation editorial review\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A-oriented searches, and credible Japanese-jazz sources; the BODY&SOUL grand finale and Kawasaki Plaza Afternoon Jazz FINAL were already represented in processed/curated intake, and no additional unrecorded Yamamoto appearance was verified. Broader New York research found Trio Imagination at Close Up during the Orchard Street Jazz Festival on October 2. Repository-wide searches for Trio Imagination, Reggie Workman + Andrew Cyrille + David Virelles, the exact October 2 date, Close Up, and the proposed stable event ID returned no matching canonical, curated, or processed record. Stage 1 admits the performance because the specific trio continues the Workman/Cyrille lineage of Trio 3 after Oliver Lake's retirement by bringing David Virelles into that long-running creative-music conversation, and this Close Up date lands one week after Pi Recordings releases the trio's debut recording Creative Inspirations. Stage 2 assigns A+: the combination of two major living improvisers, Virelles' distinct Cuban-rooted language, a newly documented trio book, and an intimate Lower East Side room is actively worth prioritizing in New York. The scarcity challenge does not support S: Reggie Workman's own performance archive documents Trio Imagination appearances at Winter Jazzfest and Hyde Park Jazz Festival in 2025, and the October 2 event is not billed as a farewell, premiere, or unique one-off. A+ fully captures the recommendation. The batch adds no S/S+ event and therefore does not expand the scarcity tiers in the recent/current RADAR intake.\",\n  \"events\": [\n    {\n      \"id\": \"trio-imagination-close-up-new-york-city-2026-10-02\",\n      \"artist\": \"Trio Imagination\",\n      \"subtitle\": \"Orchard Street Jazz Festival — WKCR 85th\",\n      \"dates\": {\n        \"start\": \"2026-10-02\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"18:30\",\n        \"20:00\"\n      ],\n      \"venue\": {\n        \"id\": \"close-up-new-york-city\",\n        \"name\": \"Close Up\",\n        \"city\": \"New York City\",\n        \"state\": \"NY\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Regional trip / New York City\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Intergenerational creative jazz / post-Trio 3 lineage / debut-record context\",\n      \"genres\": [\n        \"Jazz\",\n        \"Creative jazz\",\n        \"Avant-garde jazz\"\n      ],\n      \"musical_axes\": [\n        \"Masters\",\n        \"Acoustic Jazz\",\n        \"Improvised\",\n        \"Instrumental identity\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"David Virelles — piano\",\n        \"Reggie Workman — bass\",\n        \"Andrew Cyrille — drums\"\n      ],\n      \"factual_description\": \"Close Up presents Trio Imagination during the Orchard Street Jazz Festival on Friday, October 2, 2026, with sets at 6:30 PM and 8:00 PM at 154 Orchard Street in New York. The announced trio is David Virelles on piano, Reggie Workman on bass, and Andrew Cyrille on drums. Pi Recordings releases the trio's debut album Creative Inspirations on September 25, 2026, one week before the performance. Pi states that the group evolved from Trio 3: after saxophonist Oliver Lake retired, Cyrille and Workman invited Virelles to continue that creative lineage. The label describes the recording, made at Van Gelder Studio, as an intimate collective-improvising dialogue among the three musicians. Reggie Workman's official performance archive documents prior Trio Imagination appearances at Winter Jazzfest and the Hyde Park Jazz Festival in 2025.\",\n      \"links\": {\n        \"official_event\": \"https://www.viewcy.com/event/trio_imagination__or\",\n        \"official_tickets\": \"https://www.viewcy.com/event/trio_imagination__or\"\n      },\n      \"tickets\": {\n        \"currency\": \"USD\",\n        \"official\": {\n          \"minimum\": null,\n          \"maximum\": null,\n          \"source_url\": \"https://www.viewcy.com/event/trio_imagination__or\",\n          \"checked_on\": \"2026-09-06\"\n        },\n        \"resale\": {\n          \"minimum\": null,\n          \"maximum\": null,\n          \"url\": null,\n          \"checked_on\": null\n        }\n      },\n      \"recommended_listening\": [],\n      \"enrichment\": {\n        \"status\": \"partial\",\n        \"missing\": [\n          \"verified face-value ticket price\",\n          \"apple_music\"\n        ],\n        \"note\": \"Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.viewcy.com/event/trio_imagination__or\",\n          \"publisher\": \"Close Up / Viewcy\",\n          \"checked_on\": \"2026-09-06\",\n          \"note\": \"Authorized event and ticket page verifies Friday, October 2, 2026, Close Up at 154 Orchard Street, the Orchard Street Jazz Festival / WKCR 85th billing, and 6:30 PM and 8:00 PM sets.\"\n        },\n        {\n          \"url\": \"https://pirecordings.com/albums/creative-inspirations/\",\n          \"publisher\": \"Pi Recordings\",\n          \"checked_on\": \"2026-09-06\",\n          \"note\": \"Primary label page verifies Trio Imagination as David Virelles, Reggie Workman and Andrew Cyrille; the September 25, 2026 release date of debut album Creative Inspirations; the group's evolution from Trio 3 after Oliver Lake's retirement; and the Van Gelder Studio recording context.\"\n        },\n        {\n          \"url\": \"https://www.reggieworkmanmusic.com/performance-dates\",\n          \"publisher\": \"Reggie Workman\",\n          \"checked_on\": \"2026-09-06\",\n          \"note\": \"Workman's official performance archive documents Trio Imagination appearances at Winter Jazzfest and Hyde Park Jazz Festival in 2025, supporting the scarcity review that the October 2026 performance is not a documented one-off debut.\"\n        },\n        {\n          \"url\": \"https://jazzin.nyc/venue/closeup\",\n          \"publisher\": \"Jazz in NYC\",\n          \"checked_on\": \"2026-09-06\",\n          \"note\": \"Current curated NYC listing corroborates Close Up's October 2 Orchard Street Jazz Festival schedule, exact trio personnel and 6:30 PM / 8:00 PM sets.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-authorized-event-primary-label-and-artist-history-sources\",\n        \"reviewed_by\": \"RADAR automation editorial review\",\n        \"note\": \"Repository searches for Trio Imagination, all three musicians, Close Up, October 2, 2026 and the proposed stable event ID returned no canonical/curated/processed match before publication. Event facts are grounded in Close Up's authorized Viewcy page, project history in Pi Recordings, and scarcity context in Reggie Workman's official archive. No ticket price, unannounced personnel, set list, purchase destination beyond the authorized event page, or Apple Music identifier was invented.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"This trio is a living bridge rather than a museum piece. Workman and Cyrille carry forward the listening language they developed in Trio 3, while Virelles changes the center of gravity with a piano vocabulary shaped by Cuban rhythm, abstraction and space. One week after their first recording arrives, hearing that conversation at Close Up puts a newly documented ensemble in the kind of small room where its collective decisions can actually be heard.\",\n          \"trip_verdict\": \"If New York is in play that weekend, build Friday evening around the early set at Close Up and let the Lower East Side do the rest. From the DMV, I would fold it into a New York trip rather than make a same-day round trip for this date alone.\",\n          \"listen_before\": \"Trio Imagination — Creative Inspirations\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"Este trío funciona como un puente vivo, no como una pieza de museo. Workman y Cyrille prolongan el lenguaje de escucha que construyeron en Trio 3, mientras Virelles desplaza el centro de gravedad con un piano atravesado por ritmo cubano, abstracción y espacio. Una semana después de que aparezca su primera grabación, escuchar esa conversación en Close Up pone a un ensamble recién documentado en una sala lo bastante pequeña como para oír de verdad sus decisiones colectivas.\",\n          \"trip_verdict\": \"Si Nueva York está en juego ese fin de semana, armaría el viernes alrededor del set temprano en Close Up y dejaría que el Lower East Side complete la noche. Desde el DMV lo integraría a un viaje a Nueva York, en vez de hacer ida y vuelta el mismo día sólo por esta fecha.\",\n          \"listen_before\": \"Trio Imagination — Creative Inspirations\"\n        }\n      }\n    }\n  ]\n}",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "trio-imagination-close-up-nyc-2026-09-06-discovery",
+      "checked_on": "2026-09-06",
+      "reviewed_by": "RADAR automation editorial review",
+      "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Yamamoto schedule traces, Space M&A-oriented searches, and credible Japanese-jazz sources; the BODY&SOUL grand finale and Kawasaki Plaza Afternoon Jazz FINAL were already represented in processed/curated intake, and no additional unrecorded Yamamoto appearance was verified. Broader New York research found Trio Imagination at Close Up during the Orchard Street Jazz Festival on October 2. Repository-wide searches for Trio Imagination, Reggie Workman + Andrew Cyrille + David Virelles, the exact October 2 date, Close Up, and the proposed stable event ID returned no matching canonical, curated, or processed record. Stage 1 admits the performance because the specific trio continues the Workman/Cyrille lineage of Trio 3 after Oliver Lake's retirement by bringing David Virelles into that long-running creative-music conversation, and this Close Up date lands one week after Pi Recordings releases the trio's debut recording Creative Inspirations. Stage 2 assigns A+: the combination of two major living improvisers, Virelles' distinct Cuban-rooted language, a newly documented trio book, and an intimate Lower East Side room is actively worth prioritizing in New York. The scarcity challenge does not support S: Reggie Workman's own performance archive documents Trio Imagination appearances at Winter Jazzfest and Hyde Park Jazz Festival in 2025, and the October 2 event is not billed as a farewell, premiere, or unique one-off. A+ fully captures the recommendation. The batch adds no S/S+ event and therefore does not expand the scarcity tiers in the recent/current RADAR intake.",
+      "events": [
+        {
+          "id": "trio-imagination-close-up-new-york-city-2026-10-02",
+          "artist": "Trio Imagination",
+          "subtitle": "Orchard Street Jazz Festival — WKCR 85th",
+          "dates": {
+            "start": "2026-10-02",
+            "end": null
+          },
+          "showtimes": [
+            "18:30",
+            "20:00"
+          ],
+          "venue": {
+            "id": "close-up-new-york-city",
+            "name": "Close Up",
+            "city": "New York City",
+            "state": "NY",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Regional trip / New York City",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Intergenerational creative jazz / post-Trio 3 lineage / debut-record context",
+          "genres": [
+            "Jazz",
+            "Creative jazz",
+            "Avant-garde jazz"
+          ],
+          "musical_axes": [
+            "Masters",
+            "Acoustic Jazz",
+            "Improvised",
+            "Instrumental identity",
+            "Cultural context"
+          ],
+          "lineup": [
+            "David Virelles — piano",
+            "Reggie Workman — bass",
+            "Andrew Cyrille — drums"
+          ],
+          "factual_description": "Close Up presents Trio Imagination during the Orchard Street Jazz Festival on Friday, October 2, 2026, with sets at 6:30 PM and 8:00 PM at 154 Orchard Street in New York. The announced trio is David Virelles on piano, Reggie Workman on bass, and Andrew Cyrille on drums. Pi Recordings releases the trio's debut album Creative Inspirations on September 25, 2026, one week before the performance. Pi states that the group evolved from Trio 3: after saxophonist Oliver Lake retired, Cyrille and Workman invited Virelles to continue that creative lineage. The label describes the recording, made at Van Gelder Studio, as an intimate collective-improvising dialogue among the three musicians. Reggie Workman's official performance archive documents prior Trio Imagination appearances at Winter Jazzfest and the Hyde Park Jazz Festival in 2025.",
+          "links": {
+            "official_event": "https://www.viewcy.com/event/trio_imagination__or",
+            "official_tickets": "https://www.viewcy.com/event/trio_imagination__or"
+          },
+          "tickets": {
+            "currency": "USD",
+            "official": {
+              "minimum": null,
+              "maximum": null,
+              "source_url": "https://www.viewcy.com/event/trio_imagination__or",
+              "checked_on": "2026-09-06"
+            },
+            "resale": {
+              "minimum": null,
+              "maximum": null,
+              "url": null,
+              "checked_on": null
+            }
+          },
+          "recommended_listening": [],
+          "enrichment": {
+            "status": "partial",
+            "missing": [
+              "verified face-value ticket price",
+              "apple_music"
+            ],
+            "note": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred."
+          },
+          "sources": [
+            {
+              "url": "https://www.viewcy.com/event/trio_imagination__or",
+              "publisher": "Close Up / Viewcy",
+              "checked_on": "2026-09-06",
+              "note": "Authorized event and ticket page verifies Friday, October 2, 2026, Close Up at 154 Orchard Street, the Orchard Street Jazz Festival / WKCR 85th billing, and 6:30 PM and 8:00 PM sets."
+            },
+            {
+              "url": "https://pirecordings.com/albums/creative-inspirations/",
+              "publisher": "Pi Recordings",
+              "checked_on": "2026-09-06",
+              "note": "Primary label page verifies Trio Imagination as David Virelles, Reggie Workman and Andrew Cyrille; the September 25, 2026 release date of debut album Creative Inspirations; the group's evolution from Trio 3 after Oliver Lake's retirement; and the Van Gelder Studio recording context."
+            },
+            {
+              "url": "https://www.reggieworkmanmusic.com/performance-dates",
+              "publisher": "Reggie Workman",
+              "checked_on": "2026-09-06",
+              "note": "Workman's official performance archive documents Trio Imagination appearances at Winter Jazzfest and Hyde Park Jazz Festival in 2025, supporting the scarcity review that the October 2026 performance is not a documented one-off debut."
+            },
+            {
+              "url": "https://jazzin.nyc/venue/closeup",
+              "publisher": "Jazz in NYC",
+              "checked_on": "2026-09-06",
+              "note": "Current curated NYC listing corroborates Close Up's October 2 Orchard Street Jazz Festival schedule, exact trio personnel and 6:30 PM / 8:00 PM sets."
+            }
+          ],
+          "provenance": {
+            "status": "verified-authorized-event-primary-label-and-artist-history-sources",
+            "reviewed_by": "RADAR automation editorial review",
+            "note": "Repository searches for Trio Imagination, all three musicians, Close Up, October 2, 2026 and the proposed stable event ID returned no canonical/curated/processed match before publication. Event facts are grounded in Close Up's authorized Viewcy page, project history in Pi Recordings, and scarcity context in Reggie Workman's official archive. No ticket price, unannounced personnel, set list, purchase destination beyond the authorized event page, or Apple Music identifier was invented."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "This trio is a living bridge rather than a museum piece. Workman and Cyrille carry forward the listening language they developed in Trio 3, while Virelles changes the center of gravity with a piano vocabulary shaped by Cuban rhythm, abstraction and space. One week after their first recording arrives, hearing that conversation at Close Up puts a newly documented ensemble in the kind of small room where its collective decisions can actually be heard.",
+              "trip_verdict": "If New York is in play that weekend, build Friday evening around the early set at Close Up and let the Lower East Side do the rest. From the DMV, I would fold it into a New York trip rather than make a same-day round trip for this date alone.",
+              "listen_before": "Trio Imagination — Creative Inspirations"
+            },
+            "es": {
+              "why_it_matters": "Este trío funciona como un puente vivo, no como una pieza de museo. Workman y Cyrille prolongan el lenguaje de escucha que construyeron en Trio 3, mientras Virelles desplaza el centro de gravedad con un piano atravesado por ritmo cubano, abstracción y espacio. Una semana después de que aparezca su primera grabación, escuchar esa conversación en Close Up pone a un ensamble recién documentado en una sala lo bastante pequeña como para oír de verdad sus decisiones colectivas.",
+              "trip_verdict": "Si Nueva York está en juego ese fin de semana, armaría el viernes alrededor del set temprano en Close Up y dejaría que el Lower East Side complete la noche. Desde el DMV lo integraría a un viaje a Nueva York, en vez de hacer ida y vuelta el mismo día sólo por esta fecha.",
+              "listen_before": "Trio Imagination — Creative Inspirations"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/trio-imagination-close-up-nyc-2026-09-06-discovery.json",
+      "batch_sha256": "7d7feea821a2cc14bea6f3bb0d4e0d40dce529502c4beb5f368f6a969898bb2f",
+      "batch_id": "trio-imagination-close-up-nyc-2026-09-06-discovery",
+      "event_index": 0,
+      "candidate_event_id": "trio-imagination-close-up-new-york-city-2026-10-02",
+      "candidate_sha256": "695d9e3607afe10c0eb62e78de3f485865ea8875658b20170e9275b3ee77c926",
+      "errors": [
+        "trio-imagination-close-up-new-york-city-2026-10-02.enrichment requires status complete, pending, or unavailable"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.missing",
+          "before": [
+            "verified face-value ticket price",
+            "apple_music"
+          ],
+          "after": [
+            "apple_music"
+          ]
+        },
+        {
+          "field": "enrichment.note",
+          "before": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred.",
+          "after": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: verified face-value ticket price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        {
+          "field": "enrichment.status",
+          "before": "partial",
+          "after": "pending"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "trio-imagination-close-up-new-york-city-2026-10-02.enrichment requires status complete, pending, or unavailable"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": true,
+          "apple_music": false
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "partial",
+          "missing": [
+            "verified face-value ticket price",
+            "apple_music"
+          ],
+          "note": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "status 'partial' normalized to pending",
+        "missing recalculated from the links and Apple Music URLs already present",
+        "non-standard missing labels preserved here: verified face-value ticket price"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "6dfa02edbf904571b9789ad8e3327f60cafe94c7f72e044099df7a119a53f30c"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "trio-imagination-close-up-new-york-city-2026-10-02",
+        "artist": "Trio Imagination",
+        "subtitle": "Orchard Street Jazz Festival — WKCR 85th",
+        "dates": {
+          "start": "2026-10-02",
+          "end": null
+        },
+        "showtimes": [
+          "18:30",
+          "20:00"
+        ],
+        "venue": {
+          "id": "close-up-new-york-city",
+          "name": "Close Up",
+          "city": "New York City",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Regional trip / New York City",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Intergenerational creative jazz / post-Trio 3 lineage / debut-record context",
+        "genres": [
+          "Jazz",
+          "Creative jazz",
+          "Avant-garde jazz"
+        ],
+        "musical_axes": [
+          "Masters",
+          "Acoustic Jazz",
+          "Improvised",
+          "Instrumental identity",
+          "Cultural context"
+        ],
+        "lineup": [
+          "David Virelles — piano",
+          "Reggie Workman — bass",
+          "Andrew Cyrille — drums"
+        ],
+        "factual_description": "Close Up presents Trio Imagination during the Orchard Street Jazz Festival on Friday, October 2, 2026, with sets at 6:30 PM and 8:00 PM at 154 Orchard Street in New York. The announced trio is David Virelles on piano, Reggie Workman on bass, and Andrew Cyrille on drums. Pi Recordings releases the trio's debut album Creative Inspirations on September 25, 2026, one week before the performance. Pi states that the group evolved from Trio 3: after saxophonist Oliver Lake retired, Cyrille and Workman invited Virelles to continue that creative lineage. The label describes the recording, made at Van Gelder Studio, as an intimate collective-improvising dialogue among the three musicians. Reggie Workman's official performance archive documents prior Trio Imagination appearances at Winter Jazzfest and the Hyde Park Jazz Festival in 2025.",
+        "links": {
+          "official_event": "https://www.viewcy.com/event/trio_imagination__or",
+          "official_tickets": "https://www.viewcy.com/event/trio_imagination__or"
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": null,
+            "maximum": null,
+            "source_url": "https://www.viewcy.com/event/trio_imagination__or",
+            "checked_on": "2026-09-06"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "partial",
+          "missing": [
+            "verified face-value ticket price",
+            "apple_music"
+          ],
+          "note": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.viewcy.com/event/trio_imagination__or",
+            "publisher": "Close Up / Viewcy",
+            "checked_on": "2026-09-06",
+            "note": "Authorized event and ticket page verifies Friday, October 2, 2026, Close Up at 154 Orchard Street, the Orchard Street Jazz Festival / WKCR 85th billing, and 6:30 PM and 8:00 PM sets."
+          },
+          {
+            "url": "https://pirecordings.com/albums/creative-inspirations/",
+            "publisher": "Pi Recordings",
+            "checked_on": "2026-09-06",
+            "note": "Primary label page verifies Trio Imagination as David Virelles, Reggie Workman and Andrew Cyrille; the September 25, 2026 release date of debut album Creative Inspirations; the group's evolution from Trio 3 after Oliver Lake's retirement; and the Van Gelder Studio recording context."
+          },
+          {
+            "url": "https://www.reggieworkmanmusic.com/performance-dates",
+            "publisher": "Reggie Workman",
+            "checked_on": "2026-09-06",
+            "note": "Workman's official performance archive documents Trio Imagination appearances at Winter Jazzfest and Hyde Park Jazz Festival in 2025, supporting the scarcity review that the October 2026 performance is not a documented one-off debut."
+          },
+          {
+            "url": "https://jazzin.nyc/venue/closeup",
+            "publisher": "Jazz in NYC",
+            "checked_on": "2026-09-06",
+            "note": "Current curated NYC listing corroborates Close Up's October 2 Orchard Street Jazz Festival schedule, exact trio personnel and 6:30 PM / 8:00 PM sets."
+          }
+        ],
+        "provenance": {
+          "status": "verified-authorized-event-primary-label-and-artist-history-sources",
+          "reviewed_by": "RADAR automation editorial review",
+          "note": "Repository searches for Trio Imagination, all three musicians, Close Up, October 2, 2026 and the proposed stable event ID returned no canonical/curated/processed match before publication. Event facts are grounded in Close Up's authorized Viewcy page, project history in Pi Recordings, and scarcity context in Reggie Workman's official archive. No ticket price, unannounced personnel, set list, purchase destination beyond the authorized event page, or Apple Music identifier was invented."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "This trio is a living bridge rather than a museum piece. Workman and Cyrille carry forward the listening language they developed in Trio 3, while Virelles changes the center of gravity with a piano vocabulary shaped by Cuban rhythm, abstraction and space. One week after their first recording arrives, hearing that conversation at Close Up puts a newly documented ensemble in the kind of small room where its collective decisions can actually be heard.",
+            "trip_verdict": "If New York is in play that weekend, build Friday evening around the early set at Close Up and let the Lower East Side do the rest. From the DMV, I would fold it into a New York trip rather than make a same-day round trip for this date alone.",
+            "listen_before": "Trio Imagination — Creative Inspirations"
+          },
+          "es": {
+            "why_it_matters": "Este trío funciona como un puente vivo, no como una pieza de museo. Workman y Cyrille prolongan el lenguaje de escucha que construyeron en Trio 3, mientras Virelles desplaza el centro de gravedad con un piano atravesado por ritmo cubano, abstracción y espacio. Una semana después de que aparezca su primera grabación, escuchar esa conversación en Close Up pone a un ensamble recién documentado en una sala lo bastante pequeña como para oír de verdad sus decisiones colectivas.",
+            "trip_verdict": "Si Nueva York está en juego ese fin de semana, armaría el viernes alrededor del set temprano en Close Up y dejaría que el Lower East Side complete la noche. Desde el DMV lo integraría a un viaje a Nueva York, en vez de hacer ida y vuelta el mismo día sólo por esta fecha.",
+            "listen_before": "Trio Imagination — Creative Inspirations"
+          }
+        }
+      },
+      "after": {
+        "id": "trio-imagination-close-up-new-york-city-2026-10-02",
+        "artist": "Trio Imagination",
+        "subtitle": "Orchard Street Jazz Festival — WKCR 85th",
+        "dates": {
+          "start": "2026-10-02",
+          "end": null
+        },
+        "showtimes": [
+          "18:30",
+          "20:00"
+        ],
+        "venue": {
+          "id": "close-up-new-york-city",
+          "name": "Close Up",
+          "city": "New York City",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Regional trip / New York City",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Intergenerational creative jazz / post-Trio 3 lineage / debut-record context",
+        "genres": [
+          "Jazz",
+          "Creative jazz",
+          "Avant-garde jazz"
+        ],
+        "musical_axes": [
+          "Masters",
+          "Acoustic Jazz",
+          "Improvised",
+          "Instrumental identity",
+          "Cultural context"
+        ],
+        "lineup": [
+          "David Virelles — piano",
+          "Reggie Workman — bass",
+          "Andrew Cyrille — drums"
+        ],
+        "factual_description": "Close Up presents Trio Imagination during the Orchard Street Jazz Festival on Friday, October 2, 2026, with sets at 6:30 PM and 8:00 PM at 154 Orchard Street in New York. The announced trio is David Virelles on piano, Reggie Workman on bass, and Andrew Cyrille on drums. Pi Recordings releases the trio's debut album Creative Inspirations on September 25, 2026, one week before the performance. Pi states that the group evolved from Trio 3: after saxophonist Oliver Lake retired, Cyrille and Workman invited Virelles to continue that creative lineage. The label describes the recording, made at Van Gelder Studio, as an intimate collective-improvising dialogue among the three musicians. Reggie Workman's official performance archive documents prior Trio Imagination appearances at Winter Jazzfest and the Hyde Park Jazz Festival in 2025.",
+        "links": {
+          "official_event": "https://www.viewcy.com/event/trio_imagination__or",
+          "official_tickets": "https://www.viewcy.com/event/trio_imagination__or"
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": null,
+            "maximum": null,
+            "source_url": "https://www.viewcy.com/event/trio_imagination__or",
+            "checked_on": "2026-09-06"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "apple_music"
+          ],
+          "note": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: verified face-value ticket price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.viewcy.com/event/trio_imagination__or",
+            "publisher": "Close Up / Viewcy",
+            "checked_on": "2026-09-06",
+            "note": "Authorized event and ticket page verifies Friday, October 2, 2026, Close Up at 154 Orchard Street, the Orchard Street Jazz Festival / WKCR 85th billing, and 6:30 PM and 8:00 PM sets."
+          },
+          {
+            "url": "https://pirecordings.com/albums/creative-inspirations/",
+            "publisher": "Pi Recordings",
+            "checked_on": "2026-09-06",
+            "note": "Primary label page verifies Trio Imagination as David Virelles, Reggie Workman and Andrew Cyrille; the September 25, 2026 release date of debut album Creative Inspirations; the group's evolution from Trio 3 after Oliver Lake's retirement; and the Van Gelder Studio recording context."
+          },
+          {
+            "url": "https://www.reggieworkmanmusic.com/performance-dates",
+            "publisher": "Reggie Workman",
+            "checked_on": "2026-09-06",
+            "note": "Workman's official performance archive documents Trio Imagination appearances at Winter Jazzfest and Hyde Park Jazz Festival in 2025, supporting the scarcity review that the October 2026 performance is not a documented one-off debut."
+          },
+          {
+            "url": "https://jazzin.nyc/venue/closeup",
+            "publisher": "Jazz in NYC",
+            "checked_on": "2026-09-06",
+            "note": "Current curated NYC listing corroborates Close Up's October 2 Orchard Street Jazz Festival schedule, exact trio personnel and 6:30 PM / 8:00 PM sets."
+          }
+        ],
+        "provenance": {
+          "status": "verified-authorized-event-primary-label-and-artist-history-sources",
+          "reviewed_by": "RADAR automation editorial review",
+          "note": "Repository searches for Trio Imagination, all three musicians, Close Up, October 2, 2026 and the proposed stable event ID returned no canonical/curated/processed match before publication. Event facts are grounded in Close Up's authorized Viewcy page, project history in Pi Recordings, and scarcity context in Reggie Workman's official archive. No ticket price, unannounced personnel, set list, purchase destination beyond the authorized event page, or Apple Music identifier was invented."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "This trio is a living bridge rather than a museum piece. Workman and Cyrille carry forward the listening language they developed in Trio 3, while Virelles changes the center of gravity with a piano vocabulary shaped by Cuban rhythm, abstraction and space. One week after their first recording arrives, hearing that conversation at Close Up puts a newly documented ensemble in the kind of small room where its collective decisions can actually be heard.",
+            "trip_verdict": "If New York is in play that weekend, build Friday evening around the early set at Close Up and let the Lower East Side do the rest. From the DMV, I would fold it into a New York trip rather than make a same-day round trip for this date alone.",
+            "listen_before": "Trio Imagination — Creative Inspirations"
+          },
+          "es": {
+            "why_it_matters": "Este trío funciona como un puente vivo, no como una pieza de museo. Workman y Cyrille prolongan el lenguaje de escucha que construyeron en Trio 3, mientras Virelles desplaza el centro de gravedad con un piano atravesado por ritmo cubano, abstracción y espacio. Una semana después de que aparezca su primera grabación, escuchar esa conversación en Close Up pone a un ensamble recién documentado en una sala lo bastante pequeña como para oír de verdad sus decisiones colectivas.",
+            "trip_verdict": "Si Nueva York está en juego ese fin de semana, armaría el viernes alrededor del set temprano en Close Up y dejaría que el Lower East Side complete la noche. Desde el DMV lo integraría a un viaje a Nueva York, en vez de hacer ida y vuelta el mismo día sólo por esta fecha.",
+            "listen_before": "Trio Imagination — Creative Inspirations"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/trio-imagination-close-up-nyc-2026-09-06-discovery.json",
+        "batch_sha256": "7d7feea821a2cc14bea6f3bb0d4e0d40dce529502c4beb5f368f6a969898bb2f",
+        "batch_id": "trio-imagination-close-up-nyc-2026-09-06-discovery",
+        "event_index": 0,
+        "candidate_event_id": "trio-imagination-close-up-new-york-city-2026-10-02",
+        "candidate_sha256": "695d9e3607afe10c0eb62e78de3f485865ea8875658b20170e9275b3ee77c926",
+        "errors": [
+          "trio-imagination-close-up-new-york-city-2026-10-02.enrichment requires status complete, pending, or unavailable"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.missing",
+            "before": [
+              "verified face-value ticket price",
+              "apple_music"
+            ],
+            "after": [
+              "apple_music"
+            ]
+          },
+          {
+            "field": "enrichment.note",
+            "before": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred.",
+            "after": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: verified face-value ticket price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          },
+          {
+            "field": "enrichment.status",
+            "before": "partial",
+            "after": "pending"
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "trio-imagination-close-up-new-york-city-2026-10-02.enrichment requires status complete, pending, or unavailable"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": true,
+            "apple_music": false
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "partial",
+            "missing": [
+              "verified face-value ticket price",
+              "apple_music"
+            ],
+            "note": "Close Up's authorized Viewcy page verifies the exact date, venue, address and two set times and exposes active ticket links, but the fetched public page does not expose a stable face-value price. Pi Recordings verifies the trio personnel, September 25 debut-album release, Trio 3 lineage and Van Gelder recording context. No ticket price or Apple Music identifier is inferred."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "status 'partial' normalized to pending",
+          "missing recalculated from the links and Apple Music URLs already present",
+          "non-standard missing labels preserved here: verified face-value ticket price"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "6dfa02edbf904571b9789ad8e3327f60cafe94c7f72e044099df7a119a53f30c"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/trio-imagination-close-up-nyc-2026-09-06-discovery.json",
+    "active_events": [
+      {
+        "id": "trio-imagination-close-up-new-york-city-2026-10-02",
+        "sha256": "6dfa02edbf904571b9789ad8e3327f60cafe94c7f72e044099df7a119a53f30c"
+      }
+    ]
+  }
+}

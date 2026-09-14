@@ -69,11 +69,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "performer_names",
-          "apple_music",
-          "official_ticket_price"
+          "apple_music"
         ],
-        "note": "National Sawdust verifies the billed creative team, date, doors, performance time, seated format, eleven-scene chamber-opera form, three-vocalist/chamber-ensemble/electronics instrumentation, Japan-US narrative frame and authorized AudienceView/OvationTix destination. The current page does not name the singers or ensemble personnel, expose a stable ticket price, or provide an exact Apple Music destination for the work, so none were invented."
+        "note": "National Sawdust verifies the billed creative team, date, doors, performance time, seated format, eleven-scene chamber-opera form, three-vocalist/chamber-ensemble/electronics instrumentation, Japan-US narrative frame and authorized AudienceView/OvationTix destination. The current page does not name the singers or ensemble personnel, expose a stable ticket price, or provide an exact Apple Music destination for the work, so none were invented. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: performer_names, official_ticket_price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

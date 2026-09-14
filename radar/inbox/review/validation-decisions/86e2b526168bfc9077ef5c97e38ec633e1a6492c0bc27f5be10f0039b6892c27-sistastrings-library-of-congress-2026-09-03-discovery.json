@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/sistastrings-library-of-congress-2026-09-03-discovery.json",
+    "sha256": "86e2b526168bfc9077ef5c97e38ec633e1a6492c0bc27f5be10f0039b6892c27",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"sistastrings-library-of-congress-2026-09-03-discovery\",\n  \"checked_on\": \"2026-09-03\",\n  \"reviewed_by\": \"RADAR automation editorial review\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, KEYSTONE CLUB TOKYO, Space M&A references, and credible Japanese-jazz sources. Verified future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader DMV pass found SistaStrings at the Library of Congress on November 19. Stage 1 admits this specific performance because the duo will play Library Stradivari instruments and present the world premiere of Mayari, a Library of Congress McKim Fund commission by Larissa Maestro, inside the America 250 season. That creates a concrete live reason tied to repertoire, rare instruments, institutional setting, cultural context and the duo's classical/Black-church/soul language; the event is not admitted merely because SistaStrings are excellent or because the Library is prestigious. Stage 2 assigns A+. The world premiere and instrument context make the evening actively worth prioritizing locally, but the scarcity challenge does not support S: the artists are active, the commissioned work can have a performance life beyond its premiere, and A+ still accurately captures the recommendation without claiming that missing this date would necessarily create genuine regret on the scale reserved for the repository's scarcity tier. The current event page and composer page are not fully aligned on the commission's performance instrumentation: the event bills SistaStrings on Library Stradivari instruments, while Larissa Maestro's current composition page lists Mayari for violin and piano. No additional performer is publicly identified in the checked sources, so commission-specific instrumentation remains explicitly unresolved rather than inferred.\",\n  \"events\": [\n    {\n      \"id\": \"sistastrings-library-of-congress-washington-dc-2026-11-19\",\n      \"artist\": \"SistaStrings\",\n      \"subtitle\": \"Live! At the Library — Larissa Maestro's Mayari world premiere\",\n      \"dates\": {\n        \"start\": \"2026-11-19\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"20:00\"\n      ],\n      \"venue\": {\n        \"id\": \"library-of-congress-coolidge-auditorium-washington-dc\",\n        \"name\": \"Library of Congress — Coolidge Auditorium\",\n        \"city\": \"Washington, DC\",\n        \"state\": \"DC\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Local\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"World premiere / cross-genre strings\",\n      \"genres\": [\n        \"Contemporary chamber music\",\n        \"Soul\",\n        \"Gospel\"\n      ],\n      \"musical_axes\": [\n        \"Instrumental identity\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"Chauntee Ross (violin, voice)\",\n        \"Monique Ross (cello, voice)\"\n      ],\n      \"factual_description\": \"The Library of Congress presents SistaStrings on Thursday, November 19, 2026 at 20:00 in the Thomas Jefferson Building's Coolidge Auditorium, with a 18:30 preconcert conversation in the Whittall Pavilion. The concert is free but ticketed. The current Library event page says sisters Chauntee and Monique Ross will perform on the Library's Stradivari instruments and give the world premiere of Larissa Maestro's Mayari, commissioned by the McKim Fund in the Library of Congress; additional selections will be announced from the stage. The Library's 2026-27 season announcement independently confirms the November 19 date, the Stradivari-instrument context, the Maestro world premiere and that the concert was rescheduled from the prior season. The Library's earlier official program description identifies Chauntee Ross as voice/violin and Monique Ross as voice/cello. Larissa Maestro's current composition page identifies Mayari as a Library of Congress commission for SistaStrings but lists the work for violin and piano, while the current event page does not identify an additional pianist or other commission-specific personnel; that instrumentation question therefore remains unresolved rather than inferred.\",\n      \"links\": {\n        \"official_event\": \"https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/\",\n        \"official_tickets\": null\n      },\n      \"tickets\": {\n        \"currency\": \"USD\",\n        \"official\": {\n          \"minimum\": 0,\n          \"maximum\": 0,\n          \"source_url\": \"https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/\",\n          \"checked_on\": \"2026-09-03\"\n        },\n        \"resale\": {\n          \"minimum\": null,\n          \"maximum\": null,\n          \"url\": null,\n          \"checked_on\": null\n        }\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"SistaStrings\",\n          \"title\": \"Lift - EP\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/lift-ep/1474449261\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"pending\",\n        \"missing\": [\n          \"exact_official_ticket_destination\",\n          \"commission_specific_performance_instrumentation_or_additional_personnel\"\n        ],\n        \"note\": \"The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/\",\n          \"publisher\": \"Library of Congress\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Primary current event page verifies Thursday, November 19, 2026, 20:00-22:00, Coolidge Auditorium/Whittall Pavilion, free but ticket-required status, a 18:30 artist conversation, SistaStrings on Library Stradivari instruments, and the world premiere of Larissa Maestro's Mayari commissioned by the McKim Fund.\"\n        },\n        {\n          \"url\": \"https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2\",\n          \"publisher\": \"Library of Congress Newsroom\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Primary 2026-27 season announcement independently confirms the November 19 SistaStrings concert, Stradivari instruments, Larissa Maestro world premiere, 18:30 preconcert conversation and the rescheduled-program context.\"\n        },\n        {\n          \"url\": \"https://www.loc.gov/item/prn-25-050/library-of-congress-announces-fall-2025-concert-season/2025-08-18/\",\n          \"publisher\": \"Library of Congress\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Primary original-season announcement identifies the duo personnel and roles as Chauntee Ross (voice, violin) and Monique Ross (voice, cello), and documents the Library commission before the concert was rescheduled.\"\n        },\n        {\n          \"url\": \"https://www.larissamaestro.com/compositions\",\n          \"publisher\": \"Larissa Maestro\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Primary composer page identifies Mayari as a 2025 Library of Congress commission for performance by SistaStrings and currently lists the work for violin and piano. Because the current Library event page does not name an additional pianist, the discrepancy is preserved as unresolved enrichment rather than silently reconciled.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/lift-ep/1474449261\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Exact Apple Music page verifies SistaStrings' Lift EP as a five-track 2019 release.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-library-composer-and-apple-sources\",\n        \"note\": \"Core performance facts are grounded in current and historical Library of Congress primary sources, the composer's official site and Apple Music. Repository-wide searches for SistaStrings, the November 19 Library of Congress date, Coolidge Auditorium, Larissa Maestro and the stable event ID returned no existing canonical, curated or processed RADAR record before publication. Priority A+ was assigned only after Stage 1 admission: the world premiere, Library commission, rare-instrument setting and cross-genre string identity make the date actively worth prioritizing locally, while the explicit scarcity challenge concluded that A+ still captures the recommendation without elevating a compelling premiere into a protect-the-night tier by default.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"This is more than a SistaStrings stop in Washington. The Library is putting the duo on its Stradivari instruments for the world premiere of Mayari, a McKim Fund commission by Larissa Maestro, placing their Black-church-rooted, classically trained string language inside a new-work tradition that the Library has sustained for generations. The rare instruments are part of the musical proposition, not decoration: the point is to hear a living cross-genre duo encounter a piece written for this institutional context while the work is still entering the world.\",\n          \"trip_verdict\": \"Actively make room for this locally if November 19 is open, and arrive for the 6:30 conversation if possible. It is a free, ticketed Coolidge Auditorium night with enough repertoire and instrument-specific context to build the evening around, without requiring the kind of travel or calendar disruption reserved for a truly singular scarcity event.\",\n          \"listen_before\": \"SistaStrings — Lift\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"Esto es más que una parada de SistaStrings en Washington. La Library of Congress pondrá al dúo frente a sus instrumentos Stradivari para el estreno mundial de Mayari, una comisión del McKim Fund escrita por Larissa Maestro. Ahí se cruzan sus raíces en la iglesia negra, la formación clásica y un lenguaje de cuerdas que nunca se queda encerrado en una sola tradición. Los instrumentos raros no son decoración: la gracia de la noche es escuchar a un dúo vivo y difícil de encasillar enfrentarse a una obra creada para este contexto justo cuando empieza su vida pública.\",\n          \"trip_verdict\": \"Si el 19 de noviembre está libre, sí haría espacio y, si se puede, llegaría a la conversación de las 6:30. Es una noche local, gratuita y con boleto en el Coolidge Auditorium que tiene suficiente peso de repertorio e identidad instrumental para construir la tarde alrededor de ella, sin convertirla en una razón para alterar un itinerario mayor.\",\n          \"listen_before\": \"SistaStrings — Lift\"\n        }\n      }\n    }\n  ]\n}\n",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "sistastrings-library-of-congress-2026-09-03-discovery",
+      "checked_on": "2026-09-03",
+      "reviewed_by": "RADAR automation editorial review",
+      "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, radar/inbox/README.md, and docs/DATA_MODEL.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, KEYSTONE CLUB TOKYO, Space M&A references, and credible Japanese-jazz sources. Verified future Yamamoto appearances surfaced in this pass were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader DMV pass found SistaStrings at the Library of Congress on November 19. Stage 1 admits this specific performance because the duo will play Library Stradivari instruments and present the world premiere of Mayari, a Library of Congress McKim Fund commission by Larissa Maestro, inside the America 250 season. That creates a concrete live reason tied to repertoire, rare instruments, institutional setting, cultural context and the duo's classical/Black-church/soul language; the event is not admitted merely because SistaStrings are excellent or because the Library is prestigious. Stage 2 assigns A+. The world premiere and instrument context make the evening actively worth prioritizing locally, but the scarcity challenge does not support S: the artists are active, the commissioned work can have a performance life beyond its premiere, and A+ still accurately captures the recommendation without claiming that missing this date would necessarily create genuine regret on the scale reserved for the repository's scarcity tier. The current event page and composer page are not fully aligned on the commission's performance instrumentation: the event bills SistaStrings on Library Stradivari instruments, while Larissa Maestro's current composition page lists Mayari for violin and piano. No additional performer is publicly identified in the checked sources, so commission-specific instrumentation remains explicitly unresolved rather than inferred.",
+      "events": [
+        {
+          "id": "sistastrings-library-of-congress-washington-dc-2026-11-19",
+          "artist": "SistaStrings",
+          "subtitle": "Live! At the Library — Larissa Maestro's Mayari world premiere",
+          "dates": {
+            "start": "2026-11-19",
+            "end": null
+          },
+          "showtimes": [
+            "20:00"
+          ],
+          "venue": {
+            "id": "library-of-congress-coolidge-auditorium-washington-dc",
+            "name": "Library of Congress — Coolidge Auditorium",
+            "city": "Washington, DC",
+            "state": "DC",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Local",
+          "status": "considering",
+          "priority": "A+",
+          "category": "World premiere / cross-genre strings",
+          "genres": [
+            "Contemporary chamber music",
+            "Soul",
+            "Gospel"
+          ],
+          "musical_axes": [
+            "Instrumental identity",
+            "Cultural context"
+          ],
+          "lineup": [
+            "Chauntee Ross (violin, voice)",
+            "Monique Ross (cello, voice)"
+          ],
+          "factual_description": "The Library of Congress presents SistaStrings on Thursday, November 19, 2026 at 20:00 in the Thomas Jefferson Building's Coolidge Auditorium, with a 18:30 preconcert conversation in the Whittall Pavilion. The concert is free but ticketed. The current Library event page says sisters Chauntee and Monique Ross will perform on the Library's Stradivari instruments and give the world premiere of Larissa Maestro's Mayari, commissioned by the McKim Fund in the Library of Congress; additional selections will be announced from the stage. The Library's 2026-27 season announcement independently confirms the November 19 date, the Stradivari-instrument context, the Maestro world premiere and that the concert was rescheduled from the prior season. The Library's earlier official program description identifies Chauntee Ross as voice/violin and Monique Ross as voice/cello. Larissa Maestro's current composition page identifies Mayari as a Library of Congress commission for SistaStrings but lists the work for violin and piano, while the current event page does not identify an additional pianist or other commission-specific personnel; that instrumentation question therefore remains unresolved rather than inferred.",
+          "links": {
+            "official_event": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+            "official_tickets": null
+          },
+          "tickets": {
+            "currency": "USD",
+            "official": {
+              "minimum": 0,
+              "maximum": 0,
+              "source_url": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+              "checked_on": "2026-09-03"
+            },
+            "resale": {
+              "minimum": null,
+              "maximum": null,
+              "url": null,
+              "checked_on": null
+            }
+          },
+          "recommended_listening": [
+            {
+              "artist": "SistaStrings",
+              "title": "Lift - EP",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/lift-ep/1474449261"
+            }
+          ],
+          "enrichment": {
+            "status": "pending",
+            "missing": [
+              "exact_official_ticket_destination",
+              "commission_specific_performance_instrumentation_or_additional_personnel"
+            ],
+            "note": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination."
+          },
+          "sources": [
+            {
+              "url": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+              "publisher": "Library of Congress",
+              "checked_on": "2026-09-03",
+              "note": "Primary current event page verifies Thursday, November 19, 2026, 20:00-22:00, Coolidge Auditorium/Whittall Pavilion, free but ticket-required status, a 18:30 artist conversation, SistaStrings on Library Stradivari instruments, and the world premiere of Larissa Maestro's Mayari commissioned by the McKim Fund."
+            },
+            {
+              "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+              "publisher": "Library of Congress Newsroom",
+              "checked_on": "2026-09-03",
+              "note": "Primary 2026-27 season announcement independently confirms the November 19 SistaStrings concert, Stradivari instruments, Larissa Maestro world premiere, 18:30 preconcert conversation and the rescheduled-program context."
+            },
+            {
+              "url": "https://www.loc.gov/item/prn-25-050/library-of-congress-announces-fall-2025-concert-season/2025-08-18/",
+              "publisher": "Library of Congress",
+              "checked_on": "2026-09-03",
+              "note": "Primary original-season announcement identifies the duo personnel and roles as Chauntee Ross (voice, violin) and Monique Ross (voice, cello), and documents the Library commission before the concert was rescheduled."
+            },
+            {
+              "url": "https://www.larissamaestro.com/compositions",
+              "publisher": "Larissa Maestro",
+              "checked_on": "2026-09-03",
+              "note": "Primary composer page identifies Mayari as a 2025 Library of Congress commission for performance by SistaStrings and currently lists the work for violin and piano. Because the current Library event page does not name an additional pianist, the discrepancy is preserved as unresolved enrichment rather than silently reconciled."
+            },
+            {
+              "url": "https://music.apple.com/us/album/lift-ep/1474449261",
+              "publisher": "Apple Music",
+              "checked_on": "2026-09-03",
+              "note": "Exact Apple Music page verifies SistaStrings' Lift EP as a five-track 2019 release."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-library-composer-and-apple-sources",
+            "note": "Core performance facts are grounded in current and historical Library of Congress primary sources, the composer's official site and Apple Music. Repository-wide searches for SistaStrings, the November 19 Library of Congress date, Coolidge Auditorium, Larissa Maestro and the stable event ID returned no existing canonical, curated or processed RADAR record before publication. Priority A+ was assigned only after Stage 1 admission: the world premiere, Library commission, rare-instrument setting and cross-genre string identity make the date actively worth prioritizing locally, while the explicit scarcity challenge concluded that A+ still captures the recommendation without elevating a compelling premiere into a protect-the-night tier by default."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "This is more than a SistaStrings stop in Washington. The Library is putting the duo on its Stradivari instruments for the world premiere of Mayari, a McKim Fund commission by Larissa Maestro, placing their Black-church-rooted, classically trained string language inside a new-work tradition that the Library has sustained for generations. The rare instruments are part of the musical proposition, not decoration: the point is to hear a living cross-genre duo encounter a piece written for this institutional context while the work is still entering the world.",
+              "trip_verdict": "Actively make room for this locally if November 19 is open, and arrive for the 6:30 conversation if possible. It is a free, ticketed Coolidge Auditorium night with enough repertoire and instrument-specific context to build the evening around, without requiring the kind of travel or calendar disruption reserved for a truly singular scarcity event.",
+              "listen_before": "SistaStrings — Lift"
+            },
+            "es": {
+              "why_it_matters": "Esto es más que una parada de SistaStrings en Washington. La Library of Congress pondrá al dúo frente a sus instrumentos Stradivari para el estreno mundial de Mayari, una comisión del McKim Fund escrita por Larissa Maestro. Ahí se cruzan sus raíces en la iglesia negra, la formación clásica y un lenguaje de cuerdas que nunca se queda encerrado en una sola tradición. Los instrumentos raros no son decoración: la gracia de la noche es escuchar a un dúo vivo y difícil de encasillar enfrentarse a una obra creada para este contexto justo cuando empieza su vida pública.",
+              "trip_verdict": "Si el 19 de noviembre está libre, sí haría espacio y, si se puede, llegaría a la conversación de las 6:30. Es una noche local, gratuita y con boleto en el Coolidge Auditorium que tiene suficiente peso de repertorio e identidad instrumental para construir la tarde alrededor de ella, sin convertirla en una razón para alterar un itinerario mayor.",
+              "listen_before": "SistaStrings — Lift"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/sistastrings-library-of-congress-2026-09-03-discovery.json",
+      "batch_sha256": "86e2b526168bfc9077ef5c97e38ec633e1a6492c0bc27f5be10f0039b6892c27",
+      "batch_id": "sistastrings-library-of-congress-2026-09-03-discovery",
+      "event_index": 0,
+      "candidate_event_id": "sistastrings-library-of-congress-washington-dc-2026-11-19",
+      "candidate_sha256": "7049d554053673adffee480ae4e940293a32b4aa1f1df502d301469fe7d7629e",
+      "errors": [
+        "sistastrings-library-of-congress-washington-dc-2026-11-19.enrichment.missing must be a unique list of known enrichment fields"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.missing",
+          "before": [
+            "exact_official_ticket_destination",
+            "commission_specific_performance_instrumentation_or_additional_personnel"
+          ],
+          "after": [
+            "official_tickets"
+          ]
+        },
+        {
+          "field": "enrichment.note",
+          "before": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination.",
+          "after": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, commission_specific_performance_instrumentation_or_additional_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "sistastrings-library-of-congress-washington-dc-2026-11-19.enrichment.missing must be a unique list of known enrichment fields"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": false,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "pending",
+          "missing": [
+            "exact_official_ticket_destination",
+            "commission_specific_performance_instrumentation_or_additional_personnel"
+          ],
+          "note": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "missing recalculated from the links and Apple Music URLs already present",
+        "non-standard missing labels preserved here: exact_official_ticket_destination, commission_specific_performance_instrumentation_or_additional_personnel"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "a2feebb38882d97641d0eaca3eb94fb60de84422a66e3e5dd5f5bad2a1abf9a1"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "sistastrings-library-of-congress-washington-dc-2026-11-19",
+        "artist": "SistaStrings",
+        "subtitle": "Live! At the Library — Larissa Maestro's Mayari world premiere",
+        "dates": {
+          "start": "2026-11-19",
+          "end": null
+        },
+        "showtimes": [
+          "20:00"
+        ],
+        "venue": {
+          "id": "library-of-congress-coolidge-auditorium-washington-dc",
+          "name": "Library of Congress — Coolidge Auditorium",
+          "city": "Washington, DC",
+          "state": "DC",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Local",
+        "status": "considering",
+        "priority": "A+",
+        "category": "World premiere / cross-genre strings",
+        "genres": [
+          "Contemporary chamber music",
+          "Soul",
+          "Gospel"
+        ],
+        "musical_axes": [
+          "Instrumental identity",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Chauntee Ross (violin, voice)",
+          "Monique Ross (cello, voice)"
+        ],
+        "factual_description": "The Library of Congress presents SistaStrings on Thursday, November 19, 2026 at 20:00 in the Thomas Jefferson Building's Coolidge Auditorium, with a 18:30 preconcert conversation in the Whittall Pavilion. The concert is free but ticketed. The current Library event page says sisters Chauntee and Monique Ross will perform on the Library's Stradivari instruments and give the world premiere of Larissa Maestro's Mayari, commissioned by the McKim Fund in the Library of Congress; additional selections will be announced from the stage. The Library's 2026-27 season announcement independently confirms the November 19 date, the Stradivari-instrument context, the Maestro world premiere and that the concert was rescheduled from the prior season. The Library's earlier official program description identifies Chauntee Ross as voice/violin and Monique Ross as voice/cello. Larissa Maestro's current composition page identifies Mayari as a Library of Congress commission for SistaStrings but lists the work for violin and piano, while the current event page does not identify an additional pianist or other commission-specific personnel; that instrumentation question therefore remains unresolved rather than inferred.",
+        "links": {
+          "official_event": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+          "official_tickets": null
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": 0,
+            "maximum": 0,
+            "source_url": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+            "checked_on": "2026-09-03"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [
+          {
+            "artist": "SistaStrings",
+            "title": "Lift - EP",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/lift-ep/1474449261"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "exact_official_ticket_destination",
+            "commission_specific_performance_instrumentation_or_additional_personnel"
+          ],
+          "note": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination."
+        },
+        "sources": [
+          {
+            "url": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+            "publisher": "Library of Congress",
+            "checked_on": "2026-09-03",
+            "note": "Primary current event page verifies Thursday, November 19, 2026, 20:00-22:00, Coolidge Auditorium/Whittall Pavilion, free but ticket-required status, a 18:30 artist conversation, SistaStrings on Library Stradivari instruments, and the world premiere of Larissa Maestro's Mayari commissioned by the McKim Fund."
+          },
+          {
+            "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+            "publisher": "Library of Congress Newsroom",
+            "checked_on": "2026-09-03",
+            "note": "Primary 2026-27 season announcement independently confirms the November 19 SistaStrings concert, Stradivari instruments, Larissa Maestro world premiere, 18:30 preconcert conversation and the rescheduled-program context."
+          },
+          {
+            "url": "https://www.loc.gov/item/prn-25-050/library-of-congress-announces-fall-2025-concert-season/2025-08-18/",
+            "publisher": "Library of Congress",
+            "checked_on": "2026-09-03",
+            "note": "Primary original-season announcement identifies the duo personnel and roles as Chauntee Ross (voice, violin) and Monique Ross (voice, cello), and documents the Library commission before the concert was rescheduled."
+          },
+          {
+            "url": "https://www.larissamaestro.com/compositions",
+            "publisher": "Larissa Maestro",
+            "checked_on": "2026-09-03",
+            "note": "Primary composer page identifies Mayari as a 2025 Library of Congress commission for performance by SistaStrings and currently lists the work for violin and piano. Because the current Library event page does not name an additional pianist, the discrepancy is preserved as unresolved enrichment rather than silently reconciled."
+          },
+          {
+            "url": "https://music.apple.com/us/album/lift-ep/1474449261",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-03",
+            "note": "Exact Apple Music page verifies SistaStrings' Lift EP as a five-track 2019 release."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-library-composer-and-apple-sources",
+          "note": "Core performance facts are grounded in current and historical Library of Congress primary sources, the composer's official site and Apple Music. Repository-wide searches for SistaStrings, the November 19 Library of Congress date, Coolidge Auditorium, Larissa Maestro and the stable event ID returned no existing canonical, curated or processed RADAR record before publication. Priority A+ was assigned only after Stage 1 admission: the world premiere, Library commission, rare-instrument setting and cross-genre string identity make the date actively worth prioritizing locally, while the explicit scarcity challenge concluded that A+ still captures the recommendation without elevating a compelling premiere into a protect-the-night tier by default."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "This is more than a SistaStrings stop in Washington. The Library is putting the duo on its Stradivari instruments for the world premiere of Mayari, a McKim Fund commission by Larissa Maestro, placing their Black-church-rooted, classically trained string language inside a new-work tradition that the Library has sustained for generations. The rare instruments are part of the musical proposition, not decoration: the point is to hear a living cross-genre duo encounter a piece written for this institutional context while the work is still entering the world.",
+            "trip_verdict": "Actively make room for this locally if November 19 is open, and arrive for the 6:30 conversation if possible. It is a free, ticketed Coolidge Auditorium night with enough repertoire and instrument-specific context to build the evening around, without requiring the kind of travel or calendar disruption reserved for a truly singular scarcity event.",
+            "listen_before": "SistaStrings — Lift"
+          },
+          "es": {
+            "why_it_matters": "Esto es más que una parada de SistaStrings en Washington. La Library of Congress pondrá al dúo frente a sus instrumentos Stradivari para el estreno mundial de Mayari, una comisión del McKim Fund escrita por Larissa Maestro. Ahí se cruzan sus raíces en la iglesia negra, la formación clásica y un lenguaje de cuerdas que nunca se queda encerrado en una sola tradición. Los instrumentos raros no son decoración: la gracia de la noche es escuchar a un dúo vivo y difícil de encasillar enfrentarse a una obra creada para este contexto justo cuando empieza su vida pública.",
+            "trip_verdict": "Si el 19 de noviembre está libre, sí haría espacio y, si se puede, llegaría a la conversación de las 6:30. Es una noche local, gratuita y con boleto en el Coolidge Auditorium que tiene suficiente peso de repertorio e identidad instrumental para construir la tarde alrededor de ella, sin convertirla en una razón para alterar un itinerario mayor.",
+            "listen_before": "SistaStrings — Lift"
+          }
+        }
+      },
+      "after": {
+        "id": "sistastrings-library-of-congress-washington-dc-2026-11-19",
+        "artist": "SistaStrings",
+        "subtitle": "Live! At the Library — Larissa Maestro's Mayari world premiere",
+        "dates": {
+          "start": "2026-11-19",
+          "end": null
+        },
+        "showtimes": [
+          "20:00"
+        ],
+        "venue": {
+          "id": "library-of-congress-coolidge-auditorium-washington-dc",
+          "name": "Library of Congress — Coolidge Auditorium",
+          "city": "Washington, DC",
+          "state": "DC",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Local",
+        "status": "considering",
+        "priority": "A+",
+        "category": "World premiere / cross-genre strings",
+        "genres": [
+          "Contemporary chamber music",
+          "Soul",
+          "Gospel"
+        ],
+        "musical_axes": [
+          "Instrumental identity",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Chauntee Ross (violin, voice)",
+          "Monique Ross (cello, voice)"
+        ],
+        "factual_description": "The Library of Congress presents SistaStrings on Thursday, November 19, 2026 at 20:00 in the Thomas Jefferson Building's Coolidge Auditorium, with a 18:30 preconcert conversation in the Whittall Pavilion. The concert is free but ticketed. The current Library event page says sisters Chauntee and Monique Ross will perform on the Library's Stradivari instruments and give the world premiere of Larissa Maestro's Mayari, commissioned by the McKim Fund in the Library of Congress; additional selections will be announced from the stage. The Library's 2026-27 season announcement independently confirms the November 19 date, the Stradivari-instrument context, the Maestro world premiere and that the concert was rescheduled from the prior season. The Library's earlier official program description identifies Chauntee Ross as voice/violin and Monique Ross as voice/cello. Larissa Maestro's current composition page identifies Mayari as a Library of Congress commission for SistaStrings but lists the work for violin and piano, while the current event page does not identify an additional pianist or other commission-specific personnel; that instrumentation question therefore remains unresolved rather than inferred.",
+        "links": {
+          "official_event": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+          "official_tickets": null
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": 0,
+            "maximum": 0,
+            "source_url": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+            "checked_on": "2026-09-03"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [
+          {
+            "artist": "SistaStrings",
+            "title": "Lift - EP",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/lift-ep/1474449261"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "official_tickets"
+          ],
+          "note": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, commission_specific_performance_instrumentation_or_additional_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.loc.gov/item/event-421680/live-at-the-library-sistastrings/2026-11-19/",
+            "publisher": "Library of Congress",
+            "checked_on": "2026-09-03",
+            "note": "Primary current event page verifies Thursday, November 19, 2026, 20:00-22:00, Coolidge Auditorium/Whittall Pavilion, free but ticket-required status, a 18:30 artist conversation, SistaStrings on Library Stradivari instruments, and the world premiere of Larissa Maestro's Mayari commissioned by the McKim Fund."
+          },
+          {
+            "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+            "publisher": "Library of Congress Newsroom",
+            "checked_on": "2026-09-03",
+            "note": "Primary 2026-27 season announcement independently confirms the November 19 SistaStrings concert, Stradivari instruments, Larissa Maestro world premiere, 18:30 preconcert conversation and the rescheduled-program context."
+          },
+          {
+            "url": "https://www.loc.gov/item/prn-25-050/library-of-congress-announces-fall-2025-concert-season/2025-08-18/",
+            "publisher": "Library of Congress",
+            "checked_on": "2026-09-03",
+            "note": "Primary original-season announcement identifies the duo personnel and roles as Chauntee Ross (voice, violin) and Monique Ross (voice, cello), and documents the Library commission before the concert was rescheduled."
+          },
+          {
+            "url": "https://www.larissamaestro.com/compositions",
+            "publisher": "Larissa Maestro",
+            "checked_on": "2026-09-03",
+            "note": "Primary composer page identifies Mayari as a 2025 Library of Congress commission for performance by SistaStrings and currently lists the work for violin and piano. Because the current Library event page does not name an additional pianist, the discrepancy is preserved as unresolved enrichment rather than silently reconciled."
+          },
+          {
+            "url": "https://music.apple.com/us/album/lift-ep/1474449261",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-03",
+            "note": "Exact Apple Music page verifies SistaStrings' Lift EP as a five-track 2019 release."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-library-composer-and-apple-sources",
+          "note": "Core performance facts are grounded in current and historical Library of Congress primary sources, the composer's official site and Apple Music. Repository-wide searches for SistaStrings, the November 19 Library of Congress date, Coolidge Auditorium, Larissa Maestro and the stable event ID returned no existing canonical, curated or processed RADAR record before publication. Priority A+ was assigned only after Stage 1 admission: the world premiere, Library commission, rare-instrument setting and cross-genre string identity make the date actively worth prioritizing locally, while the explicit scarcity challenge concluded that A+ still captures the recommendation without elevating a compelling premiere into a protect-the-night tier by default."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "This is more than a SistaStrings stop in Washington. The Library is putting the duo on its Stradivari instruments for the world premiere of Mayari, a McKim Fund commission by Larissa Maestro, placing their Black-church-rooted, classically trained string language inside a new-work tradition that the Library has sustained for generations. The rare instruments are part of the musical proposition, not decoration: the point is to hear a living cross-genre duo encounter a piece written for this institutional context while the work is still entering the world.",
+            "trip_verdict": "Actively make room for this locally if November 19 is open, and arrive for the 6:30 conversation if possible. It is a free, ticketed Coolidge Auditorium night with enough repertoire and instrument-specific context to build the evening around, without requiring the kind of travel or calendar disruption reserved for a truly singular scarcity event.",
+            "listen_before": "SistaStrings — Lift"
+          },
+          "es": {
+            "why_it_matters": "Esto es más que una parada de SistaStrings en Washington. La Library of Congress pondrá al dúo frente a sus instrumentos Stradivari para el estreno mundial de Mayari, una comisión del McKim Fund escrita por Larissa Maestro. Ahí se cruzan sus raíces en la iglesia negra, la formación clásica y un lenguaje de cuerdas que nunca se queda encerrado en una sola tradición. Los instrumentos raros no son decoración: la gracia de la noche es escuchar a un dúo vivo y difícil de encasillar enfrentarse a una obra creada para este contexto justo cuando empieza su vida pública.",
+            "trip_verdict": "Si el 19 de noviembre está libre, sí haría espacio y, si se puede, llegaría a la conversación de las 6:30. Es una noche local, gratuita y con boleto en el Coolidge Auditorium que tiene suficiente peso de repertorio e identidad instrumental para construir la tarde alrededor de ella, sin convertirla en una razón para alterar un itinerario mayor.",
+            "listen_before": "SistaStrings — Lift"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/sistastrings-library-of-congress-2026-09-03-discovery.json",
+        "batch_sha256": "86e2b526168bfc9077ef5c97e38ec633e1a6492c0bc27f5be10f0039b6892c27",
+        "batch_id": "sistastrings-library-of-congress-2026-09-03-discovery",
+        "event_index": 0,
+        "candidate_event_id": "sistastrings-library-of-congress-washington-dc-2026-11-19",
+        "candidate_sha256": "7049d554053673adffee480ae4e940293a32b4aa1f1df502d301469fe7d7629e",
+        "errors": [
+          "sistastrings-library-of-congress-washington-dc-2026-11-19.enrichment.missing must be a unique list of known enrichment fields"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.missing",
+            "before": [
+              "exact_official_ticket_destination",
+              "commission_specific_performance_instrumentation_or_additional_personnel"
+            ],
+            "after": [
+              "official_tickets"
+            ]
+          },
+          {
+            "field": "enrichment.note",
+            "before": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination.",
+            "after": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, commission_specific_performance_instrumentation_or_additional_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "sistastrings-library-of-congress-washington-dc-2026-11-19.enrichment.missing must be a unique list of known enrichment fields"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": false,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "pending",
+            "missing": [
+              "exact_official_ticket_destination",
+              "commission_specific_performance_instrumentation_or_additional_personnel"
+            ],
+            "note": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "missing recalculated from the links and Apple Music URLs already present",
+          "non-standard missing labels preserved here: exact_official_ticket_destination, commission_specific_performance_instrumentation_or_additional_personnel"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "a2feebb38882d97641d0eaca3eb94fb60de84422a66e3e5dd5f5bad2a1abf9a1"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/sistastrings-library-of-congress-2026-09-03-discovery.json",
+    "active_events": [
+      {
+        "id": "sistastrings-library-of-congress-washington-dc-2026-11-19",
+        "sha256": "a2feebb38882d97641d0eaca3eb94fb60de84422a66e3e5dd5f5bad2a1abf9a1"
+      }
+    ]
+  }
+}

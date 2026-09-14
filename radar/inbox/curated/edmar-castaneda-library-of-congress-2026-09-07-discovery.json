@@ -73,10 +73,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_official_ticket_destination",
-          "published_program_or_additional_personnel"
+          "official_tickets"
         ],
-        "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, Edmar Castañeda on harp and free-ticketed status. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. No detailed repertoire or additional personnel are currently published, so none are inferred. Apple Music verifies the exact Family album destination."
+        "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, Edmar Castañeda on harp and free-ticketed status. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. No detailed repertoire or additional personnel are currently published, so none are inferred. Apple Music verifies the exact Family album destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, published_program_or_additional_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

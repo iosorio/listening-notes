@@ -49,9 +49,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "date_specific_guest_artist_assignments"
+          "official_tickets",
+          "apple_music"
         ],
-        "note": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published."
+        "note": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: date_specific_guest_artist_assignments. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

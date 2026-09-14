@@ -66,13 +66,11 @@
         }
       },
       "enrichment": {
-        "status": "partial",
+        "status": "pending",
         "missing": [
-          "complete verified touring personnel",
-          "verified official face-value price range",
           "apple_music"
         ],
-        "note": "NJPAC and its linked Ticketmaster destination verify the exact date, 8:00 PM start, Prudential Hall venue and two-artist billing. The tour site supplies the 55-year-career and multi-city U.S.-tour context. No backing-band personnel, face-value price range or exact Apple Music destination is stored without verification."
+        "note": "NJPAC and its linked Ticketmaster destination verify the exact date, 8:00 PM start, Prudential Hall venue and two-artist billing. The tour site supplies the 55-year-career and multi-city U.S.-tour context. No backing-band personnel, face-value price range or exact Apple Music destination is stored without verification. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: complete verified touring personnel, verified official face-value price range. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -176,13 +174,11 @@
         }
       },
       "enrichment": {
-        "status": "partial",
+        "status": "pending",
         "missing": [
-          "complete verified touring personnel",
-          "verified official face-value price range",
           "apple_music"
         ],
-        "note": "Live Nation verifies the exact Washington date, 7:00 PM start, Howard Theatre venue, Eva Ayllón billing and Daniela Darcourt special-guest billing, and supplies the authorized TicketWeb destination. The dedicated U.S. tour site supplies the 55-year-career and tour context. No backing-band personnel, face-value price range or exact Apple Music destination is stored without verification."
+        "note": "Live Nation verifies the exact Washington date, 7:00 PM start, Howard Theatre venue, Eva Ayllón billing and Daniela Darcourt special-guest billing, and supplies the authorized TicketWeb destination. The dedicated U.S. tour site supplies the 55-year-career and tour context. No backing-band personnel, face-value price range or exact Apple Music destination is stored without verification. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: complete verified touring personnel, verified official face-value price range. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

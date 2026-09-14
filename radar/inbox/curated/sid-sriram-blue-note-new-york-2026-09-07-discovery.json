@@ -84,9 +84,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "single engagement-wide official ticket URL"
+          "official_tickets"
         ],
-        "note": "The exact Blue Note New York event page verifies the full billing, venue, both dates and all four set times, and exposes separate authorized TicketWeb destinations for each individual set. Because there is no single engagement-wide purchase destination in the verified source, official_tickets remains null rather than selecting one set arbitrarily. Exact Apple Music album pages are verified for Sid Sriram's Sidharth and Julius Rodriguez's Evergreen. No ticket face value or event-specific instrument assignment is inferred."
+        "note": "The exact Blue Note New York event page verifies the full billing, venue, both dates and all four set times, and exposes separate authorized TicketWeb destinations for each individual set. Because there is no single engagement-wide purchase destination in the verified source, official_tickets remains null rather than selecting one set arbitrarily. Exact Apple Music album pages are verified for Sid Sriram's Sidharth and Julius Rodriguez's Evergreen. No ticket face value or event-specific instrument assignment is inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: single engagement-wide official ticket URL. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -70,13 +70,11 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "partial",
+        "status": "pending",
         "missing": [
-          "additional live personnel",
-          "detailed instrumentation/repertoire",
           "apple_music"
         ],
-        "note": "The Met verifies both dates, 19:00 start, Temple of Dendur location, premiere/new-commission status, Black History Month context and $70 ticket price. Additional personnel, exact instrumentation, detailed repertoire and a directly relevant Apple Music destination for the new commissioned work are not published in the verified primary materials and are not inferred."
+        "note": "The Met verifies both dates, 19:00 start, Temple of Dendur location, premiere/new-commission status, Black History Month context and $70 ticket price. Additional personnel, exact instrumentation, detailed repertoire and a directly relevant Apple Music destination for the new commissioned work are not published in the verified primary materials and are not inferred. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: additional live personnel, detailed instrumentation/repertoire. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

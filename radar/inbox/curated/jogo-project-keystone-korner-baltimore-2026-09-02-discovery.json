@@ -65,12 +65,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "event-specific personnel roster",
-          "stable event-specific official ticket URL",
-          "verified live-ticket price",
+          "official_tickets",
           "apple_music"
         ],
-        "note": "The date, 7:00 PM start, venue, billing, new-music preview and P-Funk/Stevie Wonder program context are verified. The venue exposes ticket/streaming access, but a stable event-specific purchase URL and current live-ticket price were not independently verified in this pass, so neither is invented. No event-specific sidemen are inferred from general band credits."
+        "note": "The date, 7:00 PM start, venue, billing, new-music preview and P-Funk/Stevie Wonder program context are verified. The venue exposes ticket/streaming access, but a stable event-specific purchase URL and current live-ticket price were not independently verified in this pass, so neither is invented. No event-specific sidemen are inferred from general band credits. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: event-specific personnel roster, stable event-specific official ticket URL, verified live-ticket price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -10,8 +10,13 @@
       "id": "itzhak-perlman-rohan-de-silva-music-center-at-strathmore-north-bethesda-2026-10-14",
       "artist": "Itzhak Perlman",
       "subtitle": "with Rohan De Silva, piano",
-      "dates": {"start": "2026-10-14", "end": "2026-10-14"},
-      "showtimes": ["19:30"],
+      "dates": {
+        "start": "2026-10-14",
+        "end": "2026-10-14"
+      },
+      "showtimes": [
+        "19:30"
+      ],
       "venue": {
         "id": "music-center-at-strathmore-north-bethesda-md",
         "name": "Music Center at Strathmore",
@@ -25,8 +30,17 @@
       "status": "considering",
       "priority": "A+",
       "category": "Living master / Violin recital / WPA 60th-anniversary context",
-      "genres": ["Classical", "Chamber music", "Violin recital"],
-      "musical_axes": ["Masters", "Instrumental identity", "DMV context", "Cultural context"],
+      "genres": [
+        "Classical",
+        "Chamber music",
+        "Violin recital"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Instrumental identity",
+        "DMV context",
+        "Cultural context"
+      ],
       "lineup": [
         "Itzhak Perlman — violin",
         "Rohan De Silva — piano"
@@ -38,14 +52,26 @@
       },
       "tickets": {
         "currency": "USD",
-        "official": {"minimum": null, "maximum": null, "source_url": "https://my.washingtonperformingarts.org/4998", "checked_on": "2026-09-06"},
-        "resale": {"minimum": null, "maximum": null, "url": null, "checked_on": null}
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://my.washingtonperformingarts.org/4998",
+          "checked_on": "2026-09-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
       },
       "recommended_listening": [],
       "enrichment": {
         "status": "pending",
-        "missing": ["official_face_value_ticket_price"],
-        "note": "The exact Washington Performing Arts event page, authorized ticket page, and presenter venue page verify the date, showtime, venue, lineup, program-announced-from-stage format, post-performance conversation, and exact address. The checked authorized ticket page does not expose stable public face-value pricing, so no price is inferred. No recording is attached as recommended listening because this discovery pass did not verify an event-specific current recording that materially improves the candidate."
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact Washington Performing Arts event page, authorized ticket page, and presenter venue page verify the date, showtime, venue, lineup, program-announced-from-stage format, post-performance conversation, and exact address. The checked authorized ticket page does not expose stable public face-value pricing, so no price is inferred. No recording is attached as recommended listening because this discovery pass did not verify an event-specific current recording that materially improves the candidate. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: official_face_value_ticket_price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

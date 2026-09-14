@@ -55,10 +55,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "full_esquina_concert_personnel",
           "apple_music"
         ],
-        "note": "Rhizome verifies the date, doors, music start, ticket range, presenter, project descriptions, full for-tet personnel and venue address through its authorized ticket link. Greenleaf Music independently confirms the September 10 Rhizome tour stop and that Sarian is debuting new music on the tour. The event page does not publish the complete Esquina personnel for this specific performance, so only Sarian is named for that ensemble and no additional members are inferred. No Apple Music destination is supplied without exact verification."
+        "note": "Rhizome verifies the date, doors, music start, ticket range, presenter, project descriptions, full for-tet personnel and venue address through its authorized ticket link. Greenleaf Music independently confirms the September 10 Rhizome tour stop and that Sarian is debuting new music on the tour. The event page does not publish the complete Esquina personnel for this specific performance, so only Sarian is named for that ensemble and no additional members are inferred. No Apple Music destination is supplied without exact verification. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: full_esquina_concert_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -64,9 +64,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "recommended_listening"
+          "apple_music"
         ],
-        "note": "The exact I.M.P./9:30 Club event page and authorized Ticketmaster destination are verified. No face-value ticket price is stored because the event is sold out and currently exposed ticket marketplace values are not a verified original face value. No Apple Music ID was inferred."
+        "note": "The exact I.M.P./9:30 Club event page and authorized Ticketmaster destination are verified. No face-value ticket price is stored because the event is sold out and currently exposed ticket marketplace values are not a verified original face value. No Apple Music ID was inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -165,9 +165,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "recommended_listening"
+          "apple_music"
         ],
-        "note": "The venue-registered TIGET page functions as both event listing and reservation destination. Performer roles are cross-checked against authoritative artist/institution profiles. No repertoire or Apple Music destination is announced for this trio, so neither is inferred."
+        "note": "The venue-registered TIGET page functions as both event listing and reservation destination. Performer roles are cross-checked against authoritative artist/institution profiles. No repertoire or Apple Music destination is announced for this trio, so neither is inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

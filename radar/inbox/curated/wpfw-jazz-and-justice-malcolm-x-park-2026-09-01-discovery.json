@@ -61,11 +61,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "final_main_stage_set_times",
-          "complete_personnel_for_each_billed_band",
-          "exact_recommended_listening"
+          "official_tickets",
+          "apple_music"
         ],
-        "note": "WPFW's primary festival page verifies the date, location, free/all-ages admission, five billed acts, current main-stage schedule, 90th-anniversary-weekend context and Sunday drum-circle framing. The page explicitly labels the detailed schedule as a draft, so a closer-to-show recheck is required before treating those set times as final. Individual personnel for every billed ensemble and exact Apple Music destinations were not inferred where the event page does not provide them."
+        "note": "WPFW's primary festival page verifies the date, location, free/all-ages admission, five billed acts, current main-stage schedule, 90th-anniversary-weekend context and Sunday drum-circle framing. The page explicitly labels the detailed schedule as a draft, so a closer-to-show recheck is required before treating those set times as final. Individual personnel for every billed ensemble and exact Apple Music destinations were not inferred where the event page does not provide them. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: final_main_stage_set_times, complete_personnel_for_each_billed_band, exact_recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

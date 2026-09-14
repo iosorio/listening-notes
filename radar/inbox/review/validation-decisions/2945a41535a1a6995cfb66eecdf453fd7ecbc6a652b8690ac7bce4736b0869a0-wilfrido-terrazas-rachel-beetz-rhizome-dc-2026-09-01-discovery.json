@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-01-discovery.json",
+    "sha256": "2945a41535a1a6995cfb66eecdf453fd7ecbc6a652b8690ac7bce4736b0869a0",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-01-discovery\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered BODY&SOUL, KEYSTONE CLUB TOKYO, Jazz House ALFIE traces, Space M&A traces and Jazz in Japan/current Japanese-jazz schedules; the verified September Yamamoto appearances returned by the pass are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Stage 1 admits Wilfrido Terrazas / Rachel Beetz at Rhizome DC because the exact bill places two flute-centered experimental practices in direct dialogue: Terrazas works at the boundary of notation, improvisation, Mexican folk traditions and poetry, while Beetz combines flutes, electronics and field-recording-based listening practice. This is a concrete instrumental and cultural reason for RADAR admission, not a genre or venue-prestige inclusion. Stage 2 assigns A only after admission. The event is a focused, highly aligned local experimental program worth attending if convenient, but no premiere, farewell, singular collaboration claim, or other verified scarcity warrants A+ or an S tier. Repository searches for Wilfrido Terrazas, Rachel Beetz, the exact September 2 Rhizome identity and proposed stable ID returned no matching RADAR record before publication. Recent/current RADAR output was reviewed as a sanity check; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and reinforces the intended broad A base without invoking the scarcity-review gate.\",\n  \"events\": [\n    {\n      \"id\": \"wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02\",\n      \"artist\": \"Wilfrido Terrazas / Rachel Beetz\",\n      \"subtitle\": \"Experimental flute, improvisation and electronic listening practices\",\n      \"dates\": {\n        \"start\": \"2026-09-02\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"19:00\"\n      ],\n      \"venue\": {\n        \"id\": \"rhizome-dc-washington-dc\",\n        \"name\": \"Rhizome DC\",\n        \"city\": \"Washington\",\n        \"state\": \"DC\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Local\",\n      \"status\": \"considering\",\n      \"priority\": \"A\",\n      \"category\": \"Experimental flute / improvisation / electroacoustic music\",\n      \"genres\": [\n        \"Experimental Music\",\n        \"Improvised Music\",\n        \"Electroacoustic Music\",\n        \"Contemporary Music\"\n      ],\n      \"musical_axes\": [\n        \"Latin\",\n        \"Instrumental identity\",\n        \"Improvised\",\n        \"Experimental / Metal\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"Wilfrido Terrazas — flute, improvisation, composition\",\n        \"Rachel Beetz — flutes, electronics, improvisation\"\n      ],\n      \"factual_description\": \"Rhizome DC presents Wilfrido Terrazas and Rachel Beetz on Wednesday, September 2, 2026, with the event beginning at 19:00 at 6950 Maple Street NW, Washington, DC. The official venue page and its authorized Pools ticket page list a $10-$25 sliding-scale ticket; Pools separately displays fee-inclusive totals of $11.91-$27.75. Rhizome identifies Terrazas as a flutist, improviser, composer and educator from Ensenada, Mexico, whose work connects notation, improvisation, experimental lineages, Mexican folk traditions and poetry. The same primary listing describes Beetz as a composer, flutist and improviser whose practice combines field recordings and electronically modified flutes. The page bills both artists for the evening but does not specify a duo format, set order, doors time, or additional personnel, so none are inferred here.\",\n      \"links\": {\n        \"official_event\": \"https://www.rhizomedc.org/new-events/2026/9/2/wilfrido-terrazas-rachel-beetz\",\n        \"official_tickets\": \"https://pools.events/event/8H2ZAcA2/wilfrido-terrazas-rachel-beetz/\"\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Wilfrido Terrazas\",\n          \"title\": \"My Shadow Leads the Way\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/mx/album/my-shadow-leads-the-way/1626874806\"\n        },\n        {\n          \"artist\": \"Rachel Beetz\",\n          \"title\": \"Unofficial\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/unofficial/1599431121\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"complete\",\n        \"missing\": [],\n        \"note\": \"Rhizome DC and its authorized Pools page verify the exact event identity, date, 19:00 start, address and $10-$25 sliding-scale ticket. The primary venue page links directly to both artists' Bandcamp pages, which verify their instrument-centered practices; Apple Music verifies the exact suggested listening destinations. The source does not publish a duo claim, set order, doors time or additional personnel, and none are inferred.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.rhizomedc.org/new-events/2026/9/2/wilfrido-terrazas-rachel-beetz\",\n          \"publisher\": \"Rhizome DC\",\n          \"checked_on\": \"2026-09-01\",\n          \"note\": \"Primary venue page verifies Wednesday, September 2, 2026, the 19:00 event time, $10-$25 ticket range, both billed artists and the specific flute/improvisation/electronic-listening context used for Stage 1 admission.\"\n        },\n        {\n          \"url\": \"https://pools.events/event/8H2ZAcA2/wilfrido-terrazas-rachel-beetz/\",\n          \"publisher\": \"Pools / Rhizome DC authorized ticketing\",\n          \"checked_on\": \"2026-09-01\",\n          \"note\": \"Authorized ticket page verifies September 2 at 19:00, Rhizome DC at 6950 Maple Street NW, the $10-$25 pay-what-you-can sliding scale, and fee-inclusive totals displayed separately.\"\n        },\n        {\n          \"url\": \"https://wilfridoterrazas.bandcamp.com/\",\n          \"publisher\": \"Wilfrido Terrazas\",\n          \"checked_on\": \"2026-09-01\",\n          \"note\": \"Artist-controlled music page verifies Terrazas as a flutist, improviser, composer and educator and founding member of Generación Espontánea; used for artist context rather than event logistics.\"\n        },\n        {\n          \"url\": \"https://rachelbeetz.bandcamp.com/\",\n          \"publisher\": \"Rachel Beetz\",\n          \"checked_on\": \"2026-09-01\",\n          \"note\": \"Artist-controlled music page verifies Beetz as a performer-composer-improviser working with flutes, electronics and ARP 2600; used for artist context rather than event logistics.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/mx/album/my-shadow-leads-the-way/1626874806\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-09-01\",\n          \"note\": \"Exact Apple Music album page verifies My Shadow Leads the Way by Wilfrido Terrazas, released June 15, 2022.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/unofficial/1599431121\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-09-01\",\n          \"note\": \"Exact Apple Music album page verifies Unofficial by Rachel Beetz, released January 21, 2022.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-and-authorized-sources\",\n        \"note\": \"Date, event time, venue address, ticket range and authorized ticket destination were verified from Rhizome DC and Pools. Artist-controlled Bandcamp pages verify the billed artists' instrumental practices, and Apple Music verifies the exact listening destinations. Repository-wide searches found no Wilfrido Terrazas, Rachel Beetz or September 2 Rhizome match before publication. Priority A was assigned only after Stage 1 admission and reflects a focused local instrumental/improvisational bill without manufactured scarcity. Editorial review in this automation was performed by RADAR automation editorial review.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"The bill puts two very different flute-centered experimental languages in the same room. Terrazas works between notation, open improvisation, Mexican musical memory and poetry; Beetz turns flutes, electronics and environmental listening into slowly shifting sound environments. The connection is the instrument, but the attraction is hearing how differently each artist makes it behave.\",\n          \"trip_verdict\": \"If Wednesday is free in the DMV, this is worth catching at Rhizome, especially for the instrumental and improvisational thread. It is a focused local discovery rather than a reason to reorganize a larger regional itinerary.\",\n          \"listen_before\": \"Wilfrido Terrazas — My Shadow Leads the Way; Rachel Beetz — Unofficial\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"El cartel pone en la misma sala dos lenguajes experimentales muy distintos construidos alrededor de la flauta. Terrazas trabaja entre notación, improvisación abierta, memoria musical mexicana y poesía; Beetz convierte flautas, electrónica y escucha ambiental en espacios sonoros que cambian lentamente. El punto de contacto es el instrumento, pero lo interesante es escuchar hasta dónde lo lleva cada uno.\",\n          \"trip_verdict\": \"Si el miércoles está libre en el DMV, vale caer a Rhizome, sobre todo por el hilo instrumental e improvisatorio. Es un descubrimiento local bien enfocado, no una razón para reorganizar un itinerario regional más grande.\",\n          \"listen_before\": \"Wilfrido Terrazas — My Shadow Leads the Way; Rachel Beetz — Unofficial\"\n        }\n      }\n    }\n  ]\n}\n",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-01-discovery",
+      "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh Yamamoto checks covered BODY&SOUL, KEYSTONE CLUB TOKYO, Jazz House ALFIE traces, Space M&A traces and Jazz in Japan/current Japanese-jazz schedules; the verified September Yamamoto appearances returned by the pass are already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Stage 1 admits Wilfrido Terrazas / Rachel Beetz at Rhizome DC because the exact bill places two flute-centered experimental practices in direct dialogue: Terrazas works at the boundary of notation, improvisation, Mexican folk traditions and poetry, while Beetz combines flutes, electronics and field-recording-based listening practice. This is a concrete instrumental and cultural reason for RADAR admission, not a genre or venue-prestige inclusion. Stage 2 assigns A only after admission. The event is a focused, highly aligned local experimental program worth attending if convenient, but no premiere, farewell, singular collaboration claim, or other verified scarcity warrants A+ or an S tier. Repository searches for Wilfrido Terrazas, Rachel Beetz, the exact September 2 Rhizome identity and proposed stable ID returned no matching RADAR record before publication. Recent/current RADAR output was reviewed as a sanity check; this batch adds A 1 / A+ 0 / S 0 / S+ 0 and reinforces the intended broad A base without invoking the scarcity-review gate.",
+      "events": [
+        {
+          "id": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02",
+          "artist": "Wilfrido Terrazas / Rachel Beetz",
+          "subtitle": "Experimental flute, improvisation and electronic listening practices",
+          "dates": {
+            "start": "2026-09-02",
+            "end": null
+          },
+          "showtimes": [
+            "19:00"
+          ],
+          "venue": {
+            "id": "rhizome-dc-washington-dc",
+            "name": "Rhizome DC",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Local",
+          "status": "considering",
+          "priority": "A",
+          "category": "Experimental flute / improvisation / electroacoustic music",
+          "genres": [
+            "Experimental Music",
+            "Improvised Music",
+            "Electroacoustic Music",
+            "Contemporary Music"
+          ],
+          "musical_axes": [
+            "Latin",
+            "Instrumental identity",
+            "Improvised",
+            "Experimental / Metal",
+            "Cultural context"
+          ],
+          "lineup": [
+            "Wilfrido Terrazas — flute, improvisation, composition",
+            "Rachel Beetz — flutes, electronics, improvisation"
+          ],
+          "factual_description": "Rhizome DC presents Wilfrido Terrazas and Rachel Beetz on Wednesday, September 2, 2026, with the event beginning at 19:00 at 6950 Maple Street NW, Washington, DC. The official venue page and its authorized Pools ticket page list a $10-$25 sliding-scale ticket; Pools separately displays fee-inclusive totals of $11.91-$27.75. Rhizome identifies Terrazas as a flutist, improviser, composer and educator from Ensenada, Mexico, whose work connects notation, improvisation, experimental lineages, Mexican folk traditions and poetry. The same primary listing describes Beetz as a composer, flutist and improviser whose practice combines field recordings and electronically modified flutes. The page bills both artists for the evening but does not specify a duo format, set order, doors time, or additional personnel, so none are inferred here.",
+          "links": {
+            "official_event": "https://www.rhizomedc.org/new-events/2026/9/2/wilfrido-terrazas-rachel-beetz",
+            "official_tickets": "https://pools.events/event/8H2ZAcA2/wilfrido-terrazas-rachel-beetz/"
+          },
+          "recommended_listening": [
+            {
+              "artist": "Wilfrido Terrazas",
+              "title": "My Shadow Leads the Way",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/mx/album/my-shadow-leads-the-way/1626874806"
+            },
+            {
+              "artist": "Rachel Beetz",
+              "title": "Unofficial",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/unofficial/1599431121"
+            }
+          ],
+          "enrichment": {
+            "status": "complete",
+            "missing": [],
+            "note": "Rhizome DC and its authorized Pools page verify the exact event identity, date, 19:00 start, address and $10-$25 sliding-scale ticket. The primary venue page links directly to both artists' Bandcamp pages, which verify their instrument-centered practices; Apple Music verifies the exact suggested listening destinations. The source does not publish a duo claim, set order, doors time or additional personnel, and none are inferred."
+          },
+          "sources": [
+            {
+              "url": "https://www.rhizomedc.org/new-events/2026/9/2/wilfrido-terrazas-rachel-beetz",
+              "publisher": "Rhizome DC",
+              "checked_on": "2026-09-01",
+              "note": "Primary venue page verifies Wednesday, September 2, 2026, the 19:00 event time, $10-$25 ticket range, both billed artists and the specific flute/improvisation/electronic-listening context used for Stage 1 admission."
+            },
+            {
+              "url": "https://pools.events/event/8H2ZAcA2/wilfrido-terrazas-rachel-beetz/",
+              "publisher": "Pools / Rhizome DC authorized ticketing",
+              "checked_on": "2026-09-01",
+              "note": "Authorized ticket page verifies September 2 at 19:00, Rhizome DC at 6950 Maple Street NW, the $10-$25 pay-what-you-can sliding scale, and fee-inclusive totals displayed separately."
+            },
+            {
+              "url": "https://wilfridoterrazas.bandcamp.com/",
+              "publisher": "Wilfrido Terrazas",
+              "checked_on": "2026-09-01",
+              "note": "Artist-controlled music page verifies Terrazas as a flutist, improviser, composer and educator and founding member of Generación Espontánea; used for artist context rather than event logistics."
+            },
+            {
+              "url": "https://rachelbeetz.bandcamp.com/",
+              "publisher": "Rachel Beetz",
+              "checked_on": "2026-09-01",
+              "note": "Artist-controlled music page verifies Beetz as a performer-composer-improviser working with flutes, electronics and ARP 2600; used for artist context rather than event logistics."
+            },
+            {
+              "url": "https://music.apple.com/mx/album/my-shadow-leads-the-way/1626874806",
+              "publisher": "Apple Music",
+              "checked_on": "2026-09-01",
+              "note": "Exact Apple Music album page verifies My Shadow Leads the Way by Wilfrido Terrazas, released June 15, 2022."
+            },
+            {
+              "url": "https://music.apple.com/us/album/unofficial/1599431121",
+              "publisher": "Apple Music",
+              "checked_on": "2026-09-01",
+              "note": "Exact Apple Music album page verifies Unofficial by Rachel Beetz, released January 21, 2022."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-and-authorized-sources",
+            "note": "Date, event time, venue address, ticket range and authorized ticket destination were verified from Rhizome DC and Pools. Artist-controlled Bandcamp pages verify the billed artists' instrumental practices, and Apple Music verifies the exact listening destinations. Repository-wide searches found no Wilfrido Terrazas, Rachel Beetz or September 2 Rhizome match before publication. Priority A was assigned only after Stage 1 admission and reflects a focused local instrumental/improvisational bill without manufactured scarcity. Editorial review in this automation was performed by RADAR automation editorial review."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "The bill puts two very different flute-centered experimental languages in the same room. Terrazas works between notation, open improvisation, Mexican musical memory and poetry; Beetz turns flutes, electronics and environmental listening into slowly shifting sound environments. The connection is the instrument, but the attraction is hearing how differently each artist makes it behave.",
+              "trip_verdict": "If Wednesday is free in the DMV, this is worth catching at Rhizome, especially for the instrumental and improvisational thread. It is a focused local discovery rather than a reason to reorganize a larger regional itinerary.",
+              "listen_before": "Wilfrido Terrazas — My Shadow Leads the Way; Rachel Beetz — Unofficial"
+            },
+            "es": {
+              "why_it_matters": "El cartel pone en la misma sala dos lenguajes experimentales muy distintos construidos alrededor de la flauta. Terrazas trabaja entre notación, improvisación abierta, memoria musical mexicana y poesía; Beetz convierte flautas, electrónica y escucha ambiental en espacios sonoros que cambian lentamente. El punto de contacto es el instrumento, pero lo interesante es escuchar hasta dónde lo lleva cada uno.",
+              "trip_verdict": "Si el miércoles está libre en el DMV, vale caer a Rhizome, sobre todo por el hilo instrumental e improvisatorio. Es un descubrimiento local bien enfocado, no una razón para reorganizar un itinerario regional más grande.",
+              "listen_before": "Wilfrido Terrazas — My Shadow Leads the Way; Rachel Beetz — Unofficial"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-01-discovery.json",
+      "batch_sha256": "2945a41535a1a6995cfb66eecdf453fd7ecbc6a652b8690ac7bce4736b0869a0",
+      "batch_id": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-01-discovery",
+      "event_index": 0,
+      "candidate_event_id": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02",
+      "candidate_sha256": "d2446687ea832916a355a07956cbb2e1f6f197151ae3324f37d3cfb98753a36d",
+      "errors": [
+        "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02 claims complete enrichment but required links or Apple Music are missing"
+      ],
+      "action": "review_validation",
+      "proposed_diff": [],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02 claims complete enrichment but required links or Apple Music are missing"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": true,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "complete",
+          "missing": [],
+          "note": "Rhizome DC and its authorized Pools page verify the exact event identity, date, 19:00 start, address and $10-$25 sliding-scale ticket. The primary venue page links directly to both artists' Bandcamp pages, which verify their instrument-centered practices; Apple Music verifies the exact suggested listening destinations. The source does not publish a duo claim, set order, doors time or additional personnel, and none are inferred."
+        }
+      ],
+      "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+      "can_remain_active": false,
+      "materialization": "apply"
+    }
+  ],
+  "automatic_repairs": [],
+  "review_candidates": [
+    {
+      "original_event": {
+        "id": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02",
+        "artist": "Wilfrido Terrazas / Rachel Beetz",
+        "subtitle": "Experimental flute, improvisation and electronic listening practices",
+        "dates": {
+          "start": "2026-09-02",
+          "end": null
+        },
+        "showtimes": [
+          "19:00"
+        ],
+        "venue": {
+          "id": "rhizome-dc-washington-dc",
+          "name": "Rhizome DC",
+          "city": "Washington",
+          "state": "DC",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Local",
+        "status": "considering",
+        "priority": "A",
+        "category": "Experimental flute / improvisation / electroacoustic music",
+        "genres": [
+          "Experimental Music",
+          "Improvised Music",
+          "Electroacoustic Music",
+          "Contemporary Music"
+        ],
+        "musical_axes": [
+          "Latin",
+          "Instrumental identity",
+          "Improvised",
+          "Experimental / Metal",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Wilfrido Terrazas — flute, improvisation, composition",
+          "Rachel Beetz — flutes, electronics, improvisation"
+        ],
+        "factual_description": "Rhizome DC presents Wilfrido Terrazas and Rachel Beetz on Wednesday, September 2, 2026, with the event beginning at 19:00 at 6950 Maple Street NW, Washington, DC. The official venue page and its authorized Pools ticket page list a $10-$25 sliding-scale ticket; Pools separately displays fee-inclusive totals of $11.91-$27.75. Rhizome identifies Terrazas as a flutist, improviser, composer and educator from Ensenada, Mexico, whose work connects notation, improvisation, experimental lineages, Mexican folk traditions and poetry. The same primary listing describes Beetz as a composer, flutist and improviser whose practice combines field recordings and electronically modified flutes. The page bills both artists for the evening but does not specify a duo format, set order, doors time, or additional personnel, so none are inferred here.",
+        "links": {
+          "official_event": "https://www.rhizomedc.org/new-events/2026/9/2/wilfrido-terrazas-rachel-beetz",
+          "official_tickets": "https://pools.events/event/8H2ZAcA2/wilfrido-terrazas-rachel-beetz/"
+        },
+        "recommended_listening": [
+          {
+            "artist": "Wilfrido Terrazas",
+            "title": "My Shadow Leads the Way",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/mx/album/my-shadow-leads-the-way/1626874806"
+          },
+          {
+            "artist": "Rachel Beetz",
+            "title": "Unofficial",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/unofficial/1599431121"
+          }
+        ],
+        "enrichment": {
+          "status": "complete",
+          "missing": [],
+          "note": "Rhizome DC and its authorized Pools page verify the exact event identity, date, 19:00 start, address and $10-$25 sliding-scale ticket. The primary venue page links directly to both artists' Bandcamp pages, which verify their instrument-centered practices; Apple Music verifies the exact suggested listening destinations. The source does not publish a duo claim, set order, doors time or additional personnel, and none are inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.rhizomedc.org/new-events/2026/9/2/wilfrido-terrazas-rachel-beetz",
+            "publisher": "Rhizome DC",
+            "checked_on": "2026-09-01",
+            "note": "Primary venue page verifies Wednesday, September 2, 2026, the 19:00 event time, $10-$25 ticket range, both billed artists and the specific flute/improvisation/electronic-listening context used for Stage 1 admission."
+          },
+          {
+            "url": "https://pools.events/event/8H2ZAcA2/wilfrido-terrazas-rachel-beetz/",
+            "publisher": "Pools / Rhizome DC authorized ticketing",
+            "checked_on": "2026-09-01",
+            "note": "Authorized ticket page verifies September 2 at 19:00, Rhizome DC at 6950 Maple Street NW, the $10-$25 pay-what-you-can sliding scale, and fee-inclusive totals displayed separately."
+          },
+          {
+            "url": "https://wilfridoterrazas.bandcamp.com/",
+            "publisher": "Wilfrido Terrazas",
+            "checked_on": "2026-09-01",
+            "note": "Artist-controlled music page verifies Terrazas as a flutist, improviser, composer and educator and founding member of Generación Espontánea; used for artist context rather than event logistics."
+          },
+          {
+            "url": "https://rachelbeetz.bandcamp.com/",
+            "publisher": "Rachel Beetz",
+            "checked_on": "2026-09-01",
+            "note": "Artist-controlled music page verifies Beetz as a performer-composer-improviser working with flutes, electronics and ARP 2600; used for artist context rather than event logistics."
+          },
+          {
+            "url": "https://music.apple.com/mx/album/my-shadow-leads-the-way/1626874806",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-01",
+            "note": "Exact Apple Music album page verifies My Shadow Leads the Way by Wilfrido Terrazas, released June 15, 2022."
+          },
+          {
+            "url": "https://music.apple.com/us/album/unofficial/1599431121",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-01",
+            "note": "Exact Apple Music album page verifies Unofficial by Rachel Beetz, released January 21, 2022."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-and-authorized-sources",
+          "note": "Date, event time, venue address, ticket range and authorized ticket destination were verified from Rhizome DC and Pools. Artist-controlled Bandcamp pages verify the billed artists' instrumental practices, and Apple Music verifies the exact listening destinations. Repository-wide searches found no Wilfrido Terrazas, Rachel Beetz or September 2 Rhizome match before publication. Priority A was assigned only after Stage 1 admission and reflects a focused local instrumental/improvisational bill without manufactured scarcity. Editorial review in this automation was performed by RADAR automation editorial review."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The bill puts two very different flute-centered experimental languages in the same room. Terrazas works between notation, open improvisation, Mexican musical memory and poetry; Beetz turns flutes, electronics and environmental listening into slowly shifting sound environments. The connection is the instrument, but the attraction is hearing how differently each artist makes it behave.",
+            "trip_verdict": "If Wednesday is free in the DMV, this is worth catching at Rhizome, especially for the instrumental and improvisational thread. It is a focused local discovery rather than a reason to reorganize a larger regional itinerary.",
+            "listen_before": "Wilfrido Terrazas — My Shadow Leads the Way; Rachel Beetz — Unofficial"
+          },
+          "es": {
+            "why_it_matters": "El cartel pone en la misma sala dos lenguajes experimentales muy distintos construidos alrededor de la flauta. Terrazas trabaja entre notación, improvisación abierta, memoria musical mexicana y poesía; Beetz convierte flautas, electrónica y escucha ambiental en espacios sonoros que cambian lentamente. El punto de contacto es el instrumento, pero lo interesante es escuchar hasta dónde lo lleva cada uno.",
+            "trip_verdict": "Si el miércoles está libre en el DMV, vale caer a Rhizome, sobre todo por el hilo instrumental e improvisatorio. Es un descubrimiento local bien enfocado, no una razón para reorganizar un itinerario regional más grande.",
+            "listen_before": "Wilfrido Terrazas — My Shadow Leads the Way; Rachel Beetz — Unofficial"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-01-discovery.json",
+        "batch_sha256": "2945a41535a1a6995cfb66eecdf453fd7ecbc6a652b8690ac7bce4736b0869a0",
+        "batch_id": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-01-discovery",
+        "event_index": 0,
+        "candidate_event_id": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02",
+        "candidate_sha256": "d2446687ea832916a355a07956cbb2e1f6f197151ae3324f37d3cfb98753a36d",
+        "errors": [
+          "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02 claims complete enrichment but required links or Apple Music are missing"
+        ],
+        "action": "review_validation",
+        "proposed_diff": [],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "wilfrido-terrazas-rachel-beetz-rhizome-dc-2026-09-02 claims complete enrichment but required links or Apple Music are missing"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": true,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "complete",
+            "missing": [],
+            "note": "Rhizome DC and its authorized Pools page verify the exact event identity, date, 19:00 start, address and $10-$25 sliding-scale ticket. The primary venue page links directly to both artists' Bandcamp pages, which verify their instrument-centered practices; Apple Music verifies the exact suggested listening destinations. The source does not publish a duo claim, set order, doors time or additional personnel, and none are inferred."
+          }
+        ],
+        "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+        "can_remain_active": false,
+        "materialization": "apply"
+      }
+    }
+  ],
+  "result": {
+    "active_path": null,
+    "active_events": []
+  }
+}

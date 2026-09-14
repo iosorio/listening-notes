@@ -72,9 +72,11 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "complete",
-        "missing": [],
-        "note": "Exact MSG and authorized Ticketmaster pages verify the date, venue, 8:00 PM showtime, 7:00 PM doors, tour billing and Stevie Wonder as the announced lineup. The authoritative tour announcement verifies the full-album 50th-anniversary format and the international/U.S. routing. Face-value prices were not published on the checked pages and are therefore left null; no unannounced backing musicians or listening IDs were inferred."
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact MSG and authorized Ticketmaster pages verify the date, venue, 8:00 PM showtime, 7:00 PM doors, tour billing and Stevie Wonder as the announced lineup. The authoritative tour announcement verifies the full-album 50th-anniversary format and the international/U.S. routing. Face-value prices were not published on the checked pages and are therefore left null; no unannounced backing musicians or listening IDs were inferred. Structural normalization on 2026-09-11: complete normalized to pending because required components are absent; missing recalculated from the links and Apple Music URLs already present. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -180,9 +182,11 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "complete",
-        "missing": [],
-        "note": "Exact Capital One Arena and authorized Ticketmaster pages verify the date, venue, 8:00 PM showtime, 7:00 PM doors, tour billing and Stevie Wonder as the announced lineup. The authoritative tour announcement verifies the full-album 50th-anniversary format and the international/U.S. routing. Face-value prices were not published on the checked pages and are therefore left null; no unannounced backing musicians or listening IDs were inferred."
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact Capital One Arena and authorized Ticketmaster pages verify the date, venue, 8:00 PM showtime, 7:00 PM doors, tour billing and Stevie Wonder as the announced lineup. The authoritative tour announcement verifies the full-album 50th-anniversary format and the international/U.S. routing. Face-value prices were not published on the checked pages and are therefore left null; no unannounced backing musicians or listening IDs were inferred. Structural normalization on 2026-09-11: complete normalized to pending because required components are absent; missing recalculated from the links and Apple Music URLs already present. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

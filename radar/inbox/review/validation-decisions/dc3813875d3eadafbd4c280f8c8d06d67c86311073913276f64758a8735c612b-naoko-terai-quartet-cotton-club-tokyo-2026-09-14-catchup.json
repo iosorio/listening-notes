@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/naoko-terai-quartet-cotton-club-tokyo-2026-09-14-catchup.json",
+    "sha256": "dc3813875d3eadafbd4c280f8c8d06d67c86311073913276f64758a8735c612b",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"naoko-terai-quartet-cotton-club-tokyo-2026-09-14-catchup\",\n  \"notes\": \"Verified A-priority Tokyo/Kanto catch-up under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass checked current ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedule references, Space M&A, and credible Japanese jazz sources and found no new unrecorded verified Yamamoto date. Naoko Terai clears RADAR admission because the violin is the lead improvising voice of a mature Japanese jazz quartet; the event is graded A rather than A+ or S because The Precious Night is a recurring series and no premiere, farewell, rare reunion, or singular program has been announced for this date.\",\n  \"events\": [\n    {\n      \"id\": \"naoko-terai-quartet-cotton-club-tokyo-2026-09-14\",\n      \"artist\": \"NAOKO TERAI QUARTET\",\n      \"subtitle\": \"The Precious Night 2026 at COTTON CLUB\",\n      \"dates\": {\n        \"start\": \"2026-09-14\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"18:00\",\n        \"20:30\"\n      ],\n      \"venue\": {\n        \"id\": \"cotton-club-marunouchi-tokyo\",\n        \"name\": \"COTTON CLUB\",\n        \"city\": \"Tokyo\",\n        \"state\": \"Tokyo\",\n        \"country\": \"JP\"\n      },\n      \"geographic_domain\": \"tokyo_kanto\",\n      \"geography\": \"Tokyo\",\n      \"status\": \"considering\",\n      \"priority\": \"A\",\n      \"category\": \"Japanese jazz / violin-led acoustic quartet\",\n      \"genres\": [\n        \"Jazz\",\n        \"Contemporary jazz\"\n      ],\n      \"musical_axes\": [\n        \"Japan/Tokyo\",\n        \"Masters\",\n        \"Instrumental identity\",\n        \"Acoustic Jazz\"\n      ],\n      \"lineup\": [\n        \"Naoko Terai — violin\",\n        \"Naoki Kitajima — piano\",\n        \"Yusuke Nakaishi — bass\",\n        \"Shota Asai — drums\"\n      ],\n      \"factual_description\": \"COTTON CLUB presents NAOKO TERAI QUARTET, The Precious Night 2026, on Monday, September 14, 2026, with sets at 6:00 PM and 8:30 PM. The official event page identifies the quartet as Naoko Terai on violin, Naoki Kitajima on piano, Yusuke Nakaishi on bass, and Shota Asai on drums, and frames the performance around the quartet's interplay and Terai's lead violin voice. Web reservations opened August 4 and telephone reservations August 6. The venue lists a table-seat music charge of ¥8,000, with higher-priced box and pair seating also available.\",\n      \"links\": {\n        \"official_event\": \"https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/\",\n        \"official_tickets\": null\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Naoko Terai\",\n          \"title\": \"Naoko's\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/naokos/1752623364\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"partial\",\n        \"missing\": [\n          \"official_tickets\"\n        ],\n        \"note\": \"The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/\",\n          \"publisher\": \"COTTON CLUB\",\n          \"checked_on\": \"2026-08-26\",\n          \"note\": \"Exact official event page confirms September 14, 2026, 6:00 PM and 8:30 PM sets, full quartet personnel, reservation dates, seating prices and the venue's framing of the quartet's interplay.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/naokos/1752623364\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-08-26\",\n          \"note\": \"Exact Apple Music album page for Naoko's, a current reference point for Terai's violin-led quartet language.\"\n        },\n        {\n          \"url\": \"https://www.bluenote.co.jp/jp/artists/naoko-terai/\",\n          \"publisher\": \"Blue Note Tokyo\",\n          \"checked_on\": \"2026-08-26\",\n          \"note\": \"Artist archive documents The Precious Night as a recurring live series in 2022, 2023, 2024 and 2025, supporting the editorial decision not to treat the 2026 edition as a scarcity event by default.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-sources\",\n        \"note\": \"Date, times, venue, quartet lineup, pricing and reservation timing were verified on COTTON CLUB's exact event page. Blue Note Tokyo's official artist archive confirms that The Precious Night is a recurring series, which informs priority calibration without changing the factual event record. Repository search found no Naoko Terai record or matching event ID before publication. No repertoire, guests, ticket destination or other unannounced details were inferred.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"Terai makes the violin a first-line jazz voice rather than ornamental color. In this quartet, bow attack, long melodic lines and rhythmic phrasing sit directly against Kitajima's piano and a compact bass-drums engine, so the attraction is the changing handoff of melody, harmony and pulse in the room. It is a clear Listening Notes fit because the instrument itself carries a distinct Japanese jazz identity without needing an anniversary or celebrity frame to justify admission.\",\n          \"trip_verdict\": \"Keep it on the Tokyo board if September 14 is open and attend if the evening fits cleanly. COTTON CLUB is a strong room for hearing the violin and quartet interplay up close, while a rarer reunion, premiere, farewell or one-off should still take precedence if dates collide.\",\n          \"listen_before\": \"Naoko Terai — Naoko's\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"Terai convierte el violín en una voz jazzística de primera línea, no en color ornamental. En este cuarteto, el ataque del arco, las líneas melódicas largas y el fraseo rítmico se enfrentan directamente al piano de Kitajima y a una sección compacta de bajo y batería, de modo que el atractivo está en cómo melodía, armonía y pulso van cambiando de manos dentro de la sala. Entra muy limpio a Listening Notes porque el instrumento mismo carga una identidad reconocible del jazz japonés sin necesitar aniversario ni marco de celebridad para justificar su presencia.\",\n          \"trip_verdict\": \"La tendría en el tablero de Tokio si el 14 de septiembre está libre y entraría si la noche acomoda bien. COTTON CLUB es una sala muy buena para escuchar de cerca el violín y el interplay del cuarteto, mientras una reunión más rara, un estreno, una despedida o un one-off deberían conservar precedencia si chocan las fechas.\",\n          \"listen_before\": \"Naoko Terai — Naoko's\"\n        }\n      }\n    }\n  ]\n}\n",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14-catchup",
+      "notes": "Verified A-priority Tokyo/Kanto catch-up under the current two-stage RADAR rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. The Yamamoto-first pass checked current ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedule references, Space M&A, and credible Japanese jazz sources and found no new unrecorded verified Yamamoto date. Naoko Terai clears RADAR admission because the violin is the lead improvising voice of a mature Japanese jazz quartet; the event is graded A rather than A+ or S because The Precious Night is a recurring series and no premiere, farewell, rare reunion, or singular program has been announced for this date.",
+      "events": [
+        {
+          "id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14",
+          "artist": "NAOKO TERAI QUARTET",
+          "subtitle": "The Precious Night 2026 at COTTON CLUB",
+          "dates": {
+            "start": "2026-09-14",
+            "end": null
+          },
+          "showtimes": [
+            "18:00",
+            "20:30"
+          ],
+          "venue": {
+            "id": "cotton-club-marunouchi-tokyo",
+            "name": "COTTON CLUB",
+            "city": "Tokyo",
+            "state": "Tokyo",
+            "country": "JP"
+          },
+          "geographic_domain": "tokyo_kanto",
+          "geography": "Tokyo",
+          "status": "considering",
+          "priority": "A",
+          "category": "Japanese jazz / violin-led acoustic quartet",
+          "genres": [
+            "Jazz",
+            "Contemporary jazz"
+          ],
+          "musical_axes": [
+            "Japan/Tokyo",
+            "Masters",
+            "Instrumental identity",
+            "Acoustic Jazz"
+          ],
+          "lineup": [
+            "Naoko Terai — violin",
+            "Naoki Kitajima — piano",
+            "Yusuke Nakaishi — bass",
+            "Shota Asai — drums"
+          ],
+          "factual_description": "COTTON CLUB presents NAOKO TERAI QUARTET, The Precious Night 2026, on Monday, September 14, 2026, with sets at 6:00 PM and 8:30 PM. The official event page identifies the quartet as Naoko Terai on violin, Naoki Kitajima on piano, Yusuke Nakaishi on bass, and Shota Asai on drums, and frames the performance around the quartet's interplay and Terai's lead violin voice. Web reservations opened August 4 and telephone reservations August 6. The venue lists a table-seat music charge of ¥8,000, with higher-priced box and pair seating also available.",
+          "links": {
+            "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/",
+            "official_tickets": null
+          },
+          "recommended_listening": [
+            {
+              "artist": "Naoko Terai",
+              "title": "Naoko's",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/naokos/1752623364"
+            }
+          ],
+          "enrichment": {
+            "status": "partial",
+            "missing": [
+              "official_tickets"
+            ],
+            "note": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL."
+          },
+          "sources": [
+            {
+              "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/",
+              "publisher": "COTTON CLUB",
+              "checked_on": "2026-08-26",
+              "note": "Exact official event page confirms September 14, 2026, 6:00 PM and 8:30 PM sets, full quartet personnel, reservation dates, seating prices and the venue's framing of the quartet's interplay."
+            },
+            {
+              "url": "https://music.apple.com/us/album/naokos/1752623364",
+              "publisher": "Apple Music",
+              "checked_on": "2026-08-26",
+              "note": "Exact Apple Music album page for Naoko's, a current reference point for Terai's violin-led quartet language."
+            },
+            {
+              "url": "https://www.bluenote.co.jp/jp/artists/naoko-terai/",
+              "publisher": "Blue Note Tokyo",
+              "checked_on": "2026-08-26",
+              "note": "Artist archive documents The Precious Night as a recurring live series in 2022, 2023, 2024 and 2025, supporting the editorial decision not to treat the 2026 edition as a scarcity event by default."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-sources",
+            "note": "Date, times, venue, quartet lineup, pricing and reservation timing were verified on COTTON CLUB's exact event page. Blue Note Tokyo's official artist archive confirms that The Precious Night is a recurring series, which informs priority calibration without changing the factual event record. Repository search found no Naoko Terai record or matching event ID before publication. No repertoire, guests, ticket destination or other unannounced details were inferred."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "Terai makes the violin a first-line jazz voice rather than ornamental color. In this quartet, bow attack, long melodic lines and rhythmic phrasing sit directly against Kitajima's piano and a compact bass-drums engine, so the attraction is the changing handoff of melody, harmony and pulse in the room. It is a clear Listening Notes fit because the instrument itself carries a distinct Japanese jazz identity without needing an anniversary or celebrity frame to justify admission.",
+              "trip_verdict": "Keep it on the Tokyo board if September 14 is open and attend if the evening fits cleanly. COTTON CLUB is a strong room for hearing the violin and quartet interplay up close, while a rarer reunion, premiere, farewell or one-off should still take precedence if dates collide.",
+              "listen_before": "Naoko Terai — Naoko's"
+            },
+            "es": {
+              "why_it_matters": "Terai convierte el violín en una voz jazzística de primera línea, no en color ornamental. En este cuarteto, el ataque del arco, las líneas melódicas largas y el fraseo rítmico se enfrentan directamente al piano de Kitajima y a una sección compacta de bajo y batería, de modo que el atractivo está en cómo melodía, armonía y pulso van cambiando de manos dentro de la sala. Entra muy limpio a Listening Notes porque el instrumento mismo carga una identidad reconocible del jazz japonés sin necesitar aniversario ni marco de celebridad para justificar su presencia.",
+              "trip_verdict": "La tendría en el tablero de Tokio si el 14 de septiembre está libre y entraría si la noche acomoda bien. COTTON CLUB es una sala muy buena para escuchar de cerca el violín y el interplay del cuarteto, mientras una reunión más rara, un estreno, una despedida o un one-off deberían conservar precedencia si chocan las fechas.",
+              "listen_before": "Naoko Terai — Naoko's"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/naoko-terai-quartet-cotton-club-tokyo-2026-09-14-catchup.json",
+      "batch_sha256": "dc3813875d3eadafbd4c280f8c8d06d67c86311073913276f64758a8735c612b",
+      "batch_id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14-catchup",
+      "event_index": 0,
+      "candidate_event_id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14",
+      "candidate_sha256": "a294a11ed9964fcaa601c37b4fdd198e7286420ddeaff4dbe73fde93c5f46616",
+      "errors": [
+        "naoko-terai-quartet-cotton-club-tokyo-2026-09-14.enrichment requires status complete, pending, or unavailable"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.note",
+          "before": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL.",
+          "after": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL. Structural normalization on 2026-09-11: status 'partial' normalized to pending. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        {
+          "field": "enrichment.status",
+          "before": "partial",
+          "after": "pending"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14.enrichment requires status complete, pending, or unavailable"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": false,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "partial",
+          "missing": [
+            "official_tickets"
+          ],
+          "note": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "status 'partial' normalized to pending"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "0d507450deea599873d9e78c6c25cc3c068bab829eb34452c1183e690644f07e"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14",
+        "artist": "NAOKO TERAI QUARTET",
+        "subtitle": "The Precious Night 2026 at COTTON CLUB",
+        "dates": {
+          "start": "2026-09-14",
+          "end": null
+        },
+        "showtimes": [
+          "18:00",
+          "20:30"
+        ],
+        "venue": {
+          "id": "cotton-club-marunouchi-tokyo",
+          "name": "COTTON CLUB",
+          "city": "Tokyo",
+          "state": "Tokyo",
+          "country": "JP"
+        },
+        "geographic_domain": "tokyo_kanto",
+        "geography": "Tokyo",
+        "status": "considering",
+        "priority": "A",
+        "category": "Japanese jazz / violin-led acoustic quartet",
+        "genres": [
+          "Jazz",
+          "Contemporary jazz"
+        ],
+        "musical_axes": [
+          "Japan/Tokyo",
+          "Masters",
+          "Instrumental identity",
+          "Acoustic Jazz"
+        ],
+        "lineup": [
+          "Naoko Terai — violin",
+          "Naoki Kitajima — piano",
+          "Yusuke Nakaishi — bass",
+          "Shota Asai — drums"
+        ],
+        "factual_description": "COTTON CLUB presents NAOKO TERAI QUARTET, The Precious Night 2026, on Monday, September 14, 2026, with sets at 6:00 PM and 8:30 PM. The official event page identifies the quartet as Naoko Terai on violin, Naoki Kitajima on piano, Yusuke Nakaishi on bass, and Shota Asai on drums, and frames the performance around the quartet's interplay and Terai's lead violin voice. Web reservations opened August 4 and telephone reservations August 6. The venue lists a table-seat music charge of ¥8,000, with higher-priced box and pair seating also available.",
+        "links": {
+          "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/",
+          "official_tickets": null
+        },
+        "recommended_listening": [
+          {
+            "artist": "Naoko Terai",
+            "title": "Naoko's",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/naokos/1752623364"
+          }
+        ],
+        "enrichment": {
+          "status": "partial",
+          "missing": [
+            "official_tickets"
+          ],
+          "note": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL."
+        },
+        "sources": [
+          {
+            "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/",
+            "publisher": "COTTON CLUB",
+            "checked_on": "2026-08-26",
+            "note": "Exact official event page confirms September 14, 2026, 6:00 PM and 8:30 PM sets, full quartet personnel, reservation dates, seating prices and the venue's framing of the quartet's interplay."
+          },
+          {
+            "url": "https://music.apple.com/us/album/naokos/1752623364",
+            "publisher": "Apple Music",
+            "checked_on": "2026-08-26",
+            "note": "Exact Apple Music album page for Naoko's, a current reference point for Terai's violin-led quartet language."
+          },
+          {
+            "url": "https://www.bluenote.co.jp/jp/artists/naoko-terai/",
+            "publisher": "Blue Note Tokyo",
+            "checked_on": "2026-08-26",
+            "note": "Artist archive documents The Precious Night as a recurring live series in 2022, 2023, 2024 and 2025, supporting the editorial decision not to treat the 2026 edition as a scarcity event by default."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Date, times, venue, quartet lineup, pricing and reservation timing were verified on COTTON CLUB's exact event page. Blue Note Tokyo's official artist archive confirms that The Precious Night is a recurring series, which informs priority calibration without changing the factual event record. Repository search found no Naoko Terai record or matching event ID before publication. No repertoire, guests, ticket destination or other unannounced details were inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "Terai makes the violin a first-line jazz voice rather than ornamental color. In this quartet, bow attack, long melodic lines and rhythmic phrasing sit directly against Kitajima's piano and a compact bass-drums engine, so the attraction is the changing handoff of melody, harmony and pulse in the room. It is a clear Listening Notes fit because the instrument itself carries a distinct Japanese jazz identity without needing an anniversary or celebrity frame to justify admission.",
+            "trip_verdict": "Keep it on the Tokyo board if September 14 is open and attend if the evening fits cleanly. COTTON CLUB is a strong room for hearing the violin and quartet interplay up close, while a rarer reunion, premiere, farewell or one-off should still take precedence if dates collide.",
+            "listen_before": "Naoko Terai — Naoko's"
+          },
+          "es": {
+            "why_it_matters": "Terai convierte el violín en una voz jazzística de primera línea, no en color ornamental. En este cuarteto, el ataque del arco, las líneas melódicas largas y el fraseo rítmico se enfrentan directamente al piano de Kitajima y a una sección compacta de bajo y batería, de modo que el atractivo está en cómo melodía, armonía y pulso van cambiando de manos dentro de la sala. Entra muy limpio a Listening Notes porque el instrumento mismo carga una identidad reconocible del jazz japonés sin necesitar aniversario ni marco de celebridad para justificar su presencia.",
+            "trip_verdict": "La tendría en el tablero de Tokio si el 14 de septiembre está libre y entraría si la noche acomoda bien. COTTON CLUB es una sala muy buena para escuchar de cerca el violín y el interplay del cuarteto, mientras una reunión más rara, un estreno, una despedida o un one-off deberían conservar precedencia si chocan las fechas.",
+            "listen_before": "Naoko Terai — Naoko's"
+          }
+        }
+      },
+      "after": {
+        "id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14",
+        "artist": "NAOKO TERAI QUARTET",
+        "subtitle": "The Precious Night 2026 at COTTON CLUB",
+        "dates": {
+          "start": "2026-09-14",
+          "end": null
+        },
+        "showtimes": [
+          "18:00",
+          "20:30"
+        ],
+        "venue": {
+          "id": "cotton-club-marunouchi-tokyo",
+          "name": "COTTON CLUB",
+          "city": "Tokyo",
+          "state": "Tokyo",
+          "country": "JP"
+        },
+        "geographic_domain": "tokyo_kanto",
+        "geography": "Tokyo",
+        "status": "considering",
+        "priority": "A",
+        "category": "Japanese jazz / violin-led acoustic quartet",
+        "genres": [
+          "Jazz",
+          "Contemporary jazz"
+        ],
+        "musical_axes": [
+          "Japan/Tokyo",
+          "Masters",
+          "Instrumental identity",
+          "Acoustic Jazz"
+        ],
+        "lineup": [
+          "Naoko Terai — violin",
+          "Naoki Kitajima — piano",
+          "Yusuke Nakaishi — bass",
+          "Shota Asai — drums"
+        ],
+        "factual_description": "COTTON CLUB presents NAOKO TERAI QUARTET, The Precious Night 2026, on Monday, September 14, 2026, with sets at 6:00 PM and 8:30 PM. The official event page identifies the quartet as Naoko Terai on violin, Naoki Kitajima on piano, Yusuke Nakaishi on bass, and Shota Asai on drums, and frames the performance around the quartet's interplay and Terai's lead violin voice. Web reservations opened August 4 and telephone reservations August 6. The venue lists a table-seat music charge of ¥8,000, with higher-priced box and pair seating also available.",
+        "links": {
+          "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/",
+          "official_tickets": null
+        },
+        "recommended_listening": [
+          {
+            "artist": "Naoko Terai",
+            "title": "Naoko's",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/naokos/1752623364"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "official_tickets"
+          ],
+          "note": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL. Structural normalization on 2026-09-11: status 'partial' normalized to pending. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/",
+            "publisher": "COTTON CLUB",
+            "checked_on": "2026-08-26",
+            "note": "Exact official event page confirms September 14, 2026, 6:00 PM and 8:30 PM sets, full quartet personnel, reservation dates, seating prices and the venue's framing of the quartet's interplay."
+          },
+          {
+            "url": "https://music.apple.com/us/album/naokos/1752623364",
+            "publisher": "Apple Music",
+            "checked_on": "2026-08-26",
+            "note": "Exact Apple Music album page for Naoko's, a current reference point for Terai's violin-led quartet language."
+          },
+          {
+            "url": "https://www.bluenote.co.jp/jp/artists/naoko-terai/",
+            "publisher": "Blue Note Tokyo",
+            "checked_on": "2026-08-26",
+            "note": "Artist archive documents The Precious Night as a recurring live series in 2022, 2023, 2024 and 2025, supporting the editorial decision not to treat the 2026 edition as a scarcity event by default."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Date, times, venue, quartet lineup, pricing and reservation timing were verified on COTTON CLUB's exact event page. Blue Note Tokyo's official artist archive confirms that The Precious Night is a recurring series, which informs priority calibration without changing the factual event record. Repository search found no Naoko Terai record or matching event ID before publication. No repertoire, guests, ticket destination or other unannounced details were inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "Terai makes the violin a first-line jazz voice rather than ornamental color. In this quartet, bow attack, long melodic lines and rhythmic phrasing sit directly against Kitajima's piano and a compact bass-drums engine, so the attraction is the changing handoff of melody, harmony and pulse in the room. It is a clear Listening Notes fit because the instrument itself carries a distinct Japanese jazz identity without needing an anniversary or celebrity frame to justify admission.",
+            "trip_verdict": "Keep it on the Tokyo board if September 14 is open and attend if the evening fits cleanly. COTTON CLUB is a strong room for hearing the violin and quartet interplay up close, while a rarer reunion, premiere, farewell or one-off should still take precedence if dates collide.",
+            "listen_before": "Naoko Terai — Naoko's"
+          },
+          "es": {
+            "why_it_matters": "Terai convierte el violín en una voz jazzística de primera línea, no en color ornamental. En este cuarteto, el ataque del arco, las líneas melódicas largas y el fraseo rítmico se enfrentan directamente al piano de Kitajima y a una sección compacta de bajo y batería, de modo que el atractivo está en cómo melodía, armonía y pulso van cambiando de manos dentro de la sala. Entra muy limpio a Listening Notes porque el instrumento mismo carga una identidad reconocible del jazz japonés sin necesitar aniversario ni marco de celebridad para justificar su presencia.",
+            "trip_verdict": "La tendría en el tablero de Tokio si el 14 de septiembre está libre y entraría si la noche acomoda bien. COTTON CLUB es una sala muy buena para escuchar de cerca el violín y el interplay del cuarteto, mientras una reunión más rara, un estreno, una despedida o un one-off deberían conservar precedencia si chocan las fechas.",
+            "listen_before": "Naoko Terai — Naoko's"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/naoko-terai-quartet-cotton-club-tokyo-2026-09-14-catchup.json",
+        "batch_sha256": "dc3813875d3eadafbd4c280f8c8d06d67c86311073913276f64758a8735c612b",
+        "batch_id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14-catchup",
+        "event_index": 0,
+        "candidate_event_id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14",
+        "candidate_sha256": "a294a11ed9964fcaa601c37b4fdd198e7286420ddeaff4dbe73fde93c5f46616",
+        "errors": [
+          "naoko-terai-quartet-cotton-club-tokyo-2026-09-14.enrichment requires status complete, pending, or unavailable"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.note",
+            "before": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL.",
+            "after": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL. Structural normalization on 2026-09-11: status 'partial' normalized to pending. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          },
+          {
+            "field": "enrichment.status",
+            "before": "partial",
+            "after": "pending"
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14.enrichment requires status complete, pending, or unavailable"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": false,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "partial",
+            "missing": [
+              "official_tickets"
+            ],
+            "note": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "status 'partial' normalized to pending"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "0d507450deea599873d9e78c6c25cc3c068bab829eb34452c1183e690644f07e"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/naoko-terai-quartet-cotton-club-tokyo-2026-09-14-catchup.json",
+    "active_events": [
+      {
+        "id": "naoko-terai-quartet-cotton-club-tokyo-2026-09-14",
+        "sha256": "0d507450deea599873d9e78c6c25cc3c068bab829eb34452c1183e690644f07e"
+      }
+    ]
+  }
+}

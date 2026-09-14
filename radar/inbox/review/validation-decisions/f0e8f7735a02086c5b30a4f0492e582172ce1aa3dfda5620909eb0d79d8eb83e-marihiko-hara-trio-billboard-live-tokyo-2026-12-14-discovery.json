@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/marihiko-hara-trio-billboard-live-tokyo-2026-12-14-discovery.json",
+    "sha256": "f0e8f7735a02086c5b30a4f0492e582172ce1aa3dfda5620909eb0d79d8eb83e",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"marihiko-hara-trio-billboard-live-tokyo-2026-12-14-discovery\",\n  \"notes\": \"Yamamoto-first discovery pass on 2026-08-24. No new unrecorded Tsuyoshi Yamamoto date was verified after checking current BODY&SOUL results, ALFIE-oriented search, Space M&A-oriented search, Yamamoto schedule queries, and credible Japanese jazz sources. Marihiko Hara Trio at Billboard Live Tokyo clears RADAR admission as A+: a distinctive contemporary Japanese chamber/electronic trio with an established Hara-Suhara-Tai collaboration and a current Tokyo date, but no scarcity evidence sufficient for S; the same trio is also listed for Billboard Live Osaka on December 22.\",\n  \"events\": [\n    {\n      \"id\": \"marihiko-hara-trio-billboard-live-tokyo-2026-12-14\",\n      \"artist\": \"Marihiko Hara Trio\",\n      \"subtitle\": \"Marihiko Hara x Anzu Suhara x Tomoki Tai\",\n      \"dates\": {\n        \"start\": \"2026-12-14\",\n        \"end\": null\n      },\n      \"showtimes\": [],\n      \"venue\": {\n        \"id\": \"billboard-live-tokyo\",\n        \"name\": \"Billboard Live Tokyo\",\n        \"city\": \"Tokyo\",\n        \"state\": \"Tokyo\",\n        \"country\": \"JP\"\n      },\n      \"geographic_domain\": \"tokyo_kanto\",\n      \"geography\": \"Greater Tokyo / Kanto\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Japanese chamber / electroacoustic trio\",\n      \"genres\": [\n        \"Contemporary classical\",\n        \"Ambient\",\n        \"Electronic\",\n        \"Chamber music\"\n      ],\n      \"musical_axes\": [\n        \"Japan/Tokyo\",\n        \"Instrumental identity\",\n        \"Cross-genre\"\n      ],\n      \"lineup\": [\n        \"Marihiko Hara\",\n        \"Anzu Suhara\",\n        \"Tomoki Tai\"\n      ],\n      \"factual_description\": \"Billboard Live Tokyo's December 2026 schedule lists Marihiko Hara Trio — Marihiko Hara x Anzu Suhara x Tomoki Tai — for Monday, December 14, 2026 and states that further details will be announced later. Hara's own official schedule independently lists a December 14 Marihiko Hara live performance at Billboard Tokyo and a December 22 Billboard Osaka date. Hara's official Kokuho credits document his composition, arrangement, piano and synthesizer work alongside Anzu Suhara as violin soloist and Tomoki Tai on viola da gamba, lute and cello; those credits establish the current Hara-Suhara-Tai creative connection but are not used to infer the exact instrumentation of the December 14 show before Billboard announces it.\",\n      \"links\": {\n        \"official_event\": null,\n        \"official_tickets\": null\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Marihiko Hara\",\n          \"title\": \"Kokuho Original Soundtrack\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/%E5%9B%BD%E5%AE%9D-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB-%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/1816838381\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"pending\",\n        \"missing\": [\n          \"links.official_event\",\n          \"links.official_tickets\"\n        ],\n        \"note\": \"Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred.\"\n      },\n      \"sources\": [\n        {\n          \"type\": \"official_venue_schedule\",\n          \"name\": \"Billboard Live Tokyo\",\n          \"url\": \"https://www.billboard-live.com/tokyo/schedules?month=2026-12-01\",\n          \"checked_on\": \"2026-08-24\",\n          \"note\": \"Official December schedule lists Marihiko Hara Trio — Marihiko Hara x Anzu Suhara x Tomoki Tai — on December 14, 2026 and states that details will be announced later.\"\n        },\n        {\n          \"type\": \"official_artist_schedule\",\n          \"name\": \"Marihiko Hara\",\n          \"url\": \"https://www.marihikohara.com/jp-news\",\n          \"checked_on\": \"2026-08-24\",\n          \"note\": \"Official artist schedule independently lists December 14, 2026 at Billboard Tokyo and December 22, 2026 at Billboard Osaka.\"\n        },\n        {\n          \"type\": \"official_artist_project\",\n          \"name\": \"Marihiko Hara — Kokuho\",\n          \"url\": \"https://www.marihikohara.com/en-kokuho\",\n          \"checked_on\": \"2026-08-24\",\n          \"note\": \"Official project credits document Hara on composition/arrangement/piano/synth, Anzu Suhara as violin soloist and Tomoki Tai on viola da gamba/lute and cello, establishing their current creative connection without asserting the exact December 14 instrumentation.\"\n        },\n        {\n          \"type\": \"streaming\",\n          \"name\": \"Apple Music\",\n          \"url\": \"https://music.apple.com/us/album/%E5%9B%BD%E5%AE%9D-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB-%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/1816838381\",\n          \"checked_on\": \"2026-08-24\",\n          \"note\": \"Exact Apple Music album page for Kokuho Original Soundtrack by Marihiko Hara.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-sources\",\n        \"note\": \"The date and three-person billing were verified independently from Billboard Live Tokyo and Marihiko Hara's official schedule. Hara's official Kokuho page is used only as background for the established collaboration and instrument identities, not to infer the yet-unannounced December 14 configuration. The repository was searched for Marihiko Hara and the stable event ID before publication and no existing event or batch was found. No showtimes, ticket URL, prices or unannounced instrumentation were invented.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"The reason to care is the trio language, not a scarcity gimmick. Hara's music lives in the space between piano, electronics, chamber texture and film-score silence; Suhara and Tai are already embedded in that current sound world rather than appearing as decorative strings. In a club-sized room, the interesting question is how that carefully layered language turns back into live three-way interaction, especially after the scale and visibility of Kokuho.\",\n          \"trip_verdict\": \"Actively make room for this if December in Tokyo overlaps with the trip. It is the kind of contemporary Japanese chamber/electronic date worth building an evening around, while the additional Osaka performance eight days later means there is no need to treat the Tokyo show as a singular alter-the-itinerary event.\",\n          \"listen_before\": \"Marihiko Hara — Kokuho Original Soundtrack\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"La razón para entrarle está en el lenguaje del trío, no en inventarle escasez. La música de Hara vive entre piano, electrónica, textura de cámara y ese uso del silencio que viene de su trabajo para cine; Suhara y Tai ya forman parte de ese mundo sonoro actual y no aparecen como cuerdas decorativas. En una sala de club, lo interesante será escuchar cómo ese lenguaje tan construido vuelve a convertirse en conversación de tres músicos, sobre todo después de la escala y visibilidad de Kokuho.\",\n          \"trip_verdict\": \"Sí le haría espacio activamente si diciembre en Tokio coincide con el viaje. Es una fecha japonesa contemporánea de cámara y electrónica alrededor de la cual vale construir la noche; la función adicional en Osaka ocho días después da suficiente flexibilidad para no tratar la de Tokio como un acontecimiento único que obligue a rehacer el itinerario.\",\n          \"listen_before\": \"Marihiko Hara — Kokuho Original Soundtrack\"\n        }\n      }\n    }\n  ]\n}",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14-discovery",
+      "notes": "Yamamoto-first discovery pass on 2026-08-24. No new unrecorded Tsuyoshi Yamamoto date was verified after checking current BODY&SOUL results, ALFIE-oriented search, Space M&A-oriented search, Yamamoto schedule queries, and credible Japanese jazz sources. Marihiko Hara Trio at Billboard Live Tokyo clears RADAR admission as A+: a distinctive contemporary Japanese chamber/electronic trio with an established Hara-Suhara-Tai collaboration and a current Tokyo date, but no scarcity evidence sufficient for S; the same trio is also listed for Billboard Live Osaka on December 22.",
+      "events": [
+        {
+          "id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14",
+          "artist": "Marihiko Hara Trio",
+          "subtitle": "Marihiko Hara x Anzu Suhara x Tomoki Tai",
+          "dates": {
+            "start": "2026-12-14",
+            "end": null
+          },
+          "showtimes": [],
+          "venue": {
+            "id": "billboard-live-tokyo",
+            "name": "Billboard Live Tokyo",
+            "city": "Tokyo",
+            "state": "Tokyo",
+            "country": "JP"
+          },
+          "geographic_domain": "tokyo_kanto",
+          "geography": "Greater Tokyo / Kanto",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Japanese chamber / electroacoustic trio",
+          "genres": [
+            "Contemporary classical",
+            "Ambient",
+            "Electronic",
+            "Chamber music"
+          ],
+          "musical_axes": [
+            "Japan/Tokyo",
+            "Instrumental identity",
+            "Cross-genre"
+          ],
+          "lineup": [
+            "Marihiko Hara",
+            "Anzu Suhara",
+            "Tomoki Tai"
+          ],
+          "factual_description": "Billboard Live Tokyo's December 2026 schedule lists Marihiko Hara Trio — Marihiko Hara x Anzu Suhara x Tomoki Tai — for Monday, December 14, 2026 and states that further details will be announced later. Hara's own official schedule independently lists a December 14 Marihiko Hara live performance at Billboard Tokyo and a December 22 Billboard Osaka date. Hara's official Kokuho credits document his composition, arrangement, piano and synthesizer work alongside Anzu Suhara as violin soloist and Tomoki Tai on viola da gamba, lute and cello; those credits establish the current Hara-Suhara-Tai creative connection but are not used to infer the exact instrumentation of the December 14 show before Billboard announces it.",
+          "links": {
+            "official_event": null,
+            "official_tickets": null
+          },
+          "recommended_listening": [
+            {
+              "artist": "Marihiko Hara",
+              "title": "Kokuho Original Soundtrack",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/%E5%9B%BD%E5%AE%9D-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB-%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/1816838381"
+            }
+          ],
+          "enrichment": {
+            "status": "pending",
+            "missing": [
+              "links.official_event",
+              "links.official_tickets"
+            ],
+            "note": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred."
+          },
+          "sources": [
+            {
+              "type": "official_venue_schedule",
+              "name": "Billboard Live Tokyo",
+              "url": "https://www.billboard-live.com/tokyo/schedules?month=2026-12-01",
+              "checked_on": "2026-08-24",
+              "note": "Official December schedule lists Marihiko Hara Trio — Marihiko Hara x Anzu Suhara x Tomoki Tai — on December 14, 2026 and states that details will be announced later."
+            },
+            {
+              "type": "official_artist_schedule",
+              "name": "Marihiko Hara",
+              "url": "https://www.marihikohara.com/jp-news",
+              "checked_on": "2026-08-24",
+              "note": "Official artist schedule independently lists December 14, 2026 at Billboard Tokyo and December 22, 2026 at Billboard Osaka."
+            },
+            {
+              "type": "official_artist_project",
+              "name": "Marihiko Hara — Kokuho",
+              "url": "https://www.marihikohara.com/en-kokuho",
+              "checked_on": "2026-08-24",
+              "note": "Official project credits document Hara on composition/arrangement/piano/synth, Anzu Suhara as violin soloist and Tomoki Tai on viola da gamba/lute and cello, establishing their current creative connection without asserting the exact December 14 instrumentation."
+            },
+            {
+              "type": "streaming",
+              "name": "Apple Music",
+              "url": "https://music.apple.com/us/album/%E5%9B%BD%E5%AE%9D-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB-%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/1816838381",
+              "checked_on": "2026-08-24",
+              "note": "Exact Apple Music album page for Kokuho Original Soundtrack by Marihiko Hara."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-sources",
+            "note": "The date and three-person billing were verified independently from Billboard Live Tokyo and Marihiko Hara's official schedule. Hara's official Kokuho page is used only as background for the established collaboration and instrument identities, not to infer the yet-unannounced December 14 configuration. The repository was searched for Marihiko Hara and the stable event ID before publication and no existing event or batch was found. No showtimes, ticket URL, prices or unannounced instrumentation were invented."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "The reason to care is the trio language, not a scarcity gimmick. Hara's music lives in the space between piano, electronics, chamber texture and film-score silence; Suhara and Tai are already embedded in that current sound world rather than appearing as decorative strings. In a club-sized room, the interesting question is how that carefully layered language turns back into live three-way interaction, especially after the scale and visibility of Kokuho.",
+              "trip_verdict": "Actively make room for this if December in Tokyo overlaps with the trip. It is the kind of contemporary Japanese chamber/electronic date worth building an evening around, while the additional Osaka performance eight days later means there is no need to treat the Tokyo show as a singular alter-the-itinerary event.",
+              "listen_before": "Marihiko Hara — Kokuho Original Soundtrack"
+            },
+            "es": {
+              "why_it_matters": "La razón para entrarle está en el lenguaje del trío, no en inventarle escasez. La música de Hara vive entre piano, electrónica, textura de cámara y ese uso del silencio que viene de su trabajo para cine; Suhara y Tai ya forman parte de ese mundo sonoro actual y no aparecen como cuerdas decorativas. En una sala de club, lo interesante será escuchar cómo ese lenguaje tan construido vuelve a convertirse en conversación de tres músicos, sobre todo después de la escala y visibilidad de Kokuho.",
+              "trip_verdict": "Sí le haría espacio activamente si diciembre en Tokio coincide con el viaje. Es una fecha japonesa contemporánea de cámara y electrónica alrededor de la cual vale construir la noche; la función adicional en Osaka ocho días después da suficiente flexibilidad para no tratar la de Tokio como un acontecimiento único que obligue a rehacer el itinerario.",
+              "listen_before": "Marihiko Hara — Kokuho Original Soundtrack"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/marihiko-hara-trio-billboard-live-tokyo-2026-12-14-discovery.json",
+      "batch_sha256": "f0e8f7735a02086c5b30a4f0492e582172ce1aa3dfda5620909eb0d79d8eb83e",
+      "batch_id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14-discovery",
+      "event_index": 0,
+      "candidate_event_id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14",
+      "candidate_sha256": "0698d5deb671c659c6b80b26884c02246239d4cb063321f13a09f739ae716f3c",
+      "errors": [
+        "marihiko-hara-trio-billboard-live-tokyo-2026-12-14.enrichment.missing must be a unique list of known enrichment fields"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.missing",
+          "before": [
+            "links.official_event",
+            "links.official_tickets"
+          ],
+          "after": [
+            "official_event",
+            "official_tickets"
+          ]
+        },
+        {
+          "field": "enrichment.note",
+          "before": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred.",
+          "after": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_event, links.official_tickets. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14.enrichment.missing must be a unique list of known enrichment fields"
+        },
+        {
+          "kind": "present_components",
+          "official_event": false,
+          "official_tickets": false,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "pending",
+          "missing": [
+            "links.official_event",
+            "links.official_tickets"
+          ],
+          "note": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "missing recalculated from the links and Apple Music URLs already present",
+        "non-standard missing labels preserved here: links.official_event, links.official_tickets"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "aa6a370a8398b502c62115b4eb2fe1591bc9cf31fd2a66d52c82a9535d90eb8f"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14",
+        "artist": "Marihiko Hara Trio",
+        "subtitle": "Marihiko Hara x Anzu Suhara x Tomoki Tai",
+        "dates": {
+          "start": "2026-12-14",
+          "end": null
+        },
+        "showtimes": [],
+        "venue": {
+          "id": "billboard-live-tokyo",
+          "name": "Billboard Live Tokyo",
+          "city": "Tokyo",
+          "state": "Tokyo",
+          "country": "JP"
+        },
+        "geographic_domain": "tokyo_kanto",
+        "geography": "Greater Tokyo / Kanto",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Japanese chamber / electroacoustic trio",
+        "genres": [
+          "Contemporary classical",
+          "Ambient",
+          "Electronic",
+          "Chamber music"
+        ],
+        "musical_axes": [
+          "Japan/Tokyo",
+          "Instrumental identity",
+          "Cross-genre"
+        ],
+        "lineup": [
+          "Marihiko Hara",
+          "Anzu Suhara",
+          "Tomoki Tai"
+        ],
+        "factual_description": "Billboard Live Tokyo's December 2026 schedule lists Marihiko Hara Trio — Marihiko Hara x Anzu Suhara x Tomoki Tai — for Monday, December 14, 2026 and states that further details will be announced later. Hara's own official schedule independently lists a December 14 Marihiko Hara live performance at Billboard Tokyo and a December 22 Billboard Osaka date. Hara's official Kokuho credits document his composition, arrangement, piano and synthesizer work alongside Anzu Suhara as violin soloist and Tomoki Tai on viola da gamba, lute and cello; those credits establish the current Hara-Suhara-Tai creative connection but are not used to infer the exact instrumentation of the December 14 show before Billboard announces it.",
+        "links": {
+          "official_event": null,
+          "official_tickets": null
+        },
+        "recommended_listening": [
+          {
+            "artist": "Marihiko Hara",
+            "title": "Kokuho Original Soundtrack",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/%E5%9B%BD%E5%AE%9D-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB-%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/1816838381"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "links.official_event",
+            "links.official_tickets"
+          ],
+          "note": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred."
+        },
+        "sources": [
+          {
+            "type": "official_venue_schedule",
+            "name": "Billboard Live Tokyo",
+            "url": "https://www.billboard-live.com/tokyo/schedules?month=2026-12-01",
+            "checked_on": "2026-08-24",
+            "note": "Official December schedule lists Marihiko Hara Trio — Marihiko Hara x Anzu Suhara x Tomoki Tai — on December 14, 2026 and states that details will be announced later."
+          },
+          {
+            "type": "official_artist_schedule",
+            "name": "Marihiko Hara",
+            "url": "https://www.marihikohara.com/jp-news",
+            "checked_on": "2026-08-24",
+            "note": "Official artist schedule independently lists December 14, 2026 at Billboard Tokyo and December 22, 2026 at Billboard Osaka."
+          },
+          {
+            "type": "official_artist_project",
+            "name": "Marihiko Hara — Kokuho",
+            "url": "https://www.marihikohara.com/en-kokuho",
+            "checked_on": "2026-08-24",
+            "note": "Official project credits document Hara on composition/arrangement/piano/synth, Anzu Suhara as violin soloist and Tomoki Tai on viola da gamba/lute and cello, establishing their current creative connection without asserting the exact December 14 instrumentation."
+          },
+          {
+            "type": "streaming",
+            "name": "Apple Music",
+            "url": "https://music.apple.com/us/album/%E5%9B%BD%E5%AE%9D-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB-%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/1816838381",
+            "checked_on": "2026-08-24",
+            "note": "Exact Apple Music album page for Kokuho Original Soundtrack by Marihiko Hara."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "The date and three-person billing were verified independently from Billboard Live Tokyo and Marihiko Hara's official schedule. Hara's official Kokuho page is used only as background for the established collaboration and instrument identities, not to infer the yet-unannounced December 14 configuration. The repository was searched for Marihiko Hara and the stable event ID before publication and no existing event or batch was found. No showtimes, ticket URL, prices or unannounced instrumentation were invented."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The reason to care is the trio language, not a scarcity gimmick. Hara's music lives in the space between piano, electronics, chamber texture and film-score silence; Suhara and Tai are already embedded in that current sound world rather than appearing as decorative strings. In a club-sized room, the interesting question is how that carefully layered language turns back into live three-way interaction, especially after the scale and visibility of Kokuho.",
+            "trip_verdict": "Actively make room for this if December in Tokyo overlaps with the trip. It is the kind of contemporary Japanese chamber/electronic date worth building an evening around, while the additional Osaka performance eight days later means there is no need to treat the Tokyo show as a singular alter-the-itinerary event.",
+            "listen_before": "Marihiko Hara — Kokuho Original Soundtrack"
+          },
+          "es": {
+            "why_it_matters": "La razón para entrarle está en el lenguaje del trío, no en inventarle escasez. La música de Hara vive entre piano, electrónica, textura de cámara y ese uso del silencio que viene de su trabajo para cine; Suhara y Tai ya forman parte de ese mundo sonoro actual y no aparecen como cuerdas decorativas. En una sala de club, lo interesante será escuchar cómo ese lenguaje tan construido vuelve a convertirse en conversación de tres músicos, sobre todo después de la escala y visibilidad de Kokuho.",
+            "trip_verdict": "Sí le haría espacio activamente si diciembre en Tokio coincide con el viaje. Es una fecha japonesa contemporánea de cámara y electrónica alrededor de la cual vale construir la noche; la función adicional en Osaka ocho días después da suficiente flexibilidad para no tratar la de Tokio como un acontecimiento único que obligue a rehacer el itinerario.",
+            "listen_before": "Marihiko Hara — Kokuho Original Soundtrack"
+          }
+        }
+      },
+      "after": {
+        "id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14",
+        "artist": "Marihiko Hara Trio",
+        "subtitle": "Marihiko Hara x Anzu Suhara x Tomoki Tai",
+        "dates": {
+          "start": "2026-12-14",
+          "end": null
+        },
+        "showtimes": [],
+        "venue": {
+          "id": "billboard-live-tokyo",
+          "name": "Billboard Live Tokyo",
+          "city": "Tokyo",
+          "state": "Tokyo",
+          "country": "JP"
+        },
+        "geographic_domain": "tokyo_kanto",
+        "geography": "Greater Tokyo / Kanto",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Japanese chamber / electroacoustic trio",
+        "genres": [
+          "Contemporary classical",
+          "Ambient",
+          "Electronic",
+          "Chamber music"
+        ],
+        "musical_axes": [
+          "Japan/Tokyo",
+          "Instrumental identity",
+          "Cross-genre"
+        ],
+        "lineup": [
+          "Marihiko Hara",
+          "Anzu Suhara",
+          "Tomoki Tai"
+        ],
+        "factual_description": "Billboard Live Tokyo's December 2026 schedule lists Marihiko Hara Trio — Marihiko Hara x Anzu Suhara x Tomoki Tai — for Monday, December 14, 2026 and states that further details will be announced later. Hara's own official schedule independently lists a December 14 Marihiko Hara live performance at Billboard Tokyo and a December 22 Billboard Osaka date. Hara's official Kokuho credits document his composition, arrangement, piano and synthesizer work alongside Anzu Suhara as violin soloist and Tomoki Tai on viola da gamba, lute and cello; those credits establish the current Hara-Suhara-Tai creative connection but are not used to infer the exact instrumentation of the December 14 show before Billboard announces it.",
+        "links": {
+          "official_event": null,
+          "official_tickets": null
+        },
+        "recommended_listening": [
+          {
+            "artist": "Marihiko Hara",
+            "title": "Kokuho Original Soundtrack",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/%E5%9B%BD%E5%AE%9D-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB-%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/1816838381"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "official_event",
+            "official_tickets"
+          ],
+          "note": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_event, links.official_tickets. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "type": "official_venue_schedule",
+            "name": "Billboard Live Tokyo",
+            "url": "https://www.billboard-live.com/tokyo/schedules?month=2026-12-01",
+            "checked_on": "2026-08-24",
+            "note": "Official December schedule lists Marihiko Hara Trio — Marihiko Hara x Anzu Suhara x Tomoki Tai — on December 14, 2026 and states that details will be announced later."
+          },
+          {
+            "type": "official_artist_schedule",
+            "name": "Marihiko Hara",
+            "url": "https://www.marihikohara.com/jp-news",
+            "checked_on": "2026-08-24",
+            "note": "Official artist schedule independently lists December 14, 2026 at Billboard Tokyo and December 22, 2026 at Billboard Osaka."
+          },
+          {
+            "type": "official_artist_project",
+            "name": "Marihiko Hara — Kokuho",
+            "url": "https://www.marihikohara.com/en-kokuho",
+            "checked_on": "2026-08-24",
+            "note": "Official project credits document Hara on composition/arrangement/piano/synth, Anzu Suhara as violin soloist and Tomoki Tai on viola da gamba/lute and cello, establishing their current creative connection without asserting the exact December 14 instrumentation."
+          },
+          {
+            "type": "streaming",
+            "name": "Apple Music",
+            "url": "https://music.apple.com/us/album/%E5%9B%BD%E5%AE%9D-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB-%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/1816838381",
+            "checked_on": "2026-08-24",
+            "note": "Exact Apple Music album page for Kokuho Original Soundtrack by Marihiko Hara."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "The date and three-person billing were verified independently from Billboard Live Tokyo and Marihiko Hara's official schedule. Hara's official Kokuho page is used only as background for the established collaboration and instrument identities, not to infer the yet-unannounced December 14 configuration. The repository was searched for Marihiko Hara and the stable event ID before publication and no existing event or batch was found. No showtimes, ticket URL, prices or unannounced instrumentation were invented."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The reason to care is the trio language, not a scarcity gimmick. Hara's music lives in the space between piano, electronics, chamber texture and film-score silence; Suhara and Tai are already embedded in that current sound world rather than appearing as decorative strings. In a club-sized room, the interesting question is how that carefully layered language turns back into live three-way interaction, especially after the scale and visibility of Kokuho.",
+            "trip_verdict": "Actively make room for this if December in Tokyo overlaps with the trip. It is the kind of contemporary Japanese chamber/electronic date worth building an evening around, while the additional Osaka performance eight days later means there is no need to treat the Tokyo show as a singular alter-the-itinerary event.",
+            "listen_before": "Marihiko Hara — Kokuho Original Soundtrack"
+          },
+          "es": {
+            "why_it_matters": "La razón para entrarle está en el lenguaje del trío, no en inventarle escasez. La música de Hara vive entre piano, electrónica, textura de cámara y ese uso del silencio que viene de su trabajo para cine; Suhara y Tai ya forman parte de ese mundo sonoro actual y no aparecen como cuerdas decorativas. En una sala de club, lo interesante será escuchar cómo ese lenguaje tan construido vuelve a convertirse en conversación de tres músicos, sobre todo después de la escala y visibilidad de Kokuho.",
+            "trip_verdict": "Sí le haría espacio activamente si diciembre en Tokio coincide con el viaje. Es una fecha japonesa contemporánea de cámara y electrónica alrededor de la cual vale construir la noche; la función adicional en Osaka ocho días después da suficiente flexibilidad para no tratar la de Tokio como un acontecimiento único que obligue a rehacer el itinerario.",
+            "listen_before": "Marihiko Hara — Kokuho Original Soundtrack"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/marihiko-hara-trio-billboard-live-tokyo-2026-12-14-discovery.json",
+        "batch_sha256": "f0e8f7735a02086c5b30a4f0492e582172ce1aa3dfda5620909eb0d79d8eb83e",
+        "batch_id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14-discovery",
+        "event_index": 0,
+        "candidate_event_id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14",
+        "candidate_sha256": "0698d5deb671c659c6b80b26884c02246239d4cb063321f13a09f739ae716f3c",
+        "errors": [
+          "marihiko-hara-trio-billboard-live-tokyo-2026-12-14.enrichment.missing must be a unique list of known enrichment fields"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.missing",
+            "before": [
+              "links.official_event",
+              "links.official_tickets"
+            ],
+            "after": [
+              "official_event",
+              "official_tickets"
+            ]
+          },
+          {
+            "field": "enrichment.note",
+            "before": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred.",
+            "after": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_event, links.official_tickets. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14.enrichment.missing must be a unique list of known enrichment fields"
+          },
+          {
+            "kind": "present_components",
+            "official_event": false,
+            "official_tickets": false,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "pending",
+            "missing": [
+              "links.official_event",
+              "links.official_tickets"
+            ],
+            "note": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "missing recalculated from the links and Apple Music URLs already present",
+          "non-standard missing labels preserved here: links.official_event, links.official_tickets"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "aa6a370a8398b502c62115b4eb2fe1591bc9cf31fd2a66d52c82a9535d90eb8f"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/marihiko-hara-trio-billboard-live-tokyo-2026-12-14-discovery.json",
+    "active_events": [
+      {
+        "id": "marihiko-hara-trio-billboard-live-tokyo-2026-12-14",
+        "sha256": "aa6a370a8398b502c62115b4eb2fe1591bc9cf31fd2a66d52c82a9535d90eb8f"
+      }
+    ]
+  }
+}

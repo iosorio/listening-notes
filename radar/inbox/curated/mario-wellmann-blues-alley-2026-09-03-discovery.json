@@ -68,10 +68,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "trio_personnel",
           "apple_music"
         ],
-        "note": "Blues Alley's authorized pages verify both set times, face-value price, venue, Chilean Jazz Week / Embassy of Chile framing and Ecos del Sur context. Mario Wellmann's official biography independently verifies the 2026 Fondo de la Música award and debut-album project. The current Blues Alley page does not name the two additional trio members, and Ecos del Sur is scheduled for release later in 2026, so no personnel names or Apple Music destination are inferred."
+        "note": "Blues Alley's authorized pages verify both set times, face-value price, venue, Chilean Jazz Week / Embassy of Chile framing and Ecos del Sur context. Mario Wellmann's official biography independently verifies the 2026 Fondo de la Música award and debut-album project. The current Blues Alley page does not name the two additional trio members, and Ecos del Sur is scheduled for release later in 2026, so no personnel names or Apple Music destination are inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: trio_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

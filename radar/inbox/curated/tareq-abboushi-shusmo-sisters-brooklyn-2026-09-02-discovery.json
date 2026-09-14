@@ -78,9 +78,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_ticket_url"
+          "official_tickets"
         ],
-        "note": "Brooklyn Maqam verifies the exact event, date, time, venue address, full announced quintet, rare-return context and $20 at-door admission. The organizer does not publish a separate advance ticket destination for this event, so no purchase URL is invented. Apple Music verifies the exact Mumtastic album."
+        "note": "Brooklyn Maqam verifies the exact event, date, time, venue address, full announced quintet, rare-return context and $20 at-door admission. The organizer does not publish a separate advance ticket destination for this event, so no purchase URL is invented. Apple Music verifies the exact Mumtastic album. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: official_ticket_url. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

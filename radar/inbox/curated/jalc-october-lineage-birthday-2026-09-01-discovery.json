@@ -278,10 +278,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_price",
           "apple_music"
         ],
-        "note": "The exact JALC ticket page verifies the date, two-set structure, birthday context and complete announced big-band lineup. This pass does not carry a verified face-value amount or exact Apple Music recommendation, so neither is inferred."
+        "note": "The exact JALC ticket page verifies the date, two-set structure, birthday context and complete announced big-band lineup. This pass does not carry a verified face-value amount or exact Apple Music recommendation, so neither is inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: official_price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

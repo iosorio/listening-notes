@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/john-beasley-unlimited-miles-library-of-congress-2026-09-07-discovery.json",
+    "sha256": "d1ec1949a3d2ec400fa98eb5f024a56630c313dc5b2970bb3c4b60324a75e9f7",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"john-beasley-unlimited-miles-library-of-congress-2026-09-07-discovery\",\n  \"checked_on\": \"2026-09-07\",\n  \"reviewed_by\": \"RADAR automation editorial review\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A references, and credible Japanese-jazz sources; future Yamamoto dates that resurfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader DMV pass found Unlimited Miles: John Beasley's Miles Davis at 100 at the Library of Congress on November 6. Stage 1 admits this specific performance because the centenary program is led by Davis's onetime collaborator John Beasley, surveys each decade of Davis's career, and gives the Washington date a distinct archival frame by highlighting the Davis-Gil Evans collaboration in dialogue with the Library's recently acquired Gil Evans Collection. The event is not admitted merely because Miles Davis is famous or because the Library is prestigious. Stage 2 assigns A+. This is a locally important centenary-and-archive proposition worth actively making room for. The recent/current priority shape was sanity-checked before finalizing; A+ still best captures the recommendation. The scarcity challenge does not support S: Unlimited Miles is a touring centenary project with multiple 2026 performances, and the Library has not announced this Washington date as a farewell, final appearance, unique lineup, or otherwise nonrecurring performance. A+ fully captures the recommendation. The Library verifies a free but ticket-required concert and a 6:30 p.m. preconcert lecture by Guthrie P. Ramsey Jr.; the exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null. No additional Washington personnel are inferred from other Unlimited Miles dates, whose lineups can vary.\",\n  \"events\": [\n    {\n      \"id\": \"john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06\",\n      \"artist\": \"John Beasley's Unlimited Miles\",\n      \"subtitle\": \"Miles Davis at 100\",\n      \"dates\": {\n        \"start\": \"2026-11-06\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"20:00\"\n      ],\n      \"venue\": {\n        \"id\": \"library-of-congress-coolidge-auditorium-washington-dc\",\n        \"name\": \"Library of Congress — Coolidge Auditorium\",\n        \"city\": \"Washington, DC\",\n        \"state\": \"DC\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Local\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Miles Davis centenary / historical jazz / archival context\",\n      \"genres\": [\n        \"Jazz\",\n        \"Fusion\"\n      ],\n      \"musical_axes\": [\n        \"Masters\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"John Beasley (musical direction)\"\n      ],\n      \"factual_description\": \"The Library of Congress presents Unlimited Miles: John Beasley's Miles Davis at 100 on Friday, November 6, 2026 from 20:00 to 22:00 in the Thomas Jefferson Building's Coolidge Auditorium in Washington, DC. The concert is free but ticketed. A preconcert lecture, Miles Davis at 100 with Guthrie P. Ramsey Jr., PhD, is scheduled for 18:30 in the Whittall Pavilion. Under John Beasley's direction, the centennial program covers each decade of Davis's career and highlights Davis's collaborations with arranger Gil Evans, drawing inspiration from the Library's recently acquired Gil Evans Collection. The Library identifies Beasley as Davis's onetime collaborator. No additional Washington personnel are published in the primary event sources checked for this batch, so personnel from other Unlimited Miles dates are not inferred.\",\n      \"links\": {\n        \"official_event\": \"https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/\",\n        \"official_tickets\": null\n      },\n      \"tickets\": {\n        \"currency\": \"USD\",\n        \"official\": {\n          \"minimum\": 0,\n          \"maximum\": 0,\n          \"source_url\": \"https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/\",\n          \"checked_on\": \"2026-09-07\"\n        },\n        \"resale\": {\n          \"minimum\": null,\n          \"maximum\": null,\n          \"url\": null,\n          \"checked_on\": null\n        }\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Miles Davis\",\n          \"title\": \"Sketches of Spain\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/sketches-of-spain/832060615\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"pending\",\n        \"missing\": [\n          \"exact_official_ticket_destination\",\n          \"published_washington_lineup_beyond_john_beasley\"\n        ],\n        \"note\": \"The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/\",\n          \"publisher\": \"Library of Congress\",\n          \"checked_on\": \"2026-09-07\",\n          \"note\": \"Primary current event page verifies Friday, November 6, 2026, 20:00-22:00, Coolidge Auditorium, free but ticket-required status, John Beasley's direction, the Miles Davis centenary program, coverage of each decade of Davis's career and the Gil Evans Collection connection.\"\n        },\n        {\n          \"url\": \"https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2\",\n          \"publisher\": \"Library of Congress Newsroom\",\n          \"checked_on\": \"2026-09-07\",\n          \"note\": \"Primary 2026-27 season announcement independently confirms Unlimited Miles: John Beasley's Miles Davis at 100 on Friday, November 6 at 20:00 and identifies Beasley as a Davis collaborator.\"\n        },\n        {\n          \"url\": \"https://www.johnbeasleymusic.com/shows\",\n          \"publisher\": \"John Beasley\",\n          \"checked_on\": \"2026-09-07\",\n          \"note\": \"Artist-controlled schedule documents Unlimited Miles: Miles Davis at 100 as a recurring 2026 touring project across multiple cities, supporting the scarcity challenge without importing personnel from those dates into the Washington record.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/sketches-of-spain/832060615\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-09-07\",\n          \"note\": \"Exact Apple Music page verifies Miles Davis's Sketches of Spain as the recommended listening album, directly relevant to the event's stated focus on Davis's collaborations with Gil Evans.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-library-artist-and-apple-music-sources\",\n        \"note\": \"Core event facts are grounded in the current Library of Congress event page and season announcement; John Beasley's artist-controlled schedule verifies that Unlimited Miles is a recurring 2026 touring project, and Apple Music verifies the recommended listening destination. Repository searches for the exact Unlimited Miles billing and event ID returned no existing RADAR record before publication. Priority A+ was assigned only after Stage 1 admission because the Miles centenary, Beasley's direct Davis connection and the Library's newly acquired Gil Evans archival context give this Washington performance a specific reason to matter. An explicit scarcity challenge found that the project recurs across 2026 and that the Library does not announce a farewell, final appearance, unique lineup or other fact making A+ insufficient; S was therefore rejected.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"The centenary is only the frame. The real reason this Washington date matters is that John Beasley, who actually worked with Miles Davis, is using the whole arc of Davis's career to reopen the music while the Library puts the Davis-Gil Evans partnership in conversation with its newly acquired Gil Evans Collection. That makes the evening part performance, part living archive: a chance to hear the music interpreted by someone connected to Davis while the institution holding Evans's papers supplies the historical lens.\",\n          \"trip_verdict\": \"Actively make room for this if November 6 is open in the DMV, especially with the 6:30 lecture feeding directly into the concert. The Library makes it an easy DC night rather than a regional trip, and the touring nature of Unlimited Miles means there is no need to chase this project to another city.\",\n          \"listen_before\": \"Miles Davis — Sketches of Spain\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"El centenario es apenas el marco. Lo que vuelve especial esta fecha en Washington es que John Beasley, que sí trabajó con Miles Davis, recorre todo el arco de su música mientras la Library pone la relación Davis-Gil Evans en diálogo con la colección de Gil Evans que acaba de adquirir. La noche queda a medio camino entre concierto y archivo vivo: escuchar la música reinterpretada por alguien conectado directamente con Miles, con los papeles de Evans aportando el contexto histórico.\",\n          \"trip_verdict\": \"Si el 6 de noviembre está libre en el DMV, sí haría espacio para esta noche, sobre todo porque la charla de las 6:30 desemboca directamente en el concierto. Es una salida local muy fácil en DC, no una razón para perseguir el proyecto a otra ciudad; Unlimited Miles ya está circulando como programa de centenario.\",\n          \"listen_before\": \"Miles Davis — Sketches of Spain\"\n        }\n      }\n    }\n  ]\n}\n",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "john-beasley-unlimited-miles-library-of-congress-2026-09-07-discovery",
+      "checked_on": "2026-09-07",
+      "reviewed_by": "RADAR automation editorial review",
+      "notes": "Yamamoto-first discovery pass under the current durable repository authority. The current versions of docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current Tsuyoshi Yamamoto schedule traces, Space M&A references, and credible Japanese-jazz sources; future Yamamoto dates that resurfaced were already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader DMV pass found Unlimited Miles: John Beasley's Miles Davis at 100 at the Library of Congress on November 6. Stage 1 admits this specific performance because the centenary program is led by Davis's onetime collaborator John Beasley, surveys each decade of Davis's career, and gives the Washington date a distinct archival frame by highlighting the Davis-Gil Evans collaboration in dialogue with the Library's recently acquired Gil Evans Collection. The event is not admitted merely because Miles Davis is famous or because the Library is prestigious. Stage 2 assigns A+. This is a locally important centenary-and-archive proposition worth actively making room for. The recent/current priority shape was sanity-checked before finalizing; A+ still best captures the recommendation. The scarcity challenge does not support S: Unlimited Miles is a touring centenary project with multiple 2026 performances, and the Library has not announced this Washington date as a farewell, final appearance, unique lineup, or otherwise nonrecurring performance. A+ fully captures the recommendation. The Library verifies a free but ticket-required concert and a 6:30 p.m. preconcert lecture by Guthrie P. Ramsey Jr.; the exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null. No additional Washington personnel are inferred from other Unlimited Miles dates, whose lineups can vary.",
+      "events": [
+        {
+          "id": "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06",
+          "artist": "John Beasley's Unlimited Miles",
+          "subtitle": "Miles Davis at 100",
+          "dates": {
+            "start": "2026-11-06",
+            "end": null
+          },
+          "showtimes": [
+            "20:00"
+          ],
+          "venue": {
+            "id": "library-of-congress-coolidge-auditorium-washington-dc",
+            "name": "Library of Congress — Coolidge Auditorium",
+            "city": "Washington, DC",
+            "state": "DC",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Local",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Miles Davis centenary / historical jazz / archival context",
+          "genres": [
+            "Jazz",
+            "Fusion"
+          ],
+          "musical_axes": [
+            "Masters",
+            "Cultural context"
+          ],
+          "lineup": [
+            "John Beasley (musical direction)"
+          ],
+          "factual_description": "The Library of Congress presents Unlimited Miles: John Beasley's Miles Davis at 100 on Friday, November 6, 2026 from 20:00 to 22:00 in the Thomas Jefferson Building's Coolidge Auditorium in Washington, DC. The concert is free but ticketed. A preconcert lecture, Miles Davis at 100 with Guthrie P. Ramsey Jr., PhD, is scheduled for 18:30 in the Whittall Pavilion. Under John Beasley's direction, the centennial program covers each decade of Davis's career and highlights Davis's collaborations with arranger Gil Evans, drawing inspiration from the Library's recently acquired Gil Evans Collection. The Library identifies Beasley as Davis's onetime collaborator. No additional Washington personnel are published in the primary event sources checked for this batch, so personnel from other Unlimited Miles dates are not inferred.",
+          "links": {
+            "official_event": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+            "official_tickets": null
+          },
+          "tickets": {
+            "currency": "USD",
+            "official": {
+              "minimum": 0,
+              "maximum": 0,
+              "source_url": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+              "checked_on": "2026-09-07"
+            },
+            "resale": {
+              "minimum": null,
+              "maximum": null,
+              "url": null,
+              "checked_on": null
+            }
+          },
+          "recommended_listening": [
+            {
+              "artist": "Miles Davis",
+              "title": "Sketches of Spain",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/sketches-of-spain/832060615"
+            }
+          ],
+          "enrichment": {
+            "status": "pending",
+            "missing": [
+              "exact_official_ticket_destination",
+              "published_washington_lineup_beyond_john_beasley"
+            ],
+            "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination."
+          },
+          "sources": [
+            {
+              "url": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+              "publisher": "Library of Congress",
+              "checked_on": "2026-09-07",
+              "note": "Primary current event page verifies Friday, November 6, 2026, 20:00-22:00, Coolidge Auditorium, free but ticket-required status, John Beasley's direction, the Miles Davis centenary program, coverage of each decade of Davis's career and the Gil Evans Collection connection."
+            },
+            {
+              "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+              "publisher": "Library of Congress Newsroom",
+              "checked_on": "2026-09-07",
+              "note": "Primary 2026-27 season announcement independently confirms Unlimited Miles: John Beasley's Miles Davis at 100 on Friday, November 6 at 20:00 and identifies Beasley as a Davis collaborator."
+            },
+            {
+              "url": "https://www.johnbeasleymusic.com/shows",
+              "publisher": "John Beasley",
+              "checked_on": "2026-09-07",
+              "note": "Artist-controlled schedule documents Unlimited Miles: Miles Davis at 100 as a recurring 2026 touring project across multiple cities, supporting the scarcity challenge without importing personnel from those dates into the Washington record."
+            },
+            {
+              "url": "https://music.apple.com/us/album/sketches-of-spain/832060615",
+              "publisher": "Apple Music",
+              "checked_on": "2026-09-07",
+              "note": "Exact Apple Music page verifies Miles Davis's Sketches of Spain as the recommended listening album, directly relevant to the event's stated focus on Davis's collaborations with Gil Evans."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-library-artist-and-apple-music-sources",
+            "note": "Core event facts are grounded in the current Library of Congress event page and season announcement; John Beasley's artist-controlled schedule verifies that Unlimited Miles is a recurring 2026 touring project, and Apple Music verifies the recommended listening destination. Repository searches for the exact Unlimited Miles billing and event ID returned no existing RADAR record before publication. Priority A+ was assigned only after Stage 1 admission because the Miles centenary, Beasley's direct Davis connection and the Library's newly acquired Gil Evans archival context give this Washington performance a specific reason to matter. An explicit scarcity challenge found that the project recurs across 2026 and that the Library does not announce a farewell, final appearance, unique lineup or other fact making A+ insufficient; S was therefore rejected."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "The centenary is only the frame. The real reason this Washington date matters is that John Beasley, who actually worked with Miles Davis, is using the whole arc of Davis's career to reopen the music while the Library puts the Davis-Gil Evans partnership in conversation with its newly acquired Gil Evans Collection. That makes the evening part performance, part living archive: a chance to hear the music interpreted by someone connected to Davis while the institution holding Evans's papers supplies the historical lens.",
+              "trip_verdict": "Actively make room for this if November 6 is open in the DMV, especially with the 6:30 lecture feeding directly into the concert. The Library makes it an easy DC night rather than a regional trip, and the touring nature of Unlimited Miles means there is no need to chase this project to another city.",
+              "listen_before": "Miles Davis — Sketches of Spain"
+            },
+            "es": {
+              "why_it_matters": "El centenario es apenas el marco. Lo que vuelve especial esta fecha en Washington es que John Beasley, que sí trabajó con Miles Davis, recorre todo el arco de su música mientras la Library pone la relación Davis-Gil Evans en diálogo con la colección de Gil Evans que acaba de adquirir. La noche queda a medio camino entre concierto y archivo vivo: escuchar la música reinterpretada por alguien conectado directamente con Miles, con los papeles de Evans aportando el contexto histórico.",
+              "trip_verdict": "Si el 6 de noviembre está libre en el DMV, sí haría espacio para esta noche, sobre todo porque la charla de las 6:30 desemboca directamente en el concierto. Es una salida local muy fácil en DC, no una razón para perseguir el proyecto a otra ciudad; Unlimited Miles ya está circulando como programa de centenario.",
+              "listen_before": "Miles Davis — Sketches of Spain"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/john-beasley-unlimited-miles-library-of-congress-2026-09-07-discovery.json",
+      "batch_sha256": "d1ec1949a3d2ec400fa98eb5f024a56630c313dc5b2970bb3c4b60324a75e9f7",
+      "batch_id": "john-beasley-unlimited-miles-library-of-congress-2026-09-07-discovery",
+      "event_index": 0,
+      "candidate_event_id": "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06",
+      "candidate_sha256": "d5e6faa55b6446ee2a12a1830d6fd0371a655745a9013614661cfee872422d4b",
+      "errors": [
+        "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06.enrichment.missing must be a unique list of known enrichment fields"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.missing",
+          "before": [
+            "exact_official_ticket_destination",
+            "published_washington_lineup_beyond_john_beasley"
+          ],
+          "after": [
+            "official_tickets"
+          ]
+        },
+        {
+          "field": "enrichment.note",
+          "before": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination.",
+          "after": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, published_washington_lineup_beyond_john_beasley. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06.enrichment.missing must be a unique list of known enrichment fields"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": false,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "pending",
+          "missing": [
+            "exact_official_ticket_destination",
+            "published_washington_lineup_beyond_john_beasley"
+          ],
+          "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "missing recalculated from the links and Apple Music URLs already present",
+        "non-standard missing labels preserved here: exact_official_ticket_destination, published_washington_lineup_beyond_john_beasley"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "a3a646b3572ea6fb1b66c52e57d326c27be2222644c0b27a72b4010018aec1d6"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06",
+        "artist": "John Beasley's Unlimited Miles",
+        "subtitle": "Miles Davis at 100",
+        "dates": {
+          "start": "2026-11-06",
+          "end": null
+        },
+        "showtimes": [
+          "20:00"
+        ],
+        "venue": {
+          "id": "library-of-congress-coolidge-auditorium-washington-dc",
+          "name": "Library of Congress — Coolidge Auditorium",
+          "city": "Washington, DC",
+          "state": "DC",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Local",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Miles Davis centenary / historical jazz / archival context",
+        "genres": [
+          "Jazz",
+          "Fusion"
+        ],
+        "musical_axes": [
+          "Masters",
+          "Cultural context"
+        ],
+        "lineup": [
+          "John Beasley (musical direction)"
+        ],
+        "factual_description": "The Library of Congress presents Unlimited Miles: John Beasley's Miles Davis at 100 on Friday, November 6, 2026 from 20:00 to 22:00 in the Thomas Jefferson Building's Coolidge Auditorium in Washington, DC. The concert is free but ticketed. A preconcert lecture, Miles Davis at 100 with Guthrie P. Ramsey Jr., PhD, is scheduled for 18:30 in the Whittall Pavilion. Under John Beasley's direction, the centennial program covers each decade of Davis's career and highlights Davis's collaborations with arranger Gil Evans, drawing inspiration from the Library's recently acquired Gil Evans Collection. The Library identifies Beasley as Davis's onetime collaborator. No additional Washington personnel are published in the primary event sources checked for this batch, so personnel from other Unlimited Miles dates are not inferred.",
+        "links": {
+          "official_event": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+          "official_tickets": null
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": 0,
+            "maximum": 0,
+            "source_url": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+            "checked_on": "2026-09-07"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [
+          {
+            "artist": "Miles Davis",
+            "title": "Sketches of Spain",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/sketches-of-spain/832060615"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "exact_official_ticket_destination",
+            "published_washington_lineup_beyond_john_beasley"
+          ],
+          "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination."
+        },
+        "sources": [
+          {
+            "url": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+            "publisher": "Library of Congress",
+            "checked_on": "2026-09-07",
+            "note": "Primary current event page verifies Friday, November 6, 2026, 20:00-22:00, Coolidge Auditorium, free but ticket-required status, John Beasley's direction, the Miles Davis centenary program, coverage of each decade of Davis's career and the Gil Evans Collection connection."
+          },
+          {
+            "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+            "publisher": "Library of Congress Newsroom",
+            "checked_on": "2026-09-07",
+            "note": "Primary 2026-27 season announcement independently confirms Unlimited Miles: John Beasley's Miles Davis at 100 on Friday, November 6 at 20:00 and identifies Beasley as a Davis collaborator."
+          },
+          {
+            "url": "https://www.johnbeasleymusic.com/shows",
+            "publisher": "John Beasley",
+            "checked_on": "2026-09-07",
+            "note": "Artist-controlled schedule documents Unlimited Miles: Miles Davis at 100 as a recurring 2026 touring project across multiple cities, supporting the scarcity challenge without importing personnel from those dates into the Washington record."
+          },
+          {
+            "url": "https://music.apple.com/us/album/sketches-of-spain/832060615",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-07",
+            "note": "Exact Apple Music page verifies Miles Davis's Sketches of Spain as the recommended listening album, directly relevant to the event's stated focus on Davis's collaborations with Gil Evans."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-library-artist-and-apple-music-sources",
+          "note": "Core event facts are grounded in the current Library of Congress event page and season announcement; John Beasley's artist-controlled schedule verifies that Unlimited Miles is a recurring 2026 touring project, and Apple Music verifies the recommended listening destination. Repository searches for the exact Unlimited Miles billing and event ID returned no existing RADAR record before publication. Priority A+ was assigned only after Stage 1 admission because the Miles centenary, Beasley's direct Davis connection and the Library's newly acquired Gil Evans archival context give this Washington performance a specific reason to matter. An explicit scarcity challenge found that the project recurs across 2026 and that the Library does not announce a farewell, final appearance, unique lineup or other fact making A+ insufficient; S was therefore rejected."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The centenary is only the frame. The real reason this Washington date matters is that John Beasley, who actually worked with Miles Davis, is using the whole arc of Davis's career to reopen the music while the Library puts the Davis-Gil Evans partnership in conversation with its newly acquired Gil Evans Collection. That makes the evening part performance, part living archive: a chance to hear the music interpreted by someone connected to Davis while the institution holding Evans's papers supplies the historical lens.",
+            "trip_verdict": "Actively make room for this if November 6 is open in the DMV, especially with the 6:30 lecture feeding directly into the concert. The Library makes it an easy DC night rather than a regional trip, and the touring nature of Unlimited Miles means there is no need to chase this project to another city.",
+            "listen_before": "Miles Davis — Sketches of Spain"
+          },
+          "es": {
+            "why_it_matters": "El centenario es apenas el marco. Lo que vuelve especial esta fecha en Washington es que John Beasley, que sí trabajó con Miles Davis, recorre todo el arco de su música mientras la Library pone la relación Davis-Gil Evans en diálogo con la colección de Gil Evans que acaba de adquirir. La noche queda a medio camino entre concierto y archivo vivo: escuchar la música reinterpretada por alguien conectado directamente con Miles, con los papeles de Evans aportando el contexto histórico.",
+            "trip_verdict": "Si el 6 de noviembre está libre en el DMV, sí haría espacio para esta noche, sobre todo porque la charla de las 6:30 desemboca directamente en el concierto. Es una salida local muy fácil en DC, no una razón para perseguir el proyecto a otra ciudad; Unlimited Miles ya está circulando como programa de centenario.",
+            "listen_before": "Miles Davis — Sketches of Spain"
+          }
+        }
+      },
+      "after": {
+        "id": "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06",
+        "artist": "John Beasley's Unlimited Miles",
+        "subtitle": "Miles Davis at 100",
+        "dates": {
+          "start": "2026-11-06",
+          "end": null
+        },
+        "showtimes": [
+          "20:00"
+        ],
+        "venue": {
+          "id": "library-of-congress-coolidge-auditorium-washington-dc",
+          "name": "Library of Congress — Coolidge Auditorium",
+          "city": "Washington, DC",
+          "state": "DC",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Local",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Miles Davis centenary / historical jazz / archival context",
+        "genres": [
+          "Jazz",
+          "Fusion"
+        ],
+        "musical_axes": [
+          "Masters",
+          "Cultural context"
+        ],
+        "lineup": [
+          "John Beasley (musical direction)"
+        ],
+        "factual_description": "The Library of Congress presents Unlimited Miles: John Beasley's Miles Davis at 100 on Friday, November 6, 2026 from 20:00 to 22:00 in the Thomas Jefferson Building's Coolidge Auditorium in Washington, DC. The concert is free but ticketed. A preconcert lecture, Miles Davis at 100 with Guthrie P. Ramsey Jr., PhD, is scheduled for 18:30 in the Whittall Pavilion. Under John Beasley's direction, the centennial program covers each decade of Davis's career and highlights Davis's collaborations with arranger Gil Evans, drawing inspiration from the Library's recently acquired Gil Evans Collection. The Library identifies Beasley as Davis's onetime collaborator. No additional Washington personnel are published in the primary event sources checked for this batch, so personnel from other Unlimited Miles dates are not inferred.",
+        "links": {
+          "official_event": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+          "official_tickets": null
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": 0,
+            "maximum": 0,
+            "source_url": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+            "checked_on": "2026-09-07"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [
+          {
+            "artist": "Miles Davis",
+            "title": "Sketches of Spain",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/sketches-of-spain/832060615"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "official_tickets"
+          ],
+          "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, published_washington_lineup_beyond_john_beasley. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.loc.gov/item/event-421668/unlimited-miles-john-beasleys-miles-davis-at-100/2026-11-06/",
+            "publisher": "Library of Congress",
+            "checked_on": "2026-09-07",
+            "note": "Primary current event page verifies Friday, November 6, 2026, 20:00-22:00, Coolidge Auditorium, free but ticket-required status, John Beasley's direction, the Miles Davis centenary program, coverage of each decade of Davis's career and the Gil Evans Collection connection."
+          },
+          {
+            "url": "https://newsroom.loc.gov/news/library-of-congress-announces-2026-27-concert-season/s/19a74626-69f8-4da4-9506-8727b6183bb2",
+            "publisher": "Library of Congress Newsroom",
+            "checked_on": "2026-09-07",
+            "note": "Primary 2026-27 season announcement independently confirms Unlimited Miles: John Beasley's Miles Davis at 100 on Friday, November 6 at 20:00 and identifies Beasley as a Davis collaborator."
+          },
+          {
+            "url": "https://www.johnbeasleymusic.com/shows",
+            "publisher": "John Beasley",
+            "checked_on": "2026-09-07",
+            "note": "Artist-controlled schedule documents Unlimited Miles: Miles Davis at 100 as a recurring 2026 touring project across multiple cities, supporting the scarcity challenge without importing personnel from those dates into the Washington record."
+          },
+          {
+            "url": "https://music.apple.com/us/album/sketches-of-spain/832060615",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-07",
+            "note": "Exact Apple Music page verifies Miles Davis's Sketches of Spain as the recommended listening album, directly relevant to the event's stated focus on Davis's collaborations with Gil Evans."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-library-artist-and-apple-music-sources",
+          "note": "Core event facts are grounded in the current Library of Congress event page and season announcement; John Beasley's artist-controlled schedule verifies that Unlimited Miles is a recurring 2026 touring project, and Apple Music verifies the recommended listening destination. Repository searches for the exact Unlimited Miles billing and event ID returned no existing RADAR record before publication. Priority A+ was assigned only after Stage 1 admission because the Miles centenary, Beasley's direct Davis connection and the Library's newly acquired Gil Evans archival context give this Washington performance a specific reason to matter. An explicit scarcity challenge found that the project recurs across 2026 and that the Library does not announce a farewell, final appearance, unique lineup or other fact making A+ insufficient; S was therefore rejected."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The centenary is only the frame. The real reason this Washington date matters is that John Beasley, who actually worked with Miles Davis, is using the whole arc of Davis's career to reopen the music while the Library puts the Davis-Gil Evans partnership in conversation with its newly acquired Gil Evans Collection. That makes the evening part performance, part living archive: a chance to hear the music interpreted by someone connected to Davis while the institution holding Evans's papers supplies the historical lens.",
+            "trip_verdict": "Actively make room for this if November 6 is open in the DMV, especially with the 6:30 lecture feeding directly into the concert. The Library makes it an easy DC night rather than a regional trip, and the touring nature of Unlimited Miles means there is no need to chase this project to another city.",
+            "listen_before": "Miles Davis — Sketches of Spain"
+          },
+          "es": {
+            "why_it_matters": "El centenario es apenas el marco. Lo que vuelve especial esta fecha en Washington es que John Beasley, que sí trabajó con Miles Davis, recorre todo el arco de su música mientras la Library pone la relación Davis-Gil Evans en diálogo con la colección de Gil Evans que acaba de adquirir. La noche queda a medio camino entre concierto y archivo vivo: escuchar la música reinterpretada por alguien conectado directamente con Miles, con los papeles de Evans aportando el contexto histórico.",
+            "trip_verdict": "Si el 6 de noviembre está libre en el DMV, sí haría espacio para esta noche, sobre todo porque la charla de las 6:30 desemboca directamente en el concierto. Es una salida local muy fácil en DC, no una razón para perseguir el proyecto a otra ciudad; Unlimited Miles ya está circulando como programa de centenario.",
+            "listen_before": "Miles Davis — Sketches of Spain"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/john-beasley-unlimited-miles-library-of-congress-2026-09-07-discovery.json",
+        "batch_sha256": "d1ec1949a3d2ec400fa98eb5f024a56630c313dc5b2970bb3c4b60324a75e9f7",
+        "batch_id": "john-beasley-unlimited-miles-library-of-congress-2026-09-07-discovery",
+        "event_index": 0,
+        "candidate_event_id": "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06",
+        "candidate_sha256": "d5e6faa55b6446ee2a12a1830d6fd0371a655745a9013614661cfee872422d4b",
+        "errors": [
+          "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06.enrichment.missing must be a unique list of known enrichment fields"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.missing",
+            "before": [
+              "exact_official_ticket_destination",
+              "published_washington_lineup_beyond_john_beasley"
+            ],
+            "after": [
+              "official_tickets"
+            ]
+          },
+          {
+            "field": "enrichment.note",
+            "before": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination.",
+            "after": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, published_washington_lineup_beyond_john_beasley. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06.enrichment.missing must be a unique list of known enrichment fields"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": false,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "pending",
+            "missing": [
+              "exact_official_ticket_destination",
+              "published_washington_lineup_beyond_john_beasley"
+            ],
+            "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "missing recalculated from the links and Apple Music URLs already present",
+          "non-standard missing labels preserved here: exact_official_ticket_destination, published_washington_lineup_beyond_john_beasley"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "a3a646b3572ea6fb1b66c52e57d326c27be2222644c0b27a72b4010018aec1d6"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/john-beasley-unlimited-miles-library-of-congress-2026-09-07-discovery.json",
+    "active_events": [
+      {
+        "id": "john-beasley-unlimited-miles-library-of-congress-washington-dc-2026-11-06",
+        "sha256": "a3a646b3572ea6fb1b66c52e57d326c27be2222644c0b27a72b4010018aec1d6"
+      }
+    ]
+  }
+}

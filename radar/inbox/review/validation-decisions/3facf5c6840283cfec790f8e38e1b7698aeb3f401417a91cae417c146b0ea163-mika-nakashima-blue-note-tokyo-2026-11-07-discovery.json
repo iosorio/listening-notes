@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/mika-nakashima-blue-note-tokyo-2026-11-07-discovery.json",
+    "sha256": "3facf5c6840283cfec790f8e38e1b7698aeb3f401417a91cae417c146b0ea163",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"mika-nakashima-blue-note-tokyo-2026-11-07-discovery\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable editorial rubric. PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified in this pass. Blue Note Tokyo announced Mika Nakashima's November 7-8 engagement on 2026-08-27. The event clears RADAR admission because the opening night lands exactly on the 25th anniversary of her debut single STARS and places that career milestone in an intimate Blue Note Tokyo setting. A+ is intentional: actively worth making room for, while two nights and documented prior Blue Note Tokyo engagements do not warrant the scarcity language of S. Batch distribution: A+ 1, A 0, S 0, S+ 0.\",\n  \"events\": [\n    {\n      \"id\": \"mika-nakashima-blue-note-tokyo-2026-11-07\",\n      \"artist\": \"Mika Nakashima\",\n      \"subtitle\": \"MIKA NAKASHIMA LIVE at BLUE NOTE TOKYO 2026 — 25th debut anniversary\",\n      \"dates\": {\n        \"start\": \"2026-11-07\",\n        \"end\": \"2026-11-08\"\n      },\n      \"showtimes\": [],\n      \"venue\": {\n        \"id\": \"blue-note-tokyo-minamiaoyama\",\n        \"name\": \"Blue Note Tokyo\",\n        \"city\": \"Minato, Tokyo\",\n        \"state\": \"Tokyo\",\n        \"country\": \"JP\"\n      },\n      \"geographic_domain\": \"tokyo_kanto\",\n      \"geography\": \"Tokyo\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Japan / 25th-anniversary vocal pop / intimate club\",\n      \"genres\": [\n        \"J-Pop\",\n        \"Pop\"\n      ],\n      \"musical_axes\": [\n        \"Japan / Tokyo\",\n        \"Instrumental identity\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"Mika Nakashima — vocals\"\n      ],\n      \"factual_description\": \"Blue Note Tokyo announced on August 27, 2026 that Mika Nakashima will perform at the club on November 7 and 8, 2026, describing the engagement as a premium live marking her 25th debut anniversary. November 7 is exactly 25 years after the November 7, 2001 release of her debut STARS EP. Blue Note Tokyo lists a music charge of ¥26,000 including one plate and one drink, with Jam Session member web reservations opening September 30 at noon and general web reservations opening October 3 at noon. The announcement does not yet publish set times or supporting personnel.\",\n      \"links\": {\n        \"official_event\": \"https://www.bluenote.co.jp/jp/info/2026/08/27/mika-nakashima-live-at-blue-note-tokyo-2026.html\",\n        \"official_tickets\": null\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Mika Nakashima\",\n          \"title\": \"STARS - EP\",\n          \"kind\": \"EP\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/stars-ep/1535610792\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"pending\",\n        \"missing\": [\n          \"showtimes\",\n          \"supporting lineup\",\n          \"official_tickets\"\n        ],\n        \"note\": \"Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.bluenote.co.jp/jp/info/2026/08/27/mika-nakashima-live-at-blue-note-tokyo-2026.html\",\n          \"publisher\": \"Blue Note Tokyo\",\n          \"checked_on\": \"2026-08-27\",\n          \"note\": \"Official new-show announcement confirms November 7-8, 2026, 25th-anniversary framing, ¥26,000 music charge including one plate and one drink, and reservation-opening dates.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/stars-ep/1535610792\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-08-27\",\n          \"note\": \"Exact page for Mika Nakashima's STARS EP confirms the November 7, 2001 release date, establishing the exact 25-year anniversary on the first Blue Note Tokyo night.\"\n        },\n        {\n          \"url\": \"https://www.bluenote.co.jp/jp/reports/2024/12/31/mika-nakashima-live-at-blue-note-tokyo-2024.html\",\n          \"publisher\": \"Blue Note Tokyo\",\n          \"checked_on\": \"2026-08-27\",\n          \"note\": \"Official Blue Note Tokyo live report documents a prior Mika Nakashima engagement at the club, relevant to the scarcity check: the 2026 anniversary is meaningful but the venue relationship is not unprecedented.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-source\",\n        \"note\": \"Dates, anniversary framing, price and reservation-opening dates were verified from Blue Note Tokyo's August 27 announcement; the exact 2001 debut-date anchor was verified from Apple Music; a prior Blue Note Tokyo engagement was verified from the venue's own 2024 report. Repository search found no existing Mika Nakashima record before publication. No showtimes, sidemen or purchase destination were inferred.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"The first night lands exactly 25 years after STARS, turning the anniversary into a real date rather than generic tour branding. Blue Note Tokyo also compresses a career usually associated with large-scale Japanese pop into a club room where Nakashima's breath, phrasing and control of space become the primary instrument. The current announcement does not yet reveal the arrangements or band, so the reason to care is the exact career milestone and setting rather than an invented jazz configuration.\",\n          \"trip_verdict\": \"Actively make room if this overlaps a Tokyo stay, with November 7 clearly the more meaningful of the two nights because it is the exact debut anniversary. The two-night engagement and Nakashima's documented prior Blue Note Tokyo appearances make it a strong city anchor rather than a reason to rebuild an entire Japan trip around one scarce opportunity.\",\n          \"listen_before\": \"Mika Nakashima — STARS - EP\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"La primera noche cae exactamente 25 años después de STARS, así que el aniversario tiene una fecha real y no es sólo branding de gira. Blue Note Tokyo además comprime una carrera normalmente asociada con el pop japonés de gran escala dentro de una sala de club, donde el aire, el fraseo y el manejo del espacio de Nakashima se vuelven el instrumento principal. El anuncio todavía no revela arreglos ni banda, así que la razón para entrar es el hito exacto y el contexto, no una supuesta configuración jazzística que no está confirmada.\",\n          \"trip_verdict\": \"Sí le haría espacio activamente si coincide con una estancia en Tokio, y escogería claramente el 7 de noviembre porque es el aniversario exacto del debut. Las dos noches y las apariciones previas documentadas de Nakashima en Blue Note Tokyo hacen de esto una muy buena ancla dentro de la ciudad, no una razón para reconstruir todo un viaje a Japón alrededor de una oportunidad escasa.\",\n          \"listen_before\": \"Mika Nakashima — STARS - EP\"\n        }\n      }\n    }\n  ]\n}",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "mika-nakashima-blue-note-tokyo-2026-11-07-discovery",
+      "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. PRIORITIES, EDITORIAL, DOMAINS and inbox guidance were read before grading. No new unrecorded Tsuyoshi Yamamoto performance was verified in this pass. Blue Note Tokyo announced Mika Nakashima's November 7-8 engagement on 2026-08-27. The event clears RADAR admission because the opening night lands exactly on the 25th anniversary of her debut single STARS and places that career milestone in an intimate Blue Note Tokyo setting. A+ is intentional: actively worth making room for, while two nights and documented prior Blue Note Tokyo engagements do not warrant the scarcity language of S. Batch distribution: A+ 1, A 0, S 0, S+ 0.",
+      "events": [
+        {
+          "id": "mika-nakashima-blue-note-tokyo-2026-11-07",
+          "artist": "Mika Nakashima",
+          "subtitle": "MIKA NAKASHIMA LIVE at BLUE NOTE TOKYO 2026 — 25th debut anniversary",
+          "dates": {
+            "start": "2026-11-07",
+            "end": "2026-11-08"
+          },
+          "showtimes": [],
+          "venue": {
+            "id": "blue-note-tokyo-minamiaoyama",
+            "name": "Blue Note Tokyo",
+            "city": "Minato, Tokyo",
+            "state": "Tokyo",
+            "country": "JP"
+          },
+          "geographic_domain": "tokyo_kanto",
+          "geography": "Tokyo",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Japan / 25th-anniversary vocal pop / intimate club",
+          "genres": [
+            "J-Pop",
+            "Pop"
+          ],
+          "musical_axes": [
+            "Japan / Tokyo",
+            "Instrumental identity",
+            "Cultural context"
+          ],
+          "lineup": [
+            "Mika Nakashima — vocals"
+          ],
+          "factual_description": "Blue Note Tokyo announced on August 27, 2026 that Mika Nakashima will perform at the club on November 7 and 8, 2026, describing the engagement as a premium live marking her 25th debut anniversary. November 7 is exactly 25 years after the November 7, 2001 release of her debut STARS EP. Blue Note Tokyo lists a music charge of ¥26,000 including one plate and one drink, with Jam Session member web reservations opening September 30 at noon and general web reservations opening October 3 at noon. The announcement does not yet publish set times or supporting personnel.",
+          "links": {
+            "official_event": "https://www.bluenote.co.jp/jp/info/2026/08/27/mika-nakashima-live-at-blue-note-tokyo-2026.html",
+            "official_tickets": null
+          },
+          "recommended_listening": [
+            {
+              "artist": "Mika Nakashima",
+              "title": "STARS - EP",
+              "kind": "EP",
+              "apple_music_url": "https://music.apple.com/us/album/stars-ep/1535610792"
+            }
+          ],
+          "enrichment": {
+            "status": "pending",
+            "missing": [
+              "showtimes",
+              "supporting lineup",
+              "official_tickets"
+            ],
+            "note": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted."
+          },
+          "sources": [
+            {
+              "url": "https://www.bluenote.co.jp/jp/info/2026/08/27/mika-nakashima-live-at-blue-note-tokyo-2026.html",
+              "publisher": "Blue Note Tokyo",
+              "checked_on": "2026-08-27",
+              "note": "Official new-show announcement confirms November 7-8, 2026, 25th-anniversary framing, ¥26,000 music charge including one plate and one drink, and reservation-opening dates."
+            },
+            {
+              "url": "https://music.apple.com/us/album/stars-ep/1535610792",
+              "publisher": "Apple Music",
+              "checked_on": "2026-08-27",
+              "note": "Exact page for Mika Nakashima's STARS EP confirms the November 7, 2001 release date, establishing the exact 25-year anniversary on the first Blue Note Tokyo night."
+            },
+            {
+              "url": "https://www.bluenote.co.jp/jp/reports/2024/12/31/mika-nakashima-live-at-blue-note-tokyo-2024.html",
+              "publisher": "Blue Note Tokyo",
+              "checked_on": "2026-08-27",
+              "note": "Official Blue Note Tokyo live report documents a prior Mika Nakashima engagement at the club, relevant to the scarcity check: the 2026 anniversary is meaningful but the venue relationship is not unprecedented."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-source",
+            "note": "Dates, anniversary framing, price and reservation-opening dates were verified from Blue Note Tokyo's August 27 announcement; the exact 2001 debut-date anchor was verified from Apple Music; a prior Blue Note Tokyo engagement was verified from the venue's own 2024 report. Repository search found no existing Mika Nakashima record before publication. No showtimes, sidemen or purchase destination were inferred."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "The first night lands exactly 25 years after STARS, turning the anniversary into a real date rather than generic tour branding. Blue Note Tokyo also compresses a career usually associated with large-scale Japanese pop into a club room where Nakashima's breath, phrasing and control of space become the primary instrument. The current announcement does not yet reveal the arrangements or band, so the reason to care is the exact career milestone and setting rather than an invented jazz configuration.",
+              "trip_verdict": "Actively make room if this overlaps a Tokyo stay, with November 7 clearly the more meaningful of the two nights because it is the exact debut anniversary. The two-night engagement and Nakashima's documented prior Blue Note Tokyo appearances make it a strong city anchor rather than a reason to rebuild an entire Japan trip around one scarce opportunity.",
+              "listen_before": "Mika Nakashima — STARS - EP"
+            },
+            "es": {
+              "why_it_matters": "La primera noche cae exactamente 25 años después de STARS, así que el aniversario tiene una fecha real y no es sólo branding de gira. Blue Note Tokyo además comprime una carrera normalmente asociada con el pop japonés de gran escala dentro de una sala de club, donde el aire, el fraseo y el manejo del espacio de Nakashima se vuelven el instrumento principal. El anuncio todavía no revela arreglos ni banda, así que la razón para entrar es el hito exacto y el contexto, no una supuesta configuración jazzística que no está confirmada.",
+              "trip_verdict": "Sí le haría espacio activamente si coincide con una estancia en Tokio, y escogería claramente el 7 de noviembre porque es el aniversario exacto del debut. Las dos noches y las apariciones previas documentadas de Nakashima en Blue Note Tokyo hacen de esto una muy buena ancla dentro de la ciudad, no una razón para reconstruir todo un viaje a Japón alrededor de una oportunidad escasa.",
+              "listen_before": "Mika Nakashima — STARS - EP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/mika-nakashima-blue-note-tokyo-2026-11-07-discovery.json",
+      "batch_sha256": "3facf5c6840283cfec790f8e38e1b7698aeb3f401417a91cae417c146b0ea163",
+      "batch_id": "mika-nakashima-blue-note-tokyo-2026-11-07-discovery",
+      "event_index": 0,
+      "candidate_event_id": "mika-nakashima-blue-note-tokyo-2026-11-07",
+      "candidate_sha256": "0cc775800e219d72d8eb1ee3ffa711b51fe1a3474a974da07f9dbb1f9ed94af3",
+      "errors": [
+        "mika-nakashima-blue-note-tokyo-2026-11-07.enrichment.missing must be a unique list of known enrichment fields"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.missing",
+          "before": [
+            "showtimes",
+            "supporting lineup",
+            "official_tickets"
+          ],
+          "after": [
+            "official_tickets"
+          ]
+        },
+        {
+          "field": "enrichment.note",
+          "before": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted.",
+          "after": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: showtimes, supporting lineup. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "mika-nakashima-blue-note-tokyo-2026-11-07.enrichment.missing must be a unique list of known enrichment fields"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": false,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "pending",
+          "missing": [
+            "showtimes",
+            "supporting lineup",
+            "official_tickets"
+          ],
+          "note": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "missing recalculated from the links and Apple Music URLs already present",
+        "non-standard missing labels preserved here: showtimes, supporting lineup"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "1b4e301ce38633efae3a5386a46eb11772a5255852840728094ae6cbe4852793"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "mika-nakashima-blue-note-tokyo-2026-11-07",
+        "artist": "Mika Nakashima",
+        "subtitle": "MIKA NAKASHIMA LIVE at BLUE NOTE TOKYO 2026 — 25th debut anniversary",
+        "dates": {
+          "start": "2026-11-07",
+          "end": "2026-11-08"
+        },
+        "showtimes": [],
+        "venue": {
+          "id": "blue-note-tokyo-minamiaoyama",
+          "name": "Blue Note Tokyo",
+          "city": "Minato, Tokyo",
+          "state": "Tokyo",
+          "country": "JP"
+        },
+        "geographic_domain": "tokyo_kanto",
+        "geography": "Tokyo",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Japan / 25th-anniversary vocal pop / intimate club",
+        "genres": [
+          "J-Pop",
+          "Pop"
+        ],
+        "musical_axes": [
+          "Japan / Tokyo",
+          "Instrumental identity",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Mika Nakashima — vocals"
+        ],
+        "factual_description": "Blue Note Tokyo announced on August 27, 2026 that Mika Nakashima will perform at the club on November 7 and 8, 2026, describing the engagement as a premium live marking her 25th debut anniversary. November 7 is exactly 25 years after the November 7, 2001 release of her debut STARS EP. Blue Note Tokyo lists a music charge of ¥26,000 including one plate and one drink, with Jam Session member web reservations opening September 30 at noon and general web reservations opening October 3 at noon. The announcement does not yet publish set times or supporting personnel.",
+        "links": {
+          "official_event": "https://www.bluenote.co.jp/jp/info/2026/08/27/mika-nakashima-live-at-blue-note-tokyo-2026.html",
+          "official_tickets": null
+        },
+        "recommended_listening": [
+          {
+            "artist": "Mika Nakashima",
+            "title": "STARS - EP",
+            "kind": "EP",
+            "apple_music_url": "https://music.apple.com/us/album/stars-ep/1535610792"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "showtimes",
+            "supporting lineup",
+            "official_tickets"
+          ],
+          "note": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted."
+        },
+        "sources": [
+          {
+            "url": "https://www.bluenote.co.jp/jp/info/2026/08/27/mika-nakashima-live-at-blue-note-tokyo-2026.html",
+            "publisher": "Blue Note Tokyo",
+            "checked_on": "2026-08-27",
+            "note": "Official new-show announcement confirms November 7-8, 2026, 25th-anniversary framing, ¥26,000 music charge including one plate and one drink, and reservation-opening dates."
+          },
+          {
+            "url": "https://music.apple.com/us/album/stars-ep/1535610792",
+            "publisher": "Apple Music",
+            "checked_on": "2026-08-27",
+            "note": "Exact page for Mika Nakashima's STARS EP confirms the November 7, 2001 release date, establishing the exact 25-year anniversary on the first Blue Note Tokyo night."
+          },
+          {
+            "url": "https://www.bluenote.co.jp/jp/reports/2024/12/31/mika-nakashima-live-at-blue-note-tokyo-2024.html",
+            "publisher": "Blue Note Tokyo",
+            "checked_on": "2026-08-27",
+            "note": "Official Blue Note Tokyo live report documents a prior Mika Nakashima engagement at the club, relevant to the scarcity check: the 2026 anniversary is meaningful but the venue relationship is not unprecedented."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-source",
+          "note": "Dates, anniversary framing, price and reservation-opening dates were verified from Blue Note Tokyo's August 27 announcement; the exact 2001 debut-date anchor was verified from Apple Music; a prior Blue Note Tokyo engagement was verified from the venue's own 2024 report. Repository search found no existing Mika Nakashima record before publication. No showtimes, sidemen or purchase destination were inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The first night lands exactly 25 years after STARS, turning the anniversary into a real date rather than generic tour branding. Blue Note Tokyo also compresses a career usually associated with large-scale Japanese pop into a club room where Nakashima's breath, phrasing and control of space become the primary instrument. The current announcement does not yet reveal the arrangements or band, so the reason to care is the exact career milestone and setting rather than an invented jazz configuration.",
+            "trip_verdict": "Actively make room if this overlaps a Tokyo stay, with November 7 clearly the more meaningful of the two nights because it is the exact debut anniversary. The two-night engagement and Nakashima's documented prior Blue Note Tokyo appearances make it a strong city anchor rather than a reason to rebuild an entire Japan trip around one scarce opportunity.",
+            "listen_before": "Mika Nakashima — STARS - EP"
+          },
+          "es": {
+            "why_it_matters": "La primera noche cae exactamente 25 años después de STARS, así que el aniversario tiene una fecha real y no es sólo branding de gira. Blue Note Tokyo además comprime una carrera normalmente asociada con el pop japonés de gran escala dentro de una sala de club, donde el aire, el fraseo y el manejo del espacio de Nakashima se vuelven el instrumento principal. El anuncio todavía no revela arreglos ni banda, así que la razón para entrar es el hito exacto y el contexto, no una supuesta configuración jazzística que no está confirmada.",
+            "trip_verdict": "Sí le haría espacio activamente si coincide con una estancia en Tokio, y escogería claramente el 7 de noviembre porque es el aniversario exacto del debut. Las dos noches y las apariciones previas documentadas de Nakashima en Blue Note Tokyo hacen de esto una muy buena ancla dentro de la ciudad, no una razón para reconstruir todo un viaje a Japón alrededor de una oportunidad escasa.",
+            "listen_before": "Mika Nakashima — STARS - EP"
+          }
+        }
+      },
+      "after": {
+        "id": "mika-nakashima-blue-note-tokyo-2026-11-07",
+        "artist": "Mika Nakashima",
+        "subtitle": "MIKA NAKASHIMA LIVE at BLUE NOTE TOKYO 2026 — 25th debut anniversary",
+        "dates": {
+          "start": "2026-11-07",
+          "end": "2026-11-08"
+        },
+        "showtimes": [],
+        "venue": {
+          "id": "blue-note-tokyo-minamiaoyama",
+          "name": "Blue Note Tokyo",
+          "city": "Minato, Tokyo",
+          "state": "Tokyo",
+          "country": "JP"
+        },
+        "geographic_domain": "tokyo_kanto",
+        "geography": "Tokyo",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Japan / 25th-anniversary vocal pop / intimate club",
+        "genres": [
+          "J-Pop",
+          "Pop"
+        ],
+        "musical_axes": [
+          "Japan / Tokyo",
+          "Instrumental identity",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Mika Nakashima — vocals"
+        ],
+        "factual_description": "Blue Note Tokyo announced on August 27, 2026 that Mika Nakashima will perform at the club on November 7 and 8, 2026, describing the engagement as a premium live marking her 25th debut anniversary. November 7 is exactly 25 years after the November 7, 2001 release of her debut STARS EP. Blue Note Tokyo lists a music charge of ¥26,000 including one plate and one drink, with Jam Session member web reservations opening September 30 at noon and general web reservations opening October 3 at noon. The announcement does not yet publish set times or supporting personnel.",
+        "links": {
+          "official_event": "https://www.bluenote.co.jp/jp/info/2026/08/27/mika-nakashima-live-at-blue-note-tokyo-2026.html",
+          "official_tickets": null
+        },
+        "recommended_listening": [
+          {
+            "artist": "Mika Nakashima",
+            "title": "STARS - EP",
+            "kind": "EP",
+            "apple_music_url": "https://music.apple.com/us/album/stars-ep/1535610792"
+          }
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "official_tickets"
+          ],
+          "note": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: showtimes, supporting lineup. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.bluenote.co.jp/jp/info/2026/08/27/mika-nakashima-live-at-blue-note-tokyo-2026.html",
+            "publisher": "Blue Note Tokyo",
+            "checked_on": "2026-08-27",
+            "note": "Official new-show announcement confirms November 7-8, 2026, 25th-anniversary framing, ¥26,000 music charge including one plate and one drink, and reservation-opening dates."
+          },
+          {
+            "url": "https://music.apple.com/us/album/stars-ep/1535610792",
+            "publisher": "Apple Music",
+            "checked_on": "2026-08-27",
+            "note": "Exact page for Mika Nakashima's STARS EP confirms the November 7, 2001 release date, establishing the exact 25-year anniversary on the first Blue Note Tokyo night."
+          },
+          {
+            "url": "https://www.bluenote.co.jp/jp/reports/2024/12/31/mika-nakashima-live-at-blue-note-tokyo-2024.html",
+            "publisher": "Blue Note Tokyo",
+            "checked_on": "2026-08-27",
+            "note": "Official Blue Note Tokyo live report documents a prior Mika Nakashima engagement at the club, relevant to the scarcity check: the 2026 anniversary is meaningful but the venue relationship is not unprecedented."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-source",
+          "note": "Dates, anniversary framing, price and reservation-opening dates were verified from Blue Note Tokyo's August 27 announcement; the exact 2001 debut-date anchor was verified from Apple Music; a prior Blue Note Tokyo engagement was verified from the venue's own 2024 report. Repository search found no existing Mika Nakashima record before publication. No showtimes, sidemen or purchase destination were inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The first night lands exactly 25 years after STARS, turning the anniversary into a real date rather than generic tour branding. Blue Note Tokyo also compresses a career usually associated with large-scale Japanese pop into a club room where Nakashima's breath, phrasing and control of space become the primary instrument. The current announcement does not yet reveal the arrangements or band, so the reason to care is the exact career milestone and setting rather than an invented jazz configuration.",
+            "trip_verdict": "Actively make room if this overlaps a Tokyo stay, with November 7 clearly the more meaningful of the two nights because it is the exact debut anniversary. The two-night engagement and Nakashima's documented prior Blue Note Tokyo appearances make it a strong city anchor rather than a reason to rebuild an entire Japan trip around one scarce opportunity.",
+            "listen_before": "Mika Nakashima — STARS - EP"
+          },
+          "es": {
+            "why_it_matters": "La primera noche cae exactamente 25 años después de STARS, así que el aniversario tiene una fecha real y no es sólo branding de gira. Blue Note Tokyo además comprime una carrera normalmente asociada con el pop japonés de gran escala dentro de una sala de club, donde el aire, el fraseo y el manejo del espacio de Nakashima se vuelven el instrumento principal. El anuncio todavía no revela arreglos ni banda, así que la razón para entrar es el hito exacto y el contexto, no una supuesta configuración jazzística que no está confirmada.",
+            "trip_verdict": "Sí le haría espacio activamente si coincide con una estancia en Tokio, y escogería claramente el 7 de noviembre porque es el aniversario exacto del debut. Las dos noches y las apariciones previas documentadas de Nakashima en Blue Note Tokyo hacen de esto una muy buena ancla dentro de la ciudad, no una razón para reconstruir todo un viaje a Japón alrededor de una oportunidad escasa.",
+            "listen_before": "Mika Nakashima — STARS - EP"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/mika-nakashima-blue-note-tokyo-2026-11-07-discovery.json",
+        "batch_sha256": "3facf5c6840283cfec790f8e38e1b7698aeb3f401417a91cae417c146b0ea163",
+        "batch_id": "mika-nakashima-blue-note-tokyo-2026-11-07-discovery",
+        "event_index": 0,
+        "candidate_event_id": "mika-nakashima-blue-note-tokyo-2026-11-07",
+        "candidate_sha256": "0cc775800e219d72d8eb1ee3ffa711b51fe1a3474a974da07f9dbb1f9ed94af3",
+        "errors": [
+          "mika-nakashima-blue-note-tokyo-2026-11-07.enrichment.missing must be a unique list of known enrichment fields"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.missing",
+            "before": [
+              "showtimes",
+              "supporting lineup",
+              "official_tickets"
+            ],
+            "after": [
+              "official_tickets"
+            ]
+          },
+          {
+            "field": "enrichment.note",
+            "before": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted.",
+            "after": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: showtimes, supporting lineup. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "mika-nakashima-blue-note-tokyo-2026-11-07.enrichment.missing must be a unique list of known enrichment fields"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": false,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "pending",
+            "missing": [
+              "showtimes",
+              "supporting lineup",
+              "official_tickets"
+            ],
+            "note": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "missing recalculated from the links and Apple Music URLs already present",
+          "non-standard missing labels preserved here: showtimes, supporting lineup"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "1b4e301ce38633efae3a5386a46eb11772a5255852840728094ae6cbe4852793"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/mika-nakashima-blue-note-tokyo-2026-11-07-discovery.json",
+    "active_events": [
+      {
+        "id": "mika-nakashima-blue-note-tokyo-2026-11-07",
+        "sha256": "1b4e301ce38633efae3a5386a46eb11772a5255852840728094ae6cbe4852793"
+      }
+    ]
+  }
+}

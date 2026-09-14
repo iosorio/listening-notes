@@ -70,11 +70,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "individual_artist_set_times",
-          "detailed_personnel",
           "apple_music"
         ],
-        "note": "Date, current event start/window, venue, billing, free admission, and the DMV context are verified from DC Jazz Festival primary pages. Individual act set times, detailed personnel, and exact Apple Music destinations remain pending rather than being inferred."
+        "note": "Date, current event start/window, venue, billing, free admission, and the DMV context are verified from DC Jazz Festival primary pages. Individual act set times, detailed personnel, and exact Apple Music destinations remain pending rather than being inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: individual_artist_set_times, detailed_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

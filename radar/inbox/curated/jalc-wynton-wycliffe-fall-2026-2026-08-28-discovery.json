@@ -8,15 +8,36 @@
       "id": "wycliffe-gordon-welcome-to-georgia-town-jalc-new-york-2026-10-09",
       "artist": "Wycliffe Gordon",
       "subtitle": "Welcome to Georgia Town",
-      "dates": {"start": "2026-10-09", "end": "2026-10-10"},
-      "showtimes": ["16:30", "19:00", "21:00"],
-      "venue": {"id": "appel-room-jazz-at-lincoln-center-new-york-ny", "name": "The Appel Room, Frederick P. Rose Hall", "city": "New York", "state": "NY", "country": "US"},
+      "dates": {
+        "start": "2026-10-09",
+        "end": "2026-10-10"
+      },
+      "showtimes": [
+        "16:30",
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "appel-room-jazz-at-lincoln-center-new-york-ny",
+        "name": "The Appel Room, Frederick P. Rose Hall",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
       "geographic_domain": "us_corridor",
       "status": "considering",
       "priority": "A",
       "category": "Autobiographical jazz program / septet and vocal chorus",
-      "genres": ["Jazz", "Gospel", "American roots"],
-      "musical_axes": ["Instrumental identity", "Cultural context", "Cross-genre"],
+      "genres": [
+        "Jazz",
+        "Gospel",
+        "American roots"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Cultural context",
+        "Cross-genre"
+      ],
       "lineup": [
         "Wycliffe Gordon — trombone / leader",
         "Wycliffe Gordon Septet",
@@ -30,8 +51,10 @@
       "recommended_listening": [],
       "enrichment": {
         "status": "pending",
-        "missing": ["apple_music", "individual_septet_personnel", "individual_chorus_personnel"],
-        "note": "JALC verifies the complete billed ensembles and all four performance times, but the event page does not name the individual septet or chorus members. No personnel or Apple Music destination is inferred."
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Only the Apple Music destination remains missing from enrichment. At discovery on 2026-08-28, individual septet and chorus personnel were not recorded. On 2026-09-11 the official JALC page lists individual musicians; the original ensemble-level lineup is retained in this structural repair, without inferred personnel."
       },
       "sources": [
         {
@@ -45,6 +68,12 @@
           "publisher": "Wycliffe Gordon",
           "checked_on": "2026-08-28",
           "note": "Artist schedule independently confirms the Jazz at Lincoln Center engagement, Welcome to Georgia Town billing, septet, and Damien Sneed & Friends chorus."
+        },
+        {
+          "url": "https://jazz.org/concert/wycliffe-gordon-welcome-to-georgia-town/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-09-11",
+          "note": "Structural metadata recheck: the current official event page lists individual musicians. Their absence from the originally stored ensemble-level lineup is not a missing enrichment-link field; no lineup change is made."
         }
       ],
       "provenance": {
@@ -60,68 +89,6 @@
         "es": {
           "why_it_matters": "Welcome to Georgia Town no es un set genérico de standards: Gordon convierte su crianza en Georgia en una obra autobiográfica para septeto y coro de cinco voces, enlazando su lenguaje centrado en el trombón con gospel, tradición sureña y forma narrativa. Ese marco compositivo específico le da una razón clara para entrar a Listening Notes más allá del peso del nombre de Gordon.",
           "trip_verdict": "Si Nueva York ya resulta conveniente ese fin de semana, escogería el set que mejor embone y sumaría The Appel Room a la noche; no armaría un viaje dedicado por el corredor únicamente alrededor de este programa.",
-          "listen_before": null
-        }
-      }
-    },
-    {
-      "id": "jlco-wynton-marsalis-from-cuba-to-crescent-city-new-york-2026-10-23",
-      "artist": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
-      "subtitle": "From Cuba to the Crescent City",
-      "dates": {"start": "2026-10-23", "end": "2026-10-24"},
-      "showtimes": ["19:30"],
-      "venue": {"id": "rose-theater-jazz-at-lincoln-center-new-york-ny", "name": "Rose Theater, Frederick P. Rose Hall", "city": "New York", "state": "NY", "country": "US"},
-      "geographic_domain": "us_corridor",
-      "status": "considering",
-      "priority": "A+",
-      "category": "African-diaspora repertoire program / large ensemble with guests",
-      "genres": ["Jazz", "Afro-Cuban jazz", "African diaspora music"],
-      "musical_axes": ["Masters", "Latin", "Groove", "Cultural context", "Cross-genre", "Instrumental identity"],
-      "lineup": [
-        "Jazz at Lincoln Center Orchestra",
-        "Wynton Marsalis — trumpet / composer / leader",
-        "Pedrito Martinez — drums / percussion / vocals (special guest)",
-        "Weedie Braimah — percussion / vocals (special guest)",
-        "Shenel Johns — vocals (special guest)"
-      ],
-      "factual_description": "Jazz at Lincoln Center presents From Cuba to the Crescent City at Rose Theater on October 23-24, 2026 at 7:30 PM. Wynton Marsalis and the Jazz at Lincoln Center Orchestra draw from three Marsalis suites — Ochas, Afro!, and Congo Square — to trace connections among Yoruba-inspired portraits, Afro-Cuban rhythms, Ghanaian musical traditions, and nineteenth-century New Orleans jazz prehistory. Special guests are Pedrito Martinez, Weedie Braimah, and Shenel Johns. The engagement falls within Marsalis's 2026-27 final season as Artistic Director of Jazz at Lincoln Center.",
-      "links": {
-        "official_event": "https://jazz.org/concert/from-cuba-to-the-crescent-city-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
-        "official_tickets": "https://ticketing.jazz.org/20618"
-      },
-      "recommended_listening": [],
-      "enrichment": {
-        "status": "pending",
-        "missing": ["apple_music", "individual_jlco_personnel"],
-        "note": "The exact event, dates, time, repertoire framework, billed ensemble and special guests are verified. The current event page does not enumerate the full individual JLCO roster, so no additional personnel is inferred."
-      },
-      "sources": [
-        {
-          "url": "https://jazz.org/concert/from-cuba-to-the-crescent-city-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
-          "publisher": "Jazz at Lincoln Center",
-          "checked_on": "2026-08-28",
-          "note": "Primary event page verifying dates, 7:30 PM performances, Rose Theater, the three-suite repertoire framework, and special guests Pedrito Martinez, Weedie Braimah, and Shenel Johns."
-        },
-        {
-          "url": "https://press.jazz.org/press/2026/05/lincoln-center-names-wynton-marsalis-2026-2027-visionary-artist/",
-          "publisher": "Jazz at Lincoln Center / Lincoln Center",
-          "checked_on": "2026-08-28",
-          "note": "Official press release verifying that 2026-27 is Wynton Marsalis's final season as Artistic Director of Jazz at Lincoln Center and listing this October 23-24 program."
-        }
-      ],
-      "provenance": {
-        "status": "verified-primary-source",
-        "note": "Verified from Jazz at Lincoln Center's exact event page and official final-season announcement."
-      },
-      "editorial": {
-        "en": {
-          "why_it_matters": "This is a repertoire argument rather than a prestige booking: Marsalis places Ochas, Afro! and Congo Square in one arc and adds Pedrito Martinez, Weedie Braimah and Shenel Johns to make the African-diaspora connections audible through rhythm, percussion and voice. In Marsalis's final season leading Jazz at Lincoln Center, the program also reads as a focused statement about one of the central cultural threads running through his orchestral writing.",
-          "trip_verdict": "If New York is viable on October 23 or 24, actively make room for one Rose Theater performance; it is strong enough to anchor a corridor overnight or day trip, especially if another New York reason can share the travel.",
-          "listen_before": null
-        },
-        "es": {
-          "why_it_matters": "Aquí el argumento es el repertorio, no el prestigio: Marsalis coloca Ochas, Afro! y Congo Square dentro de un mismo arco y suma a Pedrito Martinez, Weedie Braimah y Shenel Johns para volver audibles las conexiones de la diáspora africana mediante ritmo, percusión y voz. En la última temporada de Marsalis al frente de Jazz at Lincoln Center, el programa también funciona como una declaración concentrada sobre uno de los hilos culturales centrales de su escritura orquestal.",
-          "trip_verdict": "Si Nueva York es viable el 23 o 24 de octubre, le haría espacio activamente a una función en Rose Theater; tiene suficiente peso para anclar un day trip u overnight por el corredor, sobre todo si otra razón en Nueva York puede compartir el viaje.",
           "listen_before": null
         }
       }

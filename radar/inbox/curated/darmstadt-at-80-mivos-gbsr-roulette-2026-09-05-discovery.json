@@ -73,10 +73,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "apple_music",
-          "complete_repertoire"
+          "apple_music"
         ],
-        "note": "Roulette verifies the exact date, doors/start time, 80th-anniversary frame, billed artists, complete announced personnel, face-value pricing, livestream/archive and authorized ticket destination. GBSR Duo independently verifies its December 10 Roulette appearance and New York City debut, while listing the program as TBA. Exact composition titles are therefore not inferred, and no Apple Music ID is invented."
+        "note": "Roulette verifies the exact date, doors/start time, 80th-anniversary frame, billed artists, complete announced personnel, face-value pricing, livestream/archive and authorized ticket destination. GBSR Duo independently verifies its December 10 Roulette appearance and New York City debut, while listing the program as TBA. Exact composition titles are therefore not inferred, and no Apple Music ID is invented. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: complete_repertoire. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

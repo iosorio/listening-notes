@@ -67,10 +67,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "recommended_listening",
-          "event_specific_personnel"
+          "apple_music"
         ],
-        "note": "The official DC Jazz Festival page verifies date, venue, doors, program and reception times, billing, embassy access conditions, and the cultural frame. Jan Kus's official artist page verifies his instrument, leadership role, the project's Balkan/Slavic-Caribbean concept, and current ensemble membership, but the presenter does not explicitly state which individual members will appear on September 30. No event-specific personnel beyond Kus and the billed ensemble, ticket price, or Apple Music destination is inferred."
+        "note": "The official DC Jazz Festival page verifies date, venue, doors, program and reception times, billing, embassy access conditions, and the cultural frame. Jan Kus's official artist page verifies his instrument, leadership role, the project's Balkan/Slavic-Caribbean concept, and current ensemble membership, but the presenter does not explicitly state which individual members will appear on September 30. No event-specific personnel beyond Kus and the billed ensemble, ticket price, or Apple Music destination is inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: recommended_listening, event_specific_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

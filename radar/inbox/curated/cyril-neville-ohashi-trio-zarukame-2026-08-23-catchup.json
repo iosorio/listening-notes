@@ -59,9 +59,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "links.official_event"
+          "official_event"
         ],
-        "note": "The Hamilton's live calendar/listing and its authorized EVENTIM ticketing confirm the show. A stable exact Hamilton event-detail URL was not resolved in this pass, so official_event remains pending rather than substituting a generic calendar page."
+        "note": "The Hamilton's live calendar/listing and its authorized EVENTIM ticketing confirm the show. A stable exact Hamilton event-detail URL was not resolved in this pass, so official_event remains pending rather than substituting a generic calendar page. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_event. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -167,9 +167,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "links.official_tickets"
+          "official_tickets"
         ],
-        "note": "Exact Billboard Live Tokyo event page and exact Apple Music listening pages are verified. Billboard has announced ticket sales and a prior eplus lottery, but a stable event-specific purchase destination was not independently resolved in this pass."
+        "note": "Exact Billboard Live Tokyo event page and exact Apple Music listening pages are verified. Billboard has announced ticket sales and a prior eplus lottery, but a stable event-specific purchase destination was not independently resolved in this pass. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_tickets. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -279,9 +279,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "links.official_tickets"
+          "official_tickets"
         ],
-        "note": "Exact Billboard Live Tokyo event page, official artist tour page and exact Apple Music album page are verified. A stable event-specific purchase destination was not independently resolved, so official_tickets remains pending."
+        "note": "Exact Billboard Live Tokyo event page, official artist tour page and exact Apple Music album page are verified. A stable event-specific purchase destination was not independently resolved, so official_tickets remains pending. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_tickets. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

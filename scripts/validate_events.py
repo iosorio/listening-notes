@@ -22,6 +22,7 @@ ATTENDANCE_EVIDENCE = {"user_confirmed", "personal_photo", "ticket_purchase", "l
 ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{4}(?:-\d{2}-\d{2})?$")
 ENRICHMENT_STATUSES = {"complete", "pending", "unavailable"}
 ENRICHMENT_FIELDS = {"official_event", "official_tickets", "apple_music"}
+TICKET_CURRENCIES = {"USD", "JPY"}
 NEGATED_TIER_COMPARISON = re.compile(
     r"\b(?:stays?\s+below|remains?\s+below|stops?\s+short\s+of|does\s+not\s+(?:reach|rise\s+to)|not|"
     r"no\s+(?:llega|alcanza)\s+a|no\s+es|(?:por\s+)?debajo\s+de)\s+(?:S\+|A\+|S)(?![\w+])",
@@ -197,8 +198,8 @@ def main(path: Path) -> None:
             fail(f"{event_id} requires English and Spanish editorial objects")
         validate_editorial_priority(event, event_id)
         tickets = event.get("tickets", {})
-        if tickets.get("currency") != "USD":
-            fail(f"{event_id} requires an explicit ticket currency")
+        if not isinstance(tickets.get("currency"), str) or tickets["currency"] not in TICKET_CURRENCIES:
+            fail(f"{event_id} requires an explicit supported ticket currency (USD or JPY)")
         for market in ("official", "resale"):
             prices = tickets.get(market)
             if not isinstance(prices, dict):

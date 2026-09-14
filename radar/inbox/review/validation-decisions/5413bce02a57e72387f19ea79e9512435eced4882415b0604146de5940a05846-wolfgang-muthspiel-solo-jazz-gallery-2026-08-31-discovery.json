@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/wolfgang-muthspiel-solo-jazz-gallery-2026-08-31-discovery.json",
+    "sha256": "5413bce02a57e72387f19ea79e9512435eced4882415b0604146de5940a05846",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"wolfgang-muthspiel-solo-jazz-gallery-2026-08-31-discovery\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; the surfaced Yamamoto dates were already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Stage 1 admits Wolfgang Muthspiel's September 25 Jazz Gallery solo performance for a specific instrumental and repertoire proposition: eleven self-composed etudes remain open to jazz improvisation, alongside Bach, Paul Motian and a Bill Evans tribute, leaving touch, harmony, sustain and form exposed in solo guitar. Priority was assigned only after admission. A+ reflects a focused New York performance actively worth making room for. S/S+ are not warranted because the artist's current schedule shows the same solo Etudes / Quietudes program on other 2026 dates and no farewell, premiere, terminal context or otherwise demonstrated nonrecurrence is published. Recent/current RADAR intake was reviewed as a sanity check; S/S+ remain scarcity tiers, and this batch adds A 0 / A+ 1 / S 0 / S+ 0.\",\n  \"events\": [\n    {\n      \"id\": \"wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25\",\n      \"artist\": \"Wolfgang Muthspiel\",\n      \"subtitle\": \"Solo guitar at The Jazz Gallery\",\n      \"dates\": {\n        \"start\": \"2026-09-25\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"19:00\",\n        \"21:00\"\n      ],\n      \"venue\": {\n        \"id\": \"the-jazz-gallery-new-york-ny\",\n        \"name\": \"The Jazz Gallery\",\n        \"city\": \"New York\",\n        \"state\": \"NY\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"New York City\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Solo guitar / composed-improvised repertoire / classical-jazz crossover\",\n      \"genres\": [\n        \"Jazz\",\n        \"Improvised Music\",\n        \"Contemporary Guitar\"\n      ],\n      \"musical_axes\": [\n        \"Instrumental identity\",\n        \"Improvised\",\n        \"Cross-genre\"\n      ],\n      \"lineup\": [\n        \"Wolfgang Muthspiel — guitar\"\n      ],\n      \"factual_description\": \"The Jazz Gallery presents Wolfgang Muthspiel solo on Friday, September 25, 2026, with sets at 7:00 PM and 9:00 PM. The venue describes a guitar program centered on eleven original etudes in which Muthspiel retains improvisation from his jazz practice, with additional works including a J.S. Bach sarabande paired with an improvised section titled “Between Two Sarabandes,” Paul Motian's “Abacus,” and Muthspiel's “For Bill Evans.” The Jazz Gallery labels the program Etudes/Multitudes, while Muthspiel's official concert schedule lists the New York date as Etudes / Quietudes; this batch preserves that source discrepancy rather than inferring a single formal title. General seating is $33 and cabaret seating is $38.50, with member/student discounts listed by the venue; livestream access is $22.\",\n      \"links\": {\n        \"official_event\": \"https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026\",\n        \"official_tickets\": \"https://ci.ovationtix.com/36369/production/1284346\"\n      },\n      \"tickets\": {\n        \"currency\": \"USD\",\n        \"official\": {\n          \"minimum\": 33,\n          \"maximum\": 38.5,\n          \"source_url\": \"https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026\",\n          \"checked_on\": \"2026-08-31\"\n        },\n        \"resale\": {\n          \"minimum\": null,\n          \"maximum\": null,\n          \"url\": null,\n          \"checked_on\": null\n        }\n      },\n      \"recommended_listening\": [],\n      \"enrichment\": {\n        \"status\": \"complete\",\n        \"missing\": [],\n        \"note\": \"The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026\",\n          \"publisher\": \"The Jazz Gallery\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Primary exact event page verifies Friday, September 25, 2026; Wolfgang Muthspiel solo guitar; 7:00 PM and 9:00 PM sets; the eleven-etude program description with Bach, Paul Motian and Bill Evans references; $33 general / $38.50 cabaret public seating; $22 livestream; and the venue-linked authorized OvationTix destination.\"\n        },\n        {\n          \"url\": \"https://www.wolfgangmuthspiel.com/en/concerts/\",\n          \"publisher\": \"Wolfgang Muthspiel\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Artist's official schedule independently verifies September 25, 2026 at Jazz Gallery, New York City, as Wolfgang Muthspiel Solo and labels the program Etudes / Quietudes. The schedule also shows the solo program on other 2026 dates, supporting the decision not to claim one-off scarcity.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-sources\",\n        \"note\": \"Core event facts and program framing were verified directly from The Jazz Gallery and Wolfgang Muthspiel's official schedule. Current curated and processed inbox directories plus repository code search for Wolfgang Muthspiel returned no match before publication; the exact stable ID was selected only after that duplicate check. Priority was assigned after RADAR admission. The differing program labels in the two primary sources are preserved explicitly rather than reconciled by inference.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"This is a guitar-centered listening proposition rather than a generic club date: Muthspiel turns self-written etudes into a framework where classical technique and spontaneous jazz language keep crossing, then folds Bach, Paul Motian and a Bill Evans tribute into the same solo vocabulary. With no rhythm section to diffuse the sound, touch, sustain, harmony and improvisational architecture are the event.\",\n          \"trip_verdict\": \"If New York is already in play that Friday, actively make room for The Jazz Gallery and choose either set. From the DMV, pair it with another strong New York reason rather than make a dedicated trip for this touring solo program alone.\",\n          \"listen_before\": null\n        },\n        \"es\": {\n          \"why_it_matters\": \"Más que una fecha genérica de club, es una propuesta centrada por completo en la guitarra: Muthspiel convierte estudios propios en un marco donde técnica clásica e improvisación jazzística se cruzan continuamente, e integra a Bach, Paul Motian y un homenaje a Bill Evans dentro del mismo vocabulario solista. Sin sección rítmica que reparta el peso, el toque, el sustain, la armonía y la arquitectura improvisada son el espectáculo.\",\n          \"trip_verdict\": \"Si Nueva York ya está en juego ese viernes, sí le haría espacio a The Jazz Gallery y elegiría cualquiera de los dos sets. Desde el DMV, lo combinaría con otra razón fuerte para subir a Nueva York en vez de hacer un viaje dedicado exclusivamente por este programa solista en gira.\",\n          \"listen_before\": null\n        }\n      }\n    }\n  ]\n}",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "wolfgang-muthspiel-solo-jazz-gallery-2026-08-31-discovery",
+      "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before searching or grading. Fresh Tsuyoshi Yamamoto checks covered Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A, and credible Japanese-jazz sources; the surfaced Yamamoto dates were already represented in canonical/curated/processed intake, so no duplicate Yamamoto candidate was created. Stage 1 admits Wolfgang Muthspiel's September 25 Jazz Gallery solo performance for a specific instrumental and repertoire proposition: eleven self-composed etudes remain open to jazz improvisation, alongside Bach, Paul Motian and a Bill Evans tribute, leaving touch, harmony, sustain and form exposed in solo guitar. Priority was assigned only after admission. A+ reflects a focused New York performance actively worth making room for. S/S+ are not warranted because the artist's current schedule shows the same solo Etudes / Quietudes program on other 2026 dates and no farewell, premiere, terminal context or otherwise demonstrated nonrecurrence is published. Recent/current RADAR intake was reviewed as a sanity check; S/S+ remain scarcity tiers, and this batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+      "events": [
+        {
+          "id": "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25",
+          "artist": "Wolfgang Muthspiel",
+          "subtitle": "Solo guitar at The Jazz Gallery",
+          "dates": {
+            "start": "2026-09-25",
+            "end": null
+          },
+          "showtimes": [
+            "19:00",
+            "21:00"
+          ],
+          "venue": {
+            "id": "the-jazz-gallery-new-york-ny",
+            "name": "The Jazz Gallery",
+            "city": "New York",
+            "state": "NY",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "New York City",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Solo guitar / composed-improvised repertoire / classical-jazz crossover",
+          "genres": [
+            "Jazz",
+            "Improvised Music",
+            "Contemporary Guitar"
+          ],
+          "musical_axes": [
+            "Instrumental identity",
+            "Improvised",
+            "Cross-genre"
+          ],
+          "lineup": [
+            "Wolfgang Muthspiel — guitar"
+          ],
+          "factual_description": "The Jazz Gallery presents Wolfgang Muthspiel solo on Friday, September 25, 2026, with sets at 7:00 PM and 9:00 PM. The venue describes a guitar program centered on eleven original etudes in which Muthspiel retains improvisation from his jazz practice, with additional works including a J.S. Bach sarabande paired with an improvised section titled “Between Two Sarabandes,” Paul Motian's “Abacus,” and Muthspiel's “For Bill Evans.” The Jazz Gallery labels the program Etudes/Multitudes, while Muthspiel's official concert schedule lists the New York date as Etudes / Quietudes; this batch preserves that source discrepancy rather than inferring a single formal title. General seating is $33 and cabaret seating is $38.50, with member/student discounts listed by the venue; livestream access is $22.",
+          "links": {
+            "official_event": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+            "official_tickets": "https://ci.ovationtix.com/36369/production/1284346"
+          },
+          "tickets": {
+            "currency": "USD",
+            "official": {
+              "minimum": 33,
+              "maximum": 38.5,
+              "source_url": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+              "checked_on": "2026-08-31"
+            },
+            "resale": {
+              "minimum": null,
+              "maximum": null,
+              "url": null,
+              "checked_on": null
+            }
+          },
+          "recommended_listening": [],
+          "enrichment": {
+            "status": "complete",
+            "missing": [],
+            "note": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred."
+          },
+          "sources": [
+            {
+              "url": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+              "publisher": "The Jazz Gallery",
+              "checked_on": "2026-08-31",
+              "note": "Primary exact event page verifies Friday, September 25, 2026; Wolfgang Muthspiel solo guitar; 7:00 PM and 9:00 PM sets; the eleven-etude program description with Bach, Paul Motian and Bill Evans references; $33 general / $38.50 cabaret public seating; $22 livestream; and the venue-linked authorized OvationTix destination."
+            },
+            {
+              "url": "https://www.wolfgangmuthspiel.com/en/concerts/",
+              "publisher": "Wolfgang Muthspiel",
+              "checked_on": "2026-08-31",
+              "note": "Artist's official schedule independently verifies September 25, 2026 at Jazz Gallery, New York City, as Wolfgang Muthspiel Solo and labels the program Etudes / Quietudes. The schedule also shows the solo program on other 2026 dates, supporting the decision not to claim one-off scarcity."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-sources",
+            "note": "Core event facts and program framing were verified directly from The Jazz Gallery and Wolfgang Muthspiel's official schedule. Current curated and processed inbox directories plus repository code search for Wolfgang Muthspiel returned no match before publication; the exact stable ID was selected only after that duplicate check. Priority was assigned after RADAR admission. The differing program labels in the two primary sources are preserved explicitly rather than reconciled by inference."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "This is a guitar-centered listening proposition rather than a generic club date: Muthspiel turns self-written etudes into a framework where classical technique and spontaneous jazz language keep crossing, then folds Bach, Paul Motian and a Bill Evans tribute into the same solo vocabulary. With no rhythm section to diffuse the sound, touch, sustain, harmony and improvisational architecture are the event.",
+              "trip_verdict": "If New York is already in play that Friday, actively make room for The Jazz Gallery and choose either set. From the DMV, pair it with another strong New York reason rather than make a dedicated trip for this touring solo program alone.",
+              "listen_before": null
+            },
+            "es": {
+              "why_it_matters": "Más que una fecha genérica de club, es una propuesta centrada por completo en la guitarra: Muthspiel convierte estudios propios en un marco donde técnica clásica e improvisación jazzística se cruzan continuamente, e integra a Bach, Paul Motian y un homenaje a Bill Evans dentro del mismo vocabulario solista. Sin sección rítmica que reparta el peso, el toque, el sustain, la armonía y la arquitectura improvisada son el espectáculo.",
+              "trip_verdict": "Si Nueva York ya está en juego ese viernes, sí le haría espacio a The Jazz Gallery y elegiría cualquiera de los dos sets. Desde el DMV, lo combinaría con otra razón fuerte para subir a Nueva York en vez de hacer un viaje dedicado exclusivamente por este programa solista en gira.",
+              "listen_before": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/wolfgang-muthspiel-solo-jazz-gallery-2026-08-31-discovery.json",
+      "batch_sha256": "5413bce02a57e72387f19ea79e9512435eced4882415b0604146de5940a05846",
+      "batch_id": "wolfgang-muthspiel-solo-jazz-gallery-2026-08-31-discovery",
+      "event_index": 0,
+      "candidate_event_id": "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25",
+      "candidate_sha256": "e0fb4d815dfc529413aa459258ed9466a82a54dfa613b378d831f448ce4e3d9a",
+      "errors": [
+        "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25 claims complete enrichment but required links or Apple Music are missing"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.missing",
+          "before": [],
+          "after": [
+            "apple_music"
+          ]
+        },
+        {
+          "field": "enrichment.note",
+          "before": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred.",
+          "after": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred. Structural normalization on 2026-09-11: complete normalized to pending because required components are absent; missing recalculated from the links and Apple Music URLs already present. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        {
+          "field": "enrichment.status",
+          "before": "complete",
+          "after": "pending"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25 claims complete enrichment but required links or Apple Music are missing"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": true,
+          "apple_music": false
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "complete",
+          "missing": [],
+          "note": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "complete normalized to pending because required components are absent",
+        "missing recalculated from the links and Apple Music URLs already present"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "807eeca97ff85420446a0266994caf4b64d66dc687cbb6ab6fd2a49cf3c23556"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25",
+        "artist": "Wolfgang Muthspiel",
+        "subtitle": "Solo guitar at The Jazz Gallery",
+        "dates": {
+          "start": "2026-09-25",
+          "end": null
+        },
+        "showtimes": [
+          "19:00",
+          "21:00"
+        ],
+        "venue": {
+          "id": "the-jazz-gallery-new-york-ny",
+          "name": "The Jazz Gallery",
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "New York City",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Solo guitar / composed-improvised repertoire / classical-jazz crossover",
+        "genres": [
+          "Jazz",
+          "Improvised Music",
+          "Contemporary Guitar"
+        ],
+        "musical_axes": [
+          "Instrumental identity",
+          "Improvised",
+          "Cross-genre"
+        ],
+        "lineup": [
+          "Wolfgang Muthspiel — guitar"
+        ],
+        "factual_description": "The Jazz Gallery presents Wolfgang Muthspiel solo on Friday, September 25, 2026, with sets at 7:00 PM and 9:00 PM. The venue describes a guitar program centered on eleven original etudes in which Muthspiel retains improvisation from his jazz practice, with additional works including a J.S. Bach sarabande paired with an improvised section titled “Between Two Sarabandes,” Paul Motian's “Abacus,” and Muthspiel's “For Bill Evans.” The Jazz Gallery labels the program Etudes/Multitudes, while Muthspiel's official concert schedule lists the New York date as Etudes / Quietudes; this batch preserves that source discrepancy rather than inferring a single formal title. General seating is $33 and cabaret seating is $38.50, with member/student discounts listed by the venue; livestream access is $22.",
+        "links": {
+          "official_event": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+          "official_tickets": "https://ci.ovationtix.com/36369/production/1284346"
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": 33,
+            "maximum": 38.5,
+            "source_url": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+            "checked_on": "2026-08-31"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "complete",
+          "missing": [],
+          "note": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred."
+        },
+        "sources": [
+          {
+            "url": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+            "publisher": "The Jazz Gallery",
+            "checked_on": "2026-08-31",
+            "note": "Primary exact event page verifies Friday, September 25, 2026; Wolfgang Muthspiel solo guitar; 7:00 PM and 9:00 PM sets; the eleven-etude program description with Bach, Paul Motian and Bill Evans references; $33 general / $38.50 cabaret public seating; $22 livestream; and the venue-linked authorized OvationTix destination."
+          },
+          {
+            "url": "https://www.wolfgangmuthspiel.com/en/concerts/",
+            "publisher": "Wolfgang Muthspiel",
+            "checked_on": "2026-08-31",
+            "note": "Artist's official schedule independently verifies September 25, 2026 at Jazz Gallery, New York City, as Wolfgang Muthspiel Solo and labels the program Etudes / Quietudes. The schedule also shows the solo program on other 2026 dates, supporting the decision not to claim one-off scarcity."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Core event facts and program framing were verified directly from The Jazz Gallery and Wolfgang Muthspiel's official schedule. Current curated and processed inbox directories plus repository code search for Wolfgang Muthspiel returned no match before publication; the exact stable ID was selected only after that duplicate check. Priority was assigned after RADAR admission. The differing program labels in the two primary sources are preserved explicitly rather than reconciled by inference."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "This is a guitar-centered listening proposition rather than a generic club date: Muthspiel turns self-written etudes into a framework where classical technique and spontaneous jazz language keep crossing, then folds Bach, Paul Motian and a Bill Evans tribute into the same solo vocabulary. With no rhythm section to diffuse the sound, touch, sustain, harmony and improvisational architecture are the event.",
+            "trip_verdict": "If New York is already in play that Friday, actively make room for The Jazz Gallery and choose either set. From the DMV, pair it with another strong New York reason rather than make a dedicated trip for this touring solo program alone.",
+            "listen_before": null
+          },
+          "es": {
+            "why_it_matters": "Más que una fecha genérica de club, es una propuesta centrada por completo en la guitarra: Muthspiel convierte estudios propios en un marco donde técnica clásica e improvisación jazzística se cruzan continuamente, e integra a Bach, Paul Motian y un homenaje a Bill Evans dentro del mismo vocabulario solista. Sin sección rítmica que reparta el peso, el toque, el sustain, la armonía y la arquitectura improvisada son el espectáculo.",
+            "trip_verdict": "Si Nueva York ya está en juego ese viernes, sí le haría espacio a The Jazz Gallery y elegiría cualquiera de los dos sets. Desde el DMV, lo combinaría con otra razón fuerte para subir a Nueva York en vez de hacer un viaje dedicado exclusivamente por este programa solista en gira.",
+            "listen_before": null
+          }
+        }
+      },
+      "after": {
+        "id": "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25",
+        "artist": "Wolfgang Muthspiel",
+        "subtitle": "Solo guitar at The Jazz Gallery",
+        "dates": {
+          "start": "2026-09-25",
+          "end": null
+        },
+        "showtimes": [
+          "19:00",
+          "21:00"
+        ],
+        "venue": {
+          "id": "the-jazz-gallery-new-york-ny",
+          "name": "The Jazz Gallery",
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "New York City",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Solo guitar / composed-improvised repertoire / classical-jazz crossover",
+        "genres": [
+          "Jazz",
+          "Improvised Music",
+          "Contemporary Guitar"
+        ],
+        "musical_axes": [
+          "Instrumental identity",
+          "Improvised",
+          "Cross-genre"
+        ],
+        "lineup": [
+          "Wolfgang Muthspiel — guitar"
+        ],
+        "factual_description": "The Jazz Gallery presents Wolfgang Muthspiel solo on Friday, September 25, 2026, with sets at 7:00 PM and 9:00 PM. The venue describes a guitar program centered on eleven original etudes in which Muthspiel retains improvisation from his jazz practice, with additional works including a J.S. Bach sarabande paired with an improvised section titled “Between Two Sarabandes,” Paul Motian's “Abacus,” and Muthspiel's “For Bill Evans.” The Jazz Gallery labels the program Etudes/Multitudes, while Muthspiel's official concert schedule lists the New York date as Etudes / Quietudes; this batch preserves that source discrepancy rather than inferring a single formal title. General seating is $33 and cabaret seating is $38.50, with member/student discounts listed by the venue; livestream access is $22.",
+        "links": {
+          "official_event": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+          "official_tickets": "https://ci.ovationtix.com/36369/production/1284346"
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": 33,
+            "maximum": 38.5,
+            "source_url": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+            "checked_on": "2026-08-31"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "apple_music"
+          ],
+          "note": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred. Structural normalization on 2026-09-11: complete normalized to pending because required components are absent; missing recalculated from the links and Apple Music URLs already present. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "url": "https://jazzgallery.org/calendar/wolfgang-muthspiel-sept-25-2026",
+            "publisher": "The Jazz Gallery",
+            "checked_on": "2026-08-31",
+            "note": "Primary exact event page verifies Friday, September 25, 2026; Wolfgang Muthspiel solo guitar; 7:00 PM and 9:00 PM sets; the eleven-etude program description with Bach, Paul Motian and Bill Evans references; $33 general / $38.50 cabaret public seating; $22 livestream; and the venue-linked authorized OvationTix destination."
+          },
+          {
+            "url": "https://www.wolfgangmuthspiel.com/en/concerts/",
+            "publisher": "Wolfgang Muthspiel",
+            "checked_on": "2026-08-31",
+            "note": "Artist's official schedule independently verifies September 25, 2026 at Jazz Gallery, New York City, as Wolfgang Muthspiel Solo and labels the program Etudes / Quietudes. The schedule also shows the solo program on other 2026 dates, supporting the decision not to claim one-off scarcity."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Core event facts and program framing were verified directly from The Jazz Gallery and Wolfgang Muthspiel's official schedule. Current curated and processed inbox directories plus repository code search for Wolfgang Muthspiel returned no match before publication; the exact stable ID was selected only after that duplicate check. Priority was assigned after RADAR admission. The differing program labels in the two primary sources are preserved explicitly rather than reconciled by inference."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "This is a guitar-centered listening proposition rather than a generic club date: Muthspiel turns self-written etudes into a framework where classical technique and spontaneous jazz language keep crossing, then folds Bach, Paul Motian and a Bill Evans tribute into the same solo vocabulary. With no rhythm section to diffuse the sound, touch, sustain, harmony and improvisational architecture are the event.",
+            "trip_verdict": "If New York is already in play that Friday, actively make room for The Jazz Gallery and choose either set. From the DMV, pair it with another strong New York reason rather than make a dedicated trip for this touring solo program alone.",
+            "listen_before": null
+          },
+          "es": {
+            "why_it_matters": "Más que una fecha genérica de club, es una propuesta centrada por completo en la guitarra: Muthspiel convierte estudios propios en un marco donde técnica clásica e improvisación jazzística se cruzan continuamente, e integra a Bach, Paul Motian y un homenaje a Bill Evans dentro del mismo vocabulario solista. Sin sección rítmica que reparta el peso, el toque, el sustain, la armonía y la arquitectura improvisada son el espectáculo.",
+            "trip_verdict": "Si Nueva York ya está en juego ese viernes, sí le haría espacio a The Jazz Gallery y elegiría cualquiera de los dos sets. Desde el DMV, lo combinaría con otra razón fuerte para subir a Nueva York en vez de hacer un viaje dedicado exclusivamente por este programa solista en gira.",
+            "listen_before": null
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/wolfgang-muthspiel-solo-jazz-gallery-2026-08-31-discovery.json",
+        "batch_sha256": "5413bce02a57e72387f19ea79e9512435eced4882415b0604146de5940a05846",
+        "batch_id": "wolfgang-muthspiel-solo-jazz-gallery-2026-08-31-discovery",
+        "event_index": 0,
+        "candidate_event_id": "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25",
+        "candidate_sha256": "e0fb4d815dfc529413aa459258ed9466a82a54dfa613b378d831f448ce4e3d9a",
+        "errors": [
+          "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25 claims complete enrichment but required links or Apple Music are missing"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.missing",
+            "before": [],
+            "after": [
+              "apple_music"
+            ]
+          },
+          {
+            "field": "enrichment.note",
+            "before": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred.",
+            "after": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred. Structural normalization on 2026-09-11: complete normalized to pending because required components are absent; missing recalculated from the links and Apple Music URLs already present. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          },
+          {
+            "field": "enrichment.status",
+            "before": "complete",
+            "after": "pending"
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25 claims complete enrichment but required links or Apple Music are missing"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": true,
+            "apple_music": false
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "complete",
+            "missing": [],
+            "note": "The exact Jazz Gallery event page verifies date, two set times, solo guitar billing, repertoire description, public seating prices, livestream price and the authorized OvationTix destination. Wolfgang Muthspiel's official concert schedule independently verifies the September 25 Jazz Gallery stop and labels the solo program Etudes / Quietudes. No Apple Music destination, premiere claim, guest personnel or scarcity fact is inferred."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "complete normalized to pending because required components are absent",
+          "missing recalculated from the links and Apple Music URLs already present"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "807eeca97ff85420446a0266994caf4b64d66dc687cbb6ab6fd2a49cf3c23556"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/wolfgang-muthspiel-solo-jazz-gallery-2026-08-31-discovery.json",
+    "active_events": [
+      {
+        "id": "wolfgang-muthspiel-solo-jazz-gallery-new-york-2026-09-25",
+        "sha256": "807eeca97ff85420446a0266994caf4b64d66dc687cbb6ab6fd2a49cf3c23556"
+      }
+    ]
+  }
+}

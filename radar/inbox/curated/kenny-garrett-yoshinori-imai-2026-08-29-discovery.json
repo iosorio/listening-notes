@@ -8,16 +8,39 @@
       "id": "yoshinori-imai-abide-in-grace-blues-alley-japan-2026-11-03",
       "artist": "Yoshinori Imai",
       "subtitle": "2nd Album Release Live — Abide in Grace",
-      "dates": {"start": "2026-11-03", "end": null},
-      "showtimes": ["16:00", "19:30"],
-      "venue": {"id": "blues-alley-japan-meguro", "name": "BLUES ALLEY JAPAN", "city": "Meguro, Tokyo", "state": "Tokyo", "country": "JP"},
+      "dates": {
+        "start": "2026-11-03",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:30"
+      ],
+      "venue": {
+        "id": "blues-alley-japan-meguro",
+        "name": "BLUES ALLEY JAPAN",
+        "city": "Meguro, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
       "geographic_domain": "tokyo_kanto",
       "geography": "Greater Tokyo / Kanto",
       "status": "considering",
       "priority": "A",
       "category": "Japanese fusion / drummer-led album-release quintet",
-      "genres": ["Fusion", "Jazz", "Instrumental", "Jazz-rock"],
-      "musical_axes": ["Japan/Tokyo", "Fusion / Prog", "Groove", "Instrumental identity", "Cultural context"],
+      "genres": [
+        "Fusion",
+        "Jazz",
+        "Instrumental",
+        "Jazz-rock"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Fusion / Prog",
+        "Groove",
+        "Instrumental identity",
+        "Cultural context"
+      ],
       "lineup": [
         "Yoshinori Imai — drums",
         "Masato Honda — saxophone",
@@ -32,9 +55,12 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "partial",
-        "missing": ["stable standalone reservation URL", "apple_music"],
-        "note": "Both set times, venue, complete quintet and album-release billing are verified from BLUES ALLEY JAPAN and corroborated by Mitsuru Sutoh's current schedule. The venue currently lists advance table seats at ¥7,000, with higher-priced plate and dinner sets, but its reservation control is embedded in the event page; no separate purchase URL or unreleased Apple Music destination is invented."
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Both set times, venue, complete quintet and album-release billing are verified from BLUES ALLEY JAPAN and corroborated by Mitsuru Sutoh's current schedule. The venue currently lists advance table seats at ¥7,000, with higher-priced plate and dinner sets, but its reservation control is embedded in the event page; no separate purchase URL or unreleased Apple Music destination is invented. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: stable standalone reservation URL. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

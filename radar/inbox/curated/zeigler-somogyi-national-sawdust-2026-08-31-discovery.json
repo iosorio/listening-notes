@@ -54,10 +54,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "face_value_price",
           "apple_music"
         ],
-        "note": "National Sawdust verifies both performance dates, doors and start times, world-premiere and album-release status, the cello/electronics/dance construction, composers, choreographer and production partners. VisionIntoArt independently verifies the creative team and planned post-premiere touring. The authorized AudienceView/OvationTix destination is linked from National Sawdust. No face-value price is exposed in the retrievable ticket page, and the album is announced for September 18 but no exact Apple Music destination is yet verifiable, so neither is invented."
+        "note": "National Sawdust verifies both performance dates, doors and start times, world-premiere and album-release status, the cello/electronics/dance construction, composers, choreographer and production partners. VisionIntoArt independently verifies the creative team and planned post-premiere touring. The authorized AudienceView/OvationTix destination is linked from National Sawdust. No face-value price is exposed in the retrievable ticket page, and the album is announced for September 18 but no exact Apple Music destination is yet verifiable, so neither is invented. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: face_value_price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -99,101 +98,6 @@
           "why_it_matters": "Éste es el momento en que un proyecto desarrollado durante años se convierte en obra pública. Zeigler pone al violonchelo en el centro de un recorrido por la tradición griot, la memoria Gullah y la Gran Migración, y deja que la electrónica y el movimiento Flexn de Regg Roc lleven esa historia a un lenguaje escénico contemporáneo. La música nueva de Tamar-kali, Etienne Charles, Hannah Ishizaki y Zeigler evita que el proyecto funcione como una lección histórica ilustrada: el estreno plantea en vivo cómo un instrumento, un cuerpo y un archivo pueden contener la diáspora al mismo tiempo.",
           "trip_verdict": "Si Nueva York es viable ese fin de semana, sí le haría espacio activamente al estreno del viernes o a la matiné del sábado y lo combinaría con otra razón para estar en Brooklyn o Manhattan. La segunda función da flexibilidad útil sin restarle valor a ver la obra justo cuando entra a la vida pública.",
           "listen_before": "We Were Fridays — el álbum se publica el 18 de septiembre de 2026; no hay todavía un enlace de Apple Music verificado"
-        }
-      }
-    },
-    {
-      "id": "lara-somogyi-a-time-patterned-national-sawdust-brooklyn-2026-09-11",
-      "artist": "Lara Somogyi",
-      "subtitle": "a [time] patterned — NYC premiere",
-      "dates": {
-        "start": "2026-09-11",
-        "end": null
-      },
-      "showtimes": [
-        "19:30"
-      ],
-      "venue": {
-        "id": "national-sawdust-brooklyn-ny",
-        "name": "National Sawdust",
-        "city": "Brooklyn",
-        "state": "NY",
-        "country": "US"
-      },
-      "geographic_domain": "us_corridor",
-      "geography": "Trip",
-      "status": "considering",
-      "priority": "A",
-      "category": "Contemporary harp / electronics / time-based electroacoustic composition",
-      "genres": [
-        "Contemporary Classical",
-        "Experimental Music",
-        "Electronic",
-        "Ambient"
-      ],
-      "musical_axes": [
-        "Instrumental identity",
-        "Cross-genre",
-        "Experimental / Metal"
-      ],
-      "lineup": [
-        "Lara Somogyi — harp; performer-composer"
-      ],
-      "factual_description": "National Sawdust presents the New York premiere of Lara Somogyi's a [time] patterned on Friday, September 11, 2026, with 18:30 doors and a 19:30 performance. The venue describes the newly released full-length work as contemporary harp music built from pedal textures and electronics, virtuosic arpeggios, tape processes, ambient processing, extended harp techniques, string-orchestra language and field recordings. National Sawdust also documents Somogyi's established practice of integrating electronics and pedal effects with classical harp and identifies her solo compositions for harp and electronics. Apple Music verifies a [time] patterned as an 11-track, 35-minute 2026 album released August 28 on Mercury KX, with Somogyi credited on harp. The accessible event page does not announce additional live instrumental personnel, so none are inferred.",
-      "links": {
-        "official_event": "https://www.nationalsawdust.org/event/lara-somogyi-a-time-patterned-nyc-premiere",
-        "official_tickets": "https://ci.ovationtix.com/36490/production/1275165"
-      },
-      "recommended_listening": [
-        {
-          "artist": "Lara Somogyi",
-          "title": "a [time] patterned",
-          "kind": "album",
-          "apple_music_url": "https://music.apple.com/us/album/a-time-patterned/1893033792"
-        }
-      ],
-      "enrichment": {
-        "status": "pending",
-        "missing": [
-          "face_value_price",
-          "additional_live_personnel_if_any"
-        ],
-        "note": "National Sawdust verifies the exact date, 18:30 doors, 19:30 start, NYC-premiere framing, project description and Somogyi's harp/electronics practice. The authorized AudienceView/OvationTix destination is linked by the venue. Apple Music verifies the exact album and release date. No face-value price is exposed in the retrievable ticket page, and the event page does not identify additional live musicians, so neither is invented."
-      },
-      "sources": [
-        {
-          "url": "https://www.nationalsawdust.org/event/lara-somogyi-a-time-patterned-nyc-premiere",
-          "publisher": "National Sawdust",
-          "checked_on": "2026-08-31",
-          "note": "Primary presenter page verifies September 11, 18:30 doors, 19:30 start, New York premiere status, project/instrumental design, Somogyi's harp/electronics practice and the authorized ticket link."
-        },
-        {
-          "url": "https://ci.ovationtix.com/36490/production/1275165",
-          "publisher": "AudienceView Professional / National Sawdust authorized ticketing",
-          "checked_on": "2026-08-31",
-          "note": "Authorized ticket destination linked directly from the National Sawdust event page."
-        },
-        {
-          "url": "https://music.apple.com/us/album/a-time-patterned/1893033792",
-          "publisher": "Apple Music",
-          "checked_on": "2026-08-31",
-          "note": "Exact Apple Music page verifies a [time] patterned as Lara Somogyi's 11-track 2026 album, released August 28, with Somogyi credited on harp."
-        }
-      ],
-      "provenance": {
-        "status": "verified-primary-and-authorized-sources",
-        "note": "Event facts and NYC-premiere framing were verified from National Sawdust and its authorized ticket destination; Apple Music verifies the exact listening link. Repository-wide searches for Lara Somogyi, Somogyi and a [time] patterned returned no matching canonical, curated or processed RADAR event before publication. Priority A was assigned only after Stage 1 admission: the New York premiere and unusually specific harp/electronics language warrant RADAR inclusion, while a multi-city release cycle and ongoing project do not require active-priority or scarcity language. No additional performers or ticket price were inferred."
-      },
-      "editorial": {
-        "en": {
-          "why_it_matters": "Somogyi treats the harp less as a historical timbre than as a time machine: pedal mechanics, loops, delays, granular repetition and field sound let the instrument accumulate and fracture patterns while the acoustic strings remain physically present. The New York premiere matters because it puts that newly released studio architecture back into live space, where touch, resonance and processing have to coexist in real time rather than as a purely produced texture.",
-          "trip_verdict": "If September 11 already places you in New York, this is a strong National Sawdust option to fold into the evening if it fits cleanly. I would not make the corridor trip depend on this date alone, but it is exactly the sort of instrument-centered premiere worth keeping visible.",
-          "listen_before": "Lara Somogyi — a [time] patterned"
-        },
-        "es": {
-          "why_it_matters": "Somogyi trata el arpa menos como un timbre histórico que como una máquina del tiempo: mecanismos de pedal, loops, delays, repetición granular y sonido de campo permiten que el instrumento acumule y fracture patrones mientras las cuerdas acústicas siguen físicamente presentes. El estreno en Nueva York importa porque devuelve esa arquitectura recién publicada al espacio en vivo, donde tacto, resonancia y procesamiento tienen que convivir en tiempo real y no sólo como textura de estudio.",
-          "trip_verdict": "Si el 11 de septiembre ya te pone en Nueva York, es una muy buena opción de National Sawdust para integrar a la noche si embona limpiamente. No haría depender el viaje por el corredor de esta fecha sola, pero sí es exactamente el tipo de estreno centrado en identidad instrumental que vale mantener visible.",
-          "listen_before": "Lara Somogyi — a [time] patterned"
         }
       }
     }

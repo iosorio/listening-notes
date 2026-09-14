@@ -60,10 +60,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_tickets",
-          "additional_live_personnel"
+          "official_tickets"
         ],
-        "note": "Blue Note routes the four individual sets to authorized TicketWeb purchase destinations, so official_tickets remains null rather than pretending a single set-specific link covers the full engagement. The official event page does not publish additional live personnel, and none are inferred from the album credits. The Apple Music album destination is the exact GB relation recorded for this release by MusicBrainz; no US Apple Music identifier was invented."
+        "note": "Blue Note routes the four individual sets to authorized TicketWeb purchase destinations, so official_tickets remains null rather than pretending a single set-specific link covers the full engagement. The official event page does not publish additional live personnel, and none are inferred from the album credits. The Apple Music album destination is the exact GB relation recorded for this release by MusicBrainz; no US Apple Music identifier was invented. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: additional_live_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/rodrigo-y-gabriela-ourhome-zepp-divercity-2027-01-25-discovery.json",
+    "sha256": "26caa5087473b4889d1d050773e5274bbc18a0c17d1d17a5e223dfbdbade0851",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"rodrigo-y-gabriela-ourhome-zepp-divercity-2027-01-25-discovery\",\n  \"checked_on\": \"2026-09-03\",\n  \"reviewed_by\": \"RADAR automation editorial review\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto sources, including Jazz House ALFIE-oriented searches, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz listings produced no new verified unrepresented Yamamoto appearance; the September 26 BODY&SOUL finale is already represented in processed/curated intake. Broader Tokyo/Kanto research found Rodrigo y Gabriela's January 25, 2027 OurHome Tour date at Zepp DiverCity (TOKYO). Repository searches for Zepp DiverCity, January 25 2027, and the proposed stable event identity found no matching canonical/curated/processed event before publication; the repo does already contain the duo's October 20, 2026 Washington, DC OurHome Tour stop, so this Tokyo candidate was admitted only after a separate performance-specific geographic/editorial review. Stage 1 admits the Tokyo performance because OurHome was self-produced and recorded at NK Sound Tokyo with Japan-linked collaborators including Hiromi and Marty Friedman, while the project also incorporates a Naoki Urasawa connection; the Tokyo date therefore returns a Japan-shaped album to the city where it was made, creating a concrete Mexico-Japan cultural-exchange and instrumental-identity reason beyond a routine tour stop. Stage 2 assigns A+: that return context, the duo's two-guitar live identity, and the direct Japan thread merit actively making room for the show. Scarcity was challenged: the official Japanese itinerary includes Tokyo, Nagoya, and Osaka on three consecutive nights, the duo toured Japan in 2025, and no source frames Tokyo as a farewell, premiere, or unique final opportunity, so A+ is sufficient and no S/S+ priority_review is warranted. Recent 2026-09-03 intake already contains numerous A+ candidates alongside A, so this proposal was explicitly challenged against A rather than allowed to drift upward; A+ is retained because the Tokyo performance has a stronger event-specific cultural-exchange context than a generic OurHome tour stop. This batch adds A 0 / A+ 1 / S 0 / S+ 0 without using distribution as a quota.\",\n  \"events\": [\n    {\n      \"id\": \"rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25\",\n      \"artist\": \"Rodrigo y Gabriela\",\n      \"subtitle\": \"OurHome Tour — Tokyo\",\n      \"dates\": {\n        \"start\": \"2027-01-25\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"19:00\"\n      ],\n      \"venue\": {\n        \"id\": \"zepp-divercity-tokyo-koto\",\n        \"name\": \"Zepp DiverCity (TOKYO)\",\n        \"city\": \"Koto City, Tokyo\",\n        \"state\": \"Tokyo\",\n        \"country\": \"JP\"\n      },\n      \"geographic_domain\": \"tokyo_kanto\",\n      \"geography\": \"Tokyo\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Instrumental guitar duo / Mexico-Japan cultural exchange / New album tour\",\n      \"genres\": [\n        \"Instrumental rock\",\n        \"Acoustic guitar\",\n        \"Latin\",\n        \"Flamenco-influenced\",\n        \"Progressive rock\"\n      ],\n      \"musical_axes\": [\n        \"Japan / Tokyo\",\n        \"Latin\",\n        \"Fusion / Prog\"\n      ],\n      \"lineup\": [\n        \"Rodrigo Sánchez — guitar\",\n        \"Gabriela Quintero — guitar\"\n      ],\n      \"factual_description\": \"Udo Music Office presents Rodrigo y Gabriela's OurHome Tour at Zepp DiverCity (TOKYO) on Monday, January 25, 2027, with doors at 6:00 PM and the performance at 7:00 PM. The official promoter page lists reserved 1F-front/2F seats at ¥14,000 and rear-1F standing tickets at ¥13,000, with a separate drink charge. The same official itinerary continues to Nagoya on January 26 and Osaka on January 27. Udo and Rodrigo y Gabriela's own album materials state that OurHome was self-produced and recorded at NK Sound Tokyo and includes Japan-linked collaborators such as Hiromi and Marty Friedman; Udo also documents the project's Naoki Urasawa connection. Those album collaborators are not announced as live guests for Zepp DiverCity, so the event lineup records only Rodrigo Sánchez and Gabriela Quintero.\",\n      \"links\": {\n        \"official_event\": \"https://www.udo.jp/shows/RodrigoyGabriela27\",\n        \"official_tickets\": \"https://www.udo.jp/shows/RodrigoyGabriela27\"\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Rodrigo y Gabriela\",\n          \"title\": \"OurHome\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/ourhome/6769249140\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"complete\",\n        \"missing\": [],\n        \"note\": \"Exact official promoter/ticket page verifies the Tokyo date, venue, doors, start time, face-value ticket range and the three-city Japanese itinerary. Rodrigo y Gabriela's primary album page verifies the NK Sound Tokyo recording context and Japan-linked guest musicians; Apple Music provides the exact OurHome album destination. The Zepp venue page verifies the venue's Koto City address. No unannounced live guests, resale pricing, or alternate ticket destination is inferred.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.udo.jp/shows/RodrigoyGabriela27\",\n          \"publisher\": \"Udo Music Office\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Official promoter and ticket page confirms January 25, 2027 at Zepp DiverCity (TOKYO), doors 18:00, show 19:00, ¥14,000 reserved and ¥13,000 standing face-value tickets, the Tokyo/Nagoya/Osaka itinerary, and the OurHome album's NK Sound Tokyo/Japan-collaboration context.\"\n        },\n        {\n          \"url\": \"https://shop.rodgab.com/products/ourhome-lp\",\n          \"publisher\": \"Rodrigo y Gabriela\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Primary artist store page for OurHome confirms that the album was self-produced at NK Sound Tokyo, names Marty Friedman and Hiromi among the guests, and describes Japan as a recurring source of inspiration for the project.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/ourhome/6769249140\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Exact Apple Music page verifies OurHome by Rodrigo y Gabriela with a September 18, 2026 release date.\"\n        },\n        {\n          \"url\": \"https://www.zepp.co.jp/hall/divercity/\",\n          \"publisher\": \"Zepp Hall Network\",\n          \"checked_on\": \"2026-09-03\",\n          \"note\": \"Official venue page verifies the Zepp DiverCity (TOKYO) identity and address at DiverCity Tokyo Plaza, 1-1-10 Aomi, Koto City, Tokyo.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-promoter-artist-venue-and-apple-sources\",\n        \"note\": \"Core event facts, ticket prices and Japan-tour structure are verified directly from Udo Music Office; the album's Tokyo recording and Japan-collaboration context is verified from primary artist materials; venue identity is verified from Zepp and listening from Apple Music. Repository searches found the existing October 20, 2026 Washington, DC OurHome Tour event but no January 25, 2027 Zepp DiverCity event or matching date/venue candidate before publication. The Tokyo entry is therefore treated as a distinct domain-specific event rather than a duplicate. No album guest is represented as a live guest unless a concert source announces them.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"The Tokyo date closes a loop that the Washington stop cannot. OurHome was made at NK Sound Tokyo and draws Japanese musicians and visual culture into Rodrigo y Gabriela's two-guitar language; bringing that material back to Tokyo makes the cultural exchange part of the live context rather than background biography. The duo's percussive acoustic attack already sits naturally between Latin groove, metal-derived precision and instrumental conversation, and this is the city where the new record's Japan thread becomes most legible onstage.\",\n          \"trip_verdict\": \"If January overlaps with Tokyo, actively make room for the Zepp DiverCity night and build the evening around it. The three-city Japan run means there is no need to rebuild a larger itinerary around January 25 specifically, but the Tokyo date is the most direct place to hear this Japan-made album return to its recording context.\",\n          \"listen_before\": \"Rodrigo y Gabriela — OurHome\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"La fecha de Tokio cierra un círculo que la parada de Washington no puede cerrar. OurHome se hizo en NK Sound Tokyo y mete músicos y cultura visual japonesa dentro del lenguaje de dos guitarras de Rodrigo y Gabriela; llevar ese material de regreso a Tokio convierte el intercambio cultural en parte del contexto en vivo, no en un dato biográfico. El ataque acústico y percusivo del dúo ya vive naturalmente entre groove latino, precisión nacida del metal y conversación instrumental, y ésta es la ciudad donde el hilo japonés del disco nuevo se vuelve más claro sobre el escenario.\",\n          \"trip_verdict\": \"Si enero coincide con Tokio, sí le haría espacio activamente a la noche de Zepp DiverCity y armaría la velada alrededor del concierto. La gira japonesa de tres ciudades evita que haya que rehacer un itinerario mayor alrededor del 25 de enero en particular, pero Tokio es el lugar más directo para escuchar cómo este disco hecho en Japón regresa al contexto donde se grabó.\",\n          \"listen_before\": \"Rodrigo y Gabriela — OurHome\"\n        }\n      }\n    }\n  ]\n}\n",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "rodrigo-y-gabriela-ourhome-zepp-divercity-2027-01-25-discovery",
+      "checked_on": "2026-09-03",
+      "reviewed_by": "RADAR automation editorial review",
+      "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before research or grading. Fresh checks of Tsuyoshi Yamamoto sources, including Jazz House ALFIE-oriented searches, BODY&SOUL, Space M&A, current schedule traces, and credible Japanese-jazz listings produced no new verified unrepresented Yamamoto appearance; the September 26 BODY&SOUL finale is already represented in processed/curated intake. Broader Tokyo/Kanto research found Rodrigo y Gabriela's January 25, 2027 OurHome Tour date at Zepp DiverCity (TOKYO). Repository searches for Zepp DiverCity, January 25 2027, and the proposed stable event identity found no matching canonical/curated/processed event before publication; the repo does already contain the duo's October 20, 2026 Washington, DC OurHome Tour stop, so this Tokyo candidate was admitted only after a separate performance-specific geographic/editorial review. Stage 1 admits the Tokyo performance because OurHome was self-produced and recorded at NK Sound Tokyo with Japan-linked collaborators including Hiromi and Marty Friedman, while the project also incorporates a Naoki Urasawa connection; the Tokyo date therefore returns a Japan-shaped album to the city where it was made, creating a concrete Mexico-Japan cultural-exchange and instrumental-identity reason beyond a routine tour stop. Stage 2 assigns A+: that return context, the duo's two-guitar live identity, and the direct Japan thread merit actively making room for the show. Scarcity was challenged: the official Japanese itinerary includes Tokyo, Nagoya, and Osaka on three consecutive nights, the duo toured Japan in 2025, and no source frames Tokyo as a farewell, premiere, or unique final opportunity, so A+ is sufficient and no S/S+ priority_review is warranted. Recent 2026-09-03 intake already contains numerous A+ candidates alongside A, so this proposal was explicitly challenged against A rather than allowed to drift upward; A+ is retained because the Tokyo performance has a stronger event-specific cultural-exchange context than a generic OurHome tour stop. This batch adds A 0 / A+ 1 / S 0 / S+ 0 without using distribution as a quota.",
+      "events": [
+        {
+          "id": "rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25",
+          "artist": "Rodrigo y Gabriela",
+          "subtitle": "OurHome Tour — Tokyo",
+          "dates": {
+            "start": "2027-01-25",
+            "end": null
+          },
+          "showtimes": [
+            "19:00"
+          ],
+          "venue": {
+            "id": "zepp-divercity-tokyo-koto",
+            "name": "Zepp DiverCity (TOKYO)",
+            "city": "Koto City, Tokyo",
+            "state": "Tokyo",
+            "country": "JP"
+          },
+          "geographic_domain": "tokyo_kanto",
+          "geography": "Tokyo",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Instrumental guitar duo / Mexico-Japan cultural exchange / New album tour",
+          "genres": [
+            "Instrumental rock",
+            "Acoustic guitar",
+            "Latin",
+            "Flamenco-influenced",
+            "Progressive rock"
+          ],
+          "musical_axes": [
+            "Japan / Tokyo",
+            "Latin",
+            "Fusion / Prog"
+          ],
+          "lineup": [
+            "Rodrigo Sánchez — guitar",
+            "Gabriela Quintero — guitar"
+          ],
+          "factual_description": "Udo Music Office presents Rodrigo y Gabriela's OurHome Tour at Zepp DiverCity (TOKYO) on Monday, January 25, 2027, with doors at 6:00 PM and the performance at 7:00 PM. The official promoter page lists reserved 1F-front/2F seats at ¥14,000 and rear-1F standing tickets at ¥13,000, with a separate drink charge. The same official itinerary continues to Nagoya on January 26 and Osaka on January 27. Udo and Rodrigo y Gabriela's own album materials state that OurHome was self-produced and recorded at NK Sound Tokyo and includes Japan-linked collaborators such as Hiromi and Marty Friedman; Udo also documents the project's Naoki Urasawa connection. Those album collaborators are not announced as live guests for Zepp DiverCity, so the event lineup records only Rodrigo Sánchez and Gabriela Quintero.",
+          "links": {
+            "official_event": "https://www.udo.jp/shows/RodrigoyGabriela27",
+            "official_tickets": "https://www.udo.jp/shows/RodrigoyGabriela27"
+          },
+          "recommended_listening": [
+            {
+              "artist": "Rodrigo y Gabriela",
+              "title": "OurHome",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/ourhome/6769249140"
+            }
+          ],
+          "enrichment": {
+            "status": "complete",
+            "missing": [],
+            "note": "Exact official promoter/ticket page verifies the Tokyo date, venue, doors, start time, face-value ticket range and the three-city Japanese itinerary. Rodrigo y Gabriela's primary album page verifies the NK Sound Tokyo recording context and Japan-linked guest musicians; Apple Music provides the exact OurHome album destination. The Zepp venue page verifies the venue's Koto City address. No unannounced live guests, resale pricing, or alternate ticket destination is inferred."
+          },
+          "sources": [
+            {
+              "url": "https://www.udo.jp/shows/RodrigoyGabriela27",
+              "publisher": "Udo Music Office",
+              "checked_on": "2026-09-03",
+              "note": "Official promoter and ticket page confirms January 25, 2027 at Zepp DiverCity (TOKYO), doors 18:00, show 19:00, ¥14,000 reserved and ¥13,000 standing face-value tickets, the Tokyo/Nagoya/Osaka itinerary, and the OurHome album's NK Sound Tokyo/Japan-collaboration context."
+            },
+            {
+              "url": "https://shop.rodgab.com/products/ourhome-lp",
+              "publisher": "Rodrigo y Gabriela",
+              "checked_on": "2026-09-03",
+              "note": "Primary artist store page for OurHome confirms that the album was self-produced at NK Sound Tokyo, names Marty Friedman and Hiromi among the guests, and describes Japan as a recurring source of inspiration for the project."
+            },
+            {
+              "url": "https://music.apple.com/us/album/ourhome/6769249140",
+              "publisher": "Apple Music",
+              "checked_on": "2026-09-03",
+              "note": "Exact Apple Music page verifies OurHome by Rodrigo y Gabriela with a September 18, 2026 release date."
+            },
+            {
+              "url": "https://www.zepp.co.jp/hall/divercity/",
+              "publisher": "Zepp Hall Network",
+              "checked_on": "2026-09-03",
+              "note": "Official venue page verifies the Zepp DiverCity (TOKYO) identity and address at DiverCity Tokyo Plaza, 1-1-10 Aomi, Koto City, Tokyo."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-promoter-artist-venue-and-apple-sources",
+            "note": "Core event facts, ticket prices and Japan-tour structure are verified directly from Udo Music Office; the album's Tokyo recording and Japan-collaboration context is verified from primary artist materials; venue identity is verified from Zepp and listening from Apple Music. Repository searches found the existing October 20, 2026 Washington, DC OurHome Tour event but no January 25, 2027 Zepp DiverCity event or matching date/venue candidate before publication. The Tokyo entry is therefore treated as a distinct domain-specific event rather than a duplicate. No album guest is represented as a live guest unless a concert source announces them."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "The Tokyo date closes a loop that the Washington stop cannot. OurHome was made at NK Sound Tokyo and draws Japanese musicians and visual culture into Rodrigo y Gabriela's two-guitar language; bringing that material back to Tokyo makes the cultural exchange part of the live context rather than background biography. The duo's percussive acoustic attack already sits naturally between Latin groove, metal-derived precision and instrumental conversation, and this is the city where the new record's Japan thread becomes most legible onstage.",
+              "trip_verdict": "If January overlaps with Tokyo, actively make room for the Zepp DiverCity night and build the evening around it. The three-city Japan run means there is no need to rebuild a larger itinerary around January 25 specifically, but the Tokyo date is the most direct place to hear this Japan-made album return to its recording context.",
+              "listen_before": "Rodrigo y Gabriela — OurHome"
+            },
+            "es": {
+              "why_it_matters": "La fecha de Tokio cierra un círculo que la parada de Washington no puede cerrar. OurHome se hizo en NK Sound Tokyo y mete músicos y cultura visual japonesa dentro del lenguaje de dos guitarras de Rodrigo y Gabriela; llevar ese material de regreso a Tokio convierte el intercambio cultural en parte del contexto en vivo, no en un dato biográfico. El ataque acústico y percusivo del dúo ya vive naturalmente entre groove latino, precisión nacida del metal y conversación instrumental, y ésta es la ciudad donde el hilo japonés del disco nuevo se vuelve más claro sobre el escenario.",
+              "trip_verdict": "Si enero coincide con Tokio, sí le haría espacio activamente a la noche de Zepp DiverCity y armaría la velada alrededor del concierto. La gira japonesa de tres ciudades evita que haya que rehacer un itinerario mayor alrededor del 25 de enero en particular, pero Tokio es el lugar más directo para escuchar cómo este disco hecho en Japón regresa al contexto donde se grabó.",
+              "listen_before": "Rodrigo y Gabriela — OurHome"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/rodrigo-y-gabriela-ourhome-zepp-divercity-2027-01-25-discovery.json",
+      "batch_sha256": "26caa5087473b4889d1d050773e5274bbc18a0c17d1d17a5e223dfbdbade0851",
+      "batch_id": "rodrigo-y-gabriela-ourhome-zepp-divercity-2027-01-25-discovery",
+      "event_index": 0,
+      "candidate_event_id": "rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25",
+      "candidate_sha256": "9236e3f946586f3ffaa0b92174d1b39c7e3629741a96c9b87cb3b1b5ca7b9e8c",
+      "errors": [
+        "rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25 claims complete enrichment but required links or Apple Music are missing"
+      ],
+      "action": "review_validation",
+      "proposed_diff": [],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25 claims complete enrichment but required links or Apple Music are missing"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": true,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "complete",
+          "missing": [],
+          "note": "Exact official promoter/ticket page verifies the Tokyo date, venue, doors, start time, face-value ticket range and the three-city Japanese itinerary. Rodrigo y Gabriela's primary album page verifies the NK Sound Tokyo recording context and Japan-linked guest musicians; Apple Music provides the exact OurHome album destination. The Zepp venue page verifies the venue's Koto City address. No unannounced live guests, resale pricing, or alternate ticket destination is inferred."
+        }
+      ],
+      "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+      "can_remain_active": false,
+      "materialization": "apply"
+    }
+  ],
+  "automatic_repairs": [],
+  "review_candidates": [
+    {
+      "original_event": {
+        "id": "rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25",
+        "artist": "Rodrigo y Gabriela",
+        "subtitle": "OurHome Tour — Tokyo",
+        "dates": {
+          "start": "2027-01-25",
+          "end": null
+        },
+        "showtimes": [
+          "19:00"
+        ],
+        "venue": {
+          "id": "zepp-divercity-tokyo-koto",
+          "name": "Zepp DiverCity (TOKYO)",
+          "city": "Koto City, Tokyo",
+          "state": "Tokyo",
+          "country": "JP"
+        },
+        "geographic_domain": "tokyo_kanto",
+        "geography": "Tokyo",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Instrumental guitar duo / Mexico-Japan cultural exchange / New album tour",
+        "genres": [
+          "Instrumental rock",
+          "Acoustic guitar",
+          "Latin",
+          "Flamenco-influenced",
+          "Progressive rock"
+        ],
+        "musical_axes": [
+          "Japan / Tokyo",
+          "Latin",
+          "Fusion / Prog"
+        ],
+        "lineup": [
+          "Rodrigo Sánchez — guitar",
+          "Gabriela Quintero — guitar"
+        ],
+        "factual_description": "Udo Music Office presents Rodrigo y Gabriela's OurHome Tour at Zepp DiverCity (TOKYO) on Monday, January 25, 2027, with doors at 6:00 PM and the performance at 7:00 PM. The official promoter page lists reserved 1F-front/2F seats at ¥14,000 and rear-1F standing tickets at ¥13,000, with a separate drink charge. The same official itinerary continues to Nagoya on January 26 and Osaka on January 27. Udo and Rodrigo y Gabriela's own album materials state that OurHome was self-produced and recorded at NK Sound Tokyo and includes Japan-linked collaborators such as Hiromi and Marty Friedman; Udo also documents the project's Naoki Urasawa connection. Those album collaborators are not announced as live guests for Zepp DiverCity, so the event lineup records only Rodrigo Sánchez and Gabriela Quintero.",
+        "links": {
+          "official_event": "https://www.udo.jp/shows/RodrigoyGabriela27",
+          "official_tickets": "https://www.udo.jp/shows/RodrigoyGabriela27"
+        },
+        "recommended_listening": [
+          {
+            "artist": "Rodrigo y Gabriela",
+            "title": "OurHome",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/ourhome/6769249140"
+          }
+        ],
+        "enrichment": {
+          "status": "complete",
+          "missing": [],
+          "note": "Exact official promoter/ticket page verifies the Tokyo date, venue, doors, start time, face-value ticket range and the three-city Japanese itinerary. Rodrigo y Gabriela's primary album page verifies the NK Sound Tokyo recording context and Japan-linked guest musicians; Apple Music provides the exact OurHome album destination. The Zepp venue page verifies the venue's Koto City address. No unannounced live guests, resale pricing, or alternate ticket destination is inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.udo.jp/shows/RodrigoyGabriela27",
+            "publisher": "Udo Music Office",
+            "checked_on": "2026-09-03",
+            "note": "Official promoter and ticket page confirms January 25, 2027 at Zepp DiverCity (TOKYO), doors 18:00, show 19:00, ¥14,000 reserved and ¥13,000 standing face-value tickets, the Tokyo/Nagoya/Osaka itinerary, and the OurHome album's NK Sound Tokyo/Japan-collaboration context."
+          },
+          {
+            "url": "https://shop.rodgab.com/products/ourhome-lp",
+            "publisher": "Rodrigo y Gabriela",
+            "checked_on": "2026-09-03",
+            "note": "Primary artist store page for OurHome confirms that the album was self-produced at NK Sound Tokyo, names Marty Friedman and Hiromi among the guests, and describes Japan as a recurring source of inspiration for the project."
+          },
+          {
+            "url": "https://music.apple.com/us/album/ourhome/6769249140",
+            "publisher": "Apple Music",
+            "checked_on": "2026-09-03",
+            "note": "Exact Apple Music page verifies OurHome by Rodrigo y Gabriela with a September 18, 2026 release date."
+          },
+          {
+            "url": "https://www.zepp.co.jp/hall/divercity/",
+            "publisher": "Zepp Hall Network",
+            "checked_on": "2026-09-03",
+            "note": "Official venue page verifies the Zepp DiverCity (TOKYO) identity and address at DiverCity Tokyo Plaza, 1-1-10 Aomi, Koto City, Tokyo."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-promoter-artist-venue-and-apple-sources",
+          "note": "Core event facts, ticket prices and Japan-tour structure are verified directly from Udo Music Office; the album's Tokyo recording and Japan-collaboration context is verified from primary artist materials; venue identity is verified from Zepp and listening from Apple Music. Repository searches found the existing October 20, 2026 Washington, DC OurHome Tour event but no January 25, 2027 Zepp DiverCity event or matching date/venue candidate before publication. The Tokyo entry is therefore treated as a distinct domain-specific event rather than a duplicate. No album guest is represented as a live guest unless a concert source announces them."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The Tokyo date closes a loop that the Washington stop cannot. OurHome was made at NK Sound Tokyo and draws Japanese musicians and visual culture into Rodrigo y Gabriela's two-guitar language; bringing that material back to Tokyo makes the cultural exchange part of the live context rather than background biography. The duo's percussive acoustic attack already sits naturally between Latin groove, metal-derived precision and instrumental conversation, and this is the city where the new record's Japan thread becomes most legible onstage.",
+            "trip_verdict": "If January overlaps with Tokyo, actively make room for the Zepp DiverCity night and build the evening around it. The three-city Japan run means there is no need to rebuild a larger itinerary around January 25 specifically, but the Tokyo date is the most direct place to hear this Japan-made album return to its recording context.",
+            "listen_before": "Rodrigo y Gabriela — OurHome"
+          },
+          "es": {
+            "why_it_matters": "La fecha de Tokio cierra un círculo que la parada de Washington no puede cerrar. OurHome se hizo en NK Sound Tokyo y mete músicos y cultura visual japonesa dentro del lenguaje de dos guitarras de Rodrigo y Gabriela; llevar ese material de regreso a Tokio convierte el intercambio cultural en parte del contexto en vivo, no en un dato biográfico. El ataque acústico y percusivo del dúo ya vive naturalmente entre groove latino, precisión nacida del metal y conversación instrumental, y ésta es la ciudad donde el hilo japonés del disco nuevo se vuelve más claro sobre el escenario.",
+            "trip_verdict": "Si enero coincide con Tokio, sí le haría espacio activamente a la noche de Zepp DiverCity y armaría la velada alrededor del concierto. La gira japonesa de tres ciudades evita que haya que rehacer un itinerario mayor alrededor del 25 de enero en particular, pero Tokio es el lugar más directo para escuchar cómo este disco hecho en Japón regresa al contexto donde se grabó.",
+            "listen_before": "Rodrigo y Gabriela — OurHome"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/rodrigo-y-gabriela-ourhome-zepp-divercity-2027-01-25-discovery.json",
+        "batch_sha256": "26caa5087473b4889d1d050773e5274bbc18a0c17d1d17a5e223dfbdbade0851",
+        "batch_id": "rodrigo-y-gabriela-ourhome-zepp-divercity-2027-01-25-discovery",
+        "event_index": 0,
+        "candidate_event_id": "rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25",
+        "candidate_sha256": "9236e3f946586f3ffaa0b92174d1b39c7e3629741a96c9b87cb3b1b5ca7b9e8c",
+        "errors": [
+          "rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25 claims complete enrichment but required links or Apple Music are missing"
+        ],
+        "action": "review_validation",
+        "proposed_diff": [],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "rodrigo-y-gabriela-ourhome-zepp-divercity-tokyo-2027-01-25 claims complete enrichment but required links or Apple Music are missing"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": true,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "complete",
+            "missing": [],
+            "note": "Exact official promoter/ticket page verifies the Tokyo date, venue, doors, start time, face-value ticket range and the three-city Japanese itinerary. Rodrigo y Gabriela's primary album page verifies the NK Sound Tokyo recording context and Japan-linked guest musicians; Apple Music provides the exact OurHome album destination. The Zepp venue page verifies the venue's Koto City address. No unannounced live guests, resale pricing, or alternate ticket destination is inferred."
+          }
+        ],
+        "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+        "can_remain_active": false,
+        "materialization": "apply"
+      }
+    }
+  ],
+  "result": {
+    "active_path": null,
+    "active_events": []
+  }
+}

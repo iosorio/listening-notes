@@ -74,9 +74,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_official_ticket_destination"
+          "official_tickets"
         ],
-        "note": "The Library verifies both December 18 and December 19 performances at 20:00, the repeated program, full personnel, five-Stradivari instrument context, 18:30 preconcert conversations and free-ticketed status. The event page exposes a Get Tickets action, but the exact authorized ticket destination was not recovered in this pass, so official_tickets remains null. Apple Music verifies the exact recommended album URL."
+        "note": "The Library verifies both December 18 and December 19 performances at 20:00, the repeated program, full personnel, five-Stradivari instrument context, 18:30 preconcert conversations and free-ticketed status. The event page exposes a Get Tickets action, but the exact authorized ticket destination was not recovered in this pass, so official_tickets remains null. Apple Music verifies the exact recommended album URL. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

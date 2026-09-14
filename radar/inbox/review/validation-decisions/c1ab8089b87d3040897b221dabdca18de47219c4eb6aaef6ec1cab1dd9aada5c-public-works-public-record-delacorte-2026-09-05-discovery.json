@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/public-works-public-record-delacorte-2026-09-05-discovery.json",
+    "sha256": "c1ab8089b87d3040897b221dabdca18de47219c4eb6aaef6ec1cab1dd9aada5c",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"public-works-public-record-delacorte-2026-09-05-discovery\",\n  \"checked_on\": \"2026-09-05\",\n  \"reviewed_by\": \"RADAR automation editorial review\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks did not produce a future verified appearance not already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found Public Works' PUBLIC RECORD at the revitalized Delacorte Theater. Stage 1 admits this specific production because the live event itself creates the artifact: more than 100 New Yorkers, musicians, dancers, a DJ, and a vocalist assemble a live album in real time for the North American premiere, with the resulting album designated for preservation by the New York Public Library for the Performing Arts. The billed music contributors include Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos, giving the civic recording project a concrete cross-cultural live-music reason beyond venue prestige or famous names. Stage 2 assigns A. The current rubric expects A to remain the broad base, and this candidate does not add pressure to the scarcity tiers. The five-performance run and lack of a one-night-only musical lineup make attend-if-convenient the durable recommendation rather than actively reorganizing plans. No musical_axes tag is assigned because the current fixed filter set does not cleanly describe the whole production; tagging the entire event Latin solely because some billed musicians fit that axis would overstate one part of a deliberately plural project.\",\n  \"events\": [\n    {\n      \"id\": \"public-works-public-record-delacorte-new-york-ny-2026-09-04\",\n      \"artist\": \"Public Works' PUBLIC RECORD\",\n      \"subtitle\": \"North American Premiere — live album created onstage in real time\",\n      \"dates\": {\n        \"start\": \"2026-09-04\",\n        \"end\": \"2026-09-08\"\n      },\n      \"showtimes\": [\n        \"20:00\"\n      ],\n      \"venue\": {\n        \"id\": \"delacorte-theater-new-york-ny\",\n        \"name\": \"The Revitalized Delacorte Theater\",\n        \"city\": \"New York\",\n        \"state\": \"NY\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Trip\",\n      \"status\": \"considering\",\n      \"priority\": \"A\",\n      \"category\": \"Cross-genre / Civic live recording\",\n      \"genres\": [],\n      \"musical_axes\": [],\n      \"lineup\": [\n        \"Louis Cato — musician, billed production cast\",\n        \"Arturo O’Farrill — musician, billed production cast\",\n        \"Arun Ramamurthy — musician, billed production cast\",\n        \"Mireya Ramos — musician, billed production cast\",\n        \"Papi Juice — DJ, billed production cast\",\n        \"Maya Margarita — vocalist, billed production cast\",\n        \"Public Works community members — 100 participants from all five boroughs\"\n      ],\n      \"factual_description\": \"The Public Theater presents the North American premiere of Public Works' PUBLIC RECORD at the revitalized Delacorte Theater in Central Park from September 4 through September 8, 2026, with one performance at 20:00 each night. Based on a concept by Dan Canham and Emily Lim and written by Lisa Sanaye Dring, the production brings more than 100 New Yorkers together with professional musicians, dancers, a DJ, and a vocalist to create a live album onstage in real time. Michael Thurber provides original orchestrations and music supervision. The Public Theater bills Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos among the musicians, Papi Juice as DJ, and Maya Margarita as vocalist. The resulting album is to be preserved by the New York Public Library for the Performing Arts. The performances are free, with day-of access distributed through official Public Theater channels including Central Park distribution, an in-person lottery, the TodayTix digital lottery, and a Central Park standby line.\",\n      \"links\": {\n        \"official_event\": \"https://publictheater.org/productions/season/2526/sftc/public-works-public-record/\",\n        \"official_season\": \"https://publictheater.org/productions/your-2627-season/\"\n      },\n      \"recommended_listening\": [],\n      \"enrichment\": {\n        \"status\": \"pending\",\n        \"missing\": [\n          \"date_specific_guest_artist_assignments\"\n        ],\n        \"note\": \"The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://publictheater.org/productions/season/2526/sftc/public-works-public-record/\",\n          \"publisher\": \"The Public Theater\",\n          \"checked_on\": \"2026-09-05\",\n          \"note\": \"Primary production page verifies North American premiere status, September 4–8 dates, the revitalized Delacorte Theater, 20:00 nightly performances, free-ticket access, the live-album-in-real-time concept, the cast of more than 100 New Yorkers, the named guest artists, and preservation of the resulting album by the New York Public Library for the Performing Arts.\"\n        },\n        {\n          \"url\": \"https://publictheater.org/productions/your-2627-season/\",\n          \"publisher\": \"The Public Theater\",\n          \"checked_on\": \"2026-09-05\",\n          \"note\": \"Primary season page independently confirms PUBLIC RECORD as a North American premiere and describes the production as a live album created onstage in real time by Public Works community members, musicians, and dancers.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-presenter-sources\",\n        \"note\": \"Core facts are verified from The Public Theater's official production and season pages. Repository-wide search for Public Works' PUBLIC RECORD plus Delacorte returned no existing RADAR record before publication. Priority A follows the two-stage editorial decision: the live creation and archival preservation of a city-scale recording with a deliberately broad music cast clears RADAR admission, while the five-night run and absence of a date-specific rare lineup make attend-if-convenient more durable than a stronger behavioral recommendation.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"The record is not documentation of the show; making the record is the show. More than 100 New Yorkers share the Delacorte with musicians including Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos to build a live album in real time, and the finished artifact is intended for permanent preservation at the New York Public Library for the Performing Arts. That makes this a rare civic-music proposition: the city is being asked to hear itself while the archive is being created.\",\n          \"trip_verdict\": \"If New York is already in the plan between September 5 and 8, this is worth fitting into the evening, and the free five-night run makes it practical to choose the date that works. I would not build a dedicated DMV round trip around it alone.\",\n          \"listen_before\": null\n        },\n        \"es\": {\n          \"why_it_matters\": \"El disco no es la documentación del espectáculo: hacer el disco es el espectáculo. Más de cien neoyorquinos comparten el Delacorte con músicos como Louis Cato, Arturo O’Farrill, Arun Ramamurthy y Mireya Ramos para construir un álbum en vivo en tiempo real, y ese registro quedará preservado en la New York Public Library for the Performing Arts. Ahí está lo especial: la ciudad intenta escucharse a sí misma mientras crea su propio archivo.\",\n          \"trip_verdict\": \"Si Nueva York ya entra en el plan entre el 5 y el 8 de septiembre, vale la pena acomodarlo en la noche; además, las cinco funciones gratuitas permiten escoger la fecha que mejor embone. No armaría un ida y vuelta dedicado desde el DMV únicamente por esta función.\",\n          \"listen_before\": null\n        }\n      }\n    }\n  ]\n}\n",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "public-works-public-record-delacorte-2026-09-05-discovery",
+      "checked_on": "2026-09-05",
+      "reviewed_by": "RADAR automation editorial review",
+      "notes": "Yamamoto-first discovery pass under the current durable repository authority. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before research or grading. Fresh Yamamoto checks did not produce a future verified appearance not already represented in canonical/curated/processed intake, so no duplicate Yamamoto record was created. The broader US-corridor pass found Public Works' PUBLIC RECORD at the revitalized Delacorte Theater. Stage 1 admits this specific production because the live event itself creates the artifact: more than 100 New Yorkers, musicians, dancers, a DJ, and a vocalist assemble a live album in real time for the North American premiere, with the resulting album designated for preservation by the New York Public Library for the Performing Arts. The billed music contributors include Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos, giving the civic recording project a concrete cross-cultural live-music reason beyond venue prestige or famous names. Stage 2 assigns A. The current rubric expects A to remain the broad base, and this candidate does not add pressure to the scarcity tiers. The five-performance run and lack of a one-night-only musical lineup make attend-if-convenient the durable recommendation rather than actively reorganizing plans. No musical_axes tag is assigned because the current fixed filter set does not cleanly describe the whole production; tagging the entire event Latin solely because some billed musicians fit that axis would overstate one part of a deliberately plural project.",
+      "events": [
+        {
+          "id": "public-works-public-record-delacorte-new-york-ny-2026-09-04",
+          "artist": "Public Works' PUBLIC RECORD",
+          "subtitle": "North American Premiere — live album created onstage in real time",
+          "dates": {
+            "start": "2026-09-04",
+            "end": "2026-09-08"
+          },
+          "showtimes": [
+            "20:00"
+          ],
+          "venue": {
+            "id": "delacorte-theater-new-york-ny",
+            "name": "The Revitalized Delacorte Theater",
+            "city": "New York",
+            "state": "NY",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Trip",
+          "status": "considering",
+          "priority": "A",
+          "category": "Cross-genre / Civic live recording",
+          "genres": [],
+          "musical_axes": [],
+          "lineup": [
+            "Louis Cato — musician, billed production cast",
+            "Arturo O’Farrill — musician, billed production cast",
+            "Arun Ramamurthy — musician, billed production cast",
+            "Mireya Ramos — musician, billed production cast",
+            "Papi Juice — DJ, billed production cast",
+            "Maya Margarita — vocalist, billed production cast",
+            "Public Works community members — 100 participants from all five boroughs"
+          ],
+          "factual_description": "The Public Theater presents the North American premiere of Public Works' PUBLIC RECORD at the revitalized Delacorte Theater in Central Park from September 4 through September 8, 2026, with one performance at 20:00 each night. Based on a concept by Dan Canham and Emily Lim and written by Lisa Sanaye Dring, the production brings more than 100 New Yorkers together with professional musicians, dancers, a DJ, and a vocalist to create a live album onstage in real time. Michael Thurber provides original orchestrations and music supervision. The Public Theater bills Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos among the musicians, Papi Juice as DJ, and Maya Margarita as vocalist. The resulting album is to be preserved by the New York Public Library for the Performing Arts. The performances are free, with day-of access distributed through official Public Theater channels including Central Park distribution, an in-person lottery, the TodayTix digital lottery, and a Central Park standby line.",
+          "links": {
+            "official_event": "https://publictheater.org/productions/season/2526/sftc/public-works-public-record/",
+            "official_season": "https://publictheater.org/productions/your-2627-season/"
+          },
+          "recommended_listening": [],
+          "enrichment": {
+            "status": "pending",
+            "missing": [
+              "date_specific_guest_artist_assignments"
+            ],
+            "note": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published."
+          },
+          "sources": [
+            {
+              "url": "https://publictheater.org/productions/season/2526/sftc/public-works-public-record/",
+              "publisher": "The Public Theater",
+              "checked_on": "2026-09-05",
+              "note": "Primary production page verifies North American premiere status, September 4–8 dates, the revitalized Delacorte Theater, 20:00 nightly performances, free-ticket access, the live-album-in-real-time concept, the cast of more than 100 New Yorkers, the named guest artists, and preservation of the resulting album by the New York Public Library for the Performing Arts."
+            },
+            {
+              "url": "https://publictheater.org/productions/your-2627-season/",
+              "publisher": "The Public Theater",
+              "checked_on": "2026-09-05",
+              "note": "Primary season page independently confirms PUBLIC RECORD as a North American premiere and describes the production as a live album created onstage in real time by Public Works community members, musicians, and dancers."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-presenter-sources",
+            "note": "Core facts are verified from The Public Theater's official production and season pages. Repository-wide search for Public Works' PUBLIC RECORD plus Delacorte returned no existing RADAR record before publication. Priority A follows the two-stage editorial decision: the live creation and archival preservation of a city-scale recording with a deliberately broad music cast clears RADAR admission, while the five-night run and absence of a date-specific rare lineup make attend-if-convenient more durable than a stronger behavioral recommendation."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "The record is not documentation of the show; making the record is the show. More than 100 New Yorkers share the Delacorte with musicians including Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos to build a live album in real time, and the finished artifact is intended for permanent preservation at the New York Public Library for the Performing Arts. That makes this a rare civic-music proposition: the city is being asked to hear itself while the archive is being created.",
+              "trip_verdict": "If New York is already in the plan between September 5 and 8, this is worth fitting into the evening, and the free five-night run makes it practical to choose the date that works. I would not build a dedicated DMV round trip around it alone.",
+              "listen_before": null
+            },
+            "es": {
+              "why_it_matters": "El disco no es la documentación del espectáculo: hacer el disco es el espectáculo. Más de cien neoyorquinos comparten el Delacorte con músicos como Louis Cato, Arturo O’Farrill, Arun Ramamurthy y Mireya Ramos para construir un álbum en vivo en tiempo real, y ese registro quedará preservado en la New York Public Library for the Performing Arts. Ahí está lo especial: la ciudad intenta escucharse a sí misma mientras crea su propio archivo.",
+              "trip_verdict": "Si Nueva York ya entra en el plan entre el 5 y el 8 de septiembre, vale la pena acomodarlo en la noche; además, las cinco funciones gratuitas permiten escoger la fecha que mejor embone. No armaría un ida y vuelta dedicado desde el DMV únicamente por esta función.",
+              "listen_before": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/public-works-public-record-delacorte-2026-09-05-discovery.json",
+      "batch_sha256": "c1ab8089b87d3040897b221dabdca18de47219c4eb6aaef6ec1cab1dd9aada5c",
+      "batch_id": "public-works-public-record-delacorte-2026-09-05-discovery",
+      "event_index": 0,
+      "candidate_event_id": "public-works-public-record-delacorte-new-york-ny-2026-09-04",
+      "candidate_sha256": "32e87dfec9e5c42f1677fecb57ed8a7b2520c2ecb13ea1421f0629cc028cde68",
+      "errors": [
+        "public-works-public-record-delacorte-new-york-ny-2026-09-04.enrichment.missing must be a unique list of known enrichment fields"
+      ],
+      "action": "normalize_enrichment",
+      "proposed_diff": [
+        {
+          "field": "enrichment.missing",
+          "before": [
+            "date_specific_guest_artist_assignments"
+          ],
+          "after": [
+            "official_tickets",
+            "apple_music"
+          ]
+        },
+        {
+          "field": "enrichment.note",
+          "before": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published.",
+          "after": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: date_specific_guest_artist_assignments. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "public-works-public-record-delacorte-new-york-ny-2026-09-04.enrichment.missing must be a unique list of known enrichment fields"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": false,
+          "apple_music": false
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "pending",
+          "missing": [
+            "date_specific_guest_artist_assignments"
+          ],
+          "note": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published."
+        }
+      ],
+      "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+      "can_remain_active": true,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "missing recalculated from the links and Apple Music URLs already present",
+        "non-standard missing labels preserved here: date_specific_guest_artist_assignments"
+      ],
+      "errors_after_proposed_repair": [],
+      "proposed_candidate_sha256": "e9cd59a37fbfe48431c28b824ed8db578330255e9179622e5d04e0d2b2a0ac41"
+    }
+  ],
+  "automatic_repairs": [
+    {
+      "before": {
+        "id": "public-works-public-record-delacorte-new-york-ny-2026-09-04",
+        "artist": "Public Works' PUBLIC RECORD",
+        "subtitle": "North American Premiere — live album created onstage in real time",
+        "dates": {
+          "start": "2026-09-04",
+          "end": "2026-09-08"
+        },
+        "showtimes": [
+          "20:00"
+        ],
+        "venue": {
+          "id": "delacorte-theater-new-york-ny",
+          "name": "The Revitalized Delacorte Theater",
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Trip",
+        "status": "considering",
+        "priority": "A",
+        "category": "Cross-genre / Civic live recording",
+        "genres": [],
+        "musical_axes": [],
+        "lineup": [
+          "Louis Cato — musician, billed production cast",
+          "Arturo O’Farrill — musician, billed production cast",
+          "Arun Ramamurthy — musician, billed production cast",
+          "Mireya Ramos — musician, billed production cast",
+          "Papi Juice — DJ, billed production cast",
+          "Maya Margarita — vocalist, billed production cast",
+          "Public Works community members — 100 participants from all five boroughs"
+        ],
+        "factual_description": "The Public Theater presents the North American premiere of Public Works' PUBLIC RECORD at the revitalized Delacorte Theater in Central Park from September 4 through September 8, 2026, with one performance at 20:00 each night. Based on a concept by Dan Canham and Emily Lim and written by Lisa Sanaye Dring, the production brings more than 100 New Yorkers together with professional musicians, dancers, a DJ, and a vocalist to create a live album onstage in real time. Michael Thurber provides original orchestrations and music supervision. The Public Theater bills Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos among the musicians, Papi Juice as DJ, and Maya Margarita as vocalist. The resulting album is to be preserved by the New York Public Library for the Performing Arts. The performances are free, with day-of access distributed through official Public Theater channels including Central Park distribution, an in-person lottery, the TodayTix digital lottery, and a Central Park standby line.",
+        "links": {
+          "official_event": "https://publictheater.org/productions/season/2526/sftc/public-works-public-record/",
+          "official_season": "https://publictheater.org/productions/your-2627-season/"
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "date_specific_guest_artist_assignments"
+          ],
+          "note": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published."
+        },
+        "sources": [
+          {
+            "url": "https://publictheater.org/productions/season/2526/sftc/public-works-public-record/",
+            "publisher": "The Public Theater",
+            "checked_on": "2026-09-05",
+            "note": "Primary production page verifies North American premiere status, September 4–8 dates, the revitalized Delacorte Theater, 20:00 nightly performances, free-ticket access, the live-album-in-real-time concept, the cast of more than 100 New Yorkers, the named guest artists, and preservation of the resulting album by the New York Public Library for the Performing Arts."
+          },
+          {
+            "url": "https://publictheater.org/productions/your-2627-season/",
+            "publisher": "The Public Theater",
+            "checked_on": "2026-09-05",
+            "note": "Primary season page independently confirms PUBLIC RECORD as a North American premiere and describes the production as a live album created onstage in real time by Public Works community members, musicians, and dancers."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-presenter-sources",
+          "note": "Core facts are verified from The Public Theater's official production and season pages. Repository-wide search for Public Works' PUBLIC RECORD plus Delacorte returned no existing RADAR record before publication. Priority A follows the two-stage editorial decision: the live creation and archival preservation of a city-scale recording with a deliberately broad music cast clears RADAR admission, while the five-night run and absence of a date-specific rare lineup make attend-if-convenient more durable than a stronger behavioral recommendation."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The record is not documentation of the show; making the record is the show. More than 100 New Yorkers share the Delacorte with musicians including Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos to build a live album in real time, and the finished artifact is intended for permanent preservation at the New York Public Library for the Performing Arts. That makes this a rare civic-music proposition: the city is being asked to hear itself while the archive is being created.",
+            "trip_verdict": "If New York is already in the plan between September 5 and 8, this is worth fitting into the evening, and the free five-night run makes it practical to choose the date that works. I would not build a dedicated DMV round trip around it alone.",
+            "listen_before": null
+          },
+          "es": {
+            "why_it_matters": "El disco no es la documentación del espectáculo: hacer el disco es el espectáculo. Más de cien neoyorquinos comparten el Delacorte con músicos como Louis Cato, Arturo O’Farrill, Arun Ramamurthy y Mireya Ramos para construir un álbum en vivo en tiempo real, y ese registro quedará preservado en la New York Public Library for the Performing Arts. Ahí está lo especial: la ciudad intenta escucharse a sí misma mientras crea su propio archivo.",
+            "trip_verdict": "Si Nueva York ya entra en el plan entre el 5 y el 8 de septiembre, vale la pena acomodarlo en la noche; además, las cinco funciones gratuitas permiten escoger la fecha que mejor embone. No armaría un ida y vuelta dedicado desde el DMV únicamente por esta función.",
+            "listen_before": null
+          }
+        }
+      },
+      "after": {
+        "id": "public-works-public-record-delacorte-new-york-ny-2026-09-04",
+        "artist": "Public Works' PUBLIC RECORD",
+        "subtitle": "North American Premiere — live album created onstage in real time",
+        "dates": {
+          "start": "2026-09-04",
+          "end": "2026-09-08"
+        },
+        "showtimes": [
+          "20:00"
+        ],
+        "venue": {
+          "id": "delacorte-theater-new-york-ny",
+          "name": "The Revitalized Delacorte Theater",
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Trip",
+        "status": "considering",
+        "priority": "A",
+        "category": "Cross-genre / Civic live recording",
+        "genres": [],
+        "musical_axes": [],
+        "lineup": [
+          "Louis Cato — musician, billed production cast",
+          "Arturo O’Farrill — musician, billed production cast",
+          "Arun Ramamurthy — musician, billed production cast",
+          "Mireya Ramos — musician, billed production cast",
+          "Papi Juice — DJ, billed production cast",
+          "Maya Margarita — vocalist, billed production cast",
+          "Public Works community members — 100 participants from all five boroughs"
+        ],
+        "factual_description": "The Public Theater presents the North American premiere of Public Works' PUBLIC RECORD at the revitalized Delacorte Theater in Central Park from September 4 through September 8, 2026, with one performance at 20:00 each night. Based on a concept by Dan Canham and Emily Lim and written by Lisa Sanaye Dring, the production brings more than 100 New Yorkers together with professional musicians, dancers, a DJ, and a vocalist to create a live album onstage in real time. Michael Thurber provides original orchestrations and music supervision. The Public Theater bills Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos among the musicians, Papi Juice as DJ, and Maya Margarita as vocalist. The resulting album is to be preserved by the New York Public Library for the Performing Arts. The performances are free, with day-of access distributed through official Public Theater channels including Central Park distribution, an in-person lottery, the TodayTix digital lottery, and a Central Park standby line.",
+        "links": {
+          "official_event": "https://publictheater.org/productions/season/2526/sftc/public-works-public-record/",
+          "official_season": "https://publictheater.org/productions/your-2627-season/"
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "official_tickets",
+            "apple_music"
+          ],
+          "note": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: date_specific_guest_artist_assignments. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+        },
+        "sources": [
+          {
+            "url": "https://publictheater.org/productions/season/2526/sftc/public-works-public-record/",
+            "publisher": "The Public Theater",
+            "checked_on": "2026-09-05",
+            "note": "Primary production page verifies North American premiere status, September 4–8 dates, the revitalized Delacorte Theater, 20:00 nightly performances, free-ticket access, the live-album-in-real-time concept, the cast of more than 100 New Yorkers, the named guest artists, and preservation of the resulting album by the New York Public Library for the Performing Arts."
+          },
+          {
+            "url": "https://publictheater.org/productions/your-2627-season/",
+            "publisher": "The Public Theater",
+            "checked_on": "2026-09-05",
+            "note": "Primary season page independently confirms PUBLIC RECORD as a North American premiere and describes the production as a live album created onstage in real time by Public Works community members, musicians, and dancers."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-presenter-sources",
+          "note": "Core facts are verified from The Public Theater's official production and season pages. Repository-wide search for Public Works' PUBLIC RECORD plus Delacorte returned no existing RADAR record before publication. Priority A follows the two-stage editorial decision: the live creation and archival preservation of a city-scale recording with a deliberately broad music cast clears RADAR admission, while the five-night run and absence of a date-specific rare lineup make attend-if-convenient more durable than a stronger behavioral recommendation."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The record is not documentation of the show; making the record is the show. More than 100 New Yorkers share the Delacorte with musicians including Louis Cato, Arturo O’Farrill, Arun Ramamurthy, and Mireya Ramos to build a live album in real time, and the finished artifact is intended for permanent preservation at the New York Public Library for the Performing Arts. That makes this a rare civic-music proposition: the city is being asked to hear itself while the archive is being created.",
+            "trip_verdict": "If New York is already in the plan between September 5 and 8, this is worth fitting into the evening, and the free five-night run makes it practical to choose the date that works. I would not build a dedicated DMV round trip around it alone.",
+            "listen_before": null
+          },
+          "es": {
+            "why_it_matters": "El disco no es la documentación del espectáculo: hacer el disco es el espectáculo. Más de cien neoyorquinos comparten el Delacorte con músicos como Louis Cato, Arturo O’Farrill, Arun Ramamurthy y Mireya Ramos para construir un álbum en vivo en tiempo real, y ese registro quedará preservado en la New York Public Library for the Performing Arts. Ahí está lo especial: la ciudad intenta escucharse a sí misma mientras crea su propio archivo.",
+            "trip_verdict": "Si Nueva York ya entra en el plan entre el 5 y el 8 de septiembre, vale la pena acomodarlo en la noche; además, las cinco funciones gratuitas permiten escoger la fecha que mejor embone. No armaría un ida y vuelta dedicado desde el DMV únicamente por esta función.",
+            "listen_before": null
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/public-works-public-record-delacorte-2026-09-05-discovery.json",
+        "batch_sha256": "c1ab8089b87d3040897b221dabdca18de47219c4eb6aaef6ec1cab1dd9aada5c",
+        "batch_id": "public-works-public-record-delacorte-2026-09-05-discovery",
+        "event_index": 0,
+        "candidate_event_id": "public-works-public-record-delacorte-new-york-ny-2026-09-04",
+        "candidate_sha256": "32e87dfec9e5c42f1677fecb57ed8a7b2520c2ecb13ea1421f0629cc028cde68",
+        "errors": [
+          "public-works-public-record-delacorte-new-york-ny-2026-09-04.enrichment.missing must be a unique list of known enrichment fields"
+        ],
+        "action": "normalize_enrichment",
+        "proposed_diff": [
+          {
+            "field": "enrichment.missing",
+            "before": [
+              "date_specific_guest_artist_assignments"
+            ],
+            "after": [
+              "official_tickets",
+              "apple_music"
+            ]
+          },
+          {
+            "field": "enrichment.note",
+            "before": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published.",
+            "after": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: date_specific_guest_artist_assignments. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
+          }
+        ],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "public-works-public-record-delacorte-new-york-ny-2026-09-04.enrichment.missing must be a unique list of known enrichment fields"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": false,
+            "apple_music": false
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "pending",
+            "missing": [
+              "date_specific_guest_artist_assignments"
+            ],
+            "note": "The Public Theater verifies the full September 4–8 run, 20:00 nightly showtime, free access model, creative team, and production-level cast. Its current page does not state whether every named guest artist appears at every one of the five performances, so the lineup is recorded as production billing rather than a per-night guarantee. No Apple Music recommendation is added because the production's central musical artifact is the live album being created during the run and no official release destination is yet published."
+          }
+        ],
+        "reason": "All proposed changes are deterministic enrichment metadata derived from fields already present.",
+        "can_remain_active": true,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "missing recalculated from the links and Apple Music URLs already present",
+          "non-standard missing labels preserved here: date_specific_guest_artist_assignments"
+        ],
+        "errors_after_proposed_repair": [],
+        "proposed_candidate_sha256": "e9cd59a37fbfe48431c28b824ed8db578330255e9179622e5d04e0d2b2a0ac41"
+      }
+    }
+  ],
+  "review_candidates": [],
+  "result": {
+    "active_path": "radar/inbox/curated/public-works-public-record-delacorte-2026-09-05-discovery.json",
+    "active_events": [
+      {
+        "id": "public-works-public-record-delacorte-new-york-ny-2026-09-04",
+        "sha256": "e9cd59a37fbfe48431c28b824ed8db578330255e9179622e5d04e0d2b2a0ac41"
+      }
+    ]
+  }
+}

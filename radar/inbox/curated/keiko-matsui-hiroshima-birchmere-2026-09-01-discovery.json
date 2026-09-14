@@ -69,10 +69,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "apple_music",
-          "supporting_personnel"
+          "apple_music"
         ],
-        "note": "Date, showtime, venue, face ticket price, authorized Ticketmaster destination, artist identity, and the current official tour listing are verified. Supporting musicians and an exact Apple Music destination are intentionally left pending rather than inferred."
+        "note": "Date, showtime, venue, face ticket price, authorized Ticketmaster destination, artist identity, and the current official tour listing are verified. Supporting musicians and an exact Apple Music destination are intentionally left pending rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: supporting_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -176,10 +175,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "apple_music",
-          "exact_event_personnel"
+          "apple_music"
         ],
-        "note": "Date, showtime, venue, face ticket price, authorized Ticketmaster destination, Dan Kuramoto's leadership, official limited-tour framing, and the band's documented East/West instrumental identity are verified. The full November 15 personnel and an exact Apple Music destination remain pending rather than being inferred from general player pages."
+        "note": "Date, showtime, venue, face ticket price, authorized Ticketmaster destination, Dan Kuramoto's leadership, official limited-tour framing, and the band's documented East/West instrumental identity are verified. The full November 15 personnel and an exact Apple Music destination remain pending rather than being inferred from general player pages. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_event_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

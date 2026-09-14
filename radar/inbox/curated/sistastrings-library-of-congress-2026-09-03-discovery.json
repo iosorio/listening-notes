@@ -73,10 +73,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_official_ticket_destination",
-          "commission_specific_performance_instrumentation_or_additional_personnel"
+          "official_tickets"
         ],
-        "note": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination."
+        "note": "The Library of Congress event page verifies the date, 20:00 concert, 18:30 preconcert conversation, free-ticketed status, venue, SistaStrings billing, Stradivari-instrument context and the world premiere of Larissa Maestro's Mayari. The page exposes a Get Tickets action, but the exact authorized ticket destination was not recoverable in this pass, so official_tickets remains null rather than guessed. The current Library event page bills SistaStrings on Stradivari instruments, while Larissa Maestro's official composition page lists Mayari for violin and piano and does not resolve whether an additional performer will be present; no such performer is invented. Apple Music verifies the exact Lift EP destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, commission_specific_performance_instrumentation_or_additional_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

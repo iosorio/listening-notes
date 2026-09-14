@@ -55,9 +55,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_recommended_listening"
+          "apple_music"
         ],
-        "note": "Rhizome DC and its authorized Pools page verify the exact billing, September 30 date, 18:30 doors, 19:00 music start, venue address, $20-$30 sliding-scale ticket, and all four instruments. The primary page also supplies the specific instrumental/improvisational context used for admission. No exact Apple Music destination was added because the event page does not supply one and no unambiguous exact match was verified for the most relevant current improvisational releases during this pass."
+        "note": "Rhizome DC and its authorized Pools page verify the exact billing, September 30 date, 18:30 doors, 19:00 music start, venue address, $20-$30 sliding-scale ticket, and all four instruments. The primary page also supplies the specific instrumental/improvisational context used for admission. No exact Apple Music destination was added because the event page does not supply one and no unambiguous exact match was verified for the most relevant current improvisational releases during this pass. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -74,9 +74,9 @@
         "status": "pending",
         "missing": [
           "official_tickets",
-          "exact_anniversary_album_apple_music_url"
+          "apple_music"
         ],
-        "note": "JZ Brat supplies the event billing, date, doors, start time, planned finish, complete announced lineup and official music-charge range. The accessible monthly schedule does not expose a separate stable event-specific reservation URL, so official_tickets remains null. Takanori Suzuki's official site independently confirms the tour lineup and anniversary-album context. Apple Music verifies Woong San's current artist catalog and an August 2026 release, but the accessible evidence does not establish an exact Apple Music URL for the anniversary release named by the tour, so no ID or listening destination is inferred."
+        "note": "JZ Brat supplies the event billing, date, doors, start time, planned finish, complete announced lineup and official music-charge range. The accessible monthly schedule does not expose a separate stable event-specific reservation URL, so official_tickets remains null. Takanori Suzuki's official site independently confirms the tour lineup and anniversary-album context. Apple Music verifies Woong San's current artist catalog and an August 2026 release, but the accessible evidence does not establish an exact Apple Music URL for the anniversary release named by the tour, so no ID or listening destination is inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_anniversary_album_apple_music_url. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

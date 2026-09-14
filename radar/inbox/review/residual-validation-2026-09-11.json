@@ -1,0 +1,232 @@
+{
+  "kind": "radar_residual_repair_validation",
+  "checked_on": "2026-09-11",
+  "base_commit": "d3d80064f8f7db75f09efe9fa0de1b533464964e",
+  "origin_main": "98d7e66d3a8b79d86aad3a6080c2f9c24593587e",
+  "divergence": {
+    "ahead": 1,
+    "behind": 0
+  },
+  "execution_artifact": {
+    "host": "Mac Pro",
+    "checked_on": "2026-09-11",
+    "type": "temporary detached validation worktree",
+    "base_commit": "d3d80064f8f7db75f09efe9fa0de1b533464964e",
+    "artifact_sha256": null,
+    "validated_tracked_diff_sha256": "b88276c06bb3c4f8860476cc7942cd7102cc543432b351188827f6790f9fac05",
+    "status": "temporary artifact removed after validation"
+  },
+  "main_macpro_checkout": {
+    "host": "Mac Pro",
+    "type": "primary repository checkout",
+    "clean": true,
+    "head": "98d7e66d3a8b79d86aad3a6080c2f9c24593587e",
+    "modified": false
+  },
+  "before": {
+    "canonical_events": 226,
+    "tests": {
+      "count": 99,
+      "result": "OK",
+      "seconds": 4.393
+    },
+    "plan": {
+      "create": 492,
+      "merge": 0,
+      "replace": 0,
+      "archive_duplicate": 3,
+      "review": 1
+    },
+    "individual_residuals": 4,
+    "residual_batches": 3,
+    "dry_run_archives": 3
+  },
+  "after": {
+    "canonical_events": 226,
+    "tests": {
+      "count": 99,
+      "result": "OK",
+      "seconds": 4.415
+    },
+    "plan": {
+      "create": 492,
+      "merge": 0,
+      "replace": 0,
+      "archive_duplicate": 0,
+      "review": 1
+    },
+    "dry_run": {
+      "archived": [],
+      "residual": [],
+      "removed_active": []
+    },
+    "diff_check": "OK"
+  },
+  "audit": {
+    "stage": "after_archive",
+    "residuals": [
+      {
+        "id": "wycliffe-gordon-welcome-to-georgia-town-jalc-new-york-2026-10-09",
+        "missing": [
+          "apple_music"
+        ],
+        "valid": true
+      },
+      {
+        "id": "sora-ichikawa-concept-band-jazz-house-alfie-tokyo-2026-09-12",
+        "missing": [
+          "apple_music",
+          "official_tickets"
+        ],
+        "valid": true
+      },
+      {
+        "id": "cortex-howard-theatre-washington-dc-2026-10-06",
+        "missing": [
+          "apple_music"
+        ],
+        "valid": true
+      },
+      {
+        "id": "interpretations-hemingway-andonovska-howard-roulette-brooklyn-2026-12-03",
+        "missing": [
+          "apple_music"
+        ],
+        "valid": true
+      }
+    ],
+    "batches": [
+      {
+        "path": "radar/inbox/curated/jalc-wynton-wycliffe-fall-2026-2026-08-28-discovery.json",
+        "original_sha256": "d0d8769c320216c6cb212af7a0ecb5a59b4430d6b8e236c914af71dd37108664",
+        "corrected_sha256": "77fd9f69d556dc2f990d451d886edd9c6829551921c59b151f67b72461d548b9",
+        "residual_ids": [
+          "wycliffe-gordon-welcome-to-georgia-town-jalc-new-york-2026-10-09"
+        ]
+      },
+      {
+        "path": "radar/inbox/curated/sora-cortex-palmieri-2026-08-29-discovery.json",
+        "original_sha256": "b6e6ad509ff72a8fa72c984afa70b33f68260e48908708dcc3ca810aef8f2208",
+        "corrected_sha256": "7b510747e04e69afc9599b6a7190c92968c70da05300c680879057e8ebac7415",
+        "residual_ids": [
+          "sora-ichikawa-concept-band-jazz-house-alfie-tokyo-2026-09-12",
+          "cortex-howard-theatre-washington-dc-2026-10-06"
+        ]
+      },
+      {
+        "path": "radar/inbox/curated/yamamoto-satoh-interpretations-2026-08-29-discovery.json",
+        "original_sha256": "63cc2234ef40d1cf540abe4242ac7b00b95b452bd32afc644c71404b30909b83",
+        "corrected_sha256": "99be9f6c0a0363821b18a281289fc62133fd113dd55a75594cc275f228ff6980",
+        "residual_ids": [
+          "interpretations-hemingway-andonovska-howard-roulette-brooklyn-2026-12-03"
+        ]
+      }
+    ],
+    "archives": {
+      "protected_files": [
+        "radar/events.json",
+        "radar/venue_identities.json",
+        "tests/test_merge_inbox.py",
+        "tests/test_signals.py",
+        "tests/test_duplicate_materialization.py",
+        "tests/test_enrichment_pipeline.py",
+        "tests/test_radar_intake.py",
+        "tests/test_radar_signal_ui.py",
+        "scripts/set_signal.py",
+        "scripts/merge_enrichment_patches.py",
+        "scripts/verify_radar_duplicate_resolution.py",
+        "scripts/enrichment_common.py",
+        "scripts/quarantine_curated_conflicts.py",
+        "scripts/merge_inbox.py",
+        "scripts/plan_radar_intake.py",
+        "scripts/validate_social_cards.py",
+        "scripts/venue_identity.py",
+        "scripts/validate_signals.py",
+        "scripts/promote_research_enrichment.py",
+        "scripts/materialize_radar_intake.py",
+        "scripts/validate_research_enrichment.py",
+        "scripts/generate_social_cards.py",
+        "radar/inbox/review/duplicate-resolution-2026-09-11-validation.json",
+        "radar/inbox/review/duplicate-resolution-2026-09-11.md",
+        "radar/inbox/review/duplicate-resolution-2026-09-11.json",
+        "radar/inbox/review/decisions/f67892bb0752ea9539d08c230481263a1995471b9ab221f1f0f35972371c12df-takeo-moriyama-swinging-cities-2026-08-29-discovery.json",
+        "radar/inbox/review/decisions/95b9029246595db4a257b96473c90e4cbc411f6223ae1d69603345da9bb4fa82-aaron-parks-trio-village-vanguard-2026-08-30-discovery.json",
+        "radar/inbox/review/decisions/e42bcd9942f26e05c953a6b85aeac3c3dafbc78ec76bfd9eb83d1db10ff8625a-yamamoto-keystone-njpac-fall-2026-2026-08-28-discovery.json",
+        "radar/inbox/review/decisions/027b6943c63fcacb8e998591b57d8f2a29dd53d5dc3c9f4032094f7f73c9c827-west-road-shipp-parker-2026-08-30-discovery.json",
+        "radar/inbox/review/decisions/dd48832bcb27e92f3cad6c56e562fa6eac4062506360e2755ae1863b31661cd8-stanley-jordan-keystone-baltimore-2026-08-30-discovery.json",
+        "radar/inbox/review/decisions/14af04886f1562c977c0890bdb700b3a41a7b038f7006569bdb62808dcc82842-tsuyoshi-yamamoto-keystone-night-2026-09-15-discovery.json",
+        "radar/inbox/review/decisions/015f80e6c67cc26f493cd7fcced0da3072874bfa6b92a8445146bf86f880dbb0-yamamoto-kawasaki-dmv-roulette-tokyo-2026-08-29-discovery.json",
+        "radar/inbox/review/decisions/078c95ce2b8a37ce044a1a9190212771eed69c731794cd185afd9c98109cac31-village-vanguard-gilmore-ravi-hersch-october-2026-2026-08-29-discovery.json"
+      ],
+      "archived_candidates": [
+        {
+          "id": "jlco-wynton-marsalis-from-cuba-to-crescent-city-new-york-2026-10-23",
+          "canonical": "wynton-marsalis-from-cuba-to-crescent-city-jalc-2026-10-23",
+          "archive": "radar/inbox/review/decisions/77fd9f69d556dc2f990d451d886edd9c6829551921c59b151f67b72461d548b9-jalc-wynton-wycliffe-fall-2026-2026-08-28-discovery.json"
+        },
+        {
+          "id": "eddie-palmieri-experience-jalc-rose-theater-nyc-2026-11-13",
+          "canonical": "eddie-palmieri-experience-jalc-2026-11-13",
+          "archive": "radar/inbox/review/decisions/7b510747e04e69afc9599b6a7190c92968c70da05300c680879057e8ebac7415-sora-cortex-palmieri-2026-08-29-discovery.json"
+        },
+        {
+          "id": "tsuyoshi-yamamoto-masahiko-satoh-kawasaki-shimin-plaza-2026-10-03",
+          "canonical": "masahiko-satoh-tsuyoshi-yamamoto-kawasaki-shimin-plaza-2026-10-03",
+          "archive": "radar/inbox/review/decisions/99be9f6c0a0363821b18a281289fc62133fd113dd55a75594cc275f228ff6980-yamamoto-satoh-interpretations-2026-08-29-discovery.json"
+        }
+      ],
+      "split_batches": [
+        {
+          "path": "radar/inbox/curated/jalc-wynton-wycliffe-fall-2026-2026-08-28-discovery.json",
+          "residual": [
+            {
+              "id": "wycliffe-gordon-welcome-to-georgia-town-jalc-new-york-2026-10-09",
+              "sha256": "227351e5764b141ce27a0b9bd9a25ad7fc63ed893844cbbfbf071b66134126ea"
+            }
+          ]
+        },
+        {
+          "path": "radar/inbox/curated/sora-cortex-palmieri-2026-08-29-discovery.json",
+          "residual": [
+            {
+              "id": "sora-ichikawa-concept-band-jazz-house-alfie-tokyo-2026-09-12",
+              "sha256": "3fcc6afd04deb63fc7ec69a6168170497412fc531f8b2014c352bc3286cb100d"
+            },
+            {
+              "id": "cortex-howard-theatre-washington-dc-2026-10-06",
+              "sha256": "39efde087de482544c641c0ddde27beeb27c7318021ff68801b69f5af402dff7"
+            }
+          ]
+        },
+        {
+          "path": "radar/inbox/curated/yamamoto-satoh-interpretations-2026-08-29-discovery.json",
+          "residual": [
+            {
+              "id": "interpretations-hemingway-andonovska-howard-roulette-brooklyn-2026-12-03",
+              "sha256": "41978b86a8c6507f11ecdf5317d12a20eae8d52857a04e4c4820cc4084805627"
+            }
+          ]
+        }
+      ],
+      "removed_active_batches": [],
+      "residual_candidates_validated": 4,
+      "active_summary": {
+        "create": 492,
+        "merge": 0,
+        "replace": 0,
+        "archive_duplicate": 0,
+        "review": 1
+      },
+      "reviews": [
+        "eddie-palmieri-2019-user-confirmed"
+      ],
+      "unchanged_unselected_batches": 389
+    }
+  },
+  "local_audit_identical_to_macpro": true,
+  "tracked_diff_sha256": "b88276c06bb3c4f8860476cc7942cd7102cc543432b351188827f6790f9fac05",
+  "canonical_unchanged": true,
+  "previous_diff_protected": true,
+  "remaining_blockers": [],
+  "historical_eddie_unchanged": true
+}

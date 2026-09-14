@@ -52,10 +52,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "links.official_tickets",
-          "recommended_listening"
+          "official_tickets",
+          "apple_music"
         ],
-        "note": "The exact Billboard Live Tokyo event page is verified. Ticket sales have not opened yet, so no stable event-specific purchase destination is stored. The project has a current live album, ブギる心, but no exact Apple Music album/song/playlist URL was independently verified in this pass; no generic search or artist page was substituted."
+        "note": "The exact Billboard Live Tokyo event page is verified. Ticket sales have not opened yet, so no stable event-specific purchase destination is stored. The project has a current live album, ブギる心, but no exact Apple Music album/song/playlist URL was independently verified in this pass; no generic search or artist page was substituted. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_tickets, recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

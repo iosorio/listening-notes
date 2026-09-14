@@ -52,10 +52,9 @@
         "status": "pending",
         "missing": [
           "official_tickets",
-          "apple_music",
-          "sep_24_showtime"
+          "apple_music"
         ],
-        "note": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending."
+        "note": "Current dates, venue, program, world-premiere status, commission, conductor/orchestra and the added Sep 24 performance are verified directly from the New York Philharmonic. Authorized Ticketmaster listings verify the Sep 25, Sep 26, Sep 27 and Sep 29 curtain times. The newly added Sep 24 curtain time and a stable single official purchase destination were not exposed in the authoritative sources checked, and no exact Apple Music recommendation was verified; all remain intentionally pending. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: sep_24_showtime. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

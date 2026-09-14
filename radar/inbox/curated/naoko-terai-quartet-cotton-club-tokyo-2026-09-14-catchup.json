@@ -58,11 +58,11 @@
         }
       ],
       "enrichment": {
-        "status": "partial",
+        "status": "pending",
         "missing": [
           "official_tickets"
         ],
-        "note": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL."
+        "note": "The exact COTTON CLUB event page verifies the date, both set times, lineup, reservation opening dates and prices; the exact Apple Music album page for Naoko's is also verified. COTTON CLUB's event-specific reservation route resolves through a session-dependent flow and returned a session error outside an active booking session, so official_tickets is intentionally left null rather than storing an unstable URL. Structural normalization on 2026-09-11: status 'partial' normalized to pending. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

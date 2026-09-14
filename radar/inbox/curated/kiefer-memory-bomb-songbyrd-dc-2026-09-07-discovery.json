@@ -73,11 +73,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_tickets",
-          "performance_start",
-          "complete_live_personnel"
+          "official_tickets"
         ],
-        "note": "The exact Songbyrd event, date, doors, supporting billing and face-value range are verified, as are the Blue Note tour/date and Memory Bomb release context plus an exact Apple Music album destination. Songbyrd links to authorized DICE ticketing, but the stable event-specific DICE destination was not exposed reliably in this research pass, so official_tickets remains null rather than inferred. A distinct performance start and complete touring personnel are also not published on the primary event page."
+        "note": "The exact Songbyrd event, date, doors, supporting billing and face-value range are verified, as are the Blue Note tour/date and Memory Bomb release context plus an exact Apple Music album destination. Songbyrd links to authorized DICE ticketing, but the stable event-specific DICE destination was not exposed reliably in this research pass, so official_tickets remains null rather than inferred. A distinct performance start and complete touring personnel are also not published on the primary event page. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: performance_start, complete_live_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

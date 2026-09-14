@@ -54,11 +54,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "date_specific_full_bien_sur_personnel",
-          "primary_price_confirmation",
           "apple_music"
         ],
-        "note": "Solla's official calendar verifies the exact Blues Alley date and both set times. His official Bien Sur! page verifies the project's standing personnel and musical identity, but the concert-specific listing does not independently enumerate the complete September 24 lineup, so substitutes are not assumed. An authorized Ticketmaster event destination was verified for the billing/date, but no price is stored without a stable primary-source confirmation. No Apple Music destination is supplied without exact verification."
+        "note": "Solla's official calendar verifies the exact Blues Alley date and both set times. His official Bien Sur! page verifies the project's standing personnel and musical identity, but the concert-specific listing does not independently enumerate the complete September 24 lineup, so substitutes are not assumed. An authorized Ticketmaster event destination was verified for the billing/date, but no price is stored without a stable primary-source confirmation. No Apple Music destination is supplied without exact verification. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: date_specific_full_bien_sur_personnel, primary_price_confirmation. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

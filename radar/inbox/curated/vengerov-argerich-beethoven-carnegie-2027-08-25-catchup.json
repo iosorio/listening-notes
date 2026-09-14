@@ -66,10 +66,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "showtimes",
-          "links.official_tickets"
+          "official_tickets"
         ],
-        "note": "Carnegie Hall's exact April 23 event page and official season announcement verify the three-night April 23-25 cycle, venue, complete Beethoven-sonata concept, Vengerov Perspectives context and Argerich's first Carnegie performances in 10 years. Current authoritative listings indicate 8:00 PM on April 23-24 and 7:00 PM on April 25, but the automation could not reliably resolve all three Carnegie event pages without redirect errors, so the canonical candidate leaves showtimes empty rather than promoting secondary timing into a factual field. No separate stable official purchase destination was resolved, so official_tickets remains pending. Both Apple Music listening links are exact verified album pages."
+        "note": "Carnegie Hall's exact April 23 event page and official season announcement verify the three-night April 23-25 cycle, venue, complete Beethoven-sonata concept, Vengerov Perspectives context and Argerich's first Carnegie performances in 10 years. Current authoritative listings indicate 8:00 PM on April 23-24 and 7:00 PM on April 25, but the automation could not reliably resolve all three Carnegie event pages without redirect errors, so the canonical candidate leaves showtimes empty rather than promoting secondary timing into a factual field. No separate stable official purchase destination was resolved, so official_tickets remains pending. Both Apple Music listening links are exact verified album pages. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: showtimes, links.official_tickets. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

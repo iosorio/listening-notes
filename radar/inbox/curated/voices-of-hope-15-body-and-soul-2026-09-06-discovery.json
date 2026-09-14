@@ -75,12 +75,12 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "partial",
+        "status": "pending",
         "missing": [
           "official_tickets",
           "apple_music"
         ],
-        "note": "The exact BODY&SOUL event page verifies the date, two-set lineup, rhythm section, showtimes, cash-only charity payment and ¥5,000/¥9,000 tax-included charges. Maya Hatch and Dennis Lambert independently list the September 12 Voices of Hope 15 date at BODY&SOUL. The venue page uses its own email reservation mechanism rather than a separate stable ticket destination, so official_tickets remains null. No Apple Music identifier or repertoire for the 2026 edition is inferred."
+        "note": "The exact BODY&SOUL event page verifies the date, two-set lineup, rhythm section, showtimes, cash-only charity payment and ¥5,000/¥9,000 tax-included charges. Maya Hatch and Dennis Lambert independently list the September 12 Voices of Hope 15 date at BODY&SOUL. The venue page uses its own email reservation mechanism rather than a separate stable ticket destination, so official_tickets remains null. No Apple Music identifier or repertoire for the 2026 edition is inferred. Structural normalization on 2026-09-11: status 'partial' normalized to pending. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -71,10 +71,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_official_ticket_destination",
-          "published_washington_lineup_beyond_john_beasley"
+          "official_tickets"
         ],
-        "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination."
+        "note": "The Library of Congress event page and 2026-27 season announcement verify the date, 20:00 concert, Coolidge Auditorium, free-ticketed status, John Beasley's direction, the centenary framing, the career-spanning program and the Gil Evans Collection connection. The Library's event listings independently verify the 18:30 preconcert lecture by Guthrie P. Ramsey Jr. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. Other Unlimited Miles dates publish specific sextet personnel, but the Washington event page does not; those musicians are therefore not inferred for DC. Apple Music verifies the exact Sketches of Spain destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination, published_washington_lineup_beyond_john_beasley. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

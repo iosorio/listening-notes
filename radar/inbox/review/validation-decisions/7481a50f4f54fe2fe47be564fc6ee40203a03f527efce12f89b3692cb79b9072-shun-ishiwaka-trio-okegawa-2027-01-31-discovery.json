@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/shun-ishiwaka-trio-okegawa-2027-01-31-discovery.json",
+    "sha256": "7481a50f4f54fe2fe47be564fc6ee40203a03f527efce12f89b3692cb79b9072",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"shun-ishiwaka-trio-okegawa-2027-01-31-discovery\",\n  \"checked_on\": \"2026-08-30\",\n  \"reviewed_by\": \"RADAR automation editorial review\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before discovery and grading. Current Tsuyoshi Yamamoto sources were checked first, including Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A-related searches, and credible Japanese jazz sources; no additional unrecorded Yamamoto appearance with a distinct event-specific admission reason was verified in this pass. Shun Ishiwaka Trio featuring Yusei Takahashi and Marty Holoubek with guest Tomoaki Baba clears RADAR admission on performance-specific grounds: Okegawa is the final published date of the quartet's first hall tour around Mabui, an all-Ishiwaka-composition project whose four players share Terumasa Hino-group lineage and whose instrumentation combines drums, piano/electric piano and electronics, bass, and tenor saxophone. Priority was assigned only after admission. A+ is sufficient: this is an unusually strong new-generation Japanese jazz project and a meaningful tour-closing Kanto date worth making room for, but it is one stop in a six-city tour rather than a farewell, one-off premiere, or otherwise scarce enough to justify S. The proposed A+ is consistent with the current editorial shape of a broad A base, narrower A+, and rare S/S+ tiers. Batch distribution: A 0, A+ 1, S 0, S+ 0.\",\n  \"events\": [\n    {\n      \"id\": \"shun-ishiwaka-trio-okegawa-2027-01-31\",\n      \"artist\": \"Shun Ishiwaka Trio + 1\",\n      \"subtitle\": \"Hall Tour 2026+27 featuring Yusei Takahashi & Marty Holoubek, guest Tomoaki Baba\",\n      \"dates\": {\n        \"start\": \"2027-01-31\",\n        \"end\": \"2027-01-31\"\n      },\n      \"showtimes\": [\n        \"15:30\"\n      ],\n      \"venue\": {\n        \"id\": \"hibiki-no-mori-okegawa-civic-hall\",\n        \"name\": \"Hibiki no Mori Okegawa Civic Hall\",\n        \"city\": \"Okegawa\",\n        \"state\": \"Saitama\",\n        \"country\": \"JP\"\n      },\n      \"geographic_domain\": \"tokyo_kanto\",\n      \"geography\": \"Greater Tokyo / Kanto\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Japan / contemporary jazz / first hall tour\",\n      \"genres\": [\n        \"Jazz\",\n        \"Contemporary jazz\"\n      ],\n      \"musical_axes\": [\n        \"Japan / Tokyo\",\n        \"Instrumental identity\",\n        \"Improvised\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"Shun Ishiwaka — drums\",\n        \"Yusei Takahashi — piano, keyboards\",\n        \"Marty Holoubek — bass\",\n        \"Tomoaki Baba — tenor saxophone\"\n      ],\n      \"factual_description\": \"Okegawa Civic Hall presents Shun Ishiwaka Trio Hall Tour 2026+27 featuring Yusei Takahashi and Marty Holoubek with guest Tomoaki Baba on January 31, 2027. Doors are at 3:00 PM and the concert starts at 3:30 PM. The venue bills this as the group's first tour. Universal Music Japan lists Okegawa as the last published date of the six-city hall tour supporting Mabui. The album features Ishiwaka on drums, Takahashi on piano, electric piano, sampler and modular synthesizer, Holoubek on bass, and Baba on tenor saxophone; all eight compositions are by Ishiwaka. Universal Music Japan states that all four musicians are members of Terumasa Hino's group and describes the project as dynamic, robust interplay shaped by that shared lineage. The venue lists advance reserved seating at ¥5,000, same-day reserved seating at ¥5,500, and U25 tickets at ¥3,500.\",\n      \"ticket_price\": \"¥5,000 advance; ¥5,500 same day; ¥3,500 U25\",\n      \"links\": {\n        \"official_event\": \"https://www.okegawa-hall.jp/event/40976/\",\n        \"official_tickets\": null\n      },\n      \"recommended_listening\": [\n        \"Mabui\",\n        \"Live at ALFIE ‘Temporal Cubic’\"\n      ],\n      \"enrichment\": {\n        \"status\": \"pending\",\n        \"missing\": [\n          \"event-specific official_tickets\",\n          \"apple_music\"\n        ],\n        \"note\": \"The exact date, doors, showtime, prices, venue address and announced personnel were verified from Okegawa Civic Hall. Ticket sales are scheduled to begin October 3, 2026 through the hall's online service and October 9 through general channels, but no stable event-specific purchase URL is currently exposed, so no purchase destination is invented. No Apple Music ID is inferred.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.okegawa-hall.jp/event/40976/\",\n          \"publisher\": \"Okegawa Civic Hall\",\n          \"checked_on\": \"2026-08-30\",\n          \"note\": \"Primary event page verifying January 31, 2027, 3:00 PM doors, 3:30 PM start, first-tour billing, announced personnel, ticket prices and venue details.\"\n        },\n        {\n          \"url\": \"https://www.universal-music.co.jp/shun-ishikawa/news/2026-07-22/\",\n          \"publisher\": \"Universal Music Japan / Shun Ishiwaka\",\n          \"checked_on\": \"2026-08-30\",\n          \"note\": \"Primary artist-label announcement verifying Mabui, the quartet personnel and instruments, all-Ishiwaka compositions, shared Terumasa Hino-group lineage, and the published six-city Hall Tour 2026+27 ending with the Okegawa date.\"\n        },\n        {\n          \"url\": \"https://news.joysound.com/article/681879\",\n          \"publisher\": \"JOYSOUND Music News\",\n          \"checked_on\": \"2026-08-30\",\n          \"note\": \"Authoritative music-news corroboration identifying the January 31 Saitama performance as the finale of the six-city tour.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-and-authoritative-sources\",\n        \"note\": \"Verified against Okegawa Civic Hall's exact event page, Universal Music Japan's Shun Ishiwaka announcement, and JOYSOUND Music News corroboration of the tour finale. Repository searches for the proposed stable ID, '2027-01-31 Ishiwaka', '2027-01-31 石若駿', 'Mabui 石若駿', and '石若駿トリオ' returned no canonical, curated or processed RADAR record before publication. No unannounced personnel, event-specific purchase URL or Apple Music ID was invented.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"This is a strong snapshot of where the younger Japanese jazz thread is heading. Ishiwaka, Takahashi and Holoubek bring the new trio's first hall tour to its published closing date with Tomoaki Baba, turning Mabui's all-Ishiwaka book into a four-way conversation shaped by a shared Terumasa Hino lineage. The setup has real instrumental character—drums, acoustic and electric keys with electronics, bass and tenor sax—and the ALFIE connection in the trio's first record makes the project especially legible inside Listening Notes without making that connection the reason for admission.\",\n          \"trip_verdict\": \"If a Kanto stay overlaps January 31, make room for the afternoon in Okegawa. The 3:30 PM start makes this a deliberate excursion beyond central Tokyo while still leaving the evening open for another plan.\",\n          \"listen_before\": \"Mabui\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"Es una fotografía muy buena de hacia dónde se mueve la vertiente joven del jazz japonés. Ishiwaka, Takahashi y Holoubek llevan la primera gira de salas del nuevo trío a su última fecha publicada con Tomoaki Baba, convirtiendo el repertorio íntegramente compuesto por Ishiwaka para Mabui en una conversación de cuatro músicos atravesada por una formación común junto a Terumasa Hino. La instrumentación tiene identidad propia —batería, piano y teclados eléctricos con electrónica, bajo y sax tenor— y el antecedente de ALFIE en el primer disco del trío conecta de manera natural con Listening Notes sin ser, por sí solo, la razón para admitir el concierto.\",\n          \"trip_verdict\": \"Si una estancia en Kanto coincide con el 31 de enero, sí haría espacio para la tarde en Okegawa. El inicio a las 15:30 permite convertirlo en una salida deliberada fuera del centro de Tokio y todavía dejar libre la noche para otro plan.\",\n          \"listen_before\": \"Mabui\"\n        }\n      }\n    }\n  ]\n}",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "shun-ishiwaka-trio-okegawa-2027-01-31-discovery",
+      "checked_on": "2026-08-30",
+      "reviewed_by": "RADAR automation editorial review",
+      "notes": "Yamamoto-first discovery pass under the current durable repository rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were reread before discovery and grading. Current Tsuyoshi Yamamoto sources were checked first, including Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A-related searches, and credible Japanese jazz sources; no additional unrecorded Yamamoto appearance with a distinct event-specific admission reason was verified in this pass. Shun Ishiwaka Trio featuring Yusei Takahashi and Marty Holoubek with guest Tomoaki Baba clears RADAR admission on performance-specific grounds: Okegawa is the final published date of the quartet's first hall tour around Mabui, an all-Ishiwaka-composition project whose four players share Terumasa Hino-group lineage and whose instrumentation combines drums, piano/electric piano and electronics, bass, and tenor saxophone. Priority was assigned only after admission. A+ is sufficient: this is an unusually strong new-generation Japanese jazz project and a meaningful tour-closing Kanto date worth making room for, but it is one stop in a six-city tour rather than a farewell, one-off premiere, or otherwise scarce enough to justify S. The proposed A+ is consistent with the current editorial shape of a broad A base, narrower A+, and rare S/S+ tiers. Batch distribution: A 0, A+ 1, S 0, S+ 0.",
+      "events": [
+        {
+          "id": "shun-ishiwaka-trio-okegawa-2027-01-31",
+          "artist": "Shun Ishiwaka Trio + 1",
+          "subtitle": "Hall Tour 2026+27 featuring Yusei Takahashi & Marty Holoubek, guest Tomoaki Baba",
+          "dates": {
+            "start": "2027-01-31",
+            "end": "2027-01-31"
+          },
+          "showtimes": [
+            "15:30"
+          ],
+          "venue": {
+            "id": "hibiki-no-mori-okegawa-civic-hall",
+            "name": "Hibiki no Mori Okegawa Civic Hall",
+            "city": "Okegawa",
+            "state": "Saitama",
+            "country": "JP"
+          },
+          "geographic_domain": "tokyo_kanto",
+          "geography": "Greater Tokyo / Kanto",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Japan / contemporary jazz / first hall tour",
+          "genres": [
+            "Jazz",
+            "Contemporary jazz"
+          ],
+          "musical_axes": [
+            "Japan / Tokyo",
+            "Instrumental identity",
+            "Improvised",
+            "Cultural context"
+          ],
+          "lineup": [
+            "Shun Ishiwaka — drums",
+            "Yusei Takahashi — piano, keyboards",
+            "Marty Holoubek — bass",
+            "Tomoaki Baba — tenor saxophone"
+          ],
+          "factual_description": "Okegawa Civic Hall presents Shun Ishiwaka Trio Hall Tour 2026+27 featuring Yusei Takahashi and Marty Holoubek with guest Tomoaki Baba on January 31, 2027. Doors are at 3:00 PM and the concert starts at 3:30 PM. The venue bills this as the group's first tour. Universal Music Japan lists Okegawa as the last published date of the six-city hall tour supporting Mabui. The album features Ishiwaka on drums, Takahashi on piano, electric piano, sampler and modular synthesizer, Holoubek on bass, and Baba on tenor saxophone; all eight compositions are by Ishiwaka. Universal Music Japan states that all four musicians are members of Terumasa Hino's group and describes the project as dynamic, robust interplay shaped by that shared lineage. The venue lists advance reserved seating at ¥5,000, same-day reserved seating at ¥5,500, and U25 tickets at ¥3,500.",
+          "ticket_price": "¥5,000 advance; ¥5,500 same day; ¥3,500 U25",
+          "links": {
+            "official_event": "https://www.okegawa-hall.jp/event/40976/",
+            "official_tickets": null
+          },
+          "recommended_listening": [
+            "Mabui",
+            "Live at ALFIE ‘Temporal Cubic’"
+          ],
+          "enrichment": {
+            "status": "pending",
+            "missing": [
+              "event-specific official_tickets",
+              "apple_music"
+            ],
+            "note": "The exact date, doors, showtime, prices, venue address and announced personnel were verified from Okegawa Civic Hall. Ticket sales are scheduled to begin October 3, 2026 through the hall's online service and October 9 through general channels, but no stable event-specific purchase URL is currently exposed, so no purchase destination is invented. No Apple Music ID is inferred."
+          },
+          "sources": [
+            {
+              "url": "https://www.okegawa-hall.jp/event/40976/",
+              "publisher": "Okegawa Civic Hall",
+              "checked_on": "2026-08-30",
+              "note": "Primary event page verifying January 31, 2027, 3:00 PM doors, 3:30 PM start, first-tour billing, announced personnel, ticket prices and venue details."
+            },
+            {
+              "url": "https://www.universal-music.co.jp/shun-ishikawa/news/2026-07-22/",
+              "publisher": "Universal Music Japan / Shun Ishiwaka",
+              "checked_on": "2026-08-30",
+              "note": "Primary artist-label announcement verifying Mabui, the quartet personnel and instruments, all-Ishiwaka compositions, shared Terumasa Hino-group lineage, and the published six-city Hall Tour 2026+27 ending with the Okegawa date."
+            },
+            {
+              "url": "https://news.joysound.com/article/681879",
+              "publisher": "JOYSOUND Music News",
+              "checked_on": "2026-08-30",
+              "note": "Authoritative music-news corroboration identifying the January 31 Saitama performance as the finale of the six-city tour."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-and-authoritative-sources",
+            "note": "Verified against Okegawa Civic Hall's exact event page, Universal Music Japan's Shun Ishiwaka announcement, and JOYSOUND Music News corroboration of the tour finale. Repository searches for the proposed stable ID, '2027-01-31 Ishiwaka', '2027-01-31 石若駿', 'Mabui 石若駿', and '石若駿トリオ' returned no canonical, curated or processed RADAR record before publication. No unannounced personnel, event-specific purchase URL or Apple Music ID was invented."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "This is a strong snapshot of where the younger Japanese jazz thread is heading. Ishiwaka, Takahashi and Holoubek bring the new trio's first hall tour to its published closing date with Tomoaki Baba, turning Mabui's all-Ishiwaka book into a four-way conversation shaped by a shared Terumasa Hino lineage. The setup has real instrumental character—drums, acoustic and electric keys with electronics, bass and tenor sax—and the ALFIE connection in the trio's first record makes the project especially legible inside Listening Notes without making that connection the reason for admission.",
+              "trip_verdict": "If a Kanto stay overlaps January 31, make room for the afternoon in Okegawa. The 3:30 PM start makes this a deliberate excursion beyond central Tokyo while still leaving the evening open for another plan.",
+              "listen_before": "Mabui"
+            },
+            "es": {
+              "why_it_matters": "Es una fotografía muy buena de hacia dónde se mueve la vertiente joven del jazz japonés. Ishiwaka, Takahashi y Holoubek llevan la primera gira de salas del nuevo trío a su última fecha publicada con Tomoaki Baba, convirtiendo el repertorio íntegramente compuesto por Ishiwaka para Mabui en una conversación de cuatro músicos atravesada por una formación común junto a Terumasa Hino. La instrumentación tiene identidad propia —batería, piano y teclados eléctricos con electrónica, bajo y sax tenor— y el antecedente de ALFIE en el primer disco del trío conecta de manera natural con Listening Notes sin ser, por sí solo, la razón para admitir el concierto.",
+              "trip_verdict": "Si una estancia en Kanto coincide con el 31 de enero, sí haría espacio para la tarde en Okegawa. El inicio a las 15:30 permite convertirlo en una salida deliberada fuera del centro de Tokio y todavía dejar libre la noche para otro plan.",
+              "listen_before": "Mabui"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/shun-ishiwaka-trio-okegawa-2027-01-31-discovery.json",
+      "batch_sha256": "7481a50f4f54fe2fe47be564fc6ee40203a03f527efce12f89b3692cb79b9072",
+      "batch_id": "shun-ishiwaka-trio-okegawa-2027-01-31-discovery",
+      "event_index": 0,
+      "candidate_event_id": "shun-ishiwaka-trio-okegawa-2027-01-31",
+      "candidate_sha256": "ad47e8aedd0c48620bc22c9b7c3e8f706c55acd636be219d888395c11144bd87",
+      "errors": [
+        "shun-ishiwaka-trio-okegawa-2027-01-31.recommended_listening entries require a title"
+      ],
+      "action": "review_validation",
+      "proposed_diff": [],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "shun-ishiwaka-trio-okegawa-2027-01-31.recommended_listening entries require a title"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": false,
+          "apple_music": false
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "pending",
+          "missing": [
+            "event-specific official_tickets",
+            "apple_music"
+          ],
+          "note": "The exact date, doors, showtime, prices, venue address and announced personnel were verified from Okegawa Civic Hall. Ticket sales are scheduled to begin October 3, 2026 through the hall's online service and October 9 through general channels, but no stable event-specific purchase URL is currently exposed, so no purchase destination is invented. No Apple Music ID is inferred."
+        }
+      ],
+      "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+      "can_remain_active": false,
+      "materialization": "apply",
+      "normalization_reasons": [
+        "missing recalculated from the links and Apple Music URLs already present",
+        "non-standard missing labels preserved here: event-specific official_tickets"
+      ],
+      "errors_after_proposed_repair": [
+        "shun-ishiwaka-trio-okegawa-2027-01-31.recommended_listening entries require a title"
+      ],
+      "proposed_candidate_sha256": "ad47e8aedd0c48620bc22c9b7c3e8f706c55acd636be219d888395c11144bd87"
+    }
+  ],
+  "automatic_repairs": [],
+  "review_candidates": [
+    {
+      "original_event": {
+        "id": "shun-ishiwaka-trio-okegawa-2027-01-31",
+        "artist": "Shun Ishiwaka Trio + 1",
+        "subtitle": "Hall Tour 2026+27 featuring Yusei Takahashi & Marty Holoubek, guest Tomoaki Baba",
+        "dates": {
+          "start": "2027-01-31",
+          "end": "2027-01-31"
+        },
+        "showtimes": [
+          "15:30"
+        ],
+        "venue": {
+          "id": "hibiki-no-mori-okegawa-civic-hall",
+          "name": "Hibiki no Mori Okegawa Civic Hall",
+          "city": "Okegawa",
+          "state": "Saitama",
+          "country": "JP"
+        },
+        "geographic_domain": "tokyo_kanto",
+        "geography": "Greater Tokyo / Kanto",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Japan / contemporary jazz / first hall tour",
+        "genres": [
+          "Jazz",
+          "Contemporary jazz"
+        ],
+        "musical_axes": [
+          "Japan / Tokyo",
+          "Instrumental identity",
+          "Improvised",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Shun Ishiwaka — drums",
+          "Yusei Takahashi — piano, keyboards",
+          "Marty Holoubek — bass",
+          "Tomoaki Baba — tenor saxophone"
+        ],
+        "factual_description": "Okegawa Civic Hall presents Shun Ishiwaka Trio Hall Tour 2026+27 featuring Yusei Takahashi and Marty Holoubek with guest Tomoaki Baba on January 31, 2027. Doors are at 3:00 PM and the concert starts at 3:30 PM. The venue bills this as the group's first tour. Universal Music Japan lists Okegawa as the last published date of the six-city hall tour supporting Mabui. The album features Ishiwaka on drums, Takahashi on piano, electric piano, sampler and modular synthesizer, Holoubek on bass, and Baba on tenor saxophone; all eight compositions are by Ishiwaka. Universal Music Japan states that all four musicians are members of Terumasa Hino's group and describes the project as dynamic, robust interplay shaped by that shared lineage. The venue lists advance reserved seating at ¥5,000, same-day reserved seating at ¥5,500, and U25 tickets at ¥3,500.",
+        "ticket_price": "¥5,000 advance; ¥5,500 same day; ¥3,500 U25",
+        "links": {
+          "official_event": "https://www.okegawa-hall.jp/event/40976/",
+          "official_tickets": null
+        },
+        "recommended_listening": [
+          "Mabui",
+          "Live at ALFIE ‘Temporal Cubic’"
+        ],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "event-specific official_tickets",
+            "apple_music"
+          ],
+          "note": "The exact date, doors, showtime, prices, venue address and announced personnel were verified from Okegawa Civic Hall. Ticket sales are scheduled to begin October 3, 2026 through the hall's online service and October 9 through general channels, but no stable event-specific purchase URL is currently exposed, so no purchase destination is invented. No Apple Music ID is inferred."
+        },
+        "sources": [
+          {
+            "url": "https://www.okegawa-hall.jp/event/40976/",
+            "publisher": "Okegawa Civic Hall",
+            "checked_on": "2026-08-30",
+            "note": "Primary event page verifying January 31, 2027, 3:00 PM doors, 3:30 PM start, first-tour billing, announced personnel, ticket prices and venue details."
+          },
+          {
+            "url": "https://www.universal-music.co.jp/shun-ishikawa/news/2026-07-22/",
+            "publisher": "Universal Music Japan / Shun Ishiwaka",
+            "checked_on": "2026-08-30",
+            "note": "Primary artist-label announcement verifying Mabui, the quartet personnel and instruments, all-Ishiwaka compositions, shared Terumasa Hino-group lineage, and the published six-city Hall Tour 2026+27 ending with the Okegawa date."
+          },
+          {
+            "url": "https://news.joysound.com/article/681879",
+            "publisher": "JOYSOUND Music News",
+            "checked_on": "2026-08-30",
+            "note": "Authoritative music-news corroboration identifying the January 31 Saitama performance as the finale of the six-city tour."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-and-authoritative-sources",
+          "note": "Verified against Okegawa Civic Hall's exact event page, Universal Music Japan's Shun Ishiwaka announcement, and JOYSOUND Music News corroboration of the tour finale. Repository searches for the proposed stable ID, '2027-01-31 Ishiwaka', '2027-01-31 石若駿', 'Mabui 石若駿', and '石若駿トリオ' returned no canonical, curated or processed RADAR record before publication. No unannounced personnel, event-specific purchase URL or Apple Music ID was invented."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "This is a strong snapshot of where the younger Japanese jazz thread is heading. Ishiwaka, Takahashi and Holoubek bring the new trio's first hall tour to its published closing date with Tomoaki Baba, turning Mabui's all-Ishiwaka book into a four-way conversation shaped by a shared Terumasa Hino lineage. The setup has real instrumental character—drums, acoustic and electric keys with electronics, bass and tenor sax—and the ALFIE connection in the trio's first record makes the project especially legible inside Listening Notes without making that connection the reason for admission.",
+            "trip_verdict": "If a Kanto stay overlaps January 31, make room for the afternoon in Okegawa. The 3:30 PM start makes this a deliberate excursion beyond central Tokyo while still leaving the evening open for another plan.",
+            "listen_before": "Mabui"
+          },
+          "es": {
+            "why_it_matters": "Es una fotografía muy buena de hacia dónde se mueve la vertiente joven del jazz japonés. Ishiwaka, Takahashi y Holoubek llevan la primera gira de salas del nuevo trío a su última fecha publicada con Tomoaki Baba, convirtiendo el repertorio íntegramente compuesto por Ishiwaka para Mabui en una conversación de cuatro músicos atravesada por una formación común junto a Terumasa Hino. La instrumentación tiene identidad propia —batería, piano y teclados eléctricos con electrónica, bajo y sax tenor— y el antecedente de ALFIE en el primer disco del trío conecta de manera natural con Listening Notes sin ser, por sí solo, la razón para admitir el concierto.",
+            "trip_verdict": "Si una estancia en Kanto coincide con el 31 de enero, sí haría espacio para la tarde en Okegawa. El inicio a las 15:30 permite convertirlo en una salida deliberada fuera del centro de Tokio y todavía dejar libre la noche para otro plan.",
+            "listen_before": "Mabui"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/shun-ishiwaka-trio-okegawa-2027-01-31-discovery.json",
+        "batch_sha256": "7481a50f4f54fe2fe47be564fc6ee40203a03f527efce12f89b3692cb79b9072",
+        "batch_id": "shun-ishiwaka-trio-okegawa-2027-01-31-discovery",
+        "event_index": 0,
+        "candidate_event_id": "shun-ishiwaka-trio-okegawa-2027-01-31",
+        "candidate_sha256": "ad47e8aedd0c48620bc22c9b7c3e8f706c55acd636be219d888395c11144bd87",
+        "errors": [
+          "shun-ishiwaka-trio-okegawa-2027-01-31.recommended_listening entries require a title"
+        ],
+        "action": "review_validation",
+        "proposed_diff": [],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "shun-ishiwaka-trio-okegawa-2027-01-31.recommended_listening entries require a title"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": false,
+            "apple_music": false
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "pending",
+            "missing": [
+              "event-specific official_tickets",
+              "apple_music"
+            ],
+            "note": "The exact date, doors, showtime, prices, venue address and announced personnel were verified from Okegawa Civic Hall. Ticket sales are scheduled to begin October 3, 2026 through the hall's online service and October 9 through general channels, but no stable event-specific purchase URL is currently exposed, so no purchase destination is invented. No Apple Music ID is inferred."
+          }
+        ],
+        "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+        "can_remain_active": false,
+        "materialization": "apply",
+        "normalization_reasons": [
+          "missing recalculated from the links and Apple Music URLs already present",
+          "non-standard missing labels preserved here: event-specific official_tickets"
+        ],
+        "errors_after_proposed_repair": [
+          "shun-ishiwaka-trio-okegawa-2027-01-31.recommended_listening entries require a title"
+        ],
+        "proposed_candidate_sha256": "ad47e8aedd0c48620bc22c9b7c3e8f706c55acd636be219d888395c11144bd87"
+      }
+    }
+  ],
+  "result": {
+    "active_path": null,
+    "active_events": []
+  }
+}

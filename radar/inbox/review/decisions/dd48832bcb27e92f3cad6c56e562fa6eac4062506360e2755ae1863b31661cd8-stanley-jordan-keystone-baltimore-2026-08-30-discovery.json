@@ -1,0 +1,619 @@
+{
+  "kind": "radar_intake_duplicate_archive",
+  "source": {
+    "path": "radar/inbox/curated/stanley-jordan-keystone-baltimore-2026-08-30-discovery.json",
+    "sha256": "dd48832bcb27e92f3cad6c56e562fa6eac4062506360e2755ae1863b31661cd8",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"stanley-jordan-keystone-baltimore-2026-08-30-discovery\",\n  \"notes\": \"Yamamoto-first discovery pass under the current repository rubric. Current Yamamoto sources were checked first; no new verified, unrecorded appearance cleared RADAR admission. Recent/current RADAR intake was rechecked as a priority-shape sanity test and remains A+-heavy, so this strong but repeatable touring-trio context is kept at A rather than inflated. Proposed batch shape: A 1, A+ 0, S 0, S+ 0.\",\n  \"events\": [\n    {\n      \"id\": \"stanley-jordan-trio-keystone-korner-baltimore-2026-10-02\",\n      \"artist\": \"Stanley Jordan Trio\",\n      \"subtitle\": \"with Kenwood Dennard and Wes Wirth\",\n      \"dates\": {\"start\": \"2026-10-02\", \"end\": \"2026-10-03\"},\n      \"showtimes\": [\"18:00\", \"20:30\"],\n      \"venue\": {\"id\": \"keystone-korner-baltimore-md\", \"name\": \"Keystone Korner Baltimore\", \"city\": \"Baltimore\", \"state\": \"MD\", \"country\": \"US\"},\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Baltimore\",\n      \"status\": \"considering\",\n      \"priority\": \"A\",\n      \"category\": \"Virtuoso jazz guitar / working trio\",\n      \"genres\": [\"Jazz\", \"Jazz fusion\", \"Improvised music\"],\n      \"musical_axes\": [\"Masters\", \"Instrumental identity\", \"Improvised\", \"Fusion / Prog\"],\n      \"lineup\": [\n        \"Stanley Jordan — guitar\",\n        \"Kenwood Dennard\",\n        \"Wes Wirth\"\n      ],\n      \"factual_description\": \"Keystone Korner Baltimore lists Stanley Jordan for Friday and Saturday, October 2-3, 2026, with 6:00 PM and 8:30 PM sets both nights. Stanley Jordan's official tour calendar independently identifies both Baltimore dates as a trio with Kenwood Dennard and Wes Wirth. Jordan's official biography identifies his signature instrumental language as the two-handed guitar touch technique.\",\n      \"links\": {\n        \"official_event\": \"https://www.keystonekornerbaltimore.com/\",\n        \"official_tickets\": \"https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist\"\n      },\n      \"tickets\": {\n        \"currency\": \"USD\",\n        \"official\": {\n          \"minimum\": 45,\n          \"maximum\": 55,\n          \"source_url\": \"https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist\",\n          \"checked_on\": \"2026-08-30\"\n        },\n        \"resale\": {\n          \"minimum\": null,\n          \"maximum\": null,\n          \"url\": null,\n          \"checked_on\": null\n        }\n      },\n      \"recommended_listening\": [],\n      \"enrichment\": {\n        \"status\": \"pending\",\n        \"missing\": [\"instrument assignments for announced trio members where not stated on the event/tour listings\", \"apple_music\"],\n        \"note\": \"Both dates, all four live set times, authorized live-ticket price range and the announced trio are verified. The artist tour page names Kenwood Dennard and Wes Wirth but does not assign their instruments there, so those assignments are not inferred in the event record. Streaming passes are separately offered at $15 and are not mixed into the live-ticket price field.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.keystonekornerbaltimore.com/\",\n          \"publisher\": \"Keystone Korner Baltimore\",\n          \"checked_on\": \"2026-08-30\",\n          \"note\": \"Official venue listing verifying October 2-3 and 6:00 PM / 8:30 PM shows on both days, with the authorized InstantSeats destination.\"\n        },\n        {\n          \"url\": \"https://stanleyjordan.com/en/tourdates/?v=1\",\n          \"publisher\": \"Stanley Jordan\",\n          \"checked_on\": \"2026-08-30\",\n          \"note\": \"Artist-official tour calendar verifying both Keystone Korner dates and the trio billing with Kenwood Dennard and Wes Wirth.\"\n        },\n        {\n          \"url\": \"https://stanleyjordan.com/en/biography/\",\n          \"publisher\": \"Stanley Jordan\",\n          \"checked_on\": \"2026-08-30\",\n          \"note\": \"Artist-official biography verifying Jordan's two-handed touch technique as the core of his instrumental identity.\"\n        },\n        {\n          \"url\": \"https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist\",\n          \"publisher\": \"InstantSeats / Keystone Korner Baltimore\",\n          \"checked_on\": \"2026-08-30\",\n          \"note\": \"Authorized ticketing page verifying all four live sets at $45-$55 and separate $15 streaming access.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-sources\",\n        \"note\": \"Verified from Keystone Korner Baltimore, Stanley Jordan's official site and the venue-authorized InstantSeats page. Repository searches for Stanley Jordan and the exact Baltimore date returned no existing candidate before publication.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"Jordan's touch technique is the reason this clears RADAR: he turns the guitar into a genuinely polyphonic instrument, and Baltimore gets the touring trio with Kenwood Dennard and Wes Wirth rather than a generic billing. Four sets in Keystone's close listening-room scale make that instrumental identity unusually easy to hear up close.\",\n          \"trip_verdict\": \"Baltimore is an easy short-trip option; choose whichever of the four sets fits the weekend and make an evening of it rather than reorganizing a larger regional itinerary around the engagement.\",\n          \"listen_before\": \"Magic Touch\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"La técnica de touch de Jordan es la razón para meterlo al RADAR: convierte la guitarra en un instrumento realmente polifónico, y Baltimore recibe al trío de gira con Kenwood Dennard y Wes Wirth, no un cartel genérico. Cuatro sets en la escala cercana de Keystone permiten escuchar esa identidad instrumental con especial claridad.\",\n          \"trip_verdict\": \"Baltimore funciona como salida corta y sencilla; escogería el set que mejor acomode ese fin de semana y armaría la noche alrededor de él, sin reorganizar un itinerario regional más grande por toda la residencia.\",\n          \"listen_before\": \"Magic Touch\"\n        }\n      }\n    }\n  ]\n}\n",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "stanley-jordan-keystone-baltimore-2026-08-30-discovery",
+      "notes": "Yamamoto-first discovery pass under the current repository rubric. Current Yamamoto sources were checked first; no new verified, unrecorded appearance cleared RADAR admission. Recent/current RADAR intake was rechecked as a priority-shape sanity test and remains A+-heavy, so this strong but repeatable touring-trio context is kept at A rather than inflated. Proposed batch shape: A 1, A+ 0, S 0, S+ 0.",
+      "events": [
+        {
+          "id": "stanley-jordan-trio-keystone-korner-baltimore-2026-10-02",
+          "artist": "Stanley Jordan Trio",
+          "subtitle": "with Kenwood Dennard and Wes Wirth",
+          "dates": {
+            "start": "2026-10-02",
+            "end": "2026-10-03"
+          },
+          "showtimes": [
+            "18:00",
+            "20:30"
+          ],
+          "venue": {
+            "id": "keystone-korner-baltimore-md",
+            "name": "Keystone Korner Baltimore",
+            "city": "Baltimore",
+            "state": "MD",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Baltimore",
+          "status": "considering",
+          "priority": "A",
+          "category": "Virtuoso jazz guitar / working trio",
+          "genres": [
+            "Jazz",
+            "Jazz fusion",
+            "Improvised music"
+          ],
+          "musical_axes": [
+            "Masters",
+            "Instrumental identity",
+            "Improvised",
+            "Fusion / Prog"
+          ],
+          "lineup": [
+            "Stanley Jordan — guitar",
+            "Kenwood Dennard",
+            "Wes Wirth"
+          ],
+          "factual_description": "Keystone Korner Baltimore lists Stanley Jordan for Friday and Saturday, October 2-3, 2026, with 6:00 PM and 8:30 PM sets both nights. Stanley Jordan's official tour calendar independently identifies both Baltimore dates as a trio with Kenwood Dennard and Wes Wirth. Jordan's official biography identifies his signature instrumental language as the two-handed guitar touch technique.",
+          "links": {
+            "official_event": "https://www.keystonekornerbaltimore.com/",
+            "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist"
+          },
+          "tickets": {
+            "currency": "USD",
+            "official": {
+              "minimum": 45,
+              "maximum": 55,
+              "source_url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+              "checked_on": "2026-08-30"
+            },
+            "resale": {
+              "minimum": null,
+              "maximum": null,
+              "url": null,
+              "checked_on": null
+            }
+          },
+          "recommended_listening": [],
+          "enrichment": {
+            "status": "pending",
+            "missing": [
+              "instrument assignments for announced trio members where not stated on the event/tour listings",
+              "apple_music"
+            ],
+            "note": "Both dates, all four live set times, authorized live-ticket price range and the announced trio are verified. The artist tour page names Kenwood Dennard and Wes Wirth but does not assign their instruments there, so those assignments are not inferred in the event record. Streaming passes are separately offered at $15 and are not mixed into the live-ticket price field."
+          },
+          "sources": [
+            {
+              "url": "https://www.keystonekornerbaltimore.com/",
+              "publisher": "Keystone Korner Baltimore",
+              "checked_on": "2026-08-30",
+              "note": "Official venue listing verifying October 2-3 and 6:00 PM / 8:30 PM shows on both days, with the authorized InstantSeats destination."
+            },
+            {
+              "url": "https://stanleyjordan.com/en/tourdates/?v=1",
+              "publisher": "Stanley Jordan",
+              "checked_on": "2026-08-30",
+              "note": "Artist-official tour calendar verifying both Keystone Korner dates and the trio billing with Kenwood Dennard and Wes Wirth."
+            },
+            {
+              "url": "https://stanleyjordan.com/en/biography/",
+              "publisher": "Stanley Jordan",
+              "checked_on": "2026-08-30",
+              "note": "Artist-official biography verifying Jordan's two-handed touch technique as the core of his instrumental identity."
+            },
+            {
+              "url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+              "publisher": "InstantSeats / Keystone Korner Baltimore",
+              "checked_on": "2026-08-30",
+              "note": "Authorized ticketing page verifying all four live sets at $45-$55 and separate $15 streaming access."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-sources",
+            "note": "Verified from Keystone Korner Baltimore, Stanley Jordan's official site and the venue-authorized InstantSeats page. Repository searches for Stanley Jordan and the exact Baltimore date returned no existing candidate before publication."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "Jordan's touch technique is the reason this clears RADAR: he turns the guitar into a genuinely polyphonic instrument, and Baltimore gets the touring trio with Kenwood Dennard and Wes Wirth rather than a generic billing. Four sets in Keystone's close listening-room scale make that instrumental identity unusually easy to hear up close.",
+              "trip_verdict": "Baltimore is an easy short-trip option; choose whichever of the four sets fits the weekend and make an evening of it rather than reorganizing a larger regional itinerary around the engagement.",
+              "listen_before": "Magic Touch"
+            },
+            "es": {
+              "why_it_matters": "La técnica de touch de Jordan es la razón para meterlo al RADAR: convierte la guitarra en un instrumento realmente polifónico, y Baltimore recibe al trío de gira con Kenwood Dennard y Wes Wirth, no un cartel genérico. Cuatro sets en la escala cercana de Keystone permiten escuchar esa identidad instrumental con especial claridad.",
+              "trip_verdict": "Baltimore funciona como salida corta y sencilla; escogería el set que mejor acomode ese fin de semana y armaría la noche alrededor de él, sin reorganizar un itinerario regional más grande por toda la residencia.",
+              "listen_before": "Magic Touch"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "duplicates": [
+    {
+      "original_event": {
+        "id": "stanley-jordan-trio-keystone-korner-baltimore-2026-10-02",
+        "artist": "Stanley Jordan Trio",
+        "subtitle": "with Kenwood Dennard and Wes Wirth",
+        "dates": {
+          "start": "2026-10-02",
+          "end": "2026-10-03"
+        },
+        "showtimes": [
+          "18:00",
+          "20:30"
+        ],
+        "venue": {
+          "id": "keystone-korner-baltimore-md",
+          "name": "Keystone Korner Baltimore",
+          "city": "Baltimore",
+          "state": "MD",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Baltimore",
+        "status": "considering",
+        "priority": "A",
+        "category": "Virtuoso jazz guitar / working trio",
+        "genres": [
+          "Jazz",
+          "Jazz fusion",
+          "Improvised music"
+        ],
+        "musical_axes": [
+          "Masters",
+          "Instrumental identity",
+          "Improvised",
+          "Fusion / Prog"
+        ],
+        "lineup": [
+          "Stanley Jordan — guitar",
+          "Kenwood Dennard",
+          "Wes Wirth"
+        ],
+        "factual_description": "Keystone Korner Baltimore lists Stanley Jordan for Friday and Saturday, October 2-3, 2026, with 6:00 PM and 8:30 PM sets both nights. Stanley Jordan's official tour calendar independently identifies both Baltimore dates as a trio with Kenwood Dennard and Wes Wirth. Jordan's official biography identifies his signature instrumental language as the two-handed guitar touch technique.",
+        "links": {
+          "official_event": "https://www.keystonekornerbaltimore.com/",
+          "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist"
+        },
+        "tickets": {
+          "currency": "USD",
+          "official": {
+            "minimum": 45,
+            "maximum": 55,
+            "source_url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+            "checked_on": "2026-08-30"
+          },
+          "resale": {
+            "minimum": null,
+            "maximum": null,
+            "url": null,
+            "checked_on": null
+          }
+        },
+        "recommended_listening": [],
+        "enrichment": {
+          "status": "pending",
+          "missing": [
+            "instrument assignments for announced trio members where not stated on the event/tour listings",
+            "apple_music"
+          ],
+          "note": "Both dates, all four live set times, authorized live-ticket price range and the announced trio are verified. The artist tour page names Kenwood Dennard and Wes Wirth but does not assign their instruments there, so those assignments are not inferred in the event record. Streaming passes are separately offered at $15 and are not mixed into the live-ticket price field."
+        },
+        "sources": [
+          {
+            "url": "https://www.keystonekornerbaltimore.com/",
+            "publisher": "Keystone Korner Baltimore",
+            "checked_on": "2026-08-30",
+            "note": "Official venue listing verifying October 2-3 and 6:00 PM / 8:30 PM shows on both days, with the authorized InstantSeats destination."
+          },
+          {
+            "url": "https://stanleyjordan.com/en/tourdates/?v=1",
+            "publisher": "Stanley Jordan",
+            "checked_on": "2026-08-30",
+            "note": "Artist-official tour calendar verifying both Keystone Korner dates and the trio billing with Kenwood Dennard and Wes Wirth."
+          },
+          {
+            "url": "https://stanleyjordan.com/en/biography/",
+            "publisher": "Stanley Jordan",
+            "checked_on": "2026-08-30",
+            "note": "Artist-official biography verifying Jordan's two-handed touch technique as the core of his instrumental identity."
+          },
+          {
+            "url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+            "publisher": "InstantSeats / Keystone Korner Baltimore",
+            "checked_on": "2026-08-30",
+            "note": "Authorized ticketing page verifying all four live sets at $45-$55 and separate $15 streaming access."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Verified from Keystone Korner Baltimore, Stanley Jordan's official site and the venue-authorized InstantSeats page. Repository searches for Stanley Jordan and the exact Baltimore date returned no existing candidate before publication."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "Jordan's touch technique is the reason this clears RADAR: he turns the guitar into a genuinely polyphonic instrument, and Baltimore gets the touring trio with Kenwood Dennard and Wes Wirth rather than a generic billing. Four sets in Keystone's close listening-room scale make that instrumental identity unusually easy to hear up close.",
+            "trip_verdict": "Baltimore is an easy short-trip option; choose whichever of the four sets fits the weekend and make an evening of it rather than reorganizing a larger regional itinerary around the engagement.",
+            "listen_before": "Magic Touch"
+          },
+          "es": {
+            "why_it_matters": "La técnica de touch de Jordan es la razón para meterlo al RADAR: convierte la guitarra en un instrumento realmente polifónico, y Baltimore recibe al trío de gira con Kenwood Dennard y Wes Wirth, no un cartel genérico. Cuatro sets en la escala cercana de Keystone permiten escuchar esa identidad instrumental con especial claridad.",
+            "trip_verdict": "Baltimore funciona como salida corta y sencilla; escogería el set que mejor acomode ese fin de semana y armaría la noche alrededor de él, sin reorganizar un itinerario regional más grande por toda la residencia.",
+            "listen_before": "Magic Touch"
+          }
+        }
+      },
+      "original_event_sha256": "fc0ea82fdf3569f93c4582b771289b689853402843c334b41c56aa31fd17bcf2",
+      "canonical_event_id": "stanley-jordan-keystone-korner-baltimore-2026-10-02",
+      "decision": {
+        "path": "radar/inbox/curated/stanley-jordan-keystone-baltimore-2026-08-30-discovery.json",
+        "sha256": "dd48832bcb27e92f3cad6c56e562fa6eac4062506360e2755ae1863b31661cd8",
+        "batch_id": "stanley-jordan-keystone-baltimore-2026-08-30-discovery",
+        "event_index": 0,
+        "candidate_event_id": "stanley-jordan-trio-keystone-korner-baltimore-2026-10-02",
+        "action": "archive_duplicate",
+        "approval": "approved",
+        "canonical_event_id": "stanley-jordan-keystone-korner-baltimore-2026-10-02",
+        "evidence": [
+          {
+            "kind": "same_artist_venue_date",
+            "artist_tokens": [
+              "and",
+              "dennard",
+              "jordan",
+              "kenwood",
+              "stanley",
+              "trio",
+              "wes",
+              "wirth",
+              "with"
+            ],
+            "dates_overlap": true
+          },
+          {
+            "kind": "distinct_showtimes",
+            "value": false
+          },
+          {
+            "kind": "reviewed_official_confirmation",
+            "sources": [
+              "https://stanleyjordan.com/en/tourdates/?v=1",
+              "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist"
+            ],
+            "scope": "same full engagement; not an inference from artist/venue/date alone"
+          }
+        ],
+        "diff": [
+          {
+            "field": "artist",
+            "before": "Stanley Jordan",
+            "after": "Stanley Jordan Trio"
+          },
+          {
+            "field": "subtitle",
+            "before": null,
+            "after": "with Kenwood Dennard and Wes Wirth"
+          },
+          {
+            "field": "links",
+            "before": {
+              "official_event": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+              "official_tickets": null
+            },
+            "after": {
+              "official_event": "https://www.keystonekornerbaltimore.com/",
+              "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist"
+            }
+          },
+          {
+            "field": "lineup",
+            "before": [],
+            "after": [
+              "Stanley Jordan — guitar",
+              "Kenwood Dennard",
+              "Wes Wirth"
+            ]
+          }
+        ],
+        "normalization": [
+          {
+            "field": "venue.id",
+            "before": "keystone-korner-baltimore-md",
+            "after": "keystone-korner-baltimore"
+          }
+        ],
+        "candidate_event_sha256": "fc0ea82fdf3569f93c4582b771289b689853402843c334b41c56aa31fd17bcf2",
+        "canonical_event_sha256": "4bbe5d44d587778d3cb1f5e9fcd8898f31ffc3a82fc39d6925a5deaface91433",
+        "factual_diff_raw": [
+          {
+            "field": "artist",
+            "canonical": "Stanley Jordan",
+            "candidate": "Stanley Jordan Trio"
+          },
+          {
+            "field": "subtitle",
+            "canonical": null,
+            "candidate": "with Kenwood Dennard and Wes Wirth"
+          },
+          {
+            "field": "venue",
+            "canonical": {
+              "id": "keystone-korner-baltimore",
+              "name": "Keystone Korner Baltimore",
+              "city": "Baltimore",
+              "state": "MD",
+              "country": "US"
+            },
+            "candidate": {
+              "id": "keystone-korner-baltimore-md",
+              "name": "Keystone Korner Baltimore",
+              "city": "Baltimore",
+              "state": "MD",
+              "country": "US"
+            }
+          },
+          {
+            "field": "links",
+            "canonical": {
+              "official_event": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+              "official_tickets": null
+            },
+            "candidate": {
+              "official_event": "https://www.keystonekornerbaltimore.com/",
+              "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist"
+            }
+          },
+          {
+            "field": "lineup",
+            "canonical": [],
+            "candidate": [
+              "Stanley Jordan — guitar",
+              "Kenwood Dennard",
+              "Wes Wirth"
+            ]
+          },
+          {
+            "field": "tickets",
+            "canonical": {
+              "currency": "USD",
+              "official": {
+                "minimum": null,
+                "maximum": null,
+                "source_url": null,
+                "checked_on": null
+              },
+              "resale": {
+                "minimum": null,
+                "maximum": null,
+                "url": null,
+                "checked_on": null
+              }
+            },
+            "candidate": {
+              "currency": "USD",
+              "official": {
+                "minimum": 45,
+                "maximum": 55,
+                "source_url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+                "checked_on": "2026-08-30"
+              },
+              "resale": {
+                "minimum": null,
+                "maximum": null,
+                "url": null,
+                "checked_on": null
+              }
+            }
+          },
+          {
+            "field": "sources",
+            "canonical": [
+              {
+                "url": "https://www.keystonekornerbaltimore.com/",
+                "publisher": "Keystone Korner Baltimore",
+                "checked_on": "2026-08-19",
+                "note": "Official venue schedule verifies Stanley Jordan on October 2-3, 2026, with 6:00 PM and 8:30 PM sets both nights."
+              },
+              {
+                "url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+                "publisher": "InstantSeats / Keystone Korner Baltimore",
+                "checked_on": "2026-08-19",
+                "note": "Authorized artist-at-venue listing verifies all four in-person sets and exposes separate Get Tickets controls for each set; because each purchase destination is set-specific, no single exact official_tickets URL is stored for the two-night engagement."
+              },
+              {
+                "url": "https://music.apple.com/us/album/magic-touch/715648094",
+                "publisher": "Apple Music",
+                "checked_on": "2026-08-19",
+                "note": "Exact Apple Music album page for Magic Touch."
+              }
+            ],
+            "candidate": [
+              {
+                "url": "https://www.keystonekornerbaltimore.com/",
+                "publisher": "Keystone Korner Baltimore",
+                "checked_on": "2026-08-30",
+                "note": "Official venue listing verifying October 2-3 and 6:00 PM / 8:30 PM shows on both days, with the authorized InstantSeats destination."
+              },
+              {
+                "url": "https://stanleyjordan.com/en/tourdates/?v=1",
+                "publisher": "Stanley Jordan",
+                "checked_on": "2026-08-30",
+                "note": "Artist-official tour calendar verifying both Keystone Korner dates and the trio billing with Kenwood Dennard and Wes Wirth."
+              },
+              {
+                "url": "https://stanleyjordan.com/en/biography/",
+                "publisher": "Stanley Jordan",
+                "checked_on": "2026-08-30",
+                "note": "Artist-official biography verifying Jordan's two-handed touch technique as the core of his instrumental identity."
+              },
+              {
+                "url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+                "publisher": "InstantSeats / Keystone Korner Baltimore",
+                "checked_on": "2026-08-30",
+                "note": "Authorized ticketing page verifying all four live sets at $45-$55 and separate $15 streaming access."
+              }
+            ]
+          },
+          {
+            "field": "factual_description",
+            "canonical": "Keystone Korner Baltimore presents four-time GRAMMY-nominated guitarist Stanley Jordan on Friday and Saturday, October 2-3, 2026, with 6:00 PM and 8:30 PM sets each night. Keystone's official schedule and its authorized InstantSeats listing confirm the two-night engagement and four in-person sets. The venue emphasizes Jordan's guitar virtuosity, straight-ahead jazz, advanced improvisation and cross-genre work. No accompanying musicians are listed in the current authorized event material, so no sidemen are inferred here.",
+            "candidate": "Keystone Korner Baltimore lists Stanley Jordan for Friday and Saturday, October 2-3, 2026, with 6:00 PM and 8:30 PM sets both nights. Stanley Jordan's official tour calendar independently identifies both Baltimore dates as a trio with Kenwood Dennard and Wes Wirth. Jordan's official biography identifies his signature instrumental language as the two-handed guitar touch technique."
+          }
+        ],
+        "initial_planner_decision": {
+          "path": "radar/inbox/curated/stanley-jordan-keystone-baltimore-2026-08-30-discovery.json",
+          "sha256": "dd48832bcb27e92f3cad6c56e562fa6eac4062506360e2755ae1863b31661cd8",
+          "batch_id": "stanley-jordan-keystone-baltimore-2026-08-30-discovery",
+          "event_index": 0,
+          "candidate_event_id": "stanley-jordan-trio-keystone-korner-baltimore-2026-10-02",
+          "action": "review",
+          "approval": "requires_review",
+          "canonical_event_id": "stanley-jordan-keystone-korner-baltimore-2026-10-02",
+          "evidence": [
+            {
+              "kind": "same_artist_venue_date",
+              "artist_tokens": [
+                "and",
+                "dennard",
+                "jordan",
+                "kenwood",
+                "stanley",
+                "trio",
+                "wes",
+                "wirth",
+                "with"
+              ],
+              "dates_overlap": true
+            },
+            {
+              "kind": "distinct_showtimes",
+              "value": false
+            }
+          ],
+          "diff": [
+            {
+              "field": "artist",
+              "before": "Stanley Jordan",
+              "after": "Stanley Jordan Trio"
+            },
+            {
+              "field": "subtitle",
+              "before": null,
+              "after": "with Kenwood Dennard and Wes Wirth"
+            },
+            {
+              "field": "links",
+              "before": {
+                "official_event": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+                "official_tickets": null
+              },
+              "after": {
+                "official_event": "https://www.keystonekornerbaltimore.com/",
+                "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist"
+              }
+            },
+            {
+              "field": "lineup",
+              "before": [],
+              "after": [
+                "Stanley Jordan — guitar",
+                "Kenwood Dennard",
+                "Wes Wirth"
+              ]
+            }
+          ],
+          "normalization": [
+            {
+              "field": "venue.id",
+              "before": "keystone-korner-baltimore-md",
+              "after": "keystone-korner-baltimore"
+            }
+          ]
+        },
+        "recorded_on": "2026-09-11",
+        "planned_decision": {
+          "action": "review",
+          "approval": "requires_review",
+          "canonical_event_id": "stanley-jordan-keystone-korner-baltimore-2026-10-02",
+          "evidence": [
+            {
+              "kind": "same_artist_venue_date",
+              "artist_tokens": [
+                "and",
+                "dennard",
+                "jordan",
+                "kenwood",
+                "stanley",
+                "trio",
+                "wes",
+                "wirth",
+                "with"
+              ],
+              "dates_overlap": true
+            },
+            {
+              "kind": "distinct_showtimes",
+              "value": false
+            }
+          ],
+          "diff": [
+            {
+              "field": "artist",
+              "before": "Stanley Jordan",
+              "after": "Stanley Jordan Trio"
+            },
+            {
+              "field": "subtitle",
+              "before": null,
+              "after": "with Kenwood Dennard and Wes Wirth"
+            },
+            {
+              "field": "links",
+              "before": {
+                "official_event": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+                "official_tickets": null
+              },
+              "after": {
+                "official_event": "https://www.keystonekornerbaltimore.com/",
+                "official_tickets": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist"
+              }
+            },
+            {
+              "field": "lineup",
+              "before": [],
+              "after": [
+                "Stanley Jordan — guitar",
+                "Kenwood Dennard",
+                "Wes Wirth"
+              ]
+            }
+          ],
+          "normalization": [
+            {
+              "field": "venue.id",
+              "before": "keystone-korner-baltimore-md",
+              "after": "keystone-korner-baltimore"
+            }
+          ]
+        },
+        "research": {
+          "outcome": "same_engagement",
+          "checked_on": "2026-09-11",
+          "reason": "Both records cover October 2–3 with 18:00 and 20:30 sets. The artist's calendar confirms the trio with Kenwood Dennard and Wes Wirth on both dates; the authorized ticket page enumerates all four in-person functions. Its literal URL is stored as candidate official_tickets and canonical official_event. The canonical's empty lineup is incomplete metadata, not a separate solo performance.",
+          "sources": [
+            {
+              "url": "https://stanleyjordan.com/en/tourdates/?v=1",
+              "checked_on": "2026-09-11",
+              "finding": "Artist calendar explicitly lists October 2 and 3, 2026 at Keystone Korner as a trio with Kenwood Dennard and Wes Wirth."
+            },
+            {
+              "url": "https://www.instantseats.com/?VenueID=514&artistid=37616&fuseaction=home.artist",
+              "checked_on": "2026-09-11",
+              "finding": "Authorized venue page lists the four in-person sets on October 2–3 at 18:00 and 20:30, separately from streaming passes."
+            }
+          ]
+        },
+        "reason": "Both records cover October 2–3 with 18:00 and 20:30 sets. The artist's calendar confirms the trio with Kenwood Dennard and Wes Wirth on both dates; the authorized ticket page enumerates all four in-person functions. Its literal URL is stored as candidate official_tickets and canonical official_event. The canonical's empty lineup is incomplete metadata, not a separate solo performance.",
+        "materialization": {
+          "status": "ready"
+        }
+      }
+    }
+  ]
+}

@@ -70,11 +70,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "face_value_price",
-          "complete_live_personnel",
-          "exact_apple_music_url"
+          "apple_music"
         ],
-        "note": "Date, doors, showtime, age restriction, venue, exact authorized ticket destination, and the current Off the Record creative context are verified. The accessible primary sources do not publish a face-value price or additional live personnel, and no exact Apple Music album URL was independently verified in this pass, so those fields remain pending rather than inferred."
+        "note": "Date, doors, showtime, age restriction, venue, exact authorized ticket destination, and the current Off the Record creative context are verified. The accessible primary sources do not publish a face-value price or additional live personnel, and no exact Apple Music album URL was independently verified in this pass, so those fields remain pending rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: face_value_price, complete_live_personnel, exact_apple_music_url. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

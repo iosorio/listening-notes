@@ -69,10 +69,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_ticket_purchase_url",
-          "recommended_listening"
+          "official_tickets",
+          "apple_music"
         ],
-        "note": "The exact official venue schedule verifies the date, 6:00-9:00 PM event window, $10 admission, complete announced lineup, anniversary/farewell title, and final-Hamilton-era context. Westminster advertises admission at the door and no event-specific online ticket destination was found, so official_tickets remains null. No Apple Music recommendation is added without an exact verified release URL."
+        "note": "The exact official venue schedule verifies the date, 6:00-9:00 PM event window, $10 admission, complete announced lineup, anniversary/farewell title, and final-Hamilton-era context. Westminster advertises admission at the door and no event-specific online ticket destination was found, so official_tickets remains null. No Apple Music recommendation is added without an exact verified release URL. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: official_ticket_purchase_url, recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

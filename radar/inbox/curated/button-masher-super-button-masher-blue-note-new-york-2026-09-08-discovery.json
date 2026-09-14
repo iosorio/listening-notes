@@ -73,10 +73,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "single engagement-wide official ticket URL",
-          "verified ticket face value"
+          "official_tickets"
         ],
-        "note": "The exact Blue Note New York event page verifies the billing, venue, two set times, doors and separate authorized TicketWeb purchase buttons. Because each set has its own TicketWeb destination, official_tickets remains null rather than selecting one set arbitrarily. Blue Note's $20 minimum is a per-person food-and-beverage minimum, not a verified ticket face value. The exact Apple Music album page for Super Button Masher is verified. No unlisted live personnel or instrument assignments are inferred."
+        "note": "The exact Blue Note New York event page verifies the billing, venue, two set times, doors and separate authorized TicketWeb purchase buttons. Because each set has its own TicketWeb destination, official_tickets remains null rather than selecting one set arbitrarily. Blue Note's $20 minimum is a per-person food-and-beverage minimum, not a verified ticket face value. The exact Apple Music album page for Super Button Masher is verified. No unlisted live personnel or instrument assignments are inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: single engagement-wide official ticket URL, verified ticket face value. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -57,10 +57,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "links.official_event",
-          "links.official_tickets"
+          "official_event",
+          "official_tickets"
         ],
-        "note": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred."
+        "note": "Billboard Live Tokyo and Marihiko Hara's official schedule independently verify the December 14 date and trio billing, but Billboard currently says details will be announced later and does not yet expose a stable event-detail or purchase destination. Exact Apple Music listening is verified. Showtimes and instrument roles for this specific engagement remain unfilled rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_event, links.official_tickets. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -73,10 +73,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_tickets",
-          "official face-value ticket price"
+          "official_tickets"
         ],
-        "note": "The exact Jazz Gallery event page and venue calendar verify the November 21 date, venue, 7:00 PM and 9:00 PM sets, complete announced trio, and mentoring-series context. Tickets are explicitly marked 'on sale soon'; no ticket URL or price is inferred. The Marcus Gilmore Apple Music listening destination is carried forward unchanged from the repository's previously verified August 31 mentorship batch."
+        "note": "The exact Jazz Gallery event page and venue calendar verify the November 21 date, venue, 7:00 PM and 9:00 PM sets, complete announced trio, and mentoring-series context. Tickets are explicitly marked 'on sale soon'; no ticket URL or price is inferred. The Marcus Gilmore Apple Music listening destination is carried forward unchanged from the repository's previously verified August 31 mentorship batch. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: official face-value ticket price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

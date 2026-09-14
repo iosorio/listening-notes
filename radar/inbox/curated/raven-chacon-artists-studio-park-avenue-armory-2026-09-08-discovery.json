@@ -65,11 +65,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact nightly showtimes",
-          "additional performer personnel if any",
           "apple_music"
         ],
-        "note": "The current Park Avenue Armory primary page verifies the October 7-8 date range, Veterans Room, two-night fully improvised format, instrumentation, Artists Studio context and $55 ticket price including fees. The accessible page does not expose exact nightly start times or additional performer personnel; no Apple Music destination is inferred."
+        "note": "The current Park Avenue Armory primary page verifies the October 7-8 date range, Veterans Room, two-night fully improvised format, instrumentation, Artists Studio context and $55 ticket price including fees. The accessible page does not expose exact nightly start times or additional performer personnel; no Apple Music destination is inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact nightly showtimes, additional performer personnel if any. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

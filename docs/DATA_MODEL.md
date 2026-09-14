@@ -73,6 +73,14 @@ object per event where practical, and is designed to stay readable in Git.
   documented shape.
 - All ticket prices are numeric face values or resale values in `currency`.
   Unknown prices are `null`; never infer them from a resale listing.
+  Supported explicit currency codes are `USD` and `JPY`; never infer a currency
+  from the venue's country or convert amounts to satisfy validation. A verified
+  JPY amount remains in yen, with its official source and verification date.
+  For example, ALFIE's September 12, 2026 Sora Ichikawa show has a tax-inclusive
+  JPY 5,500 music charge in its [official schedule](https://alfie.tokyo/schedule/202609.html),
+  verified September 11. Required food/drink orders are separate, not an inferred
+  part of the stored charge. A venue's telephone reservation policy does not
+  supply an exact online `official_tickets` destination.
 - `recommended_listening` contains objects with `artist`, `title`, `kind`
   (`album`, `track`, or `playlist`), and optional `apple_music_url`.
 - `enrichment` declares `complete`, `pending`, or `unavailable`. `complete`

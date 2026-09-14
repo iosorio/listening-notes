@@ -65,11 +65,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "announced_program",
-          "public_face_value",
           "apple_music"
         ],
-        "note": "The exact Philadelphia Orchestra/Ensemble Arts page verifies date, 2:00 PM start, venue and address, cello/piano lineup, Spotlight Series context, and the absence of the orchestra from this recital. Yo-Yo Ma's official calendar independently confirms the Philadelphia billing, and Emanuel Ax's official tour page confirms the stop and states Program TBA. The official presenter page exposes a Buy Tickets action but not a stable public face-value range in the accessible page text, so no price is asserted. No exact Apple Music recommendation is supplied without an announced program."
+        "note": "The exact Philadelphia Orchestra/Ensemble Arts page verifies date, 2:00 PM start, venue and address, cello/piano lineup, Spotlight Series context, and the absence of the orchestra from this recital. Yo-Yo Ma's official calendar independently confirms the Philadelphia billing, and Emanuel Ax's official tour page confirms the stop and states Program TBA. The official presenter page exposes a Buy Tickets action but not a stable public face-value range in the accessible page text, so no price is asserted. No exact Apple Music recommendation is supplied without an announced program. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: announced_program, public_face_value. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

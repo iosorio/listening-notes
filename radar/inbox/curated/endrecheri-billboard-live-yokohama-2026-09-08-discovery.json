@@ -73,10 +73,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_tickets",
-          "supporting_live_personnel"
+          "official_tickets"
         ],
-        "note": "The exact primary event page verifies the engagement, two daily set times, venue, first-Billboard-Live framing, funk/P-Funk context and tour continuation. Billboard's dated schedule verifies current seat-category music charges. An exact Apple Music album page for new chapter purple is verified. No stable event-specific purchase destination is currently exposed in the accessible primary listing, and no supporting live musicians are named, so those fields remain pending rather than being inferred."
+        "note": "The exact primary event page verifies the engagement, two daily set times, venue, first-Billboard-Live framing, funk/P-Funk context and tour continuation. Billboard's dated schedule verifies current seat-category music charges. An exact Apple Music album page for new chapter purple is verified. No stable event-specific purchase destination is currently exposed in the accessible primary listing, and no supporting live musicians are named, so those fields remain pending rather than being inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: supporting_live_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

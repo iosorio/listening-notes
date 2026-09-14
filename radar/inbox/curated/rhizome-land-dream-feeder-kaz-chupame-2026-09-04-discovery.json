@@ -69,9 +69,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "recommended_listening"
+          "apple_music"
         ],
-        "note": "Primary presenter and authorized ticketing sources verify the date, doors and music-start times, complete billed personnel, Rhizome DC location and sliding-scale face price. No Apple Music URL was added without a separately verified exact release destination."
+        "note": "Primary presenter and authorized ticketing sources verify the date, doors and music-start times, complete billed personnel, Rhizome DC location and sliding-scale face price. No Apple Music URL was added without a separately verified exact release destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {
@@ -171,9 +171,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "recommended_listening"
+          "apple_music"
         ],
-        "note": "Primary presenter and authorized ticketing sources verify the date, billed projects, Chupame El Dedo duo membership, Abismo Onix live personnel, venue and price. Rhizome does not map individual instruments within Chupame El Dedo on this event page, so no instrument assignments are inferred for Alvarez or Ojeda. No Apple Music URL was added without a separately verified exact destination."
+        "note": "Primary presenter and authorized ticketing sources verify the date, billed projects, Chupame El Dedo duo membership, Abismo Onix live personnel, venue and price. Rhizome does not map individual instruments within Chupame El Dedo on this event page, so no instrument assignments are inferred for Alvarez or Ojeda. No Apple Music URL was added without a separately verified exact destination. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

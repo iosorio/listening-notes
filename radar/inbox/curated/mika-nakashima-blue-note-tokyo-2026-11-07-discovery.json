@@ -53,11 +53,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "showtimes",
-          "supporting lineup",
           "official_tickets"
         ],
-        "note": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted."
+        "note": "Exact Blue Note Tokyo announcement and exact Apple Music page for the debut STARS EP are verified. The announcement gives dates, anniversary framing, price and reservation-opening dates but not set times or supporting personnel. A stable event-specific purchase destination is not yet available, so no generic or session-dependent reservation URL is substituted. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: showtimes, supporting lineup. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

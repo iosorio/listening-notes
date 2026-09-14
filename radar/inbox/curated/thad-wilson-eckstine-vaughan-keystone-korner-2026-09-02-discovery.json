@@ -67,10 +67,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "complete event-specific orchestra personnel roster",
           "apple_music"
         ],
-        "note": "Date, 7:00 PM start, venue, live-ticket range, tribute concept, Wilson's leadership role and the two featured vocalists are verified from Keystone Korner Baltimore's authorized InstantSeats listing. Additional orchestra personnel and Apple Music identifiers were not verified and are not invented."
+        "note": "Date, 7:00 PM start, venue, live-ticket range, tribute concept, Wilson's leadership role and the two featured vocalists are verified from Keystone Korner Baltimore's authorized InstantSeats listing. Additional orchestra personnel and Apple Music identifiers were not verified and are not invented. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: complete event-specific orchestra personnel roster. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

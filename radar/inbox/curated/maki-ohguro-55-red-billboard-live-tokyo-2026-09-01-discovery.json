@@ -54,10 +54,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "links.official_tickets",
-          "recommended_listening"
+          "official_tickets",
+          "apple_music"
         ],
-        "note": "The exact Billboard Live Tokyo event page is verified and currently states that BBL/corporate-member reservations begin September 25 and guest-member reservations begin October 2. Because sales have not opened, no separate stable event-specific purchase destination is stored. Billboard links directly to the official 55 RED release page, but no exact Apple Music album/song URL was independently verified in this pass, so no streaming destination was inferred."
+        "note": "The exact Billboard Live Tokyo event page is verified and currently states that BBL/corporate-member reservations begin September 25 and guest-member reservations begin October 2. Because sales have not opened, no separate stable event-specific purchase destination is stored. Billboard links directly to the official 55 RED release page, but no exact Apple Music album/song URL was independently verified in this pass, so no streaming destination was inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: links.official_tickets, recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

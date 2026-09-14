@@ -53,14 +53,12 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "partial",
+        "status": "pending",
         "missing": [
-          "full individual orchestra roster",
           "official_tickets",
-          "official face-value ticket price",
           "apple_music"
         ],
-        "note": "The exact Carnegie Hall event destination was discovered through a current event index that links directly to it, but Carnegie Hall's safety-net redirect prevented the research client from rendering that page. Date/time/venue were independently corroborated by performer Jeff Nelson's current schedule and AXS's current Zankel Hall calendar; the current event mirror reproduces the Carnegie listing's billing and detailed premiere program. Zhengtao Pan's first-party site verifies his leadership of the Zhengtao Pan Jazz Orchestra and current catalog, but its events page does not yet list this October date. No stable official ticket link, official face value, full individual orchestra roster, or exact Apple Music destination is supplied."
+        "note": "The exact Carnegie Hall event destination was discovered through a current event index that links directly to it, but Carnegie Hall's safety-net redirect prevented the research client from rendering that page. Date/time/venue were independently corroborated by performer Jeff Nelson's current schedule and AXS's current Zankel Hall calendar; the current event mirror reproduces the Carnegie listing's billing and detailed premiere program. Zhengtao Pan's first-party site verifies his leadership of the Zhengtao Pan Jazz Orchestra and current catalog, but its events page does not yet list this October date. No stable official ticket link, official face value, full individual orchestra roster, or exact Apple Music destination is supplied. Structural normalization on 2026-09-11: status 'partial' normalized to pending; missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: full individual orchestra roster, official face-value ticket price. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

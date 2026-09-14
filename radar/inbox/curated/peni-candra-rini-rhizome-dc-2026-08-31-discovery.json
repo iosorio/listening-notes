@@ -56,10 +56,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_live_instrument_assignments_for_ismaily_and_mcgraw",
           "apple_music"
         ],
-        "note": "Rhizome and its authorized ticketing verify the date, doors, showtime, price range, venue and exact billing. The venue does not specify the exact instruments Ismaily and McGraw will play in this performance, so those assignments are not inferred. Wulansih is a verified prior collaboration among the three principal artists, but no Apple Music destination is supplied without exact verification."
+        "note": "Rhizome and its authorized ticketing verify the date, doors, showtime, price range, venue and exact billing. The venue does not specify the exact instruments Ismaily and McGraw will play in this performance, so those assignments are not inferred. Wulansih is a verified prior collaboration among the three principal artists, but no Apple Music destination is supplied without exact verification. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_live_instrument_assignments_for_ismaily_and_mcgraw. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

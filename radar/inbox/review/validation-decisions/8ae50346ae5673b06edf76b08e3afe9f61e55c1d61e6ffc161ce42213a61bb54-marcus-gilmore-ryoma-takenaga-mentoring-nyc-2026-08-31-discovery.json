@@ -1,0 +1,563 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery.json",
+    "sha256": "8ae50346ae5673b06edf76b08e3afe9f61e55c1d61e6ffc161ce42213a61bb54",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable editorial rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Current Tsuyoshi Yamamoto schedule surfaces, Jazz House ALFIE, BODY&SOUL, Space M&A and credible Japanese jazz sources produced no new verified Yamamoto appearance absent from canonical/curated/processed intake. The Marcus Gilmore / Ryoma Takenaga Joyce Wein Mentoring Series dates clear RADAR admission because the program creates a specific cross-generational performance context rather than merely presenting well-known players: drummer Marcus Gilmore works with 21-year-old bassist Ryoma Takenaga, with Joel Ross on vibraphone for the September 5 and September 10 New York dates, in two institutions directly tied to jazz history and public education. Both are graded A. The same trio appears twice in New York within five days and the mentorship is explicitly a four-concert mini-tour, so the current priority rubric supports attend-if-convenient rather than A+ scarcity or S/S+ treatment. For September 5, The Jazz Gallery calendar lists 7:00 PM, while the host Louis Armstrong House Museum and its authorized Blackbaud ticket page independently list 3:00 PM; the batch uses 3:00 PM because the host venue and ticketing source corroborate each other and records the discrepancy explicitly.\",\n  \"events\": [\n    {\n      \"id\": \"marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05\",\n      \"artist\": \"Marcus Gilmore & Ryoma Takenaga\",\n      \"subtitle\": \"TJG Joyce Wein Mentoring Series — with Joel Ross\",\n      \"dates\": {\n        \"start\": \"2026-09-05\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"15:00\"\n      ],\n      \"venue\": {\n        \"id\": \"jerrys-place-louis-armstrong-center\",\n        \"name\": \"Jerry’s Place — The Louis Armstrong Center\",\n        \"city\": \"Queens\",\n        \"state\": \"NY\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Trip\",\n      \"status\": \"considering\",\n      \"priority\": \"A\",\n      \"category\": \"Contemporary jazz / mentorship trio / drums-bass-vibraphone\",\n      \"genres\": [\n        \"Jazz\",\n        \"Improvised music\"\n      ],\n      \"musical_axes\": [\n        \"Improvised\",\n        \"Instrumental identity\",\n        \"Acoustic Jazz\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"Marcus Gilmore — drums\",\n        \"Ryoma Takenaga — bass\",\n        \"Joel Ross — vibraphone\"\n      ],\n      \"factual_description\": \"The Louis Armstrong House Museum presents Marcus Gilmore and Ryoma Takenaga at Jerry’s Place in the Louis Armstrong Center on Saturday, September 5, 2026. The host venue lists the event at 3:00 PM, and its authorized Blackbaud ticket page lists a free 3:00–4:00 PM ticket. The Jazz Gallery identifies the performance as part of the TJG Joyce Wein Mentoring Series and lists Marcus Gilmore on drums, Ryoma Takenaga on bass and Joel Ross on vibraphone. The Jazz Gallery page currently shows a conflicting 7:00 PM calendar time; this record uses 3:00 PM because both the host venue and the authorized ticket page independently corroborate that start time. The mentoring program is structured as a four-concert mini-tour intended to put a younger musician into high-level professional performance situations with a senior artist and collaborators.\",\n      \"links\": {\n        \"official_event\": \"https://www.louisarmstronghouse.org/event-details/marcus-gilmore-and-ryoma-takenaga/\",\n        \"official_tickets\": \"https://18190.blackbaudhosting.com/18190/Marcus-Gilmore-and-Ryoma-Takenaga\"\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Marcus Gilmore\",\n          \"title\": \"Journey to the New: (Live at the Village Vanguard)\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"complete\",\n        \"missing\": [],\n        \"note\": \"Date, venue, free authorized ticket, 3:00 PM start, mentoring-series context, lineup and exact Apple Music listening destination are verified. The organizer/host time discrepancy is preserved rather than silently normalized; the host venue and authorized ticket page agree on 3:00 PM.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://www.louisarmstronghouse.org/event-details/marcus-gilmore-and-ryoma-takenaga/\",\n          \"publisher\": \"Louis Armstrong House Museum\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Primary host page confirms September 5, 2026; Jerry’s Place at the Louis Armstrong Center; 3:00 PM; and the Marcus Gilmore / Ryoma Takenaga billing.\"\n        },\n        {\n          \"url\": \"https://18190.blackbaudhosting.com/18190/Marcus-Gilmore-and-Ryoma-Takenaga\",\n          \"publisher\": \"Louis Armstrong House Museum / Blackbaud\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Authorized ticket page confirms Saturday, September 5, 3:00–4:00 PM and a free ticket.\"\n        },\n        {\n          \"url\": \"https://jazzgallery.org/calendar/mentoring-series-sept-5-2026-marcus-gilmore-ryoma-takenada\",\n          \"publisher\": \"The Jazz Gallery\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Primary program organizer confirms Marcus Gilmore — drums, Ryoma Takenaga — bass and Joel Ross — vibraphone, and identifies the show as part of the Joyce Wein Mentoring Series. Its calendar currently shows 7:00 PM, conflicting with the host venue and authorized ticket page; that discrepancy is explicitly recorded.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Exact Apple Music album page for Marcus Gilmore's Journey to the New: (Live at the Village Vanguard).\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-sources\",\n        \"note\": \"Core event details are verified from the host venue, its authorized ticketing page and The Jazz Gallery as program organizer. Repository searches for Marcus Gilmore, Ryoma Takenaga, Joel Ross, the September 5 date and the Louis Armstrong Center found no matching canonical, curated or processed RADAR event before publication. No price beyond the verified free ticket, no additional personnel and no unverified setlist were inferred.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"The mentoring architecture is the reason this belongs, not name recognition by itself. Gilmore’s rhythmic language is placed beside a 21-year-old bassist already working in the Immanuel Wilkins orbit, while Joel Ross adds vibraphone to an unusually open drums-bass-mallet configuration. In Jerry’s Place at the Louis Armstrong Center, the apprenticeship idea also lands inside a room built around jazz memory rather than as an abstract conservatory exercise. The instrumentation leaves time, pulse, harmonic implication and interaction unusually exposed.\",\n          \"trip_verdict\": \"If a New York day already reaches Queens on September 5, attend if convenient; the free afternoon format makes it easy to fold into the day. I would not make a dedicated DMV-to-New-York trip for this date alone because the same trio has another New York performance five days later and the mentorship continues as a four-concert mini-tour.\",\n          \"listen_before\": \"Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"Entra por la arquitectura de mentoría, no por juntar nombres conocidos. El lenguaje rítmico de Gilmore se pone junto a un contrabajista de 21 años que ya trabaja en la órbita de Immanuel Wilkins, mientras Joel Ross agrega el vibráfono a una formación particularmente abierta de batería, bajo y láminas. En Jerry’s Place, dentro del Louis Armstrong Center, la idea de aprendizaje entre generaciones ocurre además en un espacio cargado de memoria del jazz y no como un ejercicio abstracto de conservatorio. La instrumentación deja muy expuestos el tiempo, el pulso, la armonía sugerida y la interacción.\",\n          \"trip_verdict\": \"Si un día en Nueva York ya te lleva a Queens el 5 de septiembre, entraría si queda cómodo; al ser un concierto gratuito por la tarde se integra fácil al itinerario. No haría un viaje dedicado desde el DMV sólo por esta fecha porque el mismo trío vuelve a tocar en Nueva York cinco días después y la mentoría continúa como una mini gira de cuatro conciertos.\",\n          \"listen_before\": \"Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)\"\n        }\n      }\n    },\n    {\n      \"id\": \"marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10\",\n      \"artist\": \"Marcus Gilmore & Ryoma Takenaga\",\n      \"subtitle\": \"TJG Joyce Wein Mentoring Series — with Joel Ross\",\n      \"dates\": {\n        \"start\": \"2026-09-10\",\n        \"end\": null\n      },\n      \"showtimes\": [\n        \"19:00\"\n      ],\n      \"venue\": {\n        \"id\": \"national-jazz-museum-in-harlem\",\n        \"name\": \"The National Jazz Museum in Harlem\",\n        \"city\": \"New York\",\n        \"state\": \"NY\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Trip\",\n      \"status\": \"considering\",\n      \"priority\": \"A\",\n      \"category\": \"Contemporary jazz / mentorship trio / drums-bass-vibraphone\",\n      \"genres\": [\n        \"Jazz\",\n        \"Improvised music\"\n      ],\n      \"musical_axes\": [\n        \"Improvised\",\n        \"Instrumental identity\",\n        \"Acoustic Jazz\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"Marcus Gilmore — drums\",\n        \"Ryoma Takenaga — bass\",\n        \"Joel Ross — vibraphone\"\n      ],\n      \"factual_description\": \"The National Jazz Museum in Harlem and The Jazz Gallery present the TJG Joyce Wein Mentoring Series with Marcus Gilmore and Ryoma Takenaga on Thursday, September 10, 2026 at 7:00 PM at 58 West 129th Street in New York. The Jazz Gallery lists Marcus Gilmore on drums, Ryoma Takenaga on bass and Joel Ross on vibraphone. The National Jazz Museum's authorized RSVP page offers free admission, with optional donation tiers. The mentoring program is structured as a four-concert mini-tour intended to let a younger musician deepen creative and professional practice in high-level performance settings alongside a senior artist and collaborators.\",\n      \"links\": {\n        \"official_event\": \"https://jmih.org/event/tjg-mentor-series-marcus-gilmore-ryoma-takenaga/\",\n        \"official_tickets\": \"https://www.zeffy.com/en-US/ticketing/tjg-mentor-series-marcus-gilmore-ryoma-takenaga\"\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Marcus Gilmore\",\n          \"title\": \"Journey to the New: (Live at the Village Vanguard)\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"complete\",\n        \"missing\": [],\n        \"note\": \"Date, 7:00 PM start, venue, free authorized RSVP, complete announced trio, mentoring-series context and exact Apple Music listening destination are verified from primary/authorized sources.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://jmih.org/event/tjg-mentor-series-marcus-gilmore-ryoma-takenaga/\",\n          \"publisher\": \"The National Jazz Museum in Harlem\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Primary venue page confirms Thursday, September 10 at 7:00 PM, the National Jazz Museum in Harlem, Marcus Gilmore / Ryoma Takenaga billing and the Joyce Wein Mentoring Series context.\"\n        },\n        {\n          \"url\": \"https://jazzgallery.org/calendar/mentoring-series-sept-10-2026-marcus-gilmore-ryoma-takenada\",\n          \"publisher\": \"The Jazz Gallery\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Primary program organizer confirms September 10, 2026 at 7:00 PM; National Jazz Museum in Harlem; Marcus Gilmore — drums, Ryoma Takenaga — bass and Joel Ross — vibraphone; and the four-concert mini-tour mentorship model.\"\n        },\n        {\n          \"url\": \"https://www.zeffy.com/en-US/ticketing/tjg-mentor-series-marcus-gilmore-ryoma-takenaga\",\n          \"publisher\": \"The National Jazz Museum in Harlem / Zeffy\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Authorized RSVP page confirms the event address and free RSVP, with optional donation tiers.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-08-31\",\n          \"note\": \"Exact Apple Music album page for Marcus Gilmore's Journey to the New: (Live at the Village Vanguard).\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-and-authorized-sources\",\n        \"note\": \"Core event details are verified from The National Jazz Museum in Harlem, The Jazz Gallery and the museum's authorized Zeffy RSVP page. Repository searches for Marcus Gilmore, Ryoma Takenaga, Joel Ross, the September 10 date and the National Jazz Museum in Harlem found no matching canonical, curated or processed RADAR event before publication. No additional personnel, unannounced repertoire or paid ticket price were inferred.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"This is a compact lesson in how jazz knowledge actually moves across generations. Gilmore’s drums and Takenaga’s bass are the mentoring spine, and Joel Ross makes the group a lean trio in which rhythm, register and harmonic suggestion have to do nearly all the structural work. Putting that exchange inside the National Jazz Museum in Harlem gives the educational premise a living public context rather than turning it into a classroom demonstration.\",\n          \"trip_verdict\": \"If a New York trip overlaps September 10, attend if convenient and use the free Harlem set as a strong anchor for the evening. I would not build a separate regional trip around it: the same trio also plays Queens on September 5, and the broader mentoring project is explicitly a four-concert mini-tour.\",\n          \"listen_before\": \"Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"Es una forma muy clara de escuchar cómo se transmite el conocimiento del jazz entre generaciones. La batería de Gilmore y el bajo de Takenaga forman el eje de la mentoría, y Joel Ross convierte el grupo en un trío muy desnudo donde el ritmo, el registro y la armonía sugerida tienen que cargar casi toda la estructura. Llevar ese intercambio al National Jazz Museum in Harlem le da al componente pedagógico un contexto público y vivo, en vez de convertirlo en una demostración de salón de clases.\",\n          \"trip_verdict\": \"Si un viaje a Nueva York coincide con el 10 de septiembre, entraría si queda cómodo y usaría este set gratuito en Harlem como un buen ancla para la noche. No armaría un viaje regional aparte sólo por esta fecha: el mismo trío toca también en Queens el 5 de septiembre y el proyecto completo está planteado explícitamente como una mini gira de cuatro conciertos.\",\n          \"listen_before\": \"Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)\"\n        }\n      }\n    }\n  ]\n}\n",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery",
+      "notes": "Yamamoto-first discovery pass under the current durable editorial rubric after rereading docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md. Current Tsuyoshi Yamamoto schedule surfaces, Jazz House ALFIE, BODY&SOUL, Space M&A and credible Japanese jazz sources produced no new verified Yamamoto appearance absent from canonical/curated/processed intake. The Marcus Gilmore / Ryoma Takenaga Joyce Wein Mentoring Series dates clear RADAR admission because the program creates a specific cross-generational performance context rather than merely presenting well-known players: drummer Marcus Gilmore works with 21-year-old bassist Ryoma Takenaga, with Joel Ross on vibraphone for the September 5 and September 10 New York dates, in two institutions directly tied to jazz history and public education. Both are graded A. The same trio appears twice in New York within five days and the mentorship is explicitly a four-concert mini-tour, so the current priority rubric supports attend-if-convenient rather than A+ scarcity or S/S+ treatment. For September 5, The Jazz Gallery calendar lists 7:00 PM, while the host Louis Armstrong House Museum and its authorized Blackbaud ticket page independently list 3:00 PM; the batch uses 3:00 PM because the host venue and ticketing source corroborate each other and records the discrepancy explicitly.",
+      "events": [
+        {
+          "id": "marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05",
+          "artist": "Marcus Gilmore & Ryoma Takenaga",
+          "subtitle": "TJG Joyce Wein Mentoring Series — with Joel Ross",
+          "dates": {
+            "start": "2026-09-05",
+            "end": null
+          },
+          "showtimes": [
+            "15:00"
+          ],
+          "venue": {
+            "id": "jerrys-place-louis-armstrong-center",
+            "name": "Jerry’s Place — The Louis Armstrong Center",
+            "city": "Queens",
+            "state": "NY",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Trip",
+          "status": "considering",
+          "priority": "A",
+          "category": "Contemporary jazz / mentorship trio / drums-bass-vibraphone",
+          "genres": [
+            "Jazz",
+            "Improvised music"
+          ],
+          "musical_axes": [
+            "Improvised",
+            "Instrumental identity",
+            "Acoustic Jazz",
+            "Cultural context"
+          ],
+          "lineup": [
+            "Marcus Gilmore — drums",
+            "Ryoma Takenaga — bass",
+            "Joel Ross — vibraphone"
+          ],
+          "factual_description": "The Louis Armstrong House Museum presents Marcus Gilmore and Ryoma Takenaga at Jerry’s Place in the Louis Armstrong Center on Saturday, September 5, 2026. The host venue lists the event at 3:00 PM, and its authorized Blackbaud ticket page lists a free 3:00–4:00 PM ticket. The Jazz Gallery identifies the performance as part of the TJG Joyce Wein Mentoring Series and lists Marcus Gilmore on drums, Ryoma Takenaga on bass and Joel Ross on vibraphone. The Jazz Gallery page currently shows a conflicting 7:00 PM calendar time; this record uses 3:00 PM because both the host venue and the authorized ticket page independently corroborate that start time. The mentoring program is structured as a four-concert mini-tour intended to put a younger musician into high-level professional performance situations with a senior artist and collaborators.",
+          "links": {
+            "official_event": "https://www.louisarmstronghouse.org/event-details/marcus-gilmore-and-ryoma-takenaga/",
+            "official_tickets": "https://18190.blackbaudhosting.com/18190/Marcus-Gilmore-and-Ryoma-Takenaga"
+          },
+          "recommended_listening": [
+            {
+              "artist": "Marcus Gilmore",
+              "title": "Journey to the New: (Live at the Village Vanguard)",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114"
+            }
+          ],
+          "enrichment": {
+            "status": "complete",
+            "missing": [],
+            "note": "Date, venue, free authorized ticket, 3:00 PM start, mentoring-series context, lineup and exact Apple Music listening destination are verified. The organizer/host time discrepancy is preserved rather than silently normalized; the host venue and authorized ticket page agree on 3:00 PM."
+          },
+          "sources": [
+            {
+              "url": "https://www.louisarmstronghouse.org/event-details/marcus-gilmore-and-ryoma-takenaga/",
+              "publisher": "Louis Armstrong House Museum",
+              "checked_on": "2026-08-31",
+              "note": "Primary host page confirms September 5, 2026; Jerry’s Place at the Louis Armstrong Center; 3:00 PM; and the Marcus Gilmore / Ryoma Takenaga billing."
+            },
+            {
+              "url": "https://18190.blackbaudhosting.com/18190/Marcus-Gilmore-and-Ryoma-Takenaga",
+              "publisher": "Louis Armstrong House Museum / Blackbaud",
+              "checked_on": "2026-08-31",
+              "note": "Authorized ticket page confirms Saturday, September 5, 3:00–4:00 PM and a free ticket."
+            },
+            {
+              "url": "https://jazzgallery.org/calendar/mentoring-series-sept-5-2026-marcus-gilmore-ryoma-takenada",
+              "publisher": "The Jazz Gallery",
+              "checked_on": "2026-08-31",
+              "note": "Primary program organizer confirms Marcus Gilmore — drums, Ryoma Takenaga — bass and Joel Ross — vibraphone, and identifies the show as part of the Joyce Wein Mentoring Series. Its calendar currently shows 7:00 PM, conflicting with the host venue and authorized ticket page; that discrepancy is explicitly recorded."
+            },
+            {
+              "url": "https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114",
+              "publisher": "Apple Music",
+              "checked_on": "2026-08-31",
+              "note": "Exact Apple Music album page for Marcus Gilmore's Journey to the New: (Live at the Village Vanguard)."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-sources",
+            "note": "Core event details are verified from the host venue, its authorized ticketing page and The Jazz Gallery as program organizer. Repository searches for Marcus Gilmore, Ryoma Takenaga, Joel Ross, the September 5 date and the Louis Armstrong Center found no matching canonical, curated or processed RADAR event before publication. No price beyond the verified free ticket, no additional personnel and no unverified setlist were inferred."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "The mentoring architecture is the reason this belongs, not name recognition by itself. Gilmore’s rhythmic language is placed beside a 21-year-old bassist already working in the Immanuel Wilkins orbit, while Joel Ross adds vibraphone to an unusually open drums-bass-mallet configuration. In Jerry’s Place at the Louis Armstrong Center, the apprenticeship idea also lands inside a room built around jazz memory rather than as an abstract conservatory exercise. The instrumentation leaves time, pulse, harmonic implication and interaction unusually exposed.",
+              "trip_verdict": "If a New York day already reaches Queens on September 5, attend if convenient; the free afternoon format makes it easy to fold into the day. I would not make a dedicated DMV-to-New-York trip for this date alone because the same trio has another New York performance five days later and the mentorship continues as a four-concert mini-tour.",
+              "listen_before": "Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)"
+            },
+            "es": {
+              "why_it_matters": "Entra por la arquitectura de mentoría, no por juntar nombres conocidos. El lenguaje rítmico de Gilmore se pone junto a un contrabajista de 21 años que ya trabaja en la órbita de Immanuel Wilkins, mientras Joel Ross agrega el vibráfono a una formación particularmente abierta de batería, bajo y láminas. En Jerry’s Place, dentro del Louis Armstrong Center, la idea de aprendizaje entre generaciones ocurre además en un espacio cargado de memoria del jazz y no como un ejercicio abstracto de conservatorio. La instrumentación deja muy expuestos el tiempo, el pulso, la armonía sugerida y la interacción.",
+              "trip_verdict": "Si un día en Nueva York ya te lleva a Queens el 5 de septiembre, entraría si queda cómodo; al ser un concierto gratuito por la tarde se integra fácil al itinerario. No haría un viaje dedicado desde el DMV sólo por esta fecha porque el mismo trío vuelve a tocar en Nueva York cinco días después y la mentoría continúa como una mini gira de cuatro conciertos.",
+              "listen_before": "Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)"
+            }
+          }
+        },
+        {
+          "id": "marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10",
+          "artist": "Marcus Gilmore & Ryoma Takenaga",
+          "subtitle": "TJG Joyce Wein Mentoring Series — with Joel Ross",
+          "dates": {
+            "start": "2026-09-10",
+            "end": null
+          },
+          "showtimes": [
+            "19:00"
+          ],
+          "venue": {
+            "id": "national-jazz-museum-in-harlem",
+            "name": "The National Jazz Museum in Harlem",
+            "city": "New York",
+            "state": "NY",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Trip",
+          "status": "considering",
+          "priority": "A",
+          "category": "Contemporary jazz / mentorship trio / drums-bass-vibraphone",
+          "genres": [
+            "Jazz",
+            "Improvised music"
+          ],
+          "musical_axes": [
+            "Improvised",
+            "Instrumental identity",
+            "Acoustic Jazz",
+            "Cultural context"
+          ],
+          "lineup": [
+            "Marcus Gilmore — drums",
+            "Ryoma Takenaga — bass",
+            "Joel Ross — vibraphone"
+          ],
+          "factual_description": "The National Jazz Museum in Harlem and The Jazz Gallery present the TJG Joyce Wein Mentoring Series with Marcus Gilmore and Ryoma Takenaga on Thursday, September 10, 2026 at 7:00 PM at 58 West 129th Street in New York. The Jazz Gallery lists Marcus Gilmore on drums, Ryoma Takenaga on bass and Joel Ross on vibraphone. The National Jazz Museum's authorized RSVP page offers free admission, with optional donation tiers. The mentoring program is structured as a four-concert mini-tour intended to let a younger musician deepen creative and professional practice in high-level performance settings alongside a senior artist and collaborators.",
+          "links": {
+            "official_event": "https://jmih.org/event/tjg-mentor-series-marcus-gilmore-ryoma-takenaga/",
+            "official_tickets": "https://www.zeffy.com/en-US/ticketing/tjg-mentor-series-marcus-gilmore-ryoma-takenaga"
+          },
+          "recommended_listening": [
+            {
+              "artist": "Marcus Gilmore",
+              "title": "Journey to the New: (Live at the Village Vanguard)",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114"
+            }
+          ],
+          "enrichment": {
+            "status": "complete",
+            "missing": [],
+            "note": "Date, 7:00 PM start, venue, free authorized RSVP, complete announced trio, mentoring-series context and exact Apple Music listening destination are verified from primary/authorized sources."
+          },
+          "sources": [
+            {
+              "url": "https://jmih.org/event/tjg-mentor-series-marcus-gilmore-ryoma-takenaga/",
+              "publisher": "The National Jazz Museum in Harlem",
+              "checked_on": "2026-08-31",
+              "note": "Primary venue page confirms Thursday, September 10 at 7:00 PM, the National Jazz Museum in Harlem, Marcus Gilmore / Ryoma Takenaga billing and the Joyce Wein Mentoring Series context."
+            },
+            {
+              "url": "https://jazzgallery.org/calendar/mentoring-series-sept-10-2026-marcus-gilmore-ryoma-takenada",
+              "publisher": "The Jazz Gallery",
+              "checked_on": "2026-08-31",
+              "note": "Primary program organizer confirms September 10, 2026 at 7:00 PM; National Jazz Museum in Harlem; Marcus Gilmore — drums, Ryoma Takenaga — bass and Joel Ross — vibraphone; and the four-concert mini-tour mentorship model."
+            },
+            {
+              "url": "https://www.zeffy.com/en-US/ticketing/tjg-mentor-series-marcus-gilmore-ryoma-takenaga",
+              "publisher": "The National Jazz Museum in Harlem / Zeffy",
+              "checked_on": "2026-08-31",
+              "note": "Authorized RSVP page confirms the event address and free RSVP, with optional donation tiers."
+            },
+            {
+              "url": "https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114",
+              "publisher": "Apple Music",
+              "checked_on": "2026-08-31",
+              "note": "Exact Apple Music album page for Marcus Gilmore's Journey to the New: (Live at the Village Vanguard)."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-and-authorized-sources",
+            "note": "Core event details are verified from The National Jazz Museum in Harlem, The Jazz Gallery and the museum's authorized Zeffy RSVP page. Repository searches for Marcus Gilmore, Ryoma Takenaga, Joel Ross, the September 10 date and the National Jazz Museum in Harlem found no matching canonical, curated or processed RADAR event before publication. No additional personnel, unannounced repertoire or paid ticket price were inferred."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "This is a compact lesson in how jazz knowledge actually moves across generations. Gilmore’s drums and Takenaga’s bass are the mentoring spine, and Joel Ross makes the group a lean trio in which rhythm, register and harmonic suggestion have to do nearly all the structural work. Putting that exchange inside the National Jazz Museum in Harlem gives the educational premise a living public context rather than turning it into a classroom demonstration.",
+              "trip_verdict": "If a New York trip overlaps September 10, attend if convenient and use the free Harlem set as a strong anchor for the evening. I would not build a separate regional trip around it: the same trio also plays Queens on September 5, and the broader mentoring project is explicitly a four-concert mini-tour.",
+              "listen_before": "Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)"
+            },
+            "es": {
+              "why_it_matters": "Es una forma muy clara de escuchar cómo se transmite el conocimiento del jazz entre generaciones. La batería de Gilmore y el bajo de Takenaga forman el eje de la mentoría, y Joel Ross convierte el grupo en un trío muy desnudo donde el ritmo, el registro y la armonía sugerida tienen que cargar casi toda la estructura. Llevar ese intercambio al National Jazz Museum in Harlem le da al componente pedagógico un contexto público y vivo, en vez de convertirlo en una demostración de salón de clases.",
+              "trip_verdict": "Si un viaje a Nueva York coincide con el 10 de septiembre, entraría si queda cómodo y usaría este set gratuito en Harlem como un buen ancla para la noche. No armaría un viaje regional aparte sólo por esta fecha: el mismo trío toca también en Queens el 5 de septiembre y el proyecto completo está planteado explícitamente como una mini gira de cuatro conciertos.",
+              "listen_before": "Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery.json",
+      "batch_sha256": "8ae50346ae5673b06edf76b08e3afe9f61e55c1d61e6ffc161ce42213a61bb54",
+      "batch_id": "marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery",
+      "event_index": 0,
+      "candidate_event_id": "marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05",
+      "candidate_sha256": "088f4087c1b0123d2c563e5007520955ef770c986a8d1fa6a58602f577ad84e2",
+      "errors": [
+        "marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05 claims complete enrichment but required links or Apple Music are missing"
+      ],
+      "action": "review_validation",
+      "proposed_diff": [],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05 claims complete enrichment but required links or Apple Music are missing"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": true,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "complete",
+          "missing": [],
+          "note": "Date, venue, free authorized ticket, 3:00 PM start, mentoring-series context, lineup and exact Apple Music listening destination are verified. The organizer/host time discrepancy is preserved rather than silently normalized; the host venue and authorized ticket page agree on 3:00 PM."
+        }
+      ],
+      "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+      "can_remain_active": false,
+      "materialization": "apply"
+    },
+    {
+      "path": "radar/inbox/curated/marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery.json",
+      "batch_sha256": "8ae50346ae5673b06edf76b08e3afe9f61e55c1d61e6ffc161ce42213a61bb54",
+      "batch_id": "marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery",
+      "event_index": 1,
+      "candidate_event_id": "marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10",
+      "candidate_sha256": "bc368192405a760d0ea91f38db92dd1685f54c2ba08fd30c577dff6e23789b46",
+      "errors": [
+        "marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10 claims complete enrichment but required links or Apple Music are missing"
+      ],
+      "action": "review_validation",
+      "proposed_diff": [],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10 claims complete enrichment but required links or Apple Music are missing"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": true,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "complete",
+          "missing": [],
+          "note": "Date, 7:00 PM start, venue, free authorized RSVP, complete announced trio, mentoring-series context and exact Apple Music listening destination are verified from primary/authorized sources."
+        }
+      ],
+      "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+      "can_remain_active": false,
+      "materialization": "apply"
+    }
+  ],
+  "automatic_repairs": [],
+  "review_candidates": [
+    {
+      "original_event": {
+        "id": "marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05",
+        "artist": "Marcus Gilmore & Ryoma Takenaga",
+        "subtitle": "TJG Joyce Wein Mentoring Series — with Joel Ross",
+        "dates": {
+          "start": "2026-09-05",
+          "end": null
+        },
+        "showtimes": [
+          "15:00"
+        ],
+        "venue": {
+          "id": "jerrys-place-louis-armstrong-center",
+          "name": "Jerry’s Place — The Louis Armstrong Center",
+          "city": "Queens",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Trip",
+        "status": "considering",
+        "priority": "A",
+        "category": "Contemporary jazz / mentorship trio / drums-bass-vibraphone",
+        "genres": [
+          "Jazz",
+          "Improvised music"
+        ],
+        "musical_axes": [
+          "Improvised",
+          "Instrumental identity",
+          "Acoustic Jazz",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Marcus Gilmore — drums",
+          "Ryoma Takenaga — bass",
+          "Joel Ross — vibraphone"
+        ],
+        "factual_description": "The Louis Armstrong House Museum presents Marcus Gilmore and Ryoma Takenaga at Jerry’s Place in the Louis Armstrong Center on Saturday, September 5, 2026. The host venue lists the event at 3:00 PM, and its authorized Blackbaud ticket page lists a free 3:00–4:00 PM ticket. The Jazz Gallery identifies the performance as part of the TJG Joyce Wein Mentoring Series and lists Marcus Gilmore on drums, Ryoma Takenaga on bass and Joel Ross on vibraphone. The Jazz Gallery page currently shows a conflicting 7:00 PM calendar time; this record uses 3:00 PM because both the host venue and the authorized ticket page independently corroborate that start time. The mentoring program is structured as a four-concert mini-tour intended to put a younger musician into high-level professional performance situations with a senior artist and collaborators.",
+        "links": {
+          "official_event": "https://www.louisarmstronghouse.org/event-details/marcus-gilmore-and-ryoma-takenaga/",
+          "official_tickets": "https://18190.blackbaudhosting.com/18190/Marcus-Gilmore-and-Ryoma-Takenaga"
+        },
+        "recommended_listening": [
+          {
+            "artist": "Marcus Gilmore",
+            "title": "Journey to the New: (Live at the Village Vanguard)",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114"
+          }
+        ],
+        "enrichment": {
+          "status": "complete",
+          "missing": [],
+          "note": "Date, venue, free authorized ticket, 3:00 PM start, mentoring-series context, lineup and exact Apple Music listening destination are verified. The organizer/host time discrepancy is preserved rather than silently normalized; the host venue and authorized ticket page agree on 3:00 PM."
+        },
+        "sources": [
+          {
+            "url": "https://www.louisarmstronghouse.org/event-details/marcus-gilmore-and-ryoma-takenaga/",
+            "publisher": "Louis Armstrong House Museum",
+            "checked_on": "2026-08-31",
+            "note": "Primary host page confirms September 5, 2026; Jerry’s Place at the Louis Armstrong Center; 3:00 PM; and the Marcus Gilmore / Ryoma Takenaga billing."
+          },
+          {
+            "url": "https://18190.blackbaudhosting.com/18190/Marcus-Gilmore-and-Ryoma-Takenaga",
+            "publisher": "Louis Armstrong House Museum / Blackbaud",
+            "checked_on": "2026-08-31",
+            "note": "Authorized ticket page confirms Saturday, September 5, 3:00–4:00 PM and a free ticket."
+          },
+          {
+            "url": "https://jazzgallery.org/calendar/mentoring-series-sept-5-2026-marcus-gilmore-ryoma-takenada",
+            "publisher": "The Jazz Gallery",
+            "checked_on": "2026-08-31",
+            "note": "Primary program organizer confirms Marcus Gilmore — drums, Ryoma Takenaga — bass and Joel Ross — vibraphone, and identifies the show as part of the Joyce Wein Mentoring Series. Its calendar currently shows 7:00 PM, conflicting with the host venue and authorized ticket page; that discrepancy is explicitly recorded."
+          },
+          {
+            "url": "https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114",
+            "publisher": "Apple Music",
+            "checked_on": "2026-08-31",
+            "note": "Exact Apple Music album page for Marcus Gilmore's Journey to the New: (Live at the Village Vanguard)."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Core event details are verified from the host venue, its authorized ticketing page and The Jazz Gallery as program organizer. Repository searches for Marcus Gilmore, Ryoma Takenaga, Joel Ross, the September 5 date and the Louis Armstrong Center found no matching canonical, curated or processed RADAR event before publication. No price beyond the verified free ticket, no additional personnel and no unverified setlist were inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "The mentoring architecture is the reason this belongs, not name recognition by itself. Gilmore’s rhythmic language is placed beside a 21-year-old bassist already working in the Immanuel Wilkins orbit, while Joel Ross adds vibraphone to an unusually open drums-bass-mallet configuration. In Jerry’s Place at the Louis Armstrong Center, the apprenticeship idea also lands inside a room built around jazz memory rather than as an abstract conservatory exercise. The instrumentation leaves time, pulse, harmonic implication and interaction unusually exposed.",
+            "trip_verdict": "If a New York day already reaches Queens on September 5, attend if convenient; the free afternoon format makes it easy to fold into the day. I would not make a dedicated DMV-to-New-York trip for this date alone because the same trio has another New York performance five days later and the mentorship continues as a four-concert mini-tour.",
+            "listen_before": "Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)"
+          },
+          "es": {
+            "why_it_matters": "Entra por la arquitectura de mentoría, no por juntar nombres conocidos. El lenguaje rítmico de Gilmore se pone junto a un contrabajista de 21 años que ya trabaja en la órbita de Immanuel Wilkins, mientras Joel Ross agrega el vibráfono a una formación particularmente abierta de batería, bajo y láminas. En Jerry’s Place, dentro del Louis Armstrong Center, la idea de aprendizaje entre generaciones ocurre además en un espacio cargado de memoria del jazz y no como un ejercicio abstracto de conservatorio. La instrumentación deja muy expuestos el tiempo, el pulso, la armonía sugerida y la interacción.",
+            "trip_verdict": "Si un día en Nueva York ya te lleva a Queens el 5 de septiembre, entraría si queda cómodo; al ser un concierto gratuito por la tarde se integra fácil al itinerario. No haría un viaje dedicado desde el DMV sólo por esta fecha porque el mismo trío vuelve a tocar en Nueva York cinco días después y la mentoría continúa como una mini gira de cuatro conciertos.",
+            "listen_before": "Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery.json",
+        "batch_sha256": "8ae50346ae5673b06edf76b08e3afe9f61e55c1d61e6ffc161ce42213a61bb54",
+        "batch_id": "marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery",
+        "event_index": 0,
+        "candidate_event_id": "marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05",
+        "candidate_sha256": "088f4087c1b0123d2c563e5007520955ef770c986a8d1fa6a58602f577ad84e2",
+        "errors": [
+          "marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05 claims complete enrichment but required links or Apple Music are missing"
+        ],
+        "action": "review_validation",
+        "proposed_diff": [],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "marcus-gilmore-ryoma-takenaga-joel-ross-louis-armstrong-center-2026-09-05 claims complete enrichment but required links or Apple Music are missing"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": true,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "complete",
+            "missing": [],
+            "note": "Date, venue, free authorized ticket, 3:00 PM start, mentoring-series context, lineup and exact Apple Music listening destination are verified. The organizer/host time discrepancy is preserved rather than silently normalized; the host venue and authorized ticket page agree on 3:00 PM."
+          }
+        ],
+        "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+        "can_remain_active": false,
+        "materialization": "apply"
+      }
+    },
+    {
+      "original_event": {
+        "id": "marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10",
+        "artist": "Marcus Gilmore & Ryoma Takenaga",
+        "subtitle": "TJG Joyce Wein Mentoring Series — with Joel Ross",
+        "dates": {
+          "start": "2026-09-10",
+          "end": null
+        },
+        "showtimes": [
+          "19:00"
+        ],
+        "venue": {
+          "id": "national-jazz-museum-in-harlem",
+          "name": "The National Jazz Museum in Harlem",
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Trip",
+        "status": "considering",
+        "priority": "A",
+        "category": "Contemporary jazz / mentorship trio / drums-bass-vibraphone",
+        "genres": [
+          "Jazz",
+          "Improvised music"
+        ],
+        "musical_axes": [
+          "Improvised",
+          "Instrumental identity",
+          "Acoustic Jazz",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Marcus Gilmore — drums",
+          "Ryoma Takenaga — bass",
+          "Joel Ross — vibraphone"
+        ],
+        "factual_description": "The National Jazz Museum in Harlem and The Jazz Gallery present the TJG Joyce Wein Mentoring Series with Marcus Gilmore and Ryoma Takenaga on Thursday, September 10, 2026 at 7:00 PM at 58 West 129th Street in New York. The Jazz Gallery lists Marcus Gilmore on drums, Ryoma Takenaga on bass and Joel Ross on vibraphone. The National Jazz Museum's authorized RSVP page offers free admission, with optional donation tiers. The mentoring program is structured as a four-concert mini-tour intended to let a younger musician deepen creative and professional practice in high-level performance settings alongside a senior artist and collaborators.",
+        "links": {
+          "official_event": "https://jmih.org/event/tjg-mentor-series-marcus-gilmore-ryoma-takenaga/",
+          "official_tickets": "https://www.zeffy.com/en-US/ticketing/tjg-mentor-series-marcus-gilmore-ryoma-takenaga"
+        },
+        "recommended_listening": [
+          {
+            "artist": "Marcus Gilmore",
+            "title": "Journey to the New: (Live at the Village Vanguard)",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114"
+          }
+        ],
+        "enrichment": {
+          "status": "complete",
+          "missing": [],
+          "note": "Date, 7:00 PM start, venue, free authorized RSVP, complete announced trio, mentoring-series context and exact Apple Music listening destination are verified from primary/authorized sources."
+        },
+        "sources": [
+          {
+            "url": "https://jmih.org/event/tjg-mentor-series-marcus-gilmore-ryoma-takenaga/",
+            "publisher": "The National Jazz Museum in Harlem",
+            "checked_on": "2026-08-31",
+            "note": "Primary venue page confirms Thursday, September 10 at 7:00 PM, the National Jazz Museum in Harlem, Marcus Gilmore / Ryoma Takenaga billing and the Joyce Wein Mentoring Series context."
+          },
+          {
+            "url": "https://jazzgallery.org/calendar/mentoring-series-sept-10-2026-marcus-gilmore-ryoma-takenada",
+            "publisher": "The Jazz Gallery",
+            "checked_on": "2026-08-31",
+            "note": "Primary program organizer confirms September 10, 2026 at 7:00 PM; National Jazz Museum in Harlem; Marcus Gilmore — drums, Ryoma Takenaga — bass and Joel Ross — vibraphone; and the four-concert mini-tour mentorship model."
+          },
+          {
+            "url": "https://www.zeffy.com/en-US/ticketing/tjg-mentor-series-marcus-gilmore-ryoma-takenaga",
+            "publisher": "The National Jazz Museum in Harlem / Zeffy",
+            "checked_on": "2026-08-31",
+            "note": "Authorized RSVP page confirms the event address and free RSVP, with optional donation tiers."
+          },
+          {
+            "url": "https://music.apple.com/us/album/journey-to-the-new-live-at-the-village-vanguard/6773058114",
+            "publisher": "Apple Music",
+            "checked_on": "2026-08-31",
+            "note": "Exact Apple Music album page for Marcus Gilmore's Journey to the New: (Live at the Village Vanguard)."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-and-authorized-sources",
+          "note": "Core event details are verified from The National Jazz Museum in Harlem, The Jazz Gallery and the museum's authorized Zeffy RSVP page. Repository searches for Marcus Gilmore, Ryoma Takenaga, Joel Ross, the September 10 date and the National Jazz Museum in Harlem found no matching canonical, curated or processed RADAR event before publication. No additional personnel, unannounced repertoire or paid ticket price were inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "This is a compact lesson in how jazz knowledge actually moves across generations. Gilmore’s drums and Takenaga’s bass are the mentoring spine, and Joel Ross makes the group a lean trio in which rhythm, register and harmonic suggestion have to do nearly all the structural work. Putting that exchange inside the National Jazz Museum in Harlem gives the educational premise a living public context rather than turning it into a classroom demonstration.",
+            "trip_verdict": "If a New York trip overlaps September 10, attend if convenient and use the free Harlem set as a strong anchor for the evening. I would not build a separate regional trip around it: the same trio also plays Queens on September 5, and the broader mentoring project is explicitly a four-concert mini-tour.",
+            "listen_before": "Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)"
+          },
+          "es": {
+            "why_it_matters": "Es una forma muy clara de escuchar cómo se transmite el conocimiento del jazz entre generaciones. La batería de Gilmore y el bajo de Takenaga forman el eje de la mentoría, y Joel Ross convierte el grupo en un trío muy desnudo donde el ritmo, el registro y la armonía sugerida tienen que cargar casi toda la estructura. Llevar ese intercambio al National Jazz Museum in Harlem le da al componente pedagógico un contexto público y vivo, en vez de convertirlo en una demostración de salón de clases.",
+            "trip_verdict": "Si un viaje a Nueva York coincide con el 10 de septiembre, entraría si queda cómodo y usaría este set gratuito en Harlem como un buen ancla para la noche. No armaría un viaje regional aparte sólo por esta fecha: el mismo trío toca también en Queens el 5 de septiembre y el proyecto completo está planteado explícitamente como una mini gira de cuatro conciertos.",
+            "listen_before": "Marcus Gilmore — Journey to the New: (Live at the Village Vanguard)"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery.json",
+        "batch_sha256": "8ae50346ae5673b06edf76b08e3afe9f61e55c1d61e6ffc161ce42213a61bb54",
+        "batch_id": "marcus-gilmore-ryoma-takenaga-mentoring-nyc-2026-08-31-discovery",
+        "event_index": 1,
+        "candidate_event_id": "marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10",
+        "candidate_sha256": "bc368192405a760d0ea91f38db92dd1685f54c2ba08fd30c577dff6e23789b46",
+        "errors": [
+          "marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10 claims complete enrichment but required links or Apple Music are missing"
+        ],
+        "action": "review_validation",
+        "proposed_diff": [],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "marcus-gilmore-ryoma-takenaga-joel-ross-national-jazz-museum-harlem-2026-09-10 claims complete enrichment but required links or Apple Music are missing"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": true,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "complete",
+            "missing": [],
+            "note": "Date, 7:00 PM start, venue, free authorized RSVP, complete announced trio, mentoring-series context and exact Apple Music listening destination are verified from primary/authorized sources."
+          }
+        ],
+        "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+        "can_remain_active": false,
+        "materialization": "apply"
+      }
+    }
+  ],
+  "result": {
+    "active_path": null,
+    "active_events": []
+  }
+}

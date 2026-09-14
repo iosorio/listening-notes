@@ -68,10 +68,10 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_official_ticket_destination",
+          "official_tickets",
           "apple_music"
         ],
-        "note": "The Library of Congress verifies the complete program, personnel, date, concert time, preconcert conversation, venue, free-ticketed status, and the Medtner manuscript context. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. No exact Apple Music album, song, or playlist destination sufficiently tied to this program was verified, so recommended_listening remains empty."
+        "note": "The Library of Congress verifies the complete program, personnel, date, concert time, preconcert conversation, venue, free-ticketed status, and the Medtner manuscript context. The exact authorized Get Tickets destination was not recoverable in this pass, so official_tickets remains null rather than guessed. No exact Apple Music album, song, or playlist destination sufficiently tied to this program was verified, so recommended_listening remains empty. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_official_ticket_destination. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -53,9 +53,9 @@
         "status": "pending",
         "missing": [
           "official_tickets",
-          "recommended_listening"
+          "apple_music"
         ],
-        "note": "The exact Birdland event page and Michael Blake's official live schedule are verified. Birdland exposes set-specific ticket purchase controls; no single residence-level purchase URL is stored. No Apple Music ID or listening link was inferred during this pass."
+        "note": "The exact Birdland event page and Michael Blake's official live schedule are verified. Birdland exposes set-specific ticket purchase controls; no single residence-level purchase URL is stored. No Apple Music ID or listening link was inferred during this pass. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: recommended_listening. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

@@ -72,10 +72,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "direct event-specific registration destination",
-          "performance-specific personnel"
+          "official_tickets"
         ],
-        "note": "The official Anacostia BID season/finale page verifies the free August 30 Jazz Hop context, while the exact local event notice verifies The Blackbyrds, Big Jazz Cafe, address, and the 19:15-20:15 performance window. The Blackbyrds' official site and Howard University verify band history and current activity only; current-member information is not treated as event-specific personnel. The organizer page exposes a free-ticket action, but a direct event-specific registration destination was not successfully verified, so official_tickets remains null."
+        "note": "The official Anacostia BID season/finale page verifies the free August 30 Jazz Hop context, while the exact local event notice verifies The Blackbyrds, Big Jazz Cafe, address, and the 19:15-20:15 performance window. The Blackbyrds' official site and Howard University verify band history and current activity only; current-member information is not treated as event-specific personnel. The organizer page exposes a free-ticket action, but a direct event-specific registration destination was not successfully verified, so official_tickets remains null. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: direct event-specific registration destination, performance-specific personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

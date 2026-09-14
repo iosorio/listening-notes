@@ -70,10 +70,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "individual personnel and instrument assignments for the announced ensembles where not stated on the event page",
           "apple_music"
         ],
-        "note": "Roulette's exact event page verifies the date, 19:00 doors / 20:00 start, all four announced live units, Thru Line and JGI Continuum Fellowship context, face-value admission, free livestream/archive, and the authorized AudienceView/OvationTix ticket destination. No unannounced ensemble personnel, instrument assignments, or Apple Music destination are inferred."
+        "note": "Roulette's exact event page verifies the date, 19:00 doors / 20:00 start, all four announced live units, Thru Line and JGI Continuum Fellowship context, face-value admission, free livestream/archive, and the authorized AudienceView/OvationTix ticket destination. No unannounced ensemble personnel, instrument assignments, or Apple Music destination are inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: individual personnel and instrument assignments for the announced ensembles where not stated on the event page. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

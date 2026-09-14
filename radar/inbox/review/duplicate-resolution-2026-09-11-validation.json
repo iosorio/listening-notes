@@ -1,0 +1,264 @@
+{
+  "kind": "radar_duplicate_resolution_validation",
+  "checked_on": "2026-09-11",
+  "base_commit": "d3d80064f8f7db75f09efe9fa0de1b533464964e",
+  "origin_main": "98d7e66d3a8b79d86aad3a6080c2f9c24593587e",
+  "divergence": {
+    "ahead": 1,
+    "behind": 0
+  },
+  "execution_artifact": {
+    "host": "Mac Pro",
+    "checked_on": "2026-09-11",
+    "type": "temporary detached validation worktree",
+    "base_commit": "d3d80064f8f7db75f09efe9fa0de1b533464964e",
+    "artifact_sha256": null,
+    "validated_tracked_diff_sha256": "58c93d8a15338aaf02ed1962f6e750fd69e06e58bfe1d515365cb1f89278abdf",
+    "status": "temporary artifact removed after validation"
+  },
+  "main_checkout": {
+    "host": "Mac Pro",
+    "type": "primary repository checkout",
+    "head": "98d7e66d3a8b79d86aad3a6080c2f9c24593587e",
+    "clean": true,
+    "modified": false
+  },
+  "tests": {
+    "before": {
+      "count": 90,
+      "seconds": 3.477,
+      "result": "OK"
+    },
+    "after": {
+      "count": 90,
+      "seconds": 3.472,
+      "result": "OK"
+    }
+  },
+  "canonical_validation": {
+    "before": 226,
+    "after": 226
+  },
+  "diff_check": "passed_before_and_after",
+  "tracked_diff_sha256": "58c93d8a15338aaf02ed1962f6e750fd69e06e58bfe1d515365cb1f89278abdf",
+  "initial_plan": {
+    "create": 491,
+    "merge": 0,
+    "replace": 0,
+    "archive_duplicate": 12,
+    "review": 4
+  },
+  "automatic_plan_before_materialization": {
+    "create": 492,
+    "merge": 0,
+    "replace": 0,
+    "archive_duplicate": 11,
+    "review": 4
+  },
+  "temp_initial_14": "Rejected after individual residual validation; never applied locally.",
+  "temporary_eligible_materialization": {
+    "duplicates": 11,
+    "split_batches": 5,
+    "fully_archived_batches": 3,
+    "result": "passed"
+  },
+  "post_dry_run": {
+    "remaining_duplicates_individual_dry_run": [
+      {
+        "candidate": "jlco-wynton-marsalis-from-cuba-to-crescent-city-new-york-2026-10-23",
+        "result": "blocked_no_writes",
+        "error": "Invalid event data: wycliffe-gordon-welcome-to-georgia-town-jalc-new-york-2026-10-09.enrichment.missing must be a unique list of known enrichment fields"
+      },
+      {
+        "candidate": "eddie-palmieri-experience-jalc-rose-theater-nyc-2026-11-13",
+        "result": "blocked_no_writes",
+        "error": "Invalid event data: sora-ichikawa-concept-band-jazz-house-alfie-tokyo-2026-09-12 requires an explicit ticket currency"
+      },
+      {
+        "candidate": "tsuyoshi-yamamoto-masahiko-satoh-kawasaki-shimin-plaza-2026-10-03",
+        "result": "blocked_no_writes",
+        "error": "Invalid event data: interpretations-hemingway-andonovska-howard-roulette-brooklyn-2026-12-03.enrichment.missing must be a unique list of known enrichment fields"
+      }
+    ],
+    "eligible_post_materialization_dry_run": {
+      "dry_run": true,
+      "archived": [],
+      "residual": [],
+      "removed_active": []
+    }
+  },
+  "unfiltered_post_plan_dry_run": {
+    "exit_code": 2,
+    "result": "blocked_by_preexisting_residual_error"
+  },
+  "audit": {
+    "protected_files": [
+      "radar/events.json",
+      "radar/venue_identities.json",
+      "tests/test_radar_intake.py",
+      "radar/inbox/curated/historical-attendance-2026-08-14-deferred.json"
+    ],
+    "archived_candidates": [
+      {
+        "id": "aaron-parks-trio-village-vanguard-new-york-2026-10-27",
+        "canonical": "aaron-parks-trio-village-vanguard-2026-10-27",
+        "archive": "radar/inbox/review/decisions/95b9029246595db4a257b96473c90e4cbc411f6223ae1d69603345da9bb4fa82-aaron-parks-trio-village-vanguard-2026-08-30-discovery.json"
+      },
+      {
+        "id": "stanley-jordan-trio-keystone-korner-baltimore-2026-10-02",
+        "canonical": "stanley-jordan-keystone-korner-baltimore-2026-10-02",
+        "archive": "radar/inbox/review/decisions/dd48832bcb27e92f3cad6c56e562fa6eac4062506360e2755ae1863b31661cd8-stanley-jordan-keystone-baltimore-2026-08-30-discovery.json"
+      },
+      {
+        "id": "jlco-wynton-marsalis-swinging-cities-new-york-2026-11-06",
+        "canonical": "wynton-marsalis-swinging-cities-jazz-at-lincoln-center-2026-11-06",
+        "archive": "radar/inbox/review/decisions/f67892bb0752ea9539d08c230481263a1995471b9ab221f1f0f35972371c12df-takeo-moriyama-swinging-cities-2026-08-29-discovery.json"
+      },
+      {
+        "id": "tsuyoshi-yamamoto-keystone-club-tokyo-2026-09-15",
+        "canonical": "tsuyoshi-yamamoto-night-keystone-club-tokyo-2026-09-15",
+        "archive": "radar/inbox/review/decisions/14af04886f1562c977c0890bdb700b3a41a7b038f7006569bdb62808dcc82842-tsuyoshi-yamamoto-keystone-night-2026-09-15-discovery.json"
+      },
+      {
+        "id": "ravi-coltrane-centennial-village-vanguard-new-york-2026-10-13",
+        "canonical": "ravi-coltrane-quartet-centennial-village-vanguard-2026-10-13",
+        "archive": "radar/inbox/review/decisions/078c95ce2b8a37ce044a1a9190212771eed69c731794cd185afd9c98109cac31-village-vanguard-gilmore-ravi-hersch-october-2026-2026-08-29-discovery.json"
+      },
+      {
+        "id": "west-road-blues-band-cotton-club-tokyo-2026-09-30",
+        "canonical": "west-road-blues-band-cotton-club-2026-09-30",
+        "archive": "radar/inbox/review/decisions/027b6943c63fcacb8e998591b57d8f2a29dd53d5dc3c9f4032094f7f73c9c827-west-road-shipp-parker-2026-08-30-discovery.json"
+      },
+      {
+        "id": "plaza-afternoon-jazz-final-yamamoto-sato-kawasaki-2026-10-03",
+        "canonical": "masahiko-satoh-tsuyoshi-yamamoto-kawasaki-shimin-plaza-2026-10-03",
+        "archive": "radar/inbox/review/decisions/015f80e6c67cc26f493cd7fcced0da3072874bfa6b92a8445146bf86f880dbb0-yamamoto-kawasaki-dmv-roulette-tokyo-2026-08-29-discovery.json"
+      },
+      {
+        "id": "john-scofield-electrospective-hamilton-washington-dc-2026-10-22",
+        "canonical": "john-scofield-electrospective-hamilton-2026-10-22",
+        "archive": "radar/inbox/review/decisions/015f80e6c67cc26f493cd7fcced0da3072874bfa6b92a8445146bf86f880dbb0-yamamoto-kawasaki-dmv-roulette-tokyo-2026-08-29-discovery.json"
+      },
+      {
+        "id": "niladri-kumaar-space-between-notes-njpac-newark-2026-11-06",
+        "canonical": "niladri-kumaar-space-between-notes-njpac-2026-11-06",
+        "archive": "radar/inbox/review/decisions/e42bcd9942f26e05c953a6b85aeac3c3dafbc78ec76bfd9eb83d1db10ff8625a-yamamoto-keystone-njpac-fall-2026-2026-08-28-discovery.json"
+      },
+      {
+        "id": "miles-100-jon-faddis-njpac-newark-2026-11-12",
+        "canonical": "miles-100-jon-faddis-friends-njpac-2026-11-12",
+        "archive": "radar/inbox/review/decisions/e42bcd9942f26e05c953a6b85aeac3c3dafbc78ec76bfd9eb83d1db10ff8625a-yamamoto-keystone-njpac-fall-2026-2026-08-28-discovery.json"
+      },
+      {
+        "id": "sacred-visions-oru-de-oro-njpac-newark-2026-12-19",
+        "canonical": "michele-rosewoman-new-yor-uba-sacred-visions-njpac-2026-12-19",
+        "archive": "radar/inbox/review/decisions/e42bcd9942f26e05c953a6b85aeac3c3dafbc78ec76bfd9eb83d1db10ff8625a-yamamoto-keystone-njpac-fall-2026-2026-08-28-discovery.json"
+      }
+    ],
+    "split_batches": [
+      {
+        "path": "radar/inbox/curated/takeo-moriyama-swinging-cities-2026-08-29-discovery.json",
+        "residual": [
+          {
+            "id": "takeo-moriyama-2days-shinjuku-pit-inn-tokyo-2026-09-11",
+            "sha256": "b2445da7284e774d9e021bc41b7909260bbfc19ce74edea5060bdca3214a79f5"
+          }
+        ]
+      },
+      {
+        "path": "radar/inbox/curated/village-vanguard-gilmore-ravi-hersch-october-2026-2026-08-29-discovery.json",
+        "residual": [
+          {
+            "id": "marcus-gilmore-new-orchestra-village-vanguard-new-york-2026-10-06",
+            "sha256": "e3d2fbb40aba1121e67340318e2d74843e22b2ea5b2ef34cad526fa90e4e6213"
+          },
+          {
+            "id": "fred-hersch-trio-plus-two-village-vanguard-new-york-2026-10-20",
+            "sha256": "3504fee80ea2a57c3cbdbea66a7f142a658d7e80a9f794e05148b45e46959658"
+          }
+        ]
+      },
+      {
+        "path": "radar/inbox/curated/west-road-shipp-parker-2026-08-30-discovery.json",
+        "residual": [
+          {
+            "id": "matthew-shipp-william-parker-roulette-brooklyn-2026-12-04",
+            "sha256": "a46f38fb577ea8de3a5ece446ca82be07e0beabfa6c760d3100aa1834f6db6fa"
+          }
+        ]
+      },
+      {
+        "path": "radar/inbox/curated/yamamoto-kawasaki-dmv-roulette-tokyo-2026-08-29-discovery.json",
+        "residual": [
+          {
+            "id": "katherine-young-biomes-roulette-brooklyn-2026-09-17",
+            "sha256": "d6e0ffd4a944f8b6355eede05bebf37666cffbe4173bf3ae9fcd089ebfd55279"
+          },
+          {
+            "id": "kaho-nakamura-billboard-live-tokyo-solo-2026-10-12",
+            "sha256": "5479c0c8ca8f1df8ad62bced9da04bb470ce57a6ebbf90cdb588a71dff7c8748"
+          },
+          {
+            "id": "m3-festival-roulette-brooklyn-2026-11-07",
+            "sha256": "5adfb99c606fd97f0ef9b4b5af63075afc3f838b946198af49ee0aecee3abbb3"
+          },
+          {
+            "id": "matana-roberts-off-the-record-roulette-brooklyn-2026-11-11",
+            "sha256": "47cd974f123a34412322b15c55a81fbb1264b3f4847934279ba7d60bad726ba2"
+          }
+        ]
+      },
+      {
+        "path": "radar/inbox/curated/yamamoto-keystone-njpac-fall-2026-2026-08-28-discovery.json",
+        "residual": [
+          {
+            "id": "tsuyoshi-yamamoto-trio-keystone-club-tokyo-2026-09-01",
+            "sha256": "7dbb60fbfa81ce64bf997e9bc224127304e11a41ef1b5d6e456e889a30d54e10"
+          },
+          {
+            "id": "tsuyoshi-yamamoto-trio-keystone-club-tokyo-2026-09-08",
+            "sha256": "c2dd131f3ec5c0546fa620c46efb584762fbb9a00bab26700cd7317be25d3f72"
+          },
+          {
+            "id": "beat-king-crimson-njpac-newark-2026-11-09",
+            "sha256": "62e05c46913288465095c362c93c26e87ead45391502d46b5cd73cbeb99204eb"
+          }
+        ]
+      }
+    ],
+    "removed_active_batches": [
+      "radar/inbox/curated/aaron-parks-trio-village-vanguard-2026-08-30-discovery.json",
+      "radar/inbox/curated/stanley-jordan-keystone-baltimore-2026-08-30-discovery.json",
+      "radar/inbox/curated/tsuyoshi-yamamoto-keystone-night-2026-09-15-discovery.json"
+    ],
+    "residual_candidates_validated": 11,
+    "active_summary": {
+      "create": 492,
+      "merge": 0,
+      "replace": 0,
+      "archive_duplicate": 3,
+      "review": 1
+    },
+    "reviews": [
+      "eddie-palmieri-2019-user-confirmed"
+    ],
+    "unchanged_unselected_batches": 387
+  },
+  "local_audit_exactly_matches_macpro": true,
+  "protected_sha256": {
+    "radar/events.json": "6848126fc1bcb084e83719e68e2e9de22ca1ee5590e13617e15955eb7b1fdda1",
+    "radar/venue_identities.json": "a47dbb2bf8c0020d3bcb39a482fade43c6ba8550b5de818293c0c4366ec897ef",
+    "tests/test_radar_intake.py": "8388e22cde7d41069cf12786e396c209c44a76771f3d8e8cf308b21553103982",
+    "radar/inbox/curated/historical-attendance-2026-08-14-deferred.json": "7a73f6b198180a8463a6fb47a51614fc59be3c76a4351b7c7f804d15789c5d70"
+  },
+  "residual_normalization": "Validation only, in memory; original residual objects preserved.",
+  "commands": [
+    "python3 scripts/validate_events.py radar/events.json",
+    "python3 -m unittest discover -s tests -v",
+    "python3 scripts/plan_radar_intake.py",
+    "python3 scripts/materialize_radar_intake.py radar/inbox/review/duplicate-resolution-2026-09-11.json",
+    "python3 scripts/materialize_radar_intake.py radar/inbox/review/duplicate-resolution-2026-09-11.json --apply",
+    "python3 scripts/verify_radar_duplicate_resolution.py radar/inbox/review/duplicate-resolution-2026-09-11.json",
+    "git diff --check"
+  ]
+}

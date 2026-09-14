@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "kind": "radar_intake_validation_archive",
+  "recorded_on": "2026-09-11",
+  "source": {
+    "path": "radar/inbox/curated/emmet-cohen-friends-jalc-2026-08-26-catchup.json",
+    "sha256": "d8ae8119d8edf118249d728f18afd88efd8150c62a74eeaeb21f66056e35dc2c",
+    "original_text": "{\n  \"batch_version\": 1,\n  \"kind\": \"curated_event_candidates\",\n  \"batch_id\": \"emmet-cohen-friends-jalc-2026-08-26-catchup\",\n  \"notes\": \"Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Current checks of Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedules, Space M&A and credible Japanese jazz sources produced no new unrecorded future Yamamoto performance. This catch-up adds Emmet Cohen and Friends at Jazz at Lincoln Center as A+: the live translation of Cohen's intergenerational Live from Emmet's Place concept into The Appel Room clears RADAR admission and merits active prioritization, while four performances and intentionally rotating/surprise guests make A+ more accurate than a scarcity tier. Recent RADAR additions were also checked qualitatively against the durable shape before finalizing; this batch adds no S or S+ event.\",\n  \"events\": [\n    {\n      \"id\": \"emmet-cohen-friends-jalc-new-york-2027-02-26\",\n      \"artist\": \"Emmet Cohen and Friends\",\n      \"subtitle\": \"Live from Emmet's Place brought to The Appel Room\",\n      \"dates\": {\n        \"start\": \"2027-02-26\",\n        \"end\": \"2027-02-27\"\n      },\n      \"showtimes\": [\n        \"19:00\",\n        \"21:00\",\n        \"16:30\"\n      ],\n      \"venue\": {\n        \"id\": \"the-appel-room-jazz-at-lincoln-center-new-york\",\n        \"name\": \"The Appel Room at Jazz at Lincoln Center\",\n        \"city\": \"New York\",\n        \"state\": \"NY\",\n        \"country\": \"US\"\n      },\n      \"geographic_domain\": \"us_corridor\",\n      \"geography\": \"Trip\",\n      \"status\": \"considering\",\n      \"priority\": \"A+\",\n      \"category\": \"Piano jazz / Intergenerational collaboration / Live salon format\",\n      \"genres\": [\n        \"Jazz\",\n        \"Contemporary jazz\"\n      ],\n      \"musical_axes\": [\n        \"Improvised\",\n        \"Instrumental identity\",\n        \"Cultural context\"\n      ],\n      \"lineup\": [\n        \"Emmet Cohen — piano\",\n        \"Emmet Cohen's trio — additional personnel not yet specified by Jazz at Lincoln Center\",\n        \"Legendary musicians and surprise guests — not announced in advance by Jazz at Lincoln Center\"\n      ],\n      \"factual_description\": \"Jazz at Lincoln Center presents Emmet Cohen and Friends in The Appel Room on February 26-27, 2027, with Friday sets at 7:00 PM and 9:00 PM and Saturday sets at 4:30 PM and 7:00 PM. The engagement brings Cohen's Live from Emmet's Place concept from its in-home/online setting to the Appel Room stage, featuring Cohen and his trio alongside legendary musicians and surprise guests. Jazz at Lincoln Center has not yet named the trio personnel or guest artists for these performances.\",\n      \"links\": {\n        \"official_event\": \"https://jazz.org/concert/emmet-cohen-and-friends/\",\n        \"official_tickets\": \"https://ticketing.jazz.org/20716\"\n      },\n      \"recommended_listening\": [\n        {\n          \"artist\": \"Emmet Cohen\",\n          \"title\": \"Universal Truth\",\n          \"kind\": \"album\",\n          \"apple_music_url\": \"https://music.apple.com/us/album/universal-truth/1884692966\"\n        }\n      ],\n      \"enrichment\": {\n        \"status\": \"complete\",\n        \"missing\": [],\n        \"note\": \"Exact Jazz at Lincoln Center event and ticketing pages verify February 26-27, 2027, all four set times, The Appel Room, the Live from Emmet's Place framing, Cohen's trio and the presence of legendary/surprise guests. JALC does not yet specify the trio personnel or guests, and none were inferred. The exact Apple Music album page for Universal Truth is verified.\"\n      },\n      \"sources\": [\n        {\n          \"url\": \"https://jazz.org/concert/emmet-cohen-and-friends/\",\n          \"publisher\": \"Jazz at Lincoln Center\",\n          \"checked_on\": \"2026-08-26\",\n          \"note\": \"Official event page confirms February 26-27, 2027 in The Appel Room, four performances, the Live from Emmet's Place concept, Cohen's trio, legendary musicians and surprise guests, and active Buy Now controls.\"\n        },\n        {\n          \"url\": \"https://ticketing.jazz.org/20716\",\n          \"publisher\": \"Jazz at Lincoln Center Ticketing\",\n          \"checked_on\": \"2026-08-26\",\n          \"note\": \"Authorized JALC ticketing page confirms Friday sets at 7:00 PM and 9:00 PM and Saturday sets at 4:30 PM and 7:00 PM, with tickets currently offered.\"\n        },\n        {\n          \"url\": \"https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/\",\n          \"publisher\": \"Jazz at Lincoln Center Press Center\",\n          \"checked_on\": \"2026-08-26\",\n          \"note\": \"Official season announcement independently confirms the February 26-27 Appel Room engagement and its translation of Live from Emmet's Place into a stage performance with Cohen's trio and intergenerational guests.\"\n        },\n        {\n          \"url\": \"https://music.apple.com/us/album/universal-truth/1884692966\",\n          \"publisher\": \"Apple Music\",\n          \"checked_on\": \"2026-08-26\",\n          \"note\": \"Exact Apple Music album page for Emmet Cohen's 2026 album Universal Truth.\"\n        }\n      ],\n      \"provenance\": {\n        \"status\": \"verified-primary-sources\",\n        \"note\": \"Dates, all four set times, venue, concept and authorized purchase route were verified against Jazz at Lincoln Center's official event, ticketing and season-announcement pages. Repository searches for Emmet Cohen and the proposed stable event ID found no existing canonical or inbox match before publication. No trio member beyond Cohen, guest artist or repertoire was inferred.\"\n      },\n      \"editorial\": {\n        \"en\": {\n          \"why_it_matters\": \"Live from Emmet's Place became compelling because Cohen used the piano less as a showcase than as a meeting point between generations: stride, bebop, blues and modern rhythm could all enter the same room depending on who walked in. Moving that idea into The Appel Room keeps the useful uncertainty intact—an expert trio, veteran guests and younger voices responding in real time rather than a fixed repertory package.\",\n          \"trip_verdict\": \"Actively make room for one of the four Appel Room sets if a New York trip overlaps, especially if the guest list develops into an intergenerational lineup with real musical chemistry. Four performances across two days provide enough flexibility that it works as a strong trip anchor without displacing a rarer one-off by default.\",\n          \"listen_before\": \"Emmet Cohen — Universal Truth\"\n        },\n        \"es\": {\n          \"why_it_matters\": \"Live from Emmet's Place se volvió interesante porque Cohen usa el piano menos como escaparate que como punto de encuentro entre generaciones: stride, bebop, blues y ritmo contemporáneo pueden convivir según quién entre al cuarto. Llevar esa idea a The Appel Room conserva la incertidumbre buena —un trío sólido, músicos veteranos y voces más jóvenes reaccionando en tiempo real— en lugar de convertirla en un paquete fijo de repertorio.\",\n          \"trip_verdict\": \"Sí le haría espacio activamente a uno de los cuatro sets en The Appel Room si coincide con un viaje a Nueva York, sobre todo si la lista de invitados termina armando una conversación intergeneracional con química real. Cuatro funciones en dos días dan suficiente margen para que sea una ancla fuerte del viaje sin desplazar por defecto un one-off más raro.\",\n          \"listen_before\": \"Emmet Cohen — Universal Truth\"\n        }\n      }\n    }\n  ]\n}",
+    "original_batch": {
+      "batch_version": 1,
+      "kind": "curated_event_candidates",
+      "batch_id": "emmet-cohen-friends-jalc-2026-08-26-catchup",
+      "notes": "Yamamoto-first discovery pass under the current durable editorial rubric. docs/PRIORITIES.md, docs/EDITORIAL.md, docs/DOMAINS.md, and radar/inbox/README.md were read before grading. Current checks of Jazz House ALFIE, BODY&SOUL, Tsuyoshi Yamamoto schedules, Space M&A and credible Japanese jazz sources produced no new unrecorded future Yamamoto performance. This catch-up adds Emmet Cohen and Friends at Jazz at Lincoln Center as A+: the live translation of Cohen's intergenerational Live from Emmet's Place concept into The Appel Room clears RADAR admission and merits active prioritization, while four performances and intentionally rotating/surprise guests make A+ more accurate than a scarcity tier. Recent RADAR additions were also checked qualitatively against the durable shape before finalizing; this batch adds no S or S+ event.",
+      "events": [
+        {
+          "id": "emmet-cohen-friends-jalc-new-york-2027-02-26",
+          "artist": "Emmet Cohen and Friends",
+          "subtitle": "Live from Emmet's Place brought to The Appel Room",
+          "dates": {
+            "start": "2027-02-26",
+            "end": "2027-02-27"
+          },
+          "showtimes": [
+            "19:00",
+            "21:00",
+            "16:30"
+          ],
+          "venue": {
+            "id": "the-appel-room-jazz-at-lincoln-center-new-york",
+            "name": "The Appel Room at Jazz at Lincoln Center",
+            "city": "New York",
+            "state": "NY",
+            "country": "US"
+          },
+          "geographic_domain": "us_corridor",
+          "geography": "Trip",
+          "status": "considering",
+          "priority": "A+",
+          "category": "Piano jazz / Intergenerational collaboration / Live salon format",
+          "genres": [
+            "Jazz",
+            "Contemporary jazz"
+          ],
+          "musical_axes": [
+            "Improvised",
+            "Instrumental identity",
+            "Cultural context"
+          ],
+          "lineup": [
+            "Emmet Cohen — piano",
+            "Emmet Cohen's trio — additional personnel not yet specified by Jazz at Lincoln Center",
+            "Legendary musicians and surprise guests — not announced in advance by Jazz at Lincoln Center"
+          ],
+          "factual_description": "Jazz at Lincoln Center presents Emmet Cohen and Friends in The Appel Room on February 26-27, 2027, with Friday sets at 7:00 PM and 9:00 PM and Saturday sets at 4:30 PM and 7:00 PM. The engagement brings Cohen's Live from Emmet's Place concept from its in-home/online setting to the Appel Room stage, featuring Cohen and his trio alongside legendary musicians and surprise guests. Jazz at Lincoln Center has not yet named the trio personnel or guest artists for these performances.",
+          "links": {
+            "official_event": "https://jazz.org/concert/emmet-cohen-and-friends/",
+            "official_tickets": "https://ticketing.jazz.org/20716"
+          },
+          "recommended_listening": [
+            {
+              "artist": "Emmet Cohen",
+              "title": "Universal Truth",
+              "kind": "album",
+              "apple_music_url": "https://music.apple.com/us/album/universal-truth/1884692966"
+            }
+          ],
+          "enrichment": {
+            "status": "complete",
+            "missing": [],
+            "note": "Exact Jazz at Lincoln Center event and ticketing pages verify February 26-27, 2027, all four set times, The Appel Room, the Live from Emmet's Place framing, Cohen's trio and the presence of legendary/surprise guests. JALC does not yet specify the trio personnel or guests, and none were inferred. The exact Apple Music album page for Universal Truth is verified."
+          },
+          "sources": [
+            {
+              "url": "https://jazz.org/concert/emmet-cohen-and-friends/",
+              "publisher": "Jazz at Lincoln Center",
+              "checked_on": "2026-08-26",
+              "note": "Official event page confirms February 26-27, 2027 in The Appel Room, four performances, the Live from Emmet's Place concept, Cohen's trio, legendary musicians and surprise guests, and active Buy Now controls."
+            },
+            {
+              "url": "https://ticketing.jazz.org/20716",
+              "publisher": "Jazz at Lincoln Center Ticketing",
+              "checked_on": "2026-08-26",
+              "note": "Authorized JALC ticketing page confirms Friday sets at 7:00 PM and 9:00 PM and Saturday sets at 4:30 PM and 7:00 PM, with tickets currently offered."
+            },
+            {
+              "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+              "publisher": "Jazz at Lincoln Center Press Center",
+              "checked_on": "2026-08-26",
+              "note": "Official season announcement independently confirms the February 26-27 Appel Room engagement and its translation of Live from Emmet's Place into a stage performance with Cohen's trio and intergenerational guests."
+            },
+            {
+              "url": "https://music.apple.com/us/album/universal-truth/1884692966",
+              "publisher": "Apple Music",
+              "checked_on": "2026-08-26",
+              "note": "Exact Apple Music album page for Emmet Cohen's 2026 album Universal Truth."
+            }
+          ],
+          "provenance": {
+            "status": "verified-primary-sources",
+            "note": "Dates, all four set times, venue, concept and authorized purchase route were verified against Jazz at Lincoln Center's official event, ticketing and season-announcement pages. Repository searches for Emmet Cohen and the proposed stable event ID found no existing canonical or inbox match before publication. No trio member beyond Cohen, guest artist or repertoire was inferred."
+          },
+          "editorial": {
+            "en": {
+              "why_it_matters": "Live from Emmet's Place became compelling because Cohen used the piano less as a showcase than as a meeting point between generations: stride, bebop, blues and modern rhythm could all enter the same room depending on who walked in. Moving that idea into The Appel Room keeps the useful uncertainty intact—an expert trio, veteran guests and younger voices responding in real time rather than a fixed repertory package.",
+              "trip_verdict": "Actively make room for one of the four Appel Room sets if a New York trip overlaps, especially if the guest list develops into an intergenerational lineup with real musical chemistry. Four performances across two days provide enough flexibility that it works as a strong trip anchor without displacing a rarer one-off by default.",
+              "listen_before": "Emmet Cohen — Universal Truth"
+            },
+            "es": {
+              "why_it_matters": "Live from Emmet's Place se volvió interesante porque Cohen usa el piano menos como escaparate que como punto de encuentro entre generaciones: stride, bebop, blues y ritmo contemporáneo pueden convivir según quién entre al cuarto. Llevar esa idea a The Appel Room conserva la incertidumbre buena —un trío sólido, músicos veteranos y voces más jóvenes reaccionando en tiempo real— en lugar de convertirla en un paquete fijo de repertorio.",
+              "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets en The Appel Room si coincide con un viaje a Nueva York, sobre todo si la lista de invitados termina armando una conversación intergeneracional con química real. Cuatro funciones en dos días dan suficiente margen para que sea una ancla fuerte del viaje sin desplazar por defecto un one-off más raro.",
+              "listen_before": "Emmet Cohen — Universal Truth"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "path": "radar/inbox/curated/emmet-cohen-friends-jalc-2026-08-26-catchup.json",
+      "batch_sha256": "d8ae8119d8edf118249d728f18afd88efd8150c62a74eeaeb21f66056e35dc2c",
+      "batch_id": "emmet-cohen-friends-jalc-2026-08-26-catchup",
+      "event_index": 0,
+      "candidate_event_id": "emmet-cohen-friends-jalc-new-york-2027-02-26",
+      "candidate_sha256": "9ee9cb542f5ed2e9f98fc12620ad292ec5c4a8026122bc5e2615d9dc75085883",
+      "errors": [
+        "emmet-cohen-friends-jalc-new-york-2027-02-26 claims complete enrichment but required links or Apple Music are missing"
+      ],
+      "action": "review_validation",
+      "proposed_diff": [],
+      "evidence": [
+        {
+          "kind": "validator_error",
+          "message": "emmet-cohen-friends-jalc-new-york-2027-02-26 claims complete enrichment but required links or Apple Music are missing"
+        },
+        {
+          "kind": "present_components",
+          "official_event": true,
+          "official_tickets": true,
+          "apple_music": true
+        },
+        {
+          "kind": "enrichment_input",
+          "status": "complete",
+          "missing": [],
+          "note": "Exact Jazz at Lincoln Center event and ticketing pages verify February 26-27, 2027, all four set times, The Appel Room, the Live from Emmet's Place framing, Cohen's trio and the presence of legendary/surprise guests. JALC does not yet specify the trio personnel or guests, and none were inferred. The exact Apple Music album page for Universal Truth is verified."
+        }
+      ],
+      "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+      "can_remain_active": false,
+      "materialization": "apply"
+    }
+  ],
+  "automatic_repairs": [],
+  "review_candidates": [
+    {
+      "original_event": {
+        "id": "emmet-cohen-friends-jalc-new-york-2027-02-26",
+        "artist": "Emmet Cohen and Friends",
+        "subtitle": "Live from Emmet's Place brought to The Appel Room",
+        "dates": {
+          "start": "2027-02-26",
+          "end": "2027-02-27"
+        },
+        "showtimes": [
+          "19:00",
+          "21:00",
+          "16:30"
+        ],
+        "venue": {
+          "id": "the-appel-room-jazz-at-lincoln-center-new-york",
+          "name": "The Appel Room at Jazz at Lincoln Center",
+          "city": "New York",
+          "state": "NY",
+          "country": "US"
+        },
+        "geographic_domain": "us_corridor",
+        "geography": "Trip",
+        "status": "considering",
+        "priority": "A+",
+        "category": "Piano jazz / Intergenerational collaboration / Live salon format",
+        "genres": [
+          "Jazz",
+          "Contemporary jazz"
+        ],
+        "musical_axes": [
+          "Improvised",
+          "Instrumental identity",
+          "Cultural context"
+        ],
+        "lineup": [
+          "Emmet Cohen — piano",
+          "Emmet Cohen's trio — additional personnel not yet specified by Jazz at Lincoln Center",
+          "Legendary musicians and surprise guests — not announced in advance by Jazz at Lincoln Center"
+        ],
+        "factual_description": "Jazz at Lincoln Center presents Emmet Cohen and Friends in The Appel Room on February 26-27, 2027, with Friday sets at 7:00 PM and 9:00 PM and Saturday sets at 4:30 PM and 7:00 PM. The engagement brings Cohen's Live from Emmet's Place concept from its in-home/online setting to the Appel Room stage, featuring Cohen and his trio alongside legendary musicians and surprise guests. Jazz at Lincoln Center has not yet named the trio personnel or guest artists for these performances.",
+        "links": {
+          "official_event": "https://jazz.org/concert/emmet-cohen-and-friends/",
+          "official_tickets": "https://ticketing.jazz.org/20716"
+        },
+        "recommended_listening": [
+          {
+            "artist": "Emmet Cohen",
+            "title": "Universal Truth",
+            "kind": "album",
+            "apple_music_url": "https://music.apple.com/us/album/universal-truth/1884692966"
+          }
+        ],
+        "enrichment": {
+          "status": "complete",
+          "missing": [],
+          "note": "Exact Jazz at Lincoln Center event and ticketing pages verify February 26-27, 2027, all four set times, The Appel Room, the Live from Emmet's Place framing, Cohen's trio and the presence of legendary/surprise guests. JALC does not yet specify the trio personnel or guests, and none were inferred. The exact Apple Music album page for Universal Truth is verified."
+        },
+        "sources": [
+          {
+            "url": "https://jazz.org/concert/emmet-cohen-and-friends/",
+            "publisher": "Jazz at Lincoln Center",
+            "checked_on": "2026-08-26",
+            "note": "Official event page confirms February 26-27, 2027 in The Appel Room, four performances, the Live from Emmet's Place concept, Cohen's trio, legendary musicians and surprise guests, and active Buy Now controls."
+          },
+          {
+            "url": "https://ticketing.jazz.org/20716",
+            "publisher": "Jazz at Lincoln Center Ticketing",
+            "checked_on": "2026-08-26",
+            "note": "Authorized JALC ticketing page confirms Friday sets at 7:00 PM and 9:00 PM and Saturday sets at 4:30 PM and 7:00 PM, with tickets currently offered."
+          },
+          {
+            "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+            "publisher": "Jazz at Lincoln Center Press Center",
+            "checked_on": "2026-08-26",
+            "note": "Official season announcement independently confirms the February 26-27 Appel Room engagement and its translation of Live from Emmet's Place into a stage performance with Cohen's trio and intergenerational guests."
+          },
+          {
+            "url": "https://music.apple.com/us/album/universal-truth/1884692966",
+            "publisher": "Apple Music",
+            "checked_on": "2026-08-26",
+            "note": "Exact Apple Music album page for Emmet Cohen's 2026 album Universal Truth."
+          }
+        ],
+        "provenance": {
+          "status": "verified-primary-sources",
+          "note": "Dates, all four set times, venue, concept and authorized purchase route were verified against Jazz at Lincoln Center's official event, ticketing and season-announcement pages. Repository searches for Emmet Cohen and the proposed stable event ID found no existing canonical or inbox match before publication. No trio member beyond Cohen, guest artist or repertoire was inferred."
+        },
+        "editorial": {
+          "en": {
+            "why_it_matters": "Live from Emmet's Place became compelling because Cohen used the piano less as a showcase than as a meeting point between generations: stride, bebop, blues and modern rhythm could all enter the same room depending on who walked in. Moving that idea into The Appel Room keeps the useful uncertainty intact—an expert trio, veteran guests and younger voices responding in real time rather than a fixed repertory package.",
+            "trip_verdict": "Actively make room for one of the four Appel Room sets if a New York trip overlaps, especially if the guest list develops into an intergenerational lineup with real musical chemistry. Four performances across two days provide enough flexibility that it works as a strong trip anchor without displacing a rarer one-off by default.",
+            "listen_before": "Emmet Cohen — Universal Truth"
+          },
+          "es": {
+            "why_it_matters": "Live from Emmet's Place se volvió interesante porque Cohen usa el piano menos como escaparate que como punto de encuentro entre generaciones: stride, bebop, blues y ritmo contemporáneo pueden convivir según quién entre al cuarto. Llevar esa idea a The Appel Room conserva la incertidumbre buena —un trío sólido, músicos veteranos y voces más jóvenes reaccionando en tiempo real— en lugar de convertirla en un paquete fijo de repertorio.",
+            "trip_verdict": "Sí le haría espacio activamente a uno de los cuatro sets en The Appel Room si coincide con un viaje a Nueva York, sobre todo si la lista de invitados termina armando una conversación intergeneracional con química real. Cuatro funciones en dos días dan suficiente margen para que sea una ancla fuerte del viaje sin desplazar por defecto un one-off más raro.",
+            "listen_before": "Emmet Cohen — Universal Truth"
+          }
+        }
+      },
+      "decision": {
+        "path": "radar/inbox/curated/emmet-cohen-friends-jalc-2026-08-26-catchup.json",
+        "batch_sha256": "d8ae8119d8edf118249d728f18afd88efd8150c62a74eeaeb21f66056e35dc2c",
+        "batch_id": "emmet-cohen-friends-jalc-2026-08-26-catchup",
+        "event_index": 0,
+        "candidate_event_id": "emmet-cohen-friends-jalc-new-york-2027-02-26",
+        "candidate_sha256": "9ee9cb542f5ed2e9f98fc12620ad292ec5c4a8026122bc5e2615d9dc75085883",
+        "errors": [
+          "emmet-cohen-friends-jalc-new-york-2027-02-26 claims complete enrichment but required links or Apple Music are missing"
+        ],
+        "action": "review_validation",
+        "proposed_diff": [],
+        "evidence": [
+          {
+            "kind": "validator_error",
+            "message": "emmet-cohen-friends-jalc-new-york-2027-02-26 claims complete enrichment but required links or Apple Music are missing"
+          },
+          {
+            "kind": "present_components",
+            "official_event": true,
+            "official_tickets": true,
+            "apple_music": true
+          },
+          {
+            "kind": "enrichment_input",
+            "status": "complete",
+            "missing": [],
+            "note": "Exact Jazz at Lincoln Center event and ticketing pages verify February 26-27, 2027, all four set times, The Appel Room, the Live from Emmet's Place framing, Cohen's trio and the presence of legendary/surprise guests. JALC does not yet specify the trio personnel or guests, and none were inferred. The exact Apple Music album page for Universal Truth is verified."
+          }
+        ],
+        "reason": "The remaining validation error requires factual or editorial judgment and cannot be repaired structurally.",
+        "can_remain_active": false,
+        "materialization": "apply"
+      }
+    }
+  ],
+  "result": {
+    "active_path": null,
+    "active_events": []
+  }
+}

@@ -67,12 +67,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "individual_set_times",
-          "primary_fall_lineup_page",
-          "complete_personnel_for_billed_ensembles",
           "apple_music"
         ],
-        "note": "Date, venue, noon-to-9 PM festival window, free public access, fifth-year framing, musical mission and youth-showcase structure are verified from Home Rule's primary pages and organizer Eventbrite listing. The current fall lineup is verified from PoPville's live event listing but has not yet appeared as text on a primary organizer page, so it should be rechecked when Home Rule publishes its fall artist page or set schedule. No individual artist set times, unannounced personnel or Apple Music IDs are inferred."
+        "note": "Date, venue, noon-to-9 PM festival window, free public access, fifth-year framing, musical mission and youth-showcase structure are verified from Home Rule's primary pages and organizer Eventbrite listing. The current fall lineup is verified from PoPville's live event listing but has not yet appeared as text on a primary organizer page, so it should be rechecked when Home Rule publishes its fall artist page or set schedule. No individual artist set times, unannounced personnel or Apple Music IDs are inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: individual_set_times, primary_fall_lineup_page, complete_personnel_for_billed_ensembles. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

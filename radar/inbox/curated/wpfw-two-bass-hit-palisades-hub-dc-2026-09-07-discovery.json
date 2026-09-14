@@ -68,10 +68,9 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "exact_apple_music_destination",
-          "complete_cornerstore_personnel"
+          "apple_music"
         ],
-        "note": "The primary WPFW event page verifies the exact date, time, venue, billing, Ray Brown framing, ticket prices and authorized Eventbrite destination. It does not identify every CornerStore member, and no exact Apple Music preparation link was verified in this pass, so those components remain pending rather than inferred."
+        "note": "The primary WPFW event page verifies the exact date, time, venue, billing, Ray Brown framing, ticket prices and authorized Eventbrite destination. It does not identify every CornerStore member, and no exact Apple Music preparation link was verified in this pass, so those components remain pending rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_apple_music_destination, complete_cornerstore_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

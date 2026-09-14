@@ -67,10 +67,9 @@
         "status": "pending",
         "missing": [
           "official_event",
-          "exact_event_personnel",
           "apple_music"
         ],
-        "note": "The exact authorized Ticketmaster page verifies billing, date, showtime, venue and city. Dweezil Zappa's official site verifies the 35-show Like Father Like Son tour and its twentieth-anniversary purpose. Birchmere's site verifies the venue identity and Alexandria address, but an exact stable Birchmere event page for November 1 was not exposed in the current indexed results. Supporting personnel, a face-value price from a primary event source, and an exact Apple Music destination are intentionally left pending rather than inferred."
+        "note": "The exact authorized Ticketmaster page verifies billing, date, showtime, venue and city. Dweezil Zappa's official site verifies the 35-show Like Father Like Son tour and its twentieth-anniversary purpose. Birchmere's site verifies the venue identity and Alexandria address, but an exact stable Birchmere event page for November 1 was not exposed in the current indexed results. Supporting personnel, a face-value price from a primary event source, and an exact Apple Music destination are intentionally left pending rather than inferred. Structural normalization on 2026-09-11: missing recalculated from the links and Apple Music URLs already present; non-standard missing labels preserved here: exact_event_personnel. No URL, price, time, lineup, listening recommendation, editorial copy, priority, attendance, geography, or ID was added, removed, or inferred."
       },
       "sources": [
         {

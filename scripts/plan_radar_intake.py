@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import subprocess
 from copy import deepcopy
 from pathlib import Path
@@ -46,7 +47,9 @@ def exact_official_event_page(url: str | None) -> bool:
         return False
     parts = [part.casefold() for part in urlsplit(url).path.split("/") if part]
     generic = {"calendar", "schedule", "upcoming", "coming-soon", "events", "artists", "listing"}
-    return bool(parts) and parts[-1] not in generic
+    # A year suffix does not turn a festival lineup into a performance page.
+    generic_listing = bool(parts) and re.fullmatch(r"(?:lineup|schedule|calendar)(?:[-_]\d{4})?", parts[-1])
+    return bool(parts) and parts[-1] not in generic and not generic_listing
 
 
 def exact_ticket_page(url: str | None) -> bool:
@@ -157,6 +160,15 @@ def decide(candidate: dict, canonical: list[dict], registry: dict) -> dict:
     for existing in canonical:
         shared_event = link_url(candidate, "official_event")
         if shared_event and exact_official_event_page(shared_event) and shared_event == link_url(existing, "official_event"):
+            if candidate.get("dates") != existing.get("dates") or (
+                candidate.get("showtimes") and existing.get("showtimes")
+                and set(candidate["showtimes"]).isdisjoint(existing["showtimes"])
+            ):
+                return {
+                    "action": "review", "approval": "requires_review", "canonical_event_id": existing["id"],
+                    "evidence": [{"kind": "shared_event_page_distinct_functions", "url": shared_event}],
+                    "diff": event_diff(candidate, existing), "normalization": venue_changes,
+                }
             return {
                 "action": "archive_duplicate", "approval": "permitted", "canonical_event_id": existing["id"],
                 "evidence": [{"kind": "same_official_event_url", "url": shared_event}], "diff": event_diff(candidate, existing), "normalization": venue_changes,
@@ -203,6 +215,7 @@ def plan(active_dir: Path, wip_ref: str | None) -> dict:
         "schema_version": 1,
         "policy": "Read-only pre-ingest plan. permitted actions are deterministic strong duplicate matches; all other actions require documented official evidence before materialization.",
         "canonical": {"path": "radar/events.json", "sha256": sha256(CANONICAL.read_bytes())},
+        "venue_registry": {"path": "radar/venue_identities.json", "sha256": sha256((ROOT / "radar/venue_identities.json").read_bytes())},
         "wip_ref": wip_ref,
         "decisions": decisions,
         "summary": counts,
