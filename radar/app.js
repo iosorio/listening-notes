@@ -2,6 +2,7 @@ const COPY = {
   en: {
     allAreas: 'All areas', allVenues: 'All venues', allPriorities: 'All priorities',
     areaGroup: 'Scenes and areas', venueGroup: 'Venues', priorityGroup: 'Priorities',
+    noMatches: '0 events with the current filters',
     areas: { dmv: 'DMV / local scene', baltimore: 'Baltimore', philadelphia: 'Philadelphia', newark: 'Newark', new_york: 'New York', tokyo: 'Tokyo', kanagawa: 'Kanagawa / Kantō', saitama: 'Saitama / Kantō', new_jersey: 'New Jersey', unassigned: 'Area to review' },
     viewUpcoming: 'Upcoming', viewArchive: 'Archive', upcoming: 'On the radar', archive: 'RADAR archive',
     shown: 'shown', upcomingCount: 'upcoming', archiveCount: 'archived', signal: 'The Signal', whyNow: 'Why now',
@@ -16,8 +17,9 @@ const COPY = {
     categories: { 'Living masters': 'Living masters', 'Modern jazz': 'Modern jazz', 'Brazil / Latin': 'Brazil / Latin', 'Fusion / progressive': 'Fusion / progressive', 'Experimental / rock / metal': 'Experimental / rock / metal', Japan: 'Japan' }
   },
   es: {
-    allAreas: 'Todas las escenas', allVenues: 'Todos los recintos', allPriorities: 'Todas las prioridades',
+    allAreas: 'Todas las áreas', allVenues: 'Todos los recintos', allPriorities: 'Todas las prioridades',
     areaGroup: 'Escenas y zonas', venueGroup: 'Recintos', priorityGroup: 'Prioridades',
+    noMatches: '0 eventos con los filtros actuales',
     areas: { dmv: 'DMV / escena local', baltimore: 'Baltimore', philadelphia: 'Filadelfia', newark: 'Newark', new_york: 'Nueva York', tokyo: 'Tokio', kanagawa: 'Kanagawa / Kantō', saitama: 'Saitama / Kantō', new_jersey: 'Nueva Jersey', unassigned: 'Zona por revisar' },
     viewUpcoming: 'Próximos', viewArchive: 'Archivo', upcoming: 'En el radar', archive: 'Archivo RADAR',
     shown: 'mostrados', upcomingCount: 'próximos', archiveCount: 'archivados', signal: 'La señal', whyNow: 'Por qué ahora',
@@ -42,7 +44,6 @@ const AREA_ORDER = ['dmv', 'baltimore', 'philadelphia', 'newark', 'new_york', 't
 
 const formatDate = value => new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', { month: 'short', day: 'numeric' }).format(new Date(`${value}T12:00:00`));
 const range = event => event.dates.end && event.dates.end !== event.dates.start ? `${formatDate(event.dates.start)}–${formatDate(event.dates.end)}` : formatDate(event.dates.start);
-const unique = (events, value) => [...new Set(events.map(value).filter(Boolean))].sort();
 const editorial = event => event.editorial[lang] || {};
 const finalDate = event => event.dates.end || event.dates.start;
 const localDate = () => {
@@ -65,8 +66,43 @@ const availableAreas = (events, registry) => {
 
 function matchesState(event, viewState, registry) {
   return (!viewState.radar_area || radarAreaFor(event, registry) === viewState.radar_area) &&
-    (!viewState.venue || event.venue.name === viewState.venue) &&
+    (!viewState.venue || event.venue.id === viewState.venue) &&
     (!viewState.priority || event.priority === viewState.priority);
+}
+
+function selectFacet(viewState, key, value, registry) {
+  const next = { ...viewState, [key]: value };
+  if (key === 'radar_area' && (value === '' || value !== viewState.radar_area)) next.venue = '';
+  if (key === 'venue' && value) {
+    const area = registry?.venues?.[value]?.radar_area;
+    next.radar_area = AREA_ORDER.includes(area) ? area : 'unassigned';
+  }
+  return next;
+}
+
+function facetCounts(viewEvents, viewState, registry, options) {
+  const count = (key, value) => {
+    const candidate = key === 'venue'
+      ? { ...viewState, venue: value }
+      : selectFacet(viewState, key, value, registry);
+    return viewEvents.filter(event => matchesState(event, candidate, registry)).length;
+  };
+  return {
+    radar_area: new Map(options.radar_area.map(value => [value, count('radar_area', value)])),
+    venue: new Map(options.venue.map(value => [value, count('venue', value)])),
+    priority: new Map(options.priority.map(value => [value, count('priority', value)]))
+  };
+}
+
+function validFacetState(viewEvents, viewState, registry) {
+  const next = { ...viewState };
+  const possible = () => viewEvents.some(event => matchesState(event, next, registry));
+  if (possible() || !hasActiveFilters(next)) return next;
+  for (const key of ['venue', 'radar_area', 'priority']) {
+    next[key] = '';
+    if (possible()) break;
+  }
+  return next;
 }
 
 function deriveRadarView(events, viewState, currentSignalEvent, today, registry) {
@@ -99,11 +135,7 @@ function resolveSignalState(payload, events) {
   return { valid: true, current: { record: currentRecords[0], event: currentEvent }, recent };
 }
 
-function eventsInView() {
-  return window.eventsData.filter(event => state.view === 'archive' ? isArchive(event) : !isArchive(event));
-}
-
-function filterButton(text, key, value) {
+function filterButton(label, key, value, count) {
   const element = document.createElement('button');
   const active = state[key] === value;
   element.className = `filter ${active ? 'active' : ''}`;
@@ -111,17 +143,26 @@ function filterButton(text, key, value) {
   element.setAttribute('aria-pressed', String(active));
   element.dataset.key = key;
   element.dataset.value = value;
-  element.textContent = text;
-  element.onclick = () => { state[key] = value; updateFilterButtons(); render(); };
+  element.textContent = label;
+  if (value && count === 0) {
+    element.disabled = true;
+    element.classList.add('unavailable');
+    const zero = document.createElement('span');
+    zero.className = 'filter-zero';
+    zero.setAttribute('aria-hidden', 'true');
+    zero.textContent = '0';
+    element.append(zero);
+    element.setAttribute('aria-label', `${label} · ${t.noMatches}`);
+  }
+  element.onclick = () => {
+    Object.assign(state, selectFacet(state, key, value, window.venueRegistry));
+    render();
+    const replacement = [...document.querySelectorAll('#filters button')].find(button =>
+      button.dataset.key === key && button.dataset.value === value
+    );
+    replacement?.focus({ preventScroll: true });
+  };
   return element;
-}
-
-function updateFilterButtons() {
-  document.querySelectorAll('#filters button').forEach(element => {
-    const active = state[element.dataset.key] === element.dataset.value;
-    element.classList.toggle('active', active);
-    element.setAttribute('aria-pressed', String(active));
-  });
 }
 
 function filterGroup(label, buttons) {
@@ -150,7 +191,7 @@ function viewButton(text, value) {
     if (value === 'archive') url.searchParams.set('view', 'archive');
     else url.searchParams.delete('view');
     window.history.replaceState({}, '', url);
-    updateViewButtons(); buildFilters(); render();
+    updateViewButtons(); render();
     element.focus();
   };
   return element;
@@ -171,16 +212,22 @@ function buildViews() {
   );
 }
 
-function buildFilters() {
+function buildFilters(viewEvents) {
   const root = document.querySelector('#filters');
-  const events = eventsInView();
+  const venueNames = new Map(viewEvents.map(event => [event.venue.id, event.venue.name]));
+  const options = {
+    radar_area: availableAreas(viewEvents, window.venueRegistry),
+    venue: [...venueNames.keys()].sort((left, right) => venueNames.get(left).localeCompare(venueNames.get(right)) || left.localeCompare(right)),
+    priority: ['S+', 'S', 'A+', 'A']
+  };
+  const counts = facetCounts(viewEvents, state, window.venueRegistry, options);
   root.replaceChildren(
     filterGroup(t.areaGroup, [filterButton(t.allAreas, 'radar_area', ''),
-      ...availableAreas(events, window.venueRegistry).map(value => filterButton(t.areas[value] || value, 'radar_area', value))]),
+      ...options.radar_area.map(value => filterButton(t.areas[value] || value, 'radar_area', value, counts.radar_area.get(value)))]),
     filterGroup(t.venueGroup, [filterButton(t.allVenues, 'venue', ''),
-      ...unique(events, event => event.venue.name).map(value => filterButton(value, 'venue', value))]),
+      ...options.venue.map(value => filterButton(venueNames.get(value), 'venue', value, counts.venue.get(value)))]),
     filterGroup(t.priorityGroup, [filterButton(t.allPriorities, 'priority', ''),
-      ...['S+', 'S', 'A+', 'A'].map(value => filterButton(value, 'priority', value))])
+      ...options.priority.map(value => filterButton(value, 'priority', value, counts.priority.get(value)))])
   );
 }
 
@@ -263,6 +310,7 @@ function eventCard(event) {
   const article = document.createElement('article');
   const feature = event.priority === 'S+' ? ' event--splus' : event.priority === 'S' ? ' event--s' : event.priority === 'A+' ? ' event--aplus' : '';
   article.className = `event${feature}${isArchive(event) ? ' event--archive' : ''}`;
+  article.dataset.eventId = event.id;
   article.dataset.priority = event.priority || 'archive';
   const title = document.createElement('h3'); title.textContent = event.artist;
   const subtitle = document.createElement('p'); subtitle.className = 'subtitle'; subtitle.textContent = event.subtitle || '';
@@ -335,7 +383,11 @@ function renderCount(model) {
 
 function render() {
   const current = window.signalState.current;
-  const model = deriveRadarView(window.eventsData, state, current?.event || null, localDate(), window.venueRegistry);
+  const today = localDate();
+  const initial = deriveRadarView(window.eventsData, state, current?.event || null, today, window.venueRegistry);
+  Object.assign(state, validFacetState(initial.viewEvents, state, window.venueRegistry));
+  const model = deriveRadarView(window.eventsData, state, current?.event || null, today, window.venueRegistry);
+  buildFilters(model.viewEvents);
   const showEditorialSignal = window.signalState.valid && model.signalVisible;
   renderCount(model);
   renderSignal(showEditorialSignal ? current : null);
@@ -361,7 +413,7 @@ function loadRadar() {
       window.eventsData = eventPayload.events;
       window.venueRegistry = venuePayload;
       window.signalState = resolveSignalState(signalPayload, window.eventsData);
-      buildViews(); buildFilters();
+      buildViews();
       document.querySelector('#rule-title').textContent = t.rule;
       document.querySelector('#rule-text').textContent = t.ruleText;
       render();
@@ -370,7 +422,7 @@ function loadRadar() {
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { AREA_ORDER, COPY, availableAreas, deriveRadarView, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState };
+  module.exports = { AREA_ORDER, COPY, availableAreas, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState };
 }
 
 if (hasDocument) loadRadar();

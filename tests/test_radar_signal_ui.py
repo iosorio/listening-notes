@@ -79,8 +79,8 @@ const failedModel = logic.deriveRadarView(events, base, failed.current, today, v
 console.log(JSON.stringify({
   resolved: {valid: resolved.valid, recentCount: resolved.recent.length, current: resolved.current && resolved.current.event.id},
   unfiltered: report(base),
-  bluesAlley: report({...base, venue: 'Blues Alley'}),
-  wharf: report({...base, venue: 'The Wharf'}),
+  bluesAlley: report({...base, venue: 'blues-alley-washington-dc'}),
+  wharf: report({...base, venue: 'the-wharf-washington-dc'}),
   area: report({...base, radar_area: 'dmv'}),
   priority: report({...base, priority: 'S'}),
   archive: report({...base, view: 'archive'}),

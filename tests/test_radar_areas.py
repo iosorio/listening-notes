@@ -125,7 +125,7 @@ const futureModel = check({...base,radar_area:'unassigned'}, [future]);
 const areaModel = check({...base,radar_area:'kanagawa'});
 const signalArea = signal && logic.radarAreaFor(signal, registry);
 const filteredSignal = signal && logic.deriveRadarView(events, {...base,radar_area:signalArea}, signal, '2026-08-25', registry);
-const combined = check({...base,radar_area:'dmv',venue:'Blues Alley',priority:'A'});
+const combined = check({...base,radar_area:'dmv',venue:'blues-alley-washington-dc',priority:'A'});
 console.log(JSON.stringify({partitions, labels:{en:logic.COPY.en.areas,es:logic.COPY.es.areas}, futureArea:logic.radarAreaFor(future,registry), futureIds:futureModel.selected.map(event=>event.id), futureOptions:logic.availableAreas([future],registry), kanagawaIds:areaModel.selected.map(event=>event.id), combined:combined.selected.map(event=>({id:event.id, venue:event.venue.name, priority:event.priority})), filteredSignalVisible:filteredSignal?.signalVisible, filteredSignalCount:filteredSignal?.results.filter(event=>event.id===signal.id).length, signalId:signal?.id}));
 """
         result = subprocess.run([NODE, "-e", script], cwd=ROOT, capture_output=True, text=True, check=True)
