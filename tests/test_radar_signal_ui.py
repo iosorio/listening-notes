@@ -57,28 +57,31 @@ class RadarSignalBehaviorTest(unittest.TestCase):
 const fs = require('fs');
 const logic = require('./radar/app.js');
 const events = JSON.parse(fs.readFileSync('./radar/events.json', 'utf8')).events;
+const venues = JSON.parse(fs.readFileSync('./radar/venue_identities.json', 'utf8'));
 const signals = JSON.parse(fs.readFileSync('./radar/signals.json', 'utf8'));
 const resolved = logic.resolveSignalState(signals, events);
 const today = '2026-08-25';
-const base = {city: '', venue: '', priority: '', view: 'upcoming'};
+const base = {radar_area: '', venue: '', priority: '', view: 'upcoming'};
 const report = state => {
-  const model = logic.deriveRadarView(events, state, resolved.current && resolved.current.event, today);
+  const model = logic.deriveRadarView(events, state, resolved.current && resolved.current.event, today, venues);
   return {
     signalVisible: model.signalVisible,
     count: model.results.length,
+    selectedCount: model.selected.length,
+    viewCount: model.viewEvents.length,
     ids: model.results.map(event => event.id),
     artists: model.results.map(event => event.artist),
     events: model.results.map(({id, artist, subtitle, dates, venue}) => ({id, artist, subtitle, dates, venue})),
   };
 };
 const failed = logic.resolveSignalState(null, events);
-const failedModel = logic.deriveRadarView(events, base, failed.current, today);
+const failedModel = logic.deriveRadarView(events, base, failed.current, today, venues);
 console.log(JSON.stringify({
   resolved: {valid: resolved.valid, recentCount: resolved.recent.length, current: resolved.current && resolved.current.event.id},
   unfiltered: report(base),
   bluesAlley: report({...base, venue: 'Blues Alley'}),
   wharf: report({...base, venue: 'The Wharf'}),
-  city: report({...base, city: 'Washington, DC'}),
+  area: report({...base, radar_area: 'dmv'}),
   priority: report({...base, priority: 'S'}),
   archive: report({...base, view: 'archive'}),
   failed: {signalVisible: failedModel.signalVisible, ids: failedModel.results.map(event => event.id)}
@@ -141,7 +144,7 @@ console.log(JSON.stringify({
 
     def test_every_filter_and_archive_hide_signal(self):
         report = self.model_report()
-        for key in ("city", "priority", "archive"):
+        for key in ("area", "priority", "archive"):
             with self.subTest(state=key):
                 self.assertFalse(report[key]["signalVisible"])
 

@@ -16,6 +16,7 @@ try:
         require_base_ancestor,
         verify_published_at_head,
         verify_temporary_materialization,
+        verify_historical_protected_file,
     )
     from .verify_radar_duplicate_resolution import verify as verify_archives, verify_stage_or_later, require
 except ImportError:
@@ -27,6 +28,7 @@ except ImportError:
         require_base_ancestor,
         verify_published_at_head,
         verify_temporary_materialization,
+        verify_historical_protected_file,
     )
     from verify_radar_duplicate_resolution import verify as verify_archives, verify_stage_or_later, require
 
@@ -126,7 +128,9 @@ def verify(repairs, decisions, before_archive=False, verification_mode=PUBLISHED
         report["batches"].append({"path": label, "original_sha256": record["original_sha256"], "corrected_sha256": record["corrected_sha256"], "residual_ids": [e["id"] for e in residual["events"]]})
     require(changed == set(ALLOWED), "repair coverage must be exactly four candidates")
     for label, expected in repairs["protected_files"].items():
-        if label in HISTORICAL_VERIFIER_SHA256:
+        if label in {"radar/venue_identities.json", "scripts/venue_identity.py"}:
+            verify_historical_protected_file(ROOT, ancestry["base_commit"], label, expected)
+        elif label in HISTORICAL_VERIFIER_SHA256:
             require(expected == HISTORICAL_VERIFIER_SHA256[label], f"unexpected historical verifier identity: {label}")
         else:
             require(hashlib.sha256((ROOT / label).read_bytes()).hexdigest() == expected, f"protected file changed: {label}")

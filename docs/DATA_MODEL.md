@@ -60,11 +60,23 @@ object per event where practical, and is designed to stay readable in Git.
   may be `null` only for a normalized historical archive record whose original
   evidence does not support an editorial rating.
 - `geographic_domain` is `tokyo_kanto`, `us_corridor`, `north_america`, or
-  `rest_of_world`. `venue.id` is stable and prepares a future venue knowledge
-  layer without making one necessary now. A venue ID maps to exactly one
-  canonical name and location, and the same venue must never be reintroduced
-  under an alternate ID, display name, or city spelling. District of Columbia
-  venues use `Washington, DC`.
+  `rest_of_world`. `venue.id` is stable and resolves to one canonical identity
+  in `radar/venue_identities.json`: name, factual city/state/country, and
+  `radar_area`. The same venue must never be reintroduced under an alternate
+  ID, display name, or city spelling. District of Columbia venues use
+  `Washington, DC`.
+- `radar_area` is a controlled editorial browsing group on the canonical venue,
+  not an event field or a correction to `venue.city`. Its values are `dmv`,
+  `baltimore`, `philadelphia`, `newark`, `new_york`, `tokyo`, `kanagawa`,
+  `saitama`, `new_jersey`, and `unassigned`. The registry validator rejects a
+  missing or unknown value. A new venue can use `unassigned` while its scene is
+  reviewed; RADAR then exposes it under a visible “Area to review” / “Zona por
+  revisar” filter. A missing venue ID at runtime also goes there rather than
+  removing its events. Register the venue and choose an area before publication.
+  Every event at a venue inherits the same group through `venue.id`.
+- `radar_area` does not derive `geographic_domain`, `geography`, priority, or
+  bilingual `trip_verdict`. Columbia, MD belongs to the DMV browsing scene
+  while its existing `Regional` geography and travel judgment remain intact.
 - `factual_description` is source-backed; set it to `null` when not verified.
 - `editorial` has native English and Spanish copy. Do not put display-language
   lookup tables in application JavaScript.

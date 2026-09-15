@@ -18,6 +18,7 @@ try:
         require_base_ancestor,
         verify_published_at_head,
         verify_temporary_materialization,
+        verify_historical_protected_file,
     )
     from .remediate_radar_intake import (
         data_sha256,
@@ -35,6 +36,7 @@ except ImportError:
         require_base_ancestor,
         verify_published_at_head,
         verify_temporary_materialization,
+        verify_historical_protected_file,
     )
     from remediate_radar_intake import (
         data_sha256,
@@ -170,7 +172,9 @@ def verify(manifest, verification_mode=PUBLISHED):
         raise ValueError(f"unsupported verification mode: {verification_mode}")
     ancestry = require_base_ancestor(ROOT, manifest.get("base_commit"))
     for label, expected in manifest["protected_files"].items():
-        if label in HISTORICAL_PROTECTED_SHA256:
+        if label in {"radar/venue_identities.json", "scripts/venue_identity.py"}:
+            verify_historical_protected_file(ROOT, ancestry["base_commit"], label, expected)
+        elif label in HISTORICAL_PROTECTED_SHA256:
             require(expected == HISTORICAL_PROTECTED_SHA256[label], f"unexpected historical protected identity: {label}")
         else:
             require(digest(ROOT / label) == expected, f"protected file changed: {label}")

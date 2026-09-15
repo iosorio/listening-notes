@@ -57,6 +57,22 @@ def _sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def verify_historical_protected_file(root: Path, base_commit: str, label: str, expected_hash: str) -> None:
+    """Bind an old manifest to a protected version in its committed ancestry.
+
+    Venue contracts may gain reviewed fields after the manifest was recorded;
+    their current behavior is checked by canonical validation.
+    """
+    revisions = git(root, "rev-list", "HEAD", "--", label).stdout.splitlines()
+    for revision in revisions:
+        original = _git_bytes(root, "show", f"{revision}:{label}")
+        if _sha256(original) == expected_hash:
+            return
+        if revision == base_commit:
+            break
+    raise ValueError(f"historical protected file changed: {label}")
+
+
 def _changed_paths(root: Path) -> set[str]:
     tracked = git(root, "diff", "--name-only", "HEAD").stdout.splitlines()
     staged = git(root, "diff", "--cached", "--name-only", "HEAD").stdout.splitlines()

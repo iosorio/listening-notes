@@ -1,6 +1,8 @@
 const COPY = {
   en: {
-    allCities: 'All cities', allVenues: 'All venues', allPriorities: 'All priorities',
+    allAreas: 'All areas', allVenues: 'All venues', allPriorities: 'All priorities',
+    areaGroup: 'Scenes and areas', venueGroup: 'Venues', priorityGroup: 'Priorities',
+    areas: { dmv: 'DMV / local scene', baltimore: 'Baltimore', philadelphia: 'Philadelphia', newark: 'Newark', new_york: 'New York', tokyo: 'Tokyo', kanagawa: 'Kanagawa / Kantō', saitama: 'Saitama / Kantō', new_jersey: 'New Jersey', unassigned: 'Area to review' },
     viewUpcoming: 'Upcoming', viewArchive: 'Archive', upcoming: 'On the radar', archive: 'RADAR archive',
     shown: 'shown', upcomingCount: 'upcoming', archiveCount: 'archived', signal: 'The Signal', whyNow: 'Why now',
     recentSignals: 'Recent Signals', listen: 'Listen before', appleMusic: 'Listen on Apple Music',
@@ -14,7 +16,9 @@ const COPY = {
     categories: { 'Living masters': 'Living masters', 'Modern jazz': 'Modern jazz', 'Brazil / Latin': 'Brazil / Latin', 'Fusion / progressive': 'Fusion / progressive', 'Experimental / rock / metal': 'Experimental / rock / metal', Japan: 'Japan' }
   },
   es: {
-    allCities: 'Todas las ciudades', allVenues: 'Todos los recintos', allPriorities: 'Todas las prioridades',
+    allAreas: 'Todas las escenas', allVenues: 'Todos los recintos', allPriorities: 'Todas las prioridades',
+    areaGroup: 'Escenas y zonas', venueGroup: 'Recintos', priorityGroup: 'Prioridades',
+    areas: { dmv: 'DMV / escena local', baltimore: 'Baltimore', philadelphia: 'Filadelfia', newark: 'Newark', new_york: 'Nueva York', tokyo: 'Tokio', kanagawa: 'Kanagawa / Kantō', saitama: 'Saitama / Kantō', new_jersey: 'Nueva Jersey', unassigned: 'Zona por revisar' },
     viewUpcoming: 'Próximos', viewArchive: 'Archivo', upcoming: 'En el radar', archive: 'Archivo RADAR',
     shown: 'mostrados', upcomingCount: 'próximos', archiveCount: 'archivados', signal: 'La señal', whyNow: 'Por qué ahora',
     recentSignals: 'Señales recientes', listen: 'Para escuchar antes', appleMusic: 'Escuchar en Apple Music',
@@ -33,7 +37,8 @@ const hasDocument = typeof document !== 'undefined';
 const lang = hasDocument && document.documentElement.lang.startsWith('es') ? 'es' : 'en';
 const t = COPY[lang];
 const requestedView = typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('view') : null;
-const state = { city: '', venue: '', priority: '', view: requestedView === 'archive' ? 'archive' : 'upcoming' };
+const state = { radar_area: '', venue: '', priority: '', view: requestedView === 'archive' ? 'archive' : 'upcoming' };
+const AREA_ORDER = ['dmv', 'baltimore', 'philadelphia', 'newark', 'new_york', 'tokyo', 'kanagawa', 'saitama', 'new_jersey', 'unassigned'];
 
 const formatDate = value => new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', { month: 'short', day: 'numeric' }).format(new Date(`${value}T12:00:00`));
 const range = event => event.dates.end && event.dates.end !== event.dates.start ? `${formatDate(event.dates.start)}–${formatDate(event.dates.end)}` : formatDate(event.dates.start);
@@ -48,18 +53,26 @@ const localDate = () => {
 const isArchiveAt = (event, today) => event.status === 'attended' || event.status === 'passed' || finalDate(event) < today;
 const isArchive = event => isArchiveAt(event, localDate());
 const travel = event => t.travel[event.geography] || event.geography;
-const hasActiveFilters = viewState => Boolean(viewState.city || viewState.venue || viewState.priority);
+const hasActiveFilters = viewState => Boolean(viewState.radar_area || viewState.venue || viewState.priority);
+const radarAreaFor = (event, registry) => {
+  const area = registry?.venues?.[event.venue.id]?.radar_area;
+  return AREA_ORDER.includes(area) ? area : 'unassigned';
+};
+const availableAreas = (events, registry) => {
+  const areas = new Set(events.map(event => radarAreaFor(event, registry)));
+  return [...areas].sort((left, right) => AREA_ORDER.indexOf(left) - AREA_ORDER.indexOf(right));
+};
 
-function matchesState(event, viewState) {
-  return (!viewState.city || event.venue.city === viewState.city) &&
+function matchesState(event, viewState, registry) {
+  return (!viewState.radar_area || radarAreaFor(event, registry) === viewState.radar_area) &&
     (!viewState.venue || event.venue.name === viewState.venue) &&
     (!viewState.priority || event.priority === viewState.priority);
 }
 
-function deriveRadarView(events, viewState, currentSignalEvent, today) {
+function deriveRadarView(events, viewState, currentSignalEvent, today, registry) {
   const archiveView = viewState.view === 'archive';
   const viewEvents = events.filter(event => archiveView ? isArchiveAt(event, today) : !isArchiveAt(event, today));
-  const selected = viewEvents.filter(event => matchesState(event, viewState))
+  const selected = viewEvents.filter(event => matchesState(event, viewState, registry))
     .sort((left, right) => left.dates.start.localeCompare(right.dates.start));
   const signalVisible = !archiveView && !hasActiveFilters(viewState) && Boolean(
     currentSignalEvent && selected.some(event => event.id === currentSignalEvent.id)
@@ -96,9 +109,28 @@ function filterButton(text, key, value) {
   element.className = `filter ${active ? 'active' : ''}`;
   element.type = 'button';
   element.setAttribute('aria-pressed', String(active));
+  element.dataset.key = key;
+  element.dataset.value = value;
   element.textContent = text;
-  element.onclick = () => { state[key] = value; buildFilters(); render(); };
+  element.onclick = () => { state[key] = value; updateFilterButtons(); render(); };
   return element;
+}
+
+function updateFilterButtons() {
+  document.querySelectorAll('#filters button').forEach(element => {
+    const active = state[element.dataset.key] === element.dataset.value;
+    element.classList.toggle('active', active);
+    element.setAttribute('aria-pressed', String(active));
+  });
+}
+
+function filterGroup(label, buttons) {
+  const group = document.createElement('div');
+  group.className = 'filter-group';
+  group.setAttribute('role', 'group');
+  group.setAttribute('aria-label', label);
+  group.append(...buttons);
+  return group;
 }
 
 function viewButton(text, value) {
@@ -107,19 +139,29 @@ function viewButton(text, value) {
   element.className = `view ${active ? 'active' : ''}`;
   element.type = 'button';
   element.setAttribute('aria-pressed', String(active));
+  element.dataset.value = value;
   element.textContent = text;
   element.onclick = () => {
     state.view = value;
-    state.city = '';
+    state.radar_area = '';
     state.venue = '';
     state.priority = '';
     const url = new URL(window.location.href);
     if (value === 'archive') url.searchParams.set('view', 'archive');
     else url.searchParams.delete('view');
     window.history.replaceState({}, '', url);
-    buildViews(); buildFilters(); render();
+    updateViewButtons(); buildFilters(); render();
+    element.focus();
   };
   return element;
+}
+
+function updateViewButtons() {
+  document.querySelectorAll('#views button').forEach(element => {
+    const active = state.view === element.dataset.value;
+    element.classList.toggle('active', active);
+    element.setAttribute('aria-pressed', String(active));
+  });
 }
 
 function buildViews() {
@@ -133,12 +175,12 @@ function buildFilters() {
   const root = document.querySelector('#filters');
   const events = eventsInView();
   root.replaceChildren(
-    filterButton(t.allCities, 'city', ''),
-    ...unique(events, event => event.venue.city).map(value => filterButton(value, 'city', value)),
-    filterButton(t.allVenues, 'venue', ''),
-    ...unique(events, event => event.venue.name).map(value => filterButton(value, 'venue', value)),
-    filterButton(t.allPriorities, 'priority', ''),
-    ...['S+', 'S', 'A+', 'A'].map(value => filterButton(value, 'priority', value))
+    filterGroup(t.areaGroup, [filterButton(t.allAreas, 'radar_area', ''),
+      ...availableAreas(events, window.venueRegistry).map(value => filterButton(t.areas[value] || value, 'radar_area', value))]),
+    filterGroup(t.venueGroup, [filterButton(t.allVenues, 'venue', ''),
+      ...unique(events, event => event.venue.name).map(value => filterButton(value, 'venue', value))]),
+    filterGroup(t.priorityGroup, [filterButton(t.allPriorities, 'priority', ''),
+      ...['S+', 'S', 'A+', 'A'].map(value => filterButton(value, 'priority', value))])
   );
 }
 
@@ -293,7 +335,7 @@ function renderCount(model) {
 
 function render() {
   const current = window.signalState.current;
-  const model = deriveRadarView(window.eventsData, state, current?.event || null, localDate());
+  const model = deriveRadarView(window.eventsData, state, current?.event || null, localDate(), window.venueRegistry);
   const showEditorialSignal = window.signalState.valid && model.signalVisible;
   renderCount(model);
   renderSignal(showEditorialSignal ? current : null);
@@ -313,9 +355,11 @@ function fetchJson(url) {
 function loadRadar() {
   const eventUrl = lang === 'es' ? '../events.json' : 'events.json';
   const signalUrl = lang === 'es' ? '../signals.json' : 'signals.json';
-  Promise.all([fetchJson(eventUrl), fetchJson(signalUrl).catch(() => null)])
-    .then(([eventPayload, signalPayload]) => {
+  const venueUrl = lang === 'es' ? '../venue_identities.json' : 'venue_identities.json';
+  Promise.all([fetchJson(eventUrl), fetchJson(venueUrl), fetchJson(signalUrl).catch(() => null)])
+    .then(([eventPayload, venuePayload, signalPayload]) => {
       window.eventsData = eventPayload.events;
+      window.venueRegistry = venuePayload;
       window.signalState = resolveSignalState(signalPayload, window.eventsData);
       buildViews(); buildFilters();
       document.querySelector('#rule-title').textContent = t.rule;
@@ -326,7 +370,7 @@ function loadRadar() {
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { deriveRadarView, hasActiveFilters, isArchiveAt, resolveSignalState };
+  module.exports = { AREA_ORDER, COPY, availableAreas, deriveRadarView, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState };
 }
 
 if (hasDocument) loadRadar();
