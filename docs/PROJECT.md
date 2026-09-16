@@ -64,12 +64,13 @@ discovery order, and page filters. See `docs/SIGNALS.md` for its eligibility,
 history, stability, promotion, and display rules.
 
 RADAR filter availability uses only events in the active Upcoming or Archive
-view. Trying an area replaces the area and clears a selected venue; trying a
-venue uses its canonical `venue.id` to select its registry `radar_area`; trying
-a priority replaces only the priority. Incompatible venue and priority options
-stay visible with a disabled state and zero marker. Clear controls remain
-available. The Signal counts as an upcoming matching event even when its
-unfiltered editorial card stands apart from the result grid.
+view. Changing or clearing an area clears a selected venue; selecting the same
+area keeps it. Selecting a venue uses its canonical `venue.id` to select its
+registry `radar_area`; selecting a priority replaces only the priority.
+Incompatible area, venue, and priority options stay visible with a disabled
+state and zero marker. Clear controls remain available. The Signal counts as
+an upcoming matching event even when its unfiltered editorial card stands
+apart from the result grid.
 
 ## Current boundaries
 
