@@ -94,6 +94,9 @@ function facetCounts(viewEvents, viewState, registry, options) {
   };
 }
 
+const visibleFacetValues = (values, counts, selected) =>
+  values.filter(value => counts.get(value) > 0 || value === selected);
+
 function validFacetState(viewEvents, viewState, registry) {
   const next = { ...viewState };
   const possible = () => viewEvents.some(event => matchesState(event, next, registry));
@@ -225,9 +228,11 @@ function buildFilters(viewEvents) {
     filterGroup(t.areaGroup, [filterButton(t.allAreas, 'radar_area', ''),
       ...options.radar_area.map(value => filterButton(t.areas[value] || value, 'radar_area', value, counts.radar_area.get(value)))]),
     filterGroup(t.venueGroup, [filterButton(t.allVenues, 'venue', ''),
-      ...options.venue.map(value => filterButton(venueNames.get(value), 'venue', value, counts.venue.get(value)))]),
+      ...visibleFacetValues(options.venue, counts.venue, state.venue)
+        .map(value => filterButton(venueNames.get(value), 'venue', value, counts.venue.get(value)))]),
     filterGroup(t.priorityGroup, [filterButton(t.allPriorities, 'priority', ''),
-      ...options.priority.map(value => filterButton(value, 'priority', value, counts.priority.get(value)))])
+      ...visibleFacetValues(options.priority, counts.priority, state.priority)
+        .map(value => filterButton(value, 'priority', value, counts.priority.get(value)))])
   );
 }
 
@@ -422,7 +427,7 @@ function loadRadar() {
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { AREA_ORDER, COPY, availableAreas, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState };
+  module.exports = { AREA_ORDER, COPY, availableAreas, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState, visibleFacetValues };
 }
 
 if (hasDocument) loadRadar();

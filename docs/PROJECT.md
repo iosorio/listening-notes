@@ -67,10 +67,12 @@ RADAR filter availability uses only events in the active Upcoming or Archive
 view. Changing or clearing an area clears a selected venue; selecting the same
 area keeps it. Selecting a venue uses its canonical `venue.id` to select its
 registry `radar_area`; selecting a priority replaces only the priority.
-Incompatible area, venue, and priority options stay visible with a disabled
-state and zero marker. Clear controls remain available. The Signal counts as
-an upcoming matching event even when its unfiltered editorial card stands
-apart from the result grid.
+Scenes in the active view stay visible in editorial order, including those
+temporarily unavailable under the other facets; they show a disabled state and
+zero marker. Venue and priority values with zero matches under the other facets
+are omitted from the controls, except for a current selection. The “All”
+controls always remain visible. The Signal counts as an upcoming matching event
+even when its unfiltered editorial card stands apart from the result grid.
 
 ## Current boundaries
 
