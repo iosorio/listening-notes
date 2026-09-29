@@ -10,6 +10,7 @@ on:
       - 'scripts/enrichment_common.py'
       - 'scripts/merge_enrichment_patches.py'
       - 'scripts/validate_events.py'
+      - 'scripts/validate_radar_discovery.py'
       - 'scripts/venue_identity.py'
       - 'scripts/radar_verification.py'
       - 'scripts/remediate_radar_intake.py'
@@ -75,6 +76,9 @@ jobs:
 
       - name: Validate canonical Signal history
         run: python scripts/validate_signals.py radar/signals.json radar/events.json
+
+      - name: Validate RADAR operational state
+        run: python scripts/validate_radar_discovery.py
 
       - name: Verify temporary RADAR materialization
         run: |

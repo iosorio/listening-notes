@@ -237,6 +237,42 @@ class MergeInboxTest(unittest.TestCase):
             self.assertEqual(report["added"], ["second-artist-2099"])
             self.assertEqual(report["semantic_conflicts"], [])
 
+    def test_version_two_candidate_requires_discovery_timestamp(self):
+        with TemporaryDirectory() as directory:
+            curated = Path(directory) / "curated"
+            curated.mkdir()
+            batch_path = curated / "new-intake.json"
+            batch = self._batch(self._event("new-event-2099"))
+            batch.update({"batch_version": 2, "published_at": "2026-09-29T13:00:00-04:00"})
+            batch_path.write_text(json.dumps(batch))
+            with self.assertRaisesRegex(ValueError, "discovered_at"):
+                validate_batch(batch, batch_path, curated)
+
+    def test_new_version_one_path_is_rejected_after_provenance_cutover(self):
+        batch = self._batch(self._event("new-event-2099"))
+        path = ROOT / "radar/inbox/curated/new-untracked-v1.json"
+        with self.assertRaisesRegex(ValueError, "batch_version 2"):
+            validate_batch(batch, path)
+
+    def test_version_two_discovery_timestamp_survives_merge(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            canonical, curated, processed = self._paths(root)
+            canonical.write_text(json.dumps({"schema_version": 3, "events": []}))
+            event = self._event("new-event-2099")
+            event["discovered_at"] = "2026-09-29T12:00:00-04:00"
+            batch_payload = self._batch(event)
+            batch_payload.update({"batch_version": 2, "published_at": "2026-09-29T13:00:00-04:00"})
+            batch = curated / "new-event-2099-intake.json"
+            batch.write_text(json.dumps(batch_payload))
+
+            merge([batch], False, canonical, curated, processed, canonicalized_at="2026-09-29T17:05:00Z")
+
+            merged = json.loads(canonical.read_text())["events"][0]
+            self.assertEqual(merged["discovered_at"], "2026-09-29T12:00:00-04:00")
+            self.assertEqual(merged["published_at"], "2026-09-29T13:00:00-04:00")
+            self.assertEqual(merged["canonicalized_at"], "2026-09-29T17:05:00Z")
+
     @staticmethod
     def _paths(root):
         curated = root / "radar/inbox/curated"

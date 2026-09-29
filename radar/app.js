@@ -12,6 +12,15 @@ const COPY = {
     archiveText: 'Attended nights and finished dates retained in the RADAR record.',
     empty: 'Nothing in this selection. The filter is part of the curation.',
     loadError: 'Could not load event data.',
+    discovered: 'Discovered', discoveryUnknown: 'Discovery time unknown',
+    operations: {
+      on: 'ON', off: 'OFF', healthy: 'HEALTHY', stale: 'STALE', error: 'ERROR', unknown: 'UNKNOWN',
+      lastRun: 'Last run', lastSuccess: 'Last successful scan', noHeartbeat: 'No repository heartbeat has been recorded.',
+      latestResult: 'Latest result', nextExpected: 'Next expected scan', cadence: 'Expected cadence',
+      stats: ({sources, candidates, published, updates}) => `${sources} sources checked · ${candidates} candidates reviewed · ${published} new · ${updates} updates`,
+      cadenceValue: value => value === 'hourly' ? 'hourly' : value.replaceAll('_', ' '),
+      manage: 'Manage on GitHub', guide: 'Operations guide', unavailable: 'Operational data unavailable.'
+    },
     status: { considering: 'on the radar', going: 'going', attended: 'heard', passed: 'passed' },
     travel: { Local: 'Local', 'Short trip': 'Short trip', Trip: 'Worth the train', Tokyo: 'Build the night around it' },
     categories: { 'Living masters': 'Living masters', 'Modern jazz': 'Modern jazz', 'Brazil / Latin': 'Brazil / Latin', 'Fusion / progressive': 'Fusion / progressive', 'Experimental / rock / metal': 'Experimental / rock / metal', Japan: 'Japan' }
@@ -29,6 +38,15 @@ const COPY = {
     archiveText: 'Noches asistidas y fechas terminadas que se conservan en el registro de RADAR.',
     empty: 'Nada en esta selección. El filtro también es parte de la curaduría.',
     loadError: 'No fue posible cargar los eventos.',
+    discovered: 'Descubierto', discoveryUnknown: 'Hora de descubrimiento desconocida',
+    operations: {
+      on: 'ENCENDIDO', off: 'APAGADO', healthy: 'SALUDABLE', stale: 'ATRASADO', error: 'ERROR', unknown: 'DESCONOCIDO',
+      lastRun: 'Última ejecución', lastSuccess: 'Último escaneo exitoso', noHeartbeat: 'No hay un latido registrado en el repositorio.',
+      latestResult: 'Resultado más reciente', nextExpected: 'Próximo escaneo esperado', cadence: 'Frecuencia esperada',
+      stats: ({sources, candidates, published, updates}) => `${sources} fuentes revisadas · ${candidates} candidatos evaluados · ${published} nuevos · ${updates} actualizaciones`,
+      cadenceValue: value => value === 'hourly' ? 'cada hora' : value.replaceAll('_', ' '),
+      manage: 'Administrar en GitHub', guide: 'Guía de operación', unavailable: 'Datos operativos no disponibles.'
+    },
     status: { considering: 'en el radar', going: 'voy', attended: 'escuchamos', passed: 'pasó' },
     travel: { Local: 'Local', 'Short trip': 'Escapada corta', Trip: 'Vale el tren', Tokyo: 'Vale construir la noche alrededor' },
     categories: { 'Living masters': 'Maestros vivos', 'Modern jazz': 'Jazz contemporáneo', 'Brazil / Latin': 'Brasil / Latinoamérica', 'Fusion / progressive': 'Fusión / prog', 'Experimental / rock / metal': 'Experimental / rock / metal', Japan: 'Japón' }
@@ -43,6 +61,7 @@ const state = { radar_area: '', venue: '', priority: '', view: requestedView ===
 const AREA_ORDER = ['dmv', 'baltimore', 'philadelphia', 'newark', 'new_york', 'tokyo', 'kanagawa', 'saitama', 'new_jersey', 'unassigned'];
 
 const formatDate = value => new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', { month: 'short', day: 'numeric' }).format(new Date(`${value}T12:00:00`));
+const formatTimestamp = value => new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(value));
 const range = event => event.dates.end && event.dates.end !== event.dates.start ? `${formatDate(event.dates.start)}–${formatDate(event.dates.end)}` : formatDate(event.dates.start);
 const editorial = event => event.editorial[lang] || {};
 const finalDate = event => event.dates.end || event.dates.start;
@@ -136,6 +155,78 @@ function resolveSignalState(payload, events) {
     .slice(0, 2)
     .map(record => ({ record, event: eventIndex.get(record.event_id) }));
   return { valid: true, current: { record: currentRecords[0], event: currentEvent }, recent };
+}
+
+function deriveOperationalHealth(status, runPayload, now = new Date()) {
+  if (!status || status.schema_version !== 1 || typeof status.enabled !== 'boolean' ||
+      !runPayload || runPayload.schema_version !== 1 || !Array.isArray(runPayload.runs)) {
+    return { state: 'unknown', available: false, latestRun: null, lastSuccess: null, nextExpectedAt: null };
+  }
+  const runs = runPayload.runs;
+  const latestRun = runs.at(-1) || null;
+  const lastSuccess = [...runs].reverse().find(run => run.status === 'success') || null;
+  let state = 'unknown';
+  if (!status.enabled) state = 'off';
+  else if (latestRun?.status === 'error') state = 'error';
+  else if (lastSuccess) {
+    const threshold = Number(status.expected_max_silence_hours) * 3_600_000;
+    state = now.getTime() <= new Date(lastSuccess.completed_at).getTime() + threshold ? 'healthy' : 'stale';
+  }
+  let cadenceMs = null;
+  if (status.cadence === 'hourly') cadenceMs = 3_600_000;
+  else {
+    const match = /^every_(\d+)_hours$/.exec(status.cadence || '');
+    if (match) cadenceMs = Number(match[1]) * 3_600_000;
+  }
+  const nextExpectedAt = lastSuccess && cadenceMs
+    ? new Date(new Date(lastSuccess.completed_at).getTime() + cadenceMs).toISOString()
+    : null;
+  return { state, available: true, latestRun, lastSuccess, nextExpectedAt };
+}
+
+function renderOperationalStatus(status, runPayload) {
+  const root = document.querySelector('#radar-status');
+  root.replaceChildren();
+  root.hidden = false;
+  const model = deriveOperationalHealth(status, runPayload);
+  const desiredOn = status?.enabled === true;
+  const title = document.createElement('h2');
+  title.className = `radar-status-title radar-status--${model.state}`;
+  title.textContent = model.available
+    ? `RADAR ${desiredOn ? '●' : '○'} ${desiredOn ? t.operations.on : t.operations.off}${model.state !== 'off' ? ` — ${t.operations[model.state]}` : ''}`
+    : `RADAR — ${t.operations.unknown}`;
+  root.append(title);
+  if (!model.available) {
+    const unavailable = document.createElement('p'); unavailable.textContent = t.operations.unavailable; root.append(unavailable);
+  } else {
+    const facts = document.createElement('div'); facts.className = 'radar-status-facts';
+    const fact = (label, value) => {
+      const item = document.createElement('p');
+      const strong = document.createElement('strong'); strong.textContent = `${label}: `;
+      item.append(strong, document.createTextNode(value)); facts.append(item);
+    };
+    if (model.latestRun) fact(t.operations.lastRun, formatTimestamp(model.latestRun.completed_at));
+    if (model.lastSuccess) fact(t.operations.lastSuccess, formatTimestamp(model.lastSuccess.completed_at));
+    if (!model.latestRun) { const empty = document.createElement('p'); empty.textContent = t.operations.noHeartbeat; facts.append(empty); }
+    if (model.latestRun) {
+      fact(t.operations.latestResult, model.latestRun.status.toUpperCase());
+      const stats = document.createElement('p'); stats.textContent = t.operations.stats({
+        sources: model.latestRun.sources_checked,
+        candidates: model.latestRun.candidates_reviewed,
+        published: model.latestRun.events_published,
+        updates: model.latestRun.material_updates
+      }); facts.append(stats);
+    }
+    fact(t.operations.cadence, t.operations.cadenceValue(status.cadence));
+    if (model.nextExpectedAt) fact(t.operations.nextExpected, formatTimestamp(model.nextExpectedAt));
+    root.append(facts);
+  }
+  const actions = document.createElement('div'); actions.className = 'radar-status-actions';
+  actions.append(
+    link(t.operations.manage, 'https://github.com/iosorio/listening-notes/edit/main/radar/discovery/status.json'),
+    link(t.operations.guide, 'https://github.com/iosorio/listening-notes/blob/main/docs/RADAR_OPERATIONS.md')
+  );
+  root.append(actions);
 }
 
 function filterButton(label, key, value, count) {
@@ -322,7 +413,9 @@ function eventCard(event) {
   const venue = document.createElement('p'); venue.className = 'venue'; venue.textContent = `${event.venue.name} · ${event.venue.city}`;
   const travelLine = document.createElement('p'); travelLine.className = 'travel'; travelLine.textContent = travel(event);
   const why = document.createElement('p'); why.className = 'why'; why.textContent = editorial(event).why_it_matters || '';
-  article.append(meta(event), title, subtitle, venue, travelLine);
+  const discovery = document.createElement('p'); discovery.className = 'discovery';
+  discovery.textContent = event.discovered_at ? `${t.discovered}: ${formatTimestamp(event.discovered_at)}` : t.discoveryUnknown;
+  article.append(meta(event), title, subtitle, venue, travelLine, discovery);
   if (why.textContent) article.append(why);
   const listen = listening(event); if (listen) article.append(listen);
   if (!isArchive(event)) {
@@ -413,21 +506,24 @@ function loadRadar() {
   const eventUrl = lang === 'es' ? '../events.json' : 'events.json';
   const signalUrl = lang === 'es' ? '../signals.json' : 'signals.json';
   const venueUrl = lang === 'es' ? '../venue_identities.json' : 'venue_identities.json';
-  Promise.all([fetchJson(eventUrl), fetchJson(venueUrl), fetchJson(signalUrl).catch(() => null)])
-    .then(([eventPayload, venuePayload, signalPayload]) => {
+  const statusUrl = lang === 'es' ? '../discovery/status.json' : 'discovery/status.json';
+  const runsUrl = lang === 'es' ? '../discovery/runs.json' : 'discovery/runs.json';
+  Promise.all([fetchJson(eventUrl), fetchJson(venueUrl), fetchJson(signalUrl).catch(() => null), fetchJson(statusUrl).catch(() => null), fetchJson(runsUrl).catch(() => null)])
+    .then(([eventPayload, venuePayload, signalPayload, statusPayload, runPayload]) => {
       window.eventsData = eventPayload.events;
       window.venueRegistry = venuePayload;
       window.signalState = resolveSignalState(signalPayload, window.eventsData);
       buildViews();
       document.querySelector('#rule-title').textContent = t.rule;
       document.querySelector('#rule-text').textContent = t.ruleText;
+      renderOperationalStatus(statusPayload, runPayload);
       render();
     })
     .catch(() => { document.querySelector('#radar').innerHTML = `<p class="empty">${t.loadError}</p>`; });
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { AREA_ORDER, COPY, availableAreas, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState, visibleFacetValues };
+  module.exports = { AREA_ORDER, COPY, availableAreas, deriveOperationalHealth, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState, visibleFacetValues };
 }
 
 if (hasDocument) loadRadar();

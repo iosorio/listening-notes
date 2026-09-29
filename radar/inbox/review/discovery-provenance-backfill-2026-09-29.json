@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "kind": "radar_discovery_provenance_backfill",
+  "created_on": "2026-09-29",
+  "source_ref": "43a6d4d7b1689295b3fbde9dac2300847dabdfdc",
+  "source_path": "radar/events.json",
+  "source_sha256": "6848126fc1bcb084e83719e68e2e9de22ca1ee5590e13617e15955eb7b1fdda1",
+  "target_sha256": "7655acd89c593bcb045ae438180d17a1d3c8333ea0ab62adce02757d2891837c",
+  "classification": {
+    "exact_timestamp_recoverable": 2,
+    "date_recoverable": 0,
+    "unknown": 224
+  },
+  "changes": [
+    {
+      "event_id": "mastodon-deafheaven-alcest-anthem-washington-dc-2026-09-25",
+      "field": "discovered_at",
+      "before": null,
+      "after": "2026-08-20T11:42:34-04:00",
+      "evidence_commit": "f666225bd37efb145ea437ba81c317569ea5c348",
+      "evidence_commit_timestamp": "2026-08-20T11:42:34-04:00"
+    },
+    {
+      "event_id": "nicholas-payton-a-supreme-blue-blues-alley-2026-09-26",
+      "field": "discovered_at",
+      "before": null,
+      "after": "2026-08-17T19:33:31-04:00",
+      "evidence_commit": "e7f556400d4f25fb1a081b7d0d32eaeffab47880",
+      "evidence_commit_timestamp": "2026-08-17T19:33:31-04:00"
+    }
+  ]
+}

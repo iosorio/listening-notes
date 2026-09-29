@@ -11,7 +11,7 @@ import subprocess
 import sys
 import unicodedata
 from copy import deepcopy
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -28,6 +28,7 @@ PROCESSED = ROOT / "radar/inbox/processed"
 VALIDATOR = ROOT / "scripts/validate_events.py"
 EVIDENCE_TYPES = {"user_confirmed", "personal_photo", "ticket_purchase", "logistics_email", "calendar_or_planning", "third_party_ticket", "archival_reference", "post_event_reference", "unknown"}
 TOP_PRIORITIES = {"S": "protect_the_night", "S+": "alter_plans"}
+LEGACY_V1_REF = "43a6d4d7b1689295b3fbde9dac2300847dabdfdc"
 
 
 def fail(message: str) -> None:
@@ -42,6 +43,18 @@ def read_json(path: Path) -> dict:
     if not isinstance(value, dict):
         fail(f"{path}: root must be an object")
     return value
+
+
+def parse_timestamp(value: object, field: str) -> datetime:
+    if not isinstance(value, str) or "T" not in value:
+        fail(f"{field} must be an ISO-8601 timestamp with timezone")
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        fail(f"{field} must be an ISO-8601 timestamp with timezone")
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        fail(f"{field} must include a timezone")
+    return parsed
 
 
 def validate_priority_review(event: dict, path: Path) -> None:
@@ -64,10 +77,29 @@ def validate_priority_review(event: dict, path: Path) -> None:
 
 
 def validate_batch(batch: dict, path: Path, curated_dir: Path = CURATED) -> list[dict]:
-    if batch.get("batch_version") != 1 or batch.get("kind") != "curated_event_candidates":
+    version = batch.get("batch_version")
+    if version not in {1, 2} or batch.get("kind") != "curated_event_candidates":
         fail(f"{path}: unsupported batch envelope")
     if not isinstance(batch.get("batch_id"), str) or not isinstance(batch.get("events"), list):
         fail(f"{path}: batch_id and events are required")
+    is_active = path.parent.resolve() == curated_dir.resolve()
+    if version == 1 and is_active and curated_dir.resolve() == CURATED.resolve():
+        try:
+            relative = path.resolve().relative_to(ROOT)
+        except ValueError:
+            fail(f"{path}: version 1 is reserved for the pre-contract backlog")
+        legacy = subprocess.run(
+            ["git", "cat-file", "-e", f"{LEGACY_V1_REF}:{relative.as_posix()}"],
+            cwd=ROOT,
+            capture_output=True,
+        )
+        if legacy.returncode:
+            fail(f"{path}: new candidates require batch_version 2 discovery provenance")
+    published_at = None
+    if version == 2:
+        if is_active and not path.name.endswith("-intake.json"):
+            fail(f"{path}: version 2 creation batches must use the unambiguous -intake.json suffix")
+        published_at = parse_timestamp(batch.get("published_at"), f"{path}.published_at")
     ids: set[str] = set()
     for index, event in enumerate(batch["events"]):
         if not isinstance(event, dict) or not isinstance(event.get("id"), str):
@@ -79,9 +111,15 @@ def validate_batch(batch: dict, path: Path, curated_dir: Path = CURATED) -> list
             fail(f"{path}: {event['id']} requires artist and dates")
         # Priority review is a gate for new intake, not a retroactive
         # requirement for immutable processed handoff history.
-        if path.parent.resolve() == curated_dir.resolve():
+        if is_active:
             validate_priority_review(event, path)
-        if path.parent.resolve() == curated_dir.resolve() and event.get("status") in {"considering", "going"} and "enrichment" not in event:
+        if is_active and version == 2:
+            discovered_at = parse_timestamp(event.get("discovered_at"), f"{path}: {event['id']}.discovered_at")
+            if discovered_at > published_at:
+                fail(f"{path}: {event['id']}.discovered_at must not follow batch published_at")
+            if "published_at" in event or "canonicalized_at" in event:
+                fail(f"{path}: {event['id']} receives published_at and canonicalized_at from the intake system")
+        if is_active and event.get("status") in {"considering", "going"} and "enrichment" not in event:
             fail(f"{path}: {event['id']} is upcoming and requires an enrichment declaration")
         attendance = event.get("attendance", {})
         evidence = attendance.get("evidence", [])
@@ -127,7 +165,7 @@ def semantic_duplicate(candidate: dict, existing: dict) -> bool:
     )
 
 
-def normalize(candidate: dict) -> tuple[dict, list[str]]:
+def normalize(candidate: dict, published_at: str | None = None, canonicalized_at: str | None = None) -> tuple[dict, list[str]]:
     event = deepcopy(candidate)
     changes: list[str] = []
     priority_review = event.pop("priority_review", None)
@@ -160,6 +198,9 @@ def normalize(candidate: dict) -> tuple[dict, list[str]]:
     event.setdefault("provenance", {"status": "curated-inbox", "note": "Merged from a reviewed curated inbox batch."})
     if priority_review is not None:
         event["provenance"]["priority_review"] = priority_review
+    if published_at is not None:
+        event["published_at"] = published_at
+        event["canonicalized_at"] = canonicalized_at
     attendance = event.setdefault("attendance", {})
     attendance.setdefault("status", "attended" if event.get("status") == "attended" else None)
     attendance.setdefault("evidence", [])
@@ -202,6 +243,7 @@ def merge(
     canonical_path: Path = CANONICAL,
     curated_dir: Path = CURATED,
     processed_dir: Path = PROCESSED,
+    canonicalized_at: str | None = None,
 ) -> dict:
     canonical = read_json(canonical_path)
     if canonical.get("schema_version") != 3:
@@ -218,6 +260,7 @@ def merge(
     blocked_by_path: dict[Path, list[dict]] = {}
     seen = set(existing)
     candidates_to_compare = list(canonical["events"])
+    canonicalized_at = canonicalized_at or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     for path in paths:
         batch = read_json(path)
         payloads[path] = batch
@@ -233,7 +276,8 @@ def merge(
                 report["blocked"].append({"id": event_id, "batch": batch["batch_id"], "reason": reason})
                 blocked_by_path[path].append(candidate)
                 continue
-            normalized, changes = normalize(candidate)
+            published_at = batch.get("published_at") if batch.get("batch_version") == 2 else None
+            normalized, changes = normalize(candidate, published_at, canonicalized_at if published_at else None)
             duplicate = next((event for event in candidates_to_compare if semantic_duplicate(normalized, event)), None)
             if duplicate:
                 report["semantic_conflicts"].append({

@@ -24,6 +24,35 @@ This directory is a handoff layer between research/editorial agents and the cano
 8. S and S+ are scarcity tiers, not a synonym for a strong event. A curated
 candidate at either tier must carry a completed `priority_review`; the merge
 refuses it without one. This is a review gate, not a numerical quota.
+9. New creation batches use `batch_version: 2`, include a timezone-aware
+   `published_at`, and give every event its immutable timezone-aware
+   `discovered_at`. Enrichment never changes these fields. Version 1 remains
+   readable only for files present in the historical backlog at commit
+   `43a6d4d`; a newly introduced version 1 path is rejected.
+
+## Discovery and filename contract
+
+The data fields, never the filename, are authoritative. New creation batches
+use an unambiguous `*-intake.json` suffix. A minimal envelope is:
+
+```json
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "artist-venue-2026-09-29-intake",
+  "published_at": "2026-09-29T18:00:00-04:00",
+  "events": [
+    {
+      "id": "artist-venue-2026",
+      "discovered_at": "2026-09-29T17:32:00-04:00"
+    }
+  ]
+}
+```
+
+The merge copies `published_at` into each new event and records
+`canonicalized_at` once. Do not reuse `-discovery.json`; its historical meaning
+was ambiguous, and existing processed artifacts remain untouched.
 
 ## Priority-review gate
 

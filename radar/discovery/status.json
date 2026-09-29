@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "cadence": "hourly",
+  "expected_max_silence_hours": 12,
+  "changed_at": "2026-09-29T18:07:27-04:00",
+  "changed_by": "Israel Osorio-Rodarte via Codex",
+  "reason": "Establish repository-owned desired state after the external RADAR automation was found disabled without a known intentional shutdown.",
+  "state_history": [
+    {
+      "enabled": true,
+      "changed_at": "2026-09-29T18:07:27-04:00",
+      "changed_by": "Israel Osorio-Rodarte via Codex",
+      "reason": "Establish repository-owned desired state after the external RADAR automation was found disabled without a known intentional shutdown."
+    }
+  ]
+}

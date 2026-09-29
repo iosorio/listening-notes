@@ -6,6 +6,11 @@ on:
       - 'radar/events.json'
       - 'radar/signals.json'
       - 'radar/venue_identities.json'
+      - 'radar/discovery/*.json'
+      - 'radar/app.js'
+      - 'radar/index.html'
+      - 'radar/es/index.html'
+      - 'radar/styles.css'
       - 'radar/inbox/curated/*.json'
       - 'radar/inbox/curated/enrichment/*.json'
       - 'radar/inbox/research/*.json'
@@ -17,6 +22,12 @@ on:
     paths:
       - 'radar/events.json'
       - 'radar/signals.json'
+      - 'radar/venue_identities.json'
+      - 'radar/discovery/*.json'
+      - 'radar/app.js'
+      - 'radar/index.html'
+      - 'radar/es/index.html'
+      - 'radar/styles.css'
       - 'radar/inbox/curated/*.json'
       - 'radar/inbox/curated/enrichment/*.json'
       - 'radar/inbox/research/*.json'
@@ -44,6 +55,8 @@ jobs:
         run: python scripts/validate_events.py radar/events.json
       - name: Validate canonical Signal history
         run: python scripts/validate_signals.py radar/signals.json radar/events.json
+      - name: Validate and audit RADAR operational state
+        run: python scripts/validate_radar_discovery.py
       - name: Validate changed unreviewed enrichment research
         if: github.event_name == 'pull_request' || github.event_name == 'push'
         env:

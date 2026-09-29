@@ -17,6 +17,9 @@ object per event where practical, and is designed to stay readable in Git.
 ```json
 {
   "id": "artist-project-2026",
+  "discovered_at": "2026-08-20T11:42:34-04:00",
+  "published_at": "2026-08-20T12:00:00-04:00",
+  "canonicalized_at": "2026-08-20T16:05:00Z",
   "artist": "Artist",
   "subtitle": null,
   "dates": {"start": "YYYY-MM-DD", "end": null},
@@ -53,6 +56,14 @@ object per event where practical, and is designed to stay readable in Git.
   full ISO date when that is needed to distinguish a historical/show record.
   Correct a record in place; do not make a new ID solely because copy, pricing,
   or a URL changed.
+- `discovered_at` is the earliest verified instant RADAR identified the event
+  as a potential candidate. It is immutable, uses an ISO-8601 timestamp with a
+  timezone, and is never inferred from the concert date, a source check, or a
+  filename. `published_at` is when the reviewed version 2 intake was first
+  published; `canonicalized_at` is when the merge first wrote it to canonical
+  RADAR. Enrichment cannot replace any of these fields. Historical records may
+  omit them when evidence is unknown; all new version 2 candidates require
+  `discovered_at` and receive the other two fields through intake.
 - `dates.start` is required; `dates.end` is optional and inclusive.
 - `showtimes` is an array because multi-night engagements can have distinct
   times. Use ISO-like local time strings such as `19:30` only when verified.
@@ -111,3 +122,6 @@ object per event where practical, and is designed to stay readable in Git.
 Legacy records may retain source-less editorial copy during migration, but must
 use empty `sources`, null URLs/prices, and a provenance-backfill note. New or
 factually changed records require source entries before publication.
+Historical discovery provenance follows
+`docs/RADAR_DISCOVERY_BACKFILL.md`; unknown values remain absent rather than
+being fabricated.

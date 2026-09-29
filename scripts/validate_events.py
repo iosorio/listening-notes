@@ -4,7 +4,7 @@
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -142,6 +142,20 @@ def valid_date(value: object, field: str) -> None:
         fail(f"{field} is not an ISO date: {value!r}")
 
 
+def valid_timestamp(value: object, field: str) -> datetime | None:
+    if value is None:
+        return None
+    if not isinstance(value, str) or "T" not in value:
+        fail(f"{field} must be an ISO-8601 timestamp with timezone or null")
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        fail(f"{field} is not an ISO-8601 timestamp: {value!r}")
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        fail(f"{field} must include a timezone")
+    return parsed
+
+
 def main(path: Path) -> None:
     try:
         data = json.loads(path.read_text())
@@ -209,6 +223,17 @@ def main(path: Path) -> None:
                     fail(f"{event_id}.tickets.{market}.{key} must be a number or null")
         if not isinstance(event.get("sources"), list):
             fail(f"{event_id}.sources must be an array")
+        discovered = valid_timestamp(event.get("discovered_at"), f"{event_id}.discovered_at")
+        published = valid_timestamp(event.get("published_at"), f"{event_id}.published_at")
+        canonicalized = valid_timestamp(event.get("canonicalized_at"), f"{event_id}.canonicalized_at")
+        if published and not discovered:
+            fail(f"{event_id}.published_at requires discovered_at")
+        if canonicalized and not published:
+            fail(f"{event_id}.canonicalized_at requires published_at")
+        if discovered and published and discovered > published:
+            fail(f"{event_id}.discovered_at must not follow published_at")
+        if published and canonicalized and published > canonicalized:
+            fail(f"{event_id}.published_at must not follow canonicalized_at")
         recommendations = event.get("recommended_listening")
         if not isinstance(recommendations, list):
             fail(f"{event_id}.recommended_listening must be an array")

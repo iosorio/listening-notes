@@ -25,6 +25,7 @@ try:
         desired_batch,
         verify as verify_validation_remediation,
     )
+    from .verify_discovery_provenance_backfill import verify as verify_discovery_backfill
 except ImportError:
     from materialize_radar_intake import data_digest, digest
     from merge_inbox import normalize, validate_batch, validate_canonical
@@ -43,6 +44,7 @@ except ImportError:
         desired_batch,
         verify as verify_validation_remediation,
     )
+    from verify_discovery_provenance_backfill import verify as verify_discovery_backfill
 
 ROOT = Path(__file__).resolve().parents[1]
 ACTIVE = ROOT / "radar/inbox/curated"
@@ -52,6 +54,8 @@ VALIDATION_MANIFESTS = ROOT / "radar/inbox/review"
 HISTORICAL_PROTECTED_SHA256 = {
     "scripts/verify_radar_duplicate_resolution.py": "5da1e965a8d299c76b1be17d0d972c934f7c35f284057c27927bb5ebd9aac8c7",
     "tests/test_radar_signal_ui.py": "bf379cff2a06a1316174acf4aec31e6daab172f5f45b61ee1b561c8c55a93023",
+    "tests/test_merge_inbox.py": "e65f8cfa1ac7e2ca0498d9f62bf52fc7d4a27bd45e5c82869a344e44b05ffd48",
+    "scripts/merge_inbox.py": "0cdb5db79c8f1978e31a631e8860927d02daf5d2d84a488e63596f4e9c1dab54",
 }
 
 
@@ -176,6 +180,8 @@ def verify(manifest, verification_mode=PUBLISHED):
             verify_historical_protected_file(ROOT, ancestry["base_commit"], label, expected)
         elif label in HISTORICAL_PROTECTED_SHA256:
             require(expected == HISTORICAL_PROTECTED_SHA256[label], f"unexpected historical protected identity: {label}")
+        elif label == "radar/events.json":
+            verify_discovery_backfill(expected)
         else:
             require(digest(ROOT / label) == expected, f"protected file changed: {label}")
     selected = {}

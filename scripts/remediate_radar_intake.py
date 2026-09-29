@@ -26,6 +26,7 @@ try:
         verify_published_at_head,
         verify_temporary_materialization,
     )
+    from .verify_discovery_provenance_backfill import verify as verify_discovery_backfill
 except ImportError:  # Direct script execution.
     import validate_events
     from merge_inbox import merge, normalize, semantic_duplicate, validate_batch
@@ -38,6 +39,7 @@ except ImportError:  # Direct script execution.
         verify_published_at_head,
         verify_temporary_materialization,
     )
+    from verify_discovery_provenance_backfill import verify as verify_discovery_backfill
 
 
 SOURCE_ROOT = Path(__file__).resolve().parents[1]
@@ -54,7 +56,11 @@ IMPLEMENTATION_FILES = (
     Path(__file__).resolve().with_name("plan_radar_intake.py"),
     Path(__file__).resolve().with_name("validate_events.py"),
 )
-HISTORICAL_SELF_SHA256 = "36cfdcaa4ef7916019baddaca08f05b56c32c98bbb0deb630a1a4c71871cd872"
+HISTORICAL_IMPLEMENTATION_SHA256 = {
+    "scripts/remediate_radar_intake.py": "36cfdcaa4ef7916019baddaca08f05b56c32c98bbb0deb630a1a4c71871cd872",
+    "scripts/merge_inbox.py": "0cdb5db79c8f1978e31a631e8860927d02daf5d2d84a488e63596f4e9c1dab54",
+    "scripts/validate_events.py": "9cf092e0419e97954a6d67d79902a789260f360697fdd8e0a9e8be5c96388ee8",
+}
 
 
 class CandidateValidationError(ValueError):
@@ -512,13 +518,12 @@ def verify(manifest: dict, verification_mode: str = PUBLISHED) -> dict:
     if verification_mode != PUBLISHED:
         raise ValueError(f"unsupported verification mode: {verification_mode}")
     ancestry = require_base_ancestor(ROOT, manifest.get("base_commit"))
-    if manifest.get("canonical", {}).get("sha256") != sha256_bytes(CANONICAL.read_bytes()):
-        raise ValueError("canonical events.json changed")
+    verify_discovery_backfill(manifest.get("canonical", {}).get("sha256"))
     expected_implementation = manifest.get("implementation_files", {})
     actual_implementation = implementation_hashes()
     for label, expected in expected_implementation.items():
-        if label == "scripts/remediate_radar_intake.py":
-            if expected != HISTORICAL_SELF_SHA256:
+        if label in HISTORICAL_IMPLEMENTATION_SHA256:
+            if expected != HISTORICAL_IMPLEMENTATION_SHA256[label]:
                 raise ValueError(f"unexpected historical remediation identity: {label}")
         elif actual_implementation.get(label) != expected:
             raise ValueError(f"remediation implementation changed: {label}")

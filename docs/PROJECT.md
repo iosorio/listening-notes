@@ -20,6 +20,8 @@ Pages and usable without a framework, service, or AI platform.
 
 The two native domains are Greater Tokyo/Kantō and the US corridor. Automated
 discovery is external; it may suggest leads but never publishes them directly.
+Its desired state and heartbeat telemetry are repository-owned under
+`radar/discovery/`; see `docs/RADAR_OPERATIONS.md`.
 
 ## Durable operating model
 
