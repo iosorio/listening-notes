@@ -63,8 +63,11 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.before }}
         run: |
-          git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/curated \
-            | grep -E '^radar/inbox/curated/[^/]+\.json$' \
+          {
+            git diff --name-only "$BASE_SHA" "$GITHUB_SHA" -- radar/inbox/curated \
+              | grep -E '^radar/inbox/curated/[^/]+\.json$' || true
+            find radar/inbox/curated -maxdepth 1 -type f -name '*-intake.json'
+          } | sort -u \
             | while IFS= read -r batch; do
                 if [ -f "$batch" ]; then
                   python scripts/merge_inbox.py --batch "$batch"
