@@ -75,6 +75,25 @@
       "material_updates": 0,
       "run_id": "radar-20260930T152332575Z-re8equka51",
       "started_at": "2026-09-30T15:23:32.575Z"
+    },
+    {
+      "run_id": "radar-20260930T170730622Z-11myxbox24v",
+      "started_at": "2026-09-30T17:07:30.622Z",
+      "completed_at": "2026-09-30T17:17:34.992Z",
+      "trigger": "scheduled",
+      "status": "partial",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto / Jazz House ALFIE / BODY&SOUL / Space M&A",
+        "Greater Tokyo / Kanto jazz",
+        "DMV, Baltimore, Philadelphia, Newark and New York official venue calendars"
+      ],
+      "sources_checked": 25,
+      "candidates_reviewed": 24,
+      "events_admitted": 3,
+      "events_published": 3,
+      "material_updates": 0,
+      "error_summary": "Roulette's current Find Your Own Voice page materially changes two published pairings, but the repository enrichment contract forbids lineup corrections and no approved factual-update path exists; the discrepancy was verified but not published."
     }
   ]
 }

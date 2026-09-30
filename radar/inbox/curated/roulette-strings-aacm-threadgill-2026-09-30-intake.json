@@ -1,0 +1,324 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "roulette-strings-aacm-threadgill-2026-09-30-intake",
+  "published_at": "2026-09-30T17:17:34.992Z",
+  "checked_on": "2026-09-30",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-30",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current durable repository authority. Current RADAR operations, priority, editorial, geography, inbox and enrichment contracts were read before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Keystone Club Tokyo, Space M&A, Jazz in Japan and related Japanese-jazz schedule sources before widening to official venue calendars across the US corridor. Yamamoto dates surfaced in this pass were already represented in canonical, curated, processed or validation-review history, or did not add a sufficiently verified new event, so none was duplicated. Stage 1 admits three Roulette performances for event-specific reasons: Strings of Soul unites hammered dulcimer, santoor and tabla across Indian classical, jazz, ambient and American folk practice; AACM New York's 61st-anniversary program places two lineage-rich ensembles in the same historical frame; and Henry Threadgill's Zooid performs music from a newly released album on the tenth anniversary of the work that earned Threadgill the Pulitzer. Stage 2 assigns A+ to Strings of Soul, A to AACM NYC, and S to Threadgill after an explicit scarcity challenge. Threadgill's only announced performance combines a major living composer, the current Zooid album, a verified Pulitzer-anniversary context and a no-recording policy; A+ was judged insufficient because missing the night means losing the exact unrecorded live context. S+ is not warranted because the engagement is not announced as a farewell or final appearance. The batch adds A 1 / A+ 1 / S 1 / S+ 0. A separate official-page lineup discrepancy for the already represented Find Your Own Voice event was not patched because the current enrichment contract expressly forbids lineup corrections and the repository has no approved factual-update path; no duplicate or silent overwrite was created.",
+  "events": [
+    {
+      "id": "max-zt-kunal-gunjal-amit-kavthekar-strings-of-soul-roulette-brooklyn-2026-10-16",
+      "discovered_at": "2026-09-30T17:17:34.992Z",
+      "artist": "Max ZT, Kunal Gunjal & Amit Kavthekar",
+      "subtitle": "Strings of Soul",
+      "dates": {
+        "start": "2026-10-16",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Indian classical / jazz / folk instrumental convergence",
+      "genres": [
+        "Indian classical music",
+        "Jazz",
+        "Ambient",
+        "American folk",
+        "World music"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Max ZT — hammered dulcimer",
+        "Kunal Gunjal — santoor",
+        "Amit Kavthekar — tabla"
+      ],
+      "factual_description": "Roulette presents Max ZT, Kunal Gunjal and Amit Kavthekar in Strings of Soul on Friday, October 16, 2026 at 8:00 PM, with doors at 7:00 PM. The announced instrumentation is hammered dulcimer, santoor and tabla. Roulette describes the trio as combining Western jazz, ambient music, American folk and traditional Indian classical music. Tickets are listed at $35 in advance and $40 at the door, with a $30 student/senior price.",
+      "links": {
+        "official_event": "https://roulette.org/event/max-zt-kunal-gunjal-and-amit-kavthekar-strings-of-soul/",
+        "official_tickets": "https://ci.ovationtix.com/36368/performance/11848628"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35,
+          "maximum": 40,
+          "source_url": "https://roulette.org/event/max-zt-kunal-gunjal-and-amit-kavthekar-strings-of-soul/",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact Roulette event page and authorized AudienceView destination were verified. No exact Apple Music preparation destination was established during this pass, so optional listening enrichment remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/max-zt-kunal-gunjal-and-amit-kavthekar-strings-of-soul/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the billing, date, 8:00 PM start, doors, complete instrumental lineup, cross-cultural program frame and ticket prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/performance/11848628",
+          "publisher": "AudienceView Professional / Roulette authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact purchase destination linked by Roulette for this performance."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "note": "Core facts come from Roulette and its authorized AudienceView destination. Repository-wide searches for the complete billing, project title, artists and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after Stage 1 admission. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The attraction is the instrumental architecture itself: hammered dulcimer, santoor and tabla create a string-and-rhythm triangle whose Indian classical roots open outward toward jazz improvisation, ambient space and American folk practice. The lineage connecting ZT and Gunjal to Shivkumar Sharma, and Kavthekar to Alla Rakha and Zakir Hussain, gives the encounter real depth rather than decorative crossover.",
+          "trip_verdict": "If an October New York trip is possible, actively make room for this one-night meeting at Roulette, especially within an itinerary built around instrumental and cross-cultural music. It strengthens a trip but does not need to dictate one by itself.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El atractivo está en la arquitectura instrumental misma: dulcémele martillado, santoor y tabla forman un triángulo de cuerdas y ritmo cuyas raíces clásicas de India se abren hacia la improvisación jazzística, el espacio ambient y el folk estadounidense. El linaje que conecta a ZT y Gunjal con Shivkumar Sharma, y a Kavthekar con Alla Rakha y Zakir Hussain, le da profundidad real al encuentro en vez de convertirlo en un cruce decorativo.",
+          "trip_verdict": "Si cabe un viaje a Nueva York en octubre, haría espacio activamente para este encuentro de una sola noche en Roulette, sobre todo dentro de un itinerario centrado en música instrumental e intercultural. Fortalece el viaje, aunque no necesita dictarlo por sí solo.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "aacm-nyc-61st-anniversary-roulette-brooklyn-2026-11-04",
+      "discovered_at": "2026-09-30T17:17:34.992Z",
+      "artist": "AACM New York City Chapter",
+      "subtitle": "Celebrating 61 Years of Creative Music — JD Parran & Spirit Stage 3 / Adegoke Steve Colson & Iqua Colson",
+      "dates": {
+        "start": "2026-11-04",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "AACM anniversary / creative-music lineage",
+      "genres": [
+        "Creative music",
+        "Avant-garde jazz",
+        "Improvised music",
+        "New music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Richarda Abrams — mistress of ceremonies",
+        "JD Parran — saxophone, clarinet and flutes",
+        "Christopher Dean Sullivan — bass",
+        "Alexis Marcelo — piano",
+        "Michael T. A. Thompson — percussion",
+        "Adegoke Steve Colson — piano",
+        "Iqua Colson — vocals",
+        "Steven Bernstein — trumpet",
+        "Luke Stewart — bass",
+        "Chris Beck — drums"
+      ],
+      "factual_description": "Roulette presents the AACM New York City Chapter's 61st-anniversary celebration on Wednesday, November 4, 2026 at 8:00 PM, with doors at 7:00 PM. Richarda Abrams is the mistress of ceremonies. The program pairs JD Parran & Spirit Stage 3 with Adegoke Steve Colson and Iqua Colson; Roulette publishes the full ten-person billing. Tickets are listed at $25 in advance and $30 at the door, with a $20 student/senior price.",
+      "links": {
+        "official_event": "https://roulette.org/event/aacm-celebrating-61-years-of-creative-music/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1291311"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 30,
+          "source_url": "https://roulette.org/event/aacm-celebrating-61-years-of-creative-music/",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact Roulette event page and authorized AudienceView destination were verified. No exact Apple Music preparation destination was established during this pass, so optional listening enrichment remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/aacm-celebrating-61-years-of-creative-music/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the anniversary frame, date, time, prices, mistress of ceremonies, both ensembles and complete published personnel."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1291311",
+          "publisher": "AudienceView Professional / Roulette authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact purchase destination linked by Roulette for this anniversary program."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "note": "Core facts come from Roulette and its authorized AudienceView destination. Repository-wide searches for AACM NYC, the complete ensemble pairings, anniversary title and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after Stage 1 admission. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is useful RADAR not because sixty-one is a ceremonial number, but because the program makes AACM history audible through two active ensembles. Parran's multi-reed Spirit Stage 3 and the Colsons' voice-piano-centered group connect Black experimental-music lineage to current collaborators including Steven Bernstein and Luke Stewart.",
+          "trip_verdict": "If November 4 falls inside a New York stay, fit this into the evening for the lineage and ensemble contrast. The annual organizational context makes it valuable to know about without requiring a dedicated DMV-to-Brooklyn trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Esta fecha entra a RADAR no porque sesenta y uno sea un número ceremonial, sino porque el programa vuelve audible la historia de la AACM mediante dos ensambles activos. Spirit Stage 3, con los múltiples alientos de Parran, y el grupo de los Colson centrado en voz y piano conectan el linaje de la música experimental negra con colaboradores actuales como Steven Bernstein y Luke Stewart.",
+          "trip_verdict": "Si el 4 de noviembre cae dentro de una estancia en Nueva York, la integraría a la noche por el contraste de ensambles y su linaje. El contexto anual de la organización la vuelve valiosa sin exigir un viaje dedicado desde el DMV hasta Brooklyn.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "henry-threadgill-zooid-cut-you-where-you-was-roulette-brooklyn-2026-11-22",
+      "discovered_at": "2026-09-30T17:17:34.992Z",
+      "artist": "Henry Threadgill's Zooid",
+      "subtitle": "Cut You Where You Was — new-album performance and Pulitzer tenth anniversary",
+      "dates": {
+        "start": "2026-11-22",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "S",
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-09-30",
+        "rationale": "The scarcity is event-specific: Roulette lists a single performance by the major living composer with Zooid playing music from the newly released Cut You Where You Was, explicitly frames the night as the tenth anniversary of Threadgill's 2016 Pulitzer for a Zooid work premiered at Roulette, and states that the performance will not be recorded. A+ was explicitly challenged and judged insufficient because missing the night means losing this exact new-album, anniversary and unrecorded live conjunction. Protect-the-night language is warranted. S+ would overstate the evidence because the event is not announced as a farewell or final appearance, and future Zooid performances remain possible."
+      },
+      "category": "Living master / new Zooid album / Pulitzer anniversary",
+      "genres": [
+        "Avant-garde jazz",
+        "Improvised music",
+        "Creative music",
+        "Chamber jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Henry Threadgill — flute, bass flute and alto saxophone",
+        "Christopher Hoffman — cello",
+        "Liberty Ellman — acoustic guitar",
+        "Jose Davila — trombone and tuba",
+        "Elliot Kavee — drums"
+      ],
+      "factual_description": "Roulette presents Henry Threadgill's Zooid on Sunday, November 22, 2026 at 8:00 PM, with doors at 7:00 PM. The quintet will perform music from its newly released Pi Recordings album Cut You Where You Was. Roulette also frames the performance as the tenth anniversary of Threadgill's 2016 Pulitzer Prize for In for a Penny, In for a Pound, a Zooid work that premiered at Roulette in 2014, and states that this performance will not be recorded. The announced lineup is Threadgill, Christopher Hoffman, Liberty Ellman, Jose Davila and Elliot Kavee. Tickets are listed at $55 in advance and $60 at the door, with a $50 student/senior price.",
+      "links": {
+        "official_event": "https://roulette.org/event/henry-threadgill-zooid-cut-you-where-you-was/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1291815"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 55,
+          "maximum": 60,
+          "source_url": "https://roulette.org/event/henry-threadgill-zooid-cut-you-where-you-was/",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact Roulette event page and authorized AudienceView destination were verified. No exact Apple Music preparation destination was established during this pass, so optional listening enrichment remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/henry-threadgill-zooid-cut-you-where-you-was/",
+          "publisher": "Roulette",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the billing, date, 8:00 PM start, doors, complete Zooid lineup, new-album program, Pulitzer tenth-anniversary context, no-recording policy and ticket prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1291815",
+          "publisher": "AudienceView Professional / Roulette authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact purchase destination linked by Roulette for this performance."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "note": "Core facts, the no-recording statement and anniversary context come from Roulette and its authorized AudienceView destination. Repository-wide searches for Henry Threadgill, Zooid, Cut You Where You Was, the date and proposed stable ID found no matching canonical, curated or processed record before publication. S was assigned only after Stage 1 admission and an explicit scarcity challenge; the specific one-night, unrecorded new-album and Pulitzer-anniversary context made A+ insufficient, while the absence of a farewell or final-performance claim ruled out S+. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Threadgill is not revisiting a museum piece: Zooid is carrying his interval-based language into music from a newly released album, with flute, alto saxophone, cello, acoustic guitar, low brass and drums forming one of jazz's most singular working systems. Roulette adds a precise historical frame—the tenth anniversary of the Pulitzer earned by a Zooid work first heard in this room—and the venue says the performance will not be recorded.",
+          "trip_verdict": "Protect this night and make Brooklyn the anchor of the trip rather than treating it as an optional add-on. The combination of Threadgill, the current Zooid book, the Roulette anniversary context and no recording makes absence genuinely hard to replace.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Threadgill no vuelve a una pieza de museo: Zooid lleva su lenguaje basado en intervalos hacia la música de un álbum recién publicado, con flauta, saxofón alto, violonchelo, guitarra acústica, metales graves y batería formando uno de los sistemas de trabajo más singulares del jazz. Roulette añade un marco histórico preciso —el décimo aniversario del Pulitzer obtenido por una obra de Zooid estrenada en esta sala— y advierte que la función no será grabada.",
+          "trip_verdict": "Protegería esta noche y haría de Brooklyn el ancla del viaje, no un añadido opcional. La combinación de Threadgill, el repertorio actual de Zooid, el contexto aniversario de Roulette y la ausencia de grabación vuelve la pérdida realmente difícil de sustituir.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
