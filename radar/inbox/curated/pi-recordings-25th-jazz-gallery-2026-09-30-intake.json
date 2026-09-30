@@ -1,0 +1,331 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "pi-recordings-25th-jazz-gallery-2026-09-30-intake",
+  "published_at": "2026-09-30T14:27:23.091Z",
+  "checked_on": "2026-09-30",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-30",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current durable repository authority. Current RADAR operations, priority, editorial, geography, data-model and inbox contracts were read before research or grading. Fresh research covered official Yamamoto and Greater Tokyo/Kanto sources first, then official venue and promoter calendars across the US corridor. Known Yamamoto dates and the strongest recurring US-corridor programs that resurfaced were already represented in canonical or inbox history. Repository searches found no record for the three-night Pi Recordings 25th Anniversary Celebration at The Jazz Gallery. Stage 1 admits each night for the combination of the label milestone and a distinct ensemble: Finlayson's piano-less trumpet/tenor quartet, Weiss's unusual drums/guitar/trumpet/vibraphone group, and Stewart's Silt Trio expanded by Daniel Carter. Stage 2 assigns A+ to each as actively worth making room for. The multi-night anniversary context is meaningful, but the absence of a premiere, farewell, terminal context, or demonstrated singularity makes A+ sufficient. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "jonathan-finlayson-quartet-pi-25-jazz-gallery-new-york-2026-10-08",
+      "discovered_at": "2026-09-30T14:20:12.000Z",
+      "artist": "Jonathan Finlayson Quartet",
+      "subtitle": "Pi Recordings 25th Anniversary Celebration",
+      "dates": {
+        "start": "2026-10-08",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Creative jazz quartet / trumpet and tenor front line",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised"
+      ],
+      "lineup": [
+        "Jonathan Finlayson — trumpet",
+        "Brian Settles — tenor saxophone",
+        "Jonathan Hébert — bass",
+        "Damion Reid — drums"
+      ],
+      "factual_description": "The Jazz Gallery presents the Jonathan Finlayson Quartet on Thursday, October 8, 2026, in Pi Recordings' 25th Anniversary Celebration, with sets at 7:00 PM and 9:00 PM. The announced quartet is Jonathan Finlayson on trumpet, Brian Settles on tenor saxophone, Jonathan Hébert on bass, and Damion Reid on drums. General seating is $33 and cabaret seating is $37, including online purchasing fees; livestream access is listed separately at $22. The stored ticket URL is the venue-authorized 7:00 PM performance page.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/jonathan-finlayson-pi-oct-8-2026",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1291605?performanceId=11870578"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 33,
+          "maximum": 37,
+          "source_url": "https://ci.ovationtix.com/36369/production/1291605?performanceId=11870578",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact event and authorized ticket destinations were verified. No exact Apple Music preparation destination was established during this pass; the event remains eligible for canonical intake while that optional enrichment stays pending."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/jonathan-finlayson-pi-oct-8-2026",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the date, 7:00 PM and 9:00 PM sets, announced lineup, seating prices, livestream price, and authorized ticket links."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1291605?performanceId=11870578",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact authorized purchase destination reached from The Jazz Gallery for the 7:00 PM set; the venue page provides a separate link for the 9:00 PM set."
+        },
+        {
+          "url": "https://pirecordings.com/",
+          "publisher": "Pi Recordings",
+          "checked_on": "2026-09-30",
+          "note": "Official label site lists all three October 8–10 Jazz Gallery engagements during Pi Recordings' 25th-anniversary year and describes the label's commitment to innovative artists with distinctive voices."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-and-authorized-ticketing",
+        "note": "The Jazz Gallery's exact event page supplies the date, times, lineup and prices; its AudienceView link establishes authorized ticketing, and Pi Recordings independently lists the engagement. Repository searches for the artist, date, anniversary billing and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after admission. The label-anniversary context and event-specific lineup make this actively worth prioritizing; a three-night series without farewell, premiere, or terminal context makes A+ sufficient rather than a scarcity tier. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Pi's anniversary is a useful frame for hearing Finlayson's writing in a lean, combustible quartet: trumpet and Brian Settles's tenor carry the harmonic argument without piano, while Jonathan Hébert and Damion Reid can keep the forms mobile. The specific front line and the label-history context make this more than a routine club date.",
+          "trip_verdict": "If a New York trip overlaps the October 8–10 anniversary run, actively make room for this opening night. It is strongest as part of a weekend built around several Pi ensembles rather than as a standalone DMV-to-New-York trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El aniversario de Pi ofrece un marco concreto para escuchar la escritura de Finlayson en un cuarteto ágil y de alto voltaje: la trompeta y el tenor de Brian Settles sostienen el argumento armónico sin piano, mientras Jonathan Hébert y Damion Reid mantienen las formas en movimiento. Esa primera línea y el contexto histórico del sello vuelven la noche más que una fecha rutinaria de club.",
+          "trip_verdict": "Si un viaje a Nueva York coincide con la serie aniversario del 8 al 10 de octubre, haría espacio activamente para esta primera noche. Tiene más fuerza como parte de un fin de semana alrededor de varios ensambles de Pi que como viaje exclusivo desde el DMV.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "dan-weiss-quartet-pi-25-jazz-gallery-new-york-2026-10-09",
+      "discovered_at": "2026-09-30T14:20:12.000Z",
+      "artist": "Dan Weiss Quartet",
+      "subtitle": "Pi Recordings 25th Anniversary Celebration",
+      "dates": {
+        "start": "2026-10-09",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz quartet / percussion-led composition",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised"
+      ],
+      "lineup": [
+        "Dan Weiss — drums",
+        "Miles Okazaki — guitar",
+        "Adam O'Farrill — trumpet",
+        "Patricia Brennan — vibraphone"
+      ],
+      "factual_description": "The Jazz Gallery presents the Dan Weiss Quartet on Friday, October 9, 2026, in Pi Recordings' 25th Anniversary Celebration, with sets at 7:00 PM and 9:00 PM. The announced quartet is Dan Weiss on drums, Miles Okazaki on guitar, Adam O'Farrill on trumpet, and Patricia Brennan on vibraphone. General seating is $33 and cabaret seating is $38.50, including online purchasing fees; livestream access is listed separately at $22. The stored ticket URL is the venue-authorized 7:00 PM performance page.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/dan-weiss-pi-oct-9-2026",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1144630?performanceId=11870584"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 33,
+          "maximum": 38.5,
+          "source_url": "https://ci.ovationtix.com/36369/production/1144630?performanceId=11870584",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact event and authorized ticket destinations were verified. No exact Apple Music preparation destination was established during this pass; the event remains eligible for canonical intake while that optional enrichment stays pending."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/dan-weiss-pi-oct-9-2026",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the date, 7:00 PM and 9:00 PM sets, announced lineup, seating prices, livestream price, and authorized ticket links."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1144630?performanceId=11870584",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact authorized purchase destination reached from The Jazz Gallery for the 7:00 PM set; the venue page provides a separate link for the 9:00 PM set."
+        },
+        {
+          "url": "https://pirecordings.com/",
+          "publisher": "Pi Recordings",
+          "checked_on": "2026-09-30",
+          "note": "Official label site lists all three October 8–10 Jazz Gallery engagements during Pi Recordings' 25th-anniversary year and describes the label's commitment to innovative artists with distinctive voices."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-and-authorized-ticketing",
+        "note": "The Jazz Gallery's exact event page supplies the date, times, lineup and prices; its AudienceView link establishes authorized ticketing, and Pi Recordings independently lists the engagement. Repository searches for the artist, date, anniversary billing and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after admission. The label-anniversary context and event-specific lineup make this actively worth prioritizing; a three-night series without farewell, premiere, or terminal context makes A+ sufficient rather than a scarcity tier. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The instrumentation is the reason to prioritize this night: Weiss's compositional drumming meets Miles Okazaki's exacting guitar language, Adam O'Farrill's trumpet, and Patricia Brennan's vibraphone in a quartet with no conventional bass anchor. Inside Pi's anniversary weekend, that unusual balance of attack, sustain, and open space feels purpose-built for close listening.",
+          "trip_verdict": "For an October 8–10 New York visit, actively shape Friday around one of these sets. The anniversary sequence increases the value of the trip, while this single club engagement alone need not dictate travel from the DMV.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La instrumentación es la razón para priorizar esta noche: la batería compositiva de Weiss se cruza con el lenguaje preciso de la guitarra de Miles Okazaki, la trompeta de Adam O'Farrill y el vibráfono de Patricia Brennan en un cuarteto sin el ancla convencional del contrabajo. Dentro del fin de semana aniversario de Pi, ese equilibrio poco común entre ataque, resonancia y espacio abierto pide escucha atenta.",
+          "trip_verdict": "Para una visita a Nueva York del 8 al 10 de octubre, armaría activamente el viernes alrededor de uno de estos sets. La secuencia aniversario eleva el valor del viaje, aunque esta sola fecha de club no tenga que decidir por sí misma el traslado desde el DMV.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "luke-stewart-silt-trio-plus-pi-25-jazz-gallery-new-york-2026-10-10",
+      "discovered_at": "2026-09-30T14:20:12.000Z",
+      "artist": "Luke Stewart Silt Trio +",
+      "subtitle": "Pi Recordings 25th Anniversary Celebration — with Daniel Carter",
+      "dates": {
+        "start": "2026-10-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Creative jazz quartet / expanded Silt Trio",
+      "genres": [
+        "Jazz",
+        "Avant-garde jazz",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Experimental / Metal",
+        "Instrumental identity",
+        "Improvised"
+      ],
+      "lineup": [
+        "Luke Stewart — bass",
+        "Brian Settles — tenor saxophone",
+        "Daniel Carter — reeds",
+        "Chad Taylor — drums"
+      ],
+      "factual_description": "The Jazz Gallery presents Luke Stewart Silt Trio + on Saturday, October 10, 2026, in Pi Recordings' 25th Anniversary Celebration, with sets at 7:00 PM and 9:00 PM. The announced lineup is Luke Stewart on bass, Brian Settles on tenor saxophone, Daniel Carter on reeds, and Chad Taylor on drums. General seating is $33 and cabaret seating is $37, including online purchasing fees; livestream access is listed separately at $22. The stored ticket URL is the venue-authorized 7:00 PM performance page.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/luke-stewart-pi-oct-10-2026",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1291817?performanceId=11870598"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 33,
+          "maximum": 37,
+          "source_url": "https://ci.ovationtix.com/36369/production/1291817?performanceId=11870598",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact event and authorized ticket destinations were verified. No exact Apple Music preparation destination was established during this pass; the event remains eligible for canonical intake while that optional enrichment stays pending."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/luke-stewart-pi-oct-10-2026",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the date, 7:00 PM and 9:00 PM sets, announced lineup, seating prices, livestream price, and authorized ticket links."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1291817?performanceId=11870598",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact authorized purchase destination reached from The Jazz Gallery for the 7:00 PM set; the venue page provides a separate link for the 9:00 PM set."
+        },
+        {
+          "url": "https://pirecordings.com/",
+          "publisher": "Pi Recordings",
+          "checked_on": "2026-09-30",
+          "note": "Official label site lists all three October 8–10 Jazz Gallery engagements during Pi Recordings' 25th-anniversary year and describes the label's commitment to innovative artists with distinctive voices."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-label-and-authorized-ticketing",
+        "note": "The Jazz Gallery's exact event page supplies the date, times, lineup and prices; its AudienceView link establishes authorized ticketing, and Pi Recordings independently lists the engagement. Repository searches for the artist, date, anniversary billing and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after admission. The label-anniversary context and event-specific lineup make this actively worth prioritizing; a three-night series without farewell, premiere, or terminal context makes A+ sufficient rather than a scarcity tier. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Stewart expands the Silt Trio with Daniel Carter, turning its bass–tenor–drums core into a two-horn conversation with one of New York's defining multi-reed improvisers. The added voice changes the band's internal geometry, and the final night of Pi's anniversary run gives that interaction a concrete historical setting.",
+          "trip_verdict": "If the Pi anniversary weekend is already pulling a New York trip into focus, protect room for Saturday's expanded Silt Trio. It is a strong closing night for the itinerary, though the project is continuing rather than a farewell or singular last chance.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Stewart amplía el Silt Trio con Daniel Carter y convierte su núcleo de bajo, tenor y batería en una conversación de dos alientos con uno de los improvisadores multiinstrumentistas decisivos de Nueva York. Esa voz adicional cambia la geometría interna del grupo, y la noche final de la serie aniversario de Pi le da a la interacción un contexto histórico concreto.",
+          "trip_verdict": "Si el fin de semana aniversario de Pi ya está dando forma a un viaje a Nueva York, reservaría espacio para el Silt Trio ampliado del sábado. Es un cierre potente para el itinerario, aunque el proyecto continúe y no sea una despedida ni una última oportunidad irrepetible.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
