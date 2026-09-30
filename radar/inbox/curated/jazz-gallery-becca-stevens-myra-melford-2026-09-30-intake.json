@@ -1,0 +1,233 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "jazz-gallery-becca-stevens-myra-melford-2026-09-30-intake",
+  "published_at": "2026-09-30T13:51:59.868Z",
+  "checked_on": "2026-09-30",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-30",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current durable repository authority. The current RADAR operations, priority, editorial, geography, data-model and inbox contracts were read before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, current schedule traces, Space M&A-oriented searches, Jazz in Japan, and official calendars across the US corridor. Yamamoto dates and the strongest ALFIE, Village Vanguard, Roulette and Keystone programs that resurfaced were already represented in canonical or inbox history. Repository searches found no existing Becca Stevens George Wein Fellowship Commission or Myra Melford Splash record. Stage 1 admits both Jazz Gallery engagements for specific project-level reasons: Stevens presents a named fellowship commission with an unusual voice/guitar, voice, banjo and bass ensemble; Melford brings the documented Splash trio and its Cy Twombly-derived compositional process with Michael Formanek and Ches Smith. Stage 2 assigns A+ to both as New York dates actively worth making room for. Neither requires S: Stevens has four sets across two nights, while Splash is an ongoing recorded trio project with two sets and no farewell or terminal context. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "becca-stevens-george-wein-commission-jazz-gallery-new-york-2026-11-23",
+      "discovered_at": "2026-09-30T13:48:56.797Z",
+      "artist": "Becca Stevens",
+      "subtitle": "TJG George Wein Fellowship Commission 2026 — with Gretchen Parlato, Brad Kolonder and Alan Hampton",
+      "dates": {
+        "start": "2026-11-23",
+        "end": "2026-11-24"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Commissioned contemporary song / jazz-folk / chamber ensemble",
+      "genres": [
+        "Contemporary jazz",
+        "Folk",
+        "Experimental indie",
+        "Songwriting"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Becca Stevens — guitar and vocals",
+        "Gretchen Parlato — vocals",
+        "Brad Kolonder — banjo",
+        "Alan Hampton — bass"
+      ],
+      "factual_description": "The Jazz Gallery presents Becca Stevens in its 2026 George Wein Fellowship Commission on Monday and Tuesday, November 23-24, 2026. The venue lists 7:00 PM and 9:00 PM sets on both nights with Stevens on guitar and vocals, Gretchen Parlato on vocals, Brad Kolonder on banjo, and Alan Hampton on bass. General seating is $38.50 and cabaret seating is $44, including online purchasing fees; livestream access is listed separately at $22. The exact ticket destination stored here is the venue-authorized Monday 7:00 PM performance page, while the official event page exposes separate purchase links for the other three sets.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/becca-stevens-nov-23-24-2026",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1292554?performanceId=11873894"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 38.5,
+          "maximum": 44,
+          "source_url": "https://ci.ovationtix.com/36369/production/1292554?performanceId=11873894",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Becca Stevens",
+          "title": "Maple to Paper",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/maple-to-paper/1746391569"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/becca-stevens-nov-23-24-2026",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the fellowship-commission billing, November 23-24 dates, four 7:00 PM/9:00 PM sets, announced quartet, seating prices and separate authorized purchase links."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1292554?performanceId=11873894",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact authorized purchase destination reached from The Jazz Gallery for the Monday 7:00 PM set; the venue page supplies separate links for the remaining performances."
+        },
+        {
+          "url": "https://music.apple.com/us/album/maple-to-paper/1746391569",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-30",
+          "note": "Exact Apple Music album page for Becca Stevens's Maple to Paper, selected as listening preparation."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-and-streaming-sources",
+        "note": "Core event facts and prices come from The Jazz Gallery's exact event page; the venue-authorized AudienceView link supplies the stored purchase destination, and Apple Music supplies the exact listening destination. Repository searches for the exact commission title, artist/date combination and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after admission. A+ reflects the commission-specific ensemble and cross-genre language; four sets across two nights and the absence of farewell or one-off evidence make A+ sufficient. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The commission is the point: Stevens brings her Appalachian-rooted, jazz-literate songwriting into a chamber-like quartet where her guitar and voice meet Gretchen Parlato's elastic phrasing, Brad Kolonder's banjo and Alan Hampton's bass. That instrumentation creates a specific live experiment in timbre and song form rather than a routine singer-songwriter booking.",
+          "trip_verdict": "If a New York trip overlaps Thanksgiving week, actively make room for one of the four sets. The two-night run offers enough flexibility to fold the commission into a broader city itinerary rather than build a dedicated trip around a single hour.",
+          "listen_before": "Becca Stevens — Maple to Paper"
+        },
+        "es": {
+          "why_it_matters": "La comisión es el punto: Stevens lleva su escritura de canciones, arraigada en la tradición apalache y atravesada por el jazz, a un cuarteto casi de cámara donde su guitarra y su voz se cruzan con el fraseo elástico de Gretchen Parlato, el banjo de Brad Kolonder y el bajo de Alan Hampton. Esa instrumentación plantea un experimento concreto de timbre y forma, no una fecha rutinaria de cantautora.",
+          "trip_verdict": "Si un viaje a Nueva York coincide con la semana de Thanksgiving, haría espacio activamente para uno de los cuatro sets. Las dos noches dan flexibilidad para integrar la comisión en un itinerario más amplio por la ciudad sin montar un viaje dedicado alrededor de una sola hora.",
+          "listen_before": "Becca Stevens — Maple to Paper"
+        }
+      }
+    },
+    {
+      "id": "myra-melford-splash-jazz-gallery-new-york-2026-10-29",
+      "discovered_at": "2026-09-30T13:48:56.797Z",
+      "artist": "Myra Melford's Splash",
+      "subtitle": "With Michael Formanek and Ches Smith",
+      "dates": {
+        "start": "2026-10-29",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Creative jazz trio / composition and improvisation / visual-art dialogue",
+      "genres": [
+        "Jazz",
+        "Improvised music",
+        "Avant-garde jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity",
+        "Improvised"
+      ],
+      "lineup": [
+        "Myra Melford — piano",
+        "Michael Formanek — bass",
+        "Ches Smith — vibraphone and drums"
+      ],
+      "factual_description": "The Jazz Gallery presents Myra Melford's Splash on Thursday, October 29, 2026, with sets at 7:00 PM and 9:00 PM. The announced trio is Melford on piano, Michael Formanek on bass, and Ches Smith on vibraphone and drums. The venue describes Splash as the latest part of Melford's long engagement with the work and compositional processes of painter Cy Twombly. General seating is $33 and cabaret seating is $44, including online purchasing fees; livestream access is listed separately at $22. The stored authorized ticket URL is for the 7:00 PM set, while the official event page exposes a separate 9:00 PM purchase link.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/myra-melford-oct-29",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1268688?performanceId=11872688"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 33,
+          "maximum": 44,
+          "source_url": "https://ci.ovationtix.com/36369/production/1268688?performanceId=11872688",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Myra Melford",
+          "title": "Myra Melford Splash (feat. Michael Formanek & Ches Smith)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/myra-melford-splash-feat-michael-formanek-ches-smith/1797855099"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/myra-melford-oct-29",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies October 29, 2026; 7:00 PM and 9:00 PM sets; the complete trio; seating prices; the authorized ticket links; and the Cy Twombly-derived project context."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1268688?performanceId=11872688",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact authorized purchase destination reached from The Jazz Gallery for the 7:00 PM set; the venue page provides the separate 9:00 PM link."
+        },
+        {
+          "url": "https://music.apple.com/us/album/myra-melford-splash-feat-michael-formanek-ches-smith/1797855099",
+          "publisher": "Apple Music",
+          "checked_on": "2026-09-30",
+          "note": "Exact Apple Music page for the 2025 Splash trio album with Michael Formanek and Ches Smith."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-and-streaming-sources",
+        "note": "The Jazz Gallery's exact event page supplies the date, times, complete lineup, prices and project description; its direct AudienceView link establishes authorized ticketing. Apple Music verifies the exact Splash trio album. Repository searches for Myra Melford's Splash, the October 29 date and the proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after admission. A+ reflects the specific Melford/Formanek/Smith trio and its long-form dialogue with Cy Twombly; the ongoing recorded project, two-set format and absence of farewell or terminal context do not support a scarcity tier. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Splash turns Melford's decades-long conversation with Cy Twombly into a compact improvising machine: her piano supplies architecture and sudden motion, Formanek anchors and redirects the harmony, and Smith can move between drums and vibraphone inside the same formal argument. The attraction is the trio's balance of deliberate composition and the impression of spontaneous action, not simply three celebrated improvisers sharing a stage.",
+          "trip_verdict": "If October 29 already falls inside a New York trip, actively reserve one of the two Jazz Gallery sets. It is a concentrated reason to shape that evening around the club, while the continuing trio project does not by itself justify a dedicated DMV-to-New-York trip.",
+          "listen_before": "Myra Melford — Myra Melford Splash"
+        },
+        "es": {
+          "why_it_matters": "Splash convierte la conversación de varias décadas de Melford con Cy Twombly en una máquina compacta de improvisación: su piano aporta arquitectura y movimiento súbito, Formanek ancla y redirige la armonía, y Smith puede pasar de la batería al vibráfono dentro del mismo argumento formal. Lo atractivo es el equilibrio del trío entre composición deliberada y sensación de acción espontánea, no sólo que tres improvisadores célebres compartan escenario.",
+          "trip_verdict": "Si el 29 de octubre ya cae dentro de un viaje a Nueva York, apartaría activamente uno de los dos sets de The Jazz Gallery. Es una razón concentrada para armar esa noche alrededor del club, aunque la continuidad del proyecto no basta por sí sola para justificar un viaje dedicado desde el DMV.",
+          "listen_before": "Myra Melford — Myra Melford Splash"
+        }
+      }
+    }
+  ]
+}

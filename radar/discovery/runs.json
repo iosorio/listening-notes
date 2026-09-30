@@ -1,4 +1,26 @@
 {
   "schema_version": 1,
-  "runs": []
+  "runs": [
+    {
+      "run_id": "radar-20260930T134200145Z-mqf4zgcna6hmfjv6ik9n7jf7m3a9swmz",
+      "started_at": "2026-09-30T13:42:00.145Z",
+      "completed_at": "2026-09-30T13:52:40.539Z",
+      "trigger": "scheduled",
+      "status": "partial",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto / Jazz House ALFIE / BODY&SOUL / Space M&A",
+        "Greater Tokyo / Kanto jazz",
+        "DMV and Baltimore official venue calendars",
+        "Philadelphia official venue calendars",
+        "New York jazz and experimental venues"
+      ],
+      "sources_checked": 20,
+      "candidates_reviewed": 17,
+      "events_admitted": 2,
+      "events_published": 2,
+      "material_updates": 0,
+      "error_summary": "Kennedy Center returned 403, Strathmore redirected to an inaccessible queue, and World Cafe Live returned no usable calendar content; the remaining Yamamoto-first, Tokyo/Kanto and US-corridor research completed."
+    }
+  ]
 }
