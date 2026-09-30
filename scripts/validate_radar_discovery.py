@@ -5,6 +5,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
+import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -62,7 +64,7 @@ def validate_status(payload: dict) -> dict:
     if not isinstance(payload["cadence"], str) or not payload["cadence"].strip():
         raise DiscoveryValidationError("status.cadence must be a non-empty string")
     silence = payload["expected_max_silence_hours"]
-    if not isinstance(silence, (int, float)) or isinstance(silence, bool) or silence <= 0:
+    if not isinstance(silence, (int, float)) or isinstance(silence, bool) or not math.isfinite(silence) or silence <= 0:
         raise DiscoveryValidationError("status.expected_max_silence_hours must be positive")
     parse_timestamp(payload["changed_at"], "status.changed_at")
     for field in ("changed_by", "reason"):
@@ -150,6 +152,14 @@ def cadence_delta(value: str) -> timedelta | None:
     return None
 
 
+def validate_append_only(previous: dict, current: dict) -> None:
+    """A valid snapshot alone cannot prove that older heartbeats survived."""
+    before = validate_runs(previous)
+    after = validate_runs(current)
+    if after[:len(before)] != before:
+        raise DiscoveryValidationError("runs.json must preserve every existing heartbeat unchanged and in order")
+
+
 def derive_health(status: dict, runs: list[dict], now: datetime) -> dict:
     if now.tzinfo is None or now.utcoffset() is None:
         raise DiscoveryValidationError("now must include a timezone")
@@ -164,7 +174,11 @@ def derive_health(status: dict, runs: list[dict], now: datetime) -> dict:
     }
     if not status["enabled"]:
         return result
-    if latest and latest["status"] == "error":
+    # A future completion is not evidence that a scan has already succeeded.
+    if any(parse_timestamp(run["completed_at"], "run.completed_at") > now for run in runs):
+        return result
+    last_outcome = next((run for run in reversed(runs) if run["status"] != "partial"), None)
+    if last_outcome and last_outcome["status"] == "error":
         result["state"] = "error"
     elif last_success:
         completed = parse_timestamp(last_success["completed_at"], "last_success.completed_at")
@@ -182,13 +196,21 @@ def main() -> None:
     parser.add_argument("--status", type=Path, default=STATUS)
     parser.add_argument("--runs", type=Path, default=RUNS)
     parser.add_argument("--now", help="ISO-8601 timestamp used for deterministic health checks")
+    parser.add_argument("--base-ref", help="Git commit whose existing heartbeat history must be preserved")
     args = parser.parse_args()
     try:
         status = validate_status(read_json(args.status))
-        runs = validate_runs(read_json(args.runs))
+        run_payload = read_json(args.runs)
+        runs = validate_runs(run_payload)
+        if args.base_ref:
+            previous = subprocess.run(
+                ["git", "show", f"{args.base_ref}:radar/discovery/runs.json"],
+                cwd=ROOT, capture_output=True, text=True, check=True,
+            )
+            validate_append_only(json.loads(previous.stdout), run_payload)
         now = parse_timestamp(args.now, "--now") if args.now else datetime.now(timezone.utc)
         report = derive_health(status, runs, now)
-    except DiscoveryValidationError as error:
+    except (DiscoveryValidationError, subprocess.CalledProcessError, json.JSONDecodeError) as error:
         parser.exit(1, f"Invalid RADAR discovery data: {error}\n")
     print(json.dumps(report, ensure_ascii=False, indent=2))
     if report["state"] in {"stale", "error", "unknown"}:
