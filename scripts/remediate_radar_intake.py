@@ -562,9 +562,19 @@ def verify(manifest: dict, verification_mode: str = PUBLISHED) -> dict:
         elif path.exists():
             raise ValueError(f"fully reviewed batch remains active: {label}")
     actual_paths = {str(path.relative_to(ROOT)) for path in ACTIVE.glob("*.json")}
-    if actual_paths != expected_paths:
-        raise ValueError("unexpected active batch set after remediation")
+    missing_paths = expected_paths - actual_paths
+    if missing_paths:
+        raise ValueError(f"historical active batches missing after remediation: {sorted(missing_paths)}")
+    later_paths = actual_paths - expected_paths
+    later_candidates = 0
+    for label in sorted(later_paths):
+        path = ROOT / label
+        batch = read_json(path)
+        if batch.get("batch_version") != 2 or not path.name.endswith("-intake.json"):
+            raise ValueError(f"post-manifest active batch must be version 2 intake: {label}")
+        later_candidates += len(validate_batch(batch, path, ACTIVE))
     report = merge(sorted(ACTIVE.glob("*.json")), True)
+    historical_report = merge([ROOT / label for label in sorted(expected_paths)], True)
     if report["conflicts"] or report["semantic_conflicts"]:
         raise ValueError("post-remediation intake still has conflicts")
     blocked_ids = {item["id"] for item in report["blocked"]}
@@ -579,7 +589,9 @@ def verify(manifest: dict, verification_mode: str = PUBLISHED) -> dict:
         "ancestry": ancestry,
         "active_batches": len(actual_paths),
         "active_candidates": len(report["added"]) + len(report["blocked"]),
-        "ingestible_candidates": len(report["added"]),
+        "ingestible_candidates": len(historical_report["added"]),
+        "later_active_batches": len(later_paths),
+        "later_active_candidates": later_candidates,
         "protected_reviews": reviews,
         "automatic_repairs": automatic_count,
         "review_candidates": review_count,

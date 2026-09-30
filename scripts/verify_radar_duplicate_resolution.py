@@ -197,7 +197,15 @@ def verify(manifest, verification_mode=PUBLISHED):
         if label not in selected:
             later_archives.extend(verify_stage_or_later(label, expected))
     current_paths = {str(p.relative_to(ROOT)) for p in ACTIVE.glob("*.json")}
-    require(not current_paths - set(originals), "unexpected active batches were introduced")
+    later_paths = current_paths - set(originals)
+    for label in sorted(later_paths):
+        path = ROOT / label
+        batch = json.loads(path.read_text())
+        require(
+            batch.get("batch_version") == 2 and path.name.endswith("-intake.json"),
+            f"post-manifest active batch must be version 2 intake: {label}",
+        )
+        validate_batch(batch, path, ACTIVE)
     report = {
         "verification_mode": verification_mode,
         "ancestry": ancestry,
@@ -206,6 +214,7 @@ def verify(manifest, verification_mode=PUBLISHED):
         "split_batches": [],
         "removed_active_batches": [],
         "residual_candidates_validated": 0,
+        "later_active_batches": sorted(later_paths),
     }
     for label, decisions in selected.items():
         path = ROOT / label
