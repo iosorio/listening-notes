@@ -15,11 +15,12 @@ const COPY = {
     discovered: 'Discovered', discoveryUnknown: 'Discovery time unknown',
     operations: {
       on: 'ON', off: 'OFF', healthy: 'HEALTHY', stale: 'STALE', error: 'ERROR', unknown: 'UNKNOWN',
+      desired: 'Requested state', desiredNote: 'The requested state does not confirm that the external executor is running.',
       lastRun: 'Last run', lastSuccess: 'Last successful scan', noHeartbeat: 'No repository heartbeat has been recorded.',
       latestResult: 'Latest result', nextExpected: 'Next expected scan', cadence: 'Expected cadence',
       stats: ({sources, candidates, published, updates}) => `${sources} sources checked · ${candidates} candidates reviewed · ${published} new · ${updates} updates`,
       cadenceValue: value => value === 'hourly' ? 'hourly' : value.replaceAll('_', ' '),
-      manage: 'Manage on GitHub', guide: 'Operations guide', unavailable: 'Operational data unavailable.'
+      manage: 'Edit requested state', guide: 'Operations guide', unavailable: 'Operational data unavailable or invalid.'
     },
     status: { considering: 'on the radar', going: 'going', attended: 'heard', passed: 'passed' },
     travel: { Local: 'Local', 'Short trip': 'Short trip', Trip: 'Worth the train', Tokyo: 'Build the night around it' },
@@ -41,11 +42,12 @@ const COPY = {
     discovered: 'Descubierto', discoveryUnknown: 'Hora de descubrimiento desconocida',
     operations: {
       on: 'ENCENDIDO', off: 'APAGADO', healthy: 'SALUDABLE', stale: 'ATRASADO', error: 'ERROR', unknown: 'DESCONOCIDO',
+      desired: 'Estado solicitado', desiredNote: 'El estado solicitado no confirma que el ejecutor externo esté funcionando.',
       lastRun: 'Última ejecución', lastSuccess: 'Último escaneo exitoso', noHeartbeat: 'No hay un latido registrado en el repositorio.',
       latestResult: 'Resultado más reciente', nextExpected: 'Próximo escaneo esperado', cadence: 'Frecuencia esperada',
       stats: ({sources, candidates, published, updates}) => `${sources} fuentes revisadas · ${candidates} candidatos evaluados · ${published} nuevos · ${updates} actualizaciones`,
       cadenceValue: value => value === 'hourly' ? 'cada hora' : value.replaceAll('_', ' '),
-      manage: 'Administrar en GitHub', guide: 'Guía de operación', unavailable: 'Datos operativos no disponibles.'
+      manage: 'Editar estado solicitado', guide: 'Guía de operación', unavailable: 'Datos operativos no disponibles o inválidos.'
     },
     status: { considering: 'en el radar', going: 'voy', attended: 'escuchamos', passed: 'pasó' },
     travel: { Local: 'Local', 'Short trip': 'Escapada corta', Trip: 'Vale el tren', Tokyo: 'Vale construir la noche alrededor' },
@@ -158,16 +160,40 @@ function resolveSignalState(payload, events) {
 }
 
 function deriveOperationalHealth(status, runPayload, now = new Date()) {
+  const unavailable = { state: 'unknown', available: false, latestRun: null, lastSuccess: null, nextExpectedAt: null };
   if (!status || status.schema_version !== 1 || typeof status.enabled !== 'boolean' ||
-      !runPayload || runPayload.schema_version !== 1 || !Array.isArray(runPayload.runs)) {
-    return { state: 'unknown', available: false, latestRun: null, lastSuccess: null, nextExpectedAt: null };
+      typeof status.cadence !== 'string' || !status.cadence.trim() ||
+      !Number.isFinite(status.expected_max_silence_hours) || status.expected_max_silence_hours <= 0) {
+    return unavailable;
   }
+  // OFF is the requested state, even if telemetry is temporarily unavailable.
+  const invalidTelemetry = { ...unavailable, state: status.enabled ? 'unknown' : 'off' };
+  if (!runPayload || runPayload.schema_version !== 1 || !Array.isArray(runPayload.runs) ||
+      !Number.isFinite(now.getTime())) return invalidTelemetry;
   const runs = runPayload.runs;
+  const timestamp = value => typeof value === 'string' && /T.*(?:Z|[+-]\d{2}:\d{2})$/.test(value) && Number.isFinite(Date.parse(value));
+  const counters = ['sources_checked', 'candidates_reviewed', 'events_admitted', 'events_published', 'material_updates'];
+  const seen = new Set();
+  let previous = -Infinity;
+  for (const run of runs) {
+    if (!run || typeof run.run_id !== 'string' || !run.run_id.trim() || seen.has(run.run_id) ||
+        !timestamp(run.started_at) || !timestamp(run.completed_at) ||
+        Date.parse(run.completed_at) < Date.parse(run.started_at) || Date.parse(run.started_at) <= previous ||
+        Date.parse(run.completed_at) > now.getTime() ||
+        !['success', 'partial', 'error'].includes(run.status) || !['scheduled', 'manual', 'external'].includes(run.trigger) ||
+        typeof run.executor !== 'string' || !run.executor.trim() ||
+        !Array.isArray(run.threads_checked) || run.threads_checked.some(item => typeof item !== 'string' || !item.trim()) ||
+        counters.some(key => !Number.isInteger(run[key]) || run[key] < 0) ||
+        (run.status === 'success' ? run.error_summary !== null : typeof run.error_summary !== 'string' || !run.error_summary.trim())) return invalidTelemetry;
+    previous = Date.parse(run.started_at);
+    seen.add(run.run_id);
+  }
   const latestRun = runs.at(-1) || null;
   const lastSuccess = [...runs].reverse().find(run => run.status === 'success') || null;
+  const lastOutcome = [...runs].reverse().find(run => run.status !== 'partial') || null;
   let state = 'unknown';
   if (!status.enabled) state = 'off';
-  else if (latestRun?.status === 'error') state = 'error';
+  else if (lastOutcome?.status === 'error') state = 'error';
   else if (lastSuccess) {
     const threshold = Number(status.expected_max_silence_hours) * 3_600_000;
     state = now.getTime() <= new Date(lastSuccess.completed_at).getTime() + threshold ? 'healthy' : 'stale';
@@ -178,7 +204,7 @@ function deriveOperationalHealth(status, runPayload, now = new Date()) {
     const match = /^every_(\d+)_hours$/.exec(status.cadence || '');
     if (match) cadenceMs = Number(match[1]) * 3_600_000;
   }
-  const nextExpectedAt = lastSuccess && cadenceMs
+  const nextExpectedAt = status.enabled && lastSuccess && cadenceMs
     ? new Date(new Date(lastSuccess.completed_at).getTime() + cadenceMs).toISOString()
     : null;
   return { state, available: true, latestRun, lastSuccess, nextExpectedAt };
@@ -189,13 +215,15 @@ function renderOperationalStatus(status, runPayload) {
   root.replaceChildren();
   root.hidden = false;
   const model = deriveOperationalHealth(status, runPayload);
-  const desiredOn = status?.enabled === true;
   const title = document.createElement('h2');
   title.className = `radar-status-title radar-status--${model.state}`;
-  title.textContent = model.available
-    ? `RADAR ${desiredOn ? '●' : '○'} ${desiredOn ? t.operations.on : t.operations.off}${model.state !== 'off' ? ` — ${t.operations[model.state]}` : ''}`
-    : `RADAR — ${t.operations.unknown}`;
+  title.textContent = `RADAR — ${t.operations[model.state]}`;
   root.append(title);
+  if (status?.schema_version === 1 && typeof status.enabled === 'boolean') {
+    const desired = document.createElement('p');
+    desired.textContent = `${t.operations.desired}: ${status.enabled ? t.operations.on : t.operations.off}. ${t.operations.desiredNote}`;
+    root.append(desired);
+  }
   if (!model.available) {
     const unavailable = document.createElement('p'); unavailable.textContent = t.operations.unavailable; root.append(unavailable);
   } else {
@@ -216,6 +244,7 @@ function renderOperationalStatus(status, runPayload) {
         published: model.latestRun.events_published,
         updates: model.latestRun.material_updates
       }); facts.append(stats);
+      if (model.latestRun.error_summary) fact(t.operations.latestResult, model.latestRun.error_summary);
     }
     fact(t.operations.cadence, t.operations.cadenceValue(status.cadence));
     if (model.nextExpectedAt) fact(t.operations.nextExpected, formatTimestamp(model.nextExpectedAt));
@@ -495,28 +524,36 @@ function render() {
   else section(t.upcoming, '', model.results, root);
 }
 
-function fetchJson(url) {
-  return fetch(url).then(response => {
+function fetchJson(url, options) {
+  return fetch(url, options).then(response => {
     if (!response.ok) throw new Error(`${url}: ${response.status}`);
     return response.json();
   });
 }
 
+function loadOperationalStatus() {
+  const statusUrl = lang === 'es' ? '../discovery/status.json' : 'discovery/status.json';
+  const runsUrl = lang === 'es' ? '../discovery/runs.json' : 'discovery/runs.json';
+  return Promise.all([fetchJson(statusUrl, {cache: 'no-store'}).catch(() => null), fetchJson(runsUrl, {cache: 'no-store'}).catch(() => null)])
+    .then(([statusPayload, runPayload]) => renderOperationalStatus(statusPayload, runPayload));
+}
+
 function loadRadar() {
+  // Status must remain visible even if the event catalog fails to load.
+  loadOperationalStatus();
+  // Refresh telemetry and visitor-time staleness while the page stays open.
+  window.setInterval(loadOperationalStatus, 60_000);
   const eventUrl = lang === 'es' ? '../events.json' : 'events.json';
   const signalUrl = lang === 'es' ? '../signals.json' : 'signals.json';
   const venueUrl = lang === 'es' ? '../venue_identities.json' : 'venue_identities.json';
-  const statusUrl = lang === 'es' ? '../discovery/status.json' : 'discovery/status.json';
-  const runsUrl = lang === 'es' ? '../discovery/runs.json' : 'discovery/runs.json';
-  Promise.all([fetchJson(eventUrl), fetchJson(venueUrl), fetchJson(signalUrl).catch(() => null), fetchJson(statusUrl).catch(() => null), fetchJson(runsUrl).catch(() => null)])
-    .then(([eventPayload, venuePayload, signalPayload, statusPayload, runPayload]) => {
+  Promise.all([fetchJson(eventUrl), fetchJson(venueUrl), fetchJson(signalUrl).catch(() => null)])
+    .then(([eventPayload, venuePayload, signalPayload]) => {
       window.eventsData = eventPayload.events;
       window.venueRegistry = venuePayload;
       window.signalState = resolveSignalState(signalPayload, window.eventsData);
       buildViews();
       document.querySelector('#rule-title').textContent = t.rule;
       document.querySelector('#rule-text').textContent = t.ruleText;
-      renderOperationalStatus(statusPayload, runPayload);
       render();
     })
     .catch(() => { document.querySelector('#radar').innerHTML = `<p class="empty">${t.loadError}</p>`; });

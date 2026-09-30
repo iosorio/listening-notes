@@ -9,9 +9,11 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 from scripts.enrichment_common import EnrichmentError, validate_patch_shape
+from scripts.record_radar_run import append_run
 from scripts.validate_radar_discovery import (
     DiscoveryValidationError,
     derive_health,
+    validate_append_only,
     validate_runs,
     validate_status,
 )
@@ -59,6 +61,43 @@ def run(run_id="run-1", started="2026-09-29T12:00:00-04:00", completed="2026-09-
 
 
 class RadarDiscoveryLedgerTest(unittest.TestCase):
+    def test_heartbeat_append_is_idempotent_and_preserves_history(self):
+        empty = {"schema_version": 1, "runs": []}
+        first = append_run(empty, run())
+        self.assertEqual(empty["runs"], [])
+        self.assertEqual(append_run(first, run()), first)
+        with self.assertRaises(DiscoveryValidationError):
+            append_run(first, run(published=2))
+        second = append_run(first, run("second", "2026-09-29T13:00:00-04:00", "2026-09-29T13:10:00-04:00"))
+        validate_append_only(first, second)
+        for corrupted in (empty, {"schema_version": 1, "runs": [run(published=3)]}):
+            with self.assertRaises(DiscoveryValidationError):
+                validate_append_only(first, corrupted)
+
+    def test_record_command_dry_run_and_retry(self):
+        with TemporaryDirectory() as directory:
+            ledger = Path(directory) / "runs.json"
+            ledger.write_text(json.dumps({"schema_version": 1, "runs": []}))
+            record = Path(directory) / "record.json"
+            record.write_text(json.dumps(run()))
+            command = [sys.executable, str(ROOT / "scripts/record_radar_run.py"), "--record", str(record), "--runs", str(ledger)]
+            subprocess.run(command + ["--dry-run"], check=True, capture_output=True)
+            self.assertEqual(json.loads(ledger.read_text())["runs"], [])
+            subprocess.run(command, check=True, capture_output=True)
+            original = ledger.read_bytes()
+            subprocess.run(command, check=True, capture_output=True)
+            self.assertEqual(ledger.read_bytes(), original)
+            record.write_text(json.dumps(run(published=3)))
+            self.assertNotEqual(subprocess.run(command, capture_output=True).returncode, 0)
+            self.assertEqual(ledger.read_bytes(), original)
+
+    def test_nonfinite_silence_is_rejected(self):
+        for value in (float("inf"), float("nan"), True, 0):
+            malformed = status()
+            malformed["expected_max_silence_hours"] = value
+            with self.assertRaises(DiscoveryValidationError):
+                validate_status(malformed)
+
     def test_successful_zero_result_and_published_run_are_valid(self):
         payload = {"schema_version": 1, "runs": [run(), run("run-2", "2026-09-29T13:00:00-04:00", "2026-09-29T13:12:00-04:00", published=2)]}
         self.assertEqual(validate_runs(payload)[0]["events_published"], 0)
@@ -125,23 +164,62 @@ class DiscoveryProvenanceTest(unittest.TestCase):
 
 
 class RadarStatusBrowserLogicTest(unittest.TestCase):
-    def test_browser_health_matches_contract_and_ignores_event_discovery(self):
+    def test_python_and_browser_health_agree(self):
         if not Path(NODE).is_file():
             self.skipTest("Node.js runtime is unavailable")
+        now = datetime.fromisoformat("2026-09-29T16:00:00-04:00")
+        success = run()
+        failed = run("failed", "2026-09-29T14:00:00-04:00", "2026-09-29T14:05:00-04:00", "error")
+        partial = run("partial", "2026-09-29T15:00:00-04:00", "2026-09-29T15:05:00-04:00", "partial")
+        recovered = run("recovered", "2026-09-29T15:30:00-04:00", "2026-09-29T15:40:00-04:00")
+        cases = [
+            (status(), [], now, "unknown"),
+            (status(False), [], now, "off"),
+            (status(), [success], now, "healthy"),
+            (status(False), [success], now, "off"),
+            (status(), [success], datetime.fromisoformat("2026-09-30T00:10:00-04:00"), "healthy"),
+            (status(), [success], datetime.fromisoformat("2026-09-30T00:10:01-04:00"), "stale"),
+            (status(), [success, failed], now, "error"),
+            (status(), [success, failed, partial], now, "error"),
+            (status(), [failed, partial], now, "error"),
+            (status(), [partial], now, "unknown"),
+            (status(), [success, partial], now, "healthy"),
+            (status(), [success, partial], datetime.fromisoformat("2026-09-30T16:00:00-04:00"), "stale"),
+            (status(), [failed, partial, recovered], now, "healthy"),
+            (status(), [success], datetime.fromisoformat("2026-09-29T11:00:00-04:00"), "unknown"),
+        ]
+        fixtures = []
+        for desired, runs, clock, expected in cases:
+            with self.subTest(expected=expected, runs=runs, clock=clock):
+                report = derive_health(validate_status(desired), validate_runs({"schema_version": 1, "runs": runs}), clock)
+                self.assertEqual(report["state"], expected)
+                if expected == "off":
+                    self.assertIsNone(report["next_expected_at"])
+                fixtures.append({"status": desired, "runs": {"schema_version": 1, "runs": runs}, "now": clock.isoformat(), "expected": expected})
         script = r"""
 const assert = require('node:assert/strict');
 const {deriveOperationalHealth} = require('./radar/app.js');
-const status = {schema_version:1,enabled:true,cadence:'hourly',expected_max_silence_hours:12};
-const run = (id, completed, outcome='success') => ({run_id:id,completed_at:completed,status:outcome});
-assert.equal(deriveOperationalHealth(status,{schema_version:1,runs:[run('recent','2026-09-29T12:00:00-04:00')]},new Date('2026-09-29T13:00:00-04:00')).state,'healthy');
-assert.equal(deriveOperationalHealth(status,{schema_version:1,runs:[run('old','2026-09-27T12:00:00-04:00')]},new Date('2026-09-29T13:00:00-04:00')).state,'stale');
-assert.equal(deriveOperationalHealth({...status,enabled:false},{schema_version:1,runs:[]},new Date()).state,'off');
-assert.equal(deriveOperationalHealth(status,{schema_version:1,runs:[run('failed','2026-09-29T12:00:00-04:00','error')]},new Date()).state,'error');
-assert.equal(deriveOperationalHealth(status,{schema_version:1,runs:[run('failed','2026-09-29T11:00:00-04:00','error'),run('recovered','2026-09-29T12:00:00-04:00')]},new Date('2026-09-29T13:00:00-04:00')).state,'healthy');
-assert.equal(deriveOperationalHealth(status,{schema_version:1,runs:[]},new Date()).state,'unknown');
-assert.equal(deriveOperationalHealth(status,{schema_version:1,runs:[run('scan','2026-09-29T12:00:00-04:00')]},new Date('2026-09-29T13:00:00-04:00')).latestRun.run_id,'scan');
+const cases = JSON.parse(require('fs').readFileSync(0, 'utf8'));
+for (const fixture of cases) {
+  const model = deriveOperationalHealth(fixture.status, fixture.runs, new Date(fixture.now));
+  assert.equal(model.state, fixture.expected, JSON.stringify(fixture));
+  if (model.state === 'off') assert.equal(model.nextExpectedAt, null);
+}
+const valid = cases[2];
+for (const runs of [null, {}, {schema_version:1,runs:[null]}, {schema_version:1,runs:[{}]},
+  {schema_version:1,runs:[{...valid.runs.runs[0],completed_at:'invalid'}]},
+  {schema_version:1,runs:[{...valid.runs.runs[0],sources_checked:-1}]}]) {
+  assert.equal(deriveOperationalHealth(valid.status,runs,new Date(valid.now)).state,'unknown');
+}
+assert.equal(deriveOperationalHealth({...valid.status,enabled:false},null).state,'off');
+assert.equal(deriveOperationalHealth({...valid.status,expected_max_silence_hours:Infinity},valid.runs).state,'unknown');
+const realStatus = require('./radar/discovery/status.json');
+const realRuns = require('./radar/discovery/runs.json');
+// The canonical catalog is deliberately not an input to operational health.
+if (realStatus.enabled && realRuns.runs.length === 0) assert.equal(deriveOperationalHealth(realStatus,realRuns).state,'unknown');
 """
-        subprocess.run([NODE, "-e", script], cwd=ROOT, capture_output=True, text=True, check=True)
+        result = subprocess.run([NODE, "-e", script], input=json.dumps(fixtures), cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
 
 
 if __name__ == "__main__":

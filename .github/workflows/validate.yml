@@ -57,6 +57,11 @@ jobs:
         run: python scripts/validate_signals.py radar/signals.json radar/events.json
       - name: Validate and audit RADAR operational state
         run: python scripts/validate_radar_discovery.py
+      - name: Preserve existing RADAR heartbeats
+        if: github.event_name == 'pull_request' || github.event_name == 'push'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: python scripts/validate_radar_discovery.py --base-ref "$BASE_SHA"
       - name: Validate changed unreviewed enrichment research
         if: github.event_name == 'pull_request' || github.event_name == 'push'
         env:
