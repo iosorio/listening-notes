@@ -1,0 +1,419 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "jazz-gallery-sanchez-zenon-lindner-giraudo-2026-09-30-intake",
+  "published_at": "2026-09-30T14:54:15.709Z",
+  "checked_on": "2026-09-30",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-09-30",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current durable repository authority. Current RADAR operations, priority, editorial, geography, data-model and inbox contracts were read before research or grading. Fresh checks covered Tsuyoshi Yamamoto, Jazz House ALFIE, BODY&SOUL, Keystone Club Tokyo, Space M&A and current Japanese-jazz schedule sources before widening to official venue calendars in the US corridor. Yamamoto's October 6, 16, 21 and Space M&A dates already had repository representation or did not add an admissible new event; the prior Pi Recordings anniversary batch remained visible in curated intake and was not duplicated. Stage 1 admits four Jazz Gallery engagements for event-specific reasons: Angelica Sanchez premieres a new open-form work for nonet; Miguel Zenón and Luis Perdomo return to the room where their El Arte del Bolero project began for Vol. 3; Jason Lindner Broadband reconnects a long-running club lineage in a four-night Signature Series; and Pedro Giraudo deploys a ten-piece jazz/tango/chamber ensemble with Afro-Cuban and Afro-Peruvian dimensions. Stage 2 assigns A+ to Sanchez, Zenón/Perdomo and Lindner, and A to Giraudo. The premiere was explicitly challenged for scarcity; A+ remains sufficient because no farewell, final appearance or historically singular circumstance is documented. The batch adds A 1 / A+ 3 / S 0 / S+ 0 and does not expand scarcity tiers. No automated self-check is represented as independent Codex or human review.",
+  "events": [
+    {
+      "id": "angelica-sanchez-nonet-jazz-gallery-new-york-2026-10-15",
+      "discovered_at": "2026-09-30T14:54:15.709Z",
+      "artist": "The Angelica Sanchez Nonet",
+      "subtitle": "Premiere of a new original work",
+      "dates": {
+        "start": "2026-10-15",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary large-ensemble jazz / new-work premiere",
+      "genres": [
+        "Contemporary jazz",
+        "Improvised music",
+        "Avant-garde jazz"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Angelica Sanchez — piano and composition",
+        "John Hebert — bass",
+        "Sam Ospavot — drums",
+        "Michaël Attias — alto saxophone",
+        "Hery Paz — tenor saxophone and flute",
+        "Thomas Heberer — trumpet",
+        "Kenny Warren — cornet",
+        "Ben Davis — cello",
+        "Ben Goldberg — contra-alto clarinet"
+      ],
+      "factual_description": "The Jazz Gallery presents The Angelica Sanchez Nonet on Thursday, October 15, 2026, with sets at 7:00 PM and 9:00 PM. The announced nine-piece ensemble is Angelica Sanchez, John Hebert, Sam Ospavot, Michaël Attias, Hery Paz, Thomas Heberer, Kenny Warren, Ben Davis and Ben Goldberg. The venue states that the Nonet will premiere a new original work built around open form, collective interaction and spontaneous creation. General seating is $33 and cabaret seating is $44, including online purchasing fees; livestream access is listed separately at $22.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/angelica-sanchez-oct-15",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1152592?performanceId=11870649"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 33,
+          "maximum": 44,
+          "source_url": "https://ci.ovationtix.com/36369/production/1152592?performanceId=11870649",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact official event page and venue-authorized ticket destination were verified. No exact Apple Music preparation destination was established during this pass, so optional listening enrichment remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/angelica-sanchez-oct-15",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the billing, date or date range, 7:00 PM and 9:00 PM sets, announced lineup, project context, and any stated seating prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1152592?performanceId=11870649",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact venue-authorized purchase destination for the first listed 7:00 PM performance; the official event page exposes separate links for the remaining set or sets."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "note": "The exact Jazz Gallery page supplies the premiere claim, complete lineup, date, times and prices; its AudienceView link establishes authorized ticketing. The explicit one-night premiere triggered a scarcity challenge, but A+ remains sufficient because no farewell, final performance or historically singular circumstance is documented. Repository searches for the artist/project, date and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after Stage 1 admission. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The premiere is the concrete reason to hear this date: Sanchez writes around the individual voices of a nine-piece ensemble whose colors extend from trumpet and cornet to cello and contra-alto clarinet. The promise is not merely a large lineup but a new open-form work designed to move between composition, collective improvisation and deep listening.",
+          "trip_verdict": "If an October New York trip is possible, actively make room for one of the two premiere sets. The one-night new-work context sharpens the recommendation, but the available evidence does not make it a singular enough occasion to dictate a dedicated DMV-to-New-York trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El estreno es la razón concreta para escuchar esta fecha: Sanchez escribe alrededor de las voces individuales de un noneto cuyos colores van de la trompeta y la corneta al violonchelo y el clarinete contralto. No atrae sólo la alineación numerosa, sino una obra nueva de forma abierta pensada para moverse entre composición, improvisación colectiva y escucha profunda.",
+          "trip_verdict": "Si cabe un viaje a Nueva York en octubre, haría espacio activamente para uno de los dos sets del estreno. El contexto de obra nueva en una sola noche refuerza la recomendación, aunque la evidencia disponible no la vuelve tan singular como para ordenar por sí sola un viaje dedicado desde el DMV.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "miguel-zenon-luis-perdomo-el-arte-del-bolero-jazz-gallery-new-york-2026-10-17",
+      "discovered_at": "2026-09-30T14:54:15.709Z",
+      "artist": "Miguel Zenón & Luis Perdomo",
+      "subtitle": "El Arte del Bolero, Vol. 3",
+      "dates": {
+        "start": "2026-10-17",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Latin American songbook / saxophone-piano duo",
+      "genres": [
+        "Jazz",
+        "Latin jazz",
+        "Bolero"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Miguel Zenón — saxophone",
+        "Luis Perdomo — piano"
+      ],
+      "factual_description": "The Jazz Gallery presents Miguel Zenón and Luis Perdomo in El Arte del Bolero on Saturday, October 17, 2026, with sets at 7:00 PM and 9:00 PM. The venue identifies the program with El Arte del Bolero, Vol. 3 and describes the duo's transformation of the Latin American songbook, a project that began in an intimate Jazz Gallery session during the pandemic. General seating is $33 and cabaret seating is $44, including online purchasing fees; livestream access is listed separately at $22.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/miguel-zenon-oct-17",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1242562?performanceId=11870681"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 33,
+          "maximum": 44,
+          "source_url": "https://ci.ovationtix.com/36369/production/1242562?performanceId=11870681",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact official event page and venue-authorized ticket destination were verified. No exact Apple Music preparation destination was established during this pass, so optional listening enrichment remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/miguel-zenon-oct-17",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the billing, date or date range, 7:00 PM and 9:00 PM sets, announced lineup, project context, and any stated seating prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1242562?performanceId=11870681",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact venue-authorized purchase destination for the first listed 7:00 PM performance; the official event page exposes separate links for the remaining set or sets."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "note": "The exact Jazz Gallery page supplies the Vol. 3 billing, project origin, duo lineup, date, times and prices; its AudienceView link establishes authorized ticketing. The evolving recorded project and two-set format support A+ but not a scarcity tier. Repository searches for the artist/project, date and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after Stage 1 admission. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Zenón and Perdomo return the bolero to the room where this duo project began, stripping the Latin American songbook down to saxophone, piano, memory and improvisational risk. Vol. 3 makes the night part of an evolving body of work rather than a generic standards set, with Puerto Rican and Venezuelan musical perspectives meeting in unusually intimate form.",
+          "trip_verdict": "Actively make room if October 17 falls inside a New York visit, especially if the surrounding trip already follows Latin or small-room jazz threads. The duo's continuity with The Jazz Gallery deepens the evening, while one of two sets can fit naturally into a broader itinerary.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Zenón y Perdomo devuelven el bolero a la sala donde nació este proyecto de dúo, reduciendo el cancionero latinoamericano a saxofón, piano, memoria y riesgo improvisatorio. El Vol. 3 convierte la noche en un capítulo de una obra en evolución, no en una sesión genérica de estándares, y cruza perspectivas musicales puertorriqueñas y venezolanas en un formato especialmente íntimo.",
+          "trip_verdict": "Haría espacio activamente si el 17 de octubre cae dentro de una visita a Nueva York, sobre todo si el viaje ya sigue hilos de música latina o jazz de sala pequeña. La continuidad del dúo con The Jazz Gallery profundiza la noche, y cualquiera de los dos sets cabe de forma natural en un itinerario más amplio.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "jason-lindner-broadband-jazz-gallery-new-york-2026-10-21",
+      "discovered_at": "2026-09-30T14:54:15.709Z",
+      "artist": "Jason Lindner Broadband",
+      "subtitle": "TJG Signature Series — featuring Yosvany Terry, Donny McCaslin, Ryan Easter and Nate Wood",
+      "dates": {
+        "start": "2026-10-21",
+        "end": "2026-10-24"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Signature-series reunion / contemporary New York jazz ensemble",
+      "genres": [
+        "Contemporary jazz",
+        "Fusion",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Fusion / Prog",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Jason Lindner",
+        "Yosvany Terry",
+        "Donny McCaslin",
+        "Ryan Easter",
+        "Nate Wood"
+      ],
+      "factual_description": "The Jazz Gallery presents Jason Lindner Broadband from Wednesday through Saturday, October 21–24, 2026, as part of its Signature Series, with 7:00 PM and 9:00 PM ticketed sets each night. The venue announces Jason Lindner with Yosvany Terry, Donny McCaslin, Ryan Easter and Nate Wood. Its event history places the ensemble's origins in the mid-1990s New York scene and notes its return after the club's 2025 thirtieth-anniversary run. The venue supplies separate authorized ticket links for all eight sets; seating prices were not stated on the accessible event page.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/jason-lindner-big-band-oct-2026",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1242561?performanceId=11871542"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36369/production/1242561?performanceId=11871542",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact official event page and venue-authorized ticket destination were verified. No exact Apple Music preparation destination was established during this pass, so optional listening enrichment remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/jason-lindner-big-band-oct-2026",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the billing, date or date range, 7:00 PM and 9:00 PM sets, announced lineup, project context, and any stated seating prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1242561?performanceId=11871542",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact venue-authorized purchase destination for the first listed 7:00 PM performance; the official event page exposes separate links for the remaining set or sets."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "note": "The exact Jazz Gallery page supplies the four-night Signature Series billing, announced participants, ensemble history and separate ticket links; its AudienceView destination establishes authorized ticketing. The extended run and documented 2025 return make A+ sufficient rather than a scarcity tier. Repository searches for the artist/project, date and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after Stage 1 admission. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is a lineage date, not just a strong quintet: Lindner's long Jazz Gallery history reconnects with Yosvany Terry, Donny McCaslin, Ryan Easter and Nate Wood in a Signature Series return rooted in the club's 1990s and early-2000s creative network. The lineup concentrates several distinct rhythmic and horn languages inside one durable New York ensemble identity.",
+          "trip_verdict": "If a New York trip lands between October 21 and 24, actively reserve one of the eight sets; the four-night span offers unusual scheduling flexibility. The extended run makes it easy to prioritize without treating any single set as an irreplaceable travel mandate.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Ésta es una fecha de linaje, no sólo un quinteto poderoso: la larga historia de Lindner con The Jazz Gallery vuelve a enlazarse con Yosvany Terry, Donny McCaslin, Ryan Easter y Nate Wood en una Signature Series arraigada en la red creativa neoyorquina de los noventa y principios de los dos mil. La formación concentra lenguajes rítmicos y de alientos muy distintos dentro de una identidad colectiva duradera.",
+          "trip_verdict": "Si un viaje a Nueva York cae entre el 21 y el 24 de octubre, apartaría activamente uno de los ocho sets; las cuatro noches dan una flexibilidad poco común. La extensión de la serie permite priorizarla sin convertir un set específico en mandato irreemplazable de viaje.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "giraudo-sinfonietta-jazz-gallery-new-york-2026-10-30",
+      "discovered_at": "2026-09-30T14:54:15.709Z",
+      "artist": "Giraudo Sinfonietta",
+      "subtitle": "Pedro Giraudo's jazz, tango and chamber ensemble",
+      "dates": {
+        "start": "2026-10-30",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Latin chamber jazz / tango / ten-piece ensemble",
+      "genres": [
+        "Jazz",
+        "Tango",
+        "Classical crossover",
+        "Latin music"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Pedro Giraudo — bass",
+        "Katie Althen-Velázquez — flute",
+        "Mark Dover — clarinet",
+        "Jesus Ricardo — trumpet",
+        "Ryan Keberle — trombone",
+        "Sami Merdinian — violin",
+        "Suliman Tekalli — violin",
+        "Caeli Smith — viola",
+        "Laura Andrade — cello",
+        "Ahmed Alom — piano"
+      ],
+      "factual_description": "The Jazz Gallery presents Giraudo Sinfonietta on Friday, October 30, 2026, with sets at 7:00 PM and 9:00 PM. The announced ten-piece ensemble combines bass, flute, clarinet, trumpet, trombone, two violins, viola, cello and piano. The venue describes Pedro Giraudo's compositions as bringing together jazz, tango and classical music with Afro-Cuban and Afro-Peruvian nuances. General seating is $33 and cabaret seating is $44, including online purchasing fees; livestream access is listed separately at $22.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/pedro-giraudo-oct-30",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1255565?performanceId=11872695"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 33,
+          "maximum": 44,
+          "source_url": "https://ci.ovationtix.com/36369/production/1255565?performanceId=11872695",
+          "checked_on": "2026-09-30"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact official event page and venue-authorized ticket destination were verified. No exact Apple Music preparation destination was established during this pass, so optional listening enrichment remains pending."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/pedro-giraudo-oct-30",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-09-30",
+          "note": "Primary venue page verifies the billing, date or date range, 7:00 PM and 9:00 PM sets, announced lineup, project context, and any stated seating prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1255565?performanceId=11872695",
+          "publisher": "AudienceView Professional / The Jazz Gallery authorized ticketing",
+          "checked_on": "2026-09-30",
+          "note": "Exact venue-authorized purchase destination for the first listed 7:00 PM performance; the official event page exposes separate links for the remaining set or sets."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "note": "The exact Jazz Gallery page supplies the complete lineup, date, times, prices and jazz/tango/classical/Afro-Cuban/Afro-Peruvian description; its AudienceView link establishes authorized ticketing. A reflects a clearly admitted and distinctive cross-genre ensemble worth attending when convenient; no premiere, farewell or other context demands stronger travel behavior. Repository searches for the artist/project, date and proposed stable ID found no matching canonical, curated or processed record before publication. Priority was assigned only after Stage 1 admission. Editorial review was performed by RADAR automation editorial review."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Giraudo uses a compact chamber orchestra to place tango and jazz beside Afro-Cuban and Afro-Peruvian color without treating any of them as ornament. The winds, brass and string quartet give his bass-led writing an unusually broad palette, making this a useful RADAR date for the project's cross-genre craft and Latin identity.",
+          "trip_verdict": "If October 30 is already part of a New York stay, this is well worth fitting into the evening, particularly for a trip following Latin and chamber-jazz threads. The continuing ensemble context does not require a dedicated trip on its own.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Giraudo usa una orquesta de cámara compacta para colocar el tango y el jazz junto a colores afrocubanos y afroperuanos sin convertir ninguno en adorno. Los alientos, metales y el cuarteto de cuerdas dan a su escritura guiada por el contrabajo una paleta inusualmente amplia, y vuelven esta fecha útil para RADAR por su oficio transgenérico y su identidad latina.",
+          "trip_verdict": "Si el 30 de octubre ya forma parte de una estancia en Nueva York, vale la pena integrarlo a la noche, sobre todo en un viaje que siga hilos latinos y de jazz de cámara. El carácter continuo del ensamble no justifica por sí solo un viaje dedicado.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}

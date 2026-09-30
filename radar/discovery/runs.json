@@ -39,6 +39,24 @@
       "events_admitted": 3,
       "events_published": 3,
       "material_updates": 0
+    },
+    {
+      "run_id": "radar-20260930T144236856Z-05nmxugincwx",
+      "started_at": "2026-09-30T14:42:36.856Z",
+      "completed_at": "2026-09-30T14:54:15.709Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto / Jazz House ALFIE / BODY&SOUL / Space M&A",
+        "Greater Tokyo / Kanto jazz",
+        "US corridor official venue and promoter calendars"
+      ],
+      "sources_checked": 23,
+      "candidates_reviewed": 18,
+      "events_admitted": 4,
+      "events_published": 4,
+      "material_updates": 0
     }
   ]
 }
