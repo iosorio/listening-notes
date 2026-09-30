@@ -11,7 +11,7 @@ import subprocess
 import sys
 import unicodedata
 from copy import deepcopy
-from datetime import date, datetime, timezone
+from datetime import date, datetime
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -260,7 +260,6 @@ def merge(
     blocked_by_path: dict[Path, list[dict]] = {}
     seen = set(existing)
     candidates_to_compare = list(canonical["events"])
-    canonicalized_at = canonicalized_at or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     for path in paths:
         batch = read_json(path)
         payloads[path] = batch
@@ -277,7 +276,8 @@ def merge(
                 blocked_by_path[path].append(candidate)
                 continue
             published_at = batch.get("published_at") if batch.get("batch_version") == 2 else None
-            normalized, changes = normalize(candidate, published_at, canonicalized_at if published_at else None)
+            normalization_time = (canonicalized_at or published_at) if published_at else None
+            normalized, changes = normalize(candidate, published_at, normalization_time)
             duplicate = next((event for event in candidates_to_compare if semantic_duplicate(normalized, event)), None)
             if duplicate:
                 report["semantic_conflicts"].append({
