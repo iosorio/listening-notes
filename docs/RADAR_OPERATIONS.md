@@ -91,7 +91,10 @@ For every scheduled or manual attempt, an executor must:
    zero. Record broad, non-private `threads_checked`, not research transcripts.
 7. Use `success` only when the intended scan completed, `partial` when useful
    work completed with gaps, and `error` when the scan failed. Include a concise
-   `error_summary` for partial/error outcomes.
+   `error_summary` for partial/error outcomes. The key is always required:
+   explicitly use `"error_summary": null` for success. Use
+   `python3 scripts/record_radar_run.py --record /path/to/completed-run.json`
+   to validate and append the actual record; identical retries are idempotent.
 8. Commit/push the intake and heartbeat together when possible. Never rewrite
    or delete earlier run records.
 
@@ -124,3 +127,36 @@ an exact time, outcome, and counters are unavailable.
 
 No browser credential, PAT, repository secret, OpenAI key, or scraped research
 log belongs in the public repository.
+
+## September 30 outage, investigated October 14, 2026
+
+Production remained at `b5c793a` through October 14. The October 12 validation
+run failed because three real success records omitted `error_summary`.
+The discovery chat reported pausing after that failure. The repair adds only
+the three explicit nulls, preserving all six runs, timestamps and counters;
+it does not record a new scan or claim restored search health.
+
+Separately, RADAR ingest failed because historical discovery verification
+compared the entire live catalog with the fixed September 29 backfill hash.
+The first two legitimate v2 additions made that condition impossible. The
+verifier now checks the original backfill hash and reconstructs the current
+catalog by replaying processed v2 intake. Each processed batch must preserve
+an exact curated source in Git history. Unrecorded edits, deletions and
+additions still fail validation; historical manifests are unchanged.
+
+The five pending September 30 intake batches contain 12 candidates. The ingest
+workflow retries them when the repair is deployed. Recovery also registers
+Jammin' Java from its official promoter page, removes the unsupported
+`official_ticket_price` enrichment label from Oz Noy and SQUANDERERS (prices
+remain null and the explanatory notes remain), and aligns Luke Stewart's
+English travel text with its existing A+ rating. The October 14 primary-source
+check corrects Oz Noy's doors time to 6:00 PM; the older source note is retained
+with an explicit superseding note. Past dates remain valid
+historical records and do not imply attendance. Deployment and queue recovery
+are separate from re-enabling the external discovery automation. Update that
+automation to use the complete heartbeat schema, then require a real successful
+scan before reporting recovery. Do not disable its schedule automatically on a
+validation error: report the error and retry on the existing cadence.
+
+Evidence: [October 12 validation failure](https://github.com/iosorio/listening-notes/actions/runs/38254308729),
+[September 30 ingest failure](https://github.com/iosorio/listening-notes/actions/runs/36753523090).
