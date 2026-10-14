@@ -48,7 +48,7 @@
         "Brian Charette — organ",
         "Dave Weckl — drums"
       ],
-      "factual_description": "Union Stage Presents lists An Evening with Oz Noy Trio featuring Dave Weckl and Brian Charette at Jammin' Java in Vienna, Virginia, on Monday, October 26, 2026. Doors are at 6:30 PM and the show starts at 7:30 PM. The promoter identifies the Fall 2026 North American trio as Oz Noy on guitar, Brian Charette on organ and Dave Weckl on drums, and describes Noy's music as a groove-focused blend of jazz, funk, rock, blues and R&B. The show is part of the Jammin' Java / Union Stage Presents 25th-anniversary concert series. An exact authorized Opendate purchase destination is linked from the promoter page; an accessible ticket price was not published in the verified page text, so none is inferred.",
+      "factual_description": "Union Stage Presents lists An Evening with Oz Noy Trio featuring Dave Weckl and Brian Charette at Jammin' Java in Vienna, Virginia, on Monday, October 26, 2026. Doors are at 6:00 PM and the show starts at 7:30 PM. The promoter identifies the Fall 2026 North American trio as Oz Noy on guitar, Brian Charette on organ and Dave Weckl on drums, and describes Noy's music as a groove-focused blend of jazz, funk, rock, blues and R&B. The show is part of the Jammin' Java / Union Stage Presents 25th-anniversary concert series. An exact authorized Opendate purchase destination is linked from the promoter page; an accessible ticket price was not published in the verified page text, so none is inferred.",
       "links": {
         "official_event": "https://www.unionstagepresents.com/shows/an-evening-with-oz-noy-trio-featuring-dave-weckl-brian-charette-26-oct",
         "official_tickets": "https://app.opendate.io/confirms/656391/web_orders/new"
@@ -72,12 +72,17 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_ticket_price",
           "apple_music"
         ],
         "note": "The exact promoter event page and its authorized Opendate purchase destination were verified. The accessible first-party text did not expose a ticket price, and no exact Apple Music preparation destination was established during this pass, so both remain pending rather than inferred."
       },
       "sources": [
+        {
+          "url": "https://www.unionstagepresents.com/shows/an-evening-with-oz-noy-trio-featuring-dave-weckl-brian-charette-26-oct",
+          "publisher": "Union Stage Presents / Jammin' Java",
+          "checked_on": "2026-10-14",
+          "note": "Recovery review confirms Jammin' Java at 227 Maple Avenue East, Vienna, Virginia. The current official listing gives 6:00 PM doors and a 7:30 PM show; the current door time supersedes the September 30 source note. Prices remain unknown."
+        },
         {
           "url": "https://www.unionstagepresents.com/shows/an-evening-with-oz-noy-trio-featuring-dave-weckl-brian-charette-26-oct",
           "publisher": "Union Stage Presents / Jammin' Java",

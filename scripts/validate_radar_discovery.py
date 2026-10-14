@@ -107,7 +107,10 @@ def validate_runs(payload: dict) -> list[dict]:
     for index, run in enumerate(runs):
         field = f"runs[{index}]"
         if not isinstance(run, dict) or set(run) != required:
-            raise DiscoveryValidationError(f"{field} has an unsupported shape")
+            detail = ""
+            if isinstance(run, dict):
+                detail = f"; missing={sorted(required - set(run))}, unexpected={sorted(set(run) - required)}"
+            raise DiscoveryValidationError(f"{field} has an unsupported shape{detail}")
         run_id = run["run_id"]
         if not isinstance(run_id, str) or not run_id.strip() or run_id in seen:
             raise DiscoveryValidationError(f"{field}.run_id must be non-empty and unique")
