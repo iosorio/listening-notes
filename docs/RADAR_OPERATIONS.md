@@ -130,7 +130,7 @@ log belongs in the public repository.
 
 ## September 30 outage, investigated October 14, 2026
 
-Production remained at `b5c793a` through October 14. The October 12 validation
+Production remained at `b5c793a` until the October 14 recovery. The October 12 validation
 run failed because three real success records omitted `error_summary`.
 The discovery chat reported pausing after that failure. The repair adds only
 the three explicit nulls, preserving all six runs, timestamps and counters;
@@ -160,3 +160,23 @@ validation error: report the error and retry on the existing cadence.
 
 Evidence: [October 12 validation failure](https://github.com/iosorio/listening-notes/actions/runs/38254308729),
 [September 30 ingest failure](https://github.com/iosorio/listening-notes/actions/runs/36753523090).
+
+### Published recovery — October 14, 2026
+
+[PR #4](https://github.com/iosorio/listening-notes/pull/4) was merged as
+`7315434`. [RADAR ingest](https://github.com/iosorio/listening-notes/actions/runs/38616734246)
+successfully processed all five pending batches, adding 12 events in commit
+`75fac81` and bringing the canonical catalog to 240 events. The
+[Pages deployment](https://github.com/iosorio/listening-notes/actions/runs/38616889754)
+succeeded; the public `radar/events.json` was verified byte-for-byte against
+that commit. Event, signal, and discovery-schema validation passed on Mac Pro,
+as did all 136 tests. Both machine checkouts were synchronized to the published
+commit.
+
+The external executor received a request to reactivate its existing schedule,
+adopt the corrected heartbeat contract, and perform a real manual recovery
+scan. At the recovery check, that chat had returned to idle without an answer;
+schedule activation and a new discovery run were therefore unconfirmed. The
+latest successful heartbeat still dated from September 30, so discovery health
+correctly remained `STALE`. Queue recovery and deployment did not create a new
+heartbeat or establish that recurring research had resumed.
