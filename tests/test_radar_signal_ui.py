@@ -50,13 +50,32 @@ class RadarSignalStructureTest(unittest.TestCase):
 
 
 class RadarSignalBehaviorTest(unittest.TestCase):
-    def model_report(self):
+    def venue_fixture(self):
+        def event(event_id, venue_id, venue_name, start="2026-10-01", status="considering"):
+            return {
+                "id": event_id, "artist": event_id, "subtitle": None,
+                "venue": {"id": venue_id, "name": venue_name, "city": "Washington, DC"},
+                "dates": {"start": start, "end": None}, "status": status, "priority": "A",
+            }
+
+        # Exercise venue identity with a fixed catalog, independent of live intake.
+        return [
+            event("blues-first", "blues-alley-washington-dc", "Blues Alley"),
+            event("blues-new", "blues-alley-washington-dc", "Blues Alley", "2026-11-25"),
+            event("same-name-other-id", "other-room", "Blues Alley"),
+            event("blues-past", "blues-alley-washington-dc", "Blues Alley", "2026-08-01"),
+            event("blues-attended", "blues-alley-washington-dc", "Blues Alley", status="attended"),
+            event("wharf-show", "the-wharf-washington-dc", "The Wharf"),
+            event("tsuyoshi-yamamoto-trio-yokohama-jazz-first-2026-08-28", "yokohama-jazz-first-yokohama", "Jazz First", "2026-08-28"),
+        ]
+
+    def model_report(self, events=None):
         if not Path(NODE).is_file():
             self.skipTest("Node.js runtime is unavailable")
         script = r"""
 const fs = require('fs');
 const logic = require('./radar/app.js');
-const events = JSON.parse(fs.readFileSync('./radar/events.json', 'utf8')).events;
+const events = JSON.parse(fs.readFileSync(0, 'utf8'));
 const venues = JSON.parse(fs.readFileSync('./radar/venue_identities.json', 'utf8'));
 const signals = JSON.parse(fs.readFileSync('./radar/signals.json', 'utf8'));
 const resolved = logic.resolveSignalState(signals, events);
@@ -88,7 +107,10 @@ console.log(JSON.stringify({
 }));
 """
         result = subprocess.run(
-            [NODE, "-e", script], cwd=ROOT, capture_output=True, text=True, check=True
+            [NODE, "-e", script], cwd=ROOT, capture_output=True, text=True, check=True,
+            input=json.dumps(events if events is not None else json.loads(
+                (ROOT / "radar/events.json").read_text()
+            )["events"]),
         )
         return json.loads(result.stdout)
 
@@ -106,26 +128,13 @@ console.log(JSON.stringify({
         self.assertFalse(report["failed"]["signalVisible"])
         self.assertIn(current, report["failed"]["ids"])
 
-    def test_blues_alley_filter_accepts_only_declared_alias_normalization(self):
-        report = self.model_report()["bluesAlley"]
-        published = {
-            "nanny-assis-afro-jobim-toninho-horta-blues-alley-2026-09-08",
-            "trio-da-paz-2026",
-            "brazilian-guitars-2026",
-            "claudia-acuna-2026",
-            "camila-meza-2026",
-            "nicholas-payton-a-supreme-blue-blues-alley-2026-09-26",
-            "benito-gonzalez-buster-williams-lenny-white-blues-alley-2026-10-01",
-            "arturo-ofarrill-quintet-blues-alley-2026-10-03",
-        }
-        authorized_materialization = {
-            "emilio-solla-bien-sur-blues-alley-dc-2026-09-24",
-            "jeremy-pelt-pelt-at-50-blues-alley-washington-dc-2026-11-05",
-            "mario-wellmann-ecos-del-sur-blues-alley-washington-dc-2026-09-15",
-        }
+    def test_blues_alley_filter_uses_canonical_identity_and_upcoming_view(self):
+        models = self.model_report(self.venue_fixture())
+        self.assertTrue(models["unfiltered"]["signalVisible"])
+        report = models["bluesAlley"]
         ids = set(report["ids"])
         self.assertFalse(report["signalVisible"])
-        self.assertIn(ids, (published, published | authorized_materialization))
+        self.assertEqual(ids, {"blues-first", "blues-new"})
         self.assertEqual(report["count"], len(ids))
         self.assertEqual(len(report["ids"]), len(ids))
         self.assertTrue(all(event["venue"]["id"] == "blues-alley-washington-dc" for event in report["events"]))
@@ -134,13 +143,12 @@ console.log(JSON.stringify({
                 semantic_duplicate(left, right),
                 f"Blues Alley filter contains a semantic duplicate: {left['id']} / {right['id']}",
             )
-        self.assertIn("Nanny Assis ‘Afro-Jobim’ feat. Toninho Horta", report["artists"])
 
     def test_the_wharf_filter_returns_its_single_normal_result(self):
-        report = self.model_report()["wharf"]
+        report = self.model_report(self.venue_fixture())["wharf"]
         self.assertFalse(report["signalVisible"])
         self.assertEqual(report["count"], 1)
-        self.assertEqual(report["artists"], ["African Rhythms Alumni Quintet"])
+        self.assertEqual(report["ids"], ["wharf-show"])
 
     def test_every_filter_and_archive_hide_signal(self):
         report = self.model_report()
