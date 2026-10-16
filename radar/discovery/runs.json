@@ -307,6 +307,27 @@
       "events_published": 0,
       "material_updates": 0,
       "error_summary": "The current KEYSTONE CLUB TOKYO page continues to date the already-canonical Yamamoto Night! billing to November 24 rather than November 17. The repository has no approved factual date-correction workflow, so no duplicate or update was published; all intended discovery threads otherwise completed."
+    },
+    {
+      "run_id": "radar-20261016T224757979Z-91jq97vs7j",
+      "started_at": "2026-10-16T22:47:57.979Z",
+      "completed_at": "2026-10-16T22:53:05.046Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto / Jazz House ALFIE / BODY&SOUL / KEYSTONE CLUB TOKYO / Space M&A",
+        "Greater Tokyo / Kanto official venue and Japanese-jazz calendars",
+        "DMV, Baltimore and Philadelphia official presenter calendars",
+        "Newark / New Jersey official jazz calendars",
+        "New York jazz, creative-music and experimental venue calendars"
+      ],
+      "sources_checked": 22,
+      "candidates_reviewed": 32,
+      "events_admitted": 7,
+      "events_published": 7,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
