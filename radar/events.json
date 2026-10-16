@@ -20497,6 +20497,120 @@
       }
     },
     {
+      "id": "las-migas-music-center-strathmore-north-bethesda-2026-11-08",
+      "discovered_at": "2026-10-16T19:48:46.895Z",
+      "artist": "Las Migas",
+      "subtitle": "Flamencas tour",
+      "dates": {
+        "start": "2026-11-08",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Contemporary flamenco quartet / two guitars, violin and vocals",
+      "genres": [
+        "Flamenco",
+        "Latin",
+        "Folk",
+        "Jazz"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Las Migas — contemporary flamenco quartet; the checked Strathmore page does not itemize the touring personnel"
+      ],
+      "factual_description": "Strathmore presents Las Migas at the Music Center in North Bethesda on Sunday, November 8, 2026, at 7:00 PM. The venue identifies the Barcelona group as a Latin Grammy-winning flamenco quartet and lists face-value tickets from $28 to $58. Las Migas' official site places the performance within the 2026 Flamencas tour and describes the current project as a contemporary reformulation of flamenco tradition; another official presenter on the same U.S. tour describes the concert language through vocals, guitar and percussion. The checked Strathmore page does not itemize the touring personnel, so individual members are not inferred here.",
+      "links": {
+        "official_event": "https://www.strathmore.org/events-tickets/in-the-music-center/las-migas/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 28,
+          "maximum": 58,
+          "source_url": "https://www.strathmore.org/events-tickets/in-the-music-center/las-migas/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact Strathmore page verifies the billing, date, 7:00 PM start, venue, quartet identity and $28–$58 face-value range. Las Migas' official site verifies the active Flamencas tour and project framing. A separate stable event-specific purchase destination, itemized touring personnel and an exact Apple Music preparation link were not established and remain pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/events-tickets/in-the-music-center/las-migas/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-10-16",
+          "note": "Primary presenter page verifies Las Migas, November 8, 2026 at 7:00 PM, the Music Center at Strathmore, the Latin Grammy-winning flamenco-quartet description and $28–$58 face-value range."
+        },
+        {
+          "url": "https://lasmigas.com/en/",
+          "publisher": "Las Migas",
+          "checked_on": "2026-10-16",
+          "note": "Official artist site documents the 2026 Flamencas tour and describes the current album and live project as flamenco tradition reframed through a contemporary, powerful approach."
+        },
+        {
+          "url": "https://thewallis.org/show-details/las-migas",
+          "publisher": "The Wallis",
+          "checked_on": "2026-10-16",
+          "note": "Official presenter page for the same U.S. tour documents the all-women quartet format, the Flamencas program and its contemporary-flamenco performance language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-official-presenter-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Date, time, venue, quartet identity and face-value range come from the exact Strathmore page; the artist's official site and another presenter on the same tour verify the current program context. Repository searches for Las Migas, Strathmore and the exact date returned no matching canonical, curated or processed record before publication. Priority was assigned only after Stage 1 admission. A is appropriate because the instrumental and cultural identity clears RADAR admission, while the multi-city tour and absence of a premiere, farewell or rare lineup make a scarcity or active-priority claim unnecessary."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Las Migas makes the concert specific through the quartet's physical arrangement: flamenco voice and compás meet two guitars and violin, giving the Flamencas repertoire room to move between traditional forms and a contemporary ensemble attack. The value is not the award attached to the group but hearing an all-women working band carry that argument into a full local hall.",
+          "trip_verdict": "Keep the North Bethesda date on the local calendar and go if the Sunday evening fits. The tour offers other U.S. stops, so this is a strong convenient option rather than a night that should displace a rarer premiere or farewell.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Las Migas vuelve específico el concierto desde la disposición física del cuarteto: voz y compás flamencos se encuentran con dos guitarras y violín, dejando que el repertorio de Flamencas pase de formas tradicionales a un ataque de ensamble contemporáneo. El valor no está en el premio que acompaña al grupo, sino en escuchar a una banda de mujeres llevar ese argumento a una sala local completa.",
+          "trip_verdict": "La tendría en el calendario local e iría si la noche del domingo embona. La gira ofrece otras fechas estadounidenses, así que es una opción fuerte y conveniente, no una función que deba desplazar un estreno o una despedida más difícil de repetir.",
+          "listen_before": null
+        }
+      },
+      "published_at": "2026-10-16T19:48:46.895Z",
+      "canonicalized_at": "2026-10-16T19:48:46.895Z",
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
       "id": "keiko-lee-band-blue-note-tokyo-2026-11-09",
       "artist": "Keiko Lee Band",
       "subtitle": null,
@@ -24559,6 +24673,127 @@
           "checked_on": null
         }
       },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "id": "german-lopez-mansion-strathmore-north-bethesda-2026-11-22",
+      "discovered_at": "2026-10-16T19:48:46.895Z",
+      "artist": "Germán López",
+      "subtitle": "Timple-led jazz trio",
+      "dates": {
+        "start": "2026-11-22",
+        "end": null
+      },
+      "showtimes": [
+        "16:00",
+        "19:00"
+      ],
+      "venue": {
+        "id": "mansion-at-strathmore-north-bethesda-md",
+        "name": "The Mansion at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Canary Islands timple / jazz trio / cross-cultural instrumental music",
+      "genres": [
+        "Jazz",
+        "Canary Islands folk",
+        "Latin",
+        "World"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Instrumental identity",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Germán López — timple",
+        "Jazz trio — additional personnel not itemized on the checked Strathmore page"
+      ],
+      "factual_description": "Strathmore presents Germán López for two Music in the Mansion performances in North Bethesda on Sunday, November 22, 2026, at 4:00 PM and 7:00 PM. The venue bills López as a virtuosic timple player and composer connecting Canary Islands tradition with jazz, while an authoritative Montgomery County event listing describes the format as a timple-led jazz trio combining Canary Island folk traditions with West African rhythms, Latin influences and classical music. General admission is listed at $44. The checked presenter material does not name the two supporting players, so they are not inferred.",
+      "links": {
+        "official_event": "https://www.strathmore.org/events-tickets/whats-on-in-the-mansion/german-lopez/",
+        "official_tickets": "https://secure.strathmore.org/overview/24093"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 44,
+          "maximum": 44,
+          "source_url": "https://www.strathmore.org/events-tickets/whats-on-in-the-mansion/german-lopez/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact Strathmore page and authorized purchase overview verify the date, two showtimes, Mansion venue, timple-centered billing and admission price. The additional trio personnel and an exact Apple Music preparation destination were not established and remain pending."
+      },
+      "sources": [
+        {
+          "url": "https://www.strathmore.org/events-tickets/whats-on-in-the-mansion/german-lopez/",
+          "publisher": "Strathmore",
+          "checked_on": "2026-10-16",
+          "note": "Primary presenter page verifies November 22, 2026, 4:00 PM and 7:00 PM, The Mansion at Strathmore, $44 general admission and López's timple-and-jazz identity."
+        },
+        {
+          "url": "https://secure.strathmore.org/overview/24093",
+          "publisher": "Strathmore authorized ticketing",
+          "checked_on": "2026-10-16",
+          "note": "Authorized Strathmore purchase overview verifies both November 22 performance times and the active purchase destination."
+        },
+        {
+          "url": "https://www.germanlopeztimple.com/bio/?lang=en",
+          "publisher": "Germán López",
+          "checked_on": "2026-10-16",
+          "note": "Official artist biography verifies López's timple-centered original instrumental music and Canary Islands identity."
+        },
+        {
+          "url": "https://visitmontgomery.com/events/music-in-the-mansion-german-lopez/",
+          "publisher": "Visit Montgomery",
+          "checked_on": "2026-10-16",
+          "note": "Authoritative local listing corroborates both showtimes and describes the timple-led jazz trio's Canary Islands, West African, Latin and classical framework."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-and-authoritative-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core event facts come from Strathmore's exact event and authorized ticketing pages; the artist's official biography and Visit Montgomery establish the timple identity and trio's cross-cultural frame. Repository searches for Germán López, Strathmore and the exact date returned no matching canonical, curated or processed record before publication. Priority was assigned only after Stage 1 admission. A reflects an unusually clear instrumental identity in an intimate local room, while the active U.S. tour and absence of a premiere, farewell or named one-off lineup make A+ or a scarcity tier unnecessary."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The timple is the reason this is more than another small jazz trio. López brings a five-string Canary Islands instrument with a bright, percussive attack into a language that can move through jazz, West African rhythm and Latin phrasing without treating the instrument as folk decoration. The Mansion should make its tuning, articulation and rhythmic role easy to hear at close range.",
+          "trip_verdict": "Choose either Mansion set if a local Sunday outing fits cleanly. The intimate room suits the instrument, but the broader tour means the date can remain a worthwhile convenience rather than override a harder-to-repeat regional engagement.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El timple es la razón por la que esto es más que otro trío pequeño de jazz. López lleva un instrumento canario de cinco cuerdas, brillante y percusivo, a un lenguaje que puede pasar por jazz, ritmos de África occidental y fraseo latino sin convertirlo en decoración folclórica. The Mansion debería dejar escuchar de cerca su afinación, articulación y papel rítmico.",
+          "trip_verdict": "Escogería cualquiera de los dos sets en The Mansion si cabe bien como salida local de domingo. La sala íntima le conviene al instrumento, pero la gira más amplia permite mantener la fecha como una opción valiosa y conveniente sin desplazar un compromiso regional más difícil de repetir.",
+          "listen_before": null
+        }
+      },
+      "published_at": "2026-10-16T19:48:46.895Z",
+      "canonicalized_at": "2026-10-16T19:48:46.895Z",
       "attendance": {
         "status": null,
         "evidence": [],
