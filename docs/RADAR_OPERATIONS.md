@@ -180,3 +180,26 @@ schedule activation and a new discovery run were therefore unconfirmed. The
 latest successful heartbeat still dated from September 30, so discovery health
 correctly remained `STALE`. Queue recovery and deployment did not create a new
 heartbeat or establish that recurring research had resumed.
+
+### Executor recovery — October 16, 2026
+
+The existing external task is now confirmed active with an hourly schedule.
+Its saved instructions include the complete heartbeat schema, fresh reads of
+`main`, and continued retries after validation failures. The first reconnected
+scan, `radar-20261016T134422863Z-t2v6cy9dko`, completed successfully at
+13:49:19 UTC and published three candidates in
+[`17f5814`](https://github.com/iosorio/listening-notes/commit/17f581486a274fda1ec57805b71672ce92187dae).
+Those three reached canonical in `60409df`. Further scheduled runs followed;
+the latest verified run at this check, `radar-20261016T171620904Z-gd4qkea9n7`,
+completed at 17:20:22 UTC with 26 sources, 20 candidates reviewed, and two
+published candidates. Discovery health is now `HEALTHY`.
+
+The next six candidates exposed a separate ingest blocker:
+[the October 16 workflow](https://github.com/iosorio/listening-notes/actions/runs/38939231573)
+failed because a UI test compared Blues Alley results with a fixed list of
+production event IDs. A legitimate new Dani Cortaza event changed that list.
+The Blues Alley and Wharf filter tests now use a controlled fixture instead
+of freezing the evolving catalog. They still verify canonical venue identity,
+exclusion of same-name venues and archived/attended events, unique results,
+and Signal behavior. Production filtering and intake/provenance validation
+are unchanged. Research-only factual updates remain outside automatic intake.
