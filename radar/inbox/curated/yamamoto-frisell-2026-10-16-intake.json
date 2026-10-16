@@ -1,0 +1,229 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "yamamoto-frisell-2026-10-16-intake",
+  "published_at": "2026-10-16T17:20:22.995Z",
+  "checked_on": "2026-10-16",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-16",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current main-branch authority. Fresh primary checks covered ALFIE, BODY&SOUL, Space M&A and KEYSTONE CLUB TOKYO, followed by Greater Tokyo/Kanto and official calendars across the DC–Baltimore–Philadelphia–Newark–New York corridor. Exact repository searches and canonical/curated/processed checks found no matching record for either admitted date. Stage 1 admits the KEYSTONE Christmas-special quartet because it places Yamamoto's piano and the Kagawa/Soma rhythm section in a named vocal-song setting distinct from the recurring trio dates, and admits Bill Frisell because Roulette has framed a solo benefit around his decades-long relationship with the experimental venue. Stage 2 assigns A to the Yamamoto date and A+ to Frisell. Scarcity was challenged explicitly: the vocal program is a scheduled holiday club set, while Frisell remains active and the benefit is meaningful without being billed as a farewell, premiere or singular last chance. A/A+ capture the recommendations without inflating S/S+. The batch adds A 1 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "dinah-miki-tsuyoshi-yamamoto-keystone-club-tokyo-2026-12-23",
+      "discovered_at": "2026-10-16T17:18:12.000Z",
+      "artist": "Dinah Miki with Tsuyoshi Yamamoto",
+      "subtitle": "The Jazz Vocal Live — Christmas Special",
+      "dates": {
+        "start": "2026-12-23",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "keystone-club-tokyo-roppongi",
+        "name": "KEYSTONE CLUB TOKYO",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Tsuyoshi Yamamoto / jazz vocal Christmas special",
+      "genres": [
+        "Jazz",
+        "Vocal Jazz",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Dinah Miki (ダイナ・ミキ) — vocals",
+        "Tsuyoshi Yamamoto (山本剛) — piano",
+        "Hiroshi Kagawa (香川裕史) — double bass",
+        "Chikko Soma (チッコ ソウマ) — drums"
+      ],
+      "factual_description": "KEYSTONE CLUB TOKYO presents The Jazz Vocal Live — Christmas Special on Wednesday, December 23, 2026. Doors are at 18:30 and the performance starts at 19:30. The announced quartet is vocalist Dinah Miki with Tsuyoshi Yamamoto on piano, Hiroshi Kagawa on double bass and Chikko Soma on drums. The venue lists a general performance fee of ¥4,500, plus a separate table charge of ¥550 for normal/counter seating or ¥1,100 for VIP seating.",
+      "links": {
+        "official_event": "https://keystoneclubtokyo.com/html/schedule/the-jazz-vocal-live-%EF%BD%9E-christmas-special-%EF%BD%9E/",
+        "official_tickets": "https://keystoneclubtokyo.com/html/schedule/the-jazz-vocal-live-%EF%BD%9E-christmas-special-%EF%BD%9E/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 4500,
+          "maximum": 4500,
+          "source_url": "https://keystoneclubtokyo.com/html/schedule/the-jazz-vocal-live-%EF%BD%9E-christmas-special-%EF%BD%9E/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio",
+          "title": "Blues For K",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/blues-for-k/6768695416"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "The exact KEYSTONE CLUB TOKYO event page verifies the date, doors, start time, complete announced quartet, ¥4,500 performance fee, separate table charges and its on-page reservation form. Apple Music verifies the exact preparation album."
+      },
+      "sources": [
+        {
+          "url": "https://keystoneclubtokyo.com/html/schedule/the-jazz-vocal-live-%EF%BD%9E-christmas-special-%EF%BD%9E/",
+          "publisher": "KEYSTONE CLUB TOKYO",
+          "checked_on": "2026-10-16",
+          "note": "Primary venue event and reservation page verifies December 23, 2026; 18:30 doors; 19:30 start; Dinah Miki, Tsuyoshi Yamamoto, Hiroshi Kagawa and Chikko Soma; ¥4,500 general fee; and ¥550 normal/counter or ¥1,100 VIP table charges."
+        },
+        {
+          "url": "https://music.apple.com/us/album/blues-for-k/6768695416",
+          "publisher": "Apple Music",
+          "checked_on": "2026-10-16",
+          "note": "Exact Apple Music album page for Blues For K by Tsuyoshi Yamamoto Trio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-catalog-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Performance, lineup, timing, charge and reservation facts come from the exact KEYSTONE CLUB TOKYO page; Apple Music supplies the exact listening destination. Repository searches for the title, billing, date, URL and proposed stable ID found no matching canonical, curated or processed event before publication. Stage 1 admission rests on the specific vocal-song setting for Yamamoto with Kagawa and Soma, not on Yamamoto's name alone. Stage 2 assigns A because it is useful to know and attend if convenient, while the official source does not establish a premiere, farewell, rare reunion or other scarcity case."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The interesting shift is Yamamoto as a vocal accompanist rather than the center of another piano-trio date. With Kagawa and Soma, the rhythm section can turn his blues-weighted touch toward phrasing, space and the give-and-take of a singer-led Christmas set; that change of role is the concrete Listening Notes reason to notice the night.",
+          "trip_verdict": "Catch it if December 23 already places you in Tokyo and a small Roppongi club suits the evening. It is a worthwhile change of frame for Yamamoto, not a reason to reroute a Japan trip around a holiday program.",
+          "listen_before": "Blues For K — Tsuyoshi Yamamoto Trio"
+        },
+        "es": {
+          "why_it_matters": "El cambio interesante es escuchar a Yamamoto como acompañante vocal y no como centro de otra fecha de piano trío. Con Kagawa y Soma, la sección rítmica puede llevar su toque cargado de blues hacia el fraseo, el espacio y el diálogo de un set navideño encabezado por una cantante; ese cambio de función es la razón concreta de Listening Notes para fijarse en la noche.",
+          "trip_verdict": "La aprovecharía si el 23 de diciembre ya te encuentra en Tokio y un club pequeño en Roppongi encaja con la velada. Es un cambio de perspectiva valioso para escuchar a Yamamoto, no una razón para desviar un viaje por Japón alrededor de un programa festivo.",
+          "listen_before": "Blues For K — Tsuyoshi Yamamoto Trio"
+        }
+      }
+    },
+    {
+      "id": "bill-frisell-solo-roulette-brooklyn-2026-12-12",
+      "discovered_at": "2026-10-16T17:19:17.000Z",
+      "artist": "Bill Frisell",
+      "subtitle": "Solo concert to benefit Roulette",
+      "dates": {
+        "start": "2026-12-12",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / solo guitar / experimental-music benefit",
+      "genres": [
+        "Jazz",
+        "Avant Jazz",
+        "Improvisation",
+        "Americana"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Instrumental identity",
+        "Experimental",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Bill Frisell — solo guitar"
+      ],
+      "factual_description": "Roulette presents Bill Frisell solo on Saturday, December 12, 2026 at 8:00 PM, with doors at 7:00 PM. The concert is a benefit for Roulette and is dedicated to Frisell's decades-long connection to the venue. Roulette lists three support levels: $45 general admission, $75 general admission with a $40 donation acknowledgement, and $100 general admission with a $70 donation acknowledgement. The venue states that the concert will not be livestreamed.",
+      "links": {
+        "official_event": "https://roulette.org/event/a-concert-to-benefit-roulette-bill-frisell/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1292948"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 45,
+          "maximum": 100,
+          "source_url": "https://ci.ovationtix.com/36368/production/1292948",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Bill Frisell",
+          "title": "Four",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/four/1647065596"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Roulette's exact event page verifies the solo format, date, doors/start time, benefit framing, venue relationship, support levels and absence of a livestream; its linked AudienceView/OvationTix page is the authorized purchase destination. Apple Music verifies the exact preparation album."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/a-concert-to-benefit-roulette-bill-frisell/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-16",
+          "note": "Primary presenter page verifies December 12, 2026; 19:00 doors; 20:00 performance; Bill Frisell solo; the benefit purpose and decades-long Roulette connection; $45/$75/$100 support levels; no livestream; and the authorized ticket link."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1292948",
+          "publisher": "AudienceView Professional / OvationTix via Roulette",
+          "checked_on": "2026-10-16",
+          "note": "Exact authorized purchase destination linked directly from Roulette's event page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/four/1647065596",
+          "publisher": "Apple Music",
+          "checked_on": "2026-10-16",
+          "note": "Exact Apple Music album page for Four by Bill Frisell."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ticketing-and-catalog-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Performance and benefit facts come from Roulette's exact event page and authorized ticket destination; Apple Music supplies the exact listening reference. Repository searches for the title, exact billing, date, URL and proposed stable ID found no matching canonical, curated or processed event before publication. Stage 1 admission rests on the solo format and benefit built around Frisell's long Roulette relationship. Stage 2 assigns A+: actively make room for the unaccompanied instrumental voice in the room it helps sustain, while an active career and the absence of farewell, premiere or last-chance framing make A+ sufficient after the scarcity challenge."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "A solo Frisell set exposes the whole grammar—harmonic blur, country inflection, loops of memory and the silence around each note—without a band to absorb the edges. Roulette adds a real live context: this is a benefit for the experimental room he describes as an artistic home, so the concert supports the same risk-taking ecosystem that shaped the performance language.",
+          "trip_verdict": "If New York is in play, actively make room and let the Brooklyn benefit anchor the night; the solo format and no-livestream policy make being in the room count. From farther down the corridor, pair it with another strong New York reason rather than rebuild the whole trip around a single set.",
+          "listen_before": "Four — Bill Frisell"
+        },
+        "es": {
+          "why_it_matters": "Un solo de Frisell deja expuesta toda la gramática: neblina armónica, inflexión country, bucles de memoria y el silencio alrededor de cada nota, sin una banda que absorba los bordes. Roulette añade un contexto escénico real: es un beneficio para la sala experimental que él describe como casa artística, de modo que el concierto sostiene el mismo ecosistema de riesgo que formó ese lenguaje.",
+          "trip_verdict": "Si Nueva York ya está en juego, sí le haría espacio y dejaría que el beneficio en Brooklyn ancle la noche; el formato solo y la ausencia de transmisión hacen que estar en la sala importe. Desde más lejos en el corredor, lo combinaría con otra razón fuerte para subir en vez de reconstruir todo el viaje alrededor de un solo set.",
+          "listen_before": "Four — Bill Frisell"
+        }
+      }
+    }
+  ]
+}
