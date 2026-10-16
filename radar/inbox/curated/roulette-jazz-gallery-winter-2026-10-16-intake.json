@@ -1,0 +1,333 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "roulette-jazz-gallery-winter-2026-10-16-intake",
+  "published_at": "2026-10-16T23:57:56.506Z",
+  "checked_on": "2026-10-16",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-16",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current main-branch authority. Fresh primary checks covered Tsuyoshi Yamamoto through ALFIE, BODY&SOUL, Space M&A and KEYSTONE CLUB TOKYO, then Greater Tokyo/Kanto and official presenter calendars across the DC–Baltimore–Philadelphia–Newark–New York corridor. Existing Yamamoto, Winter Jazzfest and other represented dates were not duplicated. Stage 1 admits three performances for event-specific reasons: Simon Moullier unveils a Jazz Gallery residency commission for an unusually colored octet; William Parker's one-night 75th-birthday bill joins three rare configurations and a Wadada Leo Smith world premiere; Spirits of Coltrane closes the centennial series with late-period Coltrane inquiry and the New York live debut of ANANTA. Stage 2 assigns A, S and A+, respectively. The S decision was explicitly challenged: A+ would understate the one-night birthday convergence, while S+ would overstate scarcity because Parker appears elsewhere in the festival and the program is not a farewell. A separate Collective Radiance candidate was reviewed but not admitted because the primary event and authorized ticket pages conflict on the start time. The batch adds A 1 / A+ 1 / S 1 / S+ 0.",
+  "events": [
+    {
+      "id": "simon-moullier-octet-jazz-gallery-new-york-2026-12-04",
+      "discovered_at": "2026-10-16T23:55:17.244Z",
+      "artist": "Simon Moullier Octet",
+      "subtitle": "The Jazz Gallery Residency Commission '26",
+      "dates": {
+        "start": "2026-12-04",
+        "end": "2026-12-05"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A",
+      "category": "Residency commission / vibraphone-led contemporary jazz octet",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Vibraphone / Marimba",
+        "Composition / Improvisation",
+        "Rare Lineup"
+      ],
+      "lineup": [
+        "Simon Moullier — vibraphone and marimba",
+        "Morgan Guerin — bass clarinet",
+        "Maria Grand — tenor saxophone",
+        "Special guest TBA — alto flute",
+        "Special guest TBA — trombone",
+        "Vinicius Gomes — guitar",
+        "Carmen Quill — bass",
+        "Keita Ogawa — percussion"
+      ],
+      "factual_description": "The Jazz Gallery presents Simon Moullier's 2026 Residency Commission over four sets on Friday and Saturday, December 4–5, at 7:00 and 9:00 p.m. Moullier leads an octet built around vibraphone and marimba with bass clarinet, tenor saxophone, alto flute, trombone, guitar, bass and percussion. The venue currently lists the alto-flute and trombone guests as TBA.",
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/simon-moullier-dec-4",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1216144?performanceId=11879710"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36369/production/1216144?performanceId=11879710",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The event and authorized ticket destinations are verified, but this discovery pass did not verify an exact Apple Music preparation link for the commissioned octet. No catalog URL is invented."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/simon-moullier-dec-4",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-10-16",
+          "note": "Primary venue page verifies the December 4–5 residency commission, four 7:00/9:00 p.m. ticket links, billing and published instrumentation and personnel, with two wind guests still TBA."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1216144?performanceId=11879710",
+          "publisher": "OvationTix for The Jazz Gallery",
+          "checked_on": "2026-10-16",
+          "note": "Authorized ticket page verifies the Friday, December 4, 7:00 p.m. performance; the venue page links the remaining three performances from the same production."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core facts come from The Jazz Gallery and its authorized ticketing production. Repository searches for the artist, commission, URL and proposed stable ID found no matching canonical, curated, review or processed event before publication. Priority followed Stage 1 admission: the new commission and unusual octet palette belong in RADAR, while four performances and two unannounced players make A the durable recommendation."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Moullier is using The Jazz Gallery commission to write beyond the familiar vibraphone quartet: marimba sits inside a low-reed-and-brass palette, with Guerin, Grand, Gomes, Quill and Ogawa giving the music both color and rhythmic elasticity. The new octet design, not the residency label alone, is the reason to pay attention.",
+          "trip_verdict": "Choose one of the four sets if a New York weekend already puts you nearby. The commission is worth hearing in the room, but its two-night run and unfinished guest list do not call for a separate trip.",
+          "listen_before": "Enchantment — Simon Moullier"
+        },
+        "es": {
+          "why_it_matters": "Moullier aprovecha la comisión de The Jazz Gallery para escribir más allá del cuarteto habitual de vibráfono: la marimba entra en una paleta de maderas graves y metales, mientras Guerin, Grand, Gomes, Quill y Ogawa aportan color y elasticidad rítmica. El diseño nuevo del octeto —no solo la etiqueta de residencia— es la razón para prestarle atención.",
+          "trip_verdict": "Escogería uno de los cuatro sets si un fin de semana en Nueva York ya te deja cerca. La comisión merece escucharse en la sala, pero sus dos noches y dos invitados aún sin anunciar no justifican un viaje separado.",
+          "listen_before": "Enchantment — Simon Moullier"
+        }
+      }
+    },
+    {
+      "id": "william-parker-75th-birthday-roulette-brooklyn-2027-01-13",
+      "discovered_at": "2026-10-16T23:55:17.244Z",
+      "artist": "William Parker's 75th Birthday Celebration",
+      "subtitle": "William Parker / Hamid Drake / SHABAKA; Wadada Leo Smith & Sylvie Courvoisier; Black Cherry & Shamanic Principle",
+      "dates": {
+        "start": "2027-01-13",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "S",
+      "category": "Living-master 75th birthday / multi-ensemble premiere program",
+      "genres": [
+        "Jazz",
+        "Free jazz",
+        "Creative music"
+      ],
+      "musical_axes": [
+        "Living Masters",
+        "Free Improvisation",
+        "World Premiere",
+        "Rare Lineup"
+      ],
+      "lineup": [
+        "William Parker",
+        "Hamid Drake",
+        "SHABAKA",
+        "Wadada Leo Smith",
+        "Sylvie Courvoisier",
+        "Patricia Nicholson Parker",
+        "Val Jeanty",
+        "Shahzad Ismaily"
+      ],
+      "factual_description": "Roulette opens Winter Jazzfest's William Parker 75th-birthday celebration on Wednesday, January 13, 2027. Doors are at 7:00 p.m. and the program starts at 8:00 p.m. It combines a William Parker–Hamid Drake–SHABAKA trio, a Wadada Leo Smith–Sylvie Courvoisier duo featuring a Smith world premiere, and an expanded Black Cherry & Shamanic Principle performance with Patricia Nicholson Parker, Val Jeanty and Shahzad Ismaily.",
+      "links": {
+        "official_event": "https://roulette.org/event/william-parkers-75th-birthday-celebration/",
+        "official_tickets": "https://tickets.venuepilot.com/e/william-parker-75-birthday-celebration-featuring-william-parker-hamid-drake-shabaka-wadada-leo-smith--5a51c7"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 55,
+          "maximum": 65,
+          "source_url": "https://roulette.org/event/william-parkers-75th-birthday-celebration/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The event and authorized ticket destinations are verified, but this discovery pass did not verify one exact Apple Music preparation link that represents the three-part birthday program. No catalog URL is invented."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/william-parkers-75th-birthday-celebration/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-16",
+          "note": "Primary presenter page verifies January 13, 2027; 7:00 p.m. doors; 8:00 p.m. show; the three-part program, expanded personnel, Wadada Leo Smith world premiere and $55 advance/$65 door pricing."
+        },
+        {
+          "url": "https://tickets.venuepilot.com/e/william-parker-75-birthday-celebration-featuring-william-parker-hamid-drake-shabaka-wadada-leo-smith--5a51c7",
+          "publisher": "VenuePilot for Roulette",
+          "checked_on": "2026-10-16",
+          "note": "Authorized ticket page independently verifies the date, Roulette address, 7:00 p.m. doors, 8:00 p.m. show and principal billing; its displayed $63 total includes fees."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core facts come from Roulette and its authorized ticket page. Repository searches for the birthday billing, URL, distinctive ensembles and proposed stable ID found no matching canonical, curated, review or processed event before publication. The S decision was made only after Stage 1 admission and a separate scarcity review."
+      },
+      "priority_review": {
+        "decision": "protect_the_night",
+        "reviewed_by": "RADAR automation editorial review",
+        "reviewed_on": "2026-10-16",
+        "rationale": "The scarcity is event-specific: a major living master marks his 75th birthday in one evening through a first trio with Hamid Drake and SHABAKA, a Wadada Leo Smith–Sylvie Courvoisier duo with a world premiere, and an expanded Black Cherry & Shamanic Principle configuration. A+ was explicitly challenged and judged insufficient because missing this night means losing the exact birthday, premiere and three-configuration convergence. S+ would overstate the evidence because Parker appears in other festival programs and the concert is not announced as a farewell or final performance."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Parker's birthday becomes a map of his living musical world rather than a retrospective: his deep rhythmic bond with Hamid Drake meets SHABAKA, Wadada Leo Smith brings a world premiere with Sylvie Courvoisier, and the expanded Black Cherry ensemble joins movement, electronics and strings. That exact three-part convergence is unlikely to recur.",
+          "trip_verdict": "Protect January 13 if New York is reachable; this is the strongest reason in the current batch to build an overnight around Brooklyn. The celebration extends beyond one date, but this particular bill does not.",
+          "listen_before": "Universal Tonality — William Parker"
+        },
+        "es": {
+          "why_it_matters": "El cumpleaños de Parker funciona como mapa de su mundo musical vivo, no como retrospectiva: su vínculo rítmico con Hamid Drake se cruza con SHABAKA, Wadada Leo Smith trae un estreno mundial junto a Sylvie Courvoisier y el Black Cherry ampliado enlaza movimiento, electrónica y cuerdas. Es improbable que vuelva a reunirse exactamente esta estructura de tres partes.",
+          "trip_verdict": "Protegería el 13 de enero si Nueva York está al alcance; es la razón más fuerte de este lote para armar una noche en Brooklyn. La celebración continúa en otras fechas, pero este cartel concreto no.",
+          "listen_before": "Universal Tonality — William Parker"
+        }
+      }
+    },
+    {
+      "id": "spirits-of-coltrane-roulette-brooklyn-2027-01-19",
+      "discovered_at": "2026-10-16T23:55:17.244Z",
+      "artist": "Spirits of Coltrane",
+      "subtitle": "Ravi Coltrane extended improvisations + Miguel Atwood-Ferguson's ANANTA",
+      "dates": {
+        "start": "2027-01-19",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "New York City",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Coltrane centennial closing program / late-period inquiry and New York live debut",
+      "genres": [
+        "Jazz",
+        "Spiritual jazz",
+        "Creative music"
+      ],
+      "musical_axes": [
+        "Coltrane Lineage",
+        "Composition / Improvisation",
+        "Spiritual Jazz",
+        "Rare Lineup"
+      ],
+      "lineup": [
+        "Ravi Coltrane",
+        "Miguel Atwood-Ferguson",
+        "Justin Brown",
+        "Morgan Guerin",
+        "Joel Ross",
+        "aja monet",
+        "Brandee Younger",
+        "Gary Bartz",
+        "Additional Ravi Coltrane collaborators TBA"
+      ],
+      "factual_description": "Roulette closes Winter Jazzfest's John Coltrane centennial series on Tuesday, January 19, 2027. Doors are at 7:00 p.m. and the two-part program starts at 8:00 p.m. Ravi Coltrane leads extended improvisations informed by the late works Interstellar Space, Stellar Regions and Expression, with additional collaborators to be announced. Miguel Atwood-Ferguson then gives ANANTA its New York live debut with Justin Brown, Morgan Guerin, Joel Ross, aja monet, Brandee Younger, Gary Bartz and Ravi Coltrane. The program was conceived with the Coltrane family and the John & Alice Coltrane Home.",
+      "links": {
+        "official_event": "https://roulette.org/event/spirits-of-coltrane-ravi-coltrane-miguel-atwood-ferguson/",
+        "official_tickets": "https://tickets.venuepilot.com/e/spirit-of-coltrane-featuring-miguel-atwood-ferguson-ravi-coltrane-gary-bartz-aja-monet-morgan-guerin--0b5046"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 55,
+          "maximum": 75,
+          "source_url": "https://roulette.org/event/spirits-of-coltrane-ravi-coltrane-miguel-atwood-ferguson/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The event and authorized ticket destinations are verified, but this discovery pass did not verify an exact Apple Music destination for ANANTA or the full two-part program. No catalog URL is invented."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/spirits-of-coltrane-ravi-coltrane-miguel-atwood-ferguson/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-16",
+          "note": "Primary presenter page verifies January 19, 2027; 7:00 p.m. doors; 8:00 p.m. show; the two-part concept, published ANANTA personnel, New York live-debut framing, Coltrane-family collaboration and $55–65 advance/$65–75 door pricing."
+        },
+        {
+          "url": "https://tickets.venuepilot.com/e/spirit-of-coltrane-featuring-miguel-atwood-ferguson-ravi-coltrane-gary-bartz-aja-monet-morgan-guerin--0b5046",
+          "publisher": "VenuePilot for Roulette",
+          "checked_on": "2026-10-16",
+          "note": "Authorized ticket page independently verifies the date, Roulette address, 7:00 p.m. doors, 8:00 p.m. show and principal billing; displayed $63 standing and $73 seated totals include fees."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-authorized-ticket-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core facts come from Roulette and its authorized ticket page. Repository searches for Spirits of Coltrane, ANANTA, URLs and the proposed stable ID found no matching canonical, curated, review or processed event before publication. Priority followed Stage 1 admission. The late-period repertoire, family collaboration and New York live debut deserve active room, while multiple centennial programs and an incomplete first-set lineup make A+ sufficient."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The centennial closes by treating Coltrane's late language as unfinished work: Ravi Coltrane uses Interstellar Space, Stellar Regions and Expression as material for extended improvisation, then Atwood-Ferguson's orchestral ANANTA reaches a New York stage with a striking intergenerational cast. Family involvement and the live debut make the context concrete rather than ceremonial.",
+          "trip_verdict": "Actively make room if the centennial or this cast speaks to you, especially from within the New York corridor. It can anchor a city night, though the broader series and still-unannounced collaborators stop short of demanding a dedicated long-distance trip.",
+          "listen_before": "Expression — John Coltrane"
+        },
+        "es": {
+          "why_it_matters": "El centenario cierra tratando el lenguaje tardío de Coltrane como obra inconclusa: Ravi Coltrane usa Interstellar Space, Stellar Regions y Expression como materia para improvisaciones extendidas; después, la ANANTA orquestal de Atwood-Ferguson llega por primera vez a un escenario neoyorquino con un elenco intergeneracional extraordinario. La participación familiar y el debut en vivo vuelven concreto el contexto, no ceremonial.",
+          "trip_verdict": "Le haría espacio activamente si el centenario o este elenco te importan, sobre todo desde el corredor de Nueva York. Puede sostener una noche en la ciudad, aunque la amplitud de la serie y los colaboradores aún por anunciar no exigen por sí solos un viaje de larga distancia.",
+          "listen_before": "Expression — John Coltrane"
+        }
+      }
+    }
+  ]
+}
