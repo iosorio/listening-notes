@@ -75,9 +75,7 @@
       "enrichment": {
         "status": "pending",
         "missing": [
-          "official_tickets",
-          "remaining lineup",
-          "performance fee"
+          "official_tickets"
         ],
         "note": "The exact venue page verifies the date, doors, start time and Yamamoto on piano. The remaining musicians, performance fee and a stable event-specific purchase or reservation destination are not yet published and are not inferred."
       },
@@ -182,11 +180,8 @@
         }
       ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "special guest lineup"
-        ],
-        "note": "The exact presenter page and its authorized DICE destination verify the date, time, venue, named core musicians, spatial-audio element, access terms and current prices. Special guests remain TBA and are not invented."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
