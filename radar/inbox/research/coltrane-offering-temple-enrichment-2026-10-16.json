@@ -1,0 +1,53 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "coltrane-offering-temple-enrichment-2026-10-16",
+  "created_on": "2026-10-16",
+  "notes": "Primary venue and authorized ticketing destinations are now published for the existing Coltrane Offering anniversary event. This research handoff preserves the explicit enrichment review gate. The newly announced 20:00 showtime and Davis/Coltrane/Hurst/Carrington lineup are material factual findings outside the safe enrichment patch scope and therefore are documented in source notes for separate factual/editorial review rather than written into canonical data.",
+  "events": [
+    {
+      "id": "coltrane-offering-60th-anniversary-temple-2026-11-12",
+      "links": {
+        "official_event": "https://www.templeperformingartscenter.org/events/2026/john-coltranes-offering-revisited-live-temple-university-featuring-ravi-coltrane-more",
+        "official_tickets": "https://dice.fm/partner/tickets/event/pyxamw-john-coltranes-offering-revisited-live-at-temple-university-featuring-ravi-coltrane-more-12th-nov-temple-performing-arts-center-philadelphia-tickets"
+      },
+      "recommended_listening": [
+        {
+          "artist": "John Coltrane",
+          "title": "Offering: Live At Temple University",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/offering-live-at-temple-university/1443147818"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Temple Performing Arts Center",
+          "url": "https://www.templeperformingartscenter.org/events/2026/john-coltranes-offering-revisited-live-temple-university-featuring-ravi-coltrane-more",
+          "checked_on": "2026-10-16",
+          "note": "Primary venue page verifies November 12, 2026 at 8:00 PM in Lew Klein Hall and announces Kris Davis as pianist/music director with Ravi Coltrane, Robert Hurst and Terri Lyne Carrington. The page exposes the authorized event-specific DICE purchase destination."
+        },
+        {
+          "publisher": "DICE via Temple Performing Arts Center",
+          "url": "https://dice.fm/partner/tickets/event/pyxamw-john-coltranes-offering-revisited-live-at-temple-university-featuring-ravi-coltrane-more-12th-nov-temple-performing-arts-center-philadelphia-tickets",
+          "checked_on": "2026-10-16",
+          "note": "Exact authorized purchase destination linked by the live Temple Performing Arts Center event page."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/offering-live-at-temple-university/1443147818",
+          "checked_on": "2026-10-16",
+          "note": "Exact Apple Music album page for John Coltrane's Offering: Live At Temple University."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-and-catalog-sources",
+        "note": "Prepared as a research enrichment handoff only. Links and listening destination are within the conservative enrichment contract; the newly published showtime and lineup are deliberately not patched without the separate factual/editorial review required by docs/RADAR_ENRICHMENT.md.",
+        "recorded_on": "2026-10-16"
+      }
+    }
+  ]
+}

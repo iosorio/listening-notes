@@ -1,0 +1,230 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "yamamoto-marshall-allen-2026-10-16-intake",
+  "published_at": "2026-10-16T17:00:12.296Z",
+  "checked_on": "2026-10-16",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-16",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current main-branch authority. Fresh primary checks covered Tsuyoshi Yamamoto through ALFIE, BODY&SOUL, Space M&A and KEYSTONE CLUB TOKYO, then Greater Tokyo/Kanto and official presenter calendars across the DC–Baltimore–Philadelphia–Newark–New York corridor. Existing dates were not duplicated. Stage 1 admits two performances for event-specific reasons: Yamamoto Night! places the active Listening Notes piano thread in an intimate Roppongi club, while Marshall Allen's Ghost Horizons combines a 102-year-old living master, DM Hotep and event-specific six-channel spatialization at Solar Myth. Stage 2 assigns A+ to both. Scarcity was challenged explicitly: Yamamoto's remaining lineup and context are still unannounced, and Ghost Horizons is a recurring Solar Myth laboratory with special guests still TBA. A+ captures active priority without inflating S/S+. The batch adds A 0 / A+ 2 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-night-keystone-club-tokyo-2026-11-17",
+      "discovered_at": "2026-10-16T16:58:06.088Z",
+      "artist": "Tsuyoshi Yamamoto",
+      "subtitle": "Yamamoto Night!",
+      "dates": {
+        "start": "2026-11-17",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "keystone-club-tokyo-roppongi",
+        "name": "KEYSTONE CLUB TOKYO",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Tsuyoshi Yamamoto / intimate Tokyo club jazz",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto — piano"
+      ],
+      "factual_description": "KEYSTONE CLUB TOKYO presents Yamamoto Night! on Tuesday, November 17, 2026. Doors are at 18:30 and the performance starts at 19:30. The venue confirms Tsuyoshi Yamamoto on piano and states that the remaining members are still being arranged. The performance fee is not yet set; the venue separately lists table charges of ¥550 for normal seating and ¥1,100 for VIP seating.",
+      "links": {
+        "official_event": "https://keystoneclubtokyo.com/html/schedule/%E5%B1%B1%E6%9C%AC%E5%89%9B-night-11/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://keystoneclubtokyo.com/html/schedule/%E5%B1%B1%E6%9C%AC%E5%89%9B-night-11/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio",
+          "title": "Blues For K",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/blues-for-k/6768695416"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "remaining lineup",
+          "performance fee"
+        ],
+        "note": "The exact venue page verifies the date, doors, start time and Yamamoto on piano. The remaining musicians, performance fee and a stable event-specific purchase or reservation destination are not yet published and are not inferred."
+      },
+      "sources": [
+        {
+          "url": "https://keystoneclubtokyo.com/html/schedule/%E5%B1%B1%E6%9C%AC%E5%89%9B-night-11/",
+          "publisher": "KEYSTONE CLUB TOKYO",
+          "checked_on": "2026-10-16",
+          "note": "Primary venue event page verifies November 17, 2026; 18:30 doors; 19:30 start; Tsuyoshi Yamamoto on piano; remaining members under arrangement; unset performance fee; and the venue's separate table-charge policy."
+        },
+        {
+          "url": "https://music.apple.com/us/album/blues-for-k/6768695416",
+          "publisher": "Apple Music",
+          "checked_on": "2026-10-16",
+          "note": "Exact Apple Music album page for Tsuyoshi Yamamoto Trio's Blues For K."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-catalog-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "The performance facts come from the exact KEYSTONE CLUB TOKYO page; Apple Music supplies the exact preparation destination. Repository searches for the title, date, event URL and proposed stable ID found no matching canonical, curated or processed event before publication. Stage 1 admits the date because it advances the active Yamamoto listening thread in an intimate Tokyo club; Stage 2 assigns A+ because Yamamoto's piano language warrants actively making room, while the unannounced band and lack of a verified premiere, farewell or one-off premise do not support scarcity-tier treatment."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Yamamoto remains a live, unfinished Listening Notes thread, and a small Roppongi club puts the weight on his touch, time and blues language rather than on spectacle. The date matters because it is a verified chance to hear that piano voice up close; the still-forming band keeps the recommendation grounded in the artist and setting actually announced.",
+          "trip_verdict": "If November 17 overlaps a Tokyo stay, actively hold the Roppongi night. I would not build a dedicated transpacific trip around it yet while the rest of the lineup and broader context remain unannounced.",
+          "listen_before": "Blues For K — Tsuyoshi Yamamoto Trio"
+        },
+        "es": {
+          "why_it_matters": "Yamamoto sigue siendo un hilo vivo e inconcluso de Listening Notes, y un club pequeño en Roppongi pone el peso en su toque, su manejo del tiempo y su lenguaje de blues, no en el espectáculo. La fecha importa porque ofrece una ocasión verificada para escuchar de cerca esa voz pianística; la banda aún en formación mantiene la recomendación anclada en el artista y el entorno realmente anunciados.",
+          "trip_verdict": "Si el 17 de noviembre coincide con una estancia en Tokio, apartaría activamente la noche en Roppongi. Todavía no armaría un viaje transpacífico dedicado mientras el resto de la alineación y el contexto sigan sin anunciarse.",
+          "listen_before": "Blues For K — Tsuyoshi Yamamoto Trio"
+        }
+      }
+    },
+    {
+      "id": "marshall-allen-ghost-horizons-solar-myth-philadelphia-2026-11-01",
+      "discovered_at": "2026-10-16T16:58:06.088Z",
+      "artist": "Marshall Allen's Ghost Horizons",
+      "subtitle": "All Hallow's Eve with 6-channel spatialization by Eugene Lew",
+      "dates": {
+        "start": "2026-11-01",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "solar-myth-philadelphia",
+        "name": "Solar Myth",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Living master / Afrofuturist improvisation / spatial audio",
+      "genres": [
+        "Jazz",
+        "Avant-garde jazz",
+        "Experimental jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Improvised",
+        "Experimental",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Marshall Allen — alto saxophone, EVI",
+        "DM Hotep — guitar"
+      ],
+      "factual_description": "Ars Nova Workshop presents Marshall Allen's Ghost Horizons at Solar Myth on Sunday, November 1, 2026 at 7:00 PM. The standing 21+ show features 102-year-old Marshall Allen on alto saxophone and EVI with DM Hotep on guitar, additional special guests to be announced, and unique six-channel audio spatializations by Eugene Lew. The presenter lists $35 advance and $40 day-of-show admission.",
+      "links": {
+        "official_event": "https://www.arsnovaworkshop.org/programs/marshall-allens-ghost-horizons-9/",
+        "official_tickets": "https://link.dice.fm/o95075b2fab9"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35,
+          "maximum": 40,
+          "source_url": "https://www.arsnovaworkshop.org/programs/marshall-allens-ghost-horizons-9/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Marshall Allen's Ghost Horizons",
+          "title": "Live in Philadelphia",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/live-in-philadelphia/1794591578"
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "special guest lineup"
+        ],
+        "note": "The exact presenter page and its authorized DICE destination verify the date, time, venue, named core musicians, spatial-audio element, access terms and current prices. Special guests remain TBA and are not invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.arsnovaworkshop.org/programs/marshall-allens-ghost-horizons-9/",
+          "publisher": "Ars Nova Workshop",
+          "checked_on": "2026-10-16",
+          "note": "Primary presenter page verifies November 1, 2026; 7:00 PM; Solar Myth; Marshall Allen on alto saxophone and EVI; DM Hotep on guitar; special guests TBA; Eugene Lew's six-channel spatialization; standing 21+ format; and $35 advance / $40 day-of-show prices."
+        },
+        {
+          "url": "https://link.dice.fm/o95075b2fab9",
+          "publisher": "DICE via Ars Nova Workshop",
+          "checked_on": "2026-10-16",
+          "note": "Exact authorized ticket destination exposed by the live Ars Nova Workshop event page."
+        },
+        {
+          "url": "https://music.apple.com/us/album/live-in-philadelphia/1794591578",
+          "publisher": "Apple Music",
+          "checked_on": "2026-10-16",
+          "note": "Exact Apple Music album page for Marshall Allen's Ghost Horizons — Live in Philadelphia, released May 23, 2025."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-ticketing-and-catalog-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core facts come from the exact Ars Nova Workshop event page and its authorized DICE link; Apple Music supplies the exact preparation destination. Repository searches for the billing, exact event URL, date and proposed stable ID found no matching canonical, curated or processed event before publication. Stage 1 admits the performance because Allen and DM Hotep extend the Ghost Horizons laboratory with event-specific six-channel spatialization. Stage 2 assigns A+: Allen's continued work at 102 deserves active priority, but this is a recurring Solar Myth series with special guests still unannounced, so A+ sufficiently captures the recommendation and S scarcity is not established."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Ghost Horizons is a working laboratory, not a repertory tribute: Allen and DM Hotep keep the Sun Ra continuum open to changing collaborators, and Eugene Lew's six-channel spatialization gives this installment a specific live architecture. Hearing a 102-year-old master still reshape his own language in the room is the concrete reason to make space for the night.",
+          "trip_verdict": "If Philadelphia is workable that Sunday, actively build the evening around Solar Myth. From farther down the corridor, I would pair it with another Philadelphia reason rather than make a dedicated turnaround while the special guests remain unannounced.",
+          "listen_before": "Live in Philadelphia — Marshall Allen's Ghost Horizons"
+        },
+        "es": {
+          "why_it_matters": "Ghost Horizons funciona como laboratorio vivo, no como tributo de repertorio: Allen y DM Hotep mantienen abierto el continuo de Sun Ra a colaboradores cambiantes, y la espacialización de seis canales de Eugene Lew le da a esta edición una arquitectura escénica específica. Escuchar a un maestro de 102 años todavía reformular su propio lenguaje en la sala es la razón concreta para abrirle espacio a la noche.",
+          "trip_verdict": "Si Filadelfia resulta viable ese domingo, armaría activamente la velada alrededor de Solar Myth. Desde más lejos en el corredor, la combinaría con otra razón para estar en la ciudad en vez de hacer un viaje dedicado mientras los invitados sigan sin anunciarse.",
+          "listen_before": "Live in Philadelphia — Marshall Allen's Ghost Horizons"
+        }
+      }
+    }
+  ]
+}
