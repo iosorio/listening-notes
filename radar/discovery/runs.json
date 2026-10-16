@@ -118,6 +118,27 @@
       "events_published": 1,
       "material_updates": 0,
       "error_summary": "Research and candidate publication completed, but repository-wide telemetry validation remains blocked by three pre-existing success heartbeats that omit the validator-required error_summary key; the new heartbeat uses the full current schema and earlier records were preserved unchanged."
+    },
+    {
+      "run_id": "radar-20261016T134422863Z-t2v6cy9dko",
+      "started_at": "2026-10-16T13:44:22.863Z",
+      "completed_at": "2026-10-16T13:49:19.294Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto / Jazz House ALFIE / BODY&SOUL / Keystone Club Tokyo / Space M&A",
+        "Greater Tokyo / Kanto official venue and Japanese-jazz calendars",
+        "DMV, Baltimore and Philadelphia official presenter calendars",
+        "Newark / New Jersey official jazz calendars",
+        "New York jazz, creative-music and experimental venue calendars"
+      ],
+      "sources_checked": 20,
+      "candidates_reviewed": 11,
+      "events_admitted": 3,
+      "events_published": 3,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }

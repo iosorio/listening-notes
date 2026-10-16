@@ -1,0 +1,304 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "keystone-aacm-new-events-2026-10-16-intake",
+  "published_at": "2026-10-16T13:48:31.489Z",
+  "checked_on": "2026-10-16",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-16",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current durable repository authority. The current operations, priority, editorial, domain, inbox, enrichment and telemetry contracts were read before research or grading. Fresh primary-source checks covered Tsuyoshi Yamamoto through Jazz House ALFIE, BODY&SOUL, KEYSTONE CLUB TOKYO, Space M&A/current schedule traces and credible Japanese-jazz discovery paths, then widened to Tokyo/Kanto and official venue/presenter calendars across the DC–Baltimore–Philadelphia–Newark–New York corridor. The October 21 ALFIE trio and surfaced Space M&A dates were already represented, as were several strong US-corridor dates, so they were not duplicated. Stage 1 admits three performances for specific live reasons: Shigeo Fukuda's trio places Canadian master bassist Neil Swainson in a one-night Japanese piano-trio setting; Sax Bass Duo featuring Tabla builds an unusually exposed monophonic ensemble from a salsa-rooted bass/sax partnership and tabla; and AACM New York's second 61st-anniversary program moves through David Virelles solo piano, Thurman Barker in duo and solo formats, and the world premiere of Barker's ROCK CITY by The Rhythm Method. Stage 2 assigns A to Fukuda/Swainson and A+ to the two more structurally unusual programs. Each possible scarcity claim was challenged: the Keystone dates document no farewell, premiere or terminal context, while AACM's world premiere appears inside an annual organizational program and does not establish a final or unrepeatable performance. A+ fully captures the latter two; no S/S+ review is warranted. The batch adds A 1 / A+ 2 / S 0 / S+ 0. Editorial review was performed by RADAR automation editorial review, not represented as independent human or Codex review.",
+  "events": [
+    {
+      "id": "shigeo-fukuda-trio-neil-swainson-keystone-club-tokyo-2026-10-23",
+      "discovered_at": "2026-10-16T13:48:31.489Z",
+      "artist": "Shigeo Fukuda Trio featuring Neil Swainson",
+      "subtitle": "Fukuda / Swainson / Nobuyuki Komatsu",
+      "dates": {
+        "start": "2026-10-23",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "keystone-club-tokyo-roppongi",
+        "name": "KEYSTONE CLUB TOKYO",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese–Canadian piano trio / George Shearing lineage",
+      "genres": [
+        "Jazz",
+        "Piano trio"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Shigeo Fukuda — piano",
+        "Neil Swainson — bass",
+        "Nobuyuki Komatsu — drums"
+      ],
+      "factual_description": "KEYSTONE CLUB TOKYO presents Shigeo Fukuda's trio featuring Neil Swainson on Friday, October 23, 2026. Doors are at 18:30 and the performance starts at 19:30. The venue lists Fukuda on piano, Swainson on bass and Nobuyuki Komatsu on drums, and identifies Swainson through his long association as George Shearing's regular bassist. General admission is ¥5,000, with the venue's separate table charge. The exact official event page contains the reservation form.",
+      "links": {
+        "official_event": "https://keystoneclubtokyo.com/html/schedule/%E7%A6%8F%E7%94%B0%E9%87%8D%E7%94%B7-3-featuring-neil-swainson/",
+        "official_tickets": "https://keystoneclubtokyo.com/html/schedule/%E7%A6%8F%E7%94%B0%E9%87%8D%E7%94%B7-3-featuring-neil-swainson/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 5000,
+          "maximum": 5000,
+          "source_url": "https://keystoneclubtokyo.com/html/schedule/%E7%A6%8F%E7%94%B0%E9%87%8D%E7%94%B7-3-featuring-neil-swainson/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact venue event/reservation page verifies the date, doors, start time, complete trio and current general-admission price. No exact Apple Music preparation destination was established during this pass."
+      },
+      "sources": [
+        {
+          "url": "https://keystoneclubtokyo.com/html/schedule/%E7%A6%8F%E7%94%B0%E9%87%8D%E7%94%B7-3-featuring-neil-swainson/",
+          "publisher": "KEYSTONE CLUB TOKYO",
+          "checked_on": "2026-10-16",
+          "note": "Primary venue event and embedded reservation page verifies October 23, 2026; 18:30 doors; 19:30 start; Fukuda/Swainson/Komatsu lineup; the George Shearing association stated by the venue; ¥5,000 general admission; and the separate table-charge policy."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-source",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core performance and reservation facts come from the exact KEYSTONE CLUB TOKYO page. Repository searches for the complete billing, Japanese billing, date and proposed stable ID found no matching canonical, curated or processed event before publication. Priority was assigned only after Stage 1 admission; a one-night international trio with documented Shearing lineage belongs in RADAR, while the lack of a premiere, farewell or other scarce context keeps the durable recommendation at A."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Neil Swainson brings decades of bass craft—including the long George Shearing association named by the venue—into a Japanese piano trio rather than a touring all-star showcase. The reason to notice this date is the fit: Fukuda's piano color, Swainson's time and harmonic weight, and Komatsu's drums create a compact cross-border trio conversation that is specific to the room and lineup.",
+          "trip_verdict": "If October 23 is open during a Tokyo stay, this is a worthwhile Roppongi club night to take. It adds depth to the itinerary without displacing a rarer premiere, farewell or Yamamoto opportunity.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Neil Swainson lleva décadas de oficio en el contrabajo —incluida la larga asociación con George Shearing que señala el venue— a un trío japonés, no a una gira de estrellas. La razón para mirar esta fecha es el encaje: el color pianístico de Fukuda, el pulso y peso armónico de Swainson y la batería de Komatsu forman una conversación compacta y transfronteriza, propia de esta alineación.",
+          "trip_verdict": "Si el 23 de octubre está libre dentro de una estancia en Tokio, vale tomar esta noche de club en Roppongi. Le da profundidad al itinerario sin desplazar un estreno, despedida u oportunidad de Yamamoto realmente más escasa.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "sax-bass-duo-tabla-keystone-club-tokyo-2026-11-01",
+      "discovered_at": "2026-10-16T13:48:31.489Z",
+      "artist": "大堰邦郎 & 伊藤寛康 featuring 吉見征樹",
+      "subtitle": "Sax Bass Duo featuring Tabla — 究極の単音アンサンブル",
+      "dates": {
+        "start": "2026-11-01",
+        "end": null
+      },
+      "showtimes": [
+        "14:00"
+      ],
+      "venue": {
+        "id": "keystone-club-tokyo-roppongi",
+        "name": "KEYSTONE CLUB TOKYO",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Saxophone–bass–tabla ensemble / salsa and Indian percussion",
+      "genres": [
+        "Latin jazz",
+        "Salsa",
+        "World music",
+        "Improvised music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Latin"
+      ],
+      "lineup": [
+        "大堰邦郎 — saxophone",
+        "伊藤寛康 — bass",
+        "吉見征樹 — tabla"
+      ],
+      "factual_description": "KEYSTONE CLUB TOKYO presents Sax Bass Duo featuring Tabla on Sunday, November 1, 2026. Doors are at 13:00 and the performance starts at 14:00. The venue lists Kunio Ozeki on saxophone, Hiroyasu Ito on bass and Masaki Yoshimi on tabla. It identifies Ito as a former Orquesta de la Luz bassist and leader of Grupo Chevere, Ozeki as a Grupo Chevere member, and Yoshimi as a leading Japanese tabla player. General admission is ¥5,000 and the student price is ¥2,000, with the venue's separate table charge. The exact official event page contains the reservation form.",
+      "links": {
+        "official_event": "https://keystoneclubtokyo.com/html/schedule/sax-bass-duo-featuring-tabla%E3%80%8C%E7%A9%B6%E6%A5%B5%E3%81%AE%E5%8D%98%E9%9F%B3%E3%82%A2%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%96%E3%83%AB%E3%80%8D/",
+        "official_tickets": "https://keystoneclubtokyo.com/html/schedule/sax-bass-duo-featuring-tabla%E3%80%8C%E7%A9%B6%E6%A5%B5%E3%81%AE%E5%8D%98%E9%9F%B3%E3%82%A2%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%96%E3%83%AB%E3%80%8D/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 2000,
+          "maximum": 5000,
+          "source_url": "https://keystoneclubtokyo.com/html/schedule/sax-bass-duo-featuring-tabla%E3%80%8C%E7%A9%B6%E6%A5%B5%E3%81%AE%E5%8D%98%E9%9F%B3%E3%82%A2%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%96%E3%83%AB%E3%80%8D/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact venue event/reservation page verifies the date, doors, start time, complete instrumental lineup, artist context and current general/student prices. No exact Apple Music preparation destination was established during this pass."
+      },
+      "sources": [
+        {
+          "url": "https://keystoneclubtokyo.com/html/schedule/sax-bass-duo-featuring-tabla%E3%80%8C%E7%A9%B6%E6%A5%B5%E3%81%AE%E5%8D%98%E9%9F%B3%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AB%E3%80%8D/",
+          "publisher": "KEYSTONE CLUB TOKYO",
+          "checked_on": "2026-10-16",
+          "note": "Primary venue event and embedded reservation page verifies November 1, 2026; 13:00 doors; 14:00 start; Ozeki/Ito/Yoshimi instrumentation; Ito and Ozeki's Grupo Chevere and salsa context; Yoshimi's tabla role; ¥5,000 general and ¥2,000 student prices; and the separate table-charge policy."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-source",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core performance and reservation facts come from the exact KEYSTONE CLUB TOKYO page. Repository searches for the project title, complete Japanese lineup, date and proposed stable ID found no matching canonical, curated or processed event before publication. Priority was assigned only after Stage 1 admission. A+ reflects the unusually exposed saxophone/bass/tabla construction and its real salsa-to-Indian-percussion connection; S was rejected because the source establishes no premiere, farewell, final appearance or comparable scarcity fact."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This trio leaves every line exposed: saxophone and bass come from a working salsa relationship in Grupo Chevere, while tabla replaces the expected drum-kit grid with a different vocabulary of pulse, articulation and dialogue. The result is not generic fusion but a lean single-note ensemble whose Latin history and Indian percussion have to negotiate space in real time.",
+          "trip_verdict": "If November 1 overlaps a Tokyo stay, actively build the afternoon around Keystone. The instrumentation is distinctive enough to make room for, while the absence of a documented premiere or farewell keeps it from dictating a dedicated transpacific trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Este trío deja cada línea al descubierto: saxofón y bajo vienen de una relación de trabajo salsera en Grupo Chevere, mientras la tabla sustituye la cuadrícula esperada de una batería por otro vocabulario de pulso, articulación y diálogo. No es una fusión genérica, sino un ensamble austero de líneas melódicas donde la historia latina y la percusión india tienen que negociar el espacio en tiempo real.",
+          "trip_verdict": "Si el 1 de noviembre coincide con una estancia en Tokio, armaría activamente la tarde alrededor de Keystone. La instrumentación merece abrirle espacio, pero sin un estreno o despedida documentados no debe dictar por sí sola un viaje transpacifico.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "aacm-nyc-61st-anniversary-roulette-brooklyn-2026-12-18",
+      "discovered_at": "2026-10-16T13:48:31.489Z",
+      "artist": "AACM New York City Chapter",
+      "subtitle": "Celebrating 61 Years — David Virelles / Thurman Barker / Noah Barker / The Rhythm Method",
+      "dates": {
+        "start": "2026-12-18",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn-ny",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "AACM anniversary / solo and chamber creative music / world premiere",
+      "genres": [
+        "Creative music",
+        "Avant-garde jazz",
+        "Improvised music",
+        "New music",
+        "Contemporary chamber music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Latin",
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Richarda Abrams — mistress of ceremonies",
+        "David Virelles — solo piano",
+        "Thurman Barker — drums, percussion and bells",
+        "Noah Barker — piano",
+        "Leah Asher — violin (The Rhythm Method)",
+        "Marina Kifferstein — violin (The Rhythm Method)",
+        "Carrie Frey — viola (The Rhythm Method)",
+        "Meaghan Burke — cello (The Rhythm Method)"
+      ],
+      "factual_description": "Roulette presents the AACM New York City Chapter's second 61st-anniversary program on Friday, December 18, 2026 at 8:00 PM, with doors at 7:00 PM and Richarda Abrams as mistress of ceremonies. The four-set sequence comprises David Virelles solo piano; a Thurman Barker and Noah Barker duo; Thurman Barker solo percussion; and The Rhythm Method performing the world premiere of Barker's new string quartet ROCK CITY (Zion National Park). Roulette lists tickets at $35 in advance and $40 at the door, with a $25 student/senior price.",
+      "links": {
+        "official_event": "https://roulette.org/event/aacm-celebrating-61-years-of-creative-music-2/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1291312"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 35,
+          "maximum": 40,
+          "source_url": "https://roulette.org/event/aacm-celebrating-61-years-of-creative-music-2/",
+          "checked_on": "2026-10-16"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact Roulette event page and authorized AudienceView destination verify the program and ticket route. No exact Apple Music preparation destination was established during this pass."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/aacm-celebrating-61-years-of-creative-music-2/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-16",
+          "note": "Primary venue page verifies the December 18 date, 8:00 PM start, 7:00 PM doors, four-set program, complete published personnel, world-premiere designation for ROCK CITY, anniversary frame and current prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1291312",
+          "publisher": "AudienceView Professional / Roulette authorized ticketing",
+          "checked_on": "2026-10-16",
+          "note": "Exact authorized purchase destination linked directly by Roulette for this performance."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core facts come from Roulette and its authorized AudienceView destination. Repository searches for the complete billing, ROCK CITY, Thurman Barker with The Rhythm Method, date and proposed stable ID found no matching canonical, curated or processed event before publication. The November 4 AACM anniversary program already represented in RADAR is a different date with different ensembles. Priority was assigned only after Stage 1 admission. A+ reflects the four-format arc and world premiere; S was rejected because an annual anniversary program and one premiere designation do not establish a final or otherwise unrepeatable opportunity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The program makes AACM continuity audible across four different scales. David Virelles brings Afro-Caribbean and experimental piano language alone; charter member Thurman Barker moves from dialogue with emerging pianist Noah Barker to solo percussion; then The Rhythm Method turns his new ROCK CITY into a world-premiere string quartet. The anniversary matters because it produces new work and intergenerational form, not because sixty-one is a ceremonial number.",
+          "trip_verdict": "If December New York is already plausible, actively make Roulette the anchor of the Brooklyn night. The premiere and changing formats justify making room, but the annual AACM context means I would pair it with another strong New York reason rather than treat it as a standalone corridor trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El programa vuelve audible la continuidad de la AACM en cuatro escalas distintas. David Virelles lleva a piano solo un lenguaje afrocubano y experimental; el miembro fundador Thurman Barker pasa del diálogo con el pianista emergente Noah Barker a la percusión sola; después The Rhythm Method convierte su nueva ROCK CITY en un estreno mundial para cuarteto de cuerdas. El aniversario importa porque produce obra nueva y forma intergeneracional, no porque sesenta y uno sea un número ceremonial.",
+          "trip_verdict": "Si diciembre en Nueva York ya es viable, haría de Roulette el ancla de la noche en Brooklyn. El estreno y los cambios de formato justifican abrirle espacio, pero el contexto anual de AACM invita a combinarlo con otra razón fuerte para estar en la ciudad, no a convertirlo en un viaje regional aislado.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
