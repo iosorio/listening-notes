@@ -1,0 +1,37 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_enrichment_patches",
+  "batch_id": "simon-moullier-octet-lineup-correction-2026-10-16-001",
+  "review": {
+    "research_path": "radar/inbox/research/simon-moullier-octet-lineup-correction-2026-10-16-001.json",
+    "research_batch_id": "simon-moullier-octet-lineup-correction-2026-10-16-001",
+    "research_sha256": "bc8b24f1ab3385631d01db2de53c66a80fe976a471934c03efc7bb273a017b5a",
+    "approved_by": "RADAR automation editorial review",
+    "approved_on": "2026-10-17"
+  },
+  "patches": [
+    {
+      "id": "simon-moullier-octet-jazz-gallery-new-york-2026-12-04",
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact event and authorized ticket destinations remain verified. An exact Apple Music preparation link for the commissioned octet remains pending. The primary event page spells the guitarist's name Vinicius Gomez; canonical currently says Vinicius Gomes, and that factual lineup correction requires the separate review gate."
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/simon-moullier-dec-4",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-10-16",
+          "note": "Primary venue page verifies the December 4–5 residency commission and spells the guitarist's published name 'Vinicius Gomez.' The canonical lineup currently says 'Vinicius Gomes'; this source records the exact correction for factual review."
+        }
+      ],
+      "provenance": {
+        "status": "material-factual-change-detected",
+        "note": "A post-ingest source comparison found a one-letter transcription error in the newly ingested lineup: the primary page says Vinicius Gomez, while canonical says Vinicius Gomes. No canonical lineup or factual description is modified because the current existing-event enrichment workflow permits only links, listening recommendations, enrichment metadata, sources and provenance; the lineup correction requires a separate factual/editorial review.",
+        "recorded_on": "2026-10-16"
+      }
+    }
+  ]
+}
