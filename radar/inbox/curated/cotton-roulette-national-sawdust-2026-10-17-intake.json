@@ -1,0 +1,421 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "cotton-roulette-national-sawdust-2026-10-17-intake",
+  "published_at": "2026-10-17T10:06:30.000Z",
+  "checked_on": "2026-10-17",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-17",
+  "notes": "Scheduled Yamamoto-first discovery pass under current main-branch authority. Current operations, priority, editorial, domain, inbox, enrichment and telemetry contracts were read before research or grading. Fresh checks covered Tsuyoshi Yamamoto through ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO, Blue Note Place and current schedule traces, then widened to Greater Tokyo/Kanto and official live-music calendars across the DC-Baltimore-Philadelphia-Newark-New York corridor. Canonical, active, processed and review artifacts were searched before admission. Stage 1 admits four performances for event-specific reasons: Junko Onishi's first solo-album recital around American jazz-piano lineage; Collective Radiance's one-night convergence of Black Monument Ensemble, METTASUN, Victor Campbell and aja monet; Emily Wells's residency-built workshop of a new queer experimental opera; and Lockwood/Wooley's world-premiere 5.1 sound map made from two years of Columbia River field recording. Stage 2 assigns A+ to Onishi, Collective Radiance and Lockwood/Wooley, and A to Wells. Scarcity was challenged explicitly: Onishi has two sets and a multi-city recital tour, Collective Radiance belongs to a recurring festival context with some personnel still TBA, Wells is an explicitly developmental workshop, and the Lockwood/Wooley premiere has two performances and a work with a life beyond them. A/A+ fully captures the recommendations; no S/S+ review is warranted. Batch shape: A 1 / A+ 3 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "junko-onishi-american-classics-cotton-club-2027-01-09",
+      "discovered_at": "2026-10-17T10:05:54.199Z",
+      "artist": "Junko Onishi",
+      "subtitle": "American Classics / solo piano recital",
+      "dates": {
+        "start": "2027-01-09",
+        "end": null
+      },
+      "showtimes": [
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Solo jazz piano / American jazz lineage / album recital",
+      "genres": [
+        "Jazz",
+        "Solo piano"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz",
+        "Masters",
+        "Instrumental identity",
+        "Repertoire / interpretation"
+      ],
+      "lineup": [
+        "Junko Onishi — piano"
+      ],
+      "factual_description": "COTTON CLUB presents Junko Onishi in two solo-piano sets on January 9, 2027, at 4:30 PM and 7:30 PM. The program introduces her first solo album, American Classics, through music by Geri Allen and Duke Ellington and standards associated with Ella Fitzgerald and Billie Holiday. The venue lists published seat categories from ¥8,000 to ¥10,500 per person. The Tokyo date is one stop in a January recital tour that also includes Kobe, Fukushima and Takasaki.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/junko-onishi-270109/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 8000,
+          "maximum": 10500,
+          "source_url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/junko-onishi-270109/",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact COTTON CLUB page verifies date, both set times, solo billing, repertoire frame, tour context and seat charges. Its booking route is session-dependent, so no unstable ticket URL was stored; no exact Apple Music preparation destination was established in this pass."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/junko-onishi-270109/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-10-17",
+          "note": "Primary event page verifies January 9, both set times, Junko Onishi solo piano, American Classics repertoire context, other recital-tour dates and seat charges."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Fresh repository searches for the exact billing, event URL, date and stable ID found no canonical, active curated, processed or review match. Stage 1 admission rests on Onishi exposing her touch, pacing and harmonic decisions without a rhythm section while revisiting Geri Allen, Ellington and vocal-standard lineage. Stage 2 assigns A+: the first solo-album recital is worth actively making room for in Tokyo, while two sets and a multi-city tour make scarcity-tier language unwarranted."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Onishi's first solo album removes the rhythm section and puts every choice of attack, space and harmonic weight in the foreground. Hearing her move between Geri Allen, Ellington and standards tied to Fitzgerald and Holiday makes this a concentrated statement about an assertive Japanese pianist reading American lineage in her own language.",
+          "trip_verdict": "If Tokyo overlaps January 9, make room for one set; the late show fits cleanly into a city evening. From outside Kanto, fold it into a broader Tokyo stay rather than travel solely for a recital that also tours other Japanese cities.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El primer álbum solista de Onishi elimina la sección rítmica y deja al frente cada decisión de ataque, espacio y peso armónico. Escucharla pasar por Geri Allen, Ellington y estándares ligados a Fitzgerald y Holiday concentra la mirada de una pianista japonesa contundente sobre el linaje estadounidense, pero desde un idioma propio.",
+          "trip_verdict": "Si Tokio coincide con el 9 de enero, haría espacio para uno de los sets; la función tardía cabe bien en una noche de ciudad. Desde fuera de Kanto, lo integraría a una estancia más amplia en Tokio en vez de viajar sólo por un recital que también recorre otras ciudades japonesas.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "collective-radiance-roulette-2027-01-12",
+      "discovered_at": "2026-10-17T10:05:54.199Z",
+      "artist": "Damon Locks' Black Monument Ensemble, Jimetta Rose presents METTASUN, Victor Campbell, and aja monet",
+      "subtitle": "Collective Radiance / NYC Winter Jazzfest",
+      "dates": {
+        "start": "2027-01-12",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Festival ensemble convergence / spiritual jazz / poetry and movement",
+      "genres": [
+        "Jazz",
+        "Experimental",
+        "Spiritual jazz",
+        "Spoken word",
+        "Afro-Cuban jazz"
+      ],
+      "musical_axes": [
+        "Cultural context",
+        "Improvised",
+        "Cross-genre",
+        "Latin / Groove",
+        "Large ensemble"
+      ],
+      "lineup": [
+        "Damon Locks — Black Monument Ensemble leader",
+        "Angel Bat Dawid — Black Monument Ensemble",
+        "Dana Hall — Black Monument Ensemble",
+        "Arif Smith — Black Monument Ensemble",
+        "Jimetta Rose — METTASUN leader",
+        "Victor Campbell — piano",
+        "aja monet — poet and vocalist"
+      ],
+      "factual_description": "Roulette and NYC Winter Jazzfest present Collective Radiance on January 12, 2027, with doors at 6:00 PM and the ticketed program at 7:00 PM. The bill brings the New York debut of Damon Locks' Black Monument Ensemble with Angel Bat Dawid, Dana Hall and Arif Smith; Jimetta Rose's Sun Ra- and June Tyson-inspired METTASUN; Havana-born pianist Victor Campbell connecting Cuban and New Orleans traditions; and poet-vocalist aja monet. Additional Black Monument Ensemble personnel remain unannounced. The authorized ticket page lists advance prices of $52 and $58 including fees.",
+      "links": {
+        "official_event": "https://roulette.org/event/collective-radiance-damon-locks-black-monument-ensemble-jimetta-rose-presents-mettasun-victor-campell-aja-monet/",
+        "official_tickets": "https://tickets.venuepilot.com/e/collective-radiance-damon-locks-black-monument-ensemble-jimetta-rose-presents-mettasun-victor-campbel-8b26d7"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 52,
+          "maximum": 58,
+          "source_url": "https://tickets.venuepilot.com/e/collective-radiance-damon-locks-black-monument-ensemble-jimetta-rose-presents-mettasun-victor-campbel-8b26d7",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette and its authorized ticket page verify the date, doors, ticketed start, four-part bill, announced Black Monument Ensemble guests and current advance prices. Additional BME personnel are explicitly TBA; no names or exact Apple Music preparation destination were inferred."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/collective-radiance-damon-locks-black-monument-ensemble-jimetta-rose-presents-mettasun-victor-campell-aja-monet/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-17",
+          "note": "Primary event page verifies January 12, the complete four-part billing, New York debut and announced BME guests, METTASUN's Sun Ra/June Tyson frame, Victor Campbell's Cuban-New Orleans connection and aja monet's interdisciplinary context."
+        },
+        {
+          "url": "https://tickets.venuepilot.com/e/collective-radiance-damon-locks-black-monument-ensemble-jimetta-rose-presents-mettasun-victor-campbel-8b26d7",
+          "publisher": "VenuePilot / Roulette",
+          "checked_on": "2026-10-17",
+          "note": "Authorized ticket page verifies 6:00 PM doors, 7:00 PM program and current $52-$58 advance prices including fees."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Fresh repository searches for the title, exact URL, date and stable ID found no canonical, active curated, processed or review match. Stage 1 admission rests on the specific one-night dialogue among Black Monument Ensemble's movement-based ensemble practice, METTASUN's Sun Ra/June Tyson lineage, Campbell's Cuban-New Orleans piano language and monet's poetry. Stage 2 assigns A+: the bill is actively worth making room for, while its festival setting and partially TBA ensemble keep the recommendation below scarcity tiers."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The value is in the cross-current: Damon Locks brings a movement-centered large ensemble for its New York debut; Jimetta Rose answers Sun Ra and June Tyson through METTASUN; Victor Campbell links Havana and New Orleans piano; and aja monet joins poetry to jazz and social practice. In one room, those strands turn community into an audible organizing principle rather than a festival slogan.",
+          "trip_verdict": "Build a Brooklyn night around this if New York is already in play during Winter Jazzfest. From the DMV, pair it with another festival date or a second strong concert before committing to the corridor trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El valor está en la corriente cruzada: Damon Locks lleva a Nueva York por primera vez un gran ensamble centrado en movimiento; Jimetta Rose responde a Sun Ra y June Tyson con METTASUN; Victor Campbell enlaza el piano de La Habana y Nueva Orleans; y aja monet une poesía, jazz y práctica social. En una sola sala, esas líneas vuelven audible la comunidad como principio de organización, no como lema de festival.",
+          "trip_verdict": "Armaría una noche en Brooklyn alrededor de este programa si Nueva York ya está en juego durante Winter Jazzfest. Desde el DMV, lo combinaría con otra fecha del festival o un segundo concierto fuerte antes de comprometerme con el viaje por el corredor.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "emily-wells-mirror-father-national-sawdust-2027-02-03",
+      "discovered_at": "2026-10-17T10:05:54.199Z",
+      "artist": "Emily Wells",
+      "subtitle": "Mirror Father: A Workshop Performance",
+      "dates": {
+        "start": "2027-02-03",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Experimental opera workshop / queer family history / residency showing",
+      "genres": [
+        "Experimental",
+        "Opera",
+        "Electronic",
+        "Singer-songwriter"
+      ],
+      "musical_axes": [
+        "Cross-genre",
+        "Experimental / New Music",
+        "Cultural context",
+        "Work in progress"
+      ],
+      "lineup": [
+        "Emily Wells — composer and performer",
+        "Raja Feather Kelly — director",
+        "Gideon Crevoshay — Mirror Father"
+      ],
+      "factual_description": "National Sawdust presents Emily Wells' Mirror Father as a workshop performance on February 3, 2027, with doors at 6:30 PM and the seated program at 7:30 PM. The showing follows a two-day residency and develops an experimental opera built around a closeted 'mirror father' and a 'phantom daughter,' linking family secrecy to AIDS, climate, queerness and capital. Raja Feather Kelly directs and Gideon Crevoshay performs the Mirror Father. An exact ticket price was not exposed in accessible official source text and remains unknown.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/emily-wells-mirror-father-a-workshop-performance",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280621"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/production/1280621",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact National Sawdust page and authorized AudienceView destination verify date, doors, showtime, seated workshop format, residency context and named collaborators. No stable official ticket price or exact Apple Music preparation destination was exposed, so neither was invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/emily-wells-mirror-father-a-workshop-performance",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-10-17",
+          "note": "Primary event page verifies February 3, doors and showtime, seated workshop format, preceding residency, project subject and the Wells/Kelly/Crevoshay credits."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280621",
+          "publisher": "National Sawdust / AudienceView Professional",
+          "checked_on": "2026-10-17",
+          "note": "Authorized ticket destination reached directly from the National Sawdust event page; no stable ticket price was exposed in accessible source text."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Fresh repository searches for the project title, exact URL, date and stable ID found no canonical, active curated, processed or review match. Stage 1 admission rests on the specific act of exposing a new queer experimental opera at workshop stage after a residency, not on artist reputation. Stage 2 assigns A: the developmental glimpse belongs on RADAR and is useful if convenient in New York, while the explicitly unfinished format does not yet justify a stronger travel recommendation."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Wells is using the workshop form to expose the structure of a new opera before it hardens: a closeted father and phantom daughter open into questions of AIDS, climate, queerness and capital, with Raja Feather Kelly directing and Gideon Crevoshay embodying the father. The live interest is seeing music, movement and family archive negotiate that material while the piece is still changeable.",
+          "trip_verdict": "Attend if February 3 already finds you in New York and the chance to see a work being built appeals. From the DMV, this is better paired with another Brooklyn or Manhattan reason than treated as a dedicated trip by itself.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Wells usa el formato de taller para exponer la estructura de una ópera nueva antes de que se endurezca: un padre oculto y una hija fantasma abren preguntas sobre sida, clima, identidad queer y capital, con dirección de Raja Feather Kelly y Gideon Crevoshay encarnando al padre. El interés en vivo está en ver cómo música, movimiento y archivo familiar negocian ese material mientras la pieza todavía puede cambiar.",
+          "trip_verdict": "Iría si el 3 de febrero ya me encuentra en Nueva York y atrae la posibilidad de ver una obra en construcción. Desde el DMV, conviene combinarlo con otra razón en Brooklyn o Manhattan en vez de convertirlo por sí solo en un viaje dedicado.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "annea-lockwood-nate-wooley-sound-map-columbia-roulette-2027-02-05",
+      "discovered_at": "2026-10-17T10:05:54.199Z",
+      "artist": "Annea Lockwood and Nate Wooley",
+      "subtitle": "A Sound Map of the Columbia River / world premiere",
+      "dates": {
+        "start": "2027-02-05",
+        "end": "2027-02-06"
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Field-recording sound map / spatial composition / world premiere",
+      "genres": [
+        "Experimental",
+        "Sound art",
+        "Electroacoustic",
+        "Field recording"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Experimental / New Music",
+        "Instrumental identity",
+        "Site / environment",
+        "Premiere"
+      ],
+      "lineup": [
+        "Annea Lockwood — composer and field recordist",
+        "Nate Wooley — collaborator and performer"
+      ],
+      "factual_description": "Roulette presents the world premiere of Annea Lockwood and Nate Wooley's A Sound Map of the Columbia River on February 5 and 6, 2027, with doors at 7:00 PM and performances at 8:00 PM. The three-hour 5.1-surround work draws on two years of recording across three trips and more than 1,400 river miles using stereo microphones, shotgun microphones and hydrophones, with a bespoke map by Susan Huyser. Roulette lists $25 advance, $30 door and $20 student/senior tickets.",
+      "links": {
+        "official_event": "https://roulette.org/event/annea-lockwood-nate-wooley-sound-map-of-the-columbia-river/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1292998"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 30,
+          "source_url": "https://roulette.org/event/annea-lockwood-nate-wooley-sound-map-of-the-columbia-river/",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette's exact event pages and authorized ticket destination verify both dates, doors, showtime, duration, world-premiere status, recording methods, river scope, map credit and current prices. No exact Apple Music preparation destination for the new work was established."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/annea-lockwood-nate-wooley-sound-map-of-the-columbia-river/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-17",
+          "note": "Primary February 5 page verifies the world premiere, 8:00 PM performance, three-hour 5.1-surround form, two-year/three-trip/1,400-mile recording process, microphones and hydrophones, Susan Huyser map credit and ticket prices."
+        },
+        {
+          "url": "https://roulette.org/event/annea-lockwood-nate-wooley-sound-map-of-the-columbia-river-3/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-17",
+          "note": "Primary February 6 page verifies the second 8:00 PM performance of the same world-premiere presentation and its 7:00 PM doors."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1292998",
+          "publisher": "Roulette / AudienceView Professional",
+          "checked_on": "2026-10-17",
+          "note": "Authorized ticket destination for the February 5 performance reached directly from Roulette's exact event page."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Fresh repository searches for the title, exact URLs, dates and stable ID found no canonical, active curated, processed or review match. Stage 1 admission rests on a major living sound artist turning a two-year, 1,400-mile hydrophone and field-recording process into a three-hour spatial work with Wooley. Stage 2 assigns A+ after an explicit scarcity challenge: the world premiere and unusual scale make it actively worth prioritizing, but two performances and a finished work that can recur mean A+ still captures the recommendation without S-level inflation."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Lockwood and Wooley have spent two years listening along more than 1,400 miles of the Columbia with stereo rigs, directional microphones and hydrophones, then built those encounters into a three-hour 5.1 environment. The premiere offers the rare chance to hear a major living sound artist treat a river not as atmosphere but as a complex, spatial instrument.",
+          "trip_verdict": "Choose either night and make room for the full duration if New York is in play; the piece needs an unhurried evening. From the DMV, pair it with another strong New York date unless this kind of deep-listening sound work is a central reason for the trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Lockwood y Wooley pasaron dos años escuchando más de 1.400 millas del Columbia con equipos estéreo, micrófonos direccionales e hidrófonos, y convirtieron esos encuentros en un entorno 5.1 de tres horas. El estreno permite oír a una gran artista sonora viva tratar al río no como ambiente, sino como instrumento espacial y complejo.",
+          "trip_verdict": "Escogería cualquiera de las dos noches y reservaría la duración completa si Nueva York ya está en juego; la obra necesita una velada sin prisa. Desde el DMV, la combinaría con otra fecha fuerte en Nueva York salvo que este tipo de escucha profunda sea una razón central del viaje.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
