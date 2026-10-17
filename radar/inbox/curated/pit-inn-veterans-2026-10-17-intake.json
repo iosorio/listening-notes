@@ -1,0 +1,297 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "pit-inn-veterans-2026-10-17-intake",
+  "published_at": "2026-10-17T15:45:40.584Z",
+  "checked_on": "2026-10-17",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-17",
+  "notes": "Scheduled Yamamoto-first discovery pass under current main. Yamamoto and his priority venues produced no newly unrepresented date. Stage 1 admits three Shinjuku PIT INN performances for event-specific reasons: a veteran drummer's officially titled Last Live after more than sixty years of work, Akira Sakata's current intergenerational free-jazz trio presenting its first-album/LP cycle, and Kosuke Mine's first quartet live recording returning to its recording room for the release concert. Stage 2 assigns A+ to Tatsuya Nakamura and Kosuke Mine, and A to Akira Sakata SOS. Scarcity was challenged explicitly: the primary source does not define the scope of Nakamura's Last Live as a full retirement, Sakata's trio is touring nationally, and Mine's release context is meaningful but repeatable; A/A+ is sufficient and no S/S+ is warranted.",
+  "events": [
+    {
+      "id": "tatsuya-nakamura-last-live-shinjuku-pit-inn-tokyo-2026-11-14",
+      "discovered_at": "2026-10-17T15:42:21.151Z",
+      "artist": "Tatsuya Nakamura",
+      "subtitle": "Once More, Again, Last Live",
+      "dates": {
+        "start": "2026-11-14",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Veteran drummer / final-billed performance / acoustic quartet",
+      "genres": [
+        "Jazz",
+        "Post-Bop"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Tatsuya Nakamura — drums",
+        "Junichiro Abekawa — tenor saxophone",
+        "Teruaki Ueno — piano",
+        "Moriyoshi Shibuya — bass"
+      ],
+      "factual_description": "Shinjuku PIT INN presents veteran jazz drummer Tatsuya Nakamura in a quartet on November 14, 2026, with doors at 7:00 PM and music at 7:30 PM. The venue titles the engagement Once More, Again, Last Live and describes Nakamura as having a career of more than sixty years while continuing to pursue new drum-pedal techniques. The announced quartet adds Junichiro Abekawa, Teruaki Ueno and Moriyoshi Shibuya. Admission is ¥3,500 including one drink. The primary page does not state that the title means retirement from all performance.",
+      "links": {
+        "official_event": "https://pit-inn.com/show_detail/261114tatsuya-nakamura/",
+        "official_tickets": "https://pit-inn.com/show_detail/261114tatsuya-nakamura/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3500,
+          "maximum": 3500,
+          "source_url": "https://pit-inn.com/show_detail/261114tatsuya-nakamura/",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The primary venue page verifies the title, complete lineup, schedule, charge and reservation route. The page does not define the scope of Last Live as a full retirement, so no stronger claim is made; exact Apple Music preparation remains for review."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/show_detail/261114tatsuya-nakamura/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-10-17",
+          "note": "Primary venue page verifies November 14, the Once More, Again, Last Live title, doors, start, complete quartet, charge, reservations and Nakamura's career of more than sixty years."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-source",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository-wide searches for the exact title, lineup, date, source URL and stable ID found no canonical, active-intake, processed or review match. Stage 1 admission rests on the venue's explicit Last Live billing and a veteran drummer's sixty-plus-year instrumental practice, not generic reputation. Stage 2 assigns A+: actively make room in Tokyo. Scarcity challenge: because the primary page does not explicitly announce retirement from all performance, A+ captures the recommendation without overstating a farewell."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "PIT INN bills this as Nakamura's “Last Live” after more than sixty years behind the kit, but pairs the retrospective title with his continuing pursuit of new pedal technique. The quartet places that long physical vocabulary beside tenor saxophone, piano and bass rather than turning the night into a ceremonial tribute.",
+          "trip_verdict": "Actively make room if Tokyo overlaps November 14. The venue's wording makes the night unusually important, but its scope is not clear enough to rebuild an international itinerary around a presumed retirement.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "PIT INN presenta la fecha como el “Last Live” de Nakamura después de más de sesenta años en la batería, pero empareja ese título retrospectivo con su búsqueda todavía activa de nuevas técnicas de pedal. El cuarteto pone ese vocabulario físico junto a saxofón tenor, piano y bajo, sin volver la noche un homenaje ceremonial.",
+          "trip_verdict": "Le haría espacio activamente si Tokio coincide con el 14 de noviembre. La redacción del venue vuelve la noche inusualmente importante, pero su alcance no está claro como para rehacer un itinerario internacional suponiendo un retiro total.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "akira-sakata-sos-shinjuku-pit-inn-tokyo-2026-11-23",
+      "discovered_at": "2026-10-17T15:42:21.151Z",
+      "artist": "Akira Sakata SOS",
+      "subtitle": "In a Sentimental Mood — 2026 LP cycle",
+      "dates": {
+        "start": "2026-11-23",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Intergenerational free-jazz trio / current album cycle",
+      "genres": [
+        "Free Jazz",
+        "Improvisation",
+        "Contemporary Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Improvised",
+        "Experimental",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Akira Sakata — saxophone, clarinet",
+        "Nana Omori — piano",
+        "Manabu Sakata — drums"
+      ],
+      "factual_description": "Shinjuku PIT INN presents Akira Sakata SOS on November 23, 2026, with doors at 7:00 PM and music at 7:30 PM. The trio joins Sakata on saxophone and clarinet, Nana Omori on piano and Sakata's son Manabu on drums. The venue traces the group from the musicians' first performance together in 2017 through the 2025 CD In a Sentimental Mood and a 2026 LP edition mixed and mastered by Jim O'Rourke, alongside nationwide touring. Admission is ¥5,500 including tax and one drink.",
+      "links": {
+        "official_event": "https://pit-inn.com/show_detail/261123akira-sakata/",
+        "official_tickets": "https://pit-inn.com/show_detail/261123akira-sakata/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 5500,
+          "maximum": 5500,
+          "source_url": "https://pit-inn.com/show_detail/261123akira-sakata/",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The primary venue page verifies the complete trio, intergenerational relationship, album and LP context, schedule, charge and reservation route. Exact Apple Music preparation remains for review."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/show_detail/261123akira-sakata/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-10-17",
+          "note": "Primary venue page verifies November 23, doors, start, complete trio, family relationship, release/tour context, charge and reservations."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-source",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository-wide searches for Akira Sakata SOS, the exact trio, date, source URL and stable ID found no canonical, active-intake, processed or review match. Stage 1 admission rests on the specific current working trio: Sakata's free-jazz language meets Omori's free/contemporary piano and his son Manabu's cross-genre drums around the group's first-album cycle. Stage 2 assigns A: worth knowing and attending if convenient. The documented nationwide touring makes stronger scarcity language inappropriate."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Sakata's current trio turns lineage into friction rather than reverence: his saxophone and clarinet meet Nana Omori's free/contemporary piano and his son Manabu's drums inside the ongoing In a Sentimental Mood cycle. The family connection matters because the group has developed as a working unit, not because of a ceremonial handoff.",
+          "trip_verdict": "Attend if a Tokyo night is open on November 23. The trio is touring nationally, so this is a strong way to hear Sakata's current language rather than a one-night travel trigger.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El trío actual de Sakata vuelve el linaje fricción, no reverencia: su saxofón y clarinete se encuentran con el piano libre y contemporáneo de Nana Omori y la batería de su hijo Manabu dentro del ciclo de In a Sentimental Mood. La relación familiar importa porque el grupo se ha desarrollado como unidad de trabajo, no por un relevo ceremonial.",
+          "trip_verdict": "Iría si hay una noche libre en Tokio el 23 de noviembre. El trío gira por el país, así que es una buena forma de escuchar el lenguaje actual de Sakata, no un detonante de viaje por una sola fecha.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "kosuke-mine-quartet-shinjuku-pit-inn-tokyo-2026-11-10",
+      "discovered_at": "2026-10-17T15:42:21.151Z",
+      "artist": "Kosuke Mine Quartet",
+      "subtitle": "Live at The Shinjuku PIT INN — CD release concert",
+      "dates": {
+        "start": "2026-11-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Veteran quartet / first live album / release concert",
+      "genres": [
+        "Jazz",
+        "Post-Bop",
+        "Acoustic Jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz",
+        "Improvised",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Kosuke Mine — tenor saxophone",
+        "Eriko Shimizu — piano",
+        "Takashi Sugawa — bass",
+        "Ittetsu Takemura — drums"
+      ],
+      "factual_description": "Shinjuku PIT INN presents the Kosuke Mine Quartet on November 10, 2026, with doors at 7:00 PM and music at 7:30 PM. The concert celebrates Live at The Shinjuku PIT INN, the quartet's first live recording, captured in the same room on May 8 and released by Disk Union on November 4. The announced quartet is Mine, Eriko Shimizu, Takashi Sugawa and Ittetsu Takemura. Admission is ¥3,850 including tax and one drink.",
+      "links": {
+        "official_event": "https://pit-inn.com/artist_live_info/261110mine/",
+        "official_tickets": "https://pit-inn.com/artist_live_info/261110mine/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 3850,
+          "maximum": 3850,
+          "source_url": "https://pit-inn.com/artist_live_info/261110mine/",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The primary venue page verifies the complete lineup, first-live-recording context, recording and release dates, schedule, charge and reservation route. Exact Apple Music preparation remains for review."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/artist_live_info/261110mine/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-10-17",
+          "note": "Primary venue page verifies November 10, doors, start, complete quartet, first live album, May 8 recording in the same room, November 4 release, charge and reservations."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-source",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository-wide searches for Kosuke Mine, the quartet, exact date, source URL and stable ID found no canonical, active-intake, processed or review match. Stage 1 admission rests on the quartet returning to the room where it made its first live recording for the formal release concert, giving the night a precise relationship between document and performance. Stage 2 assigns A+: actively make room in Tokyo. Scarcity challenge: the quartet and album can continue beyond release night, so A+ is sufficient and S is not warranted."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Mine's quartet returns to the exact room where it made its first live recording only six days after the album's release. That feedback loop—recording, document and fresh performance—puts a veteran tenor voice with Shimizu, Sugawa and Takemura in a context more specific than an ordinary club date.",
+          "trip_verdict": "Actively make room if Tokyo overlaps November 10. The release-night return gives the date extra weight, but the working quartet can be heard again and does not justify rebuilding the trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El cuarteto de Mine regresa a la sala exacta donde hizo su primera grabación en vivo apenas seis días después de publicar el álbum. Ese circuito entre grabación, documento y nueva interpretación coloca a una voz veterana del tenor junto a Shimizu, Sugawa y Takemura en un contexto más específico que una fecha ordinaria de club.",
+          "trip_verdict": "Le haría espacio activamente si Tokio coincide con el 10 de noviembre. El regreso de lanzamiento añade peso a la fecha, pero el cuarteto puede volver a escucharse y no justifica rehacer el viaje.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
