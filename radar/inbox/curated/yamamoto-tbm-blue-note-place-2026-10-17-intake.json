@@ -1,0 +1,117 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "yamamoto-tbm-blue-note-place-2026-10-17-intake",
+  "published_at": "2026-10-17T06:23:55.303Z",
+  "checked_on": "2026-10-17",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-17",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current main-branch authority. Fresh primary checks covered Tsuyoshi Yamamoto's official schedule, KEYSTONE CLUB TOKYO, BLUE NOTE PLACE, BODY&SOUL and the Yamamoto/Tokyo thread, followed by current Tokyo/Kanto and official DC–Baltimore–Philadelphia–Newark–New York calendars. Exact canonical and repository-wide searches found no matching ID, event URL, billing or November 18 Yamamoto record. Stage 1 admits this performance because it is not simply another trio date: BLUE NOTE PLACE explicitly frames the night as a live return to the Three Blind Mice catalog, pairing the current Yamamoto trio with DJ/producer Tatsuo Sunaga and the record culture surrounding the label. Stage 2 assigns A+. The scarcity challenge found no farewell, premiere or evidence that the format cannot recur; A+ captures the need to actively make room for the event without inflating it to S. The batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "tsuyoshi-yamamoto-trio-dj-tatsuo-sunaga-blue-note-place-2026-11-18",
+      "discovered_at": "2026-10-17T06:22:58.006Z",
+      "artist": "Tsuyoshi Yamamoto Trio meets DJ Tatsuo Sunaga",
+      "subtitle": "three blind mice presents",
+      "dates": {
+        "start": "2026-11-18",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "blue-note-place-ebisu-tokyo",
+        "name": "Blue Note Place",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Tsuyoshi Yamamoto / Three Blind Mice / live-DJ encounter",
+      "genres": [
+        "Jazz",
+        "Acoustic Jazz",
+        "DJ / Selector"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Masters",
+        "Acoustic Jazz",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Tsuyoshi Yamamoto (山本剛) — piano",
+        "Hiroshi Kagawa (香川裕史) — bass",
+        "Toshio Osumi (大隅寿男) — drums",
+        "Tatsuo Sunaga (須永辰緒) — DJ"
+      ],
+      "factual_description": "Blue Note Place presents “three blind mice presents: Tsuyoshi Yamamoto Trio meets DJ Tatsuo Sunaga” on Wednesday, November 18, 2026. Doors open at 18:00 and the approximately 60-minute live performance begins at 19:00, with an approximately 30-minute intermission and no audience turnover. The announced lineup is Tsuyoshi Yamamoto on piano, Hiroshi Kagawa on bass, Toshio Osumi on drums and Tatsuo Sunaga on DJ. The venue lists ¥5,500 for first-floor seating and ¥4,500 for second-floor seating, plus a minimum one-order requirement per guest.",
+      "links": {
+        "official_event": "https://www.bluenoteplace.jp/live/tsuyoshi-yamamoto-261118/",
+        "official_tickets": "https://www.bluenoteplace.jp/live/tsuyoshi-yamamoto-261118/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 4500,
+          "maximum": 5500,
+          "source_url": "https://www.bluenoteplace.jp/live/tsuyoshi-yamamoto-261118/",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Tsuyoshi Yamamoto Trio",
+          "title": "MIDNIGHT SUGAR",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88-%E3%82%B7%E3%83%A5%E3%82%AC%E3%83%BC/6790278984"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenoteplace.jp/live/tsuyoshi-yamamoto-261118/",
+          "publisher": "BLUE NOTE PLACE",
+          "checked_on": "2026-10-17",
+          "note": "Primary venue event and reservation page verifies November 18, 2026; 18:00 doors; 19:00 live start; the approximately 60-minute performance and intermission format; Yamamoto, Kagawa, Osumi and Sunaga; the Three Blind Mice framing; ¥5,500 first-floor and ¥4,500 second-floor charges; and web-only reservations."
+        },
+        {
+          "url": "https://music.apple.com/us/album/%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88-%E3%82%B7%E3%83%A5%E3%82%AC%E3%83%BC/6790278984",
+          "publisher": "Apple Music",
+          "checked_on": "2026-10-17",
+          "note": "Exact Apple Music album page for the 1974 Three Blind Mice recording MIDNIGHT SUGAR by Tsuyoshi Yamamoto Trio."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-catalog-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Performance, lineup, timing, pricing, format and reservation facts come from the exact BLUE NOTE PLACE page; Apple Music supplies the exact listening destination. Repository-wide searches for the title, billing, date, URL and proposed stable ID found no matching canonical, curated or processed event before publication. Stage 1 admission rests on the event-specific return to the Three Blind Mice catalog through a live trio/DJ dialogue, not on Yamamoto's name alone. Stage 2 assigns A+ because the label lineage and Sunaga's selector role make the night actively worth prioritizing; after explicit scarcity review, A+ remains sufficient because the source does not establish a farewell, premiere or singular last chance."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is the Yamamoto thread folding back through the records that made it legible: the working trio brings Three Blind Mice repertoire into the room while Tatsuo Sunaga treats the label as living material rather than a museum shelf. The friction between Yamamoto’s blues-heavy touch and Sunaga’s selector logic gives the night a concrete shape beyond another trio booking.",
+          "trip_verdict": "If Tokyo is already in play, actively make room for this one; the live/DJ exchange and explicit Three Blind Mice frame make it a sharper choice than a routine club date. It is worth anchoring an Ebisu evening around, though not enough on its own to reroute an international trip.",
+          "listen_before": "MIDNIGHT SUGAR — Tsuyoshi Yamamoto Trio"
+        },
+        "es": {
+          "why_it_matters": "Aquí el hilo de Yamamoto vuelve a los discos que lo hicieron reconocible: el trío activo lleva el repertorio de Three Blind Mice a la sala mientras Tatsuo Sunaga trata el sello como material vivo y no como pieza de museo. La fricción entre el toque cargado de blues de Yamamoto y la lógica de selector de Sunaga le da a la noche una forma concreta, más allá de otra fecha de trío.",
+          "trip_verdict": "Si Tokio ya está en el itinerario, le haría espacio de manera activa; el cruce entre trío y DJ y el marco explícito de Three Blind Mice la vuelven una apuesta más precisa que una fecha habitual de club. Puede anclar una noche en Ebisu, aunque no justifica por sí sola desviar un viaje internacional.",
+          "listen_before": "MIDNIGHT SUGAR — Tsuyoshi Yamamoto Trio"
+        }
+      }
+    }
+  ]
+}
