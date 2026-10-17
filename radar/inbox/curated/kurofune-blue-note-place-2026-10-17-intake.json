@@ -1,0 +1,115 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "kurofune-blue-note-place-2026-10-17-intake",
+  "published_at": "2026-10-17T20:30:03.056Z",
+  "checked_on": "2026-10-17",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-17",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current main-branch authority. Fresh checks covered Jazz House ALFIE, BODY&SOUL, Space M&A schedule traces, KEYSTONE CLUB TOKYO, BLUE NOTE PLACE and current Yamamoto searches before widening to Tokyo/Kanto and official calendars in the DC-Baltimore-Philadelphia-Newark-New York corridor. Canonical, active, processed and review artifacts were searched for Kurofune, the exact event title, date, URL and proposed stable ID; no representation was found. Stage 1 admits this performance for an event-specific instrumental and cultural proposition: Kurofune places Amami shimauta and tsugaru-shamisen inside a working jazz rhythm section, in the band's first BLUE NOTE PLACE appearance after the venue-described 2025 restart. Stage 2 assigns A+ because the precise voice-and-shamisen identity and one-night ensemble format merit actively making room within a Tokyo stay. Scarcity was challenged explicitly: the sources do not establish a farewell, premiere, final opportunity or otherwise nonrecurring context, so A+ fully captures the recommendation and S is not warranted. The batch adds A 0 / A+ 1 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "kurofune-luxury-concert-blue-note-place-tokyo-2027-01-08",
+      "discovered_at": "2026-10-17T20:30:03.056Z",
+      "artist": "Kurofune",
+      "subtitle": "Luxury Concert 2027",
+      "dates": {
+        "start": "2027-01-08",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "blue-note-place-ebisu-tokyo",
+        "name": "Blue Note Place",
+        "city": "Shibuya, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Amami shimauta / tsugaru-shamisen jazz fusion",
+      "genres": [
+        "Jazz",
+        "Japanese folk",
+        "Crossover"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Fusion / Prog",
+        "Groove",
+        "Cultural context",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Tomotaka Sekiya — bass",
+        "Anna Sato — vocals / Amami shimauta",
+        "Hikari Shirafuji — tsugaru-shamisen",
+        "Daisuke Takeuchi — piano",
+        "Tsuzumi Noritomi — drums (support member)"
+      ],
+      "factual_description": "Blue Note Place presents Kurofune's Luxury Concert 2027 on Friday, January 8, 2027. Doors open at 18:00 and the live performance begins at 19:00; the venue describes an approximately 80-minute program with an approximately 30-minute intermission and no audience turnover. The announced band is Tomotaka Sekiya on bass, Anna Sato on vocals, Hikari Shirafuji on tsugaru-shamisen and Daisuke Takeuchi on piano, with support member Tsuzumi Noritomi on drums. Blue Note Place describes Kurofune as a jazz band combining the northern Japanese tradition of tsugaru-shamisen with Amami shimauta from southern Japan, and frames this as the band's first appearance at the venue after restarting activity in 2025. The venue lists ¥5,000 for first-floor seating and ¥4,000 for second-floor seating, plus a minimum one-order requirement per guest.",
+      "links": {
+        "official_event": "https://www.bluenoteplace.jp/live/kurofune-270108/",
+        "official_tickets": "https://www.bluenoteplace.jp/live/kurofune-270108/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 4000,
+          "maximum": 5000,
+          "source_url": "https://www.bluenoteplace.jp/live/kurofune-270108/",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact BLUE NOTE PLACE page verifies the date, performance time, complete announced lineup, pricing, program format and reservation controls. Kurofune's official Linktree independently identifies the project as a Japanese jazz band combining tsugaru-shamisen and Amami shimauta. No exact Apple Music album destination was verified, so none is invented."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenoteplace.jp/live/kurofune-270108/",
+          "publisher": "BLUE NOTE PLACE",
+          "checked_on": "2026-10-17",
+          "note": "Primary venue event and reservation page verifies January 8, 2027; 18:00 doors; 19:00 live start; the approximately 80-minute program and intermission format; the full band and support member; the Amami shimauta / tsugaru-shamisen jazz concept; the first BLUE NOTE PLACE appearance; the venue-described 2025 restart; ¥5,000 first-floor and ¥4,000 second-floor charges; and web reservation controls."
+        },
+        {
+          "url": "https://linktr.ee/kurofune",
+          "publisher": "Kurofune",
+          "checked_on": "2026-10-17",
+          "note": "Artist-controlled profile independently identifies Kurofune as a Japanese jazz band combining tsugaru-shamisen and Amami shimauta and links the group's official social and recording destinations."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-artist-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Performance, lineup, timing, pricing, format and reservation facts come from the exact BLUE NOTE PLACE page; Kurofune's artist-controlled profile corroborates the project's musical identity. Repository-wide searches for Kurofune, the title, date, URL and proposed stable ID found no canonical, curated, processed or review representation before publication. Stage 1 admission rests on the exact Amami shimauta / tsugaru-shamisen / jazz ensemble design and post-restart venue debut, not venue prestige. Stage 2 assigns A+ because that instrumental and cultural identity merits making room within Tokyo; after explicit scarcity review, A+ remains sufficient because no farewell, premiere or final opportunity is established."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Kurofune puts two regional Japanese traditions inside the same rhythm section: Anna Sato's Amami shimauta and Hikari Shirafuji's tsugaru-shamisen meet bass, piano and drums without turning either source into decoration. Blue Note Place catches the band after its 2025 restart, with voice and plucked-string identity driving the fusion rather than a generic crossover label.",
+          "trip_verdict": "If Tokyo is in play on January 8, actively make room and build the Ebisu evening around this set. The one-night format and precise ensemble language make it one of the sharper Kanto choices, though it is not enough by itself to reroute an international trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Kurofune mete dos tradiciones regionales japonesas dentro de una misma sección rítmica: el shimauta de Amami de Anna Sato y el tsugaru-shamisen de Hikari Shirafuji se encuentran con bajo, piano y batería sin convertir ninguna raíz en simple adorno. Blue Note Place recibe a la banda después de su reactivación de 2025, con la voz y la cuerda pulsada al mando de la fusión, no como etiqueta genérica de crossover.",
+          "trip_verdict": "Si Tokio está en juego el 8 de enero, le haría espacio activamente y armaría la noche en Ebisu alrededor de este set. El formato de una sola noche y el lenguaje preciso del ensamble la vuelven una de las opciones más filosas de Kantō, aunque no alcanza por sí sola para desviar un viaje internacional.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
