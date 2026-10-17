@@ -1,0 +1,212 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "international-connection-matheus-fonseca-2026-10-17-intake",
+  "published_at": "2026-10-17T04:19:31.642Z",
+  "checked_on": "2026-10-17",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-17",
+  "notes": "Scheduled Yamamoto-first discovery pass under current main. Stage 1 admits two newly unrepresented performances for specific live reasons: International Connection is a first collaboration assembled around mutual interest in Motoi Kanamori's compositions, joining New York, Vienna and Japanese jazz languages; Matheus Fonseca's OAS Night debuts Washington-written songs before studio recording, with a concrete Rio–Lisbon–Quito frame. Stage 2 assigns A to both. Scarcity was challenged explicitly: the evidence supports useful, distinctive nights but not one-off or protect-the-night rarity, so A is sufficient and no S/S+ is warranted.",
+  "events": [
+    {
+      "id": "international-connection-danny-grissett-shinjuku-pit-inn-tokyo-2026-11-15",
+      "discovered_at": "2026-10-17T04:16:38.212Z",
+      "artist": "International Connection featuring Danny Grissett",
+      "subtitle": "Danny Grissett, Vladimir Kostadinovic and Motoi Kanamori — first collaboration",
+      "dates": {
+        "start": "2026-11-15",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "shinjuku-pit-inn-tokyo",
+        "name": "Shinjuku PIT INN",
+        "city": "Shinjuku, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Cross-border jazz trio / new collaboration",
+      "genres": [
+        "Jazz",
+        "Post-Bop",
+        "Improvisation"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Improvised",
+        "Instrumental identity",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Danny Grissett — piano",
+        "Vladimir Kostadinovic — drums",
+        "Motoi Kanamori — bass"
+      ],
+      "factual_description": "Shinjuku PIT INN presents International Connection on November 15, 2026, with doors at 7:00 PM and music at 7:30 PM. Pianist Danny Grissett, drummer Vladimir Kostadinovic and bassist Motoi Kanamori meet for a trio created after Grissett and Kostadinovic heard Kanamori's compositions and proposed a collaboration. The venue lists ¥6,500 including tax and one drink.",
+      "links": {
+        "official_event": "https://pit-inn.com/show_detail/261115international-connection/",
+        "official_tickets": "https://pit-inn.com/show_detail/261115international-connection/"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 6500,
+          "maximum": 6500,
+          "source_url": "https://pit-inn.com/show_detail/261115international-connection/",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The primary venue page and embedded reservation route verify the trio, collaboration context, schedule and charge. Exact Apple Music preparation remains for review."
+      },
+      "sources": [
+        {
+          "url": "https://pit-inn.com/show_detail/261115international-connection/",
+          "publisher": "Shinjuku PIT INN",
+          "checked_on": "2026-10-17",
+          "note": "Primary venue page verifies the date, doors, start time, complete trio, first-collaboration context, charge and reservation route."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-source",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository-wide searches for the stable ID, International Connection, Danny Grissett, the exact date and source URL found no canonical, active-intake or processed match. Stage 1 admission rests on a trio explicitly formed around mutual interest in Kanamori's writing and the New York–Vienna–Tokyo exchange, not artist reputation alone. Stage 2 assigns A: worth knowing and attending if convenient. A first meeting is attractive, but the checked evidence does not establish protect-the-night scarcity; A is sufficient."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Grissett, Kostadinovic and Kanamori are not a touring leader with hired accompaniment: the trio was assembled because the two visiting musicians heard Kanamori's writing and wanted a mutual exchange. Piano touch, composition-minded drumming and Japanese bass language make the border-crossing premise audible in the ensemble.",
+          "trip_verdict": "If a Tokyo stay includes November 15, this is worth fitting into an open evening at PIT INN. The first meeting is attractive, but the evidence does not support rerouting a trip around it.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Grissett, Kostadinovic y Kanamori no son un líder de gira con acompañantes contratados: el trío nació porque los dos visitantes escucharon la escritura de Kanamori y quisieron un intercambio mutuo. El toque pianístico, la batería atenta a la composición y el lenguaje japonés del contrabajo vuelven audible la premisa transfronteriza.",
+          "trip_verdict": "Si una estancia en Tokio incluye el 15 de noviembre, vale la pena acomodarlo en una noche libre en PIT INN. El primer encuentro atrae, pero la evidencia no justifica redirigir un viaje alrededor de él.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "matheus-fonseca-oas-night-blues-alley-washington-dc-2026-11-10",
+      "discovered_at": "2026-10-17T04:16:38.212Z",
+      "artist": "Matheus Fonseca Quartet",
+      "subtitle": "OAS Night at Blues Alley — new songs before studio recording",
+      "dates": {
+        "start": "2026-11-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:30"
+      ],
+      "venue": {
+        "id": "blues-alley-washington-dc",
+        "name": "Blues Alley",
+        "city": "Washington, DC",
+        "state": "DC",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A",
+      "category": "Brazilian song / DMV cultural exchange / new material",
+      "genres": [
+        "Brazilian Music",
+        "Jazz",
+        "MPB",
+        "Latin"
+      ],
+      "musical_axes": [
+        "Latin / Groove",
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Matheus Fonseca — songwriter and bandleader",
+        "Matheus Fonseca Quartet — additional personnel not named on the checked primary pages"
+      ],
+      "factual_description": "Blues Alley's official ticketing platform presents the Matheus Fonseca Quartet for OAS Night on November 10, 2026, with 7:00 PM and 9:30 PM shows. Doors are listed at 6:00 PM and 8:45 PM. Fonseca will debut songs from an upcoming fifth album before recording them, connecting characters and places including Rio de Janeiro, Lisbon and Quito through Brazilian groove and jazz harmony. Tickets are $30 plus a $7 fee. The checked primary pages do not name the remaining quartet personnel.",
+      "links": {
+        "official_event": "https://www.instantseats.com/index.cfm?eventID=11212F4C-F4C0-ED1B-CA7C64B66EA05ED1&fuseaction=home.event",
+        "official_tickets": "https://www.instantseats.com/index.cfm?eventID=11212F4C-F4C0-ED1B-CA7C64B66EA05ED1&fuseaction=buy.event"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 30,
+          "maximum": 30,
+          "source_url": "https://www.instantseats.com/index.cfm?eventID=11212F4C-F4C0-ED1B-CA7C64B66EA05ED1&fuseaction=buy.event",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The official venue ticketing pages verify both showtimes, doors, new-material concept and charge; the official artist site confirms Fonseca's Washington-based Brazilian-jazz practice. The complete quartet personnel were not published on the checked primary pages and remain transparently unfilled; exact Apple Music preparation remains for review."
+      },
+      "sources": [
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=11212F4C-F4C0-ED1B-CA7C64B66EA05ED1&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-10-17",
+          "note": "Official venue event page verifies the November 10 date, 7:00 PM show, 6:00 PM doors, OAS billing, new-song concept and ticket charge."
+        },
+        {
+          "url": "https://www.instantseats.com/index.cfm?eventID=11213089-B4C1-26E9-2CB7C8A5AA2B501B&fuseaction=home.event",
+          "publisher": "Blues Alley / InstantSeats",
+          "checked_on": "2026-10-17",
+          "note": "Official venue event page verifies the second 9:30 PM show and 8:45 PM doors on the same date."
+        },
+        {
+          "url": "https://www.matheusfonsecamusic.com/",
+          "publisher": "Matheus Fonseca",
+          "checked_on": "2026-10-17",
+          "note": "Official artist site confirms Fonseca's Brazilian singer-songwriter and bandleader practice based in Washington, DC."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-ticketing-and-artist-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Repository-wide searches for Matheus Fonseca, the exact stable ID, date and event URLs found no canonical, active-intake or processed match. Stage 1 admission rests on a premiere of Washington-written songs before recording and a concrete Rio–Lisbon–Quito route in an OAS setting, not genre or venue prestige alone. Stage 2 assigns A: useful local intelligence and worth attending if convenient. Two sets and an active working project make A sufficient after the scarcity challenge."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Fonseca is debuting songs before they enter the studio, mapping characters and cities from Rio, Lisbon and Quito through Brazilian groove and jazz harmony. Because the songs were written after settling in Washington, the OAS framing connects an actual DMV chapter to the South American route rather than functioning as a generic theme night.",
+          "trip_verdict": "Catch either set as a useful local night if November 10 is open; the 7:00 and 9:30 options make it easy to fit. It is not a standalone regional travel reason.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Fonseca estrena canciones antes de llevarlas al estudio, trazando personajes y ciudades desde Río, Lisboa y Quito con groove brasileño y armonía de jazz. Como las escribió después de establecerse en Washington, el marco de la OEA conecta un capítulo real del DMV con la ruta sudamericana en vez de funcionar como una noche temática genérica.",
+          "trip_verdict": "Iría a cualquiera de los dos sets si el 10 de noviembre está libre; las opciones de 7:00 y 9:30 facilitan encajarlo. No es por sí solo un motivo de viaje regional.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
