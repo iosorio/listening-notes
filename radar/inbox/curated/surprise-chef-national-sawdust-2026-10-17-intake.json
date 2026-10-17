@@ -1,0 +1,124 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "surprise-chef-national-sawdust-2026-10-17-intake",
+  "published_at": "2026-10-17T17:27:15.355Z",
+  "checked_on": "2026-10-17",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-17",
+  "notes": "Scheduled Yamamoto-first discovery pass under the current durable repository authority. The current operations, priority, editorial, domain, inbox, enrichment and telemetry contracts were read before research or grading. Fresh checks covered Jazz House ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and current Tsuyoshi Yamamoto schedule traces before widening to Greater Tokyo/Kanto and official venue and presenter calendars across the DC–Baltimore–Philadelphia–Newark–New York corridor. The Yamamoto appearances and the principal Blue Note Tokyo, PIT INN, Ars Nova, NJPAC, Strathmore and Roulette candidates surfaced in this pass were already represented in canonical or inbox data and were not duplicated. Stage 1 admits one newly unrepresented Brooklyn performance: Surprise Chef's two-set National Sawdust engagement puts the Australian quartet's cinematic, hip-hop-informed instrumental groove in a close standing-room context, with multi-instrumentalist Ben Hackett supporting the early and late billing. Stage 2 assigns A. The same band is already represented in RADAR at The Hamilton two days earlier, and the official page describes an extensive tour, so the Brooklyn stop is useful to know and worth attending if convenient but does not require active trip reprioritization. No S/S+ scarcity review is invoked. Editorial review was performed by RADAR automation editorial review, not represented as independent human or Codex review.",
+  "events": [
+    {
+      "id": "surprise-chef-national-sawdust-brooklyn-2026-11-13",
+      "discovered_at": "2026-10-17T17:27:15.355Z",
+      "artist": "Surprise Chef",
+      "subtitle": "Two sets with support from Ben Hackett",
+      "dates": {
+        "start": "2026-11-13",
+        "end": null
+      },
+      "showtimes": [
+        "19:30",
+        "22:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Instrumental soul / cinematic jazz-funk / groove",
+      "genres": [
+        "Instrumental soul",
+        "Jazz-funk",
+        "Funk",
+        "Hip-hop-informed instrumental music"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Surprise Chef — individual live personnel not announced by National Sawdust",
+        "Ben Hackett — support; individual live instrumentation not announced for these sets"
+      ],
+      "factual_description": "National Sawdust presents Surprise Chef with support from Ben Hackett on Friday, November 13, 2026. The early set has 7:00 PM doors and a 7:30 PM performance; the late set has 10:00 PM doors and a 10:30 PM performance. Both official pages describe the Australian quartet's music as drawing on 1970s film scores, jazz-funk and the samples underlying hip-hop, and identify Superb (2025) as its fourth album. The venue specifies standing room only. The pages simultaneously display an erroneous 'This event has passed' label and an 'UPCOMING' heading even though the listed date is in the future; the exact date and times are therefore preserved while no availability claim is inferred.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/surprise-chef-early-set",
+        "official_tickets": "https://ci.ovationtix.com/36490/performance/11853460"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://ci.ovationtix.com/36490/performance/11853460",
+          "checked_on": "2026-10-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact National Sawdust pages and their authorized AudienceView destinations verify both set times, doors, venue, billing and standing-room format. No stable face-value price, individual Surprise Chef personnel for these sets, detailed Ben Hackett live instrumentation or exact Apple Music preparation link is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/surprise-chef-early-set",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-10-17",
+          "note": "Primary venue page verifies November 13, 2026, 7:00 PM doors, 7:30 PM early set, Surprise Chef with Ben Hackett, standing-room format and the current musical context."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/event/surprise-chef-late-set",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-10-17",
+          "note": "Primary venue page verifies November 13, 2026, 10:00 PM doors, 10:30 PM late set, Surprise Chef with Ben Hackett, standing-room format and the same program context."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/performance/11853460",
+          "publisher": "National Sawdust authorized ticketing / AudienceView Professional",
+          "checked_on": "2026-10-17",
+          "note": "Authorized purchase destination linked directly from the early-set venue page; no stable public face-value price was exposed in the checked surface."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/performance/11853461",
+          "publisher": "National Sawdust authorized ticketing / AudienceView Professional",
+          "checked_on": "2026-10-17",
+          "note": "Authorized purchase destination linked directly from the late-set venue page; no stable public face-value price was exposed in the checked surface."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-and-authorized-ticketing",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Core performance facts come from the two exact National Sawdust event pages and their authorized ticket links. Repository searches for the date, venue, exact URLs and proposed stable ID found no matching canonical, curated, review or processed event before publication. RADAR already contains the band's November 11 Washington, DC tour stop, but not this distinct Brooklyn engagement. Priority was assigned only after Stage 1 admission. A reflects the ensemble's strong instrumental groove and the intimate two-set setting; A+ was rejected because the official description documents an extensive tour and the same band is already available in the corridor two days earlier."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Surprise Chef works like one pocket-minded instrument: clipped guitar, keys, bass, drums and percussion turn cinematic soul, jazz-funk and hip-hop sample logic into a live ensemble language. Two standing-room sets at National Sawdust put that collective timing close to the listener, while Ben Hackett's multi-instrumental support adds a quieter, textural counterweight to the bill.",
+          "trip_verdict": "If Brooklyn already fits November 13, choose the early or late set that best anchors the night and attend if convenient. From farther down the corridor, the Washington date two days earlier offers the same headliner closer to home, so this stop is better folded into a broader New York trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Surprise Chef funciona como un solo instrumento gobernado por el pocket: guitarra recortada, teclados, bajo, batería y percusión convierten el soul cinematográfico, el jazz-funk y la lógica del sample de hip-hop en un lenguaje de ensamble. Dos sets de pie en National Sawdust acercan esa precisión colectiva al oyente, mientras el soporte multiinstrumental de Ben Hackett añade un contrapeso más silencioso y textural al cartel.",
+          "trip_verdict": "Si Brooklyn ya encaja el 13 de noviembre, escogería el set temprano o tardío que mejor organice la noche e iría si resulta conveniente. Desde más al sur del corredor, la fecha de Washington dos días antes ofrece el mismo acto principal más cerca, así que conviene integrar esta parada en un viaje más amplio a Nueva York.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
