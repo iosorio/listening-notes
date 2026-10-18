@@ -1,0 +1,121 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "endea-owens-cookout-penn-live-arts-2026-10-18-intake",
+  "published_at": "2026-10-18T19:49:55.991Z",
+  "checked_on": "2026-10-18",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-18",
+  "notes": "Scheduled Yamamoto-first discovery pass under current main-branch authority. Current operations, priority, editorial, domain, inbox, enrichment and telemetry contracts were read before research or grading. Fresh primary checks covered Tsuyoshi Yamamoto through Jazz House ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and current Japanese-jazz schedule traces, then widened to Tokyo/Kanto and official calendars across the DC-Baltimore-Philadelphia-Newark-New York corridor. Canonical, active, processed and review artifacts were searched before admission. Surfaced Yamamoto, Marc Ribot, Ursel Schlicht, Keystone Tokyo, Penn and National Sawdust dates already represented in those layers were not duplicated. Stage 1 admits Endea Owens & The Cookout for the specific bass-led working-ensemble context: Owens brings her own band to a Penn Live Arts debut with a documented jazz, soul and funk language, rather than appearing as an unnamed sidemember or generic festival billing. Stage 2 assigns A. This is a concert worth knowing about and attending if Philadelphia is convenient; the presenter announces no premiere, commission, special one-off lineup, farewell or other scarcity fact, and A+ action language would overstate the available evidence. Batch shape: A 1 / A+ 0 / S 0 / S+ 0.",
+  "events": [
+    {
+      "id": "endea-owens-the-cookout-penn-live-arts-philadelphia-2027-03-18",
+      "discovered_at": "2026-10-18T19:47:24.228Z",
+      "artist": "Endea Owens & The Cookout",
+      "subtitle": "Penn Live Arts debut",
+      "dates": {
+        "start": "2027-03-18",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "zellerbach-theatre-annenberg-center-philadelphia",
+        "name": "Zellerbach Theatre at the Annenberg Center",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Bass-led jazz / soul-funk working ensemble",
+      "genres": [
+        "Jazz",
+        "Soul",
+        "Funk"
+      ],
+      "musical_axes": [
+        "Instrumental identity",
+        "Groove",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Endea Owens - bass and bandleader",
+        "The Cookout - additional personnel not announced by the presenter"
+      ],
+      "factual_description": "Penn Live Arts presents Endea Owens & The Cookout on Thursday, March 18, 2027 at 7:00 PM in Zellerbach Theatre. The presenter identifies the engagement as Owens's Penn Live Arts debut and describes The Cookout as her ensemble, with a performance language mixing jazz, soul and funk. Owens is billed as a bassist and bandleader. The current primary event and ticket pages do not announce the other musicians, so no additional personnel are inferred.",
+      "links": {
+        "official_event": "https://pennlivearts.org/event/EndeaOwens",
+        "official_tickets": "https://tickets.pennlivearts.org/0/106000"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": "https://tickets.pennlivearts.org/0/106000",
+          "checked_on": "2026-10-18"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Endea Owens",
+          "title": "Feel Good Music",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/feel-good-music/1705792399"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://pennlivearts.org/event/EndeaOwens",
+          "publisher": "Penn Live Arts",
+          "checked_on": "2026-10-18",
+          "note": "Primary presenter page verifies March 18, 2027, 7:00 PM, Zellerbach Theatre, the Penn Live Arts debut, Owens's bassist identity and The Cookout's jazz-soul-funk framing."
+        },
+        {
+          "url": "https://tickets.pennlivearts.org/0/106000",
+          "publisher": "Penn Live Arts Ticketing",
+          "checked_on": "2026-10-18",
+          "note": "Exact authorized ticket page independently verifies the artist, date, 7:00 PM time and Zellerbach Theatre. No stable face-value amount is exposed in accessible text."
+        },
+        {
+          "url": "https://music.apple.com/us/album/feel-good-music/1705792399",
+          "publisher": "Apple Music",
+          "checked_on": "2026-10-18",
+          "note": "Exact Apple Music album page verifies Endea Owens's Feel Good Music, a jazz and R&B/soul album selected as preparation for The Cookout's announced jazz-soul-funk performance language."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-authorized-ticketing-and-streaming",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Fresh repository searches for Endea Owens, The Cookout, the exact event and ticket URLs, March 18 date and proposed stable ID found no canonical, active curated, processed or review representation. Stage 1 admission rests on the specific bass-led working ensemble and its documented jazz-soul-funk language. Stage 2 assigns A: this is a durable regional recommendation, while the current sources establish no premiere, commission, unusual guest configuration, farewell or scarcity context that would justify A+ or a scarcity tier. No unannounced musicians, ticket prices or repertoire were inferred."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Owens puts the bass at the center of a working band that treats jazz, soul and funk as one rhythmic language. The Cookout is the reason to notice the date: this is her own ensemble in a Penn Live Arts debut, with the band built to let low-end weight, ensemble lift and melodic directness share the foreground.",
+          "trip_verdict": "Attend if a March Philadelphia evening is already convenient. From the DMV, combine it with another city reason rather than make a dedicated trip before the remaining personnel or a more specific program is announced.",
+          "listen_before": "Endea Owens - Feel Good Music"
+        },
+        "es": {
+          "why_it_matters": "Owens pone el contrabajo en el centro de una banda estable que trabaja jazz, soul y funk como un solo lenguaje rítmico. The Cookout es la razón concreta para fijarse en la fecha: llega con su propio ensamble para debutar con Penn Live Arts, dejando que el peso del registro grave, el impulso colectivo y la melodía directa compartan el primer plano.",
+          "trip_verdict": "Iría si una noche de marzo en Filadelfia ya resulta conveniente. Desde el DMV, la combinaría con otra razón para estar en la ciudad en vez de hacer un viaje dedicado antes de que se anuncien el resto del ensamble o un programa más específico.",
+          "listen_before": "Endea Owens - Feel Good Music"
+        }
+      }
+    }
+  ]
+}
