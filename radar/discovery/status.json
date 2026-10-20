@@ -1,17 +1,23 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "cadence": "hourly",
-  "expected_max_silence_hours": 12,
-  "changed_at": "2026-09-29T18:07:27-04:00",
-  "changed_by": "Israel Osorio-Rodarte via Codex",
-  "reason": "Establish repository-owned desired state after the external RADAR automation was found disabled without a known intentional shutdown.",
+  "cadence": "every_24_hours",
+  "expected_max_silence_hours": 36,
+  "changed_at": "2026-10-20T00:37:04.759Z",
+  "changed_by": "Listening Notes RADAR operations via ChatGPT",
+  "reason": "Reduce general discovery cadence to once daily; retain 36-hour health threshold and separate Cultural Discovery and Health Watch schedules.",
   "state_history": [
     {
       "enabled": true,
       "changed_at": "2026-09-29T18:07:27-04:00",
       "changed_by": "Israel Osorio-Rodarte via Codex",
       "reason": "Establish repository-owned desired state after the external RADAR automation was found disabled without a known intentional shutdown."
+    },
+    {
+      "enabled": true,
+      "changed_at": "2026-10-20T00:37:04.759Z",
+      "changed_by": "Listening Notes RADAR operations via ChatGPT",
+      "reason": "Reduce general discovery cadence to once daily; retain 36-hour health threshold and separate Cultural Discovery and Health Watch schedules."
     }
   ]
 }
