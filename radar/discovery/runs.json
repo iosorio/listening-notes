@@ -1525,6 +1525,27 @@
       "events_published": 0,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261023T143710000Z-cultural-d6e70c",
+      "started_at": "2026-10-23T14:37:10.000Z",
+      "completed_at": "2026-10-23T14:54:36.674Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — RADAR Cultural Discovery",
+      "threads_checked": [
+        "NYC/Brooklyn Latin cross-genre specials and album premiere programs — National Sawdust primary calendar",
+        "DC/North Bethesda piano virtuosos with uncommon Latin-American repertoire — Washington Performing Arts",
+        "Tokyo British–Japanese jazz-funk collaboration — Blue Note Tokyo official calendar",
+        "Tokyo Japanese art-pop chamber-string reinterpretations — Cotton Club and official artist calendar",
+        "Review of primary dates, official ticket claims, canonical venue identities and existing RADAR curated/processed duplicates"
+      ],
+      "sources_checked": 7,
+      "candidates_reviewed": 5,
+      "events_admitted": 5,
+      "events_published": 5,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
