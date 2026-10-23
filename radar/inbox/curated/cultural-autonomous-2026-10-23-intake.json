@@ -1,0 +1,510 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "cultural-autonomous-2026-10-23-intake",
+  "published_at": "2026-10-23T14:47:53.204Z",
+  "checked_on": "2026-10-23",
+  "reviewed_by": "ChatGPT automation editorial review",
+  "reviewed_on": "2026-10-23",
+  "notes": "Fresh independent Cultural Discovery scan of primary NYC/DMV and Tokyo/Kanto presenter calendars (no Zelda seed). Five admissions are based on event-specific repertoire, orchestration, musician combinations and cultural context. Earlier reviewed or canonical items (White Stones, M3, Matana Roberts, AZIZA, Galliano, Yamamoto, Darmstadt at 80, Cecilia Lopez, Jazz-Fusion Summit and others) were excluded to avoid duplication or historical backlog re-admission. A/A+ tiers only; no scarcity inflation. Stage on a review branch and require GitHub Actions official dry-run and tests before publishing the same validated blob to main. No fake heartbeat on this branch.",
+  "events": [
+    {
+      "id": "gabriel-garzon-montano-salon-parcha-national-sawdust-brooklyn-2026-11-05",
+      "discovered_at": "2026-10-23T14:47:53.203Z",
+      "artist": "Gabriel Garzón-Montano / Ella Bric",
+      "subtitle": "Salón Parcha — original boleros, salsa and Afro-Latin ensemble arrangements",
+      "dates": {
+        "start": "2026-11-05",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Latin cross-genre / bolero and salsa",
+      "genres": [
+        "Bolero",
+        "Afro-Latin",
+        "Salsa",
+        "Soul"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Gabriel Garzón-Montano — featured singer, original and classic boleros and salsa",
+        "Ella Bric — musical director, trumpet and bandleader",
+        "Yusniel Sanches — ensemble",
+        "César Orozco — ensemble",
+        "Ernesto Sanches — ensemble",
+        "Luisito Quintero — ensemble"
+      ],
+      "factual_description": "National Sawdust presents Salón Parcha with featured Colombian-French musician Gabriel Garzón-Montano and Venezuelan music director Ella Bric on Thursday, November 5, 2026 at 8:00 p.m., doors 7:30. The series explores boleros, boogaloo and Afro-Latin music; this installment specifically features Garzón-Montano's reinterpretations of classic and original boleros and salsa. The venue names Yusniel Sanches, Cesar Orozco, Ernesto Sanches and Luisito Quintero as ensemble participants without specifying their individual instruments. The event page also displays a stale 'This event has passed' label despite the future dated listing; the current National Sawdust performance calendar corroborates November 5. Ticket inventory is not verified.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/salon-parcha-featuring-gabriel-garzon-montano-music-director-ella-bric",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Primary venue and current calendar agree on the future date and start time, but the venue's event template incorrectly says 'This event has passed'. No live ticket inventory or exact booking checkout has been verified, nor an exact Apple Music destination."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/salon-parcha-featuring-gabriel-garzon-montano-music-director-ella-bric",
+          "publisher": "National Sawdust (primary venue)",
+          "checked_on": "2026-10-23",
+          "note": "Confirms November 5, 2026, 20:00, doors 19:30, featured singer, musical director, Latin repertoire and named ensemble. Its contradictory 'passed' label is not treated as evidence that the future performance is cancelled."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/performances",
+          "publisher": "National Sawdust (current performances calendar)",
+          "checked_on": "2026-10-23",
+          "note": "Independently lists the Salón Parcha November 5 date and 20:00 start as an upcoming performance."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "This particular concert exposes Garzón-Montano's rarely featured live bolero/salsa repertoire through Bric's specifically assembled Latin ensemble; admission does not rest on either artist's name alone. Priority challenge: A+ is justified by the one-off repertoire/ensemble encounter and cross-scene performance; no verified world premiere, farewell or historical unrepeatability supports S. Canonical and active inbox/code-index checks found no event ID or matching bill; official ingest dry-run must still confirm semantic duplicates."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Garzón-Montano is not simply replaying his soul-and-R&B catalog: this Salón Parcha edition asks him to sing beloved and original boleros and salsa with Ella Bric directing a serious Afro-Latin band. The encounter between his intimate songwriting voice and the assembled rhythmic language is the event, not the series brand.",
+          "trip_verdict": "Actively make room for this evening if a New York visit is already viable. The guest set is a strong reason to choose this date over a generic Latin-jazz club night, but not enough evidence to justify a stand-alone trip from DC.",
+          "listen_before": "Gabriel Garzón-Montano — boleros and Latin-influenced recordings; Ella Bric — ensemble work"
+        },
+        "es": {
+          "why_it_matters": "Lo especial no es juntar dos nombres conocidos: Garzón-Montano va a cantar boleros y salsa —incluidas piezas propias— bajo la dirección musical de Ella Bric y una banda afrolatina de peso. Escuchar esa voz, normalmente asociada al soul y al R&B, metida en este lenguaje rítmico sí promete una transformación musical concreta.",
+          "trip_verdict": "Si ya tienes modo de estar en Nueva York, sí le haría espacio a esta noche. El repertorio y el ensamble la distinguen de una presentación latina rutinaria; por sí solos no justifican organizar un viaje desde Washington.",
+          "listen_before": "Gabriel Garzón-Montano — grabaciones con bolero y acentos latinos; Ella Bric — trabajo de ensamble"
+        }
+      }
+    },
+    {
+      "id": "daniela-mack-jp-jofre-sur-national-sawdust-brooklyn-2026-11-06",
+      "discovered_at": "2026-10-23T14:47:53.203Z",
+      "artist": "Daniela Mack & JP Jofre Quintet",
+      "subtitle": "SUR — Songs of Astor Piazzolla, live album-launch performance",
+      "dates": {
+        "start": "2026-11-06",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Tango nuevo / classical voice",
+      "genres": [
+        "Tango nuevo",
+        "Classical voice",
+        "Chamber music"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Daniela Mack — mezzo-soprano",
+        "JP Jofre — bandoneon, arrangements and music direction",
+        "Siwoo Kim — violin",
+        "Michael Nicolas — cello",
+        "Chris Johnson — double bass",
+        "Sohee Kwon — piano"
+      ],
+      "factual_description": "National Sawdust and Sarah Williams present Argentine-American mezzo-soprano Daniela Mack with Argentine bandoneonist JP Jofre and his quintet for the live launch of the Pentatone album SUR, Friday November 6, 2026, 7:30 p.m. (doors 6:30). The announced program includes Astor Piazzolla's Vuelvo al Sur, Balada Para un Loco and Oblivion in arrangements for voice, bandoneon, violin, cello, double bass and piano. The venue page displays a stale 'event has passed' label even though its date remains in the venue's current November 2026 performance calendar; ticket inventory is unconfirmed.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/daniela-mack-sur-album-release-co-produced-by-national-sawdust-and-sarah-williams",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Exact National Sawdust program verified, but its page's obsolete 'passed' flag conflicts with the forward November calendar. Neither current booking inventory nor a verified exact Apple Music recording URL was established."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/daniela-mack-sur-album-release-co-produced-by-national-sawdust-and-sarah-williams",
+          "publisher": "National Sawdust / Sarah Williams (presenters)",
+          "checked_on": "2026-10-23",
+          "note": "Confirms the album launch, venue and date, exact voice/bandoneon/chamber lineup and sample repertoire."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/performances",
+          "publisher": "National Sawdust (current performances calendar)",
+          "checked_on": "2026-10-23",
+          "note": "Lists Daniela Mack SUR with JP Jofre quintet on November 6, 2026 at 19:30 in its upcoming program."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "The album-launch is a documented live crossing of operatic mezzo-soprano, Piazzolla repertoire and tango nuevo quintet, not an ordinary artist appearance. Priority challenge: A+ fits the unusual ensemble and live launch; no source establishes a uniquely historic last performance or an irreplaceable world premiere at S. Canonical and active inbox/code-index checks found no event ID or matching bill; official ingest dry-run must still confirm semantic duplicates."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "A mezzo-soprano shaped by opera meets the bandoneon-led improvisatory edge of tango nuevo. Mack and Jofre are launching SUR with a real chamber quintet, so Piazzolla's songs can be heard as a conversation between concert singing, Argentine memory and rhythmic invention.",
+          "trip_verdict": "Worth carving out an evening for if the New York corridor trip can be combined with other plans. The intimate release performance is distinctive; it is not in itself grounds to rearrange a whole trip.",
+          "listen_before": "Astor Piazzolla — Vuelvo al Sur, Balada Para un Loco and Oblivion"
+        },
+        "es": {
+          "why_it_matters": "La mezzosoprano Daniela Mack pone una voz formada en la ópera frente al bandoneón y al pulso del tango nuevo de JP Jofre. El lanzamiento de SUR, con quinteto de cámara en vivo, permite escuchar a Piazzolla desde la canción, la memoria argentina y la improvisación, no como simple homenaje de repertorio.",
+          "trip_verdict": "Si el viaje a Nueva York ya es viable, vale apartar una noche para esta presentación íntima del disco. Su combinación es inusual, aunque no alcanza para cambiar el itinerario entero.",
+          "listen_before": "Astor Piazzolla — Vuelvo al Sur, Balada Para un Loco y Oblivion"
+        }
+      }
+    },
+    {
+      "id": "daniil-trifonov-latin-repertoire-strathmore-2026-12-10",
+      "discovered_at": "2026-10-23T14:47:53.203Z",
+      "artist": "Daniil Trifonov",
+      "subtitle": "A piano recital from Handel and Schubert to rare Dominican and Brazilian repertory",
+      "dates": {
+        "start": "2026-12-10",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "music-center-at-strathmore-north-bethesda-md",
+        "name": "Music Center at Strathmore",
+        "city": "North Bethesda",
+        "state": "MD",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Local",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Virtuoso piano / Latin-American repertoire",
+      "genres": [
+        "Classical piano",
+        "Latin-American classical"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Latin"
+      ],
+      "lineup": [
+        "Daniil Trifonov — solo piano"
+      ],
+      "factual_description": "Washington Performing Arts presents pianist Daniil Trifonov at the Music Center at Strathmore in North Bethesda on Thursday December 10, 2026 at 7:30 p.m. The published recital opens with Handel's Suite in E Major, Stravinsky's Piano Sonata and Schubert's Wanderer Fantasie, then turns to Latin American works by Juan Francisco García, Heitor Villa-Lobos, Rafael Bullumba Landestoy, Alberto Ginastera and Mozart Camargo Guarnieri, as well as Trifonov's Tango. Exact ticket price and live inventory are not established here.",
+      "links": {
+        "official_event": "https://www.washingtonperformingarts.org/event/daniil-trifonov-26/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The primary event announcement is verified; no exact current authorized ticket checkout or Apple Music album/track URL was independently established. No availability or price is inferred."
+      },
+      "sources": [
+        {
+          "url": "https://www.washingtonperformingarts.org/event/daniil-trifonov-26/",
+          "publisher": "Washington Performing Arts (presenting organization)",
+          "checked_on": "2026-10-23",
+          "note": "Primary recital listing provides date/time, Music Center at Strathmore, artist and full eleven-work program; includes Dominican and Brazilian composers."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "The specific recital juxtaposes an international virtuoso's Schubert and Stravinsky with seldom-heard Dominican and Brazilian solo-piano works and Trifonov's own Tango. Priority challenge: A+ due exceptional interpretation and unusually revealing program; S/S+ would require an unrepeatable historical setting or verified world premiere, neither established. Canonical and active inbox/code-index checks found no event ID or matching bill; official ingest dry-run must still confirm semantic duplicates."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The surprise is in the second half: after Schubert's Wanderer Fantasie and Stravinsky, Trifonov turns toward Juan Francisco García, Bullumba Landestoy, Villa-Lobos, Ginastera and Guarnieri. Hearing neglected Dominican and Brazilian piano writing from this level of interpreter, in a local hall, gives the recital unusually rich stakes.",
+          "trip_verdict": "Make room for the December recital in North Bethesda. It is the rare local program where a major virtuoso can also expand the listening map beyond the familiar European canon, without requiring travel.",
+          "listen_before": "Schubert — Wanderer-Fantasie; Villa-Lobos — Bachianas Brasileiras No. 4; Ginastera — Milonga"
+        },
+        "es": {
+          "why_it_matters": "La sorpresa está en el programa: después de Schubert y Stravinsky, Trifonov pasa a Juan Francisco García, Bullumba Landestoy, Villa-Lobos, Ginastera y Guarnieri. Escuchar ese repertorio dominicano y brasileño, poco habitual en los grandes recitales, a manos de un pianista de esta talla y además cerca de casa, es una oportunidad distinta.",
+          "trip_verdict": "Sí apartaría la noche de diciembre en North Bethesda. Es de esos recitales locales en los que el virtuosismo también sirve para descubrir música más allá del canon europeo.",
+          "listen_before": "Schubert — Fantasía del caminante; Villa-Lobos — Bachianas Brasileiras n.º 4; Ginastera — Milonga"
+        }
+      }
+    },
+    {
+      "id": "kroi-incognito-horns-blue-note-tokyo-2027-01-26",
+      "discovered_at": "2026-10-23T14:47:53.203Z",
+      "artist": "Kroi featuring INCOGNITO horns",
+      "subtitle": "Kinetic becomes a live British–Japanese funk encounter with Bluey and the Incognito horn section",
+      "dates": {
+        "start": "2027-01-26",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese–British jazz-funk collaboration",
+      "genres": [
+        "Jazz-funk",
+        "Japanese groove",
+        "R&B",
+        "Hip-hop"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Fusion / Prog"
+      ],
+      "lineup": [
+        "Leo Uchida — voice and guitar (Kroi)",
+        "Yuki Hasebe — guitar (Kroi)",
+        "Masanori Seki — bass (Kroi)",
+        "Hidetomo Masuda — drums (Kroi)",
+        "Daiki Chiba — keyboards (Kroi)",
+        "Jean-Paul 'Bluey' Maunick — backing voice and percussion (INCOGNITO)",
+        "Paul Booth — saxophone and flute",
+        "Ryan Quigley — trumpet",
+        "Tom White — trombone"
+      ],
+      "factual_description": "Blue Note Tokyo announces Kroi's club debut with Jean-Paul 'Bluey' Maunick and INCOGNITO horns on Tuesday January 26, 2027: first set 18:00 (doors 17:00), second set 20:30 (doors 19:45). The promoter ties the concert to the March 2026 digital track Kinetic feat. INCOGNITO, produced with Bluey, and lists the complete nine-person band. Official per-person seat/music charges range from JPY 12,000 to JPY 17,500; members' online presale is scheduled October 28 and general online sale November 4, 2026. The organizer also lists another Kroi–INCOGNITO joint appearance in Takasaki on January 24, so this is not a one-night Japan-exclusive project.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 12000,
+          "maximum": 17500,
+          "source_url": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+          "checked_on": "2026-10-23"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Official Blue Note Tokyo show/lineup and posted ¥12,000–17,500 seating charges are verified. Presales are announced for October 28 and November 4; no exact ticket checkout or available inventory has been verified yet, and no exact Apple Music link is established."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+          "publisher": "Blue Note Tokyo (primary presenter)",
+          "checked_on": "2026-10-23",
+          "note": "Establishes January 26 Tokyo shows at 18:00 and 20:30, Bluey plus 3-person Incognito horns, Kroi members, Kinetic recording origin, prices, presale dates and another collaboration on January 24 in Takasaki."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "The promised live performance realizes a specific UK–Japan studio collaboration between the Japanese funk/hip-hop band and influential British acid-jazz players, at the intimate Blue Note stage. Priority challenge: A+ is the correct grade: the formation is special, but the presenter lists an additional Kroi–INCOGNITO show in Takasaki two days earlier; rarity does not support S. Canonical and active inbox/code-index checks found no event ID or matching bill; official ingest dry-run must still confirm semantic duplicates."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more than an Incognito guest spot. Kroi's 2026 Kinetic recording with Bluey is being rebuilt onstage with the British group's actual horn section alongside the full Japanese quintet. Hearing that conversation between Japanese hip-hop-informed funk and London's acid-jazz lineage in the Blue Note room is the specific draw.",
+          "trip_verdict": "Prioritize a Tokyo evening here if January travel lines up. It is a revealing cross-generational groove encounter, but a related Takasaki performance means the Tokyo set is not a singular reason to fly to Japan.",
+          "listen_before": "Kroi — Kinetic feat. INCOGNITO; Incognito — classic acid-jazz and jazz-funk recordings"
+        },
+        "es": {
+          "why_it_matters": "No es una participación de cortesía: Kroi lleva al escenario la colaboración que grabó con Bluey en Kinetic, ahora con la sección de metales de INCOGNITO y el quinteto japonés completo. Ese diálogo entre el funk y el hip-hop de Japón y la tradición del acid jazz británico, dentro del Blue Note, es lo que hace atractiva la noche.",
+          "trip_verdict": "Si vas a estar en Tokio en enero, sí le haría espacio a una de las funciones. Es un cruce generacional con sustancia, pero también hay una actuación conjunta en Takasaki y no justificaría volar solo por esta fecha.",
+          "listen_before": "Kroi — Kinetic feat. INCOGNITO; Incognito — discos fundamentales de acid jazz y jazz-funk"
+        }
+      }
+    },
+    {
+      "id": "salyu-strings-cotton-club-tokyo-2026-12-20",
+      "discovered_at": "2026-10-23T14:47:53.203Z",
+      "artist": "Salyu",
+      "subtitle": "Salyu × Strings — A Christmas Evening of Light",
+      "dates": {
+        "start": "2026-12-20",
+        "end": null
+      },
+      "showtimes": [
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A",
+      "category": "Japanese art-pop / string arrangements",
+      "genres": [
+        "Japanese art pop",
+        "Chamber strings"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Salyu — voice",
+        "Sena Oshima (大嶋世菜) — violin",
+        "Kazunari Suma (須磨和声) — violin",
+        "Mei Mishina (三品芽衣) — viola",
+        "Junpei Hayashida (林田順平) — cello",
+        "Kazunori Ichikawa (市川和則) — guitar"
+      ],
+      "factual_description": "COTTON CLUB and Salyu's official site announce two Tokyo performances on Sunday December 20, 2026: 16:30 (doors 15:30) and 19:30 (doors 18:30). The Japanese art-pop singer will return to a string-quartet-with-guitar format for the first time in roughly five years, with seasonal arrangements of her repertoire. Official posted per-person reserved-seat pricing runs from JPY 8,800 to JPY 11,500. The club states presales begin October 31 for members and November 6 for the public; current available seats are not verified.",
+      "links": {
+        "official_event": "https://cottonclubjapan.co.jp/jp/sp/artists/salyu-261220/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 8800,
+          "maximum": 11500,
+          "source_url": "https://salyu.jp/live/20261015_live/",
+          "checked_on": "2026-10-23"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The artist and venue confirm published JPY 8,800–11,500 reserved-seating categories and future October 31 / November 6 sale dates. No exact active ticket checkout or Apple Music recording destination has been verified."
+      },
+      "sources": [
+        {
+          "url": "https://cottonclubjapan.co.jp/jp/sp/artists/salyu-261220/",
+          "publisher": "COTTON CLUB Tokyo (venue)",
+          "checked_on": "2026-10-23",
+          "note": "Confirms December 20 date, two exact set times, string-quartet/guitar personnel, approximate five-year gap and seasonal arrangements."
+        },
+        {
+          "url": "https://salyu.jp/live/20261015_live/",
+          "publisher": "Salyu official website (artist)",
+          "checked_on": "2026-10-23",
+          "note": "Confirms concert title, date, venue, each set's opening/starting times, personnel and JPY 8,800–11,500 published reserved seat charges."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "A documented rare return to Salyu's chamber-string setting for her art-pop material, with named string players and guitar; not included merely as a holiday concert. Priority challenge: A is sufficient because the presenter's claim is seasonal rearrangement and a five-year break, not a verified premiere or irreplaceable reunion; no need to inflate to A+. Canonical and active inbox/code-index checks found no event ID or matching bill; official ingest dry-run must still confirm semantic duplicates."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Salyu's expressive Japanese pop gets a less common acoustic frame: four string players and guitar, announced as her first strings-centered show in about five years. It is a chance to hear the songs' melodic and textural character outside the usual band production, in a listening-room setting.",
+          "trip_verdict": "Worth noting if a Tokyo visit already includes December 20. The unusual instrumentation adds real value, but the holiday format does not warrant building travel plans around this show.",
+          "listen_before": "Salyu — solo catalog; salyu × salyu — s(o)un(d)beams"
+        },
+        "es": {
+          "why_it_matters": "Salyu vuelve, después de unos cinco años, a presentar sus canciones con cuerdas: dos violines, viola, violonchelo y guitarra. El interés está en escuchar cómo cambia el detalle melódico y tímbrico de su pop japonés en un formato de cámara, sin la producción habitual.",
+          "trip_verdict": "Vale tenerlo presente si el 20 de diciembre ya te encuentra en Tokio. El arreglo de cuerdas es un motivo musical concreto, pero no organizaría el viaje alrededor del concierto.",
+          "listen_before": "Salyu — discos solistas; salyu × salyu — s(o)un(d)beams"
+        }
+      }
+    }
+  ]
+}
