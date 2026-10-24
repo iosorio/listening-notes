@@ -1,0 +1,199 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "cultural-five-ticket-music-2026-10-24",
+  "created_on": "2026-10-24",
+  "notes": "User authorized verification and official enrichment procedure. Complete denotes all required exact link destinations verified, NOT ticket availability. Sale timing, pricing basis and inventory uncertainty are preserved in sources. No prices, priorities, attendance, dates or discovery telemetry are changed by this enrichment patch. Final MacPro validation required by AGENTS.md remains pending; do not ingest until that gate is satisfied or the user explicitly authorizes an alternative.",
+  "events": [
+    {
+      "id": "gabriel-garzon-montano-salon-parcha-national-sawdust-brooklyn-2026-11-05",
+      "links": {
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1293828"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Gabriel Garzón-Montano",
+          "title": "Jardín",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/jard%C3%ADn/1178839747"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://www.nationalsawdust.org/event/salon-parcha-featuring-gabriel-garzon-montano-music-director-ella-bric",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. OvationTix live UI matched November 5, 2026 at 20:00, performanceId=11879182. GENERAL ADMISSION quantity control enabled: USD 20.00 base + 5.07 convenience fee = 25.07 total. No purchase or inventory hold performed; exact remaining count unknown. The presenter page also renders a contradictory passed label; the dated ticketing UI confirms the upcoming performance."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://ci.ovationtix.com/36490/production/1293828",
+          "checked_on": "2026-10-24",
+          "note": "OvationTix live UI matched November 5, 2026 at 20:00, performanceId=11879182. GENERAL ADMISSION quantity control enabled: USD 20.00 base + 5.07 convenience fee = 25.07 total. No purchase or inventory hold performed; exact remaining count unknown. The presenter page also renders a contradictory passed label; the dated ticketing UI confirms the upcoming performance."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/jard%C3%ADn/1178839747",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: An introduction to the featured singer’s soul/funk phrasing; not a representation of the evening’s bolero/salsa set list."
+        }
+      ]
+    },
+    {
+      "id": "daniela-mack-jp-jofre-sur-national-sawdust-brooklyn-2026-11-06",
+      "links": {
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1294000"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Daniela Mack, Eric Silberger, Amy Kang, Pablo Cafici, Chris Johnson & JP Jofre",
+          "title": "Sur",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/sur/6770657276"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://www.nationalsawdust.org/event/daniela-mack-sur-album-release-co-produced-by-national-sawdust-and-sarah-williams",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. OvationTix live UI matched November 6, 2026 at 19:30, performanceId=11879689. ADVANCE SALE quantity control enabled: USD 40.00 base + 10.51 convenience fee = 50.51 total. Header advertises 50.51–55.51 including fees, but only the 50.51 advance option was verified selectable. Remaining count unknown; no cart or purchase. Presenter’s passed label conflicts with future date and active ticketing."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://ci.ovationtix.com/36490/production/1294000",
+          "checked_on": "2026-10-24",
+          "note": "OvationTix live UI matched November 6, 2026 at 19:30, performanceId=11879689. ADVANCE SALE quantity control enabled: USD 40.00 base + 10.51 convenience fee = 50.51 total. Header advertises 50.51–55.51 including fees, but only the 50.51 advance option was verified selectable. Remaining count unknown; no cart or purchase. Presenter’s passed label conflicts with future date and active ticketing."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/sur/6770657276",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: The album being launched, directly relevant to the Piazzolla program; recording personnel are not asserted to be identical to the live quintet."
+        }
+      ]
+    },
+    {
+      "id": "daniil-trifonov-latin-repertoire-strathmore-2026-12-10",
+      "links": {
+        "official_tickets": "https://my.washingtonperformingarts.org/5000"
+      },
+      "recommended_listening": [
+        {
+          "artist": "Daniil Trifonov",
+          "title": "Mi Historia Americana: Sur",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/mi-historia-americana-sur/6790386727"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://www.washingtonperformingarts.org/event/daniil-trifonov-26/",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. Presenter’s Purchase Tickets link resolves to its own event-specific sales page, matching December 10, 2026 at 19:30 at Strathmore. Live best-available UI at /5000?z=0 lists selectable sections USD 64.75–128.00 including fees; Orchestra Boxes are labeled sold out, not the entire event. Published base prices USD 55–110 plus fees. No seats reserved; counts, adjacency and final fulfillment unverified. This is the presenter WPA’s authorized channel, not an inferred Strathmore SmartSeat URL."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://my.washingtonperformingarts.org/5000",
+          "checked_on": "2026-10-24",
+          "note": "Presenter’s Purchase Tickets link resolves to its own event-specific sales page, matching December 10, 2026 at 19:30 at Strathmore. Live best-available UI at /5000?z=0 lists selectable sections USD 64.75–128.00 including fees; Orchestra Boxes are labeled sold out, not the entire event. Published base prices USD 55–110 plus fees. No seats reserved; counts, adjacency and final fulfillment unverified. This is the presenter WPA’s authorized channel, not an inferred Strathmore SmartSeat URL."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/mi-historia-americana-sur/6790386727",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: The pianist’s Latin American repertoire project overlaps the recital’s García, Landestoy and Ginastera selections; not a recording of the full recital."
+        }
+      ]
+    },
+    {
+      "id": "salyu-strings-cotton-club-tokyo-2026-12-20",
+      "links": {
+        "official_tickets": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5770"
+      },
+      "recommended_listening": [
+        {
+          "artist": "salyu x salyu",
+          "title": "S(o)un(d)beams",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/s-o-un-d-beams/522583647"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://cottonclubjapan.co.jp/jp/sp/artists/salyu-261220/",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. Followed the venue’s reservation control to event 5770. Destination explicitly says reservations have not opened. JAM SESSION presale October 31, 2026 12:00 JST; general web sale November 6, 2026 12:00 JST. No current bookable inventory. Published per-person reserved-seat charges JPY 8,800–11,500; not an availability claim. Two shows announced, 16:30 and 19:30."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5770",
+          "checked_on": "2026-10-24",
+          "note": "Followed the venue’s reservation control to event 5770. Destination explicitly says reservations have not opened. JAM SESSION presale October 31, 2026 12:00 JST; general web sale November 6, 2026 12:00 JST. No current bookable inventory. Published per-person reserved-seat charges JPY 8,800–11,500; not an availability claim. Two shows announced, 16:30 and 19:30."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/s-o-un-d-beams/522583647",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: Her vocal-texture project with Cornelius, already named in the existing editorial listening guide; not the forthcoming strings arrangement or a confirmed set list."
+        }
+      ]
+    },
+    {
+      "id": "kroi-incognito-horns-blue-note-tokyo-2027-01-26",
+      "links": {
+        "official_tickets": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4032#4032"
+      },
+      "recommended_listening": [
+        {
+          "artist": "KROI",
+          "title": "Kinetic (feat. Incognito) - Single",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kinetic-feat-incognito-single/1881547833"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. Live presenter page’s reservation control links to show_event_info/4032/#4032 and redirects to exec/4032#4032. Destination explicitly says reservations have not opened: JAM SESSION October 28, 2026 12:00 JST; general November 4, 2026 12:00 JST. No current bookable inventory. Posted music/seat totals JPY 12,000–17,500. Two shows, 18:00 and 20:30; no show-specific inventory claimed."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4032#4032",
+          "checked_on": "2026-10-24",
+          "note": "Live presenter page’s reservation control links to show_event_info/4032/#4032 and redirects to exec/4032#4032. Destination explicitly says reservations have not opened: JAM SESSION October 28, 2026 12:00 JST; general November 4, 2026 12:00 JST. No current bookable inventory. Posted music/seat totals JPY 12,000–17,500. Two shows, 18:00 and 20:30; no show-specific inventory claimed."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/kinetic-feat-incognito-single/1881547833",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: The studio collaboration that prompted this live encounter; Apple lists the single released March 23, 2026. The venue also links the same Apple album ID in the Japanese storefront."
+        }
+      ]
+    }
+  ]
+}
