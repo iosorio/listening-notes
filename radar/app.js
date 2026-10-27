@@ -4,7 +4,14 @@ const COPY = {
     areaGroup: 'Scenes and areas', venueGroup: 'Venues', priorityGroup: 'Priorities',
     noMatches: '0 events with the current filters',
     areas: { dmv: 'DMV / local scene', baltimore: 'Baltimore', philadelphia: 'Philadelphia', newark: 'Newark', new_york: 'New York', tokyo: 'Tokyo', kanagawa: 'Kanagawa / Kantō', saitama: 'Saitama / Kantō', new_jersey: 'New Jersey', unassigned: 'Area to review' },
-    viewUpcoming: 'Upcoming', viewArchive: 'Archive', upcoming: 'On the radar', archive: 'RADAR archive',
+    viewUpcoming: 'Upcoming', viewArchive: 'Archive', viewLatest: 'Latest additions', upcoming: 'On the radar', archive: 'RADAR archive',
+    latest: 'Just added to the radar', latestDescription: 'Six recent additions, newest first. Each concert keeps its own performance date.',
+    added: 'Added', newSinceVisit: 'New since your last visit', latestNotice: 'See what is new on the radar',
+    sinceVisit: count => `${count} ${count === 1 ? 'concert added' : 'concerts added'} since your last visit`,
+    latestEmpty: 'No verified ingestion dates are recorded yet.', technical: 'Radar status and ingestion', lastIngestion: 'Last concert ingestion', ingestionUnknown: 'No verified ingestion time recorded',
+    applePending: 'Apple Music link pending verification.', appleUnavailable: 'No verified Apple Music link for this production.',
+    recordingContext: 'Recordings for listening context; not a recording or setlist of this event.',
+    enrichmentBacklog: count => `${count} upcoming concerts have listening links awaiting verification.`,
     shown: 'shown', upcomingCount: 'upcoming', archiveCount: 'archived', signal: 'The Signal', whyNow: 'Why now',
     recentSignals: 'Recent Signals', listen: 'Listen before', appleMusic: 'Listen on Apple Music',
     official: 'Official tickets', details: 'Details', detailsAndTickets: 'Details & Tickets',
@@ -30,7 +37,14 @@ const COPY = {
     areaGroup: 'Escenas y zonas', venueGroup: 'Recintos', priorityGroup: 'Prioridades',
     noMatches: '0 eventos con los filtros actuales',
     areas: { dmv: 'DMV / escena local', baltimore: 'Baltimore', philadelphia: 'Filadelfia', newark: 'Newark', new_york: 'Nueva York', tokyo: 'Tokio', kanagawa: 'Kanagawa / Kantō', saitama: 'Saitama / Kantō', new_jersey: 'Nueva Jersey', unassigned: 'Zona por revisar' },
-    viewUpcoming: 'Próximos', viewArchive: 'Archivo', upcoming: 'En el radar', archive: 'Archivo RADAR',
+    viewUpcoming: 'Próximos', viewArchive: 'Archivo', viewLatest: 'Novedades', upcoming: 'En el radar', archive: 'Archivo RADAR',
+    latest: 'Recién llegados al radar', latestDescription: 'Seis conciertos recién incorporados, del más reciente hacia atrás. La fecha de cada función aparece en su ficha.',
+    added: 'Ingresó', newSinceVisit: 'Nuevo desde tu última visita', latestNotice: 'Mira qué ha llegado al radar',
+    sinceVisit: count => `${count} ${count === 1 ? 'concierto nuevo' : 'conciertos nuevos'} desde tu última visita`,
+    latestEmpty: 'Todavía no hay fechas de ingreso verificadas.', technical: 'Estado del radar e ingestión', lastIngestion: 'Última incorporación de conciertos', ingestionUnknown: 'Sin hora de ingreso verificada',
+    applePending: 'Vínculo de Apple Music pendiente de verificar.', appleUnavailable: 'Sin vínculo verificado de Apple Music para esta producción.',
+    recordingContext: 'Grabaciones para entrar en la música; no son el registro ni el repertorio anunciado de este evento.',
+    enrichmentBacklog: count => `${count} conciertos próximos tienen vínculos de escucha pendientes de verificar.`,
     shown: 'mostrados', upcomingCount: 'próximos', archiveCount: 'archivados', signal: 'La señal', whyNow: 'Por qué ahora',
     recentSignals: 'Señales recientes', listen: 'Para escuchar antes', appleMusic: 'Escuchar en Apple Music',
     official: 'Boletos oficiales', details: 'Información', detailsAndTickets: 'Información y boletos',
@@ -57,11 +71,12 @@ const hasDocument = typeof document !== 'undefined';
 const lang = hasDocument && document.documentElement.lang.startsWith('es') ? 'es' : 'en';
 const t = COPY[lang];
 const requestedView = typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('view') : null;
-const state = { radar_area: '', venue: '', priority: '', view: requestedView === 'archive' ? 'archive' : 'upcoming' };
+const state = { radar_area: '', venue: '', priority: '', view: ['archive', 'latest'].includes(requestedView) ? requestedView : 'upcoming', lastConcertView: requestedView === 'archive' ? 'archive' : 'upcoming' };
 const AREA_ORDER = ['dmv', 'baltimore', 'philadelphia', 'newark', 'new_york', 'tokyo', 'kanagawa', 'saitama', 'new_jersey', 'unassigned'];
 
 const formatDate = value => new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', { month: 'short', day: 'numeric' }).format(new Date(`${value}T12:00:00`));
 const formatTimestamp = value => new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(value));
+const formatIngestionTimestamp = value => new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' }).format(new Date(value));
 const range = event => event.dates.end && event.dates.end !== event.dates.start ? `${formatDate(event.dates.start)}–${formatDate(event.dates.end)}` : formatDate(event.dates.start);
 const editorial = event => event.editorial[lang] || {};
 const finalDate = event => event.dates.end || event.dates.start;
@@ -71,6 +86,37 @@ const localDate = () => {
   return new Date(now - offset).toISOString().slice(0, 10);
 };
 const isArchiveAt = (event, today) => event.status === 'attended' || event.status === 'passed' || finalDate(event) < today;
+
+function ingestionTime(event) {
+  const value = event.canonicalized_at;
+  return typeof value === 'string' && /T.*(?:Z|[+-]\d{2}:\d{2})$/.test(value) && Number.isFinite(Date.parse(value)) ? value : null;
+}
+
+function latestAdditions(events, limit = 6) {
+  return events.filter(ingestionTime).slice().sort((a, b) =>
+    Date.parse(ingestionTime(b)) - Date.parse(ingestionTime(a)) || a.id.localeCompare(b.id)
+  ).slice(0, limit);
+}
+
+function additionsSince(events, timestamp) {
+  const baseline = Date.parse(timestamp);
+  if (!Number.isFinite(baseline)) return [];
+  return events.filter(event => ingestionTime(event) && Date.parse(ingestionTime(event)) > baseline);
+}
+
+function visitBaseline() {
+  try {
+    const key = 'listening-notes:radar:last-visit';
+    const sessionKey = 'listening-notes:radar:visit-baseline';
+    let previous = window.sessionStorage.getItem(sessionKey);
+    if (previous === null) {
+      previous = window.localStorage.getItem(key) || '';
+      window.sessionStorage.setItem(sessionKey, previous);
+    }
+    window.localStorage.setItem(key, new Date().toISOString());
+    return Number.isFinite(Date.parse(previous)) ? previous : null;
+  } catch { return null; }
+}
 const isArchive = event => isArchiveAt(event, localDate());
 const travel = event => t.travel[event.geography] || event.geography;
 const hasActiveFilters = viewState => Boolean(viewState.radar_area || viewState.venue || viewState.priority);
@@ -222,6 +268,14 @@ function renderOperationalStatus(status, runPayload) {
     root.append(facts);
   }
   const actions = document.createElement('div'); actions.className = 'radar-status-actions';
+  const ingestion = document.createElement('p'); ingestion.className = 'ingestion-status';
+  const latest = latestAdditions(window.eventsData || [], 1)[0];
+  ingestion.textContent = `${t.lastIngestion}: ${latest ? formatIngestionTimestamp(ingestionTime(latest)) : t.ingestionUnknown}`;
+  root.append(ingestion);
+  const pending = (window.eventsData || []).filter(event => !isArchiveAt(event, localDate()) && (event.enrichment?.missing || []).includes('apple_music'));
+  const backlog = document.createElement('p'); backlog.className = 'enrichment-status';
+  backlog.textContent = t.enrichmentBacklog(pending.length); root.append(backlog);
+  const summary = document.querySelector('#operations-title'); if (summary) summary.textContent = t.technical;
   actions.append(
     link(t.operations.manage, 'https://github.com/iosorio/listening-notes/edit/main/radar/discovery/status.json'),
     link(t.operations.guide, 'https://github.com/iosorio/listening-notes/blob/main/docs/RADAR_OPERATIONS.md')
@@ -273,16 +327,22 @@ function viewButton(text, value) {
   const active = state.view === value;
   element.className = `view ${active ? 'active' : ''}`;
   element.type = 'button';
-  element.setAttribute('aria-pressed', String(active));
+  element.id = `view-${value}`;
+  element.setAttribute('role', 'tab');
+  element.setAttribute('aria-selected', String(active));
+  element.setAttribute('aria-controls', value === 'latest' ? 'latest-view' : 'concert-view');
+  element.tabIndex = active ? 0 : -1;
   element.dataset.value = value;
   element.textContent = text;
   element.onclick = () => {
+    const previous = state.view === 'latest' ? state.lastConcertView : state.view;
+    if (value !== 'latest' && value !== previous) {
+      state.radar_area = ''; state.venue = ''; state.priority = '';
+    }
+    state.lastConcertView = value === 'latest' ? previous : value;
     state.view = value;
-    state.radar_area = '';
-    state.venue = '';
-    state.priority = '';
     const url = new URL(window.location.href);
-    if (value === 'archive') url.searchParams.set('view', 'archive');
+    if (value !== 'upcoming') url.searchParams.set('view', value);
     else url.searchParams.delete('view');
     window.history.replaceState({}, '', url);
     updateViewButtons(); render();
@@ -295,15 +355,31 @@ function updateViewButtons() {
   document.querySelectorAll('#views button').forEach(element => {
     const active = state.view === element.dataset.value;
     element.classList.toggle('active', active);
-    element.setAttribute('aria-pressed', String(active));
+    element.setAttribute('aria-selected', String(active));
+    element.tabIndex = active ? 0 : -1;
   });
+  const languageLink = document.querySelector('.lang');
+  if (languageLink) {
+    const url = new URL(languageLink.href);
+    if (state.view === 'upcoming') url.searchParams.delete('view'); else url.searchParams.set('view', state.view);
+    languageLink.href = url.href;
+  }
 }
 
 function buildViews() {
   document.querySelector('#views').replaceChildren(
     viewButton(t.viewUpcoming, 'upcoming'),
-    viewButton(t.viewArchive, 'archive')
+    viewButton(t.viewArchive, 'archive'),
+    viewButton(t.viewLatest, 'latest')
   );
+  document.querySelector('#views').onkeydown = event => {
+    const tabs = [...document.querySelectorAll('#views button')];
+    const index = tabs.indexOf(document.activeElement);
+    const target = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : event.key === 'ArrowRight' ? (index + 1) % tabs.length : event.key === 'ArrowLeft' ? (index + tabs.length - 1) % tabs.length : null;
+    if (target === null || index < 0) return;
+    event.preventDefault(); tabs[target].click();
+  };
+  updateViewButtons();
 }
 
 function buildFilters(viewEvents) {
@@ -391,18 +467,28 @@ function listening(event) {
     .map(item => [item.artist, item.title].filter(Boolean).join(' — '))
     .filter(Boolean)
     .join('; ');
-  if (!value) return null;
+  if (!value && !(event.enrichment?.missing || []).includes('apple_music')) return null;
   const element = document.createElement('div');
   element.className = 'listening';
   const heading = document.createElement('strong'); heading.textContent = t.listen;
   const copy = document.createElement('span'); copy.textContent = value;
   element.append(heading, copy);
   const appleMusicUrl = verifiedAppleMusicUrl(event);
-  if (appleMusicUrl) element.append(link(t.appleMusic, appleMusicUrl));
+  if (appleMusicUrl) {
+    const context = document.createElement('small'); context.className = 'listening-context'; context.textContent = t.recordingContext;
+    element.append(context);
+    recommendations.filter(item => verifiedAppleMusicUrl({ recommended_listening: [item] })).forEach(item => {
+      element.append(link(`${item.artist} — ${item.title} · Apple Music`, item.apple_music_url));
+    });
+  } else if ((event.enrichment?.missing || []).includes('apple_music')) {
+    const pending = document.createElement('small'); pending.className = 'listening-context';
+    pending.textContent = event.enrichment.status === 'unavailable' ? t.appleUnavailable : t.applePending;
+    element.append(pending);
+  }
   return element;
 }
 
-function eventCard(event) {
+function eventCard(event, { showDiscovery = true } = {}) {
   const article = document.createElement('article');
   const feature = event.priority === 'S+' ? ' event--splus' : event.priority === 'S' ? ' event--s' : event.priority === 'A+' ? ' event--aplus' : '';
   article.className = `event${feature}${isArchive(event) ? ' event--archive' : ''}`;
@@ -415,7 +501,8 @@ function eventCard(event) {
   const why = document.createElement('p'); why.className = 'why'; why.textContent = editorial(event).why_it_matters || '';
   const discovery = document.createElement('p'); discovery.className = 'discovery';
   discovery.textContent = event.discovered_at ? `${t.discovered}: ${formatTimestamp(event.discovered_at)}` : t.discoveryUnknown;
-  article.append(meta(event), title, subtitle, venue, travelLine, discovery);
+  article.append(meta(event), title, subtitle, venue, travelLine);
+  if (showDiscovery) article.append(discovery);
   if (why.textContent) article.append(why);
   const listen = listening(event); if (listen) article.append(listen);
   if (!isArchive(event)) {
@@ -480,6 +567,13 @@ function renderCount(model) {
 }
 
 function render() {
+  const latest = state.view === 'latest';
+  document.body.dataset.view = state.view;
+  document.querySelector('#concert-view').hidden = latest;
+  document.querySelector('#latest-view').hidden = !latest;
+  document.querySelector('#concert-view').setAttribute('aria-labelledby', `view-${state.lastConcertView}`);
+  renderUpdatesNotice();
+  if (latest) { renderLatest(); return; }
   const current = window.signalState.current;
   const today = localDate();
   const initial = deriveRadarView(window.eventsData, state, current?.event || null, today, window.venueRegistry);
@@ -493,6 +587,35 @@ function render() {
   const root = document.querySelector('#radar'); root.replaceChildren();
   if (state.view === 'archive') section(t.archive, t.archiveText, model.results, root);
   else section(t.upcoming, '', model.results, root);
+}
+
+function renderUpdatesNotice() {
+  const root = document.querySelector('#updates-notice'); root.replaceChildren();
+  const count = additionsSince(window.eventsData, window.previousRadarVisit).length;
+  const button = document.createElement('button'); button.type = 'button'; button.className = 'updates-link';
+  button.textContent = window.previousRadarVisit ? t.sinceVisit(count) : t.latestNotice;
+  button.onclick = () => document.querySelector('#view-latest').click();
+  root.append(button);
+}
+
+function renderLatest() {
+  const root = document.querySelector('#latest-view'); root.replaceChildren();
+  const heading = document.createElement('h2'); heading.textContent = t.latest;
+  const description = document.createElement('p'); description.className = 'latest-description'; description.textContent = t.latestDescription;
+  root.append(heading, description);
+  const grid = document.createElement('div'); grid.className = 'latest-grid';
+  const events = latestAdditions(window.eventsData);
+  const fresh = new Set(additionsSince(events, window.previousRadarVisit).map(event => event.id));
+  events.forEach(event => {
+    const entry = document.createElement('section'); entry.className = 'latest-entry';
+    const added = document.createElement('p'); added.className = 'added-at';
+    const time = document.createElement('time'); time.dateTime = ingestionTime(event); time.textContent = formatIngestionTimestamp(ingestionTime(event));
+    added.append(`${t.added} · `, time);
+    if (fresh.has(event.id)) { const badge = document.createElement('span'); badge.className = 'new-since-visit'; badge.textContent = t.newSinceVisit; added.append(badge); }
+    entry.append(added, eventCard(event, { showDiscovery: false })); grid.append(entry);
+  });
+  if (!events.length) { const empty = document.createElement('p'); empty.textContent = t.latestEmpty; grid.append(empty); }
+  root.append(grid);
 }
 
 function fetchJson(url) {
@@ -513,6 +636,7 @@ function loadRadar() {
       window.eventsData = eventPayload.events;
       window.venueRegistry = venuePayload;
       window.signalState = resolveSignalState(signalPayload, window.eventsData);
+      window.previousRadarVisit = visitBaseline();
       buildViews();
       document.querySelector('#rule-title').textContent = t.rule;
       document.querySelector('#rule-text').textContent = t.ruleText;
@@ -523,7 +647,7 @@ function loadRadar() {
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { AREA_ORDER, COPY, availableAreas, deriveOperationalHealth, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState, visibleFacetValues };
+  module.exports = { AREA_ORDER, COPY, additionsSince, ingestionTime, latestAdditions, availableAreas, deriveOperationalHealth, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState, visibleFacetValues };
 }
 
 if (hasDocument) loadRadar();

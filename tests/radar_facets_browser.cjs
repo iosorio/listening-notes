@@ -21,7 +21,7 @@ const server = http.createServer(async (request, response) => {
   }
 });
 const button = (page, key, value) => page.locator(`#filters button[data-key="${key}"][data-value="${value}"]`);
-const checked = async (locator, expected) => assert.equal(await locator.getAttribute('aria-pressed'), String(expected));
+const checked = async (locator, expected) => assert.equal((await locator.getAttribute('aria-selected')) ?? (await locator.getAttribute('aria-pressed')), String(expected));
 
 async function exercise(page, locale, origin) {
   const spanish = locale === 'es';
