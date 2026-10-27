@@ -12,8 +12,10 @@ from tempfile import TemporaryDirectory
 
 try:
     from .merge_inbox import merge
+    from .enrichment_replay import replay_reviewed_enrichment
 except ImportError:
     from merge_inbox import merge
+    from enrichment_replay import replay_reviewed_enrichment
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,19 +33,24 @@ def digest(raw: bytes) -> str:
 
 def read_historical_target(label: str, expected_hash: str) -> bytes:
     """Keep the exact recorded bytes anchored to committed history."""
+    revision = historical_target_revision(label, expected_hash)
+    return subprocess.check_output(["git", "show", f"{revision}:{label}"], cwd=ROOT)
+
+
+def historical_target_revision(label: str, expected_hash: str) -> str:
     revisions = subprocess.check_output(
         ["git", "rev-list", "HEAD", "--", label], cwd=ROOT, text=True,
     ).splitlines()
     for revision in revisions:
         raw = subprocess.check_output(["git", "show", f"{revision}:{label}"], cwd=ROOT)
         if digest(raw) == expected_hash:
-            return raw
+            return revision
     raise ValueError("discovery backfill target hash is absent from committed history")
 
 
-def require_published_intake(name: str, raw: bytes) -> None:
+def require_published_intake(name: str, raw: bytes, prefix: str = "radar/inbox/curated") -> None:
     """A processed batch must preserve an actual curated input in HEAD's history."""
-    label = f"radar/inbox/curated/{name}"
+    label = f"{prefix}/{name}"
     revisions = subprocess.check_output(
         ["git", "rev-list", "HEAD", "--", label], cwd=ROOT, text=True,
     ).splitlines()
@@ -56,8 +63,10 @@ def require_published_intake(name: str, raw: bytes) -> None:
     raise ValueError(f"processed intake does not preserve a published curated source: {name}")
 
 
-def replay_processed_intake(baseline: dict, current: dict, batches: list[Path]) -> dict:
-    """Extend the protected snapshot only by deterministic, reviewed v2 intake."""
+def replay_processed_intake(
+    baseline: dict, current: dict, batches: list[Path], enrichment_batches: list[Path] | None = None,
+) -> dict:
+    """Extend the protected snapshot by exact reviewed creation and enrichment."""
     with TemporaryDirectory() as directory:
         root = Path(directory)
         canonical = root / "events.json"
@@ -72,9 +81,41 @@ def replay_processed_intake(baseline: dict, current: dict, batches: list[Path]) 
         report = merge(inputs, False, canonical, curated, root / "processed")
         require(not any(report[key] for key in ("conflicts", "semantic_conflicts", "blocked")),
                 "processed discovery intake cannot be replayed without conflicts or blocked candidates")
+        enrichment = replay_reviewed_enrichment(
+            [(path.name, path.read_bytes()) for path in enrichment_batches or []],
+            canonical, root, lambda label: (ROOT / label).read_bytes(),
+        )
         require(json.loads(canonical.read_text()) == current,
                 "canonical data does not match the protected backfill plus reviewed processed intake")
-        return {"batches": len(batches), "events_added": len(report["added"])}
+        return {"batches": len(batches), "events_added": len(report["added"]), "enrichment_batches": len(enrichment)}
+
+
+def processed_enrichment_in_order(after_ref: str | None = None) -> list[Path]:
+    """Use archive commit order, with newly materialized inputs last.
+
+    Archive bytes remain bound to a published curated source. Research hashes,
+    review identity and exact patches are checked again by the official merger.
+    """
+    prefix = "radar/inbox/processed/enrichment"
+    order = subprocess.check_output(
+        ["git", "log", "--reverse", "--topo-order", "--format=", "--name-only", "--diff-filter=A", "HEAD", "--", prefix],
+        cwd=ROOT, text=True,
+    ).splitlines()
+    positions = {label: index for index, label in enumerate(dict.fromkeys(filter(None, order)))}
+    paths = list((ROOT / prefix).glob("*.json"))
+    paths.sort(key=lambda path: (positions.get(str(path.relative_to(ROOT)), len(positions)), path.name))
+    selected = []
+    for path in paths:
+        require_published_intake(path.name, path.read_bytes(), "radar/inbox/curated/enrichment")
+        if after_ref:
+            prior = subprocess.run(
+                ["git", "show", f"{after_ref}:{path.relative_to(ROOT)}"], cwd=ROOT, capture_output=True,
+            )
+            if prior.returncode == 0:
+                require(prior.stdout == path.read_bytes(), f"historical enrichment archive changed: {path.name}")
+                continue
+        selected.append(path)
+    return selected
 
 
 def verify(expected_source_sha256: str | None = None, manifest_path: Path = MANIFEST) -> dict:
@@ -118,7 +159,8 @@ def verify(expected_source_sha256: str | None = None, manifest_path: Path = MANI
         if json.loads(raw).get("batch_version") == 2:
             require_published_intake(path.name, raw)
             batches.append(path)
-    evolution = replay_processed_intake(reconstructed, json.loads(current_raw), batches)
+    baseline_revision = historical_target_revision(source_path, manifest.get("target_sha256"))
+    evolution = replay_processed_intake(reconstructed, json.loads(current_raw), batches, processed_enrichment_in_order(baseline_revision))
     classification = manifest.get("classification", {})
     require(sum(classification.values()) == len(source["events"]), "discovery backfill classification does not cover canonical events")
     require(classification == {"exact_timestamp_recoverable": 2, "date_recoverable": 0, "unknown": 224}, "discovery backfill classification changed")
