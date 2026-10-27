@@ -1,0 +1,122 @@
+{
+  "batch_version": 1,
+  "kind": "curated_event_enrichment_patches",
+  "batch_id": "cultural-four-apple-music-2026-10-27-002",
+  "review": {
+    "research_path": "radar/inbox/research/cultural-four-apple-music-2026-10-27-002.json",
+    "research_batch_id": "cultural-four-apple-music-2026-10-27-002",
+    "research_sha256": "8bd8b6de081e772f41e62193685619c5da64b82e3c89713edcd027f78d239639",
+    "approved_by": "Interactive Codex catalog and source review; user-authorized scope",
+    "approved_on": "2026-10-27"
+  },
+  "patches": [
+    {
+      "id": "opera-praktikos-la-sonnambula-national-sawdust-2026-11-18",
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "unavailable",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "No suitable catalog recording of Opera Praktikos or this bespoke spoken/sung/signed La Sonnambula adaptation was verified. Search terms included Opera Praktikos / La Sonnambula; the production's Spicer Carr and Aja Nile Brimm have no verified matching catalog recording in this review. Generic Bellini recordings were excluded rather than presented as this production. Revisit when an exact relevant release can be established."
+      },
+      "sources": [
+        {
+          "publisher": "National Sawdust / interactive catalog identity review",
+          "url": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
+          "checked_on": "2026-10-27",
+          "note": "No suitable catalog recording of Opera Praktikos or this bespoke spoken/sung/signed La Sonnambula adaptation was verified. Search terms included Opera Praktikos / La Sonnambula; the production's Spicer Carr and Aja Nile Brimm have no verified matching catalog recording in this review. Generic Bellini recordings were excluded rather than presented as this production. Revisit when an exact relevant release can be established."
+        }
+      ],
+      "provenance": {
+        "status": "catalog-match-unavailable",
+        "recorded_on": "2026-10-27",
+        "note": "No suitable catalog recording of Opera Praktikos or this bespoke spoken/sung/signed La Sonnambula adaptation was verified. Search terms included Opera Praktikos / La Sonnambula; the production's Spicer Carr and Aja Nile Brimm have no verified matching catalog recording in this review. Generic Bellini recordings were excluded rather than presented as this production. Revisit when an exact relevant release can be established."
+      }
+    },
+    {
+      "id": "kit-fitzgerald-video-live-roulette-brooklyn-2026-12-05",
+      "recommended_listening": [
+        {
+          "artist": "Peter Gordon & Love of Life Orchestra",
+          "title": "Peter Gordon Love of Life Orchestra",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/peter-gordon-love-of-life-orchestra/950852411"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Apple Music catalog / interactive editorial verification",
+          "url": "https://music.apple.com/us/album/peter-gordon-love-of-life-orchestra/950852411",
+          "checked_on": "2026-10-27",
+          "note": "Peter Gordon is the named composer of Venezia: Dream of Consciousness and a featured musician in Outside the Box (Yellow). His Love of Life Orchestra album provides context for one collaborator's musical language; it is neither this audiovisual program's soundtrack nor a recording representing Fitzgerald, Max Gordon and Blake Leyh together."
+        }
+      ],
+      "provenance": {
+        "status": "verified-contextual-listening",
+        "recorded_on": "2026-10-27",
+        "note": "Peter Gordon is the named composer of Venezia: Dream of Consciousness and a featured musician in Outside the Box (Yellow). His Love of Life Orchestra album provides context for one collaborator's musical language; it is neither this audiovisual program's soundtrack nor a recording representing Fitzgerald, Max Gordon and Blake Leyh together."
+      }
+    },
+    {
+      "id": "minyo-crusaders-new-year-cotton-club-tokyo-2027-01-02",
+      "recommended_listening": [
+        {
+          "artist": "Minyo Crusaders",
+          "title": "From Japan With Love",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/from-japan-with-love/1892928459"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Apple Music catalog / interactive editorial verification",
+          "url": "https://music.apple.com/us/album/from-japan-with-love/1892928459",
+          "checked_on": "2026-10-27",
+          "note": "Cotton Club's primary event page explicitly lists From Japan with Love in the band's discography. The exact Apple Music album matches Minyo Crusaders. Recorded preparation for the band, not a claim about the January setlist or guest participation on this album."
+        }
+      ],
+      "provenance": {
+        "status": "verified-contextual-listening",
+        "recorded_on": "2026-10-27",
+        "note": "Cotton Club's primary event page explicitly lists From Japan with Love in the band's discography. The exact Apple Music album matches Minyo Crusaders. Recorded preparation for the band, not a claim about the January setlist or guest participation on this album."
+      }
+    },
+    {
+      "id": "randy-coleman-memorial-roulette-brooklyn-2027-01-27",
+      "recommended_listening": [
+        {
+          "artist": "Randolph Coleman",
+          "title": "Projection No.2, for Flute, Piano, and Electric Piano (1961). I",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/album/projection-no-2-for-flute-piano-and-electric-piano-1961-i/6778815353?i=6778815355"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "publisher": "Apple Music catalog / interactive composer identity verification",
+          "url": "https://music.apple.com/us/album/projection-no-2-for-flute-piano-and-electric-piano-1961-i/6778815353?i=6778815355",
+          "checked_on": "2026-10-27",
+          "note": "Apple Music identifies artist and composer as Randolph Coleman, matching Roulette's composer and Oberlin mentor. This historical composition is context for his work, not a recording or announced piece of the January 27 memorial. The unrelated Randy Coleman / Last Salutation result was excluded. The earlier draft using recordings by two contributors was superseded by this direct composer match."
+        }
+      ],
+      "provenance": {
+        "status": "verified-composer-listening",
+        "recorded_on": "2026-10-27",
+        "note": "Apple Music identifies artist and composer as Randolph Coleman, matching Roulette's composer and Oberlin mentor. This historical composition is context for his work, not a recording or announced piece of the January 27 memorial. The unrelated Randy Coleman / Last Salutation result was excluded. The earlier draft using recordings by two contributors was superseded by this direct composer match."
+      }
+    }
+  ]
+}
