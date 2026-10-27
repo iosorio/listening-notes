@@ -1630,6 +1630,26 @@
       "events_published": 1,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261027T145103806Z-cultural-gyre6fkd",
+      "started_at": "2026-10-27T14:51:03.806Z",
+      "completed_at": "2026-10-27T15:07:07.567Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — RADAR Cultural Discovery",
+      "threads_checked": [
+        "Roulette experimental music, composer memorials and live audiovisual U.S. premieres",
+        "National Sawdust multidisciplinary opera and accessible music-theatre festival premieres",
+        "Tokyo COTTON CLUB Japanese folk crossover and special-guest New Year programs",
+        "Cross-checking candidates against existing canonical, curated, processed and reviewed Listening Notes RADAR catalog"
+      ],
+      "sources_checked": 14,
+      "candidates_reviewed": 13,
+      "events_admitted": 4,
+      "events_published": 4,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
