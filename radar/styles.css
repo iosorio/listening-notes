@@ -26,8 +26,9 @@ body[data-view="latest"] .dek{margin-top:16px}
 .new-since-visit{flex-basis:100%;color:var(--green);font-weight:700}
 .latest-entry .event{height:auto;min-height:0;padding-top:24px}
 .latest-entry .event h2{font-size:clamp(1.7rem,3vw,2.5rem)}
+.listening{grid-template-columns:minmax(0,1fr)}
 .listening-context{display:block;color:var(--muted);line-height:1.5}
-.listening a{display:block;overflow-wrap:anywhere;margin-top:8px}
+.listening a{display:block;max-width:100%;overflow-wrap:anywhere;margin-top:8px}
 .radar-operations{margin-top:48px;padding:20px 0;border-block:1px solid var(--line)}
 .radar-operations>summary{cursor:pointer;color:var(--muted);font-size:.82rem;min-height:44px;padding:10px 0}
 .radar-operations .radar-status{max-width:none;margin:12px 0 0}
