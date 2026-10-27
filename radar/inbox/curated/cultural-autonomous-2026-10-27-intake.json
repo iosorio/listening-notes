@@ -1,0 +1,425 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "cultural-autonomous-2026-10-27-intake",
+  "published_at": "2026-10-27T14:57:44.151Z",
+  "checked_on": "2026-10-27",
+  "reviewed_by": "ChatGPT automation editorial review",
+  "reviewed_on": "2026-10-27",
+  "notes": "Independent scheduled Cultural Discovery scan of primary Greater Tokyo/Kanto and New York experimental, jazz, music-theatre and audiovisual programs. Examined Roulette, National Sawdust, Cotton Club and other primary presenter calendars; excluded already-present/reviewed Matana Roberts, Handel x Hendrix, William Parker 75, Spirits of Coltrane, Eleanor Alberga, Darmstadt at 80, Qasim Naqvi, M3 and others. Four admissible event-specific combinations: shamisen/hayashi guests with Minyo Crusaders; audiovisual real-time US premieres with Kit Fitzgerald and musicians; a one-off Randy Coleman memorial crossing contemporary composition and experimental rock; and Opera Praktikos' sung/spoken/signed La Sonnambula. A/A+ only. No user-supplied artist seeded this scan. No live inventory assumed. Stage only for official CI validation; no heartbeat in this draft.",
+  "events": [
+    {
+      "id": "minyo-crusaders-new-year-cotton-club-tokyo-2027-01-02",
+      "discovered_at": "2026-10-27T14:57:43.151Z",
+      "artist": "Minyo Crusaders",
+      "subtitle": "MINYO IS BACK IN TOWN 2027 — Freddie Tsukamoto Birthday Special",
+      "dates": {
+        "start": "2027-01-02",
+        "end": "2027-01-03"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese folk meets Afro-Latin dance music",
+      "genres": [
+        "Japanese folk",
+        "Cumbia",
+        "Latin rhythms",
+        "Funk"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Latin",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Freddie Tsukamoto — voice",
+        "Katsumi Tanaka — guitar, MC",
+        "Toshio Fujino — bass",
+        "Yukinori Yamaguchi — organ",
+        "Sonoo — timbales",
+        "Naoya Madokoro — congas",
+        "Mutsumi Kobayashi — percussion",
+        "Yusuke Noguchi — trumpet",
+        "Kayoko Yuasa — trombone",
+        "Koichiro Osawa — saxophone",
+        "Yutaka Oyama — shamisen (special guest)",
+        "Kanako Mikado — hayashi vocals/flute (special guest)"
+      ],
+      "factual_description": "COTTON CLUB announces Minyo Crusaders' New Year 2027 and Freddie Tsukamoto birthday program in Marunouchi on January 2–3, 2027. Two shows on each date start at 16:30 and 19:30. The band's Japanese minyo and global dance-music synthesis is joined by explicitly billed guests Yutaka Oyama on shamisen and Kanako Mikado on traditional festival accompaniment/flute. Member booking opens October 29 and general web booking November 4, 2026; these are reservation opening dates, not confirmed available inventory.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/minyo-crusaders-270102/",
+        "official_tickets": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5774"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 8000,
+          "maximum": 10500,
+          "source_url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/minyo-crusaders-270102/",
+          "checked_on": "2026-10-27"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Date-specific Cotton Club reservation page verified on October 27 but booking has not opened; no availability was inferred. No specific verified Apple Music recording URL."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/minyo-crusaders-270102/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-10-27",
+          "note": "Primary presenter confirms both dates, four sets, complete band, shamisen and hayashi/flute special guests, prices and booking windows."
+        },
+        {
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5774",
+          "publisher": "COTTON CLUB reservations",
+          "checked_on": "2026-10-27",
+          "note": "Event-specific reservation page confirms booking has not opened and member/general sale dates."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-editorial-review",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "Stage 1 admission: a specific guest pairing changes the live texture of Japanese minyo-meets-Latin dance music. Stage 2: A+ for an unusual documented live intersection. Rejected S/S+: four sets over two dates, recurring New Year context, no unique commissioned piece or farewell. Not a general Minyo Crusaders listing."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "This is more than a New Year's bandstand: Minyo Crusaders' collision of Japanese folk song with Afro-Latin dance rhythms gains an explicitly traditional counterweight from shamisen player Yutaka Oyama and hayashi/flute guest Kanako Mikado. The concrete cross-genre personnel, not the party label, make the four-set engagement worth hearing.",
+          "trip_verdict": "If Tokyo is on your January itinerary, make time for one of these sets. Hearing shamisen and festival flute within the band's global grooves is a compelling local night; a two-day birthday engagement alone does not warrant a trans-Pacific trip.",
+          "listen_before": "Minyo Crusaders — From Japan with Love; Minyo Cumbiero with Frente Cumbiero"
+        },
+        "es": {
+          "why_it_matters": "No es sólo una fiesta de Año Nuevo: el cruce que hacen Minyo Crusaders entre el min’yō japonés y los ritmos de baile afrolatinos suma dos invitados con instrumentos de tradición propia, el shamisen de Yutaka Oyama y la flauta y el acompañamiento festivo de Kanako Mikado. Esa combinación concreta de músicos, más que la etiqueta de aniversario, hace interesante la noche.",
+          "trip_verdict": "Si enero te encuentra en Tokio, le haría un espacio a alguna de las funciones. Escuchar shamisen y flauta festiva dentro de ese engranaje rítmico promete una noche muy especial, aunque no organizaría un vuelo a Japón sólo por esta celebración.",
+          "listen_before": "Minyo Crusaders — From Japan with Love; Minyo Cumbiero con Frente Cumbiero"
+        }
+      }
+    },
+    {
+      "id": "kit-fitzgerald-video-live-roulette-brooklyn-2026-12-05",
+      "discovered_at": "2026-10-27T14:57:43.151Z",
+      "artist": "Kit Fitzgerald with Peter Gordon, Max Gordon and Blake Leyh",
+      "subtitle": "Selected Video Work 1976–2026 — two U.S. premieres",
+      "dates": {
+        "start": "2026-12-05",
+        "end": null
+      },
+      "showtimes": [
+        "19:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Experimental audiovisual performance",
+      "genres": [
+        "Experimental",
+        "Live video art",
+        "Electronic music"
+      ],
+      "musical_axes": [
+        "Experimental / Metal",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Kit Fitzgerald — video artist",
+        "Peter Gordon — featured musician/composer",
+        "Max Gordon — featured musician",
+        "Blake Leyh — featured musician"
+      ],
+      "factual_description": "Roulette presents two U.S. premieres on December 5, 2026: Venezia: Dream of Consciousness, a new narrative video created with composer Peter Gordon and featuring actor Tomas Arana; and Outside the Box (Yellow), a real-time video drawing and image-processing performance featuring musicians Peter Gordon, Max Gordon and Blake Leyh. Doors at 18:00 and event at 19:00. The presenter advertises $25 advance and $30 at door, without guaranteeing remaining inventory.",
+      "links": {
+        "official_event": "https://roulette.org/event/kit-fitzgerald/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1283872"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 30,
+          "source_url": "https://roulette.org/event/kit-fitzgerald/",
+          "checked_on": "2026-10-27"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Presenter links to a production-specific AudienceView checkout, but remaining ticket inventory was not verified. No exact Apple Music album/track for this program was verified."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/kit-fitzgerald/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-27",
+          "note": "Primary presenter names two U.S. premieres, titles, precise roles of video artist and featured musicians, December 5 showtime and posted pricing."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1283872",
+          "publisher": "Roulette ticketing / AudienceView",
+          "checked_on": "2026-10-27",
+          "note": "Event-specific booking endpoint followed from Roulette; checkout inventory not independently confirmed."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-editorial-review",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "Stage 1 admission: two U.S. premieres, one with real-time moving-image performance and specifically billed musicians, materially different from a conventional screening. Stage 2 A+: rare, concrete audiovisual realization; not S/S+ because film/video works and musical collaborators may recur and Roulette offers an archive stream."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Fitzgerald's fifty-year arc in live video art meets an actual performance experiment, not just a retrospective screening. Outside the Box (Yellow) mixes images in real time with Peter Gordon, Max Gordon and Blake Leyh in the musical frame, while Venezia: Dream of Consciousness premieres in the U.S. The co-authorship of sound and picture is the event's point.",
+          "trip_verdict": "A strong Brooklyn detour if you are already making a New York weekend around adventurous music. The U.S. premieres and live image-processing set merit prioritizing the evening, but the announced format alone does not justify a separate long-distance trip.",
+          "listen_before": "Peter Gordon — experimental compositions and Love of Life Orchestra recordings"
+        },
+        "es": {
+          "why_it_matters": "Cincuenta años de videoarte desembocan aquí en algo más interesante que una retrospectiva de pantalla: Outside the Box (Yellow) mezcla imágenes en tiempo real mientras Peter Gordon, Max Gordon y Blake Leyh aportan la parte musical. Se suma el estreno estadounidense de Venezia: Dream of Consciousness. Lo importante es cómo sonido e imagen se construyen juntos frente al público.",
+          "trip_verdict": "Si ya vas a pasar un fin de semana de música experimental en Nueva York, apartaría esta noche en Brooklyn. Los dos estrenos estadounidenses y el procesamiento visual en vivo le dan mucho peso, aunque no la convertiría por sí sola en motivo de viaje desde Washington.",
+          "listen_before": "Peter Gordon — composiciones experimentales y grabaciones de Love of Life Orchestra"
+        }
+      }
+    },
+    {
+      "id": "randy-coleman-memorial-roulette-brooklyn-2027-01-27",
+      "discovered_at": "2026-10-27T14:57:43.151Z",
+      "artist": "Du Yun, Greg Saunier, Huang Ruo and fellow artists",
+      "subtitle": "Randy Coleman Memorial Concert",
+      "dates": {
+        "start": "2027-01-27",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary music / composer memorial",
+      "genres": [
+        "Contemporary classical",
+        "Experimental music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Experimental / Metal"
+      ],
+      "lineup": [
+        "Du Yun — announced contributor",
+        "Greg Saunier — announced contributor",
+        "Alex Waterman — announced contributor",
+        "Amy Cimini — announced contributor",
+        "Huang Ruo — announced contributor",
+        "Zach Layton — announced contributor",
+        "Michael Gallope — announced contributor",
+        "Mario Diaz de Leon — announced contributor",
+        "Erik Spangler — announced contributor"
+      ],
+      "factual_description": "Roulette announces a free-with-RSVP memorial for composer and Oberlin mentor Randolph 'Randy' Coleman on January 27, 2027, at 20:00 (doors 19:00). The announced group of former students and colleagues includes Du Yun, Greg Saunier, Alex Waterman, Amy Cimini, Huang Ruo, Zach Layton, Michael Gallope, Mario Diaz de Leon and Erik Spangler. Roulette has not published a piece-by-piece program or committed each contributor to a specific instrumental role. A free livestream is also announced.",
+      "links": {
+        "official_event": "https://roulette.org/event/randy-coleman-memorial-concert/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1293544"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 0,
+          "maximum": 0,
+          "source_url": "https://roulette.org/event/randy-coleman-memorial-concert/",
+          "checked_on": "2026-10-27"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Roulette says Free with RSVP and links to an event-specific booking endpoint. Actual RSVP capacity was not tested. No exact Apple Music album or track for this tribute was established."
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/randy-coleman-memorial-concert/",
+          "publisher": "Roulette",
+          "checked_on": "2026-10-27",
+          "note": "Primary venue confirms date, lineup of contributors, subject of commemoration, no admission charge with RSVP, streamed access; no exact performed repertoire."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1293544",
+          "publisher": "Roulette ticketing / AudienceView",
+          "checked_on": "2026-10-27",
+          "note": "Specific free RSVP endpoint from primary event page; availability not inferred."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-editorial-review",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "Stage 1 admission: one-off memorial assembling named composers and experimental performers across genres because of specific shared mentorship; not generic artist fame. Stage 2 A+: one-off meeting and concrete artistic lineage. S/S+ rejected pending an actual program, since participants are listed but works/performances are not verified."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "A composer-educator's influence becomes audible through an unexpectedly wide circle: Du Yun and Huang Ruo beside Greg Saunier, Alex Waterman and younger experimental voices. Coleman's role in Oberlin's inter-arts tradition gives this gathering a concrete reason to happen once, while the unannounced repertoire leaves the precise musical shape open.",
+          "trip_verdict": "A meaningful evening to build into a January New York visit, especially for listeners drawn to the links between experimental rock and contemporary composition. I would not make a stand-alone trip before a fuller performance program is announced; a free livestream is also planned.",
+          "listen_before": "Randy Coleman — The Great Lalula and the light of memory (Roulette's archival examples)"
+        },
+        "es": {
+          "why_it_matters": "La influencia de un compositor y maestro se vuelve tangible en una reunión poco habitual: Du Yun y Huang Ruo coinciden con Greg Saunier, Alex Waterman y otros músicos de la escena experimental. Coleman ayudó a formar el programa interdisciplinario de Oberlin, de modo que el cruce entre rock de vanguardia y composición contemporánea no es decorativo: nace de una historia compartida.",
+          "trip_verdict": "Vale integrarlo a una visita de enero a Nueva York si te atrae esa frontera entre rock experimental y música contemporánea. No haría todavía un viaje exclusivo desde Washington sin conocer el repertorio; además está anunciada una transmisión gratuita.",
+          "listen_before": "Randy Coleman — The Great Lalula y the light of memory (ejemplos del archivo de Roulette)"
+        }
+      }
+    },
+    {
+      "id": "opera-praktikos-la-sonnambula-national-sawdust-2026-11-18",
+      "discovered_at": "2026-10-27T14:57:43.151Z",
+      "artist": "Opera Praktikos",
+      "subtitle": "La Sonnambula — makemake festival",
+      "dates": {
+        "start": "2026-11-18",
+        "end": null
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "national-sawdust-brooklyn-ny",
+        "name": "National Sawdust",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "priority": "A",
+      "category": "Reimagined opera / accessible performance",
+      "genres": [
+        "Opera",
+        "Contemporary performance"
+      ],
+      "musical_axes": [
+        "Cross-genre",
+        "Cultural context"
+      ],
+      "lineup": [
+        "Opera Praktikos — presenting company"
+      ],
+      "factual_description": "National Sawdust's inaugural makemake festival schedules Opera Praktikos' reworking of Bellini and Romani's La Sonnambula for November 18, 2026 at 19:30, with doors at 18:30. The presenter describes an integration of spoken, sung and signed expression by a disability-affirmative opera company; its artist background notes Spicer Carr's involvement in conducting and arranging, but does not specify cast, ticket price or complete orchestration. Although an automated 'This event has passed' label appears on the event subpage, the dated festival schedule confirms November 18, 2026 and a ticket link; do not infer ticket stock from the label.",
+      "links": {
+        "official_event": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1280619"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Event-specific checkout verified as linked by National Sawdust, but no per-performance face price or remaining inventory independently established. The festival advertises sliding-scale pricing from $5 in general, not necessarily the exact price for this performance; no Apple Music recording URL verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
+          "publisher": "National Sawdust",
+          "checked_on": "2026-10-27",
+          "note": "Primary event details confirm Bellini/Romani opera adaptation, integration of signed, spoken, sung communication, November 18 at 19:30 and event-specific ticket button; page contains a contradictory auto-generated passed label."
+        },
+        {
+          "url": "https://www.nationalsawdust.org/makemake",
+          "publisher": "National Sawdust — makemake festival program",
+          "checked_on": "2026-10-27",
+          "note": "Festival calendar confirms November 17–20, with Opera Praktikos scheduled Wednesday November 18 at 19:30."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36490/production/1280619",
+          "publisher": "National Sawdust ticketing / AudienceView",
+          "checked_on": "2026-10-27",
+          "note": "Production-specific ticket endpoint followed from primary event page; no price or inventory claim."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-presenter-and-editorial-review",
+        "reviewed_by": "ChatGPT automation editorial review",
+        "note": "Stage 1 admission: explicit integrated sung-spoken-signed reinterpretation by a disability-affirming company, not cultural relevance alone. Stage 2 A because the announced concept is strong but full cast and orchestration are unconfirmed. S/S+ plainly unsupported."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The distinction is in the score's delivery, not a fashionable accessibility tag: Opera Praktikos is rebuilding Bellini's La Sonnambula so sung, spoken and signed languages operate together as musical and theatrical expression. In makemake's inaugural disability-led setting, that choice may change what audiences hear and see in an established opera.",
+          "trip_verdict": "Worth considering if your calendar already takes you to Brooklyn in mid-November. The format deserves attention but the cast and orchestration remain incompletely specified, so the evidence does not support a separate trip solely for this performance.",
+          "listen_before": "Vincenzo Bellini — La Sonnambula (original opera)"
+        },
+        "es": {
+          "why_it_matters": "La diferencia no está en ponerle una etiqueta de inclusión a Bellini: Opera Praktikos replantea La Sonnambula para que las lenguas cantada, hablada y de señas compartan la expresión musical y escénica. Dentro del primer festival makemake, dedicado al diseño artístico desde la discapacidad, esa decisión puede transformar la forma de escuchar y mirar una ópera conocida.",
+          "trip_verdict": "La consideraría si ya tienes una visita a Brooklyn a mediados de noviembre. El planteamiento llama la atención, pero faltan datos del reparto y la orquestación para justificar un viaje exclusivo por esta función.",
+          "listen_before": "Vincenzo Bellini — La Sonnambula (ópera original)"
+        }
+      }
+    }
+  ]
+}
