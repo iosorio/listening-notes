@@ -24,6 +24,43 @@ consistency, conflicts, and idempotency. They cannot prove that a URL is the
 authoritative page; that remains an editorial review responsibility. GitHub
 Actions does not call an AI service or make editorial decisions.
 
+### Listening research and an explicit review queue
+
+An event-specific recording is not required when it does not exist. A verified
+recording of a billed artist, or of the explicitly announced composition, may
+be useful preparation. Record its exact catalog artist/title/URL and explain
+the relationship in the source note. For an interdisciplinary or memorial
+event, distinguish each collaborator's recordings from the combined live
+program. Never substitute a namesake or imply that a background recording
+establishes the cast, setlist or performed work. Artist-profile and search URLs
+remain research aids, not substitutes for an exact album, track or playlist.
+
+When catalog research is unfinished, retain `pending`, `apple_music` in
+`missing`, and a precise note about what remains to verify. Use `unavailable`
+only after a documented search cannot establish a suitable recording. Empty
+recommendations are not evidence of catalog absence. Preserve the search's
+identity exclusions and uncertainty in the immutable research batch/source
+notes; use the usual explicit review and promotion route for follow-up.
+
+`python3 scripts/audit_enrichment.py --today YYYY-MM-DD` reports the upcoming
+listening-link queue without changing canonical data. Validation CI saves that
+report as the `listening-link-review` artifact on every run. Missing links
+remain visible in the public listening block and counted in the collapsed
+technical status area; an honest unknown does not block an otherwise qualified
+event or become a fabricated URL.
+
+### Deterministic enrichment verification
+
+Temporary-ingestion verification replays consumed enrichment through the same
+merger, research SHA-256 and exact-patch checks as production, then replays new
+events in workflow order. It compares the full canonical bytes and the exact
+curated-to-processed path set. The historical discovery verifier retains its
+original protected snapshot and replays later creation and reviewed enrichment;
+enrichment already present at the protected snapshot is not applied again.
+Historical processed enrichment bytes remain protected, and later enrichment
+is replayed in archive commit order. Neither verifier ignores editorial or
+factual fields to make a check pass.
+
 ## Research batch contract
 
 ```json

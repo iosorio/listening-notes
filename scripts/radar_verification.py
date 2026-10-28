@@ -12,8 +12,10 @@ from tempfile import TemporaryDirectory
 
 try:
     from .merge_inbox import merge
+    from .enrichment_replay import replay_reviewed_enrichment
 except ImportError:  # Direct script execution.
     from merge_inbox import merge
+    from enrichment_replay import replay_reviewed_enrichment
 
 
 PUBLISHED = "published"
@@ -92,7 +94,7 @@ def verify_temporary_materialization(root: Path) -> dict:
         path
         for path in git(root, "ls-tree", "-r", "--name-only", "HEAD", "radar/inbox/curated").stdout.splitlines()
         if path.startswith(active_prefix)
-        and "/enrichment/" not in path
+        and Path(path).parent.as_posix() in {active_prefix.rstrip("/"), active_prefix + "enrichment"}
         and path.endswith(".json")
     ]
     selected = [path for path in active_at_head if not (root / path).exists()]
@@ -105,8 +107,15 @@ def verify_temporary_materialization(root: Path) -> dict:
         canonical.parent.mkdir(parents=True, exist_ok=True)
         curated.mkdir(parents=True, exist_ok=True)
         canonical.write_bytes(published_canonical)
+        enrichment = [label for label in selected if "/enrichment/" in label]
+        replay_reviewed_enrichment(
+            [(Path(label).name, _git_bytes(root, "show", f"HEAD:{label}")) for label in enrichment],
+            canonical, temporary, lambda label: _git_bytes(root, "show", f"HEAD:{label}"),
+        )
         sources = []
         for label in selected:
+            if label in enrichment:
+                continue
             source = _git_bytes(root, "show", f"HEAD:{label}")
             path = curated / Path(label).name
             path.write_bytes(source)
@@ -128,9 +137,9 @@ def verify_temporary_materialization(root: Path) -> dict:
             expected_changes.add(canonical_label)
         for label in selected:
             expected_changes.add(label)
-            destination_label = f"{processed_prefix}{Path(label).name}"
+            destination_label = label.replace(active_prefix, processed_prefix, 1)
             expected_changes.add(destination_label)
-            expected = (processed / Path(label).name).read_bytes()
+            expected = (temporary / destination_label).read_bytes()
             destination = root / destination_label
             if not destination.is_file() or destination.read_bytes() != expected:
                 raise ValueError(f"processed batch does not preserve its committed source: {label}")
@@ -146,6 +155,7 @@ def verify_temporary_materialization(root: Path) -> dict:
 
     return {
         "source_batches": len(selected),
+        "enrichment_batches": len(enrichment),
         "added_candidates": len(report["added"]),
         "published_canonical_sha256": _sha256(published_canonical),
         "materialized_canonical_sha256": _sha256(current_canonical),

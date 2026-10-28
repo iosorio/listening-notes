@@ -57,6 +57,13 @@ jobs:
         run: python scripts/validate_signals.py radar/signals.json radar/events.json
       - name: Validate and audit RADAR operational state
         run: python scripts/validate_radar_discovery.py
+      - name: Report upcoming listening-link backlog
+        run: python scripts/audit_enrichment.py --output enrichment-audit.json
+      - name: Preserve listening-link review queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: listening-link-review
+          path: enrichment-audit.json
       - name: Validate changed unreviewed enrichment research
         if: github.event_name == 'pull_request' || github.event_name == 'push'
         env:

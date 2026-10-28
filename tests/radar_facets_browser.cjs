@@ -21,7 +21,7 @@ const server = http.createServer(async (request, response) => {
   }
 });
 const button = (page, key, value) => page.locator(`#filters button[data-key="${key}"][data-value="${value}"]`);
-const checked = async (locator, expected) => assert.equal(await locator.getAttribute('aria-pressed'), String(expected));
+const checked = async (locator, expected) => assert.equal((await locator.getAttribute('aria-selected')) ?? (await locator.getAttribute('aria-pressed')), String(expected));
 
 async function exercise(page, locale, origin) {
   const spanish = locale === 'es';
@@ -93,7 +93,7 @@ async function exercise(page, locale, origin) {
   await button(page, 'radar_area', '').click();
   await checked(button(page, 'venue', ''), true);
   await page.setViewportSize({ width: 320, height: 740 });
-  assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, '320 px has no horizontal overflow');
+  assert.deepEqual(await page.evaluate(() => [...document.querySelectorAll('body *')].filter(element => element.getBoundingClientRect().right > innerWidth + 1).map(element => ({tag: element.tagName, class: element.className, text: element.textContent.slice(0, 100), width: element.getBoundingClientRect().width}))), [], '320 px has no horizontal overflow');
   assert.equal(await page.locator('#filters button').first().evaluate(element => element.getBoundingClientRect().height >= 44), true);
   await dmv.focus();
   await page.keyboard.press('Tab');
@@ -121,6 +121,31 @@ async function exercise(page, locale, origin) {
   assert.equal(await blue.count(), 0);
   await page.locator('#views button[data-value="upcoming"]').click();
   await checked(button(page, 'radar_area', ''), true);
+  await button(page, 'radar_area', 'dmv').click();
+  const retainedCount = await page.locator('#count').innerText();
+  await page.locator('#view-upcoming').focus();
+  await page.keyboard.press('End');
+  await checked(page.locator('#view-latest'), true);
+  assert.equal(await page.locator('#latest-view').isVisible(), true);
+  assert.equal(await page.locator('#concert-view').isVisible(), false);
+  const expectedLatest = require('../radar/events.json').events
+    .filter(event => event.canonicalized_at && Number.isFinite(Date.parse(event.canonicalized_at)))
+    .sort((a, b) => Date.parse(b.canonicalized_at) - Date.parse(a.canonicalized_at) || a.id.localeCompare(b.id))
+    .slice(0, 6).map(event => event.id);
+  assert.deepEqual(await page.locator('#latest-view .event').evaluateAll(cards => cards.map(card => card.dataset.eventId)), expectedLatest);
+  assert.equal(await page.locator('#latest-view .added-at').count(), 6);
+  assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, 'latest additions fits 320px');
+  assert.equal(new URL(await page.locator('.lang').getAttribute('href'), origin).searchParams.get('view'), 'latest');
+  await page.keyboard.press('Home');
+  await checked(page.locator('#view-upcoming'), true);
+  await checked(button(page, 'radar_area', 'dmv'), true);
+  assert.equal(await page.locator('#count').innerText(), retainedCount);
+  await page.locator('#view-upcoming').focus();
+  await page.keyboard.press('ArrowLeft');
+  await checked(page.locator('#view-latest'), true);
+  await page.locator('.radar-operations > summary').click();
+  assert.equal(await page.locator('.radar-operations').getAttribute('open'), '');
+  await page.locator('.radar-operations > summary').click();
   return initial;
 }
 
@@ -159,7 +184,7 @@ async function exercise(page, locale, origin) {
       assert.equal(await signalPage.locator(`#radar .event[data-event-id="${signalId}"]`).count(), 1);
       await signalPage.close();
     }
-    console.log('RADAR browser facets: English, Spanish, keyboard, focus, mobile, both views, Signal passed');
+    console.log('RADAR browser QA: English, Spanish, keyboard, focus, 320px, Upcoming, Archive, Latest additions, retained filters, technical disclosure, Signal passed');
   } finally {
     await browser?.close();
     server.close();

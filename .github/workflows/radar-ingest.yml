@@ -8,6 +8,7 @@ on:
       - 'radar/inbox/curated/enrichment/*.json'
       - 'scripts/merge_inbox.py'
       - 'scripts/enrichment_common.py'
+      - 'scripts/enrichment_replay.py'
       - 'scripts/merge_enrichment_patches.py'
       - 'scripts/validate_events.py'
       - 'scripts/validate_radar_discovery.py'

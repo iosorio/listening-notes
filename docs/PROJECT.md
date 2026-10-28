@@ -78,6 +78,22 @@ even when its unfiltered editorial card stands apart from the result grid.
 
 ## Current boundaries
 
+RADAR has three accessible views: Upcoming, Archive, and Latest additions
+(`?view=latest`; Novedades in Spanish). Latest additions shows at most six
+records ordered by their recorded `canonicalized_at`, with concert dates
+separately labeled. Unknown ingestion times are excluded from that ranking;
+discovery, publication, event dates, source verification and enrichment updates
+are never substituted for first ingestion. Going to Latest additions and back
+preserves the current concert filters. Arrow keys, Home and End operate the
+view tabs; language links preserve the selected view.
+
+A local browser visit watermark can identify additions since a prior visit.
+It is stored only in that browser and remains stable across language/view
+changes in one session. If storage is unavailable or this is the first visit,
+the page simply links to the latest additions. It does not invent a prior
+visit. Radar scan health, last recorded ingestion and the listening-link queue
+live in the separate collapsed technical area below the content.
+
 The initial catalog is a legacy migration set. Some retained factual fields
 predate this documentation and lack source links; those records are marked for
 provenance backfill rather than silently treated as fully verified.
