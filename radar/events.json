@@ -20286,7 +20286,7 @@
       "factual_description": "National Sawdust presents Salón Parcha with featured Colombian-French musician Gabriel Garzón-Montano and Venezuelan music director Ella Bric on Thursday, November 5, 2026 at 8:00 p.m., doors 7:30. The series explores boleros, boogaloo and Afro-Latin music; this installment specifically features Garzón-Montano's reinterpretations of classic and original boleros and salsa. The venue names Yusniel Sanches, Cesar Orozco, Ernesto Sanches and Luisito Quintero as ensemble participants without specifying their individual instruments. The event page also displays a stale 'This event has passed' label despite the future dated listing; the current National Sawdust performance calendar corroborates November 5. Ticket inventory is not verified.",
       "links": {
         "official_event": "https://www.nationalsawdust.org/event/salon-parcha-featuring-gabriel-garzon-montano-music-director-ella-bric",
-        "official_tickets": null
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1293828"
       },
       "tickets": {
         "currency": "USD",
@@ -20303,14 +20303,17 @@
           "checked_on": null
         }
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Gabriel Garzón-Montano",
+          "title": "Jardín",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/jard%C3%ADn/1178839747"
+        }
+      ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets",
-          "apple_music"
-        ],
-        "note": "Primary venue and current calendar agree on the future date and start time, but the venue's event template incorrectly says 'This event has passed'. No live ticket inventory or exact booking checkout has been verified, nor an exact Apple Music destination."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -20324,6 +20327,24 @@
           "publisher": "National Sawdust (current performances calendar)",
           "checked_on": "2026-10-23",
           "note": "Independently lists the Salón Parcha November 5 date and 20:00 start as an upcoming performance."
+        },
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://www.nationalsawdust.org/event/salon-parcha-featuring-gabriel-garzon-montano-music-director-ella-bric",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. OvationTix live UI matched November 5, 2026 at 20:00, performanceId=11879182. GENERAL ADMISSION quantity control enabled: USD 20.00 base + 5.07 convenience fee = 25.07 total. No purchase or inventory hold performed; exact remaining count unknown. The presenter page also renders a contradictory passed label; the dated ticketing UI confirms the upcoming performance."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://ci.ovationtix.com/36490/production/1293828",
+          "checked_on": "2026-10-24",
+          "note": "OvationTix live UI matched November 5, 2026 at 20:00, performanceId=11879182. GENERAL ADMISSION quantity control enabled: USD 20.00 base + 5.07 convenience fee = 25.07 total. No purchase or inventory hold performed; exact remaining count unknown. The presenter page also renders a contradictory passed label; the dated ticketing UI confirms the upcoming performance."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/jard%C3%ADn/1178839747",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: An introduction to the featured singer’s soul/funk phrasing; not a representation of the evening’s bolero/salsa set list."
         }
       ],
       "provenance": {
@@ -20633,7 +20654,7 @@
       "factual_description": "National Sawdust and Sarah Williams present Argentine-American mezzo-soprano Daniela Mack with Argentine bandoneonist JP Jofre and his quintet for the live launch of the Pentatone album SUR, Friday November 6, 2026, 7:30 p.m. (doors 6:30). The announced program includes Astor Piazzolla's Vuelvo al Sur, Balada Para un Loco and Oblivion in arrangements for voice, bandoneon, violin, cello, double bass and piano. The venue page displays a stale 'event has passed' label even though its date remains in the venue's current November 2026 performance calendar; ticket inventory is unconfirmed.",
       "links": {
         "official_event": "https://www.nationalsawdust.org/event/daniela-mack-sur-album-release-co-produced-by-national-sawdust-and-sarah-williams",
-        "official_tickets": null
+        "official_tickets": "https://ci.ovationtix.com/36490/production/1294000"
       },
       "tickets": {
         "currency": "USD",
@@ -20650,14 +20671,17 @@
           "checked_on": null
         }
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Daniela Mack, Eric Silberger, Amy Kang, Pablo Cafici, Chris Johnson & JP Jofre",
+          "title": "Sur",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/sur/6770657276"
+        }
+      ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets",
-          "apple_music"
-        ],
-        "note": "Exact National Sawdust program verified, but its page's obsolete 'passed' flag conflicts with the forward November calendar. Neither current booking inventory nor a verified exact Apple Music recording URL was established."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -20671,6 +20695,24 @@
           "publisher": "National Sawdust (current performances calendar)",
           "checked_on": "2026-10-23",
           "note": "Lists Daniela Mack SUR with JP Jofre quintet on November 6, 2026 at 19:30 in its upcoming program."
+        },
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://www.nationalsawdust.org/event/daniela-mack-sur-album-release-co-produced-by-national-sawdust-and-sarah-williams",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. OvationTix live UI matched November 6, 2026 at 19:30, performanceId=11879689. ADVANCE SALE quantity control enabled: USD 40.00 base + 10.51 convenience fee = 50.51 total. Header advertises 50.51–55.51 including fees, but only the 50.51 advance option was verified selectable. Remaining count unknown; no cart or purchase. Presenter’s passed label conflicts with future date and active ticketing."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://ci.ovationtix.com/36490/production/1294000",
+          "checked_on": "2026-10-24",
+          "note": "OvationTix live UI matched November 6, 2026 at 19:30, performanceId=11879689. ADVANCE SALE quantity control enabled: USD 40.00 base + 10.51 convenience fee = 50.51 total. Header advertises 50.51–55.51 including fees, but only the 50.51 advance option was verified selectable. Remaining count unknown; no cart or purchase. Presenter’s passed label conflicts with future date and active ticketing."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/sur/6770657276",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: The album being launched, directly relevant to the Piazzolla program; recording personnel are not asserted to be identical to the live quintet."
         }
       ],
       "provenance": {
@@ -26480,11 +26522,11 @@
       },
       "recommended_listening": [],
       "enrichment": {
-        "status": "pending",
+        "status": "unavailable",
         "missing": [
           "apple_music"
         ],
-        "note": "Event-specific checkout verified as linked by National Sawdust, but no per-performance face price or remaining inventory independently established. The festival advertises sliding-scale pricing from $5 in general, not necessarily the exact price for this performance; no Apple Music recording URL verified."
+        "note": "No suitable catalog recording of Opera Praktikos or this bespoke spoken/sung/signed La Sonnambula adaptation was verified. Search terms included Opera Praktikos / La Sonnambula; the production's Spicer Carr and Aja Nile Brimm have no verified matching catalog recording in this review. Generic Bellini recordings were excluded rather than presented as this production. Revisit when an exact relevant release can be established."
       },
       "sources": [
         {
@@ -26504,12 +26546,25 @@
           "publisher": "National Sawdust ticketing / AudienceView",
           "checked_on": "2026-10-27",
           "note": "Production-specific ticket endpoint followed from primary event page; no price or inventory claim."
+        },
+        {
+          "publisher": "National Sawdust / interactive catalog identity review",
+          "url": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
+          "checked_on": "2026-10-27",
+          "note": "No suitable catalog recording of Opera Praktikos or this bespoke spoken/sung/signed La Sonnambula adaptation was verified. Search terms included Opera Praktikos / La Sonnambula; the production's Spicer Carr and Aja Nile Brimm have no verified matching catalog recording in this review. Generic Bellini recordings were excluded rather than presented as this production. Revisit when an exact relevant release can be established."
         }
       ],
       "provenance": {
         "status": "verified-primary-presenter-and-editorial-review",
         "reviewed_by": "ChatGPT automation editorial review",
-        "note": "Stage 1 admission: explicit integrated sung-spoken-signed reinterpretation by a disability-affirming company, not cultural relevance alone. Stage 2 A because the announced concept is strong but full cast and orchestration are unconfirmed. S/S+ plainly unsupported."
+        "note": "Stage 1 admission: explicit integrated sung-spoken-signed reinterpretation by a disability-affirming company, not cultural relevance alone. Stage 2 A because the announced concept is strong but full cast and orchestration are unconfirmed. S/S+ plainly unsupported.",
+        "enrichment_history": [
+          {
+            "status": "catalog-match-unavailable",
+            "recorded_on": "2026-10-27",
+            "note": "No suitable catalog recording of Opera Praktikos or this bespoke spoken/sung/signed La Sonnambula adaptation was verified. Search terms included Opera Praktikos / La Sonnambula; the production's Spicer Carr and Aja Nile Brimm have no verified matching catalog recording in this review. Generic Bellini recordings were excluded rather than presented as this production. Revisit when an exact relevant release can be established."
+          }
+        ]
       },
       "editorial": {
         "en": {
@@ -30963,13 +31018,17 @@
           "checked_on": null
         }
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Peter Gordon & Love of Life Orchestra",
+          "title": "Peter Gordon Love of Life Orchestra",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/peter-gordon-love-of-life-orchestra/950852411"
+        }
+      ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "apple_music"
-        ],
-        "note": "Presenter links to a production-specific AudienceView checkout, but remaining ticket inventory was not verified. No exact Apple Music album/track for this program was verified."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -30983,12 +31042,25 @@
           "publisher": "Roulette ticketing / AudienceView",
           "checked_on": "2026-10-27",
           "note": "Event-specific booking endpoint followed from Roulette; checkout inventory not independently confirmed."
+        },
+        {
+          "publisher": "Apple Music catalog / interactive editorial verification",
+          "url": "https://music.apple.com/us/album/peter-gordon-love-of-life-orchestra/950852411",
+          "checked_on": "2026-10-27",
+          "note": "Peter Gordon is the named composer of Venezia: Dream of Consciousness and a featured musician in Outside the Box (Yellow). His Love of Life Orchestra album provides context for one collaborator's musical language; it is neither this audiovisual program's soundtrack nor a recording representing Fitzgerald, Max Gordon and Blake Leyh together."
         }
       ],
       "provenance": {
         "status": "verified-primary-presenter-and-editorial-review",
         "reviewed_by": "ChatGPT automation editorial review",
-        "note": "Stage 1 admission: two U.S. premieres, one with real-time moving-image performance and specifically billed musicians, materially different from a conventional screening. Stage 2 A+: rare, concrete audiovisual realization; not S/S+ because film/video works and musical collaborators may recur and Roulette offers an archive stream."
+        "note": "Stage 1 admission: two U.S. premieres, one with real-time moving-image performance and specifically billed musicians, materially different from a conventional screening. Stage 2 A+: rare, concrete audiovisual realization; not S/S+ because film/video works and musical collaborators may recur and Roulette offers an archive stream.",
+        "enrichment_history": [
+          {
+            "status": "verified-contextual-listening",
+            "recorded_on": "2026-10-27",
+            "note": "Peter Gordon is the named composer of Venezia: Dream of Consciousness and a featured musician in Outside the Box (Yellow). His Love of Life Orchestra album provides context for one collaborator's musical language; it is neither this audiovisual program's soundtrack nor a recording representing Fitzgerald, Max Gordon and Blake Leyh together."
+          }
+        ]
       },
       "editorial": {
         "en": {
@@ -31507,7 +31579,7 @@
       "factual_description": "Washington Performing Arts presents pianist Daniil Trifonov at the Music Center at Strathmore in North Bethesda on Thursday December 10, 2026 at 7:30 p.m. The published recital opens with Handel's Suite in E Major, Stravinsky's Piano Sonata and Schubert's Wanderer Fantasie, then turns to Latin American works by Juan Francisco García, Heitor Villa-Lobos, Rafael Bullumba Landestoy, Alberto Ginastera and Mozart Camargo Guarnieri, as well as Trifonov's Tango. Exact ticket price and live inventory are not established here.",
       "links": {
         "official_event": "https://www.washingtonperformingarts.org/event/daniil-trifonov-26/",
-        "official_tickets": null
+        "official_tickets": "https://my.washingtonperformingarts.org/5000"
       },
       "tickets": {
         "currency": "USD",
@@ -31524,14 +31596,17 @@
           "checked_on": null
         }
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Daniil Trifonov",
+          "title": "Mi Historia Americana: Sur",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/mi-historia-americana-sur/6790386727"
+        }
+      ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets",
-          "apple_music"
-        ],
-        "note": "The primary event announcement is verified; no exact current authorized ticket checkout or Apple Music album/track URL was independently established. No availability or price is inferred."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -31539,6 +31614,24 @@
           "publisher": "Washington Performing Arts (presenting organization)",
           "checked_on": "2026-10-23",
           "note": "Primary recital listing provides date/time, Music Center at Strathmore, artist and full eleven-work program; includes Dominican and Brazilian composers."
+        },
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://www.washingtonperformingarts.org/event/daniil-trifonov-26/",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. Presenter’s Purchase Tickets link resolves to its own event-specific sales page, matching December 10, 2026 at 19:30 at Strathmore. Live best-available UI at /5000?z=0 lists selectable sections USD 64.75–128.00 including fees; Orchestra Boxes are labeled sold out, not the entire event. Published base prices USD 55–110 plus fees. No seats reserved; counts, adjacency and final fulfillment unverified. This is the presenter WPA’s authorized channel, not an inferred Strathmore SmartSeat URL."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://my.washingtonperformingarts.org/5000",
+          "checked_on": "2026-10-24",
+          "note": "Presenter’s Purchase Tickets link resolves to its own event-specific sales page, matching December 10, 2026 at 19:30 at Strathmore. Live best-available UI at /5000?z=0 lists selectable sections USD 64.75–128.00 including fees; Orchestra Boxes are labeled sold out, not the entire event. Published base prices USD 55–110 plus fees. No seats reserved; counts, adjacency and final fulfillment unverified. This is the presenter WPA’s authorized channel, not an inferred Strathmore SmartSeat URL."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/mi-historia-americana-sur/6790386727",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: The pianist’s Latin American repertoire project overlaps the recital’s García, Landestoy and Ginastera selections; not a recording of the full recital."
         }
       ],
       "provenance": {
@@ -32965,7 +33058,7 @@
       "factual_description": "COTTON CLUB and Salyu's official site announce two Tokyo performances on Sunday December 20, 2026: 16:30 (doors 15:30) and 19:30 (doors 18:30). The Japanese art-pop singer will return to a string-quartet-with-guitar format for the first time in roughly five years, with seasonal arrangements of her repertoire. Official posted per-person reserved-seat pricing runs from JPY 8,800 to JPY 11,500. The club states presales begin October 31 for members and November 6 for the public; current available seats are not verified.",
       "links": {
         "official_event": "https://cottonclubjapan.co.jp/jp/sp/artists/salyu-261220/",
-        "official_tickets": null
+        "official_tickets": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5770"
       },
       "tickets": {
         "currency": "JPY",
@@ -32982,14 +33075,17 @@
           "checked_on": null
         }
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "salyu x salyu",
+          "title": "S(o)un(d)beams",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/s-o-un-d-beams/522583647"
+        }
+      ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets",
-          "apple_music"
-        ],
-        "note": "The artist and venue confirm published JPY 8,800–11,500 reserved-seating categories and future October 31 / November 6 sale dates. No exact active ticket checkout or Apple Music recording destination has been verified."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -33003,6 +33099,24 @@
           "publisher": "Salyu official website (artist)",
           "checked_on": "2026-10-23",
           "note": "Confirms concert title, date, venue, each set's opening/starting times, personnel and JPY 8,800–11,500 published reserved seat charges."
+        },
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://cottonclubjapan.co.jp/jp/sp/artists/salyu-261220/",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. Followed the venue’s reservation control to event 5770. Destination explicitly says reservations have not opened. JAM SESSION presale October 31, 2026 12:00 JST; general web sale November 6, 2026 12:00 JST. No current bookable inventory. Published per-person reserved-seat charges JPY 8,800–11,500; not an availability claim. Two shows announced, 16:30 and 19:30."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5770",
+          "checked_on": "2026-10-24",
+          "note": "Followed the venue’s reservation control to event 5770. Destination explicitly says reservations have not opened. JAM SESSION presale October 31, 2026 12:00 JST; general web sale November 6, 2026 12:00 JST. No current bookable inventory. Published per-person reserved-seat charges JPY 8,800–11,500; not an availability claim. Two shows announced, 16:30 and 19:30."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/s-o-un-d-beams/522583647",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: Her vocal-texture project with Cornelius, already named in the existing editorial listening guide; not the forthcoming strings arrangement or a confirmed set list."
         }
       ],
       "provenance": {
@@ -33553,13 +33667,17 @@
           "checked_on": null
         }
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Minyo Crusaders",
+          "title": "From Japan With Love",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/from-japan-with-love/1892928459"
+        }
+      ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "apple_music"
-        ],
-        "note": "Date-specific Cotton Club reservation page verified on October 27 but booking has not opened; no availability was inferred. No specific verified Apple Music recording URL."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -33573,12 +33691,25 @@
           "publisher": "COTTON CLUB reservations",
           "checked_on": "2026-10-27",
           "note": "Event-specific reservation page confirms booking has not opened and member/general sale dates."
+        },
+        {
+          "publisher": "Apple Music catalog / interactive editorial verification",
+          "url": "https://music.apple.com/us/album/from-japan-with-love/1892928459",
+          "checked_on": "2026-10-27",
+          "note": "Cotton Club's primary event page explicitly lists From Japan with Love in the band's discography. The exact Apple Music album matches Minyo Crusaders. Recorded preparation for the band, not a claim about the January setlist or guest participation on this album."
         }
       ],
       "provenance": {
         "status": "verified-primary-presenter-and-editorial-review",
         "reviewed_by": "ChatGPT automation editorial review",
-        "note": "Stage 1 admission: a specific guest pairing changes the live texture of Japanese minyo-meets-Latin dance music. Stage 2: A+ for an unusual documented live intersection. Rejected S/S+: four sets over two dates, recurring New Year context, no unique commissioned piece or farewell. Not a general Minyo Crusaders listing."
+        "note": "Stage 1 admission: a specific guest pairing changes the live texture of Japanese minyo-meets-Latin dance music. Stage 2: A+ for an unusual documented live intersection. Rejected S/S+: four sets over two dates, recurring New Year context, no unique commissioned piece or farewell. Not a general Minyo Crusaders listing.",
+        "enrichment_history": [
+          {
+            "status": "verified-contextual-listening",
+            "recorded_on": "2026-10-27",
+            "note": "Cotton Club's primary event page explicitly lists From Japan with Love in the band's discography. The exact Apple Music album matches Minyo Crusaders. Recorded preparation for the band, not a claim about the January setlist or guest participation on this album."
+          }
+        ]
       },
       "editorial": {
         "en": {
@@ -35632,7 +35763,7 @@
       "factual_description": "Blue Note Tokyo announces Kroi's club debut with Jean-Paul 'Bluey' Maunick and INCOGNITO horns on Tuesday January 26, 2027: first set 18:00 (doors 17:00), second set 20:30 (doors 19:45). The promoter ties the concert to the March 2026 digital track Kinetic feat. INCOGNITO, produced with Bluey, and lists the complete nine-person band. Official per-person seat/music charges range from JPY 12,000 to JPY 17,500; members' online presale is scheduled October 28 and general online sale November 4, 2026. The organizer also lists another Kroi–INCOGNITO joint appearance in Takasaki on January 24, so this is not a one-night Japan-exclusive project.",
       "links": {
         "official_event": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
-        "official_tickets": null
+        "official_tickets": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4032#4032"
       },
       "tickets": {
         "currency": "JPY",
@@ -35649,14 +35780,17 @@
           "checked_on": null
         }
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "KROI",
+          "title": "Kinetic (feat. Incognito) - Single",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/kinetic-feat-incognito-single/1881547833"
+        }
+      ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "official_tickets",
-          "apple_music"
-        ],
-        "note": "Official Blue Note Tokyo show/lineup and posted ¥12,000–17,500 seating charges are verified. Presales are announced for October 28 and November 4; no exact ticket checkout or available inventory has been verified yet, and no exact Apple Music link is established."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -35664,6 +35798,24 @@
           "publisher": "Blue Note Tokyo (primary presenter)",
           "checked_on": "2026-10-23",
           "note": "Establishes January 26 Tokyo shows at 18:00 and 20:30, Bluey plus 3-person Incognito horns, Kroi members, Kinetic recording origin, prices, presale dates and another collaboration on January 24 in Takasaki."
+        },
+        {
+          "publisher": "Official presenter / authorized ticketing; direct public verification",
+          "url": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+          "checked_on": "2026-10-24",
+          "note": "Followed the current official purchase/reservation control. Live presenter page’s reservation control links to show_event_info/4032/#4032 and redirects to exec/4032#4032. Destination explicitly says reservations have not opened: JAM SESSION October 28, 2026 12:00 JST; general November 4, 2026 12:00 JST. No current bookable inventory. Posted music/seat totals JPY 12,000–17,500. Two shows, 18:00 and 20:30; no show-specific inventory claimed."
+        },
+        {
+          "publisher": "Authorized official ticketing",
+          "url": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4032#4032",
+          "checked_on": "2026-10-24",
+          "note": "Live presenter page’s reservation control links to show_event_info/4032/#4032 and redirects to exec/4032#4032. Destination explicitly says reservations have not opened: JAM SESSION October 28, 2026 12:00 JST; general November 4, 2026 12:00 JST. No current bookable inventory. Posted music/seat totals JPY 12,000–17,500. Two shows, 18:00 and 20:30; no show-specific inventory claimed."
+        },
+        {
+          "publisher": "Apple Music",
+          "url": "https://music.apple.com/us/album/kinetic-feat-incognito-single/1881547833",
+          "checked_on": "2026-10-24",
+          "note": "Exact artist/title album page verified. Editorial listening rationale: The studio collaboration that prompted this live encounter; Apple lists the single released March 23, 2026. The venue also links the same Apple album ID in the Japanese storefront."
         }
       ],
       "provenance": {
@@ -35756,13 +35908,17 @@
           "checked_on": null
         }
       },
-      "recommended_listening": [],
+      "recommended_listening": [
+        {
+          "artist": "Randolph Coleman",
+          "title": "Projection No.2, for Flute, Piano, and Electric Piano (1961). I",
+          "kind": "track",
+          "apple_music_url": "https://music.apple.com/us/album/projection-no-2-for-flute-piano-and-electric-piano-1961-i/6778815353?i=6778815355"
+        }
+      ],
       "enrichment": {
-        "status": "pending",
-        "missing": [
-          "apple_music"
-        ],
-        "note": "Roulette says Free with RSVP and links to an event-specific booking endpoint. Actual RSVP capacity was not tested. No exact Apple Music album or track for this tribute was established."
+        "status": "complete",
+        "missing": []
       },
       "sources": [
         {
@@ -35776,12 +35932,25 @@
           "publisher": "Roulette ticketing / AudienceView",
           "checked_on": "2026-10-27",
           "note": "Specific free RSVP endpoint from primary event page; availability not inferred."
+        },
+        {
+          "publisher": "Apple Music catalog / interactive composer identity verification",
+          "url": "https://music.apple.com/us/album/projection-no-2-for-flute-piano-and-electric-piano-1961-i/6778815353?i=6778815355",
+          "checked_on": "2026-10-27",
+          "note": "Apple Music identifies artist and composer as Randolph Coleman, matching Roulette's composer and Oberlin mentor. This historical composition is context for his work, not a recording or announced piece of the January 27 memorial. The unrelated Randy Coleman / Last Salutation result was excluded. The earlier draft using recordings by two contributors was superseded by this direct composer match."
         }
       ],
       "provenance": {
         "status": "verified-primary-presenter-and-editorial-review",
         "reviewed_by": "ChatGPT automation editorial review",
-        "note": "Stage 1 admission: one-off memorial assembling named composers and experimental performers across genres because of specific shared mentorship; not generic artist fame. Stage 2 A+: one-off meeting and concrete artistic lineage. S/S+ rejected pending an actual program, since participants are listed but works/performances are not verified."
+        "note": "Stage 1 admission: one-off memorial assembling named composers and experimental performers across genres because of specific shared mentorship; not generic artist fame. Stage 2 A+: one-off meeting and concrete artistic lineage. S/S+ rejected pending an actual program, since participants are listed but works/performances are not verified.",
+        "enrichment_history": [
+          {
+            "status": "verified-composer-listening",
+            "recorded_on": "2026-10-27",
+            "note": "Apple Music identifies artist and composer as Randolph Coleman, matching Roulette's composer and Oberlin mentor. This historical composition is context for his work, not a recording or announced piece of the January 27 memorial. The unrelated Randy Coleman / Last Salutation result was excluded. The earlier draft using recordings by two contributors was superseded by this direct composer match."
+          }
+        ]
       },
       "editorial": {
         "en": {
