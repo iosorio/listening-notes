@@ -1713,6 +1713,27 @@
       "events_published": 3,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261030T145742566Z-cultural-k4m9h2x",
+      "started_at": "2026-10-30T14:57:42.566Z",
+      "completed_at": "2026-10-30T15:08:51.925Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — RADAR Cultural Discovery",
+      "threads_checked": [
+        "Japanese soundtrack anniversary concerts and composer-led orchestral programs in the US corridor",
+        "Greater Tokyo Japanese soundtrack vocal ensembles, specific guest lineups and historical repertory",
+        "DMV multidisciplinary dance programs with specifically announced live Latin music",
+        "New York experimental, cross-genre and international anniversary concert candidates",
+        "Cross-checking current canonical indexes, active curated and processed intake, prior cultural batches, and same-day daily discovery"
+      ],
+      "sources_checked": 8,
+      "candidates_reviewed": 19,
+      "events_admitted": 3,
+      "events_published": 3,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
