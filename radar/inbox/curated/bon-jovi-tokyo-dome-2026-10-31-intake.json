@@ -1,0 +1,45 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "bon-jovi-tokyo-dome-2026-10-31-intake",
+  "published_at": "2026-10-31T12:57:35.400Z",
+  "checked_on": "2026-10-31",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-10-31",
+  "notes": "Daily Yamamoto-first concert-discovery pass under the current main-branch contracts. Fresh checks covered ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and current Yamamoto schedule sources before moving through Tokyo/Kanto and official presenter calendars in Washington, Arlington, Alexandria, Bethesda, Baltimore, Philadelphia, Newark/New Jersey and New York. Canonical, active, processed and review artifacts were searched before admission. No new unrepresented Tsuyoshi Yamamoto date was verified; BODY&SOUL schedule traces for December are stale artifacts from a venue that closed in September 2026. Stage 1 admits Bon Jovi's Tokyo Dome return because it is the band's first Japan engagement since 2018 and extends Jon Bon Jovi's documented return to full touring after vocal-cord surgery into a country with a long live relationship to the band. Stage 2 assigns A+: the nine-year Japan gap and post-recovery context merit actively making room, while two Tokyo dates and an expanding international stadium tour make A+ sufficient and defeat an S scarcity claim. Other newly exposed or recently crawled corridor listings were unchanged, older than the prior scan, already represented, or lacked a sufficiently specific performance context. This is ordinary concert discovery, not Cultural Discovery.",
+  "events": [
+    {
+      "id": "bon-jovi-forever-tour-tokyo-dome-2027-02-25",
+      "discovered_at": "2026-10-31T12:53:59.000Z",
+      "artist": "Bon Jovi",
+      "subtitle": "Forever Tour — first Japan concerts since 2018",
+      "dates": {"start": "2027-02-25", "end": "2027-02-27"},
+      "showtimes": ["17:00", "19:00"],
+      "venue": {"id": "tokyo-dome-tokyo", "name": "Tokyo Dome", "city": "Bunkyo, Tokyo", "state": "Tokyo", "country": "JP"},
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Veteran rock lineage / post-recovery Japan return",
+      "genres": ["Rock", "Arena Rock"],
+      "musical_axes": ["Masters", "Rock lineage", "Live return", "Japan/Tokyo"],
+      "lineup": ["Bon Jovi"],
+      "factual_description": "Udo Artists presents Bon Jovi's Forever Tour at Tokyo Dome on Thursday, February 25, 2027 and Saturday, February 27, 2027, the band's first Japan concerts since 2018. The February 25 show opens at 5:30 PM and starts at 7:00 PM; the February 27 show opens at 3:30 PM and starts at 5:00 PM. Standard reserved seats range from ¥10,000 to ¥80,000, and the highest listed VIP package is ¥195,000. VIP and Udo premium-member presales begin October 31, 2026 at noon JST, with general sales scheduled for November 28 at 10:00 AM JST. The official band site identifies the Forever Tour as Bon Jovi's return to touring after Jon Bon Jovi's vocal surgery and recovery.",
+      "links": {"official_event": "https://www.udo.jp/shows/BonJovi27", "official_tickets": "https://www.udo.jp/shows/BonJovi27"},
+      "tickets": {"currency": "JPY", "official": {"minimum": 10000, "maximum": 195000, "source_url": "https://www.udo.jp/shows/BonJovi27", "checked_on": "2026-10-31"}, "resale": {"minimum": null, "maximum": null, "url": null, "checked_on": null}},
+      "recommended_listening": [{"artist": "Bon Jovi", "title": "Bon Jovi 2027 Japan Forever Tour preparation playlist", "apple_music_url": "https://music.apple.com/jp/playlist/%E3%83%9C%E3%83%B3-%E3%82%B8%E3%83%A7%E3%83%B4%E3%82%A3-bon-jovi-2027%E5%B9%B4%E6%9D%A5%E6%97%A5%E5%85%AC%E6%BC%94-forever-tour-%E4%BA%88%E7%BF%92%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88/pl.d217ee9bea3f4426bb3f2d4a7e4cec23"}],
+      "enrichment": {"status": "complete", "missing": []},
+      "sources": [
+        {"type": "official_promoter", "name": "Udo Artists", "url": "https://www.udo.jp/shows/BonJovi27", "checked_on": "2026-10-31", "note": "Primary promoter page confirms both dates, doors and start times, Tokyo Dome, ticket categories, presale windows and general-sale timing."},
+        {"type": "official_label", "name": "Universal Music Japan", "url": "https://www.universal-music.co.jp/bon-jovi/news/2026-10-30/", "checked_on": "2026-10-31", "note": "Official Japan announcement dated October 30, 2026 confirms the first Japan concerts since 2018, both Tokyo dates and the authorized promoter page."},
+        {"type": "official_artist", "name": "Bon Jovi", "url": "https://www.bonjovi.com/updates.php", "checked_on": "2026-10-31", "note": "Official band update documents the return to touring after Jon Bon Jovi's vocal surgery and recovery."},
+        {"type": "streaming", "name": "Apple Music", "url": "https://music.apple.com/jp/playlist/%E3%83%9C%E3%83%B3-%E3%82%B8%E3%83%A7%E3%83%B4%E3%82%A3-bon-jovi-2027%E5%B9%B4%E6%9D%A5%E6%97%A5%E5%85%AC%E6%BC%94-forever-tour-%E4%BA%88%E7%BF%92%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88/pl.d217ee9bea3f4426bb3f2d4a7e4cec23", "checked_on": "2026-10-31", "note": "Exact Apple Music playlist linked by Universal Music Japan specifically for the 2027 Japan Forever Tour dates."}
+      ],
+      "provenance": {"status": "verified-primary-promoter-and-artist-sources", "reviewed_by": "RADAR automation editorial review", "note": "Stage 1 admission rests on the nine-year gap between Japanese engagements and the tour's post-vocal-surgery return context, not on stadium scale or fame. Stage 2 assigns A+: this is a culturally consequential veteran-rock return worth actively prioritizing in Tokyo. S was challenged and rejected because the promoter offers two Tokyo Dome dates and the engagement belongs to an expanding international stadium tour rather than a one-off, farewell or historically terminal appearance. Repository-wide searches found no matching event, source URL, date range or proposed stable ID before publication."},
+      "editorial": {
+        "en": {"why_it_matters": "The meaningful frame is a return, not a victory lap: Japan has gone nine years without a Bon Jovi concert, and these Tokyo Dome dates arrive after Jon Bon Jovi rebuilt his touring voice following surgery. That combination gives the band's arena-rock catalog a live test with real physical and historical stakes.", "trip_verdict": "Actively make room for one Tokyo date if the trip is already plausible. The long Japan gap gives the shows weight, but two local performances inside a broad stadium tour do not justify reorganizing an entire international itinerary around them.", "listen_before": "Bon Jovi 2027 Japan Forever Tour preparation playlist"},
+        "es": {"why_it_matters": "El marco importante es un regreso, no una vuelta de celebración rutinaria: Japón lleva nueve años sin un concierto de Bon Jovi y estas fechas en Tokyo Dome llegan después de que Jon Bon Jovi reconstruyera su voz de gira tras una cirugía. Esa combinación somete el repertorio de arena rock de la banda a una prueba en vivo con peso físico e histórico real.", "trip_verdict": "Le haría espacio activamente a una de las fechas de Tokio si el viaje ya resulta plausible. La larga ausencia en Japón les da peso, pero dos funciones locales dentro de una gira amplia de estadios no justifican reorganizar por completo un itinerario internacional.", "listen_before": "Bon Jovi 2027 Japan Forever Tour preparation playlist"}
+      }
+    }
+  ]
+}
