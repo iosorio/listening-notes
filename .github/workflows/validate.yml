@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'radar/events.json'
+      - 'radar/editorial_exclusions.json'
       - 'radar/signals.json'
       - 'radar/venue_identities.json'
       - 'radar/discovery/*.json'
@@ -21,6 +22,7 @@ on:
     branches: [main]
     paths:
       - 'radar/events.json'
+      - 'radar/editorial_exclusions.json'
       - 'radar/signals.json'
       - 'radar/venue_identities.json'
       - 'radar/discovery/*.json'
@@ -53,6 +55,8 @@ jobs:
           python-version: '3.12'
       - name: Validate canonical RADAR data
         run: python scripts/validate_events.py radar/events.json
+      - name: Validate editorial exclusions
+        run: python scripts/validate_editorial_exclusions.py
       - name: Validate canonical Signal history
         run: python scripts/validate_signals.py radar/signals.json radar/events.json
       - name: Validate and audit RADAR operational state

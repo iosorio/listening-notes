@@ -49,6 +49,16 @@ innovation, a living master, a Japanese-jazz connection, Latin identity,
 cross-genre work, a meaningful venue or DMV connection, and continuity with
 the archive are signals—not a rigid scoring algorithm.
 
+## Editorial retractions
+
+A published event can fail a fresh admission review. Explicit editorial
+retractions are recorded in `radar/editorial_exclusions.json` and excluded
+from public RADAR, with the original canonical event, processed intake,
+discovery timestamps and source history preserved. Fame, anniversary,
+regional comeback or tour-scale significance triggers investigation but does
+not by itself establish the special musical value of this exact performance.
+A retraction does not mean the artist cancelled or the concert was attended.
+
 ## The Signal
 
 The Signal is a time-specific editorial recommendation, not a higher priority
