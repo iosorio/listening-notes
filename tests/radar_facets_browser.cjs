@@ -27,6 +27,7 @@ async function exercise(page, locale, origin) {
   const spanish = locale === 'es';
   await page.goto(`${origin}/radar/${spanish ? 'es/' : ''}`);
   await page.locator('#filters button').first().waitFor();
+  assert.equal(await page.locator('[data-event-id="bon-jovi-forever-tour-tokyo-dome-2027-02-25"]').count(), 0);
   const initial = await page.locator('#count').innerText();
   const initialTotal = Number(initial.match(/^\d+/)?.[0]);
   const areaValues = await page.locator('#filters button[data-key="radar_area"]:not([data-value=""])').evaluateAll(buttons => buttons.map(button => button.dataset.value));
@@ -128,7 +129,9 @@ async function exercise(page, locale, origin) {
   await checked(page.locator('#view-latest'), true);
   assert.equal(await page.locator('#latest-view').isVisible(), true);
   assert.equal(await page.locator('#concert-view').isVisible(), false);
+  const excluded = new Set(require('../radar/editorial_exclusions.json').exclusions.map(x => x.event_id));
   const expectedLatest = require('../radar/events.json').events
+    .filter(event => !excluded.has(event.id))
     .filter(event => event.canonicalized_at && Number.isFinite(Date.parse(event.canonicalized_at)))
     .sort((a, b) => Date.parse(b.canonicalized_at) - Date.parse(a.canonicalized_at) || a.id.localeCompare(b.id))
     .slice(0, 6).map(event => event.id);

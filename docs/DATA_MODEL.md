@@ -125,3 +125,14 @@ factually changed records require source entries before publication.
 Historical discovery provenance follows
 `docs/RADAR_DISCOVERY_BACKFILL.md`; unknown values remain absent rather than
 being fabricated.
+
+## Editorial retractions
+
+`radar/editorial_exclusions.json` records append-only, dated editorial
+withdrawals of admission. Entries reference existing canonical IDs and name
+the reviewer and performance-specific rationale. The original canonical events,
+processed intake and immutable discovery chronology do not change.
+The public RADAR browser applies the exclusions before displaying upcoming,
+archive, latest additions, updates, facets, or current/recent Signals.
+The exclusions ledger is a required fetch: failure must not silently re-expose
+withdrawn events. Validate it using `scripts/validate_editorial_exclusions.py`.

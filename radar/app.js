@@ -187,6 +187,20 @@ function deriveRadarView(events, viewState, currentSignalEvent, today, registry)
   return { viewEvents, selected, results, signalVisible };
 }
 
+// Apply editorial retractions before deriving any public view or Signal.
+function applyEditorialExclusions(events, payload) {
+  if (!payload || payload.schema_version !== 1 || !Array.isArray(payload.exclusions)) {
+    throw new Error('Invalid editorial exclusion ledger');
+  }
+  const removed = new Set();
+  for (const item of payload.exclusions) {
+    if (!item || typeof item.event_id !== 'string' || !item.event_id) throw new Error('Invalid exclusion ID');
+    if (removed.has(item.event_id)) throw new Error('Invalid exclusions: duplicate ID');
+    removed.add(item.event_id);
+  }
+  return events.filter(event => !removed.has(event.id));
+}
+
 function resolveSignalState(payload, events) {
   const unavailable = { valid: false, current: null, recent: [] };
   if (!payload || payload.schema_version !== 1 || !Array.isArray(payload.signals)) return unavailable;
@@ -631,9 +645,11 @@ function loadRadar() {
   const venueUrl = lang === 'es' ? '../venue_identities.json' : 'venue_identities.json';
   const statusUrl = lang === 'es' ? '../discovery/status.json' : 'discovery/status.json';
   const runsUrl = lang === 'es' ? '../discovery/runs.json' : 'discovery/runs.json';
-  Promise.all([fetchJson(eventUrl), fetchJson(venueUrl), fetchJson(signalUrl).catch(() => null), fetchJson(statusUrl).catch(() => null), fetchJson(runsUrl).catch(() => null)])
-    .then(([eventPayload, venuePayload, signalPayload, statusPayload, runPayload]) => {
-      window.eventsData = eventPayload.events;
+  const exclusionsUrl = lang === 'es' ? '../editorial_exclusions.json' : 'editorial_exclusions.json';
+  // This fetch is mandatory: fail closed rather than display a retracted event.
+  Promise.all([fetchJson(eventUrl), fetchJson(venueUrl), fetchJson(signalUrl).catch(() => null), fetchJson(statusUrl).catch(() => null), fetchJson(runsUrl).catch(() => null), fetchJson(exclusionsUrl)])
+    .then(([eventPayload, venuePayload, signalPayload, statusPayload, runPayload, exclusionsPayload]) => {
+      window.eventsData = applyEditorialExclusions(eventPayload.events, exclusionsPayload);
       window.venueRegistry = venuePayload;
       window.signalState = resolveSignalState(signalPayload, window.eventsData);
       window.previousRadarVisit = visitBaseline();
@@ -647,7 +663,7 @@ function loadRadar() {
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { AREA_ORDER, COPY, additionsSince, ingestionTime, latestAdditions, availableAreas, deriveOperationalHealth, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState, visibleFacetValues };
+  module.exports = { AREA_ORDER, COPY, additionsSince, applyEditorialExclusions, ingestionTime, latestAdditions, availableAreas, deriveOperationalHealth, deriveRadarView, facetCounts, hasActiveFilters, isArchiveAt, radarAreaFor, resolveSignalState, selectFacet, validFacetState, visibleFacetValues };
 }
 
 if (hasDocument) loadRadar();
