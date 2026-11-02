@@ -1776,6 +1776,27 @@
       "events_published": 0,
       "material_updates": 0,
       "error_summary": "The scheduled discovery scan completed with no new admissible deltas. The user-directed exclusion of the canonical Bon Jovi record could not be published because current main exposes no reviewed deletion or retraction workflow and directly editing radar/events.json is prohibited; the record remains canonical pending an approved correction path."
+    },
+    {
+      "run_id": "radar-20261102T140811000Z-m4x7q2vk9c",
+      "started_at": "2026-11-02T14:08:11.000Z",
+      "completed_at": "2026-11-02T14:15:26.316Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue calendars: ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and Yoyogi NARU",
+        "Greater Tokyo and Kanto official venue deltas, including Blue Note Tokyo, COTTON CLUB and Billboard Live Tokyo",
+        "Washington, Arlington, Alexandria, Bethesda and Baltimore official presenter calendars",
+        "Philadelphia and Newark/New Jersey official presenter calendars",
+        "New York official club, hall and experimental-presenter calendars, plus canonical, inbox and editorial-exclusion deduplication"
+      ],
+      "sources_checked": 26,
+      "candidates_reviewed": 14,
+      "events_admitted": 2,
+      "events_published": 2,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
