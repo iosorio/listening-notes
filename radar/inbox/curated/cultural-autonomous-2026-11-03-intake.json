@@ -1,0 +1,313 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "cultural-autonomous-2026-11-03-intake",
+  "published_at": "2026-11-03T15:58:14.608Z",
+  "checked_on": "2026-11-03",
+  "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+  "reviewed_on": "2026-11-03",
+  "notes": "Scheduled cultural scan. Stage 1 admission then A/A+ priority. Primary presenter URLs checked. Already published Zelda recovery, Tokyo January crossover lineups and Lockwood/Wooley excluded. This is a draft for official CI dry-run, not publication or canonical ingestion.",
+  "events": [
+    {
+      "id": "michael-gordon-8-roulette-brooklyn-2027-01-20",
+      "discovered_at": "2026-11-03T15:58:14.119Z",
+      "artist": "Michael Gordon: 8",
+      "subtitle": "New York premiere for eight cellists",
+      "dates": {
+        "start": "2027-01-20",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Contemporary music / instrumental innovation",
+      "genres": [
+        "Contemporary classical",
+        "Experimental"
+      ],
+      "musical_axes": [
+        "Experimental/Metal",
+        "Cross-genre"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Nick Photinos — cello",
+        "Jeffrey Zeigler — cello",
+        "Ashley Bathgate — cello",
+        "Aaron Wolff — cello",
+        "Miriam Liske-Doorandish — cello",
+        "Helen Newby — cello",
+        "Sahara von Hattenberger — cello",
+        "Daniel Knapp — cello"
+      ],
+      "factual_description": "Roulette announces the New York premiere of Michael Gordon's 8 on January 20, 2027 at 8:00 p.m., performed by the eight cellists named in the lineup. Gordon is not billed as a performer.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "Eight cellos for a single Michael Gordon work, including players Ashley Bathgate and Jeffrey Zeigler. This local premiere is an unusually intense way to hear the composer's large-ensemble imagination at Roulette.",
+          "trip_verdict": "Actively make room for this Brooklyn night on a New York trip; compelling A+, not a reason to fly just for the show.",
+          "listen_before": "Michael Gordon — Timber and Decasia as context, not announced repertoire."
+        },
+        "es": {
+          "why_it_matters": "Ocho violonchelos para una sola obra de Michael Gordon, con músicos como Ashley Bathgate y Jeffrey Zeigler. El estreno neoyorquino promete escuchar muy de cerca una escritura instrumental fuera de escala.",
+          "trip_verdict": "Le haría espacio a esta noche en Brooklyn si hay viaje a Nueva York; merece A+, sin obligar a cambiar todo el itinerario.",
+          "listen_before": "Michael Gordon — Timber y Decasia como contexto, no como repertorio anunciado."
+        }
+      },
+      "links": {
+        "official_event": "https://roulette.org/event/michael-gordon-8/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1295147"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/michael-gordon-8/",
+          "publisher": "Roulette",
+          "checked_on": "2026-11-03",
+          "note": "Primary presenter verifies New York premiere, date, time and full eight-cello lineup; links official ticket production."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1295147",
+          "publisher": "AudienceView via Roulette",
+          "checked_on": "2026-11-03",
+          "note": "Exact ticket destination, linked by Roulette; inventory not verified."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact presenter event and event-specific ticket destination verified on 2026-11-03. No exact Apple Music link, live seat availability or comprehensive official prices established."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1: specific New York premiere and unusual eight-cello instrumentation, not generic classical programming. Stage 2 A+: actively prioritize the confirmed format and lineup. No evidence of an irreplaceable world premiere for S/S+."
+      }
+    },
+    {
+      "id": "eliane-elias-jobim-centennial-jalc-2027-01-29",
+      "discovered_at": "2026-11-03T15:58:14.119Z",
+      "artist": "Eliane Elias Quartet",
+      "subtitle": "Jobim Centennial Celebration",
+      "dates": {
+        "start": "2027-01-29",
+        "end": "2027-01-30"
+      },
+      "showtimes": [
+        "19:30"
+      ],
+      "venue": {
+        "id": "rose-theater-jazz-at-lincoln-center-new-york",
+        "name": "Rose Theater at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A",
+      "category": "Brazilian jazz / centennial tribute",
+      "genres": [
+        "Brazilian jazz",
+        "Bossa nova",
+        "Latin jazz"
+      ],
+      "musical_axes": [
+        "Latin",
+        "Acoustic Jazz"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Eliane Elias — piano and vocals",
+        "Marc Johnson — bass",
+        "Rafael Barata — drums and percussion",
+        "Leandro Pellegrino — guitar"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Eliane Elias's Jobim Centennial Celebration January 29–30, 2027 at 7:30 p.m. in Rose Theater, with Marc Johnson, Rafael Barata and Leandro Pellegrino. The presenter announces songs from her forthcoming album.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "Eliane Elias interprets Jobim with Marc Johnson, Rafael Barata and Leandro Pellegrino. Material from her announced new record gives the centennial a particular Brazilian-jazz voice beyond the standards.",
+          "trip_verdict": "Worth knowing about if a New York visit is already planned; a strong Brazil-jazz program but not a trip-defining night.",
+          "listen_before": "Eliane Elias's earlier Jobim interpretations; new album availability not assumed."
+        },
+        "es": {
+          "why_it_matters": "Eliane Elias vuelve a Jobim con Marc Johnson, Rafael Barata y Leandro Pellegrino. El material de su disco anunciado le da al homenaje una voz propia dentro del jazz brasileño.",
+          "trip_verdict": "Vale la pena tenerlo presente si ya vas a Nueva York; un buen programa de jazz brasileño, no motivo para reorganizar el viaje.",
+          "listen_before": "Las versiones de Jobim que ya grabó Elias; no doy por disponible el álbum anunciado."
+        }
+      },
+      "links": {
+        "official_event": "https://jazz.org/concert/eliane-elias-jobim-centennial-celebration/",
+        "official_tickets": "https://ticketing.jazz.org/20710"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://jazz.org/concert/eliane-elias-jobim-centennial-celebration/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-11-03",
+          "note": "Primary concert listing confirms dates, band and Jobim/new-album program."
+        },
+        {
+          "url": "https://ticketing.jazz.org/20710",
+          "publisher": "Jazz at Lincoln Center ticketing",
+          "checked_on": "2026-11-03",
+          "note": "Exact January 29–30 official performance-ticket page, inventory unverified."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact presenter event and event-specific ticket destination verified on 2026-11-03. No exact Apple Music link, live seat availability or comprehensive official prices established."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1: specific Jobim-centennial interpretation with confirmed quartet and newly announced album material. Stage 2 A: solid Latin-jazz bridge, but the centennial alone and familiar Jobim repertoire do not earn a scarcity grade or A+ recommendation."
+      }
+    },
+    {
+      "id": "gerry-mulligan-mulligan-and-me-jalc-2027-06-04",
+      "discovered_at": "2026-11-03T15:58:14.119Z",
+      "artist": "Mulligan and Me — Ted Nash and Paul Nedzela",
+      "subtitle": "Gerry Mulligan Centennial: a play with live jazz",
+      "dates": {
+        "start": "2027-06-04",
+        "end": "2027-06-05"
+      },
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "16:30"
+      ],
+      "venue": {
+        "id": "the-appel-room-jazz-at-lincoln-center-new-york",
+        "name": "The Appel Room at Jazz at Lincoln Center",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Jazz centennial / musical theater",
+      "genres": [
+        "Jazz",
+        "Theater"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Cross-genre"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Ted Nash — music director and Mulligan collaborator",
+        "Paul Nedzela — baritone saxophone",
+        "Iris Dart — playwright (not a performer)",
+        "Rachel Dart — director (not a performer)"
+      ],
+      "factual_description": "Jazz at Lincoln Center presents Mulligan and Me, a play with live jazz about Gerry Mulligan's artistic relationship with Judy Holliday, written by Iris Dart and directed by Rachel Dart, with music directed by Mulligan collaborator Ted Nash and saxophonist Paul Nedzela. The Appel Room performances are June 4, 2027 at 7:00 and 9:00 p.m. and June 5 at 4:30 and 7:00 p.m.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "A Mulligan centennial with a specific dramatic idea: his artistic relationship with Judy Holliday becomes a play with jazz. Ted Nash knew Mulligan's music firsthand; Paul Nedzela brings the baritone saxophone into the story.",
+          "trip_verdict": "Actively make room for an Appel Room performance if a June New York trip is possible. The theater-jazz bridge merits A+, not a once-in-a-lifetime claim.",
+          "listen_before": "Mulligan's classic pianoless quartet records; the show's exact set list is not published."
+        },
+        "es": {
+          "why_it_matters": "Este centenario de Mulligan sí tiene una propuesta particular: llevar su vínculo creativo con Judy Holliday al teatro con jazz en vivo. Ted Nash conoció esa música de cerca y Paul Nedzela pone el saxo barítono.",
+          "trip_verdict": "Le haría un espacio a una función en The Appel Room si hay viaje a Nueva York en junio. El cruce de teatro y jazz merece A+, sin venderlo como irrepetible.",
+          "listen_before": "Los clásicos cuartetos de Mulligan sin piano; no se ha publicado el repertorio preciso de la función."
+        }
+      },
+      "links": {
+        "official_event": "https://ticketing.jazz.org/20769/",
+        "official_tickets": "https://ticketing.jazz.org/20769/"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ticketing.jazz.org/20769/",
+          "publisher": "Jazz at Lincoln Center",
+          "checked_on": "2026-11-03",
+          "note": "Primary exact event/ticket listing confirms play concept, musical leadership and June 4–5 performances."
+        },
+        {
+          "url": "https://press.jazz.org/press/2026/03/jazz-at-lincoln-center-announces-2026-27-season-come-home-an-international-celebration-of-the-music-vision-and-influence-of-wynton-marsalis-featuring-the-jazz-at-lincoln-center-orchestra-and-li/",
+          "publisher": "Jazz at Lincoln Center press",
+          "checked_on": "2026-11-03",
+          "note": "Primary season announcement corroborates centennial production."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact presenter event and event-specific ticket destination verified on 2026-11-03. No exact Apple Music link, live seat availability or comprehensive official prices established."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1: theatrical work about Mulligan and Judy Holliday, with a long-time Mulligan collaborator providing musical direction, beyond a generic 100th-anniversary concert. Stage 2 A+: the singular narrative framing merits active attention. Four performances and no verified world-premiere rarity mean S/S+ not justified."
+      }
+    }
+  ]
+}
