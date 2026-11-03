@@ -1797,6 +1797,27 @@
       "events_published": 2,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261103T132503000Z-q6m2v8rk4s",
+      "started_at": "2026-11-03T13:25:03.000Z",
+      "completed_at": "2026-11-03T13:28:53.076Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue calendars: ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and current Japanese schedule traces",
+        "Greater Tokyo and Kanto official venue deltas, including Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN",
+        "Washington, Arlington, Alexandria, Bethesda and Baltimore official presenter calendars",
+        "Philadelphia and Newark/New Jersey official presenter calendars",
+        "New York official club, hall and experimental-presenter calendars, plus canonical, inbox and editorial-exclusion deduplication"
+      ],
+      "sources_checked": 24,
+      "candidates_reviewed": 16,
+      "events_admitted": 2,
+      "events_published": 2,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
