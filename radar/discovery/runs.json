@@ -1818,6 +1818,27 @@
       "events_published": 2,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261103T155108091Z-cultural-pr14",
+      "started_at": "2026-11-03T15:51:08.091Z",
+      "completed_at": "2026-11-03T16:04:45.746Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — RADAR Cultural Discovery",
+      "threads_checked": [
+        "Japanese masters, January 2027 cross-genre and jazz collaborations from Blue Note Tokyo and COTTON CLUB versus canonical RADAR",
+        "Brooklyn experimental and contemporary-composition premieres including Roulette's eight-cello program, sound art and National Sawdust",
+        "Jazz at Lincoln Center composer-centennial presentations, theatrical portraits, and repertoire-specific music anniversaries",
+        "Latin and Brazilian jazz projects and multidisciplinary music programs across NYC, Philadelphia and the Washington-area corridor",
+        "Deduplication against fresh canonical catalog, curated and processed inbox, October Zelda recovery, and same-day daily discovery"
+      ],
+      "sources_checked": 15,
+      "candidates_reviewed": 18,
+      "events_admitted": 3,
+      "events_published": 3,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
