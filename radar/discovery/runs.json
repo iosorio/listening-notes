@@ -1902,6 +1902,27 @@
       "events_published": 2,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261106T155441000Z-cultural-8v4q1n",
+      "started_at": "2026-11-06T15:54:41.000Z",
+      "completed_at": "2026-11-06T16:05:18.585Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — RADAR Cultural Discovery",
+      "threads_checked": [
+        "Tokyo/Kantō exceptional Japanese jazz, interdisciplinary and special-presenter announcements checked against the already-published Nov 6 daily discoveries",
+        "Brooklyn Roulette premieres, living masters, sound-art and instrument-building programs with official event and ticket pages",
+        "Brooklyn National Sawdust cross-cultural, contemporary opera and experimental program leads compared with existing RADAR",
+        "New York jazz-centennial, avant-garde collaboration and special-lineup leads from primary-presenter calendars",
+        "Fresh main canonical 351-event catalog, active and processed curated inbox, excluded events and the October 21 Zelda recovery for exact and semantic deduplication"
+      ],
+      "sources_checked": 15,
+      "candidates_reviewed": 18,
+      "events_admitted": 3,
+      "events_published": 3,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
