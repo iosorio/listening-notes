@@ -1,0 +1,235 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "ben-wendel-molly-tuttle-blue-note-tokyo-2026-11-06-intake",
+  "published_at": "2026-11-06T13:23:00.000Z",
+  "checked_on": "2026-11-06",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-11-06",
+  "notes": "Daily Yamamoto-first delta review under current main-branch authority. Primary checks covered ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO, YOKOHAMA JAZZ FIRST and current Tsuyoshi Yamamoto schedule traces before moving through Tokyo/Kanto and official presenter calendars across the Washington-to-New York corridor. Verified Yamamoto dates remained canonically represented, including November 10, 17, 24, 25 and 28 and December 3 and 23; no new Yamamoto delta was admitted. Blue Note Tokyo's November 5 announcements were checked against canonical, active, processed, review and editorial-exclusion records. Stage 1 admits Ben Wendel's BaRcoDe because the exact Tokyo quintet puts one saxophone among marimba, balafon and two vibraphones in an electroacoustic chamber-jazz design, not because of venue or artist reputation. Stage 2 assigns A+ because the configuration merits making room during a Tokyo stay; six sets and an active project make S indefensible. Stage 1 admits Molly Tuttle and Ketch Secor because their two-person format reduces the music to flatpicked guitar, fiddle, two voices and a documented writing partnership. Stage 2 assigns A+ because the instrumental dialogue merits active prioritization; four sets and their ongoing collaboration remove scarcity. Maya Delilah's simultaneous announcement was reviewed but not admitted because the supporting lineup remains TBA and the event page does not yet establish a performance-specific context beyond her first Blue Note Tokyo engagement. No post-scan US-corridor announcement cleared both the delta and admission gates. This is ordinary concert discovery, not the separate Cultural Discovery thread.",
+  "events": [
+    {
+      "id": "ben-wendel-barcode-blue-note-tokyo-2027-03-21",
+      "discovered_at": "2026-11-06T13:20:37.963Z",
+      "artist": "Ben Wendel: BaRcoDe",
+      "subtitle": "Electroacoustic saxophone-and-mallet quintet",
+      "dates": {
+        "start": "2027-03-21",
+        "end": "2027-03-23"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30",
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Electroacoustic chamber jazz / Saxophone and mallet ensemble",
+      "genres": [
+        "Jazz",
+        "Electroacoustic",
+        "Contemporary chamber music"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Instrumental innovation",
+        "Improvisation",
+        "Experimental / Metal",
+        "Ensemble interaction"
+      ],
+      "lineup": [
+        "Ben Wendel — saxophone",
+        "Joel Ross — marimba",
+        "Simon Moullier — balafon",
+        "Patricia Brennan — vibraphone",
+        "Warren Wolf — vibraphone"
+      ],
+      "factual_description": "Blue Note Tokyo presents Ben Wendel's BaRcoDe for six performances from March 21 through March 23, 2027. March 21 and 22 have sets at 16:30 and 19:30, with doors at 15:30 and 18:30; March 23 has sets at 18:00 and 20:30, with doors at 17:00 and 19:45. The announced Tokyo quintet is Wendel on saxophone, Joel Ross on marimba, Simon Moullier on balafon, Patricia Brennan and Warren Wolf on vibraphone. The venue describes an electroacoustic sound built from saxophone, mallet instruments and effects. The music charge is ¥9,900; reserved seating categories bring the verified per-person total as high as ¥15,400. JAM SESSION presale begins November 14 and general web reservations begin November 21, so no live event-specific ticket destination is recorded before those sales open.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/ben-wendel/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 9900,
+          "maximum": 15400,
+          "source_url": "https://www.bluenote.co.jp/jp/artists/ben-wendel/",
+          "checked_on": "2026-11-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact venue page verifies dates, all set and door times, the complete Tokyo quintet, prices and future reservation-opening dates. General reservations do not open until November 21, so an event-specific purchase URL is not yet verifiable. Exact Apple Music preparation remains to be reviewed; the label's BaRcoDe page is retained as factual project evidence rather than substituted for an Apple Music link."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/ben-wendel/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-11-06",
+          "note": "Primary venue page verifies March 21–23, six show and door times, the complete five-person Tokyo lineup, electroacoustic framing, music charge and reserved-seat totals, and November 14/21 reservation-opening dates."
+        },
+        {
+          "url": "https://www.bluenote.co.jp/jp/info/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-11-06",
+          "note": "Venue news ledger dates the newly announced BaRcoDe engagement to November 5, 2026 and verifies the dates, ¥9,900 music charge and sales schedule."
+        },
+        {
+          "url": "https://editionrecords.com/releases/barcode/",
+          "publisher": "Edition Records",
+          "checked_on": "2026-11-06",
+          "note": "Artist's label verifies BaRcoDe as Wendel's electroacoustic saxophone-and-mallet project, its March 2026 release and the recorded lineup with Ross, Moullier and Brennan. Blue Note Tokyo, not the album page, is authoritative for Warren Wolf's Tokyo appearance."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-news-and-artist-label-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Blue Note Tokyo supplies the exact engagement, times, Tokyo lineup, prices and sales dates; its news ledger establishes the announcement date. Edition Records corroborates the project's electroacoustic saxophone-and-mallet premise. Repository searches for the proposed ID, exact event URL, BaRcoDe, Ben Wendel and the dates found no canonical, active, processed, review or exclusion match. Admission rests on the performance's unusual five-instrument architecture. A+ reflects active prioritization without scarcity inflation; six Tokyo sets and an active recorded project stop the event below S."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The lineup changes the physics of a jazz quintet: Wendel's saxophone and effects have to find space inside four different mallet attacks and resonances, from marimba and balafon to two vibraphones. Ross, Moullier, Brennan and Wolf each bring a distinct rhythmic and harmonic vocabulary, so the draw is the architecture of this exact ensemble rather than an all-star list.",
+          "trip_verdict": "Make room for one set if Tokyo overlaps March 21–23. Six performances provide enough flexibility to fit the project into a stay, so it is not a reason to redesign the trip by itself.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La formación cambia la física de un quinteto de jazz: el saxofón y los efectos de Wendel tienen que abrirse paso entre cuatro ataques y resonancias distintas, desde marimba y balafón hasta dos vibráfonos. Ross, Moullier, Brennan y Wolf aportan vocabularios rítmicos y armónicos propios; el atractivo está en la arquitectura de este ensamble exacto, no en una lista de nombres.",
+          "trip_verdict": "Le haría espacio a uno de los sets si Tokio coincide entre el 21 y el 23 de marzo. Las seis funciones dan margen para acomodarlo dentro de la estancia, sin rehacer el viaje sólo por esta fecha.",
+          "listen_before": null
+        }
+      }
+    },
+    {
+      "id": "molly-tuttle-ketch-secor-blue-note-tokyo-2027-02-11",
+      "discovered_at": "2026-11-06T13:20:37.963Z",
+      "artist": "Molly Tuttle + Ketch Secor",
+      "subtitle": "Special acoustic duo engagement",
+      "dates": {
+        "start": "2027-02-11",
+        "end": "2027-02-12"
+      },
+      "showtimes": [
+        "16:30",
+        "19:30",
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary bluegrass / Americana acoustic duo",
+      "genres": [
+        "Bluegrass",
+        "Americana",
+        "Folk"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Virtuoso guitar",
+        "Acoustic music",
+        "Roots lineage",
+        "Duo interaction"
+      ],
+      "lineup": [
+        "Molly Tuttle — voice, guitar",
+        "Ketch Secor — voice, fiddle"
+      ],
+      "factual_description": "Blue Note Tokyo presents Molly Tuttle and Ketch Secor for four duo performances on February 11 and 12, 2027. February 11 has sets at 16:30 and 19:30, with doors at 15:30 and 18:30; February 12 has sets at 18:00 and 20:30, with doors at 17:00 and 19:45. The venue announces only Tuttle on voice and guitar and Secor on voice and fiddle, and describes an ongoing musical partnership spanning recordings and live appearances. Tuttle's official biography independently identifies Secor as her partner and a co-writer and multi-instrumentalist on So Long Little Miss Sunshine. The music charge is ¥8,800; reserved seating categories bring the verified per-person total as high as ¥14,300. JAM SESSION presale begins November 12 and general web reservations begin November 19, so no live event-specific ticket destination is recorded before those sales open.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/artists/molly-tuttle/",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 8800,
+          "maximum": 14300,
+          "source_url": "https://www.bluenote.co.jp/jp/artists/molly-tuttle/",
+          "checked_on": "2026-11-06"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "The exact venue page verifies dates, all set and door times, the complete two-person lineup, prices and future reservation-opening dates. General reservations do not open until November 19, so an event-specific purchase URL is not yet verifiable. Exact Apple Music preparation remains to be reviewed rather than inferred from the venue's discography display."
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/artists/molly-tuttle/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-11-06",
+          "note": "Primary venue page verifies February 11–12, four show and door times, the exact Tuttle/Secor duo lineup, music charge and reserved-seat totals, and November 12/19 reservation-opening dates."
+        },
+        {
+          "url": "https://www.bluenote.co.jp/jp/info/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-11-06",
+          "note": "Venue news ledger dates the newly announced duo engagement to November 5, 2026 and verifies the dates, ¥8,800 music charge and sales schedule."
+        },
+        {
+          "url": "https://www.mollytuttlemusic.com/bio",
+          "publisher": "Molly Tuttle",
+          "checked_on": "2026-11-06",
+          "note": "Artist-official biography corroborates Secor's roles as Tuttle's partner, co-writer, vocalist and multi-instrumentalist in her current music."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-venue-news-and-artist-sources",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Blue Note Tokyo supplies the exact engagement, times, two-person lineup, prices and sales dates; its news ledger establishes the announcement date. Tuttle's official biography corroborates the active musical and writing partnership. Repository searches for the proposed ID, exact event URL, both artists and the dates found no canonical, active, processed, review or exclusion match. Admission rests on the spare guitar-fiddle-vocal format and documented collaboration. A+ reflects a set worth making room for in Tokyo; four performances and an ongoing partnership provide no S-level scarcity."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The duo format removes the safety net: Tuttle's flatpicked guitar has to carry rhythm, harmony and lead detail while Secor's fiddle and second voice answer it in real time. Their shared writing history gives the set a lived musical grammar, making this more specific than pairing two prominent roots musicians for a club date.",
+          "trip_verdict": "Make room for one of the four sets if Tokyo overlaps February 11–12. The intimate duo format is a strong reason to choose the night, while repeated performances and an ongoing collaboration keep it from becoming a trip-defining obligation.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El formato de dúo quita la red de seguridad: la guitarra flatpicked de Tuttle tiene que sostener ritmo, armonía y detalle solista mientras el fiddle y la segunda voz de Secor le responden en tiempo real. Su historia escribiendo juntos le da al set una gramática musical vivida; no es simplemente juntar a dos nombres fuertes de la música de raíces.",
+          "trip_verdict": "Le haría espacio a uno de los cuatro sets si Tokio coincide el 11 o 12 de febrero. El formato íntimo de dúo da una razón fuerte para escoger esa noche, pero las funciones repetidas y la colaboración continua evitan que defina todo el viaje.",
+          "listen_before": null
+        }
+      }
+    }
+  ]
+}
