@@ -1986,6 +1986,27 @@
       "events_published": 0,
       "material_updates": 1,
       "error_summary": "Blue Note Tokyo reported on November 9 that Mika Nakashima's November 8 second show was stopped mid-performance because of a throat condition. The event is only an active legacy version-1 curated candidate, not canonical, and the current repository contracts provide no approved factual-correction route for that candidate; no broken update was published. All intended Yamamoto-first and corridor discovery threads otherwise completed."
+    },
+    {
+      "run_id": "radar-20261110T133451166Z-1ccdafd30c",
+      "started_at": "2026-11-10T13:34:51.166Z",
+      "completed_at": "2026-11-10T13:36:48.650Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue deltas: ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO, YOKOHAMA JAZZ FIRST and current schedule traces",
+        "Greater Tokyo and Kanto announcement deltas from Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN",
+        "Washington, Arlington, Alexandria, Bethesda and Baltimore official presenter calendars",
+        "Philadelphia and Newark/New Jersey official presenter calendars",
+        "New York official club, hall and experimental-presenter deltas, plus canonical, active inbox, processed inbox, review and editorial-exclusion deduplication"
+      ],
+      "sources_checked": 27,
+      "candidates_reviewed": 13,
+      "events_admitted": 0,
+      "events_published": 0,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
