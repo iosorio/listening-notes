@@ -2028,6 +2028,27 @@
       "events_published": 3,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261111T130851579Z-6a9c2e4d1f",
+      "started_at": "2026-11-11T13:08:51.579Z",
+      "completed_at": "2026-11-11T13:14:35.083Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue deltas: ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO, YOKOHAMA JAZZ FIRST and current schedule traces",
+        "Greater Tokyo and Kanto announcement deltas from Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN, including the November 10 Cultural Discovery additions",
+        "Washington, Arlington, Alexandria, Bethesda, Baltimore, Philadelphia, Newark/New Jersey and New York official presenter-calendar deltas",
+        "Wolf Trap November 10 Barns announcement tranche and exact primary pages for L. Shankar, Derek Gripper with Alam Khan and The Big Star Quintet",
+        "Fresh main canonical catalog, active and processed inbox, review artifacts and semantic duplicate checks, with explicit A+ versus S scarcity challenge"
+      ],
+      "sources_checked": 28,
+      "candidates_reviewed": 7,
+      "events_admitted": 3,
+      "events_published": 3,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
