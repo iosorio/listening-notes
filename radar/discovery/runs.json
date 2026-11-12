@@ -2049,6 +2049,27 @@
       "events_published": 3,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261112T131543191Z-a58d1f7c2b",
+      "started_at": "2026-11-12T13:15:43.191Z",
+      "completed_at": "2026-11-12T13:21:16.517Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue deltas: ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and current official schedule traces",
+        "Greater Tokyo and Kanto dated announcement deltas from COTTON CLUB, Blue Note Tokyo, Billboard Live Tokyo and Shinjuku PIT INN",
+        "Washington, Arlington, Alexandria, Bethesda, Baltimore, Philadelphia, Newark/New Jersey and New York official presenter-calendar deltas",
+        "COTTON CLUB November 11 announcement tranche and exact primary pages for Dolphin Hyperspace featuring Luke Titus, bohemianvoodoo, Kenichi Tsunoda Big Band and Kozzy Iwakawa",
+        "Blue Note New York Just Announced delta for Mach-Hommy with Sam Gendel, Chris Dave, Sam Wilkes and Benny Bock, plus fresh main canonical and inbox duplicate checks"
+      ],
+      "sources_checked": 26,
+      "candidates_reviewed": 11,
+      "events_admitted": 5,
+      "events_published": 5,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
