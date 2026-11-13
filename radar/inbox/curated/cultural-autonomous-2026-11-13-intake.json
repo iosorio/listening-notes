@@ -1,0 +1,323 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "cultural-autonomous-2026-11-13-intake",
+  "published_at": "2026-11-13T15:15:26.054Z",
+  "checked_on": "2026-11-13",
+  "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+  "reviewed_on": "2026-11-13",
+  "notes": "Real scheduled Cultural Discovery investigation. Distinct cultural threads and primary presenter pages checked. Stage 1 exact-performance admission preceded stage 2 A+ grading. Already processed William Parker, Minyo Crusaders, Miki Hirose, Ursula Oppens, Spirits of Coltrane and Zelda recovery excluded from re-creation. Isolated validation-only PR; no main publication before official CI dry-run, full tests and conflict audit.",
+  "events": [
+    {
+      "id": "ns-dancemble-billboard-live-tokyo-2027-02-12",
+      "discovered_at": "2026-11-13T15:13:55.351Z",
+      "artist": "N.S. DANCEMBLE",
+      "subtitle": "NAGAN SERVER's six-member hip-hop, jazz and techno ensemble",
+      "dates": {
+        "start": "2027-02-12",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "21:00"
+      ],
+      "venue": {
+        "id": "billboard-live-tokyo-roppongi",
+        "name": "Billboard Live Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "priority": "A+",
+      "category": "Japanese jazz / hip-hop and electronic crossover",
+      "genres": [
+        "Jazz",
+        "Hip-hop",
+        "Breakbeats",
+        "House",
+        "Techno"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "status": "considering",
+      "lineup": [
+        "NAGAN SERVER — rap, bass",
+        "TAIHEI (Suchmos / Sai) — keyboards",
+        "Jinya (D.A.N.) — bass",
+        "Chinobu Matsuura (松浦千昇) — drums",
+        "Reiya Terakubo (寺久保伶矢) — trumpet",
+        "Carlos 'on 存在' — listed without an instrument or role"
+      ],
+      "factual_description": "Billboard Live Tokyo announced N.S. DANCEMBLE on November 13, 2026 for February 12, 2027, with performances at 18:00 and 21:00. Its official lineup brings two bass players, rap, keyboards, drums and trumpet into improvised dance music blending hip-hop, jazz, breakbeats, house and techno. The promoter also lists a January 31 Osaka tour stop. Exact Tokyo ticket prices and an event-specific ticket destination were not established.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "Two bass voices, NAGAN SERVER's rap, TAIHEI's keyboards and Reiya Terakubo's trumpet make this a live experiment in how jazz improvisation can inhabit club rhythms. The newly announced six-player configuration, rather than a generic 'fusion' label, clears RADAR's admission threshold.",
+          "trip_verdict": "Make room for one of the two Tokyo sets if February's visit overlaps. The distinctive crossover earns A+, but the Osaka date and two Tokyo shows do not support a one-off scarcity claim.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Dos bajos, el rap de NAGAN SERVER, los teclados de TAIHEI y la trompeta de Reiya Terakubo convierten esta banda en un experimento vivo entre improvisación jazzística y ritmos de club. La formación concreta de seis músicos —no una etiqueta vaga de fusión— justifica incluirla.",
+          "trip_verdict": "Le haría espacio a uno de los dos sets si febrero te encuentra en Tokio. El cruce musical merece A+, pero hay otra fecha en Osaka y dos funciones en Tokio: no es una ocasión irrepetible.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://www.billboard-live.com/tokyo/show?event_id=ev-21829",
+        "official_tickets": null
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21829",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-11-13",
+          "note": "Primary venue page verifies February 12, two set times, six listed participants and crossover description. Official advance lottery announced for November 13 at 21:00 Japan local time; no exact face price or ticket destination verified."
+        },
+        {
+          "url": "https://www.billboard-live.com/tokyo/whats-new",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-11-13",
+          "note": "Dated primary announcement (2026-11-13) establishes the new concert date and hip-hop/jazz/techno billing."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets",
+          "apple_music"
+        ],
+        "note": "Venue and showtimes verified, but no event-specific ticket URL, exact official price, or Apple Music ID established."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1: unique six-person hip-hop/jazz/techno lineup, with two bassists and trumpet, not a generic venue listing. Stage 2: A+ because the exact musical intersection deserves active prioritization; a multi-stop tour and two sets preclude S/S+."
+      }
+    },
+    {
+      "id": "modney-nighthawks-world-premiere-roulette-brooklyn-2027-02-16",
+      "discovered_at": "2026-11-13T15:13:55.351Z",
+      "artist": "Modney: Nighthawks",
+      "subtitle": "World premiere of Nighthawks with Ingrid Laubrock, Vicky Chow, Luke Stewart and Dan Weiss",
+      "dates": {
+        "start": "2027-02-16",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Experimental chamber jazz / album world premiere",
+      "genres": [
+        "Contemporary classical",
+        "Avant-jazz",
+        "Improvisation"
+      ],
+      "musical_axes": [
+        "Experimental / Metal",
+        "Cross-genre"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Modney — violin, viola",
+        "Ingrid Laubrock — saxophone",
+        "Madison Greenstone — clarinet",
+        "Mariel Roberts Musa — cello",
+        "Vicky Chow — piano",
+        "Dan Weiss — drums",
+        "Luke Stewart — bass"
+      ],
+      "factual_description": "Roulette bills the February 16, 2027 performance as the world premiere of Modney's Nighthawks music, marking the February 5 Pyroclastic Records album release. The seven musicians perform eight compositions dedicated to figures across visual art, architecture and literature, including Jack Whitten, Zaha Hadid and Vija Celmins. Doors 19:00, music 20:00; presenter lists $25 advance and $30 doors, plus concessions.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "A septet that refuses the usual chamber-jazz boundary: Modney's violin and viola meet Ingrid Laubrock, Vicky Chow, Dan Weiss and Luke Stewart in compositions prompted by architecture, painting and literature. The announced world-premiere performance gives the lineup an exact creative moment worth hearing.",
+          "trip_verdict": "Actively make room for February 16 if a New York trip is on the table. This world premiere earns A+ on its musical particulars, without claiming the project can never be heard again.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Un septeto que no cabe cómodamente en la etiqueta de jazz de cámara: el violín y la viola de Modney se cruzan con Ingrid Laubrock, Vicky Chow, Dan Weiss y Luke Stewart en piezas inspiradas por pintura, arquitectura y literatura. El estreno mundial anunciado le da a esa formación un momento creativo muy concreto.",
+          "trip_verdict": "Le haría espacio al 16 de febrero si hay viaje a Nueva York. El estreno y el ensamble justifican A+; no hay evidencia de que esta música sólo pueda escucharse esa noche.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://roulette.org/event/modneys-nighthawks/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1296175"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 30,
+          "source_url": "https://roulette.org/event/modneys-nighthawks/",
+          "checked_on": "2026-11-13"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/modneys-nighthawks/",
+          "publisher": "Roulette",
+          "checked_on": "2026-11-13",
+          "note": "Primary event page verifies February 16 at 20:00, world-premiere performance, full septet and $25 advance/$30 door general prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1296175",
+          "publisher": "AudienceView via Roulette",
+          "checked_on": "2026-11-13",
+          "note": "Presenter-linked exact ticket destination; current seating inventory was not checked."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact official event and ticket path verified; no exact Apple Music album or song URL established, and no inventory claim."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1: world-premiere performance with documented seven-player instrumentation and cross-disciplinary new compositions. Stage 2: A+; an announced premiere is not proof of unique/farewell scarcity sufficient for S/S+."
+      }
+    },
+    {
+      "id": "jason-robinson-janus-orchestra-yusef-lateef-roulette-brooklyn-2027-02-18",
+      "discovered_at": "2026-11-13T15:13:55.351Z",
+      "artist": "Jason Robinson's Janus Orchestra",
+      "subtitle": "Blue Salience: For Yusef Lateef",
+      "dates": {
+        "start": "2027-02-18",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Large-ensemble jazz / Yusef Lateef reinterpretation",
+      "genres": [
+        "Avant-jazz",
+        "Large ensemble",
+        "Contemporary jazz"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Acoustic Jazz",
+        "Experimental / Metal"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Jason Robinson — conductor, tenor saxophone, composer, spoken word and percussion",
+        "Marty Ehrlich — reeds",
+        "Felipe Salles — reeds",
+        "Bill Lowe — bass trombone/tuba and spoken word",
+        "Avery Sharpe — bass",
+        "Richie Barshay — drums and percussion",
+        "Additional orchestra musicians listed on the presenter page"
+      ],
+      "factual_description": "Roulette presents Blue Salience: For Yusef Lateef by Jason Robinson's Janus Orchestra on February 18, 2027 at 20:00. The presenter describes the large orchestra's tribute as moving from abstract textures and graphic notation through heavy grooves and open improvisation, with named players from New York, Boston and western Massachusetts. Doors are at 19:00; general admission is $25 advance or $30 at the door, excluding concessions.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "Yusef Lateef's legacy is an open compositional problem here, not a repertory label. Jason Robinson marshals an unusually large creative-music orchestra—including Marty Ehrlich, Felipe Salles and Bill Lowe—through written passages, graphic notation, grooves and improvisation. The exact orchestral conception is the reason to listen.",
+          "trip_verdict": "Prioritize this Roulette night if February travel to New York is feasible; it is a particularly strong A+ large-ensemble encounter. No verified farewell or one-time commission supports S.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí el legado de Yusef Lateef funciona como una pregunta compositiva, no como repertorio de homenaje. Jason Robinson reúne una orquesta enorme de músicos creativos —entre ellos Marty Ehrlich, Felipe Salles y Bill Lowe— para pasar de partituras y notación gráfica al groove y la improvisación abierta. El atractivo es esa concepción orquestal concreta.",
+          "trip_verdict": "Si se arma un viaje a Nueva York en febrero, apartaría esta noche en Roulette. Es un A+ especialmente sólido por el ensamble; no hay despedida ni encargo irrepetible que sostenga S.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://roulette.org/event/blue-salience-jason-robinsons-janus-orchestra/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1296111"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 30,
+          "source_url": "https://roulette.org/event/blue-salience-jason-robinsons-janus-orchestra/",
+          "checked_on": "2026-11-13"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/blue-salience-jason-robinsons-janus-orchestra/",
+          "publisher": "Roulette",
+          "checked_on": "2026-11-13",
+          "note": "Presenter confirms February 18, 20:00, orchestra's tribute concept and principal personnel, $25 advance and $30 door general charges."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1296111",
+          "publisher": "AudienceView via Roulette",
+          "checked_on": "2026-11-13",
+          "note": "Linked official event-specific ticket destination; availability not determined."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Exact official program and ticket destination confirmed; no exact Apple Music preparation link or live seating data established."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1: specific Lateef interpretation scored for the Janus Orchestra with multiple notation and improvisation methods; not simply a memorial label. Stage 2: A+ for a demanding, unusual live configuration; no documented non-repeatability for S/S+."
+      }
+    }
+  ]
+}
