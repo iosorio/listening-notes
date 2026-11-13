@@ -2070,6 +2070,28 @@
       "events_published": 5,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261113T132815290Z-c4e8d2917a",
+      "started_at": "2026-11-13T13:28:15.290Z",
+      "completed_at": "2026-11-13T13:35:19.461Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue deltas: ALFIE, closed BODY&SOUL traces, Space M&A, KEYSTONE CLUB TOKYO, YOKOHAMA JAZZ FIRST and current official schedule sources",
+        "Greater Tokyo and Kanto dated announcement deltas from Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN",
+        "Washington, Arlington, Alexandria, Bethesda, Baltimore, Philadelphia, Newark/New Jersey and New York official presenter-calendar deltas",
+        "DMV room audit requested by the user: Mr. Henry's, Westminster Jazz Night, Rhizome DC, JoJo, An die Musik and Caton Castle, with exact-event admission only",
+        "Rebeca Mauleón official and SFJAZZ schedule check, plus current-domain decision",
+        "Fresh main canonical catalog, active and processed inbox, rejected-review artifacts, Bon Jovi preservation and semantic duplicate checks"
+      ],
+      "sources_checked": 28,
+      "candidates_reviewed": 13,
+      "events_admitted": 4,
+      "events_published": 4,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }

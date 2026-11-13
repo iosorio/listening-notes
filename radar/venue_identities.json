@@ -1221,6 +1221,12 @@
       "aliases": {"ids": [], "names": [], "cities": ["Washington"]},
       "normalization": {"reason": "Rhizome DC's official event pages identify the Washington, DC venue; Washington is an observed legacy city spelling.", "source": "https://www.rhizomedc.org/", "recorded_on": "2026-09-10"}
     },
+    "mr-henrys-washington-dc": {
+      "name": "Mr. Henry's", "city": "Washington, DC", "state": "DC", "country": "US",
+      "radar_area": "dmv",
+      "aliases": {"ids": [], "names": ["Upstairs @ Mr. Henry's", "Mr. Henry's DC", "Mr. Henry's Restaurant"], "cities": ["Washington"]},
+      "normalization": {"reason": "Mr. Henry's official event page identifies the Capitol Hill venue at 601 Pennsylvania Avenue SE in Washington, DC.", "source": "https://www.mrhenrysdc.com/event/todd-marcus/", "recorded_on": "2026-11-13"}
+    },
     "the-jazz-gallery-new-york-ny": {
       "name": "The Jazz Gallery", "city": "New York", "state": "NY", "country": "US",
       "radar_area": "new_york",
