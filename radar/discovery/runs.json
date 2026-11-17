@@ -2179,6 +2179,27 @@
       "events_published": 0,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261117T153745038Z-cultural-7e8ef2c2",
+      "started_at": "2026-11-17T15:37:45.038Z",
+      "completed_at": "2026-11-17T15:49:47.209Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — RADAR Cultural Discovery",
+      "threads_checked": [
+        "Tokyo/Kanto culturally distinctive jazz, Latin and cross-genre announcement deltas at primary concert presenters; no duplicate Japanese or already-canonical notices admitted",
+        "Roulette Brooklyn composer-led premieres, unusual instrument configurations, experimental electronics and master improvisers, with primary event-specific programs",
+        "National Sawdust, Wolf Trap and cross-cultural calendar leads, compared with current RADAR editorial admission threshold",
+        "Exact artist/date/venue deduplication against full 376-event main canonical catalog, venue registry, active and processed inbox, and October 21 Zelda recovery",
+        "Reviewed three A+ exact-performance admissions, ran isolated draft PR through GitHub-hosted official merge_inbox.py dry-run with conflicts and blocked inspected, published identical validated intake to main, and verified successful RADAR ingest and canonical materialization"
+      ],
+      "sources_checked": 14,
+      "candidates_reviewed": 11,
+      "events_admitted": 3,
+      "events_published": 3,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
