@@ -38381,6 +38381,114 @@
       }
     },
     {
+      "id": "yuya-wakai-trio-cotton-club-tokyo-2027-01-29",
+      "discovered_at": "2026-11-18T13:20:32.641Z",
+      "artist": "Yuya Wakai Trio featuring Satsuki Kusui & Shun Ishiwaka",
+      "subtitle": "The Next Movement — 11th Anniversary Concert",
+      "dates": {
+        "start": "2027-01-29",
+        "end": null
+      },
+      "showtimes": [
+        "18:00",
+        "20:30"
+      ],
+      "venue": {
+        "id": "cotton-club-marunouchi-tokyo",
+        "name": "COTTON CLUB",
+        "city": "Chiyoda, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Japanese acoustic jazz trio / long-running ensemble",
+      "genres": [
+        "Jazz",
+        "Acoustic jazz"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Acoustic Jazz",
+        "Instrumental identity"
+      ],
+      "lineup": [
+        "Yuya Wakai — piano",
+        "Satsuki Kusui — bass",
+        "Shun Ishiwaka — drums"
+      ],
+      "factual_description": "COTTON CLUB presents the Yuya Wakai Trio featuring Satsuki Kusui and Shun Ishiwaka on Friday, January 29, 2027. The first set opens at 5:00 PM and starts at 6:00 PM; the second opens at 7:45 PM and starts at 8:30 PM. The venue describes this as the trio's eleventh-anniversary concert and notes that Kusui will move his activity base to Hokkaido in 2027, making future Tokyo performances by this exact trio more limited. The three musicians have recorded Will (2019), Poem (2023) and Will II (2024) together. Seat charges range from ¥6,600 to ¥9,000 per person. JAM SESSION member reservations begin November 24 at noon JST and general web reservations begin November 30 at noon JST.",
+      "links": {
+        "official_event": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yuya-wakai-270129/",
+        "official_tickets": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5799"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 6600,
+          "maximum": 9000,
+          "source_url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yuya-wakai-270129/",
+          "checked_on": "2026-11-18"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "The exact official reservation destination is verified but correctly reports that booking has not opened yet. No exact Apple Music album destination was verified during this delta scan."
+      },
+      "sources": [
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yuya-wakai-270129/",
+          "publisher": "COTTON CLUB",
+          "checked_on": "2026-11-18",
+          "note": "Primary venue page confirms the date, two showtimes, exact trio, eleven-year context, Kusui's planned move to Hokkaido, prices and reservation dates."
+        },
+        {
+          "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5799",
+          "publisher": "COTTON CLUB official reservations",
+          "checked_on": "2026-11-18",
+          "note": "Exact reservation destination confirms that sales have not opened and lists November 24 member and November 30 general web release times."
+        }
+      ],
+      "provenance": {
+        "status": "primary-venue-verified-editorial-reviewed",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Stage 1 admission rests on the exact eleven-year Wakai/Kusui/Ishiwaka unit and the presenter's explicit statement that Kusui's 2027 move to Hokkaido will make Tokyo performances by this trio more limited. Stage 2 assigns A+: the ensemble history and changing geography merit active prioritization. S/S+ were challenged and rejected because all three musicians remain active, the move is within Japan and the engagement offers two sets."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "Wakai, Kusui and Ishiwaka have spent eleven years developing a real trio language across three records; this is not a pickup rhythm section assembled for an anniversary label. Kusui's move to Hokkaido changes the practical future of that chemistry in Tokyo, making this a timely chance to hear their elastic, closely negotiated acoustic jazz before the unit's local appearances become less routine.",
+          "trip_verdict": "If late January already includes Tokyo, actively make room for one of the two sets. The trio's changing geography gives this night weight, but continuing activity by all three musicians does not justify reorganizing an international trip around it.",
+          "listen_before": "Yuya Wakai Trio — Will II (2024)."
+        },
+        "es": {
+          "why_it_matters": "Wakai, Kusui e Ishiwaka llevan once años construyendo un lenguaje de trío verdadero a través de tres discos; no es una sección rítmica reunida para colgarle una etiqueta de aniversario. El traslado de Kusui a Hokkaidō cambia el futuro práctico de esa química en Tokio y vuelve oportuna esta ocasión para escuchar su jazz acústico, elástico y minuciosamente negociado antes de que las apariciones locales del grupo sean menos habituales.",
+          "trip_verdict": "Si finales de enero ya incluye Tokio, sí le haría espacio activamente a uno de los dos sets. El cambio geográfico del trío le da peso a la noche, pero la actividad continua de los tres músicos no justifica reorganizar un viaje internacional alrededor del concierto.",
+          "listen_before": "Yuya Wakai Trio — Will II (2024)."
+        }
+      },
+      "published_at": "2026-11-18T13:23:41.780Z",
+      "canonicalized_at": "2026-11-18T13:23:41.780Z",
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
       "id": "blue-note-tokyo-all-star-gretchen-parlato-2027-01-30",
       "discovered_at": "2026-10-17T08:39:04.842Z",
       "artist": "Blue Note Tokyo All-Star Jazz Orchestra directed by Eric Miyashiro with special guest Gretchen Parlato",
