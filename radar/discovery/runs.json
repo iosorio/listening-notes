@@ -2244,6 +2244,28 @@
       "events_published": 1,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261120T131037808Z-07c98328f0",
+      "started_at": "2026-11-20T13:10:37.808Z",
+      "completed_at": "2026-11-20T13:15:38.518Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue deltas: Jazz House ALFIE, BODY&SOUL schedule traces, Space M&A, KEYSTONE CLUB TOKYO, 音吉!MEG, Blue Note Place and current schedule sources",
+        "Greater Tokyo and Kanto dated announcement deltas from Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN, including the four November 19 Blue Note Tokyo announcements",
+        "Washington, Arlington, Alexandria, Bethesda and Baltimore primary presenter calendars, including Wolf Trap, Strathmore, Blues Alley, Keystone Korner Baltimore and The Hamilton",
+        "Philadelphia and Newark/New Jersey primary presenter calendars, including Ensemble Arts Philadelphia, SOUTH Jazz Kitchen, regional jazz listings and NJPAC",
+        "New York primary presenter deltas from Blue Note New York, Birdland, Village Vanguard, National Sawdust and Jazz at Lincoln Center",
+        "Fresh 381-event main canonical catalog plus active and processed inbox duplicate checks, with separate admission and explicit A/A+ versus S scarcity challenges"
+      ],
+      "sources_checked": 30,
+      "candidates_reviewed": 13,
+      "events_admitted": 2,
+      "events_published": 2,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
