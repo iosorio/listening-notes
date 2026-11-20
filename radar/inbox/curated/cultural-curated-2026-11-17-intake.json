@@ -1,0 +1,314 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "cultural-curated-2026-11-17-intake",
+  "published_at": "2026-11-17T15:42:10.151Z",
+  "checked_on": "2026-11-17",
+  "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+  "reviewed_on": "2026-11-17",
+  "notes": "Scheduled Cultural Discovery review: original event-specific editorial admission before A+ rating; verified primary Roulette pages and event-specific ticket links; no independent Codex or human review claimed. Selected three performances from a broader Tokyo/Kanto and US-corridor search. Other candidate leads without enough exact-performance differentiation were not admitted. Canonical, active and processed inbox checked; no prior same-date Roulette performances were duplicated. Validation-only draft branch must not be merged.",
+  "events": [
+    {
+      "id": "kou-ghosted-arto-lindsay-roulette-brooklyn-2027-03-15",
+      "discovered_at": "2026-11-17T15:42:10.151Z",
+      "artist": "Ghosted (Oren Ambarchi, Johan Berthling, Andreas Werliin) // Arto Lindsay, Skúli Sverrisson, John McCowen",
+      "subtitle": "US premiere of Ghosted, with an opening experimental trio and live visuals",
+      "dates": {
+        "start": "2027-03-15",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Experimental jazz / post-rock and improvisation",
+      "genres": [
+        "Avant-jazz",
+        "Experimental rock",
+        "Improvisation"
+      ],
+      "musical_axes": [
+        "Experimental / Metal",
+        "Fusion / Prog",
+        "Cross-genre"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Oren Ambarchi — guitar, electronics (Ghosted)",
+        "Johan Berthling — bass (Ghosted)",
+        "Andreas Werliin — drums (Ghosted)",
+        "Arto Lindsay — guitar, voice (opening trio)",
+        "Skúli Sverrisson — bass (opening trio)",
+        "John McCowen — contrabass clarinet (opening trio)",
+        "Mark Dorf — live visuals"
+      ],
+      "factual_description": "Roulette presents the US premiere of Ghosted with Oren Ambarchi, Johan Berthling and Andreas Werliin, preceded by a separate Arto Lindsay / Skúli Sverrisson / John McCowen trio on March 15, 2027, at 20:00. Mark Dorf provides live visuals. The primary listing states $30 general advance, $35 general at the door, and $25 qualified student/senior admission.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "Ghosted's guitar-electronics, bass and drums meet the volatile improvising sensibilities of an Arto Lindsay trio featuring contrabass clarinet. The documented US premiere, paired bill and Mark Dorf's visuals create a specific cross-genre night—not merely a familiar touring band.",
+          "trip_verdict": "Actively consider building a Brooklyn evening around this A+ double bill. The US-premiere billing makes it notable, but does not prove that the musicians will never play this program again.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "El estreno estadounidense de Ghosted une la guitarra y electrónica de Oren Ambarchi con Johan Berthling y Andreas Werliin; antes, Arto Lindsay, Skúli Sverrisson y John McCowen llevan la improvisación hacia otro terreno. Las visuales de Mark Dorf completan una noche de cruces muy particular.",
+          "trip_verdict": "Le haría espacio a esta doble función si se arma una visita a Brooklyn. Es A+ por la combinación concreta y el estreno en Estados Unidos, sin afirmar que será irrepetible.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://roulette.org/event/kou-presents-oren-ambarchis-ghosted-arto-lindsay-skuli-sverrisson-john-mccowen/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1296460"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 30,
+          "maximum": 35,
+          "source_url": "https://roulette.org/event/kou-presents-oren-ambarchis-ghosted-arto-lindsay-skuli-sverrisson-john-mccowen/",
+          "checked_on": "2026-11-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/kou-presents-oren-ambarchis-ghosted-arto-lindsay-skuli-sverrisson-john-mccowen/",
+          "publisher": "Roulette",
+          "checked_on": "2026-11-17",
+          "note": "Official March 15, 2027 listing confirms 20:00, US premiere, all six performers, visuals, general admission $30 advance/$35 door and discounted $25 student/senior price."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1296460",
+          "publisher": "AudienceView Professional via Roulette",
+          "checked_on": "2026-11-17",
+          "note": "Exact presenter-linked ticket destination confirmed; seating inventory and transaction result not checked."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Official event page and event-specific ticket destination verified. No exact Apple Music album, track or playlist identifier established; ticket availability was not checked."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1 exact-performance admission: Presenter verifies a US premiere plus a named opening trio and live visuals; the exact combined bill, not name recognition alone, meets the threshold. Stage 2: A+ for a substantial US premiere in an unusually coherent pairing; no sourced farewell or one-night worldwide exclusivity for S/S+."
+      }
+    },
+    {
+      "id": "joel-harrison-guitar-choir-pioneers-roulette-brooklyn-2027-03-16",
+      "discovered_at": "2026-11-17T15:42:10.151Z",
+      "artist": "Joel Harrison Guitar Choir",
+      "subtitle": "Premiere of Pioneers for Linda Manzer-built guitars",
+      "dates": {
+        "start": "2027-03-16",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Guitar-composition premiere / experimental jazz",
+      "genres": [
+        "Avant-jazz",
+        "New music",
+        "Guitar ensemble"
+      ],
+      "musical_axes": [
+        "Fusion / Prog",
+        "Experimental / Metal",
+        "Cross-genre"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Joel Harrison — guitar",
+        "Nels Cline — guitar",
+        "Gilad Hekselman — guitar",
+        "Gregg Belisle Chi — guitar",
+        "Steve Cardenas — guitar"
+      ],
+      "factual_description": "Roulette announces Joel Harrison Guitar Choir on March 16, 2027 at 20:00. The evening includes the premiere of Pioneers, commissioned by the Archtop Foundation for baritone, soprano and 12-string instruments by luthier Linda Manzer, as well as newly composed electric guitar music. The presenter lists five guitarists, although it calls the project a roving quartet; exact personnel per piece are not specified. General prices are $25 advance and $30 door.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "The draw is the music being built for particular instruments: a new Archtop Foundation commission for Linda Manzer's baritone, soprano and 12-string guitars, within Harrison's collective guitar language. Nels Cline, Gilad Hekselman and the other named guitarists make this more than a virtuoso showcase.",
+          "trip_verdict": "Make active room for this A+ Roulette program if already planning New York; the premiere and commissioned instruments distinguish it. The announcement does not establish an unrepeatable gathering warranting S.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "La noticia no es sólo reunir guitarristas brillantes: Joel Harrison estrena Pioneers, un encargo concebido para guitarras barítona, soprano y de doce cuerdas construidas por Linda Manzer. La presencia de Nels Cline, Gilad Hekselman y los demás músicos promete explorar la guitarra como ensamble, no como desfile de solos.",
+          "trip_verdict": "Lo priorizaría dentro de un viaje a Nueva York. El estreno y los instrumentos diseñados para la obra justifican A+, sin atribuirle una exclusividad irrepetible.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://roulette.org/event/joel-harrison-guitar-choir-music-for-4-guitars/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1295645"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 30,
+          "source_url": "https://roulette.org/event/joel-harrison-guitar-choir-music-for-4-guitars/",
+          "checked_on": "2026-11-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/joel-harrison-guitar-choir-music-for-4-guitars/",
+          "publisher": "Roulette",
+          "checked_on": "2026-11-17",
+          "note": "Primary page confirms March 16, 2027 at 20:00; Pioneers commission and Linda Manzer instrumentation, five listed players (despite 'quartet' in descriptive copy), general prices $25 advance/$30 door."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1295645",
+          "publisher": "AudienceView Professional via Roulette",
+          "checked_on": "2026-11-17",
+          "note": "Exact presenter-linked ticket destination confirmed; seating inventory and transaction result not checked."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Official event page and event-specific ticket destination verified. No exact Apple Music album, track or playlist identifier established; ticket availability was not checked."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1 exact-performance admission: Specific newly commissioned work, named luthier instruments and an identified multi-guitar ensemble make the performance distinct from a standard guitar showcase. Stage 2: A+ for compositional and instrument-design specificity; a premiere alone does not establish S scarcity."
+      }
+    },
+    {
+      "id": "earl-howard-curtis-roads-roulette-brooklyn-2027-03-30",
+      "discovered_at": "2026-11-17T15:42:10.151Z",
+      "artist": "Earl Howard // Curtis Roads",
+      "subtitle": "Solo electronic improvisation and spatialized microsound with Brian O'Reilly visuals",
+      "dates": {
+        "start": "2027-03-30",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "venue": {
+        "id": "roulette-brooklyn",
+        "name": "Roulette",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "priority": "A+",
+      "category": "Living electronic-music pioneers / spatialized sound",
+      "genres": [
+        "Electronic",
+        "Experimental music",
+        "New music"
+      ],
+      "musical_axes": [
+        "Masters",
+        "Experimental / Metal"
+      ],
+      "status": "considering",
+      "lineup": [
+        "Earl Howard — solo performer, electronics and improvisation",
+        "Curtis Roads — spatialized electronic work",
+        "Brian O'Reilly — visualizations for Curtis Roads's set"
+      ],
+      "factual_description": "Roulette schedules separate performances by Earl Howard and Curtis Roads on March 30, 2027 at 20:00. Howard is billed for a solo performance. Roads will present a new spatialized electronic work exploring microsound and tape-echo feedback, with video by his longtime collaborator Brian O'Reilly. General admission $25 advance and $30 doors.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "Two long-running experimenters approach electronic sound from different sides: Earl Howard's live improvising practice and Curtis Roads's spatialized microsound with Brian O'Reilly's images. Roads helped establish computer granular synthesis; hearing the current work in a performance space gives the technical history an audible present.",
+          "trip_verdict": "Actively prioritize if electronic composition and spatial sound are the point of a New York visit. A+ reflects the living-master encounter; the presenter does not establish that this is their last or only appearance.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Earl Howard lleva décadas convirtiendo la electrónica en improvisación en vivo; Curtis Roads trabaja ahora el microsonido espacializado, el eco de cinta y la imagen con Brian O'Reilly. Escuchar a dos pioneros en un mismo programa permite oír cómo sigue evolucionando esa historia técnica y musical.",
+          "trip_verdict": "Si el interés es la electrónica experimental, esta noche merece hacerse un hueco importante en Nueva York. A+ por los maestros y el dispositivo sonoro; no hay pruebas de despedida ni de una única presentación.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://roulette.org/event/curtis-roads-earl-howard-new-electronic-music/",
+        "official_tickets": "https://ci.ovationtix.com/36368/production/1296136"
+      },
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 25,
+          "maximum": 30,
+          "source_url": "https://roulette.org/event/curtis-roads-earl-howard-new-electronic-music/",
+          "checked_on": "2026-11-17"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "sources": [
+        {
+          "url": "https://roulette.org/event/curtis-roads-earl-howard-new-electronic-music/",
+          "publisher": "Roulette",
+          "checked_on": "2026-11-17",
+          "note": "Primary March 30, 2027 listing establishes 20:00, Howard solo program, Roads's latest spatialized electronic set, Brian O'Reilly visuals, and $25 advance/$30 door general prices."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36368/production/1296136",
+          "publisher": "AudienceView Professional via Roulette",
+          "checked_on": "2026-11-17",
+          "note": "Exact presenter-linked ticket destination confirmed; seating inventory and transaction result not checked."
+        }
+      ],
+      "recommended_listening": [],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Official event page and event-specific ticket destination verified. No exact Apple Music album, track or playlist identifier established; ticket availability was not checked."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1 exact-performance admission: Named solo set and newly described spatialized electronic work with live visual collaborator, by two pioneers, support a specific performance recommendation. Stage 2: A+ for distinct present-tense work by two masters; no validated farewell or exceptionally singular restriction supports S/S+."
+      }
+    }
+  ]
+}
