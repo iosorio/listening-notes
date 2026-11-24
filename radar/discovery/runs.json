@@ -2375,6 +2375,26 @@
       "events_published": 3,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261124T155431000Z-cultural-7d9e1034",
+      "started_at": "2026-11-24T15:54:31.000Z",
+      "completed_at": "2026-11-24T16:01:40.506Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — RADAR Cultural Discovery",
+      "threads_checked": [
+        "Tokyo/Kanto cross-genre and Japanese music leads: Blue Note Tokyo, Nikkei Hall, Hikifune and Shibuya presenter calendars; prior canonical dates and unregistered venues not admitted",
+        "US corridor commissions, anniversary programs and experimental music: Miller Theatre, Japan Society, Strathmore, Philadelphia Clef Club, NJPAC, Winter Jazzfest and The Jazz Gallery; previously handled and insufficiently distinctive leads excluded",
+        "The Jazz Gallery January 2027: primary event, calendar and first-set ticket links for Phillip Golub Trio and Uncommon Tones; event-specific bilingual admission and priority review",
+        "Fresh canonical and curated/processed inbox duplicate checks, including previously recovered Zelda dates; validated draft PR #20, exact intake blob published to main and canonical ingestion verified"
+      ],
+      "sources_checked": 29,
+      "candidates_reviewed": 25,
+      "events_admitted": 2,
+      "events_published": 2,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
