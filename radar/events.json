@@ -36271,6 +36271,120 @@
       }
     },
     {
+      "discovered_at": "2026-11-24T15:56:12.950Z",
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "id": "phillip-golub-trio-jazz-gallery-new-york-2027-01-14",
+      "artist": "Phillip Golub Trio",
+      "subtitle": "First piano trio and seven-movement suite",
+      "dates": {
+        "start": "2027-01-14",
+        "end": null
+      },
+      "priority": "A",
+      "category": "Creative jazz / Original composition",
+      "genres": [
+        "Creative jazz",
+        "Improvisation",
+        "Contemporary composition"
+      ],
+      "musical_axes": [
+        "Acoustic Jazz",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Phillip Golub — piano",
+        "Sam Minaie — bass",
+        "Satoshi Takeishi — drums"
+      ],
+      "factual_description": "The Jazz Gallery lists January 14, 2027, with sets at 7 and 9 PM. Golub launches his first piano trio with Minaie and Takeishi, adapting a seven-movement solo piano composition for the ensemble. The work explores decay, resonance, subtle timing and groove. The event URL ends in 2026 but the displayed date and calendar agree on 2027.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "A debut in a familiar jazz format with an unfamiliar compositional starting point: a solo piano suite recast for bass and drums. Takeishi’s presence adds another reason to listen closely to how the new trio treats time and space.",
+          "trip_verdict": "Worth fitting into a New York visit if the dates align; the new ensemble and specific suite justify admission without a dedicated trip.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Un trío de estreno que parte de una suite para piano solo, no de un repertorio habitual de estándares. Con Satoshi Takeishi en la batería, interesa escuchar cómo se redistribuyen el pulso, los silencios y la resonancia entre los tres músicos.",
+          "trip_verdict": "Vale la pena si coincide con una visita a Nueva York; el estreno del trío y la suite concreta son el atractivo, sin justificar un viaje aparte.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/phillip-golub-jan-14-2026",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1297502?performanceId=11893781"
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/phillip-golub-jan-14-2026",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-11-24",
+          "note": "Primary event page confirms date, two sets, named lineup and specific musical format."
+        },
+        {
+          "url": "https://jazzgallery.org/calendar",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-11-24",
+          "note": "Official calendar independently corroborates the 2027 date and both set times."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1297502?performanceId=11893781",
+          "publisher": "AudienceView via The Jazz Gallery",
+          "checked_on": "2026-11-24",
+          "note": "Exact official 7 PM ticket destination linked by venue; ticket page does not expose verified inventory or price in this environment."
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Official event and first-set ticket destination established; no exact Apple Music link or face-value price verified."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1: first trio and seven-movement adaptation provide a specific musical proposition. Stage 2: A; emerging ensemble, two sets, no verified scarcity."
+      },
+      "published_at": "2026-11-24T15:56:46.354Z",
+      "canonicalized_at": "2026-11-24T15:56:46.354Z",
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
       "id": "incognito-blue-note-tokyo-2027-01-15",
       "discovered_at": "2026-10-17T08:39:04.842Z",
       "artist": "Incognito",
@@ -36861,6 +36975,120 @@
       },
       "published_at": "2026-11-10T15:44:19.161Z",
       "canonicalized_at": "2026-11-10T15:44:19.161Z",
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
+      }
+    },
+    {
+      "discovered_at": "2026-11-24T15:56:12.950Z",
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [],
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "id": "uncommon-tones-okura-newsome-sanchez-jazz-gallery-new-york-2027-01-21",
+      "artist": "Uncommon Tones: Meg Okura, Sam Newsome & Angelica Sanchez",
+      "subtitle": "Collective improvisation with extended instrumental techniques",
+      "dates": {
+        "start": "2027-01-21",
+        "end": null
+      },
+      "priority": "A+",
+      "category": "Japanese jazz connection / Experimental improvisation",
+      "genres": [
+        "Free improvisation",
+        "Experimental jazz"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Experimental / Metal",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Meg Okura — violin, erhu, Otamatone",
+        "Angelica Sanchez — piano",
+        "Sam Newsome — soprano saxophone"
+      ],
+      "factual_description": "The Jazz Gallery presents the trio on January 21, 2027, with sets at 7 and 9 PM. The ensemble works through collective improvisation; the presenter describes Okura's violin, erhu and Otamatone, Newsome's prepared soprano saxophone and Sanchez's piano. Livestream tickets are announced as forthcoming.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "The unusual instrumentation is not window dressing: Okura’s string and electronic sounds and Newsome’s altered soprano saxophone expand the textures available to Sanchez and the trio’s collective improvisation. Three distinctive improvisers working without a fixed score are the musical reason to go.",
+          "trip_verdict": "Actively make room for one of the two sets if visiting New York in January; the distinctive trio merits A+, with no evidence of an unrepeatable occasion.",
+          "listen_before": null
+        },
+        "es": {
+          "why_it_matters": "Aquí el cruce de instrumentos sí cambia la música: el violín, el erhu y el Otamatone de Meg Okura dialogan con el saxo soprano preparado de Sam Newsome y el piano de Angelica Sanchez. La improvisación colectiva deja que esas diferencias de timbre definan el rumbo de cada set.",
+          "trip_verdict": "Le haría espacio a uno de los dos sets si se arma un viaje a Nueva York en enero. La combinación de voces e instrumentos amerita A+, sin afirmar que sea irrepetible.",
+          "listen_before": null
+        }
+      },
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/uncommon-tones-jan-21-2027",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1297512?performanceId=11893788"
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/uncommon-tones-jan-21-2027",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-11-24",
+          "note": "Primary event page confirms date, two sets, named lineup and specific musical format."
+        },
+        {
+          "url": "https://jazzgallery.org/calendar",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-11-24",
+          "note": "Official calendar independently corroborates the 2027 date and both set times."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1297512?performanceId=11893788",
+          "publisher": "AudienceView via The Jazz Gallery",
+          "checked_on": "2026-11-24",
+          "note": "Exact official 7 PM ticket destination linked by venue; ticket page does not expose verified inventory or price in this environment."
+        }
+      ],
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "apple_music"
+        ],
+        "note": "Official event and first-set ticket destination established; no exact Apple Music link or face-value price verified."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Stage 1: specifically documented free-improvisation trio and expanded instrumentation. Stage 2: A+ for the distinctive combination; two sets and no evidence of farewell or exclusivity."
+      },
+      "published_at": "2026-11-24T15:56:46.354Z",
+      "canonicalized_at": "2026-11-24T15:56:46.354Z",
       "attendance": {
         "status": null,
         "evidence": [],
