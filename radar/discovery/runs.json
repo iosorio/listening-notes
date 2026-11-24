@@ -2353,6 +2353,28 @@
       "events_published": 0,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261124T131716654Z-8a41c2d9f0",
+      "started_at": "2026-11-24T13:17:16.654Z",
+      "completed_at": "2026-11-24T13:25:46.998Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue deltas: Jazz House ALFIE, BODY&SOUL, Space M&A and KEYSTONE CLUB TOKYO, including the newly surfaced December 8 trio date",
+        "Greater Tokyo and Kanto dated announcement deltas from Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN",
+        "Washington, Arlington, Alexandria, Bethesda and Baltimore primary presenter calendars, including Blues Alley, Keystone Korner Baltimore, Wolf Trap, Strathmore and The Hamilton",
+        "Philadelphia and Newark/New Jersey primary presenter calendars, including Philadelphia Clef Club, Ensemble Arts Philadelphia, Penn Live Arts and NJPAC; three Soundscapes for Tomorrow world premieres were admitted",
+        "New York primary presenter deltas from Blue Note New York, Birdland, Village Vanguard, National Sawdust, Roulette and Jazz at Lincoln Center",
+        "Fresh 385-event main canonical catalog plus active and processed inbox duplicate checks; Yamamoto's December 8 same-trio Keystone date and standard touring/repertory listings were rejected at admission, and no Cultural Discovery backfill was performed"
+      ],
+      "sources_checked": 34,
+      "candidates_reviewed": 16,
+      "events_admitted": 3,
+      "events_published": 3,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
