@@ -2395,6 +2395,28 @@
       "events_published": 2,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261125T132634331Z-4c82e1ab90",
+      "started_at": "2026-11-25T13:26:34.331Z",
+      "completed_at": "2026-11-25T13:32:29.266Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto official and venue deltas: Jazz House ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and the official Bar Bar Bar calendar; the December 9 horn-fronted quintet was verified but not published without a stable exact event or ticket URL",
+        "Greater Tokyo and Kanto dated announcement deltas from Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN; the newly published January PIT INN schedule yielded Takeo Moriyama's three-night New Year engagement",
+        "Washington, Arlington, Alexandria, Bethesda and Baltimore primary presenter calendars, including Blues Alley, Keystone Korner Baltimore, Wolf Trap, Strathmore and The Hamilton",
+        "Philadelphia and Newark/New Jersey primary presenter calendars, including Philadelphia Clef Club, Ensemble Arts Philadelphia, Penn Live Arts and NJPAC",
+        "New York primary presenter deltas from Blue Note New York, Birdland, Village Vanguard, National Sawdust, Roulette and Jazz at Lincoln Center; current Just Announced labels without a dated change were not treated as proven daily deltas",
+        "Fresh 390-event main canonical catalog plus active and processed inbox duplicate checks; Moriyama's three-night engagement passed separate event-specific admission and A+ versus S scarcity review, and no Cultural Discovery backfill was performed"
+      ],
+      "sources_checked": 33,
+      "candidates_reviewed": 18,
+      "events_admitted": 1,
+      "events_published": 1,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
