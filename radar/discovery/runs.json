@@ -2417,6 +2417,28 @@
       "events_published": 1,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261126T135159843Z-e5b70efb2a",
+      "started_at": "2026-11-26T13:51:59.843Z",
+      "completed_at": "2026-11-26T13:54:46.402Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto primary-source deltas: Jazz House ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and the official Bar Bar Bar calendar; no newly announced qualifying appearance was established beyond already reviewed December dates",
+        "Greater Tokyo and Kanto dated announcement deltas from Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN; COTTON CLUB's November 26 announcements yielded Martha Kato Trio with Strings",
+        "Washington, Arlington, Alexandria, Bethesda and Baltimore primary presenter calendars, including Blues Alley, Keystone Korner Baltimore, Wolf Trap, Strathmore and The Hamilton",
+        "Philadelphia and Newark/New Jersey primary presenter calendars, including Philadelphia Clef Club, Penn Live Arts and NJPAC",
+        "New York primary presenter deltas from Blue Note New York, Birdland, Village Vanguard, National Sawdust, Roulette and Jazz at Lincoln Center; undated current listings were not treated as proven daily deltas",
+        "Fresh 391-event main canonical catalog plus active and processed inbox duplicate checks; Martha Kato's bespoke seven-player setting passed separate event-specific admission and A+ versus S scarcity review, while the same-day DoM announcement did not pass admission; no Cultural Discovery backfill was performed"
+      ],
+      "sources_checked": 31,
+      "candidates_reviewed": 16,
+      "events_admitted": 1,
+      "events_published": 1,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
