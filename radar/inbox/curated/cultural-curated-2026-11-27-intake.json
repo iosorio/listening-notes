@@ -109,12 +109,19 @@
       "enrichment": {
         "status": "complete",
         "missing": [],
-        "note": "Official event and exact ticket destination established from the presenter; direct ticket access was forbidden, so availability is unknown. Exact Apple Music album verified."
+        "note": null
       },
       "provenance": {
         "status": "primary-presenter-verified-editorial-reviewed",
         "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
         "note": "Admission: a documented world premiere with a specific musical and cross-cultural method. Priority: A+; no evidence of a farewell or exclusive future performance; do not elevate for premiere alone."
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
       }
     },
     {
@@ -236,12 +243,19 @@
       "enrichment": {
         "status": "complete",
         "missing": [],
-        "note": "Official event and ticket destination and exact Apple Music album established. Ticket price and availability remain unknown."
+        "note": null
       },
       "provenance": {
         "status": "primary-presenter-verified-editorial-reviewed",
         "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
         "note": "Admission: specific folk-poetry repertoire, contemporary arrangements and eight-player ensemble. Priority: A; two sets, existing 2025 recording and no scarcity claim."
+      },
+      "attendance": {
+        "status": null,
+        "evidence": [],
+        "notes": null,
+        "setlist": null,
+        "photo_paths": []
       }
     }
   ]
