@@ -1,0 +1,248 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "cultural-curated-2026-11-27-intake",
+  "published_at": "2026-11-27T15:09:21.866Z",
+  "events": [
+    {
+      "discovered_at": "2026-11-27T15:08:36.049Z",
+      "venue": {
+        "id": "japan-society-new-york-ny",
+        "name": "Japan Society",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": 43,
+          "maximum": 43,
+          "source_url": "https://japansociety.org/events/white-stones/",
+          "checked_on": "2026-11-27"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "id": "kaoru-watanabe-kite-white-stones-japan-society-2026-12-11",
+      "artist": "Kaoru Watanabe & Kite",
+      "subtitle": "White Stones — world premiere",
+      "dates": {
+        "start": "2026-12-11",
+        "end": null
+      },
+      "showtimes": [
+        "20:00"
+      ],
+      "priority": "A+",
+      "category": "Cross-cultural / Experimental music",
+      "genres": [
+        "Experimental music",
+        "Contemporary composition"
+      ],
+      "musical_axes": [
+        "Japan/Tokyo",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Kaoru Watanabe",
+        "Kite (Suzanne Kite)"
+      ],
+      "factual_description": "Japan Society announces the world premiere of White Stones on December 11, 2026 at 8 PM. The Japanese-American musician and Lakota performance and visual artist bring Japanese drums, flute, koto, voice, violin, electronics and invented instruments into a shared sound world. The presenter describes Kite's Indigenous-centered AI as shaping the performance in real time. Standard nonmember admission is $43; member and disability rates are $32.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "Watanabe and Kite place the sound and ritual languages of Noh and Lakota traditions in conversation, with electronics and live computational intervention woven into the performance rather than added as a visual gimmick. This is an unusually specific cross-cultural musical experiment.",
+          "trip_verdict": "Make room for the premiere if a December New York visit is possible. The new work earns A+ without assuming it will never be performed again.",
+          "listen_before": "Watanabe’s Néo is an introduction to his approach to percussion and flute, not a recording of White Stones."
+        },
+        "es": {
+          "why_it_matters": "Watanabe y Kite ponen en diálogo las sonoridades y las prácticas rituales del teatro nō y de la tradición lakota. La electrónica y la intervención computacional en vivo forman parte del lenguaje de la obra, no de un simple recurso escénico.",
+          "trip_verdict": "Le haría espacio al estreno si se arma una visita a Nueva York en diciembre. La propuesta amerita A+ sin dar por hecho que no volverá a presentarse.",
+          "listen_before": "Néo permite acercarse al lenguaje de percusión y flauta de Watanabe; no es una grabación de White Stones."
+        }
+      },
+      "links": {
+        "official_event": "https://japansociety.org/events/white-stones/",
+        "official_tickets": "https://boxoffice.japansociety.org/events/07301b9d-0fbc-3cf4-2d18-5717e50236dc"
+      },
+      "sources": [
+        {
+          "url": "https://japansociety.org/events/white-stones/",
+          "publisher": "Japan Society",
+          "checked_on": "2026-11-27",
+          "note": "Official event, date, time, world premiere, collaborators, instruments and standard nonmember ticket price; discounts are separate."
+        },
+        {
+          "url": "https://japansociety.org/performing-arts/two-soils-series/",
+          "publisher": "Japan Society",
+          "checked_on": "2026-11-27",
+          "note": "Official series identifies the performance as contemporary music in its cross-cultural season."
+        },
+        {
+          "url": "https://boxoffice.japansociety.org/events/07301b9d-0fbc-3cf4-2d18-5717e50236dc",
+          "publisher": "Japan Society box office",
+          "checked_on": "2026-11-27",
+          "note": "Exact event destination linked by presenter; direct access returned HTTP 403, so inventory is not verified."
+        },
+        {
+          "url": "https://music.apple.com/us/album/n%C3%A9o/1113857826",
+          "publisher": "Apple Music",
+          "checked_on": "2026-11-27",
+          "note": "Exact album URL for suggested background listening."
+        }
+      ],
+      "recommended_listening": [
+        {
+          "artist": "Kaoru Watanabe",
+          "title": "Néo",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/n%C3%A9o/1113857826"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Official event and exact ticket destination established from the presenter; direct ticket access was forbidden, so availability is unknown. Exact Apple Music album verified."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Admission: a documented world premiere with a specific musical and cross-cultural method. Priority: A+; no evidence of a farewell or exclusive future performance; do not elevate for premiere alone."
+      }
+    },
+    {
+      "discovered_at": "2026-11-27T15:08:36.049Z",
+      "venue": {
+        "id": "the-jazz-gallery-new-york-ny",
+        "name": "The Jazz Gallery",
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "geographic_domain": "us_corridor",
+      "geography": "Trip",
+      "status": "considering",
+      "tickets": {
+        "currency": "USD",
+        "official": {
+          "minimum": null,
+          "maximum": null,
+          "source_url": null,
+          "checked_on": null
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "id": "arta-jekabsone-garland-of-songs-jazz-gallery-new-york-2027-01-23",
+      "artist": "Arta Jēkabsone",
+      "subtitle": "Dziesmu Kamoliņš / Garland of Songs",
+      "dates": {
+        "start": "2027-01-23",
+        "end": null
+      },
+      "showtimes": [
+        "19:00",
+        "21:00"
+      ],
+      "priority": "A",
+      "category": "Cross-cultural / Creative jazz",
+      "genres": [
+        "Contemporary jazz",
+        "Latvian folk",
+        "Chamber music"
+      ],
+      "musical_axes": [
+        "Cross-genre",
+        "Acoustic Jazz"
+      ],
+      "lineup": [
+        "Arta Jēkabsone — voice, piano, violin & electronics",
+        "Gabriel Chakarji — piano & keys",
+        "Ike Sturm — bass",
+        "Keita Ogawa — drums & percussion",
+        "Sara Casewell — violin",
+        "Zosha Warpeha — violin",
+        "Kayla Williams — viola",
+        "Julie Kim — cello"
+      ],
+      "factual_description": "The Jazz Gallery presents two sets on January 23, 2027 featuring Jēkabsone's folk-rooted project Garland of Songs with an eight-person lineup. The program reworks Latvian songs and dainas through original composition and improvisation. The artist confirms the album was released October 16, 2025; the venue describes this concert as an album premiere, not a new recording release date.",
+      "editorial": {
+        "en": {
+          "why_it_matters": "A chamber-sized ensemble with a full string quartet and Keita Ogawa on percussion offers a compelling way to hear Latvian folk poetry and melody transformed through improvisation. The focus is the particular arrangement, rather than a generic folk-jazz crossover.",
+          "trip_verdict": "Worth catching if a New York visit coincides with either set; not a reason to make a separate trip.",
+          "listen_before": "Listen to Dziesmu Kamoliņš to hear the melodies and textures that the live ensemble will reinterpret."
+        },
+        "es": {
+          "why_it_matters": "Un cuarteto de cuerdas completo y la percusión de Keita Ogawa dan otra dimensión a las canciones y los versos tradicionales letones que Jēkabsone reelabora mediante la improvisación. El atractivo está en los arreglos concretos de esta formación.",
+          "trip_verdict": "Vale la pena si coincide con una visita a Nueva York; no hace falta organizar un viaje aparte.",
+          "listen_before": "Escucha Dziesmu Kamoliņš para familiarizarte con las melodías y los timbres que retomará la formación en vivo."
+        }
+      },
+      "links": {
+        "official_event": "https://jazzgallery.org/calendar/arta-jekabsone-jan-23-2027",
+        "official_tickets": "https://ci.ovationtix.com/36369/production/1297513?performanceId=11893792"
+      },
+      "sources": [
+        {
+          "url": "https://jazzgallery.org/calendar/arta-jekabsone-jan-23-2027",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-11-27",
+          "note": "Official date, two sets, lineup and program."
+        },
+        {
+          "url": "https://jazzgallery.org/calendar",
+          "publisher": "The Jazz Gallery",
+          "checked_on": "2026-11-27",
+          "note": "Calendar confirms date and lineup."
+        },
+        {
+          "url": "https://artajekabsone.com/garland-of-songs/",
+          "publisher": "Arta Jēkabsone",
+          "checked_on": "2026-11-27",
+          "note": "Artist confirms project and 2025 album release date."
+        },
+        {
+          "url": "https://ci.ovationtix.com/36369/production/1297513?performanceId=11893792",
+          "publisher": "AudienceView via The Jazz Gallery",
+          "checked_on": "2026-11-27",
+          "note": "Exact first-set official ticket destination; no inventory or price verified."
+        },
+        {
+          "url": "https://music.apple.com/us/album/dziesmu-kamoli%C5%86%C5%A1/1847457170",
+          "publisher": "Apple Music",
+          "checked_on": "2026-11-27",
+          "note": "Exact album URL verified."
+        }
+      ],
+      "recommended_listening": [
+        {
+          "artist": "Arta Jēkabsone",
+          "title": "Dziesmu Kamoliņš",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/dziesmu-kamoli%C5%86%C5%A1/1847457170"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": [],
+        "note": "Official event and ticket destination and exact Apple Music album established. Ticket price and availability remain unknown."
+      },
+      "provenance": {
+        "status": "primary-presenter-verified-editorial-reviewed",
+        "reviewed_by": "ChatGPT automation — RADAR Cultural Discovery",
+        "note": "Admission: specific folk-poetry repertoire, contemporary arrangements and eight-player ensemble. Priority: A; two sets, existing 2025 recording and no scarcity claim."
+      }
+    }
+  ]
+}
