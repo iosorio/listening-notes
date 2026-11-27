@@ -2461,6 +2461,26 @@
       "events_published": 1,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261127T150721000Z-cultural-41d9c6e2",
+      "started_at": "2026-11-27T15:07:21.000Z",
+      "completed_at": "2026-11-27T15:14:20.028Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — RADAR Cultural Discovery",
+      "threads_checked": [
+        "Tokyo/Kanto: MET JAZZ TOKYO, Tokyo Metropolitan Theatre, Shibuya New Year Coltrane concert and LIVE HAUS independent scene; no sufficiently documented new candidate at a registered venue admitted.",
+        "US corridor: Miller Theatre composer portraits and jazz, Japan Society Two Soils premiere, Jazz Gallery January/February programs, Atlas Intersections and Baltimore Django Jazz Fest; venue identity and canonical duplicate checks kept out unregistered venues and already handled engagements.",
+        "White Stones and Garland of Songs primary presenter pages, exact ticket destinations, artist project and Apple Music links; Japan Society ticket destination returned HTTP 403, so inventory was not inferred; standard nonmember price established on event page.",
+        "Fresh 393-event main canonical catalog and curated/processed inbox listings, including archived Zelda recovery; two event-specific admissions graded A+ and A. Initial validation-only draft failed complete-enrichment declaration, corrected candidate content only; second official dry-run added exactly both with no conflicts, semantic conflicts, blocks or normalization, all 148 tests passed; validated intake published and both canonical records plus identical processed blob verified."
+      ],
+      "sources_checked": 25,
+      "candidates_reviewed": 15,
+      "events_admitted": 2,
+      "events_published": 2,
+      "material_updates": 0,
+      "error_summary": null
     }
   ]
 }
