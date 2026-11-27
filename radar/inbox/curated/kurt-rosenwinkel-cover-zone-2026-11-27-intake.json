@@ -1,0 +1,129 @@
+{
+  "batch_version": 2,
+  "kind": "curated_event_candidates",
+  "batch_id": "kurt-rosenwinkel-cover-zone-2026-11-27-intake",
+  "published_at": "2026-11-27T13:47:24.219Z",
+  "checked_on": "2026-11-27",
+  "reviewed_by": "RADAR automation editorial review",
+  "reviewed_on": "2026-11-27",
+  "notes": "One new-to-RADAR event was admitted from Blue Note Tokyo's dated November 26 announcement. Stage 1 rests on Kurt Rosenwinkel's latest COVER ZONE project receiving its first Japanese presentation with a specifically announced five-piece band that includes Tim Lefebvre, Jason Lindner, Matthew Rotker-Lynn and Earl Harvin, using harmony, rhythm and improvisation to recast familiar 1970s and 1980s songs. Stage 2 assigns A+: that project-and-lineup combination merits actively making room during a Tokyo stay, while three nights and six sets, plus the absence of a world-premiere, farewell or terminal claim, make A+ sufficient rather than S. Tyreek McDole's venue debut and Chico & The Gypsies' routine return from the same announcement date did not clear the event-specific admission gate. The Yamamoto-first pass and current Tokyo/Kanto and US-corridor primary calendars produced no additional verified daily delta. No Cultural Discovery backfill was performed.",
+  "events": [
+    {
+      "id": "kurt-rosenwinkel-cover-zone-blue-note-tokyo-2027-03-11",
+      "discovered_at": "2026-11-27T13:47:24.219Z",
+      "artist": "Kurt Rosenwinkel \"Cover Zone\"",
+      "subtitle": "First Japanese presentation of the pop-song reinterpretation project",
+      "dates": {
+        "start": "2027-03-11",
+        "end": "2027-03-13"
+      },
+      "showtimes": [
+        "16:30",
+        "18:00",
+        "19:30",
+        "20:30"
+      ],
+      "venue": {
+        "id": "blue-note-tokyo-minamiaoyama",
+        "name": "Blue Note Tokyo",
+        "city": "Minato, Tokyo",
+        "state": "Tokyo",
+        "country": "JP"
+      },
+      "geographic_domain": "tokyo_kanto",
+      "geography": "Tokyo",
+      "status": "considering",
+      "priority": "A+",
+      "category": "Contemporary jazz guitar / pop reinterpretation / cross-genre quintet",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Jazz-rock",
+        "Pop reinterpretation"
+      ],
+      "musical_axes": [
+        "Japan / Tokyo",
+        "Repertoire / interpretation",
+        "Instrumental identity",
+        "Improvised",
+        "Cross-genre"
+      ],
+      "lineup": [
+        "Kurt Rosenwinkel — guitar",
+        "Tim Lefebvre — bass",
+        "Jason Lindner — keyboards",
+        "Matthew Rotker-Lynn — rhythm guitar",
+        "Earl Harvin — drums"
+      ],
+      "factual_description": "Blue Note Tokyo presents Kurt Rosenwinkel's COVER ZONE from March 11 through March 13, 2027, as the project's first Japanese presentation. March 11 and 12 have 6:00 PM and 8:30 PM sets; March 13 has 4:30 PM and 7:30 PM sets. Rosenwinkel appears with bassist Tim Lefebvre, keyboardist Jason Lindner, rhythm guitarist Matthew Rotker-Lynn and drummer Earl Harvin. The venue describes the project as new arrangements of familiar 1970s and 1980s songs, including music associated with Tears for Fears and Wham!, explored through reharmonization, rhythmic revision and improvisation. The music charge is ¥9,500, with seat-inclusive totals up to ¥15,000. Member reservations open December 8 at noon and general web reservations open December 15 at noon.",
+      "links": {
+        "official_event": "https://www.bluenote.co.jp/jp/sp/artists/kurt-rosenwinkel/index.html",
+        "official_tickets": "https://www.bluenote.co.jp/jp/sp/artists/kurt-rosenwinkel/index.html"
+      },
+      "tickets": {
+        "currency": "JPY",
+        "official": {
+          "minimum": 9500,
+          "maximum": 15000,
+          "source_url": "https://www.bluenote.co.jp/jp/sp/artists/kurt-rosenwinkel/index.html",
+          "checked_on": "2026-11-27"
+        },
+        "resale": {
+          "minimum": null,
+          "maximum": null,
+          "url": null,
+          "checked_on": null
+        }
+      },
+      "recommended_listening": [
+        {
+          "artist": "Kurt Rosenwinkel",
+          "title": "The Remedy (Live at the Village Vanguard)",
+          "kind": "album",
+          "apple_music_url": "https://music.apple.com/us/album/the-remedy-live-at-the-village-vanguard/929707743"
+        }
+      ],
+      "enrichment": {
+        "status": "complete",
+        "missing": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/sp/artists/kurt-rosenwinkel/index.html",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-11-27",
+          "note": "Primary event page confirming the dates, all six set times, complete five-piece lineup, first-Japan framing, project concept, prices and reservation opening dates. The page contains the venue's authorized reservation control."
+        },
+        {
+          "url": "https://www.bluenote.co.jp/jp/info/recent/",
+          "publisher": "Blue Note Tokyo",
+          "checked_on": "2026-11-27",
+          "note": "Primary dated announcement establishing November 26, 2026 as the discovery delta."
+        },
+        {
+          "url": "https://music.apple.com/us/album/the-remedy-live-at-the-village-vanguard/929707743",
+          "publisher": "Apple Music",
+          "checked_on": "2026-11-27",
+          "note": "Exact Apple Music album page for The Remedy (Live at the Village Vanguard) by Kurt Rosenwinkel."
+        }
+      ],
+      "provenance": {
+        "status": "verified-primary-source",
+        "reviewed_by": "RADAR automation editorial review",
+        "note": "Blue Note Tokyo's dated announcement and exact event page verify the new listing and all performance facts. Repository-wide checks found no match in the canonical catalog or active/processed inbox. Stage 1 admission rests on the first Japanese presentation of this specific reinterpretation project and its named band, not on Rosenwinkel's reputation. Stage 2 assigns A+: the project and lineup justify actively making room in Tokyo, but three nights and six sets remove an honest scarcity case for S."
+      },
+      "editorial": {
+        "en": {
+          "why_it_matters": "The hook is not Rosenwinkel playing standards under a new title. COVER ZONE puts widely shared pop memory through a band built for harmonic and rhythmic disruption: Lefebvre and Lindner bring the low-end and keyboard chemistry heard on Bowie's Blackstar, while two guitars and Earl Harvin leave room for the songs to be rebuilt rather than merely covered. Its first Japanese presentation makes this specific configuration worth hearing.",
+          "trip_verdict": "If a Tokyo stay overlaps March 11–13, actively make room for one of the six sets. The project and lineup are distinctive enough to choose over a routine club night, while the three-night run offers flexibility and does not justify reorganizing the trip around a single performance.",
+          "listen_before": "The Remedy (Live at the Village Vanguard)"
+        },
+        "es": {
+          "why_it_matters": "El gancho no es escuchar a Rosenwinkel tocar standards bajo un título nuevo. COVER ZONE pasa una memoria pop compartida por una banda diseñada para alterar armonía y ritmo: Lefebvre y Lindner traen la química de bajo y teclados que se oyó en Blackstar de Bowie, mientras dos guitarras y Earl Harvin dejan espacio para reconstruir las canciones en vez de simplemente versionarlas. Que sea la primera presentación japonesa de esta configuración concreta le da valor propio.",
+          "trip_verdict": "Si una estancia en Tokio coincide con el 11–13 de marzo, le haría espacio activamente a uno de los seis sets. El proyecto y la formación son suficientemente particulares para elegirlos sobre una noche rutinaria de club, mientras las tres noches dan flexibilidad y no justifican reorganizar el viaje alrededor de una sola función.",
+          "listen_before": "The Remedy (Live at the Village Vanguard)"
+        }
+      }
+    }
+  ]
+}
