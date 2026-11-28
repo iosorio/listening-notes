@@ -1,0 +1,32 @@
+{
+  "batch_version": 1,
+  "kind": "research_event_enrichment_patches",
+  "batch_id": "shigeru-suzuki-lagoon-cancellation-material-update-2026-11-28-001",
+  "created_on": "2026-11-28",
+  "notes": "Material factual-update research for the existing November 28, 2026 Shigeru Suzuki LAGOON 50th Anniversary Live RADAR record at Billboard Live Tokyo. Billboard Live Tokyo's official notice dated November 27 states that both November 28 performances are cancelled because Shigeru Suzuki contracted influenza; venue reservations will be cancelled and refunded, and customers who purchased through external ticket agencies are directed to agency-specific refund procedures. The current existing-event enrichment contract does not permit changing event status, showtimes, attendance, priority, or editorial copy, so this handoff preserves exact primary-source and provenance evidence without silently altering radar/events.json. A separate factual/editorial correction is required.",
+  "events": [
+    {
+      "id": "shigeru-suzuki-lagoon-billboard-live-tokyo-2026-11-28",
+      "enrichment": {
+        "status": "pending",
+        "missing": [
+          "official_tickets"
+        ],
+        "note": "The exact event page and exact cancellation notice are verified. The event is cancelled, so no new ticket URL is appropriate; the canonical record's pre-existing official_tickets gap remains unresolved until the separate factual correction is reviewed."
+      },
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/page/50775",
+          "publisher": "Billboard Live Tokyo",
+          "checked_on": "2026-11-28",
+          "note": "Official notice dated November 27, 2026 states that both November 28 Shigeru Suzuki LAGOON 50th Anniversary Live performances are cancelled because Suzuki contracted influenza. Billboard says venue reservations will be cancelled and refunded and directs third-party ticket buyers to the applicable refund procedures."
+        }
+      ],
+      "provenance": {
+        "status": "material-factual-change-detected",
+        "note": "The official venue cancellation notice supersedes the scheduled-performance assumption in the current canonical record. No canonical status, factual description, showtime, attendance, priority, or editorial field is modified because the current existing-event enrichment workflow permits only links, listening recommendations, enrichment metadata, sources and provenance; the cancellation requires separate factual/editorial review.",
+        "recorded_on": "2026-11-28"
+      }
+    }
+  ]
+}

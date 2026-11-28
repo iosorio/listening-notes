@@ -2481,6 +2481,28 @@
       "events_published": 2,
       "material_updates": 0,
       "error_summary": null
+    },
+    {
+      "run_id": "radar-20261128T134645000Z-9a6c71e43f",
+      "started_at": "2026-11-28T13:46:45.000Z",
+      "completed_at": "2026-11-28T13:51:42.000Z",
+      "trigger": "scheduled",
+      "status": "success",
+      "executor": "ChatGPT automation — Yamamoto + Listening Notes RADAR",
+      "threads_checked": [
+        "Tsuyoshi Yamamoto primary-source deltas: Jazz House ALFIE, BODY&SOUL, Space M&A, KEYSTONE CLUB TOKYO and current official schedule sources; no newly announced qualifying appearance was established beyond already reviewed dates",
+        "Greater Tokyo and Kanto dated announcement deltas from Blue Note Tokyo, COTTON CLUB, Billboard Live Tokyo and Shinjuku PIT INN; Billboard Live Tokyo's November 27 notice established the cancellation of Shigeru Suzuki's November 28 LAGOON anniversary performances",
+        "Washington, Arlington, Alexandria, Bethesda and Baltimore primary presenter calendars, including Blues Alley, Keystone Korner Baltimore, Wolf Trap, Strathmore and The Hamilton; no qualifying daily delta was established",
+        "Philadelphia and Newark/New Jersey primary presenter calendars, including Philadelphia Clef Club, Penn Live Arts and NJPAC; no qualifying daily delta was established",
+        "New York primary presenter deltas from Blue Note New York, Birdland, Village Vanguard, SMOKE, National Sawdust, Roulette and Jazz at Lincoln Center; undated listings and calendar-old programs were not treated as proven daily deltas",
+        "Fresh 395-event main canonical catalog plus active and processed inbox duplicate checks; no new event passed event-specific admission, while the Shigeru Suzuki cancellation was preserved as a material factual-update research handoff because the current enrichment contract cannot mutate canonical event status"
+      ],
+      "sources_checked": 31,
+      "candidates_reviewed": 16,
+      "events_admitted": 0,
+      "events_published": 0,
+      "material_updates": 1,
+      "error_summary": null
     }
   ]
 }
